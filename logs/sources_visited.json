@@ -1647,11 +1647,54 @@
    "what": "(1) 1rkjr4i 'New Prize Ladder is Here!' page age Wed 4 Mar 2026: first impressions of ITALIAN LEAGUE CLASSICS — DP-per-player unchanged across cycles; ratings <=85; Desailly '5x100 defender' potential, Batistuta 'full fitness + 100 shooting', Crespo/Trezeguet ~clones ('all 93 shooting'); recycling complaints (Batistuta/Crespo/Bergkamp x45); DP unused does NOT carry over; boost carryover OPEN question; leaker DROICER ('hacks the game') leaked 'next prize ladder for the world cup' + last ladder legends. (2) 1omk8oi page age Sun 2 Nov 2025: completed final DLS25 ladder Souness->Adams->Andy Cole->Gascoigne; 'rest until dls 26' (DLS26 pre-launch); earlier ladders had 82 Gascoigne + Batistuta (first-ever) + Valderrama/Pires; 'the free Dream Draft' exists; sibling thread 'I completed the ladder without opening a single reward'. Thread-id ordering agrees with page ages (Nov2 < Nov30 < Mar4).",
    "files": [],
    "rev": "prize_ladder + player_pool + economy + gaps addenda (G-0039 advance, G-0044/0061/0062 updated, G-0063/0064 opened); G-0040 candidate reconciliation (Jul16+90d=Oct14)"
+  },
+  {
+   "id": "S-0046",
+   "route": "web_search (depth 2)",
+   "url": "DROICER query -> 1rkjr4i extra comments + tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809 + r/DreamLeagueSoccer/new monthly clan thread + 1h6vtqe DLS25 mega-thread day 2",
+   "what": "DROICER = leaker (hacks the game; possible FTG-insider sources); upcoming ladder players Roy Keane + Irvin 85; Gallagher/Peter Robinson maybe DLS27 Kick-Off Stars; Italian ladder = the 6th ladder; preferred foot hidden on ladder cards; first-ever ladder roster BERGKAMP/PETIT/SUKER/BATISTUTA (Dec-2024, all WC98); ladder climbable career-only; +11 version-ceiling: release+re-sign refreshes base stats (Rodri re-signed can hit 97); community gem model DLL 6000/Bank 1640/LB 100/DLL ch 180/SP 300/challenges 897/clans 275/DP ladder 215 (25/30/40/50/75); clan goals 1000 wins, 10M clan points, agent reward.",
+   "files": [],
+   "rev": "prize_ladder + player_pool + economy + live_ops addenda; G-0039 chronology count (6th ladder); G-0063 advance"
+  },
+  {
+   "id": "S-0047",
+   "route": "fetch_page",
+   "url": "https://dlskiturl.com/",
+   "what": "DLS kit/event hub: current posts (Sep-2026 uploads) incl. DLS-26-English-League-Classics + DLS-26-Cult-Heroes articles; kit pages (Atletico/Tottenham 26-27, Dortmund, Juventus, Real Madrid from 2025/07, Liverpool 2006-07 classic); PES 2017/2021 Mod APK OBB pages (mod-APK adjacency, G-0043 context); links to dlsmod.com + dlskiturl.com/dls-26-mod-apk/.",
+   "files": [],
+   "rev": "hub for S-0048/S-0049; kit URL leads; mod risk context"
+  },
+  {
+   "id": "S-0048",
+   "route": "fetch_page",
+   "url": "https://dlskiturl.com/dls-26-english-league-classics/",
+   "what": "CURRENT ladder = ENGLISH LEAGUE CLASSICS (Sep-2026): milestones 62.5k Berbatov CF BUL 2011 / 115k Essien DM GHA 2006 / 175k Andy Cole CF ENG 1994 / 250k Petit DM FRA 1999; card reads (Berbatov 91 ctrl/92 sho/189cm low spe+sta; Essien 91 sta; Cole accel+positioning; Petit left-footed 90 sta); milestone claim = free unlimited signing; rewards coins/gems/coaches/special agents; DLL PvP >> career DP; cups pay large DP completion bonuses; recycling w/ stat+art tweaks confirmed; card renders dls-26-{berbatov,essien,cole,petit}-new-card.png on site.",
+   "files": [],
+   "rev": "prize_ladder + player_pool + economy addenda; R-0006 third source; renders lead"
+  },
+  {
+   "id": "S-0049",
+   "route": "fetch_page",
+   "url": "https://dlskiturl.com/dls-26-cult-heroes-event/",
+   "what": "CULT HEROES (16 Sep 2026, not pay-to-win): full roster De Gea 85 GK / Blind 83 CB / Otamendi 84 CB / David Luiz 84 CB / Ziyech 84 RW / Isco 84 AM / Herrera 83 CM / Shaqiri 83 AM / Insigne 84 LW / Dybala 85 SS / Aubameyang 85 CF / Vozinha 83 GK (12th Man). Acquisition: Cult Hero Agents (Season Pass 1 free+1 paid/season; Online Events; real-money Market) -> Transfer window -> Event -> Sign; RANDOM signing. Joao Pedro locked pass card (not in event). Training = special trainers costing gems (train 1 to max). 2026 event history: TOTS 2025 green -> Dream Stars 2026 pink -> Dynamic Stars (WC season) -> World Hero -> Cult Heroes. Card renders per player (dls26-cult-heroes-*.webp) incl. ISCO.",
+   "files": [],
+   "rev": "player_pool + live_ops addenda; G-0041 Isco-render lead; G-0048 Cult Heroes resolved pending cross-check"
+  },
+  {
+   "id": "S-0050",
+   "route": "image_search (4 files retrieved; 2 read_file pixel analyses)",
+   "url": "preview.redd.it lucky-cult-heroes-pull-v0-wr4gukiuveqh1 (640px) + img.dreamkitsapp.com/dynamic-stars-players.jpg (1560px) + reddit 1vtm4ty 'upcoming cult heroes special cards' (thumb) + reddit 1sdpptw 'Concept | DLS 26 Event - World Cup Heroes' (fan concept, unread)",
+   "what": "(1) Hi-res DUPLICATE of the Italian League Classics ladder moment (same gems 1353/coins 9791/89d23h58m): node 1 = 5,000 COINS; Common Special Coach x1 at DP 200,000; Rare Scout x1 at DP 225,000; final node DP 250,000 dark card silhouette; Crespo CF* / Trezeguet CF*; nations FR/AR/AR/FR; player-year ambiguity (Dessailly 1994v1997, Batistuta 2000v2001). (2) DYNAMIC STARS banner: Williams 96 LW ESP (gold/star elite), De Paul 93 CM ARG, Barcola 91 LW FRA, Eze 90 AM ENG, Sorloth 88 CF NOR — all 2026; rating-tier colors star/blue/green. (3) Isco maxed collector-card thumb 4.7KB unreadable (thread 1vtm4ty = new lead). (4) Fan-concept World Cup Heroes art (labelled Concept — NOT evidence).",
+   "files": [
+    "kb/evidence/italian_ladder_screen_hi_res_dup.jpg",
+    "kb/evidence/dynamic_stars_banner_2026.jpg"
+   ],
+   "rev": "prize_ladder + live_ops addenda; G-0065 opened; G-0041 render lead remains"
   }
  ],
  "frontier": {
-  "discovered_total": 186,
-  "visited_total": 45,
+  "discovered_total": 199,
+  "visited_total": 50,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -1793,7 +1836,15 @@
    "FTG socials archive ladder announcements Dec-2025..Sep-2026 (G-0062 resolution)",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
    "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
-   "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) — uploads list is JS-rendered dead for fetch_page"
+   "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) — uploads list is JS-rendered dead for fetch_page",
+   "dlskiturl.com/dls-26-world-heroes-and-world-winner/ (World Hero event, G-0039/live-ops)",
+   "image retrieval: dls-26-berbatov/cole-new-card.png + dls26-cult-heroes-isco.webp (G-0041 hi-res)",
+   "dlskiturl category archives: dlskiturl.com/category/classic/ + /category/dls-26/ (earlier ladder/event articles, G-0039)",
+   "DLS27 Kick-Off Stars concept + Gallagher/Peter Robinson leak verification (G-0063)",
+   "dlskiturl.com/dls-26-mod-apk/ risk walkthrough (G-0043, read-only)",
+   "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
+   "dreamkitsapp.com/data full page (Dynamic Stars + possible DB, G-0065)",
+   "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)"
   ]
  }
 }

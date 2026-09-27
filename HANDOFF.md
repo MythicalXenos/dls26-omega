@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 9 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 10 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch, `reset --soft` to the remote tip, re-commit, push, verify. Never push diverged; never force-push. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T00:35Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T01:30Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -53,14 +53,14 @@ None — NO OUTPUT DURING BOOTSTRAP is in force. Turn 1's only user-facing outpu
 
 Resume STATE_1 exactly at the position below. Do not restart, do not summarize, do not re-run completed fetches (check `logs/sources_visited.json` before each visit). Do not enter STATE_2 — the taxonomy gate in `logs/sweep_tracker.md` is unmet on all six dimensions, and Step 1 exhaustion has not been declared.
 
-Queue as of turn 9 (2026-09-28T00:35Z):
-1. **Turn-start history check first** (ISS-007 rule — it has fired twice now; expect it every turn).
-2. Render the remaining gamingonphone guides: gems, coins, beginners (Jan-2026 DLS26 baseline), divisions — cross-checks of the gem-income model and the DLS26 economy.
-3. image_search: the two FTG Dec-2024 images not yet retrieved (Dream Draft/Cup DP, Prize Ladder banner), any DLS26-era rate card (G-0055), and the 1qhuwv8 boost thread's attached images.
-4. apkmirror DLS26 version page render — version chain datapoint + APK route for the datamine (G-0054).
-5. dlskiturl category archives for earlier ladders (G-0039) + Berbatov/Cole renders; FTG socials for official artwork.
-User-dependent queue, batched for first contact: post-match reward photo (G-0055, also tests the division-scaled-rates hypothesis), the four challenge tabs (G-0056), ladder before/after claim screenshots (G-0049 mitigation), in-game Classic card capture (G-0046), ADB/APK datamine start (STATE_2 gate, G-0054).
-State of the base at handoff: frontier 153 discovered / 28 visited / 128 unvisited; kb/evidence/ holds 9 files, five of them first-party captures read directly in turn 9; boost multipliers/durations at High Confidence (R-0008); Reddit fetch routes saturated at 403 (S-0037) — community content only via web_search snippets and image_search.
+Queue as of turn 10 (2026-09-28T01:25Z):
+1. **Turn-start history check first** (ISS-007 rule — three recurrences so far; hash-verify per FILE before any reset).
+2. dreamkitsapp.com/data render — Dynamic Stars mechanics + possible player DB (G-0065).
+3. reddit 1vtm4ty "upcoming cult heroes special cards" text + bigger Isco maxed card (G-0041/G-0063); hi-res Berbatov/Cole renders (thumbs 4-5KB unusable).
+4. dlskiturl World Hero article + /category/classic/ + /category/dls-26/ archives — the three unknown DLS25 ladder cycles (G-0039).
+5. Mod-APK risk walkthrough (G-0043, read-only) + FTG socials sweep (TikTok/Facebook/Instagram) for ladder-announcement dating (G-0062 final resolution).
+User-dependent queue, batched for first contact: **live "LADDER ENDS IN" timer + current ladder banner screenshot (settles G-0040's clock question and dates G-0062 — TOP ITEM)**; post-match reward photo (G-0055); the four challenge tabs (G-0056); ladder before/after claim screenshots (G-0049 mitigation); Cult Heroes agent-opening screen (G-0048); Dream Draft entry screen (G-0064); ADB/APK datamine start (STATE_2 gate, G-0054).
+State of the base at handoff: frontier 199 discovered / 50 visited / 149 unvisited; kb/evidence/ holds 11 files. Ladder chronology rebuilt (see kb/topics/prize_ladder.md addendum 10b/10c/10d): WORLD CUP CLASSICS (Dec-24, Bergkamp/Petit/Suker/Batistuta) → 3 unknown DLS25 cycles → Oct-25 (Souness/Adams/Cole/Gascoigne) → MIDFIELD CLASSICS?/ITALIAN LEAGUE CLASSICS (6th ladder, Mar-26) → world-cup cycle → English League Classics (current: Berbatov 62.5k/Essien 115k/Cole 175k/Petit 250k). R-0009 (Dream Draft 185 max) and R-0010 (90-day cycle mechanism) at High Confidence. Cult Heroes (16 Sep–14 Oct 2026) roster complete (12 + Vozinha 12th Man; random Agent signing). DP resets between ladders; boost carryover OPEN (G-0044) — do not advise stockpiling yet.
 
 ## Disputed claims
 
