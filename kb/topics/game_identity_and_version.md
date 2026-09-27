@@ -153,3 +153,41 @@ Play Store `com.firsttouchgames.dls7` (all regions); App Store id1462911602 (all
 Progress, not resolution. What is now established from a checkable origin: an update was published **2026-09-14** with the "late summer update" changelog. What remains unestablished: the version NUMBER of that update (13.430 is appbrain-only, an aggregator reading the same store metadata), and whether 13.420 was a real earlier release on 2026-09-01.
 Reconciliation hypothesis (NOT a conclusion, and not to be recorded as one): the reports may be a **sequence** rather than a contradiction — 13.420 on 2026-09-01, then 13.430 on 2026-09-14 — with fifaworldcupnews's separate claim that "13.420 = Summer Spotlight, launched May 28" being the actually-false element, since SakibPro independently dates a Summer Update rollout to ~2026-05-26/27 with a Play Store screenshot as its evidence. That screenshot is a checkable route and is owed retrieval.
 Next resolution steps, in order: (1) Apple App Store listing `id1462911602` — Apple publishes version history with numbers and dates, the strongest remaining web route; (2) appbrain fetched directly rather than via snippet, to see what it cites; (3) Wayback captures of the Play listing and of FTG pages around 2026-05-26, 2026-09-01 and 2026-09-14; (4) regional Play listings; (5) an APK manifest in Step 2 if a binary becomes reachable.
+
+---
+
+## RESOLUTION 2026-09-27T18:10Z — DLS26-C1: current version is 13.430
+
+- CLAIM: The current client version of DLS26 is **13.430**, dated **Sep 16** on the Apple App Store and "Updated on **Sep 14, 2026**" on Google Play, carrying FTG's changelog "It's our late summer update... New Special Players – 'Cult Heroes' collection, coming soon! • Bug Fixes – Dozens of issues sorted for the best game experience yet!"
+  - source: S-0017 (Apple version history, first-party, chunk 5 of the official listing) — the checkable origin; S-0011/S-0012 (Play listing, same changelog text and update date); S-0001 (appbrain reporting 13.430, an echo of store metadata)
+  - first_published: iOS version entry dated "Sep 16"; Play listing "Updated on Sep 14, 2026"; retrieved 2026-09-27
+  - last_verified: 2026-09-27 by page-render
+  - confidence: Speculative (gate-capped: ONE origin — FTG — surfaced through two platforms and one aggregator echo; origin DIRECT and checkable at the recorded URLs). This is the strongest evidence class obtainable without client assets; promotion to High Confidence needs one source independent by author, platform or method (e.g. an APK `versionName` in Step 2, which would be a different method of extraction).
+  - volatility: volatility-Critical
+  - volatility_dimensions: patch-triggered: the next client update | event-triggered: none — versions are patch-driven
+  - origin: DIRECT (FTG's own published version entry)
+  - independence: Apple's page and Google's page are two platforms but one author (FTG); appbrain is an echo of Google. Count for tier purposes: one.
+  - deception_screen: clean on all three; the SEO source that reported 13.420 remains capped at Speculative with an observed incentive (deception_register screening row 1)
+  - datamining: pending-confirmation (flagged 2026-09-27; an APK manifest would independently confirm — blocked, gaps G-0004)
+  - evidence_class: verified
+  - game_version: this IS the version claim
+  - notes: The 2-day platform stagger (Play Sep 14, iOS Sep 16) is normal staged rollout, recorded as a platform difference, not a contradiction. **The store changelog says Cult Heroes is "coming soon" while both stores' event surfaces showed it LIVE on 2026-09-27** (S-0015/S-0016) → the changelog lags the client's content state; monitoring must read event surfaces, not changelogs.
+
+- CLAIM: A prior version **12.200** is dated **06/04/2025** in Apple's version history, with changelog fragments including "...for real world events", "• Player Recovery - Changed your mind? Buy a sold player back within a limited time", "• New Special Coach Packs - Develop your favourite players more easily", "• Bug fixes".
+  - source: S-0017 (Apple version history)
+  - first_published: 06/04/2025 (US-locale date order, i.e. 4 June 2025 — recorded as an inference from Apple's US storefront formatting, not as a certainty)
+  - last_verified: 2026-09-27 by page-render
+  - confidence: Speculative (gate-capped: single origin; origin DIRECT)
+  - volatility: volatility-Frozen (a historical version entry does not change)
+  - volatility_dimensions: patch-triggered: none | event-triggered: none
+  - origin: DIRECT (first-party historical record)
+  - independence: one origin
+  - deception_screen: clean
+  - datamining: not applicable for the historical record; the mechanics it names are pending-confirmation
+  - evidence_class: verified for the entry's existence and text; inference for the date-order reading
+  - game_version: 12.200
+  - notes: Establishes the **major-version → product-year mapping hypothesis: 12.x = the 2025 product, 13.x = the 2026 product**, consistent with the `dls7` package id persisting across both. It also names two official mechanics: **Player Recovery** (a time-limited buy-back of a sold player) and **Special Coach Packs**. Apple's web page exposes only the most recent entries, so the 12.200 → 13.430 history (roughly 15 months of updates) is OUTSTANDING and is a named lead: Wayback captures of both store listings, and Apple's structured lookup API (`itunes.apple.com/lookup?id=1462911602`), are the routes to reconstruct it. PROMPT.md §5 requires the FULL patch history, so this is owed work, not a nice-to-have.
+
+### DLS26-C1 disposition
+
+Conflict **RESOLVED** for the current-version question: 13.430 is current, from a first-party dated record, corroborated in date by Google's listing and echoed in number by appbrain. Not resolved, and still open: (a) whether 13.420 was ever a real release (the only source for it is an incentivised page that contradicts itself on its date — treated as unconfirmed, NOT as proven false, per the two gap states); (b) the complete 2025–2026 version history; (c) which version the user's own device is on (Critical-volatility user state, unknown). Per the Evidence Hierarchy, the verified record outranks the user's recollection if the two ever differ, and both would be recorded with timestamps.

@@ -1,0 +1,79 @@
+# TOPIC: Prize Ladder, live events, and the current limited-time window
+
+**Sweep:** STATE_1_RESEARCH_SWEEP. **Opened:** 2026-09-27T17:55Z. **Exhaustion declaration:** NONE — open.
+**⏱ TIME-SENSITIVE.** This file holds a live, expiring acquisition window that overlaps the user's stated current activity ("grinding prize ladder for a special player", user-stated). It is the first item staged for the earliest permitted advisory output (first contact at Step 5, or an interim contact if the bootstrap reaches three sessions first). Under NO OUTPUT DURING BOOTSTRAP nothing here may be said to the user yet — see ISS-006 for that collision and how it was resolved.
+
+---
+
+## Why this topic exists
+
+"Prize ladder" is used in PROMPT.md §7 as undefined shorthand. As of this fetch it is **resolved: "Prize Ladder" is FTG's own term**, appearing in FTG's App Store in-app-event copy for a live event. That makes it an official game/event structure rather than a conversation artifact, and the user is currently grinding one.
+
+## The two live events (both first-party, retrieved 2026-09-27)
+
+- CLAIM: Two in-app events are marked "HAPPENING NOW" on FTG's official App Store listing: **"Cult Heroes"** ("Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.", eventid=6802988564) and **"English League Classics"** ("Relive the glory days – Unlock top players and claim big rewards in our this new Prize Ladder.", eventid=6759716099).
+  - source: S-0015 (page-render, apps.apple.com official listing, Events section)
+  - first_published: listing retrieved 2026-09-27; events marked live at that moment
+  - last_verified: 2026-09-27 by page-render
+  - confidence: Speculative (gate-capped: single origin = FTG; origin DIRECT and checkable at the recorded URL/eventids)
+  - volatility: volatility-Critical
+  - volatility_dimensions: patch-triggered: a client update can add/remove events | event-triggered: the events' own start and end dates — the Cult Heroes window is stated to end **10/14** (year not stated on the page; inferred 2026 from the retrieval date and the 2026-09-14 store update, recorded as an INFERENCE)
+  - origin: DIRECT (FTG's own store event surfaces)
+  - independence: ONE origin (FTG) across two platforms. The Play event page and the App Store event card are separate surfaces but the same author, so they corroborate the *identity* of the event strongly while counting as one source for tier purposes.
+  - deception_screen: clean (first-party marketing; incentive is general — drive engagement/spend — not claim-specific)
+  - datamining: pending-confirmation (flagged 2026-09-27; event configs, reward tables and card data should be in client assets — blocked, gaps G-0004)
+  - evidence_class: verified tool output for the copy; inference for the year of 10/14
+  - game_version: the client published 2026-09-14 (number unresolved, DLS26-C1) and its content state as of 2026-09-27
+  - notes: "our this new Prize Ladder" (FTG's own grammar) marks English League Classics as a NEW Prize Ladder, implying Prize Ladders are a recurring event format rather than a one-off. "Boosted attributes" on Cult Heroes implies special cards whose stats exceed some baseline — the mechanic is NOT established.
+
+- CLAIM: The Google Play in-app-event page for the event ending 10/14 is the Cult Heroes collection. Verbatim: "Event • Ends on 10/14 — The names the fans remember, from their peak years. Sign these top names who have made their impact on passionate football fans. Frozen in time from their peak years, and available to play for your team on the path to glory. Obtain them now for a limited time - don't miss out!"
+  - source: S-0016 (page-render, play.google.com/store/apps/eventdetails/4830045897422713648)
+  - first_published: retrieved 2026-09-27
+  - last_verified: 2026-09-27 by page-render
+  - confidence: Speculative (gate-capped: single origin; origin DIRECT)
+  - volatility: volatility-Critical
+  - volatility_dimensions: patch-triggered: none expected mid-event | event-triggered: the 10/14 end; the collection's expiry is the whole point of the copy
+  - origin: DIRECT (FTG's own event page)
+  - independence: one origin; the App Store Cult Heroes card (S-0015) is the same author on another platform
+  - deception_screen: clean
+  - datamining: pending-confirmation (flagged 2026-09-27; blocked, gaps G-0004)
+  - evidence_class: verified
+  - game_version: as above
+  - notes: Closes gap G-0008 affirmatively. Establishes a limited-time acquisition window and the framing "frozen in time from their peak years" (i.e. cards representing players at their peak, not current form). Establishes NO cost, NO odds, NO player names, NO reward structure, NO card ratings. The event artwork (a tall image on that page) may name the players — retrievable via image tooling; owed.
+
+- CLAIM: Cult Heroes moved from "coming soon" to live between 2026-09-14 and 2026-09-27.
+  - source: S-0012 (Play changelog of the 2026-09-14 update: "New Special Players – 'Cult Heroes' collection, coming soon!") vs S-0015/S-0016 (live event surfaces retrieved 2026-09-27)
+  - first_published: 2026-09-14 and 2026-09-27
+  - last_verified: 2026-09-27
+  - confidence: Speculative (gate-capped: single origin; origin DIRECT — two FTG surfaces at two dates)
+  - volatility: volatility-Critical
+  - volatility_dimensions: patch-triggered: the client update that shipped it | event-triggered: the launch itself
+  - origin: DIRECT
+  - independence: one origin, two dates — this is a temporal comparison of first-party records, which is exactly what makes it checkable
+  - deception_screen: clean
+  - datamining: pending-confirmation (flagged 2026-09-27)
+  - evidence_class: verified
+  - game_version: unknown number; the content state changed without a store-listing update, which means **the store changelog lags the client** — a durable lesson for the volatility model
+  - notes: CONSEQUENCE FOR MONITORING: Mid-Session Monitoring cannot rely on store changelogs alone to detect a live event; the App Store Events section and the Play eventdetails page are the surfaces that show live state. Both belong in the Named Set consideration for event monitoring (adding a fourth Named Set slot is the user's to do, per PROMPT.md §5 — recorded as a proposal candidate, not adopted).
+
+## What is NOT established (all owed)
+
+Prize Ladder mechanics: how progress accumulates, what the milestones are, what the rewards are, whether progress resets, whether it is per-event or account-wide, whether it can be accelerated, what it costs, and what is permanently lost if the window closes. Cult Heroes: which players, what "boosted attributes" means numerically, card type, acquisition route (draw/purchase/ladder), odds, price, whether the collection returns later. English League Classics: same list. Whether either event is available in the user's region/store or on their client version. Whether the user's stated ladder is one of these two or something else entirely.
+
+**Never record "no records found" as "does not exist"** — every item above is an OPEN gap, re-checked on later passes.
+
+## Research order for this topic (by source)
+
+1. Official: the two App Store event cards (eventid 6802988564, 6759716099); the Play event artwork image; FTG's Facebook / Instagram (@playdls) / TikTok (@dreamleaguesoccer.ftg) / X (@firsttouchgames) / YouTube for the Cult Heroes and Prize Ladder announcements and player lists; ftgames.com and firsttouchgames.com support/news routes.
+2. Databases and tools: SakibPro's event articles ("DLS 26 New Update: All New Events, Special Cards & Upcoming Player Details", 2026-08-21; "World Winners"; "World Cup Heroes"; "Dream Star Event 2026") and its Player Database for any Cult Heroes / English League Classics cards; every other database discovered.
+3. English community: Reddit, YouTube (including subtitle/transcript text), X, TikTok, Facebook groups, forums, wikis — specifically for Prize Ladder reward tables and Cult Heroes player lists, which the community usually enumerates fast.
+4. Non-English community: tr, ar, pt, es, fr, id and any other language found — event guides are often published first in Turkish/Portuguese/Indonesian communities for this franchise (a HYPOTHESIS to test, not knowledge).
+5. Technical: client assets for event configs (Step 2); Wayback captures of the listings and event pages to date the launch precisely.
+6. User-generated: comments on all of the above.
+
+## Cross-references
+
+- Terminology: `kb/topics/terminology_and_abbreviations.md` (prize ladder → RESOLVED as an official term).
+- Live-ops timeline and card families: `kb/topics/live_ops_events_and_cards.md`.
+- Special Card Tracking (PROMPT.md §8): Cult Heroes and English League Classics cards must be evaluated on the card Tier 1–4 framework once their usefulness and rarity/return-likelihood are researched. Rarity and return likelihood are determined through exhaustive research into event history and FTG release patterns, **never assumed** — so no card tier may be assigned from this file's current evidence.
+- User state: `kb/user_profile.md` §2 (prize-ladder position unknown; which ladder the user is on is a first-contact question).

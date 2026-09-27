@@ -535,11 +535,147 @@
         "https://sakibpro.com/dream-star-event-2026-dls-26/"
       ],
       "leads_consumed_from": "S-0013"
+    },
+    {
+      "session": 1,
+      "turn": 2,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "raw_archive_path": null,
+      "deception_screen": {
+        "incentive": "none detected",
+        "detail": "first-party store listing / first-party store event page published by the developer",
+        "outcome": "clean"
+      },
+      "id": "S-0015",
+      "timestamp_utc": "2026-09-27T17:52:00Z",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
+      "resolved_url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "domain": "apps.apple.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "official",
+      "language": "en",
+      "chunk": "0 of 6",
+      "payload_summary": "OFFICIAL Apple App Store listing, US storefront. **Apple 301-redirected the FTG-published slug 'dream-league-soccer-2020' to 'dream-league-soccer-2026' under the SAME app id 1462911602** — direct evidence that this is one continuously-updated product retitled by year, not a 2026 release (advances gap G-0003). Header facts: title 'Dream League Soccer 2026'; 'FIFPRO licensed soccer game'; Free · In-App Purchases; **4.6 from 728K Ratings**; **Age Rating 13+ Years**; **Chart #16 Sports** (US top-free); Developer 'First Touch Games Ltd.' (developer id 471316020); **Controller Supported**; **Language EN + 14 More** (15 languages — enumeration owed from the Information section); **Size 269.6 MB**; iPhone, iPad; 'Includes random-item purchases'. Description is near-identical to the Play text with platform-specific wording ('football action' vs 'soccer action'; iOS IAP-disable instructions via Settings/Screen Time) and the same FEATURES list (4,000+ FIFPRO players and Classic greats; 3D motion capture; 8 divisions; 10+ cup competitions; Stadium/Medical/Commercial/Training facilities; all-new Clan system; Agents and Scouts; commentary; Coaches for technical and physical abilities; kit/logo customisation and import; regular seasons and events; Dream League Live; daily scenarios and Dream Draft; free to play with real-money purchases; requires an internet connection; contains third-party advertising). **EVENTS SECTION — TWO LIVE EVENTS marked 'HAPPENING NOW': (1) LIVE EVENT 'Cult Heroes' — 'Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.' (eventid=6802988564); (2) LIVE EVENT 'English League Classics' — 'Relive the glory days – Unlock top players and claim big rewards in our this new Prize Ladder.' (eventid=6759716099).** ⇒ 'PRIZE LADDER' IS AN OFFICIAL FTG TERM, and a Prize Ladder is live right now. First review retrieved (user-generated, long): alleges early-game ease is a lure toward ads and spending ('I spent $27'), then claims that at higher levels lower-rated opponent teams are 'miraculously' faster than the user's fastest players, that 80+ rated defenders 'can't seem to get organized' while opponents make pin-point passes, that the user ends up 'using the one player you can control just chasing the ball', and that the software makes high-rated players 'basically useless' — i.e. an allegation of dynamic difficulty / rating-neutralising AI scaling, plus the observation that only one player is directly controlled. Recorded as a LEAD for the MOMENTUM & AI and difficulty-scaling topics, never as a fact (single anonymous instance; PROMPT.md §10 requires actual vs perceived behaviour to be separated).",
+      "kb_paths_touched": [
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/gameplay_systems_inventory.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md"
+      ],
+      "conflicts_found": [
+        "Cult Heroes is 'HAPPENING NOW' with cards 'now available' on the App Store (retrieved 2026-09-27), while FTG's Play changelog of 2026-09-14 says the collection is 'coming soon' → a state change between those dates, i.e. the collection launched in the ~13 days since the last store update. Not a contradiction: sequential. It does mean the client content is AHEAD of the store changelog text, and that any advice must treat Cult Heroes as live.",
+        "Age rating differs by platform: iOS 13+ vs Android 'Everyone' → platform-specific rating, not a data error; both recorded.",
+        "Rating/review scale differs by platform: iOS 4.6 / 728K ratings vs Android 4.5 / 14.9M reviews. Binary size differs: iOS 269.6 MB vs Android APK ~186 MB (appbrain echo)."
+      ],
+      "confidence_note": "Direct first-party evidence for everything the listing displays, including the two live events and their official names. Tier capped at Speculative by the Mechanism 5 count gate (single origin = FTG) with origin DIRECT — see the tier policy note in kb/README.md and ISS-005. What the events actually grant, cost, or require is NOT established by the copy. 6 chunks total: only chunk 0 retrieved, so the iOS 'What's New'/version history, App Privacy detail and Information block (languages, seller, compatibility, age-rating rationale) are OUTSTANDING — the version history is the strongest remaining web route for DLS26-C1.",
+      "discovered_not_yet_visited": [
+        "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802988564 (Cult Heroes event card)",
+        "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6759716099 (English League Classics Prize Ladder event card)",
+        "https://apps.apple.com/us/app/1462911602?see-all=reviews&platform=iphone (full iOS review set)",
+        "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020?platform=iphone",
+        "https://apps.apple.com/us/iphone/charts/7016?chart=top-free",
+        "App Store chunks 1-5 (version history, privacy, information)",
+        "other App Store storefronts/countries"
+      ],
+      "leads_consumed_from": "S-0002 (FTG's own outbound App Store link)"
+    },
+    {
+      "session": 1,
+      "turn": 2,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "raw_archive_path": null,
+      "deception_screen": {
+        "incentive": "none detected",
+        "detail": "first-party store listing / first-party store event page published by the developer",
+        "outcome": "clean"
+      },
+      "id": "S-0016",
+      "timestamp_utc": "2026-09-27T17:52:30Z",
+      "url": "https://play.google.com/store/apps/eventdetails/4830045897422713648",
+      "resolved_url": "same",
+      "domain": "play.google.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "official",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "payload_summary": "OFFICIAL Google Play in-app-event page, retrieved in full. 'Event • Ends on 10/14'. Title: 'The names the fans remember, from their peak years.' Body verbatim: 'Sign these top names who have made their impact on passionate football fans. Frozen in time from their peak years, and available to play for your team on the path to glory. Obtain them now for a limited time - don't miss out!' Page links back to the DLS26 listing and repeats its header (4.5, 14.9M reviews, Everyone, 100M+, In-Game Purchases Includes Random Items). One tall event artwork image (play-lh.googleusercontent.com/...=w851-h2160-rw). Ends in a reCAPTCHA block; no further event mechanics, no player names, no reward list, no dates other than the 10/14 end.",
+      "kb_paths_touched": [
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/gaps.md"
+      ],
+      "conflicts_found": [],
+      "confidence_note": "Closes gap G-0008 in the affirmative direction: the Play Store event ending 10/14 IS the Cult Heroes collection — the copy matches the App Store Cult Heroes event card ('remembered by passionate football fans' / 'peak years') and both are FTG's own event surfaces for the same listing. Still first-party marketing copy: it establishes that a limited-time acquisition window for peak-years 'frozen in time' players exists and ends 10/14, and nothing about cost, odds, card ratings or mechanics. Year of '10/14' not stated on the page — inferred as 2026 from retrieval date and the Sept 14 update; recorded as an inference, not a fact.",
+      "discovered_not_yet_visited": [
+        "the event artwork image (may name the players — retrievable via image tooling)",
+        "Cult Heroes event card on the App Store (eventid=6802988564)",
+        "FTG social channels for the Cult Heroes player list"
+      ],
+      "leads_consumed_from": "S-0012"
+    },
+    {
+      "id": "S-0017",
+      "timestamp_utc": "2026-09-27T18:05:00Z",
+      "session": 1,
+      "turn": 2,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "resolved_url": "same",
+      "domain": "apps.apple.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "official",
+      "language": "en",
+      "chunk": "5 of 6 (final)",
+      "raw_archive_path": null,
+      "payload_summary": "DECISIVE FETCH. (A) VERSION HISTORY, first-party: 'Version 13.430' dated 'Sep 16' carrying the changelog \"It's our late summer update. Check out what's new: •New Special Players – 'Cult Heroes' collection, coming soon! •Bug Fixes – Dozens of issues sorted for the best game experience yet!\" — this RESOLVES DLS26-C1's version-number question from a checkable first-party origin: the current version is 13.430, dated Sep 16 on iOS and 'Updated on Sep 14, 2026' on Google Play. A PRIOR entry is also visible: version '12.200' dated '06/04/2025' with changelog fragments '...for real world events', '• Player Recovery - Changed your mind? Buy a sold player back within a limited time', '• New Special Coach Packs - Develop your favourite players more easily', '• Bug fixes – addressing any errors we've found', 'Download the update and play now!' ⇒ major version 12 = the 2025 product, 13 = the 2026 product; and TWO official mechanic names discovered: PLAYER RECOVERY (buy a sold player back within a limited time) and SPECIAL COACH PACKS. Apple's web page shows only the most recent entries, so the intermediate 2025-2026 version history is OUTSTANDING. (B) APP PRIVACY (developer-declared; Apple states it has NOT verified this): Data Used to Track You = Purchases, Identifiers, Usage Data. Data Linked to You: Third-Party Advertising = Purchase History, Coarse Location, Device ID, Advertising Data; Analytics = User ID, Device ID, Product Interaction; Product Personalization = Gameplay Content, Device ID, Product Interaction; App Functionality = Purchase History, Coarse Location, User ID, Device ID. Data Not Linked to You: Diagnostics = Crash Data, Performance Data. Developer privacy policy = www.ftgames.com/privacy-policy. ⇒ evidence of a server-side identity (User ID), server-side purchase history and server-collected Gameplay Content, plus crash/performance diagnostics — directly relevant to risk Tier 3 (network interception) feasibility and detection-risk assessment, and to the State Access Pipeline design. (C) INFORMATION BLOCK: Seller First Touch Games Ltd.; Size 269.6 MB; Category Sports; Compatibility requires iOS 15.0 or later (iPhone, iPad, iPod touch); **Languages = English, Arabic, Dutch, French, German, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese, Turkish (15 total)**; Age Rating 13+ with 'Frequent: Contests' and **'Contains: Loot Boxes, Advertising'**; In-App Purchases Yes with a full price list: Special Offer $4.99, Season Pass $3.99, Bundle of Coins $1.99, Stack of Coins $3.99, Bundle of Gems $1.99, Stack of Gems $7.99, Cup of Coins $6.99, Promo Pack $9.99, Locker of Gems $16.99, Season Pass Special Offer $1.99; Copyright © First Touch Games Ltd.; Developer Website www.ftgames.com; Privacy Policy www.ftgames.com/privacy-policy. ⇒ OFFICIAL CURRENCY NAMES ARE **COINS** AND **GEMS**; a paid **SEASON PASS** exists ($3.99, plus a $1.99 special offer); Apple's own metadata classifies some purchases as **LOOT BOXES**. (D) SUPPORTS: Game Center (leaderboards and achievements) and Game Controllers (PlayStation, Xbox, MFi). (E) Featured In: Apple's 'WHAT WE'RE PLAYING — Goooooal!' editorial. (F) More by FTG: Score! Hero ('Play Offline Soccer Games'), Score! Match - PvP Soccer, Ultimate Clash Soccer. (G) 'You Might Also Like' competitor set: Soccer Cup 2026, Football Games 2026 Real Kick, Play Football 2026, Pro League Soccer, Football League 2026, Soccer Manager 2027, World Soccer Champs, UFL: Football Mobile Game 2026, Top Eleven, Play Soccer 2026.",
+      "kb_paths_touched": [
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/economy_currencies_and_iap.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/irreversible_action_list.md",
+        "kb/gaps.md",
+        "kb/volatility_model.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "none detected",
+        "detail": "first-party store listing plus a platform-operator (Apple) metadata block. Apple explicitly states the privacy answers are developer-provided and NOT verified by Apple, so the privacy data carries FTG's incentive to present favourably — recorded as a weighting note, not as a deception finding.",
+        "outcome": "clean; privacy declarations weighted as self-reported"
+      },
+      "conflicts_found": [
+        "Version numbering: appbrain's 13.430 (S-0001) is CONFIRMED by Apple's first-party version history; fifaworldcupnews's '13.420 released 2026-09-01' is not confirmed by any first-party surface and that source also contradicted itself (13.420 = May 28 'Summer Spotlight'). DLS26-C1 resolved in favour of 13.430 as CURRENT, with 13.420 recorded as an unconfirmed earlier-version claim rather than as a falsehood.",
+        "Store update date differs by platform: iOS 'Sep 16' vs Google Play 'Updated on Sep 14, 2026' — a normal staggered rollout, recorded as a platform difference rather than a contradiction.",
+        "A Play Store review alleges 'when you sell a player, you don't get your coins back' (S-0012) while FTG's own 12.200 changelog advertises 'Player Recovery - Buy a sold player back within a limited time' (S-0017). These are compatible rather than contradictory (no coin refund on sale, plus a separate time-limited buy-back), but the buy-back's cost and window are unknown, so the pair is recorded as an open question, not resolved by assumption.",
+        "iOS Age Rating 13+ and 'Contains: Loot Boxes' vs Android 'Everyone' and 'In-Game Purchases (Includes Random Items)' — the same underlying mechanic disclosed under two platforms' different taxonomies."
+      ],
+      "confidence_note": "Highest-value single fetch of the session so far: it converts the version question from disputed secondary reports into a first-party, dated, checkable record, and it supplies official names for two currencies, a paid season pass, loot boxes, two mechanics (Player Recovery, Special Coach Packs), the client's 15 supported languages, and the developer's own data-collection declarations. Tier remains Speculative under the Mechanism 5 count gate (single origin = FTG, with Apple as the platform displaying it) but origin = DIRECT for every item; promotion path is an independent extraction (client assets in Step 2, or a second unrelated source). The 15-language list is frontier-shaping: it converts 'every language with a DLS26 community' from an open-ended instruction into a bounded, checkable set.",
+      "discovered_not_yet_visited": [
+        "App Store chunks 1-4 (further reviews; possibly more version history)",
+        "https://www.ftgames.com/",
+        "https://www.ftgames.com/privacy-policy",
+        "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020",
+        "Wayback captures of both store listings to reconstruct the missing 12.200→13.430 version history",
+        "non-English App Store/Play storefronts for the 14 non-English languages",
+        "Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=1462911602) as a structured route"
+      ],
+      "leads_consumed_from": "S-0002, S-0015"
     }
   ],
   "frontier": {
-    "discovered_total": 44,
-    "visited_total": 3,
+    "discovered_total": 60,
+    "visited_total": 6,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -560,7 +696,6 @@
       "web.archive.org snapshots of FTG pages and patch-note history",
       "FTG as a company: business model, monetization, update philosophy, cross-version history",
       "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
-      "https://play.google.com/store/apps/eventdetails/4830045897422713648",
       "https://play.google.com/store/apps/dev?id=6141822560324008098",
       "http://www.ftgames.com/",
       "https://www.ftgames.com/privacy-policy",
@@ -579,9 +714,23 @@
       "https://sakibpro.com/dls-26-national-team-flag-logos/",
       "regional Play Store variants (hl/gl)",
       "Play Store 'See all reviews' (all regions, by helpfulness and newest)",
-      "App Store id1462911602 version history",
       "other FTG titles' listings (story, mpx, smp)",
-      "sakibpro.com search/sitemap/category enumeration"
+      "sakibpro.com search/sitemap/category enumeration",
+      "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
+      "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6759716099",
+      "https://apps.apple.com/us/app/1462911602?see-all=reviews&platform=iphone",
+      "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020?platform=iphone",
+      "other App Store country storefronts",
+      "the Play event artwork image (player names?)",
+      "FTG social channels for the Cult Heroes player list",
+      "App Store chunks 1-4 (further reviews; possibly more version history)",
+      "https://www.ftgames.com/",
+      "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020",
+      "Wayback captures of both store listings to reconstruct the missing 12.200→13.430 version history",
+      "non-English App Store/Play storefronts for the 14 non-English languages",
+      "Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=1462911602) as a structured route",
+      "https://itunes.apple.com/lookup?id=1462911602&country=us",
+      "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr"
     ]
   }
 }
