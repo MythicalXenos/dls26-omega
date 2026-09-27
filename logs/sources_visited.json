@@ -1796,11 +1796,59 @@
    "what": "ISCO full sheet (R-0005 quarantine RESOLVED): Francisco Alarcon, nickname Isco, ESP, Right, 176cm, 79kg, b.1992-04-21 (34). SPE812 ACC873 STA796 STR659 CON930 PAS889 SHO810 TAC538 GKR236 GKH158 => display 81/87/79/65/93/88/81/53. PAS = 889/88 (was quarantined). Header badge 84|94 (base+10 max pattern). Base version 7293@79. V13430.",
    "files": [],
    "rev": "R-0011 written; Isco fidelity 7/8 -> 8/8; G-0041 advanced (hi-res capture still owed for artifact tier)"
+  },
+  {
+   "id": "S-0064",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/world-cup-heroes",
+   "what": "World Heroes family (8): Messi 87 SS/RW/AM 27848, CR7 87 CF/LW 27841, KDB 86 AM/CM 27840, James 85 AM/RW 25839, Perisic 85 LW/RW/LM 27850, Navas 85 GK 27837, Gvardiol 84 CB/LB 27842, Walker 84 RB/CB 27839. The dlskiturl APK-claimed roster verifies 8/8 against this DB (two independent third-party surfaces agree). dlskiturl placed KDB under Winners; DB says Heroes - DB adopted.",
+   "files": [],
+   "rev": "player_pool addendum (turn 13); APK-roster claim corroborated"
+  },
+  {
+   "id": "S-0065",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/world-winners",
+   "what": "World Winners family (8) = international tournament champions: Rodri 88 DM/CM 27843, Emiliano Martinez 87 GK 27849, Lamine Yamal 87 RW/LW 27845, Pogba 87 CM/DM 27846, Enzo Fernandez 85 DM/CM/AM 27838, Pau Cubarsi 85 CB 27844, Cucurella 85 LB/RB 28188 (late-added id), Pavard 84 RB/CB 27847. Heroes=moment-year tag; Winners=title. ID block 27837-50 = one release batch.",
+   "files": [],
+   "rev": "player_pool addendum (turn 13); family-split resolved"
+  },
+  {
+   "id": "S-0066",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/kickoff-stars",
+   "what": "Kick-off Stars = the season cover pair as cards: Raphinha 85 LW/AM BRA 27191 + Julian Alvarez 84 CF/SS ARG 27127 (store text 13.430 names exactly these two; 12.100 named Rodrygo+Alvarez). Explains the DLS27 Kick-Off Stars leak (next cover pair becomes cards).",
+   "files": [],
+   "rev": "player_pool addendum (13b); G-0063 leak structural context"
+  },
+  {
+   "id": "S-0067",
+   "route": "fetch_page (p1)",
+   "url": "https://dreamkitsapp.com/players/type/secret",
+   "what": "SECRET PLAYERS = hidden class, 18 pages. P1: Classic Bergkamp 91 (5604), Classic Gascoigne 88 (6829), Classic Batistuta 88 (6827), Classic Matthaus 88 (5666), Classic Cannavaro 87 (2459), Classic Desailly 87 (5710), Classic Adams 87 (6836), CLASSIC KEANE 87 Ireland (5842), CLASSIC IRWIN 85 Ireland (5839), Young Messi 84 (24594), Classic Cole 84 (5844), Legendary Messi 84 (24599), Classic Suker 83 (5765), Classic Gallagher 82 Ireland (5866), Classic Petit 82 (6640). LEAK VERIFIED: Keane/Irwin/Gallagher match the S-0046 TikTok leak (Irwin rating 85 exact).",
+   "files": [],
+   "rev": "player_pool addendum (13b); G-0063 verified; G-0067 upgraded"
+  },
+  {
+   "id": "S-0068",
+   "route": "fetch_page (p2)",
+   "url": "https://dreamkitsapp.com/players/type/secret/p/2",
+   "what": "Secret p2 composition: hidden classics (Classic Souness 82 5826, Classic Zola 78 12102, CLASSIC ROBINSON 76 Ireland 5833 = leak Peter Robinson, Classic Valderrama 72 12090) + generated club-filler (Kamenar GK V-Arnhem t317, Brady, Valdez, Linganzi GK Ferrara t555, Balbuena, Gunter, Mphela, Murphy, Palun, Dankerlui...). Filler ids cluster by club (260xx=Ferrara). Class = unreleased/legacy classics + squad-filler.",
+   "files": [],
+   "rev": "player_pool addendum (13c); class composition mapped"
+  },
+  {
+   "id": "S-0069",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/27093",
+   "what": "Desailly 27093 sheet (Italian capture card): FRA Right 188cm 80kg b.1968-09-07; SPE800 ACC750 STA890 STR920 CON800 PAS800 SHO520 TAC900 GKR/GKH270 => display 80/75/89/92/80/80/52/90. V13430 rating 84 = matches capture. Badge 84|94. Version links: Classic Desailly 5710@87, Marcel Desailly 26836@85, 27093@84 - version chain page-traceable.",
+   "files": [],
+   "rev": "player_pool addendum (13c); third capture<->DB cross-validation"
   }
  ],
  "frontier": {
-  "discovered_total": 216,
-  "visited_total": 63,
+  "discovered_total": 225,
+  "visited_total": 69,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -1951,10 +1999,13 @@
    "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)",
    "dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
    "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
-   "dlsinside.com/player/{slug}/{id} slug pages (second DB surface for cross-check, e.g. /player/francisco-alarcon/28327)",
    "dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-heroes|kickoff-stars|champion|star|secret|team-of-2025",
    "Isco maxed collector card bigger fetch (confirm 94 max, G-0016)",
-   "FTG socials sweep + GIIODROID FB archive (G-0062/0063)"
+   "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
+   "dreamkitsapp secret pages 3-18 sweep (full hidden-class map, G-0067)",
+   "dreamkitsapp family pages team-of-2025 / champion / star (rosters+IDs)",
+   "dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203",
+   "dlsinside.com slug pages second-DB cross-check"
   ]
  }
 }
