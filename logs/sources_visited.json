@@ -1455,11 +1455,139 @@
         "https://www.reddit.com/r/DreamLeagueSoccer.json or a thread's .json (untested)"
       ],
       "leads_consumed_from": "turn-7 handoff (browse r/DreamLeagueSoccer post lists)"
+    },
+    {
+      "id": "S-0035",
+      "timestamp_utc": "2026-09-28T00:10:00Z",
+      "session": 1,
+      "turn": 9,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "full render of the Dec-2024 DP guide (G-0050 host page)",
+      "tool": "fetch_page",
+      "url": "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-dream-points-quickly/",
+      "resolved_url": "same",
+      "domain": "gamingonphone.com",
+      "http_status": 200,
+      "outcome": "success (chunks 0-1 of 3; chunk 2 is comment-form boilerplate)",
+      "query": null,
+      "source_type": "third-party guide transcribing first-party images",
+      "language": "en",
+      "chunk": "0-1",
+      "raw_archive_path": null,
+      "payload_summary": "Author Akash Roy, published and last-updated **27 Dec 2024**. Full DP economy of the Dec-2024 (DLS25) cycle, each figure transcribed from an image credited 'Image via First Touch Games': Career win 75 DP + 10/goal up to 5 + clean sheet 15 = max 140; Dream League Live win 120 + same goal/clean-sheet terms = max 185; **Dream Draft** (draft 18 players all 75+ plus a star, tournament vs CPU) pays the same as DLL = max 185 and is called the most rewarding; **Weekly Challenges: 4 objectives x 80 DP = 320/week** (examples: 40 Career matches, 40 goals with a forward); boost multipliers +50/+75/+150 give maxes 210/245/350 (Career) and 278/324/463 (DLL/Draft) - arithmetic checks exactly against the base rates; **a random DP boost costs 100 gems** in the prize ladder section (advised against); boosts are also gifted from Challenges and Season Pass objectives (Legendary excepted, 'quite regularly gifted' applies to Common/Rare); activation path: Prize ladder popup > 'Boost your DP' > per-tier BOOST button, plus a pre-match suggestion; **DP cannot be bought in the Store** (stated twice); 90-day ladder cycles with fresh Classics each cycle; first cycle = the four '98 World Cup Classics. Six first-party image URLs recorded (Career DP, DLL DP, Dream Draft/Cup DP, Weekly Challenges, DP Boosts, Prize Ladder).",
+      "kb_paths_touched": [
+        "kb/topics/economy_currencies_and_iap.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "guide site; SEO traffic",
+        "detail": "figures are transcriptions of first-party images, internally arithmetic-consistent; no monetization of DP itself observed",
+        "outcome": "pass - treat as one surface of the FTG origin, not an independent source"
+      },
+      "conflicts_found": [],
+      "confidence_note": "Completes G-0050: the first-party rate images exist, are hosted here, and their content is now on record both as transcription (this entry) and as direct reading of the image files (S-0036)."
+    },
+    {
+      "id": "S-0036",
+      "timestamp_utc": "2026-09-28T00:14:00Z",
+      "session": 1,
+      "turn": 9,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "first-party artifact acquisition + direct reading",
+      "tool": "image_search + read_file",
+      "url": "brave image index of i0.wp.com/gamingonphone.com wp-content and reddit preview images",
+      "resolved_url": "five files saved to image-search/ and copied to kb/evidence/",
+      "domain": "image search index",
+      "http_status": 200,
+      "outcome": "success",
+      "query": "'Dream League Soccer 2025 Career Mode Match Dream Points gamingonphone' and '... Dream Point Boosts gamingonphone'",
+      "source_type": "first-party in-game imagery (FTG promotional captures)",
+      "language": "n/a",
+      "chunk": "n/a",
+      "raw_archive_path": "kb/evidence/ftg_career_reward_matrix_dec2024.jpg; kb/evidence/ftg_dp_boost_popup_dec2024.jpg; kb/evidence/ftg_weekly_challenges_dec2024.jpg; kb/evidence/dls26_home_screen_jan2026.jpg; kb/evidence/dls24_postmatch_stats_jun2024.jpg",
+      "payload_summary": "DIRECT READINGS (my own extraction from the pixels, arithmetic-checked): (1) **Career reward matrix, Dec-2024 FTG capture** (N Funchal 0-4 Garia FC, Academy Division, Game 1 of 15): rows show per-match totals in three currency columns coins / Season-Pass points / Dream Points - WIN 15c/100SP/75DP; GOALS (4 scored) 8c/40SP/40DP i.e. 2c/10SP/10DP per goal; CLEAN SHEET 3c/5SP/15DP; REWARDS panel totals 26 coins / 145 SP / 130 DP - every column sums exactly (15+8+3=26; 100+40+5=145; 75+40+15=130), so the matrix is internally verified. (2) **DREAM POINT BOOSTS popup, Dec-2024**: COMMON +50% for 3 matches (owned x3), RARE +75% for 5 matches (owned x1), LEGENDARY +150% for 8 matches (owned 0, button greyed); bottom button **100 gems = 1 Random Boost**; left panel 'NO ACTIVE BOOST' and DP balance 4,445; background top bar: PRIZE LADDER banner 'WORLD CUP CLASSICS' 69d 22h, SEASON PASS banner 'CHRISTMAS' 1d 5h, gems 34. (3) **CHALLENGES screen weekly tab, Dec-2024**: tabs DAILY/WEEKLY/CAREER/DREAM LEAGUE LIVE; FREE column 4 objectives x 80 DP (Use 1 Physio 25c; 40 Career matches x1 blue item; Win 20 Career matches 150c; 30 goals with a Forward x1 gold item) + complete-all 10 gems; SEASON PASS column 4 objectives x 150 DP (Sign 3 players x1 silver item; 20 Career matches 120c; Win 15 DLL matches 50 gems; one hidden behind ACTIVATE PASS! showing Hermoso card) + complete-all 20 gems; footer: weekly challenges refresh by tapping the video buttons, countdown 3d 22h 23m. (4) **DLS26 home screen, Jan-2026** (gamingonphone beginners guide, upload path 2026/01): top bar MIDFIELD CLASSICS ladder banner 41d 21h 2m with 140 DP, 'january' season pass 9h 2m 53s with 195 SP, gems 40, coins 1,434; panels GLOBAL CHALLENGE CUP (Cornella, 4 stars, group stage), ACADEMY DIVISION table with real club names (Heerenveen, Charlton, Oxford, Hearts) and user team Blitz FC, BRONZE CUP round 1 (Derby, 3 stars), CHALLENGES tile counts DAILY 1/5 WEEKLY 0/5 CAREER 0/4 DLL 0/8, TEAM tile Baldé CF, TRANSFERS tile 'Improve your Team Rating to attract better players' with Robertson 84 LB, MY CLUB tile (Stadium, Customise, Training, Exhibition). (5) **DLS24 post-match stats screen, ~Jun-2024** (reddit thread 1e6jnr4): Sevilla 2-1 Montanez FC, LEGENDARY DIVISION Game 11 of 15, scorers En Nesyri 45 / Bade 69 vs Ronaldo 38, possession/shots/passes/corners/fouls/bookings/offsides rows, heatmaps, and a **TEAM RECOVERY +10%** button next to CONTINUE; no DP column anywhere (pre-DP era, consistent with the Dec-2024 introduction).",
+      "kb_paths_touched": [
+        "kb/topics/economy_currencies_and_iap.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/gameplay_systems_inventory.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "FTG promotional material - shows best-case framings",
+        "detail": "promotional captures may cherry-pick favourable screens; the arithmetic self-consistency of the reward matrix is the check",
+        "outcome": "pass for the numbers shown; representativeness (whether these are the live rates in any given version) stays version-stamped and Speculative"
+      },
+      "conflicts_found": [],
+      "confidence_note": "These are first-party artifacts read directly, so the extractions are checkable origins. Per tier policy a single origin (FTG) still caps the underlying game-facts at Speculative until an independent extraction (datamine or player capture) agrees; the boost multipliers and durations additionally match the Jan-2026 community thread independently, which is what R-0008 promotes."
+    },
+    {
+      "id": "S-0037",
+      "timestamp_utc": "2026-09-28T00:16:00Z",
+      "session": 1,
+      "turn": 9,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "capability probe: the three remaining Reddit routes (S-0034 follow-up)",
+      "tool": "fetch_page",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ ; https://old.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ ; https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/.json",
+      "resolved_url": "same",
+      "domain": "reddit.com / old.reddit.com",
+      "http_status": 403,
+      "outcome": "failure x3 (all routes blocked)",
+      "query": null,
+      "source_type": "capability probe",
+      "language": "n/a",
+      "chunk": "n/a",
+      "raw_archive_path": null,
+      "payload_summary": "All three untested Reddit routes from S-0034 were attempted once each and all returned **HTTP 403**: the plain thread URL, the old.reddit.com mirror, and the thread's .json endpoint. Conclusion: fetch_page cannot reach reddit.com in ANY form from this environment. The working Reddit routes remain exactly two: image_search against Reddit-hosted images (previews and attachments) and web_search snippets of thread pages (which can carry the full post text, as S-0038 shows). Comments remain unreachable by every route tried. Per the standing rule these are transport failures and carry no content finding.",
+      "kb_paths_touched": [
+        "logs/sources_visited.json",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "platform-level blocking",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "Route map now saturated for fetch_page: subreddit listing, thread URL, old.reddit, .json all 403. Future Reddit content must come via web_search snippets or image_search of thread images."
+    },
+    {
+      "id": "S-0038",
+      "timestamp_utc": "2026-09-28T00:18:00Z",
+      "session": 1,
+      "turn": 9,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "claim-bug thread content recovery (G-0049) via search snippet",
+      "tool": "web_search",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/",
+      "resolved_url": "same",
+      "domain": "reddit.com (via search index)",
+      "http_status": 200,
+      "outcome": "success (post body recovered; comments still unreachable)",
+      "query": "reddit DreamLeagueSoccer 'prize ladder bug' Batistuta claimed special player early milestone",
+      "source_type": "community report (single user)",
+      "language": "en",
+      "chunk": "n/a",
+      "raw_archive_path": null,
+      "payload_summary": "Full post body of the Jan-2025 claim-bug thread: '**I reached 70,000 and got 75% DP boost, but when I claimed, it also claimed the special player and got batistuta. Also, W or L? (max batistuta in last slide)**'. So: the 70,000-DP milestone reward was a 75% (Rare) DP boost; claiming it ALSO granted the ladder's special player (Batistuta), who presumably sat at a later milestone; the poster attached slides including a maxed Batistuta; the poster reads it as a windfall ('W or L?'). Page age 19 Jan 2025. Sidebar of the same search surfaced two further ladder threads: 'More than 20 days have passed in the prize ladder. Where is everybody at?' and 'Did I seriously do all that just to get only 140 Prize Ladder points???!' (the latter echoing the 'Prize Ladder points' name variant).",
+      "kb_paths_touched": [
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "none apparent; a windfall report",
+        "detail": "single-user report, no replies reachable to corroborate or refute",
+        "outcome": "quarantined as single-source: the bug's existence in Jan-2025 is one user's claim; its existence in DLS26 is unknown (G-0049 stays open)"
+      },
+      "conflicts_found": [],
+      "confidence_note": "Resolves the content half of G-0049 (what the bug was); leaves open whether it persists, which is what bears on claiming strategy."
     }
   ],
   "frontier": {
-    "discovered_total": 141,
-    "visited_total": 24,
+    "discovered_total": 153,
+    "visited_total": 28,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -1568,7 +1696,6 @@
       "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, highest rating seen; bearing on the ceiling question",
       "the two Reddit DP threads IN FULL (comment trees may hold current-ladder datapoints): reddit.com/r/DreamLeagueSoccer/comments/1tqfsm7/ and /comments/1qhuwv8/",
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html — full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
-      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-dream-points-quickly/ — the Dec-2024 DLS25 DP baseline",
       "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ — fourth guide domain",
       "an in-game POST-MATCH DP SUMMARY capture — the checkable origin that would promote the mode differential beyond Community Consensus",
       "the Berbatov and Cole ladder card images",
@@ -1577,7 +1704,19 @@
       "fetch_page an individual Reddit THREAD url, old.reddit.com, and a .json endpoint — one attempt each before concluding (S-0034 left them untested)",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ — the claim-bug thread; does the bug still exist (bearing on claiming strategy)?",
       "the clan monthly thread in full — the gem-income computation and its hidden code",
-      "a current-ladder datapoint: which ladder is live now and where players stand"
+      "a current-ladder datapoint: which ladder is live now and where players stand",
+      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1e6jnr4/career_mode_is_quite_stronger_than_beforeto_the/ — DLS24 career-balance thread carrying the post-match capture (kb/evidence/dls24_postmatch_stats_jun2024.jpg)",
+      "reddit thread 'More than 20 days have passed in the prize ladder. Where is everybody at?' (Jan 2025) — community ladder-pace data",
+      "reddit thread 'Did I seriously do all that just to get only 140 Prize Ladder points???!' — DP valuation complaint; third name-variant echo",
+      "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/ — Jan-2026 updated DLS26 baseline render",
+      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-gems-quickly/ — cross-check of the gem-income model",
+      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-coins-quickly/ — coin economy + the ads-double-coins claim",
+      "https://gamingonphone.com/guides/dream-league-soccer-free-codes-and-how-to-redeem-them/ — redeem-code pipeline",
+      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-progress-across-divisions-quickly/ — career division structure and pacing",
+      "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2025-12-100-release/ — version chain datapoint (DLS26 12.100, Dec 2025) + APK hosting route for the datamine",
+      "image_search retrieval of the remaining FTG Dec-2024 images not yet in workspace: Dream Draft/Cup DP, Prize Ladder banner; and any DLS26-era rate card",
+      "image_search of the 1qhuwv8 boost thread's attached images (comments unreachable by any route)",
+      "Global Challenge Cup + Bronze Cup + cup hierarchy rewards and structure"
     ]
   }
 }

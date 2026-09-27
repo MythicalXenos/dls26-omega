@@ -182,3 +182,9 @@ Also from this page: Isco weight 79 kg, DOB April 21 1992, age 34 (correct), max
 ## ADDENDUM 2026-09-27T21:15Z — ladder card renders corroborate two Classic cards' data fields; design question opened (S-0030)
 
 Site-rendered, watermarked card images for Essien (85 / 2006 / DM / Ghana) and Petit (84 / 1999 / DM / France) match SakibPro's OVRs and the ladder article's years exactly — a third agreeing party for those fields, but agreement between third parties rather than contact with the game, so no promotion. Their design (gold star at the foot, no gradient band) differs from the in-game Cult Heroes captures (red star, gradient band): family-specific art, template divergence, or misperception — open as G-0046, with an in-game capture of any Classic card named as the settling route. The Berbatov and Cole renders were not retrieved; the set is two-card sampled.
+
+## Addendum 2026-09-28T00:26Z (session 1 turn 9) — two cards glimpsed in UI captures (S-0036)
+
+- **Hermoso** — card art visible on the Dec-2024 Christmas season-pass ACTIVATE PASS! row; rating/position unreadable at capture resolution; pass-reward card type. Speculative existence datapoint only.
+- **Robertson, 84, LB** — offered in the DLS26 (Jan-2026) TRANSFERS tile; an 84-rated left back as a transfer target at that team-rating stage. Speculative.
+Neither is a stat reading; both are leads for the card index (G-0038 family).

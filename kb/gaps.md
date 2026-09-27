@@ -76,3 +76,43 @@ A gap closes in one of two directions: a NEGATIVE finding ("evidence confirms th
 | G-0048 | Is there a daily match cap (asserted: 100 games/day), and does it bind ladder farming plans? | One user computation (S-0033) | The user's own play experience; a second source; FTG help | STATE_1 | 2026-09-27 |
 | G-0049 | Does the Jan-2025 ladder claim bug (claiming a milestone also claimed the special player) still exist in 13.430? Bearing on claiming order and on the claim-or-lose rule | One Jan-2025 Reddit thread (S-0033) | The thread's comments; community reports since; the user's claiming experience; FTG patch notes | STATE_1 (bear on any claiming advice) | 2026-09-27 |
 | G-0050 | Retrieve the Dec-2024 FIRST-PARTY DP reward breakdown image ("Image via First Touch Games", hosted by gamingonphone) — a checkable first-party origin for DP rates that could lift rate claims off community tiers for their version | gamingonphone attribution (S-0033) | the gamingonphone page and its image; Wayback of FTG's Dec-2024 channels | STATE_1 (promotion route) | 2026-09-27 |
+
+## G-0051 — Season-Pass points (SP) economy undocumented
+opened: 2026-09-28T00:30Z | priority: high
+The Dec-2024 career reward matrix shows a third currency column (100 SP win / 10 SP per goal / 5 SP clean sheet) and pass banners carry running SP totals (195 in Jan-2026), but nothing on record describes what SP buys, its caps, or its relation to pass tiers. The gem-income model's 'Season Pass 300 gems' line and the pass-gated weekly DP (4x150) both sit inside this undocumented economy.
+route: gamingonphone season-pass or beginners guide renders; FTG pass imagery via image_search; datamine of pass definitions.
+
+## G-0052 — Two live-ops clocks: ~90-day ladder cycles vs monthly/calendar pass themes
+opened: 2026-09-28T00:30Z | priority: medium
+CHRISTMAS pass ended ~28 Dec 2024 and the 'january' pass ended at a month boundary in Jan-2026, while ladder cycles run ~90 days (WORLD CUP CLASSICS 69d left on 27 Dec 2024). The user's planning needs both clocks: missing a pass end loses pass rewards; missing a ladder end loses the cycle's card revision (G-0040 framing).
+route: pass banner countdowns in any dated capture; FTG announcements.
+
+## G-0053 — Physio item and Team Recovery mechanic undocumented
+opened: 2026-09-28T00:30Z | priority: medium
+A weekly challenge demands 'Use 1 Physio' and a Jun-2024 post-match screen offers 'TEAM RECOVERY +10%'. Injury/recovery systems affect grind availability (a grinder cannot afford locked players); nothing else on record mentions either.
+route: gamingonphone beginners guide; datamine; user observation in-game.
+
+## G-0054 — APK acquisition route for the datamine pipeline
+opened: 2026-09-28T00:30Z | priority: high (STATE_2 gate)
+apkmirror hosts DLS26 builds (12.100 seen for Dec-2025 under the com.firsttouchgames.dls7 project page). Direct download from this sandbox is blocked for non-GitHub/non-PyPI hosts, but the USER's devices can download normally; apkmirror also gives a version history to pair APK builds with store versions.
+route: user downloads APK or uses ADB backup on the S9+; apkmirror page render for version history.
+
+## G-0055 — Current (Sep-2026) DP rate card still missing
+opened: 2026-09-28T00:30Z | priority: high
+Dec-2024 (FTG capture) and three community sets (Dec-2024/Jan-2026/May-2026) disagree on base rates; nothing post-dates May-2026. The user's own post-match screen is the cleanest remaining route (a photo of one reward panel timestamps the live rates).
+route: user capture; image_search of recent guide imagery; gamingonphone 2026 guides.
+
+## G-0056 — Challenge tab contents in DLS26 (counts 5/5/4/8)
+opened: 2026-09-28T00:30Z | priority: medium
+The Jan-2026 home tile shows DAILY 1/5, WEEKLY 0/5, CAREER 0/4, DLL 0/8 while the Dec-2024 weekly tab showed 4 free + 4 pass rows. The per-tab objective lists and their DP/gem rewards in DLS26 are unknown; they feed the weekly income model.
+route: user capture of the four tabs; image_search.
+
+## G-0057 — Cup hierarchy (Bronze Cup .. Global Challenge Cup) rewards and gating
+opened: 2026-09-28T00:30Z | priority: medium
+Two cup panels on the DLS26 home (Bronze Cup round 1; Global Challenge Cup group stage) imply a tiered cup ladder parallel to career divisions; rewards, entry gating and DP yields unknown.
+route: gamingonphone divisions guide; user captures; datamine.
+
+## G-0058 — Transfer-rating gate: team rating attracts better players
+opened: 2026-09-28T00:30Z | priority: medium
+The DLS26 TRANSFERS tile states team rating gates transfer targets (84 Robertson offered). The mapping from team rating to offered ratings is a progression lever for squad building and is undocumented.
+route: datamine of transfer tables; user observation across rating thresholds.

@@ -59,3 +59,8 @@ Unanswered: whether seasons are calendar-bound or rolling; how season points acc
 4. Non-English community: tr, ar, pt, es, fr, id, and any other language found.
 5. Technical: client data for event configs (Step 2), Wayback history of the listing and of FTG pages, any public API.
 6. User-generated: comments on all of the above, processed for unique information.
+
+## Addendum 2026-09-28T00:25Z (session 1 turn 9) — pass themes and cycle banners from captures (S-0036)
+
+- Dec-2024 season pass theme: **CHRISTMAS**, 1d 5h left on 27 Dec 2024; its ACTIVATE PASS! row shows a **Hermoso** card as a pass reward. Jan-2026 pass theme: **'january'**, 9h 2m 53s left on the capture — pass themes appear monthly/calendar-bound while ladder cycles run ~90 days, i.e. two independent live-ops clocks (G-0052).
+- Ladder cycle banners: WORLD CUP CLASSICS (Dec-2024, 69d 22h left), MIDFIELD CLASSICS (Jan-2026, 41d 21h left). Combined with the current English League Classics banner, three named cycles span Dec-2024 to Sep-2026, consistent with ~90-day recycling (seven-plus cycles).
