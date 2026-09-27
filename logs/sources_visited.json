@@ -1062,11 +1062,103 @@
         "the AGENTS panel in detail — what an agent costs, what opening one shows"
       ],
       "leads_consumed_from": "S-0023 (image route), the frontier's 'English community' and 'user-generated' categories"
+    },
+    {
+      "id": "S-0026",
+      "timestamp_utc": "2026-09-27T20:05:00Z",
+      "session": 1,
+      "turn": 5,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "discovery-search",
+      "tool": "web_search",
+      "url": null,
+      "resolved_url": null,
+      "domain": "(search)",
+      "http_status": null,
+      "outcome": "success",
+      "query": "DLS 26 \"English League Classics\" prize ladder event rewards Dream League Soccer 2026",
+      "depth": 2,
+      "source_type": "mixed (one community/guide result)",
+      "language": "en",
+      "chunk": "1 result",
+      "raw_archive_path": null,
+      "payload_summary": "THE DEDICATED PRIZE-LADDER SEARCH (gap G-0035), and it lands the mechanics in one result: **dlskiturl.com/dls-26-english-league-classics/** — 'DLS 26 welcomes New Prize Ladder- English League Classics'. CORE MECHANICS, VERBATIM IN SUBSTANCE: the ladder's four players are **Dimitar Berbatov, Michael Essien, Andy Cole and Emmanuel Petit** — EXACTLY the four cards SakibPro listed as 'CLASSIC, newly added' in the same update (S-0019), which ties the two live events to one release; 'You can sign them by playing the game, collecting **Dream Points**, and signing them after collecting **62,500, 115,000, 175,000, and 250,000 DP**'; 'The Prize Ladder is a progression-based event where players earn **Dream Points (DP)** by playing matches across various game modes. As your cumulative DP total increases, you climb tiers and claim milestone rewards... Once you reach the milestone, you can sign them freely, without any limitation; **they are free to be signed**'; '**Milestone Rewards:** As you progress through the tiers, you earn **coins, gems, coaches, and special agents**'; '**DLS Live PvP:** Online multiplayer matches award **significantly higher DP per match** compared to standard offline Career Mode games'; '**Event Tournaments:** Take part in active featured tournaments and cups; they also offer large DP completion bonuses upon winning the event.' Per-player detail: Essien DM, Ghana, '**Version 2006**', 'The Bison', 'a pure defensive powerhouse with **91 Stamina** & impressive strength'. Community criticism quoted: 'most of the players like Petit & Cole were already made available in the previous Ladders... the developers have changed the Stats slightly and the card image and recycled the whole lot' ⇒ **ladder content is recycled across events with stat and art changes**, implying earlier ladders with overlapping rosters. Search-index page age 'Sunday, September 06, 2026' (unreliable, as established).",
+      "kb_paths_touched": [
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/economy_currencies_and_iap.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED but mild — a guide site publishing event mechanics; no self-certifying 'official' language on this page, and it quotes community criticism, which a purely promotional page would omit",
+        "detail": "The numbers (62,500 / 115,000 / 175,000 / 250,000 DP) are specific and falsifiable in-game; the page offers no method or source, so they remain third-party. Its willingness to print player criticism is a small positive signal.",
+        "outcome": "no register entry; the page's values stay Speculative with the usual verification route (the user's own ladder screen outranks them)"
+      },
+      "conflicts_found": [
+        "Against SakibPro's framing: SakibPro presented the four Classic cards as 'newly added players' in a roster update (S-0019); this page presents them as the Prize Ladder's milestone rewards. Compatible (the ladder IS how they enter the game) but it means SakibPro's 'new player list' conflates acquisition routes — worth remembering when reading its lists.",
+        "Internal to the community: 'recycled from older events' with 'changed the Stats slightly' means any stat for these four cards is version-specific and any undated stat table for them is unplaceable — the same freshness trap as DR-001, now applying to ladder cards too."
+      ],
+      "confidence_note": [
+        "Closes the CORE of gap G-0035 from a single guide site: the ladder is a Dream-Points progression with four free milestone signings (the four Classic cards), milestone rewards of coins/gems/coaches/**special agents**, and a mode-dependent DP rate in which **DLS Live PvP pays far more per match than offline Career Mode** while tournaments pay completion bonuses. Single third-party origin, so every number stays Speculative — but the SHAPE is the most decision-relevant structure found in the whole bootstrap for this specific user: they state they are grinding a prize ladder in Career Mode, and if the PvP-vs-Career DP differential is real, their current grind is the slow path by design. That is precisely the content of the staged notification (ISS-006), and it is why this entry is flagged TIME-SENSITIVE alongside the 10/14 window. The agent link is the second prize: milestone rewards include 'special agents', which ties the ladder into the Cult Heroes draw economy — one event feeding the other, so ladder progress may be convertible into Cult Heroes pulls."
+      ],
+      "discovered_not_yet_visited": [
+        "https://dlskiturl.com/dls-26-english-league-classics/ — full page-render (the search snippet may have elided milestone-by-milestone reward tables)",
+        "searches for earlier Prize Ladders ('previous Ladders' with Petit & Cole) to map the ladder series and its recycling pattern",
+        "searches for Dream Point rates per mode (Career vs PvP vs tournaments) — a second source for the differential",
+        "FTG's own channels for the English League Classics announcement — still no first-party mechanics statement",
+        "the user's own ladder screen at first contact: current DP, tier, and the DP-per-match numbers in each mode would settle everything at once"
+      ],
+      "leads_consumed_from": "G-0035 (named as the next specific action in the turn-4 handoff)"
+    },
+    {
+      "id": "S-0027",
+      "timestamp_utc": "2026-09-27T20:07:00Z",
+      "session": 1,
+      "turn": 5,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render (the DR-001 decisive check, gap G-0033)",
+      "tool": "fetch_page",
+      "url": "https://sakibpro.com/players/cult-heroes/paulo-dybala/28333/",
+      "resolved_url": "same",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "databases and tools",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "THE DECISIVE CHECK, AND IT MATCHES EXACTLY. SakibPro's Dybala stat block, verbatim: Speed 81, Acceleration 90, Strength 62, Control 92, Passing 90, Tackling 49, Stamina 80, Shooting 90, **Total 634** (the eight values sum to 634 — its own arithmetic closes). Against the in-game capture (kb/evidence/reddit_cult_heroes_dybala_signed_es.jpg, Spanish client): VEL 81 = SPE 81 ✓, ACE 90 = ACC 90 ✓, FON 80 = STA 80 ✓, POT 62 = STR 62 ✓, CON 92 ✓, PAS 90 ✓, DIS 90 = SHO 90 ✓, ENT 49 = TAC 49 ✓ — **eight of eight stats match**, plus OVR 85 ✓, height 177 cm ✓, left foot ✓, and the year: the page title and prose say '**Cult Heroes 2020**', matching the capture's gold banner '2020' ✓. Ten of ten comparable fields agree between a third-party database and the game itself. Additional fields: Weight 75 kg; DOB November 15, 1993; Age 32 (correct for 2026); Position **SS** on this English page (the Spanish capture showed **SD** for the same role — localization re-confirmed); '💎 Acquired Via | **Cult Heroes Agent** ✔️ SPECIAL EDITION'; 'OVR: 85 ⚠️ ESTIMATED' still flagged; max 95 'via coaches'. 'Other Versions': Dybala normal 79 OVR id 9553 (a third row for this player). 'Similar Players': Lionel Messi 87 OVR at /players/**world-cup-heroes**/…/27848/ (confirms that slug), Matheus Cunha 86 at /players/**dynamicstar**/…/27511/ and João Félix 85 at /players/**dynamicstar**/…/27513/ (confirms the **dynamicstar** slug, singular, vs the filter's 'Dynamic Star'), Dennis Bergkamp 85 classic 25100. Screenshot-required correction form present again.",
+      "kb_paths_touched": [
+        "kb/deception_register.md",
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "logs/revision_register.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "see the DR-001 refinement — this result cuts in the site's favour on DATA and against it on PROSE",
+        "detail": "Ten of ten comparable fields matching an in-game capture is what an extracted database looks like; it is not what an invented one looks like. The page nevertheless still labels its own OVR '⚠️ ESTIMATED' and still carries the pseudo-technical prose, so the site UNDERSTATES its data fidelity while OVERSTATING its editorial authority — the inverse of the usual failure, and a pattern worth naming: marketing copy and data pipeline can have opposite truth values in the same artifact.",
+        "outcome": "DR-001 refined a third time: authority over ROWS is partially restored (rows behave as extracted data, promoted case-by-case when a second source exists); authority over PROSE (official-internals claims, 'verified', '100% Official') stays withdrawn entirely"
+      },
+      "conflicts_found": [
+        "None between capture and database — the absence of conflict IS the finding. The standing es/en code mapping (VEL=SPE, ACE=ACC, FON=STA, POT=STR, DIS=SHO, ENT=TAC) is what makes the comparison possible and it held on all six mapped codes, which independently corroborates that mapping (previously an inference)."
+      ],
+      "confidence_note": [
+        "Two consequences, applied conservatively. (1) **Dybala's eight stat values, OVR, height, foot and card year are promoted to High Confidence** (revision R-0004): two independent sources — an in-game capture (direct origin) and this database — now agree on all of them, with documented independence (different author, platform and method) and a checkable origin (the saved image). Not Confirmed: a third unrelated observer does not exist. (2) The match is EVIDENCE ABOUT THE DATABASE, not about its other rows: it raises the prior probability that SakibPro's other octets are faithful, but a single matched card cannot promote ten thousand rows, and the site's own 'ESTIMATED' label plus DR-001's prose findings still govern everything unconfirmed. The correct use of this result is to make per-card second-source checks (captures, other databases) the routine promotion path, and to treat the site's editorial claims as a separate, still-withdrawn authority."
+      ],
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players/cult-heroes/francisco-alarc-n/28327/ — the Isco half of the G-0033 check (run next for a two-card sample rather than one)",
+        "https://sakibpro.com/players/normal/paulo-dybala/9553/ (third row for one player — further G-0016 evidence)",
+        "https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (card-type index confirmation via per-player pages)",
+        "further in-game captures for other Cult Heroes cards, to extend the match test beyond Dybala"
+      ],
+      "leads_consumed_from": "G-0033 (designed in turn 4 as the decisive DR-001 check)"
     }
   ],
   "frontier": {
-    "discovered_total": 108,
-    "visited_total": 15,
+    "discovered_total": 116,
+    "visited_total": 17,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -1160,7 +1252,13 @@
       "per-player SakibPro pages for Dybala (/players/cult-heroes/paulo-dybala/28333/) and Isco (/players/cult-heroes/francisco-alarc-n/28327/) — decisive test: do the third-party stat octets match the in-game captures exactly?",
       "in-game captures in the other 14 client languages (each yields that language's stat-code set)",
       "the AGENTS panel in detail (cost of an agent, what opening shows)",
-      "the remaining 19 official store screenshots from S-0023"
+      "the remaining 19 official store screenshots from S-0023",
+      "https://dlskiturl.com/dls-26-english-league-classics/ — FULL page-render (milestone-by-milestone reward tables may be elided in the snippet)",
+      "https://sakibpro.com/players/cult-heroes/francisco-alarc-n/28327/ — the Isco half of the G-0033 check (two-card sample)",
+      "searches for EARLIER Prize Ladders (the 'previous Ladders' with Petit & Cole) — map the ladder series and its recycling pattern",
+      "searches for Dream Point rates per mode (Career vs DLS Live PvP vs tournaments) — a second source for the differential",
+      "FTG's own channels for the English League Classics announcement — still no first-party mechanics statement",
+      "https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (per-player pages confirming those card-type slugs)"
     ]
   }
 }

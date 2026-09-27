@@ -97,3 +97,12 @@ Which currency buys what: facilities (Stadium, Medical, Commercial, Training), t
 4. Non-English community: the client's own 14 non-English languages (ar, nl, fr, de, id, it, ja, ko, pt, ru, zh-Hans, es, zh-Hant, tr) — economy guides are frequently published in tr/pt/id first for this franchise (HYPOTHESIS to test, not knowledge).
 5. Technical: client economy configs (Step 2), Wayback price history, IAP product-id enumeration from store APIs.
 6. User-generated: review mining for prices and rates, processed for unique information.
+
+---
+
+## ADDENDUM 2026-09-27T20:12Z — a third currency-like resource and the ladder's payout table (all third-party, all gated)
+
+The Prize Ladder introduces **Dream Points (DP)** as an earn-only progression resource (no purchase route reported), and its milestone rewards are reported as **coins, gems, coaches and special agents** (S-0026). Two consequences for the economic matrix:
+1. **The earn side of the economy now has a named event pipeline**: matches → DP → tiers → {players, coins, gems, coaches, agents}, with per-mode rates that differ sharply ("DLS Live PvP... significantly higher DP per match... compared to standard offline Career Mode"; tournaments pay completion bonuses). If real, mode choice is an economic decision, not merely a gameplay preference — and for a user who watches ads for rewards and grinds in Career Mode, it is the highest-leverage single fact found so far.
+2. **Agents as a ladder reward link the two live events into one economy** (ladder DP → agents → Cult Heroes pulls), which means the 10/14 expiry applies to both the direct Cult Heroes route and the ladder route that feeds it.
+Everything here is one third-party origin and stays Speculative; the DP-per-mode rates are the specific numbers to verify first, because they are exactly what would change the user's grinding plan, and the user's own ladder and match screens can verify them in minutes.
