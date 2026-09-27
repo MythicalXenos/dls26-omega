@@ -1154,11 +1154,97 @@
         "further in-game captures for other Cult Heroes cards, to extend the match test beyond Dybala"
       ],
       "leads_consumed_from": "G-0033 (designed in turn 4 as the decisive DR-001 check)"
+    },
+    {
+      "id": "S-0028",
+      "timestamp_utc": "2026-09-27T20:35:00Z",
+      "session": 1,
+      "turn": 6,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render (full ladder page; completes the S-0026 snippet)",
+      "tool": "fetch_page",
+      "url": "https://dlskiturl.com/dls-26-english-league-classics/",
+      "resolved_url": "same",
+      "domain": "dlskiturl.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "English community / guide",
+      "language": "en (with one French comment)",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "FULL PAGE — completes the search snippet with per-player year stamps, partial stats, card images and comments. YEAR STAMPS FOR ALL FOUR LADDER PLAYERS: Berbatov CF Bulgaria **Version 2011**; Essien DM Ghana **Version 2006**; Andy Cole CF England **Version 1994**; Petit DM France **Version 1999**. PARTIAL STAT CLAIMS: Berbatov '91 control and 92 shot accuracy', 189 cm, 'low speed and stamina'; Essien '91 Stamina & impressive strength'; Cole 'high acceleration and sharp attack positioning'; Petit '90 Stamina and high-rated Passing and control'. KEY-ATTRIBUTE TABLE: Berbatov Ball Control; Essien Stamina & Tackling; Cole Sprint Speed; Petit Interceptions & Passing. Mechanics text identical to the snippet (DP per match, mode differential, milestones 62,500/115,000/175,000/250,000, rewards coins/gems/coaches/special agents, free signings, recycling criticism). **FOUR CARD IMAGES** hosted at dlskiturl.com/wp-content/uploads/2026/09/dls-26-{berbatov,essien,cole,petit}-new-card.png — presumably renders or captures of the new ladder cards; unread, named leads (they could confirm year stamps, design and possibly stats for the ladder cards). LINKS OF NOTE: an internal '**DLS 26 Mod APK**' page (dlskiturl.com/dls-26-mod-apk/) and an external dlsmod.com 'how to win dls online matches' — the mod-APK route is relevant to the All Methods principle (exploits/mods with risk assessment owed, never withheld) and to risk-tier planning; category pages /category/dls-26/ and /category/classic/. COMMENTS (3): 'How do we get a Uganda kit in dls' (kit-customisation question); '**J'ai envie de créer un joueur sur DLS M6**' (FRENCH — non-English community presence on an English guide site, and an uninterpreted fragment 'DLS M6'); 'I need special players'.",
+      "kb_paths_touched": [
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/gaps.md",
+        "logs/research_queue_active.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED — the page links its own 'DLS 26 Mod APK' page, i.e. it monetises or funnels mod traffic; that is an incentive to publish exciting event content",
+        "detail": "The mod-APK link is a new incentive signal for this domain: mod pages typically earn via downloads/ads, and event hype drives traffic to them. It does not make the ladder mechanics false, but it lowers the weight of anything on this domain that would make modding or event-chasing look attractive, and it is recorded as a screening note.",
+        "outcome": "screening OPEN with an incentive noted; values remain Speculative as already recorded"
+      },
+      "conflicts_found": [
+        "Berbatov's stated '91 control and 92 shot accuracy' vs SakibPro's ladder-adjacent Classic data: SakibPro's trending page gave Berbatov CF 84 OVR (S-0019); a card with CON 91 and SHO 92 at OVR 84 is plausible but the two sources' numbers have not been reconciled field-by-field, and the ladder page itself warns stats were changed on recycling — so any Berbatov stat is version-specific until checked. Recorded as an open reconciliation, not a contradiction.",
+        "The French comment's 'DLS M6' is an uninterpreted fragment — possibly a client build name, possibly a typo for something else. Recorded verbatim, not interpreted."
+      ],
+      "confidence_note": "Adds year stamps for all four ladder players (2011/2006/1994/1999), which is the ladder's own instance of the year-stamp mechanic already at High Confidence (R-0003), and four card images as a confirmation route. The mechanics text adds nothing new beyond the snippet, which is itself useful: the full page confirms the snippet was complete on mechanics, so no milestone table was elided. The mod-APK link is the most consequential structural find: it puts a mod route on the frontier, where the All Methods principle requires it to be researched WITH a risk assessment rather than ignored.",
+      "discovered_not_yet_visited": [
+        "the four ladder card images (dlskiturl.com/wp-content/uploads/2026/09/dls-26-{berbatov,essien,cole,petit}-new-card.png)",
+        "https://dlskiturl.com/dls-26-mod-apk/ — the mod route, to be researched per All Methods WITH a risk assessment (detection, account safety, ToS) before any mention of use",
+        "https://dlskiturl.com/category/dls-26/ and /category/classic/ — the site's own archives, likely holding earlier ladder articles (G-0039)",
+        "https://dlsmod.com/ — a second guide/mod domain",
+        "the comments thread as a non-English community seam (French comment on an English page)"
+      ],
+      "leads_consumed_from": "S-0026 (snippet of this page), turn-5 handoff next action"
+    },
+    {
+      "id": "S-0029",
+      "timestamp_utc": "2026-09-27T20:37:00Z",
+      "session": 1,
+      "turn": 6,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render (second half of the DR-001 fidelity check, gap G-0033)",
+      "tool": "fetch_page",
+      "url": "https://sakibpro.com/players/cult-heroes/francisco-alarc-n/28327/",
+      "resolved_url": "same",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "databases and tools",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "THE SECOND FIDELITY CARD — AND IT DOES NOT MATCH PERFECTLY. SakibPro's Isco row: Speed 81, Acceleration 87, Strength 65, Control 93, **Passing 88**, Tackling 53, Stamina 79, Shooting 81, Total 627 (its own eight sum to 627 — arithmetic closes). Against the in-game capture (kb/evidence/reddit_cult_heroes_isco_signed_en.jpg): SPE 81 ✓, ACC 87 ✓, STA 79 ✓, STR 65 ✓, CON 93 ✓, **PAS 86 in the capture vs 88 on the page ✗**, SHO 81 ✓, TAC 53 ✓ — seven of eight agree; OVR 84 ✓, height 176 cm ✓, right foot ✓, card year **2017** ✓ (page title 'Cult Heroes 2017' matches the capture's banner). Extra fields: Weight 79 kg; DOB April 21, 1992; Age 34 (correct for 2026); Position **AM**, matching the capture's AM badge; max 94 (84+10); 'OVR: 84 ⚠️ ESTIMATED' still flagged; 'Acquired Via | Cult Heroes Agent ✔️ SPECIAL EDITION'. 'Other Versions': Isco normal 79 OVR id 7293. 'Similar Players': Eberechi Eze **90 OVR** dynamicstar 27508; Lothar Matthäus 86 classic 27201; Kevin De Bruyne 86 world-cup-heroes 27840; Bruno Fernandes 85 normal 12434.",
+      "kb_paths_touched": [
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/gaps.md",
+        "logs/revision_register.md",
+        "kb/deception_register.md"
+      ],
+      "deception_screen": {
+        "incentive": "as DR-001 — rows partially rehabilitated, prose withdrawn",
+        "detail": "A one-stat discrepancy is exactly what a database with 'manual overriding adjustments' would produce, and equally what a version tweak or a low-resolution screenshot misread would produce. All three readings are recorded; none is chosen by preference.",
+        "outcome": "no change to the register's disposition; the discrepancy is logged as an open conflict (G-0041) with three candidate explanations including the possibility that MY OWN image reading misread an 8 as a 6"
+      },
+      "conflicts_found": [
+        "**Isco's Passing: 86 (in-game capture, as I read it) vs 88 (SakibPro).** Three candidate explanations, all open: (1) my own misread of a small stat bubble at 640px width — an 8/6 confusion is plausible and must be admitted as a live possibility about my own observation; (2) a client stat tweak between the capture date and the page's data date (the ladder page documents that FTG changes stats on recycled cards, so tweaks exist as a phenomenon); (3) a genuine database error, consistent with the admitted 'manual overriding adjustments'. The Conflict Protocol forbids choosing a side by preference, so the field stays un-promoted and the other seven, which agree, are promoted on their own merits (R-0005)."
+      ],
+      "confidence_note": "The two-card sample now reads: one perfect ten-of-ten match, one nine-of-ten with a single disputed field. That is what real extracted data with occasional human or version drift looks like — and it is precisely why the case-by-case promotion rule exists: the Dybala match alone would have invited a blanket trust this second card correctly refuses. R-0005 promotes Isco's seven agreeing stat values plus the already-promoted OVR/height/foot/year; the Passing field stays Speculative pending a higher-resolution or second capture, a SakibPro correction, or client data.",
+      "discovered_not_yet_visited": [
+        "a higher-resolution or second in-game capture of Isco's signing screen, to settle the PAS field (G-0041)",
+        "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, the highest rating seen so far; useful for the rating-ceiling question",
+        "https://sakibpro.com/players/classic/lothar-matth-us/27201/ and /players/world-cup-heroes/kevin-de-bruyne/27840/ (further card-type slugs and rows)",
+        "https://sakibpro.com/players/normal/francisco-alarc-n/7293/ (second row for Isco)"
+      ],
+      "leads_consumed_from": "G-0033 second card (queued in turn 5)"
     }
   ],
   "frontier": {
-    "discovered_total": 116,
-    "visited_total": 17,
+    "discovered_total": 124,
+    "visited_total": 19,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -1258,7 +1344,13 @@
       "searches for EARLIER Prize Ladders (the 'previous Ladders' with Petit & Cole) — map the ladder series and its recycling pattern",
       "searches for Dream Point rates per mode (Career vs DLS Live PvP vs tournaments) — a second source for the differential",
       "FTG's own channels for the English League Classics announcement — still no first-party mechanics statement",
-      "https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (per-player pages confirming those card-type slugs)"
+      "https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (per-player pages confirming those card-type slugs)",
+      "the four ladder card images dlskiturl.com/wp-content/uploads/2026/09/dls-26-{berbatov,essien,cole,petit}-new-card.png",
+      "https://dlskiturl.com/dls-26-mod-apk/ — the mod route; research per All Methods WITH a risk assessment (detection, account safety, ToS) before any mention of use",
+      "https://dlskiturl.com/category/dls-26/ and /category/classic/ — site archives likely holding EARLIER ladder articles (G-0039)",
+      "https://dlsmod.com/ — second guide/mod domain",
+      "a higher-resolution or second capture of Isco's signing screen (settle PAS, G-0041)",
+      "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, highest rating seen; bearing on the ceiling question"
     ]
   }
 }
