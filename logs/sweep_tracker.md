@@ -2,16 +2,16 @@
 
 Human-readable companion to `logs/sources_visited.json`. The JSON log is the mechanical basis of any exhaustion declaration (PROMPT.md §2 MECHANICAL EXHAUSTION INVARIANT); this file tracks the frontier's shape so that "what is left" is a recorded fact rather than a feeling.
 
-**Sweep:** bootstrap Step 1, opened 2026-09-27T17:22Z. **Scope:** everything about DLS26 and everything around it (PROMPT.md §13 Step 1) — the widest scope a trigger can set. **Organization:** by SOURCE, not by question; each source is exhausted before moving on, and organizing by source never narrows scope.
+**Sweep:** bootstrap Step 1, opened 2026-09-27T17:22Z. **Sources visited: 3 distinct (5 fetches, S-0001..S-0014 incl. capability probes).** **Scope:** everything about DLS26 and everything around it (PROMPT.md §13 Step 1) — the widest scope a trigger can set. **Organization:** by SOURCE, not by question; each source is exhausted before moving on, and organizing by source never narrows scope.
 **Exhaustion declaration:** NONE. Neither condition is met: unvisited leads exist (condition 1 fails) and new information is still arriving from every reached source (condition 2 fails).
 
 ## Coverage grid — Mechanism 3 gate categories × progress
 
 | Source type (gate category) | Planned sources | Visited | Status | Next specific action |
 |---|---|---|---|---|
-| official | FTG root, /games, /support, patch notes, Facebook, Instagram, TikTok, X/Twitter, YouTube, Play Store (all regions), App Store (all storefronts) | 1 (FTG /games) | PARTIAL | page-render Play Store listing for `com.firsttouchgames.dls7` |
-| third-party databases & tools | SakibPro (every tool, its code, API calls, undocumented functionality), plus every other DLS database/tool found — the list is discovered, not prescribed | 0 | NOT STARTED | page-render sakibpro.com (never attempted by a capable role; shell 000 is not an attempt) |
-| English-language community | Reddit (r/DreamLeagueSoccer + any other), YouTube (titles, descriptions, comments, subtitles/transcripts), Discord (public servers), X, TikTok, Facebook groups, forums, wikis, guide sites, blogs, app-store reviews | 0 | NOT STARTED | page-render the Play Store reviews + locate the subreddit(s) |
+| official | FTG root, /games, /support, **ftgames.com + /privacy-policy (second official domain, discovered)**, patch notes, Facebook, Instagram, TikTok, X/Twitter, YouTube, Play Store (all regions + eventdetails + datasafety + dev page), App Store (all storefronts) | 2 (FTG /games; Play Store US/en listing, both chunks) | PARTIAL | page-render App Store `id1462911602` — Apple publishes version numbers and dates, the strongest remaining route for DLS26-C1 |
+| third-party databases & tools | SakibPro (home fetched; tools `/players`, `/players/simulator.html`, `/dls-26-card-creator` and ~15 article pages outstanding; its code/API/undocumented functionality outstanding), plus every other DLS database/tool found — the list is discovered, not prescribed | 1 (sakibpro.com home, both chunks) | STARTED | page-render `sakibpro.com/players` (the player database — the candidate-pool enumeration source) |
+| English-language community | Reddit (r/DreamLeagueSoccer + any other), YouTube (titles, descriptions, comments, subtitles/transcripts), Discord (public servers), X, TikTok, Facebook groups, forums, wikis, guide sites, blogs, app-store reviews | 1 partial (3 top Play Store reviews retrieved inside the official listing; the full review set is outstanding) | STARTED | Play Store 'See all reviews' + locate the subreddit(s) |
 | non-English community | Turkish, Arabic, Portuguese, Spanish, French, Indonesian, and every other language with a DLS26 community — discovered by search in those languages, not assumed | 0 | NOT STARTED | discovery-search in tr / ar / pt / es / fr / id for the game's own terms |
 | technical | APK repositories (apkmirror, apkpure, uptodown), GitHub repos and community datamining dumps (codeload route WORKS), web archives (Wayback), cached pages, public APIs, API responses, code comments, DB schemas | 0 content sources (route proven available) | NOT STARTED | discovery-search GitHub for `com.firsttouchgames.dls7` / DLS datamining repos |
 | user-generated content | comments and posts on all of the above; every unique informative item processed, duplicates/spam/pure reactions filtered as non-informative | 0 | NOT STARTED | follows from community fetching |
@@ -41,11 +41,11 @@ Human-readable companion to `logs/sources_visited.json`. The JSON log is the mec
 
 | Dimension | Status | Evidence so far |
 |---|---|---|
-| 1. Training & Coaching architecture | UNANSWERED | none |
-| 2. Economic & Currency matrix | UNANSWERED | none |
-| 3. Live Operations & Progression tracks | FRAGMENT | store changelog: "New Special Players – 'Cult Heroes' collection, coming soon!" (S-0001) — evidences a live-ops content track, nothing about accumulation/reset |
-| 4. Match Physics & Energy dynamics | UNANSWERED | none |
-| 5. Tactical & Control mechanics | UNANSWERED | includes the user-stated no-position-locking claim (G-0001), Skeptic verification owed |
+| 1. Training & Coaching architecture | FRAGMENT | Official: "Use Coaches to develop your players technical and physical abilities" (S-0011) — confirms a technical/physical split in FTG's own words. Categories, rarity, yields, breakthrough probabilities, caps, pacing: nothing. Unverified lead: a review alleges buying a coach then paying again to apply training (S-0012) |
+| 2. Economic & Currency matrix | FRAGMENT | Official: four named facilities (Stadium, Medical, Commercial, Training); Agents and Scouts for the transfer market; Coaches for technical/physical development; "In-Game Purchases (Includes Random Items)"; third-party advertising present (S-0011/S-0012). Currency names, costs and return curves: nothing verified. One unverified user-generated lead alleges a two-stage coach fee and no coin refund on player sale (S-0012 review 2) — a lead, not a fact |
+| 3. Live Operations & Progression tracks | PARTIAL — systems named, mechanics unanswered | Official: "regular seasons and events", "daily scenarios", "Dream Draft", "Global Leaderboards and Events", changelog "Special Players – 'Cult Heroes'", store event ending 10/14 (S-0011/S-0012). Non-official, Speculative: Dream Star Event (Mar 26), Summer Update "Dynamic Stars / Classic Icons / Economy Reset" (May 26-27), World Cup Heroes (Jul 1), World Winners (Jul 13) — all one incentivised source (S-0013/S-0014). Accumulation and reset mechanics: still nothing. See `kb/topics/live_ops_events_and_cards.md` |
+| 4. Match Physics & Energy dynamics | UNANSWERED | Official copy claims "full 3D motion-captured kicks, tackles, celebrations and goalkeeper saves" and "new animations and improved AI" (S-0011) — marketing, no stamina/fatigue/recovery mechanics. Medical facility is named (S-0011) but its effect is not established |
+| 5. Tactical & Control mechanics | FRAGMENT | Official: formations/tactics not described in the listing at all; manager and kit customisation confirmed. Unverified user-generated leads: no control remapping in settings, pass-target selection picking distant players, player-switch input delay 0.5–2 s, "c spamming" as an exploited attack pattern (S-0012). Includes the user-stated no-position-locking claim (G-0001), Skeptic verification owed |
 | 6. Other discovered subsystems | none discovered yet | — |
 
 A dimension is satisfied by a positive sourced finding OR by an exhaustively-searched-and-documented open gap; a genuinely unanswered dimension after exhaustive search across every source type does not block the gate, provided the negative result and the sources exhausted against it are written to the KB.
@@ -55,8 +55,9 @@ A dimension is satisfied by a positive sourced finding OR by an exhaustively-sea
 | Checkpoint | Sources reached since last checkpoint | New information found? | Run length |
 |---|---|---|---|
 | 2026-09-27T17:28Z | 2 | YES (identity, package id, store listings, version conflict, live-ops fragment, FTG portfolio) | 0 |
+| 2026-09-27T17:36Z | 2 (Play Store listing ×2 chunks = S-0011/S-0012; sakibpro.com ×2 chunks = S-0013/S-0014) | YES — 18 officially named systems, official changelog, developer entity, second official domain, data-safety disclosure, active store event ending 10/14, 3 user reviews, SakibPro's 3 tools + ~15 article leads, a non-official 2026 event timeline, and 9 new terminology leads | 0 |
 
 ## Resumption point (mirrored in HANDOFF.md)
 
-Last action: wrote STATE_0 artifacts + opened STATE_1 with S-0001/S-0002 and the version conflict DLS26-C1.
-Next specific action: page-render `https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en` to resolve DLS26-C1 from a checkable origin, then the App Store listing, then FTG root + /support, then SakibPro, then community sources by language.
+Last action: fetched the official Play Store listing (S-0011/S-0012) and SakibPro home (S-0013/S-0014); wrote `kb/topics/gameplay_systems_inventory.md` and `kb/topics/live_ops_events_and_cards.md`; resolved DLL → Dream League Live plus the facility, division and Special Players terminology; advanced DLS26-C1 (update date confirmed, number still open); added gaps G-0006..G-0009.
+Next specific action: page-render `https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1` — Apple's version history carries numbers and dates, the strongest remaining web route for DLS26-C1. Then in order: `sakibpro.com/players` (candidate-pool enumeration source); `sakibpro.com/players/simulator.html` (upgrade/ceiling model); the Play Store eventdetails page (10/14 event); `ftgames.com` + `/privacy-policy`; `firsttouchgames.com` root and support; SakibPro's event articles; then Reddit/YouTube/X/TikTok/Facebook/wikis; then non-English languages; then GitHub technical repos via the proven codeload route; then FTG-as-a-company.

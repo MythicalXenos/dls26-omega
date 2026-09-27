@@ -20,7 +20,13 @@
       "language": "en",
       "payload_summary": "3 results. (1) fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ — claims 'Summer Spotlight update (Version 13.420)' launched 2026-05-28 with minor patches into early June; separately claims DLS26 version 13.420 release date 2026-09-01, previous version 13.410, main highlight 'Cult Heroes special players coming soon', other changes bug fixes; also claims 'The Game first released on Jan 14, 2020'. pageAge metadata says 2026-07-23 while body text asserts September 2026 facts = internal inconsistency. (2) appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7 — package id com.firsttouchgames.dls7; 'Last updated on: 2026-09-25'; latest version 13.430; last update 2026-09-14; APK size 185.97 MB / 186.0 MB; 100,000,000+ downloads (also states total downloads 460 million, recent 5.3 million); rating 4.46 from 14 million ratings; designed for Android 12.1+; contains ads; free; recent changes text: 'It's our late summer update. Check out what's new: •New Special Players - \"Cult Heroes\" collection, coming soon!'; lists official channels firsttouchgames.com, facebook.com/dreamleaguesoccer, instagram.com/playdls, tiktok.com/@dreamleaguesoccer.ftg. pageAge 2026-09-25. (3) appbrain.com/app/dream-league-soccer-2023/com.firsttouchgames.dls7 — SAME package id under a different store title slug ('Dream League Soccer 2023' URL path serving DLS26 content) = stale/mirrored listing; version 13.340, last update 2026-06-19, APK 187.79 MB, Android 10+, 440 million total downloads, 5.4 million recent, available on Google Play since December 2019. pageAge 2026-07-07.",
       "raw_archive_path": null,
-      "kb_paths_touched": ["kb/topics/game_identity_and_version.md", "kb/topics/terminology_and_abbreviations.md", "kb/volatility_model.md", "kb/deception_register.md", "kb/gaps.md"],
+      "kb_paths_touched": [
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/volatility_model.md",
+        "kb/deception_register.md",
+        "kb/gaps.md"
+      ],
       "deception_screen": {
         "incentive": "observed (fifaworldcupnews.com); none detected (appbrain.com — aggregator republishing store metadata, no claim-specific profit motive found)",
         "detail": "fifaworldcupnews.com is an SEO content farm: title framing 'Everything You Need to Know', content exists to draw clicks, and the page contradicts its own dating (pageAge July vs body asserting September facts) — fabricated-specificity screen fires. appbrain republishes Google Play metadata; its numbers are echoes of the store listing, not independent observation.",
@@ -64,7 +70,11 @@
       "language": "en",
       "payload_summary": "FTG official games page. DLS blurb verbatim: 'Dream League Soccer puts you in the heart of the action with a fresh look and brand new features! Build your dream team from over 4,000 FIFPro(TM) licensed players and take to the field against the world's best soccer clubs! Rise through 8 divisions whilst enjoying full 3D motion-captured player moves, immersive in-game commentary, team customisations and much more.' Store links: App Store id1462911602 slug 'dream-league-soccer-2020'; Google Play id com.firsttouchgames.dls7 hl=en. Social: facebook.com/dreamleaguesoccer, youtube trailer 9Iw8nZRpijA, twitter.com/firsttouchgames. Other FTG titles listed: Score! Hero 2 (com.firsttouchgames.story), Ultimate Clash Soccer (com.firsttouchgames.mpx), Score! Match (com.firsttouchgames.smp). Company line: 'We are 110% focused on delivering games of the highest quality.' Page carries NO version number, NO patch notes, NO news feed, NO support links on this route.",
       "raw_archive_path": null,
-      "kb_paths_touched": ["kb/topics/game_identity_and_version.md", "kb/topics/terminology_and_abbreviations.md", "kb/gaps.md"],
+      "kb_paths_touched": [
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md"
+      ],
       "deception_screen": {
         "incentive": "none detected",
         "detail": "First-party marketing copy. AUTHORITY IS NOT EVIDENCE applies: FTG marketing is not automatically trusted and gets no automatic evidential weight over direct datamining; and PLANTED AND DECOY DATA means FTG-published values are never self-validating.",
@@ -105,8 +115,14 @@
       "language": "n/a",
       "payload_summary": "HTTP 000 — TCP/TLS failed. Capability probe for the network-access map, not a content fetch.",
       "raw_archive_path": null,
-      "kb_paths_touched": ["CAPABILITY_INVENTORY.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
       "conflicts_found": [],
       "confidence_note": "Deterministic environment fact, verified by direct execution.",
       "discovered_not_yet_visited": [],
@@ -115,57 +131,125 @@
     {
       "id": "S-0004",
       "timestamp_utc": "2026-09-27T16:58:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash:curl",
-      "url": "https://api.github.com", "resolved_url": null, "domain": "api.github.com",
-      "http_status": 200, "outcome": "success", "query": null,
-      "source_type": "capability-probe", "language": "n/a",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash:curl",
+      "url": "https://api.github.com",
+      "resolved_url": null,
+      "domain": "api.github.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "capability-probe",
+      "language": "n/a",
       "payload_summary": "HTTP 200 — reachable. Confirmed further by `gh api repos/octocat/Hello-World` returning the full_name field.",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
-      "conflicts_found": [], "confidence_note": "direct execution", "discovered_not_yet_visited": [], "leads_consumed_from": "capability-inventory"
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "direct execution",
+      "discovered_not_yet_visited": [],
+      "leads_consumed_from": "capability-inventory"
     },
     {
       "id": "S-0005",
       "timestamp_utc": "2026-09-27T16:58:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash:curl",
-      "url": "https://pypi.org/simple/", "resolved_url": null, "domain": "pypi.org",
-      "http_status": 200, "outcome": "success", "query": null,
-      "source_type": "capability-probe", "language": "n/a",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash:curl",
+      "url": "https://pypi.org/simple/",
+      "resolved_url": null,
+      "domain": "pypi.org",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "capability-probe",
+      "language": "n/a",
       "payload_summary": "HTTP 200 — reachable. Corroborated by a successful `pip install requests beautifulsoup4 lxml` into /tmp/venvtest (requests 2.34.2 imported).",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
-      "conflicts_found": [], "confidence_note": "direct execution", "discovered_not_yet_visited": [], "leads_consumed_from": "capability-inventory"
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "direct execution",
+      "discovered_not_yet_visited": [],
+      "leads_consumed_from": "capability-inventory"
     },
     {
       "id": "S-0006",
       "timestamp_utc": "2026-09-27T16:59:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash:curl",
-      "url": "http://deb.debian.org/debian/", "resolved_url": null, "domain": "deb.debian.org",
-      "http_status": 0, "outcome": "blocked-network", "query": null,
-      "source_type": "capability-probe", "language": "n/a",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash:curl",
+      "url": "http://deb.debian.org/debian/",
+      "resolved_url": null,
+      "domain": "deb.debian.org",
+      "http_status": 0,
+      "outcome": "blocked-network",
+      "query": null,
+      "source_type": "capability-probe",
+      "language": "n/a",
       "payload_summary": "HTTP 000; `sudo apt-get update` failed for bookworm-updates and bookworm-security with 'Connection failed'. No OS packages can be installed → no Java, no adb, no ffmpeg via apt.",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
-      "conflicts_found": [], "confidence_note": "direct execution", "discovered_not_yet_visited": [], "leads_consumed_from": "capability-inventory"
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "direct execution",
+      "discovered_not_yet_visited": [],
+      "leads_consumed_from": "capability-inventory"
     },
     {
       "id": "S-0007",
       "timestamp_utc": "2026-09-27T17:00:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash:curl (batch, 17 hosts)",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash:curl (batch, 17 hosts)",
       "url": "batch: firsttouchgames.com | sakibpro.com | play.google.com/store/apps/details?id=com.firsttouchgames.dls2026 | apps.apple.com | reddit.com/r/DreamLeagueSoccer/ | youtube.com | apkpure.com | apkmirror.com | en.wikipedia.org | duckduckgo.com | html.duckduckgo.com | r.jina.ai | web.archive.org | cdn.jsdelivr.net | repo1.maven.org/maven2/ | github.com | api.github.com",
-      "resolved_url": null, "domain": "17 domains",
+      "resolved_url": null,
+      "domain": "17 domains",
       "http_status": 0,
       "outcome": "blocked-network (15 of 17; github.com and api.github.com returned 200)",
       "query": null,
-      "source_type": "capability-probe", "language": "n/a",
+      "source_type": "capability-probe",
+      "language": "n/a",
       "payload_summary": "All DLS-relevant hosts (FTG, SakibPro, Play Store, App Store, Reddit, YouTube, APKPure, APKMirror, Wikipedia, DuckDuckGo, Wayback, jsDelivr, Maven Central, jina reader proxy) returned HTTP 000 from the shell role with a desktop User-Agent and a 10 s timeout. Only the GitHub family answered. NOTE: play.google.com was probed with id=com.firsttouchgames.dls2026, which S-0001/S-0002 show is the WRONG package id (actual: com.firsttouchgames.dls7) — recorded so the probe is not mistaken for evidence about that URL's validity.",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
-      "conflicts_found": ["Apparent conflict resolved within the session: shell 000 for firsttouchgames.com vs page-render 200 for the same host (S-0002). Not a source conflict — a capability-boundary fact. Consequence recorded: a shell 000 is NEVER sufficient to declare a wall source."],
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [
+        "Apparent conflict resolved within the session: shell 000 for firsttouchgames.com vs page-render 200 for the same host (S-0002). Not a source conflict — a capability-boundary fact. Consequence recorded: a shell 000 is NEVER sufficient to declare a wall source."
+      ],
       "confidence_note": "direct execution; deterministic",
       "discovered_not_yet_visited": [],
       "leads_consumed_from": "capability-inventory"
@@ -173,55 +257,292 @@
     {
       "id": "S-0008",
       "timestamp_utc": "2026-09-27T17:01:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash:curl -sIL / -sL",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash:curl -sIL / -sL",
       "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.4%2B7/OpenJDK21U-jre_x64_linux_hotspot_21.0.4_7.tar.gz",
       "resolved_url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/... (signed URL)",
       "domain": "objects.githubusercontent.com",
-      "http_status": 302, "outcome": "blocked-network",
-      "query": null, "source_type": "capability-probe (binary-acquisition route)", "language": "n/a",
+      "http_status": 302,
+      "outcome": "blocked-network",
+      "query": null,
+      "source_type": "capability-probe (binary-acquisition route)",
+      "language": "n/a",
       "payload_summary": "GitHub release assets 302-redirect to objects.githubusercontent.com, which does not connect from the shell: `curl -sL` ended with code=302 size_download=0. CONSEQUENCE FOR STEP 2: no JDK, apktool, jadx or aapt can be obtained as release assets, and no APK hosted as a GitHub release asset can be downloaded. Companion probes: raw.githubusercontent.com = 000 (blocked); codeload.github.com/octocat/Hello-World/tar.gz/refs/heads/master = 200 (repo tarballs DO download); api.github.com/repos/.../contents/... = 200 (file contents retrievable as base64).",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md", "kb/gaps.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
       "conflicts_found": [],
       "confidence_note": "direct execution; this is the decisive constraint on Step 2 binary acquisition. Routes still to be tried before any wall-source entry: codeload tarballs of repos that COMMIT an APK or extracted assets; api.github.com contents base64; PyPI-hosted data packages; page-render for text-form data dumps.",
-      "discovered_not_yet_visited": ["codeload.github.com tarball of any DLS-datamining repo found by search"],
+      "discovered_not_yet_visited": [
+        "codeload.github.com tarball of any DLS-datamining repo found by search"
+      ],
       "leads_consumed_from": "capability-inventory"
     },
     {
       "id": "S-0009",
       "timestamp_utc": "2026-09-27T17:02:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash: ls /dev/kvm; nproc; free -h; df -h; command -v (30 binaries); python3 import probe (17 modules)",
-      "url": "local environment", "resolved_url": null, "domain": "localhost",
-      "http_status": null, "outcome": "success", "query": null,
-      "source_type": "capability-probe", "language": "n/a",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash: ls /dev/kvm; nproc; free -h; df -h; command -v (30 binaries); python3 import probe (17 modules)",
+      "url": "local environment",
+      "resolved_url": null,
+      "domain": "localhost",
+      "http_status": null,
+      "outcome": "success",
+      "query": null,
+      "source_type": "capability-probe",
+      "language": "n/a",
       "payload_summary": "/dev/kvm absent → no nested virtualization → no Android emulator (PROMPT.md §6 hard constraint CONFIRMED by inventory). 2 cores, 3.8 GiB RAM, 20 GB free disk. Present: python3 3.11.2, node 22.22.3, npm 10.9.8, git 2.39.5, gh 2.23.0, curl 7.88.1, wget, zip/unzip, tar, gzip, xz, jq, rg, openssl, sudo→root. Absent: java, javac, adb, apktool, jadx, aapt, aapt2, sqlite3 CLI, 7z, ffmpeg, yt-dlp, docker, podman. Python stdlib json/sqlite3/zipfile/struct/ElementTree OK; requests/bs4/lxml/pandas/numpy/PIL/yt_dlp/cryptography absent system-wide but pip-installable into a venv (proven for requests, bs4, lxml).",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
-      "conflicts_found": [], "confidence_note": "direct execution", "discovered_not_yet_visited": [], "leads_consumed_from": "capability-inventory"
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "direct execution",
+      "discovered_not_yet_visited": [],
+      "leads_consumed_from": "capability-inventory"
     },
     {
       "id": "S-0010",
       "timestamp_utc": "2026-09-27T17:03:00Z",
-      "session": 1, "turn": 1, "state": "STATE_0_SETUP",
-      "role": "shell/script", "tool": "bash: git status/log/branch/remote; gh auth status",
-      "url": "https://github.com/MythicalXenos/dls26-omega.git", "resolved_url": null, "domain": "github.com",
-      "http_status": 200, "outcome": "success", "query": null,
-      "source_type": "capability-probe (repository access verification)", "language": "n/a",
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_0_SETUP",
+      "role": "shell/script",
+      "tool": "bash: git status/log/branch/remote; gh auth status",
+      "url": "https://github.com/MythicalXenos/dls26-omega.git",
+      "resolved_url": null,
+      "domain": "github.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "capability-probe (repository access verification)",
+      "language": "n/a",
       "payload_summary": "Repo cloned at /home/user/dls26-omega on branch arena/01a0e3cd-dls26-omega, clean tree, single commit fb9a2c0 'Initial commit', contents = .gitignore + README.md only. remotes/origin/main present. gh authenticated as arena-ai-coding-agent[bot] via GH_TOKEN, HTTPS protocol configured. NO prior handoff, NO KB, NO logs, NO open PR from a previous session → FIRST SESSION BOOTSTRAP correctly triggered (PROMPT.md §8 POST-COMPACTION). Local git identity was already set (user.name MythicalXenos, user.email 333574927+MythicalXenos@users.noreply.github.com); .git/config is excluded from turn snapshots, so identity is re-set inside each commit command.",
-      "raw_archive_path": null, "kb_paths_touched": ["CAPABILITY_INVENTORY.md", "HANDOFF.md"],
-      "deception_screen": {"incentive": "n/a", "detail": "probe", "outcome": "n/a"},
-      "conflicts_found": [], "confidence_note": "direct execution", "discovered_not_yet_visited": ["open PR from this branch (owed this turn)"], "leads_consumed_from": "capability-inventory"
+      "raw_archive_path": null,
+      "kb_paths_touched": [
+        "CAPABILITY_INVENTORY.md",
+        "HANDOFF.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "probe",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "direct execution",
+      "discovered_not_yet_visited": [
+        "open PR from this branch (owed this turn)"
+      ],
+      "leads_consumed_from": "capability-inventory"
+    },
+    {
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "raw_archive_path": null,
+      "id": "S-0011",
+      "timestamp_utc": "2026-09-27T17:31:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en&gl=US",
+      "resolved_url": "same",
+      "domain": "play.google.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "official",
+      "language": "en",
+      "chunk": "0 of 2",
+      "deception_screen": {
+        "incentive": "none detected",
+        "detail": "first-party store listing published by the developer",
+        "outcome": "clean"
+      },
+      "payload_summary": "OFFICIAL Google Play listing (US store, en). Title 'Dream League Soccer 2026'; developer 'First Touch Games Ltd.'; Contains ads + In-app purchases; 4.5 stars with 14.9M reviews (header) vs 14.4M reviews (ratings block) — internal page inconsistency; Everyone; 'In-Game Purchases (Includes Random Items)'; 100M+ downloads; '#9 top free sports'; 'Updated on Sep 14, 2026'. NO numeric version string displayed — decisive for DLS26-C1: the official page confirms the UPDATE DATE (Sep 14, 2026) but not the NUMBER (13.430 comes only from appbrain). Marketing description + FEATURES retrieved verbatim: 4,000+ FIFPRO licensed players and legendary Classic greats; full 3D motion-captured kicks/tackles/celebrations/goalkeeper saves; rise through 8 divisions; more than 10 cup competitions; build from your own Stadium to Medical, Commercial and Training facilities; all-new Clan system (team up, achieve goals, win rewards); recruit Agents and Scouts to identify talent in the transfer market; match commentary; use Coaches to develop players' technical and physical abilities; customise kit and logo or import your own; regular seasons and events; Dream League Live; daily scenarios and Dream Draft. Also: 'Upgrade your stadium with world-class facilities as you make your way to the Legendary Division'; 'Sign top superstar players such as Raphinha & Julian Alvarez'; manager customisation (hairstyles, outfits); 'new animations and improved AI'; free to play with real-money purchases; requires an internet connection; contains third-party advertising. Channels: firsttouchgames.com, facebook.com/dreamleaguesoccer, instagram.com/playdls, tiktok.com/@dreamleaguesoccer.ftg.",
+      "kb_paths_touched": [
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/gameplay_systems_inventory.md",
+        "kb/topics/terminology_and_abbreviations.md"
+      ],
+      "conflicts_found": [
+        "Listing says the game 'requires an internet connection' while Google's tag set on the same page includes 'Offline' — nuance to resolve, NOT established.",
+        "Review count differs between two blocks of the same page (14.9M vs 14.4M).",
+        "'Everyone' + 'In-Game Purchases (Includes Random Items)' = random-item purchase disclosure, relevant to economy/spending research and to irreversible-spend analysis."
+      ],
+      "confidence_note": "Direct first-party evidence for the listing's content as of 2026-09-27. Marketing claims about in-game reality remain Speculative (AUTHORITY IS NOT EVIDENCE; PLANTED AND DECOY DATA) until corroborated by client, database or observed behaviour — but the EXISTENCE AND NAMING of these systems is first-party documentation.",
+      "discovered_not_yet_visited": [
+        "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+        "https://play.google.com/store/apps/eventdetails/4830045897422713648",
+        "https://play.google.com/store/apps/dev?id=6141822560324008098",
+        "http://www.ftgames.com/",
+        "https://www.ftgames.com/privacy-policy",
+        "regional variants of the same listing (hl/gl)",
+        "Play Store 'See all reviews'",
+        "https://play.google.com/store/apps/details?id=com.firsttouchgames.story",
+        "https://play.google.com/store/apps/details?id=com.firsttouchgames.mpx",
+        "https://play.google.com/store/apps/details?id=com.firsttouchgames.smp"
+      ],
+      "leads_consumed_from": "S-0001, S-0002"
+    },
+    {
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "raw_archive_path": null,
+      "id": "S-0012",
+      "timestamp_utc": "2026-09-27T17:32:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en&gl=US",
+      "resolved_url": "same",
+      "domain": "play.google.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "official + user-generated (reviews on an official page)",
+      "language": "en",
+      "chunk": "1 of 2",
+      "deception_screen": {
+        "incentive": "none detected on the listing itself; the reviews are anonymous user-generated content with no detectable claim-specific incentive",
+        "detail": "Reviews are anecdote: real observations, single-instance, self-selected. Each review is one source and cannot establish a mechanic; they are leads, not facts.",
+        "outcome": "clean for the listing; reviews recorded as leads with their helpful-counts as a weak salience signal only (never as authority — AUTHORITY IS NOT EVIDENCE)"
+      },
+      "payload_summary": "Store tags: Sports, Soccer, Casual, Multiplayer, Competitive multiplayer, Single player, Stylized, Athlete, Offline. ACTIVE STORE EVENT: 'Ends on 10/14', copy 'The names the fans remember, from their peak years.' → play.google.com/store/apps/eventdetails/4830045897422713648 (consistent with the 'Cult Heroes' collection; NOT established as the same thing). Data safety: may SHARE Location, Financial info + 2 others with third parties; may COLLECT Location, Personal info + 4 others; encrypted in transit; data-deletion requestable. WHAT'S NEW verbatim: \"It's our late summer update. Check out what's new: •New Special Players - 'Cult Heroes' collection, coming soon! •Bug Fixes - Dozens of issues sorted for the best game experience yet!\" Developer: FIRST TOUCH GAMES LIMITED, support@ftgames.com, 264 BANBURY ROAD, OXFORD, OX2 7DY, United Kingdom, +44 7308 308150; Website http://www.ftgames.com/ (DIFFERENT domain from firsttouchgames.com); Privacy Policy https://www.ftgames.com/privacy-policy. TOP 3 REVIEWS (substance verbatim): (1) 1,298 helpful — 'too many glitches in matches that are easily exploited (I've been on both sides of it)... controls and player switching are not synced, so there's a .5 to 2 second delay when switching. Offense can take advantage usually by dribbling sideways or c spamming. The 2025 version had much better input responsiveness.' (2) 123 helpful — 'when you sell a player, you don't get your coins back; those classic players are too expensive; get rid of the double fees for coaches — first you buy the coach then you have to pay to have them train your players; bring the old feature that allows gamers to train individual players, which was very simple and precise.' (3) 11 helpful — 'add a way to map controls and move the buttons around on screen in the settings... passing can be weird and frequently tags a player who is waaay off in the distance rather than the person right next to you... Goalkeepers could use work.' Competing apps listed: FTG's Score! Hero / Ultimate Clash Soccer / Score! Match, Football League 2026, EA SPORTS FC Soccer Mobile 27 (com.ea.gp.fifamobile), eFootball (KONAMI), Pro League Soccer (Rasu), Soccer Manager 2027, Mini Football (Miniclip). Page ends in a reCAPTCHA block — partially bot-protected, content still retrieved in full.",
+      "kb_paths_touched": [
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/gameplay_systems_inventory.md",
+        "kb/topics/live_ops_events_and_cards.md",
+        "kb/user_profile.md",
+        "kb/irreversible_action_list.md"
+      ],
+      "conflicts_found": [
+        "'Offline' tag vs 'requires an internet connection' (carried from S-0011).",
+        "Two official domains: ftgames.com and firsttouchgames.com — both must be swept (Named Set)."
+      ],
+      "confidence_note": "Official changelog = first-party documentation of what the latest update says it contains; it states NO version number, so DLS26-C1's number question remains unresolved from official sources. Reviews generate research questions: input/player-switch desync, 'c spamming' exploit, no coin refund on player sale, coach double-fee structure, classic-player pricing, absent control remapping, pass-target selection, goalkeeper quality.",
+      "discovered_not_yet_visited": [
+        "https://play.google.com/store/apps/eventdetails/4830045897422713648",
+        "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+        "http://www.ftgames.com/",
+        "https://www.ftgames.com/privacy-policy",
+        "Play Store 'See all reviews' (sorted by helpfulness and by newest, all regions)",
+        "origin-tracing each review author for the exploit claims"
+      ],
+      "leads_consumed_from": "S-0011"
+    },
+    {
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "raw_archive_path": null,
+      "id": "S-0013",
+      "timestamp_utc": "2026-09-27T17:33:00Z",
+      "url": "https://sakibpro.com/",
+      "resolved_url": "same",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "database-tool + community-english (guide site)",
+      "language": "en",
+      "chunk": "0 of 2",
+      "deception_screen": {
+        "incentive": "observed",
+        "detail": "Site monetises traffic and distributes downloadable custom kit/logo packs (its own products); uses authority framing ('100% Official','This is not a rumor') without stating a method; publishes future-title speculation as bookmark-bait.",
+        "outcome": "Incentive present. NOT discarded, NOT registered (nothing verified contradicts it yet). Every claim from this domain capped at Speculative until independently corroborated by an unrelated source type; the action-driving parts (kit downloads, 'official' update details) examined hardest; its event dates to be checked against FTG/store listings, not believed."
+      },
+      "payload_summary": "SakibPro home — the database named in PROMPT.md §5. TOOLS: 'DLS 26 Player Database' (/players), 'Upgrade Simulator' (/players/simulator.html), 'Card Creator' (/dls-26-card-creator). ARTICLES with dates: 'DLS 26 New Update: All New Events, Special Cards & Upcoming Player Details' (Aug 21, 2026; author 'Sakib'; framing '100% Official ... This is not a rumor'); 'DLS 27 Release Date: When does Dream League Soccer 2027 Launch?' (Aug 12, 2026; 'updated the moment FTG makes an official announcement'); 'Spain World Cup 2026 Kits 512x512' (Jul 20, 2026; references 'Spain's historic 2026 World Cup victory'); 'DLS 26 World Winners: Confirmed Players, Release Date & Ratings' (Jul 13, 2026; 'World Winners is officially confirmed as the next major Legendary Agent event in DLS 26, serving as the direct follow-up to...'); 'DLS 26 World Cup Heroes: Full Roster, Max Ratings & Free Rewards' (Jun 30, 2026; 'launches ... on July 1, 2026, bringing exclusive Legendary Agent cards'); 'Brazil World Cup 2026 Kits' (Jun 18, 2026; 'Under head coach Carlo Ancelotti'); 'Argentina World Cup 2026 Kits' (Jun 10, 2026; 'defending champions — the first team since France 1998'); 'Brazil 2026 Kits' (Jun 7); 'Brazil Copa America 2024 Kits' (Jun 6); 'DLS Summer Update Officially Confirmed: Dynamic Stars, Classic Icons, and Economy Reset' (May 27, 2026; thumbnail = a Google Play Store screenshot dated 2026-05-26); 'How to Get Every Club Logo in DLS 26' (Oct 7, 2025); 'DLS 26 National Team Flag Logos (512x512 URLs)'; 'The Ultimate Guide to Custom DLS Kits, Logos & Graphics 2026 (Safe Download + Full Setup Tutorial)' (Feb 19, 2026); 'Players - The Ultimate DLS Player Database & Card Creator App' (Mar 10, 2026); 'Dream Star Event 2026 - DLS 26 (Full Guide, Players, Dates & Rewards)' (Mar 26, 2026). TERMINOLOGY LEADS: 'Special Cards', 'Legendary Agent' (event/card family), 'Dynamic Stars', 'Classic Icons', 'Economy Reset', 'Max Ratings', 'World Cup Heroes', 'World Winners', 'Dream Star Event', 'DLS 27'.",
+      "kb_paths_touched": [
+        "kb/topics/live_ops_events_and_cards.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/topics/game_identity_and_version.md"
+      ],
+      "conflicts_found": [
+        "SakibPro dates the Summer Update rollout to ~May 26-27, 2026; fifaworldcupnews (S-0001) attributes 'Summer Spotlight' to May 28, 2026 AND separately dates version 13.420 to Sep 1, 2026 → absorbed into DLS26-C1 as the same version-history question rather than opened as a second conflict.",
+        "SakibPro asserts real-world football outcomes (Spain won the 2026 World Cup; Argentina defending champions) as framing for kit content. Recorded only as evidence about the source's method — real-world claims are not game facts and cannot date game content without verification."
+      ],
+      "confidence_note": "Highest-value non-official source found so far and the only one with structured player data plus a simulator. All of it Speculative until corroborated. Its three tools are the next page-render targets; their underlying data/API is a technical layer the shell cannot reach (ISS-002) — that limit must be attempted and recorded, not assumed.",
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players",
+        "https://sakibpro.com/players/simulator.html",
+        "https://sakibpro.com/dls-26-card-creator",
+        "https://sakibpro.com/dls-26-new-update-events-players/",
+        "https://sakibpro.com/dls-summer-update-officially-confirmed-dynamic-stars-classic-icons-and-economy-reset/",
+        "https://sakibpro.com/dls-26-world-winners-event/",
+        "https://sakibpro.com/dls-26-world-cup-heroes-event/",
+        "https://sakibpro.com/dream-star-event-2026-dls-26/",
+        "https://sakibpro.com/dls-27-release-date/",
+        "https://sakibpro.com/players-the-ultimate-dls-player-database-card-creator-app/",
+        "https://sakibpro.com/how-to-get-every-club-logo-in-dls-25/",
+        "https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics/",
+        "https://sakibpro.com/dls-26-national-team-flag-logos/",
+        "all kit pages",
+        "sakibpro.com search/sitemap/category routes"
+      ],
+      "leads_consumed_from": "initial-seed (PROMPT.md §5 names SakibPro)"
+    },
+    {
+      "session": 1,
+      "turn": 1,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "raw_archive_path": null,
+      "id": "S-0014",
+      "timestamp_utc": "2026-09-27T17:34:00Z",
+      "url": "https://sakibpro.com/",
+      "resolved_url": "same",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "database-tool + community-english",
+      "language": "en",
+      "chunk": "1 of 2",
+      "deception_screen": {
+        "incentive": "observed",
+        "detail": "Site monetises traffic and distributes downloadable custom kit/logo packs (its own products); uses authority framing ('100% Official','This is not a rumor') without stating a method; publishes future-title speculation as bookmark-bait.",
+        "outcome": "Incentive present. NOT discarded, NOT registered (nothing verified contradicts it yet). Every claim from this domain capped at Speculative until independently corroborated by an unrelated source type; the action-driving parts (kit downloads, 'official' update details) examined hardest; its event dates to be checked against FTG/store listings, not believed."
+      },
+      "payload_summary": "Second chunk ('DLS Info' article rail): confirms 'Dream Star Event 2026 - DLS 26 (Full Guide, Players, Dates & Rewards)' (Mar 26, 2026) and 'The Ultimate Guide to Custom DLS Kits, Logos & Graphics 2026' (Feb 19, 2026); single-author byline 'Sakib'; page ends with a site search box (an enumeration route).",
+      "kb_paths_touched": [
+        "kb/topics/live_ops_events_and_cards.md"
+      ],
+      "conflicts_found": [],
+      "confidence_note": "Same domain and author as S-0013 → ONE source, not two; logged separately only because these are separate fetches of separate chunks.",
+      "discovered_not_yet_visited": [
+        "sakibpro.com site-search route",
+        "https://sakibpro.com/dream-star-event-2026-dls-26/"
+      ],
+      "leads_consumed_from": "S-0013"
     }
   ],
   "frontier": {
-    "discovered_total": 20,
-    "visited_total": 2,
+    "discovered_total": 44,
+    "visited_total": 3,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
-      "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en",
       "https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
       "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
       "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
@@ -230,7 +551,6 @@
       "https://www.tiktok.com/@dreamleaguesoccer.ftg",
       "https://twitter.com/firsttouchgames",
       "https://www.youtube.com/watch?v=9Iw8nZRpijA",
-      "https://sakibpro.com/ (prompt-named database — never fetched; shell probe only, 000)",
       "regional Play Store / App Store variants (hl= and country storefronts)",
       "reddit.com/r/DreamLeagueSoccer and any other DLS subreddit",
       "DLS wikis / fandom sites",
@@ -238,7 +558,30 @@
       "APK repositories: apkpure, apkmirror, uptodown (binary route constrained — see S-0008)",
       "GitHub: DLS datamining repos, community stat dumps (codeload route WORKS)",
       "web.archive.org snapshots of FTG pages and patch-note history",
-      "FTG as a company: business model, monetization, update philosophy, cross-version history"
+      "FTG as a company: business model, monetization, update philosophy, cross-version history",
+      "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+      "https://play.google.com/store/apps/eventdetails/4830045897422713648",
+      "https://play.google.com/store/apps/dev?id=6141822560324008098",
+      "http://www.ftgames.com/",
+      "https://www.ftgames.com/privacy-policy",
+      "https://sakibpro.com/players",
+      "https://sakibpro.com/players/simulator.html",
+      "https://sakibpro.com/dls-26-card-creator",
+      "https://sakibpro.com/dls-26-new-update-events-players/",
+      "https://sakibpro.com/dls-summer-update-officially-confirmed-dynamic-stars-classic-icons-and-economy-reset/",
+      "https://sakibpro.com/dls-26-world-winners-event/",
+      "https://sakibpro.com/dls-26-world-cup-heroes-event/",
+      "https://sakibpro.com/dream-star-event-2026-dls-26/",
+      "https://sakibpro.com/dls-27-release-date/",
+      "https://sakibpro.com/players-the-ultimate-dls-player-database-card-creator-app/",
+      "https://sakibpro.com/how-to-get-every-club-logo-in-dls-25/",
+      "https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics/",
+      "https://sakibpro.com/dls-26-national-team-flag-logos/",
+      "regional Play Store variants (hl/gl)",
+      "Play Store 'See all reviews' (all regions, by helpfulness and newest)",
+      "App Store id1462911602 version history",
+      "other FTG titles' listings (story, mpx, smp)",
+      "sakibpro.com search/sitemap/category enumeration"
     ]
   }
 }
