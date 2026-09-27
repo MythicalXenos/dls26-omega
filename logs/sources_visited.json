@@ -1690,11 +1690,45 @@
     "kb/evidence/dynamic_stars_banner_2026.jpg"
    ],
    "rev": "prize_ladder + live_ops addenda; G-0065 opened; G-0041 render lead remains"
+  },
+  {
+   "id": "S-0051",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/data",
+   "what": "DLS26 player-DB hub (Orbylight/dreamkitsapp + img.dlsinside.com CDN + dlsinside.com full-DB link): 10 special-card families each with /players/type/{family}: Cult Heroes (Dybala 85 SS), World Winners (Pavard 84 RB), World Heroes (James 85 AM), Dynamic Stars (Hincapie 83 CB), Team of 2025 (Mbappe 87 CF), Kick-off Stars (Raphinha 85 LW = DLS26 cover star), Champion players (Messi 88 CF), Star players (Tzolis 83 LM), Classic players (Bergkamp 85), Secret players (Edgar Chavez 60 RB HON, no photo). Numeric player IDs + versioned image paths; team IDs (RM t113, Barca t105, MU t12...). Also kits DLS26-FTS archives, logos, leagues, Card Creator, app dest.dreamkits, es/pt/fr locales.",
+   "files": [],
+   "rev": "player_pool taxonomy addendum; DB methodology realized; G-0067 opened"
+  },
+  {
+   "id": "S-0052",
+   "route": "fetch_page",
+   "url": "https://dlskiturl.com/dls-26-world-heroes-and-world-winner/",
+   "what": "World Heroes + World Winners event (article img 2026/06, event July 2026): WC Iconic-Moments-style card pair; APK-extracted roster claim: Messi (2022), CR7 (2018), Keylor Navas (2014), KDB (2018, Winners variant), Perisic (2018), Walker (2018), Gvardiol (2022), James Rodriguez (2014). Acquisition = Legendary Agents with WEIGHTED pull (odds depend on how many legendaries you own); agent sources: event rewards/Season Pass/tokens+challenges/live scenarios/IAP; same system as DLS25 Champions (dlsmod.com/dls25-new-champions-players-revealed/). Leaker GIIODROID (Facebook) predicted design+players; past GIIODROID leaks verified (Team of 2025, Dynamic Stars - FB share links in journal).",
+   "files": [],
+   "rev": "live_ops addendum; G-0063 extended (GIIODROID); G-0066 opened (weighted agents)"
+  },
+  {
+   "id": "S-0053",
+   "route": "fetch_page (p1; p2-3 via frontier)",
+   "url": "https://dreamkitsapp.com/players/type/dynamic-stars",
+   "what": "Dynamic Stars family p1/3 (15 of ~45): Williams 96 LW/LM ESP 27509, De Paul 93 CM/RM 27512, Barcola 91 LW/RW 27510, Eze 90 AM/LW 27508, Akanji 88 CB/RB 27517, Bounou 88 GK 27529, Sorloth 88 CF 27523, Onana 87 DM/CM 27516, Fidalgo 87 CM/AM 27520, Cunha 86 SS/CF/AM 27511, Rios 86 DM/CM 27525, McKennie 86 CM/AM/RM 27518, Alderete 85 CB 28243, Marmoush 85 LW/CF/SS 27531, David 85 CF/SS 27519. SITE NOTICE: ratings are approximate calculations, may differ from in-game => Speculative cap on ratings. All specials under team t258.",
+   "files": [],
+   "rev": "player_pool addendum; G-0065 advance"
+  },
+  {
+   "id": "S-0054",
+   "route": "fetch_page x3 (classic p1/p2/p3)",
+   "url": "https://dreamkitsapp.com/players/type/classic (+/p/2,/p/3)",
+   "what": "COMPLETE classic inventory: 32 cards / 21 players with IDs - full table in kb/topics/classic_card_inventory.md. Version batches by ID: 245xx (Batistuta 85, Matthaus 87, GASCOIGNE 82 = the community-named 82 Gascoigne, Gascoigne 85), 250xx/251xx (Souness/Petit/Cole 83/Bergkamp 83/Adams/Crespo 83/Suker/Zenga/Mendieta/Chiellini/Zola/Bergkamp 85), 268xx (Desailly 85/Trezeguet/Essien/Pires/Valderrama/Cannavaro 86/Rivaldo 86), 270xx (Desailly 84 + Crespo 84 = Italian capture cards exactly; Cole 84; Rivaldo 86 LW), 272xx (Matthaus/Bergkamp/Petit/Batistuta), 27675 Berbatov 85 = current English ladder. Italian four cross-validate capture ratings exactly.",
+   "files": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "rev": "G-0039 substantially resolved; classic_card_inventory.md created"
   }
  ],
  "frontier": {
-  "discovered_total": 199,
-  "visited_total": 50,
+  "discovered_total": 206,
+  "visited_total": 54,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -1838,13 +1872,16 @@
    "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
    "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) — uploads list is JS-rendered dead for fetch_page",
    "dlskiturl.com/dls-26-world-heroes-and-world-winner/ (World Hero event, G-0039/live-ops)",
-   "image retrieval: dls-26-berbatov/cole-new-card.png + dls26-cult-heroes-isco.webp (G-0041 hi-res)",
    "dlskiturl category archives: dlskiturl.com/category/classic/ + /category/dls-26/ (earlier ladder/event articles, G-0039)",
    "DLS27 Kick-Off Stars concept + Gallagher/Peter Robinson leak verification (G-0063)",
    "dlskiturl.com/dls-26-mod-apk/ risk walkthrough (G-0043, read-only)",
    "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
-   "dreamkitsapp.com/data full page (Dynamic Stars + possible DB, G-0065)",
-   "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)"
+   "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
+   "dlsinside.com/players (the full-DB site behind img.dlsinside.com)",
+   "dreamkitsapp dynamic-stars p2-3 + player/{id} stat pages (exact stats, G-0065)",
+   "dreamkitsapp /players (all-base-players DB) + /teams",
+   "GIIODROID Facebook leak archive (G-0063)",
+   "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)"
   ]
  }
 }
