@@ -119,3 +119,6 @@ Also observed on the cards themselves: a green circular OVR badge, a gold **year
 | **Season Points** | Career Mode match reward alongside Coins, scaling with division | bluestacks (S-0031) | OPEN — candidate official referent for the prompt's shorthand "season points"; single source |
 | **Progression Bank** | accumulates Coins+Gems from DLL XP over a 10-day season, paid at season end | bluestacks (S-0031) | OPEN — single source (G-0045) |
 | **Global Challenge Cup** | a named competition | bluestacks (S-0031) | OPEN — single source |
+
+| **Legendary DP Boost** | top boost tier: +150% for 125 gems over 8 matches (price High Confidence, R-0007; multiplier/duration Speculative) | two Reddit threads, Jan 2026 + current clan thread (S-0031/S-0033) | PARTIAL |
+| **"Prize Ladder points"** | a third community name for DP (Jan-2025 thread) | Reddit (S-0033) | NAME QUESTION WIDENS: Dream Points / Dream League Points / Prize Ladder points; the user's ladder screen arbitrates |

@@ -1369,11 +1369,97 @@
         "a route to read the known play-lh artwork URL directly (a page embedding it, or image tooling against the exact URL)"
       ],
       "leads_consumed_from": "turn-6 handoff (read the Cult Heroes event artwork)"
+    },
+    {
+      "id": "S-0033",
+      "timestamp_utc": "2026-09-27T21:35:00Z",
+      "session": 1,
+      "turn": 8,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "discovery-search (post-match DP captures, current-ladder datapoints, boost prices)",
+      "tool": "web_search",
+      "url": null,
+      "resolved_url": null,
+      "domain": "(search)",
+      "http_status": null,
+      "outcome": "success",
+      "query": "reddit DreamLeagueSoccer dream points DP after match screenshot summary prize ladder progress",
+      "depth": 2,
+      "source_type": "mixed (Reddit users + guides)",
+      "language": "en",
+      "chunk": "5 results",
+      "raw_archive_path": null,
+      "payload_summary": "NO POST-MATCH DP CAPTURE SURFACED (the checkable origin for the mode differential remains outstanding), BUT the search returned the deepest single economic artifact of the session and a ladder history: (1) **r/DreamLeagueSoccer 'Monthly Thread for DLS Clan Discussion'** (via /new/; index date garbage, content current): a user's full gem-income computation for a 10-day DLL season — '**DLL = 6,000 Gems; The Progress Bank = 1,640 Gems; The DLL Leaderboard = 100 Gems; The DLL Challenges = 180 Gems; The Season Pass = 300 Gems; Challenges: Daily + Weekly = 897 Gems; Clans = 275 Gems; DP Points Ladder = 215 Gems**', plus 'Daily Mini rewards, located in the shop for free... 1,000 Matches... 180 Gems'; assumptions listed ('Tier 1', 'Max Stadium Upgrades', 'a clan that combined reaches all reward', 'Premium season passes', '**Play 100 games as that is the maximum in a day**'); ladder specifics: 'To get to the final Gem reward in the Ladder... You'd need **145,000 DP**. If you won a Tier 1 game roughly 3-0 With a Legendary Points boost, you would roughly recieve **300 DP**. This would mean you would need **484 Games**'; '**125 Gems = 1 Legendary DP Point Booster**' (61 needed = 7,625 gems); 'The Gem amount is **215 Gems**... the individual Gem prices in the Ladder; which are **25,30,40,50,75**'; 'having the premium season pass will also make it easier to get dp'. (2) **r/DreamLeagueSoccer 'Tips to complete the pass quickly' (Jan 2026), fuller than before**: boost ladder complete — 'Common DP Boost 50% for 25 Gems (3 Matches)', 'Rare DP Boost 75% for 35 Gems (5 Matches)', '**Legendary DP Boost 150% for 125 Gems (8 Matches)**'; and a reply quantifying the payoff: 'All together +14k DP gained or ~ 104 wins worth approx 10 - 15 hours saved'. (3) **gamingonphone (Dec 2024), fuller**: 'The DLS 2025 season update officially arrived this December 2024... the introduction of **Classic Players**... unlockable via the new Prize Ladder system... a newly introduced currency known as **Dream Points (DP)**... unlock Gems and Coins alongside **4 other Classic Players who featured in the 98 World Cup**. **Each Prize ladder cycle lasts for 90 days** and you can expect fresh Classic Players at the end of each cycle.' AND: 'Dream Points Rewards from Dream League Live Matches (**Image via First Touch Games**)' ⇒ **FTG itself published a DP reward breakdown image in Dec 2024** — a first-party origin for the rates exists and is a named lead (the image is hosted on gamingonphone). (4) **bluestacks, fuller**: 'a 30-second ad at the end of each match **doubles your post-match coin earnings** when watched' (ads double COINS, not only DP); 'The Progression Bank is **a linked system within the Season Pass** that tracks the Experience Points (XP) you earn from Dream League Live performance... paid out at the season's end'; 90-day cycle restated. (5) **r/DreamLeagueSoccer 'Prize ladder bug' (Jan 2025)**: 'I reached 70,000 and got 75% DP boost, but when I claimed, it also claimed the special player and got **batistuta**' ⇒ a claim-order BUG in an early ladder, and **Batistuta as an early-2025 ladder special player** (ladder history, G-0039); plus thread titles 'Did I seriously do all that just to get only 140 Prize Ladder points???' (a third name for DP: 'Prize Ladder points'), 'More than 20 days have passed in the prize ladder', 'Got my first legend this prize ladder :)' (video; 'legend' ambiguous between coach rarity and player — recorded verbatim).",
+      "kb_paths_touched": [
+        "kb/topics/economy_currencies_and_iap.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md",
+        "logs/revision_register.md"
+      ],
+      "deception_screen": {
+        "incentive": "low — user computations with stated assumptions",
+        "detail": "The clan-thread computation lists its assumptions explicitly and its arithmetic is checkable (61x125=7,625; 25+30+40+50+75=215; 145,000/300≈484) — all three sum correctly, which is a strong internal-consistency signal for a user-generated artifact. It remains ONE user's model of the economy, so every figure stays gated; but a computation whose arithmetic checks and whose assumptions are stated is the best kind of single source.",
+        "outcome": "no register entry; the model is recorded as a hypothesis with its assumptions attached"
+      },
+      "conflicts_found": [
+        "Legendary boost: +150%/125 gems/8 matches (Jan-2026 thread) vs the clan thread's '125 Gems = 1 Legendary DP Point Booster' and '~300 DP for a Tier-1 3-0 win with Legendary' — the 125-gem price agrees across two threads; the +150% multiplier is consistent with the 300-DP figure arithmetically (base ~120 x 2.5) but stated only once. Disposition: price promotes on two sources (R-0007); multiplier and duration stay Speculative with the consistency noted.",
+        "'Prize Ladder points' (Jan-2025 thread) vs 'Dream Points' vs 'Dream League Points' — three names for one currency across communities; the name question widens rather than resolves, and the user's ladder screen remains the arbiter.",
+        "90-day cycle now stated by gamingonphone (Dec 2024) AND bluestacks — but guide-to-guide copying is plausible, so this is NOT yet two independent sources for the cycle; recorded as one claim with two carriers."
+      ],
+      "confidence_note": [
+        "The session's deepest economic artifact: a complete gem-income enumeration for a 10-day DLL season (DLL 6,000; Progression Bank 1,640; DLL leaderboard 100; DLL quests 180; Season Pass 300; daily+weekly challenges 897; clans 275; ladder 215; shop minis 180), a ladder endgame figure (145,000 DP to the final gem reward; ~300 DP per boosted Tier-1 win; 484 matches), the Legendary booster price (125 gems) from two threads, the full boost ladder, a **daily match cap of 100**, ads that **double post-match coins**, the Progression Bank's place **inside the Season Pass**, and a ladder history reaching back to Dec 2024 ('98 World Cup classics), Jan 2025 (Batistuta, a claim bug) and beyond. One user's computation, so all of it is a hypothesis — but a hypothesis with stated assumptions and arithmetic that checks, which is what makes it worth writing up in full. Two structural gifts: FTG published a DP reward breakdown IMAGE in Dec 2024 (a first-party origin for rates exists and is now a named lead), and the ladder's own gem prices (25/30/40/50/75) give the ladder a gem-income side that partially funds the boosts that speed the ladder — a small internal loop in the economy worth modelling once verified."
+      ],
+      "discovered_not_yet_visited": [
+        "the gamingonphone-hosted FTG DP-reward image ('Image via First Touch Games', Dec 2024) — a FIRST-PARTY origin for DP rates",
+        "the clan monthly thread in full (r/DreamLeagueSoccer via /new/) — its computation and the hidden code it mentions",
+        "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ — the claim-bug thread (does the bug still exist? risk to claiming strategy)",
+        "https://www.reddit.com/r/DreamLeagueSoccer/comments/1qhuwv8/ in full — the boost arithmetic and replies",
+        "a current-ladder datapoint: which ladder is live now and where players stand (thread titles suggest periodic ladder-progress threads)"
+      ],
+      "leads_consumed_from": "turn-7 handoff next action (post-match DP capture, current-ladder datapoint) — the capture itself NOT found; recorded as still outstanding"
+    },
+    {
+      "id": "S-0034",
+      "timestamp_utc": "2026-09-27T21:36:00Z",
+      "session": 1,
+      "turn": 8,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "capability probe (Reddit subreddit listing)",
+      "tool": "fetch_page",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/",
+      "resolved_url": "same",
+      "domain": "reddit.com",
+      "http_status": 403,
+      "outcome": "failure (route blocked)",
+      "query": null,
+      "source_type": "capability probe",
+      "language": "n/a",
+      "chunk": "n/a",
+      "raw_archive_path": null,
+      "payload_summary": "A page-render of the subreddit listing returned **HTTP 403**. Reddit blocks this environment's renderer at the subreddit level. Known-working Reddit routes so far: **image_search against Reddit-hosted images** (S-0025, S-0030) and **web_search snippets of thread pages** (S-0031, S-0033). UNTESTED: fetch_page of an individual thread URL, old.reddit.com, and Reddit's .json endpoints. Per the standing rule, this transport failure is a ROUTE LIMITATION and not evidence about any content; no negative finding is recorded from it.",
+      "kb_paths_touched": [
+        "logs/research_queue_active.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a",
+        "detail": "platform-level blocking, not source behaviour",
+        "outcome": "n/a"
+      },
+      "conflicts_found": [],
+      "confidence_note": "Method record: the community platform with the project's best evidence (in-game captures, dated rate tables, worked computations) is reachable only indirectly from this environment. Consequence for the sweep: Reddit content must be harvested via search snippets and image tooling, or via the user's own device later; and the untested routes (thread URLs, old.reddit, .json) are named leads to try once each before concluding anything.",
+      "discovered_not_yet_visited": [
+        "fetch_page of an individual Reddit thread URL (untested)",
+        "https://old.reddit.com/r/DreamLeagueSoccer/ (untested)",
+        "https://www.reddit.com/r/DreamLeagueSoccer.json or a thread's .json (untested)"
+      ],
+      "leads_consumed_from": "turn-7 handoff (browse r/DreamLeagueSoccer post lists)"
     }
   ],
   "frontier": {
-    "discovered_total": 134,
-    "visited_total": 22,
+    "discovered_total": 141,
+    "visited_total": 24,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -1486,7 +1572,12 @@
       "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ — fourth guide domain",
       "an in-game POST-MATCH DP SUMMARY capture — the checkable origin that would promote the mode differential beyond Community Consensus",
       "the Berbatov and Cole ladder card images",
-      "FTG social channels for OFFICIAL Cult Heroes artwork (image search failed to find it; the known play-lh URL needs an embedding page or direct tooling)"
+      "FTG social channels for OFFICIAL Cult Heroes artwork (image search failed to find it; the known play-lh URL needs an embedding page or direct tooling)",
+      "the gamingonphone-hosted FTG DP-reward IMAGE ('Image via First Touch Games', Dec 2024) — a FIRST-PARTY origin for DP rates",
+      "fetch_page an individual Reddit THREAD url, old.reddit.com, and a .json endpoint — one attempt each before concluding (S-0034 left them untested)",
+      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ — the claim-bug thread; does the bug still exist (bearing on claiming strategy)?",
+      "the clan monthly thread in full — the gem-income computation and its hidden code",
+      "a current-ladder datapoint: which ladder is live now and where players stand"
     ]
   }
 }
