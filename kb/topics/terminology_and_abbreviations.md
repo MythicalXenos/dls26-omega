@@ -113,3 +113,9 @@ Also observed on the cards themselves: a green circular OVR badge, a gold **year
 | **Dream Points (DP)** | the Prize Ladder's progression currency, earned by playing matches; cumulative; tiers and milestones | third-party guide (S-0026), single origin | OPEN as official terminology — FTG's own event copy says "claim big rewards in our this new Prize Ladder" without naming a currency; DP is the community/guide name until FTG or the client confirms it. The user's ladder screen will show the real name |
 | **milestone / tier** (ladder) | cumulative-DP thresholds at which rewards unlock (62.5k/115k/175k/250k per one guide) | third-party guide (S-0026) | OPEN — values Speculative |
 | **Version {year}** on Classic cards | year stamp on ladder/Classic cards (Essien "Version 2006"; Cult Heroes cards 2017-2026) | guide (S-0026) + in-game captures (S-0025) | the year-stamp mechanic is High Confidence (R-0003); per-card years gated individually |
+
+| **Dream Points / Dream League Points (DP)** | the ladder currency; two names in circulation (dlskiturl "Dream Points", bluestacks "Dream League Points") | guides (S-0026/S-0031) | NAME UNRESOLVED between variants; the user's ladder screen settles it |
+| **DP Boost (Common/Rare/Legendary)** | timed multipliers on DP earnings, bought with gems (+50%/25 gems/3 matches; +75%/35 gems/5; Legendary exists) | Reddit users Jan+May 2026 (S-0031) | OPEN — prices version-sensitive |
+| **Season Points** | Career Mode match reward alongside Coins, scaling with division | bluestacks (S-0031) | OPEN — candidate official referent for the prompt's shorthand "season points"; single source |
+| **Progression Bank** | accumulates Coins+Gems from DLL XP over a 10-day season, paid at season end | bluestacks (S-0031) | OPEN — single source (G-0045) |
+| **Global Challenge Cup** | a named competition | bluestacks (S-0031) | OPEN — single source |

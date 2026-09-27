@@ -1240,11 +1240,140 @@
         "https://sakibpro.com/players/normal/francisco-alarc-n/7293/ (second row for Isco)"
       ],
       "leads_consumed_from": "G-0033 second card (queued in turn 5)"
+    },
+    {
+      "id": "S-0030",
+      "timestamp_utc": "2026-09-27T21:05:00Z",
+      "session": 1,
+      "turn": 7,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "image-evidence (site-rendered card images, read as images)",
+      "tool": "image_search + read_file",
+      "url": "https://dlskiturl.com/wp-content/uploads/2026/09/dls-26-essien-new-card.png and .../dls-26-petit-new-card.png",
+      "resolved_url": "same",
+      "domain": "dlskiturl.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": "DLS 26 English League Classics prize ladder Berbatov Essien Cole Petit card",
+      "source_type": "English community / guide (site-rendered card images)",
+      "language": "en",
+      "chunk": "2 of 4 ladder images read",
+      "raw_archive_path": "kb/evidence/ladder_essien_card_dlskiturl.png; kb/evidence/ladder_petit_card_dlskiturl.png",
+      "payload_summary": "THE LADDER'S CARD IMAGES, READ. Both carry a 'DLSKitURL.com' watermark and a clean template, so they are SITE RENDERS built from data, not in-game captures — they corroborate DATA FIELDS across sources but are NOT direct evidence of in-game design. ESSIEN card: green OVR circle 85, gold year banner 2006, name ESSIEN, Ghana flag, position badge DM, one star at the foot, gold frame with dark inner edge and a faint 'DLS' watermark pattern in the background. PETIT card: OVR 84, year 1999, name PETIT, France flag, DM, one star, same template. CROSS-SOURCE AGREEMENT: Essien 85 and Petit 84 match SakibPro's trending-page OVRs exactly (S-0019); years 2006/1999 match the ladder article's text (S-0028); positions DM/DM match both. Three independent third parties now agree on these two cards' OVR/year/position. DESIGN DISCREPANCY RECORDED, NOT HARMONISED: the in-game Cult Heroes captures (S-0025) show a RED star at the card foot and a rainbow-gradient upper band; these ladder renders show a GOLD star and no gradient band. Either card families differ in design (Classic vs Cult Heroes), or the site's template diverges from the game's art, or both. Unresolvable from watermarked renders — G-0046.",
+      "kb_paths_touched": [
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "as S-0028 — the domain links its own mod-APK page and watermarks its renders for traffic",
+        "detail": "watermarked renders are branding; the data fields they display still originate from the site's database, so they add no independent data — their value is that the IMAGE route works for this domain and that the fields agree with two other sources",
+        "outcome": "no register change; renders are not treated as in-game evidence"
+      },
+      "conflicts_found": [
+        "Star colour and frame design differ between in-game Cult Heroes captures (red star, gradient band) and these Classic-card renders (gold star, no gradient). Three readings open: family-specific design; render-template divergence; or misperception at small scale. G-0046.",
+        "Berbatov's and Cole's ladder images were not returned by the search, so the four-card set is only two-card sampled."
+      ],
+      "confidence_note": "Confirms the image route works for guide-site card art and adds a third agreeing party for Essien 85/2006/DM and Petit 84/1999/DM — but as site renders, these images corroborate the site's own data against other sites' data, which is agreement between third parties, not contact with the game. The design question stays open and is recorded as such.",
+      "discovered_not_yet_visited": [
+        "the Berbatov and Cole ladder images (dls-26-berbatov-new-card.png, dls-26-cole-new-card.png)",
+        "an IN-GAME capture of any ladder card, which would settle G-0046 and give the ladder its first direct evidence",
+        "higher-resolution versions of these renders"
+      ],
+      "leads_consumed_from": "S-0028 (the four image URLs), G-0042"
+    },
+    {
+      "id": "S-0031",
+      "timestamp_utc": "2026-09-27T21:07:00Z",
+      "session": 1,
+      "turn": 7,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "discovery-search (DP rates per mode, G-0038; earlier ladders, G-0039)",
+      "tool": "web_search",
+      "url": null,
+      "resolved_url": null,
+      "domain": "(search)",
+      "http_status": null,
+      "outcome": "success",
+      "query": "DLS 26 Dream Points DP per match rate DLS Live PvP career mode prize ladder how many DP",
+      "depth": 2,
+      "source_type": "mixed (guides + Reddit users)",
+      "language": "en",
+      "chunk": "5 results",
+      "raw_archive_path": null,
+      "payload_summary": "FIVE RESULTS, FOUR OF THEM INDEPENDENT, GIVING CONCRETE DP NUMBERS WITH DATES — and the numbers MOVE between dates, which is the finding: (1) dlskiturl ladder page (echo of S-0026/28; no rates). (2) gamingonphone.com, dated 27 Dec 2024, DLS 2025: Career win 75 DP, +10 per goal to 5 goals, +15 clean sheet = max 140/match; Dream League Live win 120, same bonuses = max 185; boosts: 'Rare Boost: increases your Dream Points earnings by 75%' with confused prose implying 140 to 245 and 185 to 324 under it. (3) bluestacks.com blog (EMULATOR VENDOR; content explicitly about DLS 2026): 'Career Mode match... earns Coins and Season Points'; 'The Prize Ladder runs on Dream League Points... from every match you play across all game modes... unlock rewards including Coins, Gems, and Classic Players'; 'Each Prize Ladder cycle lasts 90 days before resetting with a fresh set of rewards and new Classic Players'; 'The Prize Ladder is a passive reward system... Checking it regularly and claiming rewards as you hit each tier ensures nothing goes uncollected during the 90-day window'; 'Progression Bank accumulates Coins and Gems based on your Dream League Live XP earned during a 10-day season, and the full amount is paid out when the season ends'; 'Global Challenge Cup'; daily logins and challenges. (4) Reddit r/DreamLeagueSoccer, 28 May 2026, thread 'Best way to farm dp?': 'One career game gives 120dp if you win 5-0 and 160 if you watch the ad. Maybe about 300-320 if you use a legendary boost'; 'rare booster is 35 gems for 5 games. If you win 5-0 and watch the add that's 250 dp per game'; 'Low tier farming in dll with leg boost'; OP needs '20,000 DP in the next days until the ladder is over just to get a 2nd special player' = a prior ladder cycle live in May 2026 with special players as rewards (G-0039 corroborated). (5) Reddit, Jan 2026, thread 'Tips to complete the pass quickly': rate table — '115 DP per Win DLS Live; 65 DP per Win Career Mode; 45 DP per Draw DLS Live; 15 DP per Loss DLS Live'; '10 DP per Goal (50 DP max)'; '10 DP per Clean Sheet'; ads: '50 DP Ads per Win DLS Live; 35 DP Ads per Win Career Mode; 25 DP Ads per Draw/Lose DLS Live'; 'DP are capped at 5:0 win'; 'you can buy better season pass that grants bonus DP'; boosts: 'Common DP Boost 50% for 25 Gems (3 Matches)', 'Rare DP Boost 75% for 35 Gems (5 Matches)'; plus a worked expected-value calculation (about 79.5 DP/match at 40/15/45 W/D/L in DLS Live) whose arithmetic sums correctly.",
+      "kb_paths_touched": [
+        "kb/topics/economy_currencies_and_iap.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md",
+        "kb/volatility_model.md",
+        "logs/revision_register.md"
+      ],
+      "deception_screen": {
+        "incentive": "mixed per domain",
+        "detail": "bluestacks.com is an ANDROID EMULATOR VENDOR: its guides incentivise playing DLS on PC via their emulator, so its framing ('passive reward system', 'check regularly') is engagement-driving, though its factual claims are specific and cross-checkable; gamingonphone is a general mobile-guide site (ad-driven); the two Reddit threads are users with no commercial stake, and one includes a worked calculation whose arithmetic is checkable and correct.",
+        "outcome": "screening OPEN for bluestacks and gamingonphone with incentives noted; Reddit threads treated as user-generated observations"
+      },
+      "conflicts_found": [
+        "DP rates differ between dated sources: Jan 2026 (Career win 65, DLL win 115, CS 10) vs May 2026 (Career 5-0 win 120, +ad 160) vs Dec 2024/DLS25 (Career win 75, CS 15, max 140). Either rates changed across patches, or the numbers mix base/bonus/ad components differently. Disposition: DP rates are VERSION-SENSITIVE and no undated rate may be used; the qualitative differential (DLL > Career) is constant across all four dated sources and is what gets promoted (R-0006).",
+        "Clean-sheet value: 15 (Dec 2024) vs 10 (Jan 2026) — same reading as above.",
+        "Ladder clock: bluestacks says cycles last 90 days and reset, while the live English League Classics ladder is tied to a 10/14 end date on FTG's event page. Either the 90-day cycle and the event window are different clocks over the same system, or one source is wrong. Recorded as an open reconciliation (G-0040), not resolved by preference."
+      ],
+      "confidence_note": "The qualitative claim — DLS Live pays more DP per match than Career Mode — now rests on four independent parties across three platforms and three dates (two guide sites, two Reddit threads with several distinct users), all agreeing on direction while disagreeing on magnitudes. That is agreement, not a checkable origin, so per Mechanism 5 it lands at Community Consensus (R-0006), explicitly below High Confidence, and a single post-match DP capture would move it to a checkable-origin tier. The MAGNITUDES stay Speculative and version-stamped; the boost economy (Common 50%/25 gems/3 matches; Rare 75%/35 gems/5 matches; Legendary exists) is the sharpest new economic fact because it makes gems convertible into ladder speed, which converts the user's ad-earned currency into event progress and puts a price on time. The 90-day cycle with unclaimed-reward loss, the Progression Bank (10-day DLL seasons), Season Points from Career Mode, and the Global Challenge Cup are new named systems, each single-sourced and each opened as a gap.",
+      "discovered_not_yet_visited": [
+        "the two Reddit DP threads in full (comment trees may hold more rates and a current-ladder datapoint)",
+        "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-dream-points-quickly/ (full render; the 2025 baseline)",
+        "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html (full render; Progression Bank, Global Challenge Cup, Season Points)",
+        "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ (a fourth guide domain found via the artwork search)",
+        "an in-game post-match DP summary capture — the checkable origin that would promote the differential beyond Community Consensus"
+      ],
+      "leads_consumed_from": "G-0038, G-0039 (turn-6 handoff next actions)"
+    },
+    {
+      "id": "S-0032",
+      "timestamp_utc": "2026-09-27T21:08:00Z",
+      "session": 1,
+      "turn": 7,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "image-search (attempt at the official Cult Heroes artwork)",
+      "tool": "image_search",
+      "url": null,
+      "resolved_url": null,
+      "domain": "(image search)",
+      "http_status": null,
+      "outcome": "success",
+      "query": "DLS 26 Cult Heroes event banner artwork de Gea Dybala Dream League Soccer 2026",
+      "depth": null,
+      "source_type": "mixed",
+      "language": "en",
+      "chunk": "3 results",
+      "raw_archive_path": null,
+      "payload_summary": "NEGATIVE FOR ITS PRIMARY TARGET, POSITIVE FOR DISCOVERY: no official Cult Heroes event artwork surfaced. Result 1 is a FAN-MADE CONCEPT ('Concept | DLS 26 Event - World Cup Heroes', r/DreamLeagueSoccer) — recorded so it is never mistaken for official art; result 2 is dreamkitsapp's world-cup-heroes image (third-party database art); result 3 is a NEW GUIDE DOMAIN, thesoccerera.com, with a DLS26 launch article ('New Clans, Upgraded Graphics, and Star-Studded Player Ratings'). The official artwork (play-lh 851x2160, S-0023) therefore remains UNREAD and remains the roster's first-party confirmation route; image search is not a reliable route to it, so the next attempt should read a page that embeds the known asset URL or FTG's own channels.",
+      "kb_paths_touched": [
+        "logs/research_queue_active.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "n/a for the negative result; thesoccerera.com enters screening OPEN as a fourth guide domain",
+        "detail": "a fan concept image is not evidence of anything except community expectation; recording it prevents future confusion",
+        "outcome": "no register entry"
+      },
+      "conflicts_found": [
+        "none; the absence of official artwork in image results is a route failure, not a finding about the game"
+      ],
+      "confidence_note": "Method lesson recorded: image search finds community and guide art readily but official store assets rarely; the reliable route to the artwork is a page-render of a page embedding it (the Play event page itself, already fetched — its asset URL is known) or FTG's own channels. The negative result is logged as a route limitation, never as 'the artwork does not exist'.",
+      "discovered_not_yet_visited": [
+        "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ (fourth guide domain)",
+        "FTG social channels for official Cult Heroes art (Facebook/Instagram/TikTok/X/YouTube)",
+        "a route to read the known play-lh artwork URL directly (a page embedding it, or image tooling against the exact URL)"
+      ],
+      "leads_consumed_from": "turn-6 handoff (read the Cult Heroes event artwork)"
     }
   ],
   "frontier": {
-    "discovered_total": 124,
-    "visited_total": 19,
+    "discovered_total": 134,
+    "visited_total": 22,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -1350,7 +1479,14 @@
       "https://dlskiturl.com/category/dls-26/ and /category/classic/ — site archives likely holding EARLIER ladder articles (G-0039)",
       "https://dlsmod.com/ — second guide/mod domain",
       "a higher-resolution or second capture of Isco's signing screen (settle PAS, G-0041)",
-      "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, highest rating seen; bearing on the ceiling question"
+      "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, highest rating seen; bearing on the ceiling question",
+      "the two Reddit DP threads IN FULL (comment trees may hold current-ladder datapoints): reddit.com/r/DreamLeagueSoccer/comments/1tqfsm7/ and /comments/1qhuwv8/",
+      "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html — full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
+      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-dream-points-quickly/ — the Dec-2024 DLS25 DP baseline",
+      "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ — fourth guide domain",
+      "an in-game POST-MATCH DP SUMMARY capture — the checkable origin that would promote the mode differential beyond Community Consensus",
+      "the Berbatov and Cole ladder card images",
+      "FTG social channels for OFFICIAL Cult Heroes artwork (image search failed to find it; the known play-lh URL needs an embedding page or direct tooling)"
     ]
   }
 }
