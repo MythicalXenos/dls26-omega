@@ -671,11 +671,58 @@
         "Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=1462911602) as a structured route"
       ],
       "leads_consumed_from": "S-0002, S-0015"
+    },
+    {
+      "id": "S-0018",
+      "timestamp_utc": "2026-09-27T18:20:00Z",
+      "session": 1,
+      "turn": 2,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "url": "https://sakibpro.com/players",
+      "resolved_url": "https://sakibpro.com/players/",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "databases and tools",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "Third-party player database landing page. CLIENT-SIDE RENDERED: the body returned only 'Loading Players Database...' — no player rows, so the data sits behind a script/endpoint that page-render alone will not return. What the static HTML DOES expose: (1) A **card-type filter enumerating 12 values verbatim**: Normal, Season Pass, Cult Heroes, Champion, World Winners, Dreamstar 25, Dreamstar 26, World Cup Heroes, Classic, Team 2025, Kickoff, Dynamic Star — plus 'All Card Types', sorts 'Top Rated First' and 'Sort by Card Type', and a separate 'Upcoming Players' block linking to /players/trending.php. (2) A **position filter** rendered as the unsplit string 'CFLWRWSSAMCMDMLMRMCBLBRBLWBRWBGK' (cautious parse CF/LW/RW/SS/AM/CM/DM/DL/MR/MC/BL/BR/BLW/BRW/GK; parse uncertain, string recorded verbatim) plus club and country filters; prose separately names 'Center Back (CB)' and 'Left Winger (LW)'. (3) **Stat vocabulary: OVR, SPE (Speed), ACC (Acceleration)**; sorts for Fastest/Tallest/Shortest; claim of 'maximum potential (**+10 OVR upgrades**)'; 'real-world transfer coin costs'; 'hidden gems'. (4) Claimed pool size 'over **14,000 players**'. (5) TWO NEW TOOLS discovered: **Price Calculator** (/players/price-calculator.php) and **Player Comparison** (/players/compare.php), on top of the three already known. (6) FAQ prose of machine-generated SEO character: ratings accuracy self-certified as 'Yes, absolutely' against 'generic sports portals or copycat gaming blogs', with 'our player indexing engines process data from active live updates', 'Verified base stats, **manual overriding adjustments**, and tactical updates are systematically synced into the cache structure', and 'The server engine automatically evaluates and indexes profiles using an aggregate processing metric across both Speed (SPE) and Acceleration (ACC) coefficients'. NO version stamp, NO date, NO extraction method disclosed, NO 'updated as of' marker anywhere on the page.",
+      "kb_paths_touched": [
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/deception_register.md",
+        "kb/gaps.md",
+        "logs/research_queue_technical.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED — authority inflation plus a direct commercial interest in the user trusting its numbers",
+        "detail": "Three signals. (a) The page self-certifies its own accuracy in blanket terms ('Yes, absolutely') while disparaging unnamed competitors — an unverifiable claim made by the party with the most to gain from it. (b) The prose is pseudo-technical machine-generated filler ('indexing engines', 'cache structure', 'aggregate processing metric', 'server engine') that describes no actual method; a genuine extraction pipeline would name its source. (c) It admits '**manual overriding adjustments**' are applied to the data — i.e. human edits sit on top of whatever is extracted — while simultaneously asserting the result is verified. Combined with no date and no version stamp, freshness and provenance are both unverifiable. This does NOT make the enumerations false: the card-type list independently echoes 8 official FTG terms, which is why the page is worth recording at all.",
+        "outcome": "capped at Speculative; authority over stats/prices/ceilings NOT accepted; register row opened; enumerations recorded as checkable vocabulary to be tested against FTG's own terms and client assets"
+      },
+      "conflicts_found": [
+        "Pool size: SakibPro claims 'over 14,000 players' while FTG officially advertises '4,000+ FIFPRO licensed players' (S-0002/S-0011). A 3.5x gap. Leading hypothesis: the database counts each card variant as a separate row (12 card types would multiply a base pool fast), and/or includes non-FIFPRO 'Classic greats' and generated players, and/or spans versions. Recorded as an OPEN question, not resolved by assumption.",
+        "Card-type label mismatch: SakibPro's 'Dynamic Star' (singular) vs FTG's official 'Dynamic Stars'; SakibPro's 'Classic' vs FTG's 'Classic Icons'/'legendary Classic greats'. Label drift of this kind is normal for third-party databases and is recorded rather than harmonised.",
+        "Five card types have no official echo at all yet: Champion, Dreamstar 25, Dreamstar 26, Team 2025, Kickoff. Not treated as confirmed and not treated as false.",
+        "Season Pass appears as a CARD TYPE here while FTG's store lists it only as a $3.99 IAP product (S-0017) — compatible, and consequential: it implies the paid pass yields cards."
+      ],
+      "confidence_note": "Single third-party origin with an undisclosed method, admitted manual overrides, no date and no version stamp. Under the Evidence Hierarchy its stats would be recalled-grade at best, so NO rating, price or ceiling from this page is recorded as a game fact anywhere in the KB. Its real value this turn is bounded vocabulary (12 card types, a position string, OVR/SPE/ACC) and two technical facts: the data is client-side rendered behind an endpoint, and two more tools exist. Both are checkable next.",
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players/trending.php (server-rendered 'Upcoming Players' — may expose real player names incl. Cult Heroes)",
+        "https://sakibpro.com/players/price-calculator.php",
+        "https://sakibpro.com/players/compare.php",
+        "https://sakibpro.com/players/simulator.html",
+        "the site's own JS, to locate the database's data endpoint",
+        "a SECOND player database (none exists in the frontier yet — mandatory for any cross-check)"
+      ],
+      "leads_consumed_from": "S-0013/S-0014 (sakibpro.com home listed /players as its Player Database tool)"
     }
   ],
   "frontier": {
-    "discovered_total": 60,
-    "visited_total": 6,
+    "discovered_total": 66,
+    "visited_total": 7,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -730,7 +777,12 @@
       "non-English App Store/Play storefronts for the 14 non-English languages",
       "Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=1462911602) as a structured route",
       "https://itunes.apple.com/lookup?id=1462911602&country=us",
-      "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr"
+      "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
+      "https://sakibpro.com/players/trending.php (server-rendered Upcoming Players — may name real players incl. Cult Heroes)",
+      "https://sakibpro.com/players/price-calculator.php",
+      "https://sakibpro.com/players/compare.php",
+      "sakibpro.com site JS to locate the player-database data endpoint",
+      "a SECOND player database (mandatory: no cross-check for SakibPro exists)"
     ]
   }
 }

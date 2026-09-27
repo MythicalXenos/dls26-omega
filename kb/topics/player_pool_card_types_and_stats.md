@@ -1,0 +1,83 @@
+# TOPIC: Player pool, card-type taxonomy, positions, and stat vocabulary
+
+**Sweep:** STATE_1_RESEARCH_SWEEP. **Opened:** 2026-09-27T18:20Z. **Exhaustion declaration:** NONE — open.
+Serves PROMPT.md §10 WORKFLOW step 3 (enumerate the candidate pool) and TAXONOMY-GATE dimension 4 (Special Card taxonomy).
+
+**Source-quality warning first.** Everything on this page comes from ONE third-party source — sakibpro.com — whose extraction method is undisclosed, which admits to "manual overriding adjustments", and which self-certifies its own accuracy in machine-generated SEO prose (see `kb/deception_register.md`). Under the Evidence Hierarchy this is *recalled-grade at best* and is capped at Speculative; it is recorded because the enumerations below are checkable against FTG's own vocabulary and, later, against client assets. **None of it may be used to state a player's rating, price or stat.** Its value right now is that it names a bounded vocabulary of card types, positions and stat abbreviations to test.
+
+---
+
+## Card types claimed by the database's own filter (S-0018)
+
+Verbatim filter list, in the order rendered: `Normal`, `Season Pass`, `Cult Heroes`, `Champion`, `World Winners`, `Dreamstar 25`, `Dreamstar 26`, `World Cup Heroes`, `Classic`, `Team 2025`, `Kickoff`, `Dynamic Star` — 12 values, plus an `All Card Types` default and sort options "Top Rated First" and "Sort by Card Type".
+
+- CLAIM: DLS26 special-card vocabulary includes at least the 12 values above, of which **Cult Heroes** and **Season Pass** are card types rather than only event names.
+  - source: S-0018 (page-render of sakibpro.com/players, filter controls)
+  - first_published: page retrieved 2026-09-27 (the page carries no date or version stamp — freshness is unverifiable, which is itself recorded)
+  - last_verified: 2026-09-27 by page-render
+  - confidence: Speculative (gate-capped: single third-party origin, extraction method undisclosed, admitted manual overrides; origin NONE for the card-type→game mapping — SakibPro is not FTG)
+  - volatility: volatility-High
+  - volatility_dimensions: patch-triggered: a new collection ships with an update (Cult Heroes did, between 2026-09-14 and 2026-09-27) | event-triggered: event-scoped card types appear and expire with their events; a card type listed here may be defunct or may be missing entirely
+  - origin: NONE FOUND for the mapping (third-party database); DIRECT only for what the page itself displays
+  - independence: single origin — no second database discovered yet, so no cross-check exists
+  - deception_screen: **incentive and authority inflation observed** — see register row; blanket accuracy self-certification ("Yes, absolutely") and pseudo-technical filler ("indexing engines", "cache structure", "aggregate processing metric")
+  - datamining: pending-confirmation (flagged 2026-09-27; client card definitions would settle every value here — blocked, gaps G-0004)
+  - evidence_class: verified that the page says this; recalled-grade for what it implies about the game
+  - game_version: UNSTATED by the page. The presence of "Dreamstar 25", "Team 2025" and "Dynamic Star" alongside "Cult Heroes" suggests it spans more than one version, but that is inference
+  - notes: **Cross-check against official FTG vocabulary (which outranks it):** FTG's own text confirms Special Players, the "Cult Heroes" collection, "Classic greats" / Classic Icons, Dynamic Stars, World Cup Heroes, World Winners and a paid Season Pass. So 8 of these 12 values have an official echo of some kind; **`Champion`, `Dreamstar 25/26`, `Team 2025`, `Kickoff` and the exact label `Dynamic Star` (vs FTG's "Dynamic Stars") have no official echo yet** — each is an open question, not a fact. Conversely, official terms NOT in SakibPro's list (e.g. FTG's "Classic Icons", "World Winners" appears in both) must be checked: an official card family absent from a database is a database gap, not proof the family does not exist.
+  - **`Season Pass` as a card type is consequential:** it implies the paid $3.99 Season Pass (S-0017) yields cards, which changes its value calculation for the user's spending decision — and cannot be advised on until the pass's contents and whether a free track exists are researched.
+
+## Positions claimed by the database's own filter (S-0018)
+
+Raw rendered string, unsplit: `CFLWRWSSAMCMDMLMRMCBLBRBLWBRWBGK`, following `All Positions`. A cautious parse yields roughly: CF, LW, RW, SS, AM, CM, DM, DL, MR, MC, BL, BR, BLW, BRW, GK — **the parse is uncertain and the string is recorded verbatim so no false precision is created**. The page's own prose separately names "Center Back (CB)" and "Left Winger (LW)", so CB exists even though it is not clearly separable in the filter string.
+
+- CLAIM: The position vocabulary in circulation includes at least CF, LW, RW, SS, AM, CM, DM, MC, MR, GK and CB, with additional values that may be wing-back or defensive-line variants (BL/BR/BLW/BRW/DL).
+  - source: S-0018 (filter string + prose)
+  - first_published / last_verified: retrieved and verified 2026-09-27 by page-render
+  - confidence: Speculative (gate-capped: single third-party origin; the string itself is ambiguous)
+  - volatility: volatility-Low for a position vocabulary (it changes with a positional-system overhaul, if ever)
+  - volatility_dimensions: patch-triggered: a rework of the positional system | event-triggered: none
+  - origin: NONE FOUND for the mapping to the game; DIRECT for the page text
+  - independence: single origin
+  - deception_screen: as above
+  - datamining: pending-confirmation (flagged 2026-09-27)
+  - evidence_class: verified (the string) / inference (the parse)
+  - game_version: unstated
+  - notes: **Directly relevant to the user's formations.** The user plays 3-2-3-2 and has unlocked 3-1-4-2 (user-stated) — both are wing-back-heavy shapes, so which of BL/BR/BLW/BRW/DL are real position codes and how they map to a back three matters more to this user than an abstract position list does. Also relevant to the user's "no position locking" statement (user-stated, verification owed): whether DLS26 has position locking at all, and what codes like SS (second striker) imply about role flexibility, is an OPEN gap — never to be answered by analogy to another game.
+
+## Stat vocabulary and rating ceiling claimed (S-0018)
+
+Named on the page: **OVR** (overall rating), **SPE** (Speed) and **ACC** (Acceleration) — the two stat abbreviations the page says its "Fastest Players" sort aggregates; "**maximum potential (+10 OVR upgrades)**"; "real-world transfer coin costs"; "hidden gems"; filters for Tallest/Shortest/Fastest players; club and national-team groupings ("All Clubs", "All Countries", "🛡️ Clubs", "🌍 National Teams"); and a claimed pool size of **"over 14,000 players"**.
+
+- CLAIM: A +10 upgrade ceiling above base OVR is in circulation as this database's model of maximum potential.
+  - source: S-0018 (page prose: "view their maximum potential (+10 OVR upgrades)")
+  - first_published / last_verified: retrieved and verified 2026-09-27
+  - confidence: Speculative (gate-capped: single third-party origin, undisclosed method, admitted manual overrides)
+  - volatility: volatility-High — an upgrade ceiling is exactly the kind of number an economy rebalance changes; SakibPro's own timeline alleges an "Economy Reset" on 2026-05-27 (S-0013/S-0014), so any ceiling from an unknown date may predate it
+  - volatility_dimensions: patch-triggered: balance or economy changes | event-triggered: event cards may carry their own ceilings (Cult Heroes' "boosted attributes" hints at a different baseline)
+  - origin: NONE FOUND
+  - independence: single origin
+  - deception_screen: as above; note the incentive — a tool that promises to compute "maximum potential" and a price has a direct interest in the user trusting those numbers
+  - datamining: pending-confirmation (flagged 2026-09-27; the client's upgrade curve is the checkable route)
+  - evidence_class: recalled-grade (a third party's model, not an extraction)
+  - game_version: unstated — this is the decisive weakness: an undated ceiling claim cannot be placed against 13.430
+  - notes: PROMPT.md's terminology list carries "ceiling" as OPEN. **This does not resolve it.** It records one third party's model. The pool size (14,000+) is also unreconciled with FTG's official "4,000+ FIFPRO licensed players" (S-0002/S-0011) — a 3.5× gap that must be explained before either number is used: plausible explanations include counting every card variant as a separate row (12 card types × a base pool would multiply fast), counting non-FIFPRO/"Classic greats" and generated players, or double-counting across versions. **HYPOTHESIS, not knowledge — owed.** If the database counts card variants as players, then its "14,000" is a card count and the two numbers are not in conflict at all.
+
+## Tools and endpoints discovered (technical layer, S-0018)
+
+Beyond the three tools already recorded (Player Database, Upgrade Simulator `/players/simulator.html`, Card Creator), this page names **two more**: the **Price Calculator** (`/players/price-calculator.php`) and **Player Comparison** (`/players/compare.php`), plus an **"Upcoming Players"** page (`/players/trending.php`).
+
+The database itself renders client-side — the page body returned only "Loading Players Database..." with no player rows — so **the actual data sits behind a script or endpoint that page-rendering alone will not return**. That is a TECHNICAL LAYER finding and the route to the candidate pool: find the data endpoint (candidates to probe by page-render: `/players/trending.php`, which is a server-rendered page and may list real player names; then common data paths under `/players/`; then read the site's own JS for the endpoint it calls). If no endpoint is reachable from here, the candidate pool cannot be enumerated from this source and a second database or client extraction becomes mandatory rather than optional.
+
+## Open questions this page raises (all OPEN gaps — none may be closed as "does not exist")
+
+Whether each of the 12 card types exists in the game as claimed, and what each grants; whether Cult Heroes cards are already in the database (the filter says the type exists — the rows are unfetchable); whether Season Pass cards are paid-track rewards and whether a free track exists; what "+10 OVR" means mechanically (coaching? upgrade items? both?) and whether it applies to special cards; how 14,000+ reconciles with FTG's official 4,000+; what the real position codes are and whether position locking exists; whether SPE/ACC are the game's own stat names or SakibPro's labels; which version this data reflects; and whether the data is extracted from the client at all.
+
+## Research order for this topic (by source)
+
+1. Official: FTG's store copy and channels for each card family name (the only origin that can confirm a card type); in-game card art and labels via community screenshots; FTG support text on Season Pass and coaches.
+2. Databases and tools: a SECOND database (mandatory — no cross-check exists today); SakibPro's `/players/trending.php`, `/players/price-calculator.php`, `/players/compare.php`, `/players/simulator.html` and the site's own JS to locate the data endpoint; every other database found in any of the 15 client languages.
+3. English community: card-type guides ("all special cards explained"), upgrade-ceiling threads, position-code discussions, Season Pass worth-it threads.
+4. Non-English community: the 14 non-English client languages (ar, nl, fr, de, id, it, ja, ko, pt, ru, zh-Hans, es, zh-Hant, tr), plus any non-client-language community found — card lists are often published first in tr/pt/id for this franchise (HYPOTHESIS to test).
+5. Technical: client card definitions and the upgrade curve (Step 2); the database's network endpoint (this file); Wayback captures of this page to date its data and detect silent changes.
+6. User-generated: comments and review mining on card value, upgrade costs and price formation, processed for unique information.
