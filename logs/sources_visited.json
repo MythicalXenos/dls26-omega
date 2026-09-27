@@ -1748,11 +1748,59 @@
    "what": "dlskiturl 'classic' category = mostly classic-KIT pages (Liverpool 2001-02/2006-07, Argentina 1998, Brazil 1994, Real Madrid 2003-04/2007-08, Barca 2012-13, Man City 2008-09, superhero kits) + the single English League Classics ladder article. Dead end for earlier ladder articles (their category system does not archive ladder rounds). Kit-URL leads only.",
    "files": [],
    "rev": "dead end for G-0039 articles; kit import URLs catalogued by page name"
+  },
+  {
+   "id": "S-0058",
+   "route": "fetch_page",
+   "url": "https://dlsmod.com/c-spamming-in-dls/",
+   "what": "C-SPAMMING exploit study (G-0069, All-Methods documented w/ risk framing): lofted C-button through-ball over the defensive line to a tall/fast striker, repeated. Loop: attackers (Haaland/Mbappe/BATISTUTA/Kane/Dembele/BERGKAMP/ZOLA), tactics->ATTACKING (live-formations icon), push CBs up after kickoff, C pass at ~half+ power gauge, toggle to attacker + dash to beat the offside trap while ball airborne, finish 1v1 vs rushing keeper. Weaknesses: own high line equally exposed to the counter-loft; kit-colour confusion. Engine mechanics, not a cheat.",
+   "files": [],
+   "rev": "gameplay_systems addendum (C-spam meta + counters); G-0069 documented"
+  },
+  {
+   "id": "S-0059",
+   "route": "fetch_page",
+   "url": "https://dlsmod.com/dls-clans/",
+   "what": "DLS CLANS mechanic model (official FB reel 1334234167976554, Nov-2025): rank-gated unlock; join via Clans tab (browse/name/code/create); creation: badge style+background+icon+frame+dressing, name, country, min Team Rank entry req, open/closed/invite-only; leader kicks. Clan Points from: regular matches, live-event wins, DREAM DRAFT event wins, real-life scenarios, Season Pass tiers, internal clan matches. Leaderboard by Clan Points. FB group dlsclansglobal.",
+   "files": [],
+   "rev": "gameplay_systems addendum (Clans); G-0059 advanced; S-0055 agent-source hypothesis corroborated"
+  },
+  {
+   "id": "S-0060",
+   "route": "fetch_page x2 (player pages)",
+   "url": "https://dreamkitsapp.com/player/28333 + /player/27675",
+   "what": "PER-PLAYER SHEETS = exact internal stats (0-999), profile (foot/height/weight/birthdate/nickname), per-version rating table, base-version link. Dybala 28333: Left 177cm 75kg b.1993-11-15; SPE812 ACC909 STA808 STR629 CON929 PAS909 SHO909 TAC499 GKR141 GKH157 => matches Dec-2024 capture display to the unit (81/90/80/62/92/90/90/49). Berbatov 27675: Right 189cm 75kg b.1981-01-30; SPE799 ACC789 STA760 STR850 CON919 PAS859 SHO929 TAC399 GKR250 GKH255 => reproduces dlskiturl 91-con/92-sho/low-spr+sta. Version-stamped DLS V160-13430 (current). Header badge 85|95 = base|presumed-max. Base versions: Dybala 9553@79, Berbatov 539@77.",
+   "files": [],
+   "rev": "player_pool addendum (12); first current-build stats; Dybala fidelity DB-backed"
+  },
+  {
+   "id": "S-0061",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/cult-heroes",
+   "what": "Cult Heroes family (12 cards, IDs): Dybala 28333 85 SS/RW · De Gea 28324 85 GK · Aubameyang 28331 85 CF/RW GAB · Francisco Alarcon=ISCO 28327 84 AM/CM · Vozinha 28658 84 GK CPV (id outside block = added later as 12th Man; DB 84 vs dlskiturl 83) · Ziyech 28332 84 RW/AM · Otamendi 28334 84 CB · Insigne 28328 84 LW/RW · David Luiz 28325 84 CB/DM · Shaqiri 28330 83 AM/RW · Herrera 28329 83 CM/DM · Blind 28326 83 CB/LB.",
+   "files": [],
+   "rev": "player_pool addendum (12b); roster cross-check vs dlskiturl done"
+  },
+  {
+   "id": "S-0062",
+   "route": "fetch_page (JS-rendered, partial)",
+   "url": "https://dlsinside.com/players",
+   "what": "dlsinside.com full-DB front: JS widget only (position-glyph loader + Start! + app ad com.dlsinside). Text extraction empty; individual slug pages (dlsinside.com/player/{name}/{id}) likely render. Dead end for the hub; slug pages + the app are the routes.",
+   "files": [],
+   "rev": "transport dead end recorded; slug-page route remains"
+  },
+  {
+   "id": "S-0063",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/28327",
+   "what": "ISCO full sheet (R-0005 quarantine RESOLVED): Francisco Alarcon, nickname Isco, ESP, Right, 176cm, 79kg, b.1992-04-21 (34). SPE812 ACC873 STA796 STR659 CON930 PAS889 SHO810 TAC538 GKR236 GKH158 => display 81/87/79/65/93/88/81/53. PAS = 889/88 (was quarantined). Header badge 84|94 (base+10 max pattern). Base version 7293@79. V13430.",
+   "files": [],
+   "rev": "R-0011 written; Isco fidelity 7/8 -> 8/8; G-0041 advanced (hi-res capture still owed for artifact tier)"
   }
  ],
  "frontier": {
-  "discovered_total": 210,
-  "visited_total": 57,
+  "discovered_total": 216,
+  "visited_total": 63,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -1898,15 +1946,15 @@
    "DLS27 Kick-Off Stars concept + Gallagher/Peter Robinson leak verification (G-0063)",
    "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
    "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
-   "dlsinside.com/players (the full-DB site behind img.dlsinside.com)",
-   "dreamkitsapp dynamic-stars p2-3 + player/{id} stat pages (exact stats, G-0065)",
    "dreamkitsapp /players (all-base-players DB) + /teams",
    "GIIODROID Facebook leak archive (G-0063)",
    "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)",
-   "dlsmod.com/c-spamming-in-dls/ (exploit study + counters, G-0069)",
-   "dlsmod.com/dls-clans/ (clan mechanics second source, G-0059)",
    "dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
-   "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)"
+   "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
+   "dlsinside.com/player/{slug}/{id} slug pages (second DB surface for cross-check, e.g. /player/francisco-alarcon/28327)",
+   "dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-heroes|kickoff-stars|champion|star|secret|team-of-2025",
+   "Isco maxed collector card bigger fetch (confirm 94 max, G-0016)",
+   "FTG socials sweep + GIIODROID FB archive (G-0062/0063)"
   ]
  }
 }

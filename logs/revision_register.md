@@ -75,3 +75,9 @@ not promoted: the gem PRICES of the tiers (25/35/125) stay at their R-0007 tiers
 - Prior tier: Speculative single-source (bluestacks DLS24-era writeup "Each Prize ladder cycle lasts for 90 days").
 - New evidence: S-0044 — first-party UI capture showing "LADDER ENDS IN 89d 23h 58m" at cycle start (checkable: kb/evidence/italian_league_classics_ladder_screen.jpg). Two independent origins (third-party writeup + raw UI capture) + checkable artifact ⇒ HC per the adopted gate.
 - Boundaries: this promotes the CYCLE-LENGTH MECHANISM (~90 days). It does NOT resolve G-0040 (the current English League Classics end-date dispute: 90-day arithmetic vs FTG's 10/14/2026) — the current cycle's displayed timer must still be captured; both readings stay monitored. Version window: DLS25-era (Dec-2024) through at least the Italian cycle (Dec-2025).
+
+## R-0011 (turn 12, 2026-09-28): Isco PAS quarantine (R-0005) resolved — PAS = 889 internal / 88 display at V13430
+- Prior state: Isco collector-card capture (R-0005) had PAS quarantined (illegible/ambiguous on the capture); fidelity scored 7/8.
+- New evidence: S-0063 — dreamkitsapp player sheet (id 28327, version-stamped V160-13430 = current build) reads **PAS 889**. The same DB reproduced the Dybala capture's eight displayed stats to the unit (S-0060) and Berbatov's dlskiturl card reads (919/929/799/760), so its internal scale is a faithful extraction of game data (display = floor(value/10)).
+- Boundaries: resolution is third-party-extraction tier (Speculative-→-HC-eligible but lacking a second independent extraction of THIS card); a single hi-res capture of the Isco card display would promote it. Fidelity for Isco updated 7/8 → 8/8 (all fields now read, PAS via DB).
+- Side finding: header badges "84|94" (Isco) / "85|95" (Dybala, Berbatov) = base OVR | presumed maxed OVR (base+10); the community "+11" claim remains open (G-0016).

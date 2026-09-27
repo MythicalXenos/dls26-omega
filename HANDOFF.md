@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 11 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 12 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch, `reset --soft` to the remote tip, re-commit, push, verify. Never push diverged; never force-push. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T02:00Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T02:50Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -53,14 +53,14 @@ None — NO OUTPUT DURING BOOTSTRAP is in force. Turn 1's only user-facing outpu
 
 Resume STATE_1 exactly at the position below. Do not restart, do not summarize, do not re-run completed fetches (check `logs/sources_visited.json` before each visit). Do not enter STATE_2 — the taxonomy gate in `logs/sweep_tracker.md` is unmet on all six dimensions, and Step 1 exhaustion has not been declared.
 
-Queue as of turn 11 (2026-09-28T01:55Z):
-1. **Turn-start history check first** (ISS-007 rule — four recurrences; hash-verify per FILE before any reset; 106/106 this turn).
-2. dlsmod.com mechanics sweep — c-spamming exploit study + counters (G-0069), dls-clans (G-0059), dls25 Champions event model.
-3. dreamkitsapp player/{id} pages for exact stats (test: Dybala 28333, Berbatov 27675, Isco) + dynamic-stars p2-3 (G-0065).
-4. dlsinside.com/players full-DB render (the deeper source behind img.dlsinside.com).
-5. FTG socials sweep (TikTok/Facebook/Instagram) for ladder-announcement dating (G-0062) + GIIODROID FB leak archive (G-0063); bigger Isco maxed card (G-0041).
+Queue as of turn 12 (2026-09-28T02:45Z):
+1. **Turn-start history check first** (ISS-007 rule — five recurrences; hash-verify per FILE; lossless reset is now mechanical).
+2. dreamkitsapp family sweeps — world-winners / world-heroes / kickoff-stars / champion / star / secret / team-of-2025 (complete special roster with IDs) + the ladder classics' stat sheets (Desailly/Crespo/Trezeguet/Souness/Cole/Essien cross-check).
+3. dlsinside.com/player/{slug}/{id} slug pages as the second DB surface (cross-check tier promotion).
+4. Isco maxed collector card bigger fetch (G-0016 base+10 pattern / G-0041 artifact).
+5. FTG socials sweep (TikTok/Facebook/Instagram) for ladder-announcement dating (G-0062) + GIIODROID FB leak archive (G-0063).
 User-dependent queue, batched for first contact: **live "LADDER ENDS IN" timer + current ladder banner screenshot (settles G-0040's clock question and dates G-0062 — TOP ITEM)**; post-match reward photo (G-0055); the four challenge tabs (G-0056); ladder before/after claim screenshots (G-0049 mitigation); Cult Heroes agent-opening screen (G-0048); Dream Draft entry screen (G-0064); ADB/APK datamine start (STATE_2 gate, G-0054).
-State of the base at handoff: frontier 209 discovered / 57 visited / 153 unvisited; kb/evidence/ holds 11 files; **kb/topics/classic_card_inventory.md = the complete 32-card classic pool with version batches** (dreamkitsapp DB; ratings Speculative except 4 capture-validated). Ladder chronology (prize_ladder.md addenda 10b-10d): WORLD CUP CLASSICS (Dec-24, Bergkamp/Petit/Šuker/Batistuta) → 3 unknown DLS25 cycles → Oct-25 (Souness/Adams/Cole/Gascoigne) → MIDFIELD CLASSICS?/ITALIAN LEAGUE CLASSICS (6th ladder, Mar-26) → world-cup cycle → English League Classics (current: Berbatov 62.5k/Essien 115k/Cole 175k/Petit 250k). Special-card taxonomy = 10 families (player_pool.md addendum 11). R-0009 (Dream Draft 185 max) + R-0010 (90-day cycle mechanism) High Confidence. Cult Heroes (16 Sep–14 Oct 2026) roster complete; agent model = random pulls, source hypothesis clan points/pass/Draft/DLL/IAP (G-0066 weighted-pull odds open). Mod-APK risk documented in disputed_claims.md (never install without informed consent; defensive value only). DP resets between ladders; boost carryover OPEN (G-0044) — no stockpiling advice yet.
+State of the base at handoff: frontier 216 discovered / 63 visited / 153 unvisited; kb/evidence/ holds 11 files. **Turn 12 breakthrough: dreamkitsapp per-player sheets = exact V13430 internal stats (0-999), foot/height/weight/birthdate/nickname, per-version ratings, base-version links — Dybala's sheet matches the Dec-2024 capture to the unit, Berbatov's reproduces the dlskiturl card reads (faithful extraction; display = floor/10). Isco PAS = 889/88 resolved (R-0011, fidelity 8/8). Header badges base|base+10 = maxed-OVR pattern (G-0016).** Ladder chronology (prize_ladder.md 10b-10d) unchanged; classic_card_inventory.md = 32 cards/21 players. C-spam meta + counters documented (gameplay_systems, G-0069); Clan model complete (rank-gated; Clan Points from Draft wins/scenarios/pass tiers/internal clan matches). Cult Heroes (16 Sep–14 Oct 2026) roster DB-cross-checked (Vozinha 28658 = late 12th Man; DB 84 vs dlskiturl 83). Mod-APK risk documented in disputed_claims.md. R-0009/R-0010/R-0011 on the register. DP resets between ladders; boost carryover OPEN (G-0044) — no stockpiling advice yet.
 
 ## Disputed claims
 
