@@ -81,3 +81,67 @@ Whether each of the 12 card types exists in the game as claimed, and what each g
 4. Non-English community: the 14 non-English client languages (ar, nl, fr, de, id, it, ja, ko, pt, ru, zh-Hans, es, zh-Hant, tr), plus any non-client-language community found — card lists are often published first in tr/pt/id for this franchise (HYPOTHESIS to test).
 5. Technical: client card definitions and the upgrade curve (Step 2); the database's network endpoint (this file); Wayback captures of this page to date its data and detect silent changes.
 6. User-generated: comments and review mining on card value, upgrade costs and price formation, processed for unique information.
+
+---
+
+## ADDENDUM 2026-09-27T18:40Z — the rows ARE reachable: /players/trending.php is server-rendered (S-0019)
+
+Gap G-0019 is **partially closed**: the probe order's step 1 worked. `https://sakibpro.com/players/trending.php` returns real content to a page-render, unlike `/players/`. The master database's 14,000+ rows are still not retrievable this way — this page exposes only the "latest update" additions — so the candidate-pool enumeration required by PROMPT.md §10 step 3 remains unmet and steps 2-6 of the probe order still stand.
+
+### The 17 players listed as "newly added in the latest update"
+
+Claimed "Last Updated: September 27, 2026" (the retrieval date — see gap G-0022 on why that marker carries no information yet) and described by the site as "the complete, officially verified list of the 17 newly added players". No version number is given, so **it cannot be tied to 13.430**.
+
+**CULT HEROES (12)** — the live collection whose window is stated to end 10/14:
+
+| Player | Pos | OVR | Height | Age | Nat. | id |
+|---|---|---|---|---|---|---|
+| David de Gea | GK | 85 | 192cm | 36 | Spain | 28324 |
+| Pierre-Emerick Aubameyang | CF | 85 | 187cm | 37 | Gabon | 28331 |
+| Paulo Dybala | SS | 85 | 177cm | 33 | Argentina | 28333 |
+| David Luiz | CB | 84 | 189cm | 39 | Brazil | 28325 |
+| Francisco Alarcón | AM | 84 | 176cm | 34 | Spain | 28327 |
+| Lorenzo Insigne | LW | 84 | 163cm | 35 | Italy | 28328 |
+| Hakim Ziyech | RW | 84 | 180cm | 33 | Morocco | 28332 |
+| Nicolás Otamendi | CB | 84 | 183cm | 38 | Argentina | 28334 |
+| Daley Blind | CB | 83 | 180cm | 36 | Netherlands | 28326 |
+| Ander Herrera | CM | 83 | 182cm | 37 | Spain | 28329 |
+| Xherdan Shaqiri | AM | 83 | 169cm | 35 | Switzerland | 28330 |
+| Josimar José Évora Dias | GK | 83 | 189cm | 40 | Cape Verde | 28658 |
+
+**CLASSIC (4):** Michael Essien DM 85 178cm 44 Ghana id 26838; Andy Cole CF 84 178cm 55 England id 27096; Emmanuel Petit DM 84 185cm 56 France id 27203; Dimitar Berbatov CF 84 189cm 45 Bulgaria id 27675.
+**SEASON PASS (1):** João Pedro CF 82 182cm 25 Brazil id 28356.
+
+- CLAIM: The Cult Heroes collection consists of (or includes) the 12 players above, at OVR 83-85, and the same update added 4 Classic cards and 1 Season Pass card.
+  - source: S-0019 (page-render of sakibpro.com/players/trending.php)
+  - first_published: page dated 2026-09-27 by its own marker (unverifiable, G-0022); retrieved 2026-09-27
+  - last_verified: 2026-09-27 by page-render (verified that the page says this — NOT that the game contains it)
+  - confidence: Speculative (gate-capped: single third-party origin; authority over this domain's numbers withdrawn at DR-001; origin NONE FOUND)
+  - volatility: volatility-Critical
+  - volatility_dimensions: event-triggered: the collection's window is stated to end 10/14 (S-0016) | patch-triggered: further additions could extend the list at any time — the site claims it syncs automatically
+  - origin: NONE FOUND for the game mapping; DIRECT for the page text
+  - independence: single origin — no second database in the frontier yet, and FTG has published no player list on any surface reached
+  - deception_screen: authority inflation OBSERVED and escalated — "officially verified" and "Is this the official list? Yes" are self-asserted against an official record that publishes no list at all
+  - datamining: pending-confirmation (flagged 2026-09-27; client card definitions would settle names, ids, OVRs and the whole collection in one pass — blocked, gaps G-0004)
+  - evidence_class: verified (the page) / recalled-grade (the game)
+  - game_version: UNSTATED by the source
+  - notes: **This advances gap G-0010 from "nothing known" to "a candidate list awaiting first-party confirmation", and it is the single most time-sensitive item in the KB** — the window it describes is stated to close 10/14 while the user states they are grinding a prize ladder for a special player. Two named first-party confirmation routes: FTG's own Cult Heroes event artwork (the Play event page carries a tall image, S-0016) and FTG's social channels. Weak positive signals worth recording without inflating them: the ages are internally consistent with the players' real birth years as of 2026 (Cole 55, Petit 56, Berbatov 45, Essien 44, de Gea 36), and the OVR band 82-85 with GK/defence/midfield/attack spread looks like a designed collection rather than a random list. Neither verifies the numbers DR-001 withdrew authority over. **Recorded anomaly, not smoothed:** Évora Dias (id 28658) sits far outside the contiguous Cult Heroes block 28324-28334, and Cape Verde is an unusual inclusion for a collection described by FTG as "the names the fans remember" — either a later addition, a mis-categorisation by the site, or evidence that the collection is larger than this page shows. All three readings stay open.
+
+### Structure recovered (technical layer — useful regardless of whether the stats are right)
+
+- Per-player URL pattern: `/players/{card-type-slug}/{player-slug}/{numeric-id}/`, with slugs observed: `cult-heroes`, `classic`, `season-pass` — so the site's own taxonomy is encoded in its URL space and can be enumerated per card type.
+- Card art: `https://cdn.sakibpro.com/assets/dls26/{id}.webp`. **The site GENERATES "maxed" card images, so images from this domain are renders, not extractions, and are not evidence of in-game appearance.**
+- **Id contiguity hypothesis (G-0025):** 11 of the 12 Cult Heroes ids run 28324→28334 with no gaps, and the Season Pass card sits at 28356. If ids are allocated sequentially per release batch in the client, a new collection is detectable by probing neighbouring ids before any announcement — an early-warning sensor with real lead time. This is inferred from a third party's id space, so it is a hypothesis to confirm against client data, never a fact to act on.
+- A `/tools/` index exists (seen in the simulator's breadcrumb) and may list tools not linked from the home page — an unvisited lead.
+
+## ADDENDUM 2026-09-27T19:02Z — the Cult Heroes collection is enumerated as exactly 12 (S-0022), and per-card-type index pages exist
+
+The card-type index `/players/cult-heroes/` is server-rendered and states "**Showing 12 of 12 Players Found**" and "a total of **12 verified players** cataloged in our Cult Heroes roster section". Its 12 rows are **identical in name, id and OVR to the trending page's Cult Heroes subset** (S-0019), and it supplies the common display names for the two players listed there by legal name: Francisco Alarcón = **Isco** (AM, 84, id 28327) and Josimar José Évora Dias = **Vozinha** (GK, 83, id 28658).
+
+Two consequences, both recorded rather than asserted:
+1. **The "17 new players" page was not a subset view of a larger collection** — the index gives the Cult Heroes total as 12, matching. Same author, so this is still ONE source and the tier cannot rise; but the main alternative explanation for the data is now closed, and the id-28658 outlier is better explained as an id-allocation quirk rather than a mis-categorisation, since Vozinha (a Cape Verdean goalkeeper) is a plausible cult hero on the merits.
+2. **There is one server-rendered index page per card type** (`/players/{card-type-slug}/`), which is the fastest available route to the whole special-card taxonomy (TAXONOMY-GATE dimension 4): each page yields that family's membership and count without needing the client-side master database. Unvisited: `classic`, `season-pass`, `team2025`, `world-winners`, `normal`, `dynamic-star` and any other slug the 12 filter values imply.
+
+New vocabulary from this page's FAQ, recorded with its provenance: special-edition cards are upgradable — "By using **team training coaches (Fitness and Technical)**, you can boost any player by **up to +10 over their current base rating**, transforming them into **maxed-out black cards**". "**Black card**" is the first lead on a visual card-art tier at maximum development, which the Special Card Tracking framework needs for rarity and recognisability; and "team training coaches" is a phrase grouping the Fitness and Technical types. Both are third-party claims from a domain whose authority over numbers is withdrawn (DR-001), and note the same page calls its own rows "12 **verified** records" while the per-card pages flag their OVRs as "⚠️ **ESTIMATED**" — the inflation and the honest caveat continue to sit on different pages of one site.
+
+Also on this page, and recorded as an UNCONFIRMED term rather than a mode: "aiming to dominate the **Global Dream League**". FTG's official vocabulary is "Dream League Live" and "Global Leaderboards and Events" (S-0011/S-0015), so this reads as SEO filler blending two official terms. It is not evidence of a game mode and must not be used as one.

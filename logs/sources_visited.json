@@ -718,11 +718,208 @@
         "a SECOND player database (none exists in the frontier yet — mandatory for any cross-check)"
       ],
       "leads_consumed_from": "S-0013/S-0014 (sakibpro.com home listed /players as its Player Database tool)"
+    },
+    {
+      "id": "S-0019",
+      "timestamp_utc": "2026-09-27T18:34:00Z",
+      "session": 1,
+      "turn": 3,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "resolved_url": "https://sakibpro.com/players/trending.php",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "language": "en",
+      "raw_archive_path": null,
+      "url": "https://sakibpro.com/players/trending.php",
+      "domain": "sakibpro.com",
+      "source_type": "databases and tools",
+      "chunk": "0 of 1 (complete)",
+      "payload_summary": "SERVER-RENDERED — the rows the /players page would not give up ARE here. Page claims 'Last Updated: **September 27, 2026**' (the retrieval date itself) and presents 'the complete, officially verified list of the **17 newly added players** in the latest Dream League Soccer 2026 update', each as a card with name, position, OVR, height, age, nationality, card type, a numeric id, a per-player URL and a card-art image. THE 17, verbatim: **CULT HEROES (12)** — David de Gea, GK, 85 OVR, 192cm, 36, Spain, id 28324; Pierre-Emerick Aubameyang, CF, 85 OVR, 187cm, 37, Gabon, id 28331; Paulo Dybala, SS, 85 OVR, 177cm, 33, Argentina, id 28333; David Luiz, CB, 84 OVR, 189cm, 39, Brazil, id 28325; Francisco Alarcón, AM, 84 OVR, 176cm, 34, Spain, id 28327; Lorenzo Insigne, LW, 84 OVR, 163cm, 35, Italy, id 28328; Hakim Ziyech, RW, 84 OVR, 180cm, 33, Morocco, id 28332; Nicolás Otamendi, CB, 84 OVR, 183cm, 38, Argentina, id 28334; Daley Blind, CB, 83 OVR, 180cm, 36, Netherlands, id 28326; Ander Herrera, CM, 83 OVR, 182cm, 37, Spain, id 28329; Xherdan Shaqiri, AM, 83 OVR, 169cm, 35, Switzerland, id 28330; Josimar José Évora Dias, GK, 83 OVR, 189cm, 40, Cape Verde, id 28658. **CLASSIC (4)** — Michael Essien, DM, 85 OVR, 178cm, 44, Ghana, id 26838; Andy Cole, CF, 84 OVR, 178cm, 55, England, id 27096; Emmanuel Petit, DM, 84 OVR, 185cm, 56, France, id 27203; Dimitar Berbatov, CF, 84 OVR, 189cm, 45, Bulgaria, id 27675. **SEASON PASS (1)** — João Pedro, CF, 82 OVR, 182cm, 25, Brazil, id 28356. STRUCTURE RECOVERED: per-player URLs follow /players/{card-type-slug}/{player-slug}/{numeric-id}/ with slugs 'cult-heroes', 'classic', 'season-pass' observed; card art at cdn.sakibpro.com/assets/dls26/{id}.webp. **Eleven of the twelve Cult Heroes ids form a CONTIGUOUS block 28324-28334** (de Gea 28324, Luiz 28325, Blind 28326, Alarcón 28327, Insigne 28328, Herrera 28329, Shaqiri 28330, Aubameyang 28331, Ziyech 28332, Dybala 28333, Otamendi 28334) with Évora Dias an outlier at 28658; the Season Pass card sits at 28356, 22 ids past the block. OTHER COPY: 'Some of these newly added base cards come with broken stats perfect for upgrading'; 'Our Max Rating Simulator allows you to snipe them early for your Career Mode squad and test their max potential before spending real coaches in the game'; 'This page automatically syncs with our master database to track the latest player additions made by First Touch Games'; FAQ: 'Is this the official list? Yes, our database actively tracks the newest additions. The latest roster update brought 17 brand new players to DLS 26, all of which are listed here with their max ratings.' and 'Whenever First Touch Games updates the game data, we immediately extract and list the upcoming players on this page.'",
+      "kb_paths_touched": [
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/deception_register.md",
+        "kb/gaps.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED — escalating",
+        "detail": "'the complete, **officially verified** list' is the site's own words about its own list; FTG has published no such list on any surface reached so far, so 'officially verified' is authority borrowed without a source. The FAQ's 'Is this the official list? Yes' answers a question about officialdom with a claim about tracking, which is not the same thing. Combined with DR-001's admitted manual overrides, this is a second instance of the same pattern and is recorded as an escalation of DR-001 rather than a new entry.",
+        "outcome": "authority remains withdrawn; the 17-player enumeration is recorded as a third-party HYPOTHESIS with a first-party confirmation route named (FTG's own event artwork and channels)"
+      },
+      "conflicts_found": [
+        "'officially verified' / 'Is this the official list? Yes' (S-0019) vs the absence of any FTG-published player list on every official surface reached so far (S-0002, S-0011/S-0012, S-0015, S-0016, S-0017) — the official status is self-asserted and uncorroborated.",
+        "The page is dated 'September 27, 2026', which is the retrieval date. A freshness marker that always equals today would be worthless, and this one cannot be distinguished from a dynamic date without a Wayback capture. Recorded as an open question (G-0022), NOT accepted as evidence of same-day updating.",
+        "Évora Dias sits at id 28658, far outside the contiguous Cult Heroes block 28324-28334, while being listed as a Cult Heroes card — either a later addition, a mis-categorisation, or an id from a different range. Left open rather than smoothed.",
+        "'17 newly added players' is presented as the complete set for 'the latest update', but the update in question is not identified by version number anywhere on the page, so it cannot be tied to 13.430."
+      ],
+      "confidence_note": "Highest-value third-party fetch so far, and the first to produce checkable particulars rather than vocabulary: 17 named players with positions, OVRs, heights, ages, nationalities, card types and numeric ids. Two structural inferences are worth more than the stats themselves. (1) **Id contiguity**: 11 of 12 Cult Heroes ids run 28324-28334 without gaps, which is what a single batch import looks like — if ids are allocated sequentially per release batch, then a card family occupies a contiguous range, and the whole Cult Heroes collection can be enumerated and future additions detected by probing neighbouring ids. That is a datamining-relevant structural claim about the CLIENT's id space inferred from a third party's ids, so it must be confirmed against client data before use, and it is recorded as a hypothesis. (2) **Ages are internally consistent with real birth years as of 2026** (Cole 55, Petit 56, Berbatov 45, Essien 44, de Gea 36), which is a weak positive signal that the rows are computed from real data rather than invented — it does not verify the OVRs, which are the numbers that matter and the numbers DR-001 withdrew authority over. Everything here stays Speculative; the Cult Heroes name list advances gap G-0010 from 'nothing known' to 'a candidate list awaiting first-party confirmation'.",
+      "discovered_not_yet_visited": [
+        "a per-player card page, e.g. https://sakibpro.com/players/cult-heroes/david-de-gea/28324/ (full stat breakdown, max ratings, price, upgrade path)",
+        "https://sakibpro.com/players/classic/michael-essien/26838/",
+        "https://sakibpro.com/players/season-pass/jo-o-pedro/28356/",
+        "https://sakibpro.com/tools/ (a Tools index linked from the simulator breadcrumb — may list further tools)",
+        "https://cdn.sakibpro.com/assets/dls26/28324.webp (card art; note the site GENERATES 'maxed' cards, so its images are renders, not extractions)",
+        "neighbouring ids around 28324-28334 and 28356 to test the contiguity hypothesis",
+        "Wayback captures of /players/trending.php to test whether 'Last Updated' is dynamic (G-0022)",
+        "FTG's own Cult Heroes event artwork and channels, to confirm or refute the 12-name list from a first-party origin"
+      ],
+      "leads_consumed_from": "S-0018 (the /players page linked 'Upcoming Players VIEW ALL' to trending.php)"
+    },
+    {
+      "id": "S-0020",
+      "timestamp_utc": "2026-09-27T18:34:30Z",
+      "session": 1,
+      "turn": 3,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "resolved_url": "https://sakibpro.com/players/simulator.html",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "language": "en",
+      "raw_archive_path": null,
+      "url": "https://sakibpro.com/players/simulator.html",
+      "domain": "sakibpro.com",
+      "source_type": "databases and tools",
+      "chunk": "0 of 1 (complete)",
+      "payload_summary": "STATIC HTML TOOL — 'UPGRADE SIMULATOR: Fine-tune player stats with official in-game weight progression', breadcrumb Home › Tools › Upgrade Simulator, two tiers 'Basic Simulator' and 'Pro Simulator 👑'. PRO PANEL VERBATIM: MANUAL COACHING with four coach types and gem prices — '🏃‍♂️ Fitness Coach (SPE, ACC, STA, STR) Common(25💎) Rare(75💎) Legend(225💎)'; '⚽ Technical Coach (CON, PAS, SHO, TAC) Common(25💎) Rare(75💎) Legend(225💎)'; '🌟 Special Coach (ALL STATS) Common(90💎) Rare(240💎) Legend(400💎)'; '🧤 Goalkeeping (GKR, GKH) Common(15💎) Rare(40💎) Legend(150💎)'. Plus 'DEVELOPMENT PROGRESS: 0%', a stat readout defaulting to SPE/ACC/STA/STR/CON/PAS/SHO/TAC all at 80, 'UPGRADE SUMMARY 💎 0', '**FACILITY DISCOUNT** 0% 5% 10% 15% 20% 30%', '**COACHES WASTED (DETAILED COST)** No coaches used yet.', and '**COACH SELECTION (1/3)** Pick one attribute to boost by +2 — SPE SELECT / STR SELECT — **DISCARD & RESHUFFLE**'. BASIC PANEL: 'CUSTOM UPGRADES — Allocate up to **100% Development Weight**. Strategic stat allocation determines your max OVR.' and 'UPGRADE PROGRESS: 0% / MAXED OUT!' with '🔄 Change Player 🗑️ Reset Stats'. PROSE/FAQ VERBATIM: 'use our tool to plan the perfect coaching upgrades for your players using the **official hidden weighting system**'; 'not all stats are created equal. Upgrading crucial attributes like Control (CON) or Speed (SPE) consumes significantly more progression capacity than raising Stamina (STA)'; 'Our intelligent simulator accurately mirrors this **official internal logic used by First Touch Games**, ensuring your projected stats and maximum overall ratings are **mathematically identical to the live transfer market**'; 'Every **10% of total progression weight** directly translates to a **+1 OVR** boost'; 'Once a player hits their **+10 OVR limit (100% weight capacity)**, the tool automatically locks progression and generates a beautiful, official \"Maxed\" DLS 26 card'; 'Unlike older versions of the game, DLS 26 uses a complex weighted system'; GK: 'Goalkeepers operate on a **classic points system** rather than complex dynamic weights. Every **2.2 visual points** added to **GKR or GKP** equals **+1 OVR**, capping at a strict **22 points** total allocation'; 'our coaching simulator incorporates the **precise overflow algorithm** and stat progression logic used internally by the official game'; plus a download/share feature for generated maxed-card PNGs.",
+      "kb_paths_touched": [
+        "kb/topics/coaching_and_upgrade_system.md",
+        "kb/irreversible_action_list.md",
+        "kb/deception_register.md",
+        "kb/gaps.md",
+        "kb/volatility_model.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED — escalating; five separate claims of knowledge of FTG internals plus a paywalled Pro tier",
+        "detail": "'official in-game weight progression', 'official hidden weighting system', 'mirrors this official internal logic used by First Touch Games', 'mathematically identical to the live transfer market', 'precise overflow algorithm ... used internally by the official game' — each asserts access to another company's unreleased internals with no method, no source and no version stamp, from a domain that admits manual overrides (DR-001) and gates its better tool behind a 👑 Pro tier. The incentive is structural: the free tier must look like a taste of paid certainty. Also note the tool GENERATES 'official \"Maxed\" DLS 26 card' images, so any card art from this domain is a render, not an extraction — its images cannot serve as evidence of in-game appearance.",
+        "outcome": "authority over numbers remains withdrawn (DR-001 escalated); the model is recorded in full as the most testable artifact in the KB, with a named verification plan led by the user's own in-game coaching screen"
+      },
+      "conflicts_found": [
+        "INTERNAL to the source: the Goalkeeping coach is listed as covering 'GKR, GKH' while the GK FAQ says points are added to 'GKR or GKP' — GKH vs GKP for the same stat. Recorded as a conflict with three open readings (typo, larger GK stat set, or two lines written against different data at different times); NOT resolved by choosing the convenient label.",
+        "Against a user-generated source: this model prices coaching in GEMS only, while a Play Store review alleges a COIN-side double fee when buying and then applying a coach (S-0012). Both may be true (gem-priced coach items plus a coin application fee), so the pair is recorded as an open reconciliation rather than a contradiction.",
+        "Against official vocabulary: FTG names 'Coaches' for 'technical and physical abilities' (S-0011/S-0015) and 'Special Coach Packs' (S-0017 changelog). The tool's four types map onto technical/physical plausibly, but 'Special Coach' as a purchasable coach type vs FTG's 'Special Coach Packs' as a product may or may not be the same thing — left open."
+      ],
+      "confidence_note": "Recalled-grade as a claim about the game, and treated as such everywhere in the KB. What raises it above noise: the model is internally arithmetic-consistent (22 GK points ÷ 2.2 per OVR = exactly +10 OVR, matching the outfield 100%-weight → +10 OVR ceiling), it is coherent in shape with FTG's own technical/physical coaching language, and it is falsifiable in seconds by anyone with the game installed. It resolves the SHAPE of two of the prompt's open terms — 'ceiling' (+10 OVR at a fixed budget) and 'coaches by type and rarity' (4 types × 3 rarities) — without establishing a single value. It also produces the first quantitative lead on the facility return curve (a six-step coaching-cost discount to 30%) and two mechanics absent from the prompt's vocabulary entirely: a 1-of-3 attribute pick worth +2 with a discard/reshuffle, and 'coaches wasted'.",
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/tools/ (Tools index from the breadcrumb — may list tools not linked from the home page)",
+        "the simulator's own JS, to read the weighting table it actually uses (a static .html tool likely embeds or fetches the coefficient data — this would expose the model's numbers directly rather than through prose)",
+        "https://sakibpro.com/players/price-calculator.php",
+        "https://sakibpro.com/players/compare.php",
+        "Wayback captures of simulator.html to date the model and detect silent edits to its prices",
+        "a second, unrelated upgrade/coaching tool or guide in any of the 15 client languages (mandatory cross-check)"
+      ],
+      "leads_consumed_from": "S-0013/S-0014 (home page listed the Upgrade Simulator), S-0018 (probe order step 2)"
+    },
+    {
+      "id": "S-0021",
+      "timestamp_utc": "2026-09-27T18:50:00Z",
+      "session": 1,
+      "turn": 3,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "url": "https://sakibpro.com/players/cult-heroes/david-de-gea/28324/",
+      "resolved_url": "https://sakibpro.com/players/cult-heroes/david-de-gea/28324/",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "databases and tools",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "SERVER-RENDERED per-player card page — the deepest single record reached so far, and it changes how the whole domain must be read. TITLE: 'David de Gea **Cult Heroes 2018** - DLS 26 Stats'. Breadcrumb: Home » Database » CULT-HEROES » David de Gea. Card art cdn.sakibpro.com/assets/dls26/28324.webp. Club shown as '**Free Agent**' with a team image /players/assets/teams/t258.png (⇒ a team-id space exists). Nation Spain (/players/nation/spain/). Widgets: '0.00 Votes ★★★★★ Rated!', '**✍️ WRONG RATING? SUGGEST FIX**', a 'Game Card / Player Card' toggle, links to '🎨 Customize Card' (/dls-26-card-creator/?loadPlayer=28324&ovr=85) and '🎮 Upgrade Player' (/players/simulator.html?loadPlayer=28324), a header '**Max Upgrade (+10 OVR)**', a '📊 DLS 26 Stats' block and a 'Position Proficiency' + 'Radar' section (both empty in the render). STAT BLOCK VERBATIM: Speed 62, Acceleration 60, Strength 56, Control 57, Passing 60, Tackling 43, Reactions 85, Handling 80, **Total 503**. DETAILS TABLE VERBATIM: Country Spain; Club Free Agent; '**💎 Acquired Via | Cult Heroes Agent ✔️ SPECIAL EDITION**'; Position GK; Height 192 cm; Weight 76 kg; Preferred Foot Right; Date of Birth November 7, 1990; Age 35 years; '**⭐ Base Rating | OVR: 85 ⚠️ ESTIMATED**'. PROSE VERBATIM: 'This specific version is his special **Cult Heroes 2018** card, boasting a base overall rating of 85. As a goalkeeper, his vital stats include impressive **reactions (85 GKR)** and **handling (80 GKH)**. His towering 192 cm frame gives him an exceptional advantage in commanding the penalty area... **As a special edition, this card is exclusively available via the Cult Heroes Agent.** When fully developed **via coaches**, he reaches a **maximum potential overall rating of 95**.' FAQ: 'How much does David de Gea cost in DLS 26? — As a special edition card, David de Gea is obtained exclusively through the Cult Heroes Agent.' / 'What is the max rating...? — With a fully maxed upgrade (+10), David de Gea reaches a maximum overall rating of 95.' 'OTHER VERSIONS': David de Gea - 80 OVR (/players/**normal**/david-de-gea/25840/) and David de Gea - 78 OVR (/players/**normal**/david-de-gea/**153**/) ⇒ three rows for one player, and an id as low as 153. 'SIMILAR PLAYERS': an entry with an EMPTY name at /players/classic/**player**/26841/ (86 OVR) ⇒ a data-quality defect; Gianluigi Donnarumma 86 OVR (/players/**team2025**/gianluigi-donnarumma/27128/); Emiliano Martínez 86 OVR (/players/**world-winners**/emiliano-mart-nez/27849/); Donnarumma 85 OVR (/players/normal/…/14078/). '💬 Community Comments — Post Comment / Loading...' ⇒ comments are client-side loaded. A 'Suggest Rating Fix' form requires 'Upload Game Screenshot (Required)'.",
+      "kb_paths_touched": [
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/topics/coaching_and_upgrade_system.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/deception_register.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED — but the picture is now MIXED and must be characterised fairly",
+        "detail": "This page cuts BOTH ways and the register must say so. AGAINST the site: it labels its headline number '⚠️ **ESTIMATED**' while its SEO landing page called the same dataset 'officially verified' — inconsistent self-presentation, with the inflated claim on the pages written for search engines and the honest caveat on the pages written for users. Its age for de Gea (35, correct for a 1990 birth as of September 2026) also CONTRADICTS its own trending page, which said 36 (S-0019) — a falsifiable internal error, not a rhetorical one. And one 'Similar Players' row has an empty player name, so the dataset has holes. FOR the site: the 'ESTIMATED' flag, the 'WRONG RATING? SUGGEST FIX' widget and a correction form that REQUIRES a game screenshot are admissions against interest — a purely deceptive operation would not advertise that its numbers are guesses or invite screenshot-backed corrections. Net reading: this is a crowd-corrected estimate database presented to search engines as authoritative. That is authority inflation on the SEO surface and honesty on the data surface, and the correct response is the one already adopted: no number is accepted, but the site's STRUCTURE and its screenshots remain useful — indeed its correction mechanism implies a stream of real in-game screenshots exists behind it.",
+        "outcome": "DR-001 refined rather than worsened; authority over numbers stays withdrawn; the screenshot-correction channel recorded as a potential user-generated evidence route"
+      },
+      "conflicts_found": [
+        "**Internal, falsifiable:** de Gea's age is 35 on this page (consistent with the stated DOB of November 7, 1990 as of 2026-09-27) but 36 on /players/trending.php (S-0019). One of the two is wrong; the card page is self-consistent with its own DOB, so the trending page's figure is the outlier. Recorded as a data-quality defect in the source, not smoothed over.",
+        "Against the site's own framing: 'officially verified list' (S-0019) vs 'OVR: 85 ⚠️ ESTIMATED' (S-0021) for the same card.",
+        "GK stat codes: this page resolves them — prose says 'reactions (85 **GKR**)' and 'handling (80 **GKH**)', matching the simulator's coach list (GKR, GKH) and refuting the simulator FAQ's 'GKR or GKP' as a typo. Gap G-0023 CLOSED.",
+        "Max-rating arithmetic agrees with the simulator model: base 85 + 10 = 95, and the prose attributes the gain to coaches ('When fully developed via coaches'). One example is not verification, but the two pages of the same site are at least consistent with each other."
+      ],
+      "confidence_note": "Structurally the most informative fetch of the session, and — unusually — several of its most valuable contents are NOT numbers. (1) **The stat vocabulary is resolved**: SPE=Speed, ACC=Acceleration, STA=Stamina, STR=Strength, CON=Control, PAS=Passing, SHO=Shooting, TAC=Tackling, GKR=Reactions, GKH=Handling; a GK row displays 8 stats (SPE ACC STR CON PAS TAC GKR GKH) where the simulator's outfield set is (SPE ACC STA STR CON PAS SHO TAC) — so Stamina and Shooting are replaced by the GK pair. Note **TAC = Tackling, not Tactics**, which matters because the simulator groups TAC under the TECHNICAL coach. (2) **An acquisition route is named: the 'Cult Heroes Agent'**, with the card flagged 'SPECIAL EDITION' and 'exclusively available' through it — this connects FTG's own official 'Agents and Scouts' vocabulary (S-0011/S-0015) to the live Cult Heroes collection and is the first concrete lead on HOW the user would obtain one. It also raises the loot-box question sharply: an 'Agent' that yields special cards is exactly the kind of randomised acquisition Apple's metadata declares ('Contains: Loot Boxes', S-0017). (3) **The card is year-stamped: 'Cult Heroes 2018'** — which corroborates FTG's own event copy 'Frozen in time from their peak years' (S-0016) from an independent direction, and implies a naming convention {family} {year} with possibly year-dependent stats. (4) **Multiple versions per player are confirmed** (de Gea at 78, 80 and 85 OVR across normal/normal/cult-heroes rows, with ids 153, 25840, 28324) — which strongly supports the hypothesis behind the 14,000+ vs FTG's official 4,000+ conflict (G-0016): the database counts card versions as rows, so the two numbers are not comparable and may not conflict at all. An id as low as 153 also suggests the id space is persistent across franchise versions rather than reset per title. (5) 'Position Proficiency' exists as a section — a mechanic name that bears directly on the user's stated 'no position locking' and on their 3-2-3-2 / 3-1-4-2 shapes; content unknown. ALL numeric values on this page remain Speculative with authority withdrawn; the OVR is self-labelled ESTIMATED, so it is the weakest number here and is recorded as such.",
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players/cult-heroes/ (the card-type index — may enumerate the FULL Cult Heroes collection, not just the 17 'new' ones)",
+        "https://sakibpro.com/players/normal/david-de-gea/25840/ and /153/ (other versions of the same player — tests the version/row hypothesis for G-0016)",
+        "https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128/ (confirms the team2025 card type has real rows)",
+        "https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
+        "https://sakibpro.com/players/classic/player/26841/ (the empty-name row — a data-quality probe)",
+        "https://sakibpro.com/players/nation/spain/ and /players/assets/teams/t258.png (nation and team index spaces)",
+        "https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (the Card Creator with a player preloaded — may expose its data source)",
+        "the comments endpoint behind 'Community Comments — Loading...' (user-generated layer)",
+        "'Position Proficiency' content — requires the page's JS or a player with data in that section"
+      ],
+      "leads_consumed_from": "S-0019 (per-player URL pattern) and the probe order in logs/research_queue_active.md"
+    },
+    {
+      "id": "S-0022",
+      "timestamp_utc": "2026-09-27T19:00:00Z",
+      "session": 1,
+      "turn": 3,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "url": "https://sakibpro.com/players/cult-heroes/",
+      "resolved_url": "https://sakibpro.com/players/cult-heroes/",
+      "domain": "sakibpro.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "databases and tools",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "SERVER-RENDERED card-type index for the LIVE Cult Heroes collection. Header 'DLS 26 Cult Heroes Player Cards'; copy calls it 'the definitive information repository', 'an actively updated computing catalog, detailing a comprehensive pool of **12 verified records**', 'Every card inside this roster configuration has been mapped out server-side by base overall (OVR) parameters', and '**Showing 12 of 12 Players Found**'. THE 12, verbatim with display names, positions, flags and OVRs: Aubameyang CF ga 85 (28331); Dybala SS ar 85 (28333); de Gea GK es 85 (28324); David Luiz CB br 84 (28325); Insigne LW it 84 (28328); **Isco** AM es 84 (28327); Otamendi CB ar 84 (28334); Ziyech RW ma 84 (28332); Ander Herrera CM es 83 (28329); Blind CB nl 83 (28326); Shaqiri AM ch 83 (28330); **Vozinha** GK cv 83 (28658). ⇒ identical set, ids and OVRs to the trending page (S-0019), with common display names now given for the two players whose legal names appeared there: Francisco Alarcón = **Isco**, Josimar José Évora Dias = **Vozinha** (the Cape Verdean goalkeeper — the id-28658 outlier is a genuine cult figure, which weakens the 'mis-categorisation' reading of that anomaly). Flags served from cdn.sakibpro.com/assets/flags/{cc}.png. FAQ VERBATIM: 'How many Cult Heroes player cards are available in DLS 26? — There are currently a total of **12 verified players** cataloged in our Cult Heroes roster section... This dynamic list is continuously updated to reflect live in-game transfers and newly released special edition cards.' and 'Are the special attributes on these cards upgradable? — **Yes, absolutely.** All special edition cards found inside the Cult Heroes database page can be systematically upgraded. By using **team training coaches (Fitness and Technical)**, you can boost any player by **up to +10 over their current base rating**, transforming them into **maxed-out black cards**.' Opening copy also mentions 'aiming to dominate the **Global Dream League**'.",
+      "kb_paths_touched": [
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/topics/coaching_and_upgrade_system.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md"
+      ],
+      "deception_screen": {
+        "incentive": "OBSERVED — same pattern as DR-001",
+        "detail": "'12 **verified** records' and 'definitive information repository' are self-certifying claims from the same domain whose card pages flag their own OVRs as '⚠️ ESTIMATED' (S-0021); 'mapped out server-side by base overall (OVR) parameters' is pseudo-technical filler of the kind DR-001 records. 'Yes, absolutely' recurs as the FAQ's answer form on both this page and /players (S-0018) — a template tic, which is itself a signal that the prose is generated rather than authored.",
+        "outcome": "authority over numbers stays withdrawn; the collection SIZE and MEMBERSHIP are recorded as a third-party hypothesis with named first-party confirmation routes"
+      },
+      "conflicts_found": [
+        "'12 verified records' (S-0022) vs the same domain's per-card '⚠️ ESTIMATED' OVR flag (S-0021) — 'verified' and 'estimated' applied to the same rows by the same author.",
+        "'team training coaches (Fitness and Technical)' as the upgrade route for special cards (S-0022) vs the simulator's four coach types including a 'Special Coach (ALL STATS)' (S-0020). Not contradictory — the FAQ may simply name the two cheap coaches — but which coach types actually apply to a special-edition card is unresolved and matters for gem budgeting.",
+        "'Global Dream League' (S-0022) vs FTG's official 'Dream League Live' and 'Global Leaderboards and Events' (S-0011/S-0015). Likely SEO filler blending two official terms; recorded as an unconfirmed term, not as a mode.",
+        "The trending page said de Gea is 36 and his card page says 35 (S-0019 vs S-0021) — the count/membership data is consistent across pages while a biographical field is not, which locates the defect in the generated prose rather than in the card index."
+      ],
+      "confidence_note": "Closes the membership question for the live collection AS A HYPOTHESIS: two independent pages of the same source now agree exactly on 12 names, 12 ids and 12 OVRs, and the index states the count as a total ('12 of 12'), not as a partial view. Same author, so this still counts as ONE source and the tier cannot rise — but the agreement removes the 'the trending page showed only a subset' reading, which was the main alternative explanation for the 28658 outlier. That outlier is now better explained: Vozinha is a genuine cult hero (a Cape Verdean goalkeeper), so the anomaly is in the id allocation, not in the categorisation. Two genuinely new items of vocabulary arrive with it: '**maxed-out black cards**' (a visual state a card reaches at +10 — the first lead on card-art design tiers, which the prompt's Special Card Tracking framework needs for rarity and recognisability) and '**team training coaches**' as a phrase grouping Fitness and Technical. The upgradability claim ('Yes, absolutely... up to +10 over their current base rating') partially answers gap G-0029 from this source's perspective — special cards CAN be coached to +10 — while remaining unverifiable here and while leaving open whether the Special Coach applies to them.",
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players/classic/ , /players/season-pass/ , /players/team2025/ , /players/world-winners/ , /players/normal/ , /players/dynamic-star/ etc. — one index page per card type, each server-rendered, each giving that family's full membership and count (the fastest route to the whole special-card taxonomy, dimension 4)",
+        "https://cdn.sakibpro.com/assets/dls26/28324.webp — card art; would show whether a 'black card' design and a year stamp ('Cult Heroes 2018') are visible, and whether the art is a render or an extraction",
+        "https://cdn.sakibpro.com/assets/flags/{cc}.png (flag asset space)",
+        "FTG's own Cult Heroes event artwork and social channels — the first-party confirmation route for this 12-name roster",
+        "Wayback captures of /players/cult-heroes/ to test whether the roster changed after 10/14 or during the window"
+      ],
+      "leads_consumed_from": "S-0021 (card-type index link in the breadcrumb) and the probe order in logs/research_queue_active.md"
     }
   ],
   "frontier": {
-    "discovered_total": 66,
-    "visited_total": 7,
+    "discovered_total": 89,
+    "visited_total": 11,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -782,7 +979,26 @@
       "https://sakibpro.com/players/price-calculator.php",
       "https://sakibpro.com/players/compare.php",
       "sakibpro.com site JS to locate the player-database data endpoint",
-      "a SECOND player database (mandatory: no cross-check for SakibPro exists)"
+      "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
+      "https://sakibpro.com/tools/ (Tools index — may list tools not linked from the home page)",
+      "a per-player card page: https://sakibpro.com/players/cult-heroes/david-de-gea/28324/ (full stats, max ratings, price, upgrade path)",
+      "https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-pass/jo-o-pedro/28356/",
+      "the simulator's own JS — read the weighting/coefficient table it actually uses",
+      "Wayback captures of sakibpro.com/players/trending.php and /players/simulator.html (test the dynamic-date question G-0022; detect silent price edits)",
+      "probe neighbouring player ids around the contiguous Cult Heroes block 28324-28334 to test the id-contiguity hypothesis",
+      "FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-name Cult Heroes list from a first-party origin",
+      "https://sakibpro.com/players/cult-heroes/ (card-type index — may enumerate the FULL Cult Heroes collection)",
+      "https://sakibpro.com/players/normal/david-de-gea/25840/ and /players/normal/david-de-gea/153/ (other versions of one player — tests G-0016)",
+      "https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128/",
+      "https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
+      "https://sakibpro.com/players/nation/spain/ and the team-id space (/players/assets/teams/t258.png)",
+      "https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (Card Creator with a player preloaded)",
+      "the comments endpoint behind 'Community Comments' on card pages (user-generated layer)",
+      "the 'Position Proficiency' data structure on card pages",
+      "one index page per card type: /players/classic/, /players/season-pass/, /players/team2025/, /players/world-winners/, /players/normal/, /players/dynamic-star/ — each server-rendered with that family's full membership and count (fastest route to the special-card taxonomy, dimension 4)",
+      "card art https://cdn.sakibpro.com/assets/dls26/28324.webp — test whether a 'black card' design and the 'Cult Heroes 2018' year stamp are visible, and whether the art is a render or an extraction",
+      "FTG's own Cult Heroes event artwork + social channels — first-party confirmation of the 12-name roster (G-0024)",
+      "Wayback captures of /players/cult-heroes/ to test roster changes during and after the window"
     ]
   }
 }

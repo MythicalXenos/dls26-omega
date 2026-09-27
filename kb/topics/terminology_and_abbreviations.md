@@ -58,3 +58,36 @@ Where research shows a prompt term corresponds to nothing real, or to something 
 | **Legendary Division** | the top of 8 divisions | S-0011, S-0015 |
 | **Classic greats** | "4,000+ FIFPRO licensed players and legendary Classic greats of the game" | S-0011, S-0015 |
 | **Loot Boxes** | Apple's content declaration for the app's randomised purchases | S-0017 |
+
+## Stat-code vocabulary — RESOLVED as a mapping (S-0021), values still unverified
+
+Recovered from a card page whose prose pairs names with codes ("reactions (85 GKR)", "handling (80 GKH)") and from the simulator's coach groupings (S-0020):
+
+| Code | Stat name | Grouped under (per the third-party simulator) |
+|---|---|---|
+| SPE | Speed | Fitness Coach |
+| ACC | Acceleration | Fitness Coach |
+| STA | Stamina | Fitness Coach |
+| STR | Strength | Fitness Coach |
+| CON | Control | Technical Coach |
+| PAS | Passing | Technical Coach |
+| SHO | Shooting | Technical Coach |
+| TAC | **Tackling** — NOT "Tactics" | Technical Coach |
+| GKR | Reactions (goalkeeper) | Goalkeeping Coach |
+| GKH | Handling (goalkeeper) | Goalkeeping Coach |
+
+A goalkeeper row displays 8 stats — SPE, ACC, STR, CON, PAS, TAC, GKR, GKH — where the outfield set is SPE, ACC, STA, STR, CON, PAS, SHO, TAC: **Stamina and Shooting are replaced by the GK pair**. "OVR" is the overall rating and a GK row's eight displayed stats summed to a "Total" (503 in the example). Whether the game itself displays a stat total, and whether OVR is computed from these eight values, is UNKNOWN — a third party's display is not the game's formula, and the formula must never be assumed from another game.
+Status: the code→name MAPPING is resolved as a hypothesis with strong internal support (two pages of one source agree, and the names are ordinary football attributes). Every VALUE remains unverified. The source that produced this mapping has had its authority over numbers withdrawn (DR-001), and its own page flags the OVR as "⚠️ ESTIMATED".
+
+## Additional terms encountered this turn
+
+| Term | Meaning as used | Provenance | Status |
+|---|---|---|---|
+| **Cult Heroes Agent** | the stated exclusive acquisition route for Cult Heroes special cards | third-party card page (S-0021) | OPEN — FTG officially names "Agents and Scouts" (S-0011/S-0015), so an agent-mediated acquisition is consistent with official vocabulary, but no FTG source names a "Cult Heroes Agent" and its cost/randomness is unknown. Gap G-0026 |
+| **SPECIAL EDITION** | a flag on special cards | third-party (S-0021) | OPEN — plausible echo of FTG's "Special Players"; not confirmed |
+| **Max Upgrade (+10 OVR)** | a card fully developed by coaches | third-party (S-0020/S-0021) | OPEN — resolves the SHAPE of the prompt's "ceiling" term; every value unverified. Gap G-0017 |
+| **Cult Heroes 2018** | a year-stamped card variant ({family} {year}) | third-party (S-0021) | OPEN as a convention, but it CORROBORATES FTG's own "Frozen in time from their peak years" (S-0016) from an independent direction |
+| **Position Proficiency** | a section on card pages, content unknown | third-party (S-0021) | OPEN — bears directly on the user's "no position locking" statement and their 3-2-3-2 / 3-1-4-2 shapes. Gap G-0027 |
+| **Free Agent** | a club value for players unattached to a club | third-party (S-0021) | OPEN — ordinary football usage; whether DLS26 uses it as a literal club label is unconfirmed |
+| **Development Weight** / **progression capacity** | the budget a player's upgrades draw down | third-party (S-0020) | OPEN — no official echo |
+| **Coaches Wasted** | a cost readout implying coaches can be spent with poor result | third-party (S-0020) | OPEN — no official echo; connects to the prompt's unresolved "reset cycles" and to a possible failure/overflow mechanic |
