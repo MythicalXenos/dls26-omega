@@ -64,3 +64,14 @@ new evidence: (a) the Dec-2024 first-party DREAM POINT BOOSTS popup read directl
 reasoning: Two independent origins now agree — the FTG UI artifact (Dec-2024) and the community thread (Jan-2026, thirteen months later) — and the origin is checkable (the image file is in kb/evidence/). That satisfies the High Confidence gate (2 independent + checkable origin). The arithmetic cross-check additionally ties the multipliers to the base-rate card, so any future drift in one will be detectable against the other.
 new tier: **High Confidence** (existence, multipliers, durations, and their stability across at least Dec-2024 to Jan-2026)
 not promoted: the gem PRICES of the tiers (25/35/125) stay at their R-0007 tiers — the popup shows only the 100-gem random price, not per-tier prices; and whether the multipliers still hold in the CURRENT (Sep-2026) build remains unstamped and therefore unclaimed.
+
+## R-0009 (turn 10, 2026-09-28): Dream Draft contest maximum = 185 DP → HIGH CONFIDENCE
+- Prior tier: Speculative (single guide's rate table, S-0035).
+- New evidence: S-0039 — first-party post-match REWARDS capture (kb/evidence/dream_draft_christmas_cup_rewards_dec2024.jpg) of a 5-0 clean-sheet Christmas Cup R1 win paying exactly 17c/78SP/185DP; the DP column sums 120+50+15=185 against displayed values, and S-0035 independently states "Dream Draft = 185" as the mode maximum with matching component arithmetic (win/CS/goals).
+- Gate applied: HC = 2+ independent origins with a checkable artifact (S-0035 guide text/arithmetic + S-0039 first-party screen are different origins: written guide vs raw capture; the capture is checkable in kb/evidence/). PASS.
+- Boundaries: 185 DP applies to a maximum-scoring contest (5 goals + clean sheet + win) on the Dec-2024-era rate card; the per-component cup rates (win 10c/50SP/120DP, goal 1c/5SP/10DP, CS 2c/3SP/15DP) remain Speculative pending the G-0055 currency-ambiguity resolution and a second capture. Version-stamp: Dec-2024 (DLS25-era, Christmas Cup).
+
+## R-0010 (turn 10, 2026-09-28): prize-ladder cycle length = 90 days (in-game display) → HIGH CONFIDENCE (mechanism only)
+- Prior tier: Speculative single-source (bluestacks DLS24-era writeup "Each Prize ladder cycle lasts for 90 days").
+- New evidence: S-0044 — first-party UI capture showing "LADDER ENDS IN 89d 23h 58m" at cycle start (checkable: kb/evidence/italian_league_classics_ladder_screen.jpg). Two independent origins (third-party writeup + raw UI capture) + checkable artifact ⇒ HC per the adopted gate.
+- Boundaries: this promotes the CYCLE-LENGTH MECHANISM (~90 days). It does NOT resolve G-0040 (the current English League Classics end-date dispute: 90-day arithmetic vs FTG's 10/14/2026) — the current cycle's displayed timer must still be captured; both readings stay monitored. Version window: DLS25-era (Dec-2024) through at least the Italian cycle (Dec-2025).
