@@ -55,3 +55,18 @@ FTG's copy names **Raphinha** and **Julián Alvarez** as signable "top superstar
 ## What this file does NOT establish
 
 Any number, price, cost, rating, probability, formula, cap, cooldown or interaction. None of those may be inferred from marketing copy. Every one is owed to a database, the client (Step 2), FTG support documentation, or converging community evidence with a checkable origin.
+
+---
+
+## ADDENDUM 2026-09-27T19:45Z — systems observed in-game this turn (S-0024, S-0025), appended to SYS-01..SYS-18
+
+These are added as OBSERVED structures. Their existence is direct evidence (an in-game capture) or a first-party record; their mechanics remain gated exactly as the rest of the inventory.
+
+| ID | System | Evidence and tier | Mechanics owed |
+|---|---|---|---|
+| SYS-19 | **Live Transfers** — a transfer screen with rotating stock and a dedicated **CULT HEROES** subsection; in-game caption: "Live Transfers will refresh with new players after completing 1 match." | In-game capture (S-0025), origin DIRECT ⇒ existence High-tier; the refresh rule is a verbatim in-game caption from one capture ⇒ Speculative until a second capture or FTG text agrees | refresh cadence, pool size, whether completing a match is the only refresher, whether stock can be signed without an agent |
+| SYS-20 | **Scouts panel** — the officially named Scouts (SYS-?) seen as a live in-game panel with thumbnails | In-game capture (S-0025) ⇒ existence confirmed as a panel; mechanics gated | what a scout does, cost, output |
+| SYS-21 | **Agents panel** — the officially named Agents seen as a live in-game panel; the collection's stated route ("Cult Hero Agent") now has an in-game home | In-game capture (S-0025) ⇒ existence confirmed as a panel; mechanics gated | agent acquisition sources (in-game events, Season Pass, Online Events per dlskiturl), whether opening is random (community "pull" language), cost |
+| SYS-22 | **Unlimited Special Players per club** — a squad-building rule reported by dlskits.mobi: "The game also increased squad flexibility by allowing unlimited Special Players within a club" | Third-party guide, single origin ⇒ Speculative | whether it is current in 13.430, whether a cap existed before, interaction with position rules |
+| SYS-23 | **Fanzone and World Tournament events** — two event names reported by dlskits.mobi alongside Dynamic Stars, Cult Heroes, Dream Stars and expanded Clan features | Third-party guide, single origin ⇒ Speculative; neither has any official echo yet, so both are open questions, not systems | what each is, cadence, rewards |
+| SYS-24 | **Secret players** — a card family whose example (Mustafa Mitchell, 60 OVR, RW, Australia) has a generic invented-looking name, suggesting generated or hidden players | Third-party database (dreamkitsapp.com), single origin ⇒ Speculative | how secret players are obtained and revealed, whether the name is real in-game |

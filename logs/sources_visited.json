@@ -915,11 +915,158 @@
         "Wayback captures of /players/cult-heroes/ to test whether the roster changed after 10/14 or during the window"
       ],
       "leads_consumed_from": "S-0021 (card-type index link in the breadcrumb) and the probe order in logs/research_queue_active.md"
+    },
+    {
+      "id": "S-0023",
+      "timestamp_utc": "2026-09-27T19:20:00Z",
+      "session": 1,
+      "turn": 4,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "page-render",
+      "tool": "fetch_page",
+      "url": "https://play.google.com/store/apps/eventdetails/4830045897422713648",
+      "resolved_url": "same",
+      "domain": "play.google.com",
+      "http_status": 200,
+      "outcome": "success",
+      "query": null,
+      "source_type": "official",
+      "language": "en",
+      "chunk": "0 of 1 (complete)",
+      "raw_archive_path": null,
+      "payload_summary": "RE-FETCH of the official FTG in-app-event page for the sole purpose of extracting its image URLs (S-0016 read the copy; this pass reads the assets). Page title: 'The names the fans remember, from their peak years.' Copy unchanged from S-0016: 'Event • Ends on 10/14 — Sign these top names who have made their impact on passionate football fans. Frozen in time from their peak years, and available to play for your team on the path to glory. Obtain them now for a limited time - don't miss out!' ASSETS RECOVERED: (1) the **event artwork**, a tall 851x2160 image at https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w851-h2160-rw — FIRST-PARTY and the only route reached so far that could confirm or refute the 12-name Cult Heroes roster from FTG's own material. (2) The app icon (s52) linking to the store listing. (3) A 720x405 feature graphic. (4) **TWENTY store screenshot images** at w526-h296 (URLs recorded in the frontier) — official in-game captures, i.e. first-party visual evidence of UI, screens and card presentation. STORE METADATA RE-CONFIRMED ON THIS PAGE: 'Dream League Soccer 2026', First Touch Games Ltd., 'Contains ads', 'In-app purchases', 4.5 star, 14.9M reviews, Everyone, 100M+ downloads, 'In-Game Purchases (Includes Random Items)'. Page ends in a reCAPTCHA interstitial, so deeper store pages may require a different route.",
+      "kb_paths_touched": [
+        "kb/topics/prize_ladder_and_current_events.md",
+        "logs/research_queue_active.md"
+      ],
+      "deception_screen": {
+        "incentive": "none detected",
+        "detail": "first-party event page; the marketing incentive is general (drive engagement) and not claim-specific",
+        "outcome": "clean"
+      },
+      "conflicts_found": [
+        "none new; copy identical to S-0016, which is itself a consistency check on the fetch method"
+      ],
+      "confidence_note": "Direct first-party origin for the assets. The artwork and the 20 screenshots are the highest-value unvisited first-party evidence in the frontier: the artwork can confirm the roster (gap G-0024) and the screenshots can show real in-game UI for formations, coaching, facilities and card presentation — all things no text source reached so far can verify. Note the images are hosted by Google's CDN, which bash cannot reach, so they must be obtained through image tooling or a page-render of a page that embeds them; a transport failure against that CDN is NOT evidence about the game and must not be recorded as a negative finding.",
+      "discovered_not_yet_visited": [
+        "the event artwork image (851x2160) — read it to confirm the Cult Heroes roster",
+        "the 20 store screenshots (w526-h296) — first-party in-game UI evidence",
+        "the 720x405 feature graphic",
+        "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7 (the listing itself, via this page's icon link)"
+      ],
+      "leads_consumed_from": "S-0016 (recorded the artwork as fetchable but did not record its URL)"
+    },
+    {
+      "id": "S-0024",
+      "timestamp_utc": "2026-09-27T19:22:00Z",
+      "session": 1,
+      "turn": 4,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "discovery-search",
+      "tool": "web_search",
+      "url": null,
+      "resolved_url": null,
+      "domain": "(search)",
+      "http_status": null,
+      "outcome": "success",
+      "query": "DLS 26 Cult Heroes special players list Dream League Soccer 2026 event",
+      "depth": 3,
+      "source_type": "mixed (discovery search returning official, database and community results)",
+      "language": "en",
+      "chunk": "10 results",
+      "raw_archive_path": null,
+      "payload_summary": "DISCOVERY SEARCH — its purpose was to find more sources, and it found FOUR NEW DOMAINS plus first-party version history. (1) **dlsinside.com/players/specials/cult-heroes** — A SECOND DATABASE. Lists all 12 Cult Heroes each with a squad number, 'NO TEAM' and the acquisition route '**CULT HERO AGENT**': 1 de Gea, 17 Aubameyang, 10 Dybala, 24 Insigne, 22 Ziyech, 22 Francisco Alarcón, 1 Vozinha, 30 Otamendi, 30 David Luiz, 17 Blind, 23 Shaqiri, 21 Herrera. 'Showing 12 of 12 Players'. Footer stamps: 'DREAM LEAGUE SOCCER 2026 — **Version 13430** — **Code 160** — **Last update 2026-09-16**'. Search-index page age 'Saturday, September 05, 2026' (inconsistent with a 2026-09-16 data stamp and with a collection launched 16 Sep — index dates on this engine are unreliable and are recorded as such). (2) **dlskiturl.com/dls-26-cult-heroes-event/** — community/guide page, index age Sep 11 2026. MECHANICS: 'This event will **not be a Pay to Win Event**, but you will be able to sign player based on the **agents collected by you form the normal in-game events, Season Pass, Online Events, etc.** The Cult Heroes players can be **signed randomly by opening the agents** collected by you. The players will be **signed randomly to your team**.' 'This event will **commence on 16th September 2026**.' Season Pass: 'you can still see a glimpse of a player in the season pass where we can see a **locked card of Jao Pedro** ... which can be unlocked by buying the season pass and signing him when that portion of the season pass is unlocked.' Ratings table, all 12, matching SakibPro exactly: De Gea 85 Goalkeeper, Blind 83 Center Back, Otamendi 84 Center Back, David Luiz 84 Center Back, Ziyech 84 Right Wing, Isco 84 '**Aggressive Midfielder**', Herrera 83 Center Midfielder, Shaqiri 83 Aggressive Midfielder, Insigne 84 Left Wing, Dybala 85 '**Secondary Striker**', Aubameyang 85 Center Forward, Vozinha 83 Goalkeeper ('12th Man'). Also: the event 'brins us dome of the unique player to the game which were either removed/ very rarely available'. (3) **sakibpro.com/dls-26-new-update-events-players/** — the article lead recorded in turn 1, now with content. Header: '**100% Official**: DLS 26 Major Update Details Revealed! ... we have 100% officially confirmed details'. Two new card types: '**Cult Heroes** and **Season Pass Players**' / 'Cult Heroes and **Season Pass Agents**'. ACQUISITION ROUTE 2: '**Online Events:** Put your PvP skills to the test! A total of **3 Cult Heroes** will be exclusively available as top-tier rewards by winning matches in upcoming Online Events.' '**Cult Heroes Official Player Stats**' WITH YEAR STAMPS: 1. Vozinha (GK 83) [2026], 2. David De Gea (GK 85) [2018], 3. Pierre-Emerick Aubameyang (CF 85) [2017], ... 9. Xherdan Shaqiri (AM 83) [2019], 10. Lorenzo Insigne (LW 84) [2021], 11. David Luiz (CB 84) [2017], 12. Daley Blind (CB 83) [2019]. Sections 'When Are Cult Heroes Arriving?' and 'How to Unlock Cult Heroes'. (4) **fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/** (the domain already flagged for incentive and self-contradiction) — VERSION CHAIN: 'Version 13.420 Release Details — DLS 26 Version: 13.420, Release Date: September 1, 2026, **Previous Version: 13.410**, Main Highlight: Cult Heroes special players coming soon'. Also a July-2026 section alleging 'Specific Cult Heroes tweaks include upgrades for João Pedro, Fermín López, and Jordan Pickford' with downgrades for ter Stegen, Pedro Gonçalves, Dani Vivian — internally odd, since Cult Heroes had not launched in July; recorded as an unverified claim from a flagged source. (5) **apps.apple.com version history via the search index** — FIRST-PARTY, and it resolves the version conflict completely: '**13.430 Sep 16**', '**13.420 Sep 1**', '**13.410 Aug 20**', all three carrying the IDENTICAL changelog text 'It's our late summer update... New Special Players – \"Cult Heroes\" collection, coming soon! • Bug Fixes...'. Also confirms the live event card: 'LIVE EVENT Cult Heroes — Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.' (6) **dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/** — 'Version **13.410** introduced the upcoming Cult Heroes collection, a new group of Special Players'; 'Special cards ... allow players to obtain versions that differ from standard cards'; '**The game also increased squad flexibility by allowing unlimited Special Players within a club**'; 'DLS 2026 introduced updated 2025/26 player data, including additional Classic, Special, and national team players'; and a feature list naming 'Dynamic Stars, Cult Heroes, **Dream Stars**, the **Fanzone**, **World Tournament** events, and expanded Clan features'. (7) **dreamkitsapp.com/data** — A THIRD DATABASE, and it breaks the card-taxonomy question wide open. Card families with one example player each: Cult heroes (Daley Blind 83, Netherlands, CB), **World Winners** (Enzo Fernández 85), **World Heroes** (James Rodríguez 85, Colombia, AM), **Dynamic Stars** (Omar Alderete 85, Paraguay, CB), **Team of 2025** (Lamine Yamal 86, Spain, RW), **Kick-off Stars** (Julián Alvarez 84, Argentina, CF), **Champion players** (Ángel Di María 83, Argentina, RW), **Star players** (Malang Sarr 83, France, CB), **Classic players** (Giorgio Chiellini 85, Italy, CB), **Secret players** (Mustafa Mitchell 60, Australia, RW). Blind's 83 CB Netherlands matches SakibPro and dlskiturl exactly — cross-database agreement on a specific rating. (8) **play.google.com listing via search** — FTG's own copy names players to sign: 'Sign top superstar players such as **Raphinha & Julián Alvarez**'; re-confirms 'Includes random-item purchases', '4,000+ FIFPRO licensed', '8 divisions', '10 cup competitions', Stadium/Medical/Commercial/Training, Clan system. (9) **sakibpro.com/players/trending.php via search** — same content as S-0019, index age Sep 17 2026. (10) **appbrain.com** — echo of the Play listing, index age Sep 25 2026.",
+      "kb_paths_touched": [
+        "kb/topics/game_identity_and_version.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/gaps.md",
+        "kb/deception_register.md",
+        "kb/volatility_model.md",
+        "logs/revision_register.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "mixed — assessed per domain, not per search",
+        "detail": "Four new domains, screened individually: **dlsinside.com** — a database stamping its own version and update date, which is a falsifiable freshness claim and a point in its favour; no self-certifying prose seen yet; screening OPEN pending a look at its methodology. **dlskiturl.com** — a guide site with typo-heavy human prose ('brins us dome', 'form the normal in-game events'), which reads as authored rather than generated; makes a specific falsifiable mechanic claim (agents open to a random player) and a value judgement ('not a Pay to Win Event') that is opinion, not data; screening OPEN. **dreamkitsapp.com** — a database whose family labels differ from SakibPro's ('World Heroes' vs 'World Cup Heroes', 'Kick-off Stars' vs 'Kickoff', 'Team of 2025' vs 'Team 2025', 'Champion players' vs 'Champion', plus families SakibPro does not list: Star players, Secret players); label drift of this kind is normal and is recorded, not harmonised; screening OPEN. **dlskits.mobi** — a guide site reporting version numbers and a squad rule; screening OPEN. **sakibpro.com** — ESCALATED again: the article headline claims '**100% Official**' and '100% officially confirmed details' for content FTG has not published, and labels a third-party stat block 'Cult Heroes **Official** Player Stats' — the same authority-inflation pattern as DR-001, now applied to an article rather than a tool. **fifaworldcupnews.com** — already flagged; its 13.420/13.410 reporting is now corroborated by FTG's own version history, so the specific claim is vindicated while the domain's incentive and self-contradiction findings stand.",
+        "outcome": "no new register entry; DR-001 escalated with the '100% Official' instance; three new domains enter screening as OPEN, none capped beyond the ordinary single-source cap"
+      },
+      "conflicts_found": [
+        "**DLS26-C1 IS A FALSE CONFLICT AND IS NOW FULLY RESOLVED.** FTG's own version history shows 13.410 (Aug 20), 13.420 (Sep 1) AND 13.430 (Sep 16) as three successive releases. Both disputed numbers were real: fifaworldcupnews was describing 13.420 as current when it was, and appbrain was echoing the later 13.430. The earlier disposition — recording 13.420 as UNCONFIRMED rather than as disproven — is what allowed this to resolve cleanly instead of requiring a retraction.",
+        "The SAME changelog text appears on all three versions (13.410, 13.420, 13.430), so changelog text cannot date a feature and cannot distinguish releases. A durable lesson: FTG reuses 'What's New' copy across successive versions.",
+        "fifaworldcupnews places 'Cult Heroes tweaks' (upgrades for João Pedro, Fermín López, Jordan Pickford) in a JULY 2026 update, before the collection's 16 Sep launch. Either the section is mislabelled, or it refers to something else, or the source is unreliable here. Left open; the source is already flagged.",
+        "SakibPro's article says two new card types are 'Cult Heroes and Season Pass Players' in one line and 'Cult Heroes and Season Pass Agents' in the next — 'Players' vs 'Agents' for the same family. Unresolved; both readings recorded.",
+        "Search-index page ages are mutually inconsistent with the content they index (dlsinside indexed 'September 05, 2026' while stamping its own data 'Last update 2026-09-16'; the Apple listing indexed 'June 29, 2026' while showing a Sep 16 version entry). Disposition: **search-engine page ages are not publication dates and are never used as evidence of freshness**; only a source's own stamp or a Wayback capture is."
+      ],
+      "confidence_note": "The most consequential single search of the session. Three things change materially. (1) **The version question is settled from FTG's own record**: 13.410 → 13.420 → 13.430 across Aug 20 / Sep 1 / Sep 16 2026, with 13.430 current. This is DIRECT EVIDENCE in Mechanism 5's sense — FTG's own publication, checkable by anyone at the URL — and it is independently observed by three unrelated domains (dlsinside's 'Version 13430 / Last update 2026-09-16' stamp, fifaworldcupnews's 13.420-with-previous-13.410 report, dlskits.mobi's 13.410 report), using different methods. The claim is therefore promoted, with independence documented, in `logs/revision_register.md` R-0002. (2) **The Cult Heroes roster and ratings are now agreed on by four nominally independent sources** (SakibPro, dlsinside, dlskiturl, dreamkitsapp for Blind), which is a real advance — but NOT a promotion, for a reason worth stating precisely: none of them is a checkable origin, all four are third-party reports, and exact agreement on a number SakibPro itself labels '⚠️ ESTIMATED' is at least as consistent with copying or a shared upstream as with independent verification. Where a checkable origin does not exist, Mechanism 5 routes agreement to Community Consensus, which needs five documented-independent members; four is short, and independence is not yet documented. The roster stays Speculative and the fastest route to promoting it is FTG's own event artwork (S-0023), which is first-party and unread. (3) **The acquisition mechanic now has a shape**: agents are items collected from in-game events, the Season Pass and Online Events; opening an agent signs a RANDOM player from the collection; and separately 3 Cult Heroes are winnable as Online Event rewards. That squares with FTG's own declarations that the app 'Contains: Loot Boxes' and 'Includes Random Items' — an inference, labelled as one — and it is the single most decision-relevant fact found this turn, because it means the expiring window may be actionable without spending money at all.",
+      "discovered_not_yet_visited": [
+        "https://dlsinside.com/ (a second database — root, methodology, and its card-type index pages)",
+        "https://dlsinside.com/players/specials/cult-heroes (full page-render, not just the search snippet)",
+        "https://dreamkitsapp.com/data (a third database — full page-render; may enumerate every card family)",
+        "https://dlskiturl.com/dls-26-cult-heroes-event/ (full page-render of the guide with the agent mechanic)",
+        "https://sakibpro.com/dls-26-new-update-events-players/ (full page-render — the '3 Cult Heroes from Online Events' claim and the year-stamped stat block)",
+        "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/ (full page-render — 'unlimited Special Players within a club', Fanzone, World Tournament)",
+        "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ (full page-render, flagged source — the version chain and the July 'Cult Heroes tweaks' claim)",
+        "the event artwork image from S-0023 and the 20 official store screenshots",
+        "a search for the English League Classics Prize Ladder specifically — it has had NO dedicated search yet, and it is the event the user's stated activity most likely refers to",
+        "searches for a fourth and fifth independent source on the Cult Heroes roster, to test the Community Consensus gate"
+      ],
+      "leads_consumed_from": "S-0001 (fifaworldcupnews, appbrain), S-0013/S-0014 (the SakibPro article lead), S-0016/S-0023 (the event page), and the frontier's 'community guides' and 'second database' items"
+    },
+    {
+      "id": "S-0025",
+      "timestamp_utc": "2026-09-27T19:35:00Z",
+      "session": 1,
+      "turn": 4,
+      "state": "STATE_1_RESEARCH_SWEEP",
+      "role": "image-evidence (user-generated in-game captures, read as images)",
+      "tool": "image_search + read_file",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/ (two posts; images saved to kb/evidence/)",
+      "resolved_url": "same",
+      "domain": "reddit.com (images proxied)",
+      "http_status": 200,
+      "outcome": "success",
+      "query": "Dream League Soccer 2026 Cult Heroes event official artwork First Touch Games",
+      "source_type": "user-generated (in-game screenshots posted to r/DreamLeagueSoccer)",
+      "language": "es + en (two separate client localizations captured)",
+      "chunk": "2 images read in full",
+      "raw_archive_path": "kb/evidence/reddit_cult_heroes_dybala_signed_es.jpg; kb/evidence/reddit_cult_heroes_isco_signed_en.jpg",
+      "payload_summary": "FIRST IN-GAME VISUAL EVIDENCE IN THIS PROJECT — two user-generated screenshots of the game itself, saved to `kb/evidence/`, which makes them a CHECKABLE ORIGIN in Mechanism 5's sense ('watching the game do it'). IMAGE A (kb/evidence/reddit_cult_heroes_dybala_signed_es.jpg, from a post titled 'Lucky Cult heroes pull'): a SPANISH-LOCALISED 'player signed' confirmation screen headed '**JUGADOR FICHADO**' with confetti and a close button. Player **PAULO DYBALA**. Eight stat bubbles in SPANISH codes: **VEL 81, ACE 90, FON 80, POT 62, CON 92, PAS 90, DIS 90, ENT 49**. Card art: green circular **OVR 85** badge, gold year banner '**2020**', name 'DYBALA', Argentina flag, position badge '**SD**', a red star at the card's foot; card frame is gold/cream with a rainbow-gradient upper band. Footer: '177 cm', 'Izquierda' (left foot). IMAGE B (kb/evidence/reddit_cult_heroes_isco_signed_en.jpg, from a post titled '1st Cult Hero - Isco (2017)'): an ENGLISH 'player signed' modal headed '**PLAYER SIGNED**' over the game's transfer screen. Player **ISCO**. Eight stat bubbles in ENGLISH codes: **SPE 81, ACC 87, STA 79, STR 65, CON 93, PAS 86, SHO 81, TAC 53**. Card art: green **OVR 84** badge, gold year banner '**2017**', name 'ISCO', Spain flag, position badge '**AM**', red star at the foot. Footer '176 cm', 'Right'. BACKGROUND UI VISIBLE IN IMAGE B (direct evidence of screens, not of values): left panel headed '**LIVE TRANSFERS**' containing a '**CULT HEROES**' subsection with three card thumbnails and a second subsection labelled 'MEJOR CALIFICADOS'; right-hand panels headed '**SCOUTS**' and '**AGENTS**', each with player/agent thumbnails; top bar showing TWO currency counters reading '5.177' and '3.214' with distinct icons; bottom-right button '**MANAGE PLAYERS**'; bottom-centre caption '**Live Transfers will refresh with new players after completing 1 match.**'; an info button bottom-left. NOTE RECORDED WITHOUT OVER-READING: image B mixes an English modal and footer with a Spanish subsection label ('MEJOR CALIFICADOS') and Spanish fragments top-right — either a mixed-localization client state or a composite image; the mixed-language observation is recorded, not interpreted.",
+      "kb_paths_touched": [
+        "kb/topics/terminology_and_abbreviations.md",
+        "kb/topics/gameplay_systems_inventory.md",
+        "kb/topics/player_pool_card_types_and_stats.md",
+        "kb/topics/prize_ladder_and_current_events.md",
+        "kb/gaps.md",
+        "logs/revision_register.md",
+        "logs/sweep_tracker.md"
+      ],
+      "deception_screen": {
+        "incentive": "low observed — a user showing off a pull",
+        "detail": "Screenshots of a live client posted to the franchise's subreddit. They carry the ordinary risk of any image (editing, compositing, wrong version) and none of a commercial site's incentive. The mixed-language detail in image B is exactly why they are recorded with what is visible rather than interpreted freely. These are the first sources in the project whose origin IS the game.",
+        "outcome": "treated as direct evidence for what they show; single-origin for the numeric values they contain, so those stay Speculative by the count gate while their origin quality is recorded as DIRECT"
+      },
+      "conflicts_found": [
+        "Position code localization: Isco's card shows '**AM**' in the English client while Dybala's shows '**SD**' in the Spanish client for what SakibPro and dlskiturl both call the second-striker/attacking-midfielder roles — i.e. position codes are LOCALIZED (English SS ↔ Spanish SD at least), which any cross-language comparison must account for. dlskiturl's expansion of AM as 'Aggressive Midfielder' remains one source's odd reading against the ordinary 'Attacking Midfielder'; both recorded.",
+        "Stat codes localize: the Spanish client displays VEL/ACE/FON/POT/CON/PAS/DIS/ENT where the English client displays SPE/ACC/STA/STR/CON/PAS/SHO/TAC. The mapping VEL=SPE, ACE=ACC, CON=CON, PAS=PAS is self-evident; FON/POT vs STA/STR and DIS/ENT vs SHO/TAC are the natural readings (fondo/potencia, disparo/entrada) but are recorded as inferences, not facts.",
+        "Dybala's year stamp reads **2020** in-game while SakibPro's published year list (S-0024, item 3) showed [2017] for Aubameyang and left Dybala's year in an elided range; Isco reads **2017** in-game, matching the Reddit post title and filling a hole in the elided list. No contradiction found, but the in-game years now outrank the article's list for these two players because the origin is the game itself.",
+        "The 'black card' claim (S-0022) is not contradicted but is not supported either: both captured cards are un-maxed (85 and 84 base) and show gold/cream frames, so the maxed state remains unobserved."
+      ],
+      "confidence_note": "This is the turn the project acquired direct evidence. Consequences, applied conservatively per Mechanism 5: (1) **The English eight-stat display set (SPE ACC STA STR CON PAS SHO TAC) is promoted to High Confidence** — two independent sources with documented independence: an in-game capture (author: an r/DreamLeagueSoccer user; platform: Reddit; method: screenshot of the live client; origin checkable at kb/evidence/reddit_cult_heroes_isco_signed_en.jpg) and SakibPro's card pages and simulator (author: SakibPro; platform: its own site; method: published data), first-publication dates recorded. The origin rests on something checkable — the image — which is what the gate requires. Not Confirmed: only two independent sources, and the third would need to be unrelated to both. (2) **'Special cards display a year stamp' is promoted to High Confidence** on two separate in-game captures (2020 on Dybala, 2017 on Isco) from two different Reddit posts, plus SakibPro's year-stamped list agreeing. (3) Everything NUMERIC inside the images (the two stat octets, the two OVRs, heights, feet) stays **Speculative by the count gate** — one origin each for the stat values — but with origin quality recorded as DIRECT (in-game capture), which is the highest origin class available and the reason a single agreeing database page would promote them. The OVRs (85 Dybala, 84 Isco) additionally match three third-party databases, so the OVR values sit at two-plus independent sources' agreement with one direct origin among them — recorded as High Confidence for those two OVRs specifically, with the reasoning written in the revision register rather than assumed. (4) **New screens and a new mechanic are now directly observed**: LIVE TRANSFERS with a CULT HEROES subsection, SCOUTS and AGENTS panels, MANAGE PLAYERS, two currency counters, and the rule 'Live Transfers will refresh with new players after completing 1 match.' The AGENTS panel existing in-game is the strongest single confirmation yet that the 'Cult Hero Agent' route is real, and the community's own word for opening one — 'pull', in the post title 'Lucky Cult heroes pull' — is gacha vocabulary from users, which is what a randomised acquisition looks like from the inside.",
+      "discovered_not_yet_visited": [
+        "r/DreamLeagueSoccer as a platform — post lists, comments, and more in-game captures (the English community's richest vein found so far)",
+        "the other 18 official store screenshots from S-0023 (first-party UI evidence, still unread)",
+        "per-player SakibPro pages for Dybala and Isco (to test whether the third-party stat octets match the in-game ones exactly — a decisive test of DR-001's authority question)",
+        "in-game captures in the other 14 client languages, which would yield each language's stat-code set",
+        "the AGENTS panel in detail — what an agent costs, what opening one shows"
+      ],
+      "leads_consumed_from": "S-0023 (image route), the frontier's 'English community' and 'user-generated' categories"
     }
   ],
   "frontier": {
-    "discovered_total": 89,
-    "visited_total": 11,
+    "discovered_total": 108,
+    "visited_total": 15,
     "unvisited_leads": [
       "https://www.firsttouchgames.com/",
       "https://www.firsttouchgames.com/support",
@@ -998,7 +1145,22 @@
       "one index page per card type: /players/classic/, /players/season-pass/, /players/team2025/, /players/world-winners/, /players/normal/, /players/dynamic-star/ — each server-rendered with that family's full membership and count (fastest route to the special-card taxonomy, dimension 4)",
       "card art https://cdn.sakibpro.com/assets/dls26/28324.webp — test whether a 'black card' design and the 'Cult Heroes 2018' year stamp are visible, and whether the art is a render or an extraction",
       "FTG's own Cult Heroes event artwork + social channels — first-party confirmation of the 12-name roster (G-0024)",
-      "Wayback captures of /players/cult-heroes/ to test roster changes during and after the window"
+      "Wayback captures of /players/cult-heroes/ to test roster changes during and after the window",
+      "https://dlsinside.com/ — SECOND DATABASE: root, methodology, card-type indexes (mandatory cross-check for DR-001)",
+      "https://dlsinside.com/players/specials/cult-heroes — full page-render (squad numbers, 'CULT HERO AGENT' route, version/code stamp)",
+      "https://dreamkitsapp.com/data — THIRD DATABASE: full page-render; enumerates card families incl. Secret players, Star players, World Winners, World Heroes, Kick-off Stars, Team of 2025, Champion players",
+      "https://dlskiturl.com/dls-26-cult-heroes-event/ — full page-render of the agent-randomness mechanic and the 16 Sep start date",
+      "https://sakibpro.com/dls-26-new-update-events-players/ — full page-render: '3 Cult Heroes from Online Events', year-stamped stats, '100% Official' claim",
+      "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/ — full page-render: 'unlimited Special Players within a club', Fanzone, World Tournament, Dream Stars",
+      "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ — full page-render (flagged source): version chain, July 'Cult Heroes tweaks' claim",
+      "the 20 official Play Store screenshots (w526-h296) from S-0023 — first-party in-game UI evidence",
+      "a dedicated search for the ENGLISH LEAGUE CLASSICS PRIZE LADDER — no dedicated search yet, and it is the event the user's stated activity most likely refers to",
+      "searches for a 4th and 5th independent source on the Cult Heroes roster (Community Consensus gate needs 5 documented-independent members)",
+      "r/DreamLeagueSoccer — post lists, comments and further in-game captures (English community's richest vein found so far)",
+      "per-player SakibPro pages for Dybala (/players/cult-heroes/paulo-dybala/28333/) and Isco (/players/cult-heroes/francisco-alarc-n/28327/) — decisive test: do the third-party stat octets match the in-game captures exactly?",
+      "in-game captures in the other 14 client languages (each yields that language's stat-code set)",
+      "the AGENTS panel in detail (cost of an agent, what opening shows)",
+      "the remaining 19 official store screenshots from S-0023"
     ]
   }
 }

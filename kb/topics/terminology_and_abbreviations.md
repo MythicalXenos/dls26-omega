@@ -59,7 +59,11 @@ Where research shows a prompt term corresponds to nothing real, or to something 
 | **Classic greats** | "4,000+ FIFPRO licensed players and legendary Classic greats of the game" | S-0011, S-0015 |
 | **Loot Boxes** | Apple's content declaration for the app's randomised purchases | S-0017 |
 
-## Stat-code vocabulary — RESOLVED as a mapping (S-0021), values still unverified
+## Stat-code vocabulary — PROMOTED to High Confidence for the English display set (R-0003); values still gated separately
+
+**Tier change 2026-09-27 (logs/revision_register.md R-0003):** the English eight-stat display set is no longer a third-party claim. An in-game capture posted to r/DreamLeagueSoccer (saved at `kb/evidence/reddit_cult_heroes_isco_signed_en.jpg`, S-0025) shows the live client displaying exactly **SPE 81, ACC 87, STA 79, STR 65, CON 93, PAS 86, SHO 81, TAC 53** on a signed Cult Heroes card — the same eight codes SakibPro's card pages and simulator use. Two independent sources, documented independence, checkable origin ⇒ **High Confidence** per Mechanism 5. Individual VALUES remain gated on their own (the capture's octet is single-origin ⇒ Speculative with origin DIRECT).
+
+**NEW from the same evidence: stat codes are LOCALIZED.** A second capture of a SPANISH client (`kb/evidence/reddit_cult_heroes_dybala_signed_es.jpg`, screen headed "JUGADOR FICHADO") displays **VEL, ACE, FON, POT, CON, PAS, DIS, ENT** for the same eight slots. Self-evident mappings: VEL=SPE, ACE=ACC, CON=CON, PAS=PAS. Inferred (recorded as inference): FON=STA (fondo), POT=STR (potencia), DIS=SHO (disparo), ENT=TAC (entrada). **Consequence for the sweep: every non-English community source speaks its own stat-code dialect, and cross-language comparisons must map codes first.** es is one of the client's 15 official languages, so this is the expected pattern, not an anomaly.
 
 Recovered from a card page whose prose pairs names with codes ("reactions (85 GKR)", "handling (80 GKH)") and from the simulator's coach groupings (S-0020):
 
@@ -72,7 +76,7 @@ Recovered from a card page whose prose pairs names with codes ("reactions (85 GK
 | CON | Control | Technical Coach |
 | PAS | Passing | Technical Coach |
 | SHO | Shooting | Technical Coach |
-| TAC | **Tackling** — NOT "Tactics" | Technical Coach |
+| TAC | **Tackling** — NOT "Tactics". Confirmed in-game (S-0025) | Technical Coach |
 | GKR | Reactions (goalkeeper) | Goalkeeping Coach |
 | GKH | Handling (goalkeeper) | Goalkeeping Coach |
 
@@ -91,3 +95,17 @@ Status: the code→name MAPPING is resolved as a hypothesis with strong internal
 | **Free Agent** | a club value for players unattached to a club | third-party (S-0021) | OPEN — ordinary football usage; whether DLS26 uses it as a literal club label is unconfirmed |
 | **Development Weight** / **progression capacity** | the budget a player's upgrades draw down | third-party (S-0020) | OPEN — no official echo |
 | **Coaches Wasted** | a cost readout implying coaches can be spent with poor result | third-party (S-0020) | OPEN — no official echo; connects to the prompt's unresolved "reset cycles" and to a possible failure/overflow mechanic |
+
+## Screens and panels now directly observed in-game (S-0025) — High-tier evidence that they EXIST; their mechanics stay gated
+
+| Observed label | What it is | Locale seen |
+|---|---|---|
+| **PLAYER SIGNED** / **JUGADOR FICHADO** | the confirmation modal shown when a player is signed, with confetti, the stat octet and the card | en / es |
+| **LIVE TRANSFERS** | a screen/panel listing transfer targets, containing a **CULT HEROES** subsection (three card thumbnails visible) and a second subsection labelled "MEJOR CALIFICADOS" in the capture | en heading, es subsection in the same frame — recorded, not interpreted |
+| **SCOUTS** | a right-hand panel with thumbnails — FTG's officially named Scouts, now seen as a real panel | en |
+| **AGENTS** | a right-hand panel with thumbnails — FTG's officially named Agents, now seen as a real panel; the strongest in-game confirmation yet of the "Cult Hero Agent" acquisition route | en |
+| **MANAGE PLAYERS** | a button, bottom right | en |
+| two currency counters | top bar, reading "5.177" and "3.214" with distinct icons — consistent with the officially purchasable Coins and Gems, but **which counter is which is NOT determinable from the capture** and is not asserted | numeric, European thousands separator |
+| "**Live Transfers will refresh with new players after completing 1 match.**" | an in-game rule caption, quoted verbatim | en |
+
+Also observed on the cards themselves: a green circular OVR badge, a gold **year banner** on the card face (2020 on Dybala, 2017 on Isco — promoted to High Confidence that special cards carry a year stamp, R-0003), the player name, a national flag, a **position badge that localizes** (AM in the English client, SD in the Spanish client for the second-striker/attacking-midfielder roles), and a red star at the card's foot. Un-maxed Cult Heroes cards show a gold/cream frame with a rainbow-gradient upper band; the claimed "black card" maxed state remains unobserved (G-0030).
