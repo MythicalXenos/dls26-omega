@@ -1724,11 +1724,35 @@
     "kb/topics/classic_card_inventory.md"
    ],
    "rev": "G-0039 substantially resolved; classic_card_inventory.md created"
+  },
+  {
+   "id": "S-0055",
+   "route": "web_search (depth 2)",
+   "url": "reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+   "what": "Pre-announcement thread (page age Fri 21 Aug 2026): FTG to announce Cult Heroes soon; community structure read '12 players, special agent, 3 season pass with the same name, same pattern like the dream star'; predicted 82-85 band (fanbase players); agent-source hypothesis: clan points, season pass, dream draft, dll events, IAP discounts; 'back to back legendary agent events' preceded it; TOTY = next expected big event; endgame symptom: career auto-win, coins stacked 3,246,815 with no sinks. Sidebar: 'DLS26 Isco maxed - collector card' thread.",
+   "files": [],
+   "rev": "live_ops addendum; G-0068 opened (coin sinks + TOTY)"
+  },
+  {
+   "id": "S-0056",
+   "route": "fetch_page (read-only risk survey)",
+   "url": "https://dlskiturl.com/dls-26-mod-apk/",
+   "what": "Mod-APK landscape (G-0043): 'DLS 26 Mod' = DLS19-base reskin (32-player cap, no Clans) with unlimited coins/gems + 40+ modder legends (Drogba/Di Stefano/Garrincha/Muller/Ronaldinho/Platini/Cantona); Unknown Sources install; comment-reported money glitch + speed-mod requests. Risk: ban/account/security/state — documented in disputed_claims.md, never endorsed. Leads: dlsmod.com/dls-clans/ (clan mechanics) + dlsmod.com/c-spamming-in-dls/ (named exploit, G-0069).",
+   "files": [],
+   "rev": "disputed_claims addendum (risk assessment); G-0043 documented; G-0069 opened"
+  },
+  {
+   "id": "S-0057",
+   "route": "fetch_page",
+   "url": "https://dlskiturl.com/category/classic/",
+   "what": "dlskiturl 'classic' category = mostly classic-KIT pages (Liverpool 2001-02/2006-07, Argentina 1998, Brazil 1994, Real Madrid 2003-04/2007-08, Barca 2012-13, Man City 2008-09, superhero kits) + the single English League Classics ladder article. Dead end for earlier ladder articles (their category system does not archive ladder rounds). Kit-URL leads only.",
+   "files": [],
+   "rev": "dead end for G-0039 articles; kit import URLs catalogued by page name"
   }
  ],
  "frontier": {
-  "discovered_total": 206,
-  "visited_total": 54,
+  "discovered_total": 210,
+  "visited_total": 57,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -1871,17 +1895,18 @@
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
    "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
    "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) — uploads list is JS-rendered dead for fetch_page",
-   "dlskiturl.com/dls-26-world-heroes-and-world-winner/ (World Hero event, G-0039/live-ops)",
-   "dlskiturl category archives: dlskiturl.com/category/classic/ + /category/dls-26/ (earlier ladder/event articles, G-0039)",
    "DLS27 Kick-Off Stars concept + Gallagher/Peter Robinson leak verification (G-0063)",
-   "dlskiturl.com/dls-26-mod-apk/ risk walkthrough (G-0043, read-only)",
    "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
    "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
    "dlsinside.com/players (the full-DB site behind img.dlsinside.com)",
    "dreamkitsapp dynamic-stars p2-3 + player/{id} stat pages (exact stats, G-0065)",
    "dreamkitsapp /players (all-base-players DB) + /teams",
    "GIIODROID Facebook leak archive (G-0063)",
-   "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)"
+   "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)",
+   "dlsmod.com/c-spamming-in-dls/ (exploit study + counters, G-0069)",
+   "dlsmod.com/dls-clans/ (clan mechanics second source, G-0059)",
+   "dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
+   "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)"
   ]
  }
 }
