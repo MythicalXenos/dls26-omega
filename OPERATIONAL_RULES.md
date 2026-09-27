@@ -14,3 +14,8 @@
 - Every adopted amendment to PROMPT.md is carried into this file before the turn that adopts it ends.
 - If missing or corrupted: read PROMPT.md from the repo and rebuild; log the reconstruction in the issue tracker and under DEGRADATION EVENT.
 - If PROMPT.md and this file conflict, PROMPT.md wins.
+
+## Added 2026-09-27T21:57Z (session 1 turn 8) — turn-start history verification (ISS-007)
+
+Before committing in any turn: confirm the local branch `arena/01a0e3cd-dls26-omega` is at the remote tip (fetch, then compare `HEAD` with `origin/arena/01a0e3cd-dls26-omega`; behind/ahead must be 0/N, never diverged). The workspace can be re-cloned or reset between turns by the environment: files are snapshotted, `.git` history and repository git identity are not, and a fresh clone reads `git status` clean exactly like a healthy repo — so local state alone can never certify itself.
+On discovering a reset (history missing, identity reverted, branch at the base commit): set the git identity (DLS26 Omega / omega@dls26.local), fetch the remote branch into a remote-tracking ref, `git reset --soft` to the remote tip to preserve index and working tree, re-commit the pending content (reusing message and tree where a orphaned commit exists), push, and verify the remote tip and a clean status. Never push a diverged chain; never force-push. Log every occurrence in the main operational log and the issue tracker.

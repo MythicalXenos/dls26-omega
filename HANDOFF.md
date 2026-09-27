@@ -6,8 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 8 complete (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-27T21:49Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 8 complete
+- **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch, `reset --soft` to the remote tip, re-commit, push, verify. Never push diverged; never force-push. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
+- **This session ended:** 2026-09-27T21:58Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
