@@ -532,3 +532,18 @@ Ninth re-clone; per-file hash verification + lossless reset as written.
 ## [2026-09-28T06:30Z] dlsinside slug route cracked; "hidden record" class named; repo data conventions read
 session 1 turn 16 | state STATE_1_RESEARCH_SWEEP | topic: source access / structure
 The dlsinside per-player slug pages (unlike the JS-dead listing) are server-rendered: /player/{slug}/{id} resolves by id and returns stats, collection membership, coin value, age/status and team links — a second DB surface. Isco 28327 = "Francisco Alarcón" with PAS 88/CON 93/STA 79 now triple-surfaced; the current ladder Berbatov's id is settled as 27675 (Classic, SHO 92, 189cm, age 45 Retired) and any "26904" citation is a phantom. Classic Keane 5842 is labelled by dlsinside as a "hidden record found in the data" — the database itself names the unreleased class. Also read the four scaffold READMEs (raw_game_data read-only + ownership-evidence rule restated; source_archive naming; tools = STATE_3 designs; audit_packages = AP-NNN owed at STATE_4). Frontier 245/80/165.
+
+## [2026-09-28T07:15Z] SELF-AUDIT (partial) — PROMPT.md + SCHEMA.md full read; compliance gap assessment
+session 1 turn 17 | state STATE_1_RESEARCH_SWEEP | topic: system-compliance
+Read PROMPT.md (842 lines) in full and SCHEMA.md (195 lines) in full. Compliance gaps found and now binding for future turns:
+1. sources_visited.json entries predate the §2.1 schema — missing role/tool/http_status/outcome/source_type/language/payload_summary/deception_screen/discovered_not_yet_visited fields. New entries MUST use the full schema; backfill of S-0001..S-0080 staged (saturation entry ISS-008).
+2. KB claim records must carry confidence + volatility + origin + independence + deception_screen + datamining + evidence_class + game_version fields (§2.2). Existing prose addenda are conclusion-grade but not claim-record grade. Migration staged.
+3. Named log categories under-used: BLUFF CHECK per research turn, DEVILS ADVOCATE before significant recommendations, CONFIDENCE PROMOTION entries for R-0009..0012-style moves, DECEPTION FINDING/SCREEN outcomes per source. From this turn on, each research turn closes with a BLUFF CHECK entry and every source gets a deception-screen record.
+4. HANDOFF.md should follow §2.6 section order (session state, return gap anchor, awaited outcomes, active processes, cycle dates, external verification debt, ...). Current shape is close; normalization staged.
+5. Position-locking verification (user-stated no-locking) still owed by the Skeptic during the sweep — added to the queue.
+6. STEP-1 EXIT GATE discovered (the six-dimension Core Gameplay Taxonomy Gate): Training & Coaching architecture; Economic & Currency matrix; Live Ops & Progression tracks; Match Physics & Energy; Tactical & Control mechanics (incl. position debuffs + assist toggles); plus anything else discovered. A dimension closes by sourced finding OR exhaustively-searched open gap. Current state: (3) partial, (5) partial, (1)(2)(4) open — the gate is NOT yet satisfiable; queue updated accordingly.
+7. Saturation rule now active: recurring obligations incomplete at each turn-stop get issue-tracker entries (ISS-008 started this turn).
+refs: PROMPT.md (read), SCHEMA.md (read), ISS-008
+
+## [2026-09-28T07:15Z] BLUFF CHECK — turn 17
+Complete every step planned? Partially — the turn was re-planned mid-way to consume the constitution read (priority item 2 of the queue); items 3-5 of the queue did not start this turn (staged, not narrowed; see ISS-008 saturation). Skip anything silently? No. Present incomplete work as complete? No — the compliance gaps above are stated as gaps. Research claims this turn: none (file-reading turn). No advice-impact; issue-tracker entry only per Mechanism 8.
