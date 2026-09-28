@@ -93,3 +93,24 @@ Pages 3-4 of the secret listing (sorted rating-desc: p1-2 = 87-76 hidden classic
 TikTok fragments ("Georgien/Elliot/Igor Tiago at 84", PT guide: Eeds/Arrascaeta/Anderson/Tiago/Berg) map 1:1 onto this roster — third-party echo. The r/ candidates thread (Semenyo/Moleiro/etc.) was WISHLIST only: zero overlap with the actual roster. Selection criteria (non-elite-club breakouts) fits 11/12 (Yildiz/Juventus the stretch). Dreamkitapp "Star players: Luis Suarez 83 CF Colombia" is a DIFFERENT Suarez (Luis Javier Suarez, Colombia) — do not merge with the Uruguayan Dream Star. Residual (G-0081): the 12 cards' OVRs/stats ("84" seen for three via TikTok) + the voted-12th-man attribution + full family crosswalk.
 **CARD TAXONOMY (three surfaces):** dreamkitsapp families = World Heroes · Team of 2025 · Champion players · Star players · Classic players (+ Secret players, Kick-off Stars, World Winners, Dynamic Stars from earlier notes). sakibpro in-page card tags = "Champion 26" (Spain WC-champion cards: Rodri, Cubarsi, Yamal) · "Dreamstar 25" (Baena, Vivian) · "Normal" · "DYNAMICSTAR" · "CLASSIC" · "CULT HEROES". FTG first-party names = Cult Heroes · Season Pass Players (NEW, 6 cards TBA) · Dynamic Stars · Dream Stars 26. GK cards replace STA/SHO slots with **GKR/Handling** (Cult Heroes sheets: Vozinha GKR 81.4/H 81.2; De Gea GKR 85.0/H 80.0).
 **RATING-ERA BOUNDARY (S-0115):** the Summer Update (~late May 2026) shipped a MASSIVE player-rating overhaul ("live data syncing", full recalibration). All cross-source OVR/stat comparisons must be ERA-STRATIFIED: pre-overhaul (dlsgame index 2 Dec 2025; reddit price list 4 Dec 2025; sportsdunia 2 Jan 2026; thesoccerera 19 Feb 2026) vs post-overhaul (sakibpro Aug-Sep 2026 sheets; sportsdunia Jun 2026 dynamic-stars). Example drift: Rodri 85-86 across sources, Cole 80 (May article) vs 84 (Aug), Essien 84 (Aug) vs 85 (Sep trending).
+
+## Addendum (turn 32): Dream Star 26 catalog with IDs/OVRs (S-0121) + Suarez nationality CONFLICT + community tier lists (S-0116)
+**DREAM STAR 26 CARDS (all 12; /players/dreamstar26/ index server-rendered):**
+| Card | Pos | Nat | OVR | Id | Batch |
+|---|---|---|---|---|---|
+| Elliot Anderson | DM | ENG | 84 | 27832 | 27827-27835 |
+| Julian Ryerson | RB | NO | 84 | 27828 | " |
+| Mile Svilar | GK | RS | 84 | 27827 | " |
+| Igor Thiago | CF | BR | 84 | 27483 | 27481-27483 |
+| Kenan Yildiz | SS | TR | 84 | 27481 | " |
+| Giorgian de Arrascaeta | AM | UY | 84 | 27482 | " |
+| Patrick Berg | DM | NO | 83 | 27831 | " |
+| Malang Sarr | CB | FR | 83 | 27829 | " |
+| Luis Suarez | CF | **CO** | 83 | 27835 | " |
+| Christos Tzolis | LM | GR | 83 | 27834 | " |
+| Luka Vuskovic | CB | HR | 83 | 27830 | " |
+| Souffian El Karouani | LB | MA | 82 | 27833 | " |
+OVR spread = 84x6 / 83x5 / 82x1 (NOT uniform — resolves G-0081 residual (a); TikTok "84" was the top tier only). +10 coach upgrade applies (black cards) per index FAQ.
+**SUAREZ NATIONALITY CONFLICT (record, do not merge):** the sakibpro EVENT GUIDE prose says Luis Suarez = Uruguay / Inter Miami; BOTH databases (sakibpro index flag co.png + dreamkitsapp "Star players Luis Suarez 83 CF Colombia") say COLOMBIA 83 CF = the Colombian Luis Javier Suarez. Majority 2-1 for Colombia; the guide prose is the unreliable surface (it also mislabels positions elsewhere: Ryerson DF→RB, Berg MF→DM, Tzolis MF→LM, El Karouani DF→LB). Third-surface resolution pending.
+**COMMUNITY PERFORMANCE TIERS (reddit 1sv94qo, 25 Apr 2026, unmaxed cards):** consensus S-tier = Yildiz, Ryerson, Thiago, de Arrascaeta; Svilar mid (B); Tzolis/El Karouani/Sarr low; Thiago valued as the physical CF ("beast... 20 goals in 40 live games"). Advisory-relevant ranking for a user who may pick Dream Star rewards.
+**BASE-CARD INTERNALS (two hard datapoints):** Igor Thiago base (dreamkitsapp/24651, V13030): 729/659/702/845/744/683/800/345 + GKR 147/GKH 155, 74 OVR Brentford (base card ≠ the 84 Dream Star card). Kenan Yildiz base (dlsinside/23016): 829/839/779/699/309/859/809/819 + GKR 159/GKH 154, 80 OVR SS/LW, ambidextrous ("Both / Right"), 187cm, J Turin, 1,965 coins, max 90, dorsal 10. The +10 max rule holds on both surfaces (74→84? no — Thiago base max = 84 coincides with DS 84; Yildiz 80→90).

@@ -101,3 +101,45 @@ David Luiz + Blind match the turn-29 decimals exactly (confidence: the tables ar
 **WORLD CUP CLASSIC = Season Pass wave ×4 (official May 2026):** Desailly CB 85 (France, 1998) · Bergkamp CF 85 (Netherlands, 1998; dreamkitsapp lists him SS — position conflict) · Rivaldo AM 85 (Brazil, 2002; dlsgame: LW 86 [1999] — drift) · Cannavaro CB 86 (Italy, 2006). Ladder sequencing correction (author comment): FTG SWAPPED the two waves — **World Cup Classic ladder ran FIRST**, English League Classic followed.
 **TYPED URL + ID MAP (sakibpro /players/classic/{slug}/{id}):** petit/27203 · essien/26838 · cole/27096 · desailly/26836 · bergkamp/27202 · borba-ferreira/26843 (Rivaldo real-name slug) · cannavaro/26842 · (berbatov 27675 per earlier). ID clusters: 26836-26843 = one batch; 27096/27202/27203 = next; 27675 = later. Comment-harvested URL pattern 2× confirms /players/classic/ segment.
 **FUTURE/LEAKED CLASSICS (dlsgame index, Dec 2025 = pre-overhaul era, unverified):** Matthaus [1991] 86 AM Germany · Valderrama [1993] 83 AM Colombia · Pires [2002] 84 LM France. Reddit wish (Nov 2025): Costacurta. Comment rumor: Torres in DLS 27. fandom "Classic Players" list (Yashin/Banks/Maldini/etc.) remains UNUSABLE (vandalized surface, turn 30) except where independently corroborated.
+
+## Addendum (turn 32): FULL CLASSIC CENSUS — 34 records enumerated (S-0118/0119/0120, /players/classic/ index server-rendered)
+The Classic card-type index is fetchable (unlike per-player DB pages). All 34 records, sorted by their base-OVR label:
+| # | Card | Pos | Nat | OVR label | Id | Notes |
+|---|---|---|---|---|---|---|
+| 1 | (UNNAMED) | GK | ES | 86 | 26841 | slug "player" broken — identity gap (G-0086); likely a Spanish GK legend |
+| 2 | Cannavaro | CB | IT | 86 | 26842 | [2006] per S-0115 |
+| 3 | Matthaus | DM | DE | 86 | 24596 | version A |
+| 4 | Matthaus | AM | DE | 86 | 27201 | version B (dlsgame "1991 AM 86") |
+| 5 | Rivaldo | LW | BR | 86 | 27094 | version A (dlsgame "1999 LW 86"); slug rivaldo-vitor-borba-ferreira |
+| 6 | Batistuta | CF | AR | 85 | 24595 | version A (Jan-2025 ladder hero) |
+| 7 | Batistuta | CF | AR | 85 | 27204 | version B |
+| 8 | Bergkamp | SS | NL | 85 | 25100 | version A |
+| 9 | Bergkamp | CF | NL | 85 | 27202 | version B = WC-Classic Season Pass card [1998] |
+| 10 | Chiellini | CB | IT | 85 | 25099 | |
+| 11 | Desailly | CB | FR | 85 | 26836 | = WC-Classic SP card [1998] |
+| 12 | Essien | DM | GH | 85 | 26838 | ladder-four [2006] (85 label here vs 84 Aug article) |
+| 13 | Gascoigne | AM | ENG | 85 | 24598 | version A |
+| 14 | Irwin | LB | IE | 85 | 5839 | LEGACY id space (slug classic-irwin) |
+| 15 | Rivaldo | AM | BR | 85 | 26843 | version B = WC-Classic SP card [2002] |
+| 16 | Trezeguet | CF | FR | 85 | 26837 | two-footed, SHO 93/SPE 86 (dreamkitsapp) |
+| 17 | Berbatov | CF | BG | 84 | 27675 | ladder-four [2011] |
+| 18 | Cole | CF | ENG | 84 | 27096 | ladder-four [1994] |
+| 19 | Crespo | CF | AR | 84 | 27095 | version A (SHO 93) |
+| 20 | Desailly | DM | FR | 84 | 27093 | version B (position differs!) |
+| 21 | Petit | DM | FR | 84 | 25090 | version A |
+| 22 | Petit | DM | FR | 84 | 27203 | version B = ladder-four [1998/99] |
+| 23 | Pires | LM | FR | 84 | 26839 | dlsgame "[2002] LM 84" |
+| 24 | Souness | CM | SCT | 84 | 25089 | PAS 83/STA 91 |
+| 25 | Zola | CF | IT | 84 | 25094 | |
+| 26 | Adams | CB | ENG | 83 | 25093 | |
+| 27 | Cole | CF | ENG | 83 | 25091 | version B |
+| 28 | Crespo | CF | AR | 83 | 25095 | version B |
+| 29 | Valderrama | AM | CO | 83 | 26840 | dlsgame "[1993] AM 83" |
+| 30 | Zenga | GK | IT | 83 | 25097 | |
+| 31 | Suker | CF | HR | 83 | 25096 | |
+| 32 | Bergkamp | SS | NL | 82 | 25092 | version C |
+| 33 | Gascoigne | AM | ENG | 82 | 24597 | version B |
+| 34 | Mendieta | RM | ES | 82 | 25098 | |
+**MULTI-VERSION PATTERN (G-0016 evidence, strong):** Bergkamp ×3, and ×2 each: Matthaus (DM/AM), Rivaldo (LW/AM), Batistuta (CF/CF), Desailly (CB/DM), Petit, Cole, Crespo, Gascoigne. Versions differ in position and/or OVR label — same player, distinct cards (distinct year stamps presumably per version; per-player pages carry the years). Which version a given event offers matters for grinding decisions.
+**ID CLUSTERS:** 24595-24598 (Batistuta/Matthaus-A/Gascoigne-A/B) · 25089-25100 (Souness→Bergkamp-A, one batch of 12) · 26836-26843 (Desailly-A/Trezeguet/Essien/Pires/Valderrama/26841/Cannavaro/Rivaldo-B) · 27093-27096 (Desailly-B/Rivaldo-A/Crespo-A/Cole-A) · 27201-27204 (Matthaus-B/Bergkamp-B/Petit-B/Batistuta-B) · 27675 (Berbatov) · 5839 (Irwin legacy). Card art = cdn.sakibpro.com/assets/dls26/{id}.webp.
+**Upgrade FAQ (index, twice-stated):** all special cards upgradable +10 over base via Fitness/Technical coaches → maxed black cards (consistent with the coaching model + R-0012).
