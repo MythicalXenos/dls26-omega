@@ -196,3 +196,15 @@ Year-stamp range now 1984-2018. Still open: Zola 25094, Adams 25093, Valderrama 
 | Valderrama | **1993** | AM 83 26840 | 70/83/82/76/86/85/76/67 | dlsgame 3/3 match; normal echo 12090 (72) |
 | Zenga | **1990** | GK 83 25097 | SPD 70/ACC 67/STR 66/CON 60/PAS 61/TAC 56 + **GKR 82/GKH 79** | FIRST FULL GK SHEET — GK layout = 6 outfield + GKR/GKH |
 Year range now 1984-2018. Open: Suker 25096, Mendieta 25098, Irwin 5839 (then classic year stamps are 100% complete).
+
+## Addendum (turn 39): the final three singles — CLASSIC YEAR STAMPS 34/34 COMPLETE (S-0159..S-0164)
+| Card | Year | Pos/OVR/Id | Sheet (SPE/ACC/STA/STR/CON/PAS/SHO/TAC) | Notes |
+|---|---|---|---|---|
+| Šuker | **1998** | CF 83 25096 | 82/82/83/78/85/76/89/44 | Total 619; Left; 183/77; max 93; dreamkitsapp internals 829/829/839/789/859/769/899/446; Other-versions rail "Classic Šuker" 5765 (83, LW/AM) = a separate SECRET-CLASS record |
+| Mendieta | **2000** | RM 82 25098 | 80/83/90/67/82/82/80/70 | Total 634; Right; 173/72; max 92; true single (no rail); dreamkitsapp internals 800/830/900/670/820/820/800/700 |
+| Classic Irwin | **2026** (anomalous) | LB 85 5839 | 86/86/77/77/79/79/65/92 | Total 641; Left; 182/73; max 95; DOB PLACEHOLDER 1900-01-01 (age 126); dreamkitsapp SECRET-CLASS prose (S-0161); Other-versions "Mark Irwin" normal/14768 (60) = a real separate player |
+
+**COVERAGE COMPLETE: 34/34 classic year stamps.** 33 historical stamps range **1984-2018**; the 34th (Irwin 5839) carries the anomalous **"Classic 2026"** stamp on a placeholder secret-class record (DOB 1900) — recorded as-is, not a historical season year.
+**Slug normalization (sakibpro per-card URLs):** accented letters are DROPPED from slugs — "Davor Šuker" → `davor-uker` (the fetch redirected), "Hernán Crespo" → `hern-n-crespo`, "Lothar Matthäus" → `lothar-matth-us`, "Sørloth" → `s-rloth`. A 404 on a guessed slug usually means a diacritic, not a missing page. Per-card URL pattern: `sakibpro.com/players/<family>/<slug>/<id>/` — NO `/dls-26/` segment (S-0156..S-0158 burned three probes on that).
+**G-0080 cross-validation:** sakibpro display = floor(dreamkitsapp internal/10) on ALL THREE sheets (Šuker 859→85/899→89/446→44; Mendieta 900→90/670→67; Irwin 861→86/926→92/658→65). The ÷10 convention is now confirmed on 4 cards (Nico DS + these three).
+**Similar-rails leak (new lead):** rails expose other families' cards — Sørloth dynamicstar/27523 = **88** (another boosted DS final beyond de Paul 93/Fidalgo 87), a SECOND champion-family Cristiano Ronaldo (25849 at 82 vs 25842 at 88), Messi champion/25841 (88), and the DLS25 Dream Star slug **dreamstar25** (Antonee Robinson 25985, 83).

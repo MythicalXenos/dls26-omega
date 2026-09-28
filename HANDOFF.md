@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 38 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 39 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch WITH THE EXPLICIT REFSPEC (`git fetch origin +refs/heads/arena/01a0e3cd-dls26-omega:refs/remotes/origin/arena/01a0e3cd-dls26-omega` - the wipe narrows `remote.origin.fetch` to main-only, so a plain fetch silently misses the arena branch), then `reset --hard` to the remote tip (working-tree wipe mode, all files match the base commit), verify, push. Never push diverged; never force-push. `git ls-remote origin` distinguishes refspec narrowing from a deleted branch. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T22:50Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T21:55Z (wall clock; turn-38/39 stamp drift noted in the log — turn-38 stamps ran ~1h ahead of wall clock. The return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -16,7 +16,7 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Return gap anchor
 
-Last session end: 2026-09-27T17:35Z. Next session: compute the gap from this line. Below 7 days → weigh the gap against the volatility model and re-verify exactly that. 7 days or more → treat as equivalent to a patch having dropped: full exhaustive sweep before advising.
+Last session end: 2026-09-28T21:55Z. Next session: compute the gap from this line. Below 7 days → weigh the gap against the volatility model and re-verify exactly that. 7 days or more → treat as equivalent to a patch having dropped: full exhaustive sweep before advising.
 
 ## Cycle dates
 
@@ -126,14 +126,14 @@ Mechanism 6: every 2 days of ACTIVE USE (a substantive exchange — a question a
 - No outcome awaits (no recommendation has ever been delivered).
 - Environment facts the user may need to know at first contact, not before: the sandbox cannot reach their phone or MacBook, cannot run an emulator, and cannot download GitHub release assets — Step 3 is user-side by design and Step 2's binary route is constrained (ISS-002, S-0008).
 
-**New this turn (turn 38):** classic year stamps 31/34 — Zola **1997**, Adams **1998**, Valderrama **1993** (dlsgame 3/3 cross-check), Zenga **1990** (first FULL GK sheet: SPD/ACC/STR/CON/PAS/TAC + GKR 82/GKH 79 — GK layout on per-card pages confirmed). Open: Suker 25096, Mendieta 25098, Irwin 5839. Normal echoes keep surfacing (Classic Zola 12102, Classic Valderrama 12090). Sources now 152 (406/152/254).
+**New this turn (turn 39):** classic year stamps **34/34 COMPLETE** — Šuker **1998**, Mendieta **2000**, Irwin = anomalous **"Classic 2026"** (secret-class placeholder record, DOB 1900; dreamkitsapp secret-player prose — first full secret-class sheet, G-0067). 33 historical stamps range 1984-2018. Slug rules: per-card URLs are `sakibpro.com/players/<family>/<slug>/<id>/` (NO /dls-26/ prefix) and accented letters are DROPPED (Šuker → davor-uker). G-0080 ÷10 convention cross-validated on 3 more cards (display = floor(internal/10)). Similar-rails leak other families (Sørloth DS 27523 = 88; second champion C.Ronaldo 25849; dreamstar25 slug). Frontier triplet RECOMPUTED from actual list (turn-38 declared 254 unvisited vs actual 226 — 28 phantom leads) → **385/163/222** (163 entries).
 
-Queue as of turn 38 (2026-09-28T22:50Z):
-1. **Turn-start history check first** (ISS-007 rule - thirty-one recurrences; hash verify + explicit-refspec fetch + `reset --hard` is mechanical).
-2. Last three singles (Suker 25096, Mendieta 25098, Irwin 5839) + cult-heroes 12 per-player sheets (Isco 28327, Dybala 28333 known IDs).
-3. Secret pages 5-18 + ISS-008 backfill + probe Dickison 3490 + 58xx/46xx hidden-echo blocks (G-0067); facility datamine (G-0074) + OVR regression (G-0082/83) + DP rates (G-0085).
+Queue as of turn 39 (2026-09-28T21:55Z):
+1. **Turn-start history check first** (ISS-007 rule - thirty-two recurrences; hash verify + explicit-refspec fetch + `reset --hard` is mechanical).
+2. Cult-heroes 12 per-player sheets (28324-28334: Isco francisco-alarc-n/28327, Dybala paulo-dybala/28333, De Gea david-de-gea/28324) + systematic similar-rails sweep (new lead).
+3. Secret pages 5-18 + ISS-008 backfill + probe Dickison 3490 + 5842/5844/5765 hidden-echo probes (G-0067); facility datamine (G-0074) + OVR regression + simulator JS weighting table (G-0082/83) + DP rates (G-0085).
 4. Authority files ALL READ. OPERATIONAL_RULES = stub until STATE_4 (by design). ISS-009 procedure in force (verified python outputs; commit in a separate call).
 
 User-dependent queue, batched for first contact (consolidated): ladder-path capture (G-0040 timer + G-0070 milestone mapping, one photo) + Cult Heroes agent-opening screen (G-0048) + reserve-freeze observation (G-0072) + special-coach test on a DYNAMIC STAR card (G-0079 — expected: not selectable) + Isco special-coach menu (G-0041) + Nico Williams 96-screen capture (G-0080 confirmatory) + facility-screen captures (G-0074) + DP shop screen (G-0085) + 12th-Man-Vote screen when a vote opens.
 
-State of the base at handoff: frontier 406 discovered / 152 visited / 254 unvisited; recurrence count 31; kb/evidence/ holds 16 files. Gate status: all six dimensions sourced; G-0034 + G-0080 RESOLVED; G-0079 near-resolved. Gate NOT closable — open G-0074, G-0081 (voted-12th + naming residual), G-0082/83, G-0084/85/86, G-0072/73/75/76. Turn-25 peak-seasons remains WITHDRAWN (R-0013).
+State of the base at handoff: frontier 385 discovered / 163 visited / 222 unvisited (recomputed from actual list contents); recurrence count 32; kb/evidence/ holds 16 files. Gate status: all six dimensions sourced; G-0034 + G-0080 RESOLVED; G-0079 near-resolved. Gate NOT closable — open G-0074, G-0081 (voted-12th + naming residual), G-0082/83, G-0084/85/86, G-0072/73/75/76. Turn-25 peak-seasons remains WITHDRAWN (R-0013).
