@@ -79,3 +79,25 @@ sakibpro's indexed pages carry complete sheets (their OVRs = computed "ESTIMATED
 | Petit | 27203 | 1999 | 85 (sakib 84*) | 79 | 77 | 90 | 84 | 81 | 82 | 72 | 85 | **Left** / 185cm |
 *sakibpro's OVRs are computed (their label "ESTIMATED") and run −1 on the ladder three vs dlsinside's extracted ratings — treat dlsinside/OVR badges as ground truth, sakibpro as a stats surface. Named-stat cross-checks match dlsinside 3/3 (Cole SHO 92/SPE 88/ACC 88; Essien PAS 83/CON 81/STA 91; Berbatov SHO 92/SPE 79/ACC 78).
 **Cult Heroes sheets (same source):** David Luiz CB 84 **[2017]** — 189cm Right; SPE 78.9/ACC 74.9/STA 82.9/STR 85.9/CON 80.0/PAS 80.0/SHO 67.0/TAC 89.9 (**decimal precision = exact internal÷10: 789/749/829/859/800/800/670/899**). Daley Blind CB 83 **[2019]** — 180cm Left; SPE 75.9/ACC 72.9/STA 83.9/STR 81.9/CON 81.9/PAS 82.9/SHO 67.0/TAC 87.9 (base stats; the turn-15 capture showed trained values).
+
+## Addendum (turn 31): Cult Heroes 12/12 decimal sheets + official Classic waves with typed URLs/IDs (S-0114/0115)
+**CULT HEROES — all 12 with decimal sheets (sakibpro roundup 21 Aug 2026; order = SPE/ACC/STA/STR/CON/PAS/SHO/TAC; GK rows = SPE/ACC/(GKR)/(GKH)/CON/PAS/STR/TAC with GKR+Handling replacing STA/SHO):**
+| Card | Pos | OVR | Year | Height/Foot | SPE | ACC | STA | STR | CON | PAS | SHO | TAC |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Vozinha | GK | 83 | 2026 | 189 R | 54.0 | 47.1 | (GKR 81.4) | 62.1 | 54.7 | 55.2 | (H 81.2) | 43.1 |
+| De Gea | GK | 85 | 2018 | 192 R | 62.1 | 60.2 | (GKR 85.0) | 56.8 | 57.3 | 60.7 | (H 80.0) | 43.6 |
+| Aubameyang | CF | 85 | 2017 | 187 R | 93.0 | 92.0 | 81.1 | 77.0 | 85.5 | 79.0 | 94.0 | 34.1 |
+| Dybala | SS | 85 | 2020 | 177 L | 81.2 | 90.9 | 80.8 | 62.9 | 92.9 | 90.9 | 90.9 | 49.9 |
+| Otamendi | CB | 84 | 2018 | 183 R | 75.9 | 73.9 | 83.9 | 89.9 | 80.9 | 80.9 | 58.9 | 93.9 |
+| Ziyech | RW | 84 | 2019 | 180 L | 83.9 | 85.9 | 84.9 | 61.9 | 87.9 | 90.9 | 83.9 | 58.9 |
+| Isco | AM | 84 | 2017 | 176 R | 81.2 | 87.3 | 79.6 | 65.9 | 93.0 | 88.9 | 81.0 | 53.8 |
+| Herrera | CM | 83 | 2017 | 182 R | 74.0 | 75.0 | 91.0 | 73.0 | 86.0 | 86.0 | 73.0 | 82.0 |
+| Shaqiri | AM | 83 | 2019 | 169 L | 77.9 | 86.9 | 79.0 | 72.9 | 85.9 | 85.9 | 80.2 | 55.9 |
+| Insigne | LW | 84 | 2021 | 163 R | 90.9 | 94.9 | 83.9 | 54.9 | 90.9 | 86.9 | 87.9 | 40.9 |
+| David Luiz | CB | 84 | 2017 | 189 R | 78.9 | 74.9 | 82.9 | 85.9 | 80.0 | 80.0 | 67.0 | 89.9 |
+| Blind | CB | 83 | 2019 | 180 L | 75.9 | 72.9 | 83.9 | 81.9 | 81.9 | 82.9 | 67.0 | 87.9 |
+David Luiz + Blind match the turn-29 decimals exactly (confidence: the tables are the same data class; decimals = internal÷10). Isco [2017] base here matches the turn-15/turn-22 in-game Isco-family values (see G-0033/0041 history). Cult Heroes unlock (official): 3 Season Passes × (1 free + 1 premium) = 6 · Online Events = 3 · Dream Draft = 1 free + 2 paid drafts (up to 3 per draft — total math vs 12 ambiguous: likely 3 distinct draft-reward heroes). Sequencing: "World Winners" event finished ~21 Aug 2026 → Cult Heroes event dropped right after.
+**ENGLISH LEAGUE CLASSIC = the Prize Ladder wave (official May 2026, updated Aug 2026):** Petit DM 84 (France; card year 1998 per May / 1999 per Aug — CONFLICT) · Essien DM 84 (Ghana, 2006) · Cole CF 84 (England, 1994; May article mislabels 80) · Berbatov CF 84 (Bulgaria, 2011). ROSTER CHURN: the May announcement had **Fernando Torres CF (Spain, 2008)** as the 4th name; by Aug he was replaced by Berbatov and (comments) moved to DLS 27. Integer sheets in the Aug article are IDENTICAL to the turn-29 per-player pages (all four) — two independent sakibpro surfaces agree on stats (OVR LABELS drift: article 84 / trending Essien 85 / dlsinside badges 85-84 — G-0083 evidence).
+**WORLD CUP CLASSIC = Season Pass wave ×4 (official May 2026):** Desailly CB 85 (France, 1998) · Bergkamp CF 85 (Netherlands, 1998; dreamkitsapp lists him SS — position conflict) · Rivaldo AM 85 (Brazil, 2002; dlsgame: LW 86 [1999] — drift) · Cannavaro CB 86 (Italy, 2006). Ladder sequencing correction (author comment): FTG SWAPPED the two waves — **World Cup Classic ladder ran FIRST**, English League Classic followed.
+**TYPED URL + ID MAP (sakibpro /players/classic/{slug}/{id}):** petit/27203 · essien/26838 · cole/27096 · desailly/26836 · bergkamp/27202 · borba-ferreira/26843 (Rivaldo real-name slug) · cannavaro/26842 · (berbatov 27675 per earlier). ID clusters: 26836-26843 = one batch; 27096/27202/27203 = next; 27675 = later. Comment-harvested URL pattern 2× confirms /players/classic/ segment.
+**FUTURE/LEAKED CLASSICS (dlsgame index, Dec 2025 = pre-overhaul era, unverified):** Matthaus [1991] 86 AM Germany · Valderrama [1993] 83 AM Colombia · Pires [2002] 84 LM France. Reddit wish (Nov 2025): Costacurta. Comment rumor: Torres in DLS 27. fandom "Classic Players" list (Yashin/Banks/Maldini/etc.) remains UNUSABLE (vandalized surface, turn 30) except where independently corroborated.

@@ -73,3 +73,23 @@ Pages 3-4 of the secret listing (sorted rating-desc: p1-2 = 87-76 hidden classic
 **TOP-10 OVERALL (their calc, cross-read with care):** Mbappé 86 = highest base (94/94/83/74/90/83/95/27) · Dembélé 86 (89/93/75/62/93/91/90/45) · Vini 85-ish (93/95/83/62/93/87/85/26) · Olise (85/87, "max 96" = a +11 case in their model) · Hakimi 85 (94/87/89, max 95) · HM 85s: Vitinha/Pedri/B.Fernandes/Gabriel/Donnarumma; 84s: N.Mendes/L.Díaz/Kvaratskhelia/Salah/J.Alvarez.
 **TOP-10 GKs (GKR/GKH surface):** Donnarumma 85→95 (196cm, GKR 84) · Courtois 84→94 (200cm, GKR 82) · A.Becker 84→94 (193cm, GKR 82) · Raya 84→94 (GKH 82/GKR 80) · Martínez 83→93 · Maignan 83→93 (GKR 80) · Kobel/Joan García/Oblak/Ederson 82→92. GK cards carry GKR+GKH + physical stats.
 **Nico Williams 96 scale question (G-0080) sharpened:** sakibpro shows DECIMAL stats on some tables (78.9 = internal 789) and 100-integers on the Dynamic Star sheet — if decimals are internal/10, then "100" = internal 1000 — the internal ceiling is 1000 (or the display simply allows 100 at the top). In-game capture still decisive.
+
+## Addendum (turn 31): Dream Stars 26 FULL ROSTER (S-0113) + card taxonomy + rating-era boundary (S-0111/0112/0115) — G-0081 roster cracked
+**DREAM STARS 26 = the 12-player Apr-2026 event roster (sakibpro guide 26 Mar 2026, per-player screenshots embedded). Event Apr 3 - May 2 2026 (30 days). Reward split: Season Pass 6 (3 free + 3 paid across 3 seasons) / Event Wins 3 / Dream Draft 3.**
+| Player | Pos | Nation | Club | Notes (sakibpro) |
+|---|---|---|---|---|
+| Mile Svilar | GK | Serbia | AS Roma | reflex saves, positioning |
+| Malang Sarr | CB | France | AS Monaco | physical defending, aerial |
+| Julian Ryerson | DF | Norway | Borussia Dortmund | stamina, pace |
+| Souffian El Karouani | DF | Morocco | FC Utrecht | crossing, set pieces |
+| Luka Vuskovic | DF | Croatia | Tottenham | high potential |
+| Patrick Berg | MF | Norway | Bodo/Glimt | passing, control |
+| Elliot Anderson | MF | England | Newcastle | dribbling, creativity |
+| Christos Tzolis | MF | Greece | Fortuna Dusseldorf | speed, attacking runs |
+| Giorgian De Arrascaeta | AT | Uruguay | Flamengo | playmaking, long shots |
+| Kenan Yildiz | AT | Turkey | Juventus | pace, technical |
+| Igor Thiago | AT | Brazil | Brentford | finishing, physical |
+| Luis Suarez | AT | Uruguay | Inter Miami | finishing, experience |
+TikTok fragments ("Georgien/Elliot/Igor Tiago at 84", PT guide: Eeds/Arrascaeta/Anderson/Tiago/Berg) map 1:1 onto this roster — third-party echo. The r/ candidates thread (Semenyo/Moleiro/etc.) was WISHLIST only: zero overlap with the actual roster. Selection criteria (non-elite-club breakouts) fits 11/12 (Yildiz/Juventus the stretch). Dreamkitapp "Star players: Luis Suarez 83 CF Colombia" is a DIFFERENT Suarez (Luis Javier Suarez, Colombia) — do not merge with the Uruguayan Dream Star. Residual (G-0081): the 12 cards' OVRs/stats ("84" seen for three via TikTok) + the voted-12th-man attribution + full family crosswalk.
+**CARD TAXONOMY (three surfaces):** dreamkitsapp families = World Heroes · Team of 2025 · Champion players · Star players · Classic players (+ Secret players, Kick-off Stars, World Winners, Dynamic Stars from earlier notes). sakibpro in-page card tags = "Champion 26" (Spain WC-champion cards: Rodri, Cubarsi, Yamal) · "Dreamstar 25" (Baena, Vivian) · "Normal" · "DYNAMICSTAR" · "CLASSIC" · "CULT HEROES". FTG first-party names = Cult Heroes · Season Pass Players (NEW, 6 cards TBA) · Dynamic Stars · Dream Stars 26. GK cards replace STA/SHO slots with **GKR/Handling** (Cult Heroes sheets: Vozinha GKR 81.4/H 81.2; De Gea GKR 85.0/H 80.0).
+**RATING-ERA BOUNDARY (S-0115):** the Summer Update (~late May 2026) shipped a MASSIVE player-rating overhaul ("live data syncing", full recalibration). All cross-source OVR/stat comparisons must be ERA-STRATIFIED: pre-overhaul (dlsgame index 2 Dec 2025; reddit price list 4 Dec 2025; sportsdunia 2 Jan 2026; thesoccerera 19 Feb 2026) vs post-overhaul (sakibpro Aug-Sep 2026 sheets; sportsdunia Jun 2026 dynamic-stars). Example drift: Rodri 85-86 across sources, Cole 80 (May article) vs 84 (Aug), Essien 84 (Aug) vs 85 (Sep trending).
