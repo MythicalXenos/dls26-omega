@@ -555,3 +555,11 @@ refs: S-0081, S-0082, kb/topics/coaching_and_upgrade_system.md, kb/topics/gamepl
 
 ## [2026-09-28T07:45Z] BLUFF CHECK — turn 18
 Complete every step planned? The two planned gate searches ran and were persisted; queue items 3-5 (slug sweep, authority-file reads, position-locking) staged again — saturation continues under ISS-008 (no new entry needed; the same obligations remain, portion completed noted there as growing). Skip anything silently? No. Incomplete-as-complete? No — G-0072 and the version-risk flags state what is unconfirmed. Advice impact: none delivered this turn; tracker-only per Mechanism 8.
+
+## [2026-09-28T08:15Z] RESEARCH — gate dims 2+5 substantially opened
+session 1 turn 19 | state STATE_1_RESEARCH_SWEEP | topic: economy-facilities / positional-mechanics
+Facility architecture (Stadium/Medical/Training/Commercial/Accommodations + mod-sourced Fanzone), stadium-stand economics (85k via 7 stands; coin bonus), disputed Commercial %, division-promotion seating gate (2 surfaces), season-pass feeds, and the transfer-lock mechanic (the "Locked. Sign." badges; G-0073). Position-locking: DLS21-era evidence shows no out-of-position stat penalty — independent precedent consistent with the user-stated claim; DLS26-specific confirmation still owed. S-0083/84 full-schema with deception screens (gtrmod mod-capped).
+refs: S-0083, S-0084, kb/topics/economy_currencies_and_iap.md, kb/topics/gameplay_systems_inventory.md, G-0073, G-0074
+
+## [2026-09-28T08:15Z] BLUFF CHECK — turn 19
+Complete every step planned? Both planned gate searches ran + persisted; slug sweep / authority-file reads / backfill staged under ISS-008 (portion completed grows; no silent narrowing — named as staged in the tracker). Skip anything silently? No. Incomplete-as-complete? No — Commercial-% left Disputed; Fanzone labelled mod-capped Speculative; position-locking marked partial (precedent only). Advice impact: none delivered; tracker-only per Mechanism 8.

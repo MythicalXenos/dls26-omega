@@ -2003,11 +2003,84 @@
     "facility compound return curves (gate dim-2)"
    ],
    "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0083",
+   "timestamp_utc": "2026-09-28T08:15:00Z",
+   "session": 1,
+   "turn": 19,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "web_search results: bluestacks.com dlsr-character-development-guide + dlsr-free-rewards-guide; gtrmod.com/dream-league-soccer-mod-menu-apk/; reddit 176ntor dls_summed_up; reddit 142md78 which_facilities",
+   "resolved_url": "",
+   "domain": "bluestacks.com; gtrmod.com; reddit.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 facilities upgrade cost coins stadium medical training commercial academy returns level",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Gate dim-2 material: facilities = Stadium/Medical/Training/Commercial/Accommodations (+Fanzone per mod source: clan bonuses + stadium discounts, ~5 levels); stadium stand math (8 stands, 7 maxed -> 85k capacity, bonus 48-52 coins/home match); Commercial % DISPUTED (bluestacks L2 +13%/L3 +21% vs reddit '10% at level 5, 1000+ gems'); division promotion gated on stadium seating (App Store + gtrmod); currencies coins/gems/DP/season-points; Season Pass + Progression Bank ('10-day season' claim, old page); transfer-lock mechanic surfaced ('Locked. Sign.' badges = lock status; lock-costs-gems rumor).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "gtrmod = MOD DISTRIBUTION domain (downloads; mod-sourced per source-screening rule); bluestacks pages recycled 2021-era SEO; reddit guides = community",
+    "outcome": "gtrmod claims (Fanzone, facility L5, 8 divisions) capped Speculative per mod-source filtering; other claims cross-corroborated where possible; Commercial-% conflict left Disputed"
+   },
+   "conflicts_found": [
+    "Commercial %: 13/21% (L2/L3) vs 10% (L5) — Disputed, G-0074"
+   ],
+   "confidence_note": "Facility set + stadium-bonus principle: Community Consensus (multi-source). Stadium/Commercial numbers: Disputed/Speculative (version conflict). Division-seating gate: High Confidence-lean (2 independent surfaces incl. App Store) but specifics Speculative. Fanzone: Speculative (mod-only).",
+   "discovered_not_yet_visited": [
+    "facility cost tables datamine (G-0074)",
+    "Fanzone non-mod confirmation",
+    "season pass points -> coins/gems conversion rates"
+   ],
+   "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0084",
+   "timestamp_utc": "2026-09-28T08:15:00Z",
+   "session": 1,
+   "turn": 19,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "web_search results: reddit 1rf90a7 midseason_megathread; apps.apple.com dls26 see-all-reviews; reddit 1pc3xvx megathread_day_2; reddit m6ddyl do_ratings_decrease_out_of_position; appbrain.com dls26",
+   "resolved_url": "",
+   "domain": "reddit.com; apps.apple.com; appbrain.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 out of position penalty player position locking any position deploy rating",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Gate dim-5 + position-locking verification: DLS21-era thread shows out-of-position play does NOT decrease ratings/stats ('you can't decrease a rating'; 'does not affect players' stats') — independent precedent consistent with the user-stated no-locking claim (DLS26-specific confirmation still owed); in-match AI positioning complaints (App Store Sep-2026) are movement issues not locking; CON=Ball Control naming (DLS21); mid-season megathread (26 Feb 2026) = rating-update patch deltas (Lukaku 79, Sanchez 77, Mbeumo 81, Gabriel 85, Sancet 79) + transfer-lock questions (G-0073); appbrain: com.firsttouchgames.dls7, listing continuous since Dec 2019, 4.46/5 from 14.37M ratings (franchise-continuity evidence).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/gameplay_systems_inventory.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "reddit community + App Store reviews + appbrain listing metadata; no product incentive on the position answer",
+    "outcome": "clean"
+   },
+   "conflicts_found": [],
+   "confidence_note": "No out-of-position stat penalty (DLS21): Community Consensus-era, franchise-continuity supports user-stated DLS26 no-locking (evidence class: user-stated + historical community); in-match out-of-position AI quality: open. Rating-update delta lists: community single-thread reports.",
+   "discovered_not_yet_visited": [
+    "DLS26-specific out-of-position test evidence (current guides/videos)",
+    "assist-toggle per-toggle behavior (Kick/Cross Assist)",
+    "transfer-lock rules (G-0073)"
+   ],
+   "leads_consumed_from": "initial-seed"
   }
  ],
  "frontier": {
-  "discovered_total": 252,
-  "visited_total": 82,
+  "discovered_total": 260,
+  "visited_total": 84,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2178,7 +2251,13 @@
    "in-match stamina depletion curve sources (quantitative)",
    "DLS26-specific coaching yield verification (datamine coach tables / current guides)",
    "'Special' coach category behavior + cost curves",
-   "facility compound return curves (gate dim-2)"
+   "facility compound return curves (gate dim-2)",
+   "facility cost tables datamine (G-0074)",
+   "Fanzone non-mod confirmation",
+   "season pass points -> coins/gems conversion rates",
+   "DLS26-specific out-of-position test evidence (current guides/videos)",
+   "assist-toggle per-toggle behavior (Kick/Cross Assist)",
+   "transfer-lock rules (G-0073)"
   ]
  }
 }
