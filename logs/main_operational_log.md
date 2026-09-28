@@ -712,3 +712,11 @@ refs: S-0146..S-0149, kb/topics/player_pool.md, kb/topics/classic_card_inventory
 
 ## [2026-09-28T21:55Z] BLUFF CHECK — turn 37
 Complete every step planned? The dlsinside probe + three singles ran and persisted; the rest staged by name. Skip anything silently? No — EA FC 26 results were screened out as a different game (named, not silently dropped). Incomplete-as-complete? No — G-0080 closed with the exact numeric mapping shown; remaining singles enumerated as open. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-28T22:50Z] RESEARCH — classic singles sweep (31/34); GK stat layout confirmed
+session 1 turn 38 | state STATE_1_RESEARCH_SWEEP | topic: player-data
+Four more year stamps (Zola 1997, Adams 1998, Valderrama 1993 with a dlsgame 3/3 cross-check, Zenga 1990). Zenga's page delivers the first full GK sheet and confirms the GK layout on per-card pages: six outfield fields with STA/SHO replaced by GKR/GKH. Only Suker/Mendieta/Irwin remain for 100% classic year-stamp coverage.
+refs: S-0150..S-0153, kb/topics/classic_card_inventory.md
+
+## [2026-09-28T22:50Z] BLUFF CHECK — turn 38
+Complete every step planned? The four singles ran and persisted; the remainder staged by name. Skip anything silently? No. Incomplete-as-complete? No — coverage stated as 31/34 with the three names listed. ISS-009 procedure followed. Advice impact: none; tracker-only.

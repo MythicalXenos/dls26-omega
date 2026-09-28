@@ -3627,11 +3627,79 @@
    "query": "",
    "summary": "Souness = 'Classic 1984' (CM, 84): SPE 76 ACC 75 STA 91 STR 84 CON 80 PAS 83 SHO 75 TAC 90 (Total 654). 180cm, 75kg, Right, DOB 6 May 1953, max 94. Normal echo 'Classic Souness' 5826 (82). Similar rails show BOOSTED dynamicstar values: de Paul 27512 = 93 (matches the boost table final), Fidalgo 27520 = 87, plus champion/luka-modri/25837 (86) and team2025/pedro-gonz-lez-l-pez/27133 (86 = Rodri).",
    "takeaway": "Souness = Classic 1984 (earliest year stamp yet). Similar rails carry boosted DS finals (index shows base 82). Champion Modric + team2025 Rodri IDs captured."
+  },
+  {
+   "id": "S-0150",
+   "timestamp_utc": "2026-09-28T22:20:00Z",
+   "session": 1,
+   "turn": 38,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/gianfranco-zola/25094/",
+   "resolved_url": "https://sakibpro.com/players/classic/gianfranco-zola/25094/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Zola = 'Classic 1997' (CF, 84): SPE 85 ACC 90 STA 84 STR 66 CON 91 PAS 84 SHO 84 TAC 50 (Total 634). 168cm, 66kg, Right, DOB 5 Jul 1966, max 94. Normal echo 'Classic Zola' 12102 (78).",
+   "takeaway": "Zola = Classic 1997."
+  },
+  {
+   "id": "S-0151",
+   "timestamp_utc": "2026-09-28T22:20:00Z",
+   "session": 1,
+   "turn": 38,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/tony-adams/25093/",
+   "resolved_url": "https://sakibpro.com/players/classic/tony-adams/25093/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Adams = 'Classic 1998' (CB, 83): SPE 77 ACC 72 STA 85 STR 93 CON 74 PAS 77 SHO 58 TAC 92 (Total 628). 191cm, 80kg, Right, DOB 10 Oct 1966, max 93. No Other Versions rail (true single).",
+   "takeaway": "Adams = Classic 1998."
+  },
+  {
+   "id": "S-0152",
+   "timestamp_utc": "2026-09-28T22:20:00Z",
+   "session": 1,
+   "turn": 38,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/carlos-valderrama/26840/",
+   "resolved_url": "https://sakibpro.com/players/classic/carlos-valderrama/26840/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Valderrama = 'Classic 1993' (AM, 83): SPE 70 ACC 83 STA 82 STR 76 CON 86 PAS 85 SHO 76 TAC 67 (Total 625). 177cm, 74kg, Right, DOB 2 Sep 1961, max 93. Normal echo 'Classic Valderrama' 12090 (72). Votes 4.01. Matches dlsgame 1993/83/AM exactly.",
+   "takeaway": "Valderrama = Classic 1993 (dlsgame 3/3 match on year/pos/OVR)."
+  },
+  {
+   "id": "S-0153",
+   "timestamp_utc": "2026-09-28T22:20:00Z",
+   "session": 1,
+   "turn": 38,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/walter-zenga/25097/",
+   "resolved_url": "https://sakibpro.com/players/classic/walter-zenga/25097/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Zenga = 'Classic 1990' (GK, 83): FIRST FULL GK SHEET - SPE 70 ACC 67 STA?-> the GK layout = SPD 70/ACC 67/STR 66/CON 60/PAS 61/TAC 56 + GKR 82/GKH 79 (Total 541). 188cm, 80kg, Right, DOB 28 Apr 1960, max 93. Similar rail: the unnamed 26841 (86) again.",
+   "takeaway": "GK stat layout on per-card pages confirmed: 6 outfield fields + GKR/GKH (STA/SHO slots replaced). Zenga = Classic 1990."
   }
  ],
  "frontier": {
-  "discovered_total": 404,
-  "visited_total": 148,
+  "discovered_total": 406,
+  "visited_total": 152,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -3856,8 +3924,10 @@
    "the Dynamic Star 40-nation roster sweep (dynamicstar/ index or per-player pages 27508-27523+) - one rep per nation",
    "Gascoigne 24597/24598 year stamps + remaining singles (Chiellini/Zola/Adams/Valderrama/Zenga/Suker/Mendieta/Souness/Trezeguet/Irwin)",
    "remaining classic singles: Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Irwin 5839",
-   "cult-heroes 12 per-player sheets (28324-28334 block)"
+   "cult-heroes 12 per-player sheets (28324-28334 block)",
+   "last three classic singles: Suker 25096, Mendieta 25098, Irwin 5839",
+   "cult-heroes 12 per-player sheets (Vozinha 28325? / De Gea / Aubameyang / Dybala 28333 / Otamendi / Ziyech / Isco 28327 / Herrera / Shaqiri / Insigne / David Luiz / Blind)"
   ],
-  "unvisited_total": 256
+  "unvisited_total": 254
  }
 }

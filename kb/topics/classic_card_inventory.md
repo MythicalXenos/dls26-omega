@@ -187,3 +187,12 @@ Gascoigne = **Classic 1990** AM 85 24598 (84/84/83/74/92/85/85/53) + **Classic 1
 | Trezeguet | **2002** | CF 85 26837 | 86/82/83/90/85/74/93/33 | TWO-FOOTED; normal echo 4531 (75); dreamkitsapp 2/2 match |
 | Souness | **1984** | CM 84 25089 | 76/75/91/84/80/83/75/90 | earliest year stamp yet; normal echo 5826 "Classic Souness" (82) |
 Year-stamp range now 1984-2018. Still open: Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Irwin 5839.
+
+## Addendum (turn 38): four singles + first GK sheet (S-0150..S-0153)
+| Card | Year | Pos/OVR/Id | Sheet | Notes |
+|---|---|---|---|---|
+| Zola | **1997** | CF 84 25094 | 85/90/84/66/91/84/84/50 | 168cm; normal echo "Classic Zola" 12102 (78) |
+| Adams | **1998** | CB 83 25093 | 77/72/85/93/74/77/58/92 | 191cm; true single (no Other Versions rail) |
+| Valderrama | **1993** | AM 83 26840 | 70/83/82/76/86/85/76/67 | dlsgame 3/3 match; normal echo 12090 (72) |
+| Zenga | **1990** | GK 83 25097 | SPD 70/ACC 67/STR 66/CON 60/PAS 61/TAC 56 + **GKR 82/GKH 79** | FIRST FULL GK SHEET — GK layout = 6 outfield + GKR/GKH |
+Year range now 1984-2018. Open: Suker 25096, Mendieta 25098, Irwin 5839 (then classic year stamps are 100% complete).
