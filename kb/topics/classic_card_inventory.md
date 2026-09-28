@@ -176,3 +176,6 @@ Both 185cm, 76kg, Left, DOB 22 Sep 1970. The May article [1998] and Aug article 
 | Crespo | **1998** CF 83 25095 (85/83/82/86/84/73/87/44) · **2001** CF 84 27095 (85/84/84/86/84/75/93/37) |
 | Desailly | **1994** DM 84 27093 (80/75/89/92/80/80/52/90) · **1998** CB 85 26836 (year from S-0115) |
 Normal-tier echoes continue: "Hernan Crespo" normal/4645 (71) — legacy 46xx block (with 58xx: Irwin 5839/Keane 5842/Classic Cole 5844). Year stamps still open: Gascoigne 24597/24598, Chiellini 25099, Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Souness 25089, Trezeguet 26837, Irwin 5839.
+
+## Addendum (turn 36): Gascoigne pair (S-0144/0145)
+Gascoigne = **Classic 1990** AM 85 24598 (84/84/83/74/92/85/85/53) + **Classic 1996** AM 82 24597 (75/80/69/80/89/82/82/50). Body data drift across versions (177cm/77kg vs 178cm/80kg — versions carry distinct body records). Year stamps still open: Chiellini 25099, Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Souness 25089, Trezeguet 26837, Irwin 5839.

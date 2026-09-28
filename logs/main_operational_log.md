@@ -696,3 +696,11 @@ refs: S-0136..S-0139, kb/topics/player_pool.md, kb/topics/classic_card_inventory
 
 ## [2026-09-28T20:05Z] BLUFF CHECK — turn 35
 Complete every step planned? The G-0080 fetch + year-stamp batch ran and persisted; the rest staged by name. Skip anything silently? No. Incomplete-as-complete? No — the 40-vs-48 field question flagged rather than smoothed; the DS no-coaching claim recorded as two-surface (community + DB) with the user test still named as decisive; G-0080's internal-scale half kept open. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-28T21:05Z] RESEARCH — Dynamic Star 40-roster complete; index-FAQ boilerplate trap documented
+session 1 turn 36 | state STATE_1_RESEARCH_SWEEP | topic: player-data / source hygiene
+Four index pages enumerate the entire Dynamic Star 2026 family (40 cards, all base 82, two ID batches 275xx + 282xx, two Czech entries). The turn's methodological find: the sakibpro index FAQ is generic boilerplate ("+10 via coaches") that contradicts the family's actual fixed-non-coachable mechanics — specific per-card prose outranks index FAQ, now written into the KB as a source-hygiene rule. Gascoigne's pair (1990/1996) landed, including body-data drift across versions.
+refs: S-0140..S-0145, kb/topics/player_pool.md, kb/topics/classic_card_inventory.md, kb/gaps.md, G-0034, G-0079
+
+## [2026-09-28T21:05Z] BLUFF CHECK — turn 36
+Complete every step planned? The dynamicstar roster sweep + Gascoigne pair ran and persisted; the rest staged by name. Skip anything silently? No. Incomplete-as-complete? No — the two-Czech anomaly flagged rather than forced into one-per-nation; the FAQ contradiction recorded as contradiction (not averaged); skipped WC nations listed as open trivia. ISS-009 procedure followed. Advice impact: none; tracker-only.
