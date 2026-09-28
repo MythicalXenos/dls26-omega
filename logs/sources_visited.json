@@ -2892,11 +2892,83 @@
     "GK GKR/GKH exact values for the ladder/cult-heroes GKs"
    ],
    "leads_consumed_from": "S-0105"
+  },
+  {
+   "id": "S-0109",
+   "timestamp_utc": "2026-09-28T14:55:00Z",
+   "session": 1,
+   "turn": 30,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit 1r0xvwd dream_stars_2026_candidates (only indexed hit - recap)",
+   "resolved_url": "",
+   "domain": "reddit.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "\"Dream Stars\" DLS 26 squad members list boosted players Semenyo OR Moleiro OR Rogers OR Endrick 2026",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "NEGATIVE FINDING: no search-indexed surface carries the Dream Stars 26 roster or the voted 12th man; the candidates thread is the only hit. Routes remaining: sakibpro card-type filter pages, deeper reddit search, image search, in-game.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "community thread",
+    "outcome": "clean"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Negative finding (index coverage, 2026-09-28; not Frozen).",
+   "discovered_not_yet_visited": [
+    "sakibpro card-type filter pages for Dream Stars 26 (G-0081)",
+    "image search for Dream Stars 26 banner"
+   ],
+   "leads_consumed_from": "S-0107"
+  },
+  {
+   "id": "S-0110",
+   "timestamp_utc": "2026-09-28T14:55:00Z",
+   "session": 1,
+   "turn": 30,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "bluestacks dlsr-character-development-guide + dlsr-beginner-guide (recaps + Recruitment Centre); reddit i5ynnd which_facilitates_first (2020); dream-league-soccer.fandom.com/wiki/Coins (31 Aug 2026); reddit 142md78 (recap)",
+   "resolved_url": "",
+   "domain": "bluestacks.com; reddit.com; dream-league-soccer.fandom.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 facility upgrade cost list stadium level price coins commercial medical training accomodations",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Facility set = SEVEN (Recruitment Centre = scout/agent discounts NEW; Accommodation = squad size). Discipline: yellow/red cards cost coins (fandom wiki - page VANDALIZED with garbage numerics, structure only). Upgrade-order consensus 3-surface: stadium -> commercial -> medical; accommodation/training last. Feed-loop price re-corrob (80+ = 1300-1400c -> legendary coach). Healing costs scale with team (50+ coins/game at 60-70 OVR, DLS20-era). Ad-grinding removes coin pressure. No exact cost tables found (G-0074 core open).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "bluestacks SEO/recycled; fandom wiki has ACTIVE VANDALISM (garbage numbers)",
+    "outcome": "wiki values discarded as corrupted (structure only); bluestacks order-consensus cross-checked against 2 reddit threads"
+   },
+   "conflicts_found": [
+    "fandom wiki Coins page vandalized - numeric values unusable"
+   ],
+   "confidence_note": "Facility set (7): Community Consensus-lean (2 outlets + store note for Fanzone). Order strategy: Community Consensus (3 surfaces). Discipline costs: structural claim only (values corrupted). Cost tables: NOT FOUND (G-0074).",
+   "discovered_not_yet_visited": [
+    "facility cost datamine (G-0074)",
+    "in-game facility screens (user capture route)",
+    "Recruitment Centre discount percentages"
+   ],
+   "leads_consumed_from": "S-0083"
   }
  ],
  "frontier": {
-  "discovered_total": 318,
-  "visited_total": 107,
+  "discovered_total": 325,
+  "visited_total": 109,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -3108,7 +3180,12 @@
    "sakibpro per-player page sweep for the specials (typed URLs now known)",
    "Dream Stars 26 roster via sakibpro card-type filter (G-0081)",
    "GK GKR/GKH exact values for the ladder/cult-heroes GKs",
-   "Dream Stars 26 roster + voted 12th man identity (G-0081)"
+   "Dream Stars 26 roster + voted 12th man identity (G-0081)",
+   "sakibpro card-type filter pages for Dream Stars 26 (G-0081)",
+   "image search for Dream Stars 26 banner",
+   "facility cost datamine (G-0074)",
+   "in-game facility screens (user capture route)",
+   "Recruitment Centre discount percentages"
   ]
  }
 }

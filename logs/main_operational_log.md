@@ -648,3 +648,11 @@ refs: S-0107, S-0108, kb/topics/classic_card_inventory.md, kb/topics/player_pool
 
 ## [2026-09-28T14:10Z] BLUFF CHECK — turn 29
 Complete every step planned? Both searches ran + persisted; secret pages + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — sakibpro OVRs labelled computed/estimated throughout; the −1 conflict logged (G-0083) rather than averaged; Dream Stars roster + voted 12th explicitly still open (G-0081). Advice impact: none delivered; tracker-only.
+
+## [2026-09-28T14:55Z] RESEARCH — facility set = 7 + discipline costs; Dream Stars roster = negative finding
+session 1 turn 30 | state STATE_1_RESEARCH_SWEEP | topic: economy / live-ops
+The facility set grows to seven (Recruitment Centre = scout/agent discounts). Discipline costs surfaced (yellow/red cards cost coins — fandom wiki, vandalized page: structure-only). Upgrade-order consensus now 3-surface (stadium→commercial→medical). Exact cost tables remain absent from indexed surfaces (G-0074 core open — datamine or user capture). Dream Stars 26 roster + voted 12th man = NEGATIVE FINDING on search-indexed surfaces (G-0081; routes: sakibpro filters, image search, in-game).
+refs: S-0109, S-0110, kb/topics/economy_currencies_and_iap.md, kb/gaps.md
+
+## [2026-09-28T14:55Z] BLUFF CHECK — turn 30
+Complete every step planned? Both searches ran + persisted; sakibpro specials sweep + secret pages + ISS-008 backfill staged (named in tracker). Skip anything silently? No. Incomplete-as-complete? No — the wiki vandalism explicitly screened (values discarded); the Dream Stars dead-end logged as a negative finding, not glossed; G-0074 cost tables stated NOT FOUND. ISS-009 procedure followed this close (python outputs verified before the separate commit call). Advice impact: none; tracker-only.
