@@ -2744,11 +2744,84 @@
     "Monthly Trophy / Global Challenge Cup rewards"
    ],
    "leads_consumed_from": "S-0085"
+  },
+  {
+   "id": "S-0105",
+   "timestamp_utc": "2026-09-28T13:30:00Z",
+   "session": 1,
+   "turn": 28,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "sportsdunia.com dynamic-stars-guide (recap+event window 8 Jun-20 Jul); tiktok.com/discover/how-to-collect-dynamic-stars-nico-williams (page age 10 Aug 2026); sakibpro.com/players/ (DB listing snippets!); reddit 1tuotf8 (recap); sakibpro.com/spain-world-cup-2026-kits.../ (10 Sep 2026)",
+   "resolved_url": "",
+   "domain": "sportsdunia.com; tiktok.com; sakibpro.com; reddit.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "DLS 26 dynamic stars 96 rated card world cup winner July 2026 final upgraded",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "WORLD CUP 2026 RESULT: Spain champions, 1-0 vs Argentina, final at NY/NJ (2nd title). DYNAMIC STARS END-STATE: Nico Williams 96 LW Spain = champion rep (six stats at 100: SPE/ACC/STA/CON/PAS/SHO 100, STR 81, TAC 46 - display-100 discovery, G-0080); De Paul 93 (finalist rep, arithmetic-exact), Barcola 91, Eze 90. Sakibpro players list surfaces current OVRs + card-type labels (DYNAMICSTAR/CHAMPION/Champion 26/Team 2025); Yamal 'Champion 26' 87 sheet captured (88/93/85/66/96/91/89/41). Sakibpro kit pages = third stat surface (squad sheets). Community: champion rep 'fully maxed without coaches' expectation ~borne out.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/player_pool.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "sportsdunia ads; TikTok creator content; sakibpro = DB with app/SEO interests (and the community-known DB itself)",
+    "outcome": "incentive present; WC result + Nico 96 cross-corroborated across 3 independent surfaces (TikTok titles, sakibpro DB, sakibpro kit article); stats single-source (sakibpro) labelled"
+   },
+   "conflicts_found": [],
+   "confidence_note": "WC result + Nico 96: High Confidence (multi-surface). Nico's 100-stat values: single-surface (sakibpro), Speculative-lean pending in-game capture (G-0080). De Paul 93: arithmetic-consistent with the boost table.",
+   "discovered_not_yet_visited": [
+    "in-game capture of the Nico Williams card (G-0080)",
+    "sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
+    "Dream Stars 26 roster (G-0081)"
+   ],
+   "leads_consumed_from": "S-0103"
+  },
+  {
+   "id": "S-0106",
+   "timestamp_utc": "2026-09-28T13:30:00Z",
+   "session": 1,
+   "turn": 28,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "thesoccerera.com/dream-league-soccer-2026-dls-26-features/; soft112.com 13.110 changelog; reddit 1ipfjca winter_reload_around_the_corner (2025); apkmirror.com 12.100 (Feb 2025); reddit 1ax6qj6 dls24_feb_winter_reload discussion thread",
+   "resolved_url": "",
+   "domain": "thesoccerera.com; soft112.com; reddit.com; apkmirror.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 'Winter Reload' update February 2026 rating changes what is",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "WINTER RELOAD = annual February update (base-rating revision + January transfers): DLS24 22 Feb 2024 / DLS25 12.100 20 Feb 2025 / DLS26 13.110 27 Feb 2026 (Team data + Dream Stars 26 + 12th Man Vote + News System) -> 13.130 26 Mar (boosted Dream Stars + voted 12th man). Dream Stars 26 = DISTINCT winter family (season's top performers) vs summer Dynamic Stars (WC live-upgrades). 12th Man Vote = recurring per-collection. Patch-risk strategy: buy pre-nerf cards before the revision. DLS24 delta catalog (Rodri +1, Messi -1 etc.) + stat-weight claim '1 pt CON/STR = 2 pts others' (G-0082).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/live_ops.md",
+    "kb/topics/game_identity_and_version.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "soft112 download portal; thesoccerera outlet; reddit community",
+    "outcome": "incentive present; changelog text cross-corroborated (soft112 + apkmirror + thesoccerera) for the update contents"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Winter Reload cadence + contents: High Confidence (changelog mirrors + outlet + community). Dream Stars ≠ Dynamic Stars: consistent naming across first-party notes. Stat-weight claim: Speculative (G-0082).",
+   "discovered_not_yet_visited": [
+    "Dream Stars 26 roster + the voted 12th man identity",
+    "Winter Reload 2027 timing (Feb pattern for watchlist)",
+    "13.110-13.130 full patch notes beyond the store text"
+   ],
+   "leads_consumed_from": "S-0101"
   }
  ],
  "frontier": {
-  "discovered_total": 306,
-  "visited_total": 103,
+  "discovered_total": 312,
+  "visited_total": 105,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2952,7 +3025,11 @@
    "Daily Bonus exact day-by-day table",
    "Monthly Trophy / Global Challenge Cup rewards",
    "Dynamic Stars roster (which nations/players)",
-   "in-game test of Dynamic Star coachability (G-0079)"
+   "in-game test of Dynamic Star coachability (G-0079)",
+   "in-game capture of the Nico Williams card (G-0080)",
+   "sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
+   "Dream Stars 26 roster + the voted 12th man identity (G-0081)",
+   "Winter Reload 2027 timing (Feb pattern for watchlist)"
   ]
  }
 }

@@ -632,3 +632,11 @@ refs: S-0103, S-0104, kb/topics/live_ops.md, kb/topics/coaching_and_upgrade_syst
 
 ## [2026-09-28T12:50Z] BLUFF CHECK — turn 27
 Complete every step planned? Both planned searches ran + persisted; secret pages/champion/ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — the EA-FC comparison in the boost article explicitly ignored per never-assume-shared-mechanics; commercial-% conflict logged 3-way rather than averaged; coachability labelled Speculative (G-0079). Advice impact: none delivered this turn (the special-coach finding will drive first-contact advice — stored, not yet recommended). Tracker-only per Mechanism 8.
+
+## [2026-09-28T13:30Z] RESEARCH — World Cup outcome resolves Dynamic Stars; Winter Reload pattern nailed
+session 1 turn 28 | state STATE_1_RESEARCH_SWEEP | topic: live-ops / player-data
+Spain won the 2026 World Cup (1-0 vs Argentina), which resolves the entire Dynamic Stars ladder: Nico Williams = the 96 champion rep (six stats at 100 — display-cap discovery, G-0080), De Paul 93 (finalist, arithmetic-exact), Barcola 91, Eze 90. Sakibpro surfaces a third stat surface (kit-page squad sheets + card-type labels; Yamal "Champion 26" 87 sheet captured) — and its family names need a crosswalk (G-0081). The Winter Reload = the annual February rating-revision update (13.110, 27 Feb 2026; three-year cadence documented) with Dream Stars 26 as a DISTINCT winter family; the 12th Man Vote is recurring per-collection. Patch-risk strategy (buy pre-nerf before revision) + the CON/STR stat-weight claim (G-0082) recorded.
+refs: S-0105, S-0106, kb/topics/player_pool.md, kb/topics/live_ops.md, G-0080, G-0081, G-0082
+
+## [2026-09-28T13:30Z] BLUFF CHECK — turn 28
+Complete every step planned? Both searches ran + persisted; secret pages/champion/backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — Nico's 100-values labelled single-surface (G-0080); the family crosswalk explicitly unresolved (G-0081); the stat-weight claim kept Speculative (G-0082). The WC result is real-world context (not a game claim) sourced from a game-culture page and cross-checked against the in-game boost outcomes (Nico 96 exists = Spain's rep = consistent). Advice impact: none delivered; tracker-only.
