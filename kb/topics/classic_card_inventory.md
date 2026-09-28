@@ -179,3 +179,11 @@ Normal-tier echoes continue: "Hernan Crespo" normal/4645 (71) — legacy 46xx bl
 
 ## Addendum (turn 36): Gascoigne pair (S-0144/0145)
 Gascoigne = **Classic 1990** AM 85 24598 (84/84/83/74/92/85/85/53) + **Classic 1996** AM 82 24597 (75/80/69/80/89/82/82/50). Body data drift across versions (177cm/77kg vs 178cm/80kg — versions carry distinct body records). Year stamps still open: Chiellini 25099, Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Souness 25089, Trezeguet 26837, Irwin 5839.
+
+## Addendum (turn 37): three singles + earliest year stamp (S-0147..S-0149)
+| Card | Year | Pos/OVR/Id | Sheet (SPE/ACC/STA/STR/CON/PAS/SHO/TAC) | Notes |
+|---|---|---|---|---|
+| Chiellini | **2018** | CB 85 25099 | 82/75/82/93/80/80/57/92 | Left; normal echo 2458 (81) |
+| Trezeguet | **2002** | CF 85 26837 | 86/82/83/90/85/74/93/33 | TWO-FOOTED; normal echo 4531 (75); dreamkitsapp 2/2 match |
+| Souness | **1984** | CM 84 25089 | 76/75/91/84/80/83/75/90 | earliest year stamp yet; normal echo 5826 "Classic Souness" (82) |
+Year-stamp range now 1984-2018. Still open: Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Irwin 5839.

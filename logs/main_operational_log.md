@@ -704,3 +704,11 @@ refs: S-0140..S-0145, kb/topics/player_pool.md, kb/topics/classic_card_inventory
 
 ## [2026-09-28T21:05Z] BLUFF CHECK — turn 36
 Complete every step planned? The dynamicstar roster sweep + Gascoigne pair ran and persisted; the rest staged by name. Skip anything silently? No. Incomplete-as-complete? No — the two-Czech anomaly flagged rather than forced into one-per-nation; the FAQ contradiction recorded as contradiction (not averaged); skipped WC nations listed as open trivia. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-28T21:55Z] RESEARCH — G-0080 closed: internal scale is 0-1000
+session 1 turn 37 | state STATE_1_RESEARCH_SWEEP | topic: stat model
+dlsinside's Dynamic Star Nico page shows raw internals (1000/810/460) against sakibpro's display (100/81/46) — the ÷10 mapping is exact, so display 100 = internal 1000 = scale top. This unifies the three stat renderings seen across databases (decimals, 1000-ints, display ints) into one convention and closes G-0080. Three more classic year stamps landed (Chiellini 2018, Trezeguet 2002 two-footed, Souness 1984) — the year range is 1984-2018.
+refs: S-0146..S-0149, kb/topics/player_pool.md, kb/topics/classic_card_inventory.md, kb/gaps.md, G-0080
+
+## [2026-09-28T21:55Z] BLUFF CHECK — turn 37
+Complete every step planned? The dlsinside probe + three singles ran and persisted; the rest staged by name. Skip anything silently? No — EA FC 26 results were screened out as a different game (named, not silently dropped). Incomplete-as-complete? No — G-0080 closed with the exact numeric mapping shown; remaining singles enumerated as open. ISS-009 procedure followed. Advice impact: none; tracker-only.

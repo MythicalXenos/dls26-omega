@@ -3559,11 +3559,79 @@
    "query": "",
    "summary": "Gascoigne version B = 'Classic 1996' (24597, AM, 82): SPE 75 ACC 80 STA 69 STR 80 CON 89 PAS 82 SHO 82 TAC 50 (Total 607). 178cm, 80kg (body data differ from A), Right, max 92. Votes 4.73.",
    "takeaway": "Gascoigne pair = Classic 1990 (85) + Classic 1996 (82). Multi-version body-data drift noted (77kg vs 80kg)."
+  },
+  {
+   "id": "S-0146",
+   "timestamp_utc": "2026-09-28T21:30:00Z",
+   "session": 1,
+   "turn": 37,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "dlsinside.com/player/nico-williams/27509 (snippet) + dreamkitsapp.com/player/18520 (snippet)",
+   "resolved_url": "",
+   "domain": "dlsinside.com; dreamkitsapp.com; sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "dlsinside nico williams dynamic star 27509 stats internal",
+   "summary": "G-0080 RESOLVED. dlsinside Nico Williams Dynamic Star 27509: internals shown as Acceleration 1000, Strength 810, Tackling 460, GK Reactions 0 - i.e. the 0-1000 internal scale (display = internal/10: 100/81/46 exactly matches the sakibpro display sheet). 'Max. Rating' = 96 (fixed). Nickname 'Williams Jr', dorsal 10, DOB Jul 12 2002. dreamkitsapp/18520 = Nico BASE card internals 899/919/789/619/860/779/760/320 + GKR 139/GKH 136 (V13030; DLS25 81, DLS26 80). EA FC 26 surfaces (futvolution/futbin/fifacm) in results = DIFFERENT GAME, deception-screened out.",
+   "takeaway": "Display-100 = internal 1000: the display floor at 100 is the top of the 0-1000 scale (G-0080 closed). Internal convention now standard across dlsinside (1000-scale) + dreamkitsapp (1000-scale) + sakibpro decimals (x10)."
+  },
+  {
+   "id": "S-0147",
+   "timestamp_utc": "2026-09-28T21:35:00Z",
+   "session": 1,
+   "turn": 37,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/giorgio-chiellini/25099/",
+   "resolved_url": "",
+   "domain": "dlsinside.com; dreamkitsapp.com; sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Chiellini = 'Classic 2018' (CB, 85): SPE 82 ACC 75 STA 82 STR 93 CON 80 PAS 80 SHO 57 TAC 92 (Total 641). 187cm, 77kg, LEFT, DOB 14 Aug 1984, max 95. Normal echo 2458 (81).",
+   "takeaway": "Year stamps continue: Chiellini = Classic 2018 (a recent-era classic)."
+  },
+  {
+   "id": "S-0148",
+   "timestamp_utc": "2026-09-28T21:40:00Z",
+   "session": 1,
+   "turn": 37,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/david-trezeguet/26837/",
+   "resolved_url": "",
+   "domain": "dlsinside.com; dreamkitsapp.com; sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Trezeguet = 'Classic 2002' (CF, 85): SPE 86 ACC 82 STA 83 STR 90 CON 85 PAS 74 SHO 93 TAC 33 (Total 626). 190cm, 80kg, BOTH feet (two-footed confirmed), DOB 15 Oct 1977, max 95. Normal echo 4531 (75). Matches the turn-21 dreamkitsapp values (SHO 93/SPE 86).",
+   "takeaway": "Trezeguet = Classic 2002; two-footed; dreamkitsapp cross-check matches 2/2."
+  },
+  {
+   "id": "S-0149",
+   "timestamp_utc": "2026-09-28T21:45:00Z",
+   "session": 1,
+   "turn": 37,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/graeme-souness/25089/",
+   "resolved_url": "",
+   "domain": "dlsinside.com; dreamkitsapp.com; sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Souness = 'Classic 1984' (CM, 84): SPE 76 ACC 75 STA 91 STR 84 CON 80 PAS 83 SHO 75 TAC 90 (Total 654). 180cm, 75kg, Right, DOB 6 May 1953, max 94. Normal echo 'Classic Souness' 5826 (82). Similar rails show BOOSTED dynamicstar values: de Paul 27512 = 93 (matches the boost table final), Fidalgo 27520 = 87, plus champion/luka-modri/25837 (86) and team2025/pedro-gonz-lez-l-pez/27133 (86 = Rodri).",
+   "takeaway": "Souness = Classic 1984 (earliest year stamp yet). Similar rails carry boosted DS finals (index shows base 82). Champion Modric + team2025 Rodri IDs captured."
   }
  ],
  "frontier": {
-  "discovered_total": 400,
-  "visited_total": 144,
+  "discovered_total": 404,
+  "visited_total": 148,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -3786,7 +3854,9 @@
    "legacy 58xx normal-echo block (5839 Irwin / 5842 Keane hidden / 5844 Classic Cole)",
    "dlsinside Nico Williams Dynamic Star internals (do they show 1000-scale values? settles G-0080 scale question)",
    "the Dynamic Star 40-nation roster sweep (dynamicstar/ index or per-player pages 27508-27523+) - one rep per nation",
-   "Gascoigne 24597/24598 year stamps + remaining singles (Chiellini/Zola/Adams/Valderrama/Zenga/Suker/Mendieta/Souness/Trezeguet/Irwin)"
+   "Gascoigne 24597/24598 year stamps + remaining singles (Chiellini/Zola/Adams/Valderrama/Zenga/Suker/Mendieta/Souness/Trezeguet/Irwin)",
+   "remaining classic singles: Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Irwin 5839",
+   "cult-heroes 12 per-player sheets (28324-28334 block)"
   ],
   "unvisited_total": 256
  }
