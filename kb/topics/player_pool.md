@@ -145,3 +145,20 @@ OVR spread = 84x6 / 83x5 / 82x1 (NOT uniform — resolves G-0081 residual (a); T
 - **G-0080 convention cross-validated on three more cards:** sakibpro display = floor(dreamkitsapp internal/10) exactly on Šuker 25096 / Mendieta 25098 / Irwin 5839 (e.g. 859→85, 899→89, 926→92). Display integers truncate the 0-1000 internal; Nico's 1000→100 is the exact top.
 - **Boosted Dynamic Star finals seen on similar-rails:** Sørloth 27523 = 88 (beside de Paul 27512 = 93, Fidalgo 27520 = 87). Boost-table evidence keeps accumulating on rails while indexes show base 82.
 - **Family slug crosswalk (G-0081) — new slugs observed on rails:** `dreamstar25` (Antonee Robinson 25985, 83 = DLS25 Dream Stars), `world-winners` (Cucurella 28188, 85), `champion` (Messi 25841 88, C.Ronaldo 25842 88 AND 25849 82 — two champion CR ids).
+
+## Addendum (turn 40): Cult Heroes per-card sheets 7/12 + index slug map (S-0165..S-0172)
+**Index 12/12 slug map (`/players/cult-heroes/{slug}/{id}/`):** Aubameyang `pierre-emerick-aubameyang`/28331 CF 85 GA · Dybala `paulo-dybala`/28333 SS 85 AR · de Gea `david-de-gea`/28324 GK 85 ES · David Luiz `david-luiz`/28325 CB 84 BR · Insigne `lorenzo-insigne`/28328 LW 84 IT · Isco `francisco-alarc-n`/28327 AM 84 ES · Otamendi `nicol-s-otamendi`/28334 CB 84 AR · Ziyech `hakim-ziyech`/28332 RW 84 MA · Ander Herrera `ander-herrera`/28329 CM 83 ES · Blind `daley-blind`/28326 CB 83 NL · Shaqiri `xherdan-shaqiri`/28330 AM 83 CH · Vozinha `josimar-jos-vora-dias`/28658 GK 83 CV. Vozinha's display name = his full legal name (Josimar José Évora Dias) — same "legal-name display" pattern as Classic Irwin/Dickison. Index FAQ = the generic "+10 via coaches... black cards" boilerplate AGAIN.
+**Sheets (integer pages = exact floor of the S-0114 decimals, 7/7; stamp = card-name "Cult Heroes {year}"; order SPE/ACC/STA/STR/CON/PAS/SHO/TAC, GK = SPE/ACC/STR/CON/PAS/TAC + GKR/GKH):**
+| Card | Stamp | Pos/OVR/Id | Sheet | Body / foot / DOB | Max |
+|---|---|---|---|---|---|
+| de Gea | 2018 | GK 85 28324 | 62/60/–/56/57/60/–/43 + GKR 85 GKH 80 (503) | 192/76, Right, 1990-11-07 | 95 |
+| Dybala | 2020 | SS 85 28333 | 81/90/80/62/92/90/90/49 (634) | 177/75, Left, 1993-11-15 | 95 |
+| Isco | 2017 | AM 84 28327 | 81/87/79/65/93/88/81/53 (627) | 176/79, Right, 1992-04-21 | 94 |
+| Aubameyang | **2018⚠** | CF 85 28331 | 93/92/81/77/85/79/94/34 (635) | 187/80, Right, 1989-06-18 | 95 |
+| David Luiz | 2017 | CB 84 28325 | 78/74/82/85/80/80/67/89 (635) | 189/84, Right, 1987-04-22 | 94 |
+| Otamendi | 2018 | CB 84 28334 | 75/73/83/89/80/80/58/93 (631) | 183/75, Right, 1988-02-12 | 94 |
+| Vozinha | 2026 | GK 83 28658 | 54/47/–/62/54/55/–/43 + GKR 81 GKH 81 (477) | 189/75, Right, 1986-06-03 | 93 |
+**Aubameyang year-stamp CONFLICT (three readings, intra-source):** per-card header "Cult Heroes 2018" vs the S-0114 roundup table [2017] vs the page prose "built around his 2016-17 Dortmund season (31 league goals in 32)". The per-card>article rule does NOT settle it — both disagreeing surfaces are sakibpro. OPEN.
+**Prose trap #2 (beyond index FAQ):** Aubameyang's per-card PROSE is recycled pre-event leak-article text ("These cards will arrive through the upcoming Season Pass track... early leak lists"), contradicting the Cult Heroes Agent acquisition printed on the same page. DR-001 prose-withdrawal extended: per-card prose can itself be recycled SEO; the DATA BLOCK + card-name stamp remain the reliable layer.
+**Dickison rail sighting (G-0067):** "Jonathan Dickison normal/3490 — 85 OVR" surfaces on the CB similar-rails (David Luiz + Otamendi pages), beside Van Dijk normal/27130 (85) and Gabriel Magalhães normal/16347 (85) — the generated-name record is rail-rated like a top normal CB. Page probe owed.
+**Echo normal ids:** de Gea 25840 (80) + 153 (78) · Dybala 9553 (79) · Isco 7293 (79) · Aubameyang 4057 (77) · David Luiz 2178 (76) · Otamendi 2531 (79). All 7 pages carry the "ESTIMATED" OVR label (their computed = claimed base here; the −1 drift is ladder-side, G-0083). GK-similarity magnet: the unnamed classic 26841 (86) now seen on 3 GK rails (de Gea, Vozinha, Zenga).
