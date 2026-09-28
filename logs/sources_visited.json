@@ -1902,11 +1902,43 @@
     "kb/evidence/daley_blind_maxed_2019_dm_build.jpg"
    ],
    "rev": "player_pool addendum (15); G-0016 resolved for specials; G-0041 route advanced"
+  },
+  {
+   "id": "S-0077",
+   "route": "fetch_page",
+   "url": "dlsinside.com/player/isco/28327 (slug route - server-rendered!)",
+   "what": "Isco 28327 = 'Francisco Alarcón' (full legal name): Cult Heroes collection, 84, AM/CM, Spain, Right, 176cm, age 34, PAS 88 / CON 93 / STA 79 (triple-surfaced now), version 160-13430. Evolution widget present. No tier bar on slug pages. Slug pages work although /players listing is JS-dead.",
+   "files": [],
+   "rev": "player_pool addendum (16); G-0037 partial"
+  },
+  {
+   "id": "S-0078",
+   "route": "fetch_page + workspace grep",
+   "url": "dlsinside.com/player/roy-keane/5842 + 26904 collision check vs dreamkitsapp + APK-evidence search",
+   "what": "Classic Keane 5842 = 'hidden record found in the data' (dlsinside's unreleased-record label; missing fields omitted), CM/DM, Right, 182cm, Ireland, 87, PAS 87. 26904 on dlsinside = N. Nogueira (57, Guimarães, 120 coins) vs an old note's 'Berbatov' -> apparent collision; workspace grep found 26904 nowhere in KB (transposition). APK roster extract dir does not exist (lost to re-clones; conclusions preserved in KB).",
+   "files": [],
+   "rev": "player_pool addendum (16); G-0071 opened+moot; G-0063 labelled"
+  },
+  {
+   "id": "S-0079",
+   "route": "fetch_page",
+   "url": "dlsinside.com/player/dimitar-berbatov/27675",
+   "what": "Berbatov id settled: 27675 = 'Dimitar Berbatov (Classic)', 85 CF, Bulgaria, 189cm, Right, age 45, Retired, SHO 92 / SPE 79 / ACC 78. Id spaces agree across dreamkitsapp+dlsinside. dlsinside fields unique: coin value, age/status, team links (t534 ids), evolution widget.",
+   "files": [],
+   "rev": "player_pool addendum (16); Berbatov id corrected to 27675"
+  },
+  {
+   "id": "S-0080",
+   "route": "workspace read (repo-authority files)",
+   "url": "raw_game_data/README.md, source_archive/README.md, tools/README.md, audit_packages/README.md",
+   "what": "PROMPT-level data conventions: raw_game_data = read-only ADB pushes ({ts}__{device}__{account}/ + METADATA.json), empty, and the ownership rule (static client files never prove user ownership); source_archive = complete raw sources, {domain}__{slug}__{date}.{ext}, never pruned (future APK re-extracts go here); tools = state_extraction (STATE_3, design owed) + capture_pipeline (risk Tier 3); audit_packages = AP-NNN Mechanism 9, first package owed at end of STATE_4 (precondition for STATE_5), contents floor includes weakest-link statement.",
+   "files": [],
+   "rev": "HANDOFF conventions note; source_archive policy adopted"
   }
  ],
  "frontier": {
-  "discovered_total": 238,
-  "visited_total": 76,
+  "discovered_total": 245,
+  "visited_total": 80,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2069,7 +2101,10 @@
    "reddit 1pd6ctt 'dls 26 hd legendary card thread annual update' full thread (G-0041 hi-res card art harvest)",
    "community build-guide threads per Cult Heroes card (DM Build etc.)",
    "TikTok @dreamleaguesoccer.ftg archive sweep (ladder/event announcement dating, G-0062)",
-   "user capture: current ladder path with milestone labels (G-0070 + G-0040 decisive)"
+   "user capture: current ladder path with milestone labels (G-0070 + G-0040 decisive)",
+   "dlsinside slug-page sweep for the 28 champion ids + remaining classics (second-surface stats + coin values, G-0038 prices)",
+   "PROMPT.md + SCHEMA.md full compliance read (repo-authority files)",
+   "APK roster re-extraction into source_archive/{domain}__{slug}__{date}/ (conclusions survive in KB; files lost to re-clones)"
   ]
  }
 }
