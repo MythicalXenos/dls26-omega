@@ -640,3 +640,11 @@ refs: S-0105, S-0106, kb/topics/player_pool.md, kb/topics/live_ops.md, G-0080, G
 
 ## [2026-09-28T13:30Z] BLUFF CHECK — turn 28
 Complete every step planned? Both searches ran + persisted; secret pages/champion/backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — Nico's 100-values labelled single-surface (G-0080); the family crosswalk explicitly unresolved (G-0081); the stat-weight claim kept Speculative (G-0082). The WC result is real-world context (not a game claim) sourced from a game-culture page and cross-checked against the in-game boost outcomes (Nico 96 exists = Spain's rep = consistent). Advice impact: none delivered; tracker-only.
+
+## [2026-09-28T14:10Z] RESEARCH — sakibpro indexed-surface crack; ladder-four full sheets; Dream Stars annual pattern
+session 1 turn 29 | state STATE_1_RESEARCH_SWEEP | topic: player-data / live-ops
+sakibpro is JS-dead for page-render but fully search-INDEXABLE — per-player typed URLs, card-type articles, and top-10 pages all yield full sheets. The ladder four now have complete 8-stat tables with year tags verifying the inventory 4/4 (and sakibpro's computed OVRs run −1 on three of them — their formula's error, logged as G-0083, extracted OVRs unaffected). Cult Heroes decimal-precision sheets (David Luiz 2017, Blind 2019) decode to exact internal values (789-style). Base-card transfer prices VERIFIED (Coutinho 75 = 1,185c; Rüdiger 81 = 1,815c) with the standard "+10 max" label. Dream Stars = annual family with non-elite-club breakout criteria + the vote timeline (13.100→13.120) + Clan improvements (vice-captains, leaderboards, point boosts) first-party.
+refs: S-0107, S-0108, kb/topics/classic_card_inventory.md, kb/topics/player_pool.md, kb/topics/live_ops.md, G-0081, G-0083
+
+## [2026-09-28T14:10Z] BLUFF CHECK — turn 29
+Complete every step planned? Both searches ran + persisted; secret pages + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — sakibpro OVRs labelled computed/estimated throughout; the −1 conflict logged (G-0083) rather than averaged; Dream Stars roster + voted 12th explicitly still open (G-0081). Advice impact: none delivered; tracker-only.

@@ -2817,11 +2817,86 @@
     "13.110-13.130 full patch notes beyond the store text"
    ],
    "leads_consumed_from": "S-0101"
+  },
+  {
+   "id": "S-0107",
+   "timestamp_utc": "2026-09-28T14:10:00Z",
+   "session": 1,
+   "turn": 29,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit 1rf90a7 midseason megathread (12th-vote open + deltas); apps.apple.com dls26 version history (13.100-13.130 precision); soft112 13.130; snipzly.com v13.110 mod echo; reddit 1r0xvwd dream_stars_2026_candidates",
+   "resolved_url": "",
+   "domain": "reddit.com; apps.apple.com; soft112.com; snipzly.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 'Dream Stars' 26 roster players 12th man vote March 2026",
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "Dream Stars 26 timeline (first-party): 13.100 (26 Feb) Winter Reload = Dream Stars coming soon + 12th Man Vote + News System + Clan improvements (Leaderboards, Vice-captains, Clan Point boosts) + Game Centre; 13.120 (25 Mar) = boosted players + voted 12th added. Community voting open ~26 Feb. Dream Stars = ANNUAL family (DLS25 generation: Cherki/Trafford/Baena/Paz/Huijsen/Steijn) with selection criteria = breakout stars from NON-ELITE clubs (no Big 6/Big 2/PSG/Big 3); 2026 candidates: Semenyo/Moleiro/Muriqi/Endrick/Rogers/Xhaka/Murillo/Thauvin/H.Wilson/Palestra/Bednarek/Sano. Winter Reload date refined to 13.100 26 Feb 2026 (13.110 2 Mar follow-up).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/live_ops.md",
+    "kb/topics/game_identity_and_version.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "snipzly = mod domain (echo only); soft112 download portal; reddit community",
+    "outcome": "mod echo discarded; changelog text cross-corroborated App Store + soft112; selection criteria = community pattern analysis (labelled)"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Vote timeline + Clan improvements: first-party High Confidence. Selection criteria: Community Consensus (single pattern-analysis thread, labelled as such). Roster/voted 12th: open (G-0081).",
+   "discovered_not_yet_visited": [
+    "Dream Stars 26 roster + voted 12th man identity (G-0081)",
+    "Clan vice-captain/leaderboard mechanics detail"
+   ],
+   "leads_consumed_from": "S-0106"
+  },
+  {
+   "id": "S-0108",
+   "timestamp_utc": "2026-09-28T14:10:00Z",
+   "session": 1,
+   "turn": 29,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "sakibpro.com/dls-26-new-update-events-players/ (card-type stat tables); sakibpro.com/players/top-10-best.php; sakibpro.com/players/normal/philippe-coutinho/1866/; sakibpro.com/players/normal/r-diger/12480; sakibpro.com/players/top-10-goalkeepers.php",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "sakibpro DLS 26 player list ratings prices database special cards stats",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "SAKIBPRO SEARCH-INDEXABLE (JS-dead page-render, but snippets carry full sheets): ladder four FULL 8-STAT tables (Berbatov 79/78/76/85/91/85/92/39 [2011]; Essien 77/78/91/82/81/83/75/86 [2006]; Cole 88/88/85/80/83/79/92/30 [1994]; Petit 79/77/90/84/81/82/72/85 [1999] Left) + Cult Heroes decimal-precision sheets (David Luiz CB 84 [2017] 789/749/829/859/800/800/670/899; Blind CB 83 [2019] base) + base-card VERIFIED prices (Coutinho 75=1185c, Rudiger 81=1815c; +10 max label) + top-10 overall (Mbappe 86 highest base) + top-10 GKs (Donnarumma 85->95, GKR/GKH surface). Their OVRs 'ESTIMATED' run -1 on 3/4 ladder heroes (G-0083). Year tags verify the inventory 4/4.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md",
+    "kb/topics/player_pool.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "sakibpro = SEO/DB with app promotion; self-labels OVR 'ESTIMATED' and prices 'VERIFIED'",
+    "outcome": "incentive present; stats cross-checked against dlsinside named-triples (3/3 match) - stats accepted as a working surface; OVRs treated as computed (not ground truth)"
+   },
+   "conflicts_found": [
+    "Petit/Essien/Berbatov OVR: sakibpro 84 vs dlsinside 85 (their formula error, G-0083)"
+   ],
+   "confidence_note": "Ladder-four stats: cross-verified surface (High Confidence-grade). Decimal internals (789 etc.): single-surface but arithmetically consistent with the stat model. Prices: their 'VERIFIED' label + single-surface. Top-10/GK lists: computed rankings, informative only.",
+   "discovered_not_yet_visited": [
+    "sakibpro per-player page sweep for the specials (typed URLs now known)",
+    "Dream Stars 26 roster via sakibpro card-type filter",
+    "GK GKR/GKH exact values for the ladder/cult-heroes GKs"
+   ],
+   "leads_consumed_from": "S-0105"
   }
  ],
  "frontier": {
-  "discovered_total": 312,
-  "visited_total": 105,
+  "discovered_total": 318,
+  "visited_total": 107,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -3029,7 +3104,11 @@
    "in-game capture of the Nico Williams card (G-0080)",
    "sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
    "Dream Stars 26 roster + the voted 12th man identity (G-0081)",
-   "Winter Reload 2027 timing (Feb pattern for watchlist)"
+   "Winter Reload 2027 timing (Feb pattern for watchlist)",
+   "sakibpro per-player page sweep for the specials (typed URLs now known)",
+   "Dream Stars 26 roster via sakibpro card-type filter (G-0081)",
+   "GK GKR/GKH exact values for the ladder/cult-heroes GKs",
+   "Dream Stars 26 roster + voted 12th man identity (G-0081)"
   ]
  }
 }

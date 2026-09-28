@@ -68,3 +68,14 @@ All stamped Version 160-13430, collection "Classic" — id cross-verified agains
 | Cole | 27096 | 84 | CF | SHO 92 / SPE 88 / ACC 88 | Right / 178cm | pace-striker profile; claimed "first" by one community clip (G-0070) |
 | Petit | 27203 | 85 | DM/CM | PAS 82 / CON 81 / STA 90 | **Left** / 185cm | final milestone? (G-0070) |
 Cross-round second surface: Souness 25089 (85, PAS 83/STA 91) / Crespo 27095 (84, SHO 93) / Trezeguet 26837 (85, two-footed, SHO 93/SPE 86). Full 0-999 values for all six remain open (dreamkitsapp per-player route boundary — see turn-21 negative finding); dlsinside top-3 named + listing rows are the current surfaces. Slug parameter ignored by dlsinside (id resolves) — re-confirmed (Petit slug "emanuel" resolved to "Emmanuel").
+
+## Addendum (turn 29): FULL 8-STAT TABLES for the ladder four (S-0108, sakibpro) + year tags verified
+sakibpro's indexed pages carry complete sheets (their OVRs = computed "ESTIMATED"; stats = data; the ladder year tags match the inventory 4/4):
+| Card | Id | Year | OVR (dlsinside) | SPE | ACC | STA | STR | CON | PAS | SHO | TAC | Foot/Height |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Berbatov | 27675 | 2011 | 85 (sakib 84*) | 79 | 78 | 76 | 85 | 91 | 85 | 92 | 39 | Right / 189cm |
+| Essien | 26838 | 2006 | 85 (sakib 84*) | 77 | 78 | 91 | 82 | 81 | 83 | 75 | 86 | Right / 178cm |
+| Cole | 27096 | 1994 | 84 (sakib 84 ✓) | 88 | 88 | 85 | 80 | 83 | 79 | 92 | 30 | Right / 178cm |
+| Petit | 27203 | 1999 | 85 (sakib 84*) | 79 | 77 | 90 | 84 | 81 | 82 | 72 | 85 | **Left** / 185cm |
+*sakibpro's OVRs are computed (their label "ESTIMATED") and run −1 on the ladder three vs dlsinside's extracted ratings — treat dlsinside/OVR badges as ground truth, sakibpro as a stats surface. Named-stat cross-checks match dlsinside 3/3 (Cole SHO 92/SPE 88/ACC 88; Essien PAS 83/CON 81/STA 91; Berbatov SHO 92/SPE 79/ACC 78).
+**Cult Heroes sheets (same source):** David Luiz CB 84 **[2017]** — 189cm Right; SPE 78.9/ACC 74.9/STA 82.9/STR 85.9/CON 80.0/PAS 80.0/SHO 67.0/TAC 89.9 (**decimal precision = exact internal÷10: 789/749/829/859/800/800/670/899**). Daley Blind CB 83 **[2019]** — 180cm Left; SPE 75.9/ACC 72.9/STA 83.9/STR 81.9/CON 81.9/PAS 82.9/SHO 67.0/TAC 87.9 (base stats; the turn-15 capture showed trained values).
