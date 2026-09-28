@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 17 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 18 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch, `reset --soft` to the remote tip, re-commit, push, verify. Never push diverged; never force-push. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T07:25Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T07:55Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -126,4 +126,11 @@ Mechanism 6: every 2 days of ACTIVE USE (a substantive exchange — a question a
 - No outcome awaits (no recommendation has ever been delivered).
 - Environment facts the user may need to know at first contact, not before: the sandbox cannot reach their phone or MacBook, cannot run an emulator, and cannot download GitHub release assets — Step 3 is user-side by design and Step 2's binary route is constrained (ISS-002, S-0008).
 
-**Constitution read (turn 17):** PROMPT.md and SCHEMA.md read in full. Step-1 exit = the six-dimension Core Gameplay Taxonomy Gate. ISS-008 carries the format-migration saturation. New sources entries use the full §2.1 schema (S-0081+). OPERATIONAL_RULES.md + CAPABILITY_INVENTORY.md still unread.
+**New this turn:** gate dims 1+4 opened (coach 4×3 + feed economy + breakthrough cap; energy model + bench-to-restore + launch stamina bug G-0072). **Constitution read (turn 17):** PROMPT.md and SCHEMA.md read in full. Step-1 exit = the six-dimension Core Gameplay Taxonomy Gate. ISS-008 carries the format-migration saturation. New sources entries use the full §2.1 schema (S-0081+). OPERATIONAL_RULES.md + CAPABILITY_INVENTORY.md still unread.Queue as of turn 18 (2026-09-28T07:50Z):
+1. **Turn-start history check first** (ISS-007 rule — eleven recurrences; per-file hash verify + lossless reset is mechanical).
+2. **Gate dimensions:** dim 2 (Economic & Currency matrix — facility costs + compound curves) + finishing dim 3 (season ladder/points rules) and dim 5 (position debuffs/out-of-position behavior + assist toggles + position-locking verification). Dim 1 + 4 opened this turn (see coaching_and_upgrade_system.md + gameplay_systems_inventory.md; version-risk flags on DLS23/24 math; G-0072 stamina-bug status open).
+3. dlsinside slug sweep (28 champion ids + classics) + ladder classic sheets + secret pages 3-18 (G-0067) + reddit 1pd6ctt (G-0041).
+4. OPERATIONAL_RULES.md + CAPABILITY_INVENTORY.md read + ISS-008 backfill batches (source schema S-0001..S-0080, claim records, deception screens).
+5. User ask grows (see below).
+
+**New this turn:** gate dims 1+4 opened (coach 4×3 + feed economy + breakthrough cap; energy model + bench-to-restore + launch stamina bug G-0072). **Constitution read (turn 17):** PROMPT.md and SCHEMA.md read in full. Step-1 exit = the six-dimension Core Gameplay Taxonomy Gate. ISS-008 carries the format-migration saturation. New sources entries use the full §2.1 schema (S-0081+). OPERATIONAL_RULES.md + CAPABILITY_INVENTORY.md still unread.

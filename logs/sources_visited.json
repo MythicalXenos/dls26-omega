@@ -1934,11 +1934,80 @@
    "what": "PROMPT-level data conventions: raw_game_data = read-only ADB pushes ({ts}__{device}__{account}/ + METADATA.json), empty, and the ownership rule (static client files never prove user ownership); source_archive = complete raw sources, {domain}__{slug}__{date}.{ext}, never pruned (future APK re-extracts go here); tools = state_extraction (STATE_3, design owed) + capture_pipeline (risk Tier 3); audit_packages = AP-NNN Mechanism 9, first package owed at end of STATE_4 (precondition for STATE_5), contents floor includes weakest-link statement.",
    "files": [],
    "rev": "HANDOFF conventions note; source_archive policy adopted"
+  },
+  {
+   "id": "S-0081",
+   "timestamp_utc": "2026-09-28T07:45:00Z",
+   "session": 1,
+   "turn": 18,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "web_search results: eslamgaming.com/2026/04/honest-review...; retbit.com/2025/12/19/8-beginner-tips...; reddit r/DreamLeagueSoccer 1pc3xvx megathread-day-2; bluestacks.com dlsr-beginner-guide + dlsr-character-development-guide",
+   "resolved_url": "",
+   "domain": "eslamgaming.com; retbit.com; reddit.com; bluestacks.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 stamina fatigue second half sprint speed player tired recovery rest mechanics",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Gate dim-4 material: sprinting drains stamina fast, fatigue late in matches (eslamgaming Apr-2026); energy depletes across matches, tired = slower + worse tackling, bench-a-match restores fully by the next (retbit Dec-2025 + reddit megathread 2 Dec 2025); launch-era 'stamina bug' reports (energy not restoring; 'not fixed' replies) + new 'reservation system' 8-sub limit; bluestacks pages recycled from DLS20-era (2021 ages) - captain pick from legendary grade, Medical Centre injury/recovery-cost role.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/gameplay_systems_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "eslamgaming/retbit/bluestacks = SEO/ads content sites; bluestacks pages recycled across titles (2021 age on a 'DLS2026' page)",
+    "outcome": "incentive present, claims cross-corroborated by reddit community reports (independent) for the energy model; bluestacks specifics kept at Speculative"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Energy depletes across matches + tired->slower/tackling: Community Consensus (retbit + reddit). Bench-restores-fully: single community thread, Speculative pending DLS26 confirmation (G-0072). Stamina bug: two-sided anecdotal reports, Disputed/OPEN (G-0072).",
+   "discovered_not_yet_visited": [
+    "patch notes / later megathread days re stamina bug fix (G-0072)",
+    "in-match stamina depletion curve sources (quantitative)"
+   ],
+   "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0082",
+   "timestamp_utc": "2026-09-28T07:45:00Z",
+   "session": 1,
+   "turn": 18,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "web_search results: gamingonphone.com/guides/dream-league-soccer-2026-the-ultimate-career-mode-guide-and-tips/; bluestacks.com dlsr-character-development-guide; reddit 1ajd6pu guide_to_coaching; reddit 11on7r4 efficiently_upgrading_players; reddit 1abrrl5 beginners_guide_to_coaching",
+   "resolved_url": "",
+   "domain": "gamingonphone.com; bluestacks.com; reddit.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 coaching coaches legendary rare common stat gain goalkeeper outfield breakthrough guide",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Gate dim-1 material: coach categories Technical/Fitness/Goalkeeping/Special x tiers Common/Rare/Legendary; yields +1 one-stat / +2 two-stats / +3 three-stats; Fitness=spe/acc/sta/str, Technical=con/pas/sho/tac, Goalkeeping=GKR+GKH; acquisition via gems or player release (Legendary release != Legendary coach, gamingonphone Jan-2026); physios for coins (Legendary full restore+heals injuries); community feed-loop math (80-CB release for rares, <180-coins commons, 16-player club minimum, ~142/320/1280 to max, fitness-first technique, GK loop 1r+4c); breakthrough = stat-cap + progress-bar overshoot mechanics (DLS23/24-era math).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/coaching_and_upgrade_system.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "gamingonphone = gaming outlet with ads/sponsors; bluestacks = SEO/recycled; reddit guides = community analysis (no product incentive, but anecdotal)",
+    "outcome": "incentive present on the outlet sources; core claims cross-corroborated across 3 reddit threads +2 outlets; DLS23/24-era yields flagged version-risk and capped at Community Consensus until DLS26 datamining/re-check"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Coach categories/tiers + gem-or-release acquisition + coin physios: Community Consensus (multi-source incl. DLS26-era gamingonphone). Exact yields +1/+2/+3 and feed-loop ratios: Community Consensus DLS24-era, version risk HIGH (G-0072 family). Breakthrough-cap model: Community Consensus; formulas pending datamining.",
+   "discovered_not_yet_visited": [
+    "DLS26-specific coaching yield verification (datamine coach tables / current guides)",
+    "'Special' coach category behavior + cost curves",
+    "facility compound return curves (gate dim-2)"
+   ],
+   "leads_consumed_from": "initial-seed"
   }
  ],
  "frontier": {
-  "discovered_total": 245,
-  "visited_total": 80,
+  "discovered_total": 252,
+  "visited_total": 82,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2104,7 +2173,12 @@
    "user capture: current ladder path with milestone labels (G-0070 + G-0040 decisive)",
    "dlsinside slug-page sweep for the 28 champion ids + remaining classics (second-surface stats + coin values, G-0038 prices)",
    "PROMPT.md + SCHEMA.md full compliance read (repo-authority files)",
-   "APK roster re-extraction into source_archive/{domain}__{slug}__{date}/ (conclusions survive in KB; files lost to re-clones)"
+   "APK roster re-extraction into source_archive/{domain}__{slug}__{date}/ (conclusions survive in KB; files lost to re-clones)",
+   "patch notes / later megathread days re stamina bug fix (G-0072)",
+   "in-match stamina depletion curve sources (quantitative)",
+   "DLS26-specific coaching yield verification (datamine coach tables / current guides)",
+   "'Special' coach category behavior + cost curves",
+   "facility compound return curves (gate dim-2)"
   ]
  }
 }

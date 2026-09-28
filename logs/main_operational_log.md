@@ -547,3 +547,11 @@ refs: PROMPT.md (read), SCHEMA.md (read), ISS-008
 
 ## [2026-09-28T07:15Z] BLUFF CHECK — turn 17
 Complete every step planned? Partially — the turn was re-planned mid-way to consume the constitution read (priority item 2 of the queue); items 3-5 of the queue did not start this turn (staged, not narrowed; see ISS-008 saturation). Skip anything silently? No. Present incomplete work as complete? No — the compliance gaps above are stated as gaps. Research claims this turn: none (file-reading turn). No advice-impact; issue-tracker entry only per Mechanism 8.
+
+## [2026-09-28T07:45Z] RESEARCH — gate dimensions 1+4 substantially opened
+session 1 turn 18 | state STATE_1_RESEARCH_SWEEP | topic: coaching / match-energy
+Two discovery searches opened the Training & Coaching architecture (coach categories × tiers, stat groups, gem-or-release feed economy, breakthrough cap model, coin physios) and the match-energy model (energy across matches, tired→slower/worse tackling, bench-to-restore rule, launch-era stamina bug + 8-sub reservation). DLS23/24-era yield math flagged version-risk. G-0072 opened (stamina-bug current status — bears on the user's no-subs best-XI style). Sources S-0081/82 logged in full §2.1 schema with deception screens.
+refs: S-0081, S-0082, kb/topics/coaching_and_upgrade_system.md, kb/topics/gameplay_systems_inventory.md, G-0072
+
+## [2026-09-28T07:45Z] BLUFF CHECK — turn 18
+Complete every step planned? The two planned gate searches ran and were persisted; queue items 3-5 (slug sweep, authority-file reads, position-locking) staged again — saturation continues under ISS-008 (no new entry needed; the same obligations remain, portion completed noted there as growing). Skip anything silently? No. Incomplete-as-complete? No — G-0072 and the version-risk flags state what is unconfirmed. Advice impact: none delivered this turn; tracker-only per Mechanism 8.
