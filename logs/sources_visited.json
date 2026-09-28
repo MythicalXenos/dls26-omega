@@ -2668,11 +2668,87 @@
     "buy-back window length + cost"
    ],
    "leads_consumed_from": "S-0101"
+  },
+  {
+   "id": "S-0103",
+   "timestamp_utc": "2026-09-28T12:50:00Z",
+   "session": 1,
+   "turn": 27,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "sportsdunia.com/gaming/dream-league-soccer-2026-dynamic-stars-event-guide; apps.apple.com/gd/ dls26 Events banner; appmagic.rocks dls26 info; reddit 1tuotf8 will_it_be_possible_to_max_dynamic_stars",
+   "resolved_url": "",
+   "domain": "sportsdunia.com; apps.apple.com; appmagic.rocks; reddit.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 Dynamic Stars upgrade live national team performances how much boost ratings",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "DYNAMIC STARS BOOST TABLE (G-0034): base 82 OVR flat; World Cup 2026-tied: group win +1, R32 +2, R16 +2, QF +2, SF +2, champion rep = 96 OVR (one card only); collect-until 20 Jul 2026. First-party banner confirms 'upgrade with real-world results'. Community: Dynamic Stars not coachable (Speculative); partial-coachability speculations open (G-0079). EA-comparison framing in the article ignored per never-assume-shared-mechanics.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/live_ops.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "sportsdunia = gaming outlet with ads",
+    "outcome": "incentive present; boost table cross-checked against the first-party event banner (mechanic) + community thread dates (2 Jun pre-launch, +14 max spread)"
+   },
+   "conflicts_found": [
+    "article's EA-FC comparison is framing only - no cross-game mechanics imported"
+   ],
+   "confidence_note": "Boost mechanic + table: High Confidence (first-party banner + dated guide + community arithmetic agreement). Coachability: Speculative (G-0079).",
+   "discovered_not_yet_visited": [
+    "Dynamic Stars roster (which nations/players)",
+    "Winter Reload family mechanics",
+    "in-game test of Dynamic Star coachability (G-0079)"
+   ],
+   "leads_consumed_from": "S-0101"
+  },
+  {
+   "id": "S-0104",
+   "timestamp_utc": "2026-09-28T12:50:00Z",
+   "session": 1,
+   "turn": 27,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "bluestacks.com dlsr-free-rewards-guide (recap+new); sportsdunia.com/gaming/dream-league-soccer-2026-how-to-get-coins; gameplustx.com how-to-get-coins-and-gems; gamingonphone.com dls25-coin-guide + dls26-beginners-guide",
+   "resolved_url": "",
+   "domain": "bluestacks.com; sportsdunia.com; gameplustx.com; gamingonphone.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer daily bonus rewards list login streak coins gems",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Daily/login economy: 20-day login cycle, MISSING A DAY RESETS TO DAY 1 (streak rule); challenges (daily ~30min, weekly, career); scenarios 50c/day (comeback vs Hard AI); 30s post-game ad doubles match rewards (DLS26) + daily ad ~30c (DLS25 figure); starter kit ~1200 coins + 40 gems (DLS26). COMMERCIAL TABLE 3-WAY CONFLICT (G-0074): sportsdunia 2/4/6/8/10% + kit/logo discounts (5-25%) vs bluestacks/gamingonphone 13%/21% (L2/L3, stale-looking) vs reddit 10%@L5. Season points 40/day login; 400 to activate pass.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "all four are SEO/ad monetized guides; sportsdunia table has a suspicious L3 '1%' cell (likely typo)",
+    "outcome": "incentive present; figures cross-compared 3-way; conflict logged rather than averaged (G-0074)"
+   },
+   "conflicts_found": [
+    "Commercial %: 13/21 (L2/L3) vs 2/4/6/8/10 (L1-L5) vs 10@L5 - G-0074"
+   ],
+   "confidence_note": "Login 20-day reset rule: Community Consensus (2 sources). Commercial-%: Disputed (3 tables). Ad multiplier + starter kit: single-source DLS26-era, Speculative-lean.",
+   "discovered_not_yet_visited": [
+    "facility config datamine (G-0074)",
+    "Daily Bonus exact day-by-day table",
+    "Monthly Trophy / Global Challenge Cup rewards"
+   ],
+   "leads_consumed_from": "S-0085"
   }
  ],
  "frontier": {
-  "discovered_total": 299,
-  "visited_total": 101,
+  "discovered_total": 306,
+  "visited_total": 103,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2871,7 +2947,12 @@
    "Daily Bonus reward table",
    "buy-back window length + cost",
    "Dynamic Stars roster + national-team upgrade rules (feeds G-0034)",
-   "World Tournament event mechanics"
+   "World Tournament event mechanics",
+   "facility config datamine (G-0074)",
+   "Daily Bonus exact day-by-day table",
+   "Monthly Trophy / Global Challenge Cup rewards",
+   "Dynamic Stars roster (which nations/players)",
+   "in-game test of Dynamic Star coachability (G-0079)"
   ]
  }
 }

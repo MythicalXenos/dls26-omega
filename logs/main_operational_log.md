@@ -624,3 +624,11 @@ refs: S-0101, S-0102, R-0013, kb/topics/game_identity_and_version.md, kb/gaps.md
 
 ## [2026-09-28T12:10Z] BLUFF CHECK — turn 26
 Complete every step planned? G-0078 follow-through done — and it ended in a CORRECTION of my own prior turn's claim (self-caught via entry-level cross-check; logged as R-0013, not smoothed). The turn-25 "next collection ~14 Oct" note is withdrawn in the KB. Skip anything silently? No. Incomplete-as-complete? No — Daily Bonus structure explicitly left open. Advice impact: the turn-25 user-queue note about the "peak-seasons family as next grind target" is withdrawn before any advice was given on it (it never reached a recommendation). Tracker-only per Mechanism 8.
+
+## [2026-09-28T12:50Z] RESEARCH — Dynamic Stars boost table (G-0034) + special-coach targeted allocation
+session 1 turn 27 | state STATE_1_RESEARCH_SWEEP | topic: live-ops / coaching
+The Dynamic Stars boost table landed (82 base; +1 per group win, +2 per knockout round, champion rep = 96; World Cup 2026-tied; first-party banner confirms live real-world upgrades) — the oldest open boost question (G-0034) now has a documented mechanism for its first family. The DLS26-era coaching source revealed SPECIAL COACHES = manual player+stat allocation for special cards (explains build-guides; big for the user's Isco) and documented the +11 rare-case exception (R-0012 addendum). The commercial-% question is now 3-way contested (G-0074) and the daily-login 20-day reset rule + ad-multiplier + starter kit landed.
+refs: S-0103, S-0104, kb/topics/live_ops.md, kb/topics/coaching_and_upgrade_system.md, kb/topics/economy_currencies_and_iap.md, R-0012 addendum, G-0074, G-0079
+
+## [2026-09-28T12:50Z] BLUFF CHECK — turn 27
+Complete every step planned? Both planned searches ran + persisted; secret pages/champion/ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — the EA-FC comparison in the boost article explicitly ignored per never-assume-shared-mechanics; commercial-% conflict logged 3-way rather than averaged; coachability labelled Speculative (G-0079). Advice impact: none delivered this turn (the special-coach finding will drive first-contact advice — stored, not yet recommended). Tracker-only per Mechanism 8.
