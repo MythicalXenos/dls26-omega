@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 41 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 42 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch WITH THE EXPLICIT REFSPEC (`git fetch origin +refs/heads/arena/01a0e3cd-dls26-omega:refs/remotes/origin/arena/01a0e3cd-dls26-omega` - the wipe narrows `remote.origin.fetch` to main-only, so a plain fetch silently misses the arena branch), then `reset --hard` to the remote tip (working-tree wipe mode, all files match the base commit), verify, push. Never push diverged; never force-push. `git ls-remote origin` distinguishes refspec narrowing from a deleted branch. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T22:20Z (wall clock; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T22:30Z (wall clock; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -16,7 +16,7 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Return gap anchor
 
-Last session end: 2026-09-28T22:20Z. Next session: compute the gap from this line. Below 7 days → weigh the gap against the volatility model and re-verify exactly that. 7 days or more → treat as equivalent to a patch having dropped: full exhaustive sweep before advising.
+Last session end: 2026-09-28T22:30Z. Next session: compute the gap from this line. Below 7 days → weigh the gap against the volatility model and re-verify exactly that. 7 days or more → treat as equivalent to a patch having dropped: full exhaustive sweep before advising.
 
 ## Cycle dates
 
@@ -126,14 +126,14 @@ Mechanism 6: every 2 days of ACTIVE USE (a substantive exchange — a question a
 - No outcome awaits (no recommendation has ever been delivered).
 - Environment facts the user may need to know at first contact, not before: the sandbox cannot reach their phone or MacBook, cannot run an emulator, and cannot download GitHub release assets — Step 3 is user-side by design and Step 2's binary route is constrained (ISS-002, S-0008).
 
-**New this turn (turn 41):** Cult Heroes **sheets 12/12 COMPLETE** (S-0173..S-0179) — Insigne **2021**, Ziyech **2019**, Herrera **2017**, Blind **2019**, Shaqiri **2019** (all stamps match the S-0114 roundup; only Aubameyang stays conflicted 2018/2017 — dreamkitsapp is SILENT on year tags, third surface needed). Sheets = floor(decimals) 12/12 cross-validated. **Dickison 3490 = G-0067 decisive:** "Normal 2026" stamp + DOB 1900-01-01 + generated body 182cm/100kg + **VERIFIED transfer price 2,375 coins** + Photo Evolution back to DLS 21 — the "2026"/DOB-1900 placeholder pattern spans THREE families (Classic Irwin / Cult Heroes Vozinha / Normal Dickison) = a persistent cross-family hidden class. **Correction appended:** turn-37 tracker "Rodri 27133" = actually PEDRI (Pedro González López); Rodri = world-winners 27843. Sources now 178 (396/178/218).
+**New this turn (turn 42):** the hidden-class MAP has shape (S-0180..S-0184). Four "Classic X" sheets landed — Keane 5842 = **87 CM/DM**, Cole 5844 = **84 LW/AM** (winger variant of the CF Andys), Šuker 5765 = **83** (CON-94 variant), Desailly 5710 = **87** (OUTRATES both released Desaillys) — all with the verbatim secret prose and First-name-"Classic" pattern. `/players/type/secret` = **18 pages ≈ 270 records** (OVR-desc); page 1: **Classic Bergkamp 91**, Gascoigne/Batistuta/Matthäus 88, Cannavaro/Adams/Keane/Desailly 87, **Young Messi 24594 + Legendary Messi 24599** (two secret Messi variants!), **Classic Gallagher 5866** (name echo of the DROICER "Conor Gallagher" leak — Ireland-flagged, do NOT conflate). One coherent generation pattern: legacy ids 2459-6836 + generated/"Classic X" names + DOB-1900/2026-stamp placeholders, spanning database families (Dickison = normal on sakibpro, Secret on dreamkitsapp). Sources now 183 (398/183/215).
 
-Queue as of turn 41 (2026-09-28T22:20Z):
-1. **Turn-start history check first** (ISS-007 rule - thirty-four recurrences; hash verify + explicit-refspec fetch + `reset --hard` is mechanical).
-2. Secret pages 5-18 batches + ISS-008 backfill + 5842/5844/5765/5710 probes + /players/normal/ hidden-class sweep (G-0067 map has a confirmed three-family pattern now).
+Queue as of turn 42 (2026-09-28T22:30Z):
+1. **Turn-start history check first** (ISS-007 rule - thirty-five recurrences; hash verify + explicit-refspec fetch + `reset --hard` is mechanical).
+2. Secret pages 2-18 batches (filler stock) + secret per-card pages (Bergkamp 5604 / Young Messi 24594 / Legendary Messi 24599 / Gallagher 5866) + ISS-008 backfill + 25848/17858 normal-echo probes (G-0067).
 3. Facility datamine (G-0074) + simulator JS weighting table (G-0082/83) + DP rates (G-0085) + transfer-market price-grid datapoints (G-0038; Dickison 85 CB = 2,375c anchor).
 4. Authority files ALL READ. OPERATIONAL_RULES = stub until STATE_4 (by design). ISS-009 procedure in force (verified python outputs; commit in a separate call).
 
 User-dependent queue, batched for first contact (consolidated): ladder-path capture (G-0040 timer + G-0070 milestone mapping, one photo) + Cult Heroes agent-opening screen (G-0048) + reserve-freeze observation (G-0072) + special-coach test on a DYNAMIC STAR card (G-0079 — expected: not selectable) + Isco special-coach menu (G-0041) + Nico Williams 96-screen capture (G-0080 confirmatory) + facility-screen captures (G-0074) + DP shop screen (G-0085) + 12th-Man-Vote screen when a vote opens.
 
-State of the base at handoff: frontier 396 discovered / 178 visited / 218 unvisited; recurrence count 34; kb/evidence/ holds 16 files. Gate status: all six dimensions sourced; G-0034 + G-0080 RESOLVED; G-0079 near-resolved; G-0067 has a confirmed cross-family pattern (map completion pending). Gate NOT closable — open G-0074, G-0081 (voted-12th + naming residual), G-0082/83, G-0084/85/86, G-0072/73/75/76. Turn-25 peak-seasons remains WITHDRAWN (R-0013).
+State of the base at handoff: frontier 398 discovered / 183 visited / 215 unvisited; recurrence count 35; kb/evidence/ holds 16 files. Gate status: all six dimensions sourced; G-0034 + G-0080 RESOLVED; G-0079 near-resolved; G-0067 map shaped (pages 2-18 pending). Gate NOT closable — open G-0074, G-0081 (voted-12th + naming residual), G-0082/83, G-0084/85/86, G-0072/73/75/76. Turn-25 peak-seasons remains WITHDRAWN (R-0013).
