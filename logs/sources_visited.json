@@ -2521,11 +2521,84 @@
     "'26 Feb Winter Reload' mid-season deltas"
    ],
    "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0099",
+   "timestamp_utc": "2026-09-28T11:35:00Z",
+   "session": 1,
+   "turn": 25,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit 14vw8e4 lock_player_when_was_this_a_thing; apps.apple.com dls26 VERSION HISTORY (Summer Spotlight entry); happymod.cloud v13.350 mod; eslamgaming.com legends-hacked mod; latestmodapks.com v13.430 mod",
+   "resolved_url": "",
+   "domain": "reddit.com; apps.apple.com; happymod.cloud; eslamgaming.com; latestmodapks.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 transfer market lock player gems 'lock' how long sign limit",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Lock mechanic precise (r/ 2023): 20 or 40 gems, 24h duration, small lock sign, player persists across market refreshes until expiry. App Store shows a NEWER 'Summer Spotlight' version note: 'top stars from peak seasons, coming soon' (next collection, G-0078), 'manage lock players in more ways than before', 'Player Recovery - Changed your mind?', Daily Bonus, friend-match options, Scenario update, updated team data. Mod sites (happymod v13.350 Jul-2026, latestmodapks v13.430 Sep-2026) = version-timeline corroboration only; mod claims (secret 'legends market', unlimited resources) screened out as mod-sourced non-mechanics.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/gameplay_systems_inventory.md",
+    "kb/topics/game_identity_and_version.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "mod distribution domains profit from downloads (happymod/eslamgaming/latestmodapks); reddit community clean",
+    "outcome": "mod-sourced claims excluded per source-screening; only version-vintage facts retained; lock rules from community = clean"
+   },
+   "conflicts_found": [
+    "lock cost 20 vs 40 gems (user-variable, both reported)"
+   ],
+   "confidence_note": "Lock rules: Community Consensus (single detailed thread + corroborating store note about the feature existing) - High Confidence-lean for the base mechanic, DLS26 extensions open. Summer Spotlight note: first-party text, interpretation open (G-0078).",
+   "discovered_not_yet_visited": [
+    "Summer Spotlight version number + date (G-0078)",
+    "'peak seasons' collection identity + roster",
+    "Player Recovery feature semantics"
+   ],
+   "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0100",
+   "timestamp_utc": "2026-09-28T11:35:00Z",
+   "session": 1,
+   "turn": 25,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit 1chedv5 controls_explained (recap); apps.apple.com sg dls26 reviews; reddit 187xzdt (recap); reddit jbjmls kick_cross_assists (2020); reddit llp3na turning_off_kick_assist (2021)",
+   "resolved_url": "",
+   "domain": "reddit.com; apps.apple.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer kick assist off teammates passing worse AI passes manual settings handicap",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Assist spectrum complete: manual community since DLS19 (tiki-taka better off, goals feel rewarding, '92-rated team feels like 72' difficulty report, 'kick assist actually works?' skeptic); assist-on remaps pass direction/power and limits play style. The G-0075 claim (CPU teammates pass worse with kick-assist off) stays single-source (Dec-2023) with adjacent support (2020 difficulty report; DLS26-era App Store complaints about pass/reception mechanics). User's OFF/OFF config = respected manual style with learning curve.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/gameplay_systems_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "community + App Store reviews",
+    "outcome": "clean"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Assist behavior: Community Consensus. CPU-degradation claim: Speculative (G-0075 open; datamine route noted).",
+   "discovered_not_yet_visited": [
+    "assist parameter datamine (G-0075)",
+    "DLS26 out-of-position in-match behavior"
+   ],
+   "leads_consumed_from": "S-0086"
   }
  ],
  "frontier": {
-  "discovered_total": 287,
-  "visited_total": 97,
+  "discovered_total": 293,
+  "visited_total": 99,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2716,7 +2789,11 @@
    "13.1xx-13.3xx patch notes (gap map)",
    "stamina-fix confirmation in 13.430+ (G-0072)",
    "'26 Feb Winter Reload' mid-season deltas",
-   "actual HD image harvest from the thread family (G-0041)"
+   "actual HD image harvest from the thread family (G-0041)",
+   "Summer Spotlight version number + date (G-0078)",
+   "'peak seasons' collection identity + roster",
+   "Player Recovery feature semantics",
+   "assist parameter datamine (G-0075)"
   ]
  }
 }

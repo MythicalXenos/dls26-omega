@@ -608,3 +608,11 @@ refs: S-0097, S-0098, kb/topics/game_identity_and_version.md, kb/topics/gameplay
 
 ## [2026-09-28T11:00Z] BLUFF CHECK — turn 24
 Complete every step planned? Both sub-gap searches ran + persisted; secret pages 5-18 + champion sweep + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — G-0072 fix status explicitly unverified; the Kick-off Stars store-note ambiguity is logged as a conflict_found field, not smoothed over. Advice impact: none delivered; tracker-only.
+
+## [2026-09-28T11:35Z] RESEARCH — lock mechanic precise + Summer Spotlight teaser + assist spectrum complete
+session 1 turn 25 | state STATE_1_RESEARCH_SWEEP | topic: transfer-market / version-history / controls
+The lock mechanic's base rules landed (20-40 gems, 24h, lock sign, refresh-persistent — G-0073 base resolved; DLS26 "more ways" extensions open). The App Store surfaced a version note NEWER than 13.430 — "Summer Spotlight" — teasing the NEXT collection ("top stars from peak seasons, coming soon"), plus Player Recovery, Daily Bonus, friend-match options and a Scenario update (G-0078). The assist spectrum is complete: the manual style the user runs is a respected DLS19-present tradition; the CPU-degradation claim stays Speculative. Mod sites (3 domains) screened: only version-vintage corroboration retained.
+refs: S-0099, S-0100, kb/topics/gameplay_systems_inventory.md, kb/topics/game_identity_and_version.md, G-0073, G-0078
+
+## [2026-09-28T11:35Z] BLUFF CHECK — turn 25
+Complete every step planned? Both sub-gap searches ran + persisted; secret pages + champion sweep + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — G-0075 kept Speculative; Summer Spotlight interpretation labelled open (G-0078); mod claims excluded with the screen recorded. Advice impact: none delivered; tracker-only.
