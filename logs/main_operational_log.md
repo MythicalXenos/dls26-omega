@@ -584,3 +584,11 @@ refs: S-0088, S-0089, S-0090
 
 ## [2026-09-28T09:20Z] BLUFF CHECK — turn 21
 Complete every step planned? Authority-file read done (OPERATIONAL_RULES = stub, recorded; CAPABILITY_INVENTORY read pending — staged, named). Ladder-sheet harvest started (3/6; Cole/Essien/Petit remainder staged). Secret pages + 1pd6ctt staged. Skip anything silently? No. Incomplete-as-complete? No — sheets labelled display-level (top-3 named), 404 boundary logged as negative finding. Advice impact: none; tracker-only.
+
+## [2026-09-28T09:50Z] RESEARCH — current-ladder four second-surface complete + capability inventory absorbed
+session 1 turn 22 | state STATE_1_RESEARCH_SWEEP | topic: player-data / capability
+Cole 27096 / Essien 26838 / Petit 27203 captured on dlsinside: the current English League Classics quartet is now complete on the second surface (display stats + ages + feet; Petit left-footed, Trezeguet two-footed among the cross-round set). CAPABILITY_INVENTORY.md re-read in full: shell egress = GitHub family + PyPI only; binary acquisition routes for Step 2 documented (GitHub-hosted dumps via codeload/api.github.com, community datamining repos, PyPI pure-Python parsers, databases fallback); git identity must be set in the same command as each commit (snapshot exclusions) — current routine complies; yt-dlp/androguard = installable-but-network-limited open questions.
+refs: S-0092, S-0093, S-0094, kb/topics/classic_card_inventory.md, CAPABILITY_INVENTORY.md
+
+## [2026-09-28T09:50Z] BLUFF CHECK — turn 22
+Complete every step planned? Ladder 6-sheets DONE (6/6 incl. turn-21 three); CAPABILITY_INVENTORY read DONE; champion sweep + secret pages + 1pd6ctt + ISS-008 backfill staged (named in tracker). Skip anything silently? No. Incomplete-as-complete? No — sheets labelled display-level; full 0-999 values explicitly still open. Advice impact: none; tracker-only.

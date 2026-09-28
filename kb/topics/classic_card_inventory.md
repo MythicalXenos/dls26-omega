@@ -55,3 +55,16 @@ Unmapped to any known ladder: Matthäus ×2, Rivaldo ×2, Cannavaro, Zola, Chiel
 - **Hernán Crespo (Classic) 27095** — 84, CF, Argentina, Right, 184cm, age 51, Retired. Named: **SHO 93 / SPE 85 / ACC 84**.
 - **David Trezeguet (Classic) 26837** — 85, CF, France, **foot "Both / Right" (two-footed)**, 190cm, age 48, Retired. Named: **SHO 93 / SPE 86 / ACC 82**.
 All stamped Version 160-13430, collection "Classic" — id cross-verified against the APK-roster-derived inventory (S-0051) on 3/3. Ages = real-life ages (Berbatov 45/Isco 34 pattern holds). dlsinside names top-3 attributes only; full 8-stat sheets for these ids are NOT available on dreamkitsapp's per-player route (see negative finding, turn 21) — listing rows + dlsinside remain the surfaces.
+
+## Addendum (turn 22): the ladder six is COMPLETE (S-0092..94) — current-cycle sheet set
+- **Andy Cole (Classic) 27096** — 84, CF, England, Right, 178cm, age 54, Retired. Named: **SHO 92 / SPE 88 / ACC 88**.
+- **Michael Essien (Classic) 26838** — 85, DM/CM, Ghana, Right, 178cm, age 43, Retired. Named: **PAS 83 / CON 81 / STA 91**.
+- **Emmanuel Petit (Classic) 27203** — 85, DM/CM, France, **Left**, 185cm, age 56, Retired. Named: **PAS 82 / CON 81 / STA 90**.
+**CURRENT LADDER FOUR — second-surface complete (user-facing target set):**
+| Card | Id | OVR | Pos | Key display stats | Foot/Height | Note |
+|---|---|---|---|---|---|---|
+| Berbatov | 27675 | 85 | CF | SHO 92 / SPE 79 / ACC 78 | Right / 189cm | first milestone? (G-0070) |
+| Essien | 26838 | 85 | DM/CM | PAS 83 / CON 81 / STA 91 | Right / 178cm | box-to-box profile |
+| Cole | 27096 | 84 | CF | SHO 92 / SPE 88 / ACC 88 | Right / 178cm | pace-striker profile; claimed "first" by one community clip (G-0070) |
+| Petit | 27203 | 85 | DM/CM | PAS 82 / CON 81 / STA 90 | **Left** / 185cm | final milestone? (G-0070) |
+Cross-round second surface: Souness 25089 (85, PAS 83/STA 91) / Crespo 27095 (84, SHO 93) / Trezeguet 26837 (85, two-footed, SHO 93/SPE 86). Full 0-999 values for all six remain open (dreamkitsapp per-player route boundary — see turn-21 negative finding); dlsinside top-3 named + listing rows are the current surfaces. Slug parameter ignored by dlsinside (id resolves) — re-confirmed (Petit slug "emanuel" resolved to "Emmanuel").

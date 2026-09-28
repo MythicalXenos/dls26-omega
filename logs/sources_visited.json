@@ -2280,11 +2280,113 @@
     "champion-id dlsinside sweep"
    ],
    "leads_consumed_from": "S-0077"
+  },
+  {
+   "id": "S-0092",
+   "timestamp_utc": "2026-09-28T09:50:00Z",
+   "session": 1,
+   "turn": 22,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dlsinside.com/player/andy-cole/27096",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Classic collection sheet: Andy Cole — 84 CF, England, Right, 178cm, age 54 Retired; SHO 92 / SPE 88 / ACC 88. Version 160-13430; current-ladder four now second-surface complete. Slug ignored (id resolves) re-confirmed.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside app ads",
+    "outcome": "incentive present; ratings/ids consistent with APK-derived inventory"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Display stats on second surface; full 0-999 values open (dreamkitsapp route boundary).",
+   "discovered_not_yet_visited": [
+    "champion-id dlsinside sweep",
+    "secret pages 3-18 listing rows"
+   ],
+   "leads_consumed_from": "S-0091"
+  },
+  {
+   "id": "S-0093",
+   "timestamp_utc": "2026-09-28T09:50:00Z",
+   "session": 1,
+   "turn": 22,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dlsinside.com/player/michael-essien/26838",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Classic collection sheet: Michael Essien — 85 DM/CM, Ghana, Right, 178cm, age 43 Retired; PAS 83 / CON 81 / STA 91. Version 160-13430; current-ladder four now second-surface complete. Slug ignored (id resolves) re-confirmed.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside app ads",
+    "outcome": "incentive present; ratings/ids consistent with APK-derived inventory"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Display stats on second surface; full 0-999 values open (dreamkitsapp route boundary).",
+   "discovered_not_yet_visited": [
+    "champion-id dlsinside sweep",
+    "secret pages 3-18 listing rows"
+   ],
+   "leads_consumed_from": "S-0091"
+  },
+  {
+   "id": "S-0094",
+   "timestamp_utc": "2026-09-28T09:50:00Z",
+   "session": 1,
+   "turn": 22,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dlsinside.com/player/emanuel-petit/27203",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Classic collection sheet: Emmanuel Petit — 85 DM/CM, France, LEFT foot, 185cm, age 56 Retired; PAS 82 / CON 81 / STA 90. Version 160-13430; current-ladder four now second-surface complete. Slug ignored (id resolves) re-confirmed.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside app ads",
+    "outcome": "incentive present; ratings/ids consistent with APK-derived inventory"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Display stats on second surface; full 0-999 values open (dreamkitsapp route boundary).",
+   "discovered_not_yet_visited": [
+    "champion-id dlsinside sweep",
+    "secret pages 3-18 listing rows"
+   ],
+   "leads_consumed_from": "S-0091"
   }
  ],
  "frontier": {
-  "discovered_total": 274,
-  "visited_total": 90,
+  "discovered_total": 278,
+  "visited_total": 93,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2469,7 +2571,8 @@
    "'shooting assistant' identity (G-0076)",
    "DLS26 out-of-position in-match behavior tests",
    "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
-   "champion-id dlsinside sweep"
+   "champion-id dlsinside sweep",
+   "secret pages 3-18 listing rows"
   ]
  }
 }
