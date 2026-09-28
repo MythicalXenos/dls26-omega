@@ -2594,11 +2594,85 @@
     "DLS26 out-of-position in-match behavior"
    ],
    "leads_consumed_from": "S-0086"
+  },
+  {
+   "id": "S-0101",
+   "timestamp_utc": "2026-09-28T12:10:00Z",
+   "session": 1,
+   "turn": 26,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "apps.apple.com dls26 VERSION HISTORY (full feed); soft112.com dls26 13.130 changelog; reddit 1toag2u v13.14 Summer Spotlight thread; apkmirror.com 12.200 release",
+   "resolved_url": "",
+   "domain": "apps.apple.com; soft112.com; reddit.com; apkmirror.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 'Summer Spotlight' update new special players 'peak' seasons collection October 2026",
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FULL STORE FEED recovered: DLS26 13.310 (29 May) = Dynamic Stars 'upgrading live with national team performances' + FANZONE facility (Clan bonuses + Stadium discounts) + World Tournament event + Manager accessories + Clan emoji + Kick-Off Stars 'at launch' + Turkish/Arabic commentary + unlimited specials; 13.130 (26 Mar) = Dream Stars 2026 + 12th Man vote ('community has voted, extra superstar added'); 13.040/050 (Jan) = Clans + languages + venues. DLS25 12.200 (Jun 2025) = the 'Summer Spotlight / peak seasons / Player Recovery buy-back / Daily Bonus' block (R-0013 correction: NOT a post-13.430 teaser). v13.14 community thread (May 2026): base-rating deltas (Guler gold, Neves legendary, Pedri -1 STA/SHO/TAC, Ugarte 73).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/game_identity_and_version.md",
+    "kb/gaps.md",
+    "logs/revision_register.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "first-party store feeds + changelog mirrors + community thread",
+    "outcome": "clean; feed-assembly caveat recorded (recycled text blocks across entries - entry-level cross-check rule, R-0013)"
+   },
+   "conflicts_found": [
+    "store feed recycles marketing text blocks across versions (Kick-Off Stars bundle appears under multiple entries; 'Summer Spotlight' name shared across DLS25/26)"
+   ],
+   "confidence_note": "Fanzone + Dynamic Stars mechanic + World Tournament + 12th Man Vote: High Confidence (first-party store notes). Version dates: store-feed grade. Correction R-0013 self-caught.",
+   "discovered_not_yet_visited": [
+    "Daily Bonus structure (live feature)",
+    "Dynamic Stars roster + national-team upgrade rules (feeds G-0034)",
+    "World Tournament event mechanics"
+   ],
+   "leads_consumed_from": "S-0099"
+  },
+  {
+   "id": "S-0102",
+   "timestamp_utc": "2026-09-28T12:10:00Z",
+   "session": 1,
+   "turn": 26,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "apps.apple.com dls26 (recap); soft112.com 13.130 + 12.200 changelogs",
+   "resolved_url": "",
+   "domain": "apps.apple.com; soft112.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 'Player Recovery' feature 'Daily Bonus' update changelog",
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "Player Recovery semantics RESOLVED: 12.200 spells it as 'buy a sold player back within a limited time' (the 'Changed your mind?' tagline) - a DLS25-era buyback window, still-live mechanic. Daily Bonus = same-era feature. soft112 changelog adds 13.130 (Mar 2026): Dream Stars 2026 boosted players + 12th Man vote; 13.040 (Jan 2026): Clans + Turkish/Arabic + unlimited specials + venues.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/game_identity_and_version.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "soft112 = download portal (SEO/downloads)",
+    "outcome": "incentive present; changelog text corroborated against App Store + APKMirror (independent surfaces) for the shared claims"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Player Recovery = buyback: High Confidence (first-party APKMirror text). Daily Bonus: exists per store text; structure open.",
+   "discovered_not_yet_visited": [
+    "Daily Bonus reward table",
+    "buy-back window length + cost"
+   ],
+   "leads_consumed_from": "S-0101"
   }
  ],
  "frontier": {
-  "discovered_total": 293,
-  "visited_total": 99,
+  "discovered_total": 299,
+  "visited_total": 101,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2793,7 +2867,11 @@
    "Summer Spotlight version number + date (G-0078)",
    "'peak seasons' collection identity + roster",
    "Player Recovery feature semantics",
-   "assist parameter datamine (G-0075)"
+   "assist parameter datamine (G-0075)",
+   "Daily Bonus reward table",
+   "buy-back window length + cost",
+   "Dynamic Stars roster + national-team upgrade rules (feeds G-0034)",
+   "World Tournament event mechanics"
   ]
  }
 }

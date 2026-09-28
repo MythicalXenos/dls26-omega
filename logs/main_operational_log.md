@@ -616,3 +616,11 @@ refs: S-0099, S-0100, kb/topics/gameplay_systems_inventory.md, kb/topics/game_id
 
 ## [2026-09-28T11:35Z] BLUFF CHECK — turn 25
 Complete every step planned? Both sub-gap searches ran + persisted; secret pages + champion sweep + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — G-0075 kept Speculative; Summer Spotlight interpretation labelled open (G-0078); mod claims excluded with the screen recorded. Advice impact: none delivered; tracker-only.
+
+## [2026-09-28T12:10Z] REVISION (R-0013) + RESEARCH — version timeline corrected; first-party feature flags confirmed
+session 1 turn 26 | state STATE_1_RESEARCH_SWEEP | topic: version-history
+Self-caught error corrected: the "Summer Spotlight / peak seasons" store text is DLS25 12.200 (Jun-2025) copy recycled in the shared store feed — NOT a post-13.430 teaser (G-0078 closed by correction; R-0013 carries the lesson: store feeds are assembled marketing copy, entry-level cross-checks required). In its place, the full DLS26 timeline is now sourced entry-by-entry and four first-party feature flags landed: Fanzone facility (Clan bonuses + Stadium discounts, 13.310), Dynamic Stars' live upgrade mechanic (national-team performances), World Tournament event type, and the per-collection 12th Man Vote (13.130). Kick-off Stars dated to ~13.310 (29 May 2026). G-0074 Fanzone resolved to HC.
+refs: S-0101, S-0102, R-0013, kb/topics/game_identity_and_version.md, kb/gaps.md
+
+## [2026-09-28T12:10Z] BLUFF CHECK — turn 26
+Complete every step planned? G-0078 follow-through done — and it ended in a CORRECTION of my own prior turn's claim (self-caught via entry-level cross-check; logged as R-0013, not smoothed). The turn-25 "next collection ~14 Oct" note is withdrawn in the KB. Skip anything silently? No. Incomplete-as-complete? No — Daily Bonus structure explicitly left open. Advice impact: the turn-25 user-queue note about the "peak-seasons family as next grind target" is withdrawn before any advice was given on it (it never reached a recommendation). Tracker-only per Mechanism 8.
