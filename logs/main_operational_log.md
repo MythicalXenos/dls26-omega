@@ -600,3 +600,11 @@ refs: S-0095, S-0096, kb/topics/player_pool.md
 
 ## [2026-09-28T10:25Z] BLUFF CHECK — turn 23
 Complete every step planned? Two reservoir pages harvested + structure finding recorded; champion sweep + 1pd6ctt + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — pages 5-18 explicitly staged as owed; dreamkitsapp ratings re-labelled derived per their notice. Advice impact: none; tracker-only.
+
+## [2026-09-28T11:00Z] RESEARCH — first-party version history + reserve-freeze bug + HD thread family
+session 1 turn 24 | state STATE_1_RESEARCH_SWEEP | topic: version-history / match-energy
+The App Store version history (first-party) landed the DLS26 patch timeline: 13.010 launch (3 Dec 2025) → 13.050 Clans (15 Jan 2026) → 13.330 (~Jun) → 13.410 Kick-off Stars (20 Aug) → 13.430 Cult Heroes + "dozens of bug fixes" (16 Sep 2026) — the Cult Heroes patch date equals the event start date exactly (live-ops pattern). DLS25-era notes add the buy-sold-player-back window + Special Coach Packs. G-0072 advanced: the reserve-freeze bug has a precise form (recovery ticks only from matchday-squad appearances; reserves freeze; injuries too) consistent with the bench-a-match rule. The HD card thread family (1pd6ctt + siblings) is identified as the standing base-card delta surveillance source (G-0041 image harvest still pending).
+refs: S-0097, S-0098, kb/topics/game_identity_and_version.md, kb/topics/gameplay_systems_inventory.md, G-0072
+
+## [2026-09-28T11:00Z] BLUFF CHECK — turn 24
+Complete every step planned? Both sub-gap searches ran + persisted; secret pages 5-18 + champion sweep + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — G-0072 fix status explicitly unverified; the Kick-off Stars store-note ambiguity is logged as a conflict_found field, not smoothed over. Advice impact: none delivered; tracker-only.

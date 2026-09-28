@@ -2448,11 +2448,84 @@
     "secret pages 5-18 (staged)"
    ],
    "leads_consumed_from": "S-0095"
+  },
+  {
+   "id": "S-0097",
+   "timestamp_utc": "2026-09-28T11:00:00Z",
+   "session": 1,
+   "turn": 24,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit 1pd6ctt dls_26_hd_legendary_card_thread_annual_update; reddit 1h6rm9v dls25_hd thread (winter); reddit 1pe5gc7 dls_26_rare_common_card_thread; reddit 1p85wyj kick-off-stars teaser (27 Nov 2025); reddit 1d44s5m dls24 spring hd thread",
+   "resolved_url": "",
+   "domain": "reddit.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "reddit DreamLeagueSoccer 'hd legendary card' thread DLS 26 card art update",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "HD card thread family identified (G-0041 route): 1pd6ctt = base-legendary delta catalog (Raphinha 85/Wirtz new/Alvarez +1/Maignan +2/Vini retain/Alisson -1/Foden retain+POSITION CHANGE/Odegaard -1/Pacho +2/Kante retain/Sorloth retain) with seasonal siblings ('26 Feb Winter Reload'); 1pe5gc7 = rare/common catalog; DLS24/25 ancestors show conventions + legend price bands ($1535 Konate/Upamecano, $1715 Szoboszlai = coins). Kick-off Stars pre-launch thread (Nov 27 2025): community guessed 'Alvarez and Raphinha' correctly; 'Dream Stars events = play DLL events to get dream agents' mechanic note. Image harvest still pending (G-0041).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/game_identity_and_version.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "community curation threads; explicit rules against rating/stat questions (curation, not monetization)",
+    "outcome": "clean"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Delta catalog: Community Consensus-grade curation; use as PATCH-RESPONSE surveillance. Price bands: single-thread figures (DLS25-era).",
+   "discovered_not_yet_visited": [
+    "actual HD image harvest from the thread family (G-0041)",
+    "'26 Feb Winter Reload' thread content (mid-season deltas)"
+   ],
+   "leads_consumed_from": "S-0076"
+  },
+  {
+   "id": "S-0098",
+   "timestamp_utc": "2026-09-28T11:00:00Z",
+   "session": 1,
+   "turn": 24,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit 1pc3xvx megathread_day_2 (recap); reddit 1pcep8w dls26_bug; bluestacks dlsr-character-development-guide (recap); apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 VERSION HISTORY; play.google.com/store/apps/details?id=com.firsttouchgames.dls7",
+   "resolved_url": "",
+   "domain": "reddit.com; bluestacks.com; apps.apple.com; play.google.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 stamina bug fix update patch notes players energy restoring 2026",
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY STORE VERSION HISTORY: 13.010 (3 Dec 2025 launch, bug fixes) / 13.050 (15 Jan 2026, Clans!) / 13.410 (20 Aug 2026, match atmosphere + KICK-OFF STARS Raphinha+Alvarez + soundtrack) / 13.430 (16 Sep 2026, CULT HEROES 'coming soon' + dozens of bug fixes) — Cult Heroes patch date = event start exactly (live-ops pattern). DLS25 12.250: buy-sold-player-back window + Special Coach Packs. G-0072 progress: RESERVE-FREEZE bug precisely reported (recovery ticks only from matchday-squad appearances; reserves freeze; injuries too) - consistent with the megathread bench-a-match rule; current fix status unverified.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/game_identity_and_version.md",
+    "kb/topics/gameplay_systems_inventory.md",
+    "kb/gaps.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "first-party store pages + community bug reports",
+    "outcome": "clean"
+   },
+   "conflicts_found": [
+    "Kick-Off Stars store note sits under 13.410 (Aug 2026) though the cards were datamined in the pre-launch 271xx batch and 'at launch' wording is ambiguous - collection release vs patch content"
+   ],
+   "confidence_note": "Version timeline: first-party (High Confidence). Reserve-freeze mechanic: Community Consensus (2 threads, consistent). 13.430 fix status: unknown (store notes nonspecific).",
+   "discovered_not_yet_visited": [
+    "13.1xx-13.3xx patch notes (gap map)",
+    "stamina-fix confirmation in 13.430+ (G-0072)",
+    "'26 Feb Winter Reload' mid-season deltas"
+   ],
+   "leads_consumed_from": "initial-seed"
   }
  ],
  "frontier": {
-  "discovered_total": 281,
-  "visited_total": 95,
+  "discovered_total": 287,
+  "visited_total": 97,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2639,7 +2712,11 @@
    "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
    "champion-id dlsinside sweep",
    "secret pages 3-18 listing rows",
-   "secret pages 5-18 (filler stock, low novelty, staged)"
+   "secret pages 5-18 (filler stock, low novelty, staged)",
+   "13.1xx-13.3xx patch notes (gap map)",
+   "stamina-fix confirmation in 13.430+ (G-0072)",
+   "'26 Feb Winter Reload' mid-season deltas",
+   "actual HD image harvest from the thread family (G-0041)"
   ]
  }
 }

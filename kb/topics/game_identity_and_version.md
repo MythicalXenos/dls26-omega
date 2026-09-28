@@ -191,3 +191,15 @@ Next resolution steps, in order: (1) Apple App Store listing `id1462911602` — 
 ### DLS26-C1 disposition
 
 Conflict **RESOLVED** for the current-version question: 13.430 is current, from a first-party dated record, corroborated in date by Google's listing and echoed in number by appbrain. Not resolved, and still open: (a) whether 13.420 was ever a real release (the only source for it is an incentivised page that contradicts itself on its date — treated as unconfirmed, NOT as proven false, per the two gap states); (b) the complete 2025–2026 version history; (c) which version the user's own device is on (Critical-volatility user state, unknown). Per the Evidence Hierarchy, the verified record outranks the user's recollection if the two ever differ, and both would be recorded with timestamps.
+
+## Addendum (turn 24): FIRST-PARTY VERSION HISTORY (Apple App Store + Google Play) (S-0098)
+**DLS26 patch timeline (store version history, first-party):**
+| Version | Date | Notes (verbatim gist) |
+|---|---|---|
+| 13.010 | 3 Dec 2025 | Bug Fixes (LAUNCH) |
+| 13.050 | 15 Jan 2026 | "All new Clans – Join and work towards prizes!" + commentary + cutscenes + gameplay improvements + bug fixes |
+| 13.330 | ~10 Jun 2026 | (apkmirror upload; mokoweb mod notes: Dream Stars 26, 12th Man Vote, clan upgrades) |
+| 13.410 | 20 Aug 2026 | Enhanced Match Atmosphere (props/banners/flags); **Kick-Off Stars – collect Raphinha + Alvarez special cards**; new soundtrack/SFX; commentary; cutscenes; gameplay improvements; bug fixes |
+| 13.430 | 16 Sep 2026 | "late summer update: **New Special Players – 'Cult Heroes' collection, coming soon!** Bug Fixes – dozens of issues sorted" |
+**KEY SYNCHRONICITIES:** the Cult Heroes patch (13.430) released **exactly on the event start date (16 Sep 2026)** — patch-drop = event-window start (a live-ops pattern). Google Play "Updated on Sep 14, 2026" carries the same Cult Heroes text (Play listing refreshed slightly before the iOS 13.430 date). **DLS25-era (12.250, 1 Aug 2025): "Buy a sold player back within a limited time" (buyback window mechanic!) + "New Special Coach Packs – develop your favourite players more easily" (paid coach IAP).** Version-gap map: 13.050→13.330 = ~5 months of unlisted minor versions (13.1xx/13.2xx/13.3xx patch notes not in the store feed).
+**Baseline-card delta culture (HD card threads, S-0097):** community threads per update ("DLS 26 HD Legendary Card Thread (Annual Update)" 1pd6ctt + "26 Feb Winter Reload" + Rare & Common sibling + DLS24/25 ancestors) catalogue base-legendary changes as retain/upgrade/downgrade + stat adjustments (e.g. launch batch: Raphinha 85, Wirtz new card, Álvarez +1, Maignan +2, Vini retain, Alisson -1, Foden retain/POSITION CHANGE, Ødegaard -1, Pacho +2, Kanté retain, Sørloth retain). These threads are the standing PATCH-RESPONSE surveillance source for base-card volatility. DLS24/25 threads show legend price bands ($1535 Konaté/Upamecano, $1715 Szoboszlai — coins) and the posting conventions.
