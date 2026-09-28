@@ -1844,11 +1844,43 @@
    "what": "Desailly 27093 sheet (Italian capture card): FRA Right 188cm 80kg b.1968-09-07; SPE800 ACC750 STA890 STR920 CON800 PAS800 SHO520 TAC900 GKR/GKH270 => display 80/75/89/92/80/80/52/90. V13430 rating 84 = matches capture. Badge 84|94. Version links: Classic Desailly 5710@87, Marcel Desailly 26836@85, 27093@84 - version chain page-traceable.",
    "files": [],
    "rev": "player_pool addendum (13c); third capture<->DB cross-validation"
+  },
+  {
+   "id": "S-0070",
+   "route": "web_search (depth 2)",
+   "url": "dlskiturl.com/dls-26-english-league-classics/ (page age Sun 6 Sep 2026) + youtube.com/watch?v=Y6apuVKHfNU (Berbatov ladder review, 20 Sep 2026)",
+   "what": "Current-ladder dating: English League Classics article aged 6 Sep 2026 + a 20 Sep 2026 Berbatov card-review video => the ladder went live ~early Sep 2026 (Italian +90d ~Jun 2; DROICER world-cup cycle ~Jun-Aug). G-0040 sharpened: 16 Sep -> 14 Oct = EXACTLY 28 days = the Cult Heroes event window; reading (A) 10/14 = event end and the ladder runs 90d (~Sep 6 -> Dec 5) vs reading (B) 10/14 = ladder end (a 38d cycle, breaks R-0010). Reading (A) now favoured by dating; decisive test = the live LADDER ENDS IN capture (~68d vs ~16d on Sep 28).",
+   "files": [],
+   "rev": "prize_ladder addendum (turn 14); G-0040 restructured to two-object question"
+  },
+  {
+   "id": "S-0071",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/team-of-2025",
+   "what": "Team of 2025 family (11, 271xx launch batch shared with Kick-off Stars): Kane 87 CF 27199, Dembele 87 RW/CF 27136, Donnarumma 87 GK 27128, Mbappe 87 CF/LW 27137, Pedro Gonzalez Lopez=PEDRI 87 CM/AM 27133, Hakimi 87 RB/RM 27129, Yamal 86 RW/LW 27138, Salah 86 RW/RM 27200, N.Mendes 85 LB/RB 27132, Vitinha 85 CM/DM 27134, Gabriel 85 CB 27131. Full-legal-name convention (cf. Francisco Alarcon/Isco).",
+   "files": [],
+   "rev": "player_pool addendum (turn 14)"
+  },
+  {
+   "id": "S-0072",
+   "route": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/champion",
+   "what": "Champion players family (12, DLS25 Champions event): Messi 88 CF/RW 25841, CR7 88 LW/CF 25842, Modric 86 CM/AM 25837, Di Maria 85 AM/RW 25845, Kante 85 DM/CM 26022, Messi 84 RW/SS 25847, Sanchez 84 25844, Vidal 84 25977, Di Maria 83 RW/LW 25846, Vardy 83 CF 25836, CR7 82 RM/RW 25849, Balotelli 82 25835. Graded-tier hero pool (same names at 2-3 rating tiers).",
+   "files": [],
+   "rev": "player_pool addendum (14b)"
+  },
+  {
+   "id": "S-0073",
+   "route": "fetch_page (p1)",
+   "url": "https://dreamkitsapp.com/players/type/star",
+   "what": "Star players family (9 pages ~135 cards): visible distinct cards Elliot Anderson 85 DM/CM 27832, McTominay 85 CM/DM 25987, Alex Baena 85 LM/AM 25989, Igor Thiago 84 CF 27483, Antonee Robinson 84 LB/RB 25985. SITE BUG: Elliot Anderson 27832 repeats in ~10 slots (dedupe by id).",
+   "files": [],
+   "rev": "player_pool addendum (14b); rendering-bug caveat recorded"
   }
  ],
  "frontier": {
-  "discovered_total": 225,
-  "visited_total": 69,
+  "discovered_total": 232,
+  "visited_total": 73,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2003,9 +2035,12 @@
    "Isco maxed collector card bigger fetch (confirm 94 max, G-0016)",
    "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
    "dreamkitsapp secret pages 3-18 sweep (full hidden-class map, G-0067)",
-   "dreamkitsapp family pages team-of-2025 / champion / star (rosters+IDs)",
    "dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203",
-   "dlsinside.com slug pages second-DB cross-check"
+   "dlsinside.com slug pages second-DB cross-check",
+   "dreamkitsapp star p2-9 + dynamic-stars p2-3 (dedupe by id; complete special inventory)",
+   "dreamkitsapp secret pages 3-18 (G-0067 leak reservoir)",
+   "dlsinside slug-page cross-check (tier promotion)",
+   "FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive"
   ]
  }
 }

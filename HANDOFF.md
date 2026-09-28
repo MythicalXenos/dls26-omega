@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 13 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 14 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch, `reset --soft` to the remote tip, re-commit, push, verify. Never push diverged; never force-push. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T03:40Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T04:40Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -53,14 +53,14 @@ None — NO OUTPUT DURING BOOTSTRAP is in force. Turn 1's only user-facing outpu
 
 Resume STATE_1 exactly at the position below. Do not restart, do not summarize, do not re-run completed fetches (check `logs/sources_visited.json` before each visit). Do not enter STATE_2 — the taxonomy gate in `logs/sweep_tracker.md` is unmet on all six dimensions, and Step 1 exhaustion has not been declared.
 
-Queue as of turn 13 (2026-09-28T03:35Z):
-1. **Turn-start history check first** (ISS-007 rule — six recurrences; per-file hash verify + lossless reset is mechanical).
-2. dreamkitsapp secret pages 3-18 sweep (complete the hidden-class map — leak reservoir, G-0067) + remaining families (team-of-2025 / champion / star) + ladder classic sheets (Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203).
-3. dlsinside.com/player/{slug}/{id} slug pages as second DB surface (tier-promotion cross-check).
-4. Bigger Isco maxed collector card + card renders (G-0016/0041).
-5. FTG socials sweep (TikTok/Facebook/Instagram) for ladder-announcement dating (G-0062) + GIIODROID FB leak archive (G-0063 — the TikTok leak is now VERIFIED ×3, treat the channel as high-value).
+Queue as of turn 14 (2026-09-28T04:35Z):
+1. **Turn-start history check first** (ISS-007 rule — seven recurrences; per-file hash verify + lossless reset is mechanical).
+2. FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB leak archive (G-0063 — verified-accuracy channel).
+3. dreamkitsapp secret pages 3-18 (G-0067 reservoir map) + ladder classic stat sheets (Crespo 27095 / Trezeguet 26837 / Souness 25089 / Cole 27096 / Essien 26838 / Petit 27203).
+4. dlsinside.com slug-page cross-check (tier promotion) + star/dynamic-stars p2+ (dedupe by id — site repeats slots).
+5. Bigger Isco maxed collector card + card renders (G-0016/0041).
 User-dependent queue, batched for first contact: **live "LADDER ENDS IN" timer + current ladder banner screenshot (settles G-0040's clock question and dates G-0062 — TOP ITEM)**; post-match reward photo (G-0055); the four challenge tabs (G-0056); ladder before/after claim screenshots (G-0049 mitigation); Cult Heroes agent-opening screen (G-0048); Dream Draft entry screen (G-0064); ADB/APK datamine start (STATE_2 gate, G-0054).
-State of the base at handoff: frontier 225 discovered / 69 visited / 156 unvisited; kb/evidence/ holds 11 files. **Turn 13: the special-card universe is fully enumerated** — 10 families with IDs (World Heroes 8 = iconic-moment year tags; World Winners 8 = tournament champions; Kick-off Stars = the cover pair Raphinha+Alvarez; Cult Heroes 12; Dynamic Stars ~45; Classic ladder pool 32 cards/21 players; **Secret class 18 pages = hidden classics + club-filler — the leak reservoir**). The S-0046 TikTok leak is VERIFIED ×3 (Classic Keane 87 / Classic Irwin 85 / Classic Robinson 76 all in the DB) — the leak channel is high-value for future ladder rosters. Capture↔DB fidelity triple-validated (Dybala/Berbatov/Desailly). Per-player sheets = exact V13430 internal stats. R-0009/0010/0011 on the register; Isco PAS 889/88 resolved. C-spam meta + counters and the full Clan model documented. Mod-APK risk in disputed_claims.md. DP resets between ladders; boost carryover OPEN (G-0044).
+State of the base at handoff: frontier 232 discovered / 73 visited / 159 unvisited; kb/evidence/ holds 11 files. **Turn 14: G-0040 restructured** — the current ladder (English League Classics) went live ~early Sep 2026 (article aged 6 Sep + review 20 Sep); 16 Sep→14 Oct = exactly 28 days = the Cult Heroes event window ⇒ reading (A) 10/14 = EVENT end and the ladder runs 90d (~Sep 6→Dec 5) is now favoured; the live LADDER ENDS IN capture decides (~68d vs ~16d on 28 Sep). All 10 special-card families visited (Team of 2025 = 271xx launch batch with Kick-off Stars; Champion = graded-tier hero pool; Star = 9pp w/ site dup bug — dedupe by id). Ladder chronology + classic inventory + per-player V13430 sheets as in turns 10-13. Leak channels verified (TikTok ×3: Keane 87/Irwin 85/Robinson 76 in the secret reservoir). R-0009/0010/0011 on the register. C-spam + Clan models documented. Mod-APK risk in disputed_claims.md. DP resets between ladders; boost carryover OPEN (G-0044).
 
 ## Disputed claims
 
