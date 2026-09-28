@@ -169,3 +169,10 @@ Both 185cm, 76kg, Left, DOB 22 Sep 1970. The May article [1998] and Aug article 
 (stats order = SPE/ACC/STA/STR/CON/PAS/SHO/TAC; Totals: 24596=669, 27201=669, 24595=640, 27204=637, 27202=639, 25100=638, 25092=612, 27094=648, 25091=621)
 **CORRECTION (S-0134):** S-0115 tagged the WC-Classic Season Pass Bergkamp (27202) as [1998] — the per-card page says **Classic 1994**. Per-card pages outrank article prose on year tags. (The May article's Petit [1998] likewise described 25090, not the ladder 27203.)
 **Legacy 58xx normal-echo block:** 5839 "classic-irwin" (85), 5842 Keane ("hidden record"), 5844 "Classic Cole" (84) — old-era normal-tier echoes of classics. "Devante Cole" normal/18894 (63) = a real separate player. Year stamps still open: Crespo 27095/25095, Desailly 27093, Gascoigne 24597/24598, Chiellini/Zola/Adams/Valderrama/Zenga/Suker/Mendieta/Souness/Trezeguet singles.
+
+## Addendum (turn 35): Crespo + Desailly version pairs (S-0137..S-0139)
+| Player | Versions (year / pos / OVR / id / sheet SPE/ACC/STA/STR/CON/PAS/SHO/TAC) |
+|---|---|
+| Crespo | **1998** CF 83 25095 (85/83/82/86/84/73/87/44) · **2001** CF 84 27095 (85/84/84/86/84/75/93/37) |
+| Desailly | **1994** DM 84 27093 (80/75/89/92/80/80/52/90) · **1998** CB 85 26836 (year from S-0115) |
+Normal-tier echoes continue: "Hernan Crespo" normal/4645 (71) — legacy 46xx block (with 58xx: Irwin 5839/Keane 5842/Classic Cole 5844). Year stamps still open: Gascoigne 24597/24598, Chiellini 25099, Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Souness 25089, Trezeguet 26837, Irwin 5839.

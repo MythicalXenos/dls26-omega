@@ -688,3 +688,11 @@ refs: S-0128..S-0135, kb/topics/classic_card_inventory.md, kb/topics/player_pool
 
 ## [2026-09-28T19:05Z] BLUFF CHECK — turn 34
 Complete every step planned? The per-player year-stamp batches ran (8 sheets persisted); remaining singles + secret pages + ISS-008 backfill staged by name. Skip anything silently? No. Incomplete-as-complete? No — S-0115's Bergkamp year recorded as a CORRECTION (not silently overwritten); which Batistuta version the Jan-2025 ladder offered stays open; G-0080 page located but not yet read (explicit). ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-28T20:05Z] RESEARCH — G-0080 second surface; Dynamic Stars = fixed non-coachable; version pairs for Crespo/Desailly
+session 1 turn 35 | state STATE_1_RESEARCH_SWEEP | topic: player-data / mechanics
+The Nico Williams dynamicstar/27509 page is the turn's jackpot: six display stats at 100 (their Total 727 confirms totals are display sums) and an explicit statement that Dynamic Star cards are FIXED and cannot be coached (G-0079 answered on two surfaces). The same page documents the whole family: per-nation representatives (40 claimed), base 82, boosts driven by national-team tournament runs, Spain bracket Belgium QF / France SF / Argentina 1-0 final, mid-tier-not-headliner selection pattern. Crespo 1998+2001 and Desailly 1994(DM)+1998(CB) version pairs landed with sheets — Desailly shows versions can differ in POSITION, not just year.
+refs: S-0136..S-0139, kb/topics/player_pool.md, kb/topics/classic_card_inventory.md, kb/gaps.md, G-0034, G-0079, G-0080
+
+## [2026-09-28T20:05Z] BLUFF CHECK — turn 35
+Complete every step planned? The G-0080 fetch + year-stamp batch ran and persisted; the rest staged by name. Skip anything silently? No. Incomplete-as-complete? No — the 40-vs-48 field question flagged rather than smoothed; the DS no-coaching claim recorded as two-surface (community + DB) with the user test still named as decisive; G-0080's internal-scale half kept open. ISS-009 procedure followed. Advice impact: none; tracker-only.

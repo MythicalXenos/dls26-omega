@@ -3389,11 +3389,79 @@
    "query": "",
    "summary": "Cole version B = 'Classic 1999' (25091, CF, 83): SPE 85 ACC 85 STA 83 STR 80 CON 83 PAS 76 SHO 89 TAC 40 (Total 621). 178cm, 81kg, Right, DOB 15 Oct 1971, max 93. Other Versions rail: 'Classic Cole' normal/5844 (84) = legacy 58xx normal-echo (with Irwin 5839 + Keane 5842), plus Devante Cole normal/18894 (63, real player).",
    "takeaway": "Cole pair = Classic 1994 (84) + Classic 1999 (83). Legacy 58xx block = old normal-tier classic echoes."
+  },
+  {
+   "id": "S-0136",
+   "timestamp_utc": "2026-09-28T19:30:00Z",
+   "session": 1,
+   "turn": 35,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/dynamicstar/nico-williams/27509/",
+   "resolved_url": "https://sakibpro.com/players/dynamicstar/nico-williams/27509/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "G-0080 DECISIVE SECOND SURFACE + G-0079 STATEMENT + full Dynamic Stars mechanics. Sheet: SPE 100 ACC 100 STA 100 STR 81 CON 100 PAS 100 SHO 100 TAC 46, Total 727 (computed on display integers). OVR 96 OFFICIAL, 'Dynamic Star 2026', 181cm, 67kg, Right, DOB 12 Jul 2002, Dynamic Star Agent. Mechanics prose: flagship World Cup promotion, one representative per participating nation (claims 40), fixed base 82, live-tournament boosts driven by the NATIONAL TEAM run (not individual), ratings froze after the WC. Selection pattern = mid-tier squad players not headliners (Nico over Yamal/Rodri, De Paul over Messi, Cunha for Brazil). Spain bracket: Belgium QF, France SF, Argentina 1-0 final -> 82 to 96 = promo ceiling. EXPLICIT: 'this is a fixed, non-upgradable card... cannot be upgraded further via coaching in DLS 26' (G-0079). Notes 87-88 special cards can be coached past 96 in practice. Other version: normal/18520 (80).",
+   "takeaway": "Display-100 confirmed on a second surface (six stats at 100; their Total = display sum). Dynamic Stars = NOT coachable (DB + community agree; user test remains the tie-break). Bracket detail + 40-nation promo claim recorded."
+  },
+  {
+   "id": "S-0137",
+   "timestamp_utc": "2026-09-28T19:30:00Z",
+   "session": 1,
+   "turn": 35,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/hern-n-crespo/27095/",
+   "resolved_url": "https://sakibpro.com/players/classic/hern-n-crespo/27095/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Crespo version A = 'Classic 2001' (27095, CF, 84): SPE 85 ACC 84 STA 84 STR 86 CON 84 PAS 75 SHO 93 TAC 37 (Total 628). 184cm, 78kg, Right, DOB 5 Jul 1975, max 94. Other Versions: 25095 + normal 'Hernan Crespo' 4645 (71, legacy 46xx echo).",
+   "takeaway": "Crespo pair = Classic 1998 (83) + Classic 2001 (84). Another legacy normal echo (4645)."
+  },
+  {
+   "id": "S-0138",
+   "timestamp_utc": "2026-09-28T19:30:00Z",
+   "session": 1,
+   "turn": 35,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/hern-n-crespo/25095/",
+   "resolved_url": "https://sakibpro.com/players/classic/hern-n-crespo/25095/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Crespo version B = 'Classic 1998' (25095, CF, 83): SPE 85 ACC 83 STA 82 STR 86 CON 84 PAS 73 SHO 87 TAC 44 (Total 624). Max 93.",
+   "takeaway": "Crespo 1998 = the lower twin; near-twin trade vs 2001 (+2 SHO +2 ACC +2 STA on the 2001)."
+  },
+  {
+   "id": "S-0139",
+   "timestamp_utc": "2026-09-28T19:30:00Z",
+   "session": 1,
+   "turn": 35,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/classic/marcel-desailly/27093/",
+   "resolved_url": "https://sakibpro.com/players/classic/marcel-desailly/27093/",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Desailly version B = 'Classic 1994' (27093, DM, 84): SPE 80 ACC 75 STA 89 STR 92 CON 80 PAS 80 SHO 52 TAC 90 (Total 638). 188cm, 80kg, Right, DOB 7 Sep 1968, max 94. Other Versions: 26836 (CB 85).",
+   "takeaway": "Desailly pair = Classic 1994 (DM 84) + Classic 1998 (CB 85) - versions differ in POSITION as well as year/OVR."
   }
  ],
  "frontier": {
-  "discovered_total": 388,
-  "visited_total": 134,
+  "discovered_total": 394,
+  "visited_total": 138,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -3613,8 +3681,11 @@
    "https://sakibpro.com/players/dynamicstar/nico-williams/27509/ - THE G-0080 card page (six stats at 100?)",
    "remaining classic year stamps: Crespo 27095/25095, Desailly 27093, Gascoigne 24597/24598, Chiellini 25099, Zola 25094, Adams 25093, Valderrama 26840, Zenga 25097, Suker 25096, Mendieta 25098, Irwin 5839, Souness 25089, Trezeguet 26837",
    "champion family block sweep (Messi 25841, C.Ronaldo 25842, Kante 26022) - Champion 26 cards + full sheets",
-   "legacy 58xx normal-echo block (5839 Irwin / 5842 Keane hidden / 5844 Classic Cole)"
+   "legacy 58xx normal-echo block (5839 Irwin / 5842 Keane hidden / 5844 Classic Cole)",
+   "dlsinside Nico Williams Dynamic Star internals (do they show 1000-scale values? settles G-0080 scale question)",
+   "the Dynamic Star 40-nation roster sweep (dynamicstar/ index or per-player pages 27508-27523+) - one rep per nation",
+   "Gascoigne 24597/24598 year stamps + remaining singles (Chiellini/Zola/Adams/Valderrama/Zenga/Suker/Mendieta/Souness/Trezeguet/Irwin)"
   ],
-  "unvisited_total": 254
+  "unvisited_total": 256
  }
 }
