@@ -592,3 +592,11 @@ refs: S-0092, S-0093, S-0094, kb/topics/classic_card_inventory.md, CAPABILITY_IN
 
 ## [2026-09-28T09:50Z] BLUFF CHECK — turn 22
 Complete every step planned? Ladder 6-sheets DONE (6/6 incl. turn-21 three); CAPABILITY_INVENTORY read DONE; champion sweep + secret pages + 1pd6ctt + ISS-008 backfill staged (named in tracker). Skip anything silently? No. Incomplete-as-complete? No — sheets labelled display-level; full 0-999 values explicitly still open. Advice impact: none; tracker-only.
+
+## [2026-09-28T10:25Z] RESEARCH — secret reservoir pages 3-4: class structure decoded
+session 1 turn 23 | state STATE_1_RESEARCH_SWEEP | topic: player-data / leak-reservoir
+The secret class is rating-sorted: hero-grade hidden cards (Irish quartet etc.) live in pages 1-2 [covered turn 13]; pages 3-18 are fictional filler stock (composite names, small nations, filler teams t258/t555 Ferrara/t528 Belem/t317 V-Arnhem/t504 Allstar XI). 30 rows captured (p/3 69-67, p/4 67-65). Also captured: dreamkitsapp's own notice that its displayed ratings/prices are COMPUTED from stats (derived values, labelled henceforth), and the site's nested-pagination URL bug. Pages 5-18 staged (low expected novelty).
+refs: S-0095, S-0096, kb/topics/player_pool.md
+
+## [2026-09-28T10:25Z] BLUFF CHECK — turn 23
+Complete every step planned? Two reservoir pages harvested + structure finding recorded; champion sweep + 1pd6ctt + ISS-008 backfill staged (named). Skip anything silently? No. Incomplete-as-complete? No — pages 5-18 explicitly staged as owed; dreamkitsapp ratings re-labelled derived per their notice. Advice impact: none; tracker-only.

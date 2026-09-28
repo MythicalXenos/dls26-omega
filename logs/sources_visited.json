@@ -2382,11 +2382,77 @@
     "secret pages 3-18 listing rows"
    ],
    "leads_consumed_from": "S-0091"
+  },
+  {
+   "id": "S-0095",
+   "timestamp_utc": "2026-09-28T10:25:00Z",
+   "session": 1,
+   "turn": 23,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dreamkitsapp.com/players/type/secret/p/3",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Secret class p/3 (15 rows, 69-67): Boutaib 69 CM (Ferrara 26058), Cunningham 69 RW Ireland (24117), Spolli 68 LB (Belem 10063), Dolly 68 CM (24177), Machin 68 CB (Ferrara 26054), Vasoski 68 CM (t395 8677), Paton 68 CM (24453), Al-Jassim 68 LB (9284), Pittman 68 RM (24455), Felhi 68 GK Chad (19998), Chase 67 CB (15503), Rosales 67 CB (14434), Lima 67 GK (15199), Bozenik 67 RM (t395 24083), Scotti 67 LM (Brescia 9254). Filler-team structure: t258/t555 Ferrara/t528 Belem/t317/t504/t395/t218/t267. Ratings-are-computed notice captured. Pagination URL bug noted.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/player_pool.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dreamkitsapp promotes its app/DB; site discloses its ratings are computed",
+    "outcome": "clean for extraction-grade row data; derived values labelled"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Row roster: listing-grade (names/ids/ratings/teams/positions). Ratings derived per site notice.",
+   "discovered_not_yet_visited": [
+    "secret pages 5-18 (filler stock, low novelty, staged)"
+   ],
+   "leads_consumed_from": "S-0068"
+  },
+  {
+   "id": "S-0096",
+   "timestamp_utc": "2026-09-28T10:25:00Z",
+   "session": 1,
+   "turn": 23,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dreamkitsapp.com/players/type/secret/p/4",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Secret class p/4 (15 rows, 67-65): N'Tamba 67 RW (Belem 9250), Aguilar 67 LM NL (Allstar XI 13352), Avelar 67 RB Wales (13342), Ya-Konan 67 CM (20004), Singh 66 GK Kazakhstan (9267), Niculae 66 RB (9260), Sanogo 66 CB (9194), Reid 66 LM Ireland (9679), Booth 66 LB (9645), Renteira 66 RB Bermuda (Ferrara 26056), Davids 66 CB Niger (V-Arnhem 9258), Njitap 66 LB NL (20010), Garrincha 66 RM Ivory Coast (t218 14569), Christie 65 CB (24449), Hazazi 65 RM Israel (9264). Fictional composite names + small nations confirmed as the filler pattern.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/player_pool.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "same site",
+    "outcome": "clean for row data"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Row roster: listing-grade. Class structure (heroes top, filler below) recorded.",
+   "discovered_not_yet_visited": [
+    "secret pages 5-18 (staged)"
+   ],
+   "leads_consumed_from": "S-0095"
   }
  ],
  "frontier": {
-  "discovered_total": 278,
-  "visited_total": 93,
+  "discovered_total": 281,
+  "visited_total": 95,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2572,7 +2638,8 @@
    "DLS26 out-of-position in-match behavior tests",
    "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
    "champion-id dlsinside sweep",
-   "secret pages 3-18 listing rows"
+   "secret pages 3-18 listing rows",
+   "secret pages 5-18 (filler stock, low novelty, staged)"
   ]
  }
 }
