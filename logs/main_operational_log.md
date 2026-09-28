@@ -680,3 +680,11 @@ refs: S-0122..S-0127, kb/topics/classic_card_inventory.md, kb/topics/player_pool
 
 ## [2026-09-28T18:05Z] BLUFF CHECK — turn 33
 Complete every step planned? The G-0086 probe + per-player test + the decisive year-stamp/tie-break fetches ran and persisted; the full per-player sweep is staged by name (tracker). Skip anything silently? No. Incomplete-as-complete? No — 26841 still labelled unidentified (characterized only); Matthaus A year stamp explicitly left open; the "World Heroes"/"Star players" mapping left fuzzy rather than forced. ISS-009 procedure followed (heredoc python, outputs verified, commit separate). Advice impact: none; tracker-only.
+
+## [2026-09-28T19:05Z] RESEARCH — year-stamp map for the classic twins; Bergkamp triple; Nico-96 URL
+session 1 turn 34 | state STATE_1_RESEARCH_SWEEP | topic: player-data
+Eight per-player pages resolved the year stamps of every major multi-version classic set: Matthaus 1990(DM)+1991(AM), Batistuta 1998+2001 (both two-footed), Bergkamp 1994(CF)+1998(SS)+2004(SS) — correcting the May article's [1998] tag on 27202 to Classic 1994 (per-card pages outrank article prose) — Rivaldo 1999(LW 86, matching dlsgame exactly)+2002(AM 85), Cole 1994+1999 with a legacy "Classic Cole" 5844 normal echo. The Rivaldo rail surfaced the canonical Nico Williams 96 page (dynamicstar/27509 — the G-0080 card) and a champion-family Cristiano Ronaldo 88; two distinct Messi cards (champion 88 + world-cup-heroes 87) show the families are parallel, not aliases.
+refs: S-0128..S-0135, kb/topics/classic_card_inventory.md, kb/topics/player_pool.md, kb/gaps.md, G-0080, G-0083
+
+## [2026-09-28T19:05Z] BLUFF CHECK — turn 34
+Complete every step planned? The per-player year-stamp batches ran (8 sheets persisted); remaining singles + secret pages + ISS-008 backfill staged by name. Skip anything silently? No. Incomplete-as-complete? No — S-0115's Bergkamp year recorded as a CORRECTION (not silently overwritten); which Batistuta version the Jan-2025 ladder offered stays open; G-0080 page located but not yet read (explicit). ISS-009 procedure followed. Advice impact: none; tracker-only.

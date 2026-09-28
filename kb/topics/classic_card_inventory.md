@@ -155,3 +155,17 @@ Both 185cm, 76kg, Left, DOB 22 Sep 1970. The May article [1998] and Aug article 
 **Per-card sheets this turn:** Cannavaro **Classic 2006** (26842): 81/82/88/89/80/80/53/95 (SPE/ACC/STA/STR/CON/PAS/SHO/TAC), Total 648, 176cm 75kg Right, DOB 13 Sep 1973, max 96. Matthaus B = **Classic 1991** (27201, AM): 81/81/91/81/82/84/85/84, Total 669, 177cm 78kg Right, DOB 21 Mar 1961, max 96 (matches dlsgame 1991 AM 86). Matthaus A (24596, DM 86) year stamp still open.
 **Record 26841 = HIDDEN/PLACEHOLDER record (G-0086 characterized, identity still open):** name blank, stats zeroed, weight 0 — but "Classic 2006", Spain, GK, 180cm, **Left**, OVR 86 OFFICIAL, max 96, Free Agent, Classic Agent. Same hidden class as Classic Keane 5842. Do NOT guess the identity.
 **Normal-tier echoes:** "Classic Petit" 6640 (82), "player" 25848 (82, = 26841's echo), Luis Suárez normal 17858 (78) — special cards have cheaper normal-tier twins (G-0016 evidence consolidated).
+
+## Addendum (turn 34): year-stamp map for the multi-version sets + 8 full sheets (S-0128..S-0135)
+**YEAR-STAMP MAP (per-card pages = ground truth; article prose loses to pages):**
+| Player | Versions (year / pos / OVR / id) |
+|---|---|
+| Matthaus | **1990** DM 86 24596 (82/83/91/82/81/83/82/85) · **1991** AM 86 27201 (81/81/91/81/82/84/85/84) |
+| Batistuta | **1998** CF 85 24595 (84/82/85/90/85/79/92/43) · **2001** CF 85 27204 (83/82/83/90/87/78/93/41) — BOTH two-footed |
+| Bergkamp | **1994** CF 85 27202 (81/81/83/83/92/83/90/46) · **1998** SS 85 25100 (80/80/83/83/92/84/85/51) · **2004** SS 82 25092 (75/74/80/81/90/82/81/49) |
+| Rivaldo | **1999** LW 86 27094 (86/84/84/82/92/88/90/42) · **2002** AM 85 26843 (year from S-0115) |
+| Cole | **1994** CF 84 27096 · **1999** CF 83 25091 (85/85/83/80/83/76/89/40) |
+| Petit | **1998** DM 84 25090 · **1999** DM 84 27203 |
+(stats order = SPE/ACC/STA/STR/CON/PAS/SHO/TAC; Totals: 24596=669, 27201=669, 24595=640, 27204=637, 27202=639, 25100=638, 25092=612, 27094=648, 25091=621)
+**CORRECTION (S-0134):** S-0115 tagged the WC-Classic Season Pass Bergkamp (27202) as [1998] — the per-card page says **Classic 1994**. Per-card pages outrank article prose on year tags. (The May article's Petit [1998] likewise described 25090, not the ladder 27203.)
+**Legacy 58xx normal-echo block:** 5839 "classic-irwin" (85), 5842 Keane ("hidden record"), 5844 "Classic Cole" (84) — old-era normal-tier echoes of classics. "Devante Cole" normal/18894 (63) = a real separate player. Year stamps still open: Crespo 27095/25095, Desailly 27093, Gascoigne 24597/24598, Chiellini/Zola/Adams/Valderrama/Zenga/Suker/Mendieta/Souness/Trezeguet singles.
