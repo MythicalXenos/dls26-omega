@@ -2146,11 +2146,145 @@
     "DLS26 out-of-position in-match behavior tests"
    ],
    "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0087",
+   "timestamp_utc": "2026-09-28T09:10:00Z",
+   "session": 1,
+   "turn": 21,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dreamkitsapp.com/dls26/player/25089 + /dls26/player/27095",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 404,
+   "outcome": "404",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Both per-player sheet requests 404 (Souness 25089, Crespo 27095) — coverage boundary of the per-player route confirmed (5842 404'd turn 16; 28327/27093 resolved). Failed attempts logged per schema 2.1.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md",
+    "logs/main_operational_log.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dreamkitsapp promotes its app",
+    "outcome": "route-capability fact only; no claim weighting"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Negative finding: route covers subset of ids; re-check on site change (not Frozen).",
+   "discovered_not_yet_visited": [],
+   "leads_consumed_from": "S-0078"
+  },
+  {
+   "id": "S-0088",
+   "timestamp_utc": "2026-09-28T09:10:00Z",
+   "session": 1,
+   "turn": 21,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dlsinside.com/player/graeme-souness/25089",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Classic collection sheet: Graeme Souness id 25089 — 85 CM/DM, Scotland, Right, 180cm, age 73 Retired; PAS 83 / CON 80 / STA 91. Version 160-13430; id cross-verifies the APK inventory 3/3; top-3 named attributes only on this surface.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside runs app ads",
+    "outcome": "incentive present; id+stat claims cross-checked against APK-derived inventory (independent) where available"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Display stats: cross-verified surface (2 DBs agree on ids/ratings). Full 0-999 values still open for these ids.",
+   "discovered_not_yet_visited": [
+    "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
+    "champion-id dlsinside sweep"
+   ],
+   "leads_consumed_from": "S-0077"
+  },
+  {
+   "id": "S-0089",
+   "timestamp_utc": "2026-09-28T09:10:00Z",
+   "session": 1,
+   "turn": 21,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dlsinside.com/player/hernan-crespo/27095",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Classic collection sheet: Hernan Crespo id 27095 — 84 CF, Argentina, Right, 184cm, age 51 Retired; SHO 93 / SPE 85 / ACC 84. Version 160-13430; id cross-verifies the APK inventory 3/3; top-3 named attributes only on this surface.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside runs app ads",
+    "outcome": "incentive present; id+stat claims cross-checked against APK-derived inventory (independent) where available"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Display stats: cross-verified surface (2 DBs agree on ids/ratings). Full 0-999 values still open for these ids.",
+   "discovered_not_yet_visited": [
+    "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
+    "champion-id dlsinside sweep"
+   ],
+   "leads_consumed_from": "S-0077"
+  },
+  {
+   "id": "S-0090",
+   "timestamp_utc": "2026-09-28T09:10:00Z",
+   "session": 1,
+   "turn": 21,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "page-render",
+   "tool": "fetch_page",
+   "url": "dlsinside.com/player/david-trezeguet/26837",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Classic collection sheet: David Trezeguet id 26837 — 85 CF, France, foot Both/Right (two-footed), 190cm, age 48 Retired; SHO 93 / SPE 86 / ACC 82. Version 160-13430; id cross-verifies the APK inventory 3/3; top-3 named attributes only on this surface.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/classic_card_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside runs app ads",
+    "outcome": "incentive present; id+stat claims cross-checked against APK-derived inventory (independent) where available"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Display stats: cross-verified surface (2 DBs agree on ids/ratings). Full 0-999 values still open for these ids.",
+   "discovered_not_yet_visited": [
+    "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
+    "champion-id dlsinside sweep"
+   ],
+   "leads_consumed_from": "S-0077"
   }
  ],
  "frontier": {
-  "discovered_total": 268,
-  "visited_total": 86,
+  "discovered_total": 274,
+  "visited_total": 90,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2333,7 +2467,9 @@
    "Season Point earn-rates per mode",
    "datamine assist parameters (G-0075)",
    "'shooting assistant' identity (G-0076)",
-   "DLS26 out-of-position in-match behavior tests"
+   "DLS26 out-of-position in-match behavior tests",
+   "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
+   "champion-id dlsinside sweep"
   ]
  }
 }

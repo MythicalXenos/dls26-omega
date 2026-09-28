@@ -571,3 +571,16 @@ refs: S-0085, S-0086, kb/topics/live_ops.md, kb/topics/gameplay_systems_inventor
 
 ## [2026-09-28T08:50Z] BLUFF CHECK — turn 20
 Complete every step planned? Both gate searches ran + persisted in full-schema entries; remaining queue items staged under ISS-008 (portion completed named). Skip anything silently? No. Incomplete-as-complete? No — guide numbers capped Speculative/G-0076; the FC27 noise explicitly discarded as different-game per never-assume-shared-mechanics. Advice impact: none delivered this turn; tracker-only per Mechanism 8.
+
+## [2026-09-28T09:20Z] NEGATIVE FINDING — dreamkitsapp per-player route coverage boundary
+session 1 turn 21 | state STATE_1_RESEARCH_SWEEP | topic: source-coverage
+Attempted dreamkitsapp.com/dls26/player/{id} for Souness 25089 and Crespo 27095: both 404 (as did Keane 5842 in turn 16), while 28327/27093-class ids resolved. The per-player route covers only a subset of ids (likely only ids with generated sheets). Established against game version 13.330/dreamkitsapp live, 2026-09-28. Remedy: dlsinside slug pages + family/listing rows are the surfaces for uncovered ids; re-check if dreamkitsapp expands sheet coverage (not Frozen — a site change reopens it).
+refs: S-0087, kb/topics/classic_card_inventory.md
+
+## [2026-09-28T09:20Z] RESEARCH — ladder classics second-surface harvest (3/6 done)
+session 1 turn 21 | state STATE_1_RESEARCH_SWEEP | topic: player-data
+Souness 25089 / Crespo 27095 / Trezeguet 26837 captured on dlsinside (Classic collection, display stats + ages + Retired status + Trezeguet two-footed). Ids cross-verify the APK inventory 3/3. OPERATIONAL_RULES.md confirmed still a stub (owed STATE_4 — not built early per PROMPT §13 Step 4).
+refs: S-0088, S-0089, S-0090
+
+## [2026-09-28T09:20Z] BLUFF CHECK — turn 21
+Complete every step planned? Authority-file read done (OPERATIONAL_RULES = stub, recorded; CAPABILITY_INVENTORY read pending — staged, named). Ladder-sheet harvest started (3/6; Cole/Essien/Petit remainder staged). Secret pages + 1pd6ctt staged. Skip anything silently? No. Incomplete-as-complete? No — sheets labelled display-level (top-3 named), 404 boundary logged as negative finding. Advice impact: none; tracker-only.

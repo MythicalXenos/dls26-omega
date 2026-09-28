@@ -49,3 +49,9 @@ Page 3:
 - **272xx batch:** Matthäus 87, Bergkamp 85 CF, Petit 85, Batistuta 85 — a 4-card round, unassigned.
 - **276xx:** Berbatov 85 (27675) — the current English League Classics Berbatov (freshest id).
 Unmapped to any known ladder: Matthäus ×2, Rivaldo ×2, Cannavaro, Zola, Chiellini, Zenga, Mendieta (+ some duplicates' second versions). Candidates for the three unknown DLS25 cycles and/or the MIDFIELD CLASSICS roster (name fits AM/DM-heavy set: Matthäus/Rivaldo/Mendieta/Pires/Valderrama) and/or future rounds (teaser guesses named Cannavaro + "Lothar"). Roy Keane/"Irvin" (S-0046 leak) NOT in the DB yet.
+
+## Addendum (turn 21): second-surface sheets — Souness/Crespo/Trezeguet (S-0088..90, dlsinside slug route)
+- **Graeme Souness (Classic) 25089** — 85, CM/DM, Scotland, Right, 180cm, age 73, Retired. Named stats: **PAS 83 / CON 80 / STA 91** (TAC in the 4-slot bar).
+- **Hernán Crespo (Classic) 27095** — 84, CF, Argentina, Right, 184cm, age 51, Retired. Named: **SHO 93 / SPE 85 / ACC 84**.
+- **David Trezeguet (Classic) 26837** — 85, CF, France, **foot "Both / Right" (two-footed)**, 190cm, age 48, Retired. Named: **SHO 93 / SPE 86 / ACC 82**.
+All stamped Version 160-13430, collection "Classic" — id cross-verified against the APK-roster-derived inventory (S-0051) on 3/3. Ages = real-life ages (Berbatov 45/Isco 34 pattern holds). dlsinside names top-3 attributes only; full 8-stat sheets for these ids are NOT available on dreamkitsapp's per-player route (see negative finding, turn 21) — listing rows + dlsinside remain the surfaces.
