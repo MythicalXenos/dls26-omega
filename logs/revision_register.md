@@ -81,3 +81,8 @@ not promoted: the gem PRICES of the tiers (25/35/125) stay at their R-0007 tiers
 - New evidence: S-0063 — dreamkitsapp player sheet (id 28327, version-stamped V160-13430 = current build) reads **PAS 889**. The same DB reproduced the Dybala capture's eight displayed stats to the unit (S-0060) and Berbatov's dlskiturl card reads (919/929/799/760), so its internal scale is a faithful extraction of game data (display = floor(value/10)).
 - Boundaries: resolution is third-party-extraction tier (Speculative-→-HC-eligible but lacking a second independent extraction of THIS card); a single hi-res capture of the Isco card display would promote it. Fidelity for Isco updated 7/8 → 8/8 (all fields now read, PAS via DB).
 - Side finding: header badges "84|94" (Isco) / "85|95" (Dybala, Berbatov) = base OVR | presumed maxed OVR (base+10); the community "+11" claim remains open (G-0016).
+
+## R-0012 (turn 15, 2026-09-28): specials maxed OVR = base + 10 → HIGH CONFIDENCE
+- Prior state: DB header badges ("85|95" Dybala/Berbatov, "84|94" Isco) hypothesised base|base+10 (Speculative); community "+11" claim floated separately.
+- New evidence: S-0076 — a maxed Daley Blind build capture (kb/evidence/daley_blind_maxed_2019_dm_build.jpg) showing rating 93 for the base-83 Cult Heroes Blind (28326) with a trained spread (STA/PAS/TAC 95), consistent with the three DB badges. Capture + DB badges = two independent surfaces with a checkable artifact ⇒ HC.
+- Boundaries: applies to the SPECIALS class (Cult Heroes/ladder classics and presumably all t258 specials). The community "+11" claim (S-0046, Rodri base cards) stays open for base cards (G-0016 residual). Version window: V13430.

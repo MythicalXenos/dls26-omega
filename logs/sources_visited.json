@@ -1876,11 +1876,37 @@
    "what": "Star players family (9 pages ~135 cards): visible distinct cards Elliot Anderson 85 DM/CM 27832, McTominay 85 CM/DM 25987, Alex Baena 85 LM/AM 25989, Igor Thiago 84 CF 27483, Antonee Robinson 84 LB/RB 25985. SITE BUG: Elliot Anderson 27832 repeats in ~10 slots (dedupe by id).",
    "files": [],
    "rev": "player_pool addendum (14b); rendering-bug caveat recorded"
+  },
+  {
+   "id": "S-0074",
+   "route": "web_search (depth 2)",
+   "url": "tiktok.com/discover/obb-dream-league-soccer-classic (page age Mon 7 Sep 2026)",
+   "what": "OFFICIAL FTG TikTok launch announcement captured: English League Classics 'now available', four stars, earn DP and sign (426 likes) + a DP-earning how-to video featuring Berbatov; community clip claiming Andy Cole as 'first Classic Player... to start the new ladder' => MILESTONE-MAPPING ANOMALY (Cole-first implies 62.5k node or hardcore day-1 grind; article list order is not proven to be milestone order); third clip = community event guide. Launch anchor 6-7 Sep 2026.",
+   "files": [],
+   "rev": "prize_ladder addendum (15); G-0070 opened; G-0062 dated"
+  },
+  {
+   "id": "S-0075",
+   "route": "web_search (depth 2)",
+   "url": "majordominates.com/dls-26-release-date/ + mokoweb.com/dls-26-mod-apk... + giiodroid youtube + sakib.pro",
+   "what": "(1) majordominates (4 Nov 2025): DLS26 release '31st November 2025' (intended end-of-Nov/early-Dec 2025) + GIIODROID APK-extraction leak of 'Adam, Souness, Cole' legends for the pre-launch round = leak channel's third verified prediction. (2) mokoweb 13.330 notes: '12th Man Vote' mechanic (community-voted 12th collection member - explains Vozinha 28658), Dream Stars 26, major clan upgrades, improved news system, Real-World Scenario Mode. (3) GIIODROID = real modder (giiodroid.com, modding since >=2021). (4) sakib.pro = save-editing/mod hub (Profile.dat hacks). IRISH LEGENDS hypothesis for the next round (teaser comment 'Ir*sh Legends' + TikTok Keane/Irwin leak + secret-class Irish quartet).",
+   "files": [],
+   "rev": "live_ops addendum (15); G-0063 track-record extended; Irish-legend prediction scored"
+  },
+  {
+   "id": "S-0076",
+   "route": "image_search (4 files; 3 read_file)",
+   "url": "reddit 1vtm4ty sidebar thumb + preview.redd.it 1st-cult-hero-isco-2017 + reddit 1pd6ctt 'dls 26 hd legendary card thread annual update' comment image + reddit daley-blind-dm-build",
+   "what": "(1) tiny thumb unusable. (2) retrieval mislabeled: content = the Dynamic Stars banner again (already in evidence), but the thread title dates Cult Heroes Isco = 2017 version. (3)+(4) SAME maxed Daley Blind render: SPE91 ACC91 STA95 STR82 CON91 PAS95 SHO70 TAC95, 180cm Left, BLIND NED CB 2019, rating badge 93 => G-0016 specials maxed = base+10 CAPTURE-CONFIRMED (83->93). Build-guidance culture exists (DM Build). Thread 1pd6ctt = curated HD card-art thread (G-0041 route).",
+   "files": [
+    "kb/evidence/daley_blind_maxed_2019_dm_build.jpg"
+   ],
+   "rev": "player_pool addendum (15); G-0016 resolved for specials; G-0041 route advanced"
   }
  ],
  "frontier": {
-  "discovered_total": 232,
-  "visited_total": 73,
+  "discovered_total": 238,
+  "visited_total": 76,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2032,7 +2058,6 @@
    "dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
    "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
    "dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-heroes|kickoff-stars|champion|star|secret|team-of-2025",
-   "Isco maxed collector card bigger fetch (confirm 94 max, G-0016)",
    "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
    "dreamkitsapp secret pages 3-18 sweep (full hidden-class map, G-0067)",
    "dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203",
@@ -2040,7 +2065,11 @@
    "dreamkitsapp star p2-9 + dynamic-stars p2-3 (dedupe by id; complete special inventory)",
    "dreamkitsapp secret pages 3-18 (G-0067 leak reservoir)",
    "dlsinside slug-page cross-check (tier promotion)",
-   "FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive"
+   "FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive",
+   "reddit 1pd6ctt 'dls 26 hd legendary card thread annual update' full thread (G-0041 hi-res card art harvest)",
+   "community build-guide threads per Cult Heroes card (DM Build etc.)",
+   "TikTok @dreamleaguesoccer.ftg archive sweep (ladder/event announcement dating, G-0062)",
+   "user capture: current ladder path with milestone labels (G-0070 + G-0040 decisive)"
   ]
  }
 }

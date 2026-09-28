@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 14 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 15 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch, `reset --soft` to the remote tip, re-commit, push, verify. Never push diverged; never force-push. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-28T04:40Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-28T05:40Z (approx; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -53,14 +53,14 @@ None — NO OUTPUT DURING BOOTSTRAP is in force. Turn 1's only user-facing outpu
 
 Resume STATE_1 exactly at the position below. Do not restart, do not summarize, do not re-run completed fetches (check `logs/sources_visited.json` before each visit). Do not enter STATE_2 — the taxonomy gate in `logs/sweep_tracker.md` is unmet on all six dimensions, and Step 1 exhaustion has not been declared.
 
-Queue as of turn 14 (2026-09-28T04:35Z):
-1. **Turn-start history check first** (ISS-007 rule — seven recurrences; per-file hash verify + lossless reset is mechanical).
-2. FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB leak archive (G-0063 — verified-accuracy channel).
-3. dreamkitsapp secret pages 3-18 (G-0067 reservoir map) + ladder classic stat sheets (Crespo 27095 / Trezeguet 26837 / Souness 25089 / Cole 27096 / Essien 26838 / Petit 27203).
-4. dlsinside.com slug-page cross-check (tier promotion) + star/dynamic-stars p2+ (dedupe by id — site repeats slots).
-5. Bigger Isco maxed collector card + card renders (G-0016/0041).
+Queue as of turn 15 (2026-09-28T05:35Z):
+1. **Turn-start history check first** (ISS-007 rule — eight recurrences; per-file hash verify + lossless reset is mechanical).
+2. reddit 1pd6ctt "dls 26 hd legendary card thread annual update" — hi-res card-art harvest (G-0041) + community build-guide threads (DM Build culture).
+3. Ladder classic stat sheets (Crespo 27095 / Trezeguet 26837 / Souness 25089 / Cole 27096 / Essien 26838 / Petit 27203) + secret pages 3-18 (G-0067 reservoir).
+4. dlsinside.com slug-page cross-check (tier promotion) + TikTok FTG archive sweep (G-0062) + GIIODROID site (G-0063).
+5. User ask consolidation (see below) — one photo resolves two gaps.
 User-dependent queue, batched for first contact: **live "LADDER ENDS IN" timer + current ladder banner screenshot (settles G-0040's clock question and dates G-0062 — TOP ITEM)**; post-match reward photo (G-0055); the four challenge tabs (G-0056); ladder before/after claim screenshots (G-0049 mitigation); Cult Heroes agent-opening screen (G-0048); Dream Draft entry screen (G-0064); ADB/APK datamine start (STATE_2 gate, G-0054).
-State of the base at handoff: frontier 232 discovered / 73 visited / 159 unvisited; kb/evidence/ holds 11 files. **Turn 14: G-0040 restructured** — the current ladder (English League Classics) went live ~early Sep 2026 (article aged 6 Sep + review 20 Sep); 16 Sep→14 Oct = exactly 28 days = the Cult Heroes event window ⇒ reading (A) 10/14 = EVENT end and the ladder runs 90d (~Sep 6→Dec 5) is now favoured; the live LADDER ENDS IN capture decides (~68d vs ~16d on 28 Sep). All 10 special-card families visited (Team of 2025 = 271xx launch batch with Kick-off Stars; Champion = graded-tier hero pool; Star = 9pp w/ site dup bug — dedupe by id). Ladder chronology + classic inventory + per-player V13430 sheets as in turns 10-13. Leak channels verified (TikTok ×3: Keane 87/Irwin 85/Robinson 76 in the secret reservoir). R-0009/0010/0011 on the register. C-spam + Clan models documented. Mod-APK risk in disputed_claims.md. DP resets between ladders; boost carryover OPEN (G-0044).
+State of the base at handoff: frontier 238 discovered / 76 visited / 162 unvisited; kb/evidence/ holds 12 files. **Turn 15: the current ladder is dated (official FTG TikTok: English League Classics live 6-7 Sep 2026 — G-0062 current-cycle answered; G-0040 reading A dominates: 10/14 = the 28-day Cult Heroes event end).** The "12th Man Vote" mechanic discovered (community-voted collection slot = Vozinha). GIIODROID's leak track record = 3 verified predictions (Oct-25 roster / Team of 2025 / Dynamic Stars); "Irish Legends" (Keane 87/Irwin 85/Robinson 76/Gallagher 82) predicted for the next round. **R-0012: specials maxed OVR = base + 10 (capture-confirmed via maxed Blind 83→93).** G-0070 open: milestone→player mapping unproven (Andy Cole claimed "first"). Prior base as in turns 10-14: ladder chronology, classic inventory (32/21), per-player V13430 sheets, 10-family taxonomy, C-spam + Clan models, mod-APK risk, R-0009/0010/0011/0012.
 
 ## Disputed claims
 
