@@ -563,3 +563,11 @@ refs: S-0083, S-0084, kb/topics/economy_currencies_and_iap.md, kb/topics/gamepla
 
 ## [2026-09-28T08:15Z] BLUFF CHECK — turn 19
 Complete every step planned? Both planned gate searches ran + persisted; slug sweep / authority-file reads / backfill staged under ISS-008 (portion completed grows; no silent narrowing — named as staged in the tracker). Skip anything silently? No. Incomplete-as-complete? No — Commercial-% left Disputed; Fanzone labelled mod-capped Speculative; position-locking marked partial (precedent only). Advice impact: none delivered; tracker-only per Mechanism 8.
+
+## [2026-09-28T08:50Z] RESEARCH — gate dim 3 opened (first-party Season Pass doc) + dim 5 remainder (assist map)
+session 1 turn 20 | state STATE_1_RESEARCH_SWEEP | topic: live-ops-seasons / controls
+The FTG support Season Pass article (first-party, v12200-era) established the architecture: free+premium tracks, Progress Bank (DLL XP, season-end payout), day-based tier locks, late-purchase retro-unlock. Community guides add the 400-point activation, ~1,095 free coins, 12-hourly tier unlocks, ~10-day seasons (G-0076 version-risk), and the full reward-feed matrix. The 90-day prize-ladder cycle is now corroborated on 3+ surfaces. The assist-toggle map (Auto Switch / Kick Assist / Cross Assist) is complete for the user's exact settings; the "kick-assist-off degrades CPU passing" anecdote (G-0075) is flagged as it directly bears on their configuration. FC27 result discarded as different-game noise.
+refs: S-0085, S-0086, kb/topics/live_ops.md, kb/topics/gameplay_systems_inventory.md, G-0075, G-0076
+
+## [2026-09-28T08:50Z] BLUFF CHECK — turn 20
+Complete every step planned? Both gate searches ran + persisted in full-schema entries; remaining queue items staged under ISS-008 (portion completed named). Skip anything silently? No. Incomplete-as-complete? No — guide numbers capped Speculative/G-0076; the FC27 noise explicitly discarded as different-game per never-assume-shared-mechanics. Advice impact: none delivered this turn; tracker-only per Mechanism 8.

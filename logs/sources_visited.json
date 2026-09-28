@@ -2076,11 +2076,81 @@
     "transfer-lock rules (G-0073)"
    ],
    "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0085",
+   "timestamp_utc": "2026-09-28T08:50:00Z",
+   "session": 1,
+   "turn": 20,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "web_search results: bluestacks.com dlsr-free-rewards-guide; gamedls.net/what-is-the-season-pass-in-dream-league-soccer/; support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass; reddit 1ercjvd how_to_access_these_rewards; timesaver.gg fc-27-season-pass (noise, different game)",
+   "resolved_url": "",
+   "domain": "bluestacks.com; gamedls.net; support.ftgames.com; reddit.com; timesaver.gg",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 season pass rewards tier progression points reset 10 day season end payout",
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY FTG support article: Season Pass = FREE + paid tracks; pass purchase unlocks Progress Bank (DLL XP -> currency paid at season end); tier locks by season DAY; late purchase retro-unlocks; Season Points from matches (varies by mode); applies from v12200. Community: activation at 400 Season Points; free track ~1,095 coins; 40 season points/day login; 12-hourly tier unlocks (r/ 2024); pass bought every season; seasons ~10 days; reward-feed matrix (daily/weekly/career challenges, daily scenarios 50c, DLL gems, prize ladder 90d cycle with coins/gems/CLASSIC PLAYERS - 90d now 3-surface corroborated). FC 27 timesaver.gg result discarded as different-game noise.",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/live_ops.md"
+   ],
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "bluestacks/gamedls = SEO guides (gamedls monetizes guides); support.ftgames.com = first-party; reddit = community; timesaver.gg = third-party FC27 monetization (discarded)",
+    "outcome": "first-party architecture adopted; guide numbers (400/1095/40/10-day) capped Speculative pending 13.x confirmation (G-0076); ladder-90d claim cross-corroborated across independent surfaces"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Season Pass architecture (tracks/progress bank/tier locks): High Confidence (first-party + 2 guides). 400-point activation + 10-day seasons: Speculative (guide-only, version-risk). Ladder 90d cycle: High Confidence (3 surfaces incl. APK strings).",
+   "discovered_not_yet_visited": [
+    "FTG support prize-ladder article (search)",
+    "13.x season pass current values (G-0076)",
+    "Season Point earn-rates per mode"
+   ],
+   "leads_consumed_from": "initial-seed"
+  },
+  {
+   "id": "S-0086",
+   "timestamp_utc": "2026-09-28T08:50:00Z",
+   "session": 1,
+   "turn": 20,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "web_search results: reddit 1chedv5 gameplay_controls_settings_explained; reddit mfr2qt are_these_settings_the_best; reddit 187xzdt what_do_kick_cross_assist_do; reddit 1fnc2nt what_does_kick_assist_do; uptodown.com dream-league-soccer-2023.en dls26 listing",
+   "resolved_url": "",
+   "domain": "reddit.com; uptodown.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 controls kick assist cross assist toggle settings what does each do manual passing",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "Full assist-toggle map (the user's exact three settings): Auto Switch (nearest-player auto-select; C-button manual), Kick Assist (CPU pass/shot magnetic targeting + power; High vs Low/Off throughball tradeoff; 'best off in current version' DLS24-era), Cross Assist (auto-cross on long-press in crossing zones; header meta with tall strikers; zone-limited). Community claims: kick-assist-off degrades CPU teammate passing (G-0075); lower assist 'helps in rigged matches' (superstition class). Uptodown DLS26 listing: button size, stick options, 'shooting assistant' naming (G-0076).",
+   "raw_archive_path": null,
+   "kb_paths_touched": [
+    "kb/topics/gameplay_systems_inventory.md"
+   ],
+   "deception_screen": {
+    "incentive": "none",
+    "detail": "reddit community + uptodown store listing (ads but factual listing copy)",
+    "outcome": "clean"
+   },
+   "conflicts_found": [],
+   "confidence_note": "Toggle behaviors: Community Consensus (4 threads). CPU-passing degradation claim: Speculative anecdote (G-0075). Cross-assist header meta: Community Consensus.",
+   "discovered_not_yet_visited": [
+    "datamine assist parameters (G-0075)",
+    "'shooting assistant' identity (G-0076)",
+    "DLS26 out-of-position in-match behavior tests"
+   ],
+   "leads_consumed_from": "initial-seed"
   }
  ],
  "frontier": {
-  "discovered_total": 260,
-  "visited_total": 84,
+  "discovered_total": 268,
+  "visited_total": 86,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -2257,7 +2327,13 @@
    "season pass points -> coins/gems conversion rates",
    "DLS26-specific out-of-position test evidence (current guides/videos)",
    "assist-toggle per-toggle behavior (Kick/Cross Assist)",
-   "transfer-lock rules (G-0073)"
+   "transfer-lock rules (G-0073)",
+   "FTG support prize-ladder article (search)",
+   "13.x season pass current values (G-0076)",
+   "Season Point earn-rates per mode",
+   "datamine assist parameters (G-0075)",
+   "'shooting assistant' identity (G-0076)",
+   "DLS26 out-of-position in-match behavior tests"
   ]
  }
 }
