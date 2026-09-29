@@ -6902,11 +6902,144 @@
    ],
    "raw_archive_path": null,
    "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0218",
+   "timestamp_utc": "2026-09-29T12:59:17Z",
+   "session": 1,
+   "turn": 52,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/price-calculator.php?ovr=85&pos=CF",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "tool-thirdparty",
+   "language": "en",
+   "payload_summary": "85 OVR CF = 2,785 coins (Forward grouping; Extrapolated; 0 DB matches).",
+   "summary": "Grid cell: CF column 85 = 2,785e. CF steps: 82->85 = 2,275->2,785 (+510 over 3 OVR, ~170/OVR); 85->86 = +185 (curve steepens toward the top).",
+   "takeaway": "CF curve shape emerging (concave-up near 86). Position premium at 85: CF 2,785 vs CB 2,375 = +410.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "tool site with ads",
+    "outcome": "extrapolated cell (formula output)"
+   },
+   "confidence_note": "grid sampling",
+   "conflicts_found": [],
+   "leads_consumed_from": "grid sampling lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0219",
+   "timestamp_utc": "2026-09-29T12:59:17Z",
+   "session": 1,
+   "turn": 52,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/price-calculator.php?ovr=86&pos=CB",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "tool-thirdparty",
+   "language": "en",
+   "payload_summary": "86 OVR CB = 2,520 coins (Defense grouping; Extrapolated; 0 DB matches).",
+   "summary": "Grid cell: CB column 86 = 2,520e. CB step 85->86 = +145 (vs CF +185) - defenders both cheaper AND slower-steepening.",
+   "takeaway": "Position premium at 86: CF 2,970 / CM 2,730 / CB 2,520 - CF over CB = +450.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "tool site with ads",
+    "outcome": "extrapolated cell"
+   },
+   "confidence_note": "grid sampling",
+   "conflicts_found": [],
+   "leads_consumed_from": "grid sampling lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0220",
+   "timestamp_utc": "2026-09-29T12:59:17Z",
+   "session": 1,
+   "turn": 52,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/price-calculator.php?ovr=82&pos=CF",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "tool-thirdparty",
+   "language": "en",
+   "payload_summary": "82 OVR CF = 2,275 coins (VERIFIED). Top matches: Marcus Thuram 82 CF (15672), Viktor Gyokeres 82 CF (18877), Cristiano Ronaldo 82 CF (id 25851), Cristiano Ronaldo 82 CF (id 382).",
+   "summary": "Grid cell 82CF = 2,275v. NEW RECORDS: C.Ronaldo has TWO 82 CF ids (25851 + 382) plus the known 25842 (88 champion) + 25849 (82) - the C.Ronaldo web parallels the Messi web (base 382 + champion-block vintages). TENSION: the Reddit secret-market datapoint (crossed ~2,555 for 'an 82 overall forward') does NOT reconcile with 82CF = 2,275 - either their '82' was an approximate display OVR (base OVR differs) or the position was SS/LW/RW.",
+   "takeaway": "C.Ronaldo web note (4+ ids). The market-displayed OVR vs base-OVR question (grid keys on base) is live - it matters for identifying secret players from discounted prices.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "tool site with ads",
+    "outcome": "verified cell; tension with the community datapoint explicitly recorded"
+   },
+   "confidence_note": "grid sampling (validation cell for the Reddit datapoint)",
+   "conflicts_found": [],
+   "leads_consumed_from": "grid sampling lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md",
+    "kb/topics/player_pool.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0221",
+   "timestamp_utc": "2026-09-29T12:59:17Z",
+   "session": 1,
+   "turn": 52,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit.com/r/DreamLeagueSoccer/comments/18obd02 (Dec 2023); reddit.com/r/DreamLeagueSoccer/comments/176ntor (Oct 2023); bluestacks free-rewards (new snippet); bluestacks beginner (re-read); dlsinside stadiums (snippet w/ metadata)",
+   "resolved_url": "",
+   "domain": "reddit.com; bluestacks.com; dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "dlsinside stadium upgrade costs coins levels capacity dream league soccer 2026",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "FACILITY ECONOMICS (DLS23-era community + DLS26-labeled evergreen): CURRENCY CONFLICT RESOLVED as a SPLIT - stadium STANDS cost COINS ('1,432 coins w/out roofs' per side stand maxed; 8 stands total = 4 sides + 4 corners; 7 maxed + 1 corner = 85,000 capacity; home-match bonus 48-52 coins at 85k+; roofs cost extra); facility LINES cost GEMS ('1,125 x 5 = 5,625 gems' full completion + ~10,000 coins; 'around 5K gems to upgrade everything'). bluestacks (DLS26-labeled): Stadium Commercials Level II = +13% coin bonus, Level III = +21%; 'starting 75 Gems on the Commercials upgrade'. dlsinside snippet adds metadata: Version 13420, Code 159, last update 2026-09-01 (capacities again, still NO cost numbers).",
+   "summary": "G-0074 currency conflict RESOLVED (plausibly): coins = stands, gems = facility lines (bluestacks' 'gems for stadium' = loose language for facilities). Facility cost TABLE: 1,125 gems/line x 5 lines (DLS23-era) + stand costs in coins. Numbers era-tainted (2023) - DLS26 confirmation via user screens still owed. Commercials bonus ladder (+13%/+21% at L2/L3) quantified.",
+   "takeaway": "The split-currency model reconciles the earlier bluestacks-vs-fandom conflict cleanly. 75-gem starting kit corroborates the sportsdunia figure (vs the 40-gem gamingonphone figure - conflict persists on the starting kit).",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "reddit anecdotes (2023-era, self-reported) + recycled evergreen guides",
+    "outcome": "numbers labelled era-tainted/unverified; structural findings (8-stand model, currency split) treated as high-confidence"
+   },
+   "confidence_note": "snippet mining succeeded for structure + costs even though dlsinside numbers stayed hidden",
+   "conflicts_found": [],
+   "leads_consumed_from": "facility snippet-mining lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "discovered_total": 431,
-  "visited_total": 216,
+  "discovered_total": 433,
+  "visited_total": 220,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -6960,7 +7093,7 @@
    "https://itunes.apple.com/lookup?id=1462911602&country=us",
    "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
    "https://sakibpro.com/players/trending.php (server-rendered Upcoming Players — may name real players incl. Cult Heroes)",
-   "price grid sampling via sakibpro URL params (WORK: ?ovr=&pos=) - have 86CF 2970v / 86CM 2730e / 85CB 2375v / Dickison 2375v; next cells: 85CF, 86CB, 85CM, 86GK, 82F (the Reddit 2555 datapoint)",
+   "price grid sampling (cells now: 86CF 2970v / 86CM 2730e / 86CB 2520e / 85CF 2785e / 85CB 2375v / 82CF 2275v) - next: GK column, 84CF, 85CM, SS/LW/RW at 82 (the 2,555 tension)",
    "https://sakibpro.com/players/compare.php",
    "sakibpro.com site JS to locate the player-database data endpoint",
    "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
@@ -7070,7 +7203,7 @@
    "DLS26-specific coaching yield verification (datamine coach tables / current guides)",
    "'Special' coach category behavior + cost curves",
    "facility compound return curves (gate dim-2)",
-   "facility cost tables datamine (G-0074)",
+   "facility costs DLS26 confirmation (DLS23-era known: 1,125 gems x 5 lines = 5,625 + stands ~1,432 coins each; currency split coins=stands/gems=lines) - USER SCREENS decisive; also commercials bonus ladder L4+",
    "Fanzone non-mod confirmation",
    "season pass points -> coins/gems conversion rates",
    "DLS26-specific out-of-position test evidence (current guides/videos)",
@@ -7103,7 +7236,6 @@
    "sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
    "Winter Reload 2027 timing (Feb pattern for watchlist)",
    "sakibpro per-player page sweep for the specials (typed URLs now known)",
-   "facility cost datamine (G-0074)",
    "in-game facility screens (user capture route)",
    "Recruitment Centre discount percentages",
    "https://sakibpro.com/players/classic/fabio-cannavaro/26842/ and the 33 sibling per-player Classic pages (year stamps + full sheets per card)",
@@ -7121,9 +7253,8 @@
    "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
    "price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; Rodri 86 = 2,725 DLS25; secret-market crossed prices ~2,555->2,355 for an 82 F) + user market screens for the full grid",
-   "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens",
-   "facility costs via SEARCH-SNIPPET MINING (dlsinside data is JS-layer - fetch_page cannot render it; the search engine can) + user facility screens remain decisive (G-0074)"
+   "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens"
   ],
-  "unvisited_total": 215
+  "unvisited_total": 213
  }
 }

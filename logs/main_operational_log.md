@@ -832,3 +832,12 @@ refs: S-0215..S-0217, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-003
 
 ## [2026-09-29T12:55Z] BLUFF CHECK — turn 51
 Complete every step planned? The three planned fetches ran (stadium page = honest negative on costs; two grid cells captured, one deconfounding + one validating). ISS-008 (b)(e)(f)(g) and the Ireland mystery remain staged (item 2). Skip anything silently? No. Incomplete-as-complete? No - the 86CM cell is labelled Extrapolated (their formula, 0 DB matches); the era-effect conclusion is stated as ~0-5 coins between TWO community/formula points, not a fitted regression; the stadium negative result is recorded as a renderer limitation with the routes left enumerated. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-29T13:00Z] RESEARCH — grid to 6 cells; facility currency split resolves the conflict; C.Ronaldo pair
+session 1 turn 52 | state STATE_1_RESEARCH_SWEEP | topic: G-0038 grid / G-0074 facility economics
+[Return gap: minutes — same-session run.]
+Three grid cells landed (85 CF 2,785e / 86 CB 2,520e / 82 CF 2,275v) with the curve shape emerging (CF steepens +185 into 86; defenders cheaper and flatter) and a NEW TENSION (the Reddit crossed-price 2,555 for 'an 82 forward' vs grid 82CF = 2,275 — display-OVR-vs-base question, relevant to secret identification). The facility snippet mining RESOLVED the coins-vs-gems conflict as a split (stands = coins, facility lines = gems: 1,125 x 5 = 5,625 full completion; 8-stand stadium model with the 85k/7+corner trick; Commercials +13%/+21% ladder) — numbers era-tainted, DLS26 screens still owed. The 82 CF cell also exposed TWO C.Ronaldo records (25851 + 382) — the C.Ronaldo web parallels the Messi web.
+refs: S-0218..S-0221, kb/topics/economy_currencies_and_iap.md, kb/topics/player_pool.md, kb/gaps.md, G-0038, G-0074
+
+## [2026-09-29T13:00Z] BLUFF CHECK — turn 52
+Complete every step planned? Item (1) ran: 3 of the 5 named grid cells (GK column + 85CM + SS/LW/RW deferred to next pass) + the facility snippet mining (the named priority) done; secret pages 6-17 remain optional. Item (2) (ISS-008 + Ireland) remains staged. Skip anything silently? No. Incomplete-as-complete? No - facility numbers labelled era-tainted (2023 anecdotes); the currency-split 'resolution' is stated as plausible with the bluestacks loose-language caveat; the 2,555 tension is recorded OPEN, not smoothed over; C.Ronaldo 25849-vs-25851 marked unresolved. ISS-009 procedure followed. Advice impact: none; tracker-only.

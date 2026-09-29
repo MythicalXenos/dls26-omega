@@ -228,3 +228,7 @@ route: datamine of transfer tables; user observation across rating thresholds.
 
 - **G-0038 (updated, turn 51):** grid sampling LIVE (URL params work). Cells: 86CF 2,970v / 86CM 2,730e / 85CB 2,375v (Dickison match). Era effect deconfounded (~0-5 coins); CF-over-CM premium +240 at 86. Next cells: 85CF, 86CB, 85CM, 86GK, 82F (vs the Reddit 2,555 datapoint).
 - **G-0074 (updated, turn 51):** dlsinside cost/capacity data is JS-layer - NOT in fetch_page renders (stadium pages = photos only; listing = gallery). Web route = search-snippet mining (engine renders the data) or user facility screens. Do NOT fetch more stadium pages expecting cost tables.
+
+- **G-0038 (updated, turn 52):** grid = 6 cells (86: CF 2970v/CM 2730e/CB 2520e; 85: CF 2785e/CB 2375v; 82: CF 2275v). Curve steepens toward 86; position premium 86: CF+450 vs CB. TENSION: Reddit 2,555-crossed "82 F" vs grid 82CF 2,275 — display-OVR-vs-base or SS/LW/RW; OPEN (matters for secret identification).
+- **G-0074 (updated, turn 52):** CURRENCY CONFLICT RESOLVED as a split — stands = coins (8-stand model, ~1,433 coins/side maxed DLS23, 85k cap at 7+corner, bonus 48-52 coins/match), facility lines = gems (1,125 x 5 = 5,625). Commercials ladder L2 +13% / L3 +21%. Numbers era-tainted; DLS26 user-screen confirmation owed. dlsinside numbers stayed hidden (JS-layer; snippet only gave capacities + metadata Code 159, updated 2026-09-01).
+- **C.Ronaldo web (turn 52):** 382 + 25842 + 25849 + 25851 (two 82 CF champion ids unresolved) — parallel to the Messi web.

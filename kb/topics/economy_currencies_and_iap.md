@@ -203,3 +203,18 @@ Origin: five in-game captures retrieved via image_search and read directly; thre
 - **VALIDATION:** their 85 CB = 2,375 **exactly matches our Dickison 85 CB = 2,375 anchor** (independent). Grid trustworthy at Verified cells; formula consistent so far at Extrapolated ones.
 - **Positional groupings:** Forward / Midfield / Defense / GK ("attackers cost more than defenders at equal OVR").
 - VVD market id = 27130 (adjacent to 27133 PEDRI — champion-block era ids noted).
+
+## Addendum (turn 52): grid growth + C.Ronaldo pair + FACILITY ECONOMICS (S-0218..0221)
+**Grid (all sakibpro; v = Verified, e = Extrapolated):**
+| OVR | CF (F) | CM (M) | CB (D) | GK |
+|---|---|---|---|---|
+| 86 | 2,970 v | 2,730 e | 2,520 e | ? |
+| 85 | 2,785 e | ? | 2,375 v | ? |
+| 82 | 2,275 v | ? | ? | ? |
+Curve notes: CF 82->85 = +510 (~170/OVR), 85->86 = +185 (steepening); CB 85->86 = +145. Position premium at 86: CF+450 over CB, +240 over CM; at 85: CF +410 over CB.
+**TENSION (open):** Reddit secret-market datapoint (crossed ~2,555 for "an 82 overall forward") does NOT match 82CF = 2,275 — either the market showed an approximate display OVR (grid keys on BASE OVR) or the position was SS/LW/RW. The market-displayed-OVR-vs-base question matters for identifying secret players from discounted prices.
+**FACILITY ECONOMICS (DLS23-era community + DLS26-labeled evergreen) — currency conflict RESOLVED as a split:**
+- **Stadium STANDS = COINS:** 8 stands (4 sides + 4 corners); side stand maxed w/out roofs ~1,432 coins (DLS23); roofs extra; **7 maxed + 1 corner un-upgraded = 85,000 capacity**; home-match stadium bonus **48-52 coins** at 85k+.
+- **Facility LINES = GEMS:** five lines at **1,125 gems each = 5,625 gems** full completion (+ ~10,000 coins for stands); "around 5K gems to upgrade everything".
+- **Stadium Commercials bonus ladder (DLS26-labeled):** Level II = **+13%** match-coin bonus; Level III = **+21%**; "starting 75 gems on Commercials" (bluestacks) — 75-gem starting kit corroborated (vs 40-gem conflict still open).
+- Numbers era-tainted (2023-era anecdotes); DLS26 confirmation via user facility screens still owed (G-0074).

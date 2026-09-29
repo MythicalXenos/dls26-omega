@@ -238,3 +238,6 @@ Page 18/18 (the floor): 15 entries sloping 48 -> 35 (Maor Tukar, Qatar CM/DM = t
 
 ## Addendum (turn 50): Robinson second pass — zero DLS-card evidence (S-0214)
 No web evidence ties EITHER name (Peter/Michael Robinson) to a DLS classic card. Michael Robinson fully documented (Michael John Robinson, b. 1958-07-12, striker, Liverpool 1983-85 treble season, Ireland 24/4, Osasuna, Spanish TV icon). The conflict reading note: the leak's internal list would distinguish P. vs M. Robinson by one letter — treat both as live; resolution needs datamine or ladder capture.
+
+## Addendum (turn 52): the C.Ronaldo web (S-0220)
+sakibpro's 82 CF cell exposed TWO C.Ronaldo records: **25851** and **382** (both 82 CF). C.Ronaldo web now: 382 (base/legacy 82 CF) + 25842 (champion 88) + 25849 (82) + 25851 (82) — champion-block vintages parallel the Messi web (25841 88 / 25847 84); two 82-rated champion ids (25849 + 25851) = distinct vintage or duplicate — unresolved. Also at 82 CF: Thuram 15672, Gyokeres 18877 (normal records with market prices).
