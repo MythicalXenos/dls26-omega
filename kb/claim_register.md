@@ -91,3 +91,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 44 | dlsinside independently corroborates seven price cells (86CF 2,970 / 85CM 2,555 / 84GK 1,950 / 82CB 1,950 / 83CB 2,085 / 82CM 2,085 / 81CF 2,115) | **high** — two independent operators agree to the coin | patch | S-0263/0264 |
 | 45 | Both price collisions are real system properties, two-source confirmed: 2,085 (83CB=82CM) and 1,950 (84GK=82CB); the crossed-price recipe cannot resolve them without the card's position group | **high** (two independent operators) | patch | S-0263/0264 |
 | 46 | dlsplayers.com publishes no player data (empty stubs) behind an APK-install funnel — not a usable source | high (direct observation) | static | S-0266 |
+
+### Claims promoted (turn 69)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 47 | 84CB 2,230 / 82GK 1,705 / 81GK 1,590 confirmed by a second independent operator | high (two operators agree) | patch | S-0267 |
+| 48 | sakibpro per-player rating attributions are stale by one rung for >=4 players (Rice, Rabiot, Ruben Dias, E.Martinez); its price ladder is unaffected | medium-high (systematic across 4 cases; direction of staleness assumed to be sakibpro's, not proven) | patch | S-0267 |
+| 49 | CONFLICT (unresolved): 83 GK = 1,825 (sakibpro, extrapolated) vs 2,085 (dlsinside, Maignan observed) | **low / OPEN** — treated as UNKNOWN until a third sample resolves it | patch | S-0267 |
