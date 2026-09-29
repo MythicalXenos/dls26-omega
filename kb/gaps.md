@@ -258,3 +258,9 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0070 (updated, turn 59):** ladder-four IDs = Essien 26838 (85 DM) / Cole 27096 (84 CF) / Petit 27203 (84 DM) / Berbatov 27675 (84 CF); recycling = new records for old names (ID proof).
 - **G-0086 (updated, turn 59):** the Classic batch map now complete around the hole: 26838 Essien / 26841 hidden ES GK / 26843 Rivaldo — 26842 remains the unseen slot between. Batch-ID law recorded (family clusters).
 - **Q-027 (updated):** community dump schema = theshinramen/DLS-Files playerData.json (stale 2023); sakibpro.com = roster-update extraction pipeline ("we extract when FTG updates game data") — their per-update adds list is the closest live proxy to a datamine feed.
+
+- **Q-018/G-0063 (updated, turn 60):** Peter Robinson = Liverpool CEO (NOT a player) — leak name anomalous; record 5833 likely = Michael Robinson (Irish). Irish trio explains 3/4 Ireland flags; 4th unidentified. Gallagher = active English player in the staging set = staging-set name oddity.
+- **G-0076 (updated, turn 60):** App Store confirms squad-size change: "unlimited special players" — the question now = when + what the old cap was (user screens of squad panel + update history).
+- **G-0074 (updated, turn 60):** App Store "upgraded club facilities" = DLS26 facilities refreshed; 2023 numbers even more suspect.
+- **Cult Heroes waves (turn 60):** family larger than the Sept-12 (July tweaks name Pickford/ter Stegen/Fermín/Pedro Gonçalves/Vivian) — roster census should include wave history.
+- **Q-027 (updated):** dlsinside version timeline (V13420/159) + CokeStudios screenshot-OCR gist = fetchable route leads; trungta database dead/JS.

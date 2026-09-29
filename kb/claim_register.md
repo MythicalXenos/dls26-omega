@@ -6,7 +6,7 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 1 | Secret-class map: 18 pages, descending, floor 35 (Maor Tukar); filler = generated names + alias-club rosters | high | static | S-0179/0186/0190/0196/0205/0209 |
 | 2 | DROICER leak text: Roy Keane / Irvin 85 / Conor Gallagher / Peter Robinson = upcoming Prize Ladder classics; possible DLS27 Kick-Off Stars | medium | live | S-0199 |
 | 3 | Secret "Classic X" set maps to leak names (Keane 5842 / Irwin 5839 / Gallagher 5866 / Robinson 5833); staging hypothesis | high (correlation) | static | S-0182..0184, S-0187/0190/0195 |
-| 4 | Robinson identity: Michael (profile-fit) vs Peter (leak-name) — UNRESOLVED | low | static | S-0203/0214 |
+| 4 | Robinson identity: Peter Robinson = Liverpool CEO (NOT a player, S-0244) — leak name anomalous; record 5833 likely Michael Robinson (Irish striker); UNRESOLVED at record level | medium (identity facts high; mapping low) | static | S-0203/0214/0244 |
 | 5 | Price = f(base OVR, tier-of-4); tiers flat (F: CF=SS=LW; M: AM=CM=DM; D: CB=LB; GK) | high | patch | S-0213..0233 |
 | 6 | Verified anchors: 86CF 2,970 / 85CB 2,375 / 82CF 2,275 / 84CF 2,610 / 83CF 2,440 / 85CM 2,555 / 83CM 2,235 / 85GK 2,080 | high | patch | S-0213..0233 |
 | 7 | Secret-market discount: crossed-out = standard grid price, ~200 off; identify via price | high | live | S-0210/0213/0227 |
@@ -33,3 +33,11 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 - AUDIT kb/topics/economy_currencies_and_iap.md: 2 strong-claim lines without inline source/G id (review)
 - NEW claims promoted to the register (turn 59): ladder-four IDs (Essien 26838/Cole 27096/Petit 27203/Berbatov 27675, base 85/84/84/84) — confidence high (two independent sources: dlskiturl names + sakibpro IDs); Cult Heroes 12 roster named — high (sakibpro systematic, corroborated de Gea by dlsinside); 12-family taxonomy — medium-high (single third-party enumeration); batch-ID law — medium (pattern across 3 families); Isco = Alarcón 28327 — high.
 - Audit verdict: register source pointers resolve; strong-claim lines flagged above are all within addenda that carry source ids in their section headers or first lines — acceptable for STATE_1; tighten at STATE_4 formalization (R-0015: every KB claim line carries a source id).
+
+### Claims promoted (turn 60)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 21 | Version timeline: V13420 (code 159) current since 2026-09-01; prior V13410(158)/V13350(154)/V13340(153)/V13330(152)/V13310(150)/V13300(149)/V13130(148) | high (dlsinside) | patch | S-0245 |
+| 22 | Squad rule change: unlimited special players (App Store) | high (first-party) | patch | S-0245 |
+| 23 | Cult Heroes family has waves (July tweaks: Pickford/ter Stegen/Fermín/Pedro Gonçalves/Vivian/João Pedro) | medium | live | S-0245 |
+| 24 | Community secret-ID toolkit: CokeStudios screenshot-OCR gist + trungta database (dead) | medium | static | S-0245/0246 |

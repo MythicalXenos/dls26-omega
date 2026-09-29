@@ -7697,11 +7697,73 @@
       "game_version": "DLS26 (roster update, Sept-2026)",
       "source_reliability": "sakibpro.com third-party; corroborates dlskiturl ladder-four (names) + dlsinside de Gea 28324 + Rivaldo 26843 batch; ID-level data systematic",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0244",
+      "url": "web_search: Peter Robinson identity (Independent/LFC/BBC/Guardian)",
+      "method": "web_search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:10:00Z",
+      "summary": "Peter Robinson (1935-2022) = LIVERPOOL FC's club secretary then chief executive (1965-2000) \u2014 'may not have worn a red shirt' (BBC) \u2014 the architect behind Shankly/Paisley/Dalglish eras; 29 major trophies. NOT A PLAYER. So the leak's 'Peter Robinson' as a prize-ladder PLAYER card is anomalous: either (a) the leak name is garbled/aliased and the staged record 5833 'Robinson' = Michael Robinson (English-born Irish striker, Liverpool/Brighton, Spanish TV legend, d. 2020 \u2014 the profile-fit candidate with IRELAND caps = the Ireland-flag thread), (b) FTG is adding non-player classics (unlikely for player cards), or (c) a lower-league 'Peter Robinson' player exists (unverified). The 4/4 Ireland-flag mystery: Keane (IE) + Irwin (IE) + Robinson (IE if Michael) are all Irish internationals; Gallagher = English (active player, Atl\u00e9tico) \u2014 the 4th Ireland-flagged record remains unidentified. Resolution route: datamine of record 5833 (Q-027).",
+      "entities": [
+        "Peter Robinson",
+        "Michael Robinson",
+        "Roy Keane",
+        "Denis Irwin",
+        "Conor Gallagher"
+      ],
+      "claims": [
+        "Peter Robinson = Liverpool CEO 1935-2022, NOT a player",
+        "leak name vs record identity conflict persists (Peter vs Michael Robinson)",
+        "Irish trio Keane/Irwin/(Michael)Robinson = the Ireland-flag thread"
+      ],
+      "game_version": "n/a (football history)",
+      "source_reliability": "high-quality obituaries (BBC/Guardian/LFC/Independent) \u2014 the identity fact is solid; the mapping to record 5833 is inference (flagged)",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0245",
+      "url": "web_search: datamine/database hunt (dlsinside list + fifaworldcupnews + App Store + reddit toolkit)",
+      "method": "web_search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:12:00Z",
+      "summary": "(1) dlsinside.com/players = the master LIST (server-rendered): Nico Williams 'NO TEAM DYNAMIC AGENT', de Paul 'NO TEAM DYNAMIC AGENT', generated-name sample in FIRST TOUCH UTD / DREAM FC ('Andrew Stevens', 'Andy Dunn', 'Phil Woodovic' = the generated clubs' rosters; 'NOT AVAILABLE'), and THE VERSION TIMELINE: current V13420 (code 159, last update 2026-09-01); prior V13410(158)/V13350(154)/V13340(153)/V13330(152)/V13310(150)/V13300(149)/V13130(148). (2) fifaworldcupnews update history: May-2026 = end-of-season rating tweaks; JULY-2026 = 'Cult Heroes tweaks: upgrades for Joao Pedro, Fermin Lopez, Jordan Pickford; downgrades ter Stegen, Pedro Goncalves, Dani Vivian' = Cult Heroes family LARGER than the Sept-12 (waves!); Aug-2026 = 2026/27 pre-season transfer sync. (3) App Store version notes: 'Increased squad size - NOW WITH UNLIMITED SPECIAL PLAYERS in your club' (G-0076 squad-rule CHANGE!), 'Improved Venues - upgraded club facilities', 'Clans - join and work towards prizes', Kick-Off Stars Raphinha+Alvarez confirmed. (4) reddit (Dec-2024): community toolkit = trungta-hust DLS database website ('all card info stats to price; reliable and up to date' per mods) + CokeStudios Python transfer-market-screenshot stat recognizer (gist) + community testimony 'now I can see what secret players are; got tricked for 79 rare guys for legendary ones' = the community's own secret-identification route (pairs with the user's market-screen ask).",
+      "entities": [
+        "Nico Williams",
+        "Joao Pedro",
+        "Fermin Lopez",
+        "Pickford",
+        "ter Stegen"
+      ],
+      "claims": [
+        "dlsinside version timeline: V13420(159) current since 2026-09-01",
+        "Cult Heroes family has waves (July tweaks name 6 more)",
+        "squad rule change: unlimited special players",
+        "community secret-ID toolkit exists (screenshot OCR + database)"
+      ],
+      "game_version": "DLS26 (mixed)",
+      "source_reliability": "dlsinside = high-quality third-party; fifaworldcupnews = SEO update-log (plausible); App Store = first-party; reddit = community",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0246",
+      "url": "https://trungta-hust-dls24.vercel.app/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:14:00Z",
+      "summary": "trungta-hust-dls24.vercel.app = JS-layer SPA shell only ('Flash Game Demo' placeholder \u2014 app content loads client-side or the app has been replaced/dead). The database referenced by the reddit toolkit (S-0245) is unreachable via static fetch. Noted as JS-layer/dead route; the CokeStudios gist (screenshot recognizer) remains the fetchable community tool lead.",
+      "entities": [],
+      "claims": [
+        "trungta database = JS-layer/dead via static fetch"
+      ],
+      "game_version": "n/a",
+      "source_reliability": "route test",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 482,
-    "visited_total": 242,
+    "discovered_total": 485,
+    "visited_total": 245,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
@@ -9583,13 +9645,13 @@
       },
       {
         "id": "Q-018",
-        "lead": "G-0063: Robinson identity (Michael vs Peter) + Ireland-flag mystery enumeration (4/4 Ireland-flagged)",
+        "lead": "G-0063: Robinson identity \u2014 Peter Robinson = Liverpool CEO (NOT a player, S-0244); staged record 5833 likely = Michael Robinson (Irish striker); 4th Ireland-flagged record unidentified; resolve via datamine (Q-027) or user screen of the staged set",
         "kind": "question",
         "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
         "related": [
           "G-0063"
         ],
-        "witness": "S-0203/0214"
+        "witness": "S-0244"
       },
       {
         "id": "Q-019",
@@ -9675,14 +9737,14 @@
       },
       {
         "id": "Q-027",
-        "lead": "fe.pak datamine acquisition: the game data file route (resolves Q-001/Q-002/Q-003 in one artifact; watch TOS/legality; user device or community dump)",
+        "lead": "fe.pak/datamine acquisition (Q-001/002/003 + 5833 identity + secret census): routes = community dumps (theshinramen schema, stale 2023), CokeStudios screenshot-OCR gist (fetchable), dlsinside version deltas (V13420/159 since 2026-09-01), user-side extraction",
         "kind": "question",
         "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
         "related": [
           "G-0082",
           "G-0086"
         ],
-        "witness": "S-0239"
+        "witness": "S-0239/0245"
       }
     ],
     "unvisited_total": 240

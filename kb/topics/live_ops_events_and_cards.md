@@ -82,3 +82,10 @@ Unanswered: whether seasons are calendar-bound or rolling; how season points acc
 - Cult Heroes = a distinct card family in the 12-type taxonomy; roster = 12 named records (see player_pool addendum) — the "boosted attributes" phase lifts base OVRs (de Gea base 79 -> CH 85; Aubameyang CH 85 CF).
 - Season Pass family = named cards too (João Pedro 28356 CF 82 = current).
 - World Winners = the Jul-2026 event family (App Store history) now confirmed as a distinct card type; Dreamstar 25/26 = two waves of the Dreamstar family.
+
+## Addendum (turn 60): update cadence + squad-rule change + community toolkit (S-0245)
+- **Update cadence (fifaworldcupnews + App Store):** May-2026 = end-of-season rating tweaks; Jul-2026 = Cult Heroes tweaks (Pickford/ter Stegen/Fermín/Pedro Gonçalves/Vivian/João Pedro) + World Heroes launch; Aug-2026 = 2026/27 pre-season transfer sync; Sep-2026 = Cult Heroes wave + English League Classics ladder (V13420/159, Sept-1).
+- **SQUAD RULE CHANGE (App Store, first-party):** "Increased squad size — now with **unlimited special players** in your club" — the specials-capped squad rule was LIFTED (G-0076 user question now includes WHEN this changed).
+- **"Improved Venues — upgraded club facilities"** (App Store) = the facilities-refresh hint (G-0074: DLS26 costs may differ from the 2023 numbers).
+- **Clans** = "join and work towards prizes" (new social/prize layer).
+- **Community toolkit (reddit Dec-2024):** trungta-hust database (dead/JS now) + **CokeStudios Python transfer-market-screenshot stat recognizer (gist)** + community secret-ID testimony ("now I can see what secret players are; got tricked for 79 rare guys for legendary ones") — the market-screen user ask has a ready-made community OCR tool.
