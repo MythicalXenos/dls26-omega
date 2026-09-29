@@ -227,3 +227,8 @@ All four carry the VERBATIM dreamkitsapp secret-player prose and the First-name-
 - **Ireland-flag mystery (all 4 records IRL-flagged despite Gallagher being English):** placeholder default vs genuinely Irish records — OPEN curiosity.
 - **Ghost slot 25848 (S-0201):** nameless, weight 0, DOB 1970-01-01, ALL STATS ZERO, no career rows, **V13110 rating = 83** — a wiped/placeholder secret shell that once carried 83. Ghost-slot pattern recorded.
 - **17858 = Colombian Luis Suarez (S-0202):** CF 7888 (78), Colombia, DOB 1997-12-02; internals 847/800/787/767/764/727/857/316 + 127/127. **Rating history V12250=72 -> V13130=77 -> V13430=78** = first clean multi-build growth datapoint. Career: S Lisbon t342 (DLS26) + Almeria t102 (DLS25) + Colombia t223. Variant: 27835 (83, t258). NOT a secret record.
+
+## Addendum (turn 47): Robinson identity conflict (Peter vs Michael) (S-0203)
+- Leak name "Peter Robinson" has NO prominent footballer match (Wikipedia: Peter Robinson b.1957 = English CB; b.1922 = English wing half — neither fits the record).
+- **Best profile fit = Michael Robinson (1958-2020):** Leicester-born, **Ireland international (24 caps, 4 goals), striker** (Preston, Man City, Brighton, **Liverpool 1983-84 treble**, QPR, Osasuna), later famous Spanish TV commentator ("El día después"). The secret record (Ireland, CF/AM 76) matches his profile exactly.
+- **CONFLICT UNRESOLVED:** name-fit (Peter, from the TikTok leak) vs profile-fit (Michael). Readings: (a) TikTok name garbled; (b) an unknown Peter Robinson exists; (c) record is a placeholder. Identity OPEN — leaning Michael on profile, Peter on name; both recorded. Resolution needs an authoritative card name (datamine or ladder capture).

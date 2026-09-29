@@ -4528,11 +4528,45 @@
    "query": "",
    "summary": "17858 = Luis Suarez the COLOMBIAN (not the Uruguayan): CF, 7888 (78), Colombia, Right, 181/83, DOB 1997-12-02. Internals 847/800/787/767/764/727/857/316 + 127/127 (display 84/80/78/76/76/72/85/31). RATING HISTORY: V12250=72 -> V13130=77 -> V13430=78 (multi-build growth). Career: DLS26 S Lisbon t342 CF + DLS25 Almeria t102 CF + Colombia t223 #25 CF. Other versions: Luis Suarez 27835 83 (t258).",
    "takeaway": "S-0073 'player 17858' = NORMAL roster record (Colombian Suarez). G-0083: FIRST clean multi-build rating-growth datapoint (72->77->78 across DB versions) - ratings are not frozen per DB export; players evolve. S Lisbon = Lisbon club alias (Sporting CP shape)."
+  },
+  {
+   "id": "S-0203",
+   "timestamp_utc": "2026-09-29T09:31:31Z",
+   "session": 1,
+   "turn": 47,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "en.wikipedia.org/wiki/Peter_Robinson_(footballer,_born_1957); en.wikipedia.org/wiki/Peter_Robinson_(footballer,_born_1922); reuters.com Michael Robinson obituary (2020)",
+   "resolved_url": "",
+   "domain": "en.wikipedia.org; reuters.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Peter Robinson footballer classic Ireland striker career",
+   "summary": "ROBINSON IDENTITY CONFLICT: Wikipedia has TWO Peter Robinson footballers - (b.1957) English CB (Burnley/Sparta Rotterdam/Blyth/Rochdale/Darlington, 1.85m) and (b.1922) English wing half (Man City/Chesterfield/Notts County). NEITHER fits the secret record (Ireland, CF/AM 76). BEST DATA-FIT is MICHAEL Robinson (1958-2020): Leicester-born, IRELAND international (24 caps, 4 goals), STRIKER for Preston/City/Brighton/Liverpool (1983-84 treble)/QPR/Osasuna; later famous Spanish TV commentator. Name-fit (Peter) vs profile-fit (Michael) conflict UNRESOLVED.",
+   "takeaway": "G-0063: the leak's 'Peter Robinson' cannot be matched to any prominent footballer by name; the secret record's profile (Ireland, CF/AM) matches MICHAEL Robinson exactly. Either the TikTok name is garbled ('Peter' vs 'Michael'), or an unknown Peter Robinson exists. Identity marked OPEN - leaning Michael on profile, Peter on name; both readings recorded."
+  },
+  {
+   "id": "S-0204",
+   "timestamp_utc": "2026-09-29T09:31:31Z",
+   "session": 1,
+   "turn": 47,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "gamedls.net Season Pass explainer (snippet, DLS25-era Aug 2025); bluestacks free-rewards guide (re-read snippet); gamingonphone beginners (snippet)",
+   "resolved_url": "",
+   "domain": "gamedls.net; bluestacks.com; gamingonphone.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 \"season pass\" \"season points\" progression bank 10-day rewards",
+   "summary": "Season Pass architecture (G-0084) dual-sourced: gamedls.net confirms FREE + PREMIUM/ELITE dual track (premium paid with gems or real money; rewards: large gems/coins, rare/legendary coaches, EXCLUSIVE player cards, boosters) + 'typically 10 days' season + 'usually 400 points' activation milestone = you must REACH 400 SP to ACTIVATE and claim the Progression Bank at season end or miss the payout. SP sources: daily login (40/day per bluestacks), Career matches, Dream League Live, Daily Challenges (gamingonphone). DLL gems = weekly leaderboard. Prize Ladder cycle 90 days (bluestacks re-echo).",
+   "takeaway": "G-0084: dual-track + bank-claim-gate architecture CONFIRMED across two independent sites (both recycled-evergreen provenance - numbers labelled unverified but dual-sourced; gamedls text is DLS25-era = mechanism survives into DLS26). G-0040: two-cycle structure stands (10-day pass / 90-day ladder claims)."
   }
  ],
  "frontier": {
-  "discovered_total": 415,
-  "visited_total": 201,
+  "discovered_total": 417,
+  "visited_total": 203,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -4592,7 +4626,7 @@
    "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
    "https://sakibpro.com/tools/ (Tools index — may list tools not linked from the home page)",
    "https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-pass/jo-o-pedro/28356/",
-   "the simulator's own JS — read the weighting/coefficient table it actually uses",
+   "the simulator's own JS weighting/coefficient table - bash curl BLOCKED (TLS 35, no direct web); fetch_page renderer strips script srcs; needs a known JS path or datamine source for per-stat coefficients (model known: 10%=+1 OVR, CON/SPE premium, GK 2.2/22)",
    "Wayback captures of sakibpro.com/players/trending.php and /players/simulator.html (test the dynamic-date question G-0022; detect silent price edits)",
    "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
    "FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-name Cult Heroes list from a first-party origin",
@@ -4668,7 +4702,7 @@
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
    "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
    "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) — uploads list is JS-rendered dead for fetch_page",
-   "DLS27 Kick-Off Stars concept + Gallagher/Peter Robinson leak verification (G-0063)",
+   "DLS27 Kick-Off Stars concept verification + Robinson name conflict resolution (leak \"Peter\" vs data-fit \"Michael Robinson\") (G-0063)",
    "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
    "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
    "dreamkitsapp /players (all-base-players DB) + /teams",
@@ -4747,7 +4781,7 @@
    "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
    "transfer-market price grid datapoints (Dickison 85 CB = 2,375 coins VERIFIED - one point on the price curve, G-0038)",
-   "Season Pass mechanics verify (bluestacks: 400 SP activation, 40 SP/day login, 10-day Progression Bank, free tiers = 1,095 coins) + the 90-day ladder cycle claim (third echo) vs FTG 10/14"
+   "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens"
   ],
   "unvisited_total": 214
  }
