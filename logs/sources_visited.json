@@ -8409,11 +8409,53 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields; four cards across three further families, all consistent",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0277",
+      "url": "search: DLS 26 Dream League Live ladder rewards Dream Points 250000 English League Classics event cost",
+      "method": "search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:52:00Z",
+      "summary": "**ZERO-NEW-FINDING SEARCH \u2014 recorded as a negative result, and the reason is a process failure on my part.** The search surfaced five sources (dlskiturl ELC page, bluestacks rewards guide, App Store listing, FTG official TikTok, an unrelated Dota-2 result), but on checking every substantive item against the knowledge base, **all of it was already recorded**: the DP milestones 62,500 / 115,000 / 175,000 / 250,000 (6 files), the 90-day Prize Ladder cycle (12 files), the Progression Bank with its 10-day season and up to 1,095 coins (10 files), the Fanzone facility (7 files), the Italian League Classics roster of Trezeguet / Batistuta / Crespo / Desailly (8-9 files), and the Dynamic Stars live-upgrade mechanic (already recorded at S-0103 AND already carrying a FIRST-PARTY source via the App Store version history for 13.310, 29 May 2026). I also checked whether the DLS Live > Career DP-per-match differential was new \u2014 it is already in the KB and already attributed to dlskiturl. **So the search added no facts and no tier upgrades.** The failure is the order of operations: I searched first and checked the frontier afterwards. The turn-65 lesson says consult the frontier BEFORE re-entering a domain; I had been applying that faithfully to the price-grid domain across turns 66-76 but did not apply it when entering the ladder/DP domain here. **Corrected rule: the frontier check is domain-wide and must precede the search, not follow it.** Salvage value only: the search re-surfaced the same facts from the same sources, which is weak corroboration of the existing entries and nothing more.",
+      "entities": [],
+      "claims": [
+        "no new findings - every item already recorded in the KB",
+        "the Dynamic Stars live-upgrade claim already has a first-party source (App Store version history 13.310 / 29 May 2026)",
+        "process: frontier check must PRECEDE the search and is domain-wide, not per-domain"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "zero new information; recorded for the negative result and the process lesson",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0278",
+      "url": "https://dlsinside.com/player/{francisco-alarcon/28327, pierre-emerick-aubameyang/28331, lorenzo-insigne/28328, hakim-ziyech/28332, nicolas-otamendi/28334, dimitar-berbatov/27675}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:55:00Z",
+      "summary": "Six more members of the 17-player roster probed, which also completes most of the Cult Heroes stat picture. All six are **Version 160-13430** and **none carries a coin price**, extending the no-price rule. **Francisco Alarcon 28327 (Cult Heroes) = 84 AM/CM, Spain, 176cm/34, Right foot, Passing 88 / Control 93 / Stamina 79 \u2014 this is Isco, and it answers the user's Q-016 with a full card.** Pierre-Emerick Aubameyang 28331 (Cult Heroes) 85 CF/RW, Gabon, 187cm/37, Shooting 94 / Speed 93 / Acceleration 92, evolution marker -97. Lorenzo Insigne 28328 (Cult Heroes) 84 LW/RW, Italy, 163cm/35, Shooting 87 / Speed 90 / Acceleration 94, evolution '- LW'. Hakim Ziyech 28332 (Cult Heroes) 84 RW/AM, Morocco, 180cm/33, **Left**, Shooting 83 / Speed 83 / Acceleration 85, evolution '- RW'. Nicolas Otamendi 28334 (Cult Heroes) 84 CB, Argentina, 183cm/38, Tackling 93 / Strength 89 / Speed 75, evolution -30. Dimitar Berbatov 27675 (Classic) 85 CF, Bulgaria, 189cm/45, **Retired**, Shooting 92 / Speed 79 / Acceleration 78, evolution -9. **NEW RATING CONTRADICTION: Berbatov is 85 on dlsinside but 84 on sakibpro's trending page** \u2014 the same one-rung drift already seen for Essien, Petit, Rice, Rabiot, Ruben Dias, E. Martinez, Courtois, Bellingham and Rudiger, now confirmed to reach the Classic family. Roster verification: **12 of the 17 are now confirmed present in V13430**; five remain unprobed (Luiz 28325, Blind 28326, Herrera 28329, Shaqiri 28330, Evora Dias 28658).",
+      "entities": [
+        "Isco",
+        "Pierre-Emerick Aubameyang",
+        "Lorenzo Insigne",
+        "Hakim Ziyech",
+        "Nicolas Otamendi",
+        "Dimitar Berbatov"
+      ],
+      "claims": [
+        "Alarcon 28327 = Isco, 84 AM/CM Cult Heroes, Control 93 / Passing 88 (answers Q-016)",
+        "Berbatov = 85 on dlsinside vs 84 on sakibpro (new contradiction; drift reaches the Classic family)",
+        "12 of 17 roster members confirmed present in V13430",
+        "all six carry no coin price"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 516,
-    "visited_total": 275,
+    "discovered_total": 518,
+    "visited_total": 277,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

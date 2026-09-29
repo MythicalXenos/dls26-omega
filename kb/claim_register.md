@@ -151,3 +151,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 72 | Special cards carry no coin price — now confirmed across six families (Classic, Cult Heroes, Season Pass, WC Heroes, WC Champions, Dynamic Stars), no counter-example; five families untested | high | static | S-0275/0276 |
 | 73 | Lamine Yamal 27845 and Paul Pogba 27846 are World Cup Champions, not World Cup Heroes (KB corrected); the 278xx range interleaves both World Cup families so id alone cannot separate them | high (direct page observation) | static | S-0276 |
 | 74 | Nico Williams 27509 = 96 OVR with SHO/SPE/ACC all 100 — Dynamic Stars ceiling confirmed on a second operator | high | patch | S-0276 |
+
+### Claims promoted (turn 77)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 75 | Alarcon 28327 = Isco, Cult Heroes 84 AM/CM, Control 93 / Passing 88, right-footed, 176cm — the card behind Q-016 | high | patch | S-0278 |
+| 76 | 12 of 17 roster members confirmed present in V13430 (code 160); five unprobed | high | patch | S-0275/0278 |
+| 77 | Rating drift reaches the Classic family: Berbatov = 85 (dlsinside) vs 84 (sakibpro) | high | patch | S-0278 |

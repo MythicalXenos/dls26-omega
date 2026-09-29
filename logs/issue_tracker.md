@@ -75,3 +75,7 @@ The recurring index/HEAD wipe struck **after** turn 75's writes had landed, rath
 **Why this matters:** the standing recovery (`git reset --hard <remote tip>`) would have discarded the turn's work entirely.
 **Correct recovery for this variant:** `git reset --mixed <remote tip>` — moves HEAD and the index, leaves the working tree untouched, so the completed writes reappear as ordinary modifications and commit normally. Verified on turn 75: the resulting diff was exactly the seven expected files, with no loss.
 **Standing rule added:** run `git status` BEFORE any reset. If files are untracked-but-present, use `--mixed`. Reserve `--hard` for the clean turn-start case where nothing has been written yet.
+
+### ISS-010 (new, 2026-09-29 turn 77): transient "repository not found" on fetch
+`git fetch origin` returned `fatal: repository 'https://github.com/MythicalXenos/dls26-omega.git/' not found`. The **immediate retry succeeded**, and `gh auth status` confirmed the token was healthy, so this was transient rather than deletion or revocation.
+**Handling:** retry once before treating it as real. If the retry also fails, check `gh auth status` and `gh repo view` before concluding the repository is gone. **Never** respond to a failed fetch by resetting or rewriting local state — the working tree is the source of truth and must be inspected first (see the ISS-007 mid-cycle variant).

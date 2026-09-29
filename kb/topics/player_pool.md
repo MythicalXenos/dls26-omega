@@ -329,3 +329,17 @@ Added to turn 75's Classic, Cult Heroes and Season Pass results, **the rule now 
 **FAMILY CORRECTION — the KB had two cards in the wrong family.** Lamine Yamal 27845 and Paul Pogba 27846 are both **World Cup Champions**, not World Cup Heroes as previously recorded. The consequence matters for the batch-id law: **the 278xx range contains both World Cup families interleaved**, so an id alone cannot tell them apart inside that range. The law still holds for gross family separation (Classic 268xx-276xx, Cult Heroes 283xx) but not for the two World Cup families.
 **Nico Williams confirms the Dynamic Stars ceiling: 96 OVR with Shooting 100, Speed 100 and Acceleration 100** — matching the earlier note that 27509 is the 2026 Dynamic Star ceiling card, now verified on a second operator.
 **Evolution markers** on special cards appear as short tokens mixing numbers and positions — Ronaldo "- 7 - 7 - 7 - RW - CF", Yamal "- 10 - 10", Nico Williams "- 10", Pogba "- 8". Ronaldo's is the informative one because it mixes both kinds, which suggests the tokens record upgrade steps alongside alternative positions. Still not interpretable.
+
+## Addendum (turn 77): six more roster cards, including Isco (S-0278)
+All six are Version 160-13430 and **none carries a coin price**, extending the no-price rule.
+| Card | ID | Family | OVR | Pos | Age | Foot | Key stats |
+|---|---|---|---|---|---|---|---|
+| Francisco Alarcon (**Isco**) | 28327 | Cult Heroes | 84 | AM/CM | 34 | Right | Passing 88 / **Control 93** / Stamina 79 |
+| P-E Aubameyang | 28331 | Cult Heroes | 85 | CF/RW | 37 | Right | Shooting 94 / Speed 93 / Acceleration 92 (evolution -97) |
+| Lorenzo Insigne | 28328 | Cult Heroes | 84 | LW/RW | 35 | Right | Shooting 87 / Speed 90 / **Acceleration 94** (evolution "- LW") |
+| Hakim Ziyech | 28332 | Cult Heroes | 84 | RW/AM | 33 | **Left** | Shooting 83 / Speed 83 / Acceleration 85 (evolution "- RW") |
+| Nicolas Otamendi | 28334 | Cult Heroes | 84 | CB | 38 | Right | Tackling 93 / Strength 89 / Speed 75 (evolution -30) |
+| Dimitar Berbatov | 27675 | Classic | **85** | CF | 45 | Right | Shooting 92 / Speed 79 / Acceleration 78 (evolution -9) |
+**Isco answered.** Francisco Alarcon 28327 is the Cult Heroes card for Isco: 84-rated AM/CM with Control 93 and Passing 88, right-footed, 176cm. This is the card behind the user's question Q-016.
+**NEW CONTRADICTION: Berbatov is 85 on dlsinside but 84 on sakibpro's trending page.** The one-rung drift now demonstrably reaches the Classic family, not just normal cards — the running list of drifted players is Rice, Rabiot, Ruben Dias, E. Martinez, Courtois, Bellingham, Rudiger, Essien, Petit and Berbatov.
+**Roster verification: 12 of the 17 are now confirmed present in V13430** (code 160). The five still unprobed are Luiz 28325, Blind 28326, Herrera 28329, Shaqiri 28330 and Evora Dias 28658.
