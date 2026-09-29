@@ -70,3 +70,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 35 | New verified price cells: 84CM = 84AM = 2,390; 83CB = 2,085; 82CM = 2,085; 84GK = 1,950 | medium — single third-party source (deception_register #2 cap); same source as the existing anchors, so the tier does NOT rise | patch | S-0255 |
 | 36 | Cross-group price collision: 83CB = 82CM = 2,085 — the crossed-price recipe is ambiguous at intersections | high (arithmetic on two verified cells) | patch | S-0255 |
 | 37 | The trending page's "Last Updated" field is a render date, not update provenance (advanced 2 days with identical content) | high (direct behavioural observation of the page) | static | S-0256 |
+
+### Claims promoted (turn 66)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 38 | Complete price matrix 81-86 x 4 groups (24 cells; 5 Extrapolated: 86CM/86CB/86GK/85CF/83GK) | medium — single third-party source (deception_register #2 cap); tier unchanged | patch | S-0255/0258 + S-0213..0233 |
+| 39 | Collision set for 81-86 is exactly two: 2,085 (82CM=83CB) and 1,950 (84GK=82CB); all other prices map to one cell | high (arithmetic over the fetched matrix) | patch | S-0258 |
+| 40 | An Extrapolated cell still displays named players (83GK) — the match list is formula output and cannot corroborate the price | high (direct page observation) | static | S-0258 |

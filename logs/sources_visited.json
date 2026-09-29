@@ -7988,11 +7988,36 @@
       "game_version": "DLS26",
       "source_reliability": "third-party site index (authority framing unverified)",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0258",
+      "url": "https://sakibpro.com/players/price-calculator.php?ovr={81,82,83,84}&pos={CB,GK,CF,CM} (8-cell collision-sweep batch)",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:10:00Z",
+      "summary": "COLLISION SWEEP \u2014 the 81-86 x 4-group price matrix is now COMPLETE (24 cells). New cells: **82CB = 1,950v** (Marquinhos 11519, Koulibaly 12375, Gvardiol 19396) \u00b7 **84CB = 2,230v** (Bastoni 16390, Saliba 17387, van Dijk 7307) \u00b7 **82GK = 1,705v** (Sommer 12197, Oblak 12336, Ederson 15227, Joan Garcia 19544, Kobel 19920) \u00b7 **83GK = 1,825e** (Emiliano Martinez 14124, Maignan 15467) \u00b7 **81CF = 2,115v** (Son 10074, Schick 14955, Leao 16348, Isak 17237, Firmino 7413) \u00b7 **81CM = 1,935v** (Rabiot 11114, Aleix Garcia 13739, Mac Allister 18243, Reijnders 18693, Marchisio 2463) \u00b7 **81CB = 1,815v** (Rudiger 12480, Ruben Dias 16288, Militao 16518, Guehi 18301, Cubarsi 24065) \u00b7 **81GK = 1,590v** (Diogo Costa 17212, Unai Simon 17474, Carnesecchi 9713). **SECOND COLLISION FOUND: 84GK = 82CB = 1,950** \u2014 so the full collision set for 81-86 is exactly two: **2,085 = 82CM = 83CB** and **1,950 = 84GK = 82CB**. Both are cross-group AND cross-OVR (the cheaper group at a higher rating). No other duplicates exist in the 24 cells. Group ordering is strict Forward > Midfield > Defense > GK at every OVR, with the inter-group gap WIDENING as OVR rises (M->D gap: 135 at 82 -> 210 at 86). **METHODOLOGICAL CATCH: 83GK is badged Extrapolated yet still lists two named players** \u2014 therefore the 'TOP N MATCHES' list does NOT corroborate a price when the badge reads Extrapolated; those names are merely being displayed at a formula-derived price. Any candidate-name evidence drawn from an Extrapolated cell is circular. **Interpolation check: my turn-65 arithmetic predicted 84CB = 2,230 by interpolation and the fetched value is exactly 2,230** (validates the interpolation method against their formula \u2014 not independent truth, same source).",
+      "entities": [
+        "van Dijk",
+        "Son",
+        "Oblak",
+        "Rudiger",
+        "Diogo Costa"
+      ],
+      "claims": [
+        "82CB = 1,950v; 84CB = 2,230v; 82GK = 1,705v; 83GK = 1,825e",
+        "81-row: CF 2,115 / CM 1,935 / CB 1,815 / GK 1,590 (all verified)",
+        "SECOND COLLISION: 84GK = 82CB = 1,950",
+        "collision set for 81-86 is exactly two: 2,085 and 1,950",
+        "Extrapolated cells can still list named players - the match list does not corroborate the price"
+      ],
+      "game_version": "DLS26 V13430",
+      "source_reliability": "sakibpro (deception_register #2 - Speculative cap); single source, tier unchanged",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 496,
-    "visited_total": 256,
+    "discovered_total": 497,
+    "visited_total": 257,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

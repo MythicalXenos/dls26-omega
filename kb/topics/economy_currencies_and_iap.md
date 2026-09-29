@@ -277,3 +277,22 @@ Curve notes: CF 82->85 = +510 (~170/OVR), 85->86 = +185 (steepening); CB 85->86 
 **THE 2,085 COLLISION (new and practically important):** **83 CB = 82 CM = 2,085** — two different ratings in two different positional groups resolve to the identical price. A crossed price of 2,085 is therefore AMBIGUOUS between an 83-rated defender and an 82-rated midfielder, and the crossed-price recipe (Q-007) cannot disambiguate on price alone; it needs the position group from the card. This is the first identified collision in the grid and it should be checked for others (the four ladders are close enough that more may exist).
 **Grouping confirmed as four ladders** with explicit labels Forward / Midfield / Defense / Goalkeeper; CM = AM at 84 extends the previously recorded midfield flatness (AM = CM = DM at 86) down to 84.
 **Tool quirk:** the query param must be `pos` — `position` is silently ignored and the request falls through to the Forward-group default (85 & position=CM returned 2,785, the Forward figure, mislabelled as the CM answer). Anyone re-running this route must use `pos`.
+
+## Addendum (turn 66): THE PRICE MATRIX IS COMPLETE (81-86 x 4 groups) + the full collision set (S-0258)
+**The complete matrix** (v = Verified badge, e = Extrapolated badge — same single source throughout, so the tier does not rise):
+| OVR | Forward | Midfield | Defense | Goalkeeper |
+|---|---|---|---|---|
+| 86 | **2,970** v | 2,730 e | 2,520 e | 2,220 e |
+| 85 | 2,785 e | **2,555** v | **2,375** v | **2,080** v |
+| 84 | **2,610** v | **2,390** v | **2,230** v | **1,950** v |
+| 83 | **2,440** v | **2,235** v | **2,085** v | 1,825 e |
+| 82 | **2,275** v | **2,085** v | **1,950** v | **1,705** v |
+| 81 | **2,115** v | **1,935** v | **1,815** v | **1,590** v |
+**THE COMPLETE COLLISION SET for 81-86 — exactly two, both cross-group and cross-OVR:**
+- **2,085 = 82 CM = 83 CB** (the cheaper group, one rating higher)
+- **1,950 = 84 GK = 82 CB** (the cheapest group, two ratings higher)
+No other value is duplicated anywhere in the 24 cells. For the crossed-price recipe (Q-007) these two prices are genuinely ambiguous and cannot be resolved without the position group printed on the card; every other price in the range maps to a single cell.
+**Structure:** the group ordering is strict at every rating — Forward > Midfield > Defense > Goalkeeper — and the inter-group gap WIDENS as the rating rises (Midfield-to-Defense gap: 135 at 82, 150 at 83, 160 at 84, 180 at 85, 210 at 86). Within a group the per-rating step also grows with rating (Forward: +160, +165, +170, +175, +185).
+**METHODOLOGICAL CATCH — Extrapolated cells still list named players.** The 83 GK cell is badged **Extrapolated** while displaying Emiliano Martinez and Maignan. So the "TOP N MATCHES" list is NOT corroboration of the price: on an Extrapolated cell those players are simply being shown at a formula-derived figure. **Any candidate-name reasoning built on an Extrapolated cell is circular** and must not be used as evidence for the secret-player recipe.
+**Interpolation check (self-validation, not independent truth):** turn 65 predicted 84 CB = 2,230 by interpolating between 83 CB (2,085) and 85 CB (2,375); the fetched value is exactly 2,230. The arithmetic tracks their formula — but since it is the same source, this validates internal consistency only.
+**New named IDs captured (normal base tier):** Marquinhos 11519 · Koulibaly 12375 · Gvardiol 19396 · Bastoni 16390 · Saliba 17387 · van Dijk 7307 · Sommer 12197 · Oblak 12336 · Ederson 15227 · Joan Garcia 19544 · Kobel 19920 · E.Martinez 14124 · Maignan 15467 · Son 10074 · Schick 14955 · Leao 16348 · Isak 17237 · Firmino 7413 · Rabiot 11114 · Aleix Garcia 13739 · Mac Allister 18243 · Reijnders 18693 · Marchisio 2463 · Rudiger 12480 · Ruben Dias 16288 · Militao 16518 · Guehi 18301 · Cubarsi 24065 · Diogo Costa 17212 · Unai Simon 17474 · Carnesecchi 9713.
