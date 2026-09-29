@@ -4392,11 +4392,79 @@
    "query": "\"dream league soccer 2026\" dream points shop exchange coins gems rate guide",
    "summary": "Economy haul: gem IAP tiers (sportsdunia, INR): Bundle 90g=199, Stack 400g=799, Locker 910g=1799, Sack 2700g=4999, Vault 6000g=9900. Season Pass: activation 400 Season Points; daily login = 40 SP/day; free tiers guarantee 1,095 Coins; Progression Bank = DLL-XP -> coins+gems paid at season end over a 10-DAY season period (bluestacks). Prize Ladder cycle = 90 DAYS (third echo of the 90-day claim vs FTG's 10/14). Starting kit conflict: 1200 coins + 40 gems (gamingonphone/footballeffect) vs 75 gems (sportsdunia). App Store IAP list now shows Special Offer $4.99, Cup of Coins $6.99, Promo Pack $9.99 in addition to the known ladder. Daily Scenarios 50 coins/day. DP-SHOP CONVERSION RATES: NOT on any web surface (clean search, no scam lures touched).",
    "takeaway": "G-0085: DP shop rates remain USER-SCREEN only (web route closed cleanly). G-0084 advances: Season Pass = 400 SP activation + 10-day Progression Bank cycle + 40 SP/day. G-0040: 90-day ladder claim gains a third echo (still vs FTG 10/14)."
+  },
+  {
+   "id": "S-0195",
+   "timestamp_utc": "2026-09-29T09:04:09Z",
+   "session": 1,
+   "turn": 45,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/5833",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Classic Robinson 5833 sheet: CF/AM, 7686 (76), IRELAND, Right, 182/81. Internals 833/865/562/613/883/474/782/459 + GKR 119/GKH 64 (display 83/86/56/61/88/47/78/45). V13430=76. Career: DLS25 Republic of Ireland t229 CF. Boilerplate secret-player prose. No Other-versions rail.",
+   "takeaway": "LEAK-NAME SET at full sheet level: all four (Keane 5842 CM/DM 87, Irwin 5839 LB 85, Gallagher 5866 CM/AM 82, Robinson 5833 CF/AM 76) are Ireland-flagged 'Classic X' records with DLS25 Rep. Ireland career rows - 4/4 Ireland = new pattern (58xx block may hold an Ireland classic/legends batch). Robinson identity NOT claimed."
+  },
+  {
+   "id": "S-0196",
+   "timestamp_utc": "2026-09-29T09:04:09Z",
+   "session": 1,
+   "turn": 45,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/secret/p/4",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Secret map page 4/18 (records 46-60): N'Tamba 67 (Angola/Belem t528), Aguilar 67 + Avelar 67 (Allstar XI t504), Rowen Ya Konan 67 (Madagascar/t258), Gouramangi Singh 66 (KAZAKHSTAN flag mash - real Indian name), Niculae 66, Pierre Sanogo 66, Joe Reid 66 (Ireland/t258), Katlego Booth 66, Felipe Renteira 66 (Bermuda/Ferrara t555 = id 26056 = SAME record on Ferrara's roster page), Kolo Davids 66 (Niger/V Arnhem t317), Chidi Njitap 66 (real Cameroonian name/NED flag), Matheus Garrincha 66 (Ivory Coast/t218 national team as club), Shaun Christie 65, Anmar Hazazi 65. Slope 67->65.",
+   "takeaway": "Filler shape CONFIRMED at page 4: generated names + wild flag scrambles + team mix (t258 free-agents, alias clubs, even a national team t218 as affiliation). KEY: generated-club rosters ARE the secret-class filler (Renteira 26056 cross-listed). Allstar XI t504 = another filler club."
+  },
+  {
+   "id": "S-0197",
+   "timestamp_utc": "2026-09-29T09:04:09Z",
+   "session": 1,
+   "turn": 45,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/team/555",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Team 555 = 'Ferrara (SPAL)' - the real Italian club SPAL under its CITY name. 4-4-2, 16 players, 5-star, Default Stadium. Squad p.1: Linganzi 72 GK (Eswatini flag!), Balbuena 71 (Curacao), Gunter 71 (WAL), Boutaib 69 (Madagascar - real player name), Dankerlui 69 (Suriname - real name), Machin 68 (Eq. Guinea), Renteira 66 (Bermuda), HANCKO 63 CF (real Slovak LB name, position scrambled!), Krygard 63 (Faroe), Possignolo 60 (SVG). Roster = real-player-name mixers with scrambled nationality/position.",
+   "takeaway": "GENERATED-TEAM QUESTION RESOLVED: 'generated teams' = REAL CLUBS under aliased city names (Ferrara=SPAL; V Arnhem=Vitesse Arnhem; Belem likely Belenenses) fielding generated/scrambled-name rosters - the unlicensed-club workaround. Not invented clubs."
+  },
+  {
+   "id": "S-0198",
+   "timestamp_utc": "2026-09-29T09:04:09Z",
+   "session": 1,
+   "turn": 45,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "https://sakibpro.com/players/simulator.html (full fetch)",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "SAKIBPRO coaching simulator page (high-quality third-party model; claims 'official hidden weighting system'/'mathematically identical to live transfer market' - treat as unverified claims but consistent with our recovered coaching model). HARD NUMBERS: coach GEM prices - Fitness (SPE/ACC/STA/STR) Common 25 / Rare 75 / Legend 225; Technical (CON/PAS/SHO/TAC) same 25/75/225; SPECIAL (all stats) 90/240/400; Goalkeeping (GKR/GKH) 15/40/150. Development weight: 100% total; EVERY 10% WEIGHT = +1 OVR; max +10. Per-stat weights DIVERGE (CON/SPE cost more capacity than STA). GK: classic points system - 2.2 visual points per +1 OVR, 22-point cap (=10 OVR). FACILITY DISCOUNT ladder: 0/5/10/15/20/30% off coaching. Coach application = pick 1 of 3 attributes +2, discard & reshuffle; 'coaches wasted' cost tracker implies random-stat waste.",
+   "takeaway": "G-0082/83: the weighting MODEL essentials are now known (10%-per-OVR, GK 2.2/22, CON/SPE premium) though the per-stat numeric coefficients live in the tool's JS (not in rendered text - the JS-file lead narrows to their asset). G-0085-adjacent: coach costs are GEM-denominated with a 6-tier price grid. Facility upgrade benefit quantified: coaching discounts to 30%."
   }
  ],
  "frontier": {
-  "discovered_total": 409,
-  "visited_total": 193,
+  "discovered_total": 412,
+  "visited_total": 197,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -4612,9 +4680,8 @@
    "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
    "transfer-market price grid datapoints (Dickison 85 CB = 2,375 coins VERIFIED - one point on the price curve, G-0038)",
-   "Classic Robinson 5833 page + generated-team rosters (Ferrara t555 / V Arnhem t317 / Belem t528 / Brescia t267 / Montenegro t395) - what are these teams?",
    "Season Pass mechanics verify (bluestacks: 400 SP activation, 40 SP/day login, 10-day Progression Bank, free tiers = 1,095 coins) + the 90-day ladder cycle claim (third echo) vs FTG 10/14"
   ],
-  "unvisited_total": 216
+  "unvisited_total": 215
  }
 }
