@@ -235,3 +235,6 @@ All four carry the VERBATIM dreamkitsapp secret-player prose and the First-name-
 
 ## Addendum (turn 49): secret map FLOOR + structure complete (S-0209)
 Page 18/18 (the floor): 15 entries sloping 48 -> 35 (Maor Tukar, Qatar CM/DM = the lowest record). Real-name mixers persist at the floor (Lindpere, Jodlowiec, Dikgacoi, Masato Abe id 884). **Secret map structure COMPLETE:** 18 pages x ~15 records, descending OVR sort, floor 35; pages 1-5 + 18 sampled; shape uniform (generated names + flag scrambles + alias-club rosters + national-team-as-club + occasional real-name mixers). Pages 6-17 = filler sampling only.
+
+## Addendum (turn 50): Robinson second pass — zero DLS-card evidence (S-0214)
+No web evidence ties EITHER name (Peter/Michael Robinson) to a DLS classic card. Michael Robinson fully documented (Michael John Robinson, b. 1958-07-12, striker, Liverpool 1983-85 treble season, Ireland 24/4, Osasuna, Spanish TV icon). The conflict reading note: the leak's internal list would distinguish P. vs M. Robinson by one letter — treat both as live; resolution needs datamine or ladder capture.

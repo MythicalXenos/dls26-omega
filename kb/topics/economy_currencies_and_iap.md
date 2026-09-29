@@ -185,3 +185,10 @@ Origin: five in-game captures retrieved via image_search and read directly; thre
 - **Secret-market mechanic (NEW):** secret-class players can appear IN THE LIVE TRANSFER MARKET at a discount — crossed-out base price ~2,555 -> 2,355 paid (~200 reduction) for an 82 OVR forward. The crossed-out prices are effectively the base-price table made visible; "can be off by 2 or 3 coins" (community precision note).
 - **Special cards have NO market price** (sakibpro squad-builder): Champion / World-Cup-Heroes / Dreamstars obtainable only via special agents, events, season passes — coin value nullified in budget tools. Confirms: specials are agent/event/DP-side, not coin-side.
 - Community budget heuristic: "at least 10,000 coins to buy a player and still save money" (top-end market prices).
+
+## Addendum (turn 50): THE PRICE FORMULA + verified anchor 86 CF = 2,970 (S-0213)
+- **Formula (sakibpro price calculator):** price = f(**Base OVR**, **exact position**) — "attackers generally cost more than defenders with the exact same rating." Positions: CF LW RW SS AM CM DM LM RM LB RWB CB RB GK (14).
+- **VERIFIED anchor: 86 OVR CF = 2,970 coins** ("Verified Data" badge = manually confirmed in the live transfer market): Kane 86 CF, Mbappe 86 CF, Dembele 86 CF, Haaland 86 CF all = 2,970. Alongside Dickison 85 CB = 2,375 (our verified anchor) this implies a STRONG position premium (CF >> CB at equal OVR).
+- **Verified vs Extrapolated discipline:** verified = live-market-confirmed; extrapolated = their claimed "exact mathematical pricing formula" (formula itself not exposed on the page).
+- **Secret-player discount mechanic CONFIRMED (second surface):** secret market offers at a slight discount to standard price; knowing the standard grid lets you identify the hidden player from the discounted price ("you can easily guess who the secret player might be"). Matches the Reddit crossed-out-price observation.
+- Tension to resolve: Rodri 86 = 2,725 (DLS25, CM) vs Kane 86 = 2,970 (DLS26, CF) — era + position effects are confounded; needs an 86 CM datapoint on DLS26.

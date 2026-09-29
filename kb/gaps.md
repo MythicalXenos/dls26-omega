@@ -221,3 +221,7 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0074 (updated, turn 49):** dlsinside.com/stadiums advertises per-stadium MAX CAPACITIES + UPGRADE COSTS (Version 13420; capacities visible in snippet: Anfield 52,760, Old Trafford 82,043, etc.) - prime fetch target; cost columns not yet read.
 - **G-0067 (updated, turn 49):** secret map structure COMPLETE (floor 35 at Maor Tukar; 18 pages; descending sort; pages 6-17 = filler sampling only).
 - **Datamine artifact closed (turn 49):** theshinramen/DLS-Files = STALE (last commit 2023-06-30, DLS22/23-era card-creator assets) - not useful for DLS26 internals; no fresh fe.pak dump located on the web.
+
+- **G-0038 (updated, turn 50):** FORMULA = f(Base OVR, exact position) (sakibpro). VERIFIED anchor 86 CF = 2,970 (four 86 CFs identical). Position premium strong (86 CF 2,970 vs 85 CB 2,375). Secret discount confirmed twice. Open: 86 CM datapoint (to deconfound the Rodri-2725 tension), grid sampling via calculator URL params or user screens.
+- **G-0074 (updated, turn 50):** dlsinside stadiums listing = gallery only; cost columns live on per-stadium pages (dlsinside.com/stadium/<slug>) - fetch target refined.
+- **G-0063 (updated, turn 50):** Robinson second pass = zero DLS-card evidence for either name; conflict unchanged (Peter name-fit vs Michael profile-fit).

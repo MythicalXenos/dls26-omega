@@ -814,3 +814,12 @@ refs: S-0208..S-0211, kb/topics/economy_currencies_and_iap.md, kb/topics/player_
 
 ## [2026-09-29T09:45Z] BLUFF CHECK — turn 49
 Complete every step planned? Item (1): shinramen fetch ran (closed at low value - not skipped, ANSWERED); secret map sampling completed at the structural level (pages 6-17 explicitly downgraded to optional). Item (2): price datapoints landed (G-0038); JS-coefficient datamine route got its answer (no fresh dump exists); Robinson conflict remains staged. Skip anything silently? No. Incomplete-as-complete? No - the 350-400 coins/OVR band is explicitly a TWO-POINT estimate, not a fitted curve; community prices flagged unverified single-claims; dlsinside cost columns marked "not yet read". ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-29T09:50Z] RESEARCH — the price formula (f(OVR, position), 86 CF = 2,970 verified); stadiums page demoted; Robinson pass 2
+session 1 turn 50 | state STATE_1_RESEARCH_SWEEP | topic: G-0038 formula / G-0074 / G-0063
+[Return gap: minutes — same-session run.]
+The price calculator delivered the G-0038 structure: price = f(Base OVR, exact position) with a verified anchor 86 CF = 2,970 (Kane/Mbappe/Dembele/Haaland identical) and a strong position premium against Dickison 85 CB = 2,375. The secret-market discount mechanic is now dual-sourced (sakibpro explicitly: the discounted price identifies the hidden player). The stadiums gallery deferred costs to per-stadium pages (target refined). The Robinson second pass found zero DLS-card evidence for either name — the P-vs-M conflict stands on the one-letter reading.
+refs: S-0212..S-0214, kb/topics/economy_currencies_and_iap.md, kb/topics/player_pool.md, kb/gaps.md, G-0038, G-0063, G-0074
+
+## [2026-09-29T09:50Z] BLUFF CHECK — turn 50
+Complete every step planned? The two staged fetches ran (stadiums = costs NOT on the listing, honestly reported as one level deeper; price-calculator = formula + verified point captured); Robinson second pass ran (negative result recorded). Secret pages 6-17 remain optional by prior decision. Skip anything silently? No. Incomplete-as-complete? No - the formula is recorded as sakibpro's CLAIM ("exact mathematical pricing formula" not exposed); the position-premium inference is labelled two-point; the Rodri-vs-Kane tension is explicitly logged as confounded (era + position), not hand-waved. ISS-009 procedure followed. Advice impact: none; tracker-only.

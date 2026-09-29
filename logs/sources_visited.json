@@ -6706,11 +6706,110 @@
    "discovered_not_yet_visited": [
     "dlsinside.com/stadiums (fetch: upgrade cost columns)"
    ]
+  },
+  {
+   "id": "S-0212",
+   "timestamp_utc": "2026-09-29T09:48:03Z",
+   "session": 1,
+   "turn": 50,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dlsinside.com/stadiums",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Stadiums listing = IMAGE GALLERY only (brighton, fulham, gil-vicente, lecce-new, leicester, levante, liverpool, manchester-u-new, millwall) with links to per-stadium pages (dlsinside.com/stadium/<slug>). The advertised 'upgrade costs' are NOT on this listing - they live on the per-stadium pages. Version 13420 context from the earlier snippet.",
+   "summary": "G-0074: cost surface is one level deeper (per-stadium pages); the gallery gives the stadium LIST (9 named so far) + slug scheme.",
+   "takeaway": "Fetch target refined: dlsinside.com/stadium/brighton (or liverpool/manchester-u-new) for the cost columns; the listing itself is structural only.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "ad-monetized database (app + full-database ads)",
+    "outcome": "structure read directly; no numeric claims on this page"
+   },
+   "confidence_note": "gallery page fetched; no cost columns present",
+   "conflicts_found": [],
+   "leads_consumed_from": "dlsinside stadiums lead",
+   "kb_paths_touched": [],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": [
+    "dlsinside.com/stadium/brighton (per-stadium cost page)"
+   ]
+  },
+  {
+   "id": "S-0213",
+   "timestamp_utc": "2026-09-29T09:48:03Z",
+   "session": 1,
+   "turn": 50,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/price-calculator.php",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "tool-thirdparty",
+   "language": "en",
+   "payload_summary": "PRICE FORMULA (G-0038): price = f(Base OVR, EXACT position) - 'Attackers generally cost more than defenders with the same rating.' VERIFIED DATA POINT: 86 OVR CF = 2,970 coins (Harry Kane 86 CF / Mbappe 86 CF / Dembele 86 CF / Haaland 86 CF all 2,970; badge 'Verified Data' = manually confirmed in the live transfer market; 'Extrapolated' = from their claimed 'exact mathematical pricing formula'). Position list: CF LW RW SS AM CM DM LM RM LB RWB CB RB GK. OVR dropdown 50-86. SECRET PLAYER MECHANIC CONFIRMED (2nd surface): 'When a Secret Player appears, the game offers them at a slight discount... observing the discounted price, you can easily guess who the secret player might be.'",
+   "summary": "G-0038: the price grid is 2-factor (OVR x exact position) with a verified anchor 86 CF = 2,970 alongside Dickison 85 CB = 2,375 - implies a strong position premium (CF >> CB). Secret-market discount confirmed twice now (Reddit + sakibpro).",
+   "takeaway": "Next: sample the grid strategically (86 across positions; low-80s rows) - try URL params for batch sampling; else user market screens. The exact formula may be exposable via their calculator pages.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "tool site with ads; 'official'/'advanced private engine matrix' claims are marketing",
+    "outcome": "verified-data points accepted as high-quality third-party; extrapolated values treated as model output"
+   },
+   "confidence_note": "tool page fetched; formula statement + one verified price point captured",
+   "conflicts_found": [],
+   "leads_consumed_from": "price-calculator lead (52)",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0214",
+   "timestamp_utc": "2026-09-29T09:48:03Z",
+   "session": 1,
+   "turn": 50,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "soccer-ireland.com Michael Robinson page; kids.kiddle.co Michael Robinson; wikidata Q1929070; lfchistory.net player 399; as.com obituary 2020",
+   "resolved_url": "",
+   "domain": "soccer-ireland.com; kids.kiddle.co; wikidata.org; lfchistory.net; as.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "\"Michael Robinson\" OR \"Peter Robinson\" DLS classic card Ireland footballer game",
+   "source_type": "reference",
+   "language": "en",
+   "payload_summary": "Robinson second pass: NO DLS card evidence for either name (no hits tying Peter or Michael Robinson to any DLS classic card). Michael Robinson profile documented in detail: Michael John Robinson, b. 12 July 1958, STRIKER, Preston -> Man City -> Brighton -> Liverpool (1983-85: 52 apps/13 goals; First Division + European Cup + League Cup 1984) -> QPR -> Osasuna (1986-89); Ireland 24 caps/4 goals via the Granny Rule (debut 28 Oct 1980 vs France); later famous Spanish TV presenter (d. 28 Apr 2020). Peter Robinson = no prominent footballer fits the record (both Wikipedia Peters are English defenders).",
+   "summary": "Robinson identity conflict UNCHANGED and sharpened: profile-fit Michael Robinson is fully documented (height/foot not yet pinned), name-fit Peter has zero football-profile match and zero DLS-card match. Resolution still needs a datamine artifact or a ladder capture.",
+   "takeaway": "The conflict may itself be evidence: the TikTok leak transcribed names from an internal list where P. vs M. Robinson is a one-letter distinction - treat both readings as live.",
+   "deception_screen": {
+    "incentive": "low",
+    "detail": "reference/biography sources",
+    "outcome": "identity facts used directly; no DLS-specific claims to screen"
+   },
+   "confidence_note": "search snippets; biographical facts cross-consistent across five sources",
+   "conflicts_found": [],
+   "leads_consumed_from": "Robinson conflict lead",
+   "kb_paths_touched": [
+    "kb/topics/player_pool.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "discovered_total": 425,
-  "visited_total": 210,
+  "discovered_total": 428,
+  "visited_total": 213,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -6764,7 +6863,7 @@
    "https://itunes.apple.com/lookup?id=1462911602&country=us",
    "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
    "https://sakibpro.com/players/trending.php (server-rendered Upcoming Players — may name real players incl. Cult Heroes)",
-   "https://sakibpro.com/players/price-calculator.php",
+   "price grid sampling via sakibpro calculator (86 CF = 2,970 verified; try URL params ?ovr=&pos= for batch reads) + hunt their exact-formula statement",
    "https://sakibpro.com/players/compare.php",
    "sakibpro.com site JS to locate the player-database data endpoint",
    "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
@@ -6846,7 +6945,7 @@
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
    "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
    "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) — uploads list is JS-rendered dead for fetch_page",
-   "Kick-Off Stars DLS27 wave verification (DLS26 wave confirmed: Raphinha+Alvarez green cards via Season Pass) + Robinson name conflict resolution (G-0063)",
+   "Kick-Off Stars DLS27 wave verification + Robinson name conflict (PETER leak vs MICHAEL profile-fit; 2nd pass = zero DLS-card evidence either way; needs datamine/ladder capture) (G-0063)",
    "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
    "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
    "dreamkitsapp /players (all-base-players DB) + /teams",
@@ -6926,7 +7025,7 @@
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
    "price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; Rodri 86 = 2,725 DLS25; secret-market crossed prices ~2,555->2,355 for an 82 F) + user market screens for the full grid",
    "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens",
-   "dlsinside.com/stadiums fetch (upgrade-cost columns + capacities - G-0074)"
+   "dlsinside.com/stadium/<slug> per-stadium pages (brighton/liverpool/manchester-u-new) - WHERE the upgrade costs live (gallery had none)"
   ],
   "unvisited_total": 215
  }
