@@ -264,3 +264,6 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0074 (updated, turn 60):** App Store "upgraded club facilities" = DLS26 facilities refreshed; 2023 numbers even more suspect.
 - **Cult Heroes waves (turn 60):** family larger than the Sept-12 (July tweaks name Pickford/ter Stegen/Fermín/Pedro Gonçalves/Vivian) — roster census should include wave history.
 - **Q-027 (updated):** dlsinside version timeline (V13420/159) + CokeStudios screenshot-OCR gist = fetchable route leads; trungta database dead/JS.
+
+- **Q-007 tooling (turn 61):** CokeStudios OCR gist fetchable (S-0247) + community recipe corroborated (S-0248) — the market-screen ask is now fully tooled (recipe + candidate sets + OCR).
+- **kitdls table era-tainted (turn 61):** DLS25 'Gold' prices do NOT match the DLS26 grid (2,660 vs 2,970 for 86CF) — use names only.

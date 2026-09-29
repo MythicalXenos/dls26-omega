@@ -7759,11 +7759,55 @@
       "game_version": "n/a",
       "source_reliability": "route test",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0247",
+      "url": "https://gist.github.com/CokeStudios/1b61f8601cc14ef654453b7caa0dd0f4",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:35:00Z",
+      "summary": "CokeStudios/dls25_player_data.py (Dec-2024) = the market-screenshot OCR tool CONFIRMED fetchable. EasyOCR (en+ch_sim) + PIL grid cropper: DEVICE dict for iPad 2048x1536 (3x3 cards; crop boxes for name / 8 stats / overall / height / foot / price / position) + get_club() scraping an external lookup base URL ('Club:'/'Citizenship:' markers; club-name normalization Man* / Inter / Milan) + openpyxl output. Q-007 TOOL: attaches directly to the user's market-screen ask (DLS26 may need new device coords; structure is generic). Raw URL = /raw/ce82c33.../dls25_player_data.py. The external lookup base (url_file) suggests a pesmaster/fifaindex-style site for club+nationality fill.",
+      "entities": [],
+      "claims": [
+        "OCR tool fetchable; crop-box schema documented",
+        "device layout: 3x3 cards, iPad 2048x1536",
+        "external club-lookup scrape pattern"
+      ],
+      "game_version": "DLS25-era tool (coords may need DLS26 update)",
+      "source_reliability": "community code (github gist) \u2014 code is what it claims; era-tainted coords",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0248",
+      "url": "web_search: secret player lists (kitdls table + reddit price list)",
+      "method": "web_search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:37:00Z",
+      "summary": "(1) kitdls.net secret-player table (URL /dls-25-all-secret-player/, stamped Feb-2025 = ERA-TAINTED DLS25 numbers): 'Gold' column (2660 Salah 86, 2660 Kane 86, 2605 Mbappe 86, 2490 Vinicius/Haaland 86, 2315 KDB/Rodri 86, 2285 Son 84, 2220 Bellingham 85, 2215 Griezmann 84, 2190 Foden 84, 2185 Leao 83, 2145 Valverde 84, 2140 Martinez 84, 2135 Messi 83, 2100 Odegaard 84, 2045 Kvara 83, 2035 Dybala 82, 2015 Alvarez 82, 1950 Dembele 82, 1940 Bruno/Rice 83, 1885 Raphinha 82, 1875 Isak 81, 1865 Modric 82, 1855 Bernardo 83, 1845 Gundogan/De Jong 82, 1835 Openda 81/Barella 83, 1815 Coman 81, 1795 Gyokeres 81, 1775 Luis Diaz 81) \u2014 33 named secret candidates; numbers DO NOT match the verified DLS26 grid (86CF=2,970 vs 2,660) = old-era pricing. NAMES = the crossed-price secret candidate roster. (2) reddit (Dec-2025) price-list thread = the COMMUNITY RECIPE CORROBORATED: 'use the crossed-out price of the secret players'; '2555 -> reduction ~200 -> 2355 = 85 midfielder (Vitinha, Bruno etc.)' (matches the verified 85CM cell EXACTLY); '84 Att = Alvarez, Lautaro, Saka, Luis Diaz, Kvara' (= the 84CF candidate set) \u2014 the community runs the same price->(OVR,tier)->candidate-set method as the secret-identification recipe. (3) 2020-era: secret sheet google-doc + '2200=2070' discount (130 then; ~200 now).",
+      "entities": [
+        "Salah",
+        "Kane",
+        "Mbappe",
+        "Messi",
+        "Bellingham",
+        "Bruno",
+        "Vitinha",
+        "Alvarez",
+        "Saka"
+      ],
+      "claims": [
+        "community crossed-price recipe = the same as the recorded recipe (85CM 2555->2355 verified in-thread)",
+        "84CF candidate set named (Alvarez/Lautaro/Saka/Diaz/Kvara)",
+        "kitdls 33-name secret roster (DLS25-era numbers)"
+      ],
+      "game_version": "mixed (kitdls Feb-2025 = DLS25-era; reddit Dec-2025 = DLS26)",
+      "source_reliability": "kitdls = third-party, era-tainted numbers (flagged); reddit = community corroboration of a verified recipe",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 485,
-    "visited_total": 245,
+    "discovered_total": 487,
+    "visited_total": 247,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

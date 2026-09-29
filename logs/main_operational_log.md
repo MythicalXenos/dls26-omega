@@ -913,3 +913,12 @@ refs: S-0244..S-0246, kb/topics/player_pool.md, kb/topics/live_ops_events_and_ca
 
 ## [2026-09-29T15:15Z] BLUFF CHECK — turn 60
 Complete every step planned? Q-018 ran (identity resolved at person level, record-level honestly open); datamine pursuit ran (routes logged; fe.pak itself still not extracted — Q-027 stays open with updated routes); secret map pages deferred (their lead Q-026 is intact, not dropped). Skip anything silently? No. Incomplete-as-complete? No — the Peter/Michael mapping is flagged inference; the Gallagher oddity (active English player in a staging set) is recorded as an open oddity rather than smoothed; the trungta dead-end is logged. ISS-009 procedure followed (verified outputs; separate commit call). Advice impact: none; tracker-only.
+
+## [2026-09-29T15:40Z] RESEARCH — community recipe corroborated; OCR tool fetchable; secret candidate roster (era-tainted)
+session 1 turn 61 | state STATE_1_RESEARCH_SWEEP | topic: secret-recipe corroboration / tooling
+[Return gap: minutes — same-session run.]
+The community toolkit route landed in full: the CokeStudios OCR gist is fetchable with its complete crop-box schema (iPad 3x3 grid, every field the market screens would need), and the community's own secret-identification method matches the recorded recipe exactly — the reddit thread's worked example (2555 -> 2355 = 85 midfielder) hits the verified 85CM cell dead-on, and their 84CF candidate set is named. A 33-name secret candidate roster surfaced from kitdls, but its prices are DLS25-era (2,660 vs the verified 2,970 for 86CF) and are recorded as names-only, numbers rejected. The secret-map pages and the Ireland fourth record carry over to next turn.
+refs: S-0247, S-0248, kb/topics/player_pool.md, kb/gaps.md, Q-007, Q-027
+
+## [2026-09-29T15:40Z] BLUFF CHECK — turn 61
+Complete every step planned? Q-027 route worked (gist fetched); secret-map pages Q-026 deferred to next turn (lead intact, not dropped); Ireland 4th deferred likewise. Skip anything silently? No. Incomplete-as-complete? No — the kitdls numbers are explicitly REJECTED as era-tainted rather than folded into the grid; the OCR tool's DLS26-coords caveat is stated; the reddit corroboration is community-single-source on the recipe detail (~200 discount) though the grid cell itself is user-verified. ISS-009 procedure followed (verified outputs; separate commit call). Advice impact: none; tracker-only.
