@@ -245,3 +245,7 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0040/0070 (updated, turn 56):** the CURRENT prize-ladder event = 'English League Classics' (App Store LIVE EVENTS) - the leak's Keane/Irvin context; ladder-path capture even more valuable now.
 - **G-0074-adjacent (turn 56):** stadium config trick (DLS23): E/W 26 + S/N 20 + corners 51 = 92,632 cap / 52 coins. Facility discount ties to coach prices (5% observed at common tier).
 - **ISS-008 (b) DONE (turn 56):** kb/claim_register.md created (20 key claims with confidence + volatility fields). Remaining: (e) HANDOFF normalization, (f) self-audit, (g) position-locking.
+
+- **G-0070 (turn 57): WEB-ANSWERED** - English League Classics ladder: 4 legends (Berbatov/Essien/Cole/Petit) at 62,500/115,000/175,000/250,000 DP; interim = coins/gems/coaches/agents; PvP > career for DP; tournaments give completion bonuses; recycled Petit/Cole with stat/art tweaks (recycling law CONFIRMED). User screen still wanted (UI + verify numbers).
+- **G-0073 (turn 57):** ladder windows have hard end dates (community video evidence: March ladder ~Mar 4 end) - weeks-to-months windows; exact clock scheme needs a user screen showing the event timer.
+- **ISS-008 (a) ANOMALY (turn 57):** unvisited_leads are bare URL strings (question-dict lead form lost) - the frontier question-preservation mechanism is currently only in kb/gaps.md + HANDOFF queue. ISS-008 normalization (e/f/g) will rebuild leads as question-dict entries from those sources.

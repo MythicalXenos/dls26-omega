@@ -252,3 +252,7 @@ sakibpro's 82 CF cell exposed TWO C.Ronaldo records: **25851** and **382** (both
 | Cristiano Ronaldo 25851 | **secret** | CF/LW 82 | REAL NAME in secret class; Foot "Both / Right" artifact; internals 779/749/780/839/839/789/939/419 + 258/201 |
 | Cristiano Ronaldo 27841 | world-cup-heroes | CF/LW 87 | t258 |
 The twin-pair shape (25849/25850) is the same tell as the secret Messi twins (24594/24599). Every era block carries champion + secret variants of the big two names. The 25849-vs-25851 question RESOLVED: distinct records (RM/RW twin vs secret CF/LW).
+
+## Addendum (turn 57): classic-player lineage + roster landscape (S-0238)
+- **"Classic Players RETURN: Icons making a comeback with updated cards"** = the DLS26 launch framing (classic players were REMOVED after DLS15; DLS26 = the return). Classic class lineage: DLS15 lists (Roy Keane among icons) + DLS-Classic 90s Allstars (Keane 91 MC; purchasable from Man U 1999) — the leak's Keane is a canonical FTG classic name; Keane+Irwin = the Irish anchors (Ireland-flag mystery OPEN, no enumeration found this turn).
+- **Feb-2026 community top table (pre-launch estimates; era-tainted but mostly consistent with market-verified data):** Dembélé/Mbappé/Kane/Haaland 86 CF, van Dijk 85 CB, Raphinha 85 LW, Salah 85 RW, Pedri 85 AM (position variance vs verified 85CM), Donnarumma 85 GK. Corroborates the 86-CF/85-multi-tier landscape of the tier grid.
