@@ -114,3 +114,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 55 | The GK non-monotonic kink at 83 is a real property of the price table, not a source artifact | high | patch | S-0268/0269 |
 | 56 | 2,085 is a THREE-WAY collision (82 CM / 83 CB / 83 GK) — the most ambiguous price in the grid | high | patch | S-0269 |
 | 57 | Extrapolated cells are where pricing anomalies hide: sakibpro's formula was wrong on the one GK cell it could not observe; all four remaining extrapolated cells should be treated as unreliable by default | medium-high (one demonstrated failure + a clear mechanism) | static | S-0268/0269 |
+
+### Claims promoted (turn 72)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 58 | 84 CM = 2,390 (Szoboszlai), 81 CM = 1,935 (Mac Allister, Reijnders), 81 CB = 1,815 (Militao, Guehi, Cubarsi) — confirmed by a second operator with ratings agreeing | high | patch | S-0270 |
+| 59 | 16 of 24 price cells are now two-or-three-source; only 85 CB, 84 CF, 83 CF and 83 CM remain single-source (plus four Extrapolated cells with no card) | high | patch | S-0270 |
+| 60 | sakibpro rating drift is selective, not systemic (7 known cases; 6 of 8 players probed this turn matched) — no blanket correction is valid | high | patch | S-0270 |

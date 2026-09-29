@@ -8240,11 +8240,40 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "both operators agree on the bracketing cells; the 83 cell rests on three dlsinside observations plus a ruled-out alternative",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0270",
+      "url": "https://dlsinside.com/player/{szoboszlai/17272, bellingham/17799, mac-allister/18243, reijnders/18693, rudiger/12480, militao/16518, guehi/18301, cubarsi/24065}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T18:50:00Z",
+      "summary": "Eight-probe corroboration batch on the remaining single-source cells. **THREE MORE CELLS CONFIRMED: 84 CM = 2,390 (Szoboszlai 17272, 84 AM/CM/RB) \u00b7 81 CM = 1,935 (Mac Allister 18243 and Reijnders 18693, both 81) \u00b7 81 CB = 1,815 (Militao 16518, Guehi 18301 and Cubarsi 24065 \u2014 three players, all 81).** All ratings agreed between operators for these six players, so these are clean confirmations. Two further DRIFT cases found (now seven in total): **Bellingham (sakibpro 84 / dlsinside 85, value 2,555 = the 85 CM cell)** and **Rudiger (sakibpro 81 / dlsinside 82, value 1,950 = the 82 CB cell)** \u2014 again the real price matches the higher rating. **Running total: 16 of 24 cells are now two-or-three-source.** Only four real cells remain single-source \u2014 85 CB, 84 CF, 83 CF and 83 CM \u2014 plus the four Extrapolated cells that have no card behind them (85 CF, 86 CM, 86 CB, 86 GK). Note the drift is selective, not systemic: Szoboszlai, Mac Allister, Reijnders, Militao, Guehi and Cubarsi all matched exactly. Entity data: Szoboszlai 84 AM/CM/RB 186cm/25, Passing 88/Control 83/Stamina 89, Liverpool \u00b7 Bellingham 85 AM/CM/LM 186cm/23, Passing 85/Control 87/Stamina 89, R Madrid \u00b7 Mac Allister 81 CM/DM 176cm/27, Passing 84/Control 82/Stamina 83, Liverpool \u00b7 Reijnders 81 CM/AM 185cm/28, Passing 83/Control 83/Stamina 87, Manchester C \u00b7 Rudiger 82 CB/RB 190cm/33, Tackling 86/Strength 92/Speed 82, R Madrid \u00b7 Militao 81 CB/RB 186cm/28, Tackling 90/Strength 84/Speed 83, R Madrid \u00b7 Guehi 81 CB/RB 182cm/26, Tackling 86/Strength 87/Speed 80, Manchester C \u00b7 Cubarsi 81 CB 183cm/19, Tackling 85/Strength 85/Speed 77, Barcelona (evolution marker -5). The club attributions reflect 2026 moves (Reijnders and Guehi both at Manchester C), i.e. the roster data is current.",
+      "entities": [
+        "Szoboszlai",
+        "Jude Bellingham",
+        "Alexis Mac Allister",
+        "Tijjani Reijnders",
+        "Antonio Rudiger",
+        "Eder Militao",
+        "Marc Guehi",
+        "Pau Cubarsi"
+      ],
+      "claims": [
+        "84 CM = 2,390 confirmed (Szoboszlai)",
+        "81 CM = 1,935 confirmed (Mac Allister, Reijnders)",
+        "81 CB = 1,815 confirmed (Militao, Guehi, Cubarsi)",
+        "16 of 24 cells now two-or-three-source",
+        "drift cases now seven (Bellingham, Rudiger added)",
+        "drift is selective, not systemic"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields; ratings agreed with sakibpro for six of eight players, making these clean corroborations",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 508,
-    "visited_total": 268,
+    "discovered_total": 509,
+    "visited_total": 269,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
