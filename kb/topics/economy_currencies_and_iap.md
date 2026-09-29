@@ -179,3 +179,9 @@ Origin: five in-game captures retrieved via image_search and read directly; thre
 - **Activation gate:** accumulate **400 Season Points** (login 40/day + Career matches + DLL + Daily Challenges) to ACTIVATE the pass and claim the **Progression Bank** (DLL-XP → coins+gems, accumulated over a **10-day season**) at season end — miss the activation/claim and the payout is lost.
 - **Two-cycle structure confirmed across sources:** 10-day Season Pass/Progression Bank vs 90-day Prize Ladder (bluestacks). Both surfaces recycled-evergreen; numbers remain "unverified but dual-sourced".
 - SP sources per gamingonphone: Career matches grant SP + coins; Daily Challenges grant SP; DLL gems = weekly leaderboard.
+
+## Addendum (turn 49): price-grid anchors + secret-market discount mechanic (S-0210)
+- **Price anchors (community, unverified single-claims):** Rodri 86 = **2,725 coins** (DLS25 post-increase) vs Dickison 85 = **2,375 coins** (DLS26, verified anchor) — implies a mid-80s step band of roughly 350-400 coins per OVR point (NOT a fitted curve; two points only).
+- **Secret-market mechanic (NEW):** secret-class players can appear IN THE LIVE TRANSFER MARKET at a discount — crossed-out base price ~2,555 -> 2,355 paid (~200 reduction) for an 82 OVR forward. The crossed-out prices are effectively the base-price table made visible; "can be off by 2 or 3 coins" (community precision note).
+- **Special cards have NO market price** (sakibpro squad-builder): Champion / World-Cup-Heroes / Dreamstars obtainable only via special agents, events, season passes — coin value nullified in budget tools. Confirms: specials are agent/event/DP-side, not coin-side.
+- Community budget heuristic: "at least 10,000 coins to buy a player and still save money" (top-end market prices).

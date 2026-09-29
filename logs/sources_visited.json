@@ -6574,11 +6574,143 @@
    "discovered_not_yet_visited": [
     "github.com/theshinramen/DLS-Files (repo fetch)"
    ]
+  },
+  {
+   "id": "S-0208",
+   "timestamp_utc": "2026-09-29T09:42:42Z",
+   "session": 1,
+   "turn": 49,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://github.com/theshinramen/DLS-Files",
+   "resolved_url": "",
+   "domain": "github.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Repo contents: bot/, data/, flags/, playerphotos/, teams/ (+ playerData.json). 52 commits, 2 stars, 10 forks. LATEST COMMIT 'Update playerData.json' = 2023-06-30 (3 years ago). Purpose: DLS Card Creator + DLS Bot assets.",
+   "summary": "STALENESS CONFIRMED: last commit Jun 2023 = DLS22/23-era database (matches the JasonEl1 warning 'not updated for the DLS24 update'). Not useful for DLS26 internals.",
+   "takeaway": "Datamine-artifact lead CLOSED at low value: the shinramen repo is a 2023-era card-creator asset pack, not a current datamine. The DLS26 internals trail remains dreamkitsapp/dlsinside mirrors + the Reddit fe.pak datamine community (no fresh dump located).",
+   "deception_screen": {
+    "incentive": "low",
+    "detail": "github code/data hosting; community datamine provenance",
+    "outcome": "staleness verdict recorded; repo not mined further"
+   },
+   "confidence_note": "repo page fetched directly; staleness read from commit history",
+   "conflicts_found": [],
+   "leads_consumed_from": "datamine artifact lead",
+   "kb_paths_touched": [
+    "kb/gaps.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0209",
+   "timestamp_utc": "2026-09-29T09:42:42Z",
+   "session": 1,
+   "turn": 49,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/players/type/secret/p/18",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Secret map page 18/18 = THE FLOOR: Lindpere 48 (Latvia), Vahid/Waleed Aghili 46 (Kuwait/Bahrain), Hutchinson 46 (Malta), Hemed 45 (Jordan), Petersen 45 (Luxembourg), Al Fraidi 45 (Qatar), Vicente Romo 45 (Venezuela), Masato Abe 45 (Japan, id 884), Dikgacoi 45 (SA), Velicka 44 (Montenegro t395), Jodlowiec 44 (Poland), Sabillon 43 (Honduras t239), Hawsawi 38 (Qatar), MAOR TUKAR 35 (Qatar, CM/DM) = lowest. 15 entries on last page.",
+   "summary": "MAP STRUCTURE COMPLETE: 18 pages x ~15, descending sort, floor = 35 OVR (Maor Tukar). Real-name mixers continue at the floor (Lindpere/Jodlowiec/Dikgacoi are real footballer names). Pages 6-17 = pure filler sampling, no structural expectations left.",
+   "takeaway": "Secret map fully understood structurally (pages 1-5 + 18 sampled). G-0067 map question effectively closed; pages 6-17 optional for outlier hunting only.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "ad-monetized database site",
+    "outcome": "raw values retained"
+   },
+   "confidence_note": "listing page copied from render",
+   "conflicts_found": [],
+   "leads_consumed_from": "secret pages sampling lead",
+   "kb_paths_touched": [
+    "kb/topics/player_pool.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0210",
+   "timestamp_utc": "2026-09-29T09:42:42Z",
+   "session": 1,
+   "turn": 49,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit.com/r/DreamLeagueSoccer/comments/1pe7j7l (price list thread, Dec 4 2025); sakibpro.com/squad-builder (Aug 2026); dream-league-soccer.fandom.com Player + Free Transfers pages (legacy)",
+   "resolved_url": "",
+   "domain": "reddit.com; sakibpro.com; dream-league-soccer.fandom.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 player transfer price formula overall rating coins cost calculation",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "PRICE DATAPOINTS (G-0038): (1) 'After the prices increased in dls 25, Rodri (86) price was 2725 coins'; (2) secret players appear IN THE TRANSFER MARKET with a CROSSED-OUT price + reduction: 'Which player is priced at 2555, I got it as a secret player in the transfer market, reduction around 200, costing 2355' (82 OVR forward); (3) 'the crossed-out price can be off by 2 or 3 coins'; (4) 'we need at least 10,000 coins to buy a player and still save money'. sakibpro squad-builder: Team OVR = mean of 11 starters; SPECIAL CARDS (Champion, WC Heroes, Dreamstars) obtained exclusively via special agents/events/season passes - CANNOT be bought with coins; their coin value is NULLIFIED in the budget calculator. Legacy fandom pages (10-900 coin scale, 500-coin classic unlock) = pre-DLS20 noise.",
+   "summary": "G-0038 grid gains anchors: Rodri 86 = 2,725 (DLS25 post-increase) alongside Dickison 85 = 2,375 (DLS26) - suggests a ~350-400 coins/OVR-step band around the mid-80s. NEW MECHANIC: secret-class players CAN appear in the live transfer market at a discount to their crossed-out base price (the crossed-out secret prices = the secret-class base price table!). Special cards have NO transfer-market price (nullified).",
+   "takeaway": "Secret-market discount mechanic is user-screen-confirmable (G-0048-adjacent). The crossed-out-price observation implies a visible BASE PRICE per player - the user's market screens (G-0038 screens) can capture the full grid.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "reddit engagement; sakibpro tool-site claims; fandom legacy pages garbled",
+    "outcome": "community datapoints recorded with provenance; cross-checked against the Dickison 2,375 anchor"
+   },
+   "confidence_note": "community snippets; the 2725/2555/2355 datapoints are single-claim values, flagged for user-screen confirmation",
+   "conflicts_found": [],
+   "leads_consumed_from": "price-grid lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0211",
+   "timestamp_utc": "2026-09-29T09:42:42Z",
+   "session": 1,
+   "turn": 49,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "dlsinside.com/stadiums (listing with capacities + 'upgrade costs' advertised)",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "\"dream league soccer\" stadium \"upgrade costs\" coins gems per level capacity list",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "dlsinside.com/stadiums = a stadium database page advertising 'max capacities, upgrade costs, and their real-life inspirations' (Version 13420). Sample capacities: Brighton Amex 43,056 / Fulham Craven Cottage 29,246 / Gil Vicente 18,422 / Lecce 47,299 / Leicester 33,269 / Levante 42,304 / Liverpool Anfield 52,760 / Man Utd Old Trafford 82,043 / Millwall 31,000. The snippet shows capacities but NOT the cost numbers.",
+   "summary": "G-0074: the cost table may EXIST on dlsinside.com/stadiums (or per-stadium pages) - prime fetch target next turn. Capacities also feed the division-gating question (stadium capacity gates division entry).",
+   "takeaway": "Second-pass facility search landed a concrete data surface instead of recycled evergreen prose - fetch the page for the cost columns.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "dlsinside = ad-monetized database (app + full-database ads)",
+    "outcome": "capacity numbers plausible; cost numbers to be read from their table with the computed-labels caveat"
+   },
+   "confidence_note": "search snippet only - page not yet fetched",
+   "conflicts_found": [],
+   "leads_consumed_from": "facility cost-table second pass",
+   "kb_paths_touched": [],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": [
+    "dlsinside.com/stadiums (fetch: upgrade cost columns)"
+   ]
   }
  ],
  "frontier": {
-  "discovered_total": 421,
-  "visited_total": 206,
+  "discovered_total": 425,
+  "visited_total": 210,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -6724,7 +6856,7 @@
    "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
    "dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-heroes|kickoff-stars|champion|star|secret|team-of-2025",
    "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
-   "secret pages 6-18 strategic sampling (filler shape stable, descending sort confirmed; sample only structural outliers)",
+   "secret pages 6-17 optional sampling (shape + floor 35 understood; outlier hunting only)",
    "dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203",
    "dlsinside.com slug pages second-DB cross-check",
    "dreamkitsapp star p2-9 + dynamic-stars p2-3 (dedupe by id; complete special inventory)",
@@ -6792,9 +6924,9 @@
    "sakibpro similar-rails systematic sweep (rails leak other families: DS boosted finals like Sorloth 27523=88, second C.Ronaldo champion/25849=82, dreamstar25 + world-winners slugs)",
    "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
-   "transfer-market price grid datapoints (Dickison 85 CB = 2,375 coins VERIFIED - one point on the price curve, G-0038)",
+   "price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; Rodri 86 = 2,725 DLS25; secret-market crossed prices ~2,555->2,355 for an 82 F) + user market screens for the full grid",
    "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens",
-   "github.com/theshinramen/DLS-Files repo fetch (datamine artifact: player DB + possible classic/secret files; check staleness - JasonEl1 says pre-DLS24)"
+   "dlsinside.com/stadiums fetch (upgrade-cost columns + capacities - G-0074)"
   ],
   "unvisited_total": 215
  }
