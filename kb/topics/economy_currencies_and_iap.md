@@ -218,3 +218,18 @@ Curve notes: CF 82->85 = +510 (~170/OVR), 85->86 = +185 (steepening); CB 85->86 
 - **Facility LINES = GEMS:** five lines at **1,125 gems each = 5,625 gems** full completion (+ ~10,000 coins for stands); "around 5K gems to upgrade everything".
 - **Stadium Commercials bonus ladder (DLS26-labeled):** Level II = **+13%** match-coin bonus; Level III = **+21%**; "starting 75 gems on Commercials" (bluestacks) — 75-gem starting kit corroborated (vs 40-gem conflict still open).
 - Numbers era-tainted (2023-era anecdotes); DLS26 confirmation via user facility screens still owed (G-0074).
+
+## Addendum (turn 53): CF curve complete; SS = CF tier; GK cheapest (S-0222..0225)
+**Grid (sakibpro; v = Verified, e = Extrapolated):**
+| OVR | CF | SS | CM | CB | GK |
+|---|---|---|---|---|---|
+| 86 | 2,970 v | — | 2,730 e | 2,520 e | 2,220 e |
+| 85 | 2,785 e | — | ? | 2,375 v | ? |
+| 84 | 2,610 v | — | ? | ? | ? |
+| 83 | 2,440 v | — | ? | ? | ? |
+| 82 | 2,275 v | 2,275 v | ? | ? | ? |
+- **CF curve COMPLETE and smooth:** steps 82->83 +165, 83->84 +170, 84->85 +175, 85->86 +185 (concave-up; extrapolate with care beyond 86 — the calculator caps at 86 base).
+- **82 SS = 82 CF = 2,275** — SS/CF share the Forward tier (at 82; assume tier-wide).
+- **GK = cheapest tier:** 86 GK 2,220 < 82 CF 2,275. Position ladder at 86: CF 2,970 > CM 2,730 > CB 2,520 > GK 2,220. (GK upgrade model is also separate: 2.2 pts/OVR.)
+- **2,555 tension UNRESOLVED and narrowed:** crossed-out 2,555 matches NO CF/SS cell (sits between 83 CF 2,440 and 84 CF 2,610; the discounted 2,355 also exceeds the 82 CF standard 2,275). Candidates left: LW/RW tier difference (82 LW/RW untested), display-OVR-vs-base, special-card pricing, or a wrong/rounded community claim.
+- **Base-record ids from verified cells:** Lautaro 16329, **Alvarez 19159 (84 CF — the Kick-Off Star cover star's NORMAL card)**, Osimhen 17319, Benzema 2602, Lewandowski 2862, Thuram 15672, Gyokeres 18877, C.Ronaldo 382 + 25851, Gabriel 16347, VVD 27130.

@@ -6,9 +6,9 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Session state
 
-- **Session:** 1 (first ever — bootstrap session). **Turn:** 52 complete
+- **Session:** 1 (first ever — bootstrap session). **Turn:** 53 complete
 - **TURN-START RULE (ISS-007, adopted after an environment reset replaced local git history between turns 7 and 8):** before committing, verify local HEAD equals the remote tip for `arena/01a0e3cd-dls26-omega`; a re-cloned workspace reads `git status` clean while holding no history and a reverted git identity. On divergence from a reset: set identity, fetch WITH THE EXPLICIT REFSPEC (`git fetch origin +refs/heads/arena/01a0e3cd-dls26-omega:refs/remotes/origin/arena/01a0e3cd-dls26-omega` - the wipe narrows `remote.origin.fetch` to main-only, so a plain fetch silently misses the arena branch), then `reset --hard` to the remote tip (working-tree wipe mode, all files match the base commit), verify, push. Never push diverged; never force-push. `git ls-remote origin` distinguishes refspec narrowing from a deleted branch. Full procedure in OPERATIONAL_RULES.md. (turn 1 built STATE_0 + opened STATE_1 + PR #1; turn 2 resolved the version conflict and found two LIVE events; turn 3 enumerated the live Cult Heroes collection and recovered a full third-party coaching model).
-- **This session ended:** 2026-09-29T13:00Z (wall clock; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
+- **This session ended:** 2026-09-29T13:10Z (wall clock; the return gap is read from here, never asked of the user. If the session died without a final handoff, measure the gap from the last handoff written — errs long rather than short.)
 - **Active state:** `STATE_1_RESEARCH_SWEEP` (bootstrap Step 1).
 - **Bootstrap status:** STATE_0_SETUP **COMPLETE** (all artifacts on disk; prompt file first, capability inventory second, schema documented). Step 1 **IN PROGRESS** — opened, not remotely near exhaustion. Steps 2, 3, 4, 5 **NOT STARTED**. No multi-state collapse occurred; the only transition taken was STATE_0 → STATE_1 in turn 1, authorized by the INITIALIZATION DIRECTIVE and PROMPT.md §13's single stated exception.
 - **Prompt version in force:** v1.0 (2026-09-27), `PROMPT.md`, archived baseline `prompt_versions/archive/PROMPT_v1.0_2026-09-27.md`. No PROPOSED amendments pending.
@@ -16,7 +16,7 @@ Compact, always-current. Updated atomically before every turn ends (PROMPT.md §
 
 ## Return gap anchor
 
-Last session end: 2026-09-29T13:00Z. Next session: compute the gap from this line. Below 7 days → weigh the gap against the volatility model and re-verify exactly that. 7 days or more → treat as equivalent to a patch having dropped: full exhaustive sweep before advising.
+Last session end: 2026-09-29T13:10Z. Next session: compute the gap from this line. Below 7 days → weigh the gap against the volatility model and re-verify exactly that. 7 days or more → treat as equivalent to a patch having dropped: full exhaustive sweep before advising.
 
 ## Cycle dates
 
@@ -126,14 +126,14 @@ Mechanism 6: every 2 days of ACTIVE USE (a substantive exchange — a question a
 - No outcome awaits (no recommendation has ever been delivered).
 - Environment facts the user may need to know at first contact, not before: the sandbox cannot reach their phone or MacBook, cannot run an emulator, and cannot download GitHub release assets — Step 3 is user-side by design and Step 2's binary route is constrained (ISS-002, S-0008).
 
-**New this turn (turn 52):** grid grows to **6 cells** (S-0218..0220): 85CF 2,785e / 86CB 2,520e / **82CF 2,275v** — curve steepens into 86 (CF +185 85->86); position premium at 86: CF +450 vs CB. **TENSION (open):** Reddit crossed-price 2,555 for "an 82 forward" vs grid 82CF = 2,275 — display-OVR-vs-base question (matters for secret ID). **FACILITY CURRENCY SPLIT resolves the coins-vs-gems conflict** (S-0221): stadium **stands = coins** (8 stands; side maxed ~1,433 coins; 85k = 7 maxed + corner; home bonus 48-52 coins) · facility **lines = gems** (1,125 x 5 = 5,625 full; ~10k coins + gems total) · Commercials **L2 +13% / L3 +21%** match-coin bonus. Numbers era-tainted (2023) — DLS26 screens owed. **C.Ronaldo web:** TWO 82 CF ids (25851 + 382) + 25842 (88) + 25849 (82) — parallels the Messi web. Sources now 220 (433/220/213).
+**New this turn (turn 53):** grid = **10 cells** (S-0222..0225). **CF curve COMPLETE:** 2,275 / 2,440 / 2,610 / 2,785 / 2,970 (82->86; steps +165/+170/+175/+185, smooth concave-up; calculator caps at 86 base). **82 SS = 82 CF** (same Forward tier). **GK = cheapest tier** (86 GK 2,220 < 82 CF; ladder at 86: CF > CM > CB > GK). **2,555 tension NARROWED:** matches no CF/SS cell (sits between 83CF 2,440 and 84CF 2,610); discounted 2,355 also exceeds the 82CF standard 2,275 — candidates: LW/RW tier (82 LW/RW untested) / display-vs-base OVR / special-card pricing / bad claim. Base ids: **Alvarez 19159 = 84 CF normal card** (the Kick-Off Star's base), Lautaro 16329, Osimhen 17319, Benzema 2602, Lewandowski 2862. Sources now 224 (437/224/213).
 
-Queue as of turn 52 (2026-09-29T13:00Z):
-1. **Turn-start history check first** (ISS-007 rule - forty-five recurrences; hash verify + explicit-refspec fetch + `reset --hard` is mechanical).
-2. Remaining grid cells (GK column / 84CF / 85CM / 82 SS-LW-RW tension cells) + secret pages 6-17 optional.
+Queue as of turn 53 (2026-09-29T13:10Z):
+1. **Turn-start history check first** (ISS-007 rule - forty-six recurrences; hash verify + explicit-refspec fetch + `reset --hard` is mechanical).
+2. 82 LW/RW tension cell + 85CM + GK column + mid-80s CB/CM rows + AM/LB/RB tiers + secret pages 6-17 optional.
 3. ISS-008 remaining (b)(e)(f)(g) + Ireland-flag mystery + C.Ronaldo 25849/25851 question (G-0063/0081).
 4. Authority files ALL READ. OPERATIONAL_RULES = stub until STATE_4 (by design). ISS-009 procedure in force (verified python outputs; commit in a separate call).
 
 User-dependent queue, batched for first contact (consolidated): **facility screens (G-0074 - confirm DLS26 cost table + commercials ladder + currency split)** + **transfer-market screens (G-0038 - grid + crossed-out secret prices; display-OVR-vs-base)** + **DP shop screen (G-0085 - web route CLOSED)** + **Season Pass screens (G-0084)** + ladder-path capture (G-0040 timer + G-0070 mapping) + Cult Heroes agent-opening screen (G-0048) + reserve-freeze observation (G-0072) + special-coach test on a DYNAMIC STAR card (G-0079 - expected: not selectable) + Isco special-coach menu (G-0041) + Nico Williams 96-screen capture (G-0080 confirmatory) + 12th-Man-Vote screen when a vote opens.
 
-State of the base at handoff: frontier 433 discovered / 220 visited / 213 unvisited; recurrence count 45; kb/evidence/ holds 16 files. Gate status: all six dimensions sourced; G-0034 + G-0080 RESOLVED; G-0079 near-resolved; G-0038 grid LIVE (6 cells, tension open); G-0074 currency split resolved (era-tainted numbers); G-0063 textually supported (Robinson conflict OPEN); G-0067 map COMPLETE; G-0084 dual-sourced; G-0085 web-route CLOSED. Gate NOT closable - open G-0074 (DLS26 numbers), G-0081 (voted-12th residual), G-0082/83, G-0086, G-0072/73/75/76. Turn-25 peak-seasons remains WITHDRAWN (R-0013).
+State of the base at handoff: frontier 437 discovered / 224 visited / 213 unvisited; recurrence count 46; kb/evidence/ holds 16 files. Gate status: all six dimensions sourced; G-0034 + G-0080 RESOLVED; G-0079 near-resolved; G-0038 grid LIVE (10 cells, CF curve complete, tension narrowed); G-0074 currency split resolved (era-tainted); G-0063 textually supported (Robinson conflict OPEN); G-0067 map COMPLETE; G-0084 dual-sourced; G-0085 web-route CLOSED. Gate NOT closable - open G-0074 (DLS26 numbers), G-0081 (voted-12th residual), G-0082/83, G-0086, G-0072/73/75/76. Turn-25 peak-seasons remains WITHDRAWN (R-0013).

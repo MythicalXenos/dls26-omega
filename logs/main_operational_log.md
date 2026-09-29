@@ -841,3 +841,12 @@ refs: S-0218..S-0221, kb/topics/economy_currencies_and_iap.md, kb/topics/player_
 
 ## [2026-09-29T13:00Z] BLUFF CHECK — turn 52
 Complete every step planned? Item (1) ran: 3 of the 5 named grid cells (GK column + 85CM + SS/LW/RW deferred to next pass) + the facility snippet mining (the named priority) done; secret pages 6-17 remain optional. Item (2) (ISS-008 + Ireland) remains staged. Skip anything silently? No. Incomplete-as-complete? No - facility numbers labelled era-tainted (2023 anecdotes); the currency-split 'resolution' is stated as plausible with the bluestacks loose-language caveat; the 2,555 tension is recorded OPEN, not smoothed over; C.Ronaldo 25849-vs-25851 marked unresolved. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-29T13:10Z] RESEARCH — CF curve complete; SS = CF; GK cheapest; tension narrowed
+session 1 turn 53 | state STATE_1_RESEARCH_SWEEP | topic: G-0038 grid
+[Return gap: minutes — same-session run.]
+Four grid cells (S-0222..0225): 84 CF 2,610v (Lautaro + Alvarez 19159), 83 CF 2,440v (Osimhen/Benzema/Lewandowski), 86 GK 2,220e (cheapest tier), 82 SS 2,275v (= 82 CF - SS/CF share the Forward tier). The CF curve is complete and smooth (steps 165/170/175/185). The 2,555-crossed tension NARROWED: it matches no CF/SS cell and the discounted price exceeds the 82 CF standard - remaining candidates are the LW/RW tier, display-vs-base OVR, special pricing, or a bad claim. Alvarez's base 84 CF record noted (Kick-Off Star = special edition over a normal card).
+refs: S-0222..S-0225, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-0038
+
+## [2026-09-29T13:10Z] BLUFF CHECK — turn 53
+Complete every step planned? All four named tension/grid cells ran (84CF/83CF/86GK/82SS); the LW/RW tension cell was deliberately sequenced next (the SS result superseded part of its purpose). ISS-008 + Ireland remain staged. Skip anything silently? No. Incomplete-as-complete? No - the CF curve is labelled smooth-within-sampled-range (calculator caps at 86 base; no extrapolation beyond); the 82SS "Verified" badge with 0 DB matches is noted as odd rather than trusted blindly; the 2,555 tension stays OPEN with candidates enumerated. ISS-009 procedure followed. Advice impact: none; tracker-only.
