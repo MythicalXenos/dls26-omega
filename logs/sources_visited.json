@@ -8216,11 +8216,35 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields; three independent 83-rated GKs agree, which outweighs a single formula extrapolation \u2014 but the resulting ladder shape is anomalous and is flagged rather than explained",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0269",
+      "url": "https://sakibpro.com/players/price-calculator.php?ovr={85,86}&pos=GK + https://dlsinside.com/player/{unai-simon/17474, marco-carnesecchi/9713}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T18:35:00Z",
+      "summary": "**THE GK KINK IS REAL, NOT A SOURCE ERROR.** The surrounding cells are now confirmed by BOTH operators through different players: **81 GK = 1,590** (dlsinside: Diogo Costa, Unai Simon 17474, Carnesecchi 9713 \u2014 three players; sakibpro: Verified) \u00b7 **82 GK = 1,705** (Sommer, Oblak; sakibpro Verified) \u00b7 **84 GK = 1,950** (Alisson, Raya, E.Martinez; sakibpro Verified) \u00b7 **85 GK = 2,080** (dlsinside: Courtois 7458; sakibpro: **Donnarumma 14078, badged Verified** \u2014 two operators, two different players, same number). Only the 83 cell differs, and it is precisely the cell sakibpro had **no observation for** (Extrapolated). With 83 observed at 2,085 on three independent goalkeepers, and the mis-rating hypothesis **ruled out arithmetically** (a genuinely 84-rated GK would be 1,950 and a genuinely 85-rated one 2,080 \u2014 neither is 2,085), the conclusion is that **the game's GK price table genuinely contains a non-monotonic kink at 83**: 1,590 \u2192 1,705 \u2192 **2,085** \u2192 1,950 \u2192 2,080. An 83-rated goalkeeper costs more than an 84-rated one. **CONSEQUENCE: the collision set changes \u2014 2,085 is now a THREE-WAY collision (82 CM / 83 CB / 83 GK), making it the single most ambiguous price in the grid**, with 1,950 remaining two-way (82 CB / 84 GK). Also confirmed: **86 GK = 2,220 Extrapolated with zero base players**, consistent with the reading that Extrapolated cells are prices for cards that do not exist. **Methodological lesson: linear extrapolation cannot predict a kink, so Extrapolated cells are exactly where anomalies hide** \u2014 this is why 83 GK was the one cell the formula got wrong, and it should be assumed of the other extrapolated cells too (85CF, 86CM, 86CB, 86GK).",
+      "entities": [
+        "Gianluigi Donnarumma",
+        "Unai Simon",
+        "Marco Carnesecchi",
+        "Thibaut Courtois"
+      ],
+      "claims": [
+        "81GK 1,590 (3 players) and 85GK 2,080 (2 operators, 2 players) confirmed",
+        "the GK non-monotonic kink at 83 is REAL, not a source error",
+        "2,085 is a THREE-WAY collision (82CM / 83CB / 83GK)",
+        "86GK extrapolated with zero base cards",
+        "linear extrapolation cannot predict kinks - Extrapolated cells are where anomalies hide"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "both operators agree on the bracketing cells; the 83 cell rests on three dlsinside observations plus a ruled-out alternative",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 507,
-    "visited_total": 267,
+    "discovered_total": 508,
+    "visited_total": 268,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

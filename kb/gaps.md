@@ -305,3 +305,8 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **New cell confirmed (turn 70): 85 GK = 2,080** (Courtois). Running total **12 of 24 cells two-or-three-source**.
 - **Rating drift now five cases (turn 70):** Rice, Rabiot, Ruben Dias, E. Martinez, Courtois — sakibpro files each one rung lower than dlsinside.
 - **NEW TAXONOMY (turn 70): the "Exclusive" class has NO price field on dlsinside** ("no longer normally available"; historical records preserved). sakibpro's normal-tier lists are contaminated with these non-market cards — a second independent reason its TOP-N lists are unusable as candidate sets.
+
+- **G-0038 / Q-007 (turn 71) — COLLISION SET REVISED: 2,085 is a THREE-WAY collision (82 CM / 83 CB / 83 GK)**, not two-way as recorded at turn 66. 1,950 remains two-way (82 CB / 84 GK). **Recipe impact: 2,085 is the most ambiguous price in the grid — could be midfield, defence or goalkeeper.**
+- **GK kink RESOLVED as real (turn 71):** the table genuinely runs 1590 / 1705 / **2085** / 1950 / 2080 — an 83 GK costs more than an 84 GK. Bracketing cells confirmed by both operators; mis-rating ruled out arithmetically. Cause (why FTG's table has this shape) remains unexplained, but the shape itself is now established.
+- **Extrapolated cells (turn 71) — general rule:** 83 GK was the one cell sakibpro got wrong, and it was the one it could not observe. **Treat every Extrapolated cell as unreliable by default** (85 CF 2,785, 86 CM 2,730, 86 CB 2,520, 86 GK 2,220) — and note the last three are additionally prices for cards that do not exist.
+- **Remaining single-source cells (turn 71):** 84 CF, 84 CM, 83 CF, 83 CM, 81 CM, 81 CB (plus the four Extrapolated). 81 GK is now confirmed by three players.

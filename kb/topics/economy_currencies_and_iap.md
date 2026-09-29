@@ -366,3 +366,21 @@ That is **not monotonic** — an 83 costs more than an 84 — and it is the only
 **A new cell confirmed:** **85 GK = 2,080** (Thibaut Courtois 7458, 85 GK, R Madrid) — and a **fifth rating-drift case**, since sakibpro had filed Courtois in its 84 GK list. Also re-confirmed: 82 GK = 1,705 (Sommer, second confirmation) and 84 GK = 1,950 (David Raya, third confirmation).
 **NEW TAXONOMY FINDING — the "Exclusive" class carries no price.** Ederson 15227 is badged **Exclusive** on dlsinside: "no longer normally available in the game… DLS Inside preserves this record to document the data," with **no price field at all** (historical rating 83 preserved). This matches the Exclusives family in dlsinside's own registry (7,388 records) and explains a sakibpro oddity: Ederson was listed in its normal-tier 82 GK list when he is not a normal-market card. **Consequence: sakibpro's normal-tier lists are contaminated with non-market cards**, which is a second, independent reason not to use its "TOP N MATCHES" as candidate sets (the first being the rating drift of turn 69).
 **Entity data:** Joan Garcia 83 GK 193cm/25/Right, GKR 81/GKH 78, Barcelona · Kobel 83 GK 195cm/28/Right, GKR 81/GKH 78, Switzerland · Courtois 85 GK 200cm/34/**Left**, GKR 82/GKH 82, R Madrid · Raya 84 GK 183cm/31/Right, GKR 80/GKH 82, Arsenal · Sommer 82 GK 183cm/37/Right, GKR 79/GKH 78, I Milan · Ederson EXCLUSIVE (historical 83 GK, no price).
+
+## Addendum (turn 71): the goalkeeper kink is real — and it makes 2,085 a three-way collision (S-0269)
+**The bracketing cells are now confirmed by both operators, through different players:**
+| OVR | GK price | Confirmed by |
+|---|---|---|
+| 81 | 1,590 | dlsinside: Diogo Costa, **Unai Simon (17474)**, **Carnesecchi (9713)** — 3 players; sakibpro Verified |
+| 82 | 1,705 | dlsinside: Sommer, Oblak; sakibpro Verified |
+| 83 | **2,085** | dlsinside: Maignan, Joan Garcia, Kobel — 3 players. **sakibpro: 1,825 Extrapolated — WRONG** |
+| 84 | 1,950 | dlsinside: Alisson, Raya, E. Martinez; sakibpro Verified |
+| 85 | 2,080 | dlsinside: Courtois; sakibpro: **Donnarumma (14078), Verified** — two operators, two players |
+| 86 | 2,220 | Extrapolated, **zero base players** — no such card |
+**The kink is a real property of the price table, not a source error.** Three independent lines settle it: (1) the cells either side of it (82 and 84) are agreed by both operators, so the ladder is not globally shifted; (2) the 83 value is observed on three different goalkeepers at three clubs; (3) the mis-rating hypothesis fails arithmetically — a genuinely 84-rated keeper would cost 1,950 and a genuinely 85-rated one 2,080, and neither equals the observed 2,085. So **an 83-rated goalkeeper really does cost more than an 84-rated one** in DLS26.
+**CONSEQUENCE — the collision set changes.** With 83 GK at 2,085, that price is now shared three ways:
+- **2,085 = 82 CM = 83 CB = 83 GK** ← the single most ambiguous price in the grid
+- **1,950 = 82 CB = 84 GK**
+Every other price in the 81-86 range still maps to one cell. For the crossed-price recipe, a 2,085 card could be a midfielder, a defender or a goalkeeper, and only the position group printed on the card separates them.
+**Methodological lesson, and it generalises:** sakibpro's formula got exactly one GK cell wrong, and it was the one cell it had no observation for. **Linear extrapolation cannot predict a kink, so Extrapolated cells are precisely where anomalies hide.** That applies to the four remaining extrapolated cells (85 CF 2,785, 86 CM 2,730, 86 CB 2,520, 86 GK 2,220) — none should be used as if it were a real price, and 86 GK/86 CB/86 CM are additionally prices for cards that do not exist.
+**Entity data:** Unai Simon 81 GK 190cm/29/Right, GKR 78/GKH 77, A Bilbao · Carnesecchi 81 GK 191cm/26/Right, GKR 80/GKH 77, A Bergamo · Donnarumma 85 GK (sakibpro id 14078).

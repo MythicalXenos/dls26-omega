@@ -68,7 +68,7 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | # | Claim | Confidence | Volatility | Sources |
 |---|---|---|---|---|
 | 35 | New verified price cells: 84CM = 84AM = 2,390; 83CB = 2,085; 82CM = 2,085; 84GK = 1,950 | medium — single third-party source (deception_register #2 cap); same source as the existing anchors, so the tier does NOT rise | patch | S-0255 |
-| 36 | Cross-group price collision: 83CB = 82CM = 2,085 — the crossed-price recipe is ambiguous at intersections | high (arithmetic on two verified cells) | patch | S-0255 |
+| 36 | **UPGRADED turn 71 — the collision is THREE-WAY: 2,085 = 82 CM = 83 CB = 83 GK** (most ambiguous price in the grid); 1,950 = 82 CB = 84 GK (two-way) | high (observed on both operators) | patch | S-0255/0268/0269 |
 | 37 | The trending page's "Last Updated" field is a render date, not update provenance (advanced 2 days with identical content) | high (direct behavioural observation of the page) | static | S-0256 |
 
 ### Claims promoted (turn 66)
@@ -103,6 +103,14 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | # | Claim | Confidence | Volatility | Sources |
 |---|---|---|---|---|
 | 50 | 83 GK = 2,085 (three independent players); sakibpro's 1,825 extrapolation is wrong | medium-high (three observations) — but see 51 | patch | S-0268 |
-| 51 | The GK price ladder is NON-MONOTONIC under dlsinside readings (81:1590 / 82:1705 / 83:2085 / 84:1950 / 85:2080); the only group that is. Cause UNKNOWN | **OPEN** — recorded, not explained | patch | S-0268 |
+| 51 | **UPGRADED turn 71:** the GK price ladder really IS non-monotonic — 81:1590 / 82:1705 / **83:2085** / 84:1950 / 85:2080, so an 83 GK costs more than an 84 GK. Established as a real property of the price table (bracketing cells confirmed by both operators; mis-rating ruled out arithmetically). **Why FTG's table has this shape remains unexplained** | high (shape) / open (cause) | patch | S-0268/0269 |
 | 52 | 85 GK = 2,080 confirmed (Courtois); sakibpro rating drift now five cases | high (two operators) | patch | S-0268 |
 | 53 | dlsinside "Exclusive" class = historical/unavailable cards with NO price field; sakibpro's normal-tier lists are contaminated with non-market cards | high (direct page observation) | static | S-0268 |
+
+### Claims promoted (turn 71)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 54 | 81 GK = 1,590 (three players) and 85 GK = 2,080 (two operators, two different players) | high | patch | S-0269 |
+| 55 | The GK non-monotonic kink at 83 is a real property of the price table, not a source artifact | high | patch | S-0268/0269 |
+| 56 | 2,085 is a THREE-WAY collision (82 CM / 83 CB / 83 GK) — the most ambiguous price in the grid | high | patch | S-0269 |
+| 57 | Extrapolated cells are where pricing anomalies hide: sakibpro's formula was wrong on the one GK cell it could not observe; all four remaining extrapolated cells should be treated as unreliable by default | medium-high (one demonstrated failure + a clear mechanism) | static | S-0268/0269 |
