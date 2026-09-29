@@ -436,3 +436,30 @@ The control is Kane 10159 (normal): `Transfer Market Price | **2,970** Coins ✔
 - **Special-side drift** (Berbatov 84 vs 85, Évora Dias 84 vs 83, Petit 85 vs 84) is a *genuine inter-source conflict*, because sakibpro marks specials ✔️ OFFICIAL. Berbatov's row reads `OVR: **84** ✔️ OFFICIAL` — it is not a calculation, so the disagreement with dlsinside's 85 is real and unresolved.
 
 **Cell status unchanged: 20 of 24 two-or-three-source.** The 85 CF cell remains Extrapolated — neither 84-CF probe reached 85, so it needs a genuine 85-rated forward (lead recorded: the `/players/normal/` index is the systematic route).
+
+## Addendum (turn 79): the 85-Forward cell — value confirmed, observation still missing; and a correction (S-0304..S-0312)
+
+**The 85 Forward cell = 2,785, corroborated by a second independent model — but it is still NOT an observation, so the count stays 20 of 24.**
+
+| Card | Family | Pos | OVR | Price row | Rating row |
+|---|---|---|---|---|---|
+| Raphinha 15226 | Normal | **LW 85** | 85 ✔️ OFFICIAL | **2,785 ⚠️ ESTIMATED** | OFFICIAL |
+| Vini Jr 16320 | Normal | **LW 85** | 85 ⚠️ ESTIMATED | **2,785 ⚠️ ESTIMATED** | ESTIMATED |
+
+Two distinct players, two different clubs, identical price — which independently re-confirms Forward-tier flatness (CF = SS = LW). And 2,785 is *exactly* the value my linear extrapolation had produced, so two independent methods now agree.
+
+**But both rows are flagged ⚠️ ESTIMATED.** That means sakibpro **computed** these prices rather than reading them off the game. So this is model-to-model agreement, not a new observation, and I am **not** promoting the cell to Verified. The honest status: *the value 2,785 is now well-supported, but no ✔️ VERIFIED price for an 85 Forward exists anywhere in the reachable data.* **Cell count remains 20 of 24.**
+
+Worth noting the two methods are genuinely different: a naive midpoint of the neighbours would give (2,610 + 2,970)/2 = 2,790, whereas both my growing-step extrapolation and sakibpro's model give **2,785**. They are not the same arithmetic.
+
+### CORRECTION to claim 81 (turn 78) — the flags are per-record, not per-class
+
+Yesterday I wrote that "the price field reads VERIFIED even when the rating is ESTIMATED", on the strength of Kane 10159. **That generalisation is wrong and is hereby withdrawn.** Raphinha 15226 has an **OFFICIAL rating and an ESTIMATED price** — the exact inverse of Kane. And de Gea 28324 is a **special** card with an **ESTIMATED** rating.
+
+What actually survives, and it is still useful: **the rating flag and the price flag vary independently *within a single record***. So a VERIFIED price is not contaminated by an ESTIMATED rating on the same card — that part of claim 81 stands, and it is why the 2,610 / 2,970 corroborations from turn 78 remain valid. But there is no rule that either field is reliable by default; **each record must be read individually.**
+
+This also refines the drift split from claim 82: it must be applied per record, not per class. Berbatov is OFFICIAL, so his 84-vs-85 gap is a genuine inter-source conflict. de Gea is ESTIMATED, so his rating could be a computation artifact. Class membership settles nothing on its own.
+
+### Why no 85 CF was ever found
+
+The 85 cohort is exactly eleven players and contains **no CF at all** — the Forward column runs 86 → 84 with nothing between. The cell was only reachable because LW is Forward-equivalent under the tier model. Two of the eleven are Raphinha (duplicate records 15226 and 27135), so the true distinct-player count is ten.

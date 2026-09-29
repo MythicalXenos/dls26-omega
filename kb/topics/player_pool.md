@@ -372,3 +372,47 @@ All six are Version 160-13430 and **none carries a coin price**, extending the n
 **Pedri sidebar corroborates the turn-76 WC correction with a second operator:** sakibpro files Pogba 27846 under **`/players/world-winners/`**, a family distinct from `world-cup-heroes`. The two World Cup families are genuinely separate.
 
 **Source-hygiene note (S-0284):** dreamkitsapp now serves its imagery from `img.dlsinside.com`. The two sites are affiliated, so they cannot be treated as fully independent operators for corroboration purposes.
+
+## Addendum (turn 79): the taxonomy is EXHAUSTIVE; G-0086 answered as a nameless stub (S-0304..S-0320)
+
+**ALL ELEVEN SPECIAL FAMILIES NOW CARRY AN EXPLICIT AGENT ROW.** The acquisition-channel law is no longer a sample — it is a census. Every special family in the 12-family taxonomy has been read individually:
+
+| Family | Agent row | Size |
+|---|---|---|
+| Champion | **Champion Agent** | 12 |
+| Team of 2025 | **Team of 2025 Agent** | 11 |
+| Kickoff | **Kick Off Agent** | 2 |
+| Classic | **Classic Agent** | 32 |
+| Dynamic Star | **Dynamic Star Agent** | 40 |
+| Dream Star 26 | **Dream Star 26 Agent** | 12 |
+| Dream Star 25 | **Dream Star 25 Agent** | 11 |
+| World Cup Heroes | **World Cup Heroes Agent** | — |
+| Season Pass | **Season Pass Agent** | 1 |
+| Cult Heroes | **Cult Heroes Agent** | 12 |
+| World Winners | **World Winners Agent** | 8 |
+| *Normal* | *(no Agent — Transfer Market Price row)* | *14,232* |
+
+**Eleven of eleven. Only Normal is market-tradeable.** The no-price rule is now exhaustive across the taxonomy rather than "confirmed on N families with an untested remainder".
+
+**NEW ROSTERS.** Dream Star 26 = 12 (Anderson 27832, Ryerson 27828, Svilar 27827, Igor Thiago 27483, Yildiz 27481, de Arrascaeta 27482 all 84; Berg 27831, M. Sarr 27829, Suárez 27835, Tzolis 27834, Vušković 27830 all 83; El Karouani 27833 82). Dream Star 25 = 11 (McTominay 25987, Wood 25992, Álex Baena 25989 at 84; then eight at 83-82). Season Pass = **1**. World Winners = **8**.
+
+**World Winners composition encodes the tournament itself** — Spain 2026 (Lamine Yamal 27845, Rodri 27843, Cubarsí 27844, Cucurella 28188), Argentina 2022 (E. Martínez 27849, Enzo 27838), France 2018 (Pogba 27846, Pavard 27847). A neat structural detail: the family is a roll-call of the last three winning squads.
+
+**NEW MECHANIC — a pity system.** The Pogba page states the event's **Legendary Agent guarantees a featured World Winners card every 15 draws**. Note the inconsistency: the detail field says "World Winners Agent", the prose says "Legendary Agent".
+
+### G-0086 ANSWERED — 26841 is a nameless placeholder, not a hidden player
+
+This gap asked for the identity of record 26841. **There isn't one, and that is the answer.** Two independent operators agree on every material point:
+
+- **sakibpro:** blank name (the page title is just "Classic 2006"), generic slug `player`, Spain, GK, 180cm, **weight 0 kg**, Left foot, "OVR: **86** ✔️ OFFICIAL", **all eight stats = 0, Total 0**, no DOB/age field.
+- **dreamkitsapp:** blank Name / Last name / Nickname, Spain, Left, 180cm, **Weight 0kg**, **Birthdate Jan 01, 1970** (the Unix epoch — the classic database placeholder), Age 0, all ten stats zero, and an **empty** version/rating table. It classes the record as a **"secret player"**: *"created by the developers as test characters or hidden content, either completely invented or as experimental versions of real players."*
+
+**So 26841 is a developer test/stub record, not a mystery footballer.** Every name-based lookup was doomed because no source holds a name. The gap closes by recharacterisation.
+
+**Stubs are a class, not a one-off.** 26841's sidebar exposed a second nameless record using the same generic slug: **25848** (`/players/normal/player/25848/`, 4 OVR). This is the same phenomenon as the earlier staging artifacts (blank age, placeholder DOB) — an unfinished-record class inside the shipped database.
+
+### The 85-rated cohort, and why there is no 85 CF
+
+The normal index (14,232 records, 1,186 pages, OVR-descending) let me enumerate the whole 85 band. It is exactly **eleven players**: B. Fernandes AM, Donnarumma GK, Gabriel CB, Hakimi RB, Pedri CM, **Raphinha LW (×2 — duplicate records 15226 and 27135)**, Valverde CM, **Vini Jr LW**, Virgil CB, Vitinha CM.
+
+**No 85-rated CF exists.** The Forward column jumps 86 (Haaland, Kane, Mbappé, Dembélé) straight to 84 (J. Álvarez, Lautaro). Under the tier model (CF = SS = LW) the 85-Forward cell is only reachable via the two LWs — which is exactly how I finally reached it.

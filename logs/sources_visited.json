@@ -8890,11 +8890,312 @@
       "game_version": "DLS26 V13430 / code 160",
       "source_reliability": "third-party",
       "status": "success"
+    },
+    {
+      "id": "S-0304",
+      "url": "https://sakibpro.com/players/normal/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**The systematic route into the normal pool: 14,232 records, 1,186 pages, sorted by OVR descending.** Page 1 top-12: Crimaldi 27676 (AM 92), Moore 25806 (RM 88), Haaland 17196 (CF 86), Kane 10159 (CF 86), Lamine Yamal 21929 (RW 86), Mbappe 14756 (CF 86), O. Dembele 15403 (CF 86), Olise 18158 (RW 86), B. Fernandes 12434 (AM 85), Donnarumma 14078 (GK 85), Gabriel 16347 (CB 85), Hakimi 15932 (RB 85).",
+      "entities": [
+        "Normal pool = 14,232"
+      ],
+      "claims": [
+        "normal index is OVR-sorted and paginated; the route to any rating cell"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0305",
+      "url": "https://sakibpro.com/players/dreamstar26/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**Dream Star 26 = 12 cards** (84 down to 82): Elliot Anderson 27832 DM 84, Julian Ryerson 27828 RB 84, Mile Svilar 27827 GK 84, Igor Thiago 27483 CF 84, Kenan Yildiz 27481 SS 84, Giorgian de Arrascaeta 27482 AM 84, Patrick Berg 27831 DM 83, Malang Sarr 27829 CB 83, Luis Suarez 27835 CF 83, Christos Tzolis 27834 LM 83, Luka Vuskovic 27830 CB 83, Souffian El Karouani 27833 LB 82.",
+      "entities": [
+        "Igor Thiago 27483",
+        "Luis Suarez 27835"
+      ],
+      "claims": [
+        "Dream Star 26 roster = 12"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0306",
+      "url": "https://sakibpro.com/players/dreamstar25/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**Dream Star 25 = 11 cards** (84 down to 82): Scott McTominay 25987 CM 84, Chris Wood 25992 CF 84, Alex Baena 25989 LM 84, Andrey Santos 25988 CM 83, Rayan Cherki 25986 RW 83, Dean Huijsen 25984 CB 83, Nico Paz 25990 AM 83, Antonee Robinson 25985 LB 83, Sem Steijn 25991 AM 83, Dani Vivian 25983 CB 83, James Trafford 25982 GK 82.",
+      "entities": [
+        "Chris Wood 25992"
+      ],
+      "claims": [
+        "Dream Star 25 roster = 11"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0307",
+      "url": "https://sakibpro.com/players/normal/?page=2",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Page 2 of the OVR-sorted normal index. **The complete 85-rated cohort is: B. Fernandes AM, Donnarumma GK, Gabriel CB, Hakimi RB, Pedri CM 17763, Raphinha LW 15226, Raphinha LW 27135, Valverde CM 16636, Vini Jr LW 16320, Virgil CB 27130, Vitinha CM 18183.** Critical negative: **there is NO 85-rated CF anywhere in the pool** \u2014 the Forward column jumps 86 (Haaland/Kane/Mbappe/Dembele) straight to 84 (J. Alvarez/Lautaro). But LW counts as Forward under the tier model (CF=SS=LW), so **Raphinha 15226 and Vini Jr 16320 ARE the 85-Forward cell.**",
+      "entities": [
+        "Raphinha 15226",
+        "Vini Jr 16320",
+        "Pedri 17763"
+      ],
+      "claims": [
+        "no 85 CF exists; 85 LW = the 85 Forward cell",
+        "Raphinha holds duplicate normal records 15226 and 27135"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0308",
+      "url": "https://sakibpro.com/players/normal/?page=3",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Page 3 confirms the drop to the 84 cohort: J. Alvarez 19159 CF 84, Kvaratskhelia 19927 LW 84, Lautaro 16329 CF 84, Luis Diaz 17207 LW 84, M. Salah 12027 RW 84, N. Mendes 17811 LB 84, Raya 16412 GK 84, Rice 16332 CM 84, Rodri 16327 DM 84, Saka 17588 RW 84, Saliba 17387 CB 84, Szoboszlai 17272 AM 84. Confirms the 85 cohort is exactly the 11 names on pages 1-2.",
+      "entities": [],
+      "claims": [
+        "85 cohort fully enumerated: 11 players, zero CF"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0309",
+      "url": "https://sakibpro.com/players/dreamstar26/igor-thiago/27483/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Detail row: '| Acquired Via | **Dream Star 26 Agent** (check) SPECIAL EDITION |', no price row. Rating 'OVR: **84** (check) OFFICIAL'. Igor Thiago, Brazil CF, 191cm/85kg, SPE 82/ACC 77/STR 93/CON 84/PAS 75/TAC 37/STA 83/SHO 93, Total 624. Tenth family confirmed Agent-only.",
+      "entities": [
+        "Igor Thiago 27483"
+      ],
+      "claims": [
+        "acquisition-channel law: 'Dream Star 26 Agent'"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0310",
+      "url": "https://sakibpro.com/players/dreamstar25/chris-wood/25992/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Detail row: '| Acquired Via | **Dream Star 25 Agent** (check) SPECIAL EDITION |', no price row. Rating 'OVR: **84** (check) OFFICIAL'. Chris Wood, New Zealand CF, 191cm/81kg, SPE 77/ACC 70/STR 94/CON 85/PAS 76/TAC 51/STA 86/SHO 92, Total 631. Eleventh family confirmed Agent-only \u2014 **completing all 11 special families.**",
+      "entities": [
+        "Chris Wood 25992"
+      ],
+      "claims": [
+        "acquisition-channel law: 'Dream Star 25 Agent'"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0311",
+      "url": "https://sakibpro.com/players/normal/raphael-belloli/15226/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**THE 85-FORWARD CELL.** Raphinha 15226, Normal 2026, **LW 85**, FC Barcelona, Brazil, Left, 176cm/72kg. Detail row: '| Transfer Market Price | **2,785** Coins (warning) **ESTIMATED** |' and '| Base Rating | OVR: **85** (check) **OFFICIAL** |'. **The price 2,785 EXACTLY matches my extrapolated value for the 85 Forward cell \u2014 but it is flagged ESTIMATED, i.e. a model output, not an observation.** Stats SPE 85/ACC 87/STR 71/CON 87/PAS 90/TAC 51/STA 85/SHO 91, Total 647. Also: this record's rating is OFFICIAL while its price is ESTIMATED.",
+      "entities": [
+        "Raphinha 15226"
+      ],
+      "claims": [
+        "85 Forward = 2,785 confirmed by a second independent model but still NOT OBSERVED",
+        "price flag can be ESTIMATED too \u2014 refutes turn-78 claim 81"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0312",
+      "url": "https://sakibpro.com/players/normal/vin-cius-j-nior/16320/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**Second 85-Forward data point.** Vinicius Junior 16320, Normal 2026, **LW 85**, Real Madrid, Brazil, Right, 176cm/73kg. '| Transfer Market Price | **2,785** Coins (warning) ESTIMATED |' \u2014 **identical value to Raphinha 15226**, confirming Forward-tier flatness (CF=SS=LW) across two distinct players. Rating here is 'OVR: **85** (warning) ESTIMATED' (whereas Raphinha 15226's rating was OFFICIAL) \u2014 so the flags vary per record. Stats SPE 93/ACC 95/STR 62/CON 93/PAS 87/TAC 26/STA 83/SHO 85, Total 624. Note: first fetch returned HTTP 502; retry succeeded (transient).",
+      "entities": [
+        "Vini Jr 16320"
+      ],
+      "claims": [
+        "85 Forward = 2,785 reproduced on a second player",
+        "flags vary per record"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0313",
+      "url": "https://sakibpro.com/players/world-cup-heroes/cristiano-ronaldo/27841/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Detail row: '| Acquired Via | **World Cup Heroes Agent** (check) SPECIAL EDITION |', no price row. 'World Cup Heroes 2018', rating 'OVR: **87** (check) OFFICIAL', position **CF** (dlsinside lists this card as CF/LW \u2014 minor position-label difference). Portugal, Both feet, 187cm/83kg, SPE 86/ACC 81/STR 85/CON 90/PAS 83/TAC 41/STA 83/SHO 95, Total 644.",
+      "entities": [
+        "Ronaldo 27841"
+      ],
+      "claims": [
+        "acquisition-channel law: 'World Cup Heroes Agent'"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0314",
+      "url": "https://sakibpro.com/players/season-pass/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**Season Pass = exactly 1 card**: Joao Pedro 28356 (CF 82, Brazil), slug `jo-o-pedro`.",
+      "entities": [
+        "Joao Pedro 28356"
+      ],
+      "claims": [
+        "Season Pass roster = 1"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0315",
+      "url": "https://sakibpro.com/players/season-pass/jo-o-pedro/28356/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Detail row: '| Acquired Via | **Season Pass Agent** (check) SPECIAL EDITION |', no price row. 'Season Pass 2026', rating 'OVR: **82** (check) OFFICIAL', CF, Both feet, 182cm/72kg, SPE 83/ACC 83/STR 80/CON 86/PAS 83/TAC 29/STA 80/SHO 87, Total 611.",
+      "entities": [
+        "Joao Pedro 28356"
+      ],
+      "claims": [
+        "acquisition-channel law: 'Season Pass Agent'"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0316",
+      "url": "https://sakibpro.com/players/cult-heroes/david-de-gea/28324/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Detail row: '| Acquired Via | **Cult Heroes Agent** (check) SPECIAL EDITION |', no price row. 'Cult Heroes 2018', GK, 192cm/76kg, GK Reactions 85 / GK Handling 80, Total 503. **RATING IS 'OVR: **85** (warning) **ESTIMATED**' \u2014 a SPECIAL card with an ESTIMATED rating, which refutes the turn-78 generalisation that specials are always OFFICIAL.** Sidebar yields the decisive G-0086 lead: a link to `/players/classic/player/26841/` (86 OVR, blank name).",
+      "entities": [
+        "de Gea 28324"
+      ],
+      "claims": [
+        "acquisition-channel law: 'Cult Heroes Agent'",
+        "REFUTES claim 82's per-class reading: specials can be ESTIMATED",
+        "yields the 26841 route"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0317",
+      "url": "https://sakibpro.com/players/world-winners/paul-pogba/27846/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "Detail row: '| Acquired Via | **World Winners Agent** (check) SPECIAL EDITION |', no price row. 'World Winners 2018', CM, 86 (check) OFFICIAL, France, Both feet, 191cm/78kg, SPE 77/ACC 71/STR 89/CON 89/PAS 92/TAC 71/STA 85/SHO 82, Total 656. **NEW MECHANIC in the prose: the event's 'Legendary Agent' guarantees a featured World Winners card every 15 draws (a pity system).** NOTE the naming inconsistency: the field says 'World Winners Agent' while the prose says 'Legendary Agent'. Prose also states the campaign honours title-winners from France (2018), Argentina (2022) and Spain (2026), in an eight-player roster.",
+      "entities": [
+        "Pogba 27846"
+      ],
+      "claims": [
+        "acquisition-channel law: 'World Winners Agent'",
+        "Legendary Agent pity mechanic: guaranteed featured card every 15 draws"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0318",
+      "url": "https://sakibpro.com/players/classic/player/26841/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**G-0086 ANSWERED \u2014 record 26841 is a NAMELESS PLACEHOLDER, not a hidden player.** The page has a BLANK name (title is just 'Classic 2006 - DLS 26 Stats'), generic slug `player`, Spain, Free Agent, **GK**, 180cm, **weight 0 kg**, Left foot, 'OVR: **86** (check) OFFICIAL', **all eight stats = 0 (Total 0)**, and no DOB/age field at all. 'Acquired Via | **Classic Agent** (check) SPECIAL EDITION'. **There is no identity to recover: the record carries no name in the source data either.** Its sidebar exposes a second nameless stub: `/players/normal/player/25848/` at 4 OVR.",
+      "entities": [
+        "record 26841",
+        "record 25848"
+      ],
+      "claims": [
+        "G-0086 RESOLVED by recharacterisation: nameless placeholder",
+        "nameless stubs are a class, not a one-off"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0319",
+      "url": "https://sakibpro.com/players/world-winners/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**World Winners = 8 cards**, and the composition encodes the winning nations: **Spain (2026)** Lamine Yamal 27845 RW 87, Rodrigo 27843 DM 87, Pau Cubarsi 27844 CB 85, Marc Cucurella 28188 LB 85; **Argentina (2022)** Emiliano Martinez 27849 GK 86, Enzo Fernandez 27838 DM 85; **France (2018)** Pogba 27846 CM 86, Benjamin Pavard 27847 RB 84. Confirms the 8-player roster size stated in the Pogba prose.",
+      "entities": [
+        "Lamine Yamal 27845",
+        "Rodri 27843",
+        "E. Martinez 27849",
+        "Pavard 27847"
+      ],
+      "claims": [
+        "World Winners roster = 8; composition = the three WC-winning nations"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
+    },
+    {
+      "id": "S-0320",
+      "url": "https://dreamkitsapp.com/player/26841",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T09:40:00Z",
+      "summary": "**INDEPENDENT CROSS-CHECK of the G-0086 answer, on a second operator.** dreamkitsapp shows 26841 with **blank Name, blank Last name, blank Nickname**, Nationality Spain, Left foot, 180cm, **Weight 0kg**, **Birthdate Jan 01, 1970** (the Unix epoch \u2014 a classic database placeholder), Age 0, Status Active, Last update DLS V160-13430, and **all ten stats zero**. It files the record as a **'secret player'**: 'a mysterious category that does not normally appear visible in the game... often created by the developers as test characters or hidden content'. Its displayed rating is 414 and its version/rating table is empty. The two operators agree on every material point.",
+      "entities": [
+        "record 26841"
+      ],
+      "claims": [
+        "G-0086 cross-checked on a second operator: nameless, epoch DOB, zero stats, 'secret player' class"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party (sakibpro)",
+      "status": "success"
     }
   ],
   "frontier": {
-    "discovered_total": 556,
-    "visited_total": 302,
+    "discovered_total": 585,
+    "visited_total": 319,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
@@ -10993,8 +11294,104 @@
         "derived_from": "S-0284",
         "related": [],
         "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/player/25848/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/player/25848/",
+        "derived_from": "S-0307/0311",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/raphael-belloli/27135/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/raphael-belloli/27135/",
+        "derived_from": "S-0307/0311",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/federico-valverde/16636/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/federico-valverde/16636/",
+        "derived_from": "S-0307/0311",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/virgil-van-dijk/27130/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/virgil-van-dijk/27130/",
+        "derived_from": "S-0307/0311",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
+        "derived_from": "S-0319",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-winners/rodri/27843/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/rodri/27843/",
+        "derived_from": "S-0319",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-winners/lamine-yamal/27845/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/lamine-yamal/27845/",
+        "derived_from": "S-0319",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-cup-heroes/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-cup-heroes/",
+        "derived_from": "S-0313/0316/0318",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/classic/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/classic/",
+        "derived_from": "S-0313/0316/0318",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/cult-heroes/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/cult-heroes/",
+        "derived_from": "S-0313/0316/0318",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-cup-heroes/keylor-navas/27837/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-cup-heroes/keylor-navas/27837/",
+        "derived_from": "S-0318",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/?page=4",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/?page=4",
+        "derived_from": "S-0307",
+        "related": [],
+        "witness": "internal"
       }
     ],
-    "unvisited_total": 254
+    "unvisited_total": 266
   }
 }
