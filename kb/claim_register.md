@@ -129,3 +129,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 62 | 20 of 24 cells two-source; the whole reachable grid (81-85 x 4 groups) is corroborated; only the four Extrapolated cells are excluded, by rule | high | patch | S-0272 |
 | 63 | The Exclusive class includes retired players preserved at their final rating, and a player can hold both an active and a retired/Exclusive record (van Dijk 7307 vs 27130) | high (direct observation) | static | S-0272 |
 | 64 | sakibpro TOP-N lists are unusable for three independent reasons: rating drift, Exclusive/retired contamination, and duplicate records | high | patch | S-0270/0272 |
+
+### Claims promoted (turn 74)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 65 | The per-stat weight coefficients are unreachable by URL/JS fetch; the cheapest remaining route is a user screenshot reading the DEVELOPMENT PROGRESS delta | high (two 404s + a stated mechanism) | static | S-0273 |
+| 66 | DLS24-era weight scheme was CON = STR = 2 points, all other stats = 1 — ERA-TAINTED, and its divergence from DLS26 (SPE cheap vs expensive) evidences a rework | medium (community source, era-tainted) | static | S-0274 |
+| 67 | sakibpro contradicts itself on Essien (84 on its New Update page, 85 on its trending page) | high (direct observation, same operator) | patch | S-0274/S-0256 |

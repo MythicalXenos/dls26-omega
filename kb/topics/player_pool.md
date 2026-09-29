@@ -297,3 +297,15 @@ The twin-pair shape (25849/25850) is the same tell as the secret Messi twins (24
 | Classic Gallagher 5866 | CM/AM | 82 | Right | 182* | IE(!) | Passing 79 | UNKNOWN Gallagher (nationality oddity) |
 * = staging default (all four share 182cm + blank age; Bergkamp 5604 also DOB 1900-01-01). Foot/positions/ratings/stats are REAL-profile fields (Irwin left-footed LB/RB = biographically exact).
 **The 4/4 Ireland-flag mystery = the staged set itself** — all four leak-set records carry the same Ireland flag image. Readings: (a) the set is themed around Irish classics (Keane/Irwin/(M.)Robinson genuine + an Irish "Gallagher" unidentified); (b) the flag is a set-wide staging default (Gallagher = Conor Gallagher would be English); (c) leak-name "Conor Gallagher" is an alias/garble. Ratings ladder: 87/85/82/76 — the leak's "85" figure sits on Irwin exactly.
+
+## Addendum (turn 74): full eight-stat blocks for five new special cards (S-0274)
+Published by sakibpro's "DLS 26 New Update" page (20 Aug 2026). **ERA: DLS26, single source.**
+| Card | OVR | SPE | ACC | STA | STR | CON | PAS | SHO | TAC |
+|---|---|---|---|---|---|---|---|---|---|
+| David Luiz (CB, 2017, Cult Heroes) | 84 | 78.9 | 74.9 | 82.9 | 85.9 | 80.0 | 80.0 | 67.0 | 89.9 |
+| Emmanuel Petit (DM, 1999, Classic) | 84 | 79 | 77 | 90 | 84 | 81 | 82 | 72 | 85 |
+| Andy Cole (CF, 1994, Classic) | 84 | 88 | 88 | 85 | 80 | 83 | 79 | 92 | **30** |
+| Michael Essien (DM, 2006, Classic) | 84 | 77 | 78 | 91 | 82 | 81 | 83 | 75 | 86 |
+| Dimitar Berbatov (CF, 2011, Classic) | 84 | 79 | 78 | 76 | 85 | 91 | 85 | 92 | **39** |
+**Two oddities worth carrying forward.** First, **David Luiz's block carries one decimal place (78.9, 74.9, 82.9, 85.9, 89.9) while every Classic card is a whole number** — which suggests the Cult Heroes block was computed or scaled by a different path than the Classic one, and it is the first non-integer stat set recorded anywhere in this project. Second, **Essien is rated 84 on this page but 85 on sakibpro's own trending page (S-0256)** — one operator contradicting itself, which matters because self-contradiction inside a single source is a stronger reason for caution than disagreement between two sources.
+The two very low Tackling values on the strikers (Cole 30, Berbatov 39) are consistent with attacker stat templates and are useful for the coaching work: they are the stats with the most headroom.

@@ -8320,11 +8320,52 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields; ratings agreed with sakibpro for all six active players probed",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0273",
+      "url": "https://sakibpro.com/assets/js/simulator.js + https://sakibpro.com/players/simulator.js",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:12:00Z",
+      "summary": "ROUTE TEST (negative): both guessed JS paths 404 (the site returns a WordPress 'Page Not Found' for /assets/js/simulator.js and a 'This Page Does Not Exist' block for /players/simulator.js). The per-stat weight coefficients live in client-side JavaScript that fetch_page cannot execute, and the bundle path is not guessable. **Recorded so the route is not retried blindly: the coefficients CANNOT be obtained by URL guessing.** The remaining routes are (a) JS execution, unavailable here; (b) a user screenshot of the simulator while adding +1 to a single stat, reading the DEVELOPMENT PROGRESS delta \u2014 this is the cheapest and most reliable route and needs the user; (c) datamining the game files.",
+      "entities": [],
+      "claims": [
+        "simulator JS is not reachable by URL guessing (404s); coefficients need JS, a user screenshot, or datamining"
+      ],
+      "game_version": "n/a",
+      "source_reliability": "route test",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0274",
+      "url": "reddit r/DreamLeagueSoccer 'How to train your Dragon' (Oct 2023) + footballgamingbd (Jun 2026) + sakibpro.com/dls-26-new-update-events-players/ (Aug 2026)",
+      "method": "search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:14:00Z",
+      "summary": "Three adjacent findings while hunting the weights. (1) **A concrete per-stat weight scheme, but DLS24-era (Reddit, Oct 2023): 'Point Value... SPE = ACC = STA = TAC = PAS = SHO = 1 point value; CON = STR = 2 points value.'** First concrete numbers seen for any version. Note it CONTRADICTS the DLS26 simulator's claim that CON *or SPE* are expensive \u2014 here SPE is cheap \u2014 which corroborates that the weighting was reworked between versions (consistent with the DLS24-to-DLS26 budget rework already recorded). ERA-TAINTED: must not be applied to DLS26. (2) **footballgamingbd (June 2026, DLS26-labelled) coaching grid in COINS**, which is new \u2014 the coach tiers carry coin prices, not just gems: COMMON 1 random stat (23-25), 2 random stats (71-75), 3 random stats (213-225); then +1 stat with 2 chosen, 5% bonus dev (85-90); +2 with 3 chosen, 10%; +3 with 4 chosen, 20%. Pairs look like crossed/original prices, matching the ~200-coin secret discount pattern seen elsewhere. (3) **sakibpro's 'DLS 26 New Update' page (20 Aug 2026) publishes FULL eight-stat blocks for five new special cards** \u2014 David Luiz (CB 84, 2017 cult hero) Speed 78.9 / Acc 74.9 / Sta 82.9 / Str 85.9 / Con 80.0 / Pas 80.0 / Sho 67.0 / Tac 89.9; Petit (DM 84, 1999) SPE 79 / ACC 77 / STA 90 / STR 84 / CON 81 / PAS 82 / SHO 72 / TAC 85; Andy Cole (CF 84, 1994) 88/88/85/80/83/79/92/**TAC 30**; Essien (DM 84, 2006) 77/78/91/82/81/83/75/86; Berbatov (CF 84, 2011) 79/78/76/85/91/85/92/**TAC 39**. Two oddities: **David Luiz's stats carry one decimal place (78.9, 74.9, 85.9, 89.9) while the Classic cards are integers** \u2014 suggesting the Cult Heroes block was scaled or computed differently; and **Essien is given as 84 here but 85 on sakibpro's own trending page (S-0256)** \u2014 an internal contradiction within one operator, which is worth flagging since it is the same site disagreeing with itself.",
+      "entities": [
+        "David Luiz",
+        "Emmanuel Petit",
+        "Andy Cole",
+        "Michael Essien",
+        "Dimitar Berbatov"
+      ],
+      "claims": [
+        "DLS24-era weight scheme: CON = STR = 2 points, all other stats = 1 (era-tainted, do NOT apply to DLS26)",
+        "the weighting was reworked between DLS24 and DLS26 (DLS24 had SPE cheap; DLS26 says SPE expensive)",
+        "coach tiers also carry coin prices (23-25 / 71-75 / 213-225)",
+        "full 8-stat blocks published for five new special cards",
+        "David Luiz stats have decimals while Classic cards are integers",
+        "Essien rated 84 here but 85 on sakibpro's own trending page - one operator contradicting itself"
+      ],
+      "game_version": "mixed: DLS24 (2023) / DLS26 (2026)",
+      "source_reliability": "Reddit 2023 = era-tainted; footballgamingbd = single third-party clone; sakibpro = single source and now self-contradictory on Essien",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 511,
-    "visited_total": 271,
+    "discovered_total": 514,
+    "visited_total": 273,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
@@ -10306,8 +10347,21 @@
           "G-0086"
         ],
         "witness": "S-0239/0245"
+      },
+      {
+        "id": "Q-028",
+        "type": "question",
+        "question": "Could you open sakibpro's Upgrade Simulator (sakibpro.com/players/simulator.html), pick any player, and screenshot the DEVELOPMENT PROGRESS percentage before and after adding +1 to ONE stat? Repeating for each of the eight stats would yield the exact per-stat weight coefficients, which are the last open item in the coaching model and cannot be reached any other way from here (the tool's JavaScript is not fetchable).",
+        "status": "OPEN",
+        "raised": "2026-09-29",
+        "blocks": [
+          "G-0082",
+          "G-0083"
+        ],
+        "priority": "high",
+        "notes": "One screenshot pair per stat. If doing all eight is too much, SPE and STA alone would settle the direction (the tool claims SPE expensive / STA cheap), and CON would give the largest coefficient."
       }
     ],
-    "unvisited_total": 240
+    "unvisited_total": 241
   }
 }
