@@ -136,3 +136,11 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 65 | The per-stat weight coefficients are unreachable by URL/JS fetch; the cheapest remaining route is a user screenshot reading the DEVELOPMENT PROGRESS delta | high (two 404s + a stated mechanism) | static | S-0273 |
 | 66 | DLS24-era weight scheme was CON = STR = 2 points, all other stats = 1 — ERA-TAINTED, and its divergence from DLS26 (SPE cheap vs expensive) evidences a rework | medium (community source, era-tainted) | static | S-0274 |
 | 67 | sakibpro contradicts itself on Essien (84 on its New Update page, 85 on its trending page) | high (direct observation, same operator) | patch | S-0274/S-0256 |
+
+### Claims promoted (turn 75)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 68 | dlsinside's "Version" field is a global current-data stamp, not per-record provenance — it cannot date a card's addition (route closed) | high (~35 pages, identical value) | static | S-0275 |
+| 69 | All 17-roster members probed are present in V13430 / code 160 (2026-09-16) — so the roster was added on or before that version and is live, but its introduction date remains UNCONFIRMED | medium-high (presence certain; date is an upper bound only) | patch | S-0275 |
+| 70 | Special cards carry no coin price, across Classic, Cult Heroes and Season Pass — the price grid applies to normal cards only | high (6 cards, 3 families) | static | S-0275 |
+| 71 | Essien = 85 (resolves a sakibpro self-contradiction); Petit = 85 on dlsinside vs 84 on sakibpro (new contradiction) | medium-high | patch | S-0275 |

@@ -8361,11 +8361,36 @@
       "game_version": "mixed: DLS24 (2023) / DLS26 (2026)",
       "source_reliability": "Reddit 2023 = era-tainted; footballgamingbd = single third-party clone; sakibpro = single source and now self-contradictory on Essien",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0275",
+      "url": "https://dlsinside.com/player/{michael-essien/26838, david-de-gea/28324, andy-cole/27096, paulo-dybala/28333, joao-pedro/28356, emmanuel-petit/27203}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:25:00Z",
+      "summary": "Six members of the 17-player roster probed on dlsinside. **NEGATIVE RESULT \u2014 the Version field cannot date the roster.** Every one of the six shows 'Version 160-13430', but so does every other dlsinside page I have fetched this session (Kane, Valverde, Alisson, Bremer, Modric, Courtois, Lewandowski, Barella and ~25 others). The field is a **global current-data stamp, not per-record provenance** \u2014 it does not record when a player was added, so the dating route via this field is CLOSED. **What it does give is an upper bound: all six are present in the current build V13430 (code 160), which the dlsinside homepage dates to 2026-09-16 \u2014 so the 17-player roster was added ON OR BEFORE that version**, and all 17 are confirmed live rather than leaked or upcoming. **POSITIVE RESULT \u2014 special cards carry no market price.** None of the six shows the 'card has a value of N coins' line that every normal player page carries; instead they read 'this special card has a rating of X' with stats but no coin value, across three different families (Classic, Cult Heroes, Season Pass). So special cards are not bought in the coin market at all, which is consistent with them being event/ladder rewards. **One sakibpro contradiction resolved: Essien is 85 on dlsinside**, confirming sakibpro's own trending page and refuting its New Update page (which said 84). **A new one opened: Petit is 85 on dlsinside but 84 on sakibpro's New Update page.** Retired status is confirmed for the Classic cards (Essien 43, Cole 54, Petit 56) while Cult Heroes and Season Pass cards are Active. Evolution markers on special cards show position/role tokens (Essien '- CM', Cole '- LW - 9', Petit '- DM - 17', de Gea '- 43 - GK'), not yet interpretable.",
+      "entities": [
+        "Michael Essien",
+        "David de Gea",
+        "Andy Cole",
+        "Paulo Dybala",
+        "Joao Pedro",
+        "Emmanuel Petit"
+      ],
+      "claims": [
+        "the dlsinside Version field is a global current-data stamp, NOT per-record provenance - cannot date additions",
+        "all 17-roster players probed are present in V13430 (code 160, 2026-09-16) = upper bound on their addition date",
+        "special cards carry NO coin price across Classic, Cult Heroes and Season Pass families",
+        "Essien = 85 (resolves a sakibpro self-contradiction); Petit = 85 on dlsinside vs 84 on sakibpro (new contradiction)"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields; the Version conclusion rests on ~35 pages all showing the same value",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 514,
-    "visited_total": 273,
+    "discovered_total": 515,
+    "visited_total": 274,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
