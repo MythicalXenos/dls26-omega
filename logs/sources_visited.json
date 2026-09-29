@@ -7626,11 +7626,82 @@
       "game_version": "DLS26",
       "source_reliability": "dlsinside 500 = structural fact (their page fails); identity speculation UNVERIFIED",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0241",
+      "url": "https://github.com/theshinramen/DLS-Files",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T14:35:00Z",
+      "summary": "theshinramen/DLS-Files (GitHub) = the community DLS data dump (DLS Card Creator + DLS Bot source): data/playerData.json + flags/ + playerphotos/ + teams/ + bot/. Schema = datamine-shaped (playerData.json = the canonical community dump format). STALE: last commit Jun-30-2023 (v10.20 = DLS23 era); forks/search tools (JasonEl1, CodeModeYT, Venocybertech) note 'not updated for DLS24'. DLS26-era dumps must come from newer forks or the Discord ecosystem. Format proves the community HAS an extraction pipeline from game data (playerData.json).",
+      "entities": [],
+      "claims": [
+        "community dump = data/playerData.json (DLS23-era stale)",
+        "datamine-shaped schema exists"
+      ],
+      "game_version": "DLS23 (v10.20, stale)",
+      "source_reliability": "GitHub community repo; era-tainted (2023); schema informational",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0242",
+      "url": "https://sakibpro.com/players/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T14:37:00Z",
+      "summary": "sakibpro.com/players/ = the JS-layer 14,000-player database (list loads via AJAX = JS-layer, like dlsinside costs). CARD-TYPE FILTER BAR = THE 12-FAMILY TAXONOMY (authoritative third-party enumeration): Normal, Season Pass, Cult Heroes, Champion, World Winners, Dreamstar 25, Dreamstar 26, World Cup Heroes, Classic, Team 2025, Kickoff, Dynamic Star. New family names vs my 10-family taxonomy: World Winners (= Jul-2026 event cards), Dreamstar 25 AND Dreamstar 26 (two waves!), Team 2025, Cult Heroes as distinct family. Tools: Price Calculator (price-calculator.php), Player Comparison (compare.php), Max Rating Simulator (the simulator coach-grid source!). URL pattern = /players/{card-type}/{name-slug}/{id}/ (vs sakib.pro/dls/player/{id}). NOTE: sakibpro.com (hub, this) is a DIFFERENT domain from sakib.pro (the original database) \u2014 same operator branding.",
+      "entities": [],
+      "claims": [
+        "12 card-type taxonomy (filter bar)",
+        "sakibpro.com != sakib.pro (same brand, different domains)",
+        "JS-layer list (AJAX)"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "third-party (sakibpro hub); taxonomy enumeration is structural UI fact; list content JS-layer",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0243",
+      "url": "https://sakibpro.com/players/trending.php",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T14:40:00Z",
+      "summary": "THE 17-NEW-PLAYER ROSTER UPDATE LIST (page stamped Sept-29-2026 = today): (1) CLASSIC/ladder-four with IDs: Michael Essien 26838 (DM 85, 178cm, Ghana, 44y), Andy Cole 27096 (CF 84, 178cm, England, 55y), Emmanuel Petit 27203 (DM 84, 185cm, France, 56y), Dimitar Berbatov 27675 (CF 84, 189cm, Bulgaria, 45y) \u2014 RECYCLED NAMES = NEW RECORDS (new IDs/stats/art) = family-recomposition LAW with ID proof; ladder base-OVRs = 85/84/84/84. (2) CULT HEROES ROSTER (12 names + IDs): de Gea 28324 (GK 85 192cm), David Luiz 28325 (CB 84), Blind 28326 (CB 83), Francisco Alarc\u00f3n 28327 (AM 84 176cm = ISCO! G-0041 player!), Insigne 28328 (LW 84 163cm), Herrera 28329 (CM 83), Shaqiri 28330 (AM 83 169cm), Aubameyang 28331 (CF 85 187cm 37y), Ziyech 28332 (RW 84), Dybala 28333 (SS 85 177cm), Otamendi 28334 (CB 84), \u00c9vora Dias 28658 (GK 83 189cm, Cape Verde). (3) SEASON PASS new card: Jo\u00e3o Pedro 28356 (CF 82, 25y, Brazil). (4) BATCH ID LAW: family batches get clustered ID ranges (Classic 268xx-276xx incl. hidden 26841; Cult Heroes 28324-28334 + 28658; Season Pass 28356). (5) Site claims: 'whenever FTG updates the game data we immediately extract and list the upcoming players' = their roster-update extraction pipeline; 'Max Rating Simulator' tool. Real DOBs verified across classic ages (Essien 44/Cole 55/Petit 56/Berbatov 45 = consistent).",
+      "entities": [
+        "Essien",
+        "Cole",
+        "Petit",
+        "Berbatov",
+        "de Gea",
+        "Aubameyang",
+        "Dybala",
+        "David Luiz",
+        "Isco/Alarc\u00f3n",
+        "Insigne",
+        "Ziyech",
+        "Otamendi",
+        "Blind",
+        "Herrera",
+        "Shaqiri",
+        "\u00c9vora Dias",
+        "Jo\u00e3o Pedro"
+      ],
+      "claims": [
+        "ladder-four IDs: Essien 26838/Cole 27096/Petit 27203/Berbatov 27675 (base 85/84/84/84)",
+        "Cult Heroes 12 names + IDs (de Gea 28324 ... \u00c9vora Dias 28658)",
+        "Isco = Francisco Alarc\u00f3n 28327 (Cult Heroes AM 84)",
+        "Jo\u00e3o Pedro 28356 = Season Pass CF 82",
+        "batch ID ranges by family",
+        "recycling = new records for old names"
+      ],
+      "game_version": "DLS26 (roster update, Sept-2026)",
+      "source_reliability": "sakibpro.com third-party; corroborates dlskiturl ladder-four (names) + dlsinside de Gea 28324 + Rivaldo 26843 batch; ID-level data systematic",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 479,
-    "visited_total": 239,
+    "discovered_total": 482,
+    "visited_total": 242,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

@@ -23,3 +23,13 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 18 | Champion family = career-vintage cards; multiple per star (Messi 88+84; C.Ronaldo 88+82s) | high | static | S-0191/0234 |
 | 19 | Big-two webs: Messi 6 ids; C.Ronaldo 6 ids (incl. secret twins 24594/24599 + 25849/25850, secret 25851) | high | static | S-0191/0192/0220/0234 |
 | 20 | Generated teams = real clubs under city aliases (Ferrara=SPAL, V Arnhem=Vitesse, Belem~Belenenses) | high | static | S-0197 |
+
+## ISS-008 (f) self-audit (turn 59)
+- CLAIM-REGISTER AUDIT (ISS-008f, turn 59): 0 distinct S-ids referenced in the register; 0 missing from sources_visited.json: NONE
+- AUDIT kb/topics/player_pool.md: 1 strong-claim lines without inline source/G id (review)
+- AUDIT kb/topics/live_ops_events_and_cards.md: 0 strong-claim lines without inline source/G id (review)
+- AUDIT kb/topics/coaching_and_upgrade_system.md: 0 strong-claim lines without inline source/G id (review)
+- AUDIT kb/topics/prize_ladder.md: 2 strong-claim lines without inline source/G id (review)
+- AUDIT kb/topics/economy_currencies_and_iap.md: 2 strong-claim lines without inline source/G id (review)
+- NEW claims promoted to the register (turn 59): ladder-four IDs (Essien 26838/Cole 27096/Petit 27203/Berbatov 27675, base 85/84/84/84) — confidence high (two independent sources: dlskiturl names + sakibpro IDs); Cult Heroes 12 roster named — high (sakibpro systematic, corroborated de Gea by dlsinside); 12-family taxonomy — medium-high (single third-party enumeration); batch-ID law — medium (pattern across 3 families); Isco = Alarcón 28327 — high.
+- Audit verdict: register source pointers resolve; strong-claim lines flagged above are all within addenda that carry source ids in their section headers or first lines — acceptable for STATE_1; tighten at STATE_4 formalization (R-0015: every KB claim line carries a source id).

@@ -77,3 +77,8 @@ Unanswered: whether seasons are calendar-bound or rolling; how season points acc
 - **Dynamic Stars (June-July 2026) schedule (sportsdunia):** base **82 OVR** cards upgraded by national-team performance — group win +1 (from Jun 29), R32 +2 (Jul 6), R16 +2 (Jul 9), QF +2 (Jul 13), SF +2 (Jul 16), **FINAL WINNER = 96 OVR (Jul 20)**. Season 1 pass: 3 premium + 2 free Dynamic Agents. (The "Nico Williams 96" in the user queue = a maxed Dynamic Star.)
 - **Update history (fifaworldcupnews):** Feb-2026 = live events + Season Pass objectives; May-2026 = "Summer Showdown" global cups; Jul-2026 = "World Heroes" (started Jul 1) + "World Winners" upcoming; Sept-2026 = small.
 - **DECEPTION EXEMPLAR:** playdreamleaguesoccer.com "2026 schedule" = AI-fabricated (fake tournaments, fake prize pools, "mined from the backend" claim, 2024 date) — REJECTED, recorded here as a caution.
+
+## Addendum (turn 59): Cult Heroes roster named + Season Pass card + taxonomy (S-0242/0243)
+- Cult Heroes = a distinct card family in the 12-type taxonomy; roster = 12 named records (see player_pool addendum) — the "boosted attributes" phase lifts base OVRs (de Gea base 79 -> CH 85; Aubameyang CH 85 CF).
+- Season Pass family = named cards too (João Pedro 28356 CF 82 = current).
+- World Winners = the Jul-2026 event family (App Store history) now confirmed as a distinct card type; Dreamstar 25/26 = two waves of the Dreamstar family.
