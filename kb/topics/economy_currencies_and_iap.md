@@ -247,3 +247,19 @@ Curve notes: CF 82->85 = +510 (~170/OVR), 85->86 = +185 (steepening); CB 85->86 
 - **Curves:** CF +165/+170/+175/+185 (82->86); CB = FLAT +145 steps (2,230/2,375/2,520 at 84/85/86); CM 85->86 = +175.
 - **2,555 TENSION RESOLVED:** 85 CM = 2,555 VERIFIED (Valverde 16636 / Pedri 17763 / Vitinha 18183) = the exact crossed-out datapoint. The community's "82 overall forward" label was a display-OVR artifact or mis-ID; **market pricing follows the BASE grid (display can lie; price cannot)**. Secret-market recipe CONFIRMED: crossed-out = standard grid price; discount ~200 coins; identify the hidden player by mapping the crossed price to (base OVR, tier).
 - **New base-era ids:** Neymar 1892 (82 LW), Sane 12413, Valverde 16636, **Pedri 17763 (85 CM — distinct from champion-era 27133)**, Vitinha 18183, Bastoni 16390, Saliba 17387, **VVD 7307 (84 CB — second VVD record vs 27130 85 CB)**.
+
+## Addendum (turn 55): TIER MODEL COMPLETE — F/M/D/GK all confirmed flat (S-0230..0233)
+**Final grid shape (18 cells; v = Verified, e = Extrapolated):**
+| OVR | F (CF=SS=LW=RW*) | M (AM=CM=DM=LM*=RM*) | D (CB=LB=RB*=RWB*) | GK |
+|---|---|---|---|---|
+| 86 | 2,970 v | 2,730 e | 2,520 e | 2,220 e |
+| 85 | 2,785 e | 2,555 v | 2,375 v | 2,080 v |
+| 84 | 2,610 v | ~2,395? | 2,230 v | ? |
+| 83 | 2,440 v | 2,235 v | ? | ? |
+| 82 | 2,275 v | ? | ? | ? |
+(* = assumed flat on the confirmed pattern; not yet sampled.)
+- **TIER-FLAT CONFIRMED on every sampled member:** F: CF = SS = LW · M: AM = CM = DM · D: CB = LB · GK separate. Price = f(base OVR, tier) with 4 tiers.
+- **Tier ladders:** at 86: F-M 240 / M-D 210 / D-GK 300. At 85: F-M 230 / M-D 180 / D-GK 295.
+- **Curves:** F concave-up (+165/170/175/185); D linear +145 (84-86); M 83->85 +320 then +175 (steepening like F); GK +140 (85->86).
+- **New base ids:** Donnarumma 14078 (85 GK), Barella 14738, de Jong 15307, McTominay 15929, Bruno Guimaraes 17566, Joao Neves 21494.
+- **MODEL STATUS: complete for practical use** (secret identification, budgeting, agent valuation). Remaining micro-cells are interpolation/assumption territory, confirmable on user market screens.

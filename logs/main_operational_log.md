@@ -859,3 +859,12 @@ refs: S-0226..S-0229, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-003
 
 ## [2026-09-29T13:15Z] BLUFF CHECK — turn 54
 Complete every step planned? All four named cells ran (82LW tension cell + 85CM + 84CB + 86AM) - and the 85CM cell resolved the tension. ISS-008 + Ireland remain staged (item 2). Skip anything silently? No. Incomplete-as-complete? No - the tier-flat conclusion is stated for the SAMPLED tiers (DM/LM/RM/LB/RB/RWB assumed-but-unconfirmed); the display-OVR reading is recorded as the supported interpretation (the alternative - crowd mis-ID - is preserved in the entry); the 82SS "Verified-0-matches" oddity remains noted. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-29T13:20Z] RESEARCH — TIER MODEL COMPLETE (F/M/D/GK flat confirmed); GK + M curves fill in
+session 1 turn 55 | state STATE_1_RESEARCH_SWEEP | topic: G-0038 grid completion
+[Return gap: minutes — same-session run.]
+Four confirmation cells closed the tier question: DM = AM = CM (2,730 at 86) and LB = CB (2,520 at 86) confirm flat pricing within Midfield and Defense; 85 GK = 2,080 verified (Donnarumma 14078) and 83 CM = 2,235 verified (five matches) complete the GK and M curves at the sampled points. The price model is COMPLETE for practical use: price = f(base OVR, tier-of-4), curves and ladders documented, secret-identification recipe operational. Remaining micro-cells are labelled assumptions pending user-screen confirmation.
+refs: S-0230..S-0233, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-0038
+
+## [2026-09-29T13:20Z] BLUFF CHECK — turn 55
+Complete every step planned? All four named cells ran (86DM/86LB tier confirmations + 85GK/83CM rows) - the tier-confirmation objective of item (1) is complete. ISS-008 + Ireland remain staged (item 2), honestly noted. Skip anything silently? No. Incomplete-as-complete? No - un-sampled positions (LM/RM/RB/RWB/RW) are marked assumed-flat-with-pattern, not asserted verified; the ~2,395 84CM estimate carries a question mark; the model-complete claim is scoped 'for practical use' with in-game validation still owed. ISS-009 procedure followed. Advice impact: none; tracker-only.

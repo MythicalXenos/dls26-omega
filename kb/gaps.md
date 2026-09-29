@@ -237,3 +237,5 @@ route: datamine of transfer tables; user observation across rating thresholds.
 
 - **G-0038 (updated, turn 54): TENSION RESOLVED** — 2,555 crossed = 85 CM standard (grid-exact, VERIFIED); the "82 forward" crowd label was display-OVR/mis-ID. Pricing is TIER-FLAT (F: CF=SS=LW; M: AM=CM). 14 cells now; curves: CF concave-up, CB linear +145. Secret-identification recipe operational (crossed price -> base OVR+tier -> candidates). Remaining: DM/LM/RM/LB/RB tier-confirmation + 85GK + 83 rows.
 - **G-0083 (updated, turn 54):** VVD dual-record pair (7307 84 CB base-era vs 27130 85 CB) + Pedri dual (17763 85 CM vs 27133 champion-era 86/87) = more id-block rating pairs for the drift/growth model.
+
+- **G-0038 (updated, turn 55): TIER MODEL COMPLETE** - all four tiers confirmed flat (AM=CM=DM, CB=LB, CF=SS=LW) at their sampled cells. 18 cells; ladders + curves documented. Micro-cells (LM/RM/RB/RWB/RW/84CM/84GK...) = safe assumptions pending user-screen confirmation. G-0038's research-side work is effectively DONE (the price grid + formula + secret recipe); remaining is in-game validation.
