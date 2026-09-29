@@ -233,3 +233,17 @@ Curve notes: CF 82->85 = +510 (~170/OVR), 85->86 = +185 (steepening); CB 85->86 
 - **GK = cheapest tier:** 86 GK 2,220 < 82 CF 2,275. Position ladder at 86: CF 2,970 > CM 2,730 > CB 2,520 > GK 2,220. (GK upgrade model is also separate: 2.2 pts/OVR.)
 - **2,555 tension UNRESOLVED and narrowed:** crossed-out 2,555 matches NO CF/SS cell (sits between 83 CF 2,440 and 84 CF 2,610; the discounted 2,355 also exceeds the 82 CF standard 2,275). Candidates left: LW/RW tier difference (82 LW/RW untested), display-OVR-vs-base, special-card pricing, or a wrong/rounded community claim.
 - **Base-record ids from verified cells:** Lautaro 16329, **Alvarez 19159 (84 CF — the Kick-Off Star cover star's NORMAL card)**, Osimhen 17319, Benzema 2602, Lewandowski 2862, Thuram 15672, Gyokeres 18877, C.Ronaldo 382 + 25851, Gabriel 16347, VVD 27130.
+
+## Addendum (turn 54): TIER-FLAT pricing + the 2,555 tension RESOLVED (S-0226..0229)
+**Grid (14 cells; v = Verified, e = Extrapolated):**
+| OVR | CF | SS | LW | AM | CM | CB | GK |
+|---|---|---|---|---|---|---|---|
+| 86 | 2,970 v | — | — | 2,730 e | 2,730 e | 2,520 e | 2,220 e |
+| 85 | 2,785 e | — | — | — | **2,555 v** | 2,375 v | ? |
+| 84 | 2,610 v | — | — | — | — | 2,230 v | ? |
+| 83 | 2,440 v | — | — | — | — | — | ? |
+| 82 | 2,275 v | 2,275 v | 2,275 v | — | — | — | ? |
+- **PRICING IS TIER-FLAT:** Forward (CF = SS = LW, 2,275 at 82), Midfield (AM = CM, 2,730 at 86). The "exact position" factor operates at TIER level: Forward / Midfield / Defense / Goalkeeper. Tier ladder at 86: F 2,970 > M 2,730 > D 2,520 > GK 2,220; at 85: F 2,785 > M 2,555 > D 2,375.
+- **Curves:** CF +165/+170/+175/+185 (82->86); CB = FLAT +145 steps (2,230/2,375/2,520 at 84/85/86); CM 85->86 = +175.
+- **2,555 TENSION RESOLVED:** 85 CM = 2,555 VERIFIED (Valverde 16636 / Pedri 17763 / Vitinha 18183) = the exact crossed-out datapoint. The community's "82 overall forward" label was a display-OVR artifact or mis-ID; **market pricing follows the BASE grid (display can lie; price cannot)**. Secret-market recipe CONFIRMED: crossed-out = standard grid price; discount ~200 coins; identify the hidden player by mapping the crossed price to (base OVR, tier).
+- **New base-era ids:** Neymar 1892 (82 LW), Sane 12413, Valverde 16636, **Pedri 17763 (85 CM — distinct from champion-era 27133)**, Vitinha 18183, Bastoni 16390, Saliba 17387, **VVD 7307 (84 CB — second VVD record vs 27130 85 CB)**.

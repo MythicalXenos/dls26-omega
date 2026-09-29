@@ -234,3 +234,6 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **C.Ronaldo web (turn 52):** 382 + 25842 + 25849 + 25851 (two 82 CF champion ids unresolved) — parallel to the Messi web.
 
 - **G-0038 (updated, turn 53):** grid = 10 cells; CF curve COMPLETE (165/170/175/185 steps); SS = CF tier; GK cheapest tier (86 GK 2,220). 2,555 tension narrowed to: LW/RW tier / display-OVR / special pricing / bad claim. Next cells: 82 LW/RW, 85CM, mid-80s CB/CM rows, AM/LM/RM/LB/RB tiers, GK column.
+
+- **G-0038 (updated, turn 54): TENSION RESOLVED** — 2,555 crossed = 85 CM standard (grid-exact, VERIFIED); the "82 forward" crowd label was display-OVR/mis-ID. Pricing is TIER-FLAT (F: CF=SS=LW; M: AM=CM). 14 cells now; curves: CF concave-up, CB linear +145. Secret-identification recipe operational (crossed price -> base OVR+tier -> candidates). Remaining: DM/LM/RM/LB/RB tier-confirmation + 85GK + 83 rows.
+- **G-0083 (updated, turn 54):** VVD dual-record pair (7307 84 CB base-era vs 27130 85 CB) + Pedri dual (17763 85 CM vs 27133 champion-era 86/87) = more id-block rating pairs for the drift/growth model.

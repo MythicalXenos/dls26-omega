@@ -850,3 +850,12 @@ refs: S-0222..S-0225, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-003
 
 ## [2026-09-29T13:10Z] BLUFF CHECK — turn 53
 Complete every step planned? All four named tension/grid cells ran (84CF/83CF/86GK/82SS); the LW/RW tension cell was deliberately sequenced next (the SS result superseded part of its purpose). ISS-008 + Ireland remain staged. Skip anything silently? No. Incomplete-as-complete? No - the CF curve is labelled smooth-within-sampled-range (calculator caps at 86 base; no extrapolation beyond); the 82SS "Verified" badge with 0 DB matches is noted as odd rather than trusted blindly; the 2,555 tension stays OPEN with candidates enumerated. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-29T13:15Z] RESEARCH — TIER-FLAT pricing; the 2,555 tension RESOLVED (85 CM = 2,555 exact)
+session 1 turn 54 | state STATE_1_RESEARCH_SWEEP | topic: G-0038 grid (decisive turn)
+[Return gap: minutes — same-session run.]
+The decisive cell landed: 85 CM = 2,555 VERIFIED (Valverde/Pedri-17763/Vitinha) = the exact Reddit crossed-out datapoint, resolving the 2,555 tension in favor of base-grid pricing (the crowd's '82 forward' label was display-OVR or mis-ID; price cannot lie). The other three cells cracked the tier structure: pricing is TIER-FLAT (Forward CF=SS=LW; Midfield AM=CM), CB curve is linear +145, and the ladder at 86 reads F 2,970 > M 2,730 > D 2,520 > GK 2,220. New base-era ids include Pedri 17763 (vs 27133) and a second VVD record 7307 (vs 27130) - both drift/growth model material. The secret-identification recipe is now operational (crossed price -> (base OVR, tier) -> candidate set).
+refs: S-0226..S-0229, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-0038, G-0083
+
+## [2026-09-29T13:15Z] BLUFF CHECK — turn 54
+Complete every step planned? All four named cells ran (82LW tension cell + 85CM + 84CB + 86AM) - and the 85CM cell resolved the tension. ISS-008 + Ireland remain staged (item 2). Skip anything silently? No. Incomplete-as-complete? No - the tier-flat conclusion is stated for the SAMPLED tiers (DM/LM/RM/LB/RB/RWB assumed-but-unconfirmed); the display-OVR reading is recorded as the supported interpretation (the alternative - crowd mis-ID - is preserved in the entry); the 82SS "Verified-0-matches" oddity remains noted. ISS-009 procedure followed. Advice impact: none; tracker-only.
