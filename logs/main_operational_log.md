@@ -823,3 +823,12 @@ refs: S-0212..S-0214, kb/topics/economy_currencies_and_iap.md, kb/topics/player_
 
 ## [2026-09-29T09:50Z] BLUFF CHECK — turn 50
 Complete every step planned? The two staged fetches ran (stadiums = costs NOT on the listing, honestly reported as one level deeper; price-calculator = formula + verified point captured); Robinson second pass ran (negative result recorded). Secret pages 6-17 remain optional by prior decision. Skip anything silently? No. Incomplete-as-complete? No - the formula is recorded as sakibpro's CLAIM ("exact mathematical pricing formula" not exposed); the position-premium inference is labelled two-point; the Rodri-vs-Kane tension is explicitly logged as confounded (era + position), not hand-waved. ISS-009 procedure followed. Advice impact: none; tracker-only.
+
+## [2026-09-29T12:55Z] RESEARCH — price grid sampling live (86CM 2,730 deconfounds era; 85CB = Dickison exact); stadium costs = JS-layer
+session 1 turn 51 | state STATE_1_RESEARCH_SWEEP | topic: G-0038 grid / G-0074 route
+[Return gap: ~3h after turn-50 close (09:50Z) - sub-7-day; standard continuation.]
+URL-param sampling on the sakibpro calculator WORKS and immediately paid: 86 CM = 2,730 (extrapolated) sits 5 coins from Rodri's community 2,725 -> the era effect is ~zero and the Kane-vs-Rodri gap is pure position premium (+240 CF over CM). 85 CB = 2,375 verified EXACTLY matches the Dickison anchor (Gabriel + van Dijk; VVD id 27130). The grid is now samplers-friendly with Forward/Midfield/Defense/GK groupings. The stadium fetch settled the G-0074 web route: cost/capacity data is JS-layer (photos-only pages) - snippet mining or user screens are the remaining routes.
+refs: S-0215..S-0217, kb/topics/economy_currencies_and_iap.md, kb/gaps.md, G-0038, G-0074
+
+## [2026-09-29T12:55Z] BLUFF CHECK — turn 51
+Complete every step planned? The three planned fetches ran (stadium page = honest negative on costs; two grid cells captured, one deconfounding + one validating). ISS-008 (b)(e)(f)(g) and the Ireland mystery remain staged (item 2). Skip anything silently? No. Incomplete-as-complete? No - the 86CM cell is labelled Extrapolated (their formula, 0 DB matches); the era-effect conclusion is stated as ~0-5 coins between TWO community/formula points, not a fitted regression; the stadium negative result is recorded as a renderer limitation with the routes left enumerated. ISS-009 procedure followed. Advice impact: none; tracker-only.

@@ -192,3 +192,14 @@ Origin: five in-game captures retrieved via image_search and read directly; thre
 - **Verified vs Extrapolated discipline:** verified = live-market-confirmed; extrapolated = their claimed "exact mathematical pricing formula" (formula itself not exposed on the page).
 - **Secret-player discount mechanic CONFIRMED (second surface):** secret market offers at a slight discount to standard price; knowing the standard grid lets you identify the hidden player from the discounted price ("you can easily guess who the secret player might be"). Matches the Reddit crossed-out-price observation.
 - Tension to resolve: Rodri 86 = 2,725 (DLS25, CM) vs Kane 86 = 2,970 (DLS26, CF) — era + position effects are confounded; needs an 86 CM datapoint on DLS26.
+
+## Addendum (turn 51): price grid sampling + deconfound + anchor validation (S-0215..0217)
+**Grid (sakibpro URL params WORK: ?ovr=&pos=):**
+| OVR | CF (Forward) | CM (Midfield) | CB (Defense) | GK |
+|---|---|---|---|---|
+| 86 | **2,970** (VERIFIED: Kane/Mbappe/Dembele/Haaland) | **2,730** (Extrapolated; 0 DB matches) | ? | ? |
+| 85 | ? | ? | **2,375** (VERIFIED: Gabriel 16347 / VVD 27130) | ? |
+- **DECONFOUND:** Rodri 86 CM = 2,725 (community DLS25) vs 86 CM = 2,730 (formula DLS26) = 5 coins apart -> **era effect ~0-5 coins**; the CF-over-CM premium at 86 = **+240**. The "DLS25 price increase" maps to essentially the same grid.
+- **VALIDATION:** their 85 CB = 2,375 **exactly matches our Dickison 85 CB = 2,375 anchor** (independent). Grid trustworthy at Verified cells; formula consistent so far at Extrapolated ones.
+- **Positional groupings:** Forward / Midfield / Defense / GK ("attackers cost more than defenders at equal OVR").
+- VVD market id = 27130 (adjacent to 27133 PEDRI — champion-block era ids noted).

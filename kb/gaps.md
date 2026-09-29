@@ -225,3 +225,6 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0038 (updated, turn 50):** FORMULA = f(Base OVR, exact position) (sakibpro). VERIFIED anchor 86 CF = 2,970 (four 86 CFs identical). Position premium strong (86 CF 2,970 vs 85 CB 2,375). Secret discount confirmed twice. Open: 86 CM datapoint (to deconfound the Rodri-2725 tension), grid sampling via calculator URL params or user screens.
 - **G-0074 (updated, turn 50):** dlsinside stadiums listing = gallery only; cost columns live on per-stadium pages (dlsinside.com/stadium/<slug>) - fetch target refined.
 - **G-0063 (updated, turn 50):** Robinson second pass = zero DLS-card evidence for either name; conflict unchanged (Peter name-fit vs Michael profile-fit).
+
+- **G-0038 (updated, turn 51):** grid sampling LIVE (URL params work). Cells: 86CF 2,970v / 86CM 2,730e / 85CB 2,375v (Dickison match). Era effect deconfounded (~0-5 coins); CF-over-CM premium +240 at 86. Next cells: 85CF, 86CB, 85CM, 86GK, 82F (vs the Reddit 2,555 datapoint).
+- **G-0074 (updated, turn 51):** dlsinside cost/capacity data is JS-layer - NOT in fetch_page renders (stadium pages = photos only; listing = gallery). Web route = search-snippet mining (engine renders the data) or user facility screens. Do NOT fetch more stadium pages expecting cost tables.

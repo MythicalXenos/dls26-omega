@@ -6805,11 +6805,108 @@
    ],
    "raw_archive_path": null,
    "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0215",
+   "timestamp_utc": "2026-09-29T12:54:06Z",
+   "session": 1,
+   "turn": 51,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dlsinside.com/stadium/liverpool",
+   "resolved_url": "",
+   "domain": "dlsinside.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "Liverpool Stadium (Anfield) page = PHOTO GALLERY only (6 in-game screenshots 'Liverpool vs DLS Inside Team'). NO cost columns, NO capacity table in the rendered text. The SEO description promised 'max capacities, upgrade costs' - the data lives in a JS/layer that fetch_page's renderer strips (the search snippets DID show capacity numbers).",
+   "summary": "G-0074: the dlsinside cost/capacity data is NOT retrievable via fetch_page rendering - the numbers exist in the page source/JS layer. Routes left: search-snippet mining (the engine renders the data) or user facility screens.",
+   "takeaway": "Web route for facility COSTS narrowed to snippet-mining; per-stadium fetches are photos-only. Do not fetch more stadium pages expecting cost tables.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "ad-monetized database",
+    "outcome": "page content read directly; SEO description oversold the rendered content"
+   },
+   "confidence_note": "per-stadium page fetched; promised data absent from render",
+   "conflicts_found": [],
+   "leads_consumed_from": "dlsinside per-stadium lead",
+   "kb_paths_touched": [],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0216",
+   "timestamp_utc": "2026-09-29T12:54:06Z",
+   "session": 1,
+   "turn": 51,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/price-calculator.php?ovr=86&pos=CM",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "tool-thirdparty",
+   "language": "en",
+   "payload_summary": "URL PARAMS WORK (?ovr=&pos=). 86 OVR CM = 2,730 coins, Positional Grouping 'Midfield', badge = Extrapolated (TOP 0 matches - no base normal player at 86 CM in their DB). Formula output, not live-confirmed.",
+   "summary": "DECONFOUND (G-0038): Rodri 86 CM = 2,725 (community, DLS25) vs 2,730 (formula, DLS26) = 5 coins apart -> ERA EFFECT ~0-5 coins; the Kane-2970 vs Rodri-2725 gap is PURE POSITION PREMIUM (CF over CM = +240 at 86). The 'DLS25 price increase' claim maps to essentially the same grid.",
+   "takeaway": "Grid now samplers-friendly: each fetch = one (OVR, position) cell. Position groupings confirmed as Forward/Midfield/Defense (+GK). Continue sampling 85 CF / 86 CB / 85 CM / GK column.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "tool site with ads; marketing claims",
+    "outcome": "extrapolated cell recorded as model output (their formula); flagged extrapolated"
+   },
+   "confidence_note": "URL-param test succeeded; cell captured",
+   "conflicts_found": [],
+   "leads_consumed_from": "grid sampling lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0217",
+   "timestamp_utc": "2026-09-29T12:54:06Z",
+   "session": 1,
+   "turn": 51,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://sakibpro.com/players/price-calculator.php?ovr=85&pos=CB",
+   "resolved_url": "",
+   "domain": "sakibpro.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "tool-thirdparty",
+   "language": "en",
+   "payload_summary": "85 OVR CB = 2,375 coins, Positional Grouping 'Defense', badge = VERIFIED DATA. Top matches: Gabriel Magalhaes 85 CB (id 16347) = 2,375; Virgil van Dijk 85 CB (id 27130) = 2,375.",
+   "summary": "VALIDATION (G-0038): their 85 CB = 2,375 EXACTLY matches our independently verified Dickison 85 CB = 2,375 anchor -> the sakibpro grid is anchor-accurate at the verified points. VVD id 27130 sits next to 27133 PEDRI in the champion-id block (era-block id note).",
+   "takeaway": "The sakibpro grid is trustworthy at Verified cells and consistent at Extrapolated ones (formula = live-accurate so far). Grid table now has 4 cells.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "tool site with ads; marketing claims",
+    "outcome": "verified cell cross-matches our independent anchor - high confidence"
+   },
+   "confidence_note": "validation point chosen against the Dickison anchor",
+   "conflicts_found": [],
+   "leads_consumed_from": "grid sampling lead",
+   "kb_paths_touched": [
+    "kb/topics/economy_currencies_and_iap.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "discovered_total": 428,
-  "visited_total": 213,
+  "discovered_total": 431,
+  "visited_total": 216,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -6863,7 +6960,7 @@
    "https://itunes.apple.com/lookup?id=1462911602&country=us",
    "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
    "https://sakibpro.com/players/trending.php (server-rendered Upcoming Players — may name real players incl. Cult Heroes)",
-   "price grid sampling via sakibpro calculator (86 CF = 2,970 verified; try URL params ?ovr=&pos= for batch reads) + hunt their exact-formula statement",
+   "price grid sampling via sakibpro URL params (WORK: ?ovr=&pos=) - have 86CF 2970v / 86CM 2730e / 85CB 2375v / Dickison 2375v; next cells: 85CF, 86CB, 85CM, 86GK, 82F (the Reddit 2555 datapoint)",
    "https://sakibpro.com/players/compare.php",
    "sakibpro.com site JS to locate the player-database data endpoint",
    "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
@@ -7025,7 +7122,7 @@
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
    "price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; Rodri 86 = 2,725 DLS25; secret-market crossed prices ~2,555->2,355 for an 82 F) + user market screens for the full grid",
    "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens",
-   "dlsinside.com/stadium/<slug> per-stadium pages (brighton/liverpool/manchester-u-new) - WHERE the upgrade costs live (gallery had none)"
+   "facility costs via SEARCH-SNIPPET MINING (dlsinside data is JS-layer - fetch_page cannot render it; the search engine can) + user facility screens remain decisive (G-0074)"
   ],
   "unvisited_total": 215
  }
