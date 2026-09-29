@@ -7432,11 +7432,111 @@
    ],
    "raw_archive_path": null,
    "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0234",
+   "timestamp_utc": "2026-09-29T13:25:47Z",
+   "session": 1,
+   "turn": 56,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/25851",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "source_type": "database-tool",
+   "language": "en",
+   "payload_summary": "25851 = SECRET-CLASS Cristiano Ronaldo: CF/LW, 8292 (82), Portugal, Foot Both/Right, 187/83, real DOB 1985-02-05. Internals 779/749/780/839/839/789/939/419 + 258/201 (display 77/74/78/83/83/78/93/41). V13430=82. No career rows. Other-versions rail: 382 (82 CF/LW, Portugal t207), 25842 (88 LW/CF), 25849 (82 RM/RW), 25850 (82 RW/RM), 27841 (87 CF/LW). Boilerplate secret prose.",
+   "summary": "C.Ronaldo web COMPLETE at 6 records: 382 base (t207) / 25842 champion 88 / 25849+25850 = POSITION-VARIANT TWIN PAIR (RM/RW vs RW/RM, both 82 - the twin-pair shape = secret tell as with Messi 24594/24599) / 25851 = secret-class with REAL NAME (Both/Right foot artifact) / 27841 WC-heroes 87. The 25849/25851 question RESOLVED: distinct records (twin pair vs secret CF/LW).",
+   "takeaway": "Every era block carries champion + secret variants of the big-two names. C.Ronaldo's 'Foot: Both / Right' = another secret-class attribute artifact.",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "ad-monetized database",
+    "outcome": "raw values retained"
+   },
+   "confidence_note": "C.Ronaldo question fetch",
+   "conflicts_found": [],
+   "leads_consumed_from": "C.Ronaldo 25849/25851 lead",
+   "kb_paths_touched": [
+    "kb/topics/player_pool.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0235",
+   "timestamp_utc": "2026-09-29T13:25:47Z",
+   "session": 1,
+   "turn": 56,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "fifaworldcupnews update history (snippet); sportsdunia Dynamic Stars guide (June 2026); apps.apple.com listing (LIVE EVENTS section); playdreamleaguesoccer.com schedule (snippet - FABRICATED)",
+   "resolved_url": "",
+   "domain": "fifaworldcupnews.com; sportsdunia.com; apps.apple.com; playdreamleaguesoccer.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 26 events live October 2026 current event calendar rewards",
+   "source_type": "guide-seo",
+   "language": "en",
+   "payload_summary": "LIVE-OPS STATE: App Store listing shows TWO LIVE EVENTS now - 'Cult Heroes: sign these top stars... Now available with boosted attributes' + 'English League Classics: Relive the glory days - unlock top players and claim big rewards in our this new PRIZE LADDER.' Dynamic Stars (June-July 2026): base 82 OVR cards upgraded by national-team performance (group win +1; R32/R16/QF/SF +2 each; FINAL WINNER = 96 OVR on July 20); Season 1 pass = 3 premium + 2 free Dynamic Agents. Update history: Feb-2026 (live events + Season Pass), May-2026 (Summer Showdown), Jul-2026 (World Heroes started Jul 1 + World Winners upcoming). DECEPTION FLAG: playdreamleaguesoccer.com '2026 schedule' = AI-fabricated SEO slop (fake tournaments 'Global Super League'/'Youth Academy Cup', 2024 page date, 'exclusive data mined from the backend' claim) - DO NOT USE.",
+   "summary": "G-0040: the CURRENT prize-ladder event is 'English League Classics' - the exact context of the DROICER leak (Keane/Irvin = English-league classics!). Dynamic Stars = the 96-OVR-max event behind the Nico Williams 96 question. Cult Heroes now has BOOSTED attributes (new phase?).",
+   "takeaway": "Event calendar is live-ops-sensitive (volatile); the App Store LIVE EVENTS block is the reliable current-state surface. playdreamleaguesoccer recorded as a fabricated source (deception-screen exemplar).",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "SEO guides; playdreamleaguesoccer = fabricated content (fake backend-mined claims)",
+    "outcome": "App Store + community events recorded; fabricated schedule explicitly rejected"
+   },
+   "confidence_note": "live-ops state check",
+   "conflicts_found": [],
+   "leads_consumed_from": "live-ops state check",
+   "kb_paths_touched": [
+    "kb/topics/live_ops_events_and_cards.md",
+    "kb/topics/prize_ladder.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "id": "S-0236",
+   "timestamp_utc": "2026-09-29T13:25:47Z",
+   "session": 1,
+   "turn": 56,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "reddit.com/r/DreamLeagueSoccer comments/11on7r4 (Mar 2023); comments/1pudgh8 (Dec 2025); comments/1t98x80 (May 2026); footballgamingbd.online coaching simulator (Jun 2026)",
+   "resolved_url": "",
+   "domain": "reddit.com; footballgamingbd.online",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "DLS 26 coaching upgrade stat weights datamine per-stat progression capacity cost",
+   "source_type": "community-english",
+   "language": "en",
+   "payload_summary": "COACHING MECHANICS DEEPENED: (1) +11 OVERFLOW: 'a card's max rating is +10 of its base, but in some very rare cases it could go upto +11' (Dec-2025 reddit). (2) SPECIAL-CARD MECHANIC (footballgamingbd): 'Choose coach -> select 1 from each pair -> both of the pair are removed forever -> Finalise. Multiple sessions until +10 OVR'; bonus development chance tiers 5%/10%/20%; special coaches 85-90 / ~240 / 380-400 gems with +1/+2/+3 stat increases + 2/3/4 random chosen stats. (3) Coach sourcing: RELEASE players for coaches (common <- <80 player; rare <- 80+; special <- special player or diamonds). (4) 'Special coaches are only used for upgrading SPECIAL players like the ones in prize ladder viz Rivaldo, Matthaus' (Dec-2025). (5) Stadium config trick (DLS23): E/W stands 26 + S/N 20 + corners 51 = 92,632 capacity / 52 coins bonus. (6) 'common boost' method: buy common scout 75 coins (~63 w/ recruitment facility), churn cheap players into common coaches; 'common vs legendary costs the same when maxed'. Per-stat NUMERIC coefficients still NOT surfaced (CON/SPE premium quantified nowhere).",
+   "summary": "G-0082/83: the +11 rare overflow is REAL (community) - the overflow algorithm's 11th point. G-0041/0079: the pair-selection mechanic is the special-coach application model (choose 1 of each pair, pair burned). G-0074-adjacent: facility discounts tie to coach prices (5% at least). Release->coach economy = new mechanic (recycling loop).",
+   "takeaway": "The special-coach pair-selection description (footballgamingbd, a sakibpro-clone BD site) is single-source - flag for confirmation. The +11 claim is one Reddit comment. Coefficients remain unretrieved (the model is documented; numbers are not).",
+   "deception_screen": {
+    "incentive": "observed",
+    "detail": "reddit anecdotes + BD tool-site clone (footballgamingbd mirrors sakibpro design)",
+    "outcome": "mechanics recorded as community claims; numeric prices cross-consistent with sakibpro (25/75/225, 90/240/400)"
+   },
+   "confidence_note": "coefficient hunt (datamine-shaped) - coefficients still absent; mechanics haul instead",
+   "conflicts_found": [],
+   "leads_consumed_from": "G-0082/83 coefficient hunt",
+   "kb_paths_touched": [
+    "kb/topics/coaching_and_upgrade_system.md"
+   ],
+   "raw_archive_path": null,
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "discovered_total": 445,
-  "visited_total": 232,
+  "discovered_total": 448,
+  "visited_total": 235,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -7496,7 +7596,7 @@
    "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
    "https://sakibpro.com/tools/ (Tools index — may list tools not linked from the home page)",
    "https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-pass/jo-o-pedro/28356/",
-   "the simulator's own JS weighting/coefficient table - bash curl BLOCKED (TLS 35, no direct web); fetch_page renderer strips script srcs; needs a known JS path or datamine source for per-stat coefficients (model known: 10%=+1 OVR, CON/SPE premium, GK 2.2/22)",
+   "per-stat weight COEFFICIENTS still unretrieved (model documented; +11 overflow + pair-selection found) - route: datamine files or sakibpro JS (curl blocked)",
    "Wayback captures of sakibpro.com/players/trending.php and /players/simulator.html (test the dynamic-date question G-0022; detect silent price edits)",
    "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
    "FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-name Cult Heroes list from a first-party origin",

@@ -239,3 +239,9 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0083 (updated, turn 54):** VVD dual-record pair (7307 84 CB base-era vs 27130 85 CB) + Pedri dual (17763 85 CM vs 27133 champion-era 86/87) = more id-block rating pairs for the drift/growth model.
 
 - **G-0038 (updated, turn 55): TIER MODEL COMPLETE** - all four tiers confirmed flat (AM=CM=DM, CB=LB, CF=SS=LW) at their sampled cells. 18 cells; ladders + curves documented. Micro-cells (LM/RM/RB/RWB/RW/84CM/84GK...) = safe assumptions pending user-screen confirmation. G-0038's research-side work is effectively DONE (the price grid + formula + secret recipe); remaining is in-game validation.
+
+- **G-0082/83 (updated, turn 56):** +11 rare overflow confirmed by community ("very rare cases... upto +11") - the overflow algorithm has an 11th point. Coefficients still unretrieved. Special-coach pair-selection mechanic documented (G-0041/0079 too).
+- **G-0041/0079 (updated, turn 56):** special-coach application = PAIR SELECTION ("select 1 from each pair, both removed forever", multiple sessions to +10); special coaches only for special players (prize-ladder Rivaldo/Matthaus = special class); bonus dev chance 5/10/20%. Single-source (footballgamingbd) - confirm on the Isco menu (G-0041 user queue).
+- **G-0040/0070 (updated, turn 56):** the CURRENT prize-ladder event = 'English League Classics' (App Store LIVE EVENTS) - the leak's Keane/Irvin context; ladder-path capture even more valuable now.
+- **G-0074-adjacent (turn 56):** stadium config trick (DLS23): E/W 26 + S/N 20 + corners 51 = 92,632 cap / 52 coins. Facility discount ties to coach prices (5% observed at common tier).
+- **ISS-008 (b) DONE (turn 56):** kb/claim_register.md created (20 key claims with confidence + volatility fields). Remaining: (e) HANDOFF normalization, (f) self-audit, (g) position-locking.

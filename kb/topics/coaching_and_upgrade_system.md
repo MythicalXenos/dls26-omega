@@ -141,3 +141,11 @@ Source = sakibpro.com/players/simulator.html (high-quality third-party tool; its
 - **GK model (separate):** classic points system — **2.2 visual points per +1 OVR on GKR/GKH, 22-point cap** (22/2.2 = 10 OVR ✓).
 - **Facility discount ladder: 0 / 5 / 10 / 15 / 20 / 30%** off coaching costs (facility levels' practical benefit; quantified for the first time).
 - **Coach application mechanic (matches in-game +2 model):** pick 1 of 3 offered attributes to boost by +2; discard & reshuffle; "coaches wasted" cost tracking implies random-offer waste (the reshuffle economy).
+
+## Addendum (turn 56): +11 overflow; special pair-selection; coach sourcing (S-0236)
+- **+11 OVERFLOW (community, Dec-2025):** "a card's max rating is the +10 of its base overall, but in some very rare cases it could go upto +11" — the overflow algorithm's 11th point is REAL per community (single-source).
+- **SPECIAL-CARD COACH MECHANIC (footballgamingbd, single-source clone site):** "Choose coach -> select 1 from each pair -> both of the pair are removed forever -> Finalise. Multiple sessions until +10 OVR." Special coaches: +1 stat + 2 random chosen (85-90 gems, 5% bonus dev chance) / +2 + 3 random (~240, 10%) / +3 + 4 random (380-400, 20%). Normal cards: Fitness/Technical coaches + RANDOM stats ("purely luck based").
+- **COACH SOURCING (Dec-2025 reddit):** RELEASE players for coaches — common coach from releasing a <80 player, rare from 80+, special from releasing a special player OR diamonds. "Special coaches are only used for upgrading SPECIAL players like the ones in prize ladder (Rivaldo, Matthaus)."
+- **Economy notes (DLS23-era + May-2026):** common-vs-legendary "costs the same when maxed" (community); 'common boost' method = churn cheap players (common scout 75 coins, ~63 with recruitment facility) into common coaches; legendary coach "gives only 4 stat points" (community variance vs the 3-random-stat claim).
+- **Stadium config trick (DLS23):** E/W stands set 26 + S/N 20 + corners 51 = **92,632 capacity / 52 coins** match bonus.
+- Per-stat NUMERIC coefficients remain unretrieved (model documented; numbers not).

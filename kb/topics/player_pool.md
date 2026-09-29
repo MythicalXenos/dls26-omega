@@ -241,3 +241,14 @@ No web evidence ties EITHER name (Peter/Michael Robinson) to a DLS classic card.
 
 ## Addendum (turn 52): the C.Ronaldo web (S-0220)
 sakibpro's 82 CF cell exposed TWO C.Ronaldo records: **25851** and **382** (both 82 CF). C.Ronaldo web now: 382 (base/legacy 82 CF) + 25842 (champion 88) + 25849 (82) + 25851 (82) — champion-block vintages parallel the Messi web (25841 88 / 25847 84); two 82-rated champion ids (25849 + 25851) = distinct vintage or duplicate — unresolved. Also at 82 CF: Thuram 15672, Gyokeres 18877 (normal records with market prices).
+
+## Addendum (turn 56): C.Ronaldo web COMPLETE (6 records) (S-0234)
+| Record | Family | Pos/OVR | Notes |
+|---|---|---|---|
+| Cristiano Ronaldo 382 | base/legacy | CF/LW 82 | Portugal t207 |
+| Cristiano Ronaldo 25842 | champion | LW/CF 88 | t258 |
+| Cristiano Ronaldo 25849 | secret? (twin) | RM/RW 82 | t258; twin pair with 25850 |
+| Cristiano Ronaldo 25850 | secret? (twin) | RW/RM 82 | t258; position-swap twin |
+| Cristiano Ronaldo 25851 | **secret** | CF/LW 82 | REAL NAME in secret class; Foot "Both / Right" artifact; internals 779/749/780/839/839/789/939/419 + 258/201 |
+| Cristiano Ronaldo 27841 | world-cup-heroes | CF/LW 87 | t258 |
+The twin-pair shape (25849/25850) is the same tell as the secret Messi twins (24594/24599). Every era block carries champion + secret variants of the big two names. The 25849-vs-25851 question RESOLVED: distinct records (RM/RW twin vs secret CF/LW).
