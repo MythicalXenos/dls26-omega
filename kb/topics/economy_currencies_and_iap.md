@@ -407,3 +407,32 @@ Every other price in the 81-86 range still maps to one cell. For the crossed-pri
 **Running total: 20 of the 24 cells are now two-or-three-source.** The four that remain are precisely the four Extrapolated cells — 85 CF (2,785), 86 CM (2,730), 86 CB (2,520), 86 GK (2,220) — which the turn-71 rule excludes as unreliable, and of which three correspond to cards that do not exist in the base market at all. **So the entire reachable price grid (81-85, all four positional groups) now rests on two independent operators.**
 **A third contamination route in sakibpro's lists, and a new wrinkle in the Exclusive class.** Two of the eight probes came back Exclusive: **Virgil van Dijk 27130 — Exclusive AND Retired, 85 CB, "no longer normally available", no price field** — and **Victor Osimhen 17319 — Exclusive, 83 CF, no price**. sakibpro lists both as ordinary market cards (VVD under 85 CB, Osimhen under 83 CF). This also resolves the duplicate-ID oddity seen at S-0271: **van Dijk holds two records — 7307, active, 84 CB, 2,230; and 27130, retired/Exclusive, 85 CB, no price.** So the Exclusives are not merely removed cards; they include retired players preserved at their final rating, and one player can carry both an active record and a historical one. That is now three independent reasons sakibpro's TOP-N lists cannot be used as candidate sets: rating drift, Exclusive contamination, and duplicate/retired records.
 **Entity data:** Gabriel 85 CB 190cm/28/**Left**, Tackling 94 / Strength 94 / Speed 80, Arsenal (evolution -6) · van Dijk 27130 85 CB 195cm/35, **Retired**, Tackling 94 / Strength 95 (evolution -4) · Lautaro 84 CF/SS 174cm/29/Right, Shooting 92 / Speed 77 / Acc 83, I Milan · Alvarez 84 CF/SS 170cm/26/Right, Shooting 88 / Speed 83 / Acc 85, A Madrid (evolution -19) · Osimhen 83 CF 186cm/27, Exclusive, Shooting 91 / Speed 90 · Lewandowski 83 CF 186cm/38/Right, Shooting 92 / Speed 74 / Acc 69, Barcelona · Barella 83 CM/AM 175cm/29/Right, Passing 89 / Control 84 / Stamina 90, I Milan · Frenkie de Jong 83 CM/DM 182cm/29/Right, Passing 91 / Control 87 / Stamina 81, Barcelona.
+
+## Addendum (turn 78): the ACQUISITION-CHANNEL LAW — why special cards have no price (S-0292..S-0303)
+
+This turn found the **mechanism** behind a rule that had only been empirical. For eleven turns the finding was "special cards carry no coin price, confirmed across N families, zero counter-examples" — a correlation. The control case turns it into a structural law.
+
+**sakibpro's per-card detail table has a mutually exclusive row, selected by card class:**
+
+| Class | Detail row | Price? |
+|---|---|---|
+| Normal | `🪙 Transfer Market Price \| **{n}** Coins ✔️ VERIFIED` | **yes** |
+| Special | `💎 Acquired Via \| **{Family} Agent** ✔️ SPECIAL EDITION` | **no such row** |
+
+The control is Kane 10159 (normal): `Transfer Market Price | **2,970** Coins ✔️ VERIFIED`. Against Messi 25841 (Champion), Kane 27199 (Team of 2025), Raphinha 27191 (Kickoff) and Berbatov 27675 (Classic) — all of which show `Acquired Via | {Family} Agent` and no price row — the pattern is exact over five families.
+
+**Special cards have no market price because they are not market acquisitions.** They are Agent pulls. The rule is therefore structural, not a gap in any one site's coverage, and it should now be stated with that justification rather than as an empirical tally.
+
+**Agent names track the family** (five confirmed): Champion Agent · Team of 2025 Agent · Kick Off Agent · Classic Agent · Dynamic Star Agent. The naming convention is `{Family} Agent`.
+
+**No-price rule now covers nine families** — Classic, Cult Heroes, Season Pass, World Cup Heroes, World Winners, Dynamic Stars, **Champions, Kickoff Stars, Team of 2025** — across roughly 22 observations, zero counter-examples. Untested: Dreamstar 25, Dreamstar 26, Exclusives.
+
+**Two price corroborations.** Lautaro Martínez 16329 and Julián Alvarez 19159 are both normal **84 CF at 2,610 ✔️ VERIFIED** — two distinct players at an identical price, which independently confirms Forward-tier flatness (CF = SS = LW) and corroborates the 84 CF cell from a third operator. Kane 10159 at **2,970 ✔️ VERIFIED** is likewise a third source for the 86 CF cell.
+
+**METHODOLOGICAL POINT — price and rating have independent provenance.** On every normal card probed, the rating reads `⚠️ ESTIMATED` (computed from stats) while the price reads `✔️ VERIFIED`. So **sakibpro's price field does not inherit its rating-estimation error.** Prices from this surface are usable; ratings from it are not, unless marked OFFICIAL.
+
+**DRIFT SPLIT (refines G-0083).** Rating drift is not one phenomenon:
+- **Normal-side drift** (Rice, Rabiot, Rúben Dias, E. Martínez, Courtois, Bellingham, Rüdiger) is a *computation artifact* — those ratings are ⚠️ ESTIMATED.
+- **Special-side drift** (Berbatov 84 vs 85, Évora Dias 84 vs 83, Petit 85 vs 84) is a *genuine inter-source conflict*, because sakibpro marks specials ✔️ OFFICIAL. Berbatov's row reads `OVR: **84** ✔️ OFFICIAL` — it is not a calculation, so the disagreement with dlsinside's 85 is real and unresolved.
+
+**Cell status unchanged: 20 of 24 two-or-three-source.** The 85 CF cell remains Extrapolated — neither 84-CF probe reached 85, so it needs a genuine 85-rated forward (lead recorded: the `/players/normal/` index is the systematic route).

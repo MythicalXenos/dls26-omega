@@ -343,3 +343,32 @@ All six are Version 160-13430 and **none carries a coin price**, extending the n
 **Isco answered.** Francisco Alarcon 28327 is the Cult Heroes card for Isco: 84-rated AM/CM with Control 93 and Passing 88, right-footed, 176cm. This is the card behind the user's question Q-016.
 **NEW CONTRADICTION: Berbatov is 85 on dlsinside but 84 on sakibpro's trending page.** The one-rung drift now demonstrably reaches the Classic family, not just normal cards — the running list of drifted players is Rice, Rabiot, Ruben Dias, E. Martinez, Courtois, Bellingham, Rudiger, Essien, Petit and Berbatov.
 **Roster verification: 12 of the 17 are now confirmed present in V13430** (code 160). The five still unprobed are Luiz 28325, Blind 28326, Herrera 28329, Shaqiri 28330 and Evora Dias 28658.
+
+## Addendum (turn 78): roster verification 17/17 COMPLETE + three family rosters enumerated (S-0279..S-0303)
+
+**ROSTER VERIFICATION IS COMPLETE — 17 of 17.** The five remaining probes all landed, all Cult Heroes, all **Version 160-13430**, none carrying a price:
+
+| Player | ID | Rating | Positions | Foot | H/Age | Top stats |
+|---|---|---|---|---|---|---|
+| David Luiz | 28325 | 84 | CB/DM | Right | 189/39 | TAC 89 / STR 85 / SPE 78 |
+| Daley Blind | 28326 | 83 | CB/LB | **Left** | 180/36 | TAC 87 / STR 81 / SPE 75 |
+| Ander Herrera | 28329 | 83 | CM/DM | Right | 182/37 | PAS 86 / CON 86 / **STA 91** |
+| Xherdan Shaqiri | 28330 | 83 | AM/RW | **Left** | 169/34 | PAS 85 / CON 85 / STA 79 |
+| Vozinha (Évora Dias) | 28658 | **84** | GK | Right | 189/40 | GK Reactions 81 / GK Handling 81 / PAS 55 |
+
+**IDENTIFICATION — the "Évora Dias 28658" roster entry is VOZINHA**, Josimar José Évora Dias, the Cape Verde goalkeeper. dlsinside rates him **84** against the trending list's 83 — **rating-drift case #9**, and the second drift case inside a special family.
+
+**THREE FAMILY ROSTERS ENUMERATED (sakibpro family indexes, with IDs).**
+- **Kickoff = 2 cards:** Raphinha 27191 (LW 85, Brazil), J. Alvarez 27127 (CF 84, Argentina). Independently corroborates the recorded "Kick-Off Stars DLS26 wave = Raphinha + Alvarez" claim, now with IDs.
+- **Champion = 12 cards:** Messi 25841 (88), Ronaldo 25842 (88), Modrić 25837 (86), Di María 25845 (85), Kanté 26022 (85), Alexis 25844 (84), Messi 25847 (84), Vidal 25977 (84), Di María 25846 (83), Vardy 25836 (83), Balotelli 25835 (82), Ronaldo 25849 (82). Note **dlsinside calls this family "Champions"**, sakibpro "Champion" — same family, two names.
+- **Team of 2025 = 11 cards** (slug is **`team2025`**, not `team-2025` — that one returns zero records): Kane 27199 (87), Mbappé 27137 (87), O. Dembélé 27136 (87), Donnarumma 27128 (86), Hakimi 27129 (86), Lamine Yamal 27138 (86), M. Salah 27200 (86), Pedri 27133 (86), Gabriel 27131 (85), N. Mendes 27132 (85), Vitinha 27134 (85).
+
+**Pedri resolved.** 27133 is OFFICIAL **86**, not 87 — the standing 86-vs-87 discrepancy was an extraction error on my side, now settled. His normal record is 17763 (85).
+
+**One player, two special records, again.** Lamine Yamal 27138 (Team of 2025, 86) is a distinct record from Lamine Yamal 27845 (World Winners, 87). This is now a repeated pattern, not an anomaly.
+
+**Dynamic Stars mechanism (S-0299, rich prose).** 40 nations, one representative each at a fixed base 82; ratings climbed with the national team's tournament progression. Distributed via the **Dynamic Star Agent** through **Season Pass rewards, online events and Dream Draft pulls**. Spain beat Belgium (QF), France (SF) and Argentina 1-0 (final) — which is what carried Nico Williams 82→96. Explicitly **fixed and non-upgradable**. His sheet: SPE/ACC/CON/PAS/STA/SHO all **100**, STR 81, TAC 46, Total 727.
+
+**Pedri sidebar corroborates the turn-76 WC correction with a second operator:** sakibpro files Pogba 27846 under **`/players/world-winners/`**, a family distinct from `world-cup-heroes`. The two World Cup families are genuinely separate.
+
+**Source-hygiene note (S-0284):** dreamkitsapp now serves its imagery from `img.dlsinside.com`. The two sites are affiliated, so they cannot be treated as fully independent operators for corroboration purposes.

@@ -8451,11 +8451,450 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0279",
+      "url": "https://dlsinside.com/player/luiz/28325",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "David Luiz 28325 (Cult Heroes) 84 CB/DM, Brazil, Right, 189cm/39, Tackling 89 / Strength 85 / Speed 78, Version 160-13430, **no price field**. One of the five remaining roster probes.",
+      "entities": [
+        "David Luiz 28325"
+      ],
+      "claims": [
+        "Cult Heroes roster 13/17 confirmed; no-price rule holds"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0280",
+      "url": "https://dlsinside.com/player/blind/28326",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Daley Blind 28326 (Cult Heroes) 83 CB/LB, Netherlands, **Left**, 180cm/36, Tackling 87 / Strength 81 / Speed 75, V160-13430, no price.",
+      "entities": [
+        "Daley Blind 28326"
+      ],
+      "claims": [
+        "Cult Heroes roster 14/17 confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0281",
+      "url": "https://dlsinside.com/player/herrera/28329",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Ander Herrera 28329 (Cult Heroes) 83 CM/DM, Spain, Right, 182cm/37, Passing 86 / Control 86 / **Stamina 91**, V160-13430, no price.",
+      "entities": [
+        "Ander Herrera 28329"
+      ],
+      "claims": [
+        "Cult Heroes roster 15/17 confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0282",
+      "url": "https://dlsinside.com/player/shaqiri/28330",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Xherdan Shaqiri 28330 (Cult Heroes) 83 AM/RW, Switzerland, **Left**, 169cm/34, Passing 85 / Control 85 / Stamina 79, V160-13430, no price.",
+      "entities": [
+        "Xherdan Shaqiri 28330"
+      ],
+      "claims": [
+        "Cult Heroes roster 16/17 confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0283",
+      "url": "https://dlsinside.com/player/evora-dias/28658",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**IDENTIFICATION: the 'Evora Dias 28658' roster entry is VOZINHA** (Josimar Jose Evora Dias), Cape Verde's goalkeeper. Cult Heroes **84** GK, Right, 189cm/40, GK Reactions 81 / GK Handling 81 / Passing 55, V160-13430, no price. **RATING DRIFT CASE #9: dlsinside 84 vs the trending list's 83.** Completes 17/17 roster verification.",
+      "entities": [
+        "Vozinha / Josimar Jose Evora Dias 28658"
+      ],
+      "claims": [
+        "17/17 roster confirmed present in V13430",
+        "Evora Dias = Vozinha",
+        "rating drift case #9"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0284",
+      "url": "https://dreamkitsapp.com/players/type/secret",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Liveness + navigation check. dreamkitsapp is live and its /players/type/{family} route works (18 pages of Secret players). Notable: dreamkitsapp now serves its imagery from **img.dlsinside.com**, so the two sites are affiliated and cannot be treated as fully independent operators.",
+      "entities": [
+        "dreamkitsapp"
+      ],
+      "claims": [
+        "dreamkitsapp <-> dlsinside affiliation (shared CDN)"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0285",
+      "url": "https://sakibpro.com/players/kickoff/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**Kickoff family = exactly 2 cards**: Raphinha 27191 (LW 85, Brazil) and J. Alvarez 27127 (CF 84, Argentina). Corroborates the previously recorded 'Kick-Off Stars DLS26 wave = Raphinha + Alvarez' claim and supplies the IDs.",
+      "entities": [
+        "Raphinha 27191",
+        "Julian Alvarez 27127"
+      ],
+      "claims": [
+        "Kickoff family roster = 2, with IDs"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0286",
+      "url": "https://sakibpro.com/players/champion/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**Champion family = 12 cards** (sakibpro's name; dlsinside calls it 'Champions'): Messi 25841 CF 88, Ronaldo 25842 LW 88, Modric 25837 CM 86, Di Maria 25845 AM 85, Kante 26022 DM 85, Alexis 25844 CF 84, Messi 25847 RW 84, Vidal 25977 CM 84, Di Maria 25846 RW 83, Vardy 25836 CF 83, Balotelli 25835 CF 82, Ronaldo 25849 RM 82.",
+      "entities": [
+        "Messi 25841",
+        "Ronaldo 25842",
+        "Modric 25837",
+        "Kante 26022",
+        "Balotelli 25835"
+      ],
+      "claims": [
+        "Champion family roster = 12, with IDs"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0287",
+      "url": "https://sakibpro.com/players/team-2025/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**NEGATIVE RESULT**: 0 records. The family slug is **team2025**, not team-2025. Recorded as a source rather than dropped, so the dead slug is not retried.",
+      "entities": [],
+      "claims": [
+        "slug team-2025 is invalid; use team2025"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0288",
+      "url": "https://dlsinside.com/player/lionel-messi/25841",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Lionel Messi 25841 is filed by dlsinside under **'Champions'** (sakibpro: 'Champion') \u2014 88 CF/RW, Left, 170cm/39, Shooting 97 / Speed 90 / Acceleration 93, V160-13430, **no price field**. Extends the no-price rule to a seventh family.",
+      "entities": [
+        "Messi 25841"
+      ],
+      "claims": [
+        "no-price rule: Champions family confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0289",
+      "url": "https://dlsinside.com/player/cristiano-ronaldo/25842",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Cristiano Ronaldo 25842 (Champions) 88 LW/CF, **Both / Right** foot, 187cm/41, Shooting 97 / Speed 89 / Acceleration 89, V160-13430, no price.",
+      "entities": [
+        "Ronaldo 25842"
+      ],
+      "claims": [
+        "no-price rule: Champions family confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0290",
+      "url": "https://dlsinside.com/player/raphinha/27191",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Raphinha 27191 (Kickoff Stars) 85 LW/AM, Brazil, Left, 176cm/29, Shooting 90 / Speed 86 / Acceleration 87, V160-13430, **no price field**. Extends the no-price rule to an eighth family.",
+      "entities": [
+        "Raphinha 27191"
+      ],
+      "claims": [
+        "no-price rule: Kickoff Stars confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0291",
+      "url": "https://dlsinside.com/player/julian-alvarez/27127",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Julian Alvarez 27127 (Kickoff Stars) 84 CF/SS, Argentina, Right, 170cm/26, Shooting 88 / Speed 83 / Acceleration 85, V160-13430, no price.",
+      "entities": [
+        "Julian Alvarez 27127"
+      ],
+      "claims": [
+        "no-price rule: Kickoff Stars confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0292",
+      "url": "https://sakibpro.com/players/champion/lionel-messi/25841/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**KEY STRUCTURAL FINDING.** sakibpro's detail table carries a MUTUALLY EXCLUSIVE row depending on card class. For this special card it reads: '| Acquired Via | **Champion Agent** (check) SPECIAL EDITION |' and there is **no price row at all**. Rating is marked 'Base Rating OVR: **88** (check) OFFICIAL'. FAQ: 'As a special edition card, Lionel Messi is obtained exclusively through the Champion Agent.' Full stats SPE 90/ACC 93/STR 64/CON 97/PAS 90/TAC 41/STA 81/SHO 97, Total 653. Also exposes the simulator route: sakibpro.com/players/simulator.html?loadPlayer={id}.",
+      "entities": [
+        "Messi 25841"
+      ],
+      "claims": [
+        "ACQUISITION-CHANNEL LAW: special cards -> '{Family} Agent', no market price",
+        "special ratings are OFFICIAL",
+        "simulator URL identified"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0293",
+      "url": "https://sakibpro.com/players/team2025/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**Team of 2025 = 11 cards**: Kane 27199 CF 87, Mbappe 27137 CF 87, O. Dembele 27136 RW 87, Donnarumma 27128 GK 86, Hakimi 27129 RB 86, Lamine Yamal 27138 RW 86, M. Salah 27200 RW 86, Pedri 27133 CM 86, Gabriel 27131 CB 85, N. Mendes 27132 LB 85, Vitinha 27134 CM 85. Note Lamine Yamal 27138 (Team of 2025, 86) is a DIFFERENT record from Lamine Yamal 27845 (World Winners, 87) \u2014 one player, two special records.",
+      "entities": [
+        "Kane 27199",
+        "Mbappe 27137",
+        "Pedri 27133",
+        "Lamine Yamal 27138"
+      ],
+      "claims": [
+        "Team of 2025 roster = 11, with IDs"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0294",
+      "url": "https://dlsinside.com/player/harry-kane/27199",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Harry Kane 27199 (Team of 2025) 87 CF, England, Right, 188cm/33, Shooting 96 / Speed 78 / Acceleration 75, V160-13430, **no price field**. Ninth family.",
+      "entities": [
+        "Kane 27199"
+      ],
+      "claims": [
+        "no-price rule: Team of 2025 confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0295",
+      "url": "https://dlsinside.com/player/kylian-mbappe/27137",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Kylian Mbappe 27137 (Team of 2025) 87 CF/LW, France, Right, 178cm/27, Shooting 95 / **Speed 95 / Acceleration 95**, V160-13430, no price.",
+      "entities": [
+        "Mbappe 27137"
+      ],
+      "claims": [
+        "no-price rule: Team of 2025 confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0296",
+      "url": "https://sakibpro.com/players/team2025/harry-kane/27199/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Detail row: '| Acquired Via | **Team of 2025 Agent** (check) SPECIAL EDITION |', no price row. Rating 'OVR: **87** (check) OFFICIAL'. Full stats SPE 78/ACC 75/STR 92/CON 90/PAS 90/TAC 53/STA 87/SHO 96, Total 661. Confirms the acquisition-channel pattern generalises beyond the Champion family.",
+      "entities": [
+        "Kane 27199"
+      ],
+      "claims": [
+        "acquisition-channel law generalises: 'Team of 2025 Agent'"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0297",
+      "url": "https://sakibpro.com/players/kickoff/raphael-belloli/27191/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Detail row: '| Acquired Via | **Kick Off Agent** (check) SPECIAL EDITION |', no price row. Rating 'OVR: **85** (check) OFFICIAL'. 'Kick Off 2026'. Full stats SPE 86/ACC 87/STR 71/CON 89/PAS 89/TAC 50/STA 86/SHO 90, Total 648. Third distinct Agent name confirmed.",
+      "entities": [
+        "Raphinha 27191"
+      ],
+      "claims": [
+        "acquisition-channel law generalises: 'Kick Off Agent'"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0298",
+      "url": "https://sakibpro.com/players/normal/harry-kane/10159/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**CONTROL CASE (decisive).** A NORMAL card's detail row reads '| Transfer Market Price | **2,970** Coins (check) VERIFIED |' \u2014 the price row exists only for market-acquired cards. Its rating is marked 'OVR: **86** (warning) **ESTIMATED**', i.e. computed from stats, in contrast to the OFFICIAL flag on specials. **Price and rating therefore have INDEPENDENT provenance on sakibpro: the price field is verified even when the rating is estimated.** Third independent source for the 86 CF = 2,970 cell.",
+      "entities": [
+        "Kane 10159"
+      ],
+      "claims": [
+        "ACQUISITION-CHANNEL LAW control: normal -> Transfer Market Price row exists",
+        "price field provenance independent of rating"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0299",
+      "url": "https://sakibpro.com/players/dynamicstar/nico-williams/27509/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Detail row: '| Acquired Via | **Dynamic Star Agent** (check) SPECIAL EDITION |', 96 OVR OFFICIAL. Rich mechanistic prose: 40 nations, one representative each at fixed base 82, rating climbs with the national team's tournament progression; distributed through the Dynamic Star Agent **via Season Pass rewards, online events and Dream Draft pulls**. Spain beat Belgium QF, France SF, Argentina 1-0 in the final -> 82->96. Explicitly **fixed and NON-UPGRADABLE** ('cannot be upgraded further via coaching'). Stats SPE 100/ACC 100/STR 81/CON 100/PAS 100/TAC 46/STA 100/SHO 100, Total 727.",
+      "entities": [
+        "Nico Williams 27509"
+      ],
+      "claims": [
+        "Dynamic Stars non-upgradable (corroborates the turn-35/36 resolution of G-0079)",
+        "Dynamic Star Agent distribution routes"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0300",
+      "url": "https://sakibpro.com/players/classic/dimitar-berbatov/27675/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Detail row: '| Acquired Via | **Classic Agent** (check) SPECIAL EDITION |', no price row, and the rating is marked 'OVR: **84** (check) **OFFICIAL**'. **This settles the drift question: because specials are OFFICIAL, the Berbatov 84 (sakibpro) vs 85 (dlsinside) disagreement is a GENUINE inter-source conflict, not the ESTIMATED-rating computation artifact that explains the normal-card drift.** Stats SPE 79/ACC 78/STR 85/CON 91/PAS 85/TAC 39/STA 76/SHO 92, Total 625.",
+      "entities": [
+        "Berbatov 27675"
+      ],
+      "claims": [
+        "drift SPLIT: normal-side = ESTIMATED artifact; special-side = genuine inter-source conflict"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0301",
+      "url": "https://sakibpro.com/players/team2025/pedro-gonz-lez-l-pez/27133/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "**Pedri resolved**: 27133 = Pedro Gonzalez Lopez, Team of 2025, CM, 'OVR: **86** (check) OFFICIAL', 'Team of 2025 Agent'. Resolves the standing 86-vs-87 discrepancy in favour of **86**. His normal record is 17763 (85). Also independently corroborates the turn-76 WC family correction: the sidebar links **Paul Pogba 27846 to /players/world-winners/** (86), a family distinct from world-cup-heroes.",
+      "entities": [
+        "Pedri 27133",
+        "Pogba 27846"
+      ],
+      "claims": [
+        "Pedri Team of 2025 = 86 OFFICIAL",
+        "WC family split corroborated by a second operator"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0302",
+      "url": "https://sakibpro.com/players/normal/lautaro-mart-nez/16329/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Lautaro Martinez 16329 normal CF **84**, 'Transfer Market Price **2,610** Coins (check) VERIFIED', rating '84 (warning) ESTIMATED'. Corroborates the 84 CF cell from a third operator.",
+      "entities": [
+        "Lautaro Martinez 16329"
+      ],
+      "claims": [
+        "84 CF = 2,610 corroborated"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0303",
+      "url": "https://sakibpro.com/players/normal/juli-n-alvarez/19159/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T08:10:00Z",
+      "summary": "Julian Alvarez 19159 normal CF **84**, 'Transfer Market Price **2,610** Coins (check) VERIFIED', rating '84 (warning) ESTIMATED'. A second distinct 84 CF at exactly 2,610 \u2014 independent confirmation of tier flatness (CF = SS = LW within the Forward group).",
+      "entities": [
+        "Julian Alvarez 19159"
+      ],
+      "claims": [
+        "84 CF = 2,610 corroborated; Forward tier flatness confirmed"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
     }
   ],
   "frontier": {
-    "discovered_total": 518,
-    "visited_total": 277,
+    "discovered_total": 556,
+    "visited_total": 302,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
@@ -10449,9 +10888,113 @@
           "G-0083"
         ],
         "priority": "high",
-        "notes": "One screenshot pair per stat. If doing all eight is too much, SPE and STA alone would settle the direction (the tool claims SPE expensive / STA cheap), and CON would give the largest coefficient."
+        "notes": "One screenshot pair per stat. If doing all eight is too much, SPE and STA alone would settle the direction (the tool claims SPE expensive / STA cheap), and CON would give the largest coefficient. UPDATED turn 78: the simulator route is identified \u2014 https://sakibpro.com/players/simulator.html?loadPlayer={id} (any player id works; e.g. 10159, 25841, 27509). Load that URL directly."
+      },
+      {
+        "url": "https://sakibpro.com/players/world-winners/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-cup-heroes/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-cup-heroes/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dreamstar26/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dreamstar26/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dreamstar25/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dreamstar25/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/season-pass/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/season-pass/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/cult-heroes/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/cult-heroes/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/classic/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/classic/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dynamicstar/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dynamicstar/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/",
+        "derived_from": "S-0292/0293/0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/simulator.html?loadPlayer=10159",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/simulator.html?loadPlayer=10159",
+        "derived_from": "S-0292/0298",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dynamicstar/rodrigo-de-paul/27512/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dynamicstar/rodrigo-de-paul/27512/",
+        "derived_from": "S-0299",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-winners/paul-pogba/27846/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/paul-pogba/27846/",
+        "derived_from": "S-0301",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dreamkitsapp.com/players/type/secret/p/3",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dreamkitsapp.com/players/type/secret/p/3",
+        "derived_from": "S-0284",
+        "related": [],
+        "witness": "internal"
       }
     ],
-    "unvisited_total": 241
+    "unvisited_total": 254
   }
 }

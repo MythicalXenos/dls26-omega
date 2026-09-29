@@ -158,3 +158,17 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 75 | Alarcon 28327 = Isco, Cult Heroes 84 AM/CM, Control 93 / Passing 88, right-footed, 176cm — the card behind Q-016 | high | patch | S-0278 |
 | 76 | 12 of 17 roster members confirmed present in V13430 (code 160); five unprobed | high | patch | S-0275/0278 |
 | 77 | Rating drift reaches the Classic family: Berbatov = 85 (dlsinside) vs 84 (sakibpro) | high | patch | S-0278 |
+
+### Claims promoted (turn 78)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 78 | **ACQUISITION-CHANNEL LAW (structural).** sakibpro's per-card detail table carries a mutually exclusive row by class: normal cards show "Transfer Market Price / {n} Coins ✔️ VERIFIED"; special cards show "Acquired Via / **{Family} Agent** ✔️ SPECIAL EDITION" and have **no price row at all**. This is the structural explanation for the no-price rule — specials are Agent acquisitions, not market purchases | high | patch | S-0292/0296/0297/0298/0299/0300/0301 |
+| 79 | Agent names follow the family: **Champion Agent**, **Team of 2025 Agent**, **Kick Off Agent**, **Classic Agent**, **Dynamic Star Agent** — five distinct Agents confirmed, each tagged SPECIAL EDITION | high | patch | S-0292/0296/0297/0300/0301 |
+| 80 | No-price rule extended to **nine families** (adds Champions, Kickoff Stars, Team of 2025 to the previous six), ~22 observations, **zero counter-examples** | high | patch | S-0285/0286/0288/0289/0290/0291/0293/0294/0295 |
+| 81 | **Rating-provenance flag:** sakibpro marks normal cards ⚠️ ESTIMATED (OVR computed from stats) and special cards ✔️ OFFICIAL. **Price and rating have independent provenance** — the price field reads VERIFIED even when the rating is ESTIMATED, so sakibpro prices do not inherit the rating-estimation flaw | high | static | S-0298/0300/0302/0303 |
+| 82 | **DRIFT SPLIT:** normal-card rating drift is a computation artifact (⚠️ ESTIMATED), but special-card drift is a **genuine inter-source conflict** because specials are ✔️ OFFICIAL — Berbatov is 84 OFFICIAL on sakibpro vs 85 on dlsinside | high | patch | S-0300/0298 |
+| 83 | Family rosters enumerated with IDs: **Kickoff = 2** (Raphinha 27191, J. Alvarez 27127), **Champion = 12**, **Team of 2025 = 11** | high | patch | S-0285/0286/0293 |
+| 84 | **Roster verification 17/17 COMPLETE** — all 17 members confirmed present in V13430 (code 160) | high | patch | S-0275/0278/0279..0283 |
+| 85 | **IDENTIFICATION: "Évora Dias 28658" = Vozinha** (Josimar José Évora Dias), Cape Verde GK, Cult Heroes 84, Right, 189cm/40, GK Reactions 81 / GK Handling 81. Also rating-drift case #9 (dlsinside 84 vs trending 83) | high | patch | S-0283 |
+| 86 | **Pedri resolved:** 27133 = Pedro González López, Team of 2025 CM, **86 ✔️ OFFICIAL** — resolves the standing 86-vs-87 discrepancy in favour of 86 (normal record 17763 = 85) | high | patch | S-0301 |
+| 87 | **Simulator route identified:** sakibpro.com/players/simulator.html?loadPlayer={id} (any player id). Upgrades Q-028 from "find the simulator" to "load this URL and screenshot" | high | static | S-0292/0298/0301 |
