@@ -8269,11 +8269,62 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields; ratings agreed with sakibpro for six of eight players, making these clean corroborations",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0271",
+      "url": "https://sakibpro.com/players/price-calculator.php?ovr={85&pos=CB, 84&pos=CF, 83&pos=CF, 83&pos=CM}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:00:00Z",
+      "summary": "Candidate-ID harvest for the last four single-source cells (all four cells badged Verified). **85 CB = 2,375** (Gabriel Magalhaes 16347, Virgil van Dijk 27130) \u00b7 **84 CF = 2,610** (Lautaro Martinez 16329, Julian Alvarez 19159) \u00b7 **83 CF = 2,440** (Victor Osimhen 17319, Karim Benzema 2602, Robert Lewandowski 2862) \u00b7 **83 CM = 2,235** (Nicolo Barella 14738, Frenkie de Jong 15307, Scott McTominay 15929, Bruno Guimaraes 17566, Joao Neves 21494). Note the 84 CF candidates match the Reddit-named set (Alvarez, Lautaro) from S-0259. **ODDITY: van Dijk appears at TWO ids \u2014 7307 (listed under 84 CB at 2,230) and 27130 (listed here under 85 CB at 2,375)** \u2014 a duplicate-record situation that the dlsinside probes (S-0272) explain.",
+      "entities": [
+        "Gabriel Magalhaes",
+        "Lautaro Martinez",
+        "Julian Alvarez",
+        "Victor Osimhen",
+        "Nicolo Barella",
+        "Frenkie de Jong"
+      ],
+      "claims": [
+        "candidate IDs harvested for 85CB / 84CF / 83CF / 83CM",
+        "van Dijk appears at two IDs (7307 and 27130) = duplicate records"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "sakibpro (single source) \u2014 used only to harvest IDs, which were then verified independently",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0272",
+      "url": "https://dlsinside.com/player/{gabriel/16347, van-dijk/27130, lautaro/16329, alvarez/19159, osimhen/17319, lewandowski/2862, barella/14738, de-jong/15307}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:02:00Z",
+      "summary": "**ALL FOUR REMAINING REAL CELLS CONFIRMED \u2014 the entire real price grid is now two-source. 85 CB = 2,375 (Gabriel Magalhaes 16347, 85 CB, Arsenal) \u00b7 84 CF = 2,610 (Lautaro Martinez 16329 AND Julian Alvarez 19159, both 84 CF/SS) \u00b7 83 CF = 2,440 (Robert Lewandowski 2862, 83 CF) \u00b7 83 CM = 2,235 (Nicolo Barella 14738 AND Frenkie de Jong 15307, both 83).** Every rating agreed between the two operators for these six active players. **Running total: 20 of 24 cells two-or-three-source; the only four left are the Extrapolated cells (85 CF, 86 CM, 86 CB, 86 GK) which per turn 71 are unreliable and mostly correspond to no card at all.** Two further EXCLUSIVE-class hits, and they expose a third contamination route in sakibpro's lists: **Virgil van Dijk 27130 is an Exclusive AND Retired record (85 CB, 'no longer normally available', no price field)**, and **Victor Osimhen 17319 is Exclusive (83 CF, no price)** \u2014 yet sakibpro lists both as if they were normal market cards (VVD under 85 CB, Osimhen under 83 CF). **This also explains the duplicate-ID oddity: van Dijk has an active record (7307, 84 CB, 2,230) and a separate retired/Exclusive record (27130, 85 CB, no price).** So the Exclusives are not just ordinary removed cards \u2014 they include retired players preserved at their final rating, and a single player can hold both an active record and a historical one.",
+      "entities": [
+        "Gabriel Magalhaes",
+        "Virgil van Dijk",
+        "Lautaro Martinez",
+        "Julian Alvarez",
+        "Victor Osimhen",
+        "Robert Lewandowski",
+        "Nicolo Barella",
+        "Frenkie de Jong"
+      ],
+      "claims": [
+        "85 CB 2,375 / 84 CF 2,610 / 83 CF 2,440 / 83 CM 2,235 all confirmed by a second operator",
+        "20 of 24 cells now two-or-three-source; only the 4 Extrapolated remain",
+        "Exclusive class includes RETIRED players at their final rating",
+        "a player can hold both an active record and a retired/Exclusive record (van Dijk 7307 active 84 vs 27130 retired 85)",
+        "sakibpro lists Exclusive/retired cards as if they were normal market cards"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields; ratings agreed with sakibpro for all six active players probed",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 509,
-    "visited_total": 269,
+    "discovered_total": 511,
+    "visited_total": 271,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

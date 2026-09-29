@@ -119,5 +119,13 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | # | Claim | Confidence | Volatility | Sources |
 |---|---|---|---|---|
 | 58 | 84 CM = 2,390 (Szoboszlai), 81 CM = 1,935 (Mac Allister, Reijnders), 81 CB = 1,815 (Militao, Guehi, Cubarsi) — confirmed by a second operator with ratings agreeing | high | patch | S-0270 |
-| 59 | 16 of 24 price cells are now two-or-three-source; only 85 CB, 84 CF, 83 CF and 83 CM remain single-source (plus four Extrapolated cells with no card) | high | patch | S-0270 |
+| 59 | **UPGRADED turn 73: 20 of 24 price cells are two-or-three-source** — 85 CB 2,375 / 84 CF 2,610 / 83 CF 2,440 / 83 CM 2,235 all confirmed by a second operator. The entire reachable grid (81-85 x 4 groups) is now corroborated. **The four Extrapolated cells remain unverified BY DESIGN and are excluded** | high | patch | S-0270/0271/0272 |
 | 60 | sakibpro rating drift is selective, not systemic (7 known cases; 6 of 8 players probed this turn matched) — no blanket correction is valid | high | patch | S-0270 |
+
+### Claims promoted (turn 73)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 61 | 85 CB 2,375 / 84 CF 2,610 / 83 CF 2,440 / 83 CM 2,235 — all confirmed by a second operator (ratings agreeing) | high | patch | S-0272 |
+| 62 | 20 of 24 cells two-source; the whole reachable grid (81-85 x 4 groups) is corroborated; only the four Extrapolated cells are excluded, by rule | high | patch | S-0272 |
+| 63 | The Exclusive class includes retired players preserved at their final rating, and a player can hold both an active and a retired/Exclusive record (van Dijk 7307 vs 27130) | high (direct observation) | static | S-0272 |
+| 64 | sakibpro TOP-N lists are unusable for three independent reasons: rating drift, Exclusive/retired contamination, and duplicate records | high | patch | S-0270/0272 |
