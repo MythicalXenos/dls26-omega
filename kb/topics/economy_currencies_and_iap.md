@@ -463,3 +463,31 @@ This also refines the drift split from claim 82: it must be applied per record, 
 ### Why no 85 CF was ever found
 
 The 85 cohort is exactly eleven players and contains **no CF at all** — the Forward column runs 86 → 84 with nothing between. The cell was only reachable because LW is Forward-equivalent under the tier model. Two of the eleven are Raphinha (duplicate records 15226 and 27135), so the true distinct-player count is ten.
+
+## Addendum (turn 80): the facility cost ladder — the 1,125 figure explained at last (S-0321)
+
+Since turn 52 the KB has carried "facility lines = **1,125** gems each, × 5 = **5,625**" as a recorded but *unexplained* figure. The search-snippet route finally produced the ladder behind it.
+
+**Training Facility level costs (Reddit r/DreamLeagueSoccer, Feb 2024):**
+
+| Level | Cost (gems) | Cumulative | Gem discount | Formation groups |
+|---|---|---|---|---|
+| 1 | **75** | 75 | 5% | group 1 |
+| 2 | **150** | 225 | 10% | group 2 |
+| 3 | **225** | 450 | 15% | group 3 |
+| 4 | **300** | 750 | "big jump" (legendary coaches < 200 gems) | group 4 |
+| 5 | **375** | **1,125** | cheapest coaches | all groups |
+
+**75 + 150 + 225 + 300 + 375 = 1,125 exactly.** So the turn-52 figure is not a mystery: **1,125 is the cost of maxing one facility line, and 5,625 is five lines.** The ladder is a clean arithmetic progression at +75 per level.
+
+**The discount ladder now maps onto levels, which resolves the open puzzle at coaching_and_upgrade_system.md.** The KB recorded a 0/5/10/15/20/30% discount ladder whose last step is double the others ("5/5/5/5/10"), and the open question was *which facility, how many levels, and what each costs*. The answers: **Training Facility, five levels, 75/150/225/300/375 gems**, with 0/5/10/15% observed at levels 0–3 and the doubling at the top end.
+
+**Two caveats, stated rather than smoothed over.**
+1. **ERA-TAINTED.** This is a DLS24-era source (Feb 2024). The structure is highly likely to carry over but **DLS26-specific confirmation is still owed from the user's facility screens.** Do not present these as DLS26 numbers.
+2. **A 50-gem internal inconsistency.** The same guide says reaching level 5 costs "around **1175** gems", but the level prices it lists sum to **1,125**. Recorded as-is; not reconciled by guessing which is right.
+
+**A coherence check across independent sources:** the bluestacks DLS26 guide advises spending the starting **75** gems on the Commercials upgrade first — and 75 is exactly the Level 1 facility price. Two unrelated sources agreeing on 75 is mild support that the ladder's first rung at least carried into DLS26.
+
+**Not promoted (low reliability):** lfbb.net (Mar 2026) claims social-link gem rewards (Twitter 200 / Facebook 150 / share 50), 600 bonus gems for a top-50 live-event finish, and 500 coins per career-mode win. Content-farm register, single source, no corroboration — recorded for completeness only, **no claim promoted**.
+
+**Also confirmed NOT new** (present in the KB, so no claim): sportsdunia's INR gem IAP tiers (90/400/910/2,700/6,000 at ₹199–₹9,900) and the Commercials L2 +13% / L3 +21% ladder.

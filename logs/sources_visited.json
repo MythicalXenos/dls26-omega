@@ -9191,11 +9191,94 @@
       "game_version": "DLS26 V13430 / code 160",
       "source_reliability": "third-party (sakibpro)",
       "status": "success"
+    },
+    {
+      "id": "S-0321",
+      "url": "web_search: \"Dream League Soccer 2026 facilities upgrade cost gems coins medical commercial training\"",
+      "method": "web_search (depth 2)",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T10:20:00Z",
+      "summary": "**Search-snippet mining (the declared remaining web route for G-0074) and it produced the concrete facility ladder.** Five results.\n\n**(a) NEW AND DECISIVE \u2014 Reddit r/DreamLeagueSoccer 'TRAINING FACILITY GUIDE' (1b2xxys, Feb-2024, so DLS24-ERA).** Gives the level costs outright: **LEVEL 1 price 75 \u00b7 LEVEL 2 150 \u00b7 LEVEL 3 225 \u00b7 LEVEL 4 300 \u00b7 LEVEL 5 375** \u2014 a clean arithmetic progression (+75 each) summing to exactly **1,125**. It also states 'to get to level 5 you will have to spend around **1175 gems**' (a 50-gem internal inconsistency against the 1,125 sum \u2014 recorded, not smoothed over). Discounts: **L1 5%, L2 10%, L3 15%** off gems, each level also unlocking a group of formations; L4 'a big jump' (legendary coaches then cost under 200 gems); L5 = all formation groups + cheapest coaches. **This explains the KB's previously unexplained 'facility lines = 1,125 gems x 5 = 5,625' figure from turn 52: 1,125 is the cost of maxing ONE facility line, and 5,625 is five lines.**\n\n**(b) NOT NEW \u2014 already in the KB, no claim promoted.** sportsdunia (Dec-2025) gem IAP tiers in INR (90=199, 400=799, 910=1,799, 2,700=4,999, 6,000=9,900) \u2014 already recorded at economy line 170. bluestacks Commercials L2 +13% / L3 +21% and the 75 starting gems \u2014 already recorded. Gems-for-stadium-and-facilities framing \u2014 already recorded.\n\n**(c) LOW-RELIABILITY, NOT PROMOTED.** lfbb.net (Mar-2026) claims social-link gem rewards (Twitter 200 / Facebook 150 / share 50), 600 bonus gems for a top-50 live-event finish, and 500 coins per career-mode win. Content-farm register ('my afternoon routine'); no corroboration; single source. Recorded for completeness but **no claim is promoted from it**.\n\n**Useful coherence check:** the bluestacks DLS26 guide advises spending the starting **75** gems on Commercials first \u2014 and 75 is exactly the Level 1 facility price in (a), which is consistent across two independent sources.",
+      "entities": [
+        "Training Facility",
+        "facility cost ladder"
+      ],
+      "claims": [
+        "facility level costs 75/150/225/300/375 gems",
+        "1,125 = one maxed facility line; explains the recorded 5,625",
+        "facility discount ladder maps to levels 0-5"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0322",
+      "url": "https://sakibpro.com/players/dynamicstar/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T10:20:00Z",
+      "summary": "**Dynamic Star = 40 records confirmed on sakibpro** (4 pages), matching dlsinside's 40 \u2014 and 40 = the number of World Cup 2026 participating nations, consistent with the documented one-representative-per-nation design. Page 1 (alphabetical) shows **all twelve at 82 OVR**: Akanji 27517 CB, Alderete 28243 CB, Arda Guler 27538 AM, Ait-Nouri 27532 LB, B. Barcola 27510 LW, Bono 27529 GK, Cunha 27511 SS, D. Nunez 27526 CF, Elanga 28244 RW, Eze 27508 AM, Fidalgo 27520 CM, Hincapie 27527 CB.\n\n**IMPORTANT OPERATIONAL CAVEAT:** the family INDEX shows **BASE** ratings (all 82, matching the documented base) while individual pages show **CURRENT live-upgraded** values (Nico Williams 96, Barcola 91, de Paul 93, Fidalgo 87). Index ratings must never be read as current for a live-upgrade family.",
+      "entities": [
+        "Barcola 27510",
+        "Cunha 27511",
+        "Fidalgo 27520",
+        "Arda Guler 27538"
+      ],
+      "claims": [
+        "Dynamic Star = 40 confirmed on both operators",
+        "index shows base rating, page shows live current rating"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0323",
+      "url": "https://sakibpro.com/players/world-cup-heroes/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T10:20:00Z",
+      "summary": "**World Cup Heroes = 8 records, matching dlsinside's 8 exactly.** Full roster: Messi 27848 SS 87, Ronaldo 27841 CF 87, De Bruyne 27840 AM 86, **James Rodriguez 25839 AM 85**, K. Navas 27837 GK 85, Gvardiol 27842 CB 84, Perisic 27850 LW 84, Walker 27839 RB 84.\n\n**BATCH-ID LAW FURTHER REFINED:** James Rodriguez 25839 sits in the **258xx** range, which also holds Champion cards (Messi 25841, Ronaldo 25842). So id-range cannot determine family within 258xx either \u2014 this is the third range (after 278xx and the two World Cup families) where the law fails locally.",
+      "entities": [
+        "James Rodriguez 25839",
+        "Messi 27848",
+        "De Bruyne 27840",
+        "Kyle Walker 27839"
+      ],
+      "claims": [
+        "World Cup Heroes roster = 8, confirmed on both operators",
+        "batch-id law fails within 258xx too"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
+    },
+    {
+      "id": "S-0324",
+      "url": "https://sakibpro.com/players/classic/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-30T10:20:00Z",
+      "summary": "**Classic = 34 records on sakibpro, against dlsinside's 32 \u2014 a 2-record cross-operator discrepancy (unresolved).** Page 1 also shows that the Classic family **contains the nameless stub 26841** (GK, 86, Spain) confirmed in turn 79.\n\n**Systematic duplicate-record pattern in Classic:** Matthaus **24596 and 27201** (both DM/AM 86), Batistuta **24595 and 27204** (both CF 85), Bergkamp **25100 and 27202** (both SS/CF 85) \u2014 same player, two IDs, same rating. Others on page 1: Cannavaro 26842 CB 86, Rivaldo 27094 LW 86, Chiellini 25099 CB 85, Desailly 26836 CB 85, Essien 26838 DM 85.",
+      "entities": [
+        "record 26841",
+        "Matthaus 27201",
+        "Batistuta 27204",
+        "Bergkamp 27202"
+      ],
+      "claims": [
+        "Classic = 34 (sakibpro) vs 32 (dlsinside)",
+        "duplicate records are systematic in Classic"
+      ],
+      "game_version": "DLS26 V13430 / code 160",
+      "source_reliability": "third-party",
+      "status": "success"
     }
   ],
   "frontier": {
-    "discovered_total": 585,
-    "visited_total": 319,
+    "discovered_total": 573,
+    "visited_total": 323,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
@@ -9209,14 +9292,6 @@
         "url": "https://www.firsttouchgames.com/support",
         "kind": "web_page",
         "lead": "unvisited web page: https://www.firsttouchgames.com/support",
-        "derived_from": "prior-discovery",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
         "derived_from": "prior-discovery",
         "related": [],
         "witness": "internal"
@@ -9369,22 +9444,6 @@
         "url": "https://www.ftgames.com/privacy-policy",
         "kind": "web_page",
         "lead": "unvisited web page: https://www.ftgames.com/privacy-policy",
-        "derived_from": "prior-discovery",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players",
-        "derived_from": "prior-discovery",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/simulator.html",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/simulator.html",
         "derived_from": "prior-discovery",
         "related": [],
         "witness": "internal"
@@ -11192,78 +11251,6 @@
         "notes": "One screenshot pair per stat. If doing all eight is too much, SPE and STA alone would settle the direction (the tool claims SPE expensive / STA cheap), and CON would give the largest coefficient. UPDATED turn 78: the simulator route is identified \u2014 https://sakibpro.com/players/simulator.html?loadPlayer={id} (any player id works; e.g. 10159, 25841, 27509). Load that URL directly."
       },
       {
-        "url": "https://sakibpro.com/players/world-winners/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/world-cup-heroes/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/world-cup-heroes/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/dreamstar26/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/dreamstar26/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/dreamstar25/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/dreamstar25/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/season-pass/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/season-pass/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/cult-heroes/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/cult-heroes/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/classic/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/classic/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/dynamicstar/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/dynamicstar/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/normal/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/normal/",
-        "derived_from": "S-0292/0293/0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
         "url": "https://sakibpro.com/players/simulator.html?loadPlayer=10159",
         "kind": "web_page",
         "lead": "unvisited web page: https://sakibpro.com/players/simulator.html?loadPlayer=10159",
@@ -11276,22 +11263,6 @@
         "kind": "web_page",
         "lead": "unvisited web page: https://sakibpro.com/players/dynamicstar/rodrigo-de-paul/27512/",
         "derived_from": "S-0299",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/world-winners/paul-pogba/27846/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/paul-pogba/27846/",
-        "derived_from": "S-0301",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://dreamkitsapp.com/players/type/secret/p/3",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://dreamkitsapp.com/players/type/secret/p/3",
-        "derived_from": "S-0284",
         "related": [],
         "witness": "internal"
       },
@@ -11328,14 +11299,6 @@
         "witness": "internal"
       },
       {
-        "url": "https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
-        "derived_from": "S-0319",
-        "related": [],
-        "witness": "internal"
-      },
-      {
         "url": "https://sakibpro.com/players/world-winners/rodri/27843/",
         "kind": "web_page",
         "lead": "unvisited web page: https://sakibpro.com/players/world-winners/rodri/27843/",
@@ -11348,30 +11311,6 @@
         "kind": "web_page",
         "lead": "unvisited web page: https://sakibpro.com/players/world-winners/lamine-yamal/27845/",
         "derived_from": "S-0319",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/world-cup-heroes/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/world-cup-heroes/",
-        "derived_from": "S-0313/0316/0318",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/classic/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/classic/",
-        "derived_from": "S-0313/0316/0318",
-        "related": [],
-        "witness": "internal"
-      },
-      {
-        "url": "https://sakibpro.com/players/cult-heroes/",
-        "kind": "web_page",
-        "lead": "unvisited web page: https://sakibpro.com/players/cult-heroes/",
-        "derived_from": "S-0313/0316/0318",
         "related": [],
         "witness": "internal"
       },
@@ -11390,8 +11329,24 @@
         "derived_from": "S-0307",
         "related": [],
         "witness": "internal"
+      },
+      {
+        "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1b2xxys/training_facility_guide/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.reddit.com/r/DreamLeagueSoccer/comments/1b2xxys/training_facility_guide/",
+        "derived_from": "S-0321",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/classic/lothar-mat-th-us/27201/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/classic/lothar-mat-th-us/27201/",
+        "derived_from": "S-0324",
+        "related": [],
+        "witness": "internal"
       }
     ],
-    "unvisited_total": 266
+    "unvisited_total": 250
   }
 }

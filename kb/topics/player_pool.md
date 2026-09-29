@@ -416,3 +416,33 @@ This gap asked for the identity of record 26841. **There isn't one, and that is 
 The normal index (14,232 records, 1,186 pages, OVR-descending) let me enumerate the whole 85 band. It is exactly **eleven players**: B. Fernandes AM, Donnarumma GK, Gabriel CB, Hakimi RB, Pedri CM, **Raphinha LW (×2 — duplicate records 15226 and 27135)**, Valverde CM, **Vini Jr LW**, Virgil CB, Vitinha CM.
 
 **No 85-rated CF exists.** The Forward column jumps 86 (Haaland, Kane, Mbappé, Dembélé) straight to 84 (J. Álvarez, Lautaro). Under the tier model (CF = SS = LW) the 85-Forward cell is only reachable via the two LWs — which is exactly how I finally reached it.
+
+## Addendum (turn 80): the two taxonomies reconciled; batch-id law fails in a third range (S-0321..S-0324)
+
+**THE TWO OPERATORS' TAXONOMIES RECONCILE, AND EIGHT COUNTS MATCH EXACTLY.** dlsinside runs an 11-family census, sakibpro a 12-family one. They are the same structure seen through different groupings:
+
+| dlsinside family | Count | sakibpro family | Count | Match |
+|---|---|---|---|---|
+| Cult Heroes | 12 | Cult Heroes | 12 | ✓ |
+| Champion | 12 | Champion | 12 | ✓ |
+| World Cup Champions | 8 | World Winners | 8 | ✓ |
+| World Cup Heroes | 8 | World Cup Heroes | 8 | ✓ |
+| Dynamic Stars | 40 | Dynamic Star | 40 | ✓ |
+| Team Of 2025 | 11 | Team 2025 | 11 | ✓ |
+| Kickoff Stars | 2 | Kickoff | 2 | ✓ |
+| **Star Players** | **23** | **Dream Star 25 + 26** | **11 + 12 = 23** | **✓ (decisive)** |
+| Classic | 32 | Classic | **34** | **✗ 2-record gap** |
+| Hidden | 270 | *(folded into Normal)* | — | — |
+| Exclusives | 7,388 | *(folded into Normal)* | — | — |
+| — | — | Season Pass | 1 | sakibpro-only |
+| Normal *(implied)* | ~6,629 | Normal | 14,232 | differ (folding) |
+
+**The decisive case is "Star Players 23".** That family has no counterpart in sakibpro's list, which looked like a gap — but Dream Star 25 (11) plus Dream Star 26 (12) is exactly 23. dlsinside lumps both Dream Star waves into one family and keeps Dynamic Stars separate (the 40-nation World Cup live-upgrade family). So the two taxonomies are consistent, just differently aggregated. That 40 also matches the documented one-representative-per-nation design for the 40 World Cup 2026 participants.
+
+**The one mismatch is Classic: 34 on sakibpro against 32 on dlsinside.** Unresolved — recorded as a live discrepancy rather than resolved by picking a side.
+
+**OPERATIONAL CAVEAT — index vs page for live-upgrade families.** sakibpro's family **index shows BASE ratings** (all 40 Dynamic Stars read 82, matching the documented base), while **individual pages show CURRENT live values** (Nico Williams 96, Barcola 91, de Paul 93, Fidalgo 87). For any live-upgrade family, never read an index rating as current.
+
+**Duplicate records are systematic in Classic, not a curiosity.** Page 1 alone yields Matthäus (24596 and 27201, both 86), Batistuta (24595 and 27204, both 85) and Bergkamp (25100 and 27202, both 85) — same player, two IDs, identical rating. The Classic family also contains the nameless stub **26841** confirmed last turn.
+
+**The batch-id law fails in a third range.** James Rodríguez **25839** is World Cup Heroes, while Messi **25841** and Ronaldo **25842** in the same 258xx block are Champion. Combined with the 278xx finding (both World Cup families interleaved), the law now holds only for gross separation (Classic 268xx–276xx, Cult Heroes 283xx) and must not be used to infer family from an id.

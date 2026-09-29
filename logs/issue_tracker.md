@@ -79,3 +79,22 @@ The recurring index/HEAD wipe struck **after** turn 75's writes had landed, rath
 ### ISS-010 (new, 2026-09-29 turn 77): transient "repository not found" on fetch
 `git fetch origin` returned `fatal: repository 'https://github.com/MythicalXenos/dls26-omega.git/' not found`. The **immediate retry succeeded**, and `gh auth status` confirmed the token was healthy, so this was transient rather than deletion or revocation.
 **Handling:** retry once before treating it as real. If the retry also fails, check `gh auth status` and `gh repo view` before concluding the repository is gone. **Never** respond to a failed fetch by resetting or rewriting local state — the working tree is the source of truth and must be inspected first (see the ISS-007 mid-cycle variant).
+
+### ISS-011 (new, 2026-09-30 turn 80): frontier metric inflated — unvisited_leads never pruned or deduped
+An assertion added at turn 80 (`no duplicate lead URLs`) failed, which exposed a bookkeeping defect that had been running silently.
+
+**Two separate faults.**
+1. **Stale leads.** Leads were appended to `frontier.unvisited_leads` and **never removed when visited**. 22 URLs sitting in the unvisited queue had in fact already been visited — some long ago (e.g. `.../dynamicstar/?page=2..4` = S-0141/0142/0143, `.../classic/?page=2..3` = S-0119/0120), some within the last two turns (the family indexes queued at turn 78 and consumed at turns 79-80).
+2. **Duplicate leads.** Turn 79 re-added three family indexes (`world-cup-heroes/`, `cult-heroes/`, `classic/`) that turn 78 had already added, and one more (`world-winners/emiliano-mart-nez/27849/`) duplicated a prior-discovery entry. Turn 79's write script had no dedupe assertion; turn 80 added one, which is what caught the class of fault.
+
+**Why it mattered:** `discovered_total = visited_total + unvisited_total`, so every stale lead was counted twice and `discovered_total` inflated. The turn-80 figure was first written as 596/323/273; **the true frontier is 573/323/250.**
+
+**Fix applied (turn 80):** prune any URL-lead whose normalised URL (lowercased, trailing slash stripped) matches an already-visited URL; dedupe the remainder on the same normalisation; keep all question leads (`Q-001..Q-028`, which carry no url). Totals recomputed and asserted: 323 visited, 250 unvisited, 573 discovered, 28 question leads, zero duplicates, zero stale.
+
+**Standing rule (adopted from turn 80):**
+- When a source is visited, **remove its lead from `unvisited_leads`** in the same write.
+- **Dedupe every new lead against the existing set** before appending, using the normalised URL.
+- **Assert all three invariants** on every write: no duplicate lead URLs, no lead URL present in `entries`, and `discovered_total == visited_total + unvisited_total`.
+- Treat the frontier counters as a **derived** quantity, never hand-set.
+
+**Reporting note:** this is the second consecutive turn in which an assertion caught my own arithmetic before it reached the repository. Both the turn-79 (lead count) and turn-80 (duplicate lead) faults were caught pre-write; the ISS-011 inflation itself had already accumulated silently across earlier turns and is now corrected.
