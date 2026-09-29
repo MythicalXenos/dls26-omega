@@ -311,3 +311,21 @@ These three cells now rest on two independent sources and may be treated as the 
 3. **"There isn't one [86 MID], the best midfielder is Pedri, with 85"** — an independent, structural explanation for why our 86 CM cell is badged Extrapolated: no such base card exists to verify. The same reasoning plausibly covers 86 CB, 86 GK and 85 CF. **Practical consequence: Extrapolated cells are prices for cards that do not exist in the base market, so the recipe is unlikely ever to need them.** The 83 GK cell remains the exception that breaks the clean reading (it is Extrapolated yet named 83-rated goalkeepers exist), so the badge should be read as "not manually confirmed" rather than as a strict existence claim.
 **Weak corroboration (recorded, not load-bearing):** TikTok auto-generated search-suggestion strings echo 2,230 (84 CB), 2,610 (84 CF) and 2,970 (86 CF) as DLS26 secret-player prices. Low reliability — no author, no method — so it raises nothing on its own, but the 2,230 value was only obtained yesterday and seeing it echoed is worth noting.
 **Route note:** Reddit returns 403 to direct fetch, including the .json endpoint (S-0261). Reddit evidence is therefore permanently snippet-limited here.
+
+## Addendum (turn 68): A SECOND INDEPENDENT OPERATOR CONFIRMS THE GRID — and both collisions (S-0263..0266)
+**The independence problem is materially solved.** dlsinside — a different operator with its own database — states a coin price as a data field on every per-player page ("In this edition, the card has a value of N coins"). Seven cells are now independently corroborated:
+| Cell | sakibpro | dlsinside (player, id) | Independent? |
+|---|---|---|---|
+| 86 CF | 2,970 | Harry Kane (10159) | **yes** (also Reddit) |
+| 85 CM | 2,555 | Federico Valverde (16636) | **yes** (also Reddit) |
+| 84 GK | 1,950 | Alisson (14939) | **yes** |
+| 82 CB | 1,950 | Marquinhos (11519) | **yes** |
+| 83 CB | 2,085 | Bremer (16359) | **yes** |
+| 82 CM | 2,085 | Luka Modric (1498) | **yes** |
+| 81 CF | 2,115 | Heung-min Son (10074) | **yes** |
+**BOTH COLLISIONS ARE NOW TWO-SOURCE CONFIRMED — they are real properties of the pricing system, not artifacts of one tool's formula:**
+- **2,085 = 83 CB (Bremer) = 82 CM (Modric)**
+- **1,950 = 84 GK (Alisson) = 82 CB (Marquinhos)**
+This is the practically decisive result for the crossed-price recipe (Q-007). At 2,085 an 83-rated defender and an 82-rated midfielder are genuinely indistinguishable by price; at 1,950 an 84-rated goalkeeper and an 82-rated defender likewise. Only the position group printed on the card separates them. **Eight of the 24 cells are now two- or three-source (up from three at turn 67); the remaining sixteen are still sakibpro-only.**
+**Entity data captured (dlsinside):** Kane 86 CF 188cm/33/Right, Shooting 96/Speed 75/Acc 70, England + North European Allstars · Valverde 85 CM-RM-RB 182cm/28/Right, Passing 83/Control 82/Stamina 90, R Madrid + Uruguay + South American Allstars · Alisson 84 GK 193cm/33/Right, GK Reactions 82/GK Handling 80/Passing 68, Liverpool · Marquinhos 82 CB-RB 183cm/32/Right, Tackling 91/Strength 85/Speed 79, Paris SG · Son 81 CF-LW 183cm/34/**Both-Right**, Shooting 83/Speed 85/Acc 85, Korea Republic + Asian Allstars · Bremer 83 CB 188cm/29/Right, Tackling 91/Strength 86/Speed 83, J Turin · Modric 82 CM-DM 172cm/**41**/Both-Right, Passing 92/Control 90/Stamina 75, A Milan + Croatia + South European Allstars.
+**Route results:** `dls-ext.vercel.app` (a community DLS26 database shared on Reddit) exposes a **Price** field in its player-detail panel but is a client-side SPA — fetch_page gets only an empty shell, so it needs a JS-capable approach or a user screenshot (lead, not yet a source). `dlsplayers.com` is a NEGATIVE: its player profiles are empty "Coming Soon" stubs behind an APK-promotion funnel — no rating, no stats, no price despite claiming a "Player Value" feature. `dls-database.lovable.app` is **DLS25-era** and its prices conflict with the DLS25 figures quoted on Reddit (Rodri 86: 2,600 vs 2,725), so the entire DLS25 price picture is contested and unusable for DLS26.

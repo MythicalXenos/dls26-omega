@@ -84,3 +84,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 41 | Second independent price source (Reddit community list) corroborates 86CF 2,970 / 85CM 2,555 / 82CF 2,275 exactly | high for these three cells (two independent source types) | patch | S-0259 |
 | 42 | Secret-player discount ≈ 200 coins; observed crossed price carries +/-2-3 coin tolerance | medium-high (single community thread, but operationally specific) | patch | S-0259 |
 | 43 | Extrapolated badge ≈ "no such base card exists" (independently supported for 86CM: best midfielder is Pedri at 85); 83GK is an exception — read as "not manually confirmed" | medium | static | S-0259/0258 |
+
+### Claims promoted (turn 68)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 44 | dlsinside independently corroborates seven price cells (86CF 2,970 / 85CM 2,555 / 84GK 1,950 / 82CB 1,950 / 83CB 2,085 / 82CM 2,085 / 81CF 2,115) | **high** — two independent operators agree to the coin | patch | S-0263/0264 |
+| 45 | Both price collisions are real system properties, two-source confirmed: 2,085 (83CB=82CM) and 1,950 (84GK=82CB); the crossed-price recipe cannot resolve them without the card's position group | **high** (two independent operators) | patch | S-0263/0264 |
+| 46 | dlsplayers.com publishes no player data (empty stubs) behind an APK-install funnel — not a usable source | high (direct observation) | static | S-0266 |

@@ -8089,11 +8089,85 @@
       "game_version": "DLS26",
       "source_reliability": "sakibpro (single source; adds entities, not independence)",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0263",
+      "url": "https://dlsinside.com/player/{harry-kane/10159, federico-valverde/16636, alisson/14939, marcos-aoas-correa/11519, heung-min-son/10074}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:45:00Z",
+      "summary": "**dlsinside CARRIES A COIN-PRICE FIELD on its per-player pages** \u2014 the independence problem is materially solved. Five cells now confirmed by a SECOND independent tool operator (different site, different DB, server-rendered pages): **Kane 10159 (86 CF England) = 2,970** \u2713 \u00b7 **Valverde 16636 (85 CM Uruguay) = 2,555** \u2713 \u00b7 **Alisson 14939 (84 GK Brazil) = 1,950** \u2713 \u00b7 **Marquinhos 11519 (82 CB Brazil) = 1,950** \u2713 \u00b7 **Son 10074 (81 CF Korea) = 2,115** \u2713. Every one matches the sakibpro matrix to the coin. **CRITICALLY, Alisson (84 GK) and Marquinhos (82 CB) both = 1,950 \u2014 the COLLISION is confirmed by a second independent source**, so it is a real feature of the game's pricing and not an artifact of one tool's formula. The dlsinside page template is: rating + position + height + foot + clubs/national teams + 'In this edition, the card has a value of N coins' + named stats. New entity data: Kane 188cm/33/Shooting 96/Speed 75/Acc 70 \u00b7 Valverde CM-RM-RB 182cm/28/Passing 83/Control 82/Stamina 90 \u00b7 Alisson GK 193cm/33/GK Reactions 82/GK Handling 80/Passing 68 \u00b7 Marquinhos CB-RB 183cm/32/Tackling 91/Strength 85/Speed 79 \u00b7 Son CF-LW 183cm/34/**Both/Right foot**/Shooting 83/Speed 85/Acc 85. All-star alias teams confirmed (North European / South American / Asian Allstars).",
+      "entities": [
+        "Harry Kane",
+        "Federico Valverde",
+        "Alisson",
+        "Marquinhos",
+        "Heung-min Son"
+      ],
+      "claims": [
+        "dlsinside per-player pages carry a coin price field",
+        "86CF 2,970 / 85CM 2,555 / 84GK 1,950 / 82CB 1,950 / 81CF 2,115 all confirmed by a second independent operator",
+        "the 1,950 collision (84GK = 82CB) is two-source confirmed"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside = independent third-party operator; price is stated as a data field. Two independent operators now agree on these five cells",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0264",
+      "url": "https://dlsinside.com/player/gleison-bremer/16359 + /player/luka-modric/1498",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:47:00Z",
+      "summary": "**THE SECOND COLLISION IS CONFIRMED BY A SECOND INDEPENDENT SOURCE.** dlsinside: **Bremer 16359 (83 CB, J Turin) = 2,085 coins** and **Modric 1498 (82 CM/DM, A Milan) = 2,085 coins** \u2014 two players, two ratings, two positional groups, one price, matching sakibpro exactly. So **BOTH collisions (2,085 and 1,950) are now two-source confirmed** and are real properties of the pricing system rather than tool artifacts. This is the practically important result for the crossed-price recipe (Q-007): at 2,085 the recipe genuinely cannot distinguish an 83-rated defender from an 82-rated midfielder without the position group on the card. New entity data: Bremer 83 CB 188cm/29/Tackling 91/Strength 86/Speed 83 \u00b7 Modric 82 CM-DM 172cm/**41**/Both-Right foot/Passing 92/Control 90/Stamina 75 (A Milan + Croatia + South European Allstars).",
+      "entities": [
+        "Bremer",
+        "Luka Modric"
+      ],
+      "claims": [
+        "83CB = 2,085 and 82CM = 2,085 \u2014 the collision is two-source confirmed",
+        "Bremer 83 CB; Modric 82 CM/DM (age 41, both feet)"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields \u2014 second independent operator agreeing with sakibpro",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0265",
+      "url": "https://dls-ext.vercel.app/ + search results (dls-database.lovable.app, github Venocybertech)",
+      "method": "fetch_page + search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:48:00Z",
+      "summary": "Two further candidate databases assessed. **dls-ext.vercel.app** (community DLS26 database, shared on Reddit as a DLS26 database) is a client-side SPA: the fetch returned only an empty shell, but the shell REVEALS a **'Price:' field** in its Player Details panel alongside ID/Nationality/Club/Position/Version/Leg/Rating/Height and the eight stats. Route is JS-blocked to fetch_page, so it needs a JS-capable approach or a user screenshot \u2014 recorded as a lead, not a source. **dls-database.lovable.app** renders server-side ('Showing 24 of 3816 players', price range 0-3000) but is explicitly **'Updated for DLS 2025'** \u2014 ERA-TAINTED; its prices (Mbappe 86 CF 2,800; Salah 86 RW 2,800; Rodri 86 DM 2,600) do NOT match DLS26 and also conflict with the DLS25 figure quoted on Reddit (Rodri 86 = 2,725), so the whole DLS25 price picture is contested and unusable for DLS26. **github Venocybertech/DLS-Player-Search2** is DLS24-era and unmaintained.",
+      "entities": [],
+      "claims": [
+        "dls-ext.vercel.app has a Price field but is JS-blocked (lead, not source)",
+        "dls-database.lovable.app is DLS25-era and its prices conflict with DLS25 Reddit figures - unusable"
+      ],
+      "game_version": "DLS25/DLS26 mixed",
+      "source_reliability": "lovable app ERA-TAINTED + internally contested; dls-ext route untested (JS)",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0266",
+      "url": "https://dlsplayers.com/ and https://dlsplayers.com/dls-erling-haaland/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:49:00Z",
+      "summary": "NEGATIVE \u2014 dlsplayers.com is a content/SEO front promoting an APK download ('Players Apk', 97.45 MB, v3.0, 1 Sep 2026, 1M+ downloads, developer Saif Ullah). Its individual player profile pages (e.g. /dls-erling-haaland/) are **'Coming Soon' stubs with no data at all** \u2014 no rating, no stats, no price. Despite claiming 'Player Value' as a feature and asserting 'we don't estimate or fill in numbers that haven't been confirmed' (a method claim with nothing behind it), the site currently publishes NO player data. **Dead as a price source.** Deception-screen note: the site monetises APK installs, an incentive to attract traffic with player-data promises it does not yet fulfil; its anti-mod warnings are window dressing for an APK-promotion funnel.",
+      "entities": [],
+      "claims": [
+        "dlsplayers.com player profiles are empty 'Coming Soon' stubs - no data",
+        "dlsplayers.com = APK-promotion funnel (commercial incentive)"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "NEGATIVE - no data published; commercial APK-install incentive",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 501,
-    "visited_total": 261,
+    "discovered_total": 505,
+    "visited_total": 265,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
