@@ -275,3 +275,7 @@ route: datamine of transfer tables; user observation across rating thresholds.
 
 - **Q-018 (turn 63): 4/4 Ireland mystery RESOLVED IN SHAPE** — the four staged records (Keane 5842/IE/87, Irwin 5839/IE/85, Robinson 5833/IE/76, Gallagher 5866/IE/82) all carry the Ireland flag. Remaining: who is the 82-rated CM/AM "Gallagher" (Irish or staging default?) + is "Peter" a leak garble for Michael (CF/AM 76 striker profile says yes). Routes: hidden-family census (probes) + datamine.
 - **Staging-default artifacts (turn 62-63):** height 182cm + blank age (or DOB 1900-01-01) = shared defaults across Hidden-family records; foot/positions/OVR/stats = real-profile fields.
+
+- **Q-001 / G-0086 (turn 64) NEGATIVE:** `cdn.sakibpro.com/assets/dls26/26841.webp` = HTTP 500 via fetch_page. The recorded card-art pattern does not resolve this way — do NOT retry blindly; the next route is to capture the URL from a live player page's rendered markup/network tab, or use the CokeStudios OCR tool (S-0247) on a user-supplied screenshot of the 26841 card (Q-016-style ask).
+- **Era-boundary evidence (turn 64):** coach economy reworked between versions (DLS24 "≈90 points" -> DLS26 "100% weight"; Rare 50 -> 75 gems). Any coach-count or gem-cost figure must be version-labelled.
+- **Coach UI detail (turn 64):** 1-of-3 attribute selection at +2 with DISCARD & RESHUFFLE + a "COACHES WASTED (DETAILED COST)" ledger — relevant to Q-012 (coach class) and Q-015 (special-coach test); the waste ledger is a cost the community guides never quantified.

@@ -7885,11 +7885,58 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside per-record data fields (structural); the flag association may be set-wide default - flagged",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0253",
+      "url": "https://sakibpro.com/players/simulator.html (re-fetch, DLS26-labelled)",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T16:30:00Z",
+      "summary": "Re-fetch of the simulator (previously S-0020/S-0198) to pull the coach-panel mechanics. CONFIRMS the recorded model (100% development weight; 10% = +1 OVR; cap +10; GK 2.2 pts per +1 OVR, cap 22). NEW detail (not in kb): the four coach categories with exact coverage \u2014 Fitness (SPE, ACC, STA, STR), Technical (CON, PAS, SHO, TAC), Special (ALL STATS), Goalkeeping (GKR, GKH) \u2014 and gem prices Fitness/Technical 25/75/225, Special 90/240/400, GK 15/40/150; the FIVE facility-discount steps 0/5/10/15/20/30%; and the live coaching UI: **'COACH SELECTION (1/3) \u2014 Pick one attribute to boost by +2' with a 'DISCARD & RESHUFFLE' button** plus a 'COACHES WASTED (DETAILED COST)' readout. Manual panel defaults every outfield stat to 80 (SPE/ACC/STA/STR/CON/PAS/SHO/TAC). The 1-of-3 + reshuffle + waste-tracking UI is the concrete form of the 'random' coaching mechanic (Q-012/Q-015 relevant).",
+      "entities": [
+        "Fitness Coach",
+        "Technical Coach",
+        "Special Coach",
+        "Goalkeeping Coach",
+        "Facility Discount"
+      ],
+      "claims": [
+        "coach categories + coverage (Fit SPE/ACC/STA/STR; Tech CON/PAS/SHO/TAC; Special ALL; GK GKR/GKH)",
+        "prices Fit/Tech 25-75-225; Special 90-240-400; GK 15-40-150 gems",
+        "coaching UI = 1-of-3 attribute +2 with DISCARD & RESHUFFLE; coaches-wasted readout",
+        "facility discount steps 0/5/10/15/20/30%"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "third-party tool (deception_register #2: cap at Speculative pending corroboration); its 'official hidden weighting system' framing is unverified AUTHORITY CLAIM, the UI itself is a real render",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0254",
+      "url": "https://www.levelwinner.com/dream-league-soccer-2020-training-guide-a-complete-guide-to-training-your-players/ + reddit r/DreamLeagueSoccer coaching guides",
+      "method": "search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T16:32:00Z",
+      "summary": "CROSS-VERSION COACH-ECONOMY HISTORY (all ERA-TAINTED for DLS26 \u2014 structural interest only). DLS20 (levelwinner, 2020-07-03): three coach classes \u2014 Technical (Control/Distribution/Shooting/Tackling), Fitness (Strength/Stamina/Speed/Acceleration), Goalkeeping (Reflexes/Handling); Common 25\ud83d\udc8e = 2 random stats +2 each, 1 player, 5% Breakout; Rare 50\ud83d\udc8e = 2 players, 3 random stats +3, 10%; Legendary 225\ud83d\udc8e = 3 players, 4 stats +4, 20%. DLS24-era reddit: Legendary = 3 random stats +3, Rare = 2 stats +2, Common = 1 stat +1 (CONTRADICTS the 2020 mapping \u2014 contested); special-coach math: ~90 points to max, Common 2 pts / Rare 6 / Legend 12 \u2192 45/15/7.5 coaches (comment correction: 9 Legendaries for NORMAL coaches); recycling: releasing a Legendary yields 2 Rare coaches \u2192 16 attribute points, and 1535/8 = 192 coins = the break-even price for a common coach. ERA MARKERS: Rare price 50\ud83d\udc8e (DLS20/24) \u2192 75\ud83d\udc8e (DLS26, S-0253) = price drift; outfield budget '~90 points' (DLS24) \u2192 '100% weight' (DLS26) = the budget system was REWORKED between versions, which is why DLS24 coach-count math must not be applied to DLS26.",
+      "entities": [
+        "Technical Coach",
+        "Fitness Coach",
+        "Goalkeeping Coach",
+        "Breakout Rating"
+      ],
+      "claims": [
+        "DLS20 coach grid Common 25 / Rare 50 / Legend 225 with breakout 5/10/20%",
+        "DLS24 special-coach budget ~90 points (45 common / 15 rare / 7.5 legendary)",
+        "coach price drift: Rare 50 -> 75 in DLS26",
+        "budget system reworked between DLS24 and DLS26 (points -> weight%)"
+      ],
+      "game_version": "DLS20 (2020) / DLS24 (2024) \u2014 NOT DLS26",
+      "source_reliability": "era-tainted historical; the 2020 vs 2024 mappings CONTRADICT each other on Legendary (+4x4 vs +3x3) \u2014 contested, do not carry into DLS26 figures",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 491,
-    "visited_total": 251,
+    "discovered_total": 493,
+    "visited_total": 253,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

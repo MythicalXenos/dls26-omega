@@ -56,3 +56,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 29 | Staged leak set fully probed: Keane 5842 (87 CM/DM) / Irwin 5839 (85 LB/RB, LEFT foot - leak "Irvin 85" exact) / Robinson 5833 (76 CF/AM) / Gallagher 5866 (82 CM/AM) — all Ireland-flagged | high | static | S-0250/0252 |
 | 30 | 4/4 Ireland flags = the staged set itself; Gallagher nationality oddity OPEN | high (flags) / low (reading) | static | S-0252 |
 | 31 | Staging defaults: height 182cm + blank age shared across Hidden records; foot/OVR/stats = real-profile fields | high | static | S-0250/0252 |
+
+### Claims promoted (turn 64)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 32 | DLS26 coach categories/coverage + gem grid (Fit/Tech 25-75-225; Special 90-240-400; GK 15-40-150; facility discount 0/5/10/15/20/30%) | medium (single third-party tool; deception_register #2 cap) | patch | S-0253 |
+| 33 | Coaching UI = 1-of-3 attribute at +2 with DISCARD & RESHUFFLE + coaches-wasted cost ledger | medium (single third-party render) | patch | S-0253 |
+| 34 | Coach economy reworked across versions (DLS24 ≈90 points -> DLS26 100% weight; Rare 50 -> 75 gems); DLS24 coach math must not be applied to DLS26 | medium (era-tainted sources, but the drift is consistent across three sources) | static | S-0253/0254 |
