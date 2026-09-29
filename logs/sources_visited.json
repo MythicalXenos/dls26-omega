@@ -8190,11 +8190,37 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields vs sakibpro; the conflict is recorded unresolved rather than adjudicated",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0268",
+      "url": "https://dlsinside.com/player/{yann-sommer/12197, ederson/15227, joan-garcia/19544, gregor-kobel/19920, thibaut-courtois/7458, david-raya/16412}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T18:20:00Z",
+      "summary": "**THE 83 GK CONFLICT IS RESOLVED AGAINST SAKIBPRO, AND IT LEAVES AN ANOMALY.** Three INDEPENDENT 83-rated goalkeepers all come back at **2,085**: Maignan 15467 (turn 69), **Joan Garcia 19544 (83 GK, Barcelona/Spain)** and **Gregor Kobel 19920 (83 GK, Switzerland)**. Three different players, one value \u2014 so **sakibpro's 83 GK cell of 1,825 (Extrapolated) is a FAILED EXTRAPOLATION, not a price.** This validates the turn-67 rule against trusting Extrapolated cells, now at the level of the VALUE itself rather than just the displayed names. **BUT it produces an anomaly I cannot explain:** the observed GK ladder is then **81: 1,590 \u00b7 82: 1,705 \u00b7 83: 2,085 \u00b7 84: 1,950 \u00b7 85: 2,080**, which is **NON-MONOTONIC** (83 > 84, and 85 \u2248 83). Every other group is strictly monotonic (Forward 2115/2275/2440/2610/2785/2970 \u00b7 Midfield 1935/2085/2235/2390/2555/2730 \u00b7 Defense 1815/1950/2085/2230/2375/2520). So either the GK ladder genuinely has this shape, or dlsinside's GK ratings are shifted for some players, or its price field is unreliable for goalkeepers specifically. **I am not resolving that: 83 GK is recorded as OBSERVED 2,085 (three players) with the ladder anomaly flagged, and the practical guidance is to treat the 83 GK price as unreliable either way.** Other results: **85 GK = 2,080 CONFIRMED** (Courtois 7458, 85 GK) \u2014 a new cell, and a fifth rating-drift case (sakibpro had Courtois in the 84 GK list). 82 GK = 1,705 re-confirmed (Sommer 12197). 84 GK = 1,950 re-confirmed a third time (David Raya 16412). **NEW TAXONOMY FINDING: Ederson 15227 is badged an EXCLUSIVE player on dlsinside \u2014 'no longer normally available in the game', record preserved historically, and NO price field at all.** That matches the dlsinside registry's Exclusives family (7,388 records) and explains why Ederson appeared in sakibpro's normal-tier 82 GK list: sakibpro is listing a card that is not in the normal market.",
+      "entities": [
+        "Joan Garcia",
+        "Gregor Kobel",
+        "Thibaut Courtois",
+        "David Raya",
+        "Yann Sommer",
+        "Ederson"
+      ],
+      "claims": [
+        "83 GK = 2,085 observed on three independent players; sakibpro's 1,825 extrapolation is WRONG",
+        "GK ladder under dlsinside readings is NON-MONOTONIC (83>84) = unresolved anomaly",
+        "85 GK = 2,080 confirmed (Courtois)",
+        "dlsinside 'Exclusive' badge = historical/unavailable cards with NO price field",
+        "fifth rating-drift case: Courtois (sakibpro 84 / dlsinside 85)"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields; three independent 83-rated GKs agree, which outweighs a single formula extrapolation \u2014 but the resulting ladder shape is anomalous and is flagged rather than explained",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 506,
-    "visited_total": 266,
+    "discovered_total": 507,
+    "visited_total": 267,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

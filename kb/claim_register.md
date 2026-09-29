@@ -97,4 +97,12 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 |---|---|---|---|---|
 | 47 | 84CB 2,230 / 82GK 1,705 / 81GK 1,590 confirmed by a second independent operator | high (two operators agree) | patch | S-0267 |
 | 48 | sakibpro per-player rating attributions are stale by one rung for >=4 players (Rice, Rabiot, Ruben Dias, E.Martinez); its price ladder is unaffected | medium-high (systematic across 4 cases; direction of staleness assumed to be sakibpro's, not proven) | patch | S-0267 |
-| 49 | CONFLICT (unresolved): 83 GK = 1,825 (sakibpro, extrapolated) vs 2,085 (dlsinside, Maignan observed) | **low / OPEN** — treated as UNKNOWN until a third sample resolves it | patch | S-0267 |
+| 49 | ~~CONFLICT (unresolved)~~ **RESOLVED turn 70:** 83 GK = **2,085 observed** (three independent 83-rated GKs: Maignan, Joan Garcia, Kobel); sakibpro's 1,825 is a **failed extrapolation**. **Caveat: the resulting GK ladder is non-monotonic (83 > 84), so the GK ladder as a whole remains ANOMALOUS and 83 GK prices should be treated as unreliable** | medium (three observations) / ladder shape: **OPEN** | patch | S-0267/0268 |
+
+### Claims promoted (turn 70)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 50 | 83 GK = 2,085 (three independent players); sakibpro's 1,825 extrapolation is wrong | medium-high (three observations) — but see 51 | patch | S-0268 |
+| 51 | The GK price ladder is NON-MONOTONIC under dlsinside readings (81:1590 / 82:1705 / 83:2085 / 84:1950 / 85:2080); the only group that is. Cause UNKNOWN | **OPEN** — recorded, not explained | patch | S-0268 |
+| 52 | 85 GK = 2,080 confirmed (Courtois); sakibpro rating drift now five cases | high (two operators) | patch | S-0268 |
+| 53 | dlsinside "Exclusive" class = historical/unavailable cards with NO price field; sakibpro's normal-tier lists are contaminated with non-market cards | high (direct page observation) | static | S-0268 |
