@@ -62,6 +62,8 @@ report: At the turn-17 stop the following recurring obligations are incomplete: 
 investigation: N/A (saturation entries exempt from investigate-on-first-occurrence). Pattern detection across cycles applies.
 resolution: staged across the next research turns in the stated order: (a)+(c) first (source-log hygiene), then (d) gate dimensions (research substance), (b)+(e) migration as part of normal turns, (f)(g) as scheduled. Completing part is staging; tracked here so the debt is visible.
 
+**ISS-008 addendum (turn 48, 2026-09-29T09:40Z):** parts (a) + (c) COMPLETE — 140 entries (S-0039..S-0080 block + a later regression block through S-0204) backfilled to the full canon field set incl. per-domain deception-screen records; 0 non-compliant entries remain. Regression cause: the turn-43..47 write helper emitted a 15-field subset of the S-0081 schema — fixed; entries from S-0205 on use the full schema. Remaining: (b) KB claim migration, (d) gate dimensions, (e) HANDOFF normalization, (f) self-audit cycle, (g) position-locking.
+
 ### ISS-009 — HANDOFF edit failed on unescaped apostrophe in a python string (turn 29)  [RESOLVED]
 opened: 2026-09-28T14:20Z | kind: failure
 report: The turn-29 HANDOFF rewrite used a single-quoted python string containing "sakibpro's" — the apostrophe terminated the string and the remaining em-dash text raised SyntaxError. The bash block ran statements newline-separated (not &&-chained), so the git commit still executed and pushed (ba4ca56) WITHOUT the HANDOFF update; the turn-close appeared successful from the command output.

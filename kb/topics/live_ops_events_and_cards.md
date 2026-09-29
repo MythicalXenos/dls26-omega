@@ -64,3 +64,10 @@ Unanswered: whether seasons are calendar-bound or rolling; how season points acc
 
 - Dec-2024 season pass theme: **CHRISTMAS**, 1d 5h left on 27 Dec 2024; its ACTIVATE PASS! row shows a **Hermoso** card as a pass reward. Jan-2026 pass theme: **'january'**, 9h 2m 53s left on the capture — pass themes appear monthly/calendar-bound while ladder cycles run ~90 days, i.e. two independent live-ops clocks (G-0052).
 - Ladder cycle banners: WORLD CUP CLASSICS (Dec-2024, 69d 22h left), MIDFIELD CLASSICS (Jan-2026, 41d 21h left). Combined with the current English League Classics banner, three named cycles span Dec-2024 to Sep-2026, consistent with ~90-day recycling (seven-plus cycles).
+
+## Addendum (turn 48): KICK-OFF STARS = real DLS26 mechanic (S-0206)
+- **What:** special-edition **GREEN cards** — the DLS26 wave = **Raphinha + Alvarez** (the two DLS26 cover stars).
+- **Delivery: VIA THE SEASON PASS** — you can only choose **ONE per pass**; both require buying a second pass (community: "clever but greedy"). Reddit Dec-13-2025: "Kick off stars Raphinha and Alvarez are here in season pass"; "the next season pass which arrives in 9 days" (10-day pass cycle echo).
+- **Upgrade path:** improved with **special trainers** (choose the stats) + gems (community description). Rating band community-guessed **80-86**. Green card colour "confirmed by server leaks" (dlsmod — mod site, rumor-grade).
+- **Mechanic echoes:** special players excluded from accommodation/squad count (Nov-2025 thread — matches the "specials don't eat accommodation" line).
+- **G-0063 link:** the DROICER leak's "DLS 27 Kick-Off Stars" phrase refers to THIS program — a Gallagher/Robinson (or Ronaldo/Raphinha) DLS27 wave is structurally plausible as the follow-up to the DLS26 cover-star wave.
