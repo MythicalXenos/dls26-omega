@@ -8,7 +8,7 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 3 | Secret "Classic X" set maps to leak names (Keane 5842 / Irwin 5839 / Gallagher 5866 / Robinson 5833); staging hypothesis | high (correlation) | static | S-0182..0184, S-0187/0190/0195 |
 | 4 | Robinson identity: Peter Robinson = Liverpool CEO (NOT a player); record 5833 = Classic Robinson 76 CF/AM Ireland (Michael Robinson striker profile — leak "Peter" = garble). Record-level RESOLVED to the Michael reading | high (mapping now supported by position+flag) | static | S-0203/0214/0244/0252 |
 | 5 | Price = f(base OVR, tier-of-4); tiers flat (F: CF=SS=LW; M: AM=CM=DM; D: CB=LB; GK) | high | patch | S-0213..0233 |
-| 6 | Verified anchors: 86CF 2,970 / 85CB 2,375 / 82CF 2,275 / 84CF 2,610 / 83CF 2,440 / 85CM 2,555 / 83CM 2,235 / 85GK 2,080 | high | patch | S-0213..0233 |
+| 6 | Verified anchors: 86CF 2,970 / 85CB 2,375 / 82CF 2,275 / 84CF 2,610 / 83CF 2,440 / 85CM 2,555 / 83CM 2,235 / 85GK 2,080. **UPGRADED (turn 67): 86CF, 85CM and 82CF are now corroborated by a SECOND independent source (Reddit community price list) -> these three are two-source; the other five remain single-source** | high (three cells: high, two-source) | patch | S-0213..0233, S-0259 |
 | 7 | Secret-market discount: crossed-out = standard grid price, ~200 off; identify via price | high | live | S-0210/0213/0227 |
 | 8 | Facility currency split: stands = coins, facility lines = gems (1,125 x 5 = 5,625, DLS23-era) | medium | patch | S-0221 |
 | 9 | Commercials ladder L2 +13% / L3 +21% match coins | medium | patch | S-0221 |
@@ -77,3 +77,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 38 | Complete price matrix 81-86 x 4 groups (24 cells; 5 Extrapolated: 86CM/86CB/86GK/85CF/83GK) | medium — single third-party source (deception_register #2 cap); tier unchanged | patch | S-0255/0258 + S-0213..0233 |
 | 39 | Collision set for 81-86 is exactly two: 2,085 (82CM=83CB) and 1,950 (84GK=82CB); all other prices map to one cell | high (arithmetic over the fetched matrix) | patch | S-0258 |
 | 40 | An Extrapolated cell still displays named players (83GK) — the match list is formula output and cannot corroborate the price | high (direct page observation) | static | S-0258 |
+
+### Claims promoted (turn 67)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 41 | Second independent price source (Reddit community list) corroborates 86CF 2,970 / 85CM 2,555 / 82CF 2,275 exactly | high for these three cells (two independent source types) | patch | S-0259 |
+| 42 | Secret-player discount ≈ 200 coins; observed crossed price carries +/-2-3 coin tolerance | medium-high (single community thread, but operationally specific) | patch | S-0259 |
+| 43 | Extrapolated badge ≈ "no such base card exists" (independently supported for 86CM: best midfielder is Pedri at 85); 83GK is an exception — read as "not manually confirmed" | medium | static | S-0259/0258 |

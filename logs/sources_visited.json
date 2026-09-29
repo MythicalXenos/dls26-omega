@@ -8013,11 +8013,87 @@
       "game_version": "DLS26 V13430",
       "source_reliability": "sakibpro (deception_register #2 - Speculative cap); single source, tier unchanged",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0259",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pe7j7l/here_is_the_price_list_of_dls_26/ (via search; direct fetch 403)",
+      "method": "search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:25:00Z",
+      "summary": "**SECOND INDEPENDENT PRICE SOURCE FOUND \u2014 the highest-value open action from turn 66's queue.** A community price list for DLS 26, posted by u/ahmthn0 (Dec-2025), with prices reported by players observing their own transfer markets rather than by a tool operator. It corroborates three of our cells EXACTLY: **2,970 = 86 (Kane / Haaland)** matches 86CF; **2,555 = '85 midfielder (Vitinha, Bruno etc.)'** matches 85CM; **2,275 = 'An 82 overall forward'** matches 82CF. Additionally: the secret-player discount is about **200 coins** (2,555 -> 2,355 observed); **'The crossed-out price can be off by 2 or 3 coins'** \u2014 a tolerance the recipe must carry; 'Whos the 86 MID?' -> **'There isn't one, the best midfielder is Pedri, with 85'**, which independently explains why our 86CM cell is badged Extrapolated (no such base card exists); and 'Whos the 84 Att?' -> Alvarez, Lautaro, Saka, Luis Diaz, Kvara (the 84CF candidate set already recorded). Historical aside (ERA-TAINTED, DLS25): Rodri 86 = 2,725 after the DLS25 price increase. INDEPENDENCE: this is player-observed data on Reddit, unrelated to sakibpro \u2014 so the three corroborated cells now rest on two independent source types.",
+      "entities": [
+        "Kane",
+        "Haaland",
+        "Vitinha",
+        "Bruno Fernandes",
+        "Pedri"
+      ],
+      "claims": [
+        "86 = 2,970 (Kane/Haaland) - corroborates 86CF",
+        "2,555 = 85 midfielder (Vitinha/Bruno) - corroborates 85CM",
+        "2,275 = 82 forward - corroborates 82CF",
+        "secret discount ~200 coins",
+        "crossed-out price tolerance +/-2-3 coins",
+        "no 86 midfielder exists (best is Pedri 85) - explains the 86CM Extrapolated badge"
+      ],
+      "game_version": "DLS26 (thread Dec-2025)",
+      "source_reliability": "community/player-observed, independent of sakibpro; single thread but a different source TYPE",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0260",
+      "url": "https://www.tiktok.com/discover/who-secret-player-cost-2285-in-dls-25 (search-suggestion strings)",
+      "method": "search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:26:00Z",
+      "summary": "WEAK third-source corroboration via TikTok discover search-suggestion strings (Aug-2026): 'Secret Player in Dls 2026 That Costs **2230**', 'Secret Player in Dls 2026 Price **2970** Coins', 'Secret Player in Dls 26 Sold at **2610** Initial Cost', '**2555** Dls 25 Secret Player', 'Secret Player in Dls 2025 Price **2085**'. Three of these match our DLS26 matrix cells \u2014 **2,230 = 84CB**, **2,610 = 84CF**, **2,970 = 86CF** \u2014 and 2,555/2,085 appear as DLS25-era strings (era-tainted). Reliability is low (auto-generated suggestion strings, no author, no method), so this is supportive colour only and must not be used to raise any tier on its own; it is recorded because the 2,230 value was only obtained yesterday and seeing it echoed independently is worth noting.",
+      "entities": [],
+      "claims": [
+        "2,230 / 2,610 / 2,970 echoed as DLS26 secret-player prices (weak)"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "LOW - auto-generated search suggestions; corroboration colour only, cannot raise a tier",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0261",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pe7j7l/.json",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:27:00Z",
+      "summary": "ROUTE TEST (negative, confirms prior): the Reddit .json endpoint returns **HTTP 403** to fetch_page, same as the HTML route recorded earlier. Reddit content is reachable only through search-result snippets. Recorded so the route is not retried; consequence = Reddit-sourced evidence will always be snippet-limited, which caps how much of any thread can be captured.",
+      "entities": [],
+      "claims": [
+        "reddit .json = 403 (route closed; snippet-only access)"
+      ],
+      "game_version": "n/a",
+      "source_reliability": "route test",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0262",
+      "url": "https://sakibpro.com/players/ (database index, via search snippet)",
+      "method": "search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T17:28:00Z",
+      "summary": "The sakibpro player-database index surfaces an 'Upcoming Players' rail with MAXED Dynamic Stars ratings: **Nico Williams 96 LW (Spain, DYNAMICSTAR)**, Rodrigo de Paul 93 CM (Argentina), Bradley Barcola 91 LW (France), Eberechi Eze 90 AM (England). This corroborates the Dynamic Stars family as an event pool whose cards reach very high maxed ratings (96 top) and confirms Nico Williams as a Dynamic Star. Same source as the rest of the price work, so it adds entities but no independence.",
+      "entities": [
+        "Nico Williams",
+        "Rodrigo de Paul",
+        "Bradley Barcola",
+        "Eberechi Eze"
+      ],
+      "claims": [
+        "Dynamic Stars maxed ratings: Nico Williams 96, De Paul 93, Barcola 91, Eze 90"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "sakibpro (single source; adds entities, not independence)",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 497,
-    "visited_total": 257,
+    "discovered_total": 501,
+    "visited_total": 261,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
