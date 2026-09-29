@@ -6,7 +6,7 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 1 | Secret-class map: 18 pages, descending, floor 35 (Maor Tukar); filler = generated names + alias-club rosters | high | static | S-0179/0186/0190/0196/0205/0209 |
 | 2 | DROICER leak text: Roy Keane / Irvin 85 / Conor Gallagher / Peter Robinson = upcoming Prize Ladder classics; possible DLS27 Kick-Off Stars | medium | live | S-0199 |
 | 3 | Secret "Classic X" set maps to leak names (Keane 5842 / Irwin 5839 / Gallagher 5866 / Robinson 5833); staging hypothesis | high (correlation) | static | S-0182..0184, S-0187/0190/0195 |
-| 4 | Robinson identity: Peter Robinson = Liverpool CEO (NOT a player, S-0244) — leak name anomalous; record 5833 likely Michael Robinson (Irish striker); UNRESOLVED at record level | medium (identity facts high; mapping low) | static | S-0203/0214/0244 |
+| 4 | Robinson identity: Peter Robinson = Liverpool CEO (NOT a player); record 5833 = Classic Robinson 76 CF/AM Ireland (Michael Robinson striker profile — leak "Peter" = garble). Record-level RESOLVED to the Michael reading | high (mapping now supported by position+flag) | static | S-0203/0214/0244/0252 |
 | 5 | Price = f(base OVR, tier-of-4); tiers flat (F: CF=SS=LW; M: AM=CM=DM; D: CB=LB; GK) | high | patch | S-0213..0233 |
 | 6 | Verified anchors: 86CF 2,970 / 85CB 2,375 / 82CF 2,275 / 84CF 2,610 / 83CF 2,440 / 85CM 2,555 / 83CM 2,235 / 85GK 2,080 | high | patch | S-0213..0233 |
 | 7 | Secret-market discount: crossed-out = standard grid price, ~200 off; identify via price | high | live | S-0210/0213/0227 |
@@ -49,3 +49,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 26 | Classic Keane 5842 = CM/DM 87, 182cm Right, Ireland flag confirmed (Hidden family) | high | static | S-0250 |
 | 27 | Version V13430/160 since 2026-09-16; stadiums catalog 255 | high | patch | S-0249 |
 | 28 | fe.pak `classic_players` folder decoded (DLS25 v12.030): Petit+Cole staged since DLS25 | medium (community art-ID) | static | S-0249 blog links + prior S-0239 |
+
+### Claims promoted (turn 63)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 29 | Staged leak set fully probed: Keane 5842 (87 CM/DM) / Irwin 5839 (85 LB/RB, LEFT foot - leak "Irvin 85" exact) / Robinson 5833 (76 CF/AM) / Gallagher 5866 (82 CM/AM) — all Ireland-flagged | high | static | S-0250/0252 |
+| 30 | 4/4 Ireland flags = the staged set itself; Gallagher nationality oddity OPEN | high (flags) / low (reading) | static | S-0252 |
+| 31 | Staging defaults: height 182cm + blank age shared across Hidden records; foot/OVR/stats = real-profile fields | high | static | S-0250/0252 |

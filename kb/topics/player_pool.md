@@ -287,3 +287,13 @@ The twin-pair shape (25849/25850) is the same tell as the secret Messi twins (24
 **VERSION TIMELINE ADVANCE:** V13430 (code 160) since **2026-09-16** (the Cult Heroes/English-League-Classics release) — supersedes V13420(159, Sept-1). Family URLs: /players/specials/{family} + /players/hidden + /players/exclusives.
 **Classic Keane 5842 CONFIRMED in data (dlsinside per-record page):** CM/DM, **87 OVR**, 182cm, Foot Right, Age -, Status Active, **NATIONALITY IRELAND (flag confirmed)**, Passing 87 — the staged leak-set record is real; the "Classic X" staging set = Hidden-family records (the family's "unobtainable dev record" prose is dlsinside boilerplate — their own "evolution" fields show DREAM POINTS acquisition routes, matching the ladder economy).
 **Route science:** dlsinside per-record pages (/player/{slug}/{id}) are server-rendered (probe route works); family lists are JS-layer. fe.pak folder `classic_players` (DLS25 v12.030) art decoded by community: Bergkamp, Batistuta, Matthaus, Gascoigne, (Bruce?), Souness, Petit, Cole, Bergkamp2, Adams, (Zola?), Crespo, Suker, ?, Mendieta, Chiellini — Petit+Cole were staged since DLS25 (recycling depth). Ireland-legend candidate pool for the 4th Ireland record: Robbie Keane, Duff, Given, McGrath, Quinn, Brady, Bonner, Houghton, Aldridge, Whelan, Sheedy.
+
+## Addendum (turn 63): the staged leak set FULLY PROBED (4/4 Ireland flags) (S-0252)
+| Record | Pos | OVR | Foot | Height | Flag | Notable stat | Identity |
+|---|---|---|---|---|---|---|---|
+| Classic Keane 5842 | CM/DM | 87 | Right | 182* | IE | Passing 87 | Roy Keane ✓ |
+| Classic Irwin 5839 | LB/RB | 85 | **Left** | 182* | IE | Tackling 92 | Denis Irwin ✓ (leak "Irvin 85" = EXACT) |
+| Classic Robinson 5833 | CF/AM | 76 | Right | 182* | IE | Shooting 78 | Michael Robinson (striker profile; leak "Peter" = garble) |
+| Classic Gallagher 5866 | CM/AM | 82 | Right | 182* | IE(!) | Passing 79 | UNKNOWN Gallagher (nationality oddity) |
+* = staging default (all four share 182cm + blank age; Bergkamp 5604 also DOB 1900-01-01). Foot/positions/ratings/stats are REAL-profile fields (Irwin left-footed LB/RB = biographically exact).
+**The 4/4 Ireland-flag mystery = the staged set itself** — all four leak-set records carry the same Ireland flag image. Readings: (a) the set is themed around Irish classics (Keane/Irwin/(M.)Robinson genuine + an Irish "Gallagher" unidentified); (b) the flag is a set-wide staging default (Gallagher = Conor Gallagher would be English); (c) leak-name "Conor Gallagher" is an alias/garble. Ratings ladder: 87/85/82/76 — the leak's "85" figure sits on Irwin exactly.

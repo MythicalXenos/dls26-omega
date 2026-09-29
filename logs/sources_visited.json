@@ -7861,11 +7861,35 @@
       "game_version": "DLS26",
       "source_reliability": "route test",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0252",
+      "url": "https://dlsinside.com/player/classic-irwin/5839 + /classic-robinson/5833 + /classic-gallagher/5866",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T16:15:00Z",
+      "summary": "THE STAGED LEAK-SET TRIPLE PROBE (all three server-rendered, all Version 160-13430): (1) Classic Irwin 5839 = LB/RB, **85 OVR (= the leak's 'Irvin 85' EXACT)**, 182cm, **Foot LEFT (real Denis Irwin was left-footed - profile-accurate!)**, IRELAND flag, Tackling 92. (2) Classic Robinson 5833 = CF/AM, **76 OVR**, 182cm, Right, IRELAND flag, Shooting 78 - CF/AM striker profile = **Michael Robinson** (Irish striker; 'Peter' remains the leak's garble). (3) Classic Gallagher 5866 = CM/AM, **82 OVR**, 182cm, Right, IRELAND flag (!), Passing 79. **THE 4/4 IRELAND-FLAG MYSTERY RESOLVED IN SHAPE: all four staged records (Keane 5842 / Irwin 5839 / Robinson 5833 / Gallagher 5866) carry the SAME Ireland flag image (country_large_31.png)** \u2014 the set is uniformly Ireland-flagged; Gallagher (real = English if Conor) breaks the nationality logic OR the set is an Irish-classics theme with an unknown Irish Gallagher, OR the staging flag is a set-wide default. **STAGING DEFAULT ARTIFACTS identified: height 182cm + blank age (Age -) shared across all four** (Classic Bergkamp 5604 also had DOB 1900-01-01) \u2014 while foot/positions/ratings/stats are REAL-profile fields (Irwin left-footed LB/RB Tack 92; Keane CM/DM Pass 87). Ratings within the set: Keane 87 / Irwin 85 / Gallagher 82 / Robinson 76.",
+      "entities": [
+        "Classic Keane",
+        "Classic Irwin",
+        "Classic Robinson",
+        "Classic Gallagher"
+      ],
+      "claims": [
+        "Irwin 5839 = 85 LB/RB (leak's 'Irvin 85' exact), left-footed",
+        "Robinson 5833 = 76 CF/AM Ireland (Michael Robinson profile)",
+        "Gallagher 5866 = 82 CM/AM Ireland flag (nationality oddity)",
+        "4/4 Ireland flags = the staged set itself (Keane/Irwin/Robinson/Gallagher)",
+        "staging defaults: height 182cm + blank age"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside per-record data fields (structural); the flag association may be set-wide default - flagged",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 490,
-    "visited_total": 250,
+    "discovered_total": 491,
+    "visited_total": 251,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

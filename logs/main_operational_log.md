@@ -931,3 +931,12 @@ refs: S-0249..S-0251, kb/topics/player_pool.md, kb/gaps.md, kb/claim_register.md
 
 ## [2026-09-29T16:00Z] BLUFF CHECK — turn 62
 Complete every step planned? Q-026 route found (dlsinside Hidden family + probe method); Q-018 advanced (Keane confirmed Ireland; 4th record still open — probed only 5842 this turn); Q-027 advanced (folder name confirmed). Skip anything silently? No. Incomplete-as-complete? No — the 270-record census is explicitly marked JS-blocked (not "done"); the dlsinside "unobtainable dev record" prose is rejected against their own Dream-Points evolution fields (contradiction recorded, not averaged); the family counts are single-registry (dlsinside) with cross-checks noted where they exist. ISS-009 procedure followed (verified outputs; separate commit call). Advice impact: none; tracker-only.
+
+## [2026-09-29T16:15Z] RESEARCH — staged leak set fully probed; the 4/4 Ireland mystery = the set itself
+session 1 turn 63 | state STATE_1_RESEARCH_SWEEP | topic: staged-record verification / identity
+[Return gap: minutes — same-session run.]
+All three remaining staged IDs probed cleanly: Irwin 5839 = 85 LB/RB left-footed with Tackling 92 (the leak's "Irvin 85" lands exactly), Robinson 5833 = 76 CF/AM (a striker's profile — Michael Robinson's reading, the leak's "Peter" a garble), Gallagher 5866 = 82 CM/AM. The 4/4 Ireland-flag mystery resolved in shape: the four staged records themselves all carry the Ireland flag — so the question becomes why (Irish-classics theme vs set-wide staging default vs name alias), with the Gallagher record the odd one out biographically. Staging defaults are now identifiable (182cm, blank age/DOB 1900) while foot, positions, ratings, and stats are real-profile fields — which makes the probe route a reliable staging-class verifier.
+refs: S-0252, kb/topics/player_pool.md, kb/gaps.md, kb/claim_register.md, Q-018, G-0063
+
+## [2026-09-29T16:15Z] BLUFF CHECK — turn 63
+Complete every step planned? All three probes ran (named objective); coefficient hunt (Q-002/003) deferred to next turn (leads intact). Skip anything silently? No. Incomplete-as-complete? No — the Gallagher identity is explicitly UNRESOLVED (three readings recorded, none asserted); the flag-default reading is flagged as an alternative rather than hidden; Robinson's mapping upgraded but still stated as a reading ("likely"). ISS-009 procedure followed (verified outputs; separate commit call). Advice impact: none; tracker-only.

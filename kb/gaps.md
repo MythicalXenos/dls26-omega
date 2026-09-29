@@ -272,3 +272,6 @@ route: datamine of transfer tables; user observation across rating thresholds.
 - **G-0036/0074 (updated):** dlsinside stadiums catalog = 255 stadiums (the feature-event/stadium dataset).
 - **Version timeline (updated):** V13430/160 since 2026-09-16 (supersedes V13420/159).
 - **Q-027 (updated):** fe.pak folder name CONFIRMED = `classic_players` (DLS25 v12.030) with community-decoded art list (Petit+Cole staged since DLS25).
+
+- **Q-018 (turn 63): 4/4 Ireland mystery RESOLVED IN SHAPE** — the four staged records (Keane 5842/IE/87, Irwin 5839/IE/85, Robinson 5833/IE/76, Gallagher 5866/IE/82) all carry the Ireland flag. Remaining: who is the 82-rated CM/AM "Gallagher" (Irish or staging default?) + is "Peter" a leak garble for Michael (CF/AM 76 striker profile says yes). Routes: hidden-family census (probes) + datamine.
+- **Staging-default artifacts (turn 62-63):** height 182cm + blank age (or DOB 1900-01-01) = shared defaults across Hidden-family records; foot/positions/OVR/stats = real-profile fields.
