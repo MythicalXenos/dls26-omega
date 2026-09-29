@@ -63,3 +63,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 32 | DLS26 coach categories/coverage + gem grid (Fit/Tech 25-75-225; Special 90-240-400; GK 15-40-150; facility discount 0/5/10/15/20/30%) | medium (single third-party tool; deception_register #2 cap) | patch | S-0253 |
 | 33 | Coaching UI = 1-of-3 attribute at +2 with DISCARD & RESHUFFLE + coaches-wasted cost ledger | medium (single third-party render) | patch | S-0253 |
 | 34 | Coach economy reworked across versions (DLS24 ≈90 points -> DLS26 100% weight; Rare 50 -> 75 gems); DLS24 coach math must not be applied to DLS26 | medium (era-tainted sources, but the drift is consistent across three sources) | static | S-0253/0254 |
+
+### Claims promoted (turn 65)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 35 | New verified price cells: 84CM = 84AM = 2,390; 83CB = 2,085; 82CM = 2,085; 84GK = 1,950 | medium — single third-party source (deception_register #2 cap); same source as the existing anchors, so the tier does NOT rise | patch | S-0255 |
+| 36 | Cross-group price collision: 83CB = 82CM = 2,085 — the crossed-price recipe is ambiguous at intersections | high (arithmetic on two verified cells) | patch | S-0255 |
+| 37 | The trending page's "Last Updated" field is a render date, not update provenance (advanced 2 days with identical content) | high (direct behavioural observation of the page) | static | S-0256 |

@@ -188,3 +188,7 @@ Site-rendered, watermarked card images for Essien (85 / 2006 / DM / Ghana) and P
 - **Hermoso** — card art visible on the Dec-2024 Christmas season-pass ACTIVATE PASS! row; rating/position unreadable at capture resolution; pass-reward card type. Speculative existence datapoint only.
 - **Robertson, 84, LB** — offered in the DLS26 (Jan-2026) TRANSFERS tile; an 84-rated left back as a transfer target at that team-rating stage. Speculative.
 Neither is a stat reading; both are leads for the card index (G-0038 family).
+
+## Addendum (turn 65): G-0022 CLOSED BY DIRECT EVIDENCE — the "Last Updated" marker is a RENDER DATE (S-0256)
+The trending page ("All New Player List", 17 players) was re-fetched two days after the earlier capture. **The marker moved from "Last Updated: September 27, 2026" to "Last Updated: September 29, 2026" while the list content is identical** — same 17 players, same IDs, same ratings, same heights.
+A genuine roster-update stamp cannot advance while the roster it stamps does not change. The field is therefore a **roll-forward render date**, not update provenance, and it must not be used to date a release or to tie the 17 players to a game version (which was the open question recorded against G-0022). The 17-player roster itself remains UNDATED by this source — dating it still requires a first-party or versioned source.

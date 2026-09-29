@@ -263,3 +263,17 @@ Curve notes: CF 82->85 = +510 (~170/OVR), 85->86 = +185 (steepening); CB 85->86 
 - **Curves:** F concave-up (+165/170/175/185); D linear +145 (84-86); M 83->85 +320 then +175 (steepening like F); GK +140 (85->86).
 - **New base ids:** Donnarumma 14078 (85 GK), Barella 14738, de Jong 15307, McTominay 15929, Bruno Guimaraes 17566, Joao Neves 21494.
 - **MODEL STATUS: complete for practical use** (secret identification, budgeting, agent valuation). Remaining micro-cells are interpolation/assumption territory, confirmable on user market screens.
+
+## Addendum (turn 65): five new verified grid cells + the 2,085 COLLISION (S-0255)
+**Route note (integrity):** this price-calculator route was opened at S-0213 and mined through S-0233 — the `?ovr=&pos=` scheme and the Verified(v)/Extrapolated(e) labelling were ALREADY established there. This batch extends the grid; it is the SAME single source and therefore does NOT raise the confidence tier of the model.
+**New VERIFIED cells (previously absent from the KB):**
+| Cell | Price | Badge | Named matches (id) |
+|---|---|---|---|
+| 84 CM | 2,390 | v | Declan Rice (16332) |
+| 84 AM | 2,390 | v | Szoboszlai (17272), Bellingham (17799) |
+| 83 CB | 2,085 | v | Bremer (16359), Upamecano (18191), Pacho (21336) |
+| 82 CM | 2,085 | v | Milinkovic-Savic (13747), Fabian Ruiz (14961), Modric (1498), Enzo Fernandez (19972) |
+| 84 GK | 1,950 | v | Alisson (14939), David Raya (16412), Courtois (7458) |
+**THE 2,085 COLLISION (new and practically important):** **83 CB = 82 CM = 2,085** — two different ratings in two different positional groups resolve to the identical price. A crossed price of 2,085 is therefore AMBIGUOUS between an 83-rated defender and an 82-rated midfielder, and the crossed-price recipe (Q-007) cannot disambiguate on price alone; it needs the position group from the card. This is the first identified collision in the grid and it should be checked for others (the four ladders are close enough that more may exist).
+**Grouping confirmed as four ladders** with explicit labels Forward / Midfield / Defense / Goalkeeper; CM = AM at 84 extends the previously recorded midfield flatness (AM = CM = DM at 86) down to 84.
+**Tool quirk:** the query param must be `pos` — `position` is silently ignored and the request falls through to the Forward-group default (85 & position=CM returned 2,785, the Forward figure, mislabelled as the CM answer). Anyone re-running this route must use `pos`.

@@ -7932,11 +7932,67 @@
       "game_version": "DLS20 (2020) / DLS24 (2024) \u2014 NOT DLS26",
       "source_reliability": "era-tainted historical; the 2020 vs 2024 mappings CONTRADICT each other on Legendary (+4x4 vs +3x3) \u2014 contested, do not carry into DLS26 figures",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0255",
+      "url": "https://sakibpro.com/players/price-calculator.php?ovr={82,83,84,85,86}&pos={CM,AM,CB,GK,CF} (9-cell batch)",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T16:50:00Z",
+      "summary": "ROUTE RE-WORKED (this route was first opened at S-0213 and mined through S-0233 \u2014 the ?ovr=&pos= scheme and the Verified/Extrapolated labelling were ALREADY established; this batch extends the grid). NEW verified cells: **84CM = 2,390v** (Declan Rice 16332) \u00b7 **84AM = 2,390v** (Szoboszlai 17272, Bellingham 17799) \u00b7 **83CB = 2,085v** (Bremer 16359, Upamecano 18191, Pacho 21336) \u00b7 **82CM = 2,085v** (Milinkovic-Savic 13747, Fabian Ruiz 14961, Modric 1498, Enzo Fernandez 19972) \u00b7 **84GK = 1,950v** (Alisson 14939, David Raya 16412, Courtois 7458). Already-known cells re-confirmed: 86CM 2,730e / 86CB 2,520e / 86GK 2,220e / 85CF 2,785e. **KEY NEW RESULT \u2014 THE 2,085 COLLISION: 83CB = 82CM = 2,085 exactly** (two different OVRs in two different positional groups share one price) = a genuine ambiguity for the crossed-price recipe (Q-007). The four explicit grouping labels are Forward / Midfield / Defense / Goalkeeper, and CM = AM at 84 extends the previously known midfield flatness (AM=CM=DM at 86) down to 84. QUIRK: the param must be `pos` \u2014 `position` is ignored and silently falls through to the Forward group default (85&position=CM returned 2,785 = the Forward figure, mislabelled).",
+      "entities": [
+        "Declan Rice",
+        "Bremer",
+        "Alisson",
+        "Modric",
+        "Bellingham"
+      ],
+      "claims": [
+        "84CM = 84AM = 2,390 (verified)",
+        "83CB = 2,085 = 82CM (verified) \u2014 CROSS-GROUP COLLISION",
+        "84GK = 1,950 (verified)",
+        "midfield tier flat at 84 (CM=AM), extending the 86 flatness",
+        "param must be `pos`; `position` silently falls through to Forward default"
+      ],
+      "game_version": "DLS26 V13430",
+      "source_reliability": "sakibpro (deception_register #2 \u2014 Speculative cap); Verified badge = manually confirmed live; Extrapolated = formula-only. Single source: this does NOT raise the tier",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0256",
+      "url": "https://sakibpro.com/players/trending.php (re-fetch)",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T16:52:00Z",
+      "summary": "**G-0022 EVIDENCE \u2014 the 'Last Updated' marker is a RENDER DATE, not an update date.** The page now reads 'Last Updated: **September 29, 2026**' (today) versus 'September 27, 2026' when the same page was captured earlier (recorded at player_pool_card_types_and_stats.md), while the LIST CONTENT IS BYTE-IDENTICAL \u2014 the same 17 players, same IDs, same OVRs, same heights. A roster-update stamp would not advance while the roster does not change; therefore the field is a roll-forward render date and carries no update-provenance information. This converts the earlier suspicion about G-0022 into direct evidence. Content re-confirmed (all 17): Essien 26838 DM85 178cm Ghana \u00b7 de Gea 28324 GK85 192cm Spain \u00b7 Aubameyang 28331 CF85 187cm Gabon \u00b7 Dybala 28333 SS85 177cm Argentina \u00b7 Cole 27096 CF84 \u00b7 Petit 27203 DM84 \u00b7 Berbatov 27675 CF84 \u00b7 Luiz 28325 CB84 \u00b7 Alarcon 28327 AM84 \u00b7 Insigne 28328 LW84 \u00b7 Ziyech 28332 RW84 \u00b7 Otamendi 28334 CB84 \u00b7 Blind 28326 CB83 \u00b7 Herrera 28329 CM83 \u00b7 Shaqiri 28330 AM83 \u00b7 Evora Dias 28658 GK83 (Cape Verde = Vozinha) \u00b7 Joao Pedro 28356 CF82 (Season Pass). Page also names the ages (Essien 44, Cole 55, Petit 56, Berbatov 45), i.e. real-world ages on classic cards.",
+      "entities": [],
+      "claims": [
+        "trending 'Last Updated' = render date, not update date (G-0022 evidence)",
+        "17-player roster content unchanged between Sep 27 and Sep 29 captures"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "single third-party source; the DATE-MOVES-WHILE-CONTENT-IS-FROZEN observation is a direct behavioural fact about the page itself, independent of its data claims",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0257",
+      "url": "https://sakibpro.com/tools/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T16:53:00Z",
+      "summary": "Tools hub (previously an unvisited lead, now closed). Eight tools enumerated: Player Database (/players/), Kit Creator (/dls-kit-creator/), Card Creator (/dls-26-card-creator/), Kits Engine Hub (/hub/), Logo Link Generator (/logo-generator/), Price Calculator (/players/price-calculator.php), Upgrade Simulator (/players/simulator.html), Squad Builder (/squad-builder/), plus Compare (/players/compare.php) shown as a ninth card. Site's own claims: '100% accurate', 'continuously updated', 'no installation needed' \u2014 authority framing without a stated method (consistent with deception_register #2). No previously-unknown tool surfaced; the lead is closed.",
+      "entities": [],
+      "claims": [
+        "8-9 tools enumerated; no new tool found"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "third-party site index (authority framing unverified)",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 493,
-    "visited_total": 253,
+    "discovered_total": 496,
+    "visited_total": 256,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",
