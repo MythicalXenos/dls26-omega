@@ -41,3 +41,11 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 22 | Squad rule change: unlimited special players (App Store) | high (first-party) | patch | S-0245 |
 | 23 | Cult Heroes family has waves (July tweaks: Pickford/ter Stegen/Fermín/Pedro Gonçalves/Vivian/João Pedro) | medium | live | S-0245 |
 | 24 | Community secret-ID toolkit: CokeStudios screenshot-OCR gist + trungta database (dead) | medium | static | S-0245/0246 |
+
+### Claims promoted (turn 62)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 25 | Family counts (dlsinside): CH 12, WCC 8, WCH 8, DS 40, T25 11, KO 2, Champion 12, Star 23, Classic 32, Hidden 270, Exclusives 7,388 | high | patch | S-0249 |
+| 26 | Classic Keane 5842 = CM/DM 87, 182cm Right, Ireland flag confirmed (Hidden family) | high | static | S-0250 |
+| 27 | Version V13430/160 since 2026-09-16; stadiums catalog 255 | high | patch | S-0249 |
+| 28 | fe.pak `classic_players` folder decoded (DLS25 v12.030): Petit+Cole staged since DLS25 | medium (community art-ID) | static | S-0249 blog links + prior S-0239 |

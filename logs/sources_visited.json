@@ -7803,11 +7803,69 @@
       "game_version": "mixed (kitdls Feb-2025 = DLS25-era; reddit Dec-2025 = DLS26)",
       "source_reliability": "kitdls = third-party, era-tainted numbers (flagged); reddit = community corroboration of a verified recipe",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0249",
+      "url": "https://dlsinside.com/",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:55:00Z",
+      "summary": "dlsinside.com homepage = THE SPECIAL-FAMILY REGISTRY WITH COUNTS + version advance. Families: Cult Heroes 12 \u00b7 World Cup Champions 8 \u00b7 World Cup Heroes 8 \u00b7 Dynamic Stars 40 \u00b7 Team Of 2025 11 \u00b7 Kickoff Stars 2 \u00b7 Champion 12 \u00b7 Star Players 23 \u00b7 Classic 32 \u00b7 Hidden 270 \u00b7 Exclusives 7,388. Totals: players 14,435 / teams 263 / STADIUMS 255 (the stadium catalog size = G-0036/0074 dataset!). VERSION ADVANCE: now V13430 (code 160), last update 2026-09-16 (was V13420/159/Sept-1 at S-0245) = the Cult Heroes/English League Classics release bumped it. The family URLs: /players/specials/{cult-heroes|world-cup-champions|world-cup-heroes|dynamic-stars|team-of-2025|kickoff-stars|champions|stars|classic} + /players/hidden + /players/exclusives. Blog leads: 'DLS 27: All New, Returning, and Removed Teams' (Aug-25-2026) + 'New Stadiums in DLS' leak page + 'All Mexican Players' exclusives guide. Cross-check: Cult Heroes 12 = sakibpro's 12 (roster census CONFIRMED count); Kickoff Stars 2 = Raphinha+Alvarez (App Store claim confirmed); Dynamic Stars 40 = the event pool size.",
+      "entities": [
+        "Cult Heroes",
+        "Dynamic Stars",
+        "Kickoff Stars",
+        "Classic",
+        "Hidden",
+        "Exclusives"
+      ],
+      "claims": [
+        "family counts: CH 12, WCC 8, WCH 8, DS 40, T25 11, KO 2, Champion 12, Star 23, Classic 32, Hidden 270, Exclusives 7388",
+        "V13430/160 since 2026-09-16 (version timeline advance)",
+        "stadiums catalog = 255",
+        "Dynamic Stars pool = 40 players"
+      ],
+      "game_version": "DLS26 V13430 (160), 2026-09-16",
+      "source_reliability": "dlsinside = high-quality third-party registry; counts are structural UI facts",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0250",
+      "url": "https://dlsinside.com/player/classic-keane/5842",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:57:00Z",
+      "summary": "Classic Keane 5842 = FULLY DOCUMENTED hidden record: 'ClassicKeane', Foot Right, Height 182cm, Age -, Status Active, Positions CM/DM, NATIONALITY IRELAND (flag country_large_31.png), Rating 87, Passing 87, detected in version 160-13430. The staged leak-set record is real in the data with the Ireland flag CONFIRMED. Note: rating 87 (the leak's 'Irvin 85' figure is for the Irwin record, not Keane). Per-record dlsinside pages are SERVER-RENDERED (/player/{slug}/{id}) even though the lists are JS-layer = the ID-probe route works for hidden-record verification (5839 Irwin / 5833 Robinson / 5866 Gallagher await probes).",
+      "entities": [
+        "Classic Keane"
+      ],
+      "claims": [
+        "Classic Keane 5842 = CM/DM 87, 182cm Right, Ireland flag CONFIRMED",
+        "per-record dlsinside pages server-rendered (probe route)"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside per-record page (structural data fields; their prose is boilerplate)",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0251",
+      "url": "https://dlsinside.com/players/hidden",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T15:59:00Z",
+      "summary": "dlsinside /players/hidden = JS-layer list (first 12 positions visible server-side: CF DM CM CF CB CB CM CB LB SS LW SS; names not rendered). The 270-record Hidden census needs their JS API or ID-probe sweeps (/player/{slug}/{id} works per S-0250). The 12 first-page positions hint the list order (noted for later). Route status: census partially blocked (JS), probe route open.",
+      "entities": [],
+      "claims": [
+        "hidden list = JS-layer; probe route open"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "route test",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 487,
-    "visited_total": 247,
+    "discovered_total": 490,
+    "visited_total": 250,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

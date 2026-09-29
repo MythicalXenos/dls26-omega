@@ -267,3 +267,8 @@ route: datamine of transfer tables; user observation across rating thresholds.
 
 - **Q-007 tooling (turn 61):** CokeStudios OCR gist fetchable (S-0247) + community recipe corroborated (S-0248) — the market-screen ask is now fully tooled (recipe + candidate sets + OCR).
 - **kitdls table era-tainted (turn 61):** DLS25 'Gold' prices do NOT match the DLS26 grid (2,660 vs 2,970 for 86CF) — use names only.
+
+- **Q-026 (updated, turn 62):** the sakibpro secret map (18 pages, floor 35) vs the dlsinside Hidden family (270 records, /players/hidden = JS-layer list; per-record probe route OPEN via /player/{slug}/{id}) — two overlapping hidden-record registries; the dlsinside route carries flags + versions. Ireland 4th record hunt = probe the staged IDs (5839 Irwin / 5833 Robinson / 5866 Gallagher) + hidden-list census.
+- **G-0036/0074 (updated):** dlsinside stadiums catalog = 255 stadiums (the feature-event/stadium dataset).
+- **Version timeline (updated):** V13430/160 since 2026-09-16 (supersedes V13420/159).
+- **Q-027 (updated):** fe.pak folder name CONFIRMED = `classic_players` (DLS25 v12.030) with community-decoded art list (Petit+Cole staged since DLS25).
