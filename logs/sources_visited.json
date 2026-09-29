@@ -8386,11 +8386,34 @@
       "game_version": "DLS26 V13430 (160)",
       "source_reliability": "dlsinside data fields; the Version conclusion rests on ~35 pages all showing the same value",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0276",
+      "url": "https://dlsinside.com/player/{cristiano-ronaldo/27841, lamine-yamal/27845, nico-williams/27509, paul-pogba/27846}",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T19:40:00Z",
+      "summary": "**THE NO-PRICE RULE IS A CLASS PROPERTY \u2014 now confirmed across SIX families.** All four probes show a special-card page with rating and stats and **no 'value of N coins' line whatsoever**: **Cristiano Ronaldo 27841 (World Cup Heroes) 87 CF/LW** \u00b7 **Lamine Yamal 27845 (World Cup Champions) 87 RW/LW** \u00b7 **Nico Williams 27509 (Dynamic Stars) 96 LW/LM** \u00b7 **Paul Pogba 27846 (World Cup Champions) 87 CM/DM**. Combined with turn 75's Classic, Cult Heroes and Season Pass results, the rule now holds for Classic, Cult Heroes, Season Pass, World Cup Heroes, World Cup Champions and Dynamic Stars \u2014 six of the eleven families, and there is no counter-example anywhere in the sample. **Kickoff Stars, Team of 2025, Champion, Star and Exclusives remain untested**, so the rule is stated as confirmed-for-six rather than universal. **FAMILY CORRECTION FOUND: Lamine Yamal 27845 and Paul Pogba 27846 are 'World Cup Champions', not 'World Cup Heroes' as the KB had them** \u2014 so the 278xx id range contains BOTH World Cup families interleaved, which weakens the batch-id law's family resolution inside that range (an id alone cannot tell the two World Cup families apart). Nico Williams confirms the Dynamic Stars ceiling: **96 OVR with Shooting 100 / Speed 100 / Acceleration 100**. Evolution markers on special cards appear as short numeric and position tokens (Ronaldo '- 7 - 7 - 7 - RW - CF', Yamal '- 10 - 10', Nico Williams '- 10', Pogba '- 8') \u2014 still uninterpretable, but Ronaldo's mixes numbers with alternate positions (RW, CF), suggesting the tokens record upgrade steps and alternative positions together.",
+      "entities": [
+        "Cristiano Ronaldo",
+        "Lamine Yamal",
+        "Nico Williams",
+        "Paul Pogba"
+      ],
+      "claims": [
+        "no-price rule confirmed across six families (Classic, Cult Heroes, Season Pass, WC Heroes, WC Champions, Dynamic Stars) - class property, no counter-example",
+        "Lamine Yamal 27845 and Paul Pogba 27846 are World Cup Champions, NOT World Cup Heroes (KB correction)",
+        "the 278xx id range interleaves both World Cup families - batch-id law cannot separate them",
+        "Nico Williams 27509 = 96 OVR, SHO/SPE/ACC all 100 (Dynamic Stars ceiling confirmed)"
+      ],
+      "game_version": "DLS26 V13430 (160)",
+      "source_reliability": "dlsinside data fields; four cards across three further families, all consistent",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 515,
-    "visited_total": 274,
+    "discovered_total": 516,
+    "visited_total": 275,
     "unvisited_leads": [
       {
         "url": "https://www.firsttouchgames.com/",

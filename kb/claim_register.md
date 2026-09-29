@@ -144,3 +144,10 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 69 | All 17-roster members probed are present in V13430 / code 160 (2026-09-16) — so the roster was added on or before that version and is live, but its introduction date remains UNCONFIRMED | medium-high (presence certain; date is an upper bound only) | patch | S-0275 |
 | 70 | Special cards carry no coin price, across Classic, Cult Heroes and Season Pass — the price grid applies to normal cards only | high (6 cards, 3 families) | static | S-0275 |
 | 71 | Essien = 85 (resolves a sakibpro self-contradiction); Petit = 85 on dlsinside vs 84 on sakibpro (new contradiction) | medium-high | patch | S-0275 |
+
+### Claims promoted (turn 76)
+| # | Claim | Confidence | Volatility | Sources |
+|---|---|---|---|---|
+| 72 | Special cards carry no coin price — now confirmed across six families (Classic, Cult Heroes, Season Pass, WC Heroes, WC Champions, Dynamic Stars), no counter-example; five families untested | high | static | S-0275/0276 |
+| 73 | Lamine Yamal 27845 and Paul Pogba 27846 are World Cup Champions, not World Cup Heroes (KB corrected); the 278xx range interleaves both World Cup families so id alone cannot separate them | high (direct page observation) | static | S-0276 |
+| 74 | Nico Williams 27509 = 96 OVR with SHO/SPE/ACC all 100 — Dynamic Stars ceiling confirmed on a second operator | high | patch | S-0276 |
