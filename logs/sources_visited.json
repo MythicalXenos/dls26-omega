@@ -4324,11 +4324,79 @@
    "query": "",
    "summary": "Secret map page 3/18 (records 31-45, OVR 69->67): Florentin Boutaib 69 CM MAD (Ferrara) 26058; Nicolas Cunningham 69 RW IRL 24117; Juan Angel Spolli 68 LB ARG (Belem t528) 10063; Kamohelo Dolly 68 CM RSA 24177 (real-player name); Saul Machin 68 CB EQG (Ferrara) 26054; Ragnar Vasoski 68 CM MNE (Montenegro t395) 8677; Nick Paton 68 CM SCO 24453; Saud Al Jassim 68 LB IRN 9284; Stuart Pittman 68 RM SCO 24455; Rasheed Felhi 68 GK CHA 19998; Greg Chase 67 CB BAR 15503; Charles Lima 67 GK BRA 15199; Alejandro Rosales 67 CB VEN 14434; Arda Bozenik 67 RM MNE (Montenegro t395) 24083; Claudio Scotti 67 LM URU (Brescia t267) 9254.",
    "takeaway": "Filler stock confirmed: generated names + odd nation flags + generated CLUB teams (Ferrara t555, Belem t528, Brescia t267, Montenegro t395, V Arnhem t317) mixed with occasional real-player names (Mphela, Dolly). Pages 4-18 = same shape expected."
+  },
+  {
+   "id": "S-0191",
+   "timestamp_utc": "2026-09-29T08:58:50Z",
+   "session": 1,
+   "turn": 44,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/25847",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Messi 25847 = CHAMPIONS collection ('immortalizing footballers at the very peak of their careers'), themed his 'historic season in 2008' (age 21): RW/SS, 8494 (84), ARG, Left, 170/72, real DOB. Internals 910/940/770/600/940/870/890/350 + GKR 230/GKH 177 (display 91/94/77/60/94/87/89/35). V13430=84. Prose = recycled SEO again (stray '4' in text) but the family label is clear.",
+   "takeaway": "G-0081: champion family = CAREER-VINTAGE cards (25847 = 2008 vintage 84; 25841 = 88, different vintage) - MULTIPLE champion cards per star (Messi x2, C.Ronaldo x2 at 88/82)."
+  },
+  {
+   "id": "S-0192",
+   "timestamp_utc": "2026-09-29T08:58:50Z",
+   "session": 1,
+   "turn": 44,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/182",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "Messi 182 = BASE/legacy roster record: SS/RW/AM, 8393 (83), DUAL TEAM: Argentina t205 (#10 RW) + South American Allstars t514 (#10 RM). Career rows: DLS26/DLS25 both teams. Internals 729/829/749/669/959/909/919/419 + GKR 143/GKH 122 (display 72/82/74/66/95/90/91/41). V13430=83.",
+   "takeaway": "Messi web COMPLETE at 6 ids: 182 base 83 (dual-team) / 24594+24599 secret twins / 25841 champion 88 / 25847 champion-2008 84 / 27848 WC-heroes 87. Base 83 = the DLS26-era recalibration. 'South American Allstars' t514 = a real in-game all-star team."
+  },
+  {
+   "id": "S-0193",
+   "timestamp_utc": "2026-09-29T08:58:50Z",
+   "session": 1,
+   "turn": 44,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "bluestacks.com beginner + character-development guides (snippets); dream-league-soccer.fandom.com/wiki/Stadium (snippet); fifaworldcupnews.com features (snippet)",
+   "resolved_url": "",
+   "domain": "bluestacks.com; dream-league-soccer.fandom.com; fifaworldcupnews.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 facility upgrade cost table stadium medical commercial training levels",
+   "summary": "Facility mechanics (G-0074): Stadium capacity -> home-match coin bonus AND division-entry gating (fandom); Medical = fewer injuries + cheaper recovery; Training = formations + form; Commercial = match coins (bluestacks). CURRENCY CONFLICT: bluestacks beginner says GEMS upgrade stadium/facilities; fandom says stadiums cost COINS (bluestacks pages are recycled evergreen content, pageAge 2021 re-titled 2026 - prose suspect). NO per-level cost table surfaced anywhere. fifaworldcupnews: DLS26 'Facilities Empire' = stadium view toggles + easier progression + specials don't eat accommodation.",
+   "takeaway": "G-0074 advances: cost-currency is contested (coins vs gems - or coins early/gems later), capacity gates divisions; the numeric cost table is still datamine/user-screen territory."
+  },
+  {
+   "id": "S-0194",
+   "timestamp_utc": "2026-09-29T08:58:50Z",
+   "session": 1,
+   "turn": 44,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "sportsdunia gems guide (snippet); bluestacks free-rewards guide (snippet); gamingonphone beginners (snippet); apps.apple.com listing (snippet); footballeffect coins guide (snippet)",
+   "resolved_url": "",
+   "domain": "sportsdunia.com; bluestacks.com; gamingonphone.com; apps.apple.com; footballeffect.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "\"dream league soccer 2026\" dream points shop exchange coins gems rate guide",
+   "summary": "Economy haul: gem IAP tiers (sportsdunia, INR): Bundle 90g=199, Stack 400g=799, Locker 910g=1799, Sack 2700g=4999, Vault 6000g=9900. Season Pass: activation 400 Season Points; daily login = 40 SP/day; free tiers guarantee 1,095 Coins; Progression Bank = DLL-XP -> coins+gems paid at season end over a 10-DAY season period (bluestacks). Prize Ladder cycle = 90 DAYS (third echo of the 90-day claim vs FTG's 10/14). Starting kit conflict: 1200 coins + 40 gems (gamingonphone/footballeffect) vs 75 gems (sportsdunia). App Store IAP list now shows Special Offer $4.99, Cup of Coins $6.99, Promo Pack $9.99 in addition to the known ladder. Daily Scenarios 50 coins/day. DP-SHOP CONVERSION RATES: NOT on any web surface (clean search, no scam lures touched).",
+   "takeaway": "G-0085: DP shop rates remain USER-SCREEN only (web route closed cleanly). G-0084 advances: Season Pass = 400 SP activation + 10-day Progression Bank cycle + 40 SP/day. G-0040: 90-day ladder claim gains a third echo (still vs FTG 10/14)."
   }
  ],
  "frontier": {
-  "discovered_total": 404,
-  "visited_total": 189,
+  "discovered_total": 409,
+  "visited_total": 193,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -4532,7 +4600,7 @@
    "identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend",
    "https://sakibpro.com/players/dreamstar26/{slug}/{id} per-player pages x12 (27481-27483, 27827-27835) - Dream Star full sheets",
    "the Suarez Dream Star nationality conflict (sakibpro guide Uruguay/Inter Miami vs both DBs Colombia) - resolve via a third surface",
-   "DP shop conversion rates (G-0085) - targeted re-search or user screen; first pass was scam-dominated",
+   "DP shop conversion rates (G-0085) - NOT on web surfaces (turn-44 clean search); USER SCREEN is the route. Gem IAP tiers known (sportsdunia INR 199-9900)",
    "reddit 1sv94qo full comment tier-lists (community Dream Star performance consensus)",
    "per-player sheet sweep for the remaining 30+ classic cards + 11 dream-star cards + 12 cult heroes (pages ARE fetchable - S-0122 overturned the JS-dead rule for these URLs)",
    "normal-echo pages remaining: player 25848, luis-su-rez 17858 (+ 6640 Petit = secret-class, listed)",
@@ -4544,8 +4612,9 @@
    "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
    "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
    "transfer-market price grid datapoints (Dickison 85 CB = 2,375 coins VERIFIED - one point on the price curve, G-0038)",
-   "Classic Robinson 5833 + Messi 25847 (84, family?) + generated-team rosters (Ferrara t555 / V Arnhem t317 / Belem t528 / Brescia t267 / Montenegro t395) - what are these teams?"
+   "Classic Robinson 5833 page + generated-team rosters (Ferrara t555 / V Arnhem t317 / Belem t528 / Brescia t267 / Montenegro t395) - what are these teams?",
+   "Season Pass mechanics verify (bluestacks: 400 SP activation, 40 SP/day login, 10-day Progression Bank, free tiers = 1,095 coins) + the 90-day ladder cycle claim (third echo) vs FTG 10/14"
   ],
-  "unvisited_total": 215
+  "unvisited_total": 216
  }
 }
