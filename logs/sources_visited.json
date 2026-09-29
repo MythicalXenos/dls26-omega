@@ -7585,226 +7585,2035 @@
       "game_version": "mixed",
       "source_reliability": "youtube=community; thesoccerera=SEO listicle (Feb-2026 pre-launch = era-tainted numbers); fandom=old-game artifacts",
       "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0239",
+      "url": "web_search: 26841 identity hunt (fetched results bundle)",
+      "method": "web_search",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T14:10:00Z",
+      "summary": "(1) dlsgame.net Player Index DLS26 (Dec-2025): name+rating index incl. David de Gea 79 ES GK (BASE version), Unai Simon 82 GK, Sommer 82 GK, 'Antony Griezmann' 82 SS (generated-name artifact), Reijnders 82 CM, Mac Allister 82 CM, Cucurella 80 LB, Cancelo 80 RB, Grealish 79 RW, Morgan Rogers 79 AM. (2) dlsinside David de Gea (CULT HEROES) 28324: 85 GK, Spain, Reactions 85/Handling 80/Passing 60, DOB 1990-11-07, 76kg, Dorsal 1, page stamped Sept-16-2026 = Cult Heroes launch day. (3) dlsinside Rivaldo (CLASSIC) 26843: 86 AM/SS, Brazil, Control 91/Passing 87/Stamina 79, DOB 1972-04-19, Dorsal 10 \u2014 CRITICAL: 26843 sits beside the hidden 26841 = the 268xx block IS the Classic batch (26841 hidden ES GK 'Classic 2006', 26842 unknown, 26843 Rivaldo). (4) reddit (Dec-2024): classic players were DATA-MINED from 'fe.pak' game-data file (DLS25) \u2014 the datamine route exists (also the route for G-0082/83 coefficients). (5) fandom Classic Players = DLS15-era artifact (classic players removed after DLS15).",
+      "entities": [
+        "David de Gea",
+        "Rivaldo",
+        "Unai Simon",
+        "Grealish",
+        "Rogers"
+      ],
+      "claims": [
+        "dlsinside 26843 = Rivaldo Classic 86; 268xx = Classic batch",
+        "de Gea = Cult Heroes 85 (28324) + base 79",
+        "fe.pak = the game data file; datamine route exists"
+      ],
+      "game_version": "DLS26 (mixed pages)",
+      "source_reliability": "dlsgame.net/dlsinside = third-party indexes (dlsinside high quality); reddit = community datamine claim",
+      "status": "CONTRIBUTED"
+    },
+    {
+      "id": "S-0240",
+      "url": "https://dlsinside.com/player/26841",
+      "method": "fetch_page",
+      "schema_version": 1,
+      "timestamp": "2026-09-29T14:12:00Z",
+      "summary": "dlsinside.com/player/26841 = HTTP 500 Internal Server Error (their template BREAKS on this record) + targeted search empty. G-0086 characterization update: 26841 is a blank-name/blank-stats PLACEHOLDER in the Classic 268xx batch (26843=Rivaldo), 'Classic 2006' year-stamp, ES GK 180cm Left 86 OVR. The 500 confirms it is not a normal record \u2014 likely a staging slot (like the secret-class twins' pattern) for an unreleased Spanish classic GK (Ca\u00f1izares/Reina/Casillas-class speculation UNVERIFIED). Resolution routes remain: fe.pak datamine (S-0239), card-art webp visual ID, community dumps. Also recorded: sakib.pro hosts MOD APK pages (the web_search leaked to a DLS19 vip-mod page) \u2014 reinforces the sakib.pro source-reliability flag (mod ecosystem + the dlshack scam family).",
+      "entities": [
+        "26841"
+      ],
+      "claims": [
+        "26841 = placeholder/staging slot in the Classic batch",
+        "dlsinside 500s on placeholder records (template break)"
+      ],
+      "game_version": "DLS26",
+      "source_reliability": "dlsinside 500 = structural fact (their page fails); identity speculation UNVERIFIED",
+      "status": "CONTRIBUTED"
     }
   ],
   "frontier": {
-    "discovered_total": 450,
-    "visited_total": 237,
+    "discovered_total": 479,
+    "visited_total": 239,
     "unvisited_leads": [
-      "https://www.firsttouchgames.com/",
-      "https://www.firsttouchgames.com/support",
-      "https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
-      "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
-      "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
-      "https://www.facebook.com/dreamleaguesoccer",
-      "https://www.instagram.com/playdls/",
-      "https://www.tiktok.com/@dreamleaguesoccer.ftg",
-      "https://twitter.com/firsttouchgames",
-      "https://www.youtube.com/watch?v=9Iw8nZRpijA",
-      "regional Play Store / App Store variants (hl= and country storefronts)",
-      "reddit.com/r/DreamLeagueSoccer and any other DLS subreddit",
-      "DLS wikis / fandom sites",
-      "non-English community: tr, ar, pt, es, fr, id and any other language with a DLS26 community",
-      "APK repositories: apkpure, apkmirror, uptodown (binary route constrained \u2014 see S-0008)",
-      "GitHub: DLS datamining repos, community stat dumps (codeload route WORKS)",
-      "web.archive.org snapshots of FTG pages and patch-note history",
-      "FTG as a company: business model, monetization, update philosophy, cross-version history",
-      "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
-      "https://play.google.com/store/apps/dev?id=6141822560324008098",
-      "http://www.ftgames.com/",
-      "https://www.ftgames.com/privacy-policy",
-      "https://sakibpro.com/players",
-      "https://sakibpro.com/players/simulator.html",
-      "https://sakibpro.com/dls-26-card-creator",
-      "https://sakibpro.com/dls-26-world-winners-event/",
-      "https://sakibpro.com/dls-26-world-cup-heroes-event/",
-      "https://sakibpro.com/dls-27-release-date/",
-      "https://sakibpro.com/players-the-ultimate-dls-player-database-card-creator-app/",
-      "https://sakibpro.com/how-to-get-every-club-logo-in-dls-25/",
-      "https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics/",
-      "https://sakibpro.com/dls-26-national-team-flag-logos/",
-      "regional Play Store variants (hl/gl)",
-      "Play Store 'See all reviews' (all regions, by helpfulness and newest)",
-      "other FTG titles' listings (story, mpx, smp)",
-      "sakibpro.com search/sitemap/category enumeration",
-      "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
-      "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6759716099",
-      "https://apps.apple.com/us/app/1462911602?see-all=reviews&platform=iphone",
-      "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020?platform=iphone",
-      "other App Store country storefronts",
-      "the Play event artwork image (player names?)",
-      "FTG social channels for the Cult Heroes player list",
-      "App Store chunks 1-4 (further reviews; possibly more version history)",
-      "https://www.ftgames.com/",
-      "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020",
-      "Wayback captures of both store listings to reconstruct the missing 12.200\u219213.430 version history",
-      "non-English App Store/Play storefronts for the 14 non-English languages",
-      "Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=1462911602) as a structured route",
-      "https://itunes.apple.com/lookup?id=1462911602&country=us",
-      "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
-      "https://sakibpro.com/players/trending.php (server-rendered Upcoming Players \u2014 may name real players incl. Cult Heroes)",
-      "price grid MODEL COMPLETE (18 cells; tiers F/M/D/GK CONFIRMED flat: AM=CM=DM, CB=LB, CF=SS=LW) - remaining micro-cells (LM/RM/RB/RWB/RW/84CM/84-83GK) are safe assumptions + user-screen confirmation",
-      "https://sakibpro.com/players/compare.php",
-      "sakibpro.com site JS to locate the player-database data endpoint",
-      "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
-      "https://sakibpro.com/tools/ (Tools index \u2014 may list tools not linked from the home page)",
-      "https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-pass/jo-o-pedro/28356/",
-      "per-stat weight COEFFICIENTS still unretrieved (model documented; +11 overflow + pair-selection found) - route: datamine files or sakibpro JS (curl blocked)",
-      "Wayback captures of sakibpro.com/players/trending.php and /players/simulator.html (test the dynamic-date question G-0022; detect silent price edits)",
-      "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
-      "FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-name Cult Heroes list from a first-party origin",
-      "https://sakibpro.com/players/normal/david-de-gea/25840/ and /players/normal/david-de-gea/153/ (other versions of one player \u2014 tests G-0016)",
-      "https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128/",
-      "https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
-      "https://sakibpro.com/players/nation/spain/ and the team-id space (/players/assets/teams/t258.png)",
-      "https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (Card Creator with a player preloaded)",
-      "the comments endpoint behind 'Community Comments' on card pages (user-generated layer)",
-      "the 'Position Proficiency' data structure on card pages",
-      "one index page per card type: /players/classic/, /players/season-pass/, /players/team2025/, /players/world-winners/, /players/normal/, /players/dynamic-star/ \u2014 each server-rendered with that family's full membership and count (fastest route to the special-card taxonomy, dimension 4)",
-      "card art https://cdn.sakibpro.com/assets/dls26/28324.webp \u2014 test whether a 'black card' design and the 'Cult Heroes 2018' year stamp are visible, and whether the art is a render or an extraction",
-      "FTG's own Cult Heroes event artwork + social channels \u2014 first-party confirmation of the 12-name roster (G-0024)",
-      "Wayback captures of /players/cult-heroes/ to test roster changes during and after the window",
-      "https://dlsinside.com/ \u2014 SECOND DATABASE: root, methodology, card-type indexes (mandatory cross-check for DR-001)",
-      "https://dlsinside.com/players/specials/cult-heroes \u2014 full page-render (squad numbers, 'CULT HERO AGENT' route, version/code stamp)",
-      "https://dreamkitsapp.com/data \u2014 THIRD DATABASE: full page-render; enumerates card families incl. Secret players, Star players, World Winners, World Heroes, Kick-off Stars, Team of 2025, Champion players",
-      "https://dlskiturl.com/dls-26-cult-heroes-event/ \u2014 full page-render of the agent-randomness mechanic and the 16 Sep start date",
-      "https://sakibpro.com/dls-26-new-update-events-players/ \u2014 full page-render: '3 Cult Heroes from Online Events', year-stamped stats, '100% Official' claim",
-      "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/ \u2014 full page-render: 'unlimited Special Players within a club', Fanzone, World Tournament, Dream Stars",
-      "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ \u2014 full page-render (flagged source): version chain, July 'Cult Heroes tweaks' claim",
-      "the 20 official Play Store screenshots (w526-h296) from S-0023 \u2014 first-party in-game UI evidence",
-      "a dedicated search for the ENGLISH LEAGUE CLASSICS PRIZE LADDER \u2014 no dedicated search yet, and it is the event the user's stated activity most likely refers to",
-      "searches for a 4th and 5th independent source on the Cult Heroes roster (Community Consensus gate needs 5 documented-independent members)",
-      "r/DreamLeagueSoccer \u2014 post lists, comments and further in-game captures (English community's richest vein found so far)",
-      "in-game captures in the other 14 client languages (each yields that language's stat-code set)",
-      "the AGENTS panel in detail (cost of an agent, what opening shows)",
-      "the remaining 19 official store screenshots from S-0023",
-      "https://dlskiturl.com/dls-26-english-league-classics/ \u2014 FULL page-render (milestone-by-milestone reward tables may be elided in the snippet)",
-      "searches for EARLIER Prize Ladders (the 'previous Ladders' with Petit & Cole) \u2014 map the ladder series and its recycling pattern",
-      "searches for Dream Point rates per mode (Career vs DLS Live PvP vs tournaments) \u2014 a second source for the differential",
-      "FTG's own channels for the English League Classics announcement \u2014 still no first-party mechanics statement",
-      "https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (per-player pages confirming those card-type slugs)",
-      "the four ladder card images dlskiturl.com/wp-content/uploads/2026/09/dls-26-{berbatov,essien,cole,petit}-new-card.png",
-      "https://dlskiturl.com/dls-26-mod-apk/ \u2014 the mod route; research per All Methods WITH a risk assessment (detection, account safety, ToS) before any mention of use",
-      "https://dlskiturl.com/category/dls-26/ and /category/classic/ \u2014 site archives likely holding EARLIER ladder articles (G-0039)",
-      "https://dlsmod.com/ \u2014 second guide/mod domain",
-      "a higher-resolution or second capture of Isco's signing screen (settle PAS, G-0041)",
-      "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ \u2014 a 90 OVR card, highest rating seen; bearing on the ceiling question",
-      "the two Reddit DP threads IN FULL (comment trees may hold current-ladder datapoints): reddit.com/r/DreamLeagueSoccer/comments/1tqfsm7/ and /comments/1qhuwv8/",
-      "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html \u2014 full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
-      "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ \u2014 fourth guide domain",
-      "an in-game POST-MATCH DP SUMMARY capture \u2014 the checkable origin that would promote the mode differential beyond Community Consensus",
-      "the Berbatov and Cole ladder card images",
-      "FTG social channels for OFFICIAL Cult Heroes artwork (image search failed to find it; the known play-lh URL needs an embedding page or direct tooling)",
-      "the gamingonphone-hosted FTG DP-reward IMAGE ('Image via First Touch Games', Dec 2024) \u2014 a FIRST-PARTY origin for DP rates",
-      "fetch_page an individual Reddit THREAD url, old.reddit.com, and a .json endpoint \u2014 one attempt each before concluding (S-0034 left them untested)",
-      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ \u2014 the claim-bug thread; does the bug still exist (bearing on claiming strategy)?",
-      "the clan monthly thread in full \u2014 the gem-income computation and its hidden code",
-      "a current-ladder datapoint: which ladder is live now and where players stand",
-      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1e6jnr4/career_mode_is_quite_stronger_than_beforeto_the/ \u2014 DLS24 career-balance thread carrying the post-match capture (kb/evidence/dls24_postmatch_stats_jun2024.jpg)",
-      "reddit thread 'More than 20 days have passed in the prize ladder. Where is everybody at?' (Jan 2025) \u2014 community ladder-pace data",
-      "reddit thread 'Did I seriously do all that just to get only 140 Prize Ladder points???!' \u2014 DP valuation complaint; third name-variant echo",
-      "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/ \u2014 Jan-2026 updated DLS26 baseline render",
-      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-gems-quickly/ \u2014 cross-check of the gem-income model",
-      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-coins-quickly/ \u2014 coin economy + the ads-double-coins claim",
-      "https://gamingonphone.com/guides/dream-league-soccer-free-codes-and-how-to-redeem-them/ \u2014 redeem-code pipeline",
-      "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-progress-across-divisions-quickly/ \u2014 career division structure and pacing",
-      "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2025-12-100-release/ \u2014 version chain datapoint (DLS26 12.100, Dec 2025) + APK hosting route for the datamine",
-      "image_search retrieval of the remaining FTG Dec-2024 images not yet in workspace: Dream Draft/Cup DP, Prize Ladder banner; and any DLS26-era rate card",
-      "image_search of the 1qhuwv8 boost thread's attached images (comments unreachable by any route)",
-      "Global Challenge Cup + Bronze Cup + cup hierarchy rewards and structure",
-      "gamingonphone dream-points guide remaining claims (scenarios 50c/day re-read)",
-      "apkmirror uploads page appcategory=dream-league-soccer-2020 (full version history, G-0054)",
-      "apkmirror 13.420/13.410/13.350/13.340/13.330/13.320/13.310/13.300/13.130 what's-new notes (live-ops changelog, G-0052)",
-      "Play Store com.firsttouchgames.dls7 listing (current rate/feature text)",
-      "Clan system guides/mechanics (G-0059)",
-      "larger re-fetch of teaser/completion-banner images (thumbs 4-5KB unreadable)",
-      "apkmirror uploads?appcategory=dream-league-soccer-2020 (12.100 -> 13.130 gap = DLS26 launch date, G-0054)",
-      "FTG socials Dec-2025 (Italian League Classics launch posts, G-0039/0062)",
-      "DROICER leak channel hunt (G-0063): YouTube/Telegram/TikTok search",
-      "FTG socials archive ladder announcements Dec-2025..Sep-2026 (G-0062 resolution)",
-      "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
-      "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
-      "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) \u2014 uploads list is JS-rendered dead for fetch_page",
-      "Kick-Off Stars DLS27 wave verification + Robinson name conflict (PETER leak vs MICHAEL profile-fit; 2nd pass = zero DLS-card evidence either way; needs datamine/ladder capture) (G-0063)",
-      "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
-      "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
-      "dreamkitsapp /players (all-base-players DB) + /teams",
-      "GIIODROID Facebook leak archive (G-0063)",
-      "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)",
-      "dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
-      "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
-      "dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-heroes|kickoff-stars|champion|star|secret|team-of-2025",
-      "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
-      "secret pages 6-17 optional sampling (shape + floor 35 understood; outlier hunting only)",
-      "dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203",
-      "dlsinside.com slug pages second-DB cross-check",
-      "dreamkitsapp star p2-9 + dynamic-stars p2-3 (dedupe by id; complete special inventory)",
-      "dlsinside slug-page cross-check (tier promotion)",
-      "FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive",
-      "reddit 1pd6ctt 'dls 26 hd legendary card thread annual update' full thread (G-0041 hi-res card art harvest)",
-      "community build-guide threads per Cult Heroes card (DM Build etc.)",
-      "TikTok @dreamleaguesoccer.ftg archive sweep (ladder/event announcement dating, G-0062)",
-      "user capture: current ladder path with milestone labels (G-0070 + G-0040 decisive)",
-      "dlsinside slug-page sweep for the 28 champion ids + remaining classics (second-surface stats + coin values, G-0038 prices)",
-      "PROMPT.md + SCHEMA.md full compliance read (repo-authority files)",
-      "APK roster re-extraction into source_archive/{domain}__{slug}__{date}/ (conclusions survive in KB; files lost to re-clones)",
-      "patch notes / later megathread days re stamina bug fix (G-0072)",
-      "in-match stamina depletion curve sources (quantitative)",
-      "DLS26-specific coaching yield verification (datamine coach tables / current guides)",
-      "'Special' coach category behavior + cost curves",
-      "facility compound return curves (gate dim-2)",
-      "facility costs DLS26 confirmation (DLS23-era known: 1,125 gems x 5 lines = 5,625 + stands ~1,432 coins each; currency split coins=stands/gems=lines) - USER SCREENS decisive; also commercials bonus ladder L4+",
-      "Fanzone non-mod confirmation",
-      "season pass points -> coins/gems conversion rates",
-      "DLS26-specific out-of-position test evidence (current guides/videos)",
-      "assist-toggle per-toggle behavior (Kick/Cross Assist)",
-      "transfer-lock rules (G-0073)",
-      "FTG support prize-ladder article (search)",
-      "13.x season pass current values (G-0076)",
-      "Season Point earn-rates per mode",
-      "datamine assist parameters (G-0075)",
-      "'shooting assistant' identity (G-0076)",
-      "DLS26 out-of-position in-match behavior tests",
-      "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
-      "champion-id dlsinside sweep",
-      "13.1xx-13.3xx patch notes (gap map)",
-      "stamina-fix confirmation in 13.430+ (G-0072)",
-      "'26 Feb Winter Reload' mid-season deltas",
-      "actual HD image harvest from the thread family (G-0041)",
-      "Summer Spotlight version number + date (G-0078)",
-      "'peak seasons' collection identity + roster",
-      "Player Recovery feature semantics",
-      "assist parameter datamine (G-0075)",
-      "Daily Bonus reward table",
-      "buy-back window length + cost",
-      "World Tournament event mechanics",
-      "facility config datamine (G-0074)",
-      "Daily Bonus exact day-by-day table",
-      "Monthly Trophy / Global Challenge Cup rewards",
-      "in-game test of Dynamic Star coachability (G-0079)",
-      "in-game capture of the Nico Williams card (G-0080)",
-      "sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
-      "Winter Reload 2027 timing (Feb pattern for watchlist)",
-      "sakibpro per-player page sweep for the specials (typed URLs now known)",
-      "in-game facility screens (user capture route)",
-      "Recruitment Centre discount percentages",
-      "https://sakibpro.com/players/classic/fabio-cannavaro/26842/ and the 33 sibling per-player Classic pages (year stamps + full sheets per card)",
-      "identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend",
-      "https://sakibpro.com/players/dreamstar26/{slug}/{id} per-player pages x12 (27481-27483, 27827-27835) - Dream Star full sheets",
-      "the Suarez Dream Star nationality conflict (sakibpro guide Uruguay/Inter Miami vs both DBs Colombia) - resolve via a third surface",
-      "DP shop conversion rates (G-0085) - NOT on web surfaces (turn-44 clean search); USER SCREEN is the route. Gem IAP tiers known (sportsdunia INR 199-9900)",
-      "reddit 1sv94qo full comment tier-lists (community Dream Star performance consensus)",
-      "per-player sheet sweep for the remaining 30+ classic cards + 11 dream-star cards + 12 cult heroes (pages ARE fetchable - S-0122 overturned the JS-dead rule for these URLs)",
-      "https://sakibpro.com/players/dynamicstar/nico-williams/27509/ - THE G-0080 card page (six stats at 100?)",
-      "champion family block sweep (Messi 25841, C.Ronaldo 25842, Kante 26022) - Champion 26 cards + full sheets",
-      "dlsinside Nico Williams Dynamic Star internals (do they show 1000-scale values? settles G-0080 scale question)",
-      "the Dynamic Star 40-nation roster sweep (dynamicstar/ index or per-player pages 27508-27523+) - one rep per nation",
-      "sakibpro similar-rails systematic sweep (rails leak other families: DS boosted finals like Sorloth 27523=88, second C.Ronaldo champion/25849=82, dreamstar25 + world-winners slugs)",
-      "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
-      "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
-      "price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; Rodri 86 = 2,725 DLS25; secret-market crossed prices ~2,555->2,355 for an 82 F) + user market screens for the full grid",
-      "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens"
+      {
+        "url": "https://www.firsttouchgames.com/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.firsttouchgames.com/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.firsttouchgames.com/support",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.firsttouchgames.com/support",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://apps.apple.com/us/app/dream-league-soccer-2020/id1462911602?ls=1",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.facebook.com/dreamleaguesoccer",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.facebook.com/dreamleaguesoccer",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.instagram.com/playdls/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.instagram.com/playdls/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.tiktok.com/@dreamleaguesoccer.ftg",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://twitter.com/firsttouchgames",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://twitter.com/firsttouchgames",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9Iw8nZRpijA",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.youtube.com/watch?v=9Iw8nZRpijA",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "regional Play Store / App Store variants (hl= and country storefronts)",
+        "kind": "web_page",
+        "lead": "unvisited web page: regional Play Store / App Store variants (hl= and country storefronts)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "reddit.com/r/DreamLeagueSoccer and any other DLS subreddit",
+        "kind": "web_page",
+        "lead": "unvisited web page: reddit.com/r/DreamLeagueSoccer and any other DLS subreddit",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DLS wikis / fandom sites",
+        "kind": "web_page",
+        "lead": "unvisited web page: DLS wikis / fandom sites",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "non-English community: tr, ar, pt, es, fr, id and any other language with a DLS26 community",
+        "kind": "web_page",
+        "lead": "unvisited web page: non-English community: tr, ar, pt, es, fr, id and any other language with a DLS2",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "APK repositories: apkpure, apkmirror, uptodown (binary route constrained \u2014 see S-0008)",
+        "kind": "web_page",
+        "lead": "unvisited web page: APK repositories: apkpure, apkmirror, uptodown (binary route constrained \u2014 see S",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "GitHub: DLS datamining repos, community stat dumps (codeload route WORKS)",
+        "kind": "web_page",
+        "lead": "unvisited web page: GitHub: DLS datamining repos, community stat dumps (codeload route WORKS)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "web.archive.org snapshots of FTG pages and patch-note history",
+        "kind": "web_page",
+        "lead": "unvisited web page: web.archive.org snapshots of FTG pages and patch-note history",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG as a company: business model, monetization, update philosophy, cross-version history",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG as a company: business model, monetization, update philosophy, cross-version",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://play.google.com/store/apps/dev?id=6141822560324008098",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://play.google.com/store/apps/dev?id=6141822560324008098",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "http://www.ftgames.com/",
+        "kind": "web_page",
+        "lead": "unvisited web page: http://www.ftgames.com/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.ftgames.com/privacy-policy",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.ftgames.com/privacy-policy",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/simulator.html",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/simulator.html",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-26-card-creator",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-26-card-creator",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-26-world-winners-event/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-26-world-winners-event/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-26-world-cup-heroes-event/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-26-world-cup-heroes-event/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-27-release-date/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-27-release-date/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players-the-ultimate-dls-player-database-card-creator-app/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players-the-ultimate-dls-player-database-card-creator-app/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/how-to-get-every-club-logo-in-dls-25/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/how-to-get-every-club-logo-in-dls-25/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-26-national-team-flag-logos/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-26-national-team-flag-logos/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "regional Play Store variants (hl/gl)",
+        "kind": "web_page",
+        "lead": "unvisited web page: regional Play Store variants (hl/gl)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Play Store 'See all reviews' (all regions, by helpfulness and newest)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Play Store 'See all reviews' (all regions, by helpfulness and newest)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "other FTG titles' listings (story, mpx, smp)",
+        "kind": "web_page",
+        "lead": "unvisited web page: other FTG titles' listings (story, mpx, smp)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "sakibpro.com search/sitemap/category enumeration",
+        "kind": "web_page",
+        "lead": "unvisited web page: sakibpro.com search/sitemap/category enumeration",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6759716099",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6759",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://apps.apple.com/us/app/1462911602?see-all=reviews&platform=iphone",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://apps.apple.com/us/app/1462911602?see-all=reviews&platform=iphone",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020?platform=iphone",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020?platform=i",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "other App Store country storefronts",
+        "kind": "web_page",
+        "lead": "unvisited web page: other App Store country storefronts",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the Play event artwork image (player names?)",
+        "kind": "web_page",
+        "lead": "unvisited web page: the Play event artwork image (player names?)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG social channels for the Cult Heroes player list",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG social channels for the Cult Heroes player list",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "App Store chunks 1-4 (further reviews; possibly more version history)",
+        "kind": "web_page",
+        "lead": "unvisited web page: App Store chunks 1-4 (further reviews; possibly more version history)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.ftgames.com/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.ftgames.com/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Wayback captures of both store listings to reconstruct the missing 12.200\u219213.430 version history",
+        "kind": "web_page",
+        "lead": "unvisited web page: Wayback captures of both store listings to reconstruct the missing 12.200\u219213.430",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "non-English App Store/Play storefronts for the 14 non-English languages",
+        "kind": "web_page",
+        "lead": "unvisited web page: non-English App Store/Play storefronts for the 14 non-English languages",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=1462911602) as a structured route",
+        "kind": "web_page",
+        "lead": "unvisited web page: Apple 'What's New' history via iTunes Lookup API (itunes.apple.com/lookup?id=146",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://itunes.apple.com/lookup?id=1462911602&country=us",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://itunes.apple.com/lookup?id=1462911602&country=us",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
+        "kind": "web_page",
+        "lead": "unvisited web page: non-English storefronts for ar/nl/fr/de/id/it/ja/ko/pt/ru/zh-Hans/zh-Hant/es/tr",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/trending.php (server-rendered Upcoming Players \u2014 may name real players incl. Cult Heroes)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/trending.php (server-rendered Upcoming Players \u2014 ma",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "price grid MODEL COMPLETE (18 cells; tiers F/M/D/GK CONFIRMED flat: AM=CM=DM, CB=LB, CF=SS=LW) - remaining micro-cells (LM/RM/RB/RWB/RW/84CM/84-83GK) are safe assumptions + user-screen confirmation",
+        "kind": "web_page",
+        "lead": "unvisited web page: price grid MODEL COMPLETE (18 cells; tiers F/M/D/GK CONFIRMED flat: AM=CM=DM, CB",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/compare.php",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/compare.php",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "sakibpro.com site JS to locate the player-database data endpoint",
+        "kind": "web_page",
+        "lead": "unvisited web page: sakibpro.com site JS to locate the player-database data endpoint",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "a SECOND player database (mandatory: no cross-check for SakibPro exists)",
+        "kind": "web_page",
+        "lead": "unvisited web page: a SECOND player database (mandatory: no cross-check for SakibPro exists)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/tools/ (Tools index \u2014 may list tools not linked from the home page)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/tools/ (Tools index \u2014 may list tools not linked from the ho",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-pass/jo-o-pedro/28356/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-p",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "per-stat weight COEFFICIENTS still unretrieved (model documented; +11 overflow + pair-selection found) - route: datamine files or sakibpro JS (curl blocked)",
+        "kind": "web_page",
+        "lead": "unvisited web page: per-stat weight COEFFICIENTS still unretrieved (model documented; +11 overflow +",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Wayback captures of sakibpro.com/players/trending.php and /players/simulator.html (test the dynamic-date question G-0022; detect silent price edits)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Wayback captures of sakibpro.com/players/trending.php and /players/simulator.htm",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
+        "kind": "web_page",
+        "lead": "unvisited web page: id-gap probe 28335-28657 (what family sits between the cult-heroes block and Voz",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-name Cult Heroes list from a first-party origin",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/normal/david-de-gea/25840/ and /players/normal/david-de-gea/153/ (other versions of one player \u2014 tests G-0016)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/normal/david-de-gea/25840/ and /players/normal/davi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849/",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/nation/spain/ and the team-id space (/players/assets/teams/t258.png)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/nation/spain/ and the team-id space (/players/asset",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (Card Creator with a player preloaded)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (Card Creator ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the comments endpoint behind 'Community Comments' on card pages (user-generated layer)",
+        "kind": "web_page",
+        "lead": "unvisited web page: the comments endpoint behind 'Community Comments' on card pages (user-generated ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the 'Position Proficiency' data structure on card pages",
+        "kind": "web_page",
+        "lead": "unvisited web page: the 'Position Proficiency' data structure on card pages",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "one index page per card type: /players/classic/, /players/season-pass/, /players/team2025/, /players/world-winners/, /players/normal/, /players/dynamic-star/ \u2014 each server-rendered with that family's full membership and count (fastest route to the special-card taxonomy, dimension 4)",
+        "kind": "web_page",
+        "lead": "unvisited web page: one index page per card type: /players/classic/, /players/season-pass/, /players",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "card art https://cdn.sakibpro.com/assets/dls26/28324.webp \u2014 test whether a 'black card' design and the 'Cult Heroes 2018' year stamp are visible, and whether the art is a render or an extraction",
+        "kind": "web_page",
+        "lead": "unvisited web page: card art https://cdn.sakibpro.com/assets/dls26/28324.webp \u2014 test whether a 'blac",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG's own Cult Heroes event artwork + social channels \u2014 first-party confirmation of the 12-name roster (G-0024)",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG's own Cult Heroes event artwork + social channels \u2014 first-party confirmation",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Wayback captures of /players/cult-heroes/ to test roster changes during and after the window",
+        "kind": "web_page",
+        "lead": "unvisited web page: Wayback captures of /players/cult-heroes/ to test roster changes during and afte",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlsinside.com/ \u2014 SECOND DATABASE: root, methodology, card-type indexes (mandatory cross-check for DR-001)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlsinside.com/ \u2014 SECOND DATABASE: root, methodology, card-type indexes (",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlsinside.com/players/specials/cult-heroes \u2014 full page-render (squad numbers, 'CULT HERO AGENT' route, version/code stamp)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlsinside.com/players/specials/cult-heroes \u2014 full page-render (squad num",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dreamkitsapp.com/data \u2014 THIRD DATABASE: full page-render; enumerates card families incl. Secret players, Star players, World Winners, World Heroes, Kick-off Stars, Team of 2025, Champion players",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dreamkitsapp.com/data \u2014 THIRD DATABASE: full page-render; enumerates car",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlskiturl.com/dls-26-cult-heroes-event/ \u2014 full page-render of the agent-randomness mechanic and the 16 Sep start date",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlskiturl.com/dls-26-cult-heroes-event/ \u2014 full page-render of the agent-",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/dls-26-new-update-events-players/ \u2014 full page-render: '3 Cult Heroes from Online Events', year-stamped stats, '100% Official' claim",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/dls-26-new-update-events-players/ \u2014 full page-render: '3 Cu",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/ \u2014 full page-render: 'unlimited Special Players within a club', Fanzone, World Tournament, Dream Stars",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/ \u2014 ful",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ \u2014 full page-render (flagged source): version chain, July 'Cult Heroes tweaks' claim",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ \u2014 ful",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the 20 official Play Store screenshots (w526-h296) from S-0023 \u2014 first-party in-game UI evidence",
+        "kind": "web_page",
+        "lead": "unvisited web page: the 20 official Play Store screenshots (w526-h296) from S-0023 \u2014 first-party in-",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "a dedicated search for the ENGLISH LEAGUE CLASSICS PRIZE LADDER \u2014 no dedicated search yet, and it is the event the user's stated activity most likely refers to",
+        "kind": "web_page",
+        "lead": "unvisited web page: a dedicated search for the ENGLISH LEAGUE CLASSICS PRIZE LADDER \u2014 no dedicated s",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "searches for a 4th and 5th independent source on the Cult Heroes roster (Community Consensus gate needs 5 documented-independent members)",
+        "kind": "web_page",
+        "lead": "unvisited web page: searches for a 4th and 5th independent source on the Cult Heroes roster (Communi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "r/DreamLeagueSoccer \u2014 post lists, comments and further in-game captures (English community's richest vein found so far)",
+        "kind": "web_page",
+        "lead": "unvisited web page: r/DreamLeagueSoccer \u2014 post lists, comments and further in-game captures (English",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "in-game captures in the other 14 client languages (each yields that language's stat-code set)",
+        "kind": "web_page",
+        "lead": "unvisited web page: in-game captures in the other 14 client languages (each yields that language's s",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the AGENTS panel in detail (cost of an agent, what opening shows)",
+        "kind": "web_page",
+        "lead": "unvisited web page: the AGENTS panel in detail (cost of an agent, what opening shows)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the remaining 19 official store screenshots from S-0023",
+        "kind": "web_page",
+        "lead": "unvisited web page: the remaining 19 official store screenshots from S-0023",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlskiturl.com/dls-26-english-league-classics/ \u2014 FULL page-render (milestone-by-milestone reward tables may be elided in the snippet)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlskiturl.com/dls-26-english-league-classics/ \u2014 FULL page-render (milest",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "searches for EARLIER Prize Ladders (the 'previous Ladders' with Petit & Cole) \u2014 map the ladder series and its recycling pattern",
+        "kind": "web_page",
+        "lead": "unvisited web page: searches for EARLIER Prize Ladders (the 'previous Ladders' with Petit & Cole) \u2014 ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "searches for Dream Point rates per mode (Career vs DLS Live PvP vs tournaments) \u2014 a second source for the differential",
+        "kind": "web_page",
+        "lead": "unvisited web page: searches for Dream Point rates per mode (Career vs DLS Live PvP vs tournaments) ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG's own channels for the English League Classics announcement \u2014 still no first-party mechanics statement",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG's own channels for the English League Classics announcement \u2014 still no first",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (per-player pages confirming those card-type slugs)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/d",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the four ladder card images dlskiturl.com/wp-content/uploads/2026/09/dls-26-{berbatov,essien,cole,petit}-new-card.png",
+        "kind": "web_page",
+        "lead": "unvisited web page: the four ladder card images dlskiturl.com/wp-content/uploads/2026/09/dls-26-{ber",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlskiturl.com/dls-26-mod-apk/ \u2014 the mod route; research per All Methods WITH a risk assessment (detection, account safety, ToS) before any mention of use",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlskiturl.com/dls-26-mod-apk/ \u2014 the mod route; research per All Methods ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlskiturl.com/category/dls-26/ and /category/classic/ \u2014 site archives likely holding EARLIER ladder articles (G-0039)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlskiturl.com/category/dls-26/ and /category/classic/ \u2014 site archives li",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://dlsmod.com/ \u2014 second guide/mod domain",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://dlsmod.com/ \u2014 second guide/mod domain",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "a higher-resolution or second capture of Isco's signing screen (settle PAS, G-0041)",
+        "kind": "web_page",
+        "lead": "unvisited web page: a higher-resolution or second capture of Isco's signing screen (settle PAS, G-00",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ \u2014 a 90 OVR card, highest rating seen; bearing on the ceiling question",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ \u2014 a 90 OVR card, hi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the two Reddit DP threads IN FULL (comment trees may hold current-ladder datapoints): reddit.com/r/DreamLeagueSoccer/comments/1tqfsm7/ and /comments/1qhuwv8/",
+        "kind": "web_page",
+        "lead": "unvisited web page: the two Reddit DP threads IN FULL (comment trees may hold current-ladder datapoi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html \u2014 full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-r",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ \u2014 fourth guide domain",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ \u2014 fourth g",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "an in-game POST-MATCH DP SUMMARY capture \u2014 the checkable origin that would promote the mode differential beyond Community Consensus",
+        "kind": "web_page",
+        "lead": "unvisited web page: an in-game POST-MATCH DP SUMMARY capture \u2014 the checkable origin that would promo",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the Berbatov and Cole ladder card images",
+        "kind": "web_page",
+        "lead": "unvisited web page: the Berbatov and Cole ladder card images",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG social channels for OFFICIAL Cult Heroes artwork (image search failed to find it; the known play-lh URL needs an embedding page or direct tooling)",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG social channels for OFFICIAL Cult Heroes artwork (image search failed to fin",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the gamingonphone-hosted FTG DP-reward IMAGE ('Image via First Touch Games', Dec 2024) \u2014 a FIRST-PARTY origin for DP rates",
+        "kind": "web_page",
+        "lead": "unvisited web page: the gamingonphone-hosted FTG DP-reward IMAGE ('Image via First Touch Games', Dec",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "fetch_page an individual Reddit THREAD url, old.reddit.com, and a .json endpoint \u2014 one attempt each before concluding (S-0034 left them untested)",
+        "kind": "web_page",
+        "lead": "unvisited web page: fetch_page an individual Reddit THREAD url, old.reddit.com, and a .json endpoint",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ \u2014 the claim-bug thread; does the bug still exist (bearing on claiming strategy)?",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ \u2014 ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the clan monthly thread in full \u2014 the gem-income computation and its hidden code",
+        "kind": "web_page",
+        "lead": "unvisited web page: the clan monthly thread in full \u2014 the gem-income computation and its hidden code",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "a current-ladder datapoint: which ladder is live now and where players stand",
+        "kind": "web_page",
+        "lead": "unvisited web page: a current-ladder datapoint: which ladder is live now and where players stand",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1e6jnr4/career_mode_is_quite_stronger_than_beforeto_the/ \u2014 DLS24 career-balance thread carrying the post-match capture (kb/evidence/dls24_postmatch_stats_jun2024.jpg)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.reddit.com/r/DreamLeagueSoccer/comments/1e6jnr4/career_mode_is_quite",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "reddit thread 'More than 20 days have passed in the prize ladder. Where is everybody at?' (Jan 2025) \u2014 community ladder-pace data",
+        "kind": "web_page",
+        "lead": "unvisited web page: reddit thread 'More than 20 days have passed in the prize ladder. Where is every",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "reddit thread 'Did I seriously do all that just to get only 140 Prize Ladder points???!' \u2014 DP valuation complaint; third name-variant echo",
+        "kind": "web_page",
+        "lead": "unvisited web page: reddit thread 'Did I seriously do all that just to get only 140 Prize Ladder poi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/ \u2014 Jan-2026 updated DLS26 baseline render",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/ \u2014",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-gems-quickly/ \u2014 cross-check of the gem-income model",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-gem",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-coins-quickly/ \u2014 coin economy + the ads-double-coins claim",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-earn-more-coi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://gamingonphone.com/guides/dream-league-soccer-free-codes-and-how-to-redeem-them/ \u2014 redeem-code pipeline",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://gamingonphone.com/guides/dream-league-soccer-free-codes-and-how-to-redee",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-progress-across-divisions-quickly/ \u2014 career division structure and pacing",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://gamingonphone.com/guides/dream-league-soccer-guide-tips-to-progress-acro",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2025-12-100-release/ \u2014 version chain datapoint (DLS26 12.100, Dec 2025) + APK hosting route for the datamine",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "image_search retrieval of the remaining FTG Dec-2024 images not yet in workspace: Dream Draft/Cup DP, Prize Ladder banner; and any DLS26-era rate card",
+        "kind": "web_page",
+        "lead": "unvisited web page: image_search retrieval of the remaining FTG Dec-2024 images not yet in workspace",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "image_search of the 1qhuwv8 boost thread's attached images (comments unreachable by any route)",
+        "kind": "web_page",
+        "lead": "unvisited web page: image_search of the 1qhuwv8 boost thread's attached images (comments unreachable",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Global Challenge Cup + Bronze Cup + cup hierarchy rewards and structure",
+        "kind": "web_page",
+        "lead": "unvisited web page: Global Challenge Cup + Bronze Cup + cup hierarchy rewards and structure",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "gamingonphone dream-points guide remaining claims (scenarios 50c/day re-read)",
+        "kind": "web_page",
+        "lead": "unvisited web page: gamingonphone dream-points guide remaining claims (scenarios 50c/day re-read)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "apkmirror uploads page appcategory=dream-league-soccer-2020 (full version history, G-0054)",
+        "kind": "web_page",
+        "lead": "unvisited web page: apkmirror uploads page appcategory=dream-league-soccer-2020 (full version histor",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "apkmirror 13.420/13.410/13.350/13.340/13.330/13.320/13.310/13.300/13.130 what's-new notes (live-ops changelog, G-0052)",
+        "kind": "web_page",
+        "lead": "unvisited web page: apkmirror 13.420/13.410/13.350/13.340/13.330/13.320/13.310/13.300/13.130 what's-",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Play Store com.firsttouchgames.dls7 listing (current rate/feature text)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Play Store com.firsttouchgames.dls7 listing (current rate/feature text)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Clan system guides/mechanics (G-0059)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Clan system guides/mechanics (G-0059)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "larger re-fetch of teaser/completion-banner images (thumbs 4-5KB unreadable)",
+        "kind": "web_page",
+        "lead": "unvisited web page: larger re-fetch of teaser/completion-banner images (thumbs 4-5KB unreadable)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "apkmirror uploads?appcategory=dream-league-soccer-2020 (12.100 -> 13.130 gap = DLS26 launch date, G-0054)",
+        "kind": "web_page",
+        "lead": "unvisited web page: apkmirror uploads?appcategory=dream-league-soccer-2020 (12.100 -> 13.130 gap = D",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG socials Dec-2025 (Italian League Classics launch posts, G-0039/0062)",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG socials Dec-2025 (Italian League Classics launch posts, G-0039/0062)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DROICER leak channel hunt (G-0063): YouTube/Telegram/TikTok search",
+        "kind": "web_page",
+        "lead": "unvisited web page: DROICER leak channel hunt (G-0063): YouTube/Telegram/TikTok search",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG socials archive ladder announcements Dec-2025..Sep-2026 (G-0062 resolution)",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG socials archive ladder announcements Dec-2025..Sep-2026 (G-0062 resolution)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
+        "kind": "web_page",
+        "lead": "unvisited web page: 'I completed the ladder without opening a single reward' thread (claim-window me",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
+        "kind": "web_page",
+        "lead": "unvisited web page: current 'LADDER ENDS IN' capture = top user-ask (G-0040 test)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "apkmirror 13.0xx version pages (DLS26 launch version, G-0054) \u2014 uploads list is JS-rendered dead for fetch_page",
+        "kind": "web_page",
+        "lead": "unvisited web page: apkmirror 13.0xx version pages (DLS26 launch version, G-0054) \u2014 uploads list is ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Kick-Off Stars DLS27 wave verification + Robinson name conflict (PETER leak vs MICHAEL profile-fit; 2nd pass = zero DLS-card evidence either way; needs datamine/ladder capture) (G-0063)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Kick-Off Stars DLS27 wave verification + Robinson name conflict (PETER leak vs M",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco maxed card bigger)",
+        "kind": "web_page",
+        "lead": "unvisited web page: reddit 1vtm4ty 'upcoming cult heroes special cards' text (G-0063 leaks + Isco ma",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
+        "kind": "web_page",
+        "lead": "unvisited web page: hi-res Isco/berbatov/cole card retrieval (4-5KB thumbs unusable)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dreamkitsapp /players (all-base-players DB) + /teams",
+        "kind": "web_page",
+        "lead": "unvisited web page: dreamkitsapp /players (all-base-players DB) + /teams",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "GIIODROID Facebook leak archive (G-0063)",
+        "kind": "web_page",
+        "lead": "unvisited web page: GIIODROID Facebook leak archive (G-0063)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanics)",
+        "kind": "web_page",
+        "lead": "unvisited web page: dlsmod.com/dls25-new-champions-players-revealed/ (DLS25 Champions event mechanic",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
+        "kind": "web_page",
+        "lead": "unvisited web page: dlsmod.com/dls25-new-champions-players-revealed/ (Champions event model)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
+        "kind": "web_page",
+        "lead": "unvisited web page: DLS26 Isco maxed collector-card bigger fetch (1vtm4ty sidebar)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-heroes|kickoff-stars|champion|star|secret|team-of-2025",
+        "kind": "web_page",
+        "lead": "unvisited web page: dreamkitsapp /players (base-player DB sweep) + family pages world-winners|world-",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "secret pages 6-17 optional sampling (shape + floor 35 understood; outlier hunting only)",
+        "kind": "web_page",
+        "lead": "unvisited web page: secret pages 6-17 optional sampling (shape + floor 35 understood; outlier huntin",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089, Cole 27096, Essien 26838, Petit 27203",
+        "kind": "web_page",
+        "lead": "unvisited web page: dreamkitsapp ladder classic sheets: Crespo 27095, Trezeguet 26837, Souness 25089",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dlsinside.com slug pages second-DB cross-check",
+        "kind": "web_page",
+        "lead": "unvisited web page: dlsinside.com slug pages second-DB cross-check",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dreamkitsapp star p2-9 + dynamic-stars p2-3 (dedupe by id; complete special inventory)",
+        "kind": "web_page",
+        "lead": "unvisited web page: dreamkitsapp star p2-9 + dynamic-stars p2-3 (dedupe by id; complete special inve",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dlsinside slug-page cross-check (tier promotion)",
+        "kind": "web_page",
+        "lead": "unvisited web page: dlsinside slug-page cross-check (tier promotion)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "reddit 1pd6ctt 'dls 26 hd legendary card thread annual update' full thread (G-0041 hi-res card art harvest)",
+        "kind": "web_page",
+        "lead": "unvisited web page: reddit 1pd6ctt 'dls 26 hd legendary card thread annual update' full thread (G-00",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "community build-guide threads per Cult Heroes card (DM Build etc.)",
+        "kind": "web_page",
+        "lead": "unvisited web page: community build-guide threads per Cult Heroes card (DM Build etc.)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "TikTok @dreamleaguesoccer.ftg archive sweep (ladder/event announcement dating, G-0062)",
+        "kind": "web_page",
+        "lead": "unvisited web page: TikTok @dreamleaguesoccer.ftg archive sweep (ladder/event announcement dating, G",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "user capture: current ladder path with milestone labels (G-0070 + G-0040 decisive)",
+        "kind": "web_page",
+        "lead": "unvisited web page: user capture: current ladder path with milestone labels (G-0070 + G-0040 decisiv",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dlsinside slug-page sweep for the 28 champion ids + remaining classics (second-surface stats + coin values, G-0038 prices)",
+        "kind": "web_page",
+        "lead": "unvisited web page: dlsinside slug-page sweep for the 28 champion ids + remaining classics (second-s",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "PROMPT.md + SCHEMA.md full compliance read (repo-authority files)",
+        "kind": "web_page",
+        "lead": "unvisited web page: PROMPT.md + SCHEMA.md full compliance read (repo-authority files)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "APK roster re-extraction into source_archive/{domain}__{slug}__{date}/ (conclusions survive in KB; files lost to re-clones)",
+        "kind": "web_page",
+        "lead": "unvisited web page: APK roster re-extraction into source_archive/{domain}__{slug}__{date}/ (conclusi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "patch notes / later megathread days re stamina bug fix (G-0072)",
+        "kind": "web_page",
+        "lead": "unvisited web page: patch notes / later megathread days re stamina bug fix (G-0072)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "in-match stamina depletion curve sources (quantitative)",
+        "kind": "web_page",
+        "lead": "unvisited web page: in-match stamina depletion curve sources (quantitative)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DLS26-specific coaching yield verification (datamine coach tables / current guides)",
+        "kind": "web_page",
+        "lead": "unvisited web page: DLS26-specific coaching yield verification (datamine coach tables / current guid",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "'Special' coach category behavior + cost curves",
+        "kind": "web_page",
+        "lead": "unvisited web page: 'Special' coach category behavior + cost curves",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "facility compound return curves (gate dim-2)",
+        "kind": "web_page",
+        "lead": "unvisited web page: facility compound return curves (gate dim-2)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "facility costs DLS26 confirmation (DLS23-era known: 1,125 gems x 5 lines = 5,625 + stands ~1,432 coins each; currency split coins=stands/gems=lines) - USER SCREENS decisive; also commercials bonus ladder L4+",
+        "kind": "web_page",
+        "lead": "unvisited web page: facility costs DLS26 confirmation (DLS23-era known: 1,125 gems x 5 lines = 5,625",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Fanzone non-mod confirmation",
+        "kind": "web_page",
+        "lead": "unvisited web page: Fanzone non-mod confirmation",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "season pass points -> coins/gems conversion rates",
+        "kind": "web_page",
+        "lead": "unvisited web page: season pass points -> coins/gems conversion rates",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DLS26-specific out-of-position test evidence (current guides/videos)",
+        "kind": "web_page",
+        "lead": "unvisited web page: DLS26-specific out-of-position test evidence (current guides/videos)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "assist-toggle per-toggle behavior (Kick/Cross Assist)",
+        "kind": "web_page",
+        "lead": "unvisited web page: assist-toggle per-toggle behavior (Kick/Cross Assist)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "transfer-lock rules (G-0073)",
+        "kind": "web_page",
+        "lead": "unvisited web page: transfer-lock rules (G-0073)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "FTG support prize-ladder article (search)",
+        "kind": "web_page",
+        "lead": "unvisited web page: FTG support prize-ladder article (search)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "13.x season pass current values (G-0076)",
+        "kind": "web_page",
+        "lead": "unvisited web page: 13.x season pass current values (G-0076)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Season Point earn-rates per mode",
+        "kind": "web_page",
+        "lead": "unvisited web page: Season Point earn-rates per mode",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "datamine assist parameters (G-0075)",
+        "kind": "web_page",
+        "lead": "unvisited web page: datamine assist parameters (G-0075)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "'shooting assistant' identity (G-0076)",
+        "kind": "web_page",
+        "lead": "unvisited web page: 'shooting assistant' identity (G-0076)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DLS26 out-of-position in-match behavior tests",
+        "kind": "web_page",
+        "lead": "unvisited web page: DLS26 out-of-position in-match behavior tests",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Cole 27096 / Essien 26838 / Petit 27203 dlsinside sheets (finish the 6)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "champion-id dlsinside sweep",
+        "kind": "web_page",
+        "lead": "unvisited web page: champion-id dlsinside sweep",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "13.1xx-13.3xx patch notes (gap map)",
+        "kind": "web_page",
+        "lead": "unvisited web page: 13.1xx-13.3xx patch notes (gap map)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "stamina-fix confirmation in 13.430+ (G-0072)",
+        "kind": "web_page",
+        "lead": "unvisited web page: stamina-fix confirmation in 13.430+ (G-0072)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "'26 Feb Winter Reload' mid-season deltas",
+        "kind": "web_page",
+        "lead": "unvisited web page: '26 Feb Winter Reload' mid-season deltas",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "actual HD image harvest from the thread family (G-0041)",
+        "kind": "web_page",
+        "lead": "unvisited web page: actual HD image harvest from the thread family (G-0041)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Summer Spotlight version number + date (G-0078)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Summer Spotlight version number + date (G-0078)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "'peak seasons' collection identity + roster",
+        "kind": "web_page",
+        "lead": "unvisited web page: 'peak seasons' collection identity + roster",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Player Recovery feature semantics",
+        "kind": "web_page",
+        "lead": "unvisited web page: Player Recovery feature semantics",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "assist parameter datamine (G-0075)",
+        "kind": "web_page",
+        "lead": "unvisited web page: assist parameter datamine (G-0075)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Daily Bonus reward table",
+        "kind": "web_page",
+        "lead": "unvisited web page: Daily Bonus reward table",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "buy-back window length + cost",
+        "kind": "web_page",
+        "lead": "unvisited web page: buy-back window length + cost",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "World Tournament event mechanics",
+        "kind": "web_page",
+        "lead": "unvisited web page: World Tournament event mechanics",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "facility config datamine (G-0074)",
+        "kind": "web_page",
+        "lead": "unvisited web page: facility config datamine (G-0074)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Daily Bonus exact day-by-day table",
+        "kind": "web_page",
+        "lead": "unvisited web page: Daily Bonus exact day-by-day table",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Monthly Trophy / Global Challenge Cup rewards",
+        "kind": "web_page",
+        "lead": "unvisited web page: Monthly Trophy / Global Challenge Cup rewards",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "in-game test of Dynamic Star coachability (G-0079)",
+        "kind": "web_page",
+        "lead": "unvisited web page: in-game test of Dynamic Star coachability (G-0079)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "in-game capture of the Nico Williams card (G-0080)",
+        "kind": "web_page",
+        "lead": "unvisited web page: in-game capture of the Nico Williams card (G-0080)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
+        "kind": "web_page",
+        "lead": "unvisited web page: sakibpro DB deeper sweep via search snippets (JS-dead page but indexable)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Winter Reload 2027 timing (Feb pattern for watchlist)",
+        "kind": "web_page",
+        "lead": "unvisited web page: Winter Reload 2027 timing (Feb pattern for watchlist)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "sakibpro per-player page sweep for the specials (typed URLs now known)",
+        "kind": "web_page",
+        "lead": "unvisited web page: sakibpro per-player page sweep for the specials (typed URLs now known)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "in-game facility screens (user capture route)",
+        "kind": "web_page",
+        "lead": "unvisited web page: in-game facility screens (user capture route)",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Recruitment Centre discount percentages",
+        "kind": "web_page",
+        "lead": "unvisited web page: Recruitment Centre discount percentages",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/classic/fabio-cannavaro/26842/ and the 33 sibling per-player Classic pages (year stamps + full sheets per card)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/classic/fabio-cannavaro/26842/ and the 33 sibling p",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend",
+        "kind": "web_page",
+        "lead": "unvisited web page: identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - lik",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dreamstar26/{slug}/{id} per-player pages x12 (27481-27483, 27827-27835) - Dream Star full sheets",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dreamstar26/{slug}/{id} per-player pages x12 (27481",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the Suarez Dream Star nationality conflict (sakibpro guide Uruguay/Inter Miami vs both DBs Colombia) - resolve via a third surface",
+        "kind": "web_page",
+        "lead": "unvisited web page: the Suarez Dream Star nationality conflict (sakibpro guide Uruguay/Inter Miami v",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "DP shop conversion rates (G-0085) - NOT on web surfaces (turn-44 clean search); USER SCREEN is the route. Gem IAP tiers known (sportsdunia INR 199-9900)",
+        "kind": "web_page",
+        "lead": "unvisited web page: DP shop conversion rates (G-0085) - NOT on web surfaces (turn-44 clean search); ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "reddit 1sv94qo full comment tier-lists (community Dream Star performance consensus)",
+        "kind": "web_page",
+        "lead": "unvisited web page: reddit 1sv94qo full comment tier-lists (community Dream Star performance consens",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "per-player sheet sweep for the remaining 30+ classic cards + 11 dream-star cards + 12 cult heroes (pages ARE fetchable - S-0122 overturned the JS-dead rule for these URLs)",
+        "kind": "web_page",
+        "lead": "unvisited web page: per-player sheet sweep for the remaining 30+ classic cards + 11 dream-star cards",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "https://sakibpro.com/players/dynamicstar/nico-williams/27509/ - THE G-0080 card page (six stats at 100?)",
+        "kind": "web_page",
+        "lead": "unvisited web page: https://sakibpro.com/players/dynamicstar/nico-williams/27509/ - THE G-0080 card ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "champion family block sweep (Messi 25841, C.Ronaldo 25842, Kante 26022) - Champion 26 cards + full sheets",
+        "kind": "web_page",
+        "lead": "unvisited web page: champion family block sweep (Messi 25841, C.Ronaldo 25842, Kante 26022) - Champi",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "dlsinside Nico Williams Dynamic Star internals (do they show 1000-scale values? settles G-0080 scale question)",
+        "kind": "web_page",
+        "lead": "unvisited web page: dlsinside Nico Williams Dynamic Star internals (do they show 1000-scale values? ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "the Dynamic Star 40-nation roster sweep (dynamicstar/ index or per-player pages 27508-27523+) - one rep per nation",
+        "kind": "web_page",
+        "lead": "unvisited web page: the Dynamic Star 40-nation roster sweep (dynamicstar/ index or per-player pages ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "sakibpro similar-rails systematic sweep (rails leak other families: DS boosted finals like Sorloth 27523=88, second C.Ronaldo champion/25849=82, dreamstar25 + world-winners slugs)",
+        "kind": "web_page",
+        "lead": "unvisited web page: sakibpro similar-rails systematic sweep (rails leak other families: DS boosted f",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsapp is silent on year tags",
+        "kind": "web_page",
+        "lead": "unvisited web page: Aubameyang stamp: third surface needed (FTG art / in-game capture) - dreamkitsap",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 2026\" + DOB-1900 records (photo-evolution pages date them back to DLS21)",
+        "kind": "web_page",
+        "lead": "unvisited web page: sakibpro /players/normal/ hidden-class sweep: other generated-name + \"Normal 202",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; Rodri 86 = 2,725 DLS25; secret-market crossed prices ~2,555->2,355 for an 82 F) + user market screens for the full grid",
+        "kind": "web_page",
+        "lead": "unvisited web page: price grid G-0038: grid-build from anchors (Dickison 85 = 2,375 DLS26 VERIFIED; ",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "url": "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens",
+        "kind": "web_page",
+        "lead": "unvisited web page: Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season",
+        "derived_from": "prior-discovery",
+        "related": [],
+        "witness": "internal"
+      },
+      {
+        "id": "Q-001",
+        "lead": "G-0086: identity of placeholder record 26841 (ES GK, Classic 2006, blank name; dlsinside 500s) - routes: fe.pak datamine, card-art webp, community dumps",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0086"
+        ],
+        "witness": "S-0240"
+      },
+      {
+        "id": "Q-002",
+        "lead": "G-0082: coach per-stat numeric coefficients (10%=+1 OVR model documented; numbers absent) - route: fe.pak datamine",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0082",
+          "G-0083"
+        ],
+        "witness": "S-0198"
+      },
+      {
+        "id": "Q-003",
+        "lead": "G-0083: +11 overflow algorithm detail (\"very rare cases up to +11\")",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0083"
+        ],
+        "witness": "S-0236"
+      },
+      {
+        "id": "Q-004",
+        "lead": "G-0074: DLS26 facility costs + commercials ladder + 85,000 cap (era-tainted 2023 numbers) - USER SCREENS",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0074"
+        ],
+        "witness": "S-0221"
+      },
+      {
+        "id": "Q-005",
+        "lead": "G-0073: ladder window/end-date clock scheme (hard end dates known; exact day counter = USER SCREEN of event timer)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0073",
+          "G-0070"
+        ],
+        "witness": "S-0237"
+      },
+      {
+        "id": "Q-006",
+        "lead": "G-0070: English League Classics UI confirm (4 names Berbatov/Essien/Cole/Petit + DP numbers 62.5k-250k) - USER SCREEN",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0070"
+        ],
+        "witness": "S-0237"
+      },
+      {
+        "id": "Q-007",
+        "lead": "G-0038: transfer-market grid validation + secret-recipe display-OVR check - USER SCREENS (in-game validation owed)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0038"
+        ],
+        "witness": "S-0213..0233"
+      },
+      {
+        "id": "Q-008",
+        "lead": "G-0085: DP shop interface + prices - USER SCREEN (web route closed: shop behind login)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0085"
+        ],
+        "witness": "S-0204"
+      },
+      {
+        "id": "Q-009",
+        "lead": "G-0084: Season Pass UI (free vs premium columns + 400 SP gate + Kick-Off Stars choose-one) - USER SCREENS",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0084"
+        ],
+        "witness": "S-0204"
+      },
+      {
+        "id": "Q-010",
+        "lead": "G-0081: voted-12th coercion/reserve evidence - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0081"
+        ],
+        "witness": "S-0216"
+      },
+      {
+        "id": "Q-011",
+        "lead": "G-0072: reserve-freeze observation (at-home reserve accumulates over N matches) - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0072"
+        ],
+        "witness": "S-0219"
+      },
+      {
+        "id": "Q-012",
+        "lead": "G-0075: coach-class application capabilities per card class (normal/Dynamic/Kick-Off/Classic/Special) - USER TEST",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0075",
+          "G-0079"
+        ],
+        "witness": "S-0219"
+      },
+      {
+        "id": "Q-013",
+        "lead": "G-0076: squad rules for loaned/transfer-listed players in Dream Draft/career - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0076"
+        ],
+        "witness": "S-0219"
+      },
+      {
+        "id": "Q-014",
+        "lead": "G-0078: observation request (rogue-state machine: mechanism behind the display-class artifacts)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0078"
+        ],
+        "witness": "S-0219"
+      },
+      {
+        "id": "Q-015",
+        "lead": "G-0079: special-coach test on a DYNAMIC STAR card (expected: pair-selection UI or not selectable) - USER TEST",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0079",
+          "G-0041"
+        ],
+        "witness": "S-0236"
+      },
+      {
+        "id": "Q-016",
+        "lead": "G-0041: Isco special-coach menu (pair-selection mechanic UI: \"select 1 from each pair\") - USER SCREEN",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0041"
+        ],
+        "witness": "S-0236"
+      },
+      {
+        "id": "Q-017",
+        "lead": "G-0048: Cult Heroes agent-opening screen (boosted-attributes phase) - USER SCREEN",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0048"
+        ],
+        "witness": "S-0235"
+      },
+      {
+        "id": "Q-018",
+        "lead": "G-0063: Robinson identity (Michael vs Peter) + Ireland-flag mystery enumeration (4/4 Ireland-flagged)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0063"
+        ],
+        "witness": "S-0203/0214"
+      },
+      {
+        "id": "Q-019",
+        "lead": "G-0035: stamina drain pattern (career-per-season fallback) - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0035"
+        ],
+        "witness": "prior"
+      },
+      {
+        "id": "Q-020",
+        "lead": "G-0036: stadium feature events (DP accumulation depth) - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0036",
+          "G-0070"
+        ],
+        "witness": "prior"
+      },
+      {
+        "id": "Q-021",
+        "lead": "G-0012: reserve/stream disposal effects - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0012"
+        ],
+        "witness": "prior"
+      },
+      {
+        "id": "Q-022",
+        "lead": "G-0022: transfer market double-listing (store price crossing) - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0022",
+          "G-0039"
+        ],
+        "witness": "prior"
+      },
+      {
+        "id": "Q-023",
+        "lead": "G-0028: career-streak award schemes - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0028"
+        ],
+        "witness": "prior"
+      },
+      {
+        "id": "Q-024",
+        "lead": "G-0064: transfer time-lock anomaly (13-season lock; no-match route observed) - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0064"
+        ],
+        "witness": "S-0175"
+      },
+      {
+        "id": "Q-025",
+        "lead": "G-0071: rogue-state residual + cap-exploit decay rate - USER OBSERVATION",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0071"
+        ],
+        "witness": "S-0201"
+      },
+      {
+        "id": "Q-026",
+        "lead": "Secret map pages 6-17: complete the sakibpro secret-class census (pages 1-5 done; floor 35 Maor Tukar)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0067"
+        ],
+        "witness": "S-0196"
+      },
+      {
+        "id": "Q-027",
+        "lead": "fe.pak datamine acquisition: the game data file route (resolves Q-001/Q-002/Q-003 in one artifact; watch TOS/legality; user device or community dump)",
+        "kind": "question",
+        "derived_from": "kb/gaps.md + HANDOFF queue (ISS-008g migration)",
+        "related": [
+          "G-0082",
+          "G-0086"
+        ],
+        "witness": "S-0239"
+      }
     ],
-    "unvisited_total": 213
+    "unvisited_total": 240
   }
 }
