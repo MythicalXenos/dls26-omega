@@ -4460,11 +4460,79 @@
    "query": "",
    "summary": "SAKIBPRO coaching simulator page (high-quality third-party model; claims 'official hidden weighting system'/'mathematically identical to live transfer market' - treat as unverified claims but consistent with our recovered coaching model). HARD NUMBERS: coach GEM prices - Fitness (SPE/ACC/STA/STR) Common 25 / Rare 75 / Legend 225; Technical (CON/PAS/SHO/TAC) same 25/75/225; SPECIAL (all stats) 90/240/400; Goalkeeping (GKR/GKH) 15/40/150. Development weight: 100% total; EVERY 10% WEIGHT = +1 OVR; max +10. Per-stat weights DIVERGE (CON/SPE cost more capacity than STA). GK: classic points system - 2.2 visual points per +1 OVR, 22-point cap (=10 OVR). FACILITY DISCOUNT ladder: 0/5/10/15/20/30% off coaching. Coach application = pick 1 of 3 attributes +2, discard & reshuffle; 'coaches wasted' cost tracker implies random-stat waste.",
    "takeaway": "G-0082/83: the weighting MODEL essentials are now known (10%-per-OVR, GK 2.2/22, CON/SPE premium) though the per-stat numeric coefficients live in the tool's JS (not in rendered text - the JS-file lead narrows to their asset). G-0085-adjacent: coach costs are GEM-denominated with a 6-tier price grid. Facility upgrade benefit quantified: coaching discounts to 30%."
+  },
+  {
+   "id": "S-0199",
+   "timestamp_utc": "2026-09-29T09:20:41Z",
+   "session": 1,
+   "turn": 46,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809 (description); tiktok.com/@evansdls repost (Sept 14 2026)",
+   "resolved_url": "",
+   "domain": "tiktok.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "DLS 27 leak DROICER Keane Irvin Gallagher Robinson cards",
+   "summary": "THE LEAK TEXT (full): 'These are the upcoming players in the DLS Prize Ladder. For Roy Keane, his rating and year have not been revealed yet. Irvin's rating is 85, but his year has also not been revealed. There are still other Classic players, such as Conor Gallagher and Peter Robinson. I think these two players could potentially appear on the DLS 27 cover, with FTG possibly releasing their cards as the DLS 27 Kick-Off Stars. However... there are also new cards for Ronaldo and Raphinha.' Provenance: Spanish TikTok 'las cartas son oficiales @DROICER las confirmo' (Evans DLS repost, 2026-09-14).",
+   "takeaway": "G-0063 MAJOR: leak names FULL identities - Roy Keane (rating/year unrevealed), Irvin 85 (exact match to secret Irwin 5839!), Conor Gallagher (CM/AM 82 = his level), Peter Robinson. Context: PRIZE-LADDER UPCOMING players + possible DLS27 Kick-Off Stars/cover (vs Ronaldo + Raphinha candidates). The four secret 'Classic X' records = these named people."
+  },
+  {
+   "id": "S-0200",
+   "timestamp_utc": "2026-09-29T09:20:41Z",
+   "session": 1,
+   "turn": 46,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "discovery-search",
+   "tool": "web_search",
+   "url": "dream-league-soccer.fandom.com/wiki/Classic_Players (snippet); reddit Classic Players Found in Game Files (Dec 2024); r/DreamLeagueSoccer midseason megathread (Feb 2026); givemesport Ireland rankings",
+   "resolved_url": "",
+   "domain": "dream-league-soccer.fandom.com; reddit.com; givemesport.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "Dream League Soccer 2026 hidden classic players Ireland Keane Irwin Gallagher Robinson",
+   "summary": "Cross-context: fandom Classic Players wiki (legacy-era list, garbled - Roy Keane listed as classic 100 OVR, franchise has had 'Classic Players' as a concept since old DLS); Reddit Dec-2024 'classic_players found in game files' (DLS25 v12.030 fe.pak folder - Bergkamp x2, Andy Cole era comments - the datamine trail matching our turn-42 sheets); DLS26 midseason megathread (Feb 2026): 'gallagher and maddison all -1' at Tottenham = Conor Gallagher is a live DLS26 roster player whose rating moved.",
+   "takeaway": "Datamine trail confirmed as old news to Reddit (Dec 2024 fe.pak classic_players folder) - our sheets = that folder's records. Conor Gallagher = active DLS26 player (Tottenham, midseason -1) - his secret 'Classic' record is a FUTURE-card staging, consistent with the leak."
+  },
+  {
+   "id": "S-0201",
+   "timestamp_utc": "2026-09-29T09:20:41Z",
+   "session": 1,
+   "turn": 46,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/25848",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "25848 = NAMELESS secret ghost slot: Name/Last name EMPTY, flags 0+6 but Nationality Spain, GK, 414 (41), Left, 180cm, WEIGHT 0, DOB 1970-01-01 (placeholder), ALL STATS ZERO (0 x8 + 0/0), NO career rows. Rating table: V13110 = 83 (!). Cleats boot_0.",
+   "takeaway": "The S-0073 database 'player 25848' = a wiped/placeholder secret slot that CARRIED rating 83 at build V13110 before being zeroed/nameless. Ghost-slot pattern: secret class contains empty shells with rating history (replaced/staged records). G-0067 normal-echo probe closed."
+  },
+  {
+   "id": "S-0202",
+   "timestamp_utc": "2026-09-29T09:20:41Z",
+   "session": 1,
+   "turn": 46,
+   "state": "STATE_1_RESEARCH_SWEEP",
+   "role": "fetch",
+   "tool": "fetch_page",
+   "url": "https://dreamkitsapp.com/player/17858",
+   "resolved_url": "",
+   "domain": "dreamkitsapp.com",
+   "http_status": 200,
+   "outcome": "success",
+   "query": "",
+   "summary": "17858 = Luis Suarez the COLOMBIAN (not the Uruguayan): CF, 7888 (78), Colombia, Right, 181/83, DOB 1997-12-02. Internals 847/800/787/767/764/727/857/316 + 127/127 (display 84/80/78/76/76/72/85/31). RATING HISTORY: V12250=72 -> V13130=77 -> V13430=78 (multi-build growth). Career: DLS26 S Lisbon t342 CF + DLS25 Almeria t102 CF + Colombia t223 #25 CF. Other versions: Luis Suarez 27835 83 (t258).",
+   "takeaway": "S-0073 'player 17858' = NORMAL roster record (Colombian Suarez). G-0083: FIRST clean multi-build rating-growth datapoint (72->77->78 across DB versions) - ratings are not frozen per DB export; players evolve. S Lisbon = Lisbon club alias (Sporting CP shape)."
   }
  ],
  "frontier": {
-  "discovered_total": 412,
-  "visited_total": 197,
+  "discovered_total": 415,
+  "visited_total": 201,
   "unvisited_leads": [
    "https://www.firsttouchgames.com/",
    "https://www.firsttouchgames.com/support",
@@ -4671,7 +4739,6 @@
    "DP shop conversion rates (G-0085) - NOT on web surfaces (turn-44 clean search); USER SCREEN is the route. Gem IAP tiers known (sportsdunia INR 199-9900)",
    "reddit 1sv94qo full comment tier-lists (community Dream Star performance consensus)",
    "per-player sheet sweep for the remaining 30+ classic cards + 11 dream-star cards + 12 cult heroes (pages ARE fetchable - S-0122 overturned the JS-dead rule for these URLs)",
-   "normal-echo pages remaining: player 25848, luis-su-rez 17858 (+ 6640 Petit = secret-class, listed)",
    "https://sakibpro.com/players/dynamicstar/nico-williams/27509/ - THE G-0080 card page (six stats at 100?)",
    "champion family block sweep (Messi 25841, C.Ronaldo 25842, Kante 26022) - Champion 26 cards + full sheets",
    "dlsinside Nico Williams Dynamic Star internals (do they show 1000-scale values? settles G-0080 scale question)",
@@ -4682,6 +4749,6 @@
    "transfer-market price grid datapoints (Dickison 85 CB = 2,375 coins VERIFIED - one point on the price curve, G-0038)",
    "Season Pass mechanics verify (bluestacks: 400 SP activation, 40 SP/day login, 10-day Progression Bank, free tiers = 1,095 coins) + the 90-day ladder cycle claim (third echo) vs FTG 10/14"
   ],
-  "unvisited_total": 215
+  "unvisited_total": 214
  }
 }
