@@ -1,0 +1,448 @@
+
+## Addendum (turn 10b): classic-card ladder rounds (S-0045) + community card reads
+- Ladder rosters by cycle (claim/milestone order): **Oct-2025 (final DLS25): Souness → Adams → Andy Cole → Gascoigne (82 in an earlier round). ITALIAN LEAGUE CLASSICS (Mar-2026 per option A): Dessailly 84 (1994, AC Milan), Batistuta 85 (2001, Roma), Crespo 84 (2001), Trezeguet 85 (2002, Juventus).** Earlier DLS25 ladders: Batistuta (first-ever = WORLD CUP CLASSICS Dec-2024), Valderrama, Pires, "82 Gascoigne", Bergkamp (recycled across rounds). Current English League Classics candidate roster: Berbatov 2011 / Essien 2006 / Cole 1994 / Petit 1999 (already on record; all English-league careers; Andy Cole recycled).
+- Community card reads (Speculative, 1rkjr4i): Dessailly trainable to "5x 100" (5 stats at 100) with full fitness+tackling; Batistuta: full fitness + 100 shooting reachable; Crespo ≈ Batistuta ≈ Trezeguet ("all 93 shooting, good fitness, bad passing"); Italian round ratings 84-85 ("none are 86"). => ladder classics are TRAINABLE special cards with visible potential ceilings; stat order for defenders: TAC among the 100-able five.
+
+## Addendum (turn 10c): CULT HEROES full roster (S-0049) + English League Classics card data (S-0048)
+**CULT HEROES (event live 16 Sep 2026; dlskiturl roster table):** De Gea 85 GK · Blind 83 CB · Otamendi 84 CB · David Luiz 84 CB · Ziyech 84 RW · **Isco 84 AM ("Aggressive Midfielder")** · Herrera 83 CM · Shaqiri 83 AM · Insigne 84 LW · **Dybala 85 SS ("Secondary Striker")** · Aubameyang 85 CF · **Vozinha 83 GK ("12th Man" — special slot)**. Acquisition: **Cult Hero Agents** (Season Pass 1 free + 1 paid per season; Online Events via DLS Live; real-money Market) → Transfer window → Event section → Sign — **RANDOM signing from the pool** ("signed randomly to your team"). NOT pay-to-win per the site. A locked **João Pedro** card appears in the Season Pass (paid-unlock, officially NOT part of the event). Training specials = **special trainers costing gems**; site advice: train ONE to max. Isco 84 = the same Isco as the quarantined PAS (R-0005/G-0041) at 84 rated.
+**English League Classics (S-0048):** Berbatov CF 2011 (91 ctrl/92 sho/189cm/low spe+sta), Essien DM 2006 (91 sta/strength), Cole CF 1994 (high acc/positioning), Petit DM 1999 (left-footed, 90 sta/passing). Preferred foot NOT shown on ladder cards (1rkjr4i complaint). "Release and re-sign to refresh base stats" (+11 version-ceiling mechanic, S-0046): older-season cards cap below current ceilings; a re-signed Rodri could reach 97.
+
+## Addendum (turn 11, 2026-09-28): special-card TAXONOMY (10 types) + DB hub discovered (S-0051)
+dreamkitsapp.com/data (S-0051) indexes every DLS26 special-card family with per-player pages (numeric IDs) and an image CDN (img.dlsinside.com/players/dls26/{special|VERSION}/{id}.webp — e.g. Bergkamp 25100 under version folder 13430): **Cult Heroes** (Dybala 85 SS ARG) · **World Winners** (Pavard 84 RB FRA) · **World Heroes** (James Rodríguez 85 AM COL) · **Dynamic Stars** (Hincapié 83 CB ECU) · **Team of 2025** (Mbappé 87 CF FRA) · **Kick-off Stars** (Raphinha 85 LW BRA — the DLS26 cover star IS a Kick-off Star; the TikTok "DLS 27 Kick-Off Stars" leak = launch-promo card family) · **Champion players** (Messi 88 CF ARG; last year's DLS25 "Champions" event family) · **Star players** (Tzolis 83 LM GRE) · **Classic players** (Bergkamp 85 SS NED — ladder classics live here) · **Secret players** (Edgar Chavez 60 RB HON, default.png no photo — a hidden-player class). Team DB: numbered team IDs (Real Madrid t113, Barcelona t105, Man United t12, PSG t58, Liverpool t10). Site also: kits DLS26→FTS archives, logos, leagues, Card Creator, an app (dest.dreamkits), tutorials, es/pt/fr locales. => DATABASE METHODOLOGY lead realized: dreamkitsapp /players + /player/{id} + /players/type/{family} + img.dlsinside.com are a structured, addressable DLS26 data source (SakibPro-JS-dead-end bypass).
+
+## Addendum (turn 11b): Dynamic Stars roster page 1/3 (S-0053)
+dreamkitsapp /players/type/dynamic-stars (3 pages; ratings = site-calculated approximations, Speculative tier): **Nico Williams 96 LW/LM ESP (27509) · De Paul 93 CM/RM ARG (27512) · Barcola 91 LW/RW FRA (27510) · Eze 90 AM/LW ENG (27508) · Akanji 88 CB/RB SUI (27517) · Bounou 88 GK MAR (27529) · Sørloth 88 CF NOR (27523) · Onana 87 DM/CM BEL (27516) · Fidalgo 87 CM/AM MEX (27520) · Matheus Cunha 86 SS/CF/AM BRA (27511) · Richard Ríos 86 DM/CM COL (27525) · McKennie 86 CM/AM/RM USA (27518) · Alderete 85 CB PAR (28243) · Marmoush 85 LW/CF/SS EGY (27531) · Jonathan David 85 CF/SS CAN (27519)** — 45-ish cards total (3 pages). ALL specials roster under pseudo-team **t258**. Banner (S-0050) picked the top-4 + Sørloth for promo. Full DB sibling: **dlsinside.com/players** ("full database" — the deeper source behind the img.dlsinside.com CDN).
+
+## Addendum (turn 12): PER-PLAYER DB PAGES = exact internal stats, version-stamped to the current build (S-0060)
+dreamkitsapp.com/player/{id} pages carry the full data sheet. **Epistemics: the site's disclaimer covers its RATING formula only — the profile fields and 0-999-scale stats read as database extractions (treat as strong third-party extraction; datamine cross-check owed, G-0054). "Last update: DLS V160-13430" and the per-version rating table ("V13430 | 85") version-stamp the data to the CURRENT 13.430 build — the first current-version stats in the base.**
+- **Dybala 28333 (Cult Heroes):** Left foot ✓ 177cm ✓ 75kg, b. 1993-11-15 (32). Stats: SPE 812 ACC 909 STA 808 STR 629 CON 929 PAS 909 SHO 909 TAC 499 GKR 141 GKH 157. **MATCHES the Dec-2024 collector-card capture to the unit (81/90/80/62/92/90/90/49 displayed = the ÷10 floor of these values)** — two surfaces agreeing exactly (R-0004 fidelity now DB-backed). Base version: Dybala 9553 @79 SS/RW.
+- **Berbatov 27675 (Classic, current English ladder):** Right foot, 189cm ✓ (dlskiturl match), 75kg, b. 1981-01-30. Stats: SPE 799 ACC 789 STA 760 STR 850 CON 919 PAS 859 SHO 929 TAC 399 GKR 250 GKH 255 — reproduces dlskiturl's "91 control / 92 shot accuracy / low speed and stamina" exactly (919/929/799/760 ⇒ their card reads are this same data). Base version: Berbatov 539 @77 CF.
+- **Header badge "85|95" on both specials (base OVR 85 / presumed max 95?)** — the +10/+11 maxed-rating family (G-0016); hypothesis, verify on a maxed capture (the Isco maxed collector card!).
+- Specials get NEW high ids (27xxx/28xxx) while base cards keep low ids (539, 9553) — version lineage is id-traceable. Attribute set on record: SPE/ACC/STA/STR/CON/PAS/SHO/TAC/GKR/GKH (matches the turn-3 stat-code mapping). "Status: Active" appears even for retired legends (field semantics unclear).
+
+## Addendum (turn 12b): ISCO full sheet — R-0005 PAS quarantine RESOLVED (S-0063)
+**Francisco Alarcón "Isco" (id 28327, Cult Heroes, V13430):** nickname field = Isco; Spain, Right foot, 176cm, 79kg, b. 1992-04-21 (34). Stats: SPE 812 ACC 873 STA 796 STR 659 **CON 930** **PAS 889** SHO 810 TAC 538 GKR 236 GKH 158 ⇒ in-game display floor 81/87/79/65/93/**88**/81/53. **The quarantined PAS reads 889 internal / 88 display (R-0011).** Base version: Alarcón 7293 @79. Header badge "84|94" — the base+10 maxed pattern (Dybala/Berbatov "85|95"); the community "+11" claim (S-0046) may apply to base cards differently (G-0016 stays open; the unread Isco-maxed collector card would confirm).
+**Cult Heroes family IDs (S-0061):** Dybala 28333 · De Gea 28324 · Aubameyang 28331 (Gabon, CF/RW) · **Isco/Alarcón 28327** · **Vozinha 28658 (GK, Cape Verde — id OUT of the 28324-34 block = added later as the "12th Man"; DB rating 84 vs dlskiturl 83 — discrepancy noted)** · Ziyech 28332 · Otamendi 28334 · Insigne 28328 · David Luiz 28325 · Shaqiri 28330 · Herrera 28329 · Blind 28326. Twelve cards ✓ ("12 players" per S-0055).
+
+## Addendum (turn 13, 2026-09-28): World Heroes + World Winners families (S-0064/S-0065) — and the two-family split resolved
+**World Heroes (world-cup-heroes, 8 cards) = iconic WC-moment performers** (dlskiturl's "Iconic Moments" framing): Messi 87 SS/RW/AM ARG (27848) · Cristiano Ronaldo 87 CF/LW POR (27841) · Kevin De Bruyne 86 AM/CM BEL (27840) · James Rodríguez 85 AM/RW COL (25839, older id) · Ivan Perišić 85 LW/RW/LM CRO (27850) · Keylor Navas 85 GK CRC (27837) · Joško Gvardiol 84 CB/LB CRO (27842) · Kyle Walker 84 RB/CB ENG (27839). **The dlskiturl APK-claimed roster (Messi 2022 / CR7 2018 / Navas 2014 / KDB 2018 / Perisic 2018 / Walker 2018 / Gvardiol 2022 / James 2014) verifies 8/8 against this DB** — the APK-extraction claim advances (two independent third-party surfaces agree). dlskiturl placed KDB under "Winners"; the DB says Heroes — DB reading adopted, discrepancy logged.
+**World Winners (8 cards) = recent international-tournament CHAMPIONS** (WC 2018/2022 + Euro 2024 winners, by name): Rodri 88 DM/CM ESP (27843) · Emiliano Martínez 87 GK ARG (27849) · Lamine Yamal 87 RW/LW ESP (27845) · Paul Pogba 87 CM/DM FRA (27846) · Enzo Fernández 85 DM/CM/AM ARG (27838) · Pau Cubarsí 85 CB ESP (27844) · Marc Cucurella 85 LB/RB ESP (28188, late-added id like Vozinha) · Benjamin Pavard 84 RB/CB FRA (27847). Family-defining rule inferred: Heroes = the moment's year tag (2014/2018/2022); Winners = the title. ID block 27837-27850 = one release batch (Jul-2026 event shipped both families together).
+
+## Addendum (turn 13b): KICK-OFF STARS + the SECRET-PLAYERS class — leaks verified (S-0066/S-0067)
+**Kick-off Stars (2 cards): Raphinha 85 LW/AM BRA (27191) · Julián Alvarez 84 CF/SS ARG (27127)** — EXACTLY the 13.430 store-description cover pair ("Raphinha & Julián Alvarez"; 12.100 said "Rodrygo & Julián Alvarez"). Kick-off Stars = the season's cover/launch specials; the TikTok "DLS 27 Kick-Off Stars" leak now makes structural sense (next cover pair becomes cards).
+**Secret players = a HIDDEN card class, 18 pages (~250 cards), old id block (2459-6836), all under specials bucket t258.** Page 1 (15): **Classic Bergkamp 91 CF/AM (5604)** · Classic Gascoigne 88 CM/AM (6829) · Classic Batistuta 88 CF/AM (6827) · Classic Matthäus 88 DM/CB (5666) · Classic Cannavaro 87 CB/LB (2459) · Classic Desailly 87 CB/RB (5710) · Classic Adams 87 CB/RB (6836) · **Classic Keane 87 CM/DM IRELAND (5842)** · **Classic Irwin 85 LB/RB IRELAND (5839)** · **Young Messi 84 SS/RW (24594)** · Classic Cole 84 LW/AM (5844, Joe-Cole-shaped positions) · **Legendary Messi 84 SS/RW (24599)** · Classic Šuker 83 LW/AM (5765) · Classic Gallagher 82 CM/AM IRELAND (5866) · Classic Petit 82 DM/CB (6640).
+**LEAK VERIFICATION (G-0063): the S-0046 TikTok leak ("Roy Keane... rating unrevealed; Irvin 85") matches Classic Keane 87 (5842) + Classic Irwin 85 (5839) — "Irvin" = DENIS IRWIN, rating 85 EXACT. "Gallagher" appears as Classic Gallagher 82 (Ireland — nation differs from Conor Gallagher; identity unresolved).** The secret class is the likely reservoir of FUTURE ladder rounds (Keane/Irwin "upcoming" per the leak). Secret classics out-rate ladder classics (88-91 vs 83-85) — naming ("Classic X"/"Young X"/"Legendary X") matches DLS19-21-era card naming; these may be legacy assets or an unreleased pool. Edgar Chavez 60 RB HON (no photo) also lives here. G-0067 upgraded: sample pages 2-18 to map the class.
+
+## Addendum (turn 13c): secret class composition + Desailly sheet cross-validation (S-0068/S-0069)
+**Secret p2 composition:** the class = (a) hidden classic variants — Classic Souness 82 DM/CB (5826), Classic Zola 78 (12102), **Classic Robinson 76 CF/AM IRELAND (5833) = the leak's "Peter Robinson"** (third leak hit after Keane/Irwin), Classic Valderrama 72 (12090); plus (b) **generated club-filler players** (fictional or minor real names attached to real/fictional clubs: Aleksandar Kamenár 77 GK "V Arnhem" t317, Derek Brady 76, Vinicius Valdez 72, Michael Linganzi 72 GK "Ferrara" t555, Anderson Balbuena 71, Carl Gunter 71, Kagisho Mphela 69, Dylan Dankerlui 69...). Filler ids cluster by club batch (260xx = Ferrara batch). => "Secret players" is the catch-all for non-standard roster entries: unreleased/legacy classics (the leak-reservoir for future ladders) + squad-filler for clubs without full licensed rosters. The 18 pages ≈ 250 cards; full sweep is a turn-14 frontier item.
+**Desailly 27093 sheet (Italian capture card):** FRA, Right, 188cm, 80kg, b. 1968-09-07; SPE 800 ACC 750 STA 890 STR 920 CON 800 PAS 800 SHO 520 TAC 900 GKR/GKH 270 ⇒ display 80/75/89/92/80/80/52/90. **Rating V13430: 84 — matches the ladder capture exactly (third capture↔DB cross-validation after Dybala and Berbatov).** Header badge 84|94. Page links all three versions: Classic Desailly 5710 @87 (secret), Marcel Desailly 26836 @85, Desailly 27093 @84 (Italian) — the version chain is page-traceable. The "5x100 defender" community claim (S-0045) is stat-plausible (STR 920 / TAC 900 / STA 890 trainable upward).
+
+## Addendum (turn 14): Team of 2025 family (S-0071) — the launch batch with Kick-off Stars
+**Team of 2025 (11 cards, 271xx ids — the DLS26 launch batch, shared with Kick-off Stars 27127/27191):** Kane 87 CF (27199) · Dembélé 87 RW/CF (27136) · Donnarumma 87 GK (27128) · Mbappé 87 CF/LW (27137) · **Pedro González López 87 CM/AM (27133) = PEDRI** (full-legal-name convention, cf. Francisco Alarcón/Isco) · Hakimi 87 RB/RM (27129) · Yamal 86 RW/LW (27138) · Salah 86 RW/RM (27200) · N. Mendes 85 LB/RB (27132) · Vitinha 85 CM/DM (27134) · Gabriel 85 CB (27131). Consistent with S-0049's event history ("the year started with the Team of the Season 2025 (Green Cards)") — TOTS-2025 + cover Kick-off Stars shipped together at the Dec-2025 launch.
+
+## Addendum (turn 14b): Champion + Star families (S-0072/S-0073)
+**Champion players (12 cards, 258xx-260xx = the DLS25 "Champions" event family):** Messi 88 CF/RW (25841) · CR7 88 LW/CF (25842) · Modrić 86 CM/AM (25837) · Di María 85 AM/RW (25845) · Kanté 85 DM/CM (26022) · **Messi 84 RW/SS (25847)** · Sánchez 84 CF/LW/RW (25844) · Vidal 84 CM/DM (25977) · **Di María 83 RW/LW (25846)** · Vardy 83 CF (25836) · **CR7 82 RM/RW (25849)** · Balotelli 82 CF/LW (25835). **Graded-tier structure: the same names appear at 2-3 rating tiers (88/84/82) within one family** — the family is a tiered hero pool (cf. the dlskiturl "Champions cards last year" note).
+**Star players (9 pages ≈ 135 cards):** current-player "star" variants — visible: Elliot Anderson 85 DM/CM (27832), McTominay 85 CM/DM (25987), Álex Baena 85 LM/AM (25989), Igor Thiago 84 CF (27483), Antonee Robinson 84 LB/RB (25985). **Site rendering bug on record: the listing repeats Elliot Anderson (27832) in ~10 slots — do NOT count duplicates as real cards (dedupe by id).** (Antonee Robinson ≠ the leak's "Robinson" = Classic Robinson 5833, Ireland CF/AM.)
+
+## Addendum (turn 15): maxed-OVR pattern CAPTURE-CONFIRMED (base+10) + Cult Heroes year tags (S-0076)
+Artifacts: `kb/evidence/daley_blind_maxed_2019_dm_build.jpg` (community "Daley Blind, DM Build" render; same content also filed under reddit thread 1pd6ctt "dls 26 hd legendary card thread annual update"). Pixel reading: **DALEY BLIND maxed build — SPE 91 ACC 91 STA 95 STR 82 CON 91 PAS 95 SHO 70 TAC 95, 180cm, Left; card BLIND NED CB, year tag 2019, rating badge 93 (green starburst).**
+- **G-0016 resolved for specials: maxed OVR = base + 10** — Blind base 83 (28326) → 93 ✓ consistent with the DB header badges (Isco 84|94, Dybala/Berbatov 85|95). The community "+11" claim (S-0046) applies elsewhere (base cards or specific versions) — remains open only outside the specials class.
+- **Cult Heroes year tags on record: Blind = 2019, Isco = 2017** (from the "1st Cult Hero - Isco (2017)" thread title) — cards carry era tags like the ladder classics (2011/2006/1994/1999).
+- Blind DM-build maxed spread (STA/PAS/TAC 95 ceiling at this allocation) = community build-guidance exists for Cult Heroes cards ("DM Build" = train toward DM playstyle). The "HD legendary card thread annual update" (1pd6ctt) is a curated HD card-art thread — G-0041 route for hi-res renders.
+
+## Addendum (turn 16): dlsinside slug route = second DB surface (works!) + Berbatov id correction (S-0077..S-0080)
+**Route discovery:** dlsinside.com/players listing is JS-dead, but **`/player/{any-slug}/{id}` slug pages are server-rendered and fetchable. The slug is ignored — the id resolves the record.** A second stat surface for cross-checks, plus unique fields: **coin value** ("value of 120 coins" shown on common cards), **age + career status** (e.g. Berbatov 45, Retired), **team link** (/team/{name}, t534-style team ids), an "evolution" widget, and collection membership.
+- **Isco 28327 = "Francisco Alarcón"** (full legal-name style like Pedri): Cult Heroes, 84, AM/CM, Spain, Right, 176cm, age 34, **PAS 88 / CON 93 / STA 79** — now TRIPLE-surfaced (dreamkitsapp 889→88 + doux-nid + dlsinside) + dlsinside names the collection "Cult Heroes" explicitly. Tier bar NOT present on slug pages (G-0037 partial).
+- **Berbatov id correction: the current English League Classics Berbatov = 27675** (dlsinside: "Dimitar Berbatov (Classic)", 85, CF, Bulgaria, 189cm, Right, age 45, Retired; SHO 92 / SPE 79 / ACC 78). Any earlier note citing "26904" for Berbatov is a phantom transposition — 26904 is N. Nogueira (57, Guimarães, RW/AM, Portugal, 182cm, Left, 120 coins). **No cross-DB id collision: dreamkitsapp and dlsinside id spaces agree (Isco 28327 + Berbatov 27675 both match).**
+- **Keane 5842 = "Classic Keane" — dlsinside explicitly classifies it as a "hidden record found in the data"** (their unreleased-record label; missing fields omitted rather than imputed; age "-"). CM/DM, Right, 182cm, Ireland, rating 87, **PAS 87**. G-0063's unreleased nature now has a database-side label. Ladder heroes' collection name on dlsinside = "Classic".
+
+## Addendum (turn 23): secret-class reservoir pages 3-4 + class structure (S-0095/96)
+Pages 3-4 of the secret listing (sorted rating-desc: p1-2 = 87-76 hidden classics; p3 = 69-67; p4 = 67-65) are **fictional filler stock**: composite-named mystery players (Nicolàs Cunningham, Juan Angel Spolli, Matheus Garrincha [Ivory Coast], Gouramangi Singh [Kazakhstan]...) with small random nations and filler teams — t258 generic "Team", t555 Ferrara, t528 Belem, t317 V-Arnhem, t504 Allstar XI, t395, t218, t267 Brescia. Mixed legacy ids (9xxx/10xxx/13xxx/14xxx/15xxx/20xxx/24xxx/260xx). 30 rows captured (see sources S-0095/96 payload for the roster). **Structure finding: the hero-grade cards (Irish quartet etc.) sit in pages 1-2 [covered]; pages 3-18 are filler stock, descending ratings** — pages 5-18 still owed (staged) but low expected novelty.
+**SITE-EPISTEMICS NOTICE (dreamkitsapp, on every listing page):** "The player ratings shown on this page are approximate calculations based on their stats. There may be slight differences from the official in-game rating, which could also affect the displayed price." ⇒ dreamkitsapp OVRs/PRICES are DERIVED values, not extracted ratings. Per-player 0-999 stats remain extraction-grade (exact stat values + version stamps). Displayed-OVR cross-checks (dlsinside + captures) have agreed so far; the caveat stands.
+**Pagination URL bug:** the site's page links nest as /players/type/secret/p/{N}/p/{M} — the working form is /players/type/secret/p/{N}.
+
+## Addendum (turn 28): Dynamic Stars END-STATE + display-100 discovery (S-0105) — G-0034 resolved for the WC family
+**WORLD CUP 2026 REAL RESULT (sakibpro kit page, 10 Sep 2026):** SPAIN champions (2nd title), beating holders **Argentina 1-0** in the final at New York/New Jersey. This resolves every live-upgrade outcome.
+**DYNAMIC STARS END-STATE (sakibpro players list + TikTok captures):** **Nico Williams 96 LW Spain = the champion representative** (the 96 card; TikTok: "get his 96-rated card", "Nico Williams được tăng chỉ số 96") · Rodrigo de Paul 93 CM Argentina (finalist rep: 82 + 3 group wins + 4×2 knockout = 93 ✓ arithmetic-exact) · Bradley Barcola 91 LW France · Eberechi Eze 90 AM England (semifinal reps). Post-WC acquisition question ("How to Get Nico Williams now the World Cup is finished") = the family stayed signable after the upgrades.
+**NICO WILLIAMS 96 CARD STATS (sakibpro squad sheet): SPE 100 ACC 100 STA 100 STR 81 CON 100 PAS 100 SHO 100 TAC 46, Right, 181cm — SIX STATS AT 100 ⇒ displayed stats can reach 100 (G-0080: the ÷10 display model needs a 100 case — internal ≥1000 or 0-100 scale; the Isco/Blind data all sat below 100).** Champion-rep = effectively combat-maxed in relevant stats (community's "fully maxed without coaches" expectation approximately borne out).
+**SAKIBPRO = a third stat surface:** kit pages carry squad stat sheets (8-stat rows + card-type labels "DYNAMICSTAR"/"CHAMPION"/"Champion 26"). Yamal "Champion 26" 87 RW Left 179cm: SPE 88 ACC 93 STA 85 STR 66 CON 96 PAS 91 SHO 89 TAC 41. Family-name crosswalk fuzzy across DBs (sakibpro: "World Cup Heroes"/"Champion"/"Champion 26"/"Team 2025" vs dreamkitsapp: world-heroes/world-winners/champion/team-of-2025) — G-0081.
+
+## Addendum (turn 29): sakibpro deep surface — prices, top-10, GK table, OVR formula probes (S-0108)
+**SAKIBPRO ROUTE DISCOVERY: the site is JS-dead for page-render but fully search-INDEXABLE** — squad sheets, per-player pages (/players/normal/{slug}/{id} with schema.org JSON-LD), top-10 pages and card-type articles are all extractable via discovery-search snippets. Their labels: prices "✔️ VERIFIED", OVRs "⚠️ ESTIMATED" (computed from stats — the ±1 discrepancy vs extracted OVRs, e.g. ladder three at 84, is their formula's error, G-0083).
+**BASE-CARD PRICE POINTS (transfer market, "VERIFIED"):** Coutinho "Normal 2026" 75 OVR = **1,185 coins** (AM, 172cm, 67kg, Right, 34y, Free Agent; stats 75/82/52/80/78/75/60/47; "Max Upgrade (+10 OVR)" → 85). Rüdiger "Normal 2026" 81 OVR = **1,815 coins** (CB, 190cm, 86kg, Right; 82/70/92/75/79/53/71/86; max 91). The +10 max rule is their STANDARD label for base cards too (R-0012 scope extends; the "+11 rare case" remains the community exception).
+**TOP-10 OVERALL (their calc, cross-read with care):** Mbappé 86 = highest base (94/94/83/74/90/83/95/27) · Dembélé 86 (89/93/75/62/93/91/90/45) · Vini 85-ish (93/95/83/62/93/87/85/26) · Olise (85/87, "max 96" = a +11 case in their model) · Hakimi 85 (94/87/89, max 95) · HM 85s: Vitinha/Pedri/B.Fernandes/Gabriel/Donnarumma; 84s: N.Mendes/L.Díaz/Kvaratskhelia/Salah/J.Alvarez.
+**TOP-10 GKs (GKR/GKH surface):** Donnarumma 85→95 (196cm, GKR 84) · Courtois 84→94 (200cm, GKR 82) · A.Becker 84→94 (193cm, GKR 82) · Raya 84→94 (GKH 82/GKR 80) · Martínez 83→93 · Maignan 83→93 (GKR 80) · Kobel/Joan García/Oblak/Ederson 82→92. GK cards carry GKR+GKH + physical stats.
+**Nico Williams 96 scale question (G-0080) sharpened:** sakibpro shows DECIMAL stats on some tables (78.9 = internal 789) and 100-integers on the Dynamic Star sheet — if decimals are internal/10, then "100" = internal 1000 — the internal ceiling is 1000 (or the display simply allows 100 at the top). In-game capture still decisive.
+
+## Addendum (turn 31): Dream Stars 26 FULL ROSTER (S-0113) + card taxonomy + rating-era boundary (S-0111/0112/0115) — G-0081 roster cracked
+**DREAM STARS 26 = the 12-player Apr-2026 event roster (sakibpro guide 26 Mar 2026, per-player screenshots embedded). Event Apr 3 - May 2 2026 (30 days). Reward split: Season Pass 6 (3 free + 3 paid across 3 seasons) / Event Wins 3 / Dream Draft 3.**
+| Player | Pos | Nation | Club | Notes (sakibpro) |
+|---|---|---|---|---|
+| Mile Svilar | GK | Serbia | AS Roma | reflex saves, positioning |
+| Malang Sarr | CB | France | AS Monaco | physical defending, aerial |
+| Julian Ryerson | DF | Norway | Borussia Dortmund | stamina, pace |
+| Souffian El Karouani | DF | Morocco | FC Utrecht | crossing, set pieces |
+| Luka Vuskovic | DF | Croatia | Tottenham | high potential |
+| Patrick Berg | MF | Norway | Bodo/Glimt | passing, control |
+| Elliot Anderson | MF | England | Newcastle | dribbling, creativity |
+| Christos Tzolis | MF | Greece | Fortuna Dusseldorf | speed, attacking runs |
+| Giorgian De Arrascaeta | AT | Uruguay | Flamengo | playmaking, long shots |
+| Kenan Yildiz | AT | Turkey | Juventus | pace, technical |
+| Igor Thiago | AT | Brazil | Brentford | finishing, physical |
+| Luis Suarez | AT | Uruguay | Inter Miami | finishing, experience |
+TikTok fragments ("Georgien/Elliot/Igor Tiago at 84", PT guide: Eeds/Arrascaeta/Anderson/Tiago/Berg) map 1:1 onto this roster — third-party echo. The r/ candidates thread (Semenyo/Moleiro/etc.) was WISHLIST only: zero overlap with the actual roster. Selection criteria (non-elite-club breakouts) fits 11/12 (Yildiz/Juventus the stretch). Dreamkitapp "Star players: Luis Suarez 83 CF Colombia" is a DIFFERENT Suarez (Luis Javier Suarez, Colombia) — do not merge with the Uruguayan Dream Star. Residual (G-0081): the 12 cards' OVRs/stats ("84" seen for three via TikTok) + the voted-12th-man attribution + full family crosswalk.
+**CARD TAXONOMY (three surfaces):** dreamkitsapp families = World Heroes · Team of 2025 · Champion players · Star players · Classic players (+ Secret players, Kick-off Stars, World Winners, Dynamic Stars from earlier notes). sakibpro in-page card tags = "Champion 26" (Spain WC-champion cards: Rodri, Cubarsi, Yamal) · "Dreamstar 25" (Baena, Vivian) · "Normal" · "DYNAMICSTAR" · "CLASSIC" · "CULT HEROES". FTG first-party names = Cult Heroes · Season Pass Players (NEW, 6 cards TBA) · Dynamic Stars · Dream Stars 26. GK cards replace STA/SHO slots with **GKR/Handling** (Cult Heroes sheets: Vozinha GKR 81.4/H 81.2; De Gea GKR 85.0/H 80.0).
+**RATING-ERA BOUNDARY (S-0115):** the Summer Update (~late May 2026) shipped a MASSIVE player-rating overhaul ("live data syncing", full recalibration). All cross-source OVR/stat comparisons must be ERA-STRATIFIED: pre-overhaul (dlsgame index 2 Dec 2025; reddit price list 4 Dec 2025; sportsdunia 2 Jan 2026; thesoccerera 19 Feb 2026) vs post-overhaul (sakibpro Aug-Sep 2026 sheets; sportsdunia Jun 2026 dynamic-stars). Example drift: Rodri 85-86 across sources, Cole 80 (May article) vs 84 (Aug), Essien 84 (Aug) vs 85 (Sep trending).
+
+## Addendum (turn 32): Dream Star 26 catalog with IDs/OVRs (S-0121) + Suarez nationality CONFLICT + community tier lists (S-0116)
+**DREAM STAR 26 CARDS (all 12; /players/dreamstar26/ index server-rendered):**
+| Card | Pos | Nat | OVR | Id | Batch |
+|---|---|---|---|---|---|
+| Elliot Anderson | DM | ENG | 84 | 27832 | 27827-27835 |
+| Julian Ryerson | RB | NO | 84 | 27828 | " |
+| Mile Svilar | GK | RS | 84 | 27827 | " |
+| Igor Thiago | CF | BR | 84 | 27483 | 27481-27483 |
+| Kenan Yildiz | SS | TR | 84 | 27481 | " |
+| Giorgian de Arrascaeta | AM | UY | 84 | 27482 | " |
+| Patrick Berg | DM | NO | 83 | 27831 | " |
+| Malang Sarr | CB | FR | 83 | 27829 | " |
+| Luis Suarez | CF | **CO** | 83 | 27835 | " |
+| Christos Tzolis | LM | GR | 83 | 27834 | " |
+| Luka Vuskovic | CB | HR | 83 | 27830 | " |
+| Souffian El Karouani | LB | MA | 82 | 27833 | " |
+OVR spread = 84x6 / 83x5 / 82x1 (NOT uniform — resolves G-0081 residual (a); TikTok "84" was the top tier only). +10 coach upgrade applies (black cards) per index FAQ.
+**SUAREZ NATIONALITY CONFLICT (record, do not merge):** the sakibpro EVENT GUIDE prose says Luis Suarez = Uruguay / Inter Miami; BOTH databases (sakibpro index flag co.png + dreamkitsapp "Star players Luis Suarez 83 CF Colombia") say COLOMBIA 83 CF = the Colombian Luis Javier Suarez. Majority 2-1 for Colombia; the guide prose is the unreliable surface (it also mislabels positions elsewhere: Ryerson DF→RB, Berg MF→DM, Tzolis MF→LM, El Karouani DF→LB). Third-surface resolution pending.
+**COMMUNITY PERFORMANCE TIERS (reddit 1sv94qo, 25 Apr 2026, unmaxed cards):** consensus S-tier = Yildiz, Ryerson, Thiago, de Arrascaeta; Svilar mid (B); Tzolis/El Karouani/Sarr low; Thiago valued as the physical CF ("beast... 20 goals in 40 live games"). Advisory-relevant ranking for a user who may pick Dream Star rewards.
+**BASE-CARD INTERNALS (two hard datapoints):** Igor Thiago base (dreamkitsapp/24651, V13030): 729/659/702/845/744/683/800/345 + GKR 147/GKH 155, 74 OVR Brentford (base card ≠ the 84 Dream Star card). Kenan Yildiz base (dlsinside/23016): 829/839/779/699/309/859/809/819 + GKR 159/GKH 154, 80 OVR SS/LW, ambidextrous ("Both / Right"), 187cm, J Turin, 1,965 coins, max 90, dorsal 10. The +10 max rule holds on both surfaces (74→84? no — Thiago base max = 84 coincides with DS 84; Yildiz 80→90).
+
+## Addendum (turn 33): Suarez tie-break CLOSED + card-type SLUG TAXONOMY complete (S-0122..S-0127)
+**SUAREZ NATIONALITY CONFLICT CLOSED (3-1):** Dream Star 26 card 27835 detail table = **Colombia, DOB 2 Dec 1997** — the Colombian **Luis Javier Suárez** (28, 181cm, 83kg, Right, CF). Sheet: SPE 88/ACC 87/STA 83/STR 83/CON 84/PAS 76/SHO 92/TAC 33 (Total 626), OVR 83, max 93, acquired via **"Dream Star 26 Agent"**. The sakibpro event-guide prose (Uruguay/Inter Miami) is simply WRONG — it conflated him with the Inter Miami legend. Normal-tier echo 17858 (78 OVR).
+**CARD-TYPE SLUG TAXONOMY (10 families — G-0081 residual (c) substantially resolved):** `/players/classic/` · `/players/normal/` · `/players/cult-heroes/` · `/players/season-pass/` · `/players/team2025/` · `/players/world-winners/` · `/players/world-cup-heroes/` · `/players/champion/` · `/players/dynamicstar/` · `/players/dreamstar26/`. Family IDs seen on rails: champion = Kanté 26022 (85), **Messi 25841 (88)** (= the "Champion players Messi 88" echo, G-0067 cross-confirmed); world-winners = Rodri 27843 (87), E. Martínez 27849 (86); world-cup-heroes = De Bruyne 27840 (86), Navas 27837 (85); team2025 = Donnarumma 27128 (86), Mbappé 27137 (87), Kane 27199 (87); dynamicstar = Eze 27508 (90), Sørloth 27523 (88), Onana 27516 (87); normal generated-name record "Jonathan Dickison" 3490 (85) = Secret-class evidence. Note world-winners and world-cup-heroes are DISTINCT families. dreamkitsapp naming maps onto these (Team of 2025→team2025, Champion players→champion); "World Heroes"/"Star players" mapping still fuzzy.
+
+## Addendum (turn 34): family ID blocks sharpened + the Nico Williams 96 page located (S-0128..S-0135)
+**G-0080 route sharpened:** the six-100 Nico Williams card = **dynamicstar/nico-williams/27509** (96 OVR) — canonical page URL found on Rivaldo's Similar rail (S-0132). Its per-player page is the next fetch (does it show the six 100s in their tables?).
+**FAMILY ID BLOCKS (from Similar/Other rails):** dynamicstar = 27508-27523 block (Eze 27508 90, Nico Williams 27509 96, Barcola 27510 91, Matheus Cunha 27511 86, Joao Felix 27513 85, Onana 27516 87, Sorloth 27523 88). champion = 25841 Messi 88, 25842 Cristiano Ronaldo 88, 26022 Kante 85 (Champion-family stars — matches "Champion players Messi 88"). world-cup-heroes = 27837 Navas 85, 27840 De Bruyne 86, 27848 Messi 87 (dreamkitsapp "World Heroes Messi 87" maps HERE). team2025 = 27128 Donnarumma 86, 27137 Mbappe 87, 27199 Kane 87. world-winners = 27843 Rodri 87, 27849 E. Martinez 86. cult-heroes = 28324-28334 block (Dybala 28333 85 confirmed). Crosswalk implication: TWO distinct Messi special cards (champion 88 + world-cup-heroes 87) — families are parallel, not aliases.
+
+## Addendum (turn 35): Dynamic Stars mechanics COMPLETE (S-0136) — G-0034/G-0079 answered, G-0080 second surface
+**NICO WILLIAMS 27509 = the Dynamic Star 2026 ceiling card.** Sheet (2nd surface, matches turn-28 squad sheet): SPE 100 ACC 100 STA 100 STR 81 CON 100 PAS 100 SHO 100 TAC 46 — **Total 727 = the sum of DISPLAY integers** (their totals are computed on displayed values). OVR 96 OFFICIAL, 181cm 67kg Right, DOB 12 Jul 2002. Normal echo 18520 (80).
+**FULL FAMILY MECHANICS (their dedicated prose — treat as one well-informed DB's account):** Dynamic Stars = the flagship World Cup 2026 promotion — one representative player per participating nation (claims **40**; the leak said "40 Dynamic Stars Players" too — 40 vs the 48-team field is unresolved), fixed base 82, **live boosts driven by the NATIONAL TEAM's tournament run** (not individual performance), frozen at the tournament's end. Selection pattern = solid mid-tier squad players over headliners (Nico over Yamal/Rodri; De Paul over Messi; Cunha for Brazil). Spain's bracket: **Belgium QF → France SF → Argentina 1-0 final** ⇒ 82→96 = the promo's highest card. Acquisition: Dynamic Star Agent via Season Pass / online events / Dream Draft.
+**G-0079 — DYNAMIC STARS ARE NOT COACHABLE (explicit, 2-surface):** "this is a fixed, non-upgradable card... This specific card type cannot be upgraded further via coaching in DLS 26" (S-0136) + community consensus (S-0107-era). Their note: coachable 87-88 specials can PRACTICALLY exceed 96 after +10 (e.g. 88→98) even though 96 is the highest raw OVR. User's dead-simple test (select special coach on a DS card) remains the decisive first-party check.
+
+## Addendum (turn 36): DYNAMIC STAR 40-ROSTER COMPLETE (S-0140..S-0143) + index-FAQ boilerplate warning
+**ALL 40 DYNAMIC STAR 2026 CARDS (base 82; index shows pre-boost ratings):**
+| Batch | Cards (name pos nat id) |
+|---|---|
+| 27508-27539 (31) | Eze AM ENG 27508 · Nico Williams LW ES 27509 ("Williams Jr") · Barcola LW FR 27510 · Cunha SS BR 27511 · de Paul CM AR 27512 · Joao Felix SS PT 27513 · Woltemade CF DE 27514 · Malen CF NL 27515 · Onana DM BE 27516 · Akanji CB CH 27517 · McKennie CM US 27518 · J.David CF CA 27519 · Fidalgo CM MX 27520 · Robertson LB SCT 27522 · Stanisic RB HR 27524 · Richard Rios DM CO 27525 · D.Nunez CF UY 27526 · Hincapie CB EC 27527 · Schick CF CZ 27528 · Bono GK MA 27529 · R.Williams GK ZA 27530 · Marmoush LW EG 27531 · Ait-Nouri LB DZ 27532 · I.Williams RW GH 27533 · Ndiaye RW SN 27534 · Khusanov CB UZ 27535 · Kang In AM KR 27536 · Kubo RW JP 27537 ("Take") · Arda Guler AM TR 27538 · Ndicka CB CI 27539 · Sorloth CF NO 27523 |
+| 28237-28246 (9) | Irvine CM AU 28237 · Muharemovic CB BA 28238 · Wissa CF LR 28239 · Isidor CF HT 28240 · Saud RWB SA 28241 · Wood CF NZ 28242 · Alderete CB PY 28243 · Elanga RW SE 28244 · Kabongo CF CZ 28246 |
+~38-39 distinct nations (TWO Czech cards — Kabongo + Schick — so "one rep per nation" is approximate); the 48-team field was not exhaustively covered (Italy/Denmark/Poland/Serbia etc. have no card). IDs 275xx = launch batch, 282xx = late additions.
+**SOURCE-HYGIENE WARNING:** the sakibpro INDEX FAQ is generic BOILERPLATE ("+10 via coaches... black cards") pasted on every family index — it contradicts the Dynamic Star per-card prose ("fixed, non-upgradable, cannot be coached") and is WRONG for this family. Weight specific per-card prose over index FAQ; the FAQ even appears under families whose cards are known fixed. 
+
+## Addendum (turn 37): G-0080 CLOSED — internal scale = 0-1000, display = internal/10 (S-0146)
+**dlsinside shows the Dynamic Star Nico's internals as 1000/810/460** (ACC/STR/TAC) vs sakibpro display 100/81/46 — exact ÷10 mapping. So: **display 100 = internal 1000 = the top of the scale**; the "six 100s" card is six internals at max 1000. Nico DS "Max. Rating" = 96 (fixed, no coach headroom). This settles the whole display-cap family: Cult Heroes decimals (78.9 = 789), dlsinside integers (829-style), and display ints (84-style) are one convention at three renderings.
+**Internal-scale sources:** dlsinside (1000-scale ints), dreamkitsapp (1000-scale ints, e.g. Nico base 18520: 899/919/789/619/860/779/760/320 + GKR 139/GKH 136, DLS26 base 80), sakibpro (decimals = ÷10). Boosted DS finals appear on per-card pages and Similar rails (de Paul 27512 = 93, Fidalgo 27520 = 87) while indexes show base 82. EA FC 26 surfaces (futbin/futvolution/fifacm) are a DIFFERENT GAME — screened out.
+
+## Addendum (turn 39): G-0080 cross-validation + one more boosted DS final (S-0159..S-0164)
+- **G-0080 convention cross-validated on three more cards:** sakibpro display = floor(dreamkitsapp internal/10) exactly on Šuker 25096 / Mendieta 25098 / Irwin 5839 (e.g. 859→85, 899→89, 926→92). Display integers truncate the 0-1000 internal; Nico's 1000→100 is the exact top.
+- **Boosted Dynamic Star finals seen on similar-rails:** Sørloth 27523 = 88 (beside de Paul 27512 = 93, Fidalgo 27520 = 87). Boost-table evidence keeps accumulating on rails while indexes show base 82.
+- **Family slug crosswalk (G-0081) — new slugs observed on rails:** `dreamstar25` (Antonee Robinson 25985, 83 = DLS25 Dream Stars), `world-winners` (Cucurella 28188, 85), `champion` (Messi 25841 88, C.Ronaldo 25842 88 AND 25849 82 — two champion CR ids).
+
+## Addendum (turn 40): Cult Heroes per-card sheets 7/12 + index slug map (S-0165..S-0172)
+**Index 12/12 slug map (`/players/cult-heroes/{slug}/{id}/`):** Aubameyang `pierre-emerick-aubameyang`/28331 CF 85 GA · Dybala `paulo-dybala`/28333 SS 85 AR · de Gea `david-de-gea`/28324 GK 85 ES · David Luiz `david-luiz`/28325 CB 84 BR · Insigne `lorenzo-insigne`/28328 LW 84 IT · Isco `francisco-alarc-n`/28327 AM 84 ES · Otamendi `nicol-s-otamendi`/28334 CB 84 AR · Ziyech `hakim-ziyech`/28332 RW 84 MA · Ander Herrera `ander-herrera`/28329 CM 83 ES · Blind `daley-blind`/28326 CB 83 NL · Shaqiri `xherdan-shaqiri`/28330 AM 83 CH · Vozinha `josimar-jos-vora-dias`/28658 GK 83 CV. Vozinha's display name = his full legal name (Josimar José Évora Dias) — same "legal-name display" pattern as Classic Irwin/Dickison. Index FAQ = the generic "+10 via coaches... black cards" boilerplate AGAIN.
+**Sheets (integer pages = exact floor of the S-0114 decimals, 7/7; stamp = card-name "Cult Heroes {year}"; order SPE/ACC/STA/STR/CON/PAS/SHO/TAC, GK = SPE/ACC/STR/CON/PAS/TAC + GKR/GKH):**
+| Card | Stamp | Pos/OVR/Id | Sheet | Body / foot / DOB | Max |
+|---|---|---|---|---|---|
+| de Gea | 2018 | GK 85 28324 | 62/60/–/56/57/60/–/43 + GKR 85 GKH 80 (503) | 192/76, Right, 1990-11-07 | 95 |
+| Dybala | 2020 | SS 85 28333 | 81/90/80/62/92/90/90/49 (634) | 177/75, Left, 1993-11-15 | 95 |
+| Isco | 2017 | AM 84 28327 | 81/87/79/65/93/88/81/53 (627) | 176/79, Right, 1992-04-21 | 94 |
+| Aubameyang | **2018⚠** | CF 85 28331 | 93/92/81/77/85/79/94/34 (635) | 187/80, Right, 1989-06-18 | 95 |
+| David Luiz | 2017 | CB 84 28325 | 78/74/82/85/80/80/67/89 (635) | 189/84, Right, 1987-04-22 | 94 |
+| Otamendi | 2018 | CB 84 28334 | 75/73/83/89/80/80/58/93 (631) | 183/75, Right, 1988-02-12 | 94 |
+| Vozinha | 2026 | GK 83 28658 | 54/47/–/62/54/55/–/43 + GKR 81 GKH 81 (477) | 189/75, Right, 1986-06-03 | 93 |
+**Aubameyang year-stamp CONFLICT (three readings, intra-source):** per-card header "Cult Heroes 2018" vs the S-0114 roundup table [2017] vs the page prose "built around his 2016-17 Dortmund season (31 league goals in 32)". The per-card>article rule does NOT settle it — both disagreeing surfaces are sakibpro. OPEN.
+**Prose trap #2 (beyond index FAQ):** Aubameyang's per-card PROSE is recycled pre-event leak-article text ("These cards will arrive through the upcoming Season Pass track... early leak lists"), contradicting the Cult Heroes Agent acquisition printed on the same page. DR-001 prose-withdrawal extended: per-card prose can itself be recycled SEO; the DATA BLOCK + card-name stamp remain the reliable layer.
+**Dickison rail sighting (G-0067):** "Jonathan Dickison normal/3490 — 85 OVR" surfaces on the CB similar-rails (David Luiz + Otamendi pages), beside Van Dijk normal/27130 (85) and Gabriel Magalhães normal/16347 (85) — the generated-name record is rail-rated like a top normal CB. Page probe owed.
+**Echo normal ids:** de Gea 25840 (80) + 153 (78) · Dybala 9553 (79) · Isco 7293 (79) · Aubameyang 4057 (77) · David Luiz 2178 (76) · Otamendi 2531 (79). All 7 pages carry the "ESTIMATED" OVR label (their computed = claimed base here; the −1 drift is ladder-side, G-0083). GK-similarity magnet: the unnamed classic 26841 (86) now seen on 3 GK rails (de Gea, Vozinha, Zenga).
+
+## Addendum (turn 41): Cult Heroes sheets 12/12 COMPLETE + Dickison probe + Pedri correction (S-0173..S-0179)
+**Final five sheets (integer = floor of S-0114 decimals 5/5; order SPE/ACC/STA/STR/CON/PAS/SHO/TAC):**
+| Card | Stamp | Pos/OVR/Id | Sheet | Body / foot / DOB | Max | Echo |
+|---|---|---|---|---|---|---|
+| Insigne | 2021 | LW 84 28328 | 90/94/83/54/90/86/87/40 (624) | 163/60, Right, 1991-06-04 | 94 | normal 9583 (78) |
+| Ziyech | 2019 | RW 84 28332 | 83/85/84/61/87/90/83/58 (631) | 180/74, Left, 1993-03-19 | 94 | normal 11757 (73) |
+| Ander Herrera | 2017 | CM 83 28329 | 74/75/91/73/86/86/73/82 (640) | 182/71, Right, 1989-08-14 | 93 | normal 422 (73) |
+| Blind | 2019 | CB 83 28326 | 75/72/83/81/81/82/67/87 (628) | 180/72, Left, 1990-03-09 | 93 | normal 6858 (71) |
+| Shaqiri | 2019 | AM 83 28330 | 77/86/79/72/85/85/80/55 (619) | 169/72, Left, 1991-10-10 | 93 | normal 8128 (71) |
+**CULT HEROES SHEETS 12/12 COMPLETE.** Year-stamp census: 2017 ×3 (Isco, David Luiz, Herrera) · 2018 ×3 (de Gea, Otamendi, Aubameyang⚠) · 2019 ×3 (Ziyech, Blind, Shaqiri) · 2020 (Dybala) · 2021 (Insigne) · 2026 (Vozinha placeholder). Range 2017-2021 + the 2026 placeholder. The 5 new stamps match the S-0114 roundup EXACTLY (only Aubameyang is conflicted: per-card 2018 vs roundup 2017). Display=floor(internal/10) now cross-validated on 12/12 cult heroes + classics (11+ cards total).
+**Aubameyang second surface (dreamkitsapp 28331):** internals 930/920/811/770/855/790/940/341 + GKR 121/GKH 127 = exact floor match. **No year tag anywhere on dreamkitsapp** — the second surface is SILENT on the stamp conflict, which stays OPEN (a third surface: FTG art or an in-game capture). Their 4057 echo = 78 vs sakibpro 77 (OVR drift, G-0083).
+**DICKISON 3490 FULL SHEET (G-0067 decisive, S-0178):** "Jonathan Dickison", stamp **"Normal 2026"**, CB 85: 76/82/84/94/76/77/64/92 (Total 645). 182cm/**100kg** (generated body), Right, **DOB 1900-01-01 (age 126)** — the SAME placeholder DOB as Classic Irwin 5839. **Transfer Market Price 2,375 Coins (✔️ VERIFIED badge)** — first verified coin price on a hidden-class record. **Photo Evolution: cards exist for DLS 21/22/23/24/25/26** — the record has persisted across six game generations. dreamkitsapp classes it Secret players; sakibpro files it under /normal/. **The "2026"-stamp + DOB-1900 placeholder pattern now spans THREE families: Classic (Irwin 5839), Cult Heroes (Vozinha 28658), Normal (Dickison 3490).**
+**CORRECTION (tracker-only error, Bergkamp-precedent):** the turn-37 tracker line "team2025 Rodri 27133" is wrong — 27133 = **Pedro González López = PEDRI** (rail slug `pedro-gonz-lez-l-pez`; the KB Team-of-2025 table was already correct). Real Rodri = world-winners 27843. Historical tracker text left standing; correction recorded here. (The rail shows 27133 at 86 computed vs the table's 87 extracted — the usual G-0083 label drift.)
+
+## Addendum (turn 42): hidden classic-echo sheets + the secret-class map page 1 (S-0180..S-0184)
+**Four hidden "Classic X" records — full sheets (dreamkitsapp internals; display = floor(÷10)):**
+| Record | Pos/OVR/Id | Internals (SPE/ACC/STA/STR/CON/PAS/SHO/TAC + GKR/GKH) | Display | Body/foot | Other versions |
+|---|---|---|---|---|---|
+| Classic Keane | CM/DM 87 5842 | 782/807/839/839/850/873/778/905 + 65/37 | 78/80/83/83/85/87/77/90 | 182/79, Right | none (DLS25 career: Rep. Ireland CM) |
+| Classic Cole | LW/AM 84 5844 | 935/915/688/688/923/768/750/548 + 57/33 | 93/91/68/68/92/76/75/54 | 182/71, Right | Andy Cole 25091 (83) + 27096 (84) |
+| Classic Šuker | LW/AM 83 5765 | 839/880/713/693/940/702/777/558 + 18/38 | 83/88/71/69/94/70/77/55 | 183/73, Left | Davor Šuker 25096 (83 CF) |
+| Classic Desailly | CB/RB 87 5710 | 885/872/917/940/760/723/611/940 + 183/150 | 88/87/91/94/76/72/61/94 | 188/86, Right | Marcel Desailly 26836 (85) + 27093 (84) |
+All four carry the VERBATIM dreamkitsapp secret-player prose and the First-name-"Classic" display pattern. **Secret alternates can differ in POSITION (Cole LW vs the CF Andys) and OUTRATE the released classics (Desailly 87 > 85/84; Bergkamp secret 91 > classic 85).**
+**SECRET-CLASS MAP (S-0184): `/players/type/secret` = 18 pages × 15 (≈270 records), sorted OVR-desc.** Page 1 top-15: **Classic Bergkamp 91 CF/AM NED 5604** · Classic Gascoigne 88 CM/AM 6829 · Classic Batistuta 88 CF/AM 6827 · Classic Matthäus 88 DM/CB 5666 · Classic Cannavaro 87 CB/LB **2459** · Classic Desailly 87 5710 · Classic Adams 87 CB/RB 6836 · Classic Keane 87 5842 · Classic Irwin 85 5839 · **Young Messi 84 SS/RW 24594** · Classic Cole 84 5844 · **Legendary Messi 84 SS/RW 24599** · Classic Šuker 83 5765 · **Classic Gallagher 82 CM/AM IRL 5866** · Classic Petit 82 DM/CB 6640. Legacy low-id space (2459–6836 block + Dickison 3490).
+- **TWO secret Messi variants** (Young 24594 + Legendary 24599) join the Messi web (normal / champion 25841 88 / world-cup-heroes 27848 87).
+- **"Classic Gallagher" 5866 = a NAME ECHO of the DROICER leak** ("Conor Gallagher and Peter Robinson", possibly DLS 27 Kick-Off Stars) — but it is Ireland-flagged (like Keane/Irwin) and secret-class: **do NOT conflate with Conor Gallagher**; recorded as a curiosity (G-0063).
+- Cross-class mapping confirmed: Dickison is /players/normal/ on sakibpro but Secret-class on dreamkitsapp — the "hidden class" spans database families.
+
+## Addendum (turn 43): secret-class internals — Bergkamp 91, the Messi twins, and the leak-name set (S-0185..S-0190)
+**Four secret per-card sheets (dreamkitsapp internals; display = floor(÷10)):**
+| Record | Pos/OVR/Id | Internals (SPE/ACC/STA/STR/CON/PAS/SHO/TAC + GKR/GKH) | Display | Body/foot/DOB | Notes |
+|---|---|---|---|---|---|
+| Classic Bergkamp | CF/AM **91** 5604 | 891/913/857/808/940/856/940/667 + 155/126 | 89/91/85/80/94/85/94/66 | 182/80, Right, — | +6 over every released Bergkamp (83/85/85) |
+| Young Messi | SS/RW 84 24594 | 749/879/713/660/954/919/913/490 + 143/122 | 74/87/71/66/95/91/91/49 | 170/72, Left, **1987-06-24 (real)** | First name "Young"; CON 95 |
+| Legendary Messi | SS/RW 84 24599 | 749/879/713/660/954/919/913/490 + **144**/122 | same | same | First name "Legendary"; identical twin of 24594 (only GKR + cleats differ) |
+| Classic Gallagher | CM/AM 82 5866 | 735/803/719/724/869/793/712/795 + **0**/29 | 73/80/71/72/86/79/71/79 | 182/80, Right, — | GKR zeroed (generated tell); DLS25 Rep. Ireland CM; NO Other-versions rail |
+**THE MESSI WEB (now 6+ records):** Lionel Messi **182** (83, base legacy id, team t205 = Argentina) · Young Messi 24594 (84, secret) · Legendary Messi 24599 (84, secret twin) · Lionel Messi **25841** (88, champion) · Lionel Messi **25847** (84 — NEW ID, family TBD) · Lionel Messi 27848 (87, world-cup-heroes).
+**Secret map pages 2-3 (records 16-45):** the catalogued "normal echoes" **Classic Souness 5826 (82) / Classic Zola 12102 (78) / Classic Valderrama 12090 (72) are SECRET-class on dreamkitsapp** (cross-class mapping, like Dickison). **"Classic Robinson" 5833 (76, CF/AM, IRL)** = the SECOND DROICER leak-name echo. Filler stock = generated names with odd flags and generated CLUB teams (**Ferrara t555** ×5, V Arnhem t317, Belem t528, Brescia t267, Montenegro t395), mixed with occasional real-player names (Kagisho Mphela, Kamohelo Dolly).
+**THE LEAK-NAME SET (G-0063 correlation):** all four DROICER-leaked names now have secret "Classic X" records in the 58xx block — **Classic Keane 5842 (87)** ↔ "Roy Keane" · **Classic Irwin 5839 (85)** ↔ "Irvin 85" (EXACT rating match) · **Classic Gallagher 5866 (82)** ↔ "Conor Gallagher" · **Classic Robinson 5833 (76)** ↔ "Peter Robinson". Hypothesis (OPEN): FTG stages future-release cards as hidden secret records; the leaked ladder/Kick-Off names correspond to these records. Caveats: Irwin already ships via the Classic Agent on sakibpro (not future), and the leak placed Gallagher/Robinson possibly in DLS 27 Kick-Off Stars — so the mapping may be name-only. Recorded as correlation, not conclusion.
+
+## Addendum (turn 44): Messi web COMPLETE + champion-family theme (S-0191/0192)
+| Record | Family | Pos/OVR/Id | Internals (SPE/ACC/STA/STR/CON/PAS/SHO/TAC + GKR/GKH) | Display | Notes |
+|---|---|---|---|---|---|
+| Lionel Messi 182 | base/legacy | SS/RW/AM 83 | 729/829/749/669/959/909/919/419 + 143/122 | 72/82/74/66/95/90/91/41 | DUAL TEAM: Argentina t205 (#10) + South American Allstars t514 (#10); DLS25+26 career rows |
+| Young Messi 24594 | secret | SS/RW 84 | 749/879/713/660/954/919/913/490 + 143/122 | 74/87/71/66/95/91/91/49 | First name "Young" |
+| Legendary Messi 24599 | secret | SS/RW 84 | identical twin (GKR 144) | same | First name "Legendary" |
+| Lionel Messi 25841 | champion | CF/RW 88 | — | — | (earlier rail data) |
+| Lionel Messi 25847 | champion ("2008 vintage") | RW/SS 84 | 910/940/770/600/940/870/890/350 + 230/177 | 91/94/77/60/94/87/89/35 | prose: "CHAMPIONS collection... peak of their careers... historic season in 2008" |
+| Lionel Messi 27848 | world-cup-heroes | SS/RW/AM 87 | — | — | (earlier rail data) |
+**Champion family = CAREER-VINTAGE cards** ("immortalizing footballers at the very peak of their careers" — 25847 themed 2008 at age 21). MULTIPLE champion cards per star exist: Messi ×2 (88 + 84) and C.Ronaldo ×2 (25842 88 + 25849 82). The 84-vs-88 spread = different vintages, not a rating drift. "South American Allstars" t514 is a real in-game all-star team (dual-roster records exist: base Messi plays for BOTH Argentina and the Allstars).
+
+## Addendum (turn 45): leak-name set = 4/4 IRELAND; secret filler page 4; generated teams = alias real clubs (S-0195..0197)
+- **Classic Robinson 5833:** CF/AM 7686 (76), **Ireland**, Right, 182/81; internals 833/865/562/613/883/474/782/459 + 119/64 (display 83/86/56/61/88/47/78/45); DLS25 Rep. Ireland t229 CF. Identity NOT claimed.
+- **PATTERN UPGRADE (G-0063):** ALL FOUR leak-name records are Ireland-flagged "Classic X" with DLS25 Rep. Ireland career rows — Keane 5842 (CM/DM 87, Roy-Keane-shaped) · Irwin 5839 (LB 85, leak "Irvin 85" exact) · Gallagher 5866 (CM/AM 82) · Robinson 5833 (CF/AM 76). Hypothesis upgraded: the 58xx block may hold an **Ireland classic/legends batch** (staging-ground hypothesis stands; identities open — no famous Irish "Gallagher/Robinson" footballer obvious).
+- **Secret filler page 4 (records 46-60, S-0196):** slope 67→65; generated names + wild flag scrambles (Gouramangi Singh → KAZAKHSTAN; N'Tamba → Angola; Chidi Njitap → NED) + teams: t258 free-agents, **Allstar XI t504**, alias clubs, even a national team (Côte d'Ivoire t218) as club affiliation. **Cross-listing proved: Felipe Renteira 26056 sits on BOTH the secret map and Ferrara's roster** — generated-club squads ARE the secret-class filler.
+- **GENERATED TEAMS RESOLVED (S-0197): "Ferrara" = SPAL** (page title "Ferrara (SPAL)"; real Italian club under its city name; 4-4-2, 16 players, 5-star). V Arnhem = Vitesse Arnhem; Belem likely Belenenses. Rosters = real-player-name mixers with scrambled nationality/position (Hancko 63 CF = real Slovak LB; Linganzi 72 GK = real midfielder). **These are unlicensed-club ALIASES, not invented clubs.**
+
+## Addendum (turn 46): THE LEAK TEXT — named identities; ghost slot 25848; Colombian Suarez (S-0199..0202)
+- **FULL LEAK TEXT (S-0199, TikTok @DROICER via Evans DLS repost 2026-09-14):** "These are the upcoming players in the DLS Prize Ladder. For **Roy Keane**, his rating and year have not been revealed yet. **Irvin's rating is 85**, but his year has also not been revealed. There are still other Classic players, such as **Conor Gallagher** and **Peter Robinson**. I think these two players could potentially appear on the DLS 27 cover, with FTG possibly releasing their cards as the **DLS 27 Kick-Off Stars**. However... there are also new cards for **Ronaldo and Raphinha**."
+- **Identity mapping (leak names -> secret "Classic X" records):** Roy Keane -> Keane 5842 (CM/DM 87; Roy-Keane profile) **HIGH confidence** · Irvin -> Irwin 5839 (LB 85 = leak rating EXACT) **HIGH** · Conor Gallagher -> Gallagher 5866 (CM/AM 82 = his level; note: active DLS26 Tottenham player, midseason -1 per Feb-2026 megathread) **HIGH-MEDIUM** · Peter Robinson -> Robinson 5833 (CF/AM 76; "Peter Robinson" = no prominent footballer found — identity beyond the leak name OPEN) **MEDIUM**.
+- **Staging hypothesis STRENGTHENED:** the leak says these are "upcoming players in the DLS Prize Ladder" (+ possible DLS27 Kick-Off Stars) — exactly matching the hidden-record-staging hypothesis. Counter-read: TikTok leaker reliability is unverified; "Ronaldo and Raphinha" cover cards mentioned (DLS27 speculation).
+- **Ireland-flag mystery (all 4 records IRL-flagged despite Gallagher being English):** placeholder default vs genuinely Irish records — OPEN curiosity.
+- **Ghost slot 25848 (S-0201):** nameless, weight 0, DOB 1970-01-01, ALL STATS ZERO, no career rows, **V13110 rating = 83** — a wiped/placeholder secret shell that once carried 83. Ghost-slot pattern recorded.
+- **17858 = Colombian Luis Suarez (S-0202):** CF 7888 (78), Colombia, DOB 1997-12-02; internals 847/800/787/767/764/727/857/316 + 127/127. **Rating history V12250=72 -> V13130=77 -> V13430=78** = first clean multi-build growth datapoint. Career: S Lisbon t342 (DLS26) + Almeria t102 (DLS25) + Colombia t223. Variant: 27835 (83, t258). NOT a secret record.
+
+## Addendum (turn 47): Robinson identity conflict (Peter vs Michael) (S-0203)
+- Leak name "Peter Robinson" has NO prominent footballer match (Wikipedia: Peter Robinson b.1957 = English CB; b.1922 = English wing half — neither fits the record).
+- **Best profile fit = Michael Robinson (1958-2020):** Leicester-born, **Ireland international (24 caps, 4 goals), striker** (Preston, Man City, Brighton, **Liverpool 1983-84 treble**, QPR, Osasuna), later famous Spanish TV commentator ("El día después"). The secret record (Ireland, CF/AM 76) matches his profile exactly.
+- **CONFLICT UNRESOLVED:** name-fit (Peter, from the TikTok leak) vs profile-fit (Michael). Readings: (a) TikTok name garbled; (b) an unknown Peter Robinson exists; (c) record is a placeholder. Identity OPEN — leaning Michael on profile, Peter on name; both recorded. Resolution needs an authoritative card name (datamine or ladder capture).
+
+## Addendum (turn 49): secret map FLOOR + structure complete (S-0209)
+Page 18/18 (the floor): 15 entries sloping 48 -> 35 (Maor Tukar, Qatar CM/DM = the lowest record). Real-name mixers persist at the floor (Lindpere, Jodlowiec, Dikgacoi, Masato Abe id 884). **Secret map structure COMPLETE:** 18 pages x ~15 records, descending OVR sort, floor 35; pages 1-5 + 18 sampled; shape uniform (generated names + flag scrambles + alias-club rosters + national-team-as-club + occasional real-name mixers). Pages 6-17 = filler sampling only.
+
+## Addendum (turn 50): Robinson second pass — zero DLS-card evidence (S-0214)
+No web evidence ties EITHER name (Peter/Michael Robinson) to a DLS classic card. Michael Robinson fully documented (Michael John Robinson, b. 1958-07-12, striker, Liverpool 1983-85 treble season, Ireland 24/4, Osasuna, Spanish TV icon). The conflict reading note: the leak's internal list would distinguish P. vs M. Robinson by one letter — treat both as live; resolution needs datamine or ladder capture.
+
+## Addendum (turn 52): the C.Ronaldo web (S-0220)
+sakibpro's 82 CF cell exposed TWO C.Ronaldo records: **25851** and **382** (both 82 CF). C.Ronaldo web now: 382 (base/legacy 82 CF) + 25842 (champion 88) + 25849 (82) + 25851 (82) — champion-block vintages parallel the Messi web (25841 88 / 25847 84); two 82-rated champion ids (25849 + 25851) = distinct vintage or duplicate — unresolved. Also at 82 CF: Thuram 15672, Gyokeres 18877 (normal records with market prices).
+
+## Addendum (turn 56): C.Ronaldo web COMPLETE (6 records) (S-0234)
+| Record | Family | Pos/OVR | Notes |
+|---|---|---|---|
+| Cristiano Ronaldo 382 | base/legacy | CF/LW 82 | Portugal t207 |
+| Cristiano Ronaldo 25842 | champion | LW/CF 88 | t258 |
+| Cristiano Ronaldo 25849 | secret? (twin) | RM/RW 82 | t258; twin pair with 25850 |
+| Cristiano Ronaldo 25850 | secret? (twin) | RW/RM 82 | t258; position-swap twin |
+| Cristiano Ronaldo 25851 | **secret** | CF/LW 82 | REAL NAME in secret class; Foot "Both / Right" artifact; internals 779/749/780/839/839/789/939/419 + 258/201 |
+| Cristiano Ronaldo 27841 | world-cup-heroes | CF/LW 87 | t258 |
+The twin-pair shape (25849/25850) is the same tell as the secret Messi twins (24594/24599). Every era block carries champion + secret variants of the big two names. The 25849-vs-25851 question RESOLVED: distinct records (RM/RW twin vs secret CF/LW).
+
+## Addendum (turn 57): classic-player lineage + roster landscape (S-0238)
+- **"Classic Players RETURN: Icons making a comeback with updated cards"** = the DLS26 launch framing (classic players were REMOVED after DLS15; DLS26 = the return). Classic class lineage: DLS15 lists (Roy Keane among icons) + DLS-Classic 90s Allstars (Keane 91 MC; purchasable from Man U 1999) — the leak's Keane is a canonical FTG classic name; Keane+Irwin = the Irish anchors (Ireland-flag mystery OPEN, no enumeration found this turn).
+- **Feb-2026 community top table (pre-launch estimates; era-tainted but mostly consistent with market-verified data):** Dembélé/Mbappé/Kane/Haaland 86 CF, van Dijk 85 CB, Raphinha 85 LW, Salah 85 RW, Pedri 85 AM (position variance vs verified 85CM), Donnarumma 85 GK. Corroborates the 86-CF/85-multi-tier landscape of the tier grid.
+
+## Addendum (turn 58): de Gea Cult Heroes + Rivaldo Classic ids + fe.pak datamine route (S-0239/0240)
+- **David de Gea:** TWO records confirmed — base 79 GK (dlsgame.net index, Dec-2025) + **CULT HEROES 28324 (85 GK, Reactions 85/Handling 80, DOB 1990-11-07, Dorsal 1)** — the Cult Heroes roster's goalkeeper, page stamped Sept-16 = launch day. (Cult Heroes count still 12/12 recorded earlier; de Gea the GK slot.)
+- **Rivaldo (Classic) 26843:** 86 AM/SS, Brazil, Control 91/Passing 87/Stamina 79, DOB 1972-04-19, Dorsal 10. **CRITICAL: the 268xx block = the Classic batch** (26841 = hidden ES GK placeholder, 26842 unknown, 26843 = Rivaldo) — G-0086's record sits INSIDE the released Classic batch as a staging slot.
+- **dlsgame.net player index (Dec-2025)** = name+rating census corroboration (Unai Simón 82 GK, Sommer 82, Cucurella 80 LB, Cancelo 80 RB, Grealish 79 RW, Morgan Rogers 79 AM, "Antony Griezmann" 82 SS = generated-name artifact sample).
+- **fe.pak = the game's data file** (reddit Dec-2024: classic players data-mined from "fe.pak" in DLS25) — THE datamine route for G-0086 identity + G-0082/83 coefficients (Q-027 lead).
+
+## Addendum (turn 59): ROSTER-UPDATE HAUL — Cult Heroes 12 named + ladder-four IDs + batch-ID law (S-0242/0243)
+**12-FAMILY TAXONOMY (sakibpro.com filter bar — authoritative third-party enumeration):** Normal, Season Pass, Cult Heroes, Champion, World Winners, Dreamstar 25, Dreamstar 26, World Cup Heroes, Classic, Team 2025, Kickoff, Dynamic Star. (Adds to my 10-family taxonomy: World Winners = Jul-2026 event family; Dreamstar has TWO waves; Team 2025 distinct.)
+**CULT HEROES ROSTER (12, with IDs):** de Gea 28324 (GK 85 192cm) · David Luiz 28325 (CB 84 189cm) · Blind 28326 (CB 83 180cm) · **Alarcón 28327 (AM 84 176cm = ISCO — the G-0041 player!)** · Insigne 28328 (LW 84 163cm) · Herrera 28329 (CM 83 182cm) · Shaqiri 28330 (AM 83 169cm) · Aubameyang 28331 (CF 85 187cm, 37y) · Ziyech 28332 (RW 84 180cm) · Dybala 28333 (SS 85 177cm) · Otamendi 28334 (CB 84 183cm) · Évora Dias 28658 (GK 83 189cm, Cape Verde).
+**LADDER-FOUR IDs (Classic family):** Essien **26838** (DM 85, 178cm) · Cole **27096** (CF 84, 178cm) · Petit **27203** (DM 84, 185cm) · Berbatov **27675** (CF 84, 189cm). Base-OVR profile = 85/84/84/84. **RECYCLING WITH ID PROOF:** recycled names get NEW records (new IDs/stats/art) = family-recomposition LAW confirmed at record level.
+**SEASON PASS:** João Pedro **28356** (CF 82, 25y, Brazil) = the current pass card.
+**BATCH-ID LAW:** family batches cluster ID ranges — Classic 268xx-276xx (26838 Essien, 26841 hidden ES GK, 26843 Rivaldo, 27096 Cole, 27203 Petit, 27675 Berbatov) · Cult Heroes 28324-28334 + 28658 · Season Pass 28356 · WC-heroes 278xx. IDs = family provenance!
+**Community dump schema (theshinramen/DLS-Files, GitHub):** data/playerData.json = the datamine-shaped format (DLS23-era stale; newer forks/Discord ecosystem for DLS26). sakibpro.com = separate domain from sakib.pro (same brand); /players/{card-type}/{slug}/{id}/ URL pattern; list = JS-layer (AJAX).
+
+## Addendum (turn 60): Robinson identity resolution + version timeline + generated-club rosters (S-0244..0246)
+- **Peter Robinson (1935-2022) = Liverpool FC's club secretary/CEO (1965-2000) — NOT A PLAYER** (BBC: "may not have worn a red shirt"). The leak's "Peter Robinson" as a ladder PLAYER card is anomalous. Resolutions: (a) record 5833 "Robinson" = **Michael Robinson** (English-born Irish striker, Liverpool/Brighton, Spanish TV legend, d. 2020 — Ireland caps = the Ireland-flag thread); (b) leak name garbled; (c) an unverified lower-league Peter Robinson. The **Irish trio Keane (IE) / Irwin (IE) / (Michael) Robinson (IE)** explains 3 of the 4 Ireland-flagged records; Gallagher = English (active player — staging-set name oddity), 4th Irish record unidentified. Resolve via datamine of record 5833.
+- **VERSION TIMELINE (dlsinside):** current **V13420 (code 159, last update 2026-09-01)**; prior V13410(158) / V13350(154) / V13340(153) / V13330(152) / V13310(150) / V13300(149) / V13130(148).
+- **Generated-club rosters (dlsinside list):** FIRST TOUCH UTD + DREAM FC carry generated players ("Andy Dunn", "Phil Woodovic", "Charles Chapman"... "NOT AVAILABLE") — the generated-teams family sample; real players with "NO TEAM" + "DYNAMIC AGENT" status (Nico Williams, de Paul) = the Dynamic Agent pool marked unassigned until signed.
+- **Cult Heroes family = WAVES** (fifaworldcupnews July-2026: "Cult Heroes tweaks — upgrades for João Pedro, Fermín López, Jordan Pickford; downgrades ter Stegen, Pedro Gonçalves, Dani Vivian") — 6 names beyond the Sept-12 (which included João Pedro 28356 as Season Pass — he spans two families/waves!). The "12/12" earlier = one wave's roster.
+
+## Addendum (turn 61): community recipe corroborated + OCR tool + secret candidate roster (S-0247/0248)
+- **The secret-identification recipe has community twins:** reddit (Dec-2025) runs exactly the recorded method — "use the crossed-out price of the secret players"; the thread's worked example **"2555 -> reduction ~200 -> 2355 = 85 midfielder (Vitinha, Bruno etc.)"** matches the verified 85CM cell (2,555v) EXACTLY, and the "84 Att?" answer **"Alvarez, Lautaro, Saka, Luis Diaz, Kvara"** = the 84CF candidate set (2,610v) — price -> (OVR, tier) -> candidate set is community-standard practice.
+- **OCR tool (CokeStudios gist, fetchable):** dls25_player_data.py — EasyOCR + PIL grid cropper (iPad 2048x1536, 3x3 cards; crop boxes for name/8 stats/OVR/height/foot/price/position) + external club-lookup scrape + Excel output. Attach to the market-screen ask (DLS26 device coords to update).
+- **Secret candidate roster (kitdls, Feb-2025 = ERA-TAINTED DLS25 prices — names useful, numbers NOT):** 33 names: Salah, Kane, Mbappe, Vinicius, Haaland, KDB, Rodri, Son, Bellingham, Griezmann, Foden, Leao, Valverde, Martinez, Messi, Odegaard, Kvara, Dybala, Alvarez, Dembele, Bruno, Rice, Raphinha, Isak, Modric, Bernardo Silva, Gundogan, De Jong, Openda, Barella, Coman, Gyokeres, Luis Diaz. The old discount was 130 (2200->2070, 2020) vs ~200 now (S-0248).
+
+## Addendum (turn 62): THE FAMILY REGISTRY + Classic Keane confirmed + version advance (S-0249..0251)
+**dlsinside family counts (the taxonomy census):** Cult Heroes **12** · World Cup Champions **8** · World Cup Heroes **8** · Dynamic Stars **40** · Team Of 2025 **11** · Kickoff Stars **2** · Champion **12** · Star Players **23** · Classic **32** · Hidden **270** · Exclusives **7,388**. Totals: 14,435 players / 263 teams / **255 stadiums** (the stadium catalog = 255!). Cross-checks: Cult Heroes 12 = sakibpro roster ✓; Kickoff Stars 2 = Raphinha+Alvarez ✓; Dynamic Stars 40 = the event pool (maxed = 96 OVR).
+**VERSION TIMELINE ADVANCE:** V13430 (code 160) since **2026-09-16** (the Cult Heroes/English-League-Classics release) — supersedes V13420(159, Sept-1). Family URLs: /players/specials/{family} + /players/hidden + /players/exclusives.
+**Classic Keane 5842 CONFIRMED in data (dlsinside per-record page):** CM/DM, **87 OVR**, 182cm, Foot Right, Age -, Status Active, **NATIONALITY IRELAND (flag confirmed)**, Passing 87 — the staged leak-set record is real; the "Classic X" staging set = Hidden-family records (the family's "unobtainable dev record" prose is dlsinside boilerplate — their own "evolution" fields show DREAM POINTS acquisition routes, matching the ladder economy).
+**Route science:** dlsinside per-record pages (/player/{slug}/{id}) are server-rendered (probe route works); family lists are JS-layer. fe.pak folder `classic_players` (DLS25 v12.030) art decoded by community: Bergkamp, Batistuta, Matthaus, Gascoigne, (Bruce?), Souness, Petit, Cole, Bergkamp2, Adams, (Zola?), Crespo, Suker, ?, Mendieta, Chiellini — Petit+Cole were staged since DLS25 (recycling depth). Ireland-legend candidate pool for the 4th Ireland record: Robbie Keane, Duff, Given, McGrath, Quinn, Brady, Bonner, Houghton, Aldridge, Whelan, Sheedy.
+
+## Addendum (turn 63): the staged leak set FULLY PROBED (4/4 Ireland flags) (S-0252)
+| Record | Pos | OVR | Foot | Height | Flag | Notable stat | Identity |
+|---|---|---|---|---|---|---|---|
+| Classic Keane 5842 | CM/DM | 87 | Right | 182* | IE | Passing 87 | Roy Keane ✓ |
+| Classic Irwin 5839 | LB/RB | 85 | **Left** | 182* | IE | Tackling 92 | Denis Irwin ✓ (leak "Irvin 85" = EXACT) |
+| Classic Robinson 5833 | CF/AM | 76 | Right | 182* | IE | Shooting 78 | Michael Robinson (striker profile; leak "Peter" = garble) |
+| Classic Gallagher 5866 | CM/AM | 82 | Right | 182* | IE(!) | Passing 79 | UNKNOWN Gallagher (nationality oddity) |
+* = staging default (all four share 182cm + blank age; Bergkamp 5604 also DOB 1900-01-01). Foot/positions/ratings/stats are REAL-profile fields (Irwin left-footed LB/RB = biographically exact).
+**The 4/4 Ireland-flag mystery = the staged set itself** — all four leak-set records carry the same Ireland flag image. Readings: (a) the set is themed around Irish classics (Keane/Irwin/(M.)Robinson genuine + an Irish "Gallagher" unidentified); (b) the flag is a set-wide staging default (Gallagher = Conor Gallagher would be English); (c) leak-name "Conor Gallagher" is an alias/garble. Ratings ladder: 87/85/82/76 — the leak's "85" figure sits on Irwin exactly.
+
+## Addendum (turn 74): full eight-stat blocks for five new special cards (S-0274)
+Published by sakibpro's "DLS 26 New Update" page (20 Aug 2026). **ERA: DLS26, single source.**
+| Card | OVR | SPE | ACC | STA | STR | CON | PAS | SHO | TAC |
+|---|---|---|---|---|---|---|---|---|---|
+| David Luiz (CB, 2017, Cult Heroes) | 84 | 78.9 | 74.9 | 82.9 | 85.9 | 80.0 | 80.0 | 67.0 | 89.9 |
+| Emmanuel Petit (DM, 1999, Classic) | 84 | 79 | 77 | 90 | 84 | 81 | 82 | 72 | 85 |
+| Andy Cole (CF, 1994, Classic) | 84 | 88 | 88 | 85 | 80 | 83 | 79 | 92 | **30** |
+| Michael Essien (DM, 2006, Classic) | 84 | 77 | 78 | 91 | 82 | 81 | 83 | 75 | 86 |
+| Dimitar Berbatov (CF, 2011, Classic) | 84 | 79 | 78 | 76 | 85 | 91 | 85 | 92 | **39** |
+**Two oddities worth carrying forward.** First, **David Luiz's block carries one decimal place (78.9, 74.9, 82.9, 85.9, 89.9) while every Classic card is a whole number** — which suggests the Cult Heroes block was computed or scaled by a different path than the Classic one, and it is the first non-integer stat set recorded anywhere in this project. Second, **Essien is rated 84 on this page but 85 on sakibpro's own trending page (S-0256)** — one operator contradicting itself, which matters because self-contradiction inside a single source is a stronger reason for caution than disagreement between two sources.
+The two very low Tackling values on the strikers (Cole 30, Berbatov 39) are consistent with attacker stat templates and are useful for the coaching work: they are the stats with the most headroom.
+
+## Addendum (turn 75): the Version field cannot date anything — and special cards have no price (S-0275)
+**NEGATIVE RESULT, and it closes a route.** I hoped dlsinside's "Version 160-13430" stamp on each player page would date when a card was added. It does not. Every page I have fetched this session — roughly thirty-five of them, from Kane to Lewandowski to Barella — carries the identical value. It is a **global current-data stamp, not per-record provenance**. The dating route via this field is closed and should not be retried.
+**What it does give is an upper bound.** All six members of the 17-player roster I probed are present in the current build, **V13430 / code 160, which the dlsinside homepage dates to 2026-09-16**. So the roster was added **on or before** that version, and all of them are confirmed live in the current game rather than leaked, upcoming or removed. That is a weaker claim than a date, and it is worth having: the 17 are not speculation, they are in the shipped build. **The roster still has no confirmed introduction date.**
+**POSITIVE RESULT — special cards carry no coin price.** None of the six shows the "card has a value of N coins" line that appears on every normal player page. Instead they read "this special card has a rating of X" with a stats block and no price at all. That holds across three distinct families (Classic, Cult Heroes, Season Pass), so it is a property of the special-card class rather than of one family. It fits the picture of these cards as event and ladder rewards rather than transfer-market purchases, and it means **the price grid built over turns 65-73 applies only to normal cards.**
+**Probed cards:** Essien (Classic) 85 DM/CM, 178cm/43, **Retired**, Ghana, Passing 83 / Control 81 / Stamina 91 (evolution "- CM") · de Gea (Cult Heroes) 85 GK, 192cm/35, Active, Spain, GK Reactions 85 / GK Handling 80 / Passing 60 (evolution "- 43 - GK") · Cole (Classic) 84 CF, 178cm/54, **Retired**, England, Shooting 92 / Speed 88 / Acceleration 88 (evolution "- LW - 9") · Dybala (Cult Heroes) 85 SS/RW, 177cm/32, **Left**, Active, Argentina, Shooting 90 / Speed 81 / Acceleration 90 (evolution -21) · Joao Pedro (Season Pass) 82 CF/SS/AM, 182cm/25, Active, Brazil, Shooting 87 / Speed 83 / Acceleration 83 (evolution -20) · Petit (Classic) 85 DM/CM, 185cm/56, **Retired**, France, **Left**, Passing 82 / Control 81 / Stamina 90 (evolution "- DM - 17").
+**Rating contradictions updated.** **Essien is 85** — this resolves the sakibpro self-contradiction from turn 74 in favour of its own trending page and against its New Update page. **A new one opened: Petit is 85 on dlsinside but 84 on sakibpro's New Update page.** Classic cards carry Retired status (Essien, Cole, Petit); Cult Heroes and Season Pass cards are Active.
+
+## Addendum (turn 76): the no-price rule holds across six families — and two family assignments were wrong (S-0276)
+**The rule is a class property.** Four more probes, four more special cards with **no coin price at all** — the page gives a rating and a stats block and stops:
+| Card | Family | OVR | Positions | Price line? |
+|---|---|---|---|---|
+| Cristiano Ronaldo (27841) | World Cup Heroes | 87 | CF/LW | **none** |
+| Lamine Yamal (27845) | World Cup Champions | 87 | RW/LW | **none** |
+| Nico Williams (27509) | Dynamic Stars | **96** | LW/LM | **none** |
+| Paul Pogba (27846) | World Cup Champions | 87 | CM/DM | **none** |
+Added to turn 75's Classic, Cult Heroes and Season Pass results, **the rule now holds for six of the eleven families with no counter-example in the sample.** Untested: Kickoff Stars, Team of 2025, Champion, Star and Exclusives — so it is recorded as *confirmed for six*, not as universal.
+**FAMILY CORRECTION — the KB had two cards in the wrong family.** Lamine Yamal 27845 and Paul Pogba 27846 are both **World Cup Champions**, not World Cup Heroes as previously recorded. The consequence matters for the batch-id law: **the 278xx range contains both World Cup families interleaved**, so an id alone cannot tell them apart inside that range. The law still holds for gross family separation (Classic 268xx-276xx, Cult Heroes 283xx) but not for the two World Cup families.
+**Nico Williams confirms the Dynamic Stars ceiling: 96 OVR with Shooting 100, Speed 100 and Acceleration 100** — matching the earlier note that 27509 is the 2026 Dynamic Star ceiling card, now verified on a second operator.
+**Evolution markers** on special cards appear as short tokens mixing numbers and positions — Ronaldo "- 7 - 7 - 7 - RW - CF", Yamal "- 10 - 10", Nico Williams "- 10", Pogba "- 8". Ronaldo's is the informative one because it mixes both kinds, which suggests the tokens record upgrade steps alongside alternative positions. Still not interpretable.
+
+## Addendum (turn 77): six more roster cards, including Isco (S-0278)
+All six are Version 160-13430 and **none carries a coin price**, extending the no-price rule.
+| Card | ID | Family | OVR | Pos | Age | Foot | Key stats |
+|---|---|---|---|---|---|---|---|
+| Francisco Alarcon (**Isco**) | 28327 | Cult Heroes | 84 | AM/CM | 34 | Right | Passing 88 / **Control 93** / Stamina 79 |
+| P-E Aubameyang | 28331 | Cult Heroes | 85 | CF/RW | 37 | Right | Shooting 94 / Speed 93 / Acceleration 92 (evolution -97) |
+| Lorenzo Insigne | 28328 | Cult Heroes | 84 | LW/RW | 35 | Right | Shooting 87 / Speed 90 / **Acceleration 94** (evolution "- LW") |
+| Hakim Ziyech | 28332 | Cult Heroes | 84 | RW/AM | 33 | **Left** | Shooting 83 / Speed 83 / Acceleration 85 (evolution "- RW") |
+| Nicolas Otamendi | 28334 | Cult Heroes | 84 | CB | 38 | Right | Tackling 93 / Strength 89 / Speed 75 (evolution -30) |
+| Dimitar Berbatov | 27675 | Classic | **85** | CF | 45 | Right | Shooting 92 / Speed 79 / Acceleration 78 (evolution -9) |
+**Isco answered.** Francisco Alarcon 28327 is the Cult Heroes card for Isco: 84-rated AM/CM with Control 93 and Passing 88, right-footed, 176cm. This is the card behind the user's question Q-016.
+**NEW CONTRADICTION: Berbatov is 85 on dlsinside but 84 on sakibpro's trending page.** The one-rung drift now demonstrably reaches the Classic family, not just normal cards — the running list of drifted players is Rice, Rabiot, Ruben Dias, E. Martinez, Courtois, Bellingham, Rudiger, Essien, Petit and Berbatov.
+**Roster verification: 12 of the 17 are now confirmed present in V13430** (code 160). The five still unprobed are Luiz 28325, Blind 28326, Herrera 28329, Shaqiri 28330 and Evora Dias 28658.
+
+## Addendum (turn 78): roster verification 17/17 COMPLETE + three family rosters enumerated (S-0279..S-0303)
+
+**ROSTER VERIFICATION IS COMPLETE — 17 of 17.** The five remaining probes all landed, all Cult Heroes, all **Version 160-13430**, none carrying a price:
+
+| Player | ID | Rating | Positions | Foot | H/Age | Top stats |
+|---|---|---|---|---|---|---|
+| David Luiz | 28325 | 84 | CB/DM | Right | 189/39 | TAC 89 / STR 85 / SPE 78 |
+| Daley Blind | 28326 | 83 | CB/LB | **Left** | 180/36 | TAC 87 / STR 81 / SPE 75 |
+| Ander Herrera | 28329 | 83 | CM/DM | Right | 182/37 | PAS 86 / CON 86 / **STA 91** |
+| Xherdan Shaqiri | 28330 | 83 | AM/RW | **Left** | 169/34 | PAS 85 / CON 85 / STA 79 |
+| Vozinha (Évora Dias) | 28658 | **84** | GK | Right | 189/40 | GK Reactions 81 / GK Handling 81 / PAS 55 |
+
+**IDENTIFICATION — the "Évora Dias 28658" roster entry is VOZINHA**, Josimar José Évora Dias, the Cape Verde goalkeeper. dlsinside rates him **84** against the trending list's 83 — **rating-drift case #9**, and the second drift case inside a special family.
+
+**THREE FAMILY ROSTERS ENUMERATED (sakibpro family indexes, with IDs).**
+- **Kickoff = 2 cards:** Raphinha 27191 (LW 85, Brazil), J. Alvarez 27127 (CF 84, Argentina). Independently corroborates the recorded "Kick-Off Stars DLS26 wave = Raphinha + Alvarez" claim, now with IDs.
+- **Champion = 12 cards:** Messi 25841 (88), Ronaldo 25842 (88), Modrić 25837 (86), Di María 25845 (85), Kanté 26022 (85), Alexis 25844 (84), Messi 25847 (84), Vidal 25977 (84), Di María 25846 (83), Vardy 25836 (83), Balotelli 25835 (82), Ronaldo 25849 (82). Note **dlsinside calls this family "Champions"**, sakibpro "Champion" — same family, two names.
+- **Team of 2025 = 11 cards** (slug is **`team2025`**, not `team-2025` — that one returns zero records): Kane 27199 (87), Mbappé 27137 (87), O. Dembélé 27136 (87), Donnarumma 27128 (86), Hakimi 27129 (86), Lamine Yamal 27138 (86), M. Salah 27200 (86), Pedri 27133 (86), Gabriel 27131 (85), N. Mendes 27132 (85), Vitinha 27134 (85).
+
+**Pedri resolved.** 27133 is OFFICIAL **86**, not 87 — the standing 86-vs-87 discrepancy was an extraction error on my side, now settled. His normal record is 17763 (85).
+
+**One player, two special records, again.** Lamine Yamal 27138 (Team of 2025, 86) is a distinct record from Lamine Yamal 27845 (World Winners, 87). This is now a repeated pattern, not an anomaly.
+
+**Dynamic Stars mechanism (S-0299, rich prose).** 40 nations, one representative each at a fixed base 82; ratings climbed with the national team's tournament progression. Distributed via the **Dynamic Star Agent** through **Season Pass rewards, online events and Dream Draft pulls**. Spain beat Belgium (QF), France (SF) and Argentina 1-0 (final) — which is what carried Nico Williams 82→96. Explicitly **fixed and non-upgradable**. His sheet: SPE/ACC/CON/PAS/STA/SHO all **100**, STR 81, TAC 46, Total 727.
+
+**Pedri sidebar corroborates the turn-76 WC correction with a second operator:** sakibpro files Pogba 27846 under **`/players/world-winners/`**, a family distinct from `world-cup-heroes`. The two World Cup families are genuinely separate.
+
+**Source-hygiene note (S-0284):** dreamkitsapp now serves its imagery from `img.dlsinside.com`. The two sites are affiliated, so they cannot be treated as fully independent operators for corroboration purposes.
+
+## Addendum (turn 79): the taxonomy is EXHAUSTIVE; G-0086 answered as a nameless stub (S-0304..S-0320)
+
+**ALL ELEVEN SPECIAL FAMILIES NOW CARRY AN EXPLICIT AGENT ROW.** The acquisition-channel law is no longer a sample — it is a census. Every special family in the 12-family taxonomy has been read individually:
+
+| Family | Agent row | Size |
+|---|---|---|
+| Champion | **Champion Agent** | 12 |
+| Team of 2025 | **Team of 2025 Agent** | 11 |
+| Kickoff | **Kick Off Agent** | 2 |
+| Classic | **Classic Agent** | 32 |
+| Dynamic Star | **Dynamic Star Agent** | 40 |
+| Dream Star 26 | **Dream Star 26 Agent** | 12 |
+| Dream Star 25 | **Dream Star 25 Agent** | 11 |
+| World Cup Heroes | **World Cup Heroes Agent** | — |
+| Season Pass | **Season Pass Agent** | 1 |
+| Cult Heroes | **Cult Heroes Agent** | 12 |
+| World Winners | **World Winners Agent** | 8 |
+| *Normal* | *(no Agent — Transfer Market Price row)* | *14,232* |
+
+**Eleven of eleven. Only Normal is market-tradeable.** The no-price rule is now exhaustive across the taxonomy rather than "confirmed on N families with an untested remainder".
+
+**NEW ROSTERS.** Dream Star 26 = 12 (Anderson 27832, Ryerson 27828, Svilar 27827, Igor Thiago 27483, Yildiz 27481, de Arrascaeta 27482 all 84; Berg 27831, M. Sarr 27829, Suárez 27835, Tzolis 27834, Vušković 27830 all 83; El Karouani 27833 82). Dream Star 25 = 11 (McTominay 25987, Wood 25992, Álex Baena 25989 at 84; then eight at 83-82). Season Pass = **1**. World Winners = **8**.
+
+**World Winners composition encodes the tournament itself** — Spain 2026 (Lamine Yamal 27845, Rodri 27843, Cubarsí 27844, Cucurella 28188), Argentina 2022 (E. Martínez 27849, Enzo 27838), France 2018 (Pogba 27846, Pavard 27847). A neat structural detail: the family is a roll-call of the last three winning squads.
+
+**NEW MECHANIC — a pity system.** The Pogba page states the event's **Legendary Agent guarantees a featured World Winners card every 15 draws**. Note the inconsistency: the detail field says "World Winners Agent", the prose says "Legendary Agent".
+
+### G-0086 ANSWERED — 26841 is a nameless placeholder, not a hidden player
+
+This gap asked for the identity of record 26841. **There isn't one, and that is the answer.** Two independent operators agree on every material point:
+
+- **sakibpro:** blank name (the page title is just "Classic 2006"), generic slug `player`, Spain, GK, 180cm, **weight 0 kg**, Left foot, "OVR: **86** ✔️ OFFICIAL", **all eight stats = 0, Total 0**, no DOB/age field.
+- **dreamkitsapp:** blank Name / Last name / Nickname, Spain, Left, 180cm, **Weight 0kg**, **Birthdate Jan 01, 1970** (the Unix epoch — the classic database placeholder), Age 0, all ten stats zero, and an **empty** version/rating table. It classes the record as a **"secret player"**: *"created by the developers as test characters or hidden content, either completely invented or as experimental versions of real players."*
+
+**So 26841 is a developer test/stub record, not a mystery footballer.** Every name-based lookup was doomed because no source holds a name. The gap closes by recharacterisation.
+
+**Stubs are a class, not a one-off.** 26841's sidebar exposed a second nameless record using the same generic slug: **25848** (`/players/normal/player/25848/`, 4 OVR). This is the same phenomenon as the earlier staging artifacts (blank age, placeholder DOB) — an unfinished-record class inside the shipped database.
+
+### The 85-rated cohort, and why there is no 85 CF
+
+The normal index (14,232 records, 1,186 pages, OVR-descending) let me enumerate the whole 85 band. It is exactly **eleven players**: B. Fernandes AM, Donnarumma GK, Gabriel CB, Hakimi RB, Pedri CM, **Raphinha LW (×2 — duplicate records 15226 and 27135)**, Valverde CM, **Vini Jr LW**, Virgil CB, Vitinha CM.
+
+**No 85-rated CF exists.** The Forward column jumps 86 (Haaland, Kane, Mbappé, Dembélé) straight to 84 (J. Álvarez, Lautaro). Under the tier model (CF = SS = LW) the 85-Forward cell is only reachable via the two LWs — which is exactly how I finally reached it.
+
+## Addendum (turn 80): the two taxonomies reconciled; batch-id law fails in a third range (S-0321..S-0324)
+
+**THE TWO OPERATORS' TAXONOMIES RECONCILE, AND EIGHT COUNTS MATCH EXACTLY.** dlsinside runs an 11-family census, sakibpro a 12-family one. They are the same structure seen through different groupings:
+
+| dlsinside family | Count | sakibpro family | Count | Match |
+|---|---|---|---|---|
+| Cult Heroes | 12 | Cult Heroes | 12 | ✓ |
+| Champion | 12 | Champion | 12 | ✓ |
+| World Cup Champions | 8 | World Winners | 8 | ✓ |
+| World Cup Heroes | 8 | World Cup Heroes | 8 | ✓ |
+| Dynamic Stars | 40 | Dynamic Star | 40 | ✓ |
+| Team Of 2025 | 11 | Team 2025 | 11 | ✓ |
+| Kickoff Stars | 2 | Kickoff | 2 | ✓ |
+| **Star Players** | **23** | **Dream Star 25 + 26** | **11 + 12 = 23** | **✓ (decisive)** |
+| Classic | 32 | Classic | **34** | **✗ 2-record gap** |
+| Hidden | 270 | *(folded into Normal)* | — | — |
+| Exclusives | 7,388 | *(folded into Normal)* | — | — |
+| — | — | Season Pass | 1 | sakibpro-only |
+| Normal *(implied)* | ~6,629 | Normal | 14,232 | differ (folding) |
+
+**The decisive case is "Star Players 23".** That family has no counterpart in sakibpro's list, which looked like a gap — but Dream Star 25 (11) plus Dream Star 26 (12) is exactly 23. dlsinside lumps both Dream Star waves into one family and keeps Dynamic Stars separate (the 40-nation World Cup live-upgrade family). So the two taxonomies are consistent, just differently aggregated. That 40 also matches the documented one-representative-per-nation design for the 40 World Cup 2026 participants.
+
+**The one mismatch is Classic: 34 on sakibpro against 32 on dlsinside.** Unresolved — recorded as a live discrepancy rather than resolved by picking a side.
+
+**OPERATIONAL CAVEAT — index vs page for live-upgrade families.** sakibpro's family **index shows BASE ratings** (all 40 Dynamic Stars read 82, matching the documented base), while **individual pages show CURRENT live values** (Nico Williams 96, Barcola 91, de Paul 93, Fidalgo 87). For any live-upgrade family, never read an index rating as current.
+
+**Duplicate records are systematic in Classic, not a curiosity.** Page 1 alone yields Matthäus (24596 and 27201, both 86), Batistuta (24595 and 27204, both 85) and Bergkamp (25100 and 27202, both 85) — same player, two IDs, identical rating. The Classic family also contains the nameless stub **26841** confirmed last turn.
+
+**The batch-id law fails in a third range.** James Rodríguez **25839** is World Cup Heroes, while Messi **25841** and Ronaldo **25842** in the same 258xx block are Champion. Combined with the 278xx finding (both World Cup families interleaved), the law now holds only for gross separation (Classic 268xx–276xx, Cult Heroes 283xx) and must not be used to infer family from an id.
