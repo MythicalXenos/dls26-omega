@@ -41,4 +41,4 @@ Coverage grids, counters, and exhaustion status are derived from this ledger at 
 - Never edit archived KB snapshots or archived prompt versions. New evidence revises the live claim and appends a log entry.
 - At each turn boundary reconcile workspace and branch contents, derive frontier movement from the source ledger, update handoff atomically, check file/repo sizes, and preserve any divergence before resolving it.
 - Keep generated/cache files out of Git; raw external inputs are read-only and credential-scanned before commit.
-- This schema is not evidence of game mechanics. Initial substantive DLS26 research has not yet been recorded.
+- This schema is not evidence of game mechanics. Preliminary DLS26 storefront/help/search research is recorded in the ledger and source archive; it was run before the STATE_0 prompt-capture gate was satisfied. See `ISSUE-0004`; do not mark STATE_0 complete or treat the first research block as a completed/exhausted sweep.

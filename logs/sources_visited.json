@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
-  "last_reconciled_at": "2026-10-02T11:28:20Z",
+  "last_reconciled_at": "2026-10-02T11:48:07Z",
   "entries": [
     {
       "source_id": "ops-github-origin-probe-2026-10-02",
+      "event_type": "operational-fetch",
       "url": "https://github.com/MythicalXenos/dls26-omega.git",
       "domain": "github.com",
       "retrieved_at": "2026-10-02T11:28:20Z",
@@ -17,7 +18,1093 @@
       "deception_screen": "not applicable; operational repository probe",
       "conflicts": [],
       "kb_claims": [],
-      "discovered_not_yet_visited": []
+      "discovered_not_yet_visited": [],
+      "payload_path": "logs/sources_visited.json (result summary)",
+      "processing_status": "complete for the limited operational probe"
+    },
+    {
+      "source_id": "discovery-001-ftg-official-search",
+      "event_type": "discovery-search",
+      "query": "site:ftgames.com Dream League Soccer 2026 official update DLS 26 First Touch Games",
+      "retrieved_at": "2026-10-02T11:33:02Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Search returned five First Touch Games support results about updating DLS, player release, player statistics, Season Pass, and Dream Point Boosts. Search-result text only; each source page remains unvisited and unverified. The Dream Point Boosts search-result URL is returned with literal spaces, while the recorded hyphenated variant is unvisited; both candidate route forms are preserved for follow-up.",
+      "results": [
+        {
+          "title": "Why can't I update the app?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app",
+          "pageAge": "2021-01-20",
+          "snippet": "If you're having problems downloading the latest update or cannot see it on the store please follow the steps below. The result says to update DLS through the App Store and says to search DLS and select Update if needed."
+        },
+        {
+          "title": "Can I sell my players?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players",
+          "pageAge": "2025-06-05",
+          "snippet": "The result says the information applies from the latest DLS release (version 12200 onwards); it says players can be released in Manage Players on the Transfers screen for a coach and recently sold players appear in Recover for a limited time."
+        },
+        {
+          "title": "How do the various player stats in DLS affect gameplay?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay",
+          "pageAge": "2021-04-13",
+          "snippet": "Search output includes stat explanations for control, strength, passing, shooting and goalkeeper stats. This is a partial snippet, may be version-stale, and is not yet relied on."
+        },
+        {
+          "title": "What is the Season Pass?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
+          "pageAge": "2025-06-05",
+          "snippet": "Search output describes free and paid tiers and progression with Season Points; wording/version applicability is not yet verified from the page."
+        },
+        {
+          "title": "What are Dream Point Boosts?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream Point Boosts",
+          "pageAge": "2025-01-21",
+          "snippet": "Search output says Dream Point Boosts can be purchased in the Prize Ladder and apply to career, dream draft, scenario and DLL (multiplayer) matches but not exhibition/friend matches; unused boosts remain for a next ladder. The page and terminology still require verification."
+        }
+      ],
+      "deception_screen": "Not yet screened at source level; FTG support domain is a lead, not automatic evidence. Incentives and current applicability remain to be checked.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery results recorded; source pages unvisited",
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app",
+        "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players",
+        "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
+        "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts",
+        "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream Point Boosts"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial",
+      "url_normalization_note": "The exact returned result URL contains literal spaces in the slug. A hyphenated slug variant is also listed as a separately unvisited candidate; determine the valid/canonical route before treating either as visited."
+    },
+    {
+      "source_id": "discovery-002-support-save-and-transfer-search",
+      "event_type": "discovery-search",
+      "query": "Dream League Soccer 2026 Google Play First Touch Games latest version",
+      "retrieved_at": "2026-10-02T11:33:02Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Search returned FTG help-center save/profile transfer pages, including a current-looking DLS save-data-transfer result. Pages remain unvisited; the results include unrelated games and must not be conflated.",
+      "results": [
+        {
+          "title": "How is save data stored and transferred in DLS?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
+          "pageAge": "2024-12-06",
+          "snippet": "Search output says the player is limited to one DLS account; Manage Devices and Link Profile are under Options > Advanced; a code is generated on an old device, cannot be used on that same device, and device limits apply. One FTG result only; current text must be fetched and corroborated."
+        },
+        {
+          "title": "How do I backup/restore/transfer my save data?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+          "pageAge": "2024-05-15",
+          "snippet": "Search output discusses Google/Apple linking, recovery and cross-platform transfer. Version applicability and exact conditions are unverified."
+        },
+        {
+          "title": "How is save data stored and transferred in Score! Match?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/9600462672913-How-is-save-data-stored-and-transferred-in-Score-Match",
+          "pageAge": "2023-03-17",
+          "snippet": "Search result for a different FTG game; record as a lead only if connected to the DLS account/security question; do not apply its mechanics to DLS."
+        },
+        {
+          "title": "How is save data stored and transferred in Score! Hero?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero",
+          "pageAge": "2024-08-20",
+          "snippet": "Search result for a different FTG game; not evidence about DLS."
+        },
+        {
+          "title": "How is save data stored and transferred in Ultimate Clash Soccer?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/7949802512401-How-is-save-data-stored-and-transferred-in-Ultimate-Clash-Soccer",
+          "pageAge": "2024-05-15",
+          "snippet": "Search result for a different FTG game; not evidence about DLS."
+        }
+      ],
+      "deception_screen": "Not yet screened. FTG support is not automatically trusted; pages for other games are marked as such.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery results recorded; source pages unvisited",
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+        "https://support.ftgames.com/hc/en-us/articles/9600462672913-How-is-save-data-stored-and-transferred-in-Score-Match",
+        "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero",
+        "https://support.ftgames.com/hc/en-us/articles/7949802512401-How-is-save-data-stored-and-transferred-in-Ultimate-Clash-Soccer"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-003-current-version-third-party-search",
+      "event_type": "discovery-search",
+      "query": "site:support.ftgames.com Dream League Soccer Link Profile Manage Devices Generate Code",
+      "retrieved_at": "2026-10-02T11:33:02Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Search returned third-party DLS 26 update pages with 13.420 (Sep 1, 2026), newer 13.430 and one older 13.130 claim. Direct Apple U.S./Germany histories now display 13.420 dated Sep 1 and 13.430 dated Sep 16, so these Apple observations are successive rather than contradictory. Third-party source dates/origins and Android version remain unverified.",
+      "results": [
+        {
+          "title": "Dream League Soccer 2026 (DLS 26): Latest September Update, New Features & What’s Next",
+          "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+          "snippet": "Reports version 13.420, release date 2026-09-01, previous version 13.410, Cult Heroes and other feature claims; pageAge 2026-07-23 is inconsistent with the described September update and requires investigation."
+        },
+        {
+          "title": "Dream League Soccer 2026 (DLS 26): New Features, Update Breakdown",
+          "url": "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/",
+          "snippet": "Claims official feature/update details including 2025/26 data, divisions, player counts, languages, facility/event changes. Source and citations unverified."
+        },
+        {
+          "title": "Dream League Soccer 2026: Top-Rated Players, Major New Features & Upgrades",
+          "url": "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/",
+          "snippet": "Contains conflicting launch timing and version statements (including a future December 2026 claim and February 2026 date) and extensive precise feature claims; treat as low-trust lead pending screening."
+        },
+        {
+          "title": "Dream League Soccer 2026: Latest Updates & New Features - DLS KITS MOBI",
+          "url": "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/",
+          "snippet": "Claims DLS 26 update/features and Version 13.410/13.420-related details; incentive, origin, dates and evidence unverified."
+        },
+        {
+          "title": "TouchArcade — Dream League Soccer 2026",
+          "url": "https://toucharcade.com/games/dream-league-soccer-2026",
+          "snippet": "Lists an older updated date/version (March 27, 2026; 13.130) and general description, conflicting with later version reports; store metadata only and may be stale."
+        }
+      ],
+      "deception_screen": "Not yet fully screened. Observed warning signals include inconsistent dates, highly specific claims, and SEO/update content; incentives must be checked on the pages. No source is classified deceptive on this snippet alone.",
+      "conflicts": [
+        "Initial version mismatch (13.420 vs 13.430; one 13.130 result) is provisionally explained for the Apple history by dated successive entries: 13.420 Sep 1, 13.430 Sep 16. Third-party result dates/origins, the 13.130 lead, and Android/global current version remain unresolved."
+      ],
+      "kb_claims": [],
+      "processing_state": "discovery results recorded; source pages unvisited",
+      "discovered_not_yet_visited": [
+        "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+        "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/",
+        "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/",
+        "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/",
+        "https://toucharcade.com/games/dream-league-soccer-2026"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-004-gameplay-community-guides-search",
+      "event_type": "discovery-search",
+      "query": "Dream League Soccer 2026 update version 2026 release notes FTG",
+      "retrieved_at": "2026-10-02T11:33:02Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Search returned English-language guides on beginner progression, career mode, player development and formation advice, including recycled/older pages and claims requiring independent verification.",
+      "results": [
+        {
+          "title": "Dream League Soccer 2026 Beginners Guide and Tips",
+          "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+          "pageAge": "2026-01-21",
+          "snippet": "Claims starter roster ratings/resources, formations and progression advice; full source not read and no numbers are accepted as game facts."
+        },
+        {
+          "title": "Best Ways to Develop your Character in Dream League Soccer 2026",
+          "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-character-development-guide-en.html",
+          "pageAge": "2021-10-04",
+          "snippet": "DLS 2020 path in URL and old date despite 2026 title; claims about coaches, physios and facilities are likely stale or templated; investigate before use."
+        },
+        {
+          "title": "Dream League Soccer 2026 Beginner's Guide - Build the Best Squad",
+          "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-beginner-guide-en.html",
+          "pageAge": "2021-10-04",
+          "snippet": "DLS 2020 path and older date; claims about modes, currencies and club mechanics are not accepted without current verification."
+        },
+        {
+          "title": "Dream League Soccer 2026: The ultimate Career Mode Guide and Tips",
+          "url": "https://gamingonphone.com/guides/dream-league-soccer-2026-the-ultimate-career-mode-guide-and-tips/",
+          "pageAge": "2026-01-27",
+          "snippet": "Claims about scouts/agents, physios and facilities; needs full source screening and current verification."
+        },
+        {
+          "title": "Dream League Soccer 2026 Beginners Guide and Tips",
+          "url": "https://www.dreamleaguesoccerkits.com/2026/05/dream-league-soccer-2026-beginners.html",
+          "pageAge": "2026-05-01",
+          "snippet": "Claims rewards, progression and formations; source incentive and evidence unverified."
+        }
+      ],
+      "deception_screen": "Not yet screened; several pages have obvious age/path mismatch signals. No claim weighted.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery results recorded; source pages unvisited",
+      "discovered_not_yet_visited": [
+        "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+        "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-character-development-guide-en.html",
+        "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-beginner-guide-en.html",
+        "https://gamingonphone.com/guides/dream-league-soccer-2026-the-ultimate-career-mode-guide-and-tips/",
+        "https://www.dreamleaguesoccerkits.com/2026/05/dream-league-soccer-2026-beginners.html"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-005-sakibpro-database-search",
+      "event_type": "discovery-search",
+      "query": "SakibPro DLS 26 player database ratings Dream League Soccer 2026",
+      "retrieved_at": "2026-10-02T11:33:02Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Search returned SakibPro player database, player ranking, tool hub, trending players and Estonia roster pages. Site claims a 14,000+ database and direct game-file syncing, among other claims; all are unverified, and database pages need page retrieval (JavaScript/API layer investigation).",
+      "results": [
+        {
+          "title": "DLS 26 Player List, Ratings & Prices Database",
+          "url": "https://sakibpro.com/players/",
+          "snippet": "Site describes 14,000+ players, stats, max ratings/prices and says its data is synced from active game files; this is the source's own claim, not verification."
+        },
+        {
+          "title": "Top 10 Best Players in DLS 26",
+          "url": "https://sakibpro.com/players/top-10-best.php",
+          "snippet": "Contains many exact player ratings and stats; not accepted as data until source, origin and underlying dataset are checked."
+        },
+        {
+          "title": "DLS 26 Tools Hub",
+          "url": "https://sakibpro.com/tools/",
+          "snippet": "Lists player database, compare, card creator, squad builder, kit engine and claims live updates/free tools; functionality and business model unverified."
+        },
+        {
+          "title": "DLS 26 All New Player List & Upcoming Players",
+          "url": "https://sakibpro.com/players/trending.php",
+          "snippet": "Claims 17 newly added players and current card ratings; timing/source unknown, not accepted as verified."
+        },
+        {
+          "title": "Estonia DLS 26 Roster & Player Ratings",
+          "url": "https://sakibpro.com/players/nation/estonia/",
+          "snippet": "Contains a roster and detailed values; includes suspicious future-age/metadata and strong official-verification wording. Must be checked against source data and origins before use."
+        }
+      ],
+      "deception_screen": "Provisional source-level concerns: page advertises tools and claims data accuracy/live syncing; incentive structure and revenue not yet checked. Treat as unverified, do not promote. No deception-register entry yet.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery results recorded; source pages and underlying database/API unvisited",
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players/top-10-best.php",
+        "https://sakibpro.com/tools/",
+        "https://sakibpro.com/players/trending.php",
+        "https://sakibpro.com/players/nation/estonia/"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-006-apk-store-and-mod-search",
+      "event_type": "discovery-search",
+      "query": "DLS 26 Dream League Soccer 2026 gameplay guide formations coaches coins gems academy player development",
+      "retrieved_at": "2026-10-02T11:33:02Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Search returned third-party APK catalogues, an app-metadata aggregator, a mod APK page, regional store listing, and an unrelated/outdated listing. Version evidence conflicts and must be investigated; mod content is marked mod-sourced before processing.",
+      "results": [
+        {
+          "title": "Dream League Soccer 2026 APK for Android Download",
+          "url": "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7",
+          "snippet": "Claims version 13.430 and Sep 16, 2026 release; APKMirror-like third-party listing, exact app/signature and underlying file not yet checked."
+        },
+        {
+          "title": "Dream League Soccer 2026 for Android — AppBrain",
+          "url": "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+          "snippet": "Claims version 13.430, updated Sep 14, 2026, with store/download statistics. Third-party metadata and not independent until origin is traced."
+        },
+        {
+          "title": "Dream League Soccer 2026 MOD APK v13.430 Download for Android (Latest)",
+          "url": "https://dream-league-soccer-2026-mod.latestmodapks.com/",
+          "snippet": "Explicitly mod-sourced and advertises unlimited coins; no binary downloaded. Must be segregated and cannot exceed Speculative without non-mod verification."
+        },
+        {
+          "title": "Dream League Soccer 2026 — Cafe Bazaar",
+          "url": "https://cafebazaar.ir/app/com.firsttouchgames.dls7?l=en",
+          "snippet": "Claims version 13.430 and Sep 17, 2026 update in a regional Android store; availability and official signing not checked."
+        },
+        {
+          "title": "Dream League Soccer for Android Free Download — Apponic",
+          "url": "https://dream-league-soccer.apponic.com/android/",
+          "snippet": "Describes version 6.14, a legacy listing, likely not current DLS26; kept as a technical/archive lead only."
+        }
+      ],
+      "deception_screen": "Mod site is explicitly mod-sourced. Other commercial APK/catalogue platforms are not yet screened for incentive or provenance. No claims promoted.",
+      "conflicts": [
+        "Search snippets differ among 13.430, 13.420 and 13.130 claims; dated Apple histories support successive 13.420→13.430 entries, while third-party Android listing lineage/currentness remains open. Do not treat repeated aggregator snippets as independent confirmation."
+      ],
+      "kb_claims": [],
+      "processing_state": "discovery results recorded; source pages and APK artifacts unvisited",
+      "discovered_not_yet_visited": [
+        "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7",
+        "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+        "https://dream-league-soccer-2026-mod.latestmodapks.com/",
+        "https://cafebazaar.ir/app/com.firsttouchgames.dls7?l=en",
+        "https://dream-league-soccer.apponic.com/android/"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-007-android-store-version",
+      "event_type": "discovery-search",
+      "query": "Dream League Soccer Google Play com.firsttouchgames.dls7 version 13.430 2026",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Android/store-search results repeatedly report 13.430 around Sep 14–20, 2026; several may share Google Play metadata. Results include one explicitly modified APK source. No version promoted from search snippets.",
+      "results": [
+        {
+          "title": "Dream League Soccer 2026 APK (Android Game) - Free Download",
+          "url": "https://apkcombo.com/dls22/com.firsttouchgames.dls7/"
+        },
+        {
+          "title": "Dream League Soccer 2026 for Android - Stats, Reviews & Downloads",
+          "url": "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7"
+        },
+        {
+          "title": "Download Dream League Soccer 2026 Latest Version 13.430 Android APK File",
+          "url": "https://apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7/download"
+        },
+        {
+          "title": "Dream League Soccer 2026 APK for Android Download",
+          "url": "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7"
+        },
+        {
+          "title": "Dream League Soccer 2026 for Android",
+          "url": "https://www.appbrain.com/app/com.firsttouchgames.dls7"
+        },
+        {
+          "title": "Dream League Soccer 2026 - Data Overview",
+          "url": "https://appmagic.rocks/google-play/dream-league-soccer-2024/com.firsttouchgames.dls7"
+        },
+        {
+          "title": "Download Dream League Soccer 2026 13.430 for Android",
+          "url": "https://dream-league-soccer-2023.en.uptodown.com/android/download"
+        },
+        {
+          "title": "Dream League Soccer 2026 Game for Android",
+          "url": "https://cafebazaar.ir/app/com.firsttouchgames.dls7?l=en"
+        },
+        {
+          "title": "Dream League Soccer 2026 MOD APK v13.430",
+          "url": "https://dream-league-soccer-2026-mod.latestmodapks.com/"
+        },
+        {
+          "title": "Dream League Soccer 2026 APKs for Android - APKMirror",
+          "url": "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/"
+        }
+      ],
+      "deception_screen": "Search snippets only; source-level incentive/provenance screening remains pending unless noted in the summary.",
+      "conflicts": [
+        "Search snippets report 13.430 around Sep 14–20, 2026, but official Google Play US/Bangladesh page output does not expose a version number. Snippet lineage may be shared; current Android build remains unresolved."
+      ],
+      "kb_claims": [],
+      "processing_state": "discovery output recorded; each unvisited result remains a reachable lead",
+      "discovered_not_yet_visited": [
+        "https://apkcombo.com/dls22/com.firsttouchgames.dls7/",
+        "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+        "https://apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7/download",
+        "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7",
+        "https://www.appbrain.com/app/com.firsttouchgames.dls7",
+        "https://appmagic.rocks/google-play/dream-league-soccer-2024/com.firsttouchgames.dls7",
+        "https://dream-league-soccer-2023.en.uptodown.com/android/download",
+        "https://cafebazaar.ir/app/com.firsttouchgames.dls7?l=en",
+        "https://dream-league-soccer-2026-mod.latestmodapks.com/"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-008-app-store-version",
+      "event_type": "discovery-search",
+      "query": "site:apps.apple.com \"Dream League Soccer 2026\" \"13.430\"",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Apple Germany search snippet lists 13.430 (Sep 16) and prior versions; other results are third-party catalogues or a mod listing. Apple US app page has since been fetched directly; these regional/third-party pages remain leads.",
+      "results": [
+        {
+          "title": "Dream League Soccer 2026 - App Store - Apple (Germany)",
+          "url": "https://apps.apple.com/de/app/dream-league-soccer-2026/id1462911602"
+        },
+        {
+          "title": "Download Dream League Soccer 2026 13.430 for Android - Uptodown",
+          "url": "https://dream-league-soccer-2023.en.uptodown.com/android/download"
+        },
+        {
+          "title": "Download Dream League Soccer 2023 MOD APK v13.420 - PlayMods",
+          "url": "https://playmods.net/game/dream-league-soccer-2021%28mod-menu%29/com.firsttouchgames.dls7"
+        },
+        {
+          "title": "Download Dream League Soccer 2026 APKs - APKMirror",
+          "url": "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/"
+        },
+        {
+          "title": "Download Dream League Soccer 2026 APK - Softonic",
+          "url": "https://dream-league-soccer-2020.en.softonic.com/android/download"
+        }
+      ],
+      "deception_screen": "Search snippets only; source-level incentive/provenance screening remains pending unless noted in the summary.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery output recorded; each unvisited result remains a reachable lead",
+      "discovered_not_yet_visited": [
+        "https://dream-league-soccer-2023.en.uptodown.com/android/download",
+        "https://playmods.net/game/dream-league-soccer-2021%28mod-menu%29/com.firsttouchgames.dls7",
+        "https://dream-league-soccer-2020.en.softonic.com/android/download"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-009-ftg-social-search",
+      "event_type": "discovery-search",
+      "query": "site:facebook.com/FirstTouchGames \"13.430\" Dream League Soccer",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Facebook search found a purported main account, a mentions page, and a similarly named page. Identity/official status and actual version announcement not verified.",
+      "results": [
+        {
+          "title": "First Touch Games (@firsttouchgames)",
+          "url": "https://www.facebook.com/firsttouchgames/"
+        },
+        {
+          "title": "First Touch Games (@firsttouchgames) - Mentions",
+          "url": "https://www.facebook.com/firsttouchgames/mentions/"
+        },
+        {
+          "title": "FTG - First Touch Games",
+          "url": "https://www.facebook.com/firsttouchgamess/"
+        }
+      ],
+      "deception_screen": "Search snippets only; source-level incentive/provenance screening remains pending unless noted in the summary.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery output recorded; each unvisited result remains a reachable lead",
+      "discovered_not_yet_visited": [
+        "https://www.facebook.com/firsttouchgames/",
+        "https://www.facebook.com/firsttouchgames/mentions/",
+        "https://www.facebook.com/firsttouchgamess/"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-010-ftg-instagram-search",
+      "event_type": "discovery-search",
+      "query": "site:instagram.com/firsttouchgames \"13.430\" DLS",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Instagram result calls the account official, but account ownership and DLS26 version statements have not been checked.",
+      "results": [
+        {
+          "title": "First Touch Games (@firsttouchgames_official) Instagram",
+          "url": "https://www.instagram.com/firsttouchgames_official/"
+        }
+      ],
+      "deception_screen": "Search snippets only; source-level incentive/provenance screening remains pending unless noted in the summary.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery output recorded; each unvisited result remains a reachable lead",
+      "discovered_not_yet_visited": [
+        "https://www.instagram.com/firsttouchgames_official/"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-011-version-conflict-search",
+      "event_type": "discovery-search",
+      "query": "\"13.420\" \"Dream League Soccer\" \"13.430\"",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "Current and prior versions appear on historical listings. The Apple US page now directly shows 13.430 (Sep 16) and 13.420 (Sep 1), suggesting chronology rather than a same-date conflict; source origins and Google Play version remain under review.",
+      "results": [
+        {
+          "title": "Uptodown Dream League Soccer 2026 13.430",
+          "url": "https://dream-league-soccer-2023.en.uptodown.com/android/download"
+        },
+        {
+          "title": "Apple App Store DLS 2026 (US)",
+          "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602"
+        },
+        {
+          "title": "Dream League Soccer 2023 MOD APK 13.420 - PlayMods",
+          "url": "https://playmods.net/game/dream-league-soccer-2021%28mod-menu%29/com.firsttouchgames.dls7"
+        },
+        {
+          "title": "APKMirror DLS 2026 version archive",
+          "url": "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/"
+        },
+        {
+          "title": "Softonic DLS 2026 13.430",
+          "url": "https://dream-league-soccer-2020.en.softonic.com/android/download"
+        }
+      ],
+      "deception_screen": "Search snippets only; source-level incentive/provenance screening remains pending unless noted in the summary.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery output recorded; each unvisited result remains a reachable lead",
+      "discovered_not_yet_visited": [
+        "https://dream-league-soccer-2023.en.uptodown.com/android/download",
+        "https://playmods.net/game/dream-league-soccer-2021%28mod-menu%29/com.firsttouchgames.dls7",
+        "https://dream-league-soccer-2020.en.softonic.com/android/download"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "discovery-012-ftg-support-categories",
+      "event_type": "discovery-search",
+      "query": "site:support.ftgames.com \"13.430\" \"Dream League Soccer\"",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not applicable; tool returned success",
+      "payload_summary": "FTG help-center search returned stat, player development, transfer, support, multiplayer, bans and profile-continuity pages; exact version number was not found in this query. Several URLs have been fetched separately; remaining related sources are leads.",
+      "results": [
+        {
+          "title": "How do the various player stats in DLS affect gameplay?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay"
+        },
+        {
+          "title": "Why can’t I download Dream League Soccer Classic?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic"
+        },
+        {
+          "title": "How do I develop my players?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players"
+        },
+        {
+          "title": "FTG FAQs",
+          "url": "https://support.ftgames.com/hc/en-us/categories/201738105-FAQs"
+        },
+        {
+          "title": "How do I backup/restore/transfer my save data?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data"
+        },
+        {
+          "title": "Multiplayer Troubleshooting",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting"
+        },
+        {
+          "title": "Can I change my team name?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name"
+        },
+        {
+          "title": "Why have I been blocked from playing DLS?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS"
+        },
+        {
+          "title": "Can I use my existing DLS24 profile in DLS25?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360015150438-Can-I-use-my-existing-DLS24-profile-in-DLS25"
+        }
+      ],
+      "deception_screen": "Search snippets only; source-level incentive/provenance screening remains pending unless noted in the summary.",
+      "conflicts": [],
+      "kb_claims": [],
+      "processing_state": "discovery output recorded; each unvisited result remains a reachable lead",
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
+        "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players",
+        "https://support.ftgames.com/hc/en-us/categories/201738105-FAQs",
+        "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+        "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+        "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
+        "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+        "https://support.ftgames.com/hc/en-us/articles/360015150438-Can-I-use-my-existing-DLS24-profile-in-DLS25"
+      ],
+      "source_type": "web search discovery results",
+      "language": "English query/snippets; individual result-page languages and origins remain unverified",
+      "payload_path": "logs/sources_visited.json (normalized query, snippets, URLs and leads; raw tool response not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-001-apple-us-dls-store",
+      "event_type": "page-fetch",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "Dream League Soccer 2026 App - App Store",
+      "chunks_retrieved": 6,
+      "payload_summary": "Full six-chunk page retrieved. It identifies First Touch Games Ltd., game description/modes/features, user reviews, US IAP examples, privacy disclosures, supported languages, current event card and version history. Latest listed version is 13.430 dated Sep 16; 13.420 dated Sep 1 also appears. Page output is not yet copied verbatim to source archive; reviews are UGC and remain to be screened/deduplicated.",
+      "processing_state": "retrieval complete; analysis and raw archival partial; do not mark source exhausted",
+      "deception_screen": "Official Apple storefront for developer-submitted listing. Store listing includes purchases/ads and marketing claims; source of the listing is direct, but feature claims still require in-game/other-source corroboration.",
+      "conflicts": [
+        "Initial 13.420 vs 13.430 result is now temporally distinguished in the official version history; current status still needs Android/store-region re-check."
+      ],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://apps.apple.com/us/developer/first-touch-games-ltd/id471316020?platform=iphone",
+        "https://www.ftgames.com/privacy-policy",
+        "https://support.ftgames.com/"
+      ],
+      "source_type": "Apple App Store app listing or in-app event page",
+      "language": "en-US (English U.S. listing/reviews; other supported languages listed by source)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-002-google-play-us-dls",
+      "event_type": "page-fetch",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en_US&gl=US",
+      "domain": "play.google.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "Dream League Soccer 2026 - Apps on Google Play",
+      "chunks_retrieved": 2,
+      "payload_summary": "Full two-chunk listing retrieved. It identifies First Touch Games Ltd., current update date in page content (Sep 14, 2026), late-summer Cult Heroes release notes, ads/in-app purchases and user reviews. Search snippet from separate third-party metadata says version 13.430; the fetched Google Play page text does not expose its version number. A linked Cult Heroes event shows “Ends on 10/14” without year in the fetched listing. User reviews are UGC and not yet processed.",
+      "processing_state": "retrieval complete; analysis/raw archival partial; version-number detail and review processing pending",
+      "deception_screen": "Official Google Play listing. Developer-submitted store text is direct evidence of what the store page says, not automatically proof of underlying mechanic claims; monetization is explicit.",
+      "conflicts": [
+        "Third-party snippets differ on whether 13.420 or 13.430 was “latest”; official Apple history dates these as successive releases, while this Google Play text exposes only an update date and no version number. No current Android version claim is promoted."
+      ],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+        "https://play.google.com/store/apps/dev?id=6141822560324008098",
+        "https://www.ftgames.com/privacy-policy"
+      ],
+      "source_type": "Google Play app listing or in-app event page",
+      "language": "en-US (English U.S. listing and extracted reviews; review corpus incomplete)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-003-ftg-save-data-transfer",
+      "event_type": "page-fetch",
+      "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "How is save data stored and transferred in DLS? – First Touch Games Ltd",
+      "chunks_retrieved": 1,
+      "payload_summary": "Full article body retrieved. FTG states one DLS account per player; describes Manage Devices and Link Profile under Options > Advanced; Google/Apple account sign-in transfer; code-based transfer requires access to old device, device limit, Generate Code on Manage Devices, entering code on new-device Link Profile, no use on code-generating device; removing Google/Apple sign-in unlinks the profile and may expose it to loss after uninstall/device change. Related links lead to DLS25 profile continuity, Facebook login removal, ban policy, stats and customization. Page-age search metadata: 2024-12-06.",
+      "processing_state": "retrieval complete; current applicability, corroboration, related links and evidence-tier assessment pending",
+      "deception_screen": "Official FTG support article; no direct commercial incentive observed in article body. It is a single official origin and may be version-stale; no promotion above Speculative.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25",
+        "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS",
+        "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS"
+      ],
+      "source_type": "FTG official help-center article or error route",
+      "language": "en (English FTG help article)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-004-ftg-stat-mechanics",
+      "event_type": "page-fetch",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "How do the various player stats in DLS affect gameplay? – First Touch Games Ltd",
+      "chunks_retrieved": 4,
+      "payload_summary": "Full four-chunk page retrieved, including FTG text on SPE, ACC, STA, CON, STR, TAC, PAS, SHO, GKH, GKR and energy, plus long public comments in multiple languages. Article itself says DLS is not intended as a full/accurate simulation, describes stats as meaningfully bearing on gameplay and unpredictability, and gives qualitative effects. It dates to 2021 per search results, so game-version applicability is open. User comments are mostly reactions/requests and include isolated claims; no community consensus inferred. Complete raw text/comment analysis is not yet archived.",
+      "processing_state": "retrieval complete; full comments not yet screened/translated/deduplicated; source not exhausted",
+      "deception_screen": "Official FTG support article, single origin; no direct article-level purchase incentive observed. Current applicability is uncertain; article comments are UGC, not authoritative.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/hc/en-us/articles/360004080497-How-do-I-customise-my-kit-logo",
+        "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+        "https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesnt-my-player-look-like-the-real-person",
+        "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25"
+      ],
+      "source_type": "FTG official help-center article or error route",
+      "language": "en (English article; page also contains multilingual public comments not fully identified)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-005-ftg-update-incorrect-route",
+      "event_type": "page-fetch",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360006059618-When-will-the-next-app-update-be",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "The page you were looking for doesn't exist – First Touch Games Ltd",
+      "chunks_retrieved": 1,
+      "payload_summary": "Fetch returned an FTG help-center 404-style page (“page ... doesn’t exist”). The stats article contained the correct related link with article ID 360000262229; this route is a bad/stale URL, not evidence that an update-schedule feature does not exist.",
+      "processing_state": "route attempt complete; related correct route remains unvisited",
+      "deception_screen": "Official support host error page; no game claim processed.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "source_type": "FTG official help-center article or error route",
+      "language": "en (English error page)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-006-ftgames-home",
+      "event_type": "page-fetch",
+      "url": "https://www.ftgames.com/",
+      "domain": "ftgames.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "First Touch Games",
+      "chunks_retrieved": 1,
+      "payload_summary": "Full homepage text retrieved. It describes FTG as an independent studio established in 2011 and lists Dream League Soccer, Score! Hero, Ultimate Clash Soccer and Score! Match with “Play for free” marketing text; it links a Twitter account, games page, and other FTG properties. No DLS26 version or mechanics listed. Raw page/link analysis incomplete.",
+      "processing_state": "retrieval complete; source/language/social/company leads remain to be followed",
+      "deception_screen": "Official company marketing page; clear incentive to promote/install FTG games (observed). Claims about company scale/marketing are not treated as independent proof.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://www.ftgames.com/games#games-dls",
+        "https://twitter.com/firsttouchgames"
+      ],
+      "source_type": "FTG official corporate website",
+      "language": "en (English corporate page)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-007-sakibpro-player-db",
+      "event_type": "page-fetch",
+      "url": "https://sakibpro.com/players/",
+      "domain": "sakibpro.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "DLS 26 Player List, Ratings & Prices Database | SakibPro",
+      "chunks_retrieved": 1,
+      "payload_summary": "Full static Markdown response retrieved. Page presents filters and a “Loading Players Database...” placeholder followed by “No players found matching your search”; no player records were rendered. It claims 14,000+ records, game-file/live-update syncing, data accuracy, max-upgrade/+10 OVR and links Price Calculator/Player Comparison. Dynamic data/API and claims remain unverified; this is a page-render attempt, not a complete exploration of the database.",
+      "processing_state": "static-layer retrieval complete; JavaScript/data layer unvisited; not declared a wall or inaccessible",
+      "deception_screen": "Observed marketing and self-assertions about accuracy; likely traffic/tool-engagement incentive inferred, not yet verified as a specific profit mechanism. Claims capped at Speculative pending unrelated corroboration.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://sakibpro.com/players/trending.php",
+        "https://sakibpro.com/players/price-calculator.php",
+        "https://sakibpro.com/players/compare.php",
+        "https://sakibpro.com/tools/"
+      ],
+      "source_type": "third-party player database/tool page",
+      "language": "en (English static page output)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-008-apkmirror-dls-index",
+      "event_type": "page-fetch",
+      "url": "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/",
+      "domain": "apkmirror.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "Download Dream League Soccer 2026 APKs for Android - APKMirror",
+      "chunks_retrieved": 4,
+      "payload_summary": "Full four-chunk page retrieved. It links to Play Store, current APK version detail and a long archive/version list; version history includes 13.430 (Sep 16, 2026), 13.420 (Sep 1), 13.410 (Aug 20), and prior releases. It repeats developer store description and exposes download variants. Ads and paid Premium subscription are present. Raw page not archived and all version-detail links not followed.",
+      "processing_state": "retrieval complete; source provenance and linked release files/details not exhausted",
+      "deception_screen": "Observed ads and premium subscription are commercial incentives. Current version claim is independently aligned with Apple US version history but origin independence and binary signature are unverified; no deception finding.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-430-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-420-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-410-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-350-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-340-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-330-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-320-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-310-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-300-release/",
+        "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2026-13-130-release/",
+        "https://www.apkmirror.com/uploads/?appcategory=dream-league-soccer-2020"
+      ],
+      "source_type": "third-party APK catalogue/index",
+      "language": "en (English catalogue page)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "shell-probe-support",
+      "event_type": "retrieval-method-probe",
+      "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "shell/script",
+      "tool": "functions.bash / curl",
+      "http_status": "000 (TLS connect failure)",
+      "payload_summary": "curl failed with OpenSSL SSL_ERROR_SYSCALL; no response body. functions.fetch_page separately succeeded on this URL, so the domain is not inaccessible overall. This is one repeated direct-shell HTTPS network limitation.",
+      "processing_state": "method attempt complete; not a source wall",
+      "deception_screen": "not applicable",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "source_type": "direct-shell HTTPS retrieval-method probe",
+      "language": "not applicable; no page payload returned",
+      "payload_path": "logs/sources_visited.json (failure summary only; no response body)",
+      "processing_status": "partial; alternative page-render succeeded for tested source"
+    },
+    {
+      "source_id": "shell-probe-apple",
+      "event_type": "retrieval-method-probe",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "shell/script",
+      "tool": "functions.bash / curl",
+      "http_status": "000 (TLS connect failure)",
+      "payload_summary": "curl failed with OpenSSL SSL_ERROR_SYSCALL; no response body. functions.fetch_page separately succeeded on this URL, so the domain is not inaccessible overall. This is one repeated direct-shell HTTPS network limitation.",
+      "processing_state": "method attempt complete; not a source wall",
+      "deception_screen": "not applicable",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "source_type": "direct-shell HTTPS retrieval-method probe",
+      "language": "not applicable; no page payload returned",
+      "payload_path": "logs/sources_visited.json (failure summary only; no response body)",
+      "processing_status": "partial; alternative page-render succeeded for tested source"
+    },
+    {
+      "source_id": "shell-probe-google-play",
+      "event_type": "retrieval-method-probe",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7",
+      "domain": "play.google.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "shell/script",
+      "tool": "functions.bash / curl",
+      "http_status": "000 (TLS connect failure)",
+      "payload_summary": "curl failed with OpenSSL SSL_ERROR_SYSCALL; no response body. functions.fetch_page separately succeeded on this URL, so the domain is not inaccessible overall. This is one repeated direct-shell HTTPS network limitation.",
+      "processing_state": "method attempt complete; not a source wall",
+      "deception_screen": "not applicable",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "source_type": "direct-shell HTTPS retrieval-method probe",
+      "language": "not applicable; no page payload returned",
+      "payload_path": "logs/sources_visited.json (failure summary only; no response body)",
+      "processing_status": "partial; alternative page-render succeeded for tested source"
+    },
+    {
+      "source_id": "shell-probe-sakibpro",
+      "event_type": "retrieval-method-probe",
+      "url": "https://sakibpro.com/players/",
+      "domain": "sakibpro.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "shell/script",
+      "tool": "functions.bash / curl",
+      "http_status": "000 (TLS connect failure)",
+      "payload_summary": "curl failed with OpenSSL SSL_ERROR_SYSCALL; no response body. functions.fetch_page separately succeeded on this URL, so the domain is not inaccessible overall. This is one repeated direct-shell HTTPS network limitation.",
+      "processing_state": "method attempt complete; not a source wall",
+      "deception_screen": "not applicable",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "source_type": "direct-shell HTTPS retrieval-method probe",
+      "language": "not applicable; no page payload returned",
+      "payload_path": "logs/sources_visited.json (failure summary only; no response body)",
+      "processing_status": "partial; alternative page-render succeeded for tested source"
+    },
+    {
+      "source_id": "shell-probe-apkmirror",
+      "event_type": "retrieval-method-probe",
+      "url": "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/",
+      "domain": "apkmirror.com",
+      "retrieved_at": "2026-10-02T11:35:57Z",
+      "retrieval_role": "shell/script",
+      "tool": "functions.bash / curl",
+      "http_status": "000 (TLS connect failure)",
+      "payload_summary": "curl failed with OpenSSL SSL_ERROR_SYSCALL; no response body. functions.fetch_page separately succeeded on this URL, so the domain is not inaccessible overall. This is one repeated direct-shell HTTPS network limitation.",
+      "processing_state": "method attempt complete; not a source wall",
+      "deception_screen": "not applicable",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "source_type": "direct-shell HTTPS retrieval-method probe",
+      "language": "not applicable; no page payload returned",
+      "payload_path": "logs/sources_visited.json (failure summary only; no response body)",
+      "processing_status": "partial; alternative page-render succeeded for tested source"
+    },
+    {
+      "source_id": "page-009-googleplay-cult-heroes-event",
+      "event_type": "page-fetch",
+      "url": "https://play.google.com/store/apps/eventdetails/4830045897422713648",
+      "domain": "play.google.com",
+      "retrieved_at": "2026-10-02T11:39:15Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "The names the fans remember, from their peak years.",
+      "chunks_retrieved": 1,
+      "payload_summary": "Full event page retrieved. The title is “The names the fans remember, from their peak years”; the text says “Ends on 10/14” (year not displayed), describes the offer as available for a limited time and urges users to obtain the items now, and identifies Dream League Soccer 2026 / First Touch Games Ltd. as the associated app. No explicit player list or in-game resource cost appears in this page output.",
+      "processing_state": "retrieval complete; event date/year, regions, in-game mechanics, and offer contents remain unverified",
+      "deception_screen": "Official Google Play event listing attributed to FTG; promotion incentive is present (install/engagement), but source is direct evidence of its published event text only.",
+      "conflicts": [],
+      "kb_claims": [
+        "Cult Heroes storefront event lead (Speculative)"
+      ],
+      "discovered_not_yet_visited": [
+        "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w851-h2160-rw"
+      ],
+      "source_type": "Google Play app listing or in-app event page",
+      "language": "en-US (English U.S. event listing)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-010-apple-cult-heroes-event",
+      "event_type": "page-fetch",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-02T11:39:15Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "Cult Heroes",
+      "chunks_retrieved": 1,
+      "payload_summary": "Full event page retrieved. It is labeled HAPPENING NOW / LIVE EVENT and says “Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.” No end date, specific player list or cost in the returned content.",
+      "processing_state": "retrieval complete; actual in-game availability and cost remain unverified",
+      "deception_screen": "Official Apple App Store event listing for the FTG game; promotional incentive observed; evidence is limited to storefront wording.",
+      "conflicts": [],
+      "kb_claims": [
+        "Cult Heroes storefront event lead (Speculative)"
+      ],
+      "discovered_not_yet_visited": [],
+      "source_type": "Apple App Store app listing or in-app event page",
+      "language": "en-US (English U.S. event listing)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-011-ftg-update-schedule",
+      "event_type": "page-fetch",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-02T11:39:15Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "When will the next app update be? – First Touch Games Ltd",
+      "chunks_retrieved": 1,
+      "payload_summary": "Full article retrieved. FTG says it does not provide requested indications of future game releases, update schedules or planned activities, but sometimes shares news on social channels. It links official-looking DLS TikTok, Instagram and Facebook URLs. This correct route was discovered via the stats article after a guessed article ID returned a not-found page.",
+      "processing_state": "retrieval complete; social accounts linked from the official article remain to be verified and followed",
+      "deception_screen": "FTG support article; no direct commercial incentive observed in the update-schedule answer.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+        "https://www.instagram.com/playdls",
+        "https://www.facebook.com/dreamleaguesoccer/",
+        "https://support.ftgames.com/hc/en-us/articles/360004080497-How-do-I-customise-my-kit-logo",
+        "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+        "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25"
+      ],
+      "source_type": "FTG official help-center article or error route",
+      "language": "en (English FTG help article)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-012-googleplay-bd-listing",
+      "event_type": "page-fetch",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en&gl=BD",
+      "domain": "play.google.com",
+      "retrieved_at": "2026-10-02T11:39:15Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "Dream League Soccer 2026 - Apps on Google Play (Bangladesh locale)",
+      "chunks_retrieved": 2,
+      "payload_summary": "Both chunks retrieved. Bangladesh-locale page identifies Dream League Soccer 2026 and First Touch Games Ltd., shows 4.4 star rating/15M reviews and “Rated for 3+”, ads/in-app purchases, the same late-summer Cult Heroes notes, and the event link ending 10/14. It does not expose a version number in the returned content. Includes Bangladeshi storefront data-safety and user-review areas; reviews remain UGC and unprocessed.",
+      "processing_state": "retrieval complete; current version and full review processing remain open",
+      "deception_screen": "Official Google Play storefront localized for Bangladesh; developer-submitted listing and store conversion incentives present. Store rating/content classification not game-mechanic evidence.",
+      "conflicts": [
+        "US Google Play and Bangladesh Google Play display different content-rating labels (US Everyone vs Bangladesh Rated for 3+ in the returned pages); likely regional rating metadata, not yet investigated."
+      ],
+      "kb_claims": [
+        "Cult Heroes storefront event lead (Speculative)"
+      ],
+      "discovered_not_yet_visited": [
+        "https://play.google.com/store/apps/datasafety?id=com.firsttouchgames.dls7",
+        "https://play.google.com/store/apps/dev?id=6141822560324008098",
+        "http://www.ftgames.com/",
+        "https://www.ftgames.com/privacy-policy"
+      ],
+      "source_type": "Google Play app listing or in-app event page",
+      "language": "en-BD (English Bangladesh-localized Google Play page)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
+    },
+    {
+      "source_id": "page-013-apple-de-listing",
+      "event_type": "page-fetch",
+      "url": "https://apps.apple.com/de/app/dream-league-soccer-2026/id1462911602",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-02T11:39:15Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": "not exposed; tool returned success",
+      "title": "Dream League Soccer 2026-App – App Store (Germany, German)",
+      "chunks_retrieved": 6,
+      "payload_summary": "All six chunks retrieved. German storefront identifies First Touch Games Ltd.; carries a localized DLS 2026 description, Cult Heroes live event, user reviews, privacy/IAP metadata, and version history. It lists 13.430 dated Sep 16 and 13.420 dated Sep 1, matching the U.S. Apple storefront sequence; same developer copy/origin means these regional pages are not assumed independent. German-language user reviews include mixed subjective reports about offline difficulty, online connectivity, controls, perceived monetization, coins/stadium progression and AI; these are anecdotal, often duplicated in the returned content, and not proof of mechanics. The raw six-chunk page/review corpus has not been archived or exhaustively deduplicated.",
+      "processing_state": "retrieval complete; raw archival, full UGC screening/translation and regional comparison remain partial",
+      "deception_screen": "Official Apple storefront for FTG; developer marketing and purchase conversion incentives observed; user reviews are UGC with unknown motives.",
+      "conflicts": [
+        "German and U.S. Apple store histories show the same 13.430/13.420 sequence; no conflict detected. Google Play version still not exposed."
+      ],
+      "kb_claims": [
+        "U.S. and Germany Apple storefront histories display 13.430 (Sep 16) above 13.420 (Sep 1) (Speculative)."
+      ],
+      "discovered_not_yet_visited": [
+        "https://apps.apple.com/de/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
+        "https://apps.apple.com/de/developer/first-touch-games-ltd/id471316020?platform=iphone",
+        "https://www.ftgames.com/privacy-policy",
+        "https://apps.apple.com/de/app/1462911602?see-all=reviews&platform=iphone",
+        "https://apps.apple.com/de/app/score-hero/id847492141",
+        "https://apps.apple.com/de/app/score-match-pvp-fussball/id1145420529",
+        "https://apps.apple.com/de/app/ultimate-clash-soccer/id1506588619"
+      ],
+      "source_type": "Apple App Store app listing or in-app event page",
+      "language": "de-DE (German listing and user-review material)",
+      "payload_path": "source_archive/bootstrap_research_2026-10-02.md (normalized notes only; raw page payload not archived)",
+      "processing_status": "partial"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Research gaps and negative findings
 
-No DLS26-specific research has been performed. The following are open questions, not negative findings:
+Preliminary DLS26 source retrieval has been performed prematurely while STATE_0 prompt capture was incomplete; the sweep is partial, and no topic is exhausted. The following are open questions, not negative findings:
 
 - Current game version and official terminology for all systems and abbreviations in the user prompt; route: official FTG channels, regional stores, community and technical sources.
 - Whether the game has position locking, positional restrictions, or position-based effects; route: DLS26-specific sources and possible in-game/client evidence. User-stated no-locking claim is not yet verified.
@@ -8,5 +8,15 @@ No DLS26-specific research has been performed. The following are open questions,
 - Current FTG Link Profile rules, if relevant; route: current FTG support documentation plus corroboration.
 - Retrieval availability of APKs and transcripts; route: search/fetch tools and shell methods.
 - Current user roster, resources, progress, and settings not supplied; route: user confirmation or a future user-run extraction.
+
+## Additional gaps raised by initial retrieval (2026-10-02)
+
+- **Current Android build/version:** US and Bangladesh Google Play page retrievals show update information but no version number in extracted page text; third-party search snippets report 13.430, and U.S./German Apple histories list 13.430 above 13.420. Route: official Google Play data/API and regional listings, FTG announcements, and origin-traced APK metadata. No global current-version claim is closed.
+- **Cult Heroes event:** official Google Play event page says “Ends on 10/14” but omits a year; Apple calls the event live. Route: current in-game/store event detail and regional listings. Player list, cost, exact deadline and eligibility are unknown.
+- **SakibPro live database:** its static page returned a loading placeholder and no player rows. Route: inspect linked frontend JavaScript/API endpoints, indexed pages, alternative render methods and mirrors. Not declared inaccessible or a wall.
+- **Direct-shell HTTPS:** `curl` failed to five tested domains with TLS `SSL_ERROR_SYSCALL`, while `fetch_page` succeeded for the same pages. Route: page/search tools and alternative technical methods; not a global network-access gap.
+- **Full page archival:** several long Apple/Google review and FTG comment pages were fetched in chunks but their complete raw text has not been committed. Route: archive complete payloads or explicitly continue staging; no affected source is considered exhaustively processed.
+- **Prompt capture:** live prompt file remains a capture-status placeholder; `ISSUE-0001` is open. The current turn contains only a condensed summary, not the verbatim original. Route: ask the user to attach/paste the exact source and write it to the stable path; do not reconstruct missing wording from the summary.
+- **Prompt abbreviations/terms:** `DLL`, `OVR`, `GK`, and `XI` are prompt shorthands whose exact current DLS26 UI/game terminology remains unverified. The Apple U.S. store description (`page-001-apple-us-dls-store`) exposes “Dream League Live”, and an FTG help-search result (`discovery-001-ftg-official-search`) uses “DLL (multiplayer) matches”; this is a candidate mapping, not yet an in-game terminology confirmation. Route: follow all FTG source links and inspect current in-game/help UI evidence; do not guess expansions for OVR/GK/XI.
 
 No item is closed as “does not exist.” Research absence has not been established.
