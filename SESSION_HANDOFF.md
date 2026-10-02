@@ -1,6 +1,6 @@
 # Session handoff
 
-**Updated:** 2026-10-02T11:48:07Z (UTC; 17:48 Asia/Dhaka), in this turn. **Branch:** `arena/01a0f962-dls26-omega`. All work remains on this fixed session branch.
+**Updated:** 2026-10-02T11:48:47Z (UTC; 17:48 Asia/Dhaka), in this turn. **Branch:** `arena/01a0f962-dls26-omega`. All work remains on this fixed session branch.
 
 ## Active state and immediate resumption point
 
@@ -28,7 +28,7 @@
 
 ## Repository, PR, and outstanding work
 
-- PR #2 is open: https://github.com/MythicalXenos/dls26-omega/pull/2. Initial setup was committed/pushed; this turn's staged research updates still need the end-of-turn commit/push on the fixed branch.
+- PR #2 is open: https://github.com/MythicalXenos/dls26-omega/pull/2 (branch `arena/01a0f962-dls26-omega`; head was `22193ffc2def77203ef1e1b7a50c0c8ba7a240cc` at the 11:48:31Z post-push check). The staged research records and immutable KB snapshot were committed/pushed in `22193ff`. The current handoff/log synchronization is included in the follow-on commit on the same fixed branch.
 - `knowledge/knowledge_base.md`, `knowledge/gaps.md`, `knowledge/irreversible_action_list.md`, `knowledge/deception_register.md`, `logs/main_operational_log.md`, `logs/sources_visited.json`, `issue_tracker.md`, capability inventory, schema notes and normalized source archive have been updated.
 - A new immutable KB snapshot was saved before this research push: `snapshots/KB_snapshot_2026-10-02-pre-research-push.md`. Keep it unchanged; create another snapshot before a later significant push and at each session end.
 - Bootstrap Steps 1–5 are not complete. No extraction script, APK analysis, extraction pipeline, volatility model, State-4 operational-rules reset, independent verification package, or first-contact advice has been completed. External verification debt remains due at Step 4.
@@ -37,6 +37,6 @@
 
 ## Turn-end fields
 
-- Turn end: pending final validation/commit/push.
-- Current/next milestone: pause research, repair STATE_0 prompt capture, then validate setup and resume Step 1 from the source ledger's first open result.
+- Turn end: research commit `22193ff` is pushed, PR #2 is open, and handoff/log synchronization is included in the final follow-on commit. A user clarification request for the missing original prompt source remains pending.
+- Current/next milestone: pause research and request the original prompt source to repair STATE_0. After it is captured and validated, resume Step 1 from the source ledger's first open result.
 - Continuity note: before any later recommendation, consult `knowledge/user_profile.md`; confirm current values before irreversible or resource-dependent actions. Do not repeat the current claim that Cult Heroes ends in a particular year or advise resource spending without in-game evidence.
