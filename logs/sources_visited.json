@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "last_reconciled_at": "2026-10-02T11:28:20Z",
+  "entries": [
+    {
+      "source_id": "ops-github-origin-probe-2026-10-02",
+      "url": "https://github.com/MythicalXenos/dls26-omega.git",
+      "domain": "github.com",
+      "retrieved_at": "2026-10-02T11:28:20Z",
+      "retrieval_role": "shell/script",
+      "tool": "functions.bash / git ls-remote",
+      "http_status": "not exposed by Git transport",
+      "source_type": "repository access probe (not DLS26 evidence)",
+      "language": "not applicable",
+      "payload_summary": "Git remote read succeeded and returned HEAD fb9a2c025ec267f6b787382766ce44c7e373d091; this only verifies repository access.",
+      "processing_state": "complete for access-check purpose; not processed as a DLS26 source",
+      "deception_screen": "not applicable; operational repository probe",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": []
+    }
+  ]
+}
