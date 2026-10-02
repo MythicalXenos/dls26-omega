@@ -1,0 +1,3 @@
+# DLS26 Omega — prompt capture status
+
+**Status: UNVERIFIED / INCOMPLETE.** The full user-supplied prompt is the governing instruction for this session, but this workspace tool interface does not expose a raw-message export or a path to the original message body. This file is therefore a capture-status record, not a verbatim copy, and must not be treated as the prompt's authority or used to rebuild operational rules. At first contact, ask the user to confirm or provide a verbatim text attachment so the required immutable prompt can be installed. Until then, follow the original prompt still present in the conversation and record this limitation in the handoff and issue tracker.
