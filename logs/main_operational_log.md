@@ -226,3 +226,8 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 12 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. Every retrieval has a full ledger entry written before this log; KB/gate appends precede any reporting; one conflict closed on evidence and one prior claim (DLL payment equality) left untouched as unverified. Nothing incomplete presented as complete.
+
+## TURN 12 — ANOMALY + REPAIR (git ancestry)
+- The end-of-turn push was rejected as non-fast-forward. Diagnosis: the **local branch had lost its commit ancestry** (local `HEAD` chain was `86f9518 -> fb9a2c0` while the remote held the true chain ending `881e197`), though the working-tree file content was intact and equal to the remote tip plus the Turn-12 edits.
+- Repair (no force, no history rewrite): `git diff FETCH_HEAD HEAD` captured the exact Turn-12 delta; `git reset --hard FETCH_HEAD` restored the true ancestry; the patch re-applied cleanly and committed as **38ce0d5**; pushed fast-forward **881e197..38ce0d5**. No file lost, no committed artifact altered.
+- Overrun honestly recorded: Turn 12 used 13 tool calls (cap 10) and 5 retrieval calls (cap 6) because of the repair. Retrieval limits were respected; the overrun is tool-call-only and attributable to the anomaly. It will be noted in the next handoff.
