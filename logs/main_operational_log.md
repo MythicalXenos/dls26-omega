@@ -150,3 +150,17 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 6 — SOURCE TYPE COVERAGE (frontier movement)
 - Leads added this turn: 5 (SakibPro events article, Reddit thread 1vtm4ty, FTG TikTok video, dlskiturl World Heroes, dlskiturl mod page). Retired: 3 (Vozinha page, dlskiturl article, the acquisition-route conflict probe). Net: expanding (ISSUE-0007 records the trend).
+
+## TURN 7 (2026-10-03) — MID-SESSION MONITORING
+- One lightweight check: TikTok FTG page fetch attempted as the first-party route (see wall note). No patch newer than 13.430/Sep 16; no post-launch FTG announcement surfaced. One line: unchanged.
+
+## TURN 7 — WALL ATTEMPT (logged)
+- tiktok.com returned HTTP 403 to default retrieval (page-046). First attempted bypass list recorded with the wall; caption text already partially captured via a discovery snippet, so the information is not blocked, only the direct page. Not a wall source in the full sense yet (more bypasses untried).
+
+## TURN 7 — RESEARCH (collection map + ladder preview + cross-surface consistency)
+- page-047 (SakibPro events article, 2 chunks): Cult Heroes stat tables with decimals; unlock distribution; the separate Season Pass card type; **the English League Classics ladder preview with 4 full stat rows**; the DLS 27 article lead.
+- page-048..051: card-type indexes — Dynamic Star 40, Classic 34, World Winners 8, Champion 12 (Cult Heroes 12 already recorded). Sizes recorded for the candidate-pool map; all one database origin.
+- Conflict candidate opened: Essien 84 (ladder preview) vs 85 (Classic index); plus the 4-card preview vs the prior session's 6-name ladder sheet set.
+
+## TURN 7 — TURN BUDGET DEVIATION (self-detected)
+- This turn made **7 retrieval calls against the 6-call cap** (TikTok attempt, article chunks 0 and 1, four index pages), because the first batch of the turn was split by a malformed tool call and the overrun was not noticed until wrap-up. No advice impact (no advice delivered; Steps 1-4). Logged as a DEGRADATION EVENT in the issue tracker per the self-detected-standard-breach rule; corrective: the next turn runs at **half retrieval limit (3 calls)** as a self-imposed control, and this deviation is reported in the next session-start digest if not resolved before then.

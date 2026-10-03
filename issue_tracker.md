@@ -61,3 +61,8 @@
 
 ## ISSUE-0010 — dlskiturl.com mod-adjacent screening flag (recorded, not a defect)
 - The domain's Cult Heroes page links a "DLS 26 Mod" APK page, so mod-source screening applies to its claims (Speculative cap without non-mod corroboration). Recorded here so later sessions do not re-derive it.
+
+## ISSUE-0011 — Self-detected TURN BUDGET deviation (7 retrieval calls vs 6), 2026-10-03
+- **What happened:** Turn 7 exceeded the research-turn retrieval cap by one call; the first batch was split by a malformed tool call and the miscount surfaced only at wrap-up.
+- **Class:** DEGRADATION EVENT (system ran below its own stated standard), self-detected, no advice impact.
+- **Corrective applied:** next turn at half retrieval limit (3 calls). Recorded here rather than as a stop-turn event (the environment did not stop the turn; the overrun was ours).
