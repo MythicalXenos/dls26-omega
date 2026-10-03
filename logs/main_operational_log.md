@@ -99,3 +99,6 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 ## 2026-10-03T14:45:03Z — BLUFF CHECK (Turn 3, Mechanism 8)
 - Complete every step? Yes, within the research-turn budget (3 retrieval calls of 6; total calls under 10 before wrap-up). Mid-Session Monitoring ran and is recorded. Ledger reconciled and merged (schema v2, 328 entries). KB appended with three dated blocks. Frontier regenerated from the ledger.
 - Skip anything? No undisclosed skips. Two defects self-detected and repaired in-turn (heredoc substitution in a log line — ISSUE-0008; a repair pass on the same line). Nothing incomplete presented as complete.
+
+## POST-SCRIPT (Turn 3): ISSUE-0008 recurrence and fix
+- The unquoted-heredoc defect recurred once more in the same turn (a backticked path inside the SOURCE TYPE COVERAGE entry). Detected by the shell's stderr and repaired in a follow-up commit. Root cause: unquoted heredoc delimiters on multi-line log appends. Standing fix adopted for this session's files: **always quote heredoc delimiters (<<'EOF') or avoid backticks in appended text.** Logged here so the next session inherits the fix.
