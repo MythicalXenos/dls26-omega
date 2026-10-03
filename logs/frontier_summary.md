@@ -1,0 +1,88 @@
+# Frontier summary (merged ledger, schema v2)
+
+Regenerated 2026-10-03 Turn 3 from `logs/sources_visited.json` (derived, never hand-kept).
+
+- Ledger entries: 328 · visited unique URLs: 309 · unvisited union leads: 356
+
+## Highest-priority unvisited leads (heuristic)
+
+- Wayback captures of sakibpro.com/players/trending.php and /players/simulator.html (test the dynamic-date question G-0022; detect silent price edits)
+- a SECOND player database (mandatory: no cross-check for SakibPro exists)
+- card art https://cdn.sakibpro.com/assets/dls26/28324.webp — test whether a 'black card' design and the 'Cult Heroes 2018' year stamp are visible, and whether the art is a render or an extraction
+- https://cdn.sakibpro.com/assets/dls26/28324.webp (card art; note the site GENERATES 'maxed' cards, so its images are renders, not extractions)
+- https://cdn.sakibpro.com/assets/dls26/28324.webp — card art; would show whether a 'black card' design and a year stamp ('Cult Heroes 2018') are visible, and whether the art is a render or an extraction
+- https://cdn.sakibpro.com/assets/flags/{cc}.png (flag asset space)
+- https://sakibpro.com/dls-26-card-creator
+- https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (Card Creator with a player preloaded)
+- https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (the Card Creator with a player preloaded — may expose its data source)
+- https://sakibpro.com/dls-26-national-team-flag-logos
+- https://sakibpro.com/dls-26-new-update-events-players/ (full page-render — the '3 Cult Heroes from Online Events' claim and the year-stamped stat block)
+- https://sakibpro.com/dls-26-new-update-events-players/ — full page-render: '3 Cult Heroes from Online Events', year-stamped stats, '100% Official' claim
+- https://sakibpro.com/dls-26-world-cup-heroes-event
+- https://sakibpro.com/dls-26-world-winners-event
+- https://sakibpro.com/dls-27-release-date
+- https://sakibpro.com/how-to-get-every-club-logo-in-dls-25
+- https://sakibpro.com/players-the-ultimate-dls-player-database-card-creator-app
+- https://sakibpro.com/players/classic/
+- https://sakibpro.com/players/classic/ , /players/season-pass/ , /players/team2025/ , /players/world-winners/ , /players/normal/ , /players/dynamic-star/ etc. — one index page per card type, each server-rendered, each giving that family's full membership and count (the fastest route to the whole special-card taxonomy, dimension 4)
+- https://sakibpro.com/players/classic/fabio-cannavaro/26842/ and the 33 sibling per-player Classic pages (year stamps + full sheets per card)
+- https://sakibpro.com/players/classic/lothar-mat-th-us/27201
+- https://sakibpro.com/players/classic/lothar-matth-us/27201/ and /players/world-cup-heroes/kevin-de-bruyne/27840/ (further card-type slugs and rows)
+- https://sakibpro.com/players/classic/michael-essien/26838
+- https://sakibpro.com/players/classic/michael-essien/26838/ and /players/season-pass/jo-o-pedro/28356
+- https://sakibpro.com/players/classic/player/26841/ (the empty-name row — a data-quality probe)
+- https://sakibpro.com/players/compare.php
+- https://sakibpro.com/players/cult-heroes/ (the card-type index — may enumerate the FULL Cult Heroes collection, not just the 17 'new' ones)
+- https://sakibpro.com/players/cult-heroes/ander-herrera/28329/
+- https://sakibpro.com/players/cult-heroes/daley-blind/28326/
+- https://sakibpro.com/players/cult-heroes/david-de-gea/28324/
+- https://sakibpro.com/players/cult-heroes/david-luiz/28325/
+- https://sakibpro.com/players/cult-heroes/francisco-alarc-n/28327/
+- https://sakibpro.com/players/cult-heroes/francisco-alarc-n/28327/ — the Isco half of the G-0033 check (run next for a two-card sample rather than one)
+- https://sakibpro.com/players/cult-heroes/hakim-ziyech/28332/
+- https://sakibpro.com/players/cult-heroes/josimar-jos-vora-dias/28658/
+- https://sakibpro.com/players/cult-heroes/lorenzo-insigne/28328/
+- https://sakibpro.com/players/cult-heroes/nicol-s-otamendi/28334/
+- https://sakibpro.com/players/cult-heroes/paulo-dybala/28333/
+- https://sakibpro.com/players/cult-heroes/pierre-emerick-aubameyang/28331/
+- https://sakibpro.com/players/cult-heroes/xherdan-shaqiri/28330/
+- https://sakibpro.com/players/dreamstar26/{slug}/{id} per-player pages x12 (27481-27483, 27827-27835) - Dream Star full sheets
+- https://sakibpro.com/players/dynamic-star/
+- https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, highest rating seen; bearing on the ceiling question
+- https://sakibpro.com/players/dynamicstar/eberechi-eze/27508/ — a 90 OVR card, the highest rating seen so far; useful for the rating-ceiling question
+- https://sakibpro.com/players/dynamicstar/nico-williams/27509/ - THE G-0080 card page (six stats at 100?)
+- https://sakibpro.com/players/dynamicstar/rodrigo-de-paul/27512
+- https://sakibpro.com/players/nation/estonia
+- https://sakibpro.com/players/nation/spain/ and /players/assets/teams/t258.png (nation and team index spaces)
+- https://sakibpro.com/players/nation/spain/ and the team-id space (/players/assets/teams/t258.png)
+- https://sakibpro.com/players/normal/
+- https://sakibpro.com/players/normal/?page=4
+- https://sakibpro.com/players/normal/david-de-gea/25840/ and /153/ (other versions of the same player — tests the version/row hypothesis for G-0016)
+- https://sakibpro.com/players/normal/david-de-gea/25840/ and /players/normal/david-de-gea/153/ (other versions of one player — tests G-0016)
+- https://sakibpro.com/players/normal/federico-valverde/16636
+- https://sakibpro.com/players/normal/francisco-alarc-n/7293/ (second row for Isco)
+- https://sakibpro.com/players/normal/paulo-dybala/9553/ (third row for one player — further G-0016 evidence)
+- https://sakibpro.com/players/normal/player/25848
+- https://sakibpro.com/players/normal/raphael-belloli/27135
+- https://sakibpro.com/players/normal/virgil-van-dijk/27130
+- https://sakibpro.com/players/season-pass/
+- https://sakibpro.com/players/simulator.html?loadPlayer=10159
+- https://sakibpro.com/players/team2025/
+- https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128
+- https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128/ (confirms the team2025 card type has real rows)
+- https://sakibpro.com/players/top-10-best.php
+- https://sakibpro.com/players/trending.php (server-rendered Upcoming Players — may name real players incl. Cult Heroes)
+- https://sakibpro.com/players/world-cup-heroes/keylor-navas/27837
+- https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (card-type index confirmation via per-player pages)
+- https://sakibpro.com/players/world-cup-heroes/lionel-messi/27848/ and /players/dynamicstar/matheus-cunha/27511/ (per-player pages confirming those card-type slugs)
+- https://sakibpro.com/players/world-winners/
+- https://sakibpro.com/players/world-winners/emiliano-mart-nez/27849
+- https://sakibpro.com/players/world-winners/lamine-yamal/27845
+- https://sakibpro.com/players/world-winners/rodri/27843
+- https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics
+- https://sakibpro.com/tools/
+- https://sakibpro.com/tools/ (Tools index from the breadcrumb — may list tools not linked from the home page)
+- https://sakibpro.com/tools/ (Tools index — may list tools not linked from the home page)
+- https://sakibpro.com/tools/ (a Tools index linked from the simulator breadcrumb — may list further tools)
+- identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend
+- per-stat weight COEFFICIENTS still unretrieved (model documented; +11 overflow + pair-selection found) - route: datamine files or sakibpro JS (curl blocked)
