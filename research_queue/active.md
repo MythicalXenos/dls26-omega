@@ -21,3 +21,10 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [queue-High] Harvest remaining Cult Heroes per-card pages (Insigne 28328, David Luiz 28325, Otamendi 28334, Ziyech 28332, Ander Herrera 28329, Blind 28326, Shaqiri 28330, Vozinha 28658) for octets.
 - [queue-High] SakibPro card-type indexes: season-pass, dynamicstar, world-winners, champion, team2025, classic, normal + /tools/.
 - [queue-Medium] Reconcile the 12-vs-17 Cult Heroes count conflict.
+
+## Added 2026-10-03 Turn 6
+- [queue-High] First-party confirmation of the Cult Heroes agent flow (FTG TikTok video 7437552025958763809 / FTG site / in-app news) — promotes the resolved-by-convergence route past Speculative without user effort.
+- [queue-High] Full per-card pages for the 12 (done); next: card-type indexes — dynamicstar, champion, world-winners, team2025, classic, normal, season-pass, /tools/.
+- [queue-High] SakibPro events article `dls-26-new-update-events-players/` (Season Pass/Online/Dream Draft distribution maths).
+- [queue-Medium] Reconcile the prior session's "17 Cult Heroes" note (read archived sweep notes; ISSUE-0009).
+- [queue-Medium] dlskiturl World Heroes page + 2026 event-sequence claim (TotS 2025 green → Dream Stars 2026 pink → Dynamic Stars → World Heroes → Cult Heroes).

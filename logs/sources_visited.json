@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-03T14:47:24Z",
+ "last_reconciled_at": "2026-10-03T14:49:01Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -11103,11 +11103,72 @@
    "discovered_not_yet_visited": [
     "https://sakibpro.com/players/normal/daley-blind/6858/"
    ]
+  },
+  {
+   "source_id": "discovery-034-cult-heroes-acquisition",
+   "event_type": "discovery_search",
+   "url": "https://www.google.com/search?q=Dream+League+Soccer+26+Cult+Heroes+how+to+get+cards+Season+Pass+agent+special+players",
+   "domain": "google.com",
+   "retrieved_at": "2026-10-03T14:49:01Z",
+   "retrieval_role": "discovery-search",
+   "tool": "web_search(depth 2)",
+   "http_status": 200,
+   "source_type": "mixed",
+   "language": "en",
+   "payload_summary": "MONITORING + CONFLICT PROBE. Five results: (1) SAKIBPRO article (pageAge 2026-08-20) 'DLS 26 New Update: All New Events, Special Cards' - claims 3 Season Passes x 2 Cult Heroes (1 free + 1 premium each) = 6; 3 Cult Heroes via Online Events; Dream Draft (1 free + 2 paid) with up to 3 Cult Heroes each; ALSO claims 6 'Season Pass players' (separate roster, unrevealed). (2) DLSKITURL article (pageAge 2026-09-11) 'DLS 26 Cult Heroes (New Event)' - event commences 16 Sep 2026; agents collected from Season Pass / Online Event / Market; sign via Transfer > Event section; players signed RANDOMLY from agents; 12-name table. (3) r/DreamLeagueSoccer 1vtm4ty (2026-08-21) - user states '12 players, using special agent to get them, and 3 season pass with the same name ... the highest stat is only 85'; users discuss agent scarcity (user-claimed '15 agents per guaranteed special player' - unverified). (4) r/DreamLeagueSoccer 1lbxxbm (2025) - older-cycle speculation, low value. (5) TIKTOK @dreamleaguesoccer.ftg (FIRST-PARTY FTG channel, video 7437552025958763809) - caption text via snippet: 'Cult Heroes are coming to #DLS26 on September 16th. Find them by collecting Cult Hero Agents, available in Events, Drafts and the Season Pass.' PARTIAL capture (snippet only; page not fetched).",
+   "processing_state": "processed",
+   "deception_screen": "SakibPro: owed. dlskiturl: FLAGGED - links a 'DLS 26 Mod' APK page (mod-adjacent domain); mod-source screening applies (Speculative cap without non-mod corroboration). Reddit: user-generated, Speculative. TikTok: first-party, partial capture.",
+   "conflicts": "RESOLVES the open Cult Heroes acquisition-route conflict: cards are signed with CULT HERO AGENTS collected from Season Pass / Online Events (DLS Live) / Dream Draft / Market - so the SakibPro data-table route ('Cult Heroes Agent') was the correct framing and its own editorial 'Season Pass track' paragraph was imprecise. Also explains 12-vs-17: collection is 12 (11 heroes + community-voted 12th Man, Vozinha).",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/dls-26-new-update-events-players/",
+    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809"
+   ]
+  },
+  {
+   "source_id": "page-044-sakibpro-vozinha-28658",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/cult-heroes/josimar-jos-vora-dias/28658/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-03T14:49:01Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "database/tool",
+   "language": "en",
+   "payload_summary": "Vozinha (Josimar Jose Evora Dias), 'Cult Heroes 2026' era, id 28658 - the 12th (final) index record. GK, Cape Verde, Free Agent, 189 cm / 75 kg, right foot, born 1986-06-03 (40). GK set: SPE 54 / ACC 47 / STR 62 / CON 54 / PAS 55 / TAC 43 / GKR 81 / GKH 81 = 477. Base OVR 83 (ESTIMATED); site max 93. Comment (2026-08-24) treats Vozinha as a surprise addition. dlskiturl labels him '(12th Man)' - consistent with the community-vote mechanic seen in a Play review.",
+   "processing_state": "processed",
+   "deception_screen": "owed (database).",
+   "conflicts": "none new.",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-045-dlskiturl-cult-heroes-event",
+   "event_type": "page_fetch",
+   "url": "https://dlskiturl.com/dls-26-cult-heroes-event/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-03T14:49:01Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "community/guide (mod-adjacent domain)",
+   "language": "en",
+   "payload_summary": "Full article captured. Event commences 16 Sep 2026. 12-player table matching SakibPro's index ratings/positions (de Gea 85 GK; Blind 83 CB; Otamendi 84 CB; David Luiz 84 CB; Ziyech 84 RW; Isco 84 AM; Herrera 83 CM; Shaqiri 83 AM; Insigne 84 LW; Dybala 85 SS; Aubameyang 85 CF; Vozinha 83 GK '(12th Man)'). Acquisition: collect Cult Hero Agents (Season Pass 1 free + 1 paid/season; Online Event in DLS Live; Market purchase) then Transfer > Event section > sign; signed RANDOMLY from opened agents. Claims event is 'not Pay to Win'. Claims 2026 event sequence: Team of the Season 2025 (green), Dream Stars 2026 (pink), Dynamic Stars, World Heroes, then Cult Heroes. Claims upgrading needs GEMS via 'special trainers' and recommends maxing only one player (unverified). 10 low-value user comments. Domain links a DLS 26 Mod APK page - mod-adjacent flag recorded.",
+   "processing_state": "processed",
+   "deception_screen": "FLAGGED: mod-adjacent domain (mod-source screening; Speculative cap without non-mod corroboration).",
+   "conflicts": "Corroborates agent-based acquisition and the 12-card collection; independence from SakibPro NOT yet documented (possible shared community origin).",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": [
+    "https://dlskiturl.com/dls-26-world-heroes-and-world-winner/",
+    "https://dlskiturl.com/dls-26-mod-apk/"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 310,
-  "unvisited_total": 398,
+  "visited_total": 311,
+  "unvisited_total": 403,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -11235,8 +11296,10 @@
    "https://dlskiturl.com/dls-26-cult-heroes-event/ — full page-render of the agent-randomness mechanic and the 16 Sep start date",
    "https://dlskiturl.com/dls-26-english-league-classics/ — FULL page-render (milestone-by-milestone reward tables may be elided in the snippet)",
    "https://dlskiturl.com/dls-26-english-league-classics/ — full page-render (the search snippet may have elided milestone-by-milestone reward tables)",
+   "https://dlskiturl.com/dls-26-mod-apk/",
    "https://dlskiturl.com/dls-26-mod-apk/ — the mod route, to be researched per All Methods WITH a risk assessment (detection, account safety, ToS) before any mention of use",
    "https://dlskiturl.com/dls-26-mod-apk/ — the mod route; research per All Methods WITH a risk assessment (detection, account safety, ToS) before any mention of use",
+   "https://dlskiturl.com/dls-26-world-heroes-and-world-winner/",
    "https://dlsmod.com/ — a second guide/mod domain",
    "https://dlsmod.com/ — second guide/mod domain",
    "https://dream-league-soccer-2020.en.softonic.com/android/download",
@@ -11268,6 +11331,7 @@
    "https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (Card Creator with a player preloaded)",
    "https://sakibpro.com/dls-26-card-creator/?loadPlayer=28324&ovr=85 (the Card Creator with a player preloaded — may expose its data source)",
    "https://sakibpro.com/dls-26-national-team-flag-logos",
+   "https://sakibpro.com/dls-26-new-update-events-players/",
    "https://sakibpro.com/dls-26-new-update-events-players/ (full page-render — the '3 Cult Heroes from Online Events' claim and the year-stamped stat block)",
    "https://sakibpro.com/dls-26-new-update-events-players/ — full page-render: '3 Cult Heroes from Online Events', year-stamped stats, '100% Official' claim",
    "https://sakibpro.com/dls-26-world-cup-heroes-event",
@@ -11447,7 +11511,9 @@
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i4lpm0/prize_ladder_bug/ — the claim-bug thread; does the bug still exist (bearing on claiming strategy)?",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1qhuwv8/ in full — the boost arithmetic and replies",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1rf90a7/dream_league_soccer_2026_midseason_update/",
+   "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
    "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+   "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
    "https://www.youtube.com/watch?v=9Iw8nZRpijA",
    "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
    "identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend",

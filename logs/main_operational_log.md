@@ -130,3 +130,23 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## 2026-10-03T14:47:24Z — BLUFF CHECK (Turn 5, Mechanism 8)
 - Complete every step? Yes: 6 per-card fetches (the full retrieval budget) + KB/ledger/log writes + wrap-up. Remaining 2 cards (Shaqiri 28330, Vozinha 28658) explicitly carried to Turn 6 in the handoff, not dropped. Nothing presented as complete that is not.
+
+## TURN 6 (2026-10-03) — MID-SESSION MONITORING
+- One lightweight check (discovery-034) run first: no patch newer than 13.430/Sep 16; no FTG announcement newer than the Cult Heroes launch surfaced. One line: unchanged.
+
+## TURN 6 — CONFLICT (Cult Heroes acquisition route — RESOLVING)
+- Evidence converged on the agent mechanism (Cult Hero Agents from Season Pass, Online Events, Dream Draft, Market; opened in Transfer > Event; random player). Sources: SakibPro article + data tables; dlskiturl article (fetched in full); a Reddit user summary; an FTG TikTok caption (first-party, partial capture).
+- The two prior framings were reconciled rather than one discarded: the data-table "Cult Heroes Agent" was the correct route; the editorial "Season Pass track" described a source of agents.
+- Independence caveat: SakibPro and dlskiturl are separate domains but independence is NOT documented (possible shared community origin) — logged as corroboration-in-progress, not a promotion. dlskiturl carries the mod-adjacent screening flag.
+- Conflict stays formally open until a first-party page is captured directly or the user's in-game glance confirms the flow.
+
+## TURN 6 — RESEARCH (Cult Heroes: final card + collection structure)
+- page-044 (Vozinha 28658) completes the 12-record per-card harvest — all 12 octets now in the KB. page-045 (dlskiturl) supplied the 12-name table, the 16 Sep 2026 start date, the agent sources, and the "(12th Man)" label explaining the collection size.
+- New leads queued: SakibPro events article; r/DreamLeagueSoccer agent thread 1vtm4ty; the FTG TikTok video (first-party video — subtitle extraction route to test); dlskiturl World Heroes page.
+
+## TURN 6 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes: monitoring ran; 3 retrieval calls + 1 search within budget; all writes landed (ledger 342 entries / 311 visited / 403 leads); KB updated with the final card and the collection-structure block; conflict resolution logged under CONFLICT. Two malformed bash calls were rejected by input validation before execution (no partial writes, no data loss; turn clock re-written).
+- Skip anything? No undisclosed skips. Nothing incomplete presented as complete.
+
+## TURN 6 — SOURCE TYPE COVERAGE (frontier movement)
+- Leads added this turn: 5 (SakibPro events article, Reddit thread 1vtm4ty, FTG TikTok video, dlskiturl World Heroes, dlskiturl mod page). Retired: 3 (Vozinha page, dlskiturl article, the acquisition-route conflict probe). Net: expanding (ISSUE-0007 records the trend).

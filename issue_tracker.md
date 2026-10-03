@@ -55,3 +55,9 @@
 
 ## ISSUE-0008 — Log-line formatting defect (self-detected, repaired), 2026-10-03
 - A main-log line was written through an unquoted heredoc, so backticked text was command-substituted and lost; detected by grep in the same turn and repaired before commit. Internal only; no advice impact. Hygiene note recorded.
+
+## ISSUE-0009 — Unexplained "17 Cult Heroes" note from the prior session (new, 2026-10-03)
+- Current evidence (two guide sites + a Reddit summary + the 12-record server-rendered index) supports a **12-card** collection (11 heroes + community-voted 12th Man). The prior session's "17" figure has no source attached in this branch. Disposition: re-read `prior_sessions/2026-09-27_01a0e3cd/logs/sweep_tracker.md` and its notes; retire or reconcile with evidence. No advice depends on it.
+
+## ISSUE-0010 — dlskiturl.com mod-adjacent screening flag (recorded, not a defect)
+- The domain's Cult Heroes page links a "DLS 26 Mod" APK page, so mod-source screening applies to its claims (Speculative cap without non-mod corroboration). Recorded here so later sessions do not re-derive it.
