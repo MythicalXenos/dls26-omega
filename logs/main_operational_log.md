@@ -242,3 +242,15 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 13 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. Five ledger entries written before the KB/gate appends; the Core Principles material is deliberately tiered down (portfolio policy, lead only) rather than presented as DLS26 mechanics. Nothing incomplete presented as complete.
+
+## TURN 14 (2026-10-03) — MID-SESSION MONITORING
+- Apple storefront: no new event (Cult Heroes still 'HAPPENING NOW'), no version bump past 13.430. Clean.
+
+## TURN 14 — RESEARCH (second independent database pass + first-party listing text)
+- page-069 Apple listing: facilities first-party (Stadium/Medical/Commercial/Training), coaches first-party ("technical and physical abilities"), 4,000+ players, 8 divisions, 10+ cups.
+- page-070 dlsinside cult-heroes: **partial render only** (JS gallery) - no data extracted; recorded honestly as low-yield.
+- page-071/072 dreamkitsapp: second-database hub (10 special categories) + **12/12 Cult Heroes with IDs**; **independence caveat recorded** (shared img.dlsinside.com CDN + cross-advertising). New conflicts: Cult Heroes 84/83 split; Pedri 27133 87 vs 86.
+- Retrieval calls: 4 of 6. Total tool calls before wrap-up: 5 of 10.
+
+## TURN 14 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. The partial render is recorded as a partial render; the "independent database" label was downgraded to semi-independent the moment the shared CDN was seen; both new conflicts were filed instead of silently harmonised. Nothing incomplete presented as complete.

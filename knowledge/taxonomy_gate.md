@@ -129,3 +129,15 @@
 **Dimension 1:** unchanged (needs client/coaching screen). **Dimension 2:** unchanged this turn.
 
 **Official article coverage:** 12 of the 30 enumerated articles now fetched across this branch (4 in prior sessions incl. stats + this branch's 8) — remaining official leads are mostly operational/account topics (save data, User ID, device compatibility, blocked-playing, etc.), none gate-critical. **The official mechanics spine is complete.**
+
+## Turn 14 update (2026-10-03) — second-database pass (semi-independent) + first-party facilities
+
+**Dimension 4 (in-match conditions):** **"Medical" facility is now first-party named** (Apple listing: "Stadium to Medical, Commercial and Training facilities") — the stale-vendor "Medical Centre" lead is partially confirmed at the facility-name level; its *effects* (injury chance, recovery cost) remain unconfirmed. Energy/stamina mechanics still lack any first-party statement. Still the thinnest dimension, but no longer unfounded.
+
+**Dimension 1 (development):** first-party statement captured — "Use Coaches to develop your players technical and physical abilities" (Apple listing). This is the first first-party anchor for the coach mechanic; the four-type model (Technical / Fitness / Goalkeeping / Special) remains imported-vendor tier.
+
+**Dimension 6 (subsystems):** taxonomy widened by the second database — **World Heroes, Star, Secret, Kick-off Stars** now tracked alongside the seven earlier types; 8 divisions and 10+ cups confirmed first-party.
+
+**Cross-source integrity finding (applies to all dimensions):** dreamkitsapp and dlsinside share image infrastructure and cross-advertise → the "second database" is **semi-independent**; agreement between the two databases is corroboration-lite and must be labelled as such wherever used.
+
+**Gate status:** unchanged in structure — dims 1 and 4 thinnest, no dimension closed, Step 2 still blocked. Two new open conflicts logged (Cult Heroes 84/83 split; Pedri 27133 87 vs 86).
