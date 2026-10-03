@@ -67,3 +67,14 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 - Steps completed: recon, port, capture probe, capability inventory, digest part 1, handoff, logs, commit/push/PR.
 - Deferred deliberately and banner-marked: RULES DIGEST register sections 2–4 + annex (first action next turn, before any retrieval). Not presented as complete.
 - Nothing else skipped; no incomplete work presented as complete. Advice-quality impact: none (no advice delivered; bootstrap in Steps 1–4).
+
+## 2026-10-03T14:42:59Z — STATE_0_SETUP COMPLETE (RESEARCH)
+- RULES DIGEST finished: register appends A–E written, closure section added, completeness banner set to COMPLETE, zero remaining `[PENDING APPEND]` markers (verified by shell check). File size 99,396 bytes. Digest is now the behavioural authority until a verified prompt file exists (capture status DIGEST-ONLY).
+- STATE_0_SETUP artifacts complete: prompt-capture probe settled, capability inventory documented from live probes, schema updated (prior_sessions/ convention + capture-status note), repo verification/dirs/git identity done, prior-session continuity ported and archived. No multi-state collapse: STATE_1's first retrieval happens in the next turn.
+
+## 2026-10-03T14:42:59Z — MID-SESSION MONITORING (deferred, recorded)
+- Not run this turn: TURN BUDGET expressly prohibits retrieval on a setup turn (no retrieval call beyond the one PROMPT CAPTURE probe), and this turn remained in STATE_0_SETUP. Deferred to Turn 3, where it runs first, before the ledger merge and sweep resumption. Recorded so the deferral is a decision and not a silent skip. Last monitoring of record: prior session 2026-10-02 (its own check; see its preserved handoff).
+
+## 2026-10-03T14:42:59Z — BLUFF CHECK (Turn 2, Mechanism 8)
+- Complete every step? Yes within the setup-turn budget; the digest is whole and verified; deferred items (mid-session monitoring, ledger merge, probes, sweep resumption) are named above and in the handoff with reasons.
+- Skip anything? No undisclosed skips. Present incomplete work as complete? No — banner and closure reflect the true state. Advice-quality impact: none (no advice delivered; Steps 1–4 active).
