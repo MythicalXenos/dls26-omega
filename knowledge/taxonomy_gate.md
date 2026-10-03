@@ -74,3 +74,12 @@
 - **Thinnest coverage:** dimension 4 (in-match conditions) — the only substantive source is one older FTG article plus the imported stat notes; it needs a DLS26-version source.
 - **Cheapest lever for the user (batched into the Step-5 ask):** the coaching screen (coach types, rarities, prices, the +10 ceiling, whether special cards can be coached), the ladder screen (timer + DP total + milestone labels), and the currency balances. Three screenshots would move most of dimensions 1–3 from Speculative to user-stated or better.
 - **Step 2 remains blocked** from beginning until this ledger's dimensions are either sourced or carry documented exhaustion of the search (patches aside, per PATCH RESPONSE).
+
+---
+
+## Turn 10 update (2026-10-03) — dimension 4 leads + official source spine
+
+- **Dimension 4 (in-match conditions):** still the thinnest, but no longer empty. New leads (all Speculative): **Physios** as the energy/injury recovery system (coins, Common/Legendary tiers), **Medical Centre** (injury chance + recovery cost), **Training Centre** (unlocks formations + player form). Source: one stale emulator-vendor guide (2021 page age) plus a content-farm echo. **Officially confirmable:** the FTG FAQ article "How do the various player stats in DLS affect gameplay?" (already fetched, 2021-era) is the only first-party source; no first-party article on energy, stamina, substitutions or injuries was found in the 30-article index — that absence is now itself a finding to record in the exhaustion declaration.
+- **Dimension 1 (development):** weak third-party corroboration of the four-coach-type model (Technical / Fitness / Goalkeeping / Special) from the same stale guide. Still Speculative; still pending datamining.
+- **Dimensions 2–3 (currencies, tracks):** the official article index supplies four directly relevant first-party articles — **What is the Season Pass?**, **What is the Prize Ladder?**, **What are Dream Point Boosts?**, **How do I earn coins in the app?** (+ "Is it possible to earn free coins?"). These are the cheapest promotion path for those dimensions and are queued as the next official fetches.
+- **Gate status unchanged:** no dimension closed; Step 2 still blocked. The official backlog (9 mechanism-relevant FTG articles) is now the highest-value queued retrieval block.

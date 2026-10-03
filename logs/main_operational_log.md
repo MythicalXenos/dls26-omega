@@ -190,3 +190,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 ## TURN 9 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. The gate ledger is a status synthesis of already-recorded evidence (no new claims asserted); the two new pages carry ledger entries; ISSUE-0011's corrective is discharged (Turn 9 ran at full limits legitimately, no overrun).
 - Skip anything? No undisclosed skips. Nothing incomplete presented as complete.
+
+## TURN 10 (2026-10-03) — MID-SESSION MONITORING
+- One lightweight check folded into the dimension-4 search and the two official fetches: no patch newer than 13.430, no new event announcement. One line: unchanged.
+
+## TURN 10 — RESEARCH (dimension 4 probe; official source spine; collection-map validation)
+- discovery-036: dimension-4 probe surfaced **Physios** (energy recovery + injury healing, coins, Common/Legendary) and facility effects (Medical Centre, Training Centre) — single stale vendor source, incentive flagged, capped at Speculative. Content-farm and SEO-spam results filtered as non-informative.
+- page-054/055: FTG support index -> **DLS FAQ section: 30 first-party articles enumerated with URLs**, including the four that directly answer gate dimensions 2–3 (Season Pass, Prize Ladder, Dream Point Boosts, earn coins). Recorded as the official backlog spine.
+- page-056: Team of 2025 index = **11 records**, matching the imported KB exactly (second validation of the import after João Pedro).
+- Taxonomy gate updated (dimension 4 leads + official spine); KB updated.
+- Retrieval calls: 4 of 6 (monitoring/search + 3 fetches). Total tool calls before wrap-up: 6 of 10.
+
+## TURN 10 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. All four retrievals logged; gate and KB updated before any report; the one-source-stale-source caveat recorded with each lead rather than smoothed. Nothing incomplete presented as complete.
