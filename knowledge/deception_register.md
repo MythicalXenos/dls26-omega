@@ -1,0 +1,15 @@
+# Deception register
+
+**Status:** Initial source screens recorded; no source has been found to meet the prompt's threshold for registration as deceptive. This is not a declaration that any source is clean. Preserve registered entries indefinitely and annotate later reformations with evidence.
+
+## Screened sources (provisional; not cleared)
+
+| Source / source IDs | Incentive or provenance observed | Screen outcome | Remaining checks |
+|---|---|---|---|
+| First Touch Games official support and store copy (`page-001`–`page-004`, `page-009`–`page-013`, `discovery-001`, `discovery-002`, `discovery-012`) | Publisher is the primary origin for support claims and developer-submitted product/event copy; store/FTG text has engagement, installation, purchase, event, or game-retention incentives. | Attribution clear for fetched pages; any underlying mechanic remains unverified from developer assertion alone. No qualifying deception finding. | Independent current-version/gameplay verification, official-link/account ownership checks, full payload review. |
+| SakibPro player-data/tool pages (`discovery-005`, `page-007`) | Self-promotional claims include a 14,000+ database, live game-file syncing and data accuracy; filter UI links calculator/comparison utilities. | Incentive observed; claims not verified. The fetched static page did not render data; do not treat marketing claims as fact or call the site inaccessible. | Inspect JavaScript/API, archive exact claims, verify data origin and update cadence, examine tool monetization/disclosures. |
+| APKMirror catalogue (`discovery-006`, `page-008`) | Third-party APK download catalogue; ads and paid Premium membership; download traffic/affiliate incentives possible but unconfirmed. | Incentive observed; not deemed deceptive. Version/page data may echo official stores. No APK downloaded. | Trace file hashes/signatures and metadata against Play/FTG origin; examine redirects and terms before any download. |
+| Search-result/community/tutorial sources (`discovery-003`–`discovery-008`, `discovery-009`–`discovery-011`) | Search snippets may be stale, SEO-targeted, copied, mod-promotional, or monetized; several explicitly identify modified APK content or make gameplay claims. | Search-only evidence remains partial; any mod-derived claim must retain a mod label. No source is declared clean or deceptive from snippets alone. | Visit every lead, identify ownership/affiliate links/sponsorship, trace claim dates/builds and copied source lineage. |
+| App Store / Google Play user reviews (`page-001`, `page-002`, `page-012`, `page-013`) | User-generated content; reviewer identity, incentives, representativeness and version context are unknown. | Anecdotal and unverified; no consensus inferred. | Full corpus capture, date/version/language screening, deduplicate, translate relevant non-English reviews. |
+
+A screen is source-specific and claim-specific; a publisher's direct statement is evidence of what it published, not independent confirmation of game behavior. No deception determination has been promoted into the knowledge base.

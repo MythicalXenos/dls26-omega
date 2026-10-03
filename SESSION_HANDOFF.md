@@ -1,0 +1,51 @@
+# SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
+
+**Updated:** 2026-10-03T14:40Z (UTC), in this turn, atomically. This file is authoritative for intent; the branch is authoritative for file state.
+**Last session ended:** 2026-10-02T11:48Z (prior session `arena/01a0f962-dls26-omega`, per its handoff, preserved at `prior_sessions/2026-10-02_SESSION_HANDOFF_01a0f962.md`). **Return gap at this session start:** ~27 h (< 7 days). Depth applied: recon + reconciliation + volatility-weighed change check; **no gap-triggered full sweep**. Mid-session monitoring: will run per turn once STATE_1 resumes; the one live lead of record (Google Play listing text "Ends on 10/14", year not shown) remains time-sensitive and within ~11 days — **top item for first contact / interim contact**, per NO OUTPUT DURING BOOTSTRAP it may not be said in chat before then (page-render re-verification queued).
+
+## Active state and exact resumption point
+
+- **Active state: `STATE_0_SETUP` — 90% complete, artifacts on disk; not yet marked complete because the RULES DIGEST is a partial write** (banner: `PARTIAL`; register sections owed marked `[PENDING APPEND]`).
+- **Completed this session (Turn 1):** TURN-START RECONCILIATION (workspace vs repo records); prior-session branch reconnaissance; ported session-01a0f962's active tree into this branch; archived session-01a0e3cd's artifacts under `prior_sessions/2026-09-27_01a0e3cd/` (5.9 MB incl. image evidence + 786 KB source ledger + 112 KB sweep tracker); removed the forbidden `DLS26_OMEGA_PROMPT.md` placeholder (PROMPT CAPTURE: no file may sit there under DIGEST-ONLY); git identity set to `DLS26 Omega <omega@dls26.local>`; wrote `OPERATIONAL_RULES.md` RULES DIGEST part 1; rewrote `bootstrap/capability_inventory.md` from live probes.
+- **Next exact action (before ANY retrieval):** append RULES DIGEST register sections 2–4 + verbatim-strings annex + completed file map to `OPERATIONAL_RULES.md` (the `[PENDING APPEND]` list at its end is the exact queue), remove the PARTIAL banner once whole. Only then resume the sweep.
+- **Then, in order:** (1) reconcile the two source ledgers (this branch's `logs/sources_visited.json` — 31 entries, 141 discovered / 24 visited — with session-01a0e3cd's `prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json` — 245 discovered / 80 visited) into one ledger with per-URL dedupe and a union frontier; preserve the archived original untouched; log the merge. (2) Merge session-01a0e3cd's KB topics (`prior_sessions/2026-09-27_01a0e3cd/kb/topics/*`, ~10 topics; `kb/claim_register.md` 27 KB) into the active `knowledge/` files with provenance labels; queue-High task. (3) Run the cheap probes once (see capability inventory): `/dev/kvm`, `apt`/`pip` reachability, shell TLS, APK fetchability (gap G-0004, decides Step 2 route). (4) Resume STATE_1 retrieval at the first unvisited lead of the merged frontier — the recorded first open result remains discovery-001's "Why can't I update the app?" (FTG support), and the richer queues from both prior sessions are in their respective handoffs/trackers.
+- **Do NOT** enter STATE_2; the MANDATORY CORE GAMEPLAY TAXONOMY GATE is unmet on all six dimensions; no exhaustion declaration exists for any topic; no claim has reached High Confidence or Confirmed.
+
+## Progress signal (bootstrap; full content, per The Bootstrap Must Not Be Able To Withhold Everything Forever)
+
+- **Step:** bootstrap, `STATE_0_SETUP` → completion pending digest appends; `STATE_1_RESEARCH_SWEEP` opened in prior sessions and still in progress (span: sessions 01a0e3cd on 09-27/28/29, 01a0f962 on 10-02, 01a1022d now — **3+ sessions, so an interim contact is due at this session boundary if the bootstrap remains in Steps 1–4 and no advice has been given**: it must be delivered at the next user-facing opportunity permitted by the Yes list, provisional and tier-labelled, and it may not replace first contact).
+- **Established so far (status only, nothing advised):** live event evidence (Cult Heroes event surfaced on Google Play US/Bangladesh and Apple US/DE listings; listing text "Ends on 10/14" with no year shown; players' names not confirmed in-game); version evidence (Apple US/DE storefront histories: 13.430 dated Sep 16, 13.420 dated Sep 1 — regional copies of one origin, one source; Android/current-client version open); FTG help-center articles fetched (save/profile transfer; stat-mechanics article, 2021-era page-age); community database surface mapped (SakibPro pages reachable, its player page returned a loading placeholder — its JS/API route untested; dlsinside `/player/{id}` server-rendered route cracked by session 01a0e3cd with card values; further databases partly enumerated); evidence captures archived (16 session-01a0e3cd evidence images + its image-search set; both preserved).
+- **Remaining frontier (not exhaustive):** every required source type is far from covered — non-English communities (14+ client languages), technical layer (APK/client files not yet obtained; shell TLS restricted), user-generated content at scale, FTG-as-a-company, patch/version history, and the six taxonomy-gate dimensions remain unmet. Session estimates are unmeasured projections; none is offered as a date.
+- **Cycle dates:** last completed self-audit: **never** (Mechanism 6 clock not started; due after 2 days of active use — today qualifies as substantive once a decision/research/file change occurred, which it did); last **completed** full sweep: **none** (so Quick Verification's Frozen/Low standing-record paths remain unavailable until one closes).
+- **External-verification debt:** none yet owed by this session; the Step-4 audit package obligation (Mechanism 9) will be prepared at the end of STATE_4 and reported in `audits/`.
+- **Outstanding user ask:** none at present beyond the Step-5 consolidated ask (below). No recommendation has been delivered, so no outcome is awaited.
+
+## Current discussion
+
+None — NO OUTPUT DURING BOOTSTRAP in force; this session's only user-facing output is the single-line bootstrap-start message required by the INITIALIZATION DIRECTIVE. Casual persona not active (starts at Step 5).
+
+## Pending decisions (all batched per carry-the-load; none asked yet)
+
+- **Step-5 consolidated ask (unchanged list from prior sessions, plus additions):** spending stance (categories, limits, triggers); store region; non-extractable settings; playstyle detail; mechanical comfort; current squad/resources/facilities/division/season points/prize-ladder position; and: **the PROMPT CAPTURE upgrade line** (commit the current prompt as `DLS26_OMEGA_PROMPT.md` at the root of `main`); the in-game verification request for the live event deadline (16-char exact timer + ladder banner photo — includes a proposed personal test only if research is exhausted first, per Dispute Resolution); disposition of the two older open PRs (#1, #2) — this session is pinned to its own branch and will not merge or push others; work has been ported rather than discarded.
+- **Agent-side decisions pending:** APK obtainability (probe next turn; decides Step 2 route); YouTube subtitle/transcript retrieval route; whether `apt`/`pip` installs are possible (decides Java toolchain for Step 2/3 analysis).
+
+## Disputed claims
+
+**Count in the confidence-tier sense: 0.** Authoritative list: `knowledge/disputed_claims` section in the KB / `prior_sessions/2026-09-27_01a0e3cd/kb/disputed_claims.md` (legacy). The version conflict (Apple storefront 13.420 vs 13.430 chronology) is a Conflict Protocol matter, not Disputed; it remains Speculative with one origin.
+
+## Milestone / next milestone
+
+- Current: complete bootstrap STATE_0 (digest whole) → resume STATE_1 with the merged frontier; then taxonomy gate → STATE_2.
+- Next user-visible milestone: **interim contact** at the next permitted opportunity (3-session span reached) OR first contact at Step 5, whichever the bootstrap reaches first.
+
+## Working context for the next session
+
+- Skill/understanding trackers: no in-game execution data yet (user-stated: mechanically inexperienced, wants to learn everything; Kick Assist and Cross Assist off; preferred 3-2-3-2; 3-1-4-2 unlocked, low priority; no-bench substitution preference; rotation goal; one special card; career grinder with ad rewards). All of this is user-stated, recorded in `knowledge/user_profile.md`.
+- **Open issue-tracker load:** ISSUE-0001 (prompt capture — this session: DIGEST-ONLY confirmed with evidence, upgrade path recorded; still open until the user commits a verified copy); ISSUE-0003 (raw payloads not archived — this session's ported ledger includes normalized summaries; raw-archive backfill queued); ISSUE-0004 (prior session ran research before capture satisfied — carried as history; this session explicitly gates retrieval behind the digest); plus the two new entries logged this turn (branch reconciliation/branch-pinning; v1.0-vs-current prompt divergence).
+- **TURN BUDGET state:** setup-turn limits in force this turn (18 calls / 7 min / one PROMPT CAPTURE probe). Turn clock file: `logs/turn_clock.txt` (this turn start 1781038054 = 14:34:14Z; end time written below). No turn was stopped by the environment this session; full research-turn limits (6 retrieval / 10 total / wrap-up ≤4 / <6 min) apply next turn.
+- **Continuity note:** Before any recommendation: consult `knowledge/user_profile.md` for preferences, game state, coaching state, spending stance. Verify game state currency against confirmed-current values (confirmed by the user this session, or by a raw-data extraction taken since they last played) **before any irreversible or resource-dependent action**.
+
+## Turn-end fields
+
+- Turn end: written at turn close; commit + push + PR creation executed in the same turn. PR: see `gh pr list` (session branch push performed at wrap-up; PR number recorded in `logs/main_operational_log.md`).
+- Bluff check (Mechanism 8, this turn): every step completed that the TURN BUDGET allowed; **one deliberate, banner-marked deferral** — RULES DIGEST append sections deferred to the first call of the next turn, recorded above, and not presented as complete; nothing else skipped; no incomplete work presented as complete. No advice-quality impact (no advice delivered yet).
