@@ -203,3 +203,15 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 10 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. All four retrievals logged; gate and KB updated before any report; the one-source-stale-source caveat recorded with each lead rather than smoothed. Nothing incomplete presented as complete.
+
+## TURN 11 (2026-10-03) — MID-SESSION MONITORING
+- One lightweight check ran last (discovery-037) and returned materially useful first-party material, not just a status line: Apple's version history now exposes 13.430 (Sep 16), **13.410 (Aug 20, "Summer Spotlight": Dynamic Stars, Fanzone facility, World Tournament)**, 13.320 (Jun 8). No patch newer than 13.430. Recorded here as a monitoring hit with content; no action changes.
+
+## TURN 11 — RESEARCH (official first-party block: Season Pass / Prize Ladder / DP Boosts / coin sources)
+- Four FTG support articles fetched direct and complete (page-057..060): Season Pass mechanics (two tiers, Progress Bank = DLL XP paid at season end, day-by-day tier locks, Season Points vary by mode), Prize Ladder award set, DP Boost scope + **first-party boost carry-over answer**, and the coin-source list.
+- **RESOLVED (first-party):** unused DP Boosts carry into the next Prize Ladder; the Progress Bank is a DLL-XP season-end payout; Fanzone is a facility (not merely an event name); World Tournament is a real event type.
+- **NEW CLAIM SOURCE CLASS LOGGED:** these are direct-evidence claims with a single origin; per the gates they cap below High Confidence — ISSUE-0013 records the tension, referencing the archived PROPOSED amendment #2.
+- Retrieval calls: 5 of 6 (4 article fetches + 1 monitoring search). Total tool calls before wrap-up: 7 of 10.
+
+## TURN 11 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. All five retrievals logged with full ledger entries; KB and gate ledger updated before any report; tier caps stated honestly rather than upgraded because FTG said it. Nothing incomplete presented as complete.

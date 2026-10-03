@@ -72,3 +72,9 @@
 
 ## ISSUE-0012 — Essien OVR 84-vs-85 conflict: RESOLVED (2026-10-03)
 - Resolved in favour of **85** (ladder four: Essien 26838 = 85; Cole 27096 / Petit 27203 / Berbatov 27675 = 84). SakibPro's all-84 article line reflects its computed OVR estimate convention (runs −1 on some cards; site flags OVRs ESTIMATED). Standing rule adopted branch-wide: database OVR labels are estimates; extracted or in-game OVR is ground truth.
+
+## ISSUE-0013 — Tier ceiling for first-party documentation (system-state entry, 2026-10-03)
+- **Observation:** FTG's own published documentation is the highest-quality evidence route available for mechanics (direct, checkable, unambiguous), yet under the Promotion Gates a single origin — even FTG's — cannot pass High Confidence or Confirmed, because those require ≥2 or ≥3 **independent** sources and all FTG statements descend from one origin. The practical effect: the most authoritative facts in the KB sit at Speculative-with-direct-origin; the strongest tier reachable for a first-party-only mechanic is Community Consensus (which requires 5 independent members endorsing it) — a tier explicitly defined as *below* High Confidence and intended for agreement without a checkable origin.
+- **Prior art:** the archived prior session already raised this as **PROPOSED amendment #2** ("direct-origin tier for first-party claims") in `prior_sessions/2026-09-27_01a0e3cd/prompt_versions/CHANGELOG.md`, awaiting the user. This session re-encounters the same tension and adds evidence.
+- **Action taken:** none beyond recording — the rule is followed as written (tier caps applied honestly), the proposal stays with the user, and the tension is carried to first contact.
+- **Class:** system-state entry → investigated by pattern-check per the Issue Tracker rule (no root-cause investigation required).

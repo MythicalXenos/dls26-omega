@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-03T15:13:54Z",
+ "last_reconciled_at": "2026-10-03T15:35:19Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -11451,11 +11451,107 @@
    "conflicts": "none; a second independent validation of the imported KB (count + a spot card).",
    "kb_claims": "knowledge/knowledge_base.md (card-collection map updated)",
    "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-057-ftg-season-pass-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T15:35:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY (header: applicable from DLS version 12200 onwards). Season Pass has two tiers: FREE and SEASON PASS (premium, activated by 'Activate Pass!'). Paid pass unlocks the **Progress Bank**, which rewards currency based on **DLL (multiplayer) XP**, paid at the END of the season. Premium turns profile elements gold. NOT a subscription; bought each season; season end date shown on the Season Pass message box countdown for all users. Pass lasts the whole season; late purchase still allows all content 'regardless of time locks between tiers' provided Season Points are earned (example: buy day 4 -> can work toward tier 5). **Season Points are earned from completing matches; the amount varies by game mode.** Buying the pass instantly unlocks premium content for already-unlocked free tiers. **Tier locks correspond to the day the season is on** - rewards up to the current tier are unlocked, later ones unlock day by day. Premium removes all tier locks.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party documentation; direct evidence).",
+   "conflicts": "None. NOTE: this resolves the imported KB's open 'Bank-claim gate' question partially - the Progress Bank is explicitly tied to DLL XP and paid at season end.",
+   "kb_claims": "knowledge/knowledge_base.md (official mechanics block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems"
+   ]
+  },
+  {
+   "source_id": "page-058-ftg-prize-ladder-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/23108987826962-What-is-the-Prize-Ladder",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T15:35:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY. Prize Ladder 'awards items based on your progression. The items can include - coins, gems, coaches, dream point boosts, special players and more!' Dream Points are given in matches; more earned = more rewards. Dream Point Boosts can be purchased and temporarily increase DP awarded.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party; direct evidence).",
+   "conflicts": "None; corroborates the imported community model's reward set.",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-059-ftg-dp-boosts-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T15:35:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY. DP Boosts are purchased WITHIN the Prize Ladder and temporarily increase DP awarded. They apply to **career, Dream Draft, scenario and DLL (multiplayer) matches** and NOT to exhibition or friend matches. They cannot be used if the ladder is complete or inactive. **Unused DP Boosts REMAIN IN INVENTORY FOR THE NEXT PRIZE LADDER.** 'subject to change as we run live services'.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party; direct evidence).",
+   "conflicts": "**RESOLVES the imported KB's open community question on boost carry-over** (G-0044-class): carry-over is CONFIRMED by FTG's own documentation, with the caveat that FTG reserves the right to change live-service behaviour.",
+   "kb_claims": "knowledge/knowledge_base.md (official mechanics block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-060-ftg-earn-coins-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T15:35:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY coin-source list: winning matches; drawing matches; clean sheets; scoring goals; stadium bonuses; season objectives; season pass rewards; prize ladder rewards; final league positions; cup wins; **watching video clips (where available)**. No rates given.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party; direct evidence).",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (official mechanics block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins"
+   ]
+  },
+  {
+   "source_id": "discovery-037-monitor-apple-version-history",
+   "event_type": "discovery_search",
+   "url": "https://www.google.com/search?q=Dream+League+Soccer+26+new+event+update+October",
+   "domain": "google.com",
+   "retrieved_at": "2026-10-03T15:35:19Z",
+   "retrieval_role": "discovery-search",
+   "tool": "web_search(depth 1)",
+   "http_status": 200,
+   "source_type": "mixed",
+   "language": "en",
+   "payload_summary": "MONITORING (rich). Apple US storefront version history surfaced with several dated entries: **13.430 Sep 16** 'late summer update - Cult Heroes collection coming soon'; **13.410 Aug 20 'Summer Spotlight update'** - Dynamic Stars ('collect Special Players, upgrading live with national team performances'), a NEW FACILITY 'Fanzone' ('upgrade for Clan bonuses and Stadium discounts'), International Football - new 'World Tournament' event type, Manager Accessories (North American themed), Clan Improvements (interactions, emoji reactions); **13.320 Jun 8** - updated 2025/26 player data, increased squad size (unlimited special players), improved venues, Kick-Off Stars (Raphinha/Alvarez), soundtrack, commentary, cutscenes. Apple Events block: **LIVE EVENT 'Cult Heroes - Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.'** Also: a YouTube video 'DLS 26 NEW UPDATE!' dated Sep 3 2026 (event arrival) - video lead; and the Play listing promo text unchanged ('Ends on 10/14'; 'Play Fest starts on October 13').",
+   "processing_state": "processed",
+   "deception_screen": "Apple storefront = first-party distribution text (clean); YouTube = user-generated (lead only).",
+   "conflicts": "Timeline note: the Play listing's Sep 14 'Cult Heroes coming soon' text sits BETWEEN Apple's Aug 20 (Summer Spotlight) and Sep 16 (13.430) entries - consistent with a staged rollout, not a contradiction. Also: 'Fanzone' is confirmed as a FACILITY name by first-party text (the imported KB had it as a third-party event name only).",
+   "kb_claims": "knowledge/knowledge_base.md (patch/version block; facility list)",
+   "discovered_not_yet_visited": [
+    "https://www.youtube.com/watch?v=TEPdxbaS9QY"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 316,
-  "unvisited_total": 437,
+  "visited_total": 321,
+  "unvisited_total": 439,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -11753,6 +11849,7 @@
    "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app",
    "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
    "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players",
+   "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems",
    "https://support.ftgames.com/hc/en-us/articles/360003914998-What-are-Leaderboards",
    "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players",
    "https://support.ftgames.com/hc/en-us/articles/360003945937-How-do-I-change-my-manager",
@@ -11836,6 +11933,7 @@
    "https://www.tiktok.com/@dreamleaguesoccer.ftg",
    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
    "https://www.youtube.com/watch?v=9Iw8nZRpijA",
+   "https://www.youtube.com/watch?v=TEPdxbaS9QY",
    "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
    "identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend",
    "image_search of the 1qhuwv8 boost thread's attached images (comments unreachable by any route)",

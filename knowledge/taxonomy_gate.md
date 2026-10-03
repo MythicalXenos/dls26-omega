@@ -83,3 +83,23 @@
 - **Dimension 1 (development):** weak third-party corroboration of the four-coach-type model (Technical / Fitness / Goalkeeping / Special) from the same stale guide. Still Speculative; still pending datamining.
 - **Dimensions 2–3 (currencies, tracks):** the official article index supplies four directly relevant first-party articles — **What is the Season Pass?**, **What is the Prize Ladder?**, **What are Dream Point Boosts?**, **How do I earn coins in the app?** (+ "Is it possible to earn free coins?"). These are the cheapest promotion path for those dimensions and are queued as the next official fetches.
 - **Gate status unchanged:** no dimension closed; Step 2 still blocked. The official backlog (9 mechanism-relevant FTG articles) is now the highest-value queued retrieval block.
+
+---
+
+## Turn 11 update (2026-10-03) — official first-party block fetched (four articles + version history)
+
+**Dimension 2 (currencies, what they buy):** FTG's own coin-source list captured (winning, drawing, clean sheets, goals, **stadium bonuses**, season objectives, pass rewards, ladder rewards, final league positions, cup wins, **watching video clips**). Prize Ladder reward set confirmed first-party: coins, gems, coaches, **dream point boosts**, special players. DLL XP named as the Progress Bank driver (DLL = Dream League Live, multiplayer). **Remaining open:** rates, gem sources (article "How can I get Gems?" queued), whether DP itself is purchasable with gems/coins (imported claim, unreconciled).
+
+**Dimension 3 (recurring tracks — how they accumulate and reset):** substantially strengthened by first-party evidence:
+- Season Pass: two tiers, **Season Points earned from completing matches (amount varies by game mode)**, tier locks advance **one day at a time**, premium removes locks, late purchase still unlocks everything if points are earned, **Progress Bank pays at season end based on DLL XP**, season end shown on a countdown for everyone.
+- Prize Ladder: DP from matches, rewards at milestones, DP Boosts purchasable inside the ladder and applicable to career/Draft/scenario/DLL only.
+- **Boost carry-over RESOLVED first-party:** unused DP Boosts persist into the next ladder.
+- **Remaining open:** exact reset rules for unclaimed ladder milestones, whether the ladder and pass seasons share boundaries, gem-income rates, and the still-unsettled storefront "Ends on 10/14" reading (event vs ladder).
+
+**Dimension 6 (further subsystems):** **Fanzone confirmed as a facility by first-party text** ("Upgrade your Fanzone for Clan bonuses and Stadium discounts", v13.410 notes) — previously only a third-party event name. **World Tournament** confirmed as a first-party event type. **Dynamic Stars** confirmed first-party with a mechanic description worth following ("upgrading live with national team performances").
+
+**Dimension 1 (development):** unchanged this turn (still needs the coaching screen or the client).
+
+**Dimension 4 (in-match conditions):** unchanged this turn; still the thinnest.
+
+**Gate status:** dimensions 2 and 3 are now the strongest (first-party mechanics + imported community models converging); 1 and 4 remain the thinnest. Still no dimension closed; Step 2 still blocked.
