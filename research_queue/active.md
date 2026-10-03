@@ -15,3 +15,9 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [queue-High] Run the Conflict Protocol check on 12-vs-17 Cult Heroes counts once both framing sources are re-read.
 - [queue-Medium] Incentive-screen dlskits.mobi and thesoccerera.com before any use of their update narratives.
 - [queue-Medium] Second independent database pass (DR-001 carry-over) to cross-check Cult Heroes OVRs and the coach "+10" FAQ claim.
+
+## Added 2026-10-03 Turn 4
+- [queue-Critical] Cult Heroes acquisition route (Cult Heroes Agent vs Season Pass) — resolve via FTG first-party channels, a second database, or in-game check; logged as an open CONFLICT. Everything connected (Season Pass, Agents) is in the conflict scope, queued behind the current sweep block.
+- [queue-High] Harvest remaining Cult Heroes per-card pages (Insigne 28328, David Luiz 28325, Otamendi 28334, Ziyech 28332, Ander Herrera 28329, Blind 28326, Shaqiri 28330, Vozinha 28658) for octets.
+- [queue-High] SakibPro card-type indexes: season-pass, dynamicstar, world-winners, champion, team2025, classic, normal + /tools/.
+- [queue-Medium] Reconcile the 12-vs-17 Cult Heroes count conflict.

@@ -102,3 +102,23 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## POST-SCRIPT (Turn 3): ISSUE-0008 recurrence and fix
 - The unquoted-heredoc defect recurred once more in the same turn (a backticked path inside the SOURCE TYPE COVERAGE entry). Detected by the shell's stderr and repaired in a follow-up commit. Root cause: unquoted heredoc delimiters on multi-line log appends. Standing fix adopted for this session's files: **always quote heredoc delimiters (<<'EOF') or avoid backticks in appended text.** Logged here so the next session inherits the fix.
+
+## 2026-10-03T14:46:04Z — MID-SESSION MONITORING (Turn 4)
+- One lightweight check (discovery-033). No patch newer than Apple 13.430 (Sep 16) surfaced; storefront text unchanged since the last check ("late summer update", Cult Heroes "coming soon"). Nothing that changes the next action. One line: unchanged.
+
+## 2026-10-03T14:46:04Z — RESEARCH (Cult Heroes per-card harvest, batch 1 of 3)
+- page-034 (Dybala 28333) and page-035 (Isco 28327): the per-player SakibPro route is server-rendered and yields the full stat octet, birth date, physicals, acquisition route and the site's own max-potential claim. Recorded in the KB with Speculative tier and the source's self-flagged "ESTIMATED" base OVR noted. Isco's CON/PAS/STA values match the prior session's independent capture exactly — a provenance strengthening for that octet, not a promotion (same origin class: one database vs the prior capture; the promotion gate needs documented independence).
+- Important structural finding: acquisition is stated as the **Cult Heroes Agent** (not coin price), and cards carry era labels (2020, 2017).
+
+## 2026-10-03T14:46:25Z — CONFLICT (opened, Conflict Protocol active)
+- **Within-source contradiction, SakibPro, on the Cult Heroes acquisition route:** data tables + FAQ = "Cult Heroes Agent"; editorial paragraph on the Aubemeyang page = "upcoming Season Pass track". One source, two routes ⇒ internal-consistency check fails; both statements capped at Speculative; the source's route claim is not usable until resolved. Scope set by the trigger (sweep the acquisition route and everything connected): event delivery mechanics, Season Pass, Agents. Work staged behind the current block per SWEEPS DO NOT NEST (a conflict found inside the sweep is absorbed where the running sweep already contains it — the running sweep does contain the Cult Heroes scope; the deeper Season Pass/Agent sub-sweep is queued). Resolution routes: FTG first-party channels; in-game observation by the user (cheapest, decisive); second database.
+- **Practical note for the user's own context (not advice, status):** their stated situation is "grinding prize ladder for a special player" — if Cult Heroes is Season-Pass-delivered rather than prize-ladder-delivered, that is a different track with different reset behaviour; unresolved, so no change to any plan, and nothing advised while the bootstrap runs.
+
+## 2026-10-03T14:46:25Z — RESEARCH (Cult Heroes per-card harvest, batch 2)
+- page-036 (de Gea 28324) and page-037 (Aubameyang 28331) captured with full octets; GK stat set differs by position (Reactions/Handling replace Stamina/Shooting). Recorded in the KB with Speculative tier and source-flagged ESTIMATED base OVRs.
+- New taxonomy surface observed: SakibPro card-type routes now known — normal, classic, cult-heroes, dynamicstar, team2025, world-winners, champion (+ season-pass pending). All queued as leads.
+
+## 2026-10-03T14:46:37Z — BLUFF CHECK (Turn 4, Mechanism 8)
+- Complete every step? Yes within the research-turn budget: monitoring ran (discovery-033); 4 per-card pages fetched (5 retrieval calls of 6); ledger updated to 333 entries / 310 visited / 376 leads; KB appended with two dated card blocks; conflict logged under CONFLICT with its scope; queue updated.
+- Skip anything? No undisclosed skips. The conflict deep-dive is explicitly staged (SWEEPS DO NOT NEST) and so recorded, not omitted. Nothing incomplete presented as complete.
+- New finding to carry: the source's per-card "Acquired Via" field and its editorial text disagree; treat any SakibPro prose claim as lower-trust than its structured table fields pending resolution.
