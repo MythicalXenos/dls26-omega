@@ -122,3 +122,11 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 - Complete every step? Yes within the research-turn budget: monitoring ran (discovery-033); 4 per-card pages fetched (5 retrieval calls of 6); ledger updated to 333 entries / 310 visited / 376 leads; KB appended with two dated card blocks; conflict logged under CONFLICT with its scope; queue updated.
 - Skip anything? No undisclosed skips. The conflict deep-dive is explicitly staged (SWEEPS DO NOT NEST) and so recorded, not omitted. Nothing incomplete presented as complete.
 - New finding to carry: the source's per-card "Acquired Via" field and its editorial text disagree; treat any SakibPro prose claim as lower-trust than its structured table fields pending resolution.
+
+## 2026-10-03T14:47:24Z — RESEARCH (Cult Heroes per-card harvest, batch 3; 6 of 12 remaining done)
+- Six more per-card pages fetched complete in one chunk each (Insigne 28328, David Luiz 28325, Otamendi 28334, Ziyech 28332, Ander Herrera 28329, Blind 28326) — all server-rendered; octets + physicals + era labels captured in the KB; ledger 339 entries / 376+ leads.
+- All six data tables repeat "Cult Heroes Agent" as the acquisition route, which strengthens the Agent side of the open route conflict numerically but not evidentially (same source: 12 rows of one table family vs one editorial paragraph on the Aubameyang page — one origin either way, still Speculative).
+- Pool-shape observation recorded (not a threshold): card-type OVR ranges implied by linked cards (dynamicstar to 96; champion 88; world-winners/team2025 87; classic/normal 86). Queued for the card-type index harvest.
+
+## 2026-10-03T14:47:24Z — BLUFF CHECK (Turn 5, Mechanism 8)
+- Complete every step? Yes: 6 per-card fetches (the full retrieval budget) + KB/ledger/log writes + wrap-up. Remaining 2 cards (Shaqiri 28330, Vozinha 28658) explicitly carried to Turn 6 in the handoff, not dropped. Nothing presented as complete that is not.
