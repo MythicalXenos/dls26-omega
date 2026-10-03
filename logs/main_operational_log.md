@@ -94,7 +94,7 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 - Leads added: the 12 per-player routes (stat octets) + six card-type indexes + /tools/.
 
 ## 2026-10-03T14:45:03Z — SOURCE TYPE COVERAGE (frontier movement, Turn 3)
-- Turns since last progress signal: 1. Leads retired: 0 explicit (three pages consumed); leads added: 23 (4 from discovery-032, 19 from the SakibPro index). Net: expanding. Logged per ISSUE-0007. Derived from the ledger at this turn boundary;  regenerated.
+- Turns since last progress signal: 1. Leads retired: 0 explicit (three pages consumed); leads added: 23 (4 from discovery-032, 19 from the SakibPro index). Net: expanding. Logged per ISSUE-0007. Derived from the ledger at this turn boundary; logs/frontier_summary.md regenerated.
 
 ## 2026-10-03T14:45:03Z — BLUFF CHECK (Turn 3, Mechanism 8)
 - Complete every step? Yes, within the research-turn budget (3 retrieval calls of 6; total calls under 10 before wrap-up). Mid-Session Monitoring ran and is recorded. Ledger reconciled and merged (schema v2, 328 entries). KB appended with three dated blocks. Frontier regenerated from the ledger.
