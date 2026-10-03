@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-03T15:35:19Z",
+ "last_reconciled_at": "2026-10-03T17:46:33Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -11547,11 +11547,93 @@
    "discovered_not_yet_visited": [
     "https://www.youtube.com/watch?v=TEPdxbaS9QY"
    ]
+  },
+  {
+   "source_id": "page-061-ftg-free-coins-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T17:46:33Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY, short: 'Yes, you can watch short video clips to earn free coins (subject to availability).'",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party; direct evidence).",
+   "conflicts": "None; independently confirms the coins article's 'watching video clips' entry, and corroborates the user's stated career-mode ad-watching loop as an intended coin route.",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-062-ftg-difficulty-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T17:46:33Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY. Single-player difficulty starts easy and changes as users progress UP AND DOWN THE DIVISIONS. 'Additionally, in DLS25, we introduced the ability to change the base difficulty to either Medium or Hard.' Dream League Live (multiplayer): users always play another real user, 'no bots are used', no control of difficulty, no manipulation of any in-game situation including team-mate AI, no influencing of outcomes. Links to FTG's Core Principles page (www.ftgames.com/core-principles) and the DLL matchmaking article (/articles/360018359998).",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "None. Note: no DLS26-specific difficulty change announced; base-difficulty setting still dated to DLS25.",
+   "kb_claims": "knowledge/knowledge_base.md (difficulty + multiplayer integrity block)",
+   "discovered_not_yet_visited": [
+    "https://www.ftgames.com/core-principles",
+    "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work",
+    "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+    "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live"
+   ]
+  },
+  {
+   "source_id": "page-063-ftg-obtain-players-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T17:46:33Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY player-acquisition routes: (1) TRANSFERS - purchase; 'new players appear each in-game week i.e. after playing a single player match'; (2) SCOUTS - find a selection of players at a discounted rate; (3) AGENTS - immediately add a player to your squad; (4) PRIZE LADDER - 'awards special rare players when the criteria is met'.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "None; independently corroborates the ladder special-player route and the imported board/transfer-weekly-refresh model.",
+   "kb_claims": "knowledge/knowledge_base.md (player acquisition block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS"
+   ]
+  },
+  {
+   "source_id": "discovery-038-monitor-dls26-update-news",
+   "event_type": "discovery_search",
+   "url": "https://www.google.com/search?q=%22Dream+League+Soccer%22+2026+update+news+this+week",
+   "domain": "google.com",
+   "retrieved_at": "2026-10-03T17:46:33Z",
+   "retrieval_role": "discovery-search",
+   "tool": "web_search(depth 1)",
+   "http_status": 200,
+   "source_type": "mixed",
+   "language": "en",
+   "payload_summary": "MONITORING + version-chronology fix. fifaworldcupnews.com article: **Version 13.420 released 1 September 2026** (previous 13.410; highlight 'Cult Heroes special players coming soon'; bug fixes), Android upload Sep 1 and App Store also lists 13.420 - this slots cleanly between Apple's 13.410 (Aug 20) and 13.430 (Sep 16) and **resolves the 13.420-vs-13.430 chronology conflict as a three-release sequence**. Second result (thesoccerera, pageAge Jun 7 2026) re-describes launch-era and a 'Winter Reload' update listing Dream Stars 26, 12th Man Vote, News System changes, Clan upgrades, Game Centre support - mixed recency, lead only. Third result: a pre-launch Reddit prediction thread (Nov 29 2025) about the DLS26 release date; noted only for the DLS25-era fact that a 'British Classics' prize ladder ended Nov 30 2025 immediately before the season changeover - a weak signal that ladder seasons are aligned to the annual version switch.",
+   "processing_state": "processed",
+   "deception_screen": "first result = aggregator site (secondary); second = aggregator; third = user-generated. All lead-tier only.",
+   "conflicts": "Resolved: 13.410 (Aug 20) -> 13.420 (Sep 1) -> 13.430 (Sep 16) is now the coherent sequence (conflict (a) closed).",
+   "kb_claims": "knowledge/knowledge_base.md (version block)",
+   "discovered_not_yet_visited": [
+    "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+    "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 321,
-  "unvisited_total": 439,
+  "visited_total": 325,
+  "unvisited_total": 441,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -11912,11 +11994,13 @@
    "https://www.facebook.com/firsttouchgames/mentions",
    "https://www.facebook.com/firsttouchgamess",
    "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features",
+   "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
    "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ (full page-render, flagged source — the version chain and the July 'Cult Heroes tweaks' claim)",
    "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ — full page-render (flagged source): version chain, July 'Cult Heroes tweaks' claim",
    "https://www.firsttouchgames.com",
    "https://www.firsttouchgames.com/images/logos/DLS_Logo.png",
    "https://www.firsttouchgames.com/support",
+   "https://www.ftgames.com/core-principles",
    "https://www.ftgames.com/games",
    "https://www.ftgames.com/privacy-policy",
    "https://www.instagram.com/firsttouchgames_official",

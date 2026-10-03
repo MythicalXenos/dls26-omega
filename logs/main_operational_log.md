@@ -215,3 +215,14 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 11 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. All five retrievals logged with full ledger entries; KB and gate ledger updated before any report; tier caps stated honestly rather than upgraded because FTG said it. Nothing incomplete presented as complete.
+
+## TURN 12 (2026-10-03) — MID-SESSION MONITORING
+- discovery-038 returned a concrete version fix rather than a bare status: **13.420 = Sep 1, 2026** (aggregator), making 13.410 (Aug 20) → 13.420 (Sep 1) → 13.430 (Sep 16) a coherent sequence. Conflict (a) closed in-file.
+
+## TURN 12 — RESEARCH (official block part 2: gems / free coins / difficulty / players)
+- page-061 free-coins: video clips, subject to availability. page-062 difficulty: division-driven single-player difficulty + Medium/Hard base setting (since DLS25) + DLL bot-free statement. page-063 acquisition: transfers (weekly refresh), scouts, agents, prize-ladder special players.
+- Four new canonical first-party URLs queued (Core Principles, DLL matchmaking, multiplayer troubleshooting, blocked-from-playing).
+- Retrieval calls: 5 of 6 (1 monitoring search + 4 fetches). Total tool calls before wrap-up: 6 of 10.
+
+## TURN 12 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. Every retrieval has a full ledger entry written before this log; KB/gate appends precede any reporting; one conflict closed on evidence and one prior claim (DLL payment equality) left untouched as unverified. Nothing incomplete presented as complete.

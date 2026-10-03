@@ -103,3 +103,17 @@
 **Dimension 4 (in-match conditions):** unchanged this turn; still the thinnest.
 
 **Gate status:** dimensions 2 and 3 are now the strongest (first-party mechanics + imported community models converging); 1 and 4 remain the thinnest. Still no dimension closed; Step 2 still blocked.
+
+## Turn 12 update (2026-10-03) — official block part 2
+
+**Dimension 2 (currencies):** gem sources now first-party (league objectives, tournaments, Season Pass, Prize Ladder, Dream League Live participation, shop purchase; quantities vary). Free coins = video clips, explicitly "(subject to availability)" — matches the user's ad loop. Remaining open: rates, and whether DP/agents are gem-purchasable.
+
+**Dimension 3 (tracks/resets):** ladder special players confirmed first-party ("awards special rare players when the criteria is met"); transfer pool refresh cadence confirmed (per in-game week / after each single-player match). Remaining open: exact unclaimed-milestone reset behaviour; ladder↔pass season alignment (weak lead: a DLS25-era British Classics ladder ended the day before the version switchover).
+
+**Dimension 1 (development):** unchanged (needs client/coaching screen).
+
+**Dimension 4 (in-match conditions):** touched, not closed: **difficulty in single-player is division-driven, with a base Medium/Hard setting from DLS25**; DLL is stated to be bot-free with no difficulty manipulation. Energy/stamina/physio leads remain stale-vendor-only. Still the thinnest dimension alongside dim 1.
+
+**Dimension 6 (further subsystems):** DLL matchmaking article and Core Principles page queued (still unfetched). Blocked-player article queued.
+
+**Gate status:** dimensions 2–3 first-party-strong but not closed (rates/resets open); 1 and 4 thinnest. Step 2 still blocked.
