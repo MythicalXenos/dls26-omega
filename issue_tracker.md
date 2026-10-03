@@ -66,3 +66,9 @@
 - **What happened:** Turn 7 exceeded the research-turn retrieval cap by one call; the first batch was split by a malformed tool call and the miscount surfaced only at wrap-up.
 - **Class:** DEGRADATION EVENT (system ran below its own stated standard), self-detected, no advice impact.
 - **Corrective applied:** next turn at half retrieval limit (3 calls). Recorded here rather than as a stop-turn event (the environment did not stop the turn; the overrun was ours).
+
+## ISSUE-0009 — UPDATED: RESOLVED (2026-10-03)
+- The "17 Cult Heroes" figure was a **roster-update total** (12 Cult Heroes + 4 ladder Classics + 1 Season Pass card = 17), not a collection size. Collection = 12. Evidence: imported topic `knowledge/topics/prize_ladder_and_current_events.md` (§ S-0019) + archived handoff turn 59. Closed with sources and version context (Sep-2026 live-ops cycle).
+
+## ISSUE-0012 — Essien OVR 84-vs-85 conflict: RESOLVED (2026-10-03)
+- Resolved in favour of **85** (ladder four: Essien 26838 = 85; Cole 27096 / Petit 27203 / Berbatov 27675 = 84). SakibPro's all-84 article line reflects its computed OVR estimate convention (runs −1 on some cards; site flags OVRs ESTIMATED). Standing rule adopted branch-wide: database OVR labels are estimates; extracted or in-game OVR is ground truth.

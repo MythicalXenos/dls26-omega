@@ -164,3 +164,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 7 — TURN BUDGET DEVIATION (self-detected)
 - This turn made **7 retrieval calls against the 6-call cap** (TikTok attempt, article chunks 0 and 1, four index pages), because the first batch of the turn was split by a malformed tool call and the overrun was not noticed until wrap-up. No advice impact (no advice delivered; Steps 1-4). Logged as a DEGRADATION EVENT in the issue tracker per the self-detected-standard-breach rule; corrective: the next turn runs at **half retrieval limit (3 calls)** as a self-imposed control, and this deviation is reported in the next session-start digest if not resolved before then.
+
+## TURN 8 (2026-10-03) — KB MERGE COMPLETE (queue-High item cleared)
+- Imported prior session `arena/01a0e3cd`'s KB: **15 topic files into `knowledge/topics/`** (classic census, prize ladder, coaching/upgrade, economy/IAP, player pool, card types/stats, live ops, terminology, gameplay systems, game identity/version, gaps, disputed claims) plus its **claim register** as a historical promotion log. ~536 KB of staged knowledge now active; provenance headers on every file; frozen originals retained under `prior_sessions/`.
+- **Two open questions resolved by reading the imported record (no retrieval needed):** ISSUE-0009 (17 = roster-update total 12+4+1) and ISSUE-0012 (Essien 85, not 84 — database OVR labels are estimates).
+- **Standing rule adopted:** structure/stat values from a database are data; its OVR labels are estimates (SakibPro runs −1 on some cards); extracted or in-game OVR is ground truth.
+- Retrieval calls this turn: **1** (monitoring search) — within the self-imposed half limit of 3 after ISSUE-0011. Remaining allowance 2, deliberately unspent (see bluff check).
+
+## TURN 8 — MID-SESSION MONITORING
+- One lightweight check run (English League Classics query). Result: dlskiturl's ladder article (pageAge 2026-09-06) re-confirms the ladder is live with the four classics and the 62,500-250,000 milestone band; the Apple Malawi storefront shows a live "English League Classics" event card ("Unlock top players and claim big rewards in our this new Prize Ladder"); an X post (2026-06-02) refers to an earlier ladder's classics. No patch newer than 13.430. One line: unchanged.
+
+## TURN 8 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes: monitoring (1 retrieval), local archive read, full KB merge (15 topics + register), two conflicts resolved with sources, logs/issues/handoff updated, snapshot + commit + push. Half-limit compliance verified (1 of 3 retrieval calls).
+- Skip anything? No undisclosed skips. The remaining two retrieval calls in the half-budget were left unspent deliberately (the merge was higher value than more index harvesting); recorded as a decision, not an omission.
