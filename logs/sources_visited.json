@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-03T17:46:33Z",
+ "last_reconciled_at": "2026-10-03T18:01:28Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -11629,11 +11629,107 @@
     "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
     "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/"
    ]
+  },
+  {
+   "source_id": "page-064-ftg-clans-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/30839289076626-What-are-Clans",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T18:01:28Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY clan rules: play fair (FTG does not mediate internal disputes); FTG may remove players or entire clans for ToU breaches; **one clan at a time** (leaving may allow rejoin or a new clan); each clan has **one leader** - leadership passes on if they leave, clan disappears if no one remains; some clans set **entry requirements** (joinable via **invite code** even if not shown in search); **'Clan points are earned through matches, challenges, and season passes'** and are pooled for rewards.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "None. Cross-link: the v13.410 storefront note says the **Fanzone** facility grants 'Clan bonuses' - clan participation and the Fanzone are connected systems.",
+   "kb_claims": "knowledge/knowledge_base.md (clans block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-065-ftg-dll-matchmaking-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T18:01:28Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY DLL matchmaking: matches in real time primarily on **LIVE Tier ranking, location, and the availability pool** at match time. Aims for opponents of similar standing/skill; normally same Tier, 'occasionally that will not be possible due to the reduced availability of players'. **No additional overlaid controls to manage the difficulty experience**; outcomes governed by skill (tactics, gameplay choices) and **team strength**; as players progress through Tiers opponents naturally become more challenging.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "Closes the outstanding 'is difficulty manipulated' community suspicion at the first-party level: FTG denies overlaid difficulty controls in both the difficulty and matchmaking articles and on the Core Principles page (three mutually consistent first-party statements, but all one origin).",
+   "kb_claims": "knowledge/knowledge_base.md (multiplayer block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-066-ftg-core-principles",
+   "event_type": "page_fetch",
+   "url": "https://www.ftgames.com/core-principles",
+   "domain": "ftgames.com",
+   "retrieved_at": "2026-10-03T18:01:28Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY policy page. Fair-gaming commitments: no tolerance of cheating (external bots/tools/hacks/bug exploitation); a level playing field where 'a game's AI will interact with our Players on a consistent and equal basis'; **'we never pre-determine any result in advance, nor do we artificially bias the performance of one player'**; matchmaking accounts for level achieved and recent results; support targets (within 48 h, normally 24 h); a 'defect' excludes an expectation to always be successful or a perceived AI problem. **Simulation disclaimer:** 'Our games are not a simulation - luck and unpredictability do play a part.' **Named simulated inputs to the AI:** tactical choices including **passing and shooting quality**, **formation choices**, a character's **development profile**, **pitch positioning**, **predicted player movement**, and other simulated elements such as **weather, ball spin, stadium influence and more**.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "None. NOTE for dimension 4: this is the strongest first-party naming of environmental variables (weather, ball spin, stadium influence) affecting a match - it is a general policy statement applying to FTG's game portfolio, not a DLS26-specific mechanics page, so it is recorded as a named-lead rather than a mechanic.",
+   "kb_claims": "knowledge/knowledge_base.md (dim-4 lead block)",
+   "discovered_not_yet_visited": [
+    "https://www.ftgames.com/terms-of-use"
+   ]
+  },
+  {
+   "source_id": "page-067-ftg-next-update-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T18:01:28Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY: FTG **does not provide indications of future releases, update schedules or planned activities when requested**, but does post news on social media. Named official channels: TikTok **@dreamleaguesoccer.ftg**, Instagram **@playdls**, Facebook **/dreamleaguesoccer**. (No X/Twitter channel named on this page.)",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "Useful operational finding: the 'monitoring for announcements' strategy is officially unsupported via support channels - announcements surface on the three named socials (and storefronts), which are the correct monitoring surfaces.",
+   "kb_claims": "knowledge/knowledge_base.md (comms block)",
+   "discovered_not_yet_visited": [
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+    "https://www.instagram.com/playdls",
+    "https://www.facebook.com/dreamleaguesoccer/"
+   ]
+  },
+  {
+   "source_id": "page-068-ftg-cant-update-faq",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-03T18:01:28Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY update troubleshooting. iOS: close DLS; App Store > Updates; pull-to-refresh; select Update; or search 'DLS' and update. Android: install via the Google Play website; or disable Wi-Fi and update over mobile data (charges may apply); or Settings > Apps > Google Play Store > Clear cache + Clear data; or remove and re-add the Google account and retry.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "Resolves the archived sweep's first open result (the 'Why can't I update the app?' article was never fetched before).",
+   "kb_claims": "knowledge/knowledge_base.md (operational note)",
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "visited_total": 325,
-  "unvisited_total": 441,
+  "visited_total": 329,
+  "unvisited_total": 442,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -12003,6 +12099,7 @@
    "https://www.ftgames.com/core-principles",
    "https://www.ftgames.com/games",
    "https://www.ftgames.com/privacy-policy",
+   "https://www.ftgames.com/terms-of-use",
    "https://www.instagram.com/firsttouchgames_official",
    "https://www.instagram.com/playdls",
    "https://www.instagram.com/playdls/",

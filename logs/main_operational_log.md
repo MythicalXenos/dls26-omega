@@ -231,3 +231,14 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 - The end-of-turn push was rejected as non-fast-forward. Diagnosis: the **local branch had lost its commit ancestry** (local `HEAD` chain was `86f9518 -> fb9a2c0` while the remote held the true chain ending `881e197`), though the working-tree file content was intact and equal to the remote tip plus the Turn-12 edits.
 - Repair (no force, no history rewrite): `git diff FETCH_HEAD HEAD` captured the exact Turn-12 delta; `git reset --hard FETCH_HEAD` restored the true ancestry; the patch re-applied cleanly and committed as **38ce0d5**; pushed fast-forward **881e197..38ce0d5**. No file lost, no committed artifact altered.
 - Overrun honestly recorded: Turn 12 used 13 tool calls (cap 10) and 5 retrieval calls (cap 6) because of the repair. Retrieval limits were respected; the overrun is tool-call-only and attributable to the anomaly. It will be noted in the next handoff.
+
+## TURN 13 (2026-10-03) — MID-SESSION MONITORING
+- No separate monitoring query was needed: the FTG "next update" article itself establishes the monitoring policy (no advance notice via support; socials are the announcement surface), and the three official channels are now logged as the correct monitoring targets.
+
+## TURN 13 — RESEARCH (official block part 3, closing the spine)
+- page-064 Clans (points from matches/challenges/season passes; one clan; leader; invite codes), page-065 DLL matchmaking (LIVE Tier + location + pool; no overlaid difficulty), page-066 Core Principles (fair-gaming commitments + 'luck and unpredictability' + named simulated inputs incl. weather/ball spin/stadium influence), page-067 next-update policy + official socials, page-068 update troubleshooting (closed the archived first open result).
+- The nine gate-relevant official articles identified on Turn 10 are now **all fetched**; the remaining unfetched official articles are operational/account topics.
+- Retrieval calls: 5 of 6. Total tool calls before wrap-up: 6 of 10.
+
+## TURN 13 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. Five ledger entries written before the KB/gate appends; the Core Principles material is deliberately tiered down (portfolio policy, lead only) rather than presented as DLS26 mechanics. Nothing incomplete presented as complete.

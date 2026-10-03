@@ -117,3 +117,15 @@
 **Dimension 6 (further subsystems):** DLL matchmaking article and Core Principles page queued (still unfetched). Blocked-player article queued.
 
 **Gate status:** dimensions 2–3 first-party-strong but not closed (rates/resets open); 1 and 4 thinnest. Step 2 still blocked.
+
+## Turn 13 update (2026-10-03) — official block part 3; official article set effectively complete
+
+**Dimension 3 (tracks/resets):** **clan points are earned through matches, challenges and season passes** — a third parallel accumulation track alongside Season Points and DP, first-party. Remaining open: ladder reset/allocation rules, exact season boundaries.
+
+**Dimension 4 (in-match conditions):** still thinnest, but stronger first-party naming of variables: **weather, ball spin, stadium influence, formation, pitch positioning, development profile** (Core Principles, portfolio-level — lead only). DLL difficulty controls explicitly denied; single-player difficulty still division-driven with a Medium/Hard base setting.
+
+**Dimension 6 (further subsystems):** clan system documented (one clan, one leader, entry requirements, invite codes, pooled points); Fanzone linked to Clan bonuses; DLL Tier system named as the primary matchmaking axis; Core Principles captured; update policy + official comms channels captured (also an operational fact for monitoring).
+
+**Dimension 1:** unchanged (needs client/coaching screen). **Dimension 2:** unchanged this turn.
+
+**Official article coverage:** 12 of the 30 enumerated articles now fetched across this branch (4 in prior sessions incl. stats + this branch's 8) — remaining official leads are mostly operational/account topics (save data, User ID, device compatibility, blocked-playing, etc.), none gate-critical. **The official mechanics spine is complete.**
