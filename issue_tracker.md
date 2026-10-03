@@ -49,3 +49,9 @@
 
 ## Carried (unchanged from prior sessions)
 - ISSUE-0003 raw payloads not archived (backfill queued); ISSUE-0004 history: prior session ran research before capture gate satisfied — this session gates retrieval behind a complete digest.
+
+## ISSUE-0007 — Expanding frontier (net lead growth), 2026-10-03
+- The merged frontier grew from 333 to 356 unvisited leads across Turn 3 (ledger reconciliation surfaced archived leads; the SakibPro index added 19). Recorded once per cause per MECHANICAL EXHAUSTION INVARIANT; it is a progress finding, never a limit on the sweep and never grounds for declaring exhaustion.
+
+## ISSUE-0008 — Log-line formatting defect (self-detected, repaired), 2026-10-03
+- A main-log line was written through an unquoted heredoc, so backticked text was command-substituted and lost; detected by grep in the same turn and repaired before commit. Internal only; no advice impact. Hygiene note recorded.

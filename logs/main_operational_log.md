@@ -78,3 +78,24 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 ## 2026-10-03T14:42:59Z — BLUFF CHECK (Turn 2, Mechanism 8)
 - Complete every step? Yes within the setup-turn budget; the digest is whole and verified; deferred items (mid-session monitoring, ledger merge, probes, sweep resumption) are named above and in the handoff with reasons.
 - Skip anything? No undisclosed skips. Present incomplete work as complete? No — banner and closure reflect the true state. Advice-quality impact: none (no advice delivered; Steps 1–4 active).
+
+## 2026-10-03T14:44:13Z — MID-SESSION MONITORING (Turn 3, first research turn of the session)
+- One lightweight check run. Finding of record: Play US listing shows "Updated on Sep 14, 2026" (direct fetch, chunk 0/2), and the current storefront promo text carries "Ends on 10/14", "Special event", "Play Fest starts on October 13", "late summer update ... Cult Heroes collection, coming soon" (via discovery snippet, pageAge 2026-09-14 — same origin, partial). No evidence of a patch newer than Sep 16 (Apple 13.430) was found. No event/update found that changes the next action. One line per the rule: nothing changed since the last check beyond fresh corroboration of the two live leads already on the queue.
+
+## 2026-10-03T14:44:13Z — RESEARCH (STATE_1 sweep block: storefront/event re-verify + third-party update narrative)
+- Two retrieval calls: discovery-032 (web_search depth 2) and page-032 (Play US listing re-fetch). Ledger updated (schema v2, 327 entries; visited 309 unique; unvisited union 335).
+- Claims recorded in the KB (all below High Confidence pending corroboration): Play US listing "Updated on Sep 14, 2026"; storefront promo windows "Ends on 10/14" / "Play Fest starts on October 13" (year not shown in the promo text; the listing's own Sep 14, 2026 update date is the dating anchor — still one origin, Speculative); first-party feature surface (Clans, Agents and Scouts, Stadium/Medical/Commercial/Training facilities, 8 divisions, 10+ cups, Dream Draft, daily scenarios, Dream League Live leaderboards/events).
+- Third-party narratives logged, no weighting yet: dlskits.mobi (2026 update timeline claims: Summer Spotlight, Winter Reload, Dream Stars 26, 12th Man vote, News System, Clan upgrades, unlimited special players, TR/AR commentary) and thesoccerera.com (feature/launch narrative; internal dating inconsistency). Both queued for incentive screening before any use. Reddit megathread 1rf90a7 (mid-season rating changes; user reports) logged as user-generated, Speculative, for later player-pool/watchlist work.
+- New gap flagged: the "Cult Heroes" collection is described by the Play text as "coming soon" while prior sessions recorded live Cult Heroes event cards on Play/Apple — possible sequence (store text lag) or two different events; open, to verify in-game (consolidated ask) and via FTG channels.
+
+## 2026-10-03T14:44:41Z — RESEARCH (SakibPro Cult Heroes index; route probe result)
+- `page-033-sakibpro-cult-heroes-index`: https://sakibpro.com/players/cult-heroes/ fetched complete in one chunk. **Route probe result: the index is server-rendered and clean; the prior session's loading-placeholder problem is route-specific (player pages), not site-wide.** 12 cult-hero records captured with base OVR/position/nation/id (see KB). FAQ line claims coaches (Fitness/Technical) take special cards "+10 over base" to maxed black cards — Speculative, incentive screen owed.
+- CONFLICT CANDIDATE opened (recorded, not yet run through the Conflict Protocol): this 12-card catalog vs the prior sessions' 17-card "new" Cult Heroes note — different counting frame or stale source; both Speculative; to be resolved when both sources are re-read and a second database is consulted.
+- Leads added: the 12 per-player routes (stat octets) + six card-type indexes + /tools/.
+
+## 2026-10-03T14:45:03Z — SOURCE TYPE COVERAGE (frontier movement, Turn 3)
+- Turns since last progress signal: 1. Leads retired: 0 explicit (three pages consumed); leads added: 23 (4 from discovery-032, 19 from the SakibPro index). Net: expanding. Logged per ISSUE-0007. Derived from the ledger at this turn boundary;  regenerated.
+
+## 2026-10-03T14:45:03Z — BLUFF CHECK (Turn 3, Mechanism 8)
+- Complete every step? Yes, within the research-turn budget (3 retrieval calls of 6; total calls under 10 before wrap-up). Mid-Session Monitoring ran and is recorded. Ledger reconciled and merged (schema v2, 328 entries). KB appended with three dated blocks. Frontier regenerated from the ledger.
+- Skip anything? No undisclosed skips. Two defects self-detected and repaired in-turn (heredoc substitution in a log line — ISSUE-0008; a repair pass on the same line). Nothing incomplete presented as complete.

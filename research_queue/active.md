@@ -8,3 +8,10 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [queue-High] Merge session-01a0e3cd KB topics and claim register into active `knowledge/` with provenance labels.
 - [queue-High] Probe once: `/dev/kvm`, `apt`/`pip` reachability, shell TLS, DLS APK fetchability (gap G-0004 → decides Step 2 route).
 - [queue-High] SakibPro JS/API route behind its loading placeholder (carried; not a wall).
+
+## Added 2026-10-03 Turn 3
+- [queue-Critical] In-game verification of the live event window ("Ends on 10/14"; "Play Fest starts on October 13") — carried into the consolidated ask; do not gate spend on it.
+- [queue-High] Harvest the 12 Cult Heroes per-player SakibPro routes for stat octets/ages/club/price fields (leads in `logs/sources_visited.json`, id `page-033-...`).
+- [queue-High] Run the Conflict Protocol check on 12-vs-17 Cult Heroes counts once both framing sources are re-read.
+- [queue-Medium] Incentive-screen dlskits.mobi and thesoccerera.com before any use of their update narratives.
+- [queue-Medium] Second independent database pass (DR-001 carry-over) to cross-check Cult Heroes OVRs and the coach "+10" FAQ claim.
