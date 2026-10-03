@@ -141,3 +141,11 @@
 **Cross-source integrity finding (applies to all dimensions):** dreamkitsapp and dlsinside share image infrastructure and cross-advertise → the "second database" is **semi-independent**; agreement between the two databases is corroboration-lite and must be labelled as such wherever used.
 
 **Gate status:** unchanged in structure — dims 1 and 4 thinnest, no dimension closed, Step 2 still blocked. Two new open conflicts logged (Cult Heroes 84/83 split; Pedri 27133 87 vs 86).
+
+## Turn 15 update (2026-10-03) — second-database pass 2
+
+**Dimension 6 / collection taxonomy:** **Champion 12/12** and **World Winners 8/8** now fully enumerated from the second database, with the duplicate-name pattern confirmed (two Messis, two Ronaldos, two Di Marías in Champion alone) — family membership is by id block, not by name. Classic 30 of ~34. Season Pass card (João Pedro 28356, V13430 = 82) confirmed on a second database, closing that cross-source doubt.
+
+**Cross-source integrity:** estimate drift is now characterised on both sides — SakibPro runs −1 on some cards (documented), DreamKits reads +1 vs the archive on Rodri/E. Martínez/Petit/Berbatov. Consequence recorded: **no OVR is ever promoted across sources; only counts, ids and the in-game/extracted value are treated as ground truth.**
+
+**Gate status:** structure unchanged — dims 1 and 4 thinnest, no dimension closed, Step 2 still blocked. The second-database pass has now covered: Cult Heroes (12/12), Champion (12/12), World Winners (8/8), Classic (30/~34), Team of 2025 (validated earlier via SakibPro), Kick-off Stars / Star / Secret / Dynamic Stars / World Heroes still to sample.

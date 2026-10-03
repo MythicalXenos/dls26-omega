@@ -254,3 +254,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 14 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. The partial render is recorded as a partial render; the "independent database" label was downgraded to semi-independent the moment the shared CDN was seen; both new conflicts were filed instead of silently harmonised. Nothing incomplete presented as complete.
+
+## TURN 15 (2026-10-03) — MID-SESSION MONITORING
+- dlskiturl home feed (page-077): no post newer than the two event articles already held; no October item. Clean.
+
+## TURN 15 — RESEARCH (second-database pass 2)
+- page-073/078 Classic (30 records): Essien 26838 = 85 and Cole 27096 = 84 AGREE with our ground truth; Petit 27203 and Berbatov 27675 read 85 vs our 84 -> conflict (h) opened, confined to two cards.
+- page-074 Champion COMPLETE 12/12 (duplicate-name pattern explained: Messi 25841 88 vs 25847 84 are two cards).
+- page-075 World Winners COMPLETE 8/8.
+- page-076 Joao Pedro 28356 confirmed 82 on the second database (V13430 rating row) - closes that cross-source doubt; the Cult Heroes 84/83 split is localised to Vozinha 28658 alone.
+- Retrieval calls: 6 of 6 (at cap). Total tool calls: 8 of 10 before wrap-up.
+
+## TURN 15 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. Six ledger entries written before the KB/gate appends; the two estimate-drift conflicts are recorded per-card rather than noted vaguely; the duplicate-name finding is stated as an operational rule (match by id). Nothing incomplete presented as complete.
