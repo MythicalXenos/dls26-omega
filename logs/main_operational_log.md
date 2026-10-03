@@ -177,3 +177,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 ## TURN 8 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes: monitoring (1 retrieval), local archive read, full KB merge (15 topics + register), two conflicts resolved with sources, logs/issues/handoff updated, snapshot + commit + push. Half-limit compliance verified (1 of 3 retrieval calls).
 - Skip anything? No undisclosed skips. The remaining two retrieval calls in the half-budget were left unspent deliberately (the merge was higher value than more index harvesting); recorded as a decision, not an omission.
+
+## TURN 9 (2026-10-03) — MID-SESSION MONITORING
+- One lightweight check (discovery-035). Result: only pre-launch speculation pages from Oct 2025; no patch newer than 13.430, no new event news. One line: unchanged.
+
+## TURN 9 — RESEARCH (official source-type coverage + Season Pass index) and GATE WORK
+- page-052 (ftgames.com root): FTG's corporate site carries no DLS26 news — a coverage finding that redirects official-source work to storefronts/social channels (leads queued).
+- page-053 (sakibpro.com/players/season-pass/): 1 record (Joao Pedro 28356 CF 82), matching the imported KB exactly — provenance validation. New same-source discrepancy recorded (1 catalogued vs 6 announced Season Pass cards).
+- knowledge/taxonomy_gate.md written: the six-dimension gate ledger that Step 2 is blocked on, stating per dimension what is sourced (with tiers and file references) and what remains open, naming the thinnest dimension (4 - in-match conditions), and listing the cheapest user-settable checks.
+- Retrieval calls: 3 of 6 (monitoring + 2 fetches). Total tool calls before wrap-up: 5 of 10.
+
+## TURN 9 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. The gate ledger is a status synthesis of already-recorded evidence (no new claims asserted); the two new pages carry ledger entries; ISSUE-0011's corrective is discharged (Turn 9 ran at full limits legitimately, no overrun).
+- Skip anything? No undisclosed skips. Nothing incomplete presented as complete.

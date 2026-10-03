@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-03T15:01:57Z",
+ "last_reconciled_at": "2026-10-03T15:12:38Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -11282,11 +11282,73 @@
    "conflicts": "none new.",
    "kb_claims": "knowledge/knowledge_base.md",
    "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-035-monitor-oct2026",
+   "event_type": "discovery_search",
+   "url": "https://www.google.com/search?q=DLS+26+update+news+October+2026+First+Touch+Games",
+   "domain": "google.com",
+   "retrieved_at": "2026-10-03T15:12:38Z",
+   "retrieval_role": "discovery-search",
+   "tool": "web_search(depth 1)",
+   "http_status": 200,
+   "source_type": "mixed",
+   "language": "en",
+   "payload_summary": "MONITORING. 3 results, all pre-launch speculation pages from Oct 2025. Nothing post-launch, no patch newer than 13.430, no new event news. One line: unchanged.",
+   "processing_state": "processed",
+   "deception_screen": "content-farm/SEO sites; nothing used.",
+   "conflicts": "none.",
+   "kb_claims": "none (no claim taken)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-052-ftgames-root",
+   "event_type": "page_fetch",
+   "url": "https://www.ftgames.com/",
+   "domain": "ftgames.com",
+   "retrieved_at": "2026-10-03T15:12:38Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "FTG corporate site root. Studio blurb (est. 2011, 1B+ downloads), product tiles for DREAM LEAGUE SOCCER, SCORE! HERO, ULTIMATE CLASH SOCCER, SCORE! MATCH, @firsttouchgames link. NO DLS26-specific news, patch notes or event copy. Coverage finding: FTG's corporate root is not a DLS26 news surface; official DLS communications live on storefronts and social channels.",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "none.",
+   "kb_claims": "knowledge/knowledge_base.md (source-coverage note)",
+   "discovered_not_yet_visited": [
+    "https://www.ftgames.com/games",
+    "https://support.ftgames.com/hc/en-us",
+    "https://twitter.com/firsttouchgames",
+    "https://www.instagram.com/playdls/",
+    "https://www.facebook.com/dreamleaguesoccer/"
+   ]
+  },
+  {
+   "source_id": "page-053-sakibpro-seasonpass-index",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/season-pass/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-03T15:12:38Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "database/tool",
+   "language": "en",
+   "payload_summary": "Season Pass index: '1 verified record' - Joao Pedro, CF, Brazil, 82 OVR, id 28356. CROSS-CHECK matches the archived prior-session record exactly (turn 59: Joao Pedro 28356 CF 82) - provenance validation. Same-source discrepancy: the site's own events article claims 6 Season Pass cards; its index catalogues 1. Open.",
+   "processing_state": "processed",
+   "deception_screen": "owed (database).",
+   "conflicts": "Same-source size discrepancy for the Season Pass card set (1 vs 6).",
+   "kb_claims": "knowledge/knowledge_base.md + taxonomy gate (dim 3)",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/players/season-pass/jo-o-pedro/28356/"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 312,
-  "unvisited_total": 409,
+  "visited_total": 313,
+  "unvisited_total": 413,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -11539,6 +11601,7 @@
    "https://sakibpro.com/players/normal/virgil-van-dijk/27130",
    "https://sakibpro.com/players/normal/virgil-van-dijk/27130/",
    "https://sakibpro.com/players/season-pass/",
+   "https://sakibpro.com/players/season-pass/jo-o-pedro/28356/",
    "https://sakibpro.com/players/simulator.html?loadPlayer=10159",
    "https://sakibpro.com/players/team2025/",
    "https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128",
@@ -11567,6 +11630,7 @@
    "https://sakibpro.com/tools/ (Tools index — may list tools not linked from the home page)",
    "https://sakibpro.com/tools/ (a Tools index linked from the simulator breadcrumb — may list further tools)",
    "https://support.ftgames.com",
+   "https://support.ftgames.com/hc/en-us",
    "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
    "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
    "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
@@ -11615,6 +11679,7 @@
    "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html — full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
    "https://www.dreamleaguesoccerkits.com/2026/05/dream-league-soccer-2026-beginners.html",
    "https://www.facebook.com/dreamleaguesoccer",
+   "https://www.facebook.com/dreamleaguesoccer/",
    "https://www.facebook.com/firsttouchgames",
    "https://www.facebook.com/firsttouchgames/mentions",
    "https://www.facebook.com/firsttouchgamess",
@@ -11628,6 +11693,7 @@
    "https://www.ftgames.com/privacy-policy",
    "https://www.instagram.com/firsttouchgames_official",
    "https://www.instagram.com/playdls",
+   "https://www.instagram.com/playdls/",
    "https://www.reddit.com/r/DreamLeagueSoccer.json or a thread's .json (untested)",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1b2xxys/training_facility_guide",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1e6jnr4/career_mode_is_quite_stronger_than_beforeto_the/ — DLS24 career-balance thread carrying the post-match capture (kb/evidence/dls24_postmatch_stats_jun2024.jpg)",
