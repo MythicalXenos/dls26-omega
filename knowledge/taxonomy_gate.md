@@ -149,3 +149,15 @@
 **Cross-source integrity:** estimate drift is now characterised on both sides — SakibPro runs −1 on some cards (documented), DreamKits reads +1 vs the archive on Rodri/E. Martínez/Petit/Berbatov. Consequence recorded: **no OVR is ever promoted across sources; only counts, ids and the in-game/extracted value are treated as ground truth.**
 
 **Gate status:** structure unchanged — dims 1 and 4 thinnest, no dimension closed, Step 2 still blocked. The second-database pass has now covered: Cult Heroes (12/12), Champion (12/12), World Winners (8/8), Classic (30/~34), Team of 2025 (validated earlier via SakibPro), Kick-off Stars / Star / Secret / Dynamic Stars / World Heroes still to sample.
+
+## Turn 16 update (2026-10-03) — second-database pass 3; family census near-complete
+
+**Dimension 6 (subsystems / collection taxonomy) — the strongest dimension now:** event families enumerated from the second database — Cult Heroes 12, Champion 12, World Winners 8, World Heroes 8, Kick-off Stars 2, Classic 32 (vs 34 per SakibPro — conflict (i)), Dynamic Stars ≥15 of ~40, Team of 2025 11, Season Pass 1 catalogued. Plus a **separate non-event Secret class of ~250+ legacy-prefixed cards (Classic/Young/Legendary)** that must not be mixed into event counts. Highest OVR observed in the sweep: **Nico Williams 27509 at 96** (Dynamic Stars).
+
+**Dimension 2 (currencies/what they buy) — new evidence angle:** the 96 ceiling implies the top of the card power curve materially exceeds anything in the imported ladder discussion; still no purchase-price data captured (the DBs show prices only on card pages, not indexes).
+
+**Dimension 4 / 1:** unchanged this turn.
+
+**Cross-source integrity:** conflict (i) filed (classic count); no value harmonised. All OVR figures from this pass remain estimates by the source's own disclaimer.
+
+**Gate status:** no dimension closed; Step 2 still blocked. Remaining high-value second-database gaps: Dynamic Stars p2–p3 (closes ~40), Star family sample, dlsinside cross-read of one or two families to test the semi-independence caveat, then the SakibPro normal/tools indexes.

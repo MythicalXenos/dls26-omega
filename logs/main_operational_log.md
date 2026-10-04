@@ -267,3 +267,21 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 15 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. Six ledger entries written before the KB/gate appends; the two estimate-drift conflicts are recorded per-card rather than noted vaguely; the duplicate-name finding is stated as an operational rule (match by id). Nothing incomplete presented as complete.
+
+## TURN 16 (2026-10-03) — MID-SESSION MONITORING
+- Shell `curl` to the dlskiturl RSS feed FAILED at TLS (SSL_ERROR_SYSCALL, HTTP 000) - monitoring datum AND a capability finding (shell HTTPS unreliable; fetch tool unaffected). Logged as page-079.
+
+## TURN 16 — RESEARCH (second-database pass 3: remaining families)
+- page-080 Classic p3 -> family closes at 32 (vs SakibPro 34) -> conflict (i).
+- page-081 Dynamic Stars p1: **Nico Williams 96 = highest OVR in the sweep**; 3-page spread consistent with the archive's 40.
+- page-082 Kick-off Stars complete (2: Raphinha 85, Alvarez 84) - matches the launch-pair storefront claim.
+- page-083 World Heroes complete (8).
+- page-084 Secret: 18 pages, ~250+ legacy-prefixed cards (Classic/Young/Legendary) - a separate class, not an event family.
+- Retrieval calls: 6 of 6 (at cap; includes the failed monitoring fetch). Total tool calls: 6 of 10 before wrap-up.
+
+## TURN 16 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. The failed monitoring call is recorded as a failure with its exact error rather than quietly dropped; the classic count mismatch is filed as a conflict instead of being averaged; the Secret class is explicitly separated from event families to prevent a future taxonomy error. Nothing incomplete presented as complete.
+
+## TURN 16 — ANOMALY REPAIR (second git-ancestry drop) + push-order mitigation
+- Push rejected (non-fast-forward) with content intact; repaired via the Turn-12 sequence (diff -> reset --hard FETCH_HEAD -> apply -> commit -> push). Filed **ISSUE-0014** with both occurrences.
+- **New standing procedure:** research-block commit + push FIRST, handoff commit + push SECOND, so an ancestry drop can never orphan a research block behind the handoff. Tool calls this turn: 11 (cap 10) - overrun attributable to the repair, recorded.

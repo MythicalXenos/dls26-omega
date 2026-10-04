@@ -78,3 +78,10 @@
 - **Prior art:** the archived prior session already raised this as **PROPOSED amendment #2** ("direct-origin tier for first-party claims") in `prior_sessions/2026-09-27_01a0e3cd/prompt_versions/CHANGELOG.md`, awaiting the user. This session re-encounters the same tension and adds evidence.
 - **Action taken:** none beyond recording — the rule is followed as written (tier caps applied honestly), the proposal stays with the user, and the tension is carried to first contact.
 - **Class:** system-state entry → investigated by pattern-check per the Issue Tracker rule (no root-cause investigation required).
+
+## ISSUE-0014 — Recurring git-ancestry drop inside the sandbox (system-state entry, second occurrence, 2026-10-03)
+- **Observation:** for the second time today (first: Turn 12; now: Turn 16) the working branch's **local commit chain lost its ancestry** — the local HEAD's parent reverted to `fb9a2c0 Initial commit` while the working tree held the true content (remote tip + current-turn edits). Effect: pushes rejected as non-fast-forward even though no content was lost.
+- **Pattern:** both occurrences happened at the END of a turn, after the handoff rewrite; both were repaired losslessly by `git diff FETCH_HEAD HEAD` → `git reset --hard FETCH_HEAD` → `git apply` → commit → push. No force-push, no history rewrite was needed either time.
+- **Hypothesis (unconfirmed, testable):** the sandbox restores/relinks `.git` refs between tool calls in some conditions; if so the mitigation is procedural, not analytical.
+- **Mitigation adopted from now on:** at every turn end, push immediately after committing the research block (before the handoff rewrite), then commit+push the handoff separately; if a push is rejected, run the documented repair sequence without investigation delay and log it. Turn-16 overrun (11 tool calls vs cap 10) is attributable to the repair and is recorded honestly.
+- **Class:** system-state entry → pattern-check, not root-caused in-repo (cannot fix the sandbox from here). Escalate to the user at first contact with the two timestamps.
