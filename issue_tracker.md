@@ -91,3 +91,7 @@
 - **Revised understanding:** this is not a random drop — it is the **sandbox restore leaving the repo as-of-initial-commit** and the whole project tree as untracked files. No content is ever lost; only the commit chain is detached.
 - **Fast, verified repair (now standard, 3 successful runs):** (1) backup the tree (`tar --exclude=.git`), (2) `git fetch origin <branch>`, (3) `git reset --hard FETCH_HEAD`, (4) restore the backup over the tree, (5) `git add -A && git commit && git push`. Runs in a single bash call; no force-push or history rewrite.
 - **Consequence for procedure:** expect it at every turn start; do not spend research budget investigating. Keep the research-block commit+push first, handoff second (Turn-16 order is retained).
+
+
+### ISSUE-0014 — occurrence #4 (2026-10-04, Turn 21 open)
+Same signature: HEAD back at `fb9a2c0 Initial commit`, whole tree untracked, branch + `.git` intact, working tree fully intact. Standard procedure run (tar backup 194 files → `git fetch origin arena/01a1022d-dls26-omega` → `git reset --hard FETCH_HEAD` (tip `8e96fb0`) → verify → commit). Verified intact after reset: 405 ledger entries, 328 KB lines, 23 snapshots, Step-5 package present. **No content lost, no force-push.** Also note the remote-tracking ref `origin/arena/...` was absent after the drop; the fetch recreates it.

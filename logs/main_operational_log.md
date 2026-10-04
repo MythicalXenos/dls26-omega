@@ -336,3 +336,17 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 20 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. Two sources previously listed as 'do not cite as read' are now actually read and marked as such; the dlskits.mobi version error is filed as a conflict instead of being averaged; Reddit is recorded as blocked rather than 'pending'. Nothing incomplete presented as complete.
+
+## TURN 21 (2026-10-04) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**fifth** check). No new event content; nothing October-dated.
+
+## TURN 21 — RESEARCH (4 retrieval calls)
+- **Opening repair:** git state drop observed at turn open (HEAD back at `fb9a2c0 Initial commit`, tree untracked) — **ISSUE-0014 occurrence #4**. Standard procedure run: tar backup (194 files) → fetch → `reset --hard FETCH_HEAD` (tip `8e96fb0`) → tree verified intact (405 ledger entries, 328 KB lines, 23 snapshots, Step-5 package present) → clean. No content lost; no force-push.
+- page-105 thesoccerera (new-clans-upgraded): **pre-launch era, self-contradictory**; corroborates base ceiling 86 and the four 86 attackers; adds conflicts (k) Pedri and (l) Kane.
+- page-106 **SakibPro upgrade simulator: upgrade/coaching model captured** (dim 1) — 100% weight / 10% = +1 / +10 cap; coach types + gem prices; facility discounts 0-30%; separate GK rule (2.2 pts per OVR, 22-pt cap).
+- page-107 DreamKits star p2: 5 unique ids in 15 slots (duplication again); all 84 OVR; nested pagination; **img.dlsinside.com assets on a DreamKits page = asset-level corroboration of the one-family finding**.
+- page-108 monitoring (unchanged).
+- Retrieval: 4 of 6. Tool calls: 9 of 10.
+
+## TURN 21 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes, with the provenance caveats stated in place: the coaching model is labelled a third-party site model, the pre-launch article is labelled low-reliability and self-contradictory, Star p2 is counted by id set, and the monitoring reading is recorded as "unchanged" rather than "nothing new happened". Nothing is presented as confirmed game data on third-party say-so.

@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T20:26:46Z",
+ "last_reconciled_at": "2026-10-04T21:33:00Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12413,11 +12413,88 @@
    "discovered_not_yet_visited": [
     "https://sakibpro.com/players/simulator.html"
    ]
+  },
+  {
+   "source_id": "page-105-thesoccerera-new-clans-upgraded",
+   "event_type": "page_fetch",
+   "url": "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/",
+   "domain": "thesoccerera.com",
+   "retrieved_at": "2026-10-04T21:33:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-news",
+   "language": "en",
+   "payload_summary": "**PRE-LAUNCH ERA article, not current.** Datestamped to the launch window (claims global availability 'December 4, 2026' while also saying 'December 2025'; references the app as 'version 13.060, updated 5 Feb 2026'). Content: Clans headline feature, next-gen graphics/motion capture, pre-match warm-up cutscenes, 8 divisions, 4,000+ FIFPRO, new soundtrack (Katy Perry 'Lifetimes', Benson Boone, 'All I Know'), classic players return; plus a **top-rated players table** whose highest value is **86 OVR** (O. Dembele 86 CF, Mbappe 86 CF, Kane 86 CF, Haaland 86 CF, Vini Jr 86, Salah 86, Rodri 86 DM; then 85 band: Van Dijk, Raphinha, Yamal, Salah, Pedri, Donnarumma, Bellingham, Valverde). Footnote: 'FTG's Instagram countdown hyped the elite cards'.",
+   "processing_state": "processed",
+   "deception_screen": "SEO/pre-launch aggregate with community-leak framing; **internally self-contradictory** (Kane listed 86 in one table and 85 in another; Pedri 85 here). Classified LOW-RELIABILITY PRE-LAUNCH; usable only where it agrees with database reads.",
+   "conflicts": "**Agrees with our DB-derived base ceiling: 86 is the top of the base pool**, and the 86 attackers named (Dembele, Mbappe, Kane, Haaland) are exactly the four 86s in SakibPro normal-p1 (15403 / 14756 / 10159 / 17196). **Two new conflicts logged:** (k) **Pedri 85 here vs 87/86 across the DBs** (conflict g extends); (l) **Kane 86 vs 85 within the same article** - i.e. the source contradicts itself, which is why it cannot settle (g). It also lists Vini Jr, Salah and Rodri at 86, which no database read supports (Rodri's 88 is a World Winners special card, not base).",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 21 block)",
+   "discovered_not_yet_visited": [
+    "https://thesoccerera.com/haaland-vs-mbappe/"
+   ]
+  },
+  {
+   "source_id": "page-106-sakibpro-upgrade-simulator",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/simulator.html",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T21:33:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-tools",
+   "language": "en",
+   "payload_summary": "**UPGRADE / COACHING MODEL captured (dimension 1 - the biggest single fill for that dimension).** Stated mechanics: allocate up to **100% Development Weight**; **every 10% of total progression weight = +1 OVR**; hard cap **+10 OVR at 100% weight**. Stat weights are unequal - **CON and SPE consume more capacity than STA**. **Coach types and gem prices:** Fitness Coach (SPE, ACC, STA, STR) Common 25 / Rare 75 / Legend 225 gems; Technical Coach (CON, PAS, SHO, TAC) 25 / 75 / 225; Special Coach (ALL STATS) 90 / 240 / 400; Goalkeeping (GKR, GKH) 15 / 40 / 150. **Coach selection panel = pick 1 of 3 offered attributes for +2 each**, with 'DISCARD & RESHUFFLE'; tracks 'COACHES WASTED'. **Facility discount tiers: 0 / 5 / 10 / 15 / 20 / 30%.** **Goalkeepers use a separate classic points system: every 2.2 visual points added to GKR/GKP = +1 OVR, capped at 22 points total allocation.** Example canvas shows all eight outfield stats at 80.",
+   "processing_state": "processed",
+   "deception_screen": "tool page = **site model, not first-party**; it markets itself as using 'the official hidden weighting system' and 'mathematically identical to the live transfer market', which is an unverifiable claim. Recorded as a model, not as confirmed game data.",
+   "conflicts": "Source is internally inconsistent on GK abbreviations: the manual-coaching panel covers **GKR, GKH** while the FAQ says **GKR, GKP**. Logged; not resolvable from this page.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 21 block - dimension 1)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-107-dreamkitsapp-star-p2",
+   "event_type": "page_fetch",
+   "url": "https://dreamkitsapp.com/players/type/star/p/2",
+   "domain": "dreamkitsapp.com",
+   "retrieved_at": "2026-10-04T21:33:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-player-database",
+   "language": "en",
+   "payload_summary": "Star family page 2. **Only 5 unique records rendered** in 15 list slots (heavy render duplication, second occurrence of the known hazard): Igor Thiago 27483 84 CF (Brazil), Giorgian de Arrascaeta 27482 84 AM/LW (Uruguay) x4, Julian Ryerson 27828 84 RB/LB (Norway) x3, Mile Svilar 27827 84 GK (Serbia) x3, Kenan Yildiz 27481 84 SS/LW (Turkey) x3. All five are **84 OVR** and all five carry team image t258. Pagination is **nested and broken**: page 2 exposes its own sub-pager (/players/type/star/p/2/p/1 ... /p/9). Page carries the standing DK notice that ratings are approximate calculations and that this also affects displayed price. **Asset-level corroboration of the one-family finding: the card and flag images are served from img.dlsinside.com.**",
+   "processing_state": "processed",
+   "deception_screen": "render-duplication (match by id sets) + nested pagination; counted 5 by id set, not 15 by list length.",
+   "conflicts": "None. Confirms Star family is structurally unlistable by pagination (same conclusion as page 1) and reinforces the DK=dlsinside one-family finding at the CDN level.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 21 block)",
+   "discovered_not_yet_visited": [
+    "https://dreamkitsapp.com/players/type/star/p/2/p/3",
+    "https://dreamkitsapp.com/players/type/star/p/3"
+   ]
+  },
+  {
+   "source_id": "page-108-dlskiturl-monitor-t21",
+   "event_type": "page_fetch",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-04T21:33:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "monitoring",
+   "language": "en",
+   "payload_summary": "**Fifth mid-session monitoring check - UNCHANGED.** Same front page: Atletico Madrid 26/27 kits, DLS 26 Cult Heroes event, Tottenham 26/27 kits, English League Classics Prize Ladder, Dortmund/Juventus/Real Madrid kits, Liverpool 2006-07 classic kits, plus two PES posts. **No new event content and nothing October-dated.**",
+   "processing_state": "processed",
+   "deception_screen": "n/a (monitoring).",
+   "conflicts": "None; consistent with the four prior readings.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "visited_total": 346,
-  "unvisited_total": 462,
+  "visited_total": 348,
+  "unvisited_total": 465,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -12570,6 +12647,8 @@
    "https://dreamkitsapp.com/players/type/secret/p/2",
    "https://dreamkitsapp.com/players/type/star",
    "https://dreamkitsapp.com/players/type/star/p/2",
+   "https://dreamkitsapp.com/players/type/star/p/2/p/3",
+   "https://dreamkitsapp.com/players/type/star/p/3",
    "https://dreamkitsapp.com/players/type/star/p/9",
    "https://dreamkitsapp.com/players/type/world-winners",
    "https://gamingonphone.com/guides/dream-league-soccer-2026-the-ultimate-career-mode-guide-and-tips",
@@ -12772,6 +12851,7 @@
    "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ (a fourth guide domain found via the artwork search)",
    "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ (fourth guide domain)",
    "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/ — fourth guide domain",
+   "https://thesoccerera.com/haaland-vs-mbappe/",
    "https://toucharcade.com/games/dream-league-soccer-2026",
    "https://twitter.com/firsttouchgames",
    "https://www.apkmirror.com/apk/first-touch/dream-league-soccer-2020/dream-league-soccer-2025-12-100-release/ — version chain datapoint (DLS26 12.100, Dec 2025) + APK hosting route for the datamine",

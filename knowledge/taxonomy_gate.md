@@ -203,3 +203,15 @@
 **Narrative sweep CLOSED:** both remaining narrative sources (thesoccerera, dlskits.mobi) are now read; Reddit is confirmed fetch-blocked (403 ×2). With those done and the official spine complete, **no high-value unread narrative source remains identified**.
 
 **Gate status:** no dimension closed; dims 1 and 4 remain the open frontier and are **not closable by retrieval** — they need client-side or user-side evidence. This is the natural point for the Step-5 ask package.
+
+## Turn 21 update (2026-10-04) — dimension 1 materially filled
+
+**Dimension 1 (player upgrade mechanics) advanced from "thin" to "substantially mapped", with an explicit provenance flag.** The coaching model is now on record (100% development weight, 10% = +1 OVR, +10 cap; unequal stat weights with CON/SPE heavier than STA; four coach types with gem prices; 1-of-3 +2 coach offers; facility discount tiers 0–30%; a separate GK points rule at 2.2 points per OVR to a 22-point cap). **Caveat carried forward: this is a third-party site model, not first-party text** — it is enough to plan and to design a verification test, not enough to promote a claim. The remaining gap in dim 1 is confirmation, which is client-side or user-side.
+
+**Dimensions 1 and 4 status:** both now have model-level content but no in-client confirmation. Neither is closable by retrieval.
+
+**Conflicts:** (k) Pedri 85 (pre-launch article) vs 87/86 (DBs) — extends (g); (l) Kane 86 vs 85 **within one article** — the source disqualifies itself as a tie-breaker.
+
+**Rule reinforced:** count by id sets, never list length (Star p2 = 5 unique in 15 slots); nested pagination means DreamKits type pages cannot be enumerated by URL walking.
+
+**Gate status:** no dimension closed; no exhaustion declared.
