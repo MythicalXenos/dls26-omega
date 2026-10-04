@@ -1,39 +1,46 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-03T20:28Z (UTC), atomically in Turn 20. Branch authoritative for file state; this file for intent.
-**Last session ended:** 2026-10-02T11:48Z (prior session `arena/01a0f962`). Return gap at session start ~27 h (<7 days).
+**Updated:** 2026-10-04T21:45Z (UTC), Turn 21. Branch authoritative for file state; this file for intent.
+**Last session ended:** 2026-10-02T11:48Z (prior session `arena/01a0f962`).
 
 ## Active state and exact resumption point
 
-- **`STATE_1_RESEARCH_SWEEP` ACTIVE — RETRIEVAL SATURATED.** Turn 20 read the last two unread narrative sources (thesoccerera, dlskits.mobi) — both corroborate; dlskits.mobi misattributes Cult Heroes to 13.410 → **conflict (j)**, secondary-source error. Reddit **403 again** (fetch-blocked, 2 attempts). Coin-price model captured: **price = f(OVR, position)**, 86 CF = **2,970 coins**, "Verified vs Extrapolated" classes, secret-player discount rule.
-- **Step-5 ask package is PREPARED at `research_queue/step5_ask_package.md`** (not yet delivered). It is the exact packet for the next user contact.
-- **Git:** normal state; research commit+push done; handoff commit follows.
-- **Budget Turn 20:** 5 of 6 retrieval calls; 11 of 10 tool calls (slight overrun: package preparation).
-- **Next exact action (Turn 21, in order):**
-  1. **Mid-Session Monitoring** — one lightweight check (fetch tool).
-  2. **Assess whether STATE_1's retrieval phase is complete enough to justify Step 2/3 sequencing** — against `logs/sources_visited.json` only (never narratively). Candidate conclusion: the remaining unretrieved items are (a) fetch-blocked (TikTok, Reddit), (b) low-yield by category, or (c) user/client-dependent (gate dims 1 and 4). Record the assessment in `logs/` with counts.
-  3. **Prepare the Step-3 hard-stop delivery** if the assessment supports it (the manual's own line: "Steps 1 and 2 … are done; Step 3 needs your device setup") — but only if the gate truly permits; otherwise keep executing `>` turns and fold in the last verification items (DK `star` pages, `simulator.html`, remaining official stragglers).
-  4. Keep monitoring discipline; keep entries honest.
-- **Do NOT enter STATE_2** — dims 1 and 4 need user/client input; no dimension closed.
+- **`STATE_1_RESEARCH_SWEEP` ACTIVE — and materially reopened by a self-caught error.**
+- **Opening repair:** git state drop at turn open — **ISSUE-0014 occurrence #4** (HEAD back at `fb9a2c0`, tree untracked). Standard procedure run (tar backup 194 files → `git fetch origin arena/01a1022d-dls26-omega` → `reset --hard FETCH_HEAD` = `8e96fb0` → verified intact → clean). No content lost, no force-push. **Check `git log -1 HEAD` first every turn.**
+- **Retrieval this turn (4 calls):** dlskiturl monitoring (5th check, unchanged) · thesoccerera pre-launch article (low-reliability; corroborates base ceiling 86; adds conflicts k + l) · **SakibPro upgrade simulator = coaching/upgrade model captured (dim 1)** · DreamKits star p2 (5 unique ids in 15 slots; nested pagination; img.dlsinside.com assets on a DreamKits page).
+- **Frontier reconciliation (the important event):** removed **79 stale lead strings**; exposed **33 genuinely unvisited support.ftgames.com articles**, incl. **"How do I develop my players" (360003914778)** — first-party, on the thinnest gate dimension. Turn-20's saturation claim **retracted in place** (KB + gate + log).
+- **Ledger now:** **409 entries · 348 visited · 239 genuinely unvisited URLs · 147 descriptive notes**.
+- **Budget Turn 21:** 4 of 6 retrieval; **13 of 10 tool calls** (overrun from correction work).
+- **Next exact action (Turn 22, in order):**
+  1. **Mid-Session Monitoring** — one fetch (dlskiturl or Apple).
+  2. **Read the first-party support block**, highest value first:
+     - `https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players` (**dim 1**)
+     - `.../360003914938-How-can-I-get-Gems` (**dim 2**)
+     - `.../360003914998-What-are-Leaderboards` (**dim 6**)
+     - `.../360003945617-Can-I-sell-my-players` (**dim 2/4**)
+  3. Then, if budget allows: `.../360003945937-How-do-I-change-my-manager`, `.../360004718318-Why-doesn-t-my-player-look-like-the-real-person`, `.../360019064438-How-do-I-play-a-Friend-Match`.
+  4. **Reconcile the frontier against the visited set at the end of every turn** (new standing rule).
+  5. Log, bluff-check, snapshot, commit research **first**, then handoff **second**.
+- **Do NOT enter STATE_2.** No dimension closed. Step-5 package prepared but NOT delivered — and now **lower priority than the first-party block**, since developer text on dim 1 is still retrievable.
 
 ## Progress signal (bootstrap)
 
-- **Corpus:** imported 15 topics + register; complete first-party official spine (12 articles + Core Principles); family census (Cult Heroes 12 · Champion 12 · World Winners 8 · World Heroes 8 · Dynamic Stars 40 · Kick-off Stars 2 · Classic 32–34 · Team of 2025 11 · Season Pass 1 catalogued · Star ≈135 unlisted · Secret ~250+ legacy · Normal 14,232 records); coin-source list + gem-source list + coin-price model; version chain 13.050→13.430; clash set (11 items, 7 open, dims 1/4 the frontier).
-- **Rules of record:** DB OVR labels = estimates; DK+dlsinside = ONE family; cross-source OVR drift ≤ ±1; open the card before trusting an index row; match by id sets; shell curl unusable; Reddit/TikTok fetch-blocked.
-- **Frontier (derived):** 405 ledger entries · 346 visited unique · **462 unvisited leads** (mostly low-yield/blocked by category).
-- **Cycle dates:** last completed self-audit: never; last completed full sweep: none. **Verification debt:** none owed yet; Mechanism 9 package due at the end of STATE_4.
+- **Corpus:** imported 15 topics + register; first-party official spine (12+ read articles + Core Principles); full family census; coin-source + gem-source lists; **coin-price model** (86 CF = 2,970 coins); **coaching/upgrade model** (site-model provenance); version chain 13.050→13.430; clash set.
+- **Rules of record:** DB OVR labels = estimates · DK+dlsinside = ONE family (proven at card level AND at the CDN/asset level) · cross-source OVR drift ≤ ±1 · open the card before trusting an index row · match by id sets, never list length · shell curl unusable · Reddit/TikTok fetch-blocked (403) · **reconcile the frontier before judging yield**.
+- **Frontier (reconciled):** 239 unvisited URLs + 147 notes. Biggest blocks: sakibpro 86, support.ftgames 33, apps.apple 15, apkmirror 11, dlskiturl 8, gamingonphone 8.
+- **Cycle dates:** last completed self-audit: never; last completed full sweep: none. **Verification debt:** none owed yet; Mechanism 9 package due at end of STATE_4.
 
 ## Pending decisions / disputed / asks
 
-- **Step-5 package (prepared, undelivered):** 7 numbered items — ladder timer/DP; balances; spending stance; squad/division; prompt-capture upgrade; PRs #1/#2 + PROPOSED amendment #2; optional screenshots.
-- **Disputed claims: 0.** Open conflicts: (c) Cult Heroes acquisition route; (d) Aubameyang year stamp; (e) Season Pass card-set size 1 vs 6; (f) Vozinha 83 vs 84; (g) Pedri 27133 87 vs 86; (h) ±1 classic drifts (estimate band); (i) Classic 32 vs 34 (characterised; 26841 = stub); **(j) dlskits.mobi version misattribution (secondary error, closed in favour of first-party)**.
+- **Step-5 package (prepared, undelivered):** 7 items — ladder timer/DP; balances; spending stance; squad/division; prompt-capture upgrade; PRs #1/#2 + PROPOSED amendment #2; optional screenshots. **Still open**, but the first-party support block now outranks it as next work.
+- **Disputed claims: 0.** Open conflicts: (c) Cult Heroes route; (d) Aubameyang year; (e) Season Pass 1 vs 6; (f) Vozinha 83/84; (g)+(k) Pedri 87/86/85; (h) ±1 drifts (estimate band); (i) Classic 32/34 (26841 = stub, mapping open); (j) dlskits.mobi version error (closed in favour of first-party); **(l) Kane 86 vs 85 inside one article**.
 
 ## Working context
 
-- Issue tracker: ISSUE-0001, 0003–0008, 0010, 0011, 0013, 0014 open; 0009, 0012 resolved.
-- **Bluff check (Turn 20):** complete; saturation stated as limited to retrieval, not as exhaustion (the machine log defines exhaustion and no declaration exists).
+- Issue tracker: ISSUE-0001, 0003–0008, 0010, 0011, 0013, **0014 (occurrence #4 today)** open; 0009, 0012 resolved.
+- **Bluff check (Turn 21):** the one incomplete thing this turn was the assessment itself; it was caught, retracted in place, and rewritten. Nothing else is presented as more complete than it is — the coaching model is flagged as a third-party site model, the pre-launch article as self-contradictory.
 - **Continuity note:** consult the User Profile before any recommendation; verify game-state currency before any irreversible or resource-dependent action.
 
 ## Turn-end fields
 
-- Turn end: Turn 20 research commit+push (see log); handoff commit follows. PR #3 remains the single active PR. Next input expected: `>`.
+- Turn end: research commit+push `3a439a6` (coaching model, conflicts k/l, Star p2, ISSUE-0014 #4) then correction commit+push `6dc519b`; handoff commit follows. PR #3 remains the single active PR. Next input expected: `>`.
