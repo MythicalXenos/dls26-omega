@@ -169,3 +169,13 @@
 **Cross-source integrity:** the semi-independence test could not be run on index pages (both sites JS-gallery them); recorded as unresolved rather than skipped silently.
 
 **Gate status:** no dimension closed; Step 2 still blocked. Dims 1 and 4 remain thinnest.
+
+## Turn 18 update (2026-10-03) — source-independence settled; two conflicts narrowed
+
+**Cross-source integrity (applies to every dimension):** the dlsinside↔dreamkitsapp equivalence is now demonstrated at card level (identical values), so the KB's rule is: **one data family, treated as one source**. All earlier "second database confirms" statements carry the amendment note. Classic OVR disagreement confined to **±1** across ~10–12 of 31 shared records — a quantified estimate-band, recorded as a rule.
+
+**Dimension 6 (taxonomy) — now fully bounded:** Classic closed (32 DK / 34 SakibPro, difference explained as classification boundary {26841, Irwin 5839}); **normal/base pool = 14,232 records**; base-card ceiling observed at 86 with two flagged anomalies (Crimaldi 27676 — 92; Moore 25806 — 88). Family list stands: Cult Heroes 12 · Champion 12 · World Winners 8 · World Heroes 8 · Dynamic Stars 40 · Kick-off Stars 2 · Classic 32–34 · Team of 2025 11 · Season Pass 1 catalogued · Star ~135 (unlisted) · Secret ~250+ (legacy class) · Normal ~14.2k records.
+
+**Dimensions 1 and 4:** unchanged this turn — still the thinnest, still needing client-side or user-side evidence.
+
+**Gate status:** no dimension closed; Step 2 still blocked. Official spine complete; database census effectively complete; remaining retrieval is verification-grade, not enumeration-grade.

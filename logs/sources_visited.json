@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T19:38:05Z",
+ "last_reconciled_at": "2026-10-04T19:53:19Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12128,11 +12128,124 @@
    "discovered_not_yet_visited": [
     "https://dlsinside.com/player/joao-pedro/28356"
    ]
+  },
+  {
+   "source_id": "page-090-monitor-apple-storefront-2",
+   "event_type": "monitoring",
+   "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+   "domain": "apps.apple.com",
+   "retrieved_at": "2026-10-04T19:53:19Z",
+   "retrieval_role": "monitoring",
+   "tool": "fetch_page (chunk 0)",
+   "http_status": 200,
+   "source_type": "official",
+   "language": "en",
+   "payload_summary": "MONITORING: unchanged - only live event remains **Cult Heroes**; no new version (13.430 still newest); chart position moved #16 -> #17; rating count/size unchanged (730K, 269.6 MB).",
+   "processing_state": "processed",
+   "deception_screen": "clean (first-party).",
+   "conflicts": "None.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-091-dlsinside-player-28356",
+   "event_type": "page_fetch",
+   "url": "https://dlsinside.com/player/joao-pedro/28356",
+   "domain": "dlsinside.com",
+   "retrieved_at": "2026-10-04T19:53:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (single card page, complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "**SEMI-INDEPENDENCE TEST - individual card page renders fine (unlike the JS index pages).** dlsinside: Player ID 28356, 'Dream League Soccer 2026', **Version 160-13430**, Joao Pedro, Right foot, 182cm, age 25, Active, positions CF/SS/AM, Brazil; **rating 82**; standout attributes Shooting 87, Speed 83, Acceleration 83; text: 'part of the Season Pass collection'. **Every value identical to the dreamkitsapp record for the same card (82, same version tag, same stat leaders).**",
+   "processing_state": "processed",
+   "deception_screen": "third-party DB.",
+   "conflicts": "**Interpretation (important, honesty-critical): the two databases return the SAME data for the same card, consistent with the shared-pipeline hypothesis (img.dlsinside.com CDN + cross-advertising). Therefore the earlier KB line 'Joao Pedro 82 confirmed on a second database' is amended to 'confirmed twice within ONE data family' - corroboration-lite, not independent confirmation.** Recorded as an explicit amendment, not silently softened.",
+   "kb_claims": "knowledge/knowledge_base.md (amendment block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-092-sakibpro-classic-p2",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/classic/?page=2",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T19:53:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "SakibPro classic p2 (12): Gascoigne 24598 85 · **Irwin 5839 85** · Rivaldo 26843 85 · Trezeguet 26837 85 · Berbatov 27675 84 · Cole 27096 84 · Crespo 27095 84 · Desailly 27093 84 · Petit 25090 84 · Petit 27203 84 · Pires 26839 84 · Souness 25089 84. **Irwin 5839 is classified CLASSIC here but SECRET by dreamkitsapp** - a classification-boundary difference.",
+   "processing_state": "processed",
+   "deception_screen": "site OVRs are estimates (documented).",
+   "conflicts": "Drift vs DK on 5 of 11 shared p2 records, all exactly 1 point (Berbatov, Petit x2, Pires, Souness, Rivaldo).",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-093-sakibpro-classic-p3",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/classic/?page=3",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T19:53:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "SakibPro classic p3 (final, 10): Zola 25094 84 · Adams 25093 83 · Cole 25091 83 · Crespo 25095 83 · Valderrama 26840 83 · Zenga 25097 83 · Suker 25096 83 · Bergkamp 25092 82 · Gascoigne 24597 82 · Mendieta 25098 82. Index total **34** (12+12+10).",
+   "processing_state": "processed",
+   "deception_screen": "site OVRs are estimates.",
+   "conflicts": "Drift vs DK on 4 of 10 (Zola, Zenga, Bergkamp 25092, all +/-1).",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-094-sakibpro-classic-p1",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/classic/?page=1",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T19:53:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "SakibPro classic p1 (12): **26841 (unnamed record, GK, Spain, 86; slug placeholder /players/classic/player/26841/)** · Cannavaro 26842 86 · Matthaus 24596 86 · Matthaus 27201 86 · Rivaldo 27094 86 · Batistuta 24595 85 · Batistuta 27204 85 · Bergkamp 25100 85 · Bergkamp 27202 85 · Chiellini 25099 85 · Desailly 26836 85 · Essien 26838 85. Page also states '34 verified records' and repeats the +10 coach/black-card FAQ. **CONFLICT (i) CHARACTERISED:** SakibPro's 34 = DK's 32 + {26841, Irwin 5839}; DK files 5839 under Secret and does not list 26841 anywhere observed. So the count gap is a **classification/coverage boundary, not a different card universe** - and one record (26841) exists only on the SakibPro side.",
+   "processing_state": "processed",
+   "deception_screen": "site OVRs are estimates.",
+   "conflicts": "Conflict (i) characterised and narrowed; not fully closed (26841's identity unresolved).",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/players/classic/player/26841/"
+   ]
+  },
+  {
+   "source_id": "page-095-sakibpro-normal-p1",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/normal/?page=1",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T19:53:19Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "**NORMAL (base) POOL SIZE: '14,232 verified records' across 1,186 pages** - the largest figure in the sweep and a direct measure of the base-pool scale behind the storefront's '4,000+ FIFPRO licensed players'. Top of the OVR-ordered listing: **Crimaldi 27676 AM 92 (ANOMALY: 92 on a 'normal' card, and 27676 sits in the special-id block)** · Moore 25806 RM 88 (ANOMALY: no nation flag rendered; 25806 is in the 258xx special block) · Haaland 17196 86 · **Kane 10159 86** (base id matches the archive) · Yamal 21929 86 · Mbappe 14756 86 · O. Dembele 15403 86 · **Olise 18158 86** (matches the archive's normal-card note) · B. Fernandes 12434 85 · Donnarumma 14078 85 · Gabriel 16347 85 · Hakimi 15932 85.",
+   "processing_state": "processed",
+   "deception_screen": "site OVRs are estimates; two listing anomalies flagged rather than accepted.",
+   "conflicts": "Two anomalies flagged for verification (Crimaldi 27676 92; Moore 25806 88). Base-card ceiling otherwise 86.",
+   "kb_claims": "knowledge/knowledge_base.md (base-pool block)",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/players/normal/roberto-crimaldi/27676/",
+    "https://sakibpro.com/players/normal/tom-moore/25806/"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 338,
-  "unvisited_total": 457,
+  "visited_total": 341,
+  "unvisited_total": 459,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -12397,6 +12510,8 @@
    "https://sakibpro.com/players/normal/pierre-emerick-aubameyang/4057/",
    "https://sakibpro.com/players/normal/player/25848",
    "https://sakibpro.com/players/normal/raphael-belloli/27135",
+   "https://sakibpro.com/players/normal/roberto-crimaldi/27676/",
+   "https://sakibpro.com/players/normal/tom-moore/25806/",
    "https://sakibpro.com/players/normal/virgil-van-dijk/27130",
    "https://sakibpro.com/players/normal/virgil-van-dijk/27130/",
    "https://sakibpro.com/players/season-pass/",

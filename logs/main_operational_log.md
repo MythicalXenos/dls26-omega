@@ -297,3 +297,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 17 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. The render anomaly was published as an anomaly instead of a discovery; the failed cross-read test is recorded as failed rather than quietly dropped; the Dynamic Stars count is reported as matching the archive rather than as a fresh independent confirmation (the sources share infrastructure). Nothing incomplete presented as complete.
+
+## TURN 18 (2026-10-03) — MID-SESSION MONITORING
+- Apple storefront: unchanged (only Cult Heroes live; no version past 13.430; chart #16->#17 trivial). Git state normal at turn start (first clean start since the anomaly began).
+
+## TURN 18 — RESEARCH (semi-independence test; classic census closed; base-pool scale)
+- page-091: dlsinside individual card page rendered -> **identical data to dreamkitsapp** -> the "second database" is one data family; KB line amended explicitly (honesty correction of a Turn-15 claim).
+- page-092/093/094: SakibPro classic pages 1-3 -> **34 records**, and the 32-vs-34 gap is explained as a classification/coverage boundary {unnamed GK 26841, Irwin 5839}.
+- **Quantified rule established:** cross-source classic OVR disagreement never exceeds ±1 (10-12 of 31 shared records differ, all by one point).
+- page-095: **normal pool = 14,232 records / 1,186 pages**; base-card ceiling 86 (Kane 10159, Olise 18158 match archive); two anomalies flagged (Crimaldi 27676 92; Moore 25806 88).
+- Retrieval calls: 6 of 6 (at cap). Tool calls: 10 of 10.
+
+## TURN 18 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. The Turn-15 "second database" claim was proactively amended rather than left standing; the classic count gap was characterised instead of closed by preference; two anomalies were flagged rather than absorbed. Nothing incomplete presented as complete.
