@@ -95,3 +95,4 @@
 
 ### ISSUE-0014 — occurrence #4 (2026-10-04, Turn 21 open)
 Same signature: HEAD back at `fb9a2c0 Initial commit`, whole tree untracked, branch + `.git` intact, working tree fully intact. Standard procedure run (tar backup 194 files → `git fetch origin arena/01a1022d-dls26-omega` → `git reset --hard FETCH_HEAD` (tip `8e96fb0`) → verify → commit). Verified intact after reset: 405 ledger entries, 328 KB lines, 23 snapshots, Step-5 package present. **No content lost, no force-push.** Also note the remote-tracking ref `origin/arena/...` was absent after the drop; the fetch recreates it.
+ISSUE-0014 occurrence #5 (2026-10-04, Turn 23 open): standard repair run (backup -> fetch -> reset --hard FETCH_HEAD -> verified). No content lost, no force-push.

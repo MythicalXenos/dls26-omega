@@ -374,3 +374,19 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 22 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. Conflict (m) is recorded as a conflict, not averaged away. The support articles' missing version stamp is recorded as a limitation on every first-party fact taken from them. Chunked page-114 is logged as "article body complete, comments unread" rather than as fully read. Nothing is presented as DLS-26-confirmed on the strength of unstamped support copy.
+
+## TURN 23 (2026-10-04) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**seventh** check). No new event content; nothing October-dated.
+
+## TURN 23 — RESEARCH (6 of 6 retrieval calls)
+- **Opening repair:** git state drop at turn open — **ISSUE-0014 occurrence #5**. Standard repair (backup 197 files → fetch → `reset --hard FETCH_HEAD` = `eea51a6` → verified). No content lost, no force-push.
+- page-116 **How do I sell players (17146555181585)**: only non-Starting-11 players, minimum squad size retained, reward = **"bux"**. **Conflicts (n) bux vs coins and (o) bux vs coach** — both internal to first-party text.
+- page-117 **How do I earn coins in the app (214385285)**: the definitive **11-source coin income list** (dim 2), incl. Clean Sheets, Season Objectives, Final League Positions, Cup Wins, and Watching Video Clips.
+- page-118 **When will the next app update be (360000262229)**: FTG states it does **not** pre-announce updates; official channels are TikTok @dreamleaguesoccer.ftg, Instagram @playdls, Facebook /dreamleaguesoccer/. **Bounds what monitoring can ever achieve.**
+- page-119 **Why are some players missing (213852049)**: database constantly updated; **licensing** is the stated cause of absences (dim 4).
+- page-120 **Why are my players auto-switching (360008831518)**: gear → Controls → **Auto Switch** (dim 5).
+- Six new first-party leads added, incl. **player roles (7917583876625)** and **card colour (214385645)**.
+- Ledger: **421 entries · 355 visited · 398 leads**. Tool calls: 10 of 10; retrieval 6 of 6 (both on budget, including the repair).
+
+## TURN 23 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. Both new conflicts are recorded as conflicts rather than reconciled; the "bux" ambiguity is explicitly marked unresolvable from the page; the update-policy finding is stated as a bound on our own monitoring rather than as a fact about the game's content. Nothing averaged, nothing smoothed.

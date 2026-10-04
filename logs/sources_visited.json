@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T22:05:00Z",
+ "last_reconciled_at": "2026-10-04T23:45:00Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12611,11 +12611,133 @@
     "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
     "https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesn-t-my-player-look-like-the-real-person"
    ]
+  },
+  {
+   "source_id": "page-115-dlskiturl-monitor-t23",
+   "event_type": "page_fetch",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-04T23:45:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "monitoring",
+   "language": "en",
+   "payload_summary": "**Seventh mid-session monitoring check - UNCHANGED.** Same nine front-page items. No new event content; nothing October-dated.",
+   "processing_state": "processed",
+   "deception_screen": "n/a (monitoring).",
+   "conflicts": "None.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-116-ftg-sell-players-bux",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-04T23:45:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "**FIRST-PARTY (dim 2).** Verbatim: 'Provided that you have the necessary number of players, you can discard (sell) players on your squad who are **not in your Starting 11**. You will be provided with a **specified amount of bux** for the removal of the player.' Two constraints: a minimum squad size must be retained, and only non-Starting-11 players can be sold. Contrast with article 360003945617 (page-113), which says the reward is a **coach**.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; no version stamp, no amounts.",
+   "conflicts": "**Two conflicts recorded.** (n) **Terminology: this article calls the sale currency 'bux', while every other DLS surface says 'coins'.** Either FTG reused generic FTG currency wording on a stale article, or 'bux' is a distinct/legacy term. Not resolvable from this page; recorded as an open terminology conflict. (o) **Reward for selling: 'bux' here vs 'a coach' in article 360003945617.** Both are first-party. Possibly both (bux + coach), or one article is stale; NOT harmonised.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 23 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles",
+    "https://support.ftgames.com/hc/en-us/articles/214385465-Can-I-re-sign-a-player-that-I-have-sold-previously"
+   ]
+  },
+  {
+   "source_id": "page-117-ftg-earn-coins",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-04T23:45:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "**FIRST-PARTY, the definitive coin-income list (dim 2).** Eleven sources, verbatim: **Winning Matches · Drawing Matches · Clean Sheets · Scoring Goals · Stadium Bonuses · Season Objectives · Season Pass rewards · Prize Ladder rewards · Final League Positions · Cup Wins · Watching Video Clips (where available)**.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; no rates or amounts given.",
+   "conflicts": "None. Extends the previously held coin-source list with **Clean Sheets, Scoring Goals, Season Objectives, Final League Positions and Cup Wins**; confirms the user's stated ad-watching route as an officially listed coin source ('Watching Video Clips').",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 23 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins"
+   ]
+  },
+  {
+   "source_id": "page-118-ftg-next-update",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-04T23:45:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "**FIRST-PARTY, and it closes a monitoring question.** FTG: 'we don't provide indications of our future game releases, update schedules or planned activities when requested', and directs players to its official social channels: **TikTok @dreamleaguesoccer.ftg**, **Instagram @playdls**, **Facebook /dreamleaguesoccer/**.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; a policy statement, not data.",
+   "conflicts": "None. **Consequence: no first-party source will ever pre-announce an update**, which bounds what monitoring can achieve - the storefront 'What's New' text remains the only authoritative version signal. The official TikTok handle is now confirmed first-party (that platform stays fetch-blocked at 403).",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 23 block)",
+   "discovered_not_yet_visited": [
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+    "https://www.instagram.com/playdls",
+    "https://www.facebook.com/dreamleaguesoccer/"
+   ]
+  },
+  {
+   "source_id": "page-119-ftg-missing-players",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-04T23:45:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "**FIRST-PARTY (dim 4).** 'We are constantly updating our player database, so you may find that new players are added whilst some players may be removed every now and then. Also, unfortunately, **some players cannot be included for licensing reasons**.'",
+   "processing_state": "processed",
+   "deception_screen": "first-party; generic.",
+   "conflicts": "None. **Explains the mechanism behind roster churn** and confirms licensing, not oversight, as the cause of absences - relevant to any base-pool count drifting between sources.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 23 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/214385645-Why-are-some-players-displaying-a-different-player-card-colour"
+   ]
+  },
+  {
+   "source_id": "page-120-ftg-auto-switch",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360008831518-Why-are-my-players-auto-switching-all-the-time",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-04T23:45:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "**FIRST-PARTY (dim 5 - controls).** By default, control **auto-switches between players when defending** so the closest player challenges for the ball. To change it: open the **settings menu (gear icon, top-left)**, tap **'Controls'**, and change the **'Auto Switch'** setting to the preferred level.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; menu path may differ by version.",
+   "conflicts": "None. Confirms the **Controls** sub-menu exists inside settings - the same menu family that holds the user's Kick Assist / Cross Assist preferences.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 23 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/213851489-How-do-I-perform-a-skill-move",
+    "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 352,
-  "unvisited_total": 392,
+  "visited_total": 355,
+  "unvisited_total": 398,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -12863,15 +12985,20 @@
    "https://support.ftgames.com",
    "https://support.ftgames.com/hc/en-us/articles/14369944135058-How-do-I-hide-the-text-on-the-control-buttons",
    "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players",
+   "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins",
+   "https://support.ftgames.com/hc/en-us/articles/213851489-How-do-I-perform-a-skill-move",
    "https://support.ftgames.com/hc/en-us/articles/213851909-How-do-I-restart-my-career-from-the-beginning",
    "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app",
    "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app",
    "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
+   "https://support.ftgames.com/hc/en-us/articles/214385465-Can-I-re-sign-a-player-that-I-have-sold-previously",
+   "https://support.ftgames.com/hc/en-us/articles/214385645-Why-are-some-players-displaying-a-different-player-card-colour",
    "https://support.ftgames.com/hc/en-us/articles/214385685-Is-my-device-compatible-with-the-app",
    "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
    "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
    "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream Point Boosts",
    "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
+   "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
    "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players",
    "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems",
    "https://support.ftgames.com/hc/en-us/articles/360003914998-What-are-Leaderboards",
@@ -12894,6 +13021,7 @@
    "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
    "https://support.ftgames.com/hc/en-us/articles/4408249822609-Age-Confirmation-Personal-Ads-and-Notifications",
    "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero",
+   "https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles",
    "https://support.ftgames.com/hc/en-us/articles/7949802512401-How-is-save-data-stored-and-transferred-in-Ultimate-Clash-Soccer",
    "https://support.ftgames.com/hc/en-us/articles/9600462672913-How-is-save-data-stored-and-transferred-in-Score-Match",
    "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS",

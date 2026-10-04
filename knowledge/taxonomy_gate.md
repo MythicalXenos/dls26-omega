@@ -230,3 +230,17 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Dimension 6:** leaderboard reset window (**3–30 days**) and prize-on-final-position.
 
 **Gate status:** still **no dimension closed** — closing requires the sweep's own bar, not coverage. But the "thinnest dimensions" framing has changed: dims 1 and 4 are no longer thin on *evidence*; what remains thin is *DLS-26-specific confirmation* of the first-party text (the support articles carry no version stamp) and in-client verification.
+
+## Turn 23 update (2026-10-04) — dims 2 and 5 advanced; two new first-party conflicts
+
+**Dimension 2 (currencies) is now the best-evidenced dimension in the sweep:** first-party income lists exist for **both** currencies (coins: 11 sources; gems: 5 sources), plus a third-party price model (86 CF = 2,970 coins). What is missing is *rates* — no first-party source states an amount, and the sale-reward currency is itself contested ("bux" vs "coins"; bux vs coach).
+
+**Dimension 5 (controls/settings) opened:** the Controls sub-menu and the Auto Switch setting are first-party confirmed.
+
+**New conflicts, both internal to first-party text:** (n) **"bux" vs "coins"**; (o) **sale reward = bux vs coach**. Neither is harmonised. Recorded rather than averaged.
+
+**Monitoring policy settled:** FTG states in writing that it does not pre-announce updates, so the storefront "What's New" text is the only authoritative version signal.
+
+**Lead generation:** the related-articles blocks on each support page are now the most productive source of new first-party leads (six more added this turn, incl. "How do I change my player roles" 7917583876625 and "Why are some players displaying a different player card colour" 214385645).
+
+**Gate status:** no dimension closed. Dims 1, 2, 4, 5, 6 all now carry first-party text; dim 3 (card families) is the only dimension whose evidence is entirely third-party.
