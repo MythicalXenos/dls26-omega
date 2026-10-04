@@ -310,3 +310,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 18 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. The Turn-15 "second database" claim was proactively amended rather than left standing; the classic count gap was characterised instead of closed by preference; two anomalies were flagged rather than absorbed. Nothing incomplete presented as complete.
+
+## TURN 19 (2026-10-03) — MID-SESSION MONITORING
+- dlskiturl home (page-100): unchanged again - no post newer than the English League Classics item, nothing October-dated. Clean.
+
+## TURN 19 — RESEARCH (verification + capability + tools hub)
+- page-096/097: the two suspected normal-pool anomalies (Crimaldi 27676 92; Moore 25806 88) **do not exist as card pages** -> index artifacts; rule reinforced (open the card before trusting an index row).
+- page-098: unnamed classic 26841 = stub page 'Classic 2006' (GK Spain 86 OFFICIAL marker, blank stats) - excluded from the playable census; conflict (i) refined.
+- page-099: SakibPro tools hub (9 tools) - calculators, labelled as models not evidence; price calculator + squad builder queued as leads.
+- **Capability probes (first run, G-0004):** /dev/kvm **ABSENT**, java absent, apt/pip/unzip present, python 3.11.2, disk 20 GB; shell TLS known broken -> **APK-inspection route not viable** (recorded in bootstrap/capability_inventory.md; supersedes 'probes unrun').
+- Retrieval calls: 5 of 6. Tool calls: 9 of 10.
+
+## TURN 19 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. Two anomalies were actively debunked rather than carried forward; the 26841 stub was labelled a stub rather than counted as a card; capability probes were recorded with the negative results stated plainly (kvm absent, shell TLS broken) instead of being buried. Nothing incomplete presented as complete.

@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T20:06:01Z",
+ "last_reconciled_at": "2026-10-04T20:06:11Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12319,6 +12319,24 @@
     "https://sakibpro.com/squad-builder/",
     "https://sakibpro.com/players/compare.php"
    ]
+  },
+  {
+   "source_id": "page-100-monitor-dlskiturl-home-3",
+   "event_type": "monitoring",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-04T20:06:11Z",
+   "retrieval_role": "monitoring",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-news",
+   "language": "en",
+   "payload_summary": "MONITORING (third check): front page identical again - no DLS26 post newer than the English League Classics item; nothing October-dated; same kit/PES feed. Unchanged.",
+   "processing_state": "processed",
+   "deception_screen": "content/SEO site; monitoring only.",
+   "conflicts": "None.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
