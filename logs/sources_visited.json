@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T18:32:22Z",
+ "last_reconciled_at": "2026-10-04T19:38:05Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12033,11 +12033,106 @@
     "https://dreamkitsapp.com/players/type/secret/p/2",
     "https://dreamkitsapp.com/players/type/star"
    ]
+  },
+  {
+   "source_id": "page-085-monitor-dlskiturl-home-2",
+   "event_type": "monitoring",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-04T19:38:05Z",
+   "retrieval_role": "monitoring",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-news",
+   "language": "en",
+   "payload_summary": "MONITORING, second check via the fetch tool (shell curl route broken): front-page feed identical to the Turn-15 read - Atletico kits, Cult Heroes event, Tottenham kits, English League Classics, Dortmund/Juventus/Real/Liverpool kits, PES posts. **No DLS26 post newer than the English League Classics item; nothing dated October.** Unchanged.",
+   "processing_state": "processed",
+   "deception_screen": "content/SEO site; monitoring only.",
+   "conflicts": "None.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-086-dreamkits-dynamic-stars-p2",
+   "event_type": "page_fetch",
+   "url": "https://dreamkitsapp.com/players/type/dynamic-stars/p/2",
+   "domain": "dreamkitsapp.com",
+   "retrieved_at": "2026-10-04T19:38:05Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "Dynamic Stars p2 (15): Joao Felix 27513 85 · Woltemade 27514 84 · Ndicka 27539 84 · Stanisic 27524 84 · Laimer 27521 84 · Malen 27515 84 · Irvine 28237 83 · Kubo 27537 83 · Ndiaye 27534 83 · Wissa 28239 83 · I. Williams 27533 83 · R. Williams GK 27530 83 · Hincapie 27527 83 · Elanga 28244 83 · Muharemovic 28238 83.",
+   "processing_state": "processed",
+   "deception_screen": "self-disclaimer present.",
+   "conflicts": "None new.",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-087-dreamkits-dynamic-stars-p3",
+   "event_type": "page_fetch",
+   "url": "https://dreamkitsapp.com/players/type/dynamic-stars/p/3",
+   "domain": "dreamkitsapp.com",
+   "retrieved_at": "2026-10-04T19:38:05Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "Dynamic Stars p3 (final, 10): Ait-Nouri 27532 83 · Isidor 28240 82 · Schick 27528 82 · Robertson 27522 82 · Wood 28242 82 · Kang-in Lee 27536 82 · Abdulhamid 28241 82 · Guler 27538 82 · Khusanov 27535 82 · Nunez 27526 82. **Family closes at 40 records (15+15+10) - which MATCHES the archive's 'Dynamic Star 40' exactly.** Range 82-96.",
+   "processing_state": "processed",
+   "deception_screen": "self-disclaimer present.",
+   "conflicts": "Resolves the apparent 3-page/45 worry: the pages carry 15+15+10 = **40**, matching the archive. No conflict (j) needed.",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-088-dreamkits-star-p1",
+   "event_type": "page_fetch",
+   "url": "https://dreamkitsapp.com/players/type/star",
+   "domain": "dreamkitsapp.com",
+   "retrieved_at": "2026-10-04T19:38:05Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete, page 1 of 9)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "Star family p1 (of 9 pages) - **RENDER ANOMALY RECORDED**: the same card ('Elliot Anderson' 27832, 85, DM/CM, England) is repeated 9 times in the output; distinct records present are McTominay 25987 85, Alex Baena 25989 85, Igor Thiago 27483 84 (twice), Antonee Robinson 25985 84. Treated as a template-duplication artifact of the render, NOT as nine separate cards; no counts derived from this page.",
+   "processing_state": "processed",
+   "deception_screen": "self-disclaimer present. Anomaly flagged to prevent a false 'Anderson x9' reading.",
+   "conflicts": "n/a - render artifact.",
+   "kb_claims": "knowledge/knowledge_base.md (ledger/taxonomy note only)",
+   "discovered_not_yet_visited": [
+    "https://dreamkitsapp.com/players/type/star/p/2",
+    "https://dreamkitsapp.com/players/type/star/p/9"
+   ]
+  },
+  {
+   "source_id": "page-089-dlsinside-players-specials",
+   "event_type": "page_fetch",
+   "url": "https://dlsinside.com/players/specials",
+   "domain": "dlsinside.com",
+   "retrieved_at": "2026-10-04T19:38:05Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "Semi-independence test attempt: dlsinside's specials index is ALSO a JS gallery - output is only 12 unlabeled numerals (10, 7, 29, 10, 25, 1, 10, 16, 9, 7, 10, 25) and a 'Start!' control. **No family names, counts or player data extractable.** The cross-read test cannot be run through index pages; it would need individual card pages (e.g. /player/joao-pedro/28356) which DID render earlier in prior sessions.",
+   "processing_state": "processed",
+   "deception_screen": "n/a - no claims taken.",
+   "conflicts": "n/a",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": [
+    "https://dlsinside.com/player/joao-pedro/28356"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 335,
-  "unvisited_total": 454,
+  "visited_total": 338,
+  "unvisited_total": 457,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -12153,6 +12248,7 @@
    "https://cdn.sakibpro.com/assets/flags/{cc}.png (flag asset space)",
    "https://dlsinside.com/ (a second database — root, methodology, and its card-type index pages)",
    "https://dlsinside.com/ — SECOND DATABASE: root, methodology, card-type indexes (mandatory cross-check for DR-001)",
+   "https://dlsinside.com/player/joao-pedro/28356",
    "https://dlsinside.com/players",
    "https://dlsinside.com/players/specials",
    "https://dlsinside.com/players/specials/cult-heroes (full page-render, not just the search snippet)",
@@ -12188,6 +12284,8 @@
    "https://dreamkitsapp.com/players/type/dynamic-stars/p/3",
    "https://dreamkitsapp.com/players/type/secret/p/2",
    "https://dreamkitsapp.com/players/type/star",
+   "https://dreamkitsapp.com/players/type/star/p/2",
+   "https://dreamkitsapp.com/players/type/star/p/9",
    "https://dreamkitsapp.com/players/type/world-winners",
    "https://gamingonphone.com/guides/dream-league-soccer-2026-the-ultimate-career-mode-guide-and-tips",
    "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips",

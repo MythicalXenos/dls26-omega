@@ -161,3 +161,11 @@
 **Cross-source integrity:** conflict (i) filed (classic count); no value harmonised. All OVR figures from this pass remain estimates by the source's own disclaimer.
 
 **Gate status:** no dimension closed; Step 2 still blocked. Remaining high-value second-database gaps: Dynamic Stars p2–p3 (closes ~40), Star family sample, dlsinside cross-read of one or two families to test the semi-independence caveat, then the SakibPro normal/tools indexes.
+
+## Turn 17 update (2026-10-03) — families closed; render anomalies guarded against
+
+**Dimension 6 (taxonomy):** four families now closed with archive-matching counts (Cult Heroes 12, Champion 12, World Winners 8, Dynamic Stars 40) plus World Heroes 8, Kick-off Stars 2, Team of 2025 11; two open counts remain (Classic 32 vs 34; Star ≈135 not enumerated; Secret ≈250+ legacy class). The **Star render anomaly** is logged as a data-handling hazard: page renders can duplicate a card template, so counts must always come from record-identity checks (id sets), never from list length.
+
+**Cross-source integrity:** the semi-independence test could not be run on index pages (both sites JS-gallery them); recorded as unresolved rather than skipped silently.
+
+**Gate status:** no dimension closed; Step 2 still blocked. Dims 1 and 4 remain thinnest.

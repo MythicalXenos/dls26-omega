@@ -285,3 +285,15 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 ## TURN 16 — ANOMALY REPAIR (second git-ancestry drop) + push-order mitigation
 - Push rejected (non-fast-forward) with content intact; repaired via the Turn-12 sequence (diff -> reset --hard FETCH_HEAD -> apply -> commit -> push). Filed **ISSUE-0014** with both occurrences.
 - **New standing procedure:** research-block commit + push FIRST, handoff commit + push SECOND, so an ancestry drop can never orphan a research block behind the handoff. Tool calls this turn: 11 (cap 10) - overrun attributable to the repair, recorded.
+
+## TURN 17 (2026-10-03) — MID-SESSION MONITORING
+- dlskiturl home unchanged (second fetch-tool check; shell route remains TLS-broken). No new event content; nothing October-dated.
+
+## TURN 17 — RESEARCH (second-database pass 4: Dynamic Stars closed, Star anomaly, cross-read attempt)
+- page-086/087 Dynamic Stars p2+p3 -> **family closes at 40, exactly matching the archive**; highest OVR in the sweep remains Nico Williams 96.
+- page-088 Star p1: **render-duplication anomaly** (Elliot Anderson card repeated 9x) - recorded as an anomaly, no counts derived, and a standing rule reinforced: count by id sets, not list length.
+- page-089 dlsinside specials index: JS gallery, no data; cross-read deferred to individual card pages.
+- Retrieval calls: 5 of 6. Tool calls before wrap-up: 6 of 10.
+
+## TURN 17 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. The render anomaly was published as an anomaly instead of a discovery; the failed cross-read test is recorded as failed rather than quietly dropped; the Dynamic Stars count is reported as matching the archive rather than as a fresh independent confirmation (the sources share infrastructure). Nothing incomplete presented as complete.
