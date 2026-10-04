@@ -357,3 +357,20 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 - Post-reconciliation ledger: **409 entries · 348 visited · 239 genuinely unvisited URLs · 147 descriptive notes**.
 - **Rule added: reconcile the frontier against the visited set every turn before drawing any yield conclusion.**
 - Tool calls: 13 of 10 (overrun caused by the correction work — the discovery justified it). Retrieval: 4 of 6.
+
+## TURN 22 (2026-10-04) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**sixth** check). No new event content; nothing October-dated.
+
+## TURN 22 — RESEARCH (first-party support block opened; 6 of 6 retrieval calls)
+- Git clean at open (no drop; first back-to-back clean opens since T18).
+- **page-110 How do I develop my players (360003914778)** — first-party: Coaches button in Team Management; **coach randomly selects the player** for a permanent upgrade; Form Boost duration set by Training facility level. **Conflict (m)** vs the third-party simulator's user-chosen targeting.
+- **page-111 How can I get Gems (360003914938)** — league objectives, tournaments, Season Pass, Prize Ladder, multiplayer; purchasable.
+- **page-112 What are Leaderboards (360003914998)** — DLL performance boards, **reset 3–30 days**, prizes by final position.
+- **page-113 Can I sell my players (360003945617)** — Manage Players on the Transfers screen; **releasing a player yields a COACH**; Recover section holds recent sales (version-gated "12200 onwards").
+- **page-114 How do the various player stats affect gameplay (360019166777)** — **first-party stat bible**: SPE/ACC/STA/CON/STR/TAC/PAS/SHO + GKH/GKR + ENERGY, each with concrete in-game effects (dribbling penalty inversely proportional to CON; shot "assist" away from the keeper; anticipate saves; tackle reach). FTG's own caveat that the game is not a simulation.
+- page-109 monitoring (unchanged).
+- Six **new first-party leads** discovered in the related-articles blocks and added to the frontier.
+- Ledger: **415 entries · 352 visited · 392 leads**. Tool calls: 10 of 10 (on budget); retrieval 6 of 6 (on budget).
+
+## TURN 22 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. Conflict (m) is recorded as a conflict, not averaged away. The support articles' missing version stamp is recorded as a limitation on every first-party fact taken from them. Chunked page-114 is logged as "article body complete, comments unread" rather than as fully read. Nothing is presented as DLS-26-confirmed on the strength of unstamped support copy.

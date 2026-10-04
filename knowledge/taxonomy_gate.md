@@ -218,3 +218,15 @@
 
 ### CORRECTION (Turn 21) to the Turn-20 note above
 The Turn-20 line "no high-value unread narrative source remains" is **retracted**: the frontier had never been reconciled against the visited set (79 stale strings removed this turn). A **first-party** block of **33 unread support.ftgames.com articles** sits behind them, including **"How do I develop my players" (360003914778)** — developer-authored, directly on dimension 1. Gate status unchanged (no dimension closed), but the "next input = user" framing was premature: **developer text on dim 1 is still retrievable and unread.**
+
+## Turn 22 update (2026-10-04) — first-party text lands on dims 1, 2, 4, 6
+
+**Dimension 4 (stats → gameplay) now has first-party coverage for every one of the eight outfield stats plus both GK stats and energy** — from FTG's own article 360019166777. This was one of the two thinnest dimensions and is now the best-evidenced dimension after the card census. Note the publisher's own caveat: it is a game, not a simulation, with deliberate unpredictability — so this is directional mechanics, not a formula.
+
+**Dimension 1 (upgrade mechanics) now has BOTH a first-party statement and a third-party model, and they disagree on targeting** (random coach pick vs user-chosen player) — logged as conflict (m). First-party also gives the Form Boost rule (duration = Training facility level, min one match).
+
+**Dimension 2:** gem income itemised first-party (league objectives, tournaments, Season Pass, Prize Ladder, multiplayer); and the **sell-a-player → receive-a-coach** loop (version-gated at "12200 onwards").
+
+**Dimension 6:** leaderboard reset window (**3–30 days**) and prize-on-final-position.
+
+**Gate status:** still **no dimension closed** — closing requires the sweep's own bar, not coverage. But the "thinnest dimensions" framing has changed: dims 1 and 4 are no longer thin on *evidence*; what remains thin is *DLS-26-specific confirmation* of the first-party text (the support articles carry no version stamp) and in-client verification.
