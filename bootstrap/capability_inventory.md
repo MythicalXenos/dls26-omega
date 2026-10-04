@@ -40,3 +40,9 @@
 - **New this session:** Java/JDK is absent (not previously recorded as a blocking absence for Step 2 planning); `sqlite3`/`file`/`xxd` absent; write-cap of 12,000 characters per single file write now explicitly recorded; question tool verified present but bound-unused in Steps 1–4; prior-session branches retrievable via `git fetch` + `git checkout <sha> -- <paths>` (used this turn to restore continuity).
 - **Unchanged:** page-render and discovery-search tool roles; GitHub authenticated; no device/emulator path; user-stated device profile (unrooted Galaxy S9+, MacBook Air M4, separate test device/account) is user-stated context, not sandbox capability.
 - **To probe next turn (cheap, once):** `/dev/kvm` presence; `apt-get`/`sudo` install feasibility; shell TLS reachability; `pip install` reachability; whether a DLS-related APK is fetchable (Step 2 route decision, gap G-0004).
+
+## Capability probes — first run (2026-10-03, Turn 19; non-network probes only)
+- `/dev/kvm`: **ABSENT** → no hardware-accelerated Android emulation; a full emulator route for extracting card data is not viable on this host.
+- `apt-get`: present · `pip3`: present · Python **3.11.2** · `unzip`: present · `java`: absent · disk free ≈ **20 GB** (allows substantial downloads, e.g. an APK, if reachable).
+- **Shell HTTPS: BROKEN** (curl to dlskiturl.com failed with OpenSSL SSL_ERROR_SYSCALL, HTTP 000, Turn 16) → any download-first APK route must be tested via a different client (python `requests`/urllib) or abandoned in favour of tool-based fetches.
+- **Consequence for G-0004:** the APK-inspection route is **not currently viable** (no emulator acceleration, no working shell TLS, no java/apktool); deduplication-style extraction is therefore off the table unless the user supplies data. This supersedes prior "probes unrun" placeholders.

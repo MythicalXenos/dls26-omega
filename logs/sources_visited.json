@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T19:53:19Z",
+ "last_reconciled_at": "2026-10-04T20:06:01Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12241,11 +12241,89 @@
     "https://sakibpro.com/players/normal/roberto-crimaldi/27676/",
     "https://sakibpro.com/players/normal/tom-moore/25806/"
    ]
+  },
+  {
+   "source_id": "page-096-sakibpro-crimaldi-404",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/normal/roberto-crimaldi/27676/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T20:06:01Z",
+   "retrieval_role": "verification",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "**ANOMALY VERIFIED AS BOGUS:** card page says 'Player not found in the database' for Crimaldi 27676 (the 92-OVR 'normal' record seen in the index). **The index leads to a non-existent card -> Crimaldi 27676 @92 is a database artifact, NOT a real card.** The promised high-92 base card does not exist.",
+   "processing_state": "processed",
+   "deception_screen": "n/a.",
+   "conflicts": "Anomaly 1 RESOLVED as bogus; the normal-pool ceiling is therefore governed by the real top records (86 class).",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-097-sakibpro-moore-404",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/normal/tom-moore/25806/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T20:06:01Z",
+   "retrieval_role": "verification",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "**ANOMALY VERIFIED AS BOGUS:** same 'Player not found in the database' page for Moore 25806 (the 88-OVR record with no nation flag). **Index artifact, not a real card.**",
+   "processing_state": "processed",
+   "deception_screen": "n/a.",
+   "conflicts": "Anomaly 2 RESOLVED as bogus. **Rule reinforced: lead rows in these indexes can point at non-existent cards - always open the card before using a value.**",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-098-sakibpro-26841",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/classic/player/26841/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T20:06:01Z",
+   "retrieval_role": "verification",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-db",
+   "language": "en",
+   "payload_summary": "The unnamed Classic record **26841 resolves**: a card page titled **'Classic 2006'** - GK, Spain, Free Agent, Left foot, 180 cm, weight field 0 kg, **Base Rating 86 marked 'OFFICIAL'**, acquisition 'Classic Agent', max +10 = 96. **All eight stat fields render 0/blank** and the player name is still empty -> an **auto-generated card stub whose page exists but whose data fields are unfilled**. It is (very plausibly) a genuine unreleased/placeholder Classic card; the 'OFFICIAL' label suggests the OVR was sourced, not computed.",
+   "processing_state": "processed",
+   "deception_screen": "flagged: page is partially unpopulated; do not treat blank stats as real zeros.",
+   "conflicts": "Conflict (i) refined: 26841 is a real stub page in SakibPro's classic set, absent from DK's classic list - still unexplained which game card (if any) it maps to.",
+   "kb_claims": "knowledge/knowledge_base.md",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/players/simulator.html"
+   ]
+  },
+  {
+   "source_id": "page-099-sakibpro-tools-hub",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/tools/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T20:06:01Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-tools",
+   "language": "en",
+   "payload_summary": "SakibPro tools hub: nine tools enumerated - Player Database, Kit Creator, Card Creator, Kits Engine Hub, Logo Link Generator, **Player Price Calculator (coins from OVR+position)**, **Player Upgrade Simulator (+10 coaching model)**, **Squad Builder (formations + lineup planning)**, **Compare Players**. Site claims its database 'syncs with the latest DLS 26 patches' and prices are '100% accurate' (marketing claims, not evidence).",
+   "processing_state": "processed",
+   "deception_screen": "vendor self-promotion present; tools are calculators, not evidence sources - values from them are model outputs, not observations.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (dim-2 price model lead)",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/players/price-calculator.php",
+    "https://sakibpro.com/squad-builder/",
+    "https://sakibpro.com/players/compare.php"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 341,
-  "unvisited_total": 459,
+  "visited_total": 343,
+  "unvisited_total": 462,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -12514,8 +12592,10 @@
    "https://sakibpro.com/players/normal/tom-moore/25806/",
    "https://sakibpro.com/players/normal/virgil-van-dijk/27130",
    "https://sakibpro.com/players/normal/virgil-van-dijk/27130/",
+   "https://sakibpro.com/players/price-calculator.php",
    "https://sakibpro.com/players/season-pass/",
    "https://sakibpro.com/players/season-pass/jo-o-pedro/28356/",
+   "https://sakibpro.com/players/simulator.html",
    "https://sakibpro.com/players/simulator.html?loadPlayer=10159",
    "https://sakibpro.com/players/team2025/",
    "https://sakibpro.com/players/team2025/gianluigi-donnarumma/27128",
@@ -12538,6 +12618,7 @@
    "https://sakibpro.com/players/world-winners/lamine-yamal/27845",
    "https://sakibpro.com/players/world-winners/lamine-yamal/27845/",
    "https://sakibpro.com/players/world-winners/rodri/27843",
+   "https://sakibpro.com/squad-builder/",
    "https://sakibpro.com/the-ultimate-guide-to-custom-dls-kits-logos-grapics",
    "https://sakibpro.com/tools/",
    "https://sakibpro.com/tools/ (Tools index from the breadcrumb — may list tools not linked from the home page)",

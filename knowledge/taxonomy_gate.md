@@ -179,3 +179,15 @@
 **Dimensions 1 and 4:** unchanged this turn — still the thinnest, still needing client-side or user-side evidence.
 
 **Gate status:** no dimension closed; Step 2 still blocked. Official spine complete; database census effectively complete; remaining retrieval is verification-grade, not enumeration-grade.
+
+## Turn 19 update (2026-10-03) — anomaly debunks and tool-surface note
+
+**Data-hygiene rule (now twice-earned):** index rows are not evidence — two of the four "leading" normal-pool records (the 92 and the 88) were 404 stubs; the classic 26841 row is a stub page with blank stats. Counts and values from indexes must be opened card-by-card before use.
+
+**Dimension 2 (currencies/prices):** SakibPro exposes a **price calculator** (coin price from OVR + position) and an upgrade simulator (+10 model). These are site models — usable only as labelled models, never as observations. Base-pool ceiling confirmed at 86 for real cards.
+
+**Dimension 6:** classic 26841 is a stub ("Classic 2006", GK, Spain, 86 OFFICIAL, blank stats) — excluded from the playable card census; family census otherwise unchanged.
+
+**Dimensions 1 and 4:** unchanged; still the open frontier requiring client-side or user-side evidence.
+
+**Gate status:** no dimension closed; Step 2 still blocked. **Research saturation note:** enumeration work is now largely complete; remaining retrievals are verification-grade. The highest-value next input is user-side (Step-5 ask) or client-side (capability probes).
