@@ -191,3 +191,15 @@
 **Dimensions 1 and 4:** unchanged; still the open frontier requiring client-side or user-side evidence.
 
 **Gate status:** no dimension closed; Step 2 still blocked. **Research saturation note:** enumeration work is now largely complete; remaining retrievals are verification-grade. The highest-value next input is user-side (Step-5 ask) or client-side (capability probes).
+
+## Turn 20 update (2026-10-03) — coin-price model; narrative sweep closed
+
+**Dimension 2 (currencies/what they buy): strongest turn yet.** The coin-price model is now captured: **price = f(base OVR, exact field position)**, attackers > defenders at equal rating; documented example **86 CF = 2,970 coins**; two data classes defined by the source (Verified-in-market vs Extrapolated-from-formula); secret players carry a discount. Combined with the earlier first-party coin-source list, dimension 2 now has both **income** and **price** structure — the remaining gap is rate data, which is likely user-side only.
+
+**Dimension 6:** clan progression detail filled in (leaderboards, vice-captains, Clan Point boosts, emoji interactions) — consistent with first-party clan-point statements.
+
+**Conflict status:** (j) added — dlskits.mobi misattributes Cult Heroes to 13.410 (secondary-source error; first-party chronology stands).
+
+**Narrative sweep CLOSED:** both remaining narrative sources (thesoccerera, dlskits.mobi) are now read; Reddit is confirmed fetch-blocked (403 ×2). With those done and the official spine complete, **no high-value unread narrative source remains identified**.
+
+**Gate status:** no dimension closed; dims 1 and 4 remain the open frontier and are **not closable by retrieval** — they need client-side or user-side evidence. This is the natural point for the Step-5 ask package.

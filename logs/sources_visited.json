@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-04T20:06:11Z",
+ "last_reconciled_at": "2026-10-04T20:26:46Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12337,10 +12337,86 @@
    "conflicts": "None.",
    "kb_claims": "none",
    "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-101-thesoccerera-features",
+   "event_type": "page_fetch",
+   "url": "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/",
+   "domain": "thesoccerera.com",
+   "retrieved_at": "2026-10-04T20:26:46Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (chunk 0 of 2)",
+   "http_status": 200,
+   "source_type": "third-party-news",
+   "language": "en",
+   "payload_summary": "Secondary/SEO article (previously unfetched). Contents: echoes first-party listing facts (4,000+ FIFPRO, 8 divisions, 10+ cups, Stadium/Training/Medical/Commercial facilities); names the **Summer Spotlight additions** as Dynamic Stars, Fanzone Facility (clan resource bonuses + stadium-expansion discounts), World Tournament Mode, manager customisation, interactive clan communication; and the **Winter Reload** list as updated team data, Dream Stars 26, 12th Man Vote, News System, Clan upgrades (leaderboards, vice-captains, **Clan Point boosts**), UI/SFX, Game Centre support. Also repeats the 'players upgrade with every victory' framing for Dynamic Stars and mentions a Google Play event link.",
+   "processing_state": "processed",
+   "deception_screen": "content/SEO site - incentive present; used only for corroboration of already-held first-party facts.",
+   "conflicts": "Corroborates (does not contradict) the storefront version notes. One **new detail': **Clan Point boosts** as a Winter Reload clan feature, consistent with first-party 'clan points are earned through matches, challenges and season passes'.",
+   "kb_claims": "knowledge/knowledge_base.md (clan/system detail)",
+   "discovered_not_yet_visited": [
+    "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/"
+   ]
+  },
+  {
+   "source_id": "page-102-dlskitsmobi-latest-updates",
+   "event_type": "page_fetch",
+   "url": "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/",
+   "domain": "dlskits.mobi",
+   "retrieved_at": "2026-10-04T20:26:46Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (chunk 0 of 3)",
+   "http_status": 200,
+   "source_type": "third-party-news",
+   "language": "en",
+   "payload_summary": "Guide article (previously unfetched). Confirms: 4,000+ FIFPRO players, eight divisions, 10+ cups, Stadium/Medical/Commercial/Training facilities + Fanzone; Scouts/Agents/Coaches; Summer Spotlight = Dynamic Stars + Fanzone + World Tournament + manager accessories + clan improvements; Winter Reload = transfer-window team data, Dream Stars 26 + 12th Man vote, News System, clan leaderboards/vice-captains/Clan Point boosts, UI/SFX.",
+   "processing_state": "processed",
+   "deception_screen": "content/SEO site; secondary.",
+   "conflicts": "**NEW CONFLICT (j): this article attributes the Cult Heroes collection to Version 13.410** ('Version 13.410 introduced the upcoming Cult Heroes collection'), whereas our storefront/aggregator chain puts Cult Heroes announcements at 13.420 (Sep 1) and 13.430 (Sep 16, 'late summer update - Cult Heroes coming soon') and 13.410 (Aug 20) as Summer Spotlight. Logged as a secondary-source error; the first-party version history stands.",
+   "kb_claims": "knowledge/knowledge_base.md (errata note)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-103-reddit-1vtm4ty-403",
+   "event_type": "page_fetch",
+   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/",
+   "domain": "reddit.com",
+   "retrieved_at": "2026-10-04T20:26:46Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (attempt)",
+   "http_status": 403,
+   "source_type": "user-generated",
+   "language": "en",
+   "payload_summary": "**HTTP 403 - fetch blocked.** Second Reddit attempt of the sweep (after 1rf90a7 in a prior session) with the same wall result. No content obtained. Reddit URL kept in the frontier as 'blocked', not as 'unvisited'.",
+   "processing_state": "processed",
+   "deception_screen": "n/a",
+   "conflicts": "n/a",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-104-sakibpro-price-calculator",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/players/price-calculator.php",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-04T20:26:46Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "third-party-tools",
+   "language": "en",
+   "payload_summary": "**COIN PRICE MODEL captured (dimension 2):** player coin price is determined by **Base OVR + exact position**; 'attackers generally cost more than defenders with the same rating'. Worked example: **86 OVR CF = 2,970 coins** (Kane 10159, Mbappe 14756, O. Dembele 15403, Haaland 17196 all shown at 2,970). Site defines two data classes: **'Verified Data' = the coin amount manually confirmed in the live transfer market**, vs **'Extrapolated' = calculated from the game's stated pricing formula**. Also: **Secret players are offered at a slight discount** - comparing the discount against the standard price is how you guess the secret player.",
+   "processing_state": "processed",
+   "deception_screen": "tool page = site model; the 'Verified'/'Extrapolated' distinction is itself useful methodology, recorded verbatim.",
+   "conflicts": "None; new lead, no conflict.",
+   "kb_claims": "knowledge/knowledge_base.md (dim-2 price lead)",
+   "discovered_not_yet_visited": [
+    "https://sakibpro.com/players/simulator.html"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 343,
+  "visited_total": 346,
   "unvisited_total": 462,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",

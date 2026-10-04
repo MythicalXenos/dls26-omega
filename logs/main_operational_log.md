@@ -323,3 +323,16 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 19 — BLUFF CHECK (Mechanism 8)
 - Complete every step? Yes. Two anomalies were actively debunked rather than carried forward; the 26841 stub was labelled a stub rather than counted as a card; capability probes were recorded with the negative results stated plainly (kvm absent, shell TLS broken) instead of being buried. Nothing incomplete presented as complete.
+
+## TURN 20 (2026-10-03) — MID-SESSION MONITORING
+- dlskiturl home unchanged (fourth check across the session). No new event content, nothing October-dated.
+
+## TURN 20 — RESEARCH (narrative close-out + coin price model)
+- page-101 thesoccerera: corroboration of held facts; new 'Clan Point boosts' detail. page-102 dlskits.mobi: same; **conflict (j)** - it attributes Cult Heroes to 13.410 (secondary error; storefront chain stands).
+- page-103 reddit 1vtm4ty: **403** (Reddit now marked fetch-blocked, twice).
+- page-104 price calculator: **coin price = f(OVR, position)**; 86 CF = 2,970 coins; 'Verified' vs 'Extrapolated' classes; secret-player discount rule.
+- **Saturation statement (factual, not an exhaustion declaration):** all identified high-value narrative and official sources are now read except targets that are fetch-blocked (TikTok, Reddit) or require the user/client. Remaining ledger leads are low-yield by category.
+- Retrieval calls: 5 of 6. Tool calls: 7 of 10.
+
+## TURN 20 — BLUFF CHECK (Mechanism 8)
+- Complete every step? Yes. Two sources previously listed as 'do not cite as read' are now actually read and marked as such; the dlskits.mobi version error is filed as a conflict instead of being averaged; Reddit is recorded as blocked rather than 'pending'. Nothing incomplete presented as complete.
