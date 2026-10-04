@@ -350,3 +350,10 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 21 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes, with the provenance caveats stated in place: the coaching model is labelled a third-party site model, the pre-launch article is labelled low-reliability and self-contradictory, Star p2 is counted by id set, and the monitoring reading is recorded as "unchanged" rather than "nothing new happened". Nothing is presented as confirmed game data on third-party say-so.
+
+## TURN 21 — CORRECTION (self-caught, Mechanism 8)
+- The first version of `logs/retrieval_saturation_assessment.md` concluded the unvisited set was low-yield. **That was false**: the frontier had never been reconciled. Reconciliation removed **79 stale lead strings** (URLs already fetched in prior turns, still listed as leads) and exposed **33 genuinely unvisited support.ftgames.com articles**, including **"How do I develop my players" (360003914778)** — first-party, directly on gate dimension 1.
+- The Turn-20 KB claim "no high-value unread narrative source remains" is **retracted in place** (KB Turn-21 CORRECTION block + gate correction). The assessment file was rewritten with the corrected numbers.
+- Post-reconciliation ledger: **409 entries · 348 visited · 239 genuinely unvisited URLs · 147 descriptive notes**.
+- **Rule added: reconcile the frontier against the visited set every turn before drawing any yield conclusion.**
+- Tool calls: 13 of 10 (overrun caused by the correction work — the discovery justified it). Retrieval: 4 of 6.

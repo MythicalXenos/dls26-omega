@@ -215,3 +215,6 @@
 **Rule reinforced:** count by id sets, never list length (Star p2 = 5 unique in 15 slots); nested pagination means DreamKits type pages cannot be enumerated by URL walking.
 
 **Gate status:** no dimension closed; no exhaustion declared.
+
+### CORRECTION (Turn 21) to the Turn-20 note above
+The Turn-20 line "no high-value unread narrative source remains" is **retracted**: the frontier had never been reconciled against the visited set (79 stale strings removed this turn). A **first-party** block of **33 unread support.ftgames.com articles** sits behind them, including **"How do I develop my players" (360003914778)** — developer-authored, directly on dimension 1. Gate status unchanged (no dimension closed), but the "next input = user" framing was premature: **developer text on dim 1 is still retrievable and unread.**
