@@ -85,3 +85,9 @@
 - **Hypothesis (unconfirmed, testable):** the sandbox restores/relinks `.git` refs between tool calls in some conditions; if so the mitigation is procedural, not analytical.
 - **Mitigation adopted from now on:** at every turn end, push immediately after committing the research block (before the handoff rewrite), then commit+push the handoff separately; if a push is rejected, run the documented repair sequence without investigation delay and log it. Turn-16 overrun (11 tool calls vs cap 10) is attributable to the repair and is recorded honestly.
 - **Class:** system-state entry → pattern-check, not root-caused in-repo (cannot fix the sandbox from here). Escalate to the user at first contact with the two timestamps.
+
+## ISSUE-0014 UPDATE — third occurrence + root-pattern identified (2026-10-03, Turn 17)
+- **Third occurrence** observed at Turn-17 start: local HEAD was again `fb9a2c0 Initial commit` while **all 14 project paths (165 files) sat untracked** in a correct working tree; the remote tip was intact at `d27ac68`.
+- **Revised understanding:** this is not a random drop — it is the **sandbox restore leaving the repo as-of-initial-commit** and the whole project tree as untracked files. No content is ever lost; only the commit chain is detached.
+- **Fast, verified repair (now standard, 3 successful runs):** (1) backup the tree (`tar --exclude=.git`), (2) `git fetch origin <branch>`, (3) `git reset --hard FETCH_HEAD`, (4) restore the backup over the tree, (5) `git add -A && git commit && git push`. Runs in a single bash call; no force-push or history rewrite.
+- **Consequence for procedure:** expect it at every turn start; do not spend research budget investigating. Keep the research-block commit+push first, handoff second (Turn-16 order is retained).
