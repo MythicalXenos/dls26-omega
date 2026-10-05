@@ -1267,7 +1267,6 @@ No new first-party mechanic was established. The route and DLS26 position-lock q
 
 ## TURN 73 (2026-10-06) — FTG Help Center search result for Events
 
-- The public FTG Zendesk search API (`discovery-t73-ftg-help-center-api-cult-search`) returned DLS FAQ article 214386765, “What are Events?” from section 203117809. Its API result body says permanent or time-based events are available in the “Events” section and can be played alongside the main story. Metadata in the result gives created 2016-12-07 and updated 2026-07-09.
-- **Scope limit:** this is generic, unstamped DLS help text. It does not name Cult Heroes, Agents, Draft, Season Pass, event costs/rewards, or position locks. It does not prove that the current Cult Heroes collection is accessed through the Events section. The broad search returned many unrelated Hero titles; only page 1/3 was reviewed.
-- **Confidence:** the quoted general Help Center text is first-party; its application to the DLS26 Cult Heroes route remains Speculative. **Volatility:** Critical.
-- **Status:** follow the direct article URL as a lead; leave Cult Heroes route/rewards and position lock open.
+- The public FTG Zendesk search API (`discovery-t73-ftg-help-center-api-cult-search`) returned article 214386765, “What are Events?” Its metadata gives `section_id` **203117609**. The first-party FTG help-center section map `page-186-ftg-help-centre-root` identifies 203117609 as **Score! Hero FAQs** and 203117809 as **DLS FAQs**. T73 mistyped the ID and incorrectly attributed the article to DLS; corrected in T74.
+- The generic body says permanent or time-based events are available in the “Events” section and can be played alongside the main story. This is Score! Hero help text, not DLS/DLS26 route evidence.
+- **T74 erratum:** the event article belongs to the Score! Hero FAQs section; do not use it as DLS26 route evidence.

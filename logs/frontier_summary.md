@@ -275,4 +275,4 @@ Reconciliation output: **650 ledger entries · 505 unique visited URLs · 406 un
 
 ## Turn 73 reconciliation (2026-10-06)
 
-Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 unvisited leads**. Official Help Center search API page 1/3 surfaced a generic DLS “What are Events?” article but no Cult Heroes route. Pages 2–3 remain unexamined; direct article and/or page-2 API URL retained. No position-lock result; no dimension closure/exhaustion.
+Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 unvisited leads**. Official Help Center search API page 1/3 surfaced “What are Events?” in Score! Hero FAQs (203117609; section map page-186-ftg-help-centre-root), not DLS. Page 2/3 is now complete; page 3 remains unexamined and is retained as a lead. No position-lock result; no dimension closure/exhaustion.
