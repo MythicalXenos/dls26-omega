@@ -1384,3 +1384,8 @@ Page 2/2 now has chunks 0–6/15 read. The generic DLS player-stats result (3600
 ## TURN 93 (2026-10-06) — FTG `position changes` page-2 continuation
 
 Continued the mixed FTG Help Center API response through page-2 chunks 7–12; chunks 0–12/15 are now read, with chunks 13–14 still pending. A generic DLS auto-switch FAQ (article 360008831518) describes switching defensive control to a nearby player. That concerns in-match control selection, not squad-position assignment or a position lock, and is not direct DLS26 evidence. Other visible hits are generic/older-game customization and profile help. No query-wide conclusion. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes availability/route/cost/rewards remain unresolved. Provenance: `source_archive/t93_position_changes_page2_progress.md`.
+
+
+## TURN 94 (2026-10-06) — FTG `position changes` search completed
+
+Completed API page 2 through chunks 13–14 (15/15 total); page 1 was already complete (7/7). The 49-result, two-page Help Center search is mixed across products/eras. Final chunks include UCSS player-attribute help, generic DLS player-appearance/profile compatibility material (including a DLS19-to-DLS25 transfer item), and Score! Match content. No DLS26-specific squad-position assignment/lock rule surfaced in this bounded search; this is not evidence of universal absence. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t94_position_changes_page2_complete.md`.

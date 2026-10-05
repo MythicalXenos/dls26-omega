@@ -1014,3 +1014,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Six retrievals: exact FTG API page 2 chunks 7–12, all tool responses successful. Generic DLS auto-switch help concerns defensive control selection, not squad-position locking; other visible material is generic/older-game/other-product help. No DLS26 lock verification or query-wide absence conclusion.
 - Ledger: **696 entries / 514 unique visited URLs / 405 unvisited leads**. Resume page 2 at chunkIndex=13 (chunks 13–14 unread). Cult Heroes route/rewards and DLS26 position-lock remain open.
 - Source archive `source_archive/t93_position_changes_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn93-position-page2-progress.md`. Close marker `2026-10-05T23:09:31Z`.
+
+
+## TURN 94 (2026-10-06) — completed FTG `position changes` query
+- Recovery: opening reset to `fb9a2c0`; archived 268 files, SHA-256 `35db0c1439d2ebc9ba12657832cd105737d9bf9e6792f497084441be547af456`; restored remote session tip `cde56c9`, upstream and repo-local identity. Only T94 clock-start append differed; ISSUE-0014 #56 logged. No loss/force-push.
+- Two retrievals: exact FTG API page 2 chunks 13–14, both successful; final chunk reports `hasMore=false`. Page 2 is complete (0–14/15), page 1 already complete (0–6/7). Mixed results; no DLS26-specific position-lock instruction surfaced, no global absence conclusion.
+- Ledger: **696 entries / 514 unique visited URLs / 404 unvisited leads**; retired the completed page-2 continuation lead. Cult Heroes route/rewards and DLS26 position-lock remain unresolved.
+- Source archive `source_archive/t94_position_changes_page2_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn94-position-query-complete.md`. Close marker `2026-10-05T23:14:17Z`.
