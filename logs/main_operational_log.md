@@ -422,3 +422,18 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 ## TURN 25 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The fairness article is explicitly framed as a publisher position rather than as proof about scripting; the formation "2" is flagged as an example; the likeness comments are flagged as historic; the failed script was rerun rather than worked around, so no entry is missing.
 Turn 25 note: the ledger script failed once on shell quoting (escaped double quotes inside a heredoc are consumed by JSON transport); rewritten with plain concatenation. **Rule: never use backslash escapes in bash commands - they are eaten before the shell sees them.**
+
+## TURN 26 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**tenth** check). No new event content; nothing October-dated.
+
+## TURN 26 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- Ledger reconciliation run first: 258 URL-shaped leads, **238 genuinely unvisited**, **32 support.ftgames.com articles** still unread. Frontier rewritten to drop stale strings.
+- page-134 **Season Points (7916583518353)**: from wins; shown on the Main-Menu season leaderboard; unlock Season Pass tiers. **Separate economy from Dream Points.**
+- page-135 **Dream Point Boosts (24081168829330)**: bought in the ladder; apply to career/draft/scenario/DLL only; unusable if the ladder is complete or inactive; **unused boosts carry over**; live-service caveat.
+- page-136 **connection required (360004034498)**: online for most features (anti-exploit); **Exhibition playable offline**; server-side backup.
+- page-137 **manager (360003945937)**: My Club > Customise > Manager.
+- page-138 **no video clips (360017166918)**: ad supply is provider-controlled, **no frequency guaranteed**, **LAT-enabled devices may get no ads**; troubleshooting list.
+- Ledger: **439 entries · 370 visited · 411 leads**. Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 26 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. The DP-boost carry-over rule is stated with FTG's own live-service caveat attached; the ad-availability passage is flagged as containing FTG advocacy while its mechanism is reported, not endorsed; the Season/Dream Point split is recorded as a rule rather than left implicit in later notes.

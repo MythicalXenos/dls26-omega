@@ -266,3 +266,15 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Fairness/randomness:** FTG's own statement puts luck in the design and asserts identical rules for all players, while explicitly refusing to call the game a simulation. This is the publisher's position on the rubber-banding allegation; it is **not** treated as evidence resolving it.
 
 **Gate status:** no dimension closed. Remaining known gaps: OVR thresholds for card tiers, the Roles system's mechanics, currency rates/amounts, Season Points definition, and DLS-26-specific confirmation of unstamped support text.
+
+## Turn 26 update (2026-10-05) — the two-ladder economy separated; ad income bounded
+
+**Major disambiguation (dims 2 and 6):** **Season Points** (from wins; season leaderboard; unlock Season Pass tiers) and **Dream Points** (from matches; feed the Prize Ladder; boostable) are **two separate economies**. Any plan that treats them as one is wrong. Recorded as a standing rule.
+
+**Dream Point Boost rules captured first-party:** purchasable in the ladder; apply to career/draft/scenario/DLL only; unusable once the ladder is complete or inactive; **unused boosts carry over to the next ladder**; subject to live-service change. This is the single most actionable item found for the user's situation, and it makes the unresolved ladder end-date matter more, not less.
+
+**Ad income bounded:** FTG states no guarantee of clip frequency and that supply is provider-controlled; LAT-enabled devices may receive no ads at all. The "watch ads for coins" route is therefore **variable income**, which is how it must be modelled in any plan.
+
+**Offline boundary:** Exhibition matches are playable offline.
+
+**Gate status:** no dimension closed. New leads: the Season Pass article under a **second article id** (17143633310225, distinct from 4404070913169) — both need checking for divergence.
