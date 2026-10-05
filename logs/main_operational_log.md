@@ -912,3 +912,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Opened 2026-10-06 03:49:13 +06. Reset recovery: archived 236 files (13,551,259 bytes; SHA-256 `2fc03af1aebed0479a8198a45a89990707fb932f4f499e413baee26ece26c294`), restored remote `a5e5653`, byte-verified 236/236 with no mismatch after normalizing T78 clock-start line. ISSUE-0014 #40 logged; no loss/force-push.
 - Six retrieval calls: FTG `formation position` API query chunks 0–5 of 9 (14 results); partial. Visible hits mix Score! Match, Ultimate Clash Soccer and DLS FAQs; no DLS26 conclusion. Resume at chunk 6.
 - Reconciliation: **663 entries / 509 unique visited URLs / 405 unvisited leads**. User-stated no-lock remains unverified; Cult Heroes route/rewards open. Close marker 2026-10-05T21:50:48Z before commit/push.
+
+
+## TURN 79 (2026-10-06) — complete FTG query and official-search triage
+- Opening reset recovered: `fb9a2c0` with 236 untracked files and no upstream. Archived 236 files; SHA-256 `c275d5bc9bc30928152c0e5bdadcece68b72eaceb4215f01e269d62539d8ccb4`; restored remote `a51eed8`; byte-verified all 236 after excluding only T79 open-marker line. ISSUE-0014 #41 recorded, identity/upstream restored, no force-push.
+- Six retrieval calls: FTG API query `formation position` chunks 6–8 (completing chunks 0–5 from T78; 14 results/9 chunks) plus three web searches targeted at FTG Cult Heroes, FTG formation/positions, and official X Cult Heroes. No direct DLS26 route/reward or position-lock guidance established. Search cards only; no result pages fetched.
+- Ledger: **666 entries / 509 unique visited URLs / 404 unvisited leads**. No target dimension closed. Close marker 2026-10-05T21:56:46Z before commit/push.

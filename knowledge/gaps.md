@@ -75,3 +75,8 @@ The FTG `position lock` search (16 results, 10 chunks) is complete. DLS results 
 ## Turn 78 — formation-position query incomplete
 
 FTG Help Center query `formation position`: 14 results, 9 rendered chunks. Only chunks 0–5 are read; visible hits are mixed across Score! Match, Ultimate Clash Soccer, and DLS. Resume chunks 6–8 before product-aware classification. The query does not verify DLS26 position-lock behavior.
+
+
+## Turn 79 — official search follow-up
+
+The complete FTG `formation position` response (14 results/9 chunks) mixes games and DLS player-stat/leaderboard material; it establishes no DLS26 position-lock behavior and does not establish absence. Three additional FTG/official-account search-result queries supplied no event-specific or lock-specific DLS26 evidence; their result cards are not fetched pages. Position-lock and Cult Heroes route/rewards remain open. See `source_archive/t79_official_search_triage.md`.

@@ -296,3 +296,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 78 reconciliation (2026-10-06)
 
 **663 entries · 509 unique visited URLs · 405 unvisited leads**. New FTG formation-position query is partial (chunks 0–5/9); resume at chunk 6. No position-lock or Cult Heroes conclusion.
+
+
+## Turn 79 reconciliation (2026-10-06)
+
+**666 entries · 509 unique visited URLs · 404 unvisited leads**. Finished the T78 FTG formation-position API response (chunks 0–8/9); no DLS26 position-lock answer. Three official-oriented web searches produced no actionable lead. Cult Heroes route/rewards and position locking remain open; no absence or exhaustion inference.

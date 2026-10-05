@@ -238,3 +238,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 234 project files u
 
 ### ISSUE-0014 — occurrence #40 (2026-10-06, Turn 78 open)
 Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files untracked. Archived all 236 files (13,551,259 bytes) to `/tmp/dls26-t78-recovery-1791236960/workspace.tar.gz`; compressed archive SHA-256 `2fc03af1aebed0479a8198a45a89990707fb932f4f499e413baee26ece26c294`. Restored remote `a5e5653` and byte-verified all 236 tracked files with no mismatches after normalizing only the T78 clock-start append. Restored upstream and `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+
+
+## Turn 79 recovery occurrence
+
+- ISSUE-0014 occurrence #41, 2026-10-06: opening state again reset to `fb9a2c0` with project files untracked and upstream unset. Archived all pre-reset files (archive SHA-256 `c275d5bc9bc30928152c0e5bdadcece68b72eaceb4215f01e269d62539d8ccb4`), restored `a51eed8` from `origin/arena/01a1022d-dls26-omega`, byte-verified the archived project files against the restored tip except the single T79 clock-start marker, restored upstream and repo-local identity. No force-push.
