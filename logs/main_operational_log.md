@@ -463,7 +463,8 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - page-149 **Clans (30839289076626)**: one clan at a time; one leader; **entry requirements hide clans from search but invite codes bypass that**; **clan points from matches, challenges and season passes**.
 - page-150 **difficulty (360018360418)**: single-player difficulty **scales with division movement**, DLS25 added Medium/Hard base setting; **DLL: no bots, no difficulty control, no AI manipulation, no outcome influence** - an explicit denial **scoped to multiplayer only**.
 - page-145 monitoring (unchanged).
-- Ledger: **451 entries · 379 visited · 393 leads**. Retrieval 6 of 6; tool calls 9 of 10.
+- Ledger (machine figures from the ledger script): **451 entries · 373 visited · 391 leads**. (Corrected: the Turn-28 line was first written as 379/393 before the reconciliation script reported; the script's output is authoritative.)
+- Retrieval 6 of 6; tool calls 9 of 10.
 
 ## TURN 28 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. Conflict (q) is recorded as a conflict; conflict (p) is recorded as leaning two-surfaces-to-one rather than being declared resolved; the scripting denial is explicitly scoped to multiplayer and the allegation left open for single player; the version-gated status of the older Season Pass article is carried into every fact taken from it.
