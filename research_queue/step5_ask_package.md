@@ -7,14 +7,18 @@
 
 ## THE PACKET (send verbatim, in this order)
 
-**1. The single most valuable datum — your in-game ladder screen.**
-Open the Prize Ladder (the English League Classics one) and send me, in text: (a) the exact **"LADDER ENDS IN"** text/timer as displayed, (b) your **current Dream Point total**, (c) which milestone player is next and what it shows as the requirement. That settles an unresolved conflict about event timing (14 October vs a later ladder end) and lets me tell you exactly what is still reachable with your remaining matches.
+**1. The single most valuable datum — your in-game timers (there are TWO, and I need both).**
+We have since established first-party that there are two separate countdowns, both visible only in your game:
+   - **The Prize Ladder timer** — open the Prize Ladder (English League Classics) and send the exact **"LADDER ENDS IN"** text, your **current Dream Point total**, and which milestone player is next with its requirement. This settles the unresolved event-timing conflict (14 October vs a later end) and determines whether your Dream Point Boosts are still worth using (unused boosts carry over to the next ladder, so there is no use-it-or-lose-it pressure — but they are dead weight once the ladder ends).
+   - **The Season Pass season countdown** — open the Season Pass and read off the **countdown on the Season Pass message box** (it states when the current season ends for all users), plus which tier you are on and whether you are on the free or premium track. This determines what is still reachable on the Season Pass and whether a late purchase makes sense for you (late purchases remove the tier time locks and are retroactive).
 
 **2. Your resources (rough is fine).** Coins, Gems, how many Coach items you hold (and of which types), any Agents/Scouts, and whether you have any unspent Dream Point Boosts. Approximate numbers are fine — I only need the scale, not the exact digits.
 
 **3. Your spending stance.** Confirm: free-to-play only, watching ads for free coins (you've stated this), or are you open to in-app purchases? If you'd buy something, what's your ceiling and on what (Season Pass / Gems / something else)?
 
-**4. Your squad and division.** Current team OVR (rough), formation you're actually using, division you're in, and the one special card you said you're building around. A screenshot of the squad screen would be ideal if you can attach one.
+**4. Your squad and division.** Current team OVR (rough), formation you're actually using, division you're in, and the one special card you said you're building around. A screenshot of the squad screen would be ideal if you can attach one. (Worth knowing: FTG states formations are limited by season, so your 3-2-3-2 may not be offered in a given season — tell me which formations the grid actually lets you pick.)
+
+**4b. Is your save linked?** Check Settings for **"Sign in with Google"** (or "Sign in with Apple") and tell me whether it shows as linked. FTG states plainly that DLS saves are **not** secured by Google Play Games or iCloud, and that an unlinked profile cannot be guaranteed recoverable if the app is uninstalled or the device is reset. If it is not linked, do that before anything else.
 
 **5. Prompt capture upgrade (bookkeeping, important).** Right now the bootstrap prompt only exists as a digest, and per the rules no file may sit at `DLS26_OMEGA_PROMPT.md` unless it's a verbatim copy. If you want mechanical capture, commit the exact prompt text to the repository root of `main` as `DLS26_OMEGA_PROMPT.md` (you can do this in the GitHub web UI in about a minute). That upgrades the capture status from DIGEST-ONLY to MECHANICAL. Pasting it into chat also works and I'll place it.
 
