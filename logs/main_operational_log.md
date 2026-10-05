@@ -1088,3 +1088,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout `fb9a2c0`; archived 288 files, SHA-256 `b5d28b61c8b99a993004907adc201da6df3fc2e813b07c9e945c31aa24e6c17a`; restored session tip `d91624c`, upstream, and repo-local identity. Only T104 clock-start append differed; ISSUE-0014 #66 logged.
 - FTG API query `Cult Heroes&locale=de`: page1 chunks0–5/6 complete (six successful retrievals); 52 results/3 pages. Visible results begin with unrelated Score!/8 Ball Hero content, with en-us metadata. Pages2–3 unread; exact page-2 next_page logged. No route/reward/availability inference.
 - Ledger **706 / 524 / 406**. Cult Heroes and position-lock remain unresolved. Close marker `2026-10-05T23:50:49Z`.
+
+
+## TURN 105 (2026-10-06) — completed FTG `Cult Heroes` locale=de query
+- Recovery: reset checkout `fb9a2c0`; archived 290 files, SHA-256 `e51e4f0d7fd468a305d69bd5a8f5fa6e0d0f1c7ea7b6d96a2a73880efd06a9d1`; restored session tip `94465d0`, upstream, and repo-local identity. Only T105 clock-start append differed; ISSUE-0014 #67 logged.
+- Completed page2 chunks0–4/5 and page3 chunk0/1 (six retrievals); full query 52 results/3 pages. Fuzzy unrelated products/generic account help; no DLS26 route/reward fact or absence inference.
+- Ledger **708 / 526 / 405**. Cult Heroes and DLS26 position-lock remain open. Close marker `2026-10-05T23:54:37Z`.

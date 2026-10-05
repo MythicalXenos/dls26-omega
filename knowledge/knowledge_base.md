@@ -1439,3 +1439,8 @@ Completed chunks 6–9/10 for the FTG API query (25 results, one page); chunk 9 
 ## TURN 104 (2026-10-06) — FTG Help Center `Cult Heroes` localized query partial
 
 A distinct `locale=de` query returned 52 results/3 pages. Page 1 chunks 0–5/6 are complete; visible results begin with unrelated Score! Hero/8 Ball Hero material and are marked `en-us`. Page 2 exact continuation is recorded; pages 2–3 are unread. No DLS26 event-specific route/reward evidence in page 1; no absence inference. Provenance: `source_archive/t104_ftg_cult_heroes_locale_de_partial.md`.
+
+
+## TURN 105 (2026-10-06) — FTG `Cult Heroes` locale=de search complete
+
+Completed all 52 results across three pages (page1 T104; page2 chunks0–4/5 and page3 chunk0/1 in T105). The fuzzy results are mostly Score! Hero/8 Ball Hero and generic account/privacy help, with en-us article metadata despite `locale=de`. No DLS26 Cult Heroes availability, route, cost or reward detail surfaced; no global absence inference. Provenance: `source_archive/t105_ftg_cult_heroes_locale_de_complete.md`.
