@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:53:24Z",
+  "last_reconciled_at": "2026-10-05T20:58:32Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17880,11 +17880,34 @@
       ],
       "processing_state": "complete page render; transcript only, no frame review",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "page_fetch",
+      "source_id": "page-329-facebook-firsttouchgames-t69",
+      "url": "https://www.facebook.com/firsttouchgames",
+      "domain": "www.facebook.com",
+      "retrieved_at": "2026-10-05T20:58:32Z",
+      "fetched_at": "2026-10-05T20:58:32Z",
+      "language": "unknown; no page body",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": 403,
+      "source_type": "candidate FTG social profile URL from earlier discovery search",
+      "payload_path": "source_archive/t69_facebook_firsttouchgames_blocked.md",
+      "payload_summary": "Direct fetch of the candidate Facebook profile `firsttouchgames` returned HTTP 403. No metadata/posts/body; account identity and DLS26/Cult Heroes content cannot be assessed.",
+      "deception_screen": "No response body; profile ownership could not be verified.",
+      "conflicts": "None assessable.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 501,
-    "unvisited_total": 408,
+    "visited_total": 502,
+    "unvisited_total": 407,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18176,7 +18199,6 @@
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html (full render; Progression Bank, Global Challenge Cup, Season Points)",
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html — full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
       "https://www.dreamleaguesoccerkits.com/2026/05/dream-league-soccer-2026-beginners.html",
-      "https://www.facebook.com/firsttouchgames",
       "https://www.facebook.com/firsttouchgames/mentions",
       "https://www.facebook.com/firsttouchgamess",
       "https://www.facebook.com/privacy/explanation",

@@ -853,3 +853,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - One retrieval: `page-328-droidvillaz-new-event-video-t68`, YouTube video TEPdxbaS9QY, uploaded by secondary creator DroidVillaz on 2026-09-03. The page’s title/description call it a new event and checking rewards; the rendered transcript is match commentary and does not identify Cult Heroes or show route/reward UI. No frames were inspected. One transcript line describing a 4-2-3-1 is not position-lock evidence. No claim promoted.
 - Reconciliation: **646 entries / 501 unique visited URLs / 408 unvisited leads**; one secondary video lead consumed; no new reachable leads. No KB claim changed and no snapshot was needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
 - One retrieval and four tool calls before wrap-up; within limits. Close marker 2026-10-05T20:53:24Z (before commits/push).
+
+
+## TURN 69 (2026-10-06) — candidate Facebook profile blocked
+- Open 2026-10-06 02:55:38 +06. Local checkout reset to `fb9a2c0` with 220 project files untracked. Archived all 220 files (12,240,361 bytes), restored remote `70286da`, and byte-verified all 220 tracked files; only expected T69 clock-start append differed. ISSUE-0014 #31 logged; identity `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+- One retrieval: `page-329-facebook-firsttouchgames-t69`, direct request to a candidate FTG Facebook profile URL from an earlier social discovery record; HTTP 403, no profile/posts/body. No account-ownership inference. This is not the previously attempted DLS `facebook.com/dreamleaguesoccer` URL.
+- Reconciliation: **647 entries / 502 unique visited URLs / 407 unvisited leads**; one existing candidate-profile lead consumed; no new reachable leads. No KB claim changed and no snapshot was needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
+- One retrieval and five tool calls before wrap-up; within limits. Close marker 2026-10-05T20:58:32Z (before commits/push).
