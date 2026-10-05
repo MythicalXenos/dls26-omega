@@ -101,3 +101,8 @@ Reconciliation script output: **505 ledger entries · 410 unique visited URLs ·
 ## Turn 38 reconciliation (2026-10-05)
 
 Reconciliation script output: **511 ledger entries · 415 unique visited URLs · 383 unvisited leads**. General FAQ body coverage: **10/21** titles, with five articles read this turn. This is not an exhaustion declaration.
+
+
+## Turn 39 reconciliation (2026-10-05)
+
+Reconciliation script output: **517 ledger entries · 420 unique visited URLs · 380 unvisited leads**. General FAQ body coverage: **15/21**; title enumeration remains 21/21. A first-party DLS save-route contradiction remains unresolved; no exhaustion claim.

@@ -398,3 +398,10 @@ Public Zendesk article JSON returns `section_id: 7900693036561` for all five dis
 ## Turn 38 update (2026-10-05) — General FAQ contents sampled
 
 Five General FAQ bodies read: Android Play Store compatibility, Play Store download errors, Bluetooth-controller compatibility, Sign in with Apple setup, and Sign in with Google setup. First-party setup content clarifies that Apple/Google cloud sign-in is distinct from iCloud/Google Play Games; the Apple page gives a DLS Settings > Advanced path but no DLS version stamp. Controller and download guidance is general and not DLS-26-specific. General FAQ body-reading coverage is 10/21 per the reconciliation output; title enumeration is complete, but content coverage and the dimension remain open. No dimension closed.
+
+
+## Turn 39 update (2026-10-05) — cloud-save documentation conflict
+
+First-party DLS account pages conflict: `214387685` says Google Play Games and iCloud do not secure DLS saves and are not used by the games; `360000603398` tells DLS users to enable Google Play Games Services and Google Play Cloud; `360000613657` tells DLS users to enable iCloud and play matches to upload. All are unstamped. Preserve the claims side by side; do not choose one as current or advise changing the save route. Ask the user which controls are visible if a device-specific recommendation is needed. Sign in with Google/Apple remain distinct account services, but that distinction does not resolve this storage conflict.
+
+General FAQs: 15/21 article bodies read, 21/21 titles enumerated. No dimension closed; no exhaustion declaration.

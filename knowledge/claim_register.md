@@ -217,3 +217,11 @@ Zendesk article JSON assigns `7916959134737`, `7917587319313`, `7917423348497`, 
 - `213853729`: some Bluetooth controllers work with FTG apps; not all brands guaranteed; no DLS-26-specific model list.
 - `360009450097`: Apple cloud save is distinct from iCloud; DLS path Settings > Advanced; Apple ID 2FA and matching iCloud account required; play matches to upload. No version stamp.
 - `9580096555281`: Google cloud save is distinct from Google Play Games; sign-in appears on supported FTG games. No DLS-specific settings path or version stamp.
+
+
+## Turn 39 first-party save-route contradiction
+
+- `214387685`: says DLS and several other games do not secure saves on Google Play Games or iCloud and that these services are not used.
+- `360000603398`: explicit DLS path to enable Google Play Games Services and Google Play Cloud, then make progress online to upload.
+- `360000613657`: explicit DLS path to enable iCloud, play matches for upload, and check iCloud storage.
+All three are first-party, unstamped articles. Conflict unresolved; don't reconcile by inference or give a route-change instruction without checking the user's in-game options.

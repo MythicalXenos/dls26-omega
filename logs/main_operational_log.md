@@ -606,3 +606,13 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation script output: **511 entries / 415 unique URLs visited / 383 unvisited leads**. Retrievals 6/6; total tool calls 9/10. No dimension closed.
 - Bluff check: generalized support copy is not promoted to DLS-26-specific guidance without a version stamp.
 - Close marker 2026-10-05T13:57:43Z (before commits/push).
+
+
+## TURN 39 (2026-10-05) — General FAQ continuation
+- Open 2026-10-05T14:00:51Z: expected HEAD `805924b`, correct branch, only turn-clock file dirty. No state drop; repo-local identity verified.
+- Six retrievals: page-211 monitoring (unchanged); pages 212–216: platform availability, Safe Mode, User ID hub, Google Play Games setup, iCloud setup.
+- **New material conflict:** `214387685` says DLS saves are not secured on Google Play Games/iCloud and these services are not used; `360000603398` and `360000613657` explicitly instruct DLS users to enable Google Play Games/Google Play Cloud and iCloud and play matches to upload. All are unstamped first-party articles. Conflict preserved; no recommendation or harmonization.
+- General FAQ article bodies read: **15/21** per reconciliation output; title enumeration remains 21/21.
+- Reconciliation script output: **517 entries / 420 unique URLs visited / 380 unvisited leads**. Retrievals 6/6; total tool calls 8/10. No exhaustion declaration.
+- Bluff check: the platform “no plans at this time” statement is not presented as current; Google Play/iCloud save instructions remain disputed; no dimension closed.
+- Close marker 2026-10-05T14:03:13Z (before commits/push).
