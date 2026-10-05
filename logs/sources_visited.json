@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T21:27:12Z",
+  "last_reconciled_at": "2026-10-05T21:35:36Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -18048,11 +18048,148 @@
       "discovered_not_yet_visited": [
         "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=Cult+Heroes"
       ]
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t75-ftg-help-center-api-cult-search-page3",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=Cult+Heroes",
+      "query": "Cult Heroes (public Zendesk Help Center API; page 3)",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T21:35:36Z",
+      "fetched_at": "2026-10-05T21:35:36Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunk 0 of 1; page 3 of 3)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t75_api_page3_and_tiktok_searches.md",
+      "payload_summary": "API response: count 52, page 3/3, per_page 25, next_page null; final page fully rendered. Two results are generic account/privacy help articles: “How do I have my personal data deleted?” (360017046578, section 203171905) and “How do I setup an iCloud account?” (360000613657, section 203171905). No Cult Heroes route/reward or position-lock guidance. The complete query is broad and fuzzy; this result does not establish absence outside the index/query.",
+      "deception_screen": "First-party CMS API but broad Hero query with mixed-game/general help results; complete pagination is not an exhaustive search of DLS26 content.",
+      "conflicts": "No Cult Heroes-specific content surfaced in this search result set.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "complete query pages 1–3 of 3",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "page",
+      "source_id": "page-334-tiktok-ftg-video-7664965549348244758-t75",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7664965549348244758",
+      "domain": "tiktok.com",
+      "retrieved_at": "2026-10-05T21:35:36Z",
+      "fetched_at": "2026-10-05T21:35:36Z",
+      "language": "en",
+      "retrieval_role": "blocked-page; no content",
+      "tool": "functions.fetch_page (chunk 0 of 1)",
+      "http_status": 403,
+      "source_type": "TikTok video page at the previously observed @dreamleaguesoccer.ftg path",
+      "payload_path": "source_archive/t75_api_page3_and_tiktok_searches.md",
+      "payload_summary": "Fetch failed with HTTP 403 and no body. No statement is made about the video contents or availability of Cult Heroes. Do not repeat this exact URL.",
+      "deception_screen": "Blocked retrieval; no content, no absence inference.",
+      "conflicts": "None; no post content obtained.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "blocked (HTTP 403; no body)",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "page",
+      "source_id": "page-335-tiktok-ftg-video-7477999051343007008-t75",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008",
+      "domain": "tiktok.com",
+      "retrieved_at": "2026-10-05T21:35:36Z",
+      "fetched_at": "2026-10-05T21:35:36Z",
+      "language": "en",
+      "retrieval_role": "blocked-page; no content",
+      "tool": "functions.fetch_page (chunk 0 of 1)",
+      "http_status": 403,
+      "source_type": "TikTok video URL returned by web search; direct fetch blocked",
+      "payload_path": "source_archive/t75_api_page3_and_tiktok_searches.md",
+      "payload_summary": "Direct fetch failed with HTTP 403 and no body. Web-search snippets were interleaved and did not reliably associate Cult Heroes text with this post URL. No content or route claim is inferred. Do not repeat this exact URL.",
+      "deception_screen": "Blocked retrieval; search snippets were not reliably mapped to this specific post.",
+      "conflicts": "Search snippets and linked result title do not establish the content of this URL.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "blocked (HTTP 403; no body)",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t75-tiktok-cult-search-1",
+      "url": "web-search://query?q=site%3Atiktok.com%2F%40dreamleaguesoccer.ftg%2Fvideo%2F%20%22Cult%20Heroes%22%20Dream%20League%20Soccer%202026",
+      "query": "site:tiktok.com/@dreamleaguesoccer.ftg/video/ \"Cult Heroes\" Dream League Soccer 2026",
+      "domain": "web_search",
+      "retrieved_at": "2026-10-05T21:35:36Z",
+      "fetched_at": "2026-10-05T21:35:36Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2)",
+      "http_status": "not exposed; web_search status=success",
+      "source_type": "Web-search discovery results",
+      "payload_path": "source_archive/t75_api_page3_and_tiktok_searches.md",
+      "payload_summary": "Search results interleaved text resembling Cult Heroes captions with unrelated/older account videos, but did not supply a distinct permalink that binds the text to a specific post. Search output is discovery only; no claim is accepted from it. A secondary-source marker also appeared in one result. Direct post attempts are separately logged as HTTP 403.",
+      "deception_screen": "Search snippets were aggregated/interleaved and do not provide a post-specific permalink for the Cult Heroes phrases. Do not attribute them to the returned older video URL or promote the secondary-source fragment.",
+      "conflicts": "No direct post source was established; snippets are not treated as evidence.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "discovery only; result attribution unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t75-tiktok-cult-search-2",
+      "url": "web-search://query?q=%22Cult%20Heroes%20are%20still%20available%20for%20you%20to%20add%20to%20your%20squad%22%20%22dreamleaguesoccer.ftg%22",
+      "query": "\"Cult Heroes are still available for you to add to your squad\" \"dreamleaguesoccer.ftg\"",
+      "domain": "web_search",
+      "retrieved_at": "2026-10-05T21:35:36Z",
+      "fetched_at": "2026-10-05T21:35:36Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not exposed; web_search status=success",
+      "source_type": "Web-search discovery results",
+      "payload_path": "source_archive/t75_api_page3_and_tiktok_searches.md",
+      "payload_summary": "Search results interleaved text resembling Cult Heroes captions with unrelated/older account videos, but did not supply a distinct permalink that binds the text to a specific post. Search output is discovery only; no claim is accepted from it. A secondary-source marker also appeared in one result. Direct post attempts are separately logged as HTTP 403.",
+      "deception_screen": "Search snippets were aggregated/interleaved and do not provide a post-specific permalink for the Cult Heroes phrases. Do not attribute them to the returned older video URL or promote the secondary-source fragment.",
+      "conflicts": "No direct post source was established; snippets are not treated as evidence.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "discovery only; result attribution unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t75-tiktok-cult-search-3",
+      "url": "web-search://query?q=site%3Atiktok.com%2F%40dreamleaguesoccer.ftg%2Fvideo%2F%20%22Cult%20Heroes%20are%20still%20available%22%20%22Get%20Cult%20Hero%20Agents%22",
+      "query": "site:tiktok.com/@dreamleaguesoccer.ftg/video/ \"Cult Heroes are still available\" \"Get Cult Hero Agents\"",
+      "domain": "web_search",
+      "retrieved_at": "2026-10-05T21:35:36Z",
+      "fetched_at": "2026-10-05T21:35:36Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 3)",
+      "http_status": "not exposed; web_search status=success",
+      "source_type": "Web-search discovery results",
+      "payload_path": "source_archive/t75_api_page3_and_tiktok_searches.md",
+      "payload_summary": "Search results interleaved text resembling Cult Heroes captions with unrelated/older account videos, but did not supply a distinct permalink that binds the text to a specific post. Search output is discovery only; no claim is accepted from it. A secondary-source marker also appeared in one result. Direct post attempts are separately logged as HTTP 403.",
+      "deception_screen": "Search snippets were aggregated/interleaved and do not provide a post-specific permalink for the Cult Heroes phrases. Do not attribute them to the returned older video URL or promote the secondary-source fragment.",
+      "conflicts": "No direct post source was established; snippets are not treated as evidence.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "discovery only; result attribution unresolved",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 506,
-    "unvisited_total": 407,
+    "visited_total": 508,
+    "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18428,7 +18565,6 @@
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-custom-kits-guide-en.html",
       "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417",
       "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
-      "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7664965549348244758",
       "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7442747227027541281",
       "https://www.ftgames.com/about",
       "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
@@ -18459,8 +18595,7 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
-      "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=Cult+Heroes"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
     ]
   }
 }

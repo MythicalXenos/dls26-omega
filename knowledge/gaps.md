@@ -55,3 +55,8 @@ The structured U.S. Apple Lookup API record (`page-332`) reports DLS version 13.
 ## Turn 73 — FTG Events article is Score! Hero help, not DLS route evidence
 
 FTG Help Center API result `What are Events?` (article 214386765) has `section_id` 203117609. The first-party section map `page-186-ftg-help-centre-root` identifies that as Score! Hero FAQs; DLS FAQs are 203117809. T73 mistyped the ID and misattributed the article to DLS; corrected in T74. The generic article does not establish any DLS26 Cult Heroes route/rewards. Page 1/3 was read in T73; page 2/3 in T74; page 3 remains unexamined.
+
+
+## Turn 75 — broad Help Center query complete; gaps remain
+
+FTG Help Center API pages 1–3 (52 search results) have been read. The final page contains generic account/privacy articles; the broad Hero query produced no explicit DLS26 Cult Heroes route/reward or position-lock instructions. This is not an exhaustion/absence finding. Web-search snippets were not tied to a unique post permalink; two direct TikTok URLs returned 403/no body. Do not use them as evidence. Route/rewards and position locks remain open.
