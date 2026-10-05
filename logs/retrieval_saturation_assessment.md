@@ -42,3 +42,12 @@ After reconciliation: **239 genuinely unvisited URLs** + 147 descriptive notes.
 What genuinely cannot be retrieved by any route available here is unchanged: the ladder timer and live balances (device-only), in-client confirmation (client-side), and the two fetch-blocked platforms.
 
 **Planned Turn 22 order:** (1) monitoring; (2) `How do I develop my players` (360003914778); (3) `How can I get Gems`, `What are Leaderboards`, `Can I sell my players`; (4) `Why doesn't my player look like the real person` if budget allows. Reconcile the frontier each turn from here on.
+
+## Turn 30 addendum — second correction to this file's reasoning
+
+The Turn-21 version of this assessment was already corrected once (unreconciled frontier). It needs a second correction now: **it reasoned about yield from a ~30-URL first-party enumeration that was never checked against the site's own index.** The FAQ category index (page-158) shows the **Dream League Soccer FAQ section alone holds 52 articles**, of which we have read roughly 30.
+
+**Consequences:**
+- The claim (repeated in earlier handoffs) that we had "the complete official spine" is **retracted**.
+- Any yield judgement made before reading the DLS section listing was made on incomplete knowledge of the corpus. This file should not be cited as evidence that retrieval is near its end.
+- **Order of work from here:** read `sections/203117809-Dream-League-Soccer-FAQs` to enumerate all 52, then work the unread ones by value, starting with `360001369698-Some-game-values-and-content-have-changed-Is-this-a-bug`.
