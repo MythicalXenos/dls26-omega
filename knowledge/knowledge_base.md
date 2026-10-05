@@ -1379,3 +1379,8 @@ FTG API page 1/2 is complete (chunks 0–6/7) and page 2 chunk0/15 is read. The 
 
 ## Turn 92 — FTG position-changes page 2 remains partial
 Page 2/2 now has chunks 0–6/15 read. The generic DLS player-stats result (360019166777) includes a stamina note about workload varying by playing position; that is not a statement about assignment or position locks. Another result is explicitly a UCSS rules FAQ; its formation/ball-position behavior is not DLS26 evidence. Chunks 7–14 remain unread, so no query-wide conclusion. Position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t92_position_changes_page2_progress.md`.
+
+
+## TURN 93 (2026-10-06) — FTG `position changes` page-2 continuation
+
+Continued the mixed FTG Help Center API response through page-2 chunks 7–12; chunks 0–12/15 are now read, with chunks 13–14 still pending. A generic DLS auto-switch FAQ (article 360008831518) describes switching defensive control to a nearby player. That concerns in-match control selection, not squad-position assignment or a position lock, and is not direct DLS26 evidence. Other visible hits are generic/older-game customization and profile help. No query-wide conclusion. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes availability/route/cost/rewards remain unresolved. Provenance: `source_archive/t93_position_changes_page2_progress.md`.

@@ -1007,3 +1007,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Opening reset: `fb9a2c0`, 264 project files untracked, upstream unset. Archive SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`; restored `9bcf413`; byte-verified 264/264 files. ISSUE-0014 #54 logged; identity/upstream restored.
 - Six retrieval calls: FTG page2 chunks1–6 (all success). Page2 now chunks0–6/15 read. DLS stats snippet refers to stamina and workload differences by position; UCSS rules are a separate product. Neither settles DLS26 position locking.
 - Ledger: **696 entries / 514 unique visited URLs / 405 unvisited leads**. Resume page2 chunk7. No dimension closed; no exhaustion declaration.
+
+
+## TURN 93 (2026-10-06) — FTG `position changes` page-2 continuation
+- Recovery: reset to `fb9a2c0`; archived 266 files, archive SHA-256 `ea7a10aae3cbf5b51850ce21802888cebb326d33bb30b012aabab6d790b47f07`; fetched/restored remote session tip `354d364`, upstream and repo-local identity. Only the T93 clock-start append differed after restoration; ISSUE-0014 #55 recorded. No loss/force-push.
+- Six retrievals: exact FTG API page 2 chunks 7–12, all tool responses successful. Generic DLS auto-switch help concerns defensive control selection, not squad-position locking; other visible material is generic/older-game/other-product help. No DLS26 lock verification or query-wide absence conclusion.
+- Ledger: **696 entries / 514 unique visited URLs / 405 unvisited leads**. Resume page 2 at chunkIndex=13 (chunks 13–14 unread). Cult Heroes route/rewards and DLS26 position-lock remain open.
+- Source archive `source_archive/t93_position_changes_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn93-position-page2-progress.md`. Close marker `2026-10-05T23:09:31Z`.

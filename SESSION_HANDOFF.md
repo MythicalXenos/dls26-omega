@@ -50,11 +50,13 @@
 - **T90 source:** FTG Help Center `position changes` query reports 49 results/2 pages; page1 chunks0–4/7 read; resume chunk5, then6; page2 pending. Formation/roles FAQ snippets do not verify locking. Instagram query for `@playdls` + Cult Heroes returned zero results; no absence inference. Archive `source_archive/t90_ftg_position_changes_query_partial.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn90-position-changes-partial.md`.
 - **T91 source:** FTG `position changes` page1/2 completed (chunks0–6/7); page2 at chunk0/15, resume chunk1. Score! Match position wording is not DLS26 evidence; DLS Leaderboards refers to rank. Direct formation/roles pages do not specify position locking. Archive `source_archive/t91_ftg_position_changes_page1_complete_page2_partial.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn91-position-query-continued.md`.
 - **T92 source:** FTG `position changes` page2/2 chunks0–6/15 read; resume chunk7. DLS stats describe stamina by playing position, not assignment; UCSS formation/ball-position rules are not DLS26 evidence. Archive `source_archive/t92_position_changes_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn92-position-page2-progress.md`.
-- **Next exact action (Turn 93):**
+- **T93 source:** FTG `position changes` page 2/2 now has chunks 0–12/15 read; chunks 13–14 remain. New generic DLS auto-switch text concerns defender control switching, not squad-position locking. Archive `source_archive/t93_position_changes_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn93-position-page2-progress.md`.
+- **Next exact action (Turn 94):**
   1. Record the clock first; verify branch/status/upstream/identity and recover with archive/byte verification only if a reset is observed.
-  2. Continue exact FTG `position changes` page2 at chunkIndex=7; chunks7–14 remain. Do not infer absence from this partial mixed-product response.
-  3. Keep generic DLS stats, UCSS rules, formation-grid help, and leaderboard rank distinct from DLS26 squad-position locking. The no-lock claim remains user-stated/unverified pending Step-3 device setup.
+  2. Continue the exact FTG `position changes` page-2 URL at `chunkIndex=13` (chunks 13–14 remain). Do not infer absence from the mixed-product response, even after completion.
+  3. Keep generic DLS stats, auto-switch controls, UCSS rules, formation-grid help, and leaderboard rank distinct from DLS26 squad-position locking. The no-lock claim remains user-stated/unverified pending Step-3 device setup.
   4. Keep Cult Heroes availability/route/cost/rewards unresolved; no spending advice or exhaustion declaration. Maintain ≤6 retrievals, ≤10 tools before wrap-up, ≤4 wrap-up calls; push before turn end.
+
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -98,3 +100,8 @@
 ## Turn 92 closeout
 
 - Six retrieval calls; FTG `position changes` page2 partial through chunk6/15; next action chunk7. Ledger: 696 entries / 514 visited / 405 unvisited. Both core questions remain unresolved. T92 source/recovery/handoff committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T23:03:54Z. Next input expected: `>`.
+
+## Turn 93 closeout
+
+- Six retrieval calls: FTG `position changes` page 2 chunks 7–12 (all success). Resume at chunk 13; no query-wide conclusion. Ledger **696 entries / 514 visited URLs / 405 unvisited leads**.
+- Cult Heroes route/rewards and DLS26 position-lock remain unresolved. No dimension closed; no exhaustion declaration. Close time: 2026-10-05T23:09:31Z. Next input expected: `>`.
