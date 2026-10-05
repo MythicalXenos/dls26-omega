@@ -390,3 +390,19 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 23 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. Both new conflicts are recorded as conflicts rather than reconciled; the "bux" ambiguity is explicitly marked unresolvable from the page; the update-policy finding is stated as a bound on our own monitoring rather than as a fact about the game's content. Nothing averaged, nothing smoothed.
+
+## TURN 24 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**eighth** check). No new event content; nothing October-dated.
+
+## TURN 24 — RESEARCH (6 of 6 retrieval calls)
+- **Opening repair:** git state drop — **ISSUE-0014 occurrence #6** (now every other turn). Standard repair (backup 198 files → fetch → `reset --hard FETCH_HEAD` = `d9add6e` → verified). No content lost, no force-push.
+- page-122 **player roles (7917583876625)**: Squad → Roles button. Sub-system confirmed; **its mechanics are a stated known-unknown**.
+- page-123 **card colours (214385645)**: **first-party card ladder - common bronze / rare blue / legendary gold / max red / special black**, two independent drivers (OVR band; special status). First first-party evidence for dim 3; settles the black-card question; no thresholds given.
+- page-124 **free coins (213851369)**: video clips → coins, "subject to availability"; corroborates the user's ad route first-party.
+- page-125 **re-sign sold player (214385465)**: possible but delayed; Recover window; **licensing = permanent loss risk**.
+- page-126 **skill moves (213851489)**: down = Marseille turn, up = rainbow flick, left/right = stepover; ties to CON/SHO from the stat bible.
+- Six new first-party leads added, incl. **change formation (7917587319313)** - directly relevant to the user's 3-2-3-2 preference.
+- Ledger: **427 entries · 359 visited · 403 leads**. Retrieval 6 of 6; tool calls 10 of 10 (including the repair).
+
+## TURN 24 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. The Roles system is logged with its gap stated rather than implied as understood; the card ladder is logged without inventing thresholds; the "special (black)" inference is presented as what the publisher's own wording supports, not as a new claim about any specific card.

@@ -244,3 +244,15 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Lead generation:** the related-articles blocks on each support page are now the most productive source of new first-party leads (six more added this turn, incl. "How do I change my player roles" 7917583876625 and "Why are some players displaying a different player card colour" 214385645).
 
 **Gate status:** no dimension closed. Dims 1, 2, 4, 5, 6 all now carry first-party text; dim 3 (card families) is the only dimension whose evidence is entirely third-party.
+
+## Turn 24 update (2026-10-05) — dimension 3 finally has first-party ground
+
+**Dimension 3 (card families/tiers) is no longer wholly third-party.** FTG's own colour ladder — **common bronze / rare blue / legendary gold / max red / special black** — is now on record, with the important structural detail that the ladder is driven by **two independent inputs (OVR band, and special-player status)**. What is still missing: the OVR thresholds for bronze/blue/gold, and any first-party enumeration of the special families themselves (Cult Heroes, Dynamic Stars, Champion, etc. remain third-party names).
+
+**Dimension 5 (controls) filled out:** skill-move inputs (down/up/left-right) now sit alongside Auto Switch, and both connect to the first-party stat bible (CON → skill-move success; SHO → special kicks).
+
+**New sub-system recorded with its gap stated:** the **Roles** button on the Squad screen exists; what roles are and what they do is unknown. Listed as a known-unknown rather than left implicit.
+
+**Practical rule recorded for the user:** selling a player risks permanent loss if that player later leaves the database for licensing reasons (first-party).
+
+**Gate status:** no dimension closed. Every dimension now carries at least some first-party text; the remaining gaps are (i) OVR thresholds for card tiers, (ii) the Roles system's mechanics, (iii) rates/amounts for currencies, (iv) DLS-26-specific confirmation of all unstamped support text, (v) in-client verification.
