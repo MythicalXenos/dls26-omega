@@ -585,3 +585,13 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation script output: **499 entries / 405 unique URLs visited / 388 unvisited leads**. Retrievals 6/6; total tool calls 10/10. No exhaustion declaration.
 - Bluff check: wording distinguishes section membership from exclusive game attribution; no unresolved article is relabelled. The General FAQs listing is not treated as article-body reading.
 - Close marker 2026-10-05T11:00:36Z (before commits/push).
+
+
+## TURN 37 (2026-10-05) — state repair and canonical source attribution
+- Open 2026-10-05T12:38:57Z: local HEAD unexpectedly `fb9a2c0 Initial commit`, dirty paths 15. Repaired without force-push: tar backup excluding `.git`; fetch branch; reset hard to remote tip `5f54cd0`; clean worktree. Backup comparison found only the current-turn `logs/turn_clock.txt` differed. No other work was lost; backup removed. ISSUE-0014 occurrence #7 logged.
+- Repo-local identity verified as `DLS26 Omega <omega@dls26.local>` before commits.
+- Six retrieval calls: page-199 monitoring (unchanged); pages 200–204 public Zendesk JSON for kit, formation, promotion, roles, and sale articles.
+- **All five article JSON records return `section_id: 7900693036561`**, the section named Ultimate Clash Soccer. Canonical source attribution is resolved at Help Center taxonomy level; no DLS version or product field appears. Remove these as DLS-specific sources. The bux and home/GK pages do not establish DLS contradictions; old contradiction lower bound needs re-audit.
+- Reconciliation script output: **505 entries / 410 unique URLs visited / 388 unvisited leads**. Retrievals 6/6; total tool calls 10/10. No exhaustion declaration.
+- Bluff check: article section assignment is not inflated into a version-specific claim; no dimension closed.
+- Close marker 2026-10-05T12:42:55Z (before commits/push).

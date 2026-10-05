@@ -203,3 +203,8 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 ## Turn 36 provenance correction
 
 Claims tied to article IDs `7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, and `17146555181585` are **product-attribution unresolved**. They are listed in the Ultimate Clash Soccer section, but the three bodies reopened this turn do not name a game; section placement and related links do not establish exclusivity. Withdraw the unsupported claim that these IDs appeared in a DLS section listing. Do not use their content as DLS-specific until product metadata or explicit in-article attribution is captured. The General FAQs section `203171905` has 21 enumerated titles; article reading remains partial.
+
+
+## Turn 37 provenance resolution
+
+Zendesk article JSON assigns `7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, and `17146555181585` to section `7900693036561` (Ultimate Clash Soccer). Reclassify them as UCS-section support articles; they are not DLS-specific evidence. The bux sale and home/GK kit discrepancies must not be counted as DLS-internal contradictions without independent DLS provenance. Re-audit the previously stated FTG self-contradiction lower bound.

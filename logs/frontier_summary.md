@@ -91,3 +91,8 @@ Regenerated 2026-10-03 Turn 3 from `logs/sources_visited.json` (derived, never h
 ## Turn 36 reconciliation (2026-10-05)
 
 Reconciliation script output: **499 ledger entries · 405 unique visited URLs · 388 unvisited leads**. Six retrievals were recorded, including three revisits; General FAQs `203171905` has 21 titles enumerated and an empty page 2. This is not an exhaustion declaration; do not infer yield or saturation from these totals alone.
+
+
+## Turn 37 reconciliation (2026-10-05)
+
+Reconciliation script output: **505 ledger entries · 410 unique visited URLs · 388 unvisited leads**. Five official Zendesk article JSON records assign the disputed support pages to the Ultimate Clash Soccer section. This resolves their canonical section placement, not DLS version applicability or corpus exhaustion.

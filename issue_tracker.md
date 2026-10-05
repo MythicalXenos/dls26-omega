@@ -97,3 +97,7 @@
 Same signature: HEAD back at `fb9a2c0 Initial commit`, whole tree untracked, branch + `.git` intact, working tree fully intact. Standard procedure run (tar backup 194 files → `git fetch origin arena/01a1022d-dls26-omega` → `git reset --hard FETCH_HEAD` (tip `8e96fb0`) → verify → commit). Verified intact after reset: 405 ledger entries, 328 KB lines, 23 snapshots, Step-5 package present. **No content lost, no force-push.** Also note the remote-tracking ref `origin/arena/...` was absent after the drop; the fetch recreates it.
 ISSUE-0014 occurrence #5 (2026-10-04, Turn 23 open): standard repair run (backup -> fetch -> reset --hard FETCH_HEAD -> verified). No content lost, no force-push.
 ISSUE-0014 occurrence #6 (2026-10-05, Turn 24 open): standard repair run (backup -> fetch -> reset --hard FETCH_HEAD -> verified). No content lost, no force-push. Occurrences are now every other turn; the procedure costs ~1 tool call and is reliable.
+
+
+### ISSUE-0014 — occurrence #7 (2026-10-05, Turn 37 open)
+At open, local HEAD had dropped to `fb9a2c0 Initial commit` and the worktree showed 15 dirty paths. Standard no-force repair: tarred the tree excluding `.git`, fetched `origin/arena/01a1022d-dls26-omega`, reset hard to remote tip `5f54cd0`, and verified clean status. A byte comparison of the backup against the recovered worktree found only `logs/turn_clock.txt` differed; that expected current-turn clock was rewritten before commit. No other content lost, no force-push. Repo-local author identity reset to `DLS26 Omega <omega@dls26.local>`.
