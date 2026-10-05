@@ -414,4 +414,9 @@ Zendesk metadata places `214387685`, `360000603398`, and `360000613657` in Gener
 
 ## Turn 41 update (2026-10-05) — General FAQ body coverage
 
-Four remaining FAQ bodies read: contact, DLS Classic availability/kit instructions, and FTS15 availability. They concern support workflow or legacy titles and do not establish DLS26 behavior. Coverage is 20/21 bodies; the only un-read title is FTS15 kit article 213892809, intentionally excluded. New lead `360017063617` describes Super Players with grey/gold shiny backgrounds, but its product/version scope is unstated; verify API section metadata before using it in the card-tier taxonomy. No dimension closed.
+Four remaining FAQ bodies read: contact, DLS Classic availability/kit instructions, and FTS15 availability. They concern support workflow or legacy titles and do not establish DLS26 behavior. Coverage is 20/21 bodies; the only un-read title is FTS15 kit article 213892809, intentionally excluded. Turn 42 metadata assigns `360017063617` and `360000001969` to Score! Match FAQs (`115001619089`). They are not DLS card-tier evidence; do not use them to alter the DLS taxonomy. No dimension closed.
+
+
+## Turn 42 update (2026-10-05) — product scope correction and unscoped articles
+
+Zendesk article JSON assigns `360017063617` (Super Players) and `360000001969` (player types) to Score! Match FAQs section `115001619089`. These are not DLS evidence. The gem-purchase article `360000002405` and connection-troubleshooting article `360000420025` lack explicit product/version text; their section metadata remains open. General FAQ body coverage remains 20/21. No dimension closed.

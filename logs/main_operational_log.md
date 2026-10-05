@@ -637,3 +637,13 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation output: **529 entries / 430 unique URLs visited / 377 unvisited leads**. Retrievals 6/6; total tool calls 8/10. No exhaustion declaration.
 - Bluff check: product scope is not inferred from the article title or related links; legacy comments/claims are not promoted to DLS26 facts.
 - Close marker 2026-10-05T15:14:47Z (before commits/push).
+
+
+## TURN 42 (2026-10-05) — player-type source attribution
+- Open 2026-10-05T15:32:24Z: expected HEAD `e0e9e39`, correct branch, only turn clock dirty. No state drop; identity verified.
+- Six retrievals: page-229 monitoring; page-230 Super Players API; page-231 player-type body; page-232 Gem purchase; page-233 connection issues; page-234 player-type API metadata.
+- **Scope correction:** JSON assigns both Super Players `360017063617` and player-type guide `360000001969` to Score! Match FAQs section `115001619089`. They are not DLS sources; retract Turn-41 “scope unknown” as superseded.
+- Gem purchase and connection guidance are first-party but name no product/version. Manual DNS instructions are recorded, not prescribed.
+- General FAQ body count **20/21**; title enumeration 21/21. Reconciliation output: **535 entries / 435 unique URLs visited / 377 unvisited leads**. Retrievals 6/6; total tool calls 10/10. No exhaustion declaration.
+- Bluff check: Score! Match card terminology is not transferred to DLS26; no version claim or recommendation is created from unstamped copy.
+- Close marker 2026-10-05T15:34:53Z (before commits/push).

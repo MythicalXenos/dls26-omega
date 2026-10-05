@@ -241,3 +241,8 @@ Article `360001099097` official body sets non-commercial/gameplay-use conditions
 - `214421705`: DLS Classic kit-import template and direct PNG URL workflow; logo URL max 512x512; not DLS26.
 - `213853689`: FTS15 removed from stores and unavailable to new users; legacy product only.
 - `360017063617`: “Super Players” described as rare enhanced player types from Events/rare packages with grey or gold shiny background. Game/version scope not stated; await section metadata.
+
+
+## Turn 42 product attribution correction
+
+Zendesk metadata assigns `360017063617` (Super Players) and `360000001969` (player types) to Score! Match FAQs section `115001619089`. Their grey/gold appearance and player-type attributes are Score! Match documentation, not DLS evidence. Article `360000002405` says Gems are bought through Store via the plus by the balance, for real money, with bill-payer permission; no title/version or rates are stated. Article `360000420025` offers generic VPN, signal, router, and DNS troubleshooting; no product/version is named.

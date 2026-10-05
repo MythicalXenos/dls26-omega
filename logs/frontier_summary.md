@@ -116,3 +116,8 @@ Reconciliation script output: **523 ledger entries · 425 unique visited URLs ·
 ## Turn 41 reconciliation (2026-10-05)
 
 Reconciliation script output: **529 ledger entries · 430 unique visited URLs · 377 unvisited leads**. General FAQ body coverage: **20/21**; the FTS15 kit item remains intentionally unread. Super Players product scope is open pending section metadata.
+
+
+## Turn 42 reconciliation (2026-10-05)
+
+Reconciliation script output: **535 ledger entries · 435 unique visited URLs · 377 unvisited leads**. Zendesk assigns the Super Players and player-type sources to Score! Match, not DLS. Gem and network FAQ product scope remains unresolved.
