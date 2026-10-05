@@ -170,3 +170,7 @@ Same sandbox-restore signature: local HEAD `fb9a2c0` with all project paths untr
 
 
 ISSUE-0015 follow-up (Turn 61): the T59 operational-log candidate-list line was blank because the formatter looked at the last query’s empty list. Corrected it to the exact SportsDunia URL already recorded in the T59 search event and synchronized in T60. This was a documentation correction only.
+
+
+### ISSUE-0014 — occurrence #24 (2026-10-06, Turn 62 open)
+Same sandbox-restore signature: local HEAD `fb9a2c0` with project paths untracked. Archived 210 non-git files, fetched the fixed branch, restored remote tip `9501a39`, and byte-checked all 210 tracked files; only `logs/turn_clock.txt` differed by the expected T62 start append. Restored the first-call timestamp; no content loss or force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.

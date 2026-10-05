@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:22:20Z",
+  "last_reconciled_at": "2026-10-05T20:26:34Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17561,18 +17561,41 @@
       "kb_claims": "knowledge/knowledge_base.md (Turn 61 source-bounded secondary note)",
       "source_id": "page-314-droidcheat-cult-heroes-plate-final-t61",
       "url": "https://www.youtube.com/watch?v=cfLAOYbW9tE",
-      "tool": "fetch_page (chunks 0–1 of 4; hasMore=true)",
+      "tool": "fetch_page (chunks 0–3; final hasMore=false; T62 completed chunks 2–3)",
       "http_status": "not exposed; fetch_page status=success",
       "source_type": "secondary creator video page / partial transcript",
-      "payload_summary": "Public YouTube page identifies DroidCheat, title “Dream League Soccer 26: Cult Heroes Plate Event - 42 Points & Agent Reward! (Final Part),” uploaded 2026-09-25, 31:08. The creator’s description claims reaching a target of 42 points and unlocking an Agent reward. Only page chunks 0–1 of 4 were fetched; the extracted transcript is gameplay commentary and does not establish entry cost, detailed route, retries, or reward rules. No video frames were inspected. Treat the description as an unverified creator assertion only.",
+      "payload_summary": "Public YouTube page identifies DroidCheat, title “Dream League Soccer 26: Cult Heroes Plate Event - 42 Points & Agent Reward! (Final Part),” uploaded 2026-09-25, 31:08. The creator’s description claims reaching a target of 42 points and unlocking an Agent reward. Only page chunks 0–1 of 4 were fetched; the extracted transcript is gameplay commentary and does not establish entry cost, detailed route, retries, or reward rules. No video frames were inspected. Treat the description as an unverified creator assertion only. T62 fetched chunks 2–3; these contained playlist/recommendation metadata only and no additional acquisition, cost, reward, or position-lock detail.",
       "deception_screen": "Uploader is DroidCheat, not FTG; page is incomplete and the reward statement is creator copy.",
-      "processing_state": "partial (chunks 0–1/4; hasMore=true)",
-      "discovered_not_yet_visited": []
+      "processing_state": "complete page-render (chunks 0–3); no audiovisual inspection",
+      "discovered_not_yet_visited": [],
+      "last_retrieved_at": "2026-10-05T20:26:34Z"
+    },
+    {
+      "event_type": "page_fetch",
+      "source_id": "page-315-droidcheat-cult-heroes-42points-part2-t62",
+      "url": "https://www.youtube.com/watch?v=94Ukty_ce0E",
+      "domain": "www.youtube.com",
+      "retrieved_at": "2026-10-05T20:26:34Z",
+      "retrieval_role": "page-render",
+      "tool": "fetch_page (chunks 0–3; final hasMore=false)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "secondary creator video / extracted transcript",
+      "language": "en",
+      "payload_path": "source_archive/t61_droidcheat_video_review.md",
+      "payload_summary": "Public YouTube page identifies DroidCheat, title “Dream League Soccer: Cult Heroes Plate Event - Road to 42 Points (Part 2),” uploaded 2026-09-24, 26:12. The creator-written description says 42 points are needed to claim victory and secure top rewards. All four page-render chunks were fetched; extracted transcript is largely match commentary and does not establish an Agent award, entry cost, retries, route, or position-lock behavior. No video frames were inspected. This is the same DroidCheat source family as page-312–page-314, not independent corroboration.",
+      "deception_screen": "Creator is DroidCheat, not FTG; page title/description and transcript are not an independent game capture.",
+      "conflicts": "Same-family creator assertion repeats the 42-point target; does not independently verify the 42-point/Agent reward statement in page-314.",
+      "kb_claims": "knowledge/knowledge_base.md (Turn 61–62 source-bounded secondary note)",
+      "processing_state": "complete page-render (chunks 0–3; no audiovisual inspection)",
+      "discovered_not_yet_visited": [
+        "https://www.youtube.com/watch?v=zV0A6TI-BLY",
+        "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos"
+      ]
     }
   ],
   "frontier": {
-    "visited_total": 487,
-    "unvisited_total": 418,
+    "visited_total": 488,
+    "unvisited_total": 417,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -17990,7 +18013,6 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=94Ukty_ce0E",
       "https://www.youtube.com/watch?v=zV0A6TI-BLY"
     ]
   }
