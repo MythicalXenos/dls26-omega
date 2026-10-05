@@ -1434,3 +1434,8 @@ FTG Help Center query `squad position` returned 25 results on one API page. Chun
 ## TURN 103 (2026-10-06) — FTG `squad position` search complete
 
 Completed chunks 6–9/10 for the FTG API query (25 results, one page); chunk 9 returned `hasMore=false`. The mixed results include generic DLS squad/role/formation/stat help, rank wording, and other FTG products. No DLS26 squad-position lock rule surfaced in this bounded search; no global absence conclusion. UCSS behavior is not DLS26 evidence. Provenance: `source_archive/t103_ftg_squad_position_query_complete.md`.
+
+
+## TURN 104 (2026-10-06) — FTG Help Center `Cult Heroes` localized query partial
+
+A distinct `locale=de` query returned 52 results/3 pages. Page 1 chunks 0–5/6 are complete; visible results begin with unrelated Score! Hero/8 Ball Hero material and are marked `en-us`. Page 2 exact continuation is recorded; pages 2–3 are unread. No DLS26 event-specific route/reward evidence in page 1; no absence inference. Provenance: `source_archive/t104_ftg_cult_heroes_locale_de_partial.md`.
