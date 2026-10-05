@@ -321,3 +321,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 83 reconciliation (2026-10-06)
 
 **687 entries · 510 unique visited URLs · 405 unvisited leads**. FTG `live events` query is partial (chunk 0/10); resume at chunk 1. Apple store page/event confirms storefront wording only, not in-game route/reward. Position-lock and Cult Heroes acquisition remain unresolved.
+
+
+## Turn 84 reconciliation (2026-10-06)
+
+**687 entries · 510 unique visited URLs · 405 unvisited leads**. FTG `live events` query has chunks 0–6/10 read; resume at chunk 7. Generic Super Players material does not identify Cult Heroes. T83 direct-page retrievals were repeats.

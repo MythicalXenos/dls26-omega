@@ -942,3 +942,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: `fb9a2c0`, 244 untracked files; archive SHA-256 `7bc7ce8a6206570dc10f08fa18b6f49967b850ea8807862bcfb98c0d338885a2`; restored `3849c5d`; 244/244 byte-verified except T83 open line. ISSUE-0014 #45 logged; upstream/identity restored.
 - Six retrieval calls: FTG `live events` API chunk0 (18 results/10 chunks; partial), direct generic Events article, out-of-position search, Apple search, US listing, Apple event detail. Storefront displays Cult Heroes as HAPPENING NOW/LIVE EVENT with boosted-attributes copy; this does not verify in-game access, route, cost, or exact reward.
 - Ledger: **687 entries / 510 unique visited URLs / 405 unvisited leads**. Position-lock remains user-stated/unverified. Close marker 2026-10-05T22:22:21Z before commit/push.
+
+
+## TURN 84 (2026-10-06) — FTG events query continuation
+- Recovery: `fb9a2c0`, 246 untracked files; archive SHA-256 `d414bc2903f9775287395997b79fa9d0514dd6f7e73d9de10bf02194e3dfb50e`; restored `ac8641f`; 246/246 byte-verified except T84 open marker. ISSUE-0014 #46 logged; identity/upstream restored.
+- Six retrieval calls: FTG `live events` query chunks 1–6 (continuing T83 chunk0; 18 results/10 chunks). One generic DLS “Super Players” article mentions Events/rarer packages; no link to Cult Heroes. Chunks 7–9 pending.
+- T83 audit correction: its three direct URLs were already in the ledger; repeats did not change unique count. Ledger **687 entries / 510 visited URLs / 405 unvisited leads**. Close marker 2026-10-05T22:25:56Z.

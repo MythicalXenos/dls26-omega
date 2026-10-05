@@ -19,3 +19,7 @@ At opening: branch reset to `fb9a2c0`, upstream unset, 244 project files untrack
 
 ## Current status
 Cult Heroes route/rewards remain unresolved; no spend recommendation. User-stated DLS26 “no position locking” remains unverified; device setup remains needed. No scope closure or exhaustion declaration.
+
+
+## T83 post-fetch exact-URL audit (recorded T84)
+The exact URLs for the FTG “What are Events?” article, the U.S. App Store listing, and eventid `6802988564` were already present in `logs/sources_visited.json` before the T83 fetches. Those fetches were repeats, not independent corroboration; the unique URL count remained 510. The App Store page is in the same localized event family as prior store text.

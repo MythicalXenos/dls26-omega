@@ -100,3 +100,8 @@ The completed `Cult Hero Agent`, `Drafts Season Pass`, and `Drafts` Help Center 
 ## Turn 83 — storefront wording does not establish in-game route
 
 The U.S. Apple App Store event page displays Cult Heroes as HAPPENING NOW / LIVE EVENT, with “Now available with boosted attributes.” This is a platform-store claim only and may be the same event localization previously seen in German; it does not establish in-game accessibility, route, cost, or exact reward. FTG’s generic Events article is not Cult-specific. Position lock remains unverified. See `source_archive/t83_live_event_and_storefront.md`.
+
+
+## Turn 84 — live-events query still partial
+
+FTG `live events` query: chunks 0–6/10 read; resume chunks 7–9. A generic DLS “Super Players” article mentions Events/rare packages, but no source links Cult Heroes to that category or to Cult Hero Agents. Do not infer route/reward or absence. Position locking remains unverified.
