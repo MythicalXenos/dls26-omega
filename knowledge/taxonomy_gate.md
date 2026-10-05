@@ -365,3 +365,15 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **High-value new lead:** `360004222118 Multiplayer Troubleshooting` — the most promising remaining first-party route into netcode behaviour, which is currently a named gap.
 
 **Gate status:** no dimension closed.
+
+## Turn 35 update (2026-10-05) — CORRECTION: five sources re-attributed; netcode closed
+
+**CORRECTION (highest priority in the corpus right now):** article ids `7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, `17146555181585` appear in the **Ultimate Clash Soccer** section listing. Some also appeared in listings we read as DLS. Status is **ATTRIBUTION UNCERTAIN** — not "definitely UCS", not "DLS". **Suspended as DLS facts until settled:** formation season-gating, the promotion/relegation XP meter, Player Roles, the home+GK kit route, the "bux" sale reward. **Conflicts (n) and the kit divergence are re-opened**, not resolved. **Turn 36: open the affected articles and read their section/game.**
+
+**Census:** Ultimate Clash Soccer is confirmed as the canonical name (slug "Ultimate-Draft-Soccer" is stale — **slugs are not evidence**), and a **sixth title section, 8 Ball Hero FAQs (360000489137)**, needs adding to the family census.
+
+**Netcode gap CLOSED** with first-party detail: cloud servers, opponent's connection cannot degrade your experience, opponent never learns your address, ~2MB/match, latency- and packet-loss-sensitive, IPv6 and 5G supported, local same-platform multiplayer over the same router, no Facebook invites. Retain the nuance: insulation from the *opponent's* line is not a promise about your own.
+
+**Two destructive controls, distinct:** Reset Profile (progress loss, 30-day limit) vs Delete Profile (device wipe, cancellable countdown). Both in Settings > Advanced.
+
+**Gate status:** no dimension closed.

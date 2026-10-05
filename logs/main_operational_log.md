@@ -559,3 +559,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 34 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The 52/52 milestone is stated with its limits spelled out in the same breath; the help-centre root is noted as a partial render rather than a full section list; the Ultimate Draft Soccer question is left open rather than mapped onto UCS.
+
+## TURN 35 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**nineteenth** check).
+
+## TURN 35 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-188 **Multiplayer Troubleshooting (360004222118)**: cloud-server netcode, opponent's connection cannot degrade your experience, address hidden, ~2MB/match, latency/packet-loss sensitive, IPv6 + 5G, local same-platform multiplayer, no Facebook invites. **Closes the netcode gap.**
+- page-189 **Ultimate Clash Soccer section**: resolves the census question (slug stale) **and triggers a CORRECTION** — five ids previously cited as DLS are in this section.
+- page-190 **backup/restore/transfer (214387685)**: Google/Apple link routes across four FTG titles; not automatic; not Google Play Games or iCloud; no cross-platform transfer.
+- page-191 **Delete Profile (360017046578)**: second destructive control, cancellable countdown, device-wide wipe.
+- page-192 **help-centre structure**: all section ids mapped; **General FAQs = 203171905 (21)**; **new sixth title section — 8 Ball Hero FAQs**.
+- page-187 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 35 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes, and deliberately conservative: the re-attribution is filed as **ATTRIBUTION UNCERTAIN** rather than flipped to a confident "these are UCS", because some ids also appeared under DLS listings and Zendesk can show one article in more than one section. Conflicts (n) and the kit divergence are **re-opened**, not silently resolved by the new finding. The netcode guarantee is recorded with its precise scope (opponent's line, not yours).
