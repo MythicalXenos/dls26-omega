@@ -513,3 +513,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 31 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The 30-vs-52 discrepancy is recorded as a discrepancy rather than averaged into a number; the "buks" comment is labelled historic chatter and offered only as supporting context on terminology, not proof; the Fair Gaming check is logged as a **negative result** (no divergence) rather than padded; and the turn is described as improving method, not adding game facts.
+
+## TURN 32 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**sixteenth** check). No new event content; nothing October-dated.
+
+## TURN 32 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-174 **DLS FAQ section page 2**: **the 30-vs-52 discrepancy is resolved - the section paginates (30 + 22 = 52).** All 52 titles now known; **nine unread**, incl. **What are facilities** and **How can I expand my squad**.
+- page-171 **restart career (213851909)**: **Reset Profile** (skull-and-crossbones) at Settings > Advanced; **destroys all progress including in-app purchases**; **unrecoverable**; **one reset per 30 days**. Recorded as a standing safety rule and a menu hazard (it sits next to Link Profile).
+- page-172 **User ID (37082887837202)**: Options > Advanced > System Info (i) > Copy Info; profiles must not be sold/shared.
+- page-173 **DLS19 profile (360004717278)**: No - standalone game; purchases do not transfer.
+- page-170 **cannot update (360000220945)**: iOS and Android update troubleshooting; also the publisher's own fix for a store listing that appears not to show the current version.
+- page-169 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 32 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. The pagination finding closes a discrepancy we had explicitly refused to guess at; the Reset Profile consequences are quoted from FTG's own IMPORTANT warning rather than paraphrased softly; the DLS19 article's "latest version" wording is flagged as an inference rather than stated as a version-specific fact.

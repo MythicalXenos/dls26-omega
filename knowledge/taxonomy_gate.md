@@ -331,3 +331,13 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Coverage, precisely:** 30 DLS FAQ titles rendered vs 52 advertised; 4 of the 30 unread; up to 22 unaccounted for. Block remains open; no exhaustion claim.
 
 **Gate status:** no dimension closed. Note that this turn improved *method* rather than *coverage*, and that is recorded as such rather than dressed up as new game knowledge.
+
+## Turn 32 update (2026-10-05) — coverage gap closed; an irreversible-action rule added
+
+**Coverage:** the DLS FAQ corpus is **52 articles across two listing pages**; all 52 titles are now known; **nine remain unread**. No exhaustion claim; the retracted "complete spine" claim stays retracted until those nine are read.
+
+**New standing rule (safety, not research):** **Reset Profile** (Settings → Advanced, skull-and-crossbones) destroys all progress **including in-app purchases**, is unrecoverable, and is limited to **one per 30 days**. It must never appear in a plan without an explicit warning. Note the menu hazard: the destructive control sits alongside Link Profile and Manage Devices in the same menu.
+
+**Next two targets are substantive, not incidental:** `What are facilities` and `How can I expand my squad` are core progression systems we have so far only seen in storefront marketing language.
+
+**Gate status:** no dimension closed.
