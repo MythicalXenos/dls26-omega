@@ -353,3 +353,15 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **First-party pricing still absent:** the IAP article gives the Shop route and nothing else. All pricing in this corpus remains third-party.
 
 **DLS FAQ:** 48 of 52 read; **4 unread**. **Gate status:** no dimension closed.
+
+## Turn 34 update (2026-10-05) — DLS FAQ section: 52/52 enumerated and read
+
+**Milestone, stated precisely:** every one of the **52 DLS FAQ articles** has been enumerated **and** read. First block where both hold. **Not an exhaustion declaration** — General FAQs (21), Parents' Guide (8), the auth-walled articles and blocked routes are all still open, and the DLS section is only one of the sections in the help centre.
+
+**Corroboration:** offline Exhibition play now has **two independent first-party articles** behind it.
+
+**New open item (family census):** a fifth title section, **Ultimate Draft Soccer (7900693036561)**, appears on the help-centre root. Either a rename of UCS or a distinct title — unresolved, do not assume.
+
+**High-value new lead:** `360004222118 Multiplayer Troubleshooting` — the most promising remaining first-party route into netcode behaviour, which is currently a named gap.
+
+**Gate status:** no dimension closed.

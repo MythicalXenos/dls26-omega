@@ -543,3 +543,19 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 33 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. Squad expansion is reported with the exact mechanism and its missing numbers stated as missing; the kit finding is labelled a scope clarification rather than a resolution of the divergence; the "unique bonuses" gap is explicitly refused rather than filled from marketing copy.
+
+## TURN 34 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**eighteenth** check).
+
+## TURN 34 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- **DLS FAQ section now 52 of 52 enumerated AND read** — first block where both hold. Explicitly **not** an exhaustion declaration.
+- page-182 **can't connect (360003945557)**: mobile data or Wi-Fi both fine; stable connection required for multiplayer; **offline still allows exhibition matches** (second first-party corroboration).
+- page-183 **haptic (19336294718098)**: Options > **Audio** > Haptic Feedback.
+- page-184 **replays (214385405)**: My Profile > **Highlights**.
+- page-185 **nationality (213851429)**: My Profile > flag near manager; no stated limit (absence of a limit is not evidence of none).
+- page-186 **help-centre root**: only four section links; **no General FAQs id rendered**; **new census question — "Ultimate Draft Soccer" (7900693036561)**.
+- page-181 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 34 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. The 52/52 milestone is stated with its limits spelled out in the same breath; the help-centre root is noted as a partial render rather than a full section list; the Ultimate Draft Soccer question is left open rather than mapped onto UCS.
