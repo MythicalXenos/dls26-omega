@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:49:19Z",
+  "last_reconciled_at": "2026-10-05T20:53:24Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17857,11 +17857,34 @@
       "url": "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw",
       "domain": "play-lh.googleusercontent.com",
       "payload_summary": "Direct fetch of the landscape image variant linked from the UK DLS26 Google Play listing returned HTTP 500; no bytes/image content were returned. No visual or OCR claims."
+    },
+    {
+      "event_type": "page_fetch",
+      "source_id": "page-328-droidvillaz-new-event-video-t68",
+      "url": "https://www.youtube.com/watch?v=TEPdxbaS9QY",
+      "domain": "www.youtube.com",
+      "retrieved_at": "2026-10-05T20:53:24Z",
+      "fetched_at": "2026-10-05T20:53:24Z",
+      "language": "en",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page (complete; hasMore=false)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "secondary YouTube creator video page",
+      "payload_path": "source_archive/t68_droidvillaz_new_event_video.md",
+      "payload_summary": "Public video uploaded by DroidVillaz on 2026-09-03, titled “DLS 26 NEW UPDATE! | PLAYING THE NEW EVENT | DREAM LEAGUE SOCCER 2026,” length 11:29. Description says the creator plays a new event and checks rewards. Rendered transcript is mostly match commentary; no Cult Heroes label, route, reward UI, or position-lock test. No frames inspected.",
+      "deception_screen": "Uploader is a secondary creator, not FTG. Creator title/description are not first-party game documentation.",
+      "conflicts": "Does not resolve route/reward claims; video does not identify the event as Cult Heroes in the rendered title, description, or transcript.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "complete page render; transcript only, no frame review",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 500,
-    "unvisited_total": 409,
+    "visited_total": 501,
+    "unvisited_total": 408,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18173,7 +18196,6 @@
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1rf90a7/dream_league_soccer_2026_midseason_update/",
       "https://www.tiktok.com/legal/privacy-policy",
       "https://www.youtube.com/watch?v=9Iw8nZRpijA",
-      "https://www.youtube.com/watch?v=TEPdxbaS9QY",
       "id-gap probe 28335-28657 (what family sits between the cult-heroes block and Vozinha 28658?)",
       "identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend",
       "image_search of the 1qhuwv8 boost thread's attached images (comments unreachable by any route)",

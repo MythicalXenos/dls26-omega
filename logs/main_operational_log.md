@@ -846,3 +846,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Two retrievals: direct fetch of the tall and landscape `play-lh.googleusercontent.com` variants associated with the official Google Play Cult Heroes artwork, `page-326` and `page-327`. Both returned HTTP 500; no image bytes/content, visual review, or OCR. The failures neither establish nor refute any event or game feature.
 - Reconciliation: **645 entries / 500 unique visited URLs / 409 unvisited leads**; two existing artwork leads consumed; no new leads. No KB claim changed and no snapshot was needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
 - Two retrieval calls and six tool calls before wrap-up; within limits. Close marker 2026-10-05T20:49:19Z (before commits/push).
+
+
+## TURN 68 (2026-10-06) — direct event-video page was secondary
+- Open 2026-10-06 02:51:37 +06. Local checkout reset to `fb9a2c0` with 219 project files untracked. Archived all 219 files (12,235,057 bytes), restored remote `286eabb`, byte-verified all 219 tracked files; only expected T68 clock-start append differed. ISSUE-0014 #30 logged; identity restored to `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+- One retrieval: `page-328-droidvillaz-new-event-video-t68`, YouTube video TEPdxbaS9QY, uploaded by secondary creator DroidVillaz on 2026-09-03. The page’s title/description call it a new event and checking rewards; the rendered transcript is match commentary and does not identify Cult Heroes or show route/reward UI. No frames were inspected. One transcript line describing a 4-2-3-1 is not position-lock evidence. No claim promoted.
+- Reconciliation: **646 entries / 501 unique visited URLs / 408 unvisited leads**; one secondary video lead consumed; no new reachable leads. No KB claim changed and no snapshot was needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
+- One retrieval and four tool calls before wrap-up; within limits. Close marker 2026-10-05T20:53:24Z (before commits/push).
