@@ -1069,3 +1069,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout `fb9a2c0`; archived 282 files, SHA-256 `284feae2da370fabc8933b1700c6080970f6b82afaa9d9b3f7b7dfbfff3557cd`; restored session tip `6350670`, upstream, and local identity. Only T101 start-clock append differed; ISSUE-0014 #63 logged.
 - Four targeted web searches; all search tool calls returned success, HTTP not exposed. No page-level fetches. FTG results were generic/known; one YouTube channel result was not verified as first-party and is retained only as an affiliation-check lead. No event/route/reward/position fact or absence conclusion.
 - Ledger: **704 entries / 522 visited URLs / 405 unvisited leads**. Both research questions remain open. Close marker `2026-10-05T23:40:38Z`.
+
+
+## TURN 102 (2026-10-06) — corrected T101 provenance; FTG `squad position` query partial
+- Recovery: reset checkout `fb9a2c0`; archived 284 files, SHA-256 `38f0e1e3f3bd600407806b2f56c57feae9bdf4f6912228b3a61bbe6dcdde5278`; restored session tip `81663b1`, upstream, and repo-local identity. Only T102 clock-start append differed; ISSUE-0014 #64 logged.
+- Corrected four T101 search ledger records (unique source IDs; exact queries/results; canonical retrieval fields; timestamps explicitly marked as closeout reconciliation because per-call timestamps were not exposed) before any new retrieval.
+- FTG `squad position` API query: six successful chunks 0–5/10; HTTP code not exposed. Mixed results; no DLS26 lock evidence in read portion; query incomplete. Next chunkIndex 6.
+- Retrieval count **6/6**. Ledger **705 / 523 / 406**. Cult Heroes and position-lock unresolved. Close marker `2026-10-05T23:45:00Z`.

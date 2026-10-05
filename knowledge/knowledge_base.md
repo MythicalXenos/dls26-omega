@@ -1424,3 +1424,8 @@ Completed the 100-result/four-page FTG Help Center query (pages 1–4: 10, 7, 9,
 ## TURN 101 (2026-10-06) — targeted first-party search audit
 
 Four targeted FTG/YouTube searches returned generic or already-known landing pages and one unverified YouTube channel; no page-level evidence was retrieved. Search snippets are not evidence for Cult Heroes availability/acquisition/rewards or DLS26 position locking. Keep the unverified account out of primary-source claims unless FTG affiliation is established. Both core questions remain open. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
+
+
+## TURN 102 (2026-10-06) — FTG `squad position` query partial
+
+FTG Help Center query `squad position` returned 25 results on one API page. Chunks 0–5/10 were read; chunks 6–9 remain. Visible DLS role/formation/player-management text and rank/other-product material do not answer DLS26 squad-position locking. No absence inference. Resume at chunkIndex 6. T101 search-ledger entries were corrected to canonical provenance fields in this turn. Provenance: `source_archive/t102_ftg_squad_position_query_partial.md`.

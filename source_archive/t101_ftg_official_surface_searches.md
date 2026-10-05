@@ -14,3 +14,8 @@ The FTG/YouTube results were generic or already known. The unaffiliated/unverifi
 T101 opened on a reset `fb9a2c0` checkout. Clock was recorded first (`2026-10-06 05:37:53 +06`). Archived 282 files to `/tmp/dls26-t101-recovery-20261006053757.tar.gz`, SHA-256 `284feae2da370fabc8933b1700c6080970f6b82afaa9d9b3f7b7dfbfff3557cd`; fetched/restored `6350670`, upstream, and repo-local identity. After overlay, only the T101 clock-start append differed; no untracked paths. No loss/force-push. ISSUE-0014 recovery occurrence #63.
 
 Four retrievals, within the six-retrieval limit; no page fetches. Four distinct search records added; one unverified channel URL retained as an affiliation-check lead. Ledger close: **704 entries / 522 unique visited URLs / 405 unvisited leads**. DLS26 no-position-lock remains `user-stated` and unverified pending Step-3 device setup. Cult Heroes availability, route, cost, and rewards remain unresolved; no spending advice, dimension closure, or exhaustion declaration.
+
+
+## T102 provenance correction
+
+T101’s four discovery records initially inherited a prior search entry’s `source_id`, `search_query`, `search_results`, and fetch timestamp. T102 replaced those copied values with four distinct source IDs, the exact T101 queries and returned results, the canonical `retrieval_tool` field, and transparent status/summary fields. Individual web-search call timestamps were not exposed; the timestamp in the corrected records is T101 closeout reconciliation time, not a claimed per-call time. No new retrieval occurred during this correction. Counts remain 704 entries / 522 visited / 405 unvisited.
