@@ -1,22 +1,24 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T16:16:17Z UTC, Turn 47. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T17:55:15Z UTC, Turn 48. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git at open:** expected `35c1698`, correct branch, only turn clock dirty. No state drop. Research commit `dc88ac0`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger (reconciliation output): 565 entries · 460 unique URLs · 377 unvisited leads.** Six retrievals; 9 of 10 tool calls.
+- **Git repair at open:** expected `09c31e1`; actual `fb9a2c0` with all project files untracked. Backed up excluding `.git`, fetched branch, reset to remote `09c31e1`; byte-checked all 197 backed-up files, no differences. No loss/no force-push. ISSUE-0014 occurrence #10 logged. Research commit `3c13146`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger (reconciliation output): 571 entries · 464 unique URLs · 373 unvisited leads.** Six retrievals; total calls 10/10.
 - **General FAQs:** 21/21 titles enumerated; **20/21 bodies read**. FTS15 article `213892809` remains intentionally unfetched.
 - **Parents’ Guide:** 8/8 titles and bodies read.
 - **Product-scope corrections:** Score! Match section `115001619089` includes Gem purchase `360000002405`, connection `360000420025`, player-type guide `360000001969`, Super Players `360017063617`, free currency `360000011145`, unlock-type `360000002205`, see-type `360000250309`, and Score! Match User ID `37083387788434`. Do not use those as DLS data.
 - **DLS FAQs section `203117809`:** User ID `37082887837202` (Options → Advanced → System Info → Copy Info); graphics `360000598437` (Android-only/unversioned path; verify before advising); DLS19→DLS25 `360004717278` (does not settle DLS25→DLS26); mobile data `360005680437`; blocked DLS `360008904718`; video clips `360017166918`; Facebook Login `9804887423121`. Most bodies already read; do not refetch.
-- **Broken candidate:** `441327324187` rendered FTG’s not-found content; distinct from valid DLS save article `4413273241873`. Numeric HTTP code was not exposed.
-- **Next exact action (Turn 48):**
+- **Turn-48 storefront:** Google Play calls the app DLS 2026 and shows ads/IAP, Everyone, random-item purchases, 100M+ downloads, updated Sep 14, 2026; no build number. The description is marketing, not mechanic verification. Data Safety is developer-provided and version/use/region/age-sensitive. Apple English League Classics card simultaneously says EVENT ENDED and LIVE EVENT. FTG generic Games page has an old DLS2020 Apple label at the same numeric App Store ID. See KB for exact limitations.
+- **Save-route URL:** `441327324187` rendered FTG’s not-found page; distinct from valid article `4413273241873`. Numeric HTTP status wasn't exposed.
+- **Next exact action (Turn 49):**
   1. `git log -1 HEAD`; repair if state dropped. Verify repo-local identity before committing.
   2. Mid-session dlskiturl check.
-  3. Reconcile before fetching. Consider official Google Play DLS listing, Apple DLS26 listing/event cards, or another clearly unvisited high-value DLS source; prefer current first-party product/version evidence. Do not fetch the already-read candidate bodies listed above.
-  4. Six retrievals max; append compact delta files in ≤12,000-character writes; reconcile, snapshot, research commit first, handoff second, push only this branch.
+  3. Fetch the unvisited Google Play event details `4830045897422713648` to identify the “names fans remember” teaser; do not infer title/roster/date beforehand. Reconcile URL first.
+  4. Continue only high-value DLS-specific unvisited sources. Do not refetch bodies already read for blocked DLS, mobile data, DLS19/DLS25, video clips, Facebook Login, or DLS User ID.
+  5. Six retrievals max; append compact delta files in ≤12,000-character writes; reconcile, snapshot, research commit first, handoff second; push only this branch.
 - **Do NOT enter STATE_2.** Step-5 package prepared but undelivered.
 
 ## Bootstrap progress and standing rules
@@ -33,4 +35,4 @@
 
 ## Turn-end fields
 
-- Research commit `dc88ac0`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `3c13146`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
