@@ -281,3 +281,8 @@ Google Play DLS package `com.firsttouchgames.dls7` lists DLS 2026, ads/IAP, Ever
 ## Turn 49 — database caveats and privacy-policy partial
 
 DLSInside root claims 2026/version name 13430/code160/update 2026-09-16 and player/category counts; these are community claims, not FTG confirmation. DreamKitsApp explicitly warns its OVR and prices are approximate. Cross-links mean DLSInside + DreamKitsApp are one family. FTG privacy policy says last updated 2026-02-13; only chunk 0/5 read, with general potential data categories; not DLS26-specific collection proof. Apple/Reddit status: Reddit midseason thread fetch HTTP 403; publisher support page HTTP 500.
+
+
+## Turn 50 — complete FTG privacy policy and unusable DLSInside category render
+
+FTG Privacy Policy last-updated 2026-02-13, read in all 5 chunks. It makes general statements about possible collection/use/sharing of device, gameplay, ad and analytics data; ad personalization opt-outs; deletion/rights; and generic anti-cheat automation. It does not prove per-player DLS26 collection or enforcement. CCPA sale statement is specifically in California section. DLSInside World Cup Champions category page yielded only unlabeled numbers, no roster evidence.

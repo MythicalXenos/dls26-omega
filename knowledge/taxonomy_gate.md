@@ -455,3 +455,8 @@ Google Play listing is current-store copy for DLS 2026, but no version number is
 ## Turn 49 update (2026-10-05) — one database family, partial privacy review
 
 DLSInside and DreamKitsApp cross-link and remain one community-database family; both are not independent corroboration. DreamKitsApp explicitly labels ratings approximate. DLSInside reports build-like fields 13430 / code 160 / 2026-09-16, but no FTG confirmation. FTG privacy policy is generic and only chunk 0/5 has been read. Reddit midseason thread HTTP 403; FTG support landing page HTTP 500. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.
+
+
+## Turn 50 update (2026-10-05) — FTG Privacy Policy complete
+
+All 5 policy chunks read. The 2026-02-13 FTG-wide policy describes possible device, gameplay, ad, analytics, and support information, opt-outs, deletion and rights; do not treat it as a per-user DLS26 collection audit. Its suspected-cheating/ad consequence language is policy-wide and not an inference about this player. DLSInside World Cup Champions page rendered no player identities (only unlabeled numbers); no roster claim. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.

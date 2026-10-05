@@ -707,3 +707,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - DLSInside/DreamKitsApp treated as one source family; approximate OVR notice recorded. Privacy policy is a partial, generic disclosure only.
 - Reconciliation output: **577 entries / 468 unique URLs / 352 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tool calls 10/10. No exhaustion declaration.
 - Close marker 2026-10-05T18:47:20Z (before commits/push).
+
+
+## TURN 50 (2026-10-05) — FTG policy complete; category page unusable
+- Open 2026-10-05T18:48:32Z: HEAD `fb9a2c0`, project paths untracked. Backup/fetch/reset to remote `3bde4fc`; byte-checked **199 files, all identical**, no loss/no force-push. ISSUE-0014 occurrence #12 logged.
+- Six retrievals: privacy-policy chunks 1–4 (completed chunk set 0–4), dlskiturl monitor, DLSInside World Cup Champions category page (no names rendered).
+- Privacy policy is general FTG-wide, last updated 2026-02-13; recorded conditional claims with no inference about this user or DLS26 runtime.
+- Reconciliation: **583 entries / 469 unique URLs / 368 unvisited leads**; stale annotated leads removed **1**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T18:50:25Z (before commits/push).

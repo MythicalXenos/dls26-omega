@@ -156,3 +156,8 @@ Reconciliation output: **571 ledger entries · 464 unique URLs visited · 373 un
 ## Turn 49 reconciliation (2026-10-05)
 
 Reconciliation output: **577 ledger entries · 468 unique URLs · 352 unvisited leads**; 43 stale annotated leads removed. General FAQ bodies 20/21; Parents’ Guide 8/8. Google event ID 4830045897422713648 already visited; privacy policy chunk 0/5 only.
+
+
+## Turn 50 reconciliation (2026-10-05)
+
+Reconciliation output: **583 ledger entries · 469 unique URLs · 368 unvisited leads**, stale annotations removed 1. Privacy policy chunks 0–4 complete. General FAQ bodies 20/21; Parents’ Guide 8/8. DLSInside WCC detail render lacked names.

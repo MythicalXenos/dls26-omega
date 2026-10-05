@@ -1040,3 +1040,24 @@ The requested HTTP URL rendered at HTTPS. Policy heading says **Last Updated: 13
 
 ### Git recovery
 Turn opened at `fb9a2c0` with all project paths untracked. Safeguarded tree excluding `.git`, fetched/reset to remote `14914bd`, and byte-compared 198 regular files: all identical. No content lost, no force-push. ISSUE-0014 occurrence #11 is recorded.
+
+
+## TURN 50 (2026-10-05) — FTG Privacy Policy fully read; DLSInside roster render failed
+
+### FTG Privacy & Data Policy (last updated 13 February 2026)
+All five chunks were read. The policy applies generally to FTG games and online services; it does **not** show that every described category is collected from every DLS26 player or in every region/version.
+
+- It says FTG may collect device ID/name, preferences and gameplay statistics (progress, virtual-currency balances, activity such as purchases/ad views); support contact data; advertising data from third-party networks subject to permissions; and analytics such as user ID, device/OS, attempts/results, session times, virtual-item purchase/spend, coarse location/time zone, install source, ad views/clicks and crash/defect data.
+- It describes use for gameplay/service operation, analytics, support, user acquisition and IAP monetization; possible targeted ads and temporary personalized offers. It says users confirmed under 16 are not segmented for those IAP promotions. Ads may provide in-game benefits. It names third-party ad/user-acquisition and analytics providers; do not assume every named provider serves this particular user.
+- The policy says targeted-ad and personalized-notification opt-outs are available via device privacy or in-game Options; promotional personalization can also be disabled in-game. Targeted-ad opt-out prevents sharing the Advertiser ID. It also says profile/personal-data deletion can be requested from each game’s Options menu, and lists access, correction, deletion/objection, portability and complaint rights.
+- The policy describes automated detection of suspected cheating by comparing virtual-currency/content levels against completed gameplay/purchases. It says possible actions include more ads, more frequent matching with suspected cheaters, and blocking; for a block it describes notification and a right to human intervention/contest. This is generic policy text, not confirmation of a DLS26-specific detection implementation or an inference about this user.
+- The California/CCPA section says FTG disclosed/sold personal information to third-party ad networks in the prior 12 months and lists access/deletion/opt-out rights. Keep that statement in its California-specific context; it is not a Bangladesh legal conclusion.
+- Policy also describes data retention, under-13 restrictions, security and international transfers. No region- or DLS26-version-specific collection matrix was established.
+
+### DLSInside World Cup Champions category page
+The category page title says Dream League Soccer 2026, but names/cards did not render; only unlabelled numeric entries `16, 6, 10, 23, 24, 3, 5, 2` appeared. Do not interpret them as player identities, OVRs, positions or IDs. The DLSInside/DreamKitsApp family remains one non-FTG source family.
+
+### Recovery, monitor and coverage
+- Turn opened at `fb9a2c0` with all project paths untracked. Backup/fetch/reset to remote `3bde4fc`; byte comparison verified **199 files identical**. No content loss or force-push. ISSUE-0014 occurrence #12 recorded.
+- dlskiturl unchanged on the **thirty-fourth** check: same nine front-page items, no new October-dated item.
+- General FAQs: **21/21 titles, 20/21 bodies**. Parents’ Guide: **8/8 titles and bodies**. No exhaustion declaration.
