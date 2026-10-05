@@ -30,3 +30,8 @@ Searches of FTG support returned generic development/stat pages and a formation-
 ## Turn 65 — blocked official TikTok embed routes
 
 Two distinct alternate endpoints for the already-identified FTG Cult Heroes TikTok post (`/oembed` metadata and `/embed/v2/`) both returned HTTP 403 with no body (`page-321-tiktok-oembed-t65`, `page-322-tiktok-embed-t65`; details in `source_archive/t65_tiktok_embed_endpoint_attempts.md`). The original search snippet remains ambiguous, and these failures neither confirm nor refute its Cult Heroes route wording. Route, costs, and rewards remain open; position-lock behavior remains unverified.
+
+
+## Turn 66 — UK Play storefront text remains ambiguous
+
+The en-GB Google Play DLS26 listing (page-323) links the previously identified Cult Heroes event page and renders `Ends on 10/14` without a year, while the same listing’s update note says the Cult Heroes collection is “coming soon.” This is the same Play listing family as the U.S. page and storefront-only text; it does not verify an in-game deadline, route, or reward. Linked TikTok/Instagram profiles were blocked (403; page-324/page-325). In-game timer and acquisition route remain open.

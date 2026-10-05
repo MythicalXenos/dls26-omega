@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:39:33Z",
+  "last_reconciled_at": "2026-10-05T20:44:51Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17740,11 +17740,82 @@
       "url": "https://www.tiktok.com/embed/v2/7437552025958763809",
       "domain": "www.tiktok.com",
       "payload_summary": "Official TikTok embed/v2 endpoint requested for the FTG post ID 7437552025958763809. HTTP 403; no player, caption, metadata, or body returned. This does not resolve the ambiguous search-result snippet."
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:44:51Z",
+      "fetched_at": "2026-10-05T20:44:51Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "payload_path": "source_archive/t66_googleplay_uk_and_social.md",
+      "affected_kb_claims": [
+        "Cult Heroes event timing is storefront-only; acquisition route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "complete",
+      "discovered_not_yet_visited": [
+        "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw"
+      ],
+      "source_id": "page-323-google-play-dls-uk-listing-t66",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
+      "domain": "play.google.com",
+      "language": "en-GB",
+      "http_status": "not exposed; fetch_page status=success, chunks 0–1/1",
+      "source_type": "official developer Google Play product listing (UK locale)",
+      "deception_screen": "Developer-published listing; same Google Play listing family as U.S. page. Store promo/update strings are not in-game state.",
+      "conflicts": "The same returned listing displays an event card “Ends on 10/14” and a late-summer update note saying Cult Heroes are “coming soon.” Date omits year. Neither resolves the in-game timer or route.",
+      "payload_summary": "Full listing (2 chunks): DLS2026, developer First Touch Games Ltd., displayed update date 14 Sept 2026. Linked event ID 4830045897422713648 card says “Ends on 10/14” and “The names the fans remember, from their peak years.” What’s new says “Cult Heroes” collection coming soon. It also links to FTG TikTok and DLS Instagram. No acquisition route, cost, reward, or position-lock instructions. Same Google Play source family as U.S. listing, not independent corroboration."
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:44:51Z",
+      "fetched_at": "2026-10-05T20:44:51Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "payload_path": "source_archive/t66_googleplay_uk_and_social.md",
+      "affected_kb_claims": [
+        "Cult Heroes event timing is storefront-only; acquisition route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": [],
+      "source_id": "page-324-tiktok-ftg-profile-t66",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+      "domain": "www.tiktok.com",
+      "language": "unknown",
+      "http_status": 403,
+      "source_type": "FTG-linked TikTok profile",
+      "deception_screen": "Access blocked before any profile content was returned.",
+      "conflicts": "No content available to assess.",
+      "payload_summary": "The official UK Google Play listing links to @dreamleaguesoccer.ftg. Direct profile fetch returned HTTP 403; no posts/content received."
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:44:51Z",
+      "fetched_at": "2026-10-05T20:44:51Z",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "payload_path": "source_archive/t66_googleplay_uk_and_social.md",
+      "affected_kb_claims": [
+        "Cult Heroes event timing is storefront-only; acquisition route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": [],
+      "source_id": "page-325-instagram-playdls-profile-t66",
+      "url": "https://www.instagram.com/playdls",
+      "domain": "www.instagram.com",
+      "language": "unknown",
+      "http_status": 403,
+      "source_type": "FTG-linked DLS Instagram profile",
+      "deception_screen": "Access blocked before any profile content was returned.",
+      "conflicts": "No content available to assess.",
+      "payload_summary": "The official UK Google Play listing links to Instagram @playdls. Direct profile fetch returned HTTP 403; no posts/content received. Distinct from the previously blocked @firsttouchgames_official URL."
     }
   ],
   "frontier": {
-    "visited_total": 495,
-    "unvisited_total": 413,
+    "visited_total": 498,
+    "unvisited_total": 411,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18048,7 +18119,6 @@
       "https://www.firsttouchgames.com/images/logos/DLS_Logo.png",
       "https://www.ftgames.com/terms-of-use",
       "https://www.instagram.com/firsttouchgames_official",
-      "https://www.instagram.com/playdls",
       "https://www.mintegral.com/en/privacy",
       "https://www.moloco.com/privacy-policy",
       "https://www.reddit.com/r/DreamLeagueSoccer.json or a thread's .json (untested)",
@@ -18056,7 +18126,6 @@
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1e6jnr4/career_mode_is_quite_stronger_than_beforeto_the/ — DLS24 career-balance thread carrying the post-match capture (kb/evidence/dls24_postmatch_stats_jun2024.jpg)",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1qhuwv8/ in full — the boost arithmetic and replies",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1rf90a7/dream_league_soccer_2026_midseason_update/",
-      "https://www.tiktok.com/@dreamleaguesoccer.ftg",
       "https://www.tiktok.com/legal/privacy-policy",
       "https://www.youtube.com/watch?v=9Iw8nZRpijA",
       "https://www.youtube.com/watch?v=TEPdxbaS9QY",
@@ -18138,7 +18207,6 @@
       "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
       "https://www.youtube.com/watch?v=OIR9GPIf05o",
       "https://www.youtube.com/watch?v=gpvjf6qVl5c",
-      "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
       "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first-touch-gamess-sponsorship-discussion/",
@@ -18158,7 +18226,8 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
+      "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw"
     ]
   }
 }
