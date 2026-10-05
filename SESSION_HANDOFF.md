@@ -1,30 +1,27 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T17:55:15Z UTC, Turn 48. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T18:47:20Z UTC, Turn 49. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** expected `09c31e1`; actual `fb9a2c0` with all project files untracked. Backed up excluding `.git`, fetched branch, reset to remote `09c31e1`; byte-checked all 197 backed-up files, no differences. No loss/no force-push. ISSUE-0014 occurrence #10 logged. Research commit `3c13146`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger (reconciliation output): 571 entries · 464 unique URLs · 373 unvisited leads.** Six retrievals; total calls 10/10.
-- **General FAQs:** 21/21 titles enumerated; **20/21 bodies read**. FTS15 article `213892809` remains intentionally unfetched.
+- **Git recovery at open:** expected `14914bd`; actual `fb9a2c0` with project paths untracked. Backup/fetch/reset to `14914bd`; byte-compared 198 regular files, no differences. ISSUE-0014 occurrence #11 logged. No force-push or content loss. Research commit `b847d2d`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger:** 577 entries · 468 unique URLs · 352 unvisited leads. Six retrievals; 10/10 tool calls.
+- **General FAQs:** 21/21 titles enumerated; **20/21 bodies read**. FTS15 `213892809` intentionally unfetched.
 - **Parents’ Guide:** 8/8 titles and bodies read.
-- **Product-scope corrections:** Score! Match section `115001619089` includes Gem purchase `360000002405`, connection `360000420025`, player-type guide `360000001969`, Super Players `360017063617`, free currency `360000011145`, unlock-type `360000002205`, see-type `360000250309`, and Score! Match User ID `37083387788434`. Do not use those as DLS data.
-- **DLS FAQs section `203117809`:** User ID `37082887837202` (Options → Advanced → System Info → Copy Info); graphics `360000598437` (Android-only/unversioned path; verify before advising); DLS19→DLS25 `360004717278` (does not settle DLS25→DLS26); mobile data `360005680437`; blocked DLS `360008904718`; video clips `360017166918`; Facebook Login `9804887423121`. Most bodies already read; do not refetch.
-- **Turn-48 storefront:** Google Play calls the app DLS 2026 and shows ads/IAP, Everyone, random-item purchases, 100M+ downloads, updated Sep 14, 2026; no build number. The description is marketing, not mechanic verification. Data Safety is developer-provided and version/use/region/age-sensitive. Apple English League Classics card simultaneously says EVENT ENDED and LIVE EVENT. FTG generic Games page has an old DLS2020 Apple label at the same numeric App Store ID. See KB for exact limitations.
-- **Save-route URL:** `441327324187` rendered FTG’s not-found page; distinct from valid article `4413273241873`. Numeric HTTP status wasn't exposed.
-- **Next exact action (Turn 49):**
-  1. `git log -1 HEAD`; repair if state dropped. Verify repo-local identity before committing.
-  2. Mid-session dlskiturl check.
-  3. Fetch the unvisited Google Play event details `4830045897422713648` to identify the “names fans remember” teaser; do not infer title/roster/date beforehand. Reconcile URL first.
-  4. Continue only high-value DLS-specific unvisited sources. Do not refetch bodies already read for blocked DLS, mobile data, DLS19/DLS25, video clips, Facebook Login, or DLS User ID.
-  5. Six retrievals max; append compact delta files in ≤12,000-character writes; reconcile, snapshot, research commit first, handoff second; push only this branch.
+- **The Google Play eventdetails `4830045897422713648` is already visited** as `page-009-googleplay-cult-heroes-event`; do not refetch. US Apple event card 6802988564 and several Cult Heroes guide pages were also already visited. T48’s “unvisited eventdetails” plan was stale and corrected.
+- **Store context:** Google Play DLS listing shows ads/IAP, Everyone, random-item purchases, updated Sep 14, 2026, but no build number. Apple English League Classics page self-conflicts (“EVENT ENDED” and “LIVE EVENT”). FTG general Games page is undated and labels the same App Store ID as DLS2020.
+- **One community database family:** DLSInside and DreamKitsApp cross-link. DLSInside claims name 13430/code160/update Sep16/2026; not FTG-confirmed. DreamKitsApp warns its OVRs/prices are approximate; do not use as exact official data.
+- **FTG Privacy Policy:** Last Updated 13 Feb 2026; only chunk 0/5 read. It describes broad potential data categories, not confirmed collection by DLS26. **Next exact action (Turn 50):** continue the same URL `https://www.ftgames.com/privacy-policy` with `chunkIndex` 1, 2, 3, 4 (four retrievals); re-check ledger/chunk index before continuing. Add the mid-session dlskiturl monitor and, if within the six-call cap, one genuinely unvisited DLSInside category page. Do not call chunk 0 again.
+- Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page returned HTTP 500. Do not assume content or repeatedly retry without reason.
+- DLS support IDs already body-read; avoid duplicates: `360008904718`, `360005680437`, `360004717278`, `360017166918`, `9804887423121`, `37082887837202`. The short save ID `441327324187` is a not-found URL, distinct from valid `4413273241873`.
+- DLS save-route contradiction remains unresolved; no version stamp, do not advise toggling Google Play Games/iCloud.
 - **Do NOT enter STATE_2.** Step-5 package prepared but undelivered.
 
 ## Bootstrap progress and standing rules
 
 - Corpus: 15 imported topics; all 52 DLS FAQ articles read; General FAQs 21/21 titles enumerated and 20/21 bodies read; Parents’ Guide 8/8 titles/bodies read; facilities/squad mechanism; first-party netcode; account recovery; profile deletion/reset; My Profile menu; version chain 13.050→13.430; remaining findings in `knowledge/knowledge_base.md`.
-- Rules: DB OVR labels are estimates and point-in-time readings; DK+dlsinside are ONE family; ±1 drift cause open; open the card before trusting an index row; match by ID sets, never list length; read pages, not slugs; reconcile frontier before judging yield; do not infer completeness from an unreconciled list; try `?page=N` before calling a list truncated; unstamped support text is not DLS-26-confirmed; HTTP 200 alone does not prove an article was read; figures come only from reconciliation output; no backslash escapes in bash.
+- Rules: DB OVR labels are estimates and point-in-time readings; DK+dlsinside are ONE family; ±1 drift cause open; open the card before trusting an index row; match by ID sets, never list length; read pages, not slugs; reconcile frontier before judging yield; do not infer completeness from an unreconciled list; try `?page=N` before calling a list truncated; unstamped support text is not DLS-26-confirmed; HTTP 200 alone does not prove an article was read; figures come only from reconciliation output; no backslash escapes in bash; keep every file write ≤12,000 characters.
 - PR #3 remains the single active PR; never merge. PROMPT CAPTURE remains DIGEST-ONLY; no placeholder `DLS26_OMEGA_PROMPT.md`.
 
 ## Pending user input and review items
@@ -35,4 +32,4 @@
 
 ## Turn-end fields
 
-- Research commit `3c13146`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `b847d2d`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
