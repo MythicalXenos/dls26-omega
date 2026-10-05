@@ -450,3 +450,8 @@ API metadata places `360000011145` (free currency), `360000002205` (unlock playe
 ## Turn 48 update (2026-10-05) — Storefront and event-state caveats
 
 Google Play listing is current-store copy for DLS 2026, but no version number is exposed; its rating, random-item purchases, ads/IAP, and feature claims are store disclosures/marketing, not verified mechanics. Data Safety information is developer-provided and explicitly version/region/age-sensitive. The Apple English League Classics card simultaneously says “EVENT ENDED” and “LIVE EVENT”; not usable for timing. Generic FTG Games page has a 2020-vs-2026 Apple title mismatch at the same numeric app ID. Parents’ Guide remains 8/8; General FAQ bodies 20/21. No dimension closed.
+
+
+## Turn 49 update (2026-10-05) — one database family, partial privacy review
+
+DLSInside and DreamKitsApp cross-link and remain one community-database family; both are not independent corroboration. DreamKitsApp explicitly labels ratings approximate. DLSInside reports build-like fields 13430 / code 160 / 2026-09-16, but no FTG confirmation. FTG privacy policy is generic and only chunk 0/5 has been read. Reddit midseason thread HTTP 403; FTG support landing page HTTP 500. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.

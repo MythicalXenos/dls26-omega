@@ -151,3 +151,8 @@ Reconciliation output: **565 ledger entries · 460 unique URLs visited · 377 un
 ## Turn 48 reconciliation (2026-10-05)
 
 Reconciliation output: **571 ledger entries · 464 unique URLs visited · 373 unvisited leads**. General FAQ bodies 20/21; Parents’ Guide 8/8. Store listing has no build number; Apple event state self-conflicts.
+
+
+## Turn 49 reconciliation (2026-10-05)
+
+Reconciliation output: **577 ledger entries · 468 unique URLs · 352 unvisited leads**; 43 stale annotated leads removed. General FAQ bodies 20/21; Parents’ Guide 8/8. Google event ID 4830045897422713648 already visited; privacy policy chunk 0/5 only.

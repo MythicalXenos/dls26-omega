@@ -1019,3 +1019,24 @@ The page explicitly cautions that practices may vary by app version, use, region
 - Turn opened at local HEAD `fb9a2c0` with all project files untracked. Safeguarded the worktree (5,938,573-byte tar excluding `.git`), fetched the correct branch, reset to remote `09c31e1`, and compared 197 regular files; every backed-up file was byte-identical after repair. No content lost, no force-push; occurrence #10 recorded under ISSUE-0014. Only the current-turn clock was dirty after repair.
 - dlskiturl unchanged on the **thirty-second** check: same nine front-page items, no new October-dated item.
 - General FAQ titles remain **21/21 enumerated**, bodies **20/21**; Parents’ Guide remains **8/8 titles and bodies**. No exhaustion declaration.
+
+
+## TURN 49 (2026-10-05) — database family check and first privacy-policy chunk
+
+### DLSInside and DreamKitsApp: one family, not independent confirmation
+- DLSInside root reports version name 13430, version code 160, last update 2026-09-16; 14,435 players, 263 teams, and 255 stadiums. It lists category counts including 12 Cult Heroes, 8 World Cup Champions, 8 World Cup Heroes, 40 Dynamic Stars, 11 Team of 2025, 2 Kickoff Stars, 12 Champions, 23 Stars, 32 Classics, 270 Hidden and 7,388 Exclusives. These are site claims, not FTG-confirmed totals; repeated values in one rendered page are not independent corroboration.
+- DreamKitsApp’s DLS26 player index explicitly warns that its ratings are approximate calculations, may differ from in-game ratings, and can affect prices. Treat its displayed OVRs/prices as estimates. The index does not show an update date in the fetched page.
+- The sites cross-link one another, consistent with the standing rule that **DLSInside and DreamKitsApp are one source family**. Do not count them as two independent confirmations.
+
+### FTG Privacy & Data Policy — partial read only
+The requested HTTP URL rendered at HTTPS. Policy heading says **Last Updated: 13 February 2026** and applies generally to FTG games/online services. Chunk 0/5 describes possible collection of device ID/name, preferences, gameplay progression/currency/activity/ad-view statistics; support contact information; advertising-network/device/network/locale/IP/advertiser-ID data depending on permissions; analytics including user ID, sessions, purchases, coarse location, ads viewed/clicked and crash data; and social login data if used. This is generic policy language, not proof every field is collected from every DLS26 player. Only chunk 0 of 5 has been read; remaining sections are open.
+
+### Failed retrievals and stale-lead correction
+- Reddit DLS26 midseason thread: HTTP 403; no body retrieved.
+- FTG support landing page: HTTP 500; no body retrieved.
+- The T48 handoff incorrectly called Google Play eventdetails `4830045897422713648` unvisited; the reconciled ledger shows it was already fetched as `page-009-googleplay-cult-heroes-event`. No duplicate fetch. The US Apple Cult Heroes card, DLSKitURL Cult Heroes article, DLSInside Cult Heroes page, and SakibPro Cult Heroes article were also already visited; annotated frontier duplicates were normalized away.
+- dlskiturl unchanged on the **thirty-third** check: same nine front-page items, no new October-dated item.
+- General FAQs remain **21/21 titles, 20/21 bodies**; Parents’ Guide remains **8/8 titles and bodies**. No exhaustion declaration.
+
+### Git recovery
+Turn opened at `fb9a2c0` with all project paths untracked. Safeguarded tree excluding `.git`, fetched/reset to remote `14914bd`, and byte-compared 198 regular files: all identical. No content lost, no force-push. ISSUE-0014 occurrence #11 is recorded.

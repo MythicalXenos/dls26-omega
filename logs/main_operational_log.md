@@ -698,3 +698,12 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Store facts are kept distinct from in-game verification. Play review counts conflicted across chunks; Apple event page says both ended/live; no claims about current event timing.
 - Reconciliation output: **571 entries / 464 unique URLs / 373 unvisited leads**; General FAQs **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; total calls 10/10. No exhaustion declaration.
 - Close marker 2026-10-05T17:55:15Z (before commits/push).
+
+
+## TURN 49 (2026-10-05) — repair, family scope and partial policy
+- Open 2026-10-05T18:43:21Z: HEAD `fb9a2c0` with whole project tree untracked. Backed up excluding `.git`, fetched branch, reset to remote `14914bd`; byte check **198 files, all identical**. No loss/no force-push. ISSUE-0014 occurrence #11 logged.
+- Reconciled Google event ID 4830045897422713648 as already visited (page-009); corrected stale T48 handoff. Removed 43 annotated leads whose exact URLs were already visited.
+- Six retrievals: monitor; DLSInside root; DreamKitsApp player index; Reddit thread (403); FTG support page (500); FTG Privacy Policy chunk 0/5 (last-updated 2026-02-13).
+- DLSInside/DreamKitsApp treated as one source family; approximate OVR notice recorded. Privacy policy is a partial, generic disclosure only.
+- Reconciliation output: **577 entries / 468 unique URLs / 352 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tool calls 10/10. No exhaustion declaration.
+- Close marker 2026-10-05T18:47:20Z (before commits/push).

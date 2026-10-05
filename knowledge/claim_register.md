@@ -276,3 +276,8 @@ Zendesk section metadata places `37082887837202` (DLS User ID), `360005680437` (
 ## Turn 48 — storefront disclosures and event card
 
 Google Play DLS package `com.firsttouchgames.dls7` lists DLS 2026, ads/IAP, Everyone, in-game purchases including random items, 100M+ installs, and updated date 2026-09-14; store marketing says 4,000+ players/8 divisions/etc. No app version shown. Review count conflicted across retrieved chunks (15M vs 14.4M); ignored. Data Safety categories are developer-provided and flagged as variable by version/use/region/age. Apple English League Classics card says both “EVENT ENDED” and “LIVE EVENT”; no status inference. FTG Games page is generic/undated and links the same App Store ID under a DLS2020 label.
+
+
+## Turn 49 — database caveats and privacy-policy partial
+
+DLSInside root claims 2026/version name 13430/code160/update 2026-09-16 and player/category counts; these are community claims, not FTG confirmation. DreamKitsApp explicitly warns its OVR and prices are approximate. Cross-links mean DLSInside + DreamKitsApp are one family. FTG privacy policy says last updated 2026-02-13; only chunk 0/5 read, with general potential data categories; not DLS26-specific collection proof. Apple/Reddit status: Reddit midseason thread fetch HTTP 403; publisher support page HTTP 500.
