@@ -1,21 +1,25 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T18:47:20Z UTC, Turn 49. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T18:50:25Z UTC, Turn 50. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git recovery at open:** expected `14914bd`; actual `fb9a2c0` with project paths untracked. Backup/fetch/reset to `14914bd`; byte-compared 198 regular files, no differences. ISSUE-0014 occurrence #11 logged. No force-push or content loss. Research commit `b847d2d`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger:** 577 entries · 468 unique URLs · 352 unvisited leads. Six retrievals; 10/10 tool calls.
+- **Git repair at open:** expected `3bde4fc`; actual `fb9a2c0` with project tree untracked. Backup/fetch/reset to remote `3bde4fc`, byte-checked 199 files with no differences. ISSUE-0014 occurrence #12 logged. No loss/no force-push. Research commit `26ba282`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger:** 583 entries · 469 unique URLs · 368 unvisited leads. Six retrievals; 9/10 tool calls.
 - **General FAQs:** 21/21 titles enumerated; **20/21 bodies read**. FTS15 `213892809` intentionally unfetched.
 - **Parents’ Guide:** 8/8 titles and bodies read.
-- **The Google Play eventdetails `4830045897422713648` is already visited** as `page-009-googleplay-cult-heroes-event`; do not refetch. US Apple event card 6802988564 and several Cult Heroes guide pages were also already visited. T48’s “unvisited eventdetails” plan was stale and corrected.
-- **Store context:** Google Play DLS listing shows ads/IAP, Everyone, random-item purchases, updated Sep 14, 2026, but no build number. Apple English League Classics page self-conflicts (“EVENT ENDED” and “LIVE EVENT”). FTG general Games page is undated and labels the same App Store ID as DLS2020.
-- **One community database family:** DLSInside and DreamKitsApp cross-link. DLSInside claims name 13430/code160/update Sep16/2026; not FTG-confirmed. DreamKitsApp warns its OVRs/prices are approximate; do not use as exact official data.
-- **FTG Privacy Policy:** Last Updated 13 Feb 2026; only chunk 0/5 read. It describes broad potential data categories, not confirmed collection by DLS26. **Next exact action (Turn 50):** continue the same URL `https://www.ftgames.com/privacy-policy` with `chunkIndex` 1, 2, 3, 4 (four retrievals); re-check ledger/chunk index before continuing. Add the mid-session dlskiturl monitor and, if within the six-call cap, one genuinely unvisited DLSInside category page. Do not call chunk 0 again.
-- Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page returned HTTP 500. Do not assume content or repeatedly retry without reason.
-- DLS support IDs already body-read; avoid duplicates: `360008904718`, `360005680437`, `360004717278`, `360017166918`, `9804887423121`, `37082887837202`. The short save ID `441327324187` is a not-found URL, distinct from valid `4413273241873`.
-- DLS save-route contradiction remains unresolved; no version stamp, do not advise toggling Google Play Games/iCloud.
+- **FTG Privacy & Data Policy:** all five chunks read; last updated 2026-02-13; applies generally to FTG games/services, not a per-player DLS26 collection audit. Notes possible gameplay/ad/analytics data, personalization controls, data rights, and automated suspected-cheating measures. Do not infer collection/enforcement against this user. CCPA sale statement is California-specific.
+- **Community DB family:** DLSInside + DreamKitsApp are ONE family; DreamKitsApp warns its OVRs/prices are approximate. DLSInside claims 13430/code160/date 2026-09-16, not FTG-confirmed. The World Cup Champions detail page rendered no names.
+- **Google eventdetails `4830045897422713648` is already visited** as page-009; do not refetch. US Apple event cards and several Cult Heroes articles were also already visited. Stale frontier annotations were normalized.
+- **DLS support product split:** Score! Match section `115001619089` pages are not DLS evidence. DLS FAQs section `203117809` entries have no DLS26 version stamp unless explicitly established.
+- **Next exact action (Turn 51):**
+  1. `git log -1 HEAD`; repair if state dropped. Verify local identity.
+  2. Mid-session dlskiturl check.
+  3. Continue high-value DLS-specific unvisited leads; reconcile before fetching. Avoid already-read DLS support bodies and the misleading eventdetails candidate.
+  4. Six retrievals max; compact deltas, ≤12,000-character writes; reconcile; research commit first, handoff second; push only this branch.
+- Reddit midseason thread returned HTTP 403; FTG support landing page returned HTTP 500. No content was inferred.
+- DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
 - **Do NOT enter STATE_2.** Step-5 package prepared but undelivered.
 
 ## Bootstrap progress and standing rules
@@ -32,4 +36,4 @@
 
 ## Turn-end fields
 
-- Research commit `b847d2d`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `26ba282`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
