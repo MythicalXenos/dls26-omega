@@ -1099,3 +1099,21 @@ BlueStacks guide is dated June 2, 2026, but its chunk 0/3 uses very close wordin
 - Turn opened at `fb9a2c0` with project paths untracked. Backup/fetch/reset to remote `0f9ee4c`; byte comparison verified **201 files identical**. No content loss or force-push; ISSUE-0014 occurrence #14 recorded.
 - dlskiturl unchanged on the **thirty-sixth** check: same nine front-page items, no new October-dated item.
 - General FAQs **21/21 titles, 20/21 bodies**; Parents’ Guide **8/8 titles and bodies**. No exhaustion declaration.
+
+
+## TURN 53 (2026-10-06) — secondary-source continuations and homepage check
+
+### DLSKitURL homepage monitor (`page-295`)
+The current fetch rendered ten post cards: Atlético Madrid kits, Cult Heroes, Tottenham kits, English League Classics, Dortmund kits, Juventus kits, Real Madrid kits, Liverpool 2006/07 kits, PES 2017 and PES 2021. The previous Turn-52 entry described the homepage as the “same nine”; the present count of ten conflicts with that count, but no prior raw render was retained to identify a changed card versus a counting error. No publication dates are visible in this render. Treat it as a secondary kit/event blog, not evidence of roster completeness, event state or game mechanics. Exact unvisited card links are retained in the frontier.
+
+### GamingOnPhone DLS2025 resources guides complete (`page-296`–`page-298`)
+All three guides are explicitly DLS2025 and by Akash Roy, dated Dec 16, 2024; completing their chunks does not verify current DLS26 rules.
+- **Coins (`page-296`):** the remainder claims a 90-day Prize Ladder cycle, four additional Classic Players associated with the 1998 World Cup, and 30 Coins from in-game advertising once per 24 hours. Historical secondary claims only.
+- **Gems (`page-297`):** the ending recommends saving Gems for Live Transfers, avoiding Agents, and using Gems for player OVR/training only after accumulating a balance. Treat these as DLS2025 author advice, not a DLS26 recommendation.
+- **Divisions (`page-298`):** the final chunk completes the article and exposes its Dec 16, 2024 byline/date; it adds no basis for transferring the DLS2025 division/reward figures into DLS26.
+
+### BlueStacks DLS26 character guide (`page-299`, still partial)
+Chunk 1/3 includes FAQ claims about coaches improving attributes/OVR, Physios restoring stamina and healing injuries, prioritizing Stadium, Scout-versus-Agent costs/odds, and Live Transfer refreshes after matches. These overlap closely with the GamingOnPhone guide and remain secondary—not independent FTG confirmation. The related-article rail surfaces free-rewards, redeem-codes and custom-kits pages as leads; chunk 2 remains unread.
+
+### Recovery and scope
+Turn 53 opened with the recurring sandbox restore signature. The remote branch was recovered at `d0fbe82`; 201 non-clock target files were byte-identical, and the only expected divergence was this turn’s start line in `logs/turn_clock.txt`. ISSUE-0014 occurrence #15 is logged. No content loss or force-push. Five retrievals were logged; no first-party mechanic was validated, no preference or recommendation changed, no dimension was closed, and no exhaustion declaration was made.

@@ -127,3 +127,7 @@ Same sandbox-restore signature: local HEAD `fb9a2c0 Initial commit`, whole proje
 
 ### ISSUE-0014 — occurrence #14 (2026-10-05, Turn 52 open)
 Same sandbox-restore signature: local HEAD `fb9a2c0 Initial commit`, project paths untracked. Backed up excluding `.git`, fetched the branch, reset to remote tip `0f9ee4c`, and byte-compared 201 regular files; all match. Re-stamped the Turn-52 clock; no content loss or force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0014 — occurrence #15 (2026-10-06, Turn 53 open)
+Same sandbox-restore signature: local HEAD was `fb9a2c0` with the project tree untracked. Archived the 200 untracked project files outside the repo, fetched the fixed session branch, and restored remote tip `d0fbe82`. Byte-checked all 201 non-clock target files as identical; the current clock file differed only by the expected Turn-53 start-line append. No content loss, no force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.

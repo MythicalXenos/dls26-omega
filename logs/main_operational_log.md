@@ -731,3 +731,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - DLS2025 figures are not carried forward; BlueStacks/GamingOnPhone wording overlap noted.
 - Reconciliation output: **595 entries / 477 unique URLs / 381 unvisited leads**; stale annotated leads removed **4**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; calls 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T19:11:08Z (before commits/push).
+
+
+## TURN 53 (2026-10-06) — completed three historical guides; monitored secondary sources
+- Open 2026-10-06 01:24:56 +06: local HEAD `fb9a2c0`, project files untracked. Recovered from `origin/arena/01a1022d-dls26-omega` at `d0fbe82`; verified 201 non-clock files byte-identical and the only divergence was the expected T53 clock-start append. ISSUE-0014 #15 recorded; repo-local identity `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+- Five retrievals: `page-295` DLSKitURL homepage (10 visible cards vs prior T52 note of nine; unresolved discrepancy); `page-296`–`page-298` completed GamingOnPhone DLS2025 coins/gems/divisions guides; `page-299` BlueStacks DLS26 guide chunk 1/3. All are secondary; DLS2025 figures remain unverified for DLS26 and the BlueStacks/GamingOnPhone overlap is not independent corroboration.
+- Reconciliation: **600 entries / 477 unique URLs / 384 unvisited leads**; stale exact-URL annotations removed 3; new leads added 6. General FAQs 20/21; Parents’ Guide 8/8. No dimension closed; no exhaustion declaration.
+- Budget accounting: 5 retrieval calls. There were 9 top-level tool dispatches before wrap-up, including one parallel dispatch containing five individual fetches (13 underlying tool uses total); this exceeds the 10-call ceiling if nested calls are counted. No further retrievals; record the overrun rather than undercount it.
+- Close marker 2026-10-05T19:29:22Z (before commits/push).
