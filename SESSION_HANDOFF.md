@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T21:28:20Z UTC, Turn 74. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T21:36:02Z UTC, Turn 75. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** local HEAD `fb9a2c0` with 228 project files untracked. Archived all 228 files (12,798,846 bytes), restored remote tip `4367516`, and byte-verified all 228 tracked files with no mismatches after normalizing only the T74 clock-start append. ISSUE-0014 occurrence #36 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger:** 653 entries · 506 unique visited URLs · 407 unvisited leads. Six retrieval calls; nine tool calls before wrap-up.
+- **Git repair at open:** local HEAD `fb9a2c0` with 230 project files untracked. Archived all 230 files (12,981,572 bytes), restored remote tip `8be1c4e`, and byte-verified all 230 tracked files with no mismatches after normalizing only the T75 clock-start append. ISSUE-0014 occurrence #37 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger:** 659 entries · 508 unique visited URLs · 405 unvisited leads. Six retrieval calls; ten tool calls before wrap-up.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -31,12 +31,13 @@
 - **T71 source ID:** `page-331-tiktok-mobile-post-t71` (mobile route returned HTTP 403/no body). Re-read of existing `page-066-ftg-core-principles` is bounded context only, not a new fetch. Note/snapshot: `source_archive/t71_tiktok_mobile_and_position_context.md`; `snapshots/KB_snapshot_2026-10-06-turn71-position-context.md`.
 - **T72 source ID:** `page-332-apple-lookup-us-t72`; structured App Store listing metadata, complete chunks 0–1. Version 13.430; release note says Cult Heroes “coming soon”; no route or lock information. Note/snapshot: `source_archive/t72_apple_lookup_api.md`; `snapshots/KB_snapshot_2026-10-06-turn72-apple-lookup.md`.
 - **T73 source ID:** `discovery-t73-ftg-help-center-api-cult-search`; public FTG API query, page 1/3 read. Article 214386765 is in Score! Hero FAQs (section 203117609 per first-party section map), not DLS; the earlier T73 DLS label/section-ID transcription were corrected in T74. Note: `source_archive/t73_ftg_help_center_api_search.md`.
-- **T74 source IDs:** `page-333-ftg-what-are-events-t74` (direct Score! Hero FAQ) and `discovery-t74-ftg-help-center-api-cult-search-page2` (API page 2/3). Neither yields DLS26 Cult Heroes route/rewards or position-lock evidence; API page 3 remains unvisited. Note/snapshot: `source_archive/t74_ftg_events_article_and_help_search_page2.md`; `snapshots/KB_snapshot_2026-10-06-turn74-ftg-events.md`.
-- **Next exact action (Turn 75):**
-  1. Verify branch/status/identity and session tip; repeat byte-verified recovery only if a reset is observed.
-  2. Follow the explicit FTG API page-3 lead `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=Cult+Heroes` if useful to complete this broad 52-result search. Do not treat mixed Score! Hero/8 Ball Hero matches as DLS evidence.
-  3. Continue seeking distinct DLS26 first-party/in-game evidence for Cult Heroes acquisition route/rewards and position-lock behavior. Step-3 device setup remains necessary. Both questions stay open; no spending recommendation.
-  4. Do not repeat blocked/previously visited exact URLs, promote generic Score! Hero material, close a dimension, or declare exhaustion. Reconcile frontier, update handoff, push. PR #3 remains open and unmerged.
+- **T74 source IDs:** `page-333-ftg-what-are-events-t74` (direct Score! Hero FAQ) and `discovery-t74-ftg-help-center-api-cult-search-page2` (API page 2/3). Neither yields DLS26 Cult Heroes route/rewards or position-lock evidence. Note/snapshot: `source_archive/t74_ftg_events_article_and_help_search_page2.md`.
+- **T75 source IDs:** `discovery-t75-ftg-help-center-api-cult-search-page3` completes the broad 52-result API query; `page-334-tiktok-ftg-video-7664965549348244758-t75` and `page-335-tiktok-ftg-video-7477999051343007008-t75` both returned 403/no body. Three TikTok web-search events are discovery-only; no snippet was mapped to a direct Cult Heroes permalink. Note/snapshot: `source_archive/t75_api_page3_and_tiktok_searches.md`; `snapshots/KB_snapshot_2026-10-06-turn75-ftg-social-search.md`.
+- **Next exact action (Turn 76):**
+  1. Verify branch/status/identity and current session tip; repeat byte-verified recovery only if a reset is observed.
+  2. Continue only with distinct first-party/in-game DLS26 evidence for Cult Heroes acquisition route/rewards and position-lock behavior. If pursuing the official TikTok account, use a distinct unvisited permalink only when identifiable; do not repeat blocked URLs `7664965549348244758`, `7477999051343007008`, or earlier `7437552025958763809`, and do not treat mixed web-search snippets as post evidence.
+  3. Step-3 device setup remains necessary for direct in-game verification. Keep both questions open and make no spending recommendation.
+  4. Do not promote secondary creator claims, infer absence from blocked/limited sources, close a dimension, or declare exhaustion. Reconcile frontier, update handoff, and push. PR #3 remains open and unmerged.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -56,4 +57,4 @@
 
 ## Turn-end fields
 
-- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, T69 `7c778d5`/`10c4f54`, T70 `1995080`/`7dddb25`, T71 `b540348`/`760ab99`, T72 `cf788bb`/`7d739b8`, and T73 `3a37538`/`4367516` are pushed. T74 research commit `823b314` and handoff follow; push only to `arena/01a1022d-dls26-omega`. Close marker is in `logs/turn_clock.txt`. Next input expected: `>`.
+- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, T69 `7c778d5`/`10c4f54`, T70 `1995080`/`7dddb25`, T71 `b540348`/`760ab99`, T72 `cf788bb`/`7d739b8`, T73 `3a37538`/`4367516`, and T74 `823b314`/`8be1c4e` are pushed. T75 research commit `e6d3da9` and handoff are pushed to `arena/01a1022d-dls26-omega`. Close marker is recorded in `logs/turn_clock.txt`. Next input expected: `>`.
