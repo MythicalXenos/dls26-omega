@@ -860,3 +860,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - One retrieval: `page-329-facebook-firsttouchgames-t69`, direct request to a candidate FTG Facebook profile URL from an earlier social discovery record; HTTP 403, no profile/posts/body. No account-ownership inference. This is not the previously attempted DLS `facebook.com/dreamleaguesoccer` URL.
 - Reconciliation: **647 entries / 502 unique visited URLs / 407 unvisited leads**; one existing candidate-profile lead consumed; no new reachable leads. No KB claim changed and no snapshot was needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
 - One retrieval and five tool calls before wrap-up; within limits. Close marker 2026-10-05T20:58:32Z (before commits/push).
+
+
+## TURN 70 (2026-10-06) — TikTok item-detail endpoint blocked
+- Open 2026-10-06 03:00:41 +06. Local checkout reset to `fb9a2c0` with 221 project files untracked. Archived all 221 files (12,244,651 bytes), restored remote `10c4f54`, byte-verified all 221 tracked files; only expected T70 clock-start append differed. ISSUE-0014 #32 logged; identity `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+- One retrieval: `page-330-tiktok-item-detail-api-t70`, official TikTok `/api/item/detail/` endpoint for post 7437552025958763809; HTTP 403, no JSON/caption/author metadata. This distinct endpoint does not resolve the earlier mixed search-result snippet. No claim promoted.
+- Reconciliation: **648 entries / 503 unique visited URLs / 407 unvisited leads**; no existing frontier lead consumed and no new lead. No KB claim changed or snapshot needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
+- One retrieval and five tool calls before wrap-up; within limits. Close marker 2026-10-05T21:02:46Z (before commits/push).

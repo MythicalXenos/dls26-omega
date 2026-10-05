@@ -256,3 +256,8 @@ Reconciliation output: **646 ledger entries · 501 unique visited URLs · 408 un
 ## Turn 69 reconciliation (2026-10-06)
 
 Reconciliation output: **647 ledger entries · 502 unique visited URLs · 407 unvisited leads**. Candidate Facebook profile URL was blocked (403; no body). No inference about account ownership or posts; no route/position-lock result. No dimension closure/exhaustion.
+
+
+## Turn 70 reconciliation (2026-10-06)
+
+Reconciliation output: **648 ledger entries · 503 unique visited URLs · 407 unvisited leads**. One distinct official TikTok API endpoint returned 403 with no body; no frontier lead consumed. No Cult Heroes route or position-lock result; no dimension closure/exhaustion.

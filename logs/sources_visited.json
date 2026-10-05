@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:58:32Z",
+  "last_reconciled_at": "2026-10-05T21:02:46Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17903,10 +17903,33 @@
       ],
       "processing_state": "partial / blocked",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "page_fetch",
+      "source_id": "page-330-tiktok-item-detail-api-t70",
+      "url": "https://www.tiktok.com/api/item/detail/?itemId=7437552025958763809",
+      "domain": "www.tiktok.com",
+      "retrieved_at": "2026-10-05T21:02:46Z",
+      "fetched_at": "2026-10-05T21:02:46Z",
+      "language": "unknown; no response body",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": 403,
+      "source_type": "official TikTok item-detail API endpoint for post 7437552025958763809",
+      "payload_path": "source_archive/t70_tiktok_api_blocked.md",
+      "payload_summary": "Official TikTok `/api/item/detail/` endpoint requested for the FTG Cult Heroes post ID 7437552025958763809. HTTP 403; no JSON, caption, author metadata, or body. Does not resolve the ambiguous search-result snippet.",
+      "deception_screen": "Blocked before content; no post attribution or claims assessable.",
+      "conflicts": "Search-result text previously mixed a DLS25 title/date with Cult Heroes route wording. This endpoint response does not resolve whether the route wording belongs to the targeted post.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 502,
+    "visited_total": 503,
     "unvisited_total": 407,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
