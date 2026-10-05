@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T23:34:54Z",
+  "last_reconciled_at": "2026-10-05T23:40:38Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -19290,11 +19290,237 @@
       "processing_state": "complete for API page 4/4: chunks 0–8/9 read; four chunks (0–3) were exact repeats in T100; overall query now complete, no global absence conclusion",
       "discovered_not_yet_visited": [],
       "last_retrieved_at": "2026-10-05T23:34:54Z"
+    },
+    {
+      "source_id": "discovery-t59-dls26-formation-position-search",
+      "url": "web-search://query?q=site%3Aftgames.com%20%22Cult%20Heroes%22%20%22Dream%20League%20Soccer%22%202026%20First%20Touch%20Games%20official",
+      "domain": "web-search",
+      "fetched_at": "2026-10-05T20:08:59Z",
+      "retrieved_at": "2026-10-05T23:40:38Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=2)",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "not exposed by web_search; tool response status=success",
+      "source_type": "discovery-search; result snippets only",
+      "language": "en",
+      "payload_path": "source_archive/t101_ftg_official_surface_searches.md",
+      "payload_summary": "Search returned generic first-party FTG pages (/games, /terms-of-use, /about) and previously known Help Center material. No Cult Heroes route/reward or DLS26 position-lock evidence. Search snippets only; no result page fetched.",
+      "search_query": "Dream League Soccer 2026 official First Touch Games formation lock position settings team formation player positions",
+      "search_results": [
+        {
+          "title": "Dream League Soccer 2026 Beginners Guide and Tips",
+          "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+          "page_age": "2026-01-21",
+          "snippet": "Search output describes formation access and resources; its own article text mixes DLS26 framing with a DLS2025 formation section. Secondary; no position-lock answer."
+        },
+        {
+          "title": "Top 5 Best Formations in Dream League Soccer 2026",
+          "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
+          "page_age": "2026-03-04",
+          "snippet": "Secondary formation roundup; search output does not address position locking."
+        },
+        {
+          "title": "Best formation in the game?",
+          "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1jad1cx/best_formation_in_the_game/",
+          "page_age": "2025-03-13",
+          "snippet": "Community discussion; DLS26 applicability is not established."
+        },
+        {
+          "title": "Dream League Soccer 2025",
+          "url": "https://www.playdreamleaguesoccer.com/",
+          "page_age": "2026-07-16",
+          "snippet": "Third-party DLS2025 wiki-style page; not DLS26/FTG evidence."
+        },
+        {
+          "title": "Dream League Soccer 2026 Players",
+          "url": "https://dlsinside.com/players",
+          "page_age": "2026-09-16",
+          "snippet": "Secondary player database listing, not position-lock evidence."
+        }
+      ],
+      "processing_state": "search call complete; page-level evidence not fetched; no gameplay claim accepted",
+      "source_screen_outcome": "No first-party FTG or in-game source surfaced. Results are secondary/community pages and snippets; no DLS26 position-lock claim was promoted.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "id": "t101-web-search-01",
+      "deception_screen": "Discovery snippets only; no result page fetched. Do not infer route, event availability, rewards, position locking, or absence from these search results.",
+      "last_retrieved_at": "2026-10-05T23:40:38Z"
+    },
+    {
+      "source_id": "discovery-t59-dls26-formation-position-search",
+      "url": "web-search://query?q=site%3Ayoutube.com%2F%40dreamleaguesoccer%20%22Cult%20Heroes%22%20DLS%2026%20Agents%20First%20Touch%20Games",
+      "domain": "web-search",
+      "fetched_at": "2026-10-05T20:08:59Z",
+      "retrieved_at": "2026-10-05T23:40:38Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=2)",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "not exposed by web_search; tool response status=success",
+      "source_type": "discovery-search; result snippets only",
+      "language": "en",
+      "payload_path": "source_archive/t101_ftg_official_surface_searches.md",
+      "payload_summary": "Search returned https://www.youtube.com/@dreamleaguesoccer7906, with an Arabic-language description calling itself the main DLS channel and mentioning hacking/how-to content. Account ownership is unverified; do not attribute it to FTG or use it as primary evidence. Candidate retained only for possible affiliation verification.",
+      "search_query": "Dream League Soccer 2026 official First Touch Games formation lock position settings team formation player positions",
+      "search_results": [
+        {
+          "title": "Dream League Soccer 2026 Beginners Guide and Tips",
+          "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+          "page_age": "2026-01-21",
+          "snippet": "Search output describes formation access and resources; its own article text mixes DLS26 framing with a DLS2025 formation section. Secondary; no position-lock answer."
+        },
+        {
+          "title": "Top 5 Best Formations in Dream League Soccer 2026",
+          "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
+          "page_age": "2026-03-04",
+          "snippet": "Secondary formation roundup; search output does not address position locking."
+        },
+        {
+          "title": "Best formation in the game?",
+          "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1jad1cx/best_formation_in_the_game/",
+          "page_age": "2025-03-13",
+          "snippet": "Community discussion; DLS26 applicability is not established."
+        },
+        {
+          "title": "Dream League Soccer 2025",
+          "url": "https://www.playdreamleaguesoccer.com/",
+          "page_age": "2026-07-16",
+          "snippet": "Third-party DLS2025 wiki-style page; not DLS26/FTG evidence."
+        },
+        {
+          "title": "Dream League Soccer 2026 Players",
+          "url": "https://dlsinside.com/players",
+          "page_age": "2026-09-16",
+          "snippet": "Secondary player database listing, not position-lock evidence."
+        }
+      ],
+      "processing_state": "search call complete; page-level evidence not fetched; no gameplay claim accepted",
+      "source_screen_outcome": "No first-party FTG or in-game source surfaced. Results are secondary/community pages and snippets; no DLS26 position-lock claim was promoted.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": [
+        "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence"
+      ],
+      "id": "t101-web-search-02",
+      "deception_screen": "Discovery snippets only; no result page fetched. Do not infer route, event availability, rewards, position locking, or absence from these search results.",
+      "last_retrieved_at": "2026-10-05T23:40:38Z"
+    },
+    {
+      "source_id": "discovery-t59-dls26-formation-position-search",
+      "url": "web-search://query?q=site%3Ayoutube.com%2F%40FirstTouchGames%20%22Cult%20Heroes%22%20%22DLS26%22%20OR%20%22Dream%20League%20Soccer%202026%22",
+      "domain": "web-search",
+      "fetched_at": "2026-10-05T20:08:59Z",
+      "retrieved_at": "2026-10-05T23:40:38Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=2)",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "not exposed by web_search; tool response status=success",
+      "source_type": "discovery-search; result snippets only",
+      "language": "en",
+      "payload_path": "source_archive/t101_ftg_official_surface_searches.md",
+      "payload_summary": "Search returned the generic https://www.youtube.com/@firsttouchgames channel profile already present in the ledger; no Cult Heroes-specific video or position-lock result. Search snippets only; no result page fetched.",
+      "search_query": "Dream League Soccer 2026 official First Touch Games formation lock position settings team formation player positions",
+      "search_results": [
+        {
+          "title": "Dream League Soccer 2026 Beginners Guide and Tips",
+          "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+          "page_age": "2026-01-21",
+          "snippet": "Search output describes formation access and resources; its own article text mixes DLS26 framing with a DLS2025 formation section. Secondary; no position-lock answer."
+        },
+        {
+          "title": "Top 5 Best Formations in Dream League Soccer 2026",
+          "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
+          "page_age": "2026-03-04",
+          "snippet": "Secondary formation roundup; search output does not address position locking."
+        },
+        {
+          "title": "Best formation in the game?",
+          "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1jad1cx/best_formation_in_the_game/",
+          "page_age": "2025-03-13",
+          "snippet": "Community discussion; DLS26 applicability is not established."
+        },
+        {
+          "title": "Dream League Soccer 2025",
+          "url": "https://www.playdreamleaguesoccer.com/",
+          "page_age": "2026-07-16",
+          "snippet": "Third-party DLS2025 wiki-style page; not DLS26/FTG evidence."
+        },
+        {
+          "title": "Dream League Soccer 2026 Players",
+          "url": "https://dlsinside.com/players",
+          "page_age": "2026-09-16",
+          "snippet": "Secondary player database listing, not position-lock evidence."
+        }
+      ],
+      "processing_state": "search call complete; page-level evidence not fetched; no gameplay claim accepted",
+      "source_screen_outcome": "No first-party FTG or in-game source surfaced. Results are secondary/community pages and snippets; no DLS26 position-lock claim was promoted.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "id": "t101-web-search-03",
+      "deception_screen": "Discovery snippets only; no result page fetched. Do not infer route, event availability, rewards, position locking, or absence from these search results.",
+      "last_retrieved_at": "2026-10-05T23:40:38Z"
+    },
+    {
+      "source_id": "discovery-t59-dls26-formation-position-search",
+      "url": "web-search://query?q=site%3Aftgames.com%20%22Cult%20Hero%20Agents%22%20DLS26",
+      "domain": "web-search",
+      "fetched_at": "2026-10-05T20:08:59Z",
+      "retrieved_at": "2026-10-05T23:40:38Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=2)",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "not exposed by web_search; tool response status=success",
+      "source_type": "discovery-search; result snippets only",
+      "language": "en",
+      "payload_path": "source_archive/t101_ftg_official_surface_searches.md",
+      "payload_summary": "Search returned only the generic https://www.ftgames.com/ company page (search result dated 2018). It did not expose a Cult Hero Agents route or DLS26 position behavior. Search snippet only; no page fetched.",
+      "search_query": "Dream League Soccer 2026 official First Touch Games formation lock position settings team formation player positions",
+      "search_results": [
+        {
+          "title": "Dream League Soccer 2026 Beginners Guide and Tips",
+          "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+          "page_age": "2026-01-21",
+          "snippet": "Search output describes formation access and resources; its own article text mixes DLS26 framing with a DLS2025 formation section. Secondary; no position-lock answer."
+        },
+        {
+          "title": "Top 5 Best Formations in Dream League Soccer 2026",
+          "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
+          "page_age": "2026-03-04",
+          "snippet": "Secondary formation roundup; search output does not address position locking."
+        },
+        {
+          "title": "Best formation in the game?",
+          "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1jad1cx/best_formation_in_the_game/",
+          "page_age": "2025-03-13",
+          "snippet": "Community discussion; DLS26 applicability is not established."
+        },
+        {
+          "title": "Dream League Soccer 2025",
+          "url": "https://www.playdreamleaguesoccer.com/",
+          "page_age": "2026-07-16",
+          "snippet": "Third-party DLS2025 wiki-style page; not DLS26/FTG evidence."
+        },
+        {
+          "title": "Dream League Soccer 2026 Players",
+          "url": "https://dlsinside.com/players",
+          "page_age": "2026-09-16",
+          "snippet": "Secondary player database listing, not position-lock evidence."
+        }
+      ],
+      "processing_state": "search call complete; page-level evidence not fetched; no gameplay claim accepted",
+      "source_screen_outcome": "No first-party FTG or in-game source surfaced. Results are secondary/community pages and snippets; no DLS26 position-lock claim was promoted.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "id": "t101-web-search-04",
+      "deception_screen": "Discovery snippets only; no result page fetched. Do not infer route, event availability, rewards, position locking, or absence from these search results.",
+      "last_retrieved_at": "2026-10-05T23:40:38Z"
     }
   ],
   "frontier": {
-    "visited_total": 518,
-    "unvisited_total": 404,
+    "visited_total": 522,
+    "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -19699,7 +19925,8 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
+      "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence"
     ]
   }
 }

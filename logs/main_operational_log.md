@@ -1063,3 +1063,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - FTG `player position` API query completed: pages1–4 (10/7/9/9 rendered chunks). No DLS26-specific squad-position lock rule surfaced; ranking and Season Pass tier locks are distinct; no global absence conclusion.
 - **Budget audit correction:** 11 retrieval executions total (five over the six-call ceiling): wrapper batches contained 3, 3, and 5 fetches. Four repeated exact page-4 chunks 0–3 already read in T99; seven were new (page3 chunks7–8 and page4 chunks4–8). No retrieval followed the overrun. See `source_archive/t100_ftg_player_position_query_complete.md`.
 - Ledger: **700 entries / 518 unique visited URLs / 404 unvisited leads**. Cult Heroes and DLS26 position-lock remain unresolved. Close marker `2026-10-05T23:34:54Z`.
+
+
+## TURN 101 (2026-10-06) — targeted official-surface search audit
+- Recovery: reset checkout `fb9a2c0`; archived 282 files, SHA-256 `284feae2da370fabc8933b1700c6080970f6b82afaa9d9b3f7b7dfbfff3557cd`; restored session tip `6350670`, upstream, and local identity. Only T101 start-clock append differed; ISSUE-0014 #63 logged.
+- Four targeted web searches; all search tool calls returned success, HTTP not exposed. No page-level fetches. FTG results were generic/known; one YouTube channel result was not verified as first-party and is retained only as an affiliation-check lead. No event/route/reward/position fact or absence conclusion.
+- Ledger: **704 entries / 522 visited URLs / 405 unvisited leads**. Both research questions remain open. Close marker `2026-10-05T23:40:38Z`.

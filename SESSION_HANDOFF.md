@@ -57,12 +57,13 @@
 - **T97 source:** FTG `player position` page 2 complete (0–6/7); page 3 partial at 0/9, resume chunkIndex=1; page 4 unread. DLS Leaderboards “position” means rank; UCSS/Score! results are other products. Archive `source_archive/t97_ftg_player_position_query_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn97-player-position-query-progress.md`.
 - **T98 source:** FTG `player position` query page 3 is read through chunks 0–6/9; resume at chunkIndex=7 (chunks 7–8 remain); page 4 unread. Season Pass tier locks/other-product results are not squad-position evidence. Archive `source_archive/t98_ftg_player_position_page3_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn98-player-position-page3-progress.md`.
 - **T99 source:** FTG `player position` page 3 complete (0–8/9); page 4 partial at 0–3/9, resume chunkIndex=4. DLS Season Pass tier locks concern reward progression; rank wording is not squad-player position. Archive `source_archive/t99_ftg_player_position_page4_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn99-player-position-page4-progress.md`.
+- **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 101):**
-  1. Record the clock first; verify branch/status/upstream/identity and recover with archive/byte verification only if a reset is observed.
-  2. Do not repeat the completed FTG `player position` query. Choose a distinct first-party or in-game lead that directly addresses DLS26 squad-position assignment/locking; do not use the completed mixed search as proof of absence.
-  3. Keep no-position-lock explicitly `user-stated` and unverified pending Step-3 device setup. Do not promote secondary sources or silently switch approaches.
-  4. Keep Cult Heroes availability/route/cost/rewards unresolved; no spending advice or exhaustion declaration. Maintain ≤6 retrievals, ≤10 tools before wrap-up, ≤4 wrap-up calls; push before turn end.
+- **Next exact action (Turn 102):**
+  1. Record the clock first; verify branch/status/upstream/identity and archive before any cleanup if the reset checkout recurs.
+  2. Do not repeat the four T101 searches, the completed FTG `player position` query, or the generic FTG/YouTube landing pages. Continue only with a distinct first-party or in-game lead for Cult Heroes route/rewards or DLS26 squad-position behavior.
+  3. Keep the no-position-lock statement explicitly `user-stated` and unverified pending Step-3 device setup; do not silently switch approaches or treat blocked pages/search snippets as evidence.
+  4. Keep Cult Heroes availability, acquisition route, cost, and rewards unresolved; no spending advice or exhaustion declaration. Maintain ≤6 retrievals, ≤10 tool calls, ≤4 wrap-up calls; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -148,3 +149,8 @@
 - FTG `player position` query completed (all four pages). No DLS26-specific lock rule surfaced; no global absence inference.
 - Retrieval-budget overrun: **11 executions** versus six allowed (five over). Four exact repeats of T99 page-4 chunks 0–3; seven new chunk fetches (page3 7–8, page4 4–8). No further retrieval occurred after the overrun; full audit is in `source_archive/t100_ftg_player_position_query_complete.md`.
 - Ledger **700 entries / 518 visited URLs / 404 unvisited leads**. Both target questions remain unresolved. Close time: 2026-10-05T23:34:54Z. Next input expected: `>`.
+
+## Turn 101 closeout
+
+- Four targeted FTG/YouTube searches only; no page-level fetch, no new game facts. An unverified channel result is retained solely for possible affiliation verification; it is not first-party evidence.
+- Ledger: **704 entries / 522 visited URLs / 405 unvisited leads**. Cult Heroes and DLS26 position-lock questions remain unresolved. Close time: 2026-10-05T23:40:38Z. Next input expected: `>`.
