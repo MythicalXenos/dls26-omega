@@ -256,3 +256,8 @@ Zendesk metadata assigns `360000002405` (Gem purchase) and `360000420025` (conne
 ## Turn 44 Parents’ Guide articles
 
 Five unversioned general FTG pages read: `360000191385` (purchase authentication/restriction steps for Apple and Google Play), `360000205049` (FTG says Apple refunds are controlled by Apple; Google Play users use purchase history/Report a problem; contact FTG only if referred), `360000204889` (FTG’s general 13+ statement and parental-control links), `4408249822609` (age-banding and ad/notification personalization), and `360000191545` (support form, no phone support, billing privacy). Do not treat the page text as current DLS26 menu instructions or a DLS app-store age rating. On `4408249822609`, FTG says turning personalization off yields generic ads, not no ads; youngest band is permanently unpersonalized. DLS video-clips and Facebook-login links were discovered; see reconciled frontier.
+
+
+## Turn 45 — Parents’ Guide closure and DLS support metadata
+
+`360000191485` says FTG apps do not use private chat facilities; do not broaden this into “no in-game interaction.” Metadata: Parents’ Guide section `360000030369`, created 2018-02-02, edited 2018-02-05, updated 2026-06-16, not outdated. `360017166918` is DLS FAQs section `203117809`, updated 2026-07-16, edited 2021-01-20, not outdated. `9804887423121` is DLS FAQs section `203117809`, updated 2026-10-05 but edited 2024-12-06, not outdated; last-updated metadata does not prove same-day body revision. Age article `4408249822609` belongs to Parents’ Guide, last updated 2024-02-07. No DLS26 build confirmed.

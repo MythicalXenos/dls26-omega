@@ -665,3 +665,12 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - General Parents’ Guide pages are not DLS26-specific and have no verified build stamp. Their OS menu paths are not treated as current; no settings changes recommended.
 - Reconciliation output: **547 entries / 445 unique URLs visited / 379 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide bodies **7/8**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T15:51:01Z (before commits/push).
+
+
+## TURN 45 (2026-10-05) — Parents’ Guide body sweep closed; metadata attribution
+- Open 2026-10-05T15:56:31Z: expected HEAD `bf7dd7e`, correct branch and repo-local identity; only clock dirty. No state drop.
+- Ledger check caught a Turn-44 handoff error: DLS FAQ articles 360017166918 and 9804887423121 were already body-read as page-138/page-152. They were not fetched again; only their new Zendesk API metadata URLs were retrieved.
+- Six retrievals: dlskiturl monitor; In-App Chats article body + metadata; metadata for DLS video-clips article, DLS Facebook-login article, and Age Confirmation article.
+- Parents’ Guide now 8/8 title and body coverage. General FAQ body count **20/21**.
+- Reconciliation output: **553 entries / 450 unique URLs visited / 380 unvisited leads**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T15:58:16Z (before commits/push).

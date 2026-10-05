@@ -430,3 +430,8 @@ Parents’ Guide section `360000030369` renders all eight advertised titles; two
 ## Turn 44 update (2026-10-05) — General FTG Parents’ Guide policies
 
 Five additional Parents’ Guide bodies read: purchase restrictions, refunds, age/general policy, age confirmation/personalization, and contact details. These pages are generic and unstamped; do not represent them as DLS26 settings, store-specific current steps, or an age rating. Ads-personalization text says ads remain but become generic if personalization is off. Parents’ Guide body coverage is 7/8; `360000191485` In-App Chats is the only remaining body. General FAQ reading remains 20/21. No dimension closed.
+
+
+## Turn 45 update (2026-10-05) — Parents’ Guide complete; DLS support metadata
+
+Parents’ Guide article `360000191485` says FTG apps do not use private chat facilities; it is general and unversioned. All 8/8 Parents’ Guide bodies are now read. API metadata confirms `360017166918` and `9804887423121` are in DLS FAQs section `203117809`, with no DLS26 build stamp. Facebook-login metadata’s `updated_at` is 2026-10-05, but `edited_at` is 2024-12-06; do not claim the text was revised today. Age/ads article remains in the Parents’ Guide and is not DLS26-specific. General FAQ body coverage remains 20/21; no dimension closed.
