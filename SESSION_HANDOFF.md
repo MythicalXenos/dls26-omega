@@ -1,28 +1,27 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T16:04:13Z UTC, Turn 46. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T16:16:17Z UTC, Turn 47. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git at open:** expected `7b0f0f5`, correct branch, only turn clock dirty. No state drop. Research commit `26c2dde`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger (reconciliation script output): 559 entries · 455 unique URLs visited · 382 unvisited leads.** Six retrievals; 9 of 10 tool calls.
-- **General FAQs:** 21/21 titles enumerated; **20/21 bodies read**. FTS15 kit article `213892809` remains intentionally excluded.
-- **Parents’ Guide:** section `360000030369` has all 8 titles and bodies read.
-- **Turn 46 product split:** DLS User ID article `37082887837202` is in DLS FAQs section `203117809`; route is Options → Advanced → System Info → Copy Info. Similar title `37083387788434` is in Score! Match section `115001619089`; do not mix its blue-gear path into DLS.
-- **DLS metadata:** blocked-DLS `360008904718`, mobile data `360005680437`, DLS User ID `37082887837202`, and DLS19-in-DLS25 `360004717278` belong to DLS FAQs section `203117809`. None establishes a DLS26 build stamp. DLS19→DLS25 transfer text does not settle DLS25→DLS26. Last-updated dates may be newer than last edited dates.
-- **Parents’ Guide findings (general, unversioned):** external “free gems” offers warned against; purchase-protection menu guidance is not verified current; FTG says Apple refunds are handled by Apple and Google Play refunds should be requested through Google; age-policy statement says 13+ for its games but is not a DLS26 store rating. Age article says less-personalized age bands still see ads at the same volume; disabling personalization still leaves generic ads.
-- **DLS save-route conflict persists:** `214387685` says DLS saves are not secured on Google Play Games/iCloud; `360000603398` and `360000613657` tell DLS users to enable those services. No version stamp; do not advise toggling from web copy.
-- **Next exact action (Turn 47):**
+- **Git at open:** expected `35c1698`, correct branch, only turn clock dirty. No state drop. Research commit `dc88ac0`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger (reconciliation output): 565 entries · 460 unique URLs · 377 unvisited leads.** Six retrievals; 9 of 10 tool calls.
+- **General FAQs:** 21/21 titles enumerated; **20/21 bodies read**. FTS15 article `213892809` remains intentionally unfetched.
+- **Parents’ Guide:** 8/8 titles and bodies read.
+- **Product-scope corrections:** Score! Match section `115001619089` includes Gem purchase `360000002405`, connection `360000420025`, player-type guide `360000001969`, Super Players `360017063617`, free currency `360000011145`, unlock-type `360000002205`, see-type `360000250309`, and Score! Match User ID `37083387788434`. Do not use those as DLS data.
+- **DLS FAQs section `203117809`:** User ID `37082887837202` (Options → Advanced → System Info → Copy Info); graphics `360000598437` (Android-only/unversioned path; verify before advising); DLS19→DLS25 `360004717278` (does not settle DLS25→DLS26); mobile data `360005680437`; blocked DLS `360008904718`; video clips `360017166918`; Facebook Login `9804887423121`. Most bodies already read; do not refetch.
+- **Broken candidate:** `441327324187` rendered FTG’s not-found content; distinct from valid DLS save article `4413273241873`. Numeric HTTP code was not exposed.
+- **Next exact action (Turn 48):**
   1. `git log -1 HEAD`; repair if state dropped. Verify repo-local identity before committing.
   2. Mid-session dlskiturl check.
-  3. Reconcile actual unvisited leads before fetching. Continue DLS-specific research; do not refetch bodies already read for the blocked, mobile-data, DLS19/DLS25, video-clips, Facebook-login, or DLS User ID articles. DLS25→DLS26 migration remains unverified.
-  4. Keep six retrievals max; bluff check; append a compact delta snapshot (<12,000 characters per write); research commit first, handoff second; push only this branch.
+  3. Reconcile before fetching. Consider official Google Play DLS listing, Apple DLS26 listing/event cards, or another clearly unvisited high-value DLS source; prefer current first-party product/version evidence. Do not fetch the already-read candidate bodies listed above.
+  4. Six retrievals max; append compact delta files in ≤12,000-character writes; reconcile, snapshot, research commit first, handoff second, push only this branch.
 - **Do NOT enter STATE_2.** Step-5 package prepared but undelivered.
 
 ## Bootstrap progress and standing rules
 
-- Corpus: 15 imported topics; all 52 DLS FAQ articles read; General FAQs 21/21 titles enumerated and 20/21 bodies read; Parents’ Guide 8/8 titles and bodies read; facilities/squad mechanism; first-party netcode; account recovery; profile deletion/reset; My Profile menu; version chain 13.050→13.430; remaining findings in `knowledge/knowledge_base.md`.
+- Corpus: 15 imported topics; all 52 DLS FAQ articles read; General FAQs 21/21 titles enumerated and 20/21 bodies read; Parents’ Guide 8/8 titles/bodies read; facilities/squad mechanism; first-party netcode; account recovery; profile deletion/reset; My Profile menu; version chain 13.050→13.430; remaining findings in `knowledge/knowledge_base.md`.
 - Rules: DB OVR labels are estimates and point-in-time readings; DK+dlsinside are ONE family; ±1 drift cause open; open the card before trusting an index row; match by ID sets, never list length; read pages, not slugs; reconcile frontier before judging yield; do not infer completeness from an unreconciled list; try `?page=N` before calling a list truncated; unstamped support text is not DLS-26-confirmed; HTTP 200 alone does not prove an article was read; figures come only from reconciliation output; no backslash escapes in bash.
 - PR #3 remains the single active PR; never merge. PROMPT CAPTURE remains DIGEST-ONLY; no placeholder `DLS26_OMEGA_PROMPT.md`.
 
@@ -34,4 +33,4 @@
 
 ## Turn-end fields
 
-- Research commit `26c2dde`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `dc88ac0`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
