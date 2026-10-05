@@ -258,3 +258,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 82 recovery occurrence
 
 - ISSUE-0014 occurrence #44, 2026-10-06: opening reset to `fb9a2c0`, 242 project files untracked, upstream unset. Archived all files (SHA-256 `3ff04d44c40b0b1cce347fec9e48191a63dd7e2f4e35dfc241ee3d5bc6eb32f1`), restored `7b9e5c3` from `origin/arena/01a1022d-dls26-omega`, byte-verified against the restored tip excluding only the T82 clock-start line, and restored upstream/repo-local identity. No force-push.
+
+
+## Turn 83 recovery occurrence
+
+- ISSUE-0014 occurrence #45, 2026-10-06: opening reset to `fb9a2c0`, 244 project files untracked, upstream unset. Archived all files (SHA-256 `7bc7ce8a6206570dc10f08fa18b6f49967b850ea8807862bcfb98c0d338885a2`), restored `3849c5d` from `origin/arena/01a1022d-dls26-omega`, byte-verified against the restored tip excluding only the T83 clock-start line, and restored upstream/repo-local identity. No force-push.

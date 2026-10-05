@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T22:16:53Z",
+  "last_reconciled_at": "2026-10-05T22:22:21Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -18732,11 +18732,166 @@
       ],
       "processing_state": "query complete; relevant article-specific findings recorded; no actionable new lead",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t83-ftg-live-events",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=live%20events",
+      "query": "live events",
+      "result_urls": [
+        "https://support.ftgames.com/hc/en-us/articles/214386765-What-are-Events"
+      ],
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T22:22:21Z",
+      "fetched_at": "2026-10-05T22:22:21Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunk 0 of 10; API page 1/1)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "FTG Help Center search API",
+      "payload_path": "source_archive/t83_live_event_and_storefront.md",
+      "payload_summary": "API reports 18 results, one page, rendered across 10 chunks. Chunk 0 includes “What are Events?” (article 214386765): permanent or time-based events are available in the in-game Events section alongside the main story. This is generic; chunks 1–9 remain unread, so no query-wide classification.",
+      "deception_screen": "The FTG event help result is generic and the Apple page is a storefront listing. Neither proves that a particular user can access an in-game Cult Heroes route or states a cost/reward. Do not infer position behavior or absence from a partial search.",
+      "conflicts": "Cult Heroes route/rewards and DLS26 position-lock behavior remain unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "partial response: chunk 0/10 read; chunks 1–9 pending",
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=live%20events [resume at functions.fetch_page chunkIndex=1; chunks 1–9 unread]"
+      ]
+    },
+    {
+      "event_type": "source_fetch",
+      "source_id": "page-t83-ftg-what-are-events",
+      "url": "https://support.ftgames.com/hc/en-us/articles/214386765-What-are-Events",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T22:22:21Z",
+      "fetched_at": "2026-10-05T22:22:21Z",
+      "language": "en-US",
+      "retrieval_role": "primary-source",
+      "tool": "functions.fetch_page (chunk 0)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "FTG Help Center article",
+      "payload_path": "source_archive/t83_live_event_and_storefront.md",
+      "payload_summary": "Article “What are Events?” says FTG may offer permanent or time-based events, available in the in-game Events section and playable alongside the main story. Generic event navigation only; no Cult Heroes-specific route, cost, or reward.",
+      "deception_screen": "General statement; not evidence that the Cult Heroes event is presently available to this account or that the App Store listing maps to an in-game route.",
+      "conflicts": "Does not verify Cult Heroes acquisition route/rewards or DLS26 position locking.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "fetched successfully; generic event explanation"
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t83-websearch-position-out-of-position",
+      "url": null,
+      "query": "site:support.ftgames.com/hc/en-us/articles \"out of position\" \"Dream League Soccer\"",
+      "result_urls": [
+        "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+        "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+        "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
+        "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
+        "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID"
+      ],
+      "domain": "web search request endpoint not exposed",
+      "retrieved_at": "2026-10-05T22:22:21Z",
+      "fetched_at": "2026-10-05T22:22:21Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=2)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search-result cards only",
+      "payload_path": "source_archive/t83_live_event_and_storefront.md",
+      "payload_summary": "Five result cards: multiplayer troubleshooting, DLS19 save transfer, DLS Classic availability, team-name change, and user-ID help. No returned snippet gives an out-of-position/position-lock rule. Search-result nonappearance is not proof of absence.",
+      "deception_screen": "The FTG event help result is generic and the Apple page is a storefront listing. Neither proves that a particular user can access an in-game Cult Heroes route or states a cost/reward. Do not infer position behavior or absence from a partial search.",
+      "conflicts": "Cult Heroes route/rewards and DLS26 position-lock behavior remain unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "search triaged; no target-specific route/reward or position-lock conclusion",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t83-appstore-cult-heroes",
+      "url": null,
+      "query": "site:apps.apple.com \"Cult Heroes\" \"Dream League Soccer 2026\"",
+      "result_urls": [
+        "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+        "https://apps.apple.com/gw/app/dream-league-soccer-2026/id1462911602",
+        "https://apps.apple.com/tn/app/dream-league-soccer-2026/id1462911602?l=ar"
+      ],
+      "domain": "web search request endpoint not exposed",
+      "retrieved_at": "2026-10-05T22:22:21Z",
+      "fetched_at": "2026-10-05T22:22:21Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search-result cards only",
+      "payload_path": "source_archive/t83_live_event_and_storefront.md",
+      "payload_summary": "Three App Store result cards for the official DLS26 app in US, GW and TN locales. The US result card shows an Events section with “LIVE EVENT Cult Heroes” and “Now available with boosted attributes”; the event/detail page and US app listing were fetched separately in this turn. Localizations may refer to the same event and are not independent corroboration.",
+      "deception_screen": "The FTG event help result is generic and the Apple page is a storefront listing. Neither proves that a particular user can access an in-game Cult Heroes route or states a cost/reward. Do not infer position behavior or absence from a partial search.",
+      "conflicts": "Cult Heroes route/rewards and DLS26 position-lock behavior remain unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "search triaged; no target-specific route/reward or position-lock conclusion",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "source_fetch",
+      "source_id": "page-t83-apple-us-dls26-listing",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-05T22:22:21Z",
+      "fetched_at": "2026-10-05T22:22:21Z",
+      "language": "en-US",
+      "retrieval_role": "first-party-platform-listing",
+      "tool": "functions.fetch_page (chunk 0 of 6)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "Apple App Store DLS26 listing (developer First Touch Games Ltd.)",
+      "payload_path": "source_archive/t83_live_event_and_storefront.md",
+      "payload_summary": "US listing includes an Events/HAPPENING NOW card linking to eventid 6802988564, titled LIVE EVENT Cult Heroes, with copy “Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.” The page is storefront content, not a captured in-game screen; it gives no route, cost, or exact reward.",
+      "deception_screen": "Do not equate an App Store in-app-event card with current in-game access for a specific account. Treat as same store event family as earlier localized event copy, not independent proof. Ignore user-review claims.",
+      "conflicts": "Store listing says HAPPENING NOW/LIVE EVENT; actual in-game availability, acquisition route/cost, and precise reward remain unverified.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved"
+      ],
+      "processing_state": "page fetched; storefront event card observed; route/reward unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "source_fetch",
+      "source_id": "page-t83-apple-cult-heroes-event-6802988564",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-05T22:22:21Z",
+      "fetched_at": "2026-10-05T22:22:21Z",
+      "language": "en-US",
+      "retrieval_role": "first-party-platform-event-listing",
+      "tool": "functions.fetch_page (chunk 0 of 1)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "Apple App Store in-app event detail page",
+      "payload_path": "source_archive/t83_live_event_and_storefront.md",
+      "payload_summary": "Event page title “Cult Heroes”; labels HAPPENING NOW and LIVE EVENT; description: “Sign these top stars who are remembered by passionate football fans. Now available with boosted attributes.” Provides a link back to the DLS26 App Store listing. No in-game route, currency/cost, named players, or specific reward is described.",
+      "deception_screen": "Apple storefront event metadata only; no claim of in-game accessibility or acquisition method. Likely same localized App Store event referred to in earlier research, not separate corroboration.",
+      "conflicts": "In-game availability, route/cost, and reward remain unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved"
+      ],
+      "processing_state": "page fetched; storefront detail only",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
     "visited_total": 510,
-    "unvisited_total": 404,
+    "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -19141,7 +19296,8 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
+      "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=live%20events [resume at functions.fetch_page chunkIndex=1; chunks 1–9 unread]"
     ]
   }
 }

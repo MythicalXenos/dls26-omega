@@ -95,3 +95,8 @@ TikTok exact-phrase searches still blend Cult Heroes captions with unrelated DLS
 ## Turn 82 — general FTG help does not verify Cult Heroes
 
 The completed `Cult Hero Agent`, `Drafts Season Pass`, and `Drafts` Help Center queries returned generic DLS agent, Season Pass, Prize Ladder, and Dream Draft information plus other-game material. No Cult Heroes-specific event route or reward is described. Do not conflate generic Agents with Cult Hero Agents. Position-lock remains unverified. See `source_archive/t82_ftg_agent_draft_searches.md`.
+
+
+## Turn 83 — storefront wording does not establish in-game route
+
+The U.S. Apple App Store event page displays Cult Heroes as HAPPENING NOW / LIVE EVENT, with “Now available with boosted attributes.” This is a platform-store claim only and may be the same event localization previously seen in German; it does not establish in-game accessibility, route, cost, or exact reward. FTG’s generic Events article is not Cult-specific. Position lock remains unverified. See `source_archive/t83_live_event_and_storefront.md`.

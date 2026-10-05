@@ -936,3 +936,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: `fb9a2c0` plus 242 untracked files; archive SHA-256 `3ff04d44c40b0b1cce347fec9e48191a63dd7e2f4e35dfc241ee3d5bc6eb32f1`; restored `7b9e5c3`; 242/242 byte-verified except T82 opening marker. ISSUE-0014 #44 logged; identity/upstream restored.
 - Six retrieval calls: FTG `Cult Hero Agent` query (1 result), `Drafts Season Pass` query (12 results, all four chunks), and `Drafts` query (3 results). Generic help only; no Cult Heroes-specific answer.
 - T81 audit correction recorded: 11 total calls (one over cap) after failed validation/inspection; Facebook 403 was a repeated URL, unique counter unaffected. Ledger **681 entries / 510 visited URLs / 404 unvisited leads**. Close marker 2026-10-05T22:16:53Z.
+
+
+## TURN 83 (2026-10-06) — first-party storefront/help follow-up
+- Recovery: `fb9a2c0`, 244 untracked files; archive SHA-256 `7bc7ce8a6206570dc10f08fa18b6f49967b850ea8807862bcfb98c0d338885a2`; restored `3849c5d`; 244/244 byte-verified except T83 open line. ISSUE-0014 #45 logged; upstream/identity restored.
+- Six retrieval calls: FTG `live events` API chunk0 (18 results/10 chunks; partial), direct generic Events article, out-of-position search, Apple search, US listing, Apple event detail. Storefront displays Cult Heroes as HAPPENING NOW/LIVE EVENT with boosted-attributes copy; this does not verify in-game access, route, cost, or exact reward.
+- Ledger: **687 entries / 510 unique visited URLs / 405 unvisited leads**. Position-lock remains user-stated/unverified. Close marker 2026-10-05T22:22:21Z before commit/push.
