@@ -993,3 +993,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Opening reset: `fb9a2c0`, 260 project files untracked, upstream unset. Archive SHA-256 `cf0207c37d5337b99aeea8396583520534696d2547b235f69d72418625697091`; restored `b271ea5`; byte-verified 260/260 files. ISSUE-0014 #52 logged; identity/upstream restored. The first reconciliation print hit a null-URL guard error; no files were lost/changed beyond the clock/recovery, and reconciliation then completed with a type guard.
 - Six retrieval calls: Instagram search for `@playdls` + Cult Heroes returned zero results; FTG API query `position changes` chunks 0–4 (all success). Response is 49 results/2 pages; page1 chunks5–6 and page2 pending. Generic formation/roles snippets do not establish DLS26 position locking.
 - Ledger: **695 entries / 513 unique visited URLs / 406 unvisited leads**. No dimension closed; no exhaustion declaration.
+
+
+## TURN 91 (2026-10-06) — FTG `position changes` query continuation
+
+- Opening reset: `fb9a2c0`, 262 project files untracked, upstream unset. Archive SHA-256 `4177fe9eb4e85f04cfac69faae86f300c9a946f30b5f7fccca024890a354263e`; restored `7534d2b`; byte-verified 262/262 files. ISSUE-0014 #53 logged; identity/upstream restored.
+- Five retrieval calls: FTG query page1 chunks5–6 completed the 7-chunk first page; page2 chunk0/15 read; direct formation/roles article pages fetched. Both article URLs were already in the ledger (`2` repeat(s), `0` new). No DLS26 position-lock verification.
+- Ledger: **696 entries / 514 unique visited URLs / 405 unvisited leads**. Page2 remains open at chunk1. No dimension closed; no exhaustion declaration.

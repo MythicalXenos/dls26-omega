@@ -1371,3 +1371,7 @@ A targeted YouTube search returned secondary creator video cards, not a verified
 
 ## Turn 90 — `position changes` Help Center search is partial
 A new FTG query returned 49 results across 2 API pages; page 1 contains 7 rendered chunks, of which chunks 0–4 were read. Visible mixed results include generic formation-grid and player-role help snippets. Neither states whether DLS26 locks a player to a position; do not conflate formation editing/player roles with squad-position locking. Chunks 5–6 and API page 2 remain unread; no query-wide conclusion. An Instagram post search for `@playdls` + Cult Heroes returned no result cards; this does not prove absence. Provenance: `source_archive/t90_ftg_position_changes_query_partial.md`. User-stated no-lock remains unverified; Cult Heroes route/rewards remain unresolved.
+
+
+## Turn 91 — FTG `position changes` page 1 complete, page 2 partial
+FTG API page 1/2 is complete (chunks 0–6/7) and page 2 chunk0/15 is read. The mixed first-page results include generic Squad formation-grid/player-role help, a Score! Match stats article mentioning formation-position behavior, and a DLS Leaderboards FAQ using “position” for ranking. Do not transfer Score! Match wording to DLS26 or interpret leaderboard rank as squad position. Direct FTG formation/roles article text gives menu paths only; neither specifies DLS26 position locking. Page 2 remains incomplete; no query-wide conclusion. User-stated no-lock remains unverified. Provenance: `source_archive/t91_ftg_position_changes_page1_complete_page2_partial.md`.

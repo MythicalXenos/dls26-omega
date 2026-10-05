@@ -356,3 +356,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 90 reconciliation (2026-10-06)
 
 **695 entries · 513 unique visited URLs · 406 unvisited leads**. FTG `position changes` is partial (49 results/2 pages; page1 chunks0–4/7); resume chunk5, then6, and review page2 only after page1. Visible formation/roles articles do not answer the lock question. Instagram search returned zero cards, not proof of absence. Both active questions remain open.
+
+
+## Turn 91 reconciliation (2026-10-06)
+
+**696 entries · 514 unique visited URLs · 405 unvisited leads**. FTG `position changes` page1/2 complete; page2 only chunk0/15 read, resume chunk1. Product-aware result screening: Score! Match formation-position wording is not DLS26 evidence; DLS Leaderboards “position” is rank. Direct formation/roles help does not settle locking. No query-wide absence conclusion.

@@ -132,3 +132,7 @@ The `DroidCheat` Cult Heroes gameplay page re-fetched in T89 is the same exact U
 
 ## T90 update — position changes query partial
 FTG `position changes` is incomplete (49 results/2 pages; page 1 chunks 0–4/7 read; chunks 5–6 and page 2 pending). Visible formation/role help does not verify position locking. Instagram search returned zero cards; no absence inference. Keep DLS26 no-lock and Cult Heroes route/reward questions open.
+
+
+## T91 update — first-party position search still incomplete
+FTG `position changes` page 1/2 is complete, but page 2 is partial at chunk0/15. The visible Score! Match formation-position text is another product; DLS Leaderboards position refers to rank. Direct formation/roles articles do not settle squad-position locking. Keep DLS26 no-lock user-stated/unverified; continue page2 at chunk1. Cult Heroes route/rewards remain unresolved.

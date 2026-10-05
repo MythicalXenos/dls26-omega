@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 90 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 91 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** local reset to `fb9a2c0`, 260 project files untracked, upstream unset. Archived all 260 files (SHA-256 `cf0207c37d5337b99aeea8396583520534696d2547b235f69d72418625697091`), restored remote `b271ea5`, and byte-verified 260/260 files. ISSUE-0014 occurrence #52 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger:** 695 entries · 513 unique visited URLs · 406 unvisited leads. Six retrieval calls; FTG `position changes` query is partial through chunk4/7.
+- **Git repair at open:** local reset to `fb9a2c0`, 262 project files untracked, upstream unset. Archived all 262 files (SHA-256 `4177fe9eb4e85f04cfac69faae86f300c9a946f30b5f7fccca024890a354263e`), restored remote `7534d2b`, and byte-verified 262/262 files. ISSUE-0014 occurrence #53 logged; repo-local identity and upstream restored. No loss/force-push.
+- **Ledger:** 696 entries · 514 unique visited URLs · 405 unvisited leads. Five retrieval calls; FTG `position changes` page 1 is complete and page 2 is partial at chunk0/15.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -48,11 +48,12 @@
 - **T88 source:** final FTG `Special Players Events` chunk7 completed the 8-chunk query. The `Cult Hero Agents` query URL was a repeat of T82, not independent; two other FTG Help Center queries returned zero results. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Archive `source_archive/t88_ftg_special_players_searches.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn88-ftg-search-completion.md`.
 - **T89 source:** YouTube search results were secondary; the DroidCheat video `https://www.youtube.com/watch?v=xTqeXimUjv4` was already fully fetched as page-312 in T61 and T89’s three chunks are a repeat. The channel-ID query returned zero cards; no absence inference. No first-party route/reward or position-lock evidence. Archive `source_archive/t89_droidcheat_video_repeat_and_youtube_search.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn89-youtube-followup.md`.
 - **T90 source:** FTG Help Center `position changes` query reports 49 results/2 pages; page1 chunks0–4/7 read; resume chunk5, then6; page2 pending. Formation/roles FAQ snippets do not verify locking. Instagram query for `@playdls` + Cult Heroes returned zero results; no absence inference. Archive `source_archive/t90_ftg_position_changes_query_partial.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn90-position-changes-partial.md`.
-- **Next exact action (Turn 91):**
+- **T91 source:** FTG `position changes` page1/2 completed (chunks0–6/7); page2 at chunk0/15, resume chunk1. Score! Match position wording is not DLS26 evidence; DLS Leaderboards refers to rank. Direct formation/roles pages do not specify position locking. Archive `source_archive/t91_ftg_position_changes_page1_complete_page2_partial.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn91-position-query-continued.md`.
+- **Next exact action (Turn 92):**
   1. Record the clock first; verify branch/status/upstream/identity and recover with archive/byte verification only if a reset is observed.
-  2. Resume exact FTG `position changes` API URL at chunkIndex 5, then 6; only after page 1 is complete decide whether page 2 is relevant. Do not infer absence from the partial response.
-  3. Keep formation-grid/player-role help separate from position-lock behavior; user-stated DLS26 no-lock remains unverified pending Step-3 device setup. Keep Cult Heroes route/rewards unresolved; no spending recommendation or exhaustion declaration.
-  4. Do not refetch the T61 DroidCheat page-312 video or blocked sources. Maintain ≤6 retrievals, ≤10 tool calls before wrap-up, ≤4 wrap-up calls; push before turn end.
+  2. Continue the exact FTG `position changes` page-2 URL at chunkIndex=1 (15 rendered chunks total); keep the response partial until complete, and do not infer absence.
+  3. Do not treat generic formation/roles menu help, Score! Match behavior, or DLS leaderboard rank as squad position-lock evidence. The user-stated DLS26 no-lock remains unverified pending Step-3 device setup.
+  4. Keep Cult Heroes availability/route/cost/rewards unresolved; no spending advice or exhaustion declaration. Avoid repeated article URLs. Maintain ≤6 retrievals, ≤10 tools before wrap-up, ≤4 wrap-up calls; push before turn end.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -86,3 +87,8 @@
 ## Turn 90 closeout
 
 - Six retrieval calls; FTG `position changes` partial through chunk4/7; next action is chunk5. Instagram search was zero-results only. Ledger: 695 entries / 513 visited / 406 unvisited. Both questions unresolved. T90 source/recovery/handoff committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T22:55:19Z. Next input expected: `>`.
+
+
+## Turn 91 closeout
+
+- Five retrieval calls; FTG `position changes` page1 complete and page2 partial at chunk0/15. Direct formation/roles pages were exact-URL repeats. Ledger: 696 entries / 514 visited / 405 unvisited. Both core questions remain unresolved. T91 source/recovery/handoff committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T23:00:04Z. Next input expected: `>`.
