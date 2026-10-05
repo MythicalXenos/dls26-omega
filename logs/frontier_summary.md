@@ -306,3 +306,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 80 reconciliation (2026-10-06)
 
 **672 entries · 509 unique visited URLs · 405 unvisited leads**. TikTok search produced a high-priority but unverified official-account lead; one new direct candidate is queued. Other surfaced TikTok URLs were previously blocked; YouTube/Instagram fetches were repeats. Cult Heroes route/rewards and position-lock remain open.
+
+
+## Turn 81 reconciliation (2026-10-06)
+
+**678 entries · 510 unique attempted URLs · 404 unvisited leads**. TikTok route/guarantee snippets remain unmapped to a specific post; new TikTok candidate and Facebook page were blocked (403). No absence inference. Cult Heroes route/rewards and position-lock remain unresolved.

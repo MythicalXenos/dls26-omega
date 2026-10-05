@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T22:05:02Z",
+  "last_reconciled_at": "2026-10-05T22:12:26Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -18489,30 +18489,182 @@
         "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809"
       ],
       "domain": "web search request endpoint not exposed by functions.web_search",
-      "retrieved_at": "2026-10-05T22:05:02Z",
-      "fetched_at": "2026-10-05T22:05:02Z",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
       "language": "en",
       "retrieval_role": "discovery-search",
       "tool": "functions.web_search (depth=3)",
       "http_status": "not exposed; tool returned status=success",
       "source_type": "search result cards only; no underlying result page fetched",
       "payload_path": "source_archive/t80_official_social_leads.md",
-      "payload_summary": "Three video cards surfaced. Mixed search-result snippets attributed to @dreamleaguesoccer.ftg mention Cult Hero Agents in Events/Drafts/Season Pass and a guaranteed Special Card, but the captions are not reliably mapped to the card URLs. Two result URLs (7477999051343007008 and 7437552025958763809) are already logged as HTTP 403 attempts from earlier turns; only 7588197165965593888 is a new direct-fetch candidate.",
+      "payload_summary": "Three video cards surfaced. Mixed search-result snippets attributed to @dreamleaguesoccer.ftg mention Cult Hero Agents in Events/Drafts/Season Pass and a guaranteed Special Card, but the captions are not reliably mapped to the card URLs. Two result URLs (7477999051343007008 and 7437552025958763809) are already logged as HTTP 403 attempts from earlier turns; only 7588197165965593888 is a new direct-fetch candidate. T81 follow-up reproduced route/reward snippets beside older or unrelated DLS25 video cards; direct candidate 7588197165965593888 returned HTTP 403. No claim-to-post mapping confirmed.",
       "deception_screen": "Search-result snippets are discovery leads only. Do not assert route/reward claims until a specific first-party page or in-game evidence is verified; nonappearance is not evidence of absence.",
       "conflicts": "No verified Cult Heroes route/reward or DLS26 position-lock finding.",
       "affected_kb_claims": [
         "Cult Heroes acquisition route/rewards unresolved",
         "DLS26 position-lock behavior unresolved"
       ],
-      "processing_state": "discovery only; snippets not promoted to evidence",
-      "discovered_not_yet_visited": [
-        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888 [T80 official TikTok result candidate; mixed search snippet mapping unverified; direct fetch required]"
-      ]
+      "processing_state": "followed in T81; exact-phrase queries still return mixed captions; new candidate direct fetch HTTP 403; no claim verified",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t81-tiktok-route-quote",
+      "url": null,
+      "query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Find them by collecting Cult Hero Agents\"",
+      "result_urls": [
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search-result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t81_tiktok_snippet_mapping.md",
+      "payload_summary": "Two result cards. The route quote appears beside a DLS25 video card dated 2024-11-15 (743755...) and a DLS26/TO25 video card (758819...). The snippets do not reliably map the Cult Heroes caption to either URL; the older DLS25 title/date makes the mapping ambiguous.",
+      "deception_screen": "Search snippets are not page-level evidence. Check exact account, date, caption-to-URL mapping, and direct retrieval. Do not infer availability or absence.",
+      "conflicts": "No verified Cult Heroes route/reward claim; DLS26 position lock unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; caption mapping unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t81-tiktok-agent-route-quote",
+      "url": null,
+      "query": "\"Cult Hero Agents\" \"Events\" \"Drafts\" \"Season Pass\" \"dreamleaguesoccer.ftg\"",
+      "result_urls": [
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search-result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t81_tiktok_snippet_mapping.md",
+      "payload_summary": "Two cards repeated; route phrase appears in search-rendered text associated with an older DLS25 card, but the exact source post remains unclear. Search result text only; no direct post verified.",
+      "deception_screen": "Search snippets are not page-level evidence. Check exact account, date, caption-to-URL mapping, and direct retrieval. Do not infer availability or absence.",
+      "conflicts": "No verified Cult Heroes route/reward claim; DLS26 position lock unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; caption mapping unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "source_fetch_attempt",
+      "source_id": "attempt-t81-tiktok-7588197165965593888",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888",
+      "domain": "tiktok.com",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
+      "language": "en",
+      "retrieval_role": "primary-source-attempt",
+      "tool": "functions.fetch_page (chunk 0)",
+      "http_status": "HTTP 403 (tool error)",
+      "source_type": "TikTok video URL returned by official-account search; direct page attempt",
+      "payload_path": "source_archive/t81_tiktok_snippet_mapping.md",
+      "payload_summary": "Direct page fetch failed with HTTP 403; no page payload. This was a new T80 candidate.",
+      "deception_screen": "Blocked page is not evidence of absence or of the search-snippet claims. Do not repeat this URL without a distinct access method.",
+      "conflicts": "Search-result captions are not mapped to this URL; direct page unavailable.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved"
+      ],
+      "processing_state": "blocked direct fetch; no content verified",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t81-tiktok-guaranteed-card-quote",
+      "url": null,
+      "query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Get Cult Hero Agents for a guaranteed Special Card\"",
+      "result_urls": [
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search-result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t81_tiktok_snippet_mapping.md",
+      "payload_summary": "One result card for a DLS25 European Classics video dated 2025-03-04. Search output appends Cult Heroes “still available”/guaranteed-card captions, but the title/date do not identify a Cult Heroes post. This URL was already blocked at T75; no re-fetch.",
+      "deception_screen": "Search snippets are not page-level evidence. Check exact account, date, caption-to-URL mapping, and direct retrieval. Do not infer availability or absence.",
+      "conflicts": "No verified Cult Heroes route/reward claim; DLS26 position lock unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; caption mapping unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t81-facebook-cult-heroes",
+      "url": null,
+      "query": "site:facebook.com/dreamleaguesoccer \"Cult Heroes\" DLS26",
+      "result_urls": [
+        "https://www.facebook.com/dreamleaguesoccer/"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search-result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t81_tiktok_snippet_mapping.md",
+      "payload_summary": "One Dream League Soccer Facebook result card identifies FIRST TOUCH GAMES LIMITED as responsible for the page and includes “Scoring team goals with a full squad of Cult Heroes hits different ... Collect them in game now.” This is an undated search snippet, not a fetched page; it gives no acquisition route or reward.",
+      "deception_screen": "Search snippets are not page-level evidence. Check exact account, date, caption-to-URL mapping, and direct retrieval. Do not infer availability or absence.",
+      "conflicts": "No verified Cult Heroes route/reward claim; DLS26 position lock unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; caption mapping unresolved",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "source_fetch_attempt",
+      "source_id": "attempt-t81-facebook-dreamleaguesoccer",
+      "url": "https://www.facebook.com/dreamleaguesoccer/",
+      "domain": "facebook.com",
+      "retrieved_at": "2026-10-05T22:12:26Z",
+      "fetched_at": "2026-10-05T22:12:26Z",
+      "language": "en",
+      "retrieval_role": "primary-source-attempt",
+      "tool": "functions.fetch_page (chunk 0)",
+      "http_status": "HTTP 403 (tool error)",
+      "source_type": "Dream League Soccer Facebook page direct attempt",
+      "payload_path": "source_archive/t81_tiktok_snippet_mapping.md",
+      "payload_summary": "Direct page fetch failed with HTTP 403; no page payload.",
+      "deception_screen": "Blocked page is not evidence of absence; search-card text remains unverified and undated.",
+      "conflicts": "No route, cost, guarantee, or current-availability fact can be established from the blocked page.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved"
+      ],
+      "processing_state": "blocked direct fetch; no page content verified",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 509,
-    "unvisited_total": 405,
+    "visited_total": 510,
+    "unvisited_total": 404,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18917,8 +19069,7 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
-      "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888 [T80 official TikTok result candidate; mixed search snippet mapping unverified; direct fetch required]"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
     ]
   }
 }

@@ -85,3 +85,8 @@ The complete FTG `formation position` response (14 results/9 chunks) mixes games
 ## Turn 80 — direct verification of official social lead pending
 
 TikTok search results attributed to `@dreamleaguesoccer.ftg` contain potentially relevant Cult Heroes route/reward text, but mix captions and do not map the claims to exact video URLs. Two candidate TikTok URLs had already been blocked in earlier turns; one new candidate is queued. Do not promote search snippets to facts. Repeat YouTube/Instagram fetches yielded no new content (YouTube partial; Instagram 403). Position-lock remains open. See `source_archive/t80_official_social_leads.md`.
+
+
+## Turn 81 — official social snippets unresolved
+
+TikTok exact-phrase searches still blend Cult Heroes captions with unrelated DLS25 cards; the new candidate fetch returned 403. Facebook search card says “collect them in game now” but does not identify route/reward; direct page fetch returned 403. None establishes a current in-game route or reward. Position-lock remains unverified. See `source_archive/t81_tiktok_snippet_mapping.md`.

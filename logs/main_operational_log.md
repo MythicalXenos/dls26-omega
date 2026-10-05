@@ -924,3 +924,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reset recovery: `fb9a2c0`, 238 untracked files, no upstream. Archived all 238; SHA-256 `0c55e624993e14fc9462cd64231875e15de96d1524be95a7ca547effb517e6cf`; restored `786384d`; 238/238 byte-verified except T80 open marker. ISSUE-0014 #42 logged; identity/upstream restored; no force-push.
 - Six retrieval calls: four search-result queries/pages and two repeated page fetch attempts. TikTok search surfaced potentially relevant Cult Heroes text under `@dreamleaguesoccer.ftg`, but captions are mixed across cards. Two direct URLs were previously blocked; one new candidate URL is queued. YouTube channel and Instagram profile were repeated (YouTube partial; Instagram HTTP 403); no new target evidence.
 - No Cult Heroes claim accepted as fact; position-lock remains unverified. Ledger: **672 entries / 509 unique visited URLs / 405 unvisited leads**. Close marker 2026-10-05T22:05:02Z before commit/push.
+
+
+## TURN 81 (2026-10-06) — first-party social lead follow-up
+- Recovery: `fb9a2c0` with 240 untracked files; archive SHA-256 `859308621bd1cfd2976f726d8e58d218054470fa1a8cb5699cc5813e4f80ed4e`; restored `375cb96`; 240/240 byte-verified except T81 open line. ISSUE-0014 #43 logged; identity/upstream restored.
+- Six retrieval calls: four targeted TikTok/Facebook searches, TikTok direct fetch (HTTP 403), and Facebook direct fetch (HTTP 403). Search snippets attach Cult Heroes claims to unrelated/older DLS25 cards; caption-to-post mapping is not established. Facebook snippet provides no route/reward; direct page blocked.
+- Ledger: **678 entries / 510 unique attempted URLs / 404 unvisited leads**. No game claim promoted; both targets remain open. Close marker 2026-10-05T22:12:26Z before commit/push.
