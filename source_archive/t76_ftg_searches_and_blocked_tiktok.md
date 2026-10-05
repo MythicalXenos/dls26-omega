@@ -18,3 +18,7 @@ Opened on the recurring sandbox-reset signature: `fb9a2c0`, 232 project files un
 
 ## Current state
 Cult Heroes route/rewards remain unverified. Position locking remains the explicit user-stated “none” claim, with verification owed. No dimension closure, no exhaustion, and no spending recommendation.
+
+
+## T77 continuation — position query complete
+The `position lock` API response was resumed at chunk 4 and completed through chunk 9. Full response: 16 results across 10 chunks. DLS hits concern Season Pass tier locks and a previously read player-stats article; no DLS26 squad position-lock instruction surfaced. This does not establish in-game absence. Completion note: `source_archive/t77_ftg_position_search_completion.md`; prior entry `discovery-t76-ftg-help-center-position-lock` now marked complete.

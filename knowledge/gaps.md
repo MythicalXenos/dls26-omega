@@ -65,3 +65,8 @@ FTG Help Center API pages 1–3 (52 search results) have been read. The final pa
 ## Turn 76 — official searches do not settle either open question
 
 The focused FTG `Cult Hero Agents` API query matched only the already-read general DLS “How do I obtain more players?” article; it does not describe the event item. The `position lock` API query is only partially read (chunks 0–3/10 of 16 results, mixed FTG games). Resume at chunk 4; do not classify yet. A new TikTok URL returned 403/no body. Cult Heroes route/rewards and DLS26 position-lock verification remain open.
+
+
+## Turn 77 — full FTG position-lock query still does not settle DLS26 behavior
+
+The FTG `position lock` search (16 results, 10 chunks) is complete. DLS results mention Season Pass tier locks and general player stats, not a DLS26 squad-position lock rule. This is not proof of in-game absence. Preserve the user-stated no-lock claim as unverified; Step-3 device setup remains necessary.

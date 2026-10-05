@@ -286,3 +286,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 76 reconciliation (2026-10-06)
 
 **662 ledger entries · 509 unique visited URLs · 405 unvisited leads**. The position-lock FTG search is partial (chunks 0–3/10); resume at chunk 4. Cult Heroes route/rewards and position-lock verification remain open; no absence/exhaustion conclusion.
+
+
+## Turn 77 reconciliation (2026-10-06)
+
+**662 ledger entries · 509 unique visited URLs · 404 unvisited leads.** The FTG position-lock search is complete (16 results, 10 chunks); it does not establish DLS26 in-game behavior. Cult Heroes route/rewards and position lock remain open.
