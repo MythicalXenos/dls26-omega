@@ -23,8 +23,8 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [queue-Medium] Reconcile the 12-vs-17 Cult Heroes count conflict.
 
 ## Added 2026-10-03 Turn 6
-- [queue-High; still open after T55] First-party confirmation of the Cult Heroes agent flow (FTG TikTok video 7437552025958763809 / FTG site / in-app news). T55 found only search snippets on Instagram/Facebook; Facebook direct fetch returned HTTP 403, and the TikTok snippet remains mixed DLS25/DLS26 text. A Raven Exe video gives secondary claims (225-Gem Draft, seven matches, Season Pass reward, three challenge attempts) but is not verification. Next: alternate official surface or in-game capture; do not recommend spending or promote confidence from snippets/video.
+- [queue-High; still open after T56] First-party confirmation of the Cult Heroes agent flow (FTG TikTok video 7437552025958763809 / FTG site / in-app news). T56 Instagram fetch returned HTTP 403; FTG support and TikTok searches surfaced no Cult-specific mechanic. SakibPro and Raven Exe describe differing secondary Draft/Agent reward flows; neither verifies the 225-Gem/seven-match/three-attempt claims. Next: alternate official surface or in-game capture; do not recommend spending or promote confidence from these sources.
 - [queue-High] Full per-card pages for the 12 (done); next: card-type indexes — dynamicstar, champion, world-winners, team2025, classic, normal, season-pass, /tools/.
-- [queue-High] SakibPro events article `dls-26-new-update-events-players/` (Season Pass/Online/Dream Draft distribution maths).
+- [DONE before T56; repeat retrieved T56] SakibPro events article `dls-26-new-update-events-players/` read in chunks 0–1/2; route/reward claims logged in the KB/claim register, not FTG-confirmed and not a route-confidence upgrade.
 - [queue-Medium] Reconcile the prior session's "17 Cult Heroes" note (read archived sweep notes; ISSUE-0009).
 - [queue-Medium] dlskiturl World Heroes page + 2026 event-sequence claim (TotS 2025 green → Dream Stars 2026 pink → Dynamic Stars → World Heroes → Cult Heroes).

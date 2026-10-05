@@ -1147,3 +1147,17 @@ These are **creator assertions**, not FTG-confirmed facts. The fetched transcrip
 
 ### Scope and budget
 No game mechanic was promoted to verified and no user strategy changed. Seven retrieval calls were made (six-call cap exceeded by one); the overrun is recorded in the operational log. No dimension closed and no exhaustion declaration made.
+
+
+## TURN 56 (2026-10-06) — support search and SakibPro event-route article
+
+### First-party availability check
+A targeted FTG support search (`discovery-t56-ftg-support-cult-search`) returned only generic 2024/2020 guidance on Transfers/Scouts/Agents/Prize Ladder and Accommodation; no Cult Heroes page. The `@playdls` Instagram profile fetch (`page-305`) returned **HTTP 403**, with no body/posts. An official-handle TikTok search returned only WorldWinners/WorldHeroes and Skills snippets, not Cult Heroes mechanics (`discovery-t56-ftg-tiktok-challenge-search`). No first-party route or UI confirmation was obtained.
+
+### SakibPro article re-read — duplicate retrieval (`page-306`–`page-307`)
+The exact URL was already recorded as S-0114, page-047-sakibpro-events-article; the T56 chunk calls are repeat retrievals of the same SakibPro source family, not independent corroboration. The Aug 21, 2026 article calls itself “100% Official,” but the fetched page does not establish FTG provenance. It claims: Cult Hero Agents come from Season Pass, Online Events and Dream Draft (one earlier sentence also says Market); Agents choose a player randomly; three Season Passes yield one free + one paid Cult Hero each; Online Events offer three top-tier heroes; and one Free plus two Paid Dream Drafts each offer up to three Cult Heroes. It separately says the World Winners event would finish “today,” a time-bound claim tied to its Aug 21 publication and not a current timer. Chunk 1 adds an expected total of six Season Pass cards and English League Classics material, but no first-party route evidence. Treat the whole article as SakibPro secondary-source-family claims; its “official” wording is not proof.
+
+### Cross-check of Raven Exe claims (`discovery-t56-cult-hero-cost-search`)
+Searching the exact **225 Gems / seven matches** claim returned the Raven Exe video already read, the DLSKitURL and SakibPro articles, community discussion and generic currency pages. No FTG result independently confirms either number. SakibPro’s broader Dream Draft counts are not necessarily the same as Raven Exe’s claim that one 225-Gem, seven-match Draft awards an Agent; do not merge these into one mechanic. All Draft cost, match counts, retries and reward structures remain unverified and are not spending advice. One modified-APK search result was screened out and not opened.
+
+No confidence promotion or strategy change. No dimension closed; no exhaustion declaration.

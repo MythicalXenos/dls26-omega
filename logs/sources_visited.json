@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T19:43:45Z",
- "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration.",
+ "last_reconciled_at": "2026-10-05T19:49:33Z",
+ "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration.",
  "entries": [
   {
    "source_id": "ops-github-origin-probe-2026-10-02",
@@ -16836,11 +16836,228 @@
    "total_chunks": 1,
    "has_more": false,
    "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-305-instagram-playdls-attempt-t56",
+   "event_type": "page_fetch_attempt",
+   "url": "https://www.instagram.com/playdls/",
+   "domain": "www.instagram.com",
+   "retrieved_at": "2026-10-05T19:49:33Z",
+   "retrieval_role": "page-render",
+   "tool": "functions.fetch_page (direct request)",
+   "http_status": 403,
+   "source_type": "FTG-linked Instagram profile attempt; direct retrieval failed",
+   "language": "en",
+   "payload_summary": "fetch_page returned “Failed to fetch page (HTTP 403)”; no profile content, posts or captions were returned. This is a distinct Instagram attempt, not a repeat of the Facebook/TikTok URLs.",
+   "processing_state": "blocked; no content processed",
+   "deception_screen": "HTTP 403; no profile body available.",
+   "conflicts": "Search-result profile snippets do not verify any post or DLS26 acquisition route.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 56 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t56-ftg-support-cult-search",
+   "event_type": "discovery-search",
+   "query": "site:support.ftgames.com \"Cult Heroes\" \"DLS26\" \"Draft\" \"Agent\"",
+   "retrieved_at": "2026-10-05T19:49:33Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 2)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "FTG support discovery search",
+   "language": "en",
+   "payload_summary": "Two FTG support results; neither is Cult Heroes-specific. “How do I obtain more players?” (Dec 6, 2024) gives generic Transfers/Scouts/Agents/Prize Ladder descriptions. “How can I expand my squad?” (Nov 4, 2020) concerns Accommodation. Search snippets only; no current DLS26 route verification.",
+   "processing_state": "search results captured; article bodies not fetched in this turn",
+   "deception_screen": "Search-result snippets only.",
+   "conflicts": "Both results are generic and dated; do not use as DLS26 Cult Heroes mechanics.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 56 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "How do I obtain more players?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players",
+     "pageAge": "2024-12-06",
+     "snippet": "Transfers show new players after a single-player match; Scouts offer discounted players; Agents immediately add a player; Prize Ladder awards special rare players."
+    },
+    {
+     "id": 2,
+     "title": "How can I expand my squad?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360003945677-How-can-I-expand-my-squad",
+     "pageAge": "2020-11-04",
+     "snippet": "Snippet says Accommodation upgrades increase squad capacity."
+    }
+   ],
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t56-cult-hero-cost-search",
+   "event_type": "discovery-search",
+   "query": "\"225 Gems\" \"Cult Hero Agent\" Draft DLS 26 seven matches",
+   "retrieved_at": "2026-10-05T19:49:33Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "claim-verification search",
+   "language": "en",
+   "payload_summary": "Ten results. The 225-Gem/seven-match claim points back to the already-read Raven Exe video. Other results include the DLSKitURL Cult Heroes page, the SakibPro events article fetched this turn, an Aug-2026 Reddit thread, the Play Store listing, and generic resource videos/guides. No first-party confirmation of the quoted cost or match count. A modified-APK result was excluded from actionable leads and not opened.",
+   "processing_state": "search results captured; selected SakibPro article followed",
+   "deception_screen": "Search-result snippets only; one modified-APK promotional result screened out.",
+   "conflicts": "No independent first-party result confirms 225 Gems or seven matches.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 56 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "How to Get MORE Cult Heroes in DLS 26!",
+     "url": "https://www.youtube.com/watch?v=e41kd1TA1K8",
+     "pageAge": "2026-10-03",
+     "snippet": "T55 Raven Exe video; creator claims Draft, Season Pass and Tournament/Challenge routes."
+    },
+    {
+     "id": 2,
+     "title": "DLS 26 Cult Heroes (New Event)",
+     "url": "https://dlskiturl.com/dls-26-cult-heroes-event/",
+     "pageAge": "2026-09-11",
+     "snippet": "Secondary page claims agents from events, Season Pass, Online Events and Market; random player selection."
+    },
+    {
+     "id": 3,
+     "title": "DLS 26 New Update: All New Events, Special Cards & Upcoming Player Details",
+     "url": "https://sakibpro.com/dls-26-new-update-events-players/",
+     "pageAge": "2026-08-20",
+     "snippet": "SakibPro guide claims Season Pass, Online Events and Dream Draft routes; fetched as pages 306–307."
+    },
+    {
+     "id": 4,
+     "title": "Upcoming Cult Heroes Special Cards",
+     "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+     "pageAge": "2026-08-21",
+     "snippet": "Community discussion of agents, Season Pass and Dream Draft; not official."
+    },
+    {
+     "id": 5,
+     "title": "how to gain more gems and coins without buying it?",
+     "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1tnvfy8/how_to_gain_more_gems_and_coins_without_buying_it/",
+     "pageAge": "2026-05-26",
+     "snippet": "Community resource-grinding discussion; not direct Cult Heroes evidence."
+    },
+    {
+     "id": 6,
+     "title": "DLS coins and Gems tips",
+     "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i75pm4/dls_coins_and_gems_tips/",
+     "pageAge": "2025-01-22",
+     "snippet": "Community currency tips; not direct Cult Heroes evidence."
+    },
+    {
+     "id": 7,
+     "title": "Dream League Soccer 2026 - Apps on Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en",
+     "pageAge": "2026-09-14",
+     "snippet": "Official listing search result, existing store evidence."
+    },
+    {
+     "id": 8,
+     "title": "DLS 26! Free Gems Event",
+     "url": "https://www.youtube.com/watch?v=v9lZ9JtiWPo",
+     "pageAge": "2026-02-14",
+     "snippet": "Community video result about a Dream Draft event; search snippet does not address the 225-Gem claim."
+    },
+    {
+     "id": 9,
+     "title": "Dream League Soccer 2026 MOD APK v13.430 Download for Android",
+     "url": "https://dream-league-soccer-2026-mod.latestmodapks.com/",
+     "pageAge": "2026-09-16",
+     "snippet": "Untrusted modified-APK promotion; do not download or treat as evidence."
+    },
+    {
+     "id": 10,
+     "title": "How to Earn Free Rewards in Dream League Soccer 2026",
+     "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html",
+     "pageAge": "2021-10-04",
+     "snippet": "Secondary BlueStacks rewards guide; search snippet includes 90-day Prize Ladder and Pass claims, not Cult Heroes-specific."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1tnvfy8/how_to_gain_more_gems_and_coins_without_buying_it/",
+    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i75pm4/dls_coins_and_gems_tips/",
+    "https://www.youtube.com/watch?v=v9lZ9JtiWPo",
+    "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html"
+   ]
+  },
+  {
+   "source_id": "page-306-sakibpro-events-guide-chunk0",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/dls-26-new-update-events-players/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-05T19:49:33Z",
+   "retrieval_role": "page-render-chunk0",
+   "tool": "fetch_page (chunk 0; hasMore=true; continue chunk 1)",
+   "http_status": 200,
+   "source_type": "secondary-game-guide/database-publisher article",
+   "language": "en",
+   "payload_summary": "Repeat fetch of this exact URL, already recorded as S-0114, page-047-sakibpro-events-article. Chunk 0/2 re-renders SakibPro’s Aug 21, 2026 claims: Season Pass, Online Events and Dream Draft (also Market in an earlier sentence); random Agent signing; 3 Passes × 1 free + 1 paid hero; 3 Online Event rewards; 1 Free + 2 Paid Drafts with up to 3 Cult Heroes each. The article self-labels “100% Official” without FTG proof in the body. Not an independent source-family confirmation; chunk 1 follows.",
+   "deception_screen": "Public guide/database page rendered; self-description “100% Official” is not provenance.",
+   "conflicts": "Not FTG-published evidence; same SakibPro publisher/family as the site’s other player data. Dream Draft assertions are not verified and may not describe the same reward flow as Raven Exe’s 225-Gem/seven-match Agent claim.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 56 block); knowledge/claim_register.md (Turn 56 note)",
+   "chunk_index": 0,
+   "total_chunks": 2,
+   "has_more": true,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-307-sakibpro-events-guide-chunk1",
+   "event_type": "page_fetch",
+   "url": "https://sakibpro.com/dls-26-new-update-events-players/",
+   "domain": "sakibpro.com",
+   "retrieved_at": "2026-10-05T19:49:33Z",
+   "retrieval_role": "page-render-chunk1",
+   "tool": "fetch_page (chunk 1; hasMore=false)",
+   "http_status": 200,
+   "source_type": "secondary-game-guide/database-publisher article",
+   "language": "en",
+   "payload_summary": "Repeat fetch of this exact URL, already recorded as S-0114, page-047-sakibpro-events-article. Final chunk 1/2 completes the previously visited SakibPro article. It adds/recaps six Season Pass cards and English League Classics material, but no new independent FTG evidence for the Cult Heroes Agent route. “World Winners ends today” is tied to the Aug 21 article date, not a current timer.",
+   "deception_screen": "Public secondary guide rendered; article-level self-label “official” not independently established.",
+   "conflicts": "Same source family as SakibPro database/article; time-sensitive event timing is stale relative to retrieval date.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 56 block); knowledge/claim_register.md (Turn 56 note)",
+   "chunk_index": 1,
+   "total_chunks": 2,
+   "has_more": false,
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t56-ftg-tiktok-challenge-search",
+   "event_type": "discovery-search",
+   "query": "site:tiktok.com/@dreamleaguesoccer.ftg/video \"Cult Heroes\" \"Challenge\" OR \"Tournament\" DLS26",
+   "retrieved_at": "2026-10-05T19:49:33Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official-account social discovery search",
+   "language": "en",
+   "payload_summary": "Two results from the FTG handle, but their text concerns WorldWinners/WorldHeroes and skills in Live matches; neither discusses Cult Heroes challenge mechanics. No new first-party route evidence. Both links had already surfaced in earlier discovery results.",
+   "processing_state": "search results captured only",
+   "deception_screen": "Search-result snippets only; do not treat as direct post captures.",
+   "conflicts": "No Cult Heroes challenge/tournament rule surfaced.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 56 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "One tournament, two new special cards. Coming soon in #DLS26 #WorldWinner #WorldHeroes #DLS #DreamLeagueSoccer",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
+     "snippet": "Search result is about WorldWinners/WorldHeroes, not Cult Heroes."
+    },
+    {
+     "id": 2,
+     "title": "Are you brave enough to use skills in Live matches? #skills #DLS25",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417",
+     "snippet": "Search output includes World Cup Heroes/WorldWinners copy; no Cult Heroes challenge mechanics."
+    }
+   ],
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "visited_total": 479,
-  "unvisited_total": 404,
+  "visited_total": 480,
+  "unvisited_total": 406,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -17149,7 +17366,6 @@
    "https://www.ftgames.com/terms-of-use",
    "https://www.instagram.com/firsttouchgames_official",
    "https://www.instagram.com/playdls",
-   "https://www.instagram.com/playdls/",
    "https://www.mintegral.com/en/privacy",
    "https://www.moloco.com/privacy-policy",
    "https://www.reddit.com/r/DreamLeagueSoccer.json or a thread's .json (untested)",
@@ -17245,7 +17461,10 @@
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
    "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first-touch-gamess-sponsorship-discussion/",
-   "https://www.facebook.com/dreamleaguesoccertr/"
+   "https://www.facebook.com/dreamleaguesoccertr/",
+   "https://www.reddit.com/r/DreamLeagueSoccer/comments/1tnvfy8/how_to_gain_more_gems_and_coins_without_buying_it/",
+   "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i75pm4/dls_coins_and_gems_tips/",
+   "https://www.youtube.com/watch?v=v9lZ9JtiWPo"
   ]
  }
 }
