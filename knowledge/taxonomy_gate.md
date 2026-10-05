@@ -419,4 +419,9 @@ Four remaining FAQ bodies read: contact, DLS Classic availability/kit instructio
 
 ## Turn 42 update (2026-10-05) — product scope correction and unscoped articles
 
-Zendesk article JSON assigns `360017063617` (Super Players) and `360000001969` (player types) to Score! Match FAQs section `115001619089`. These are not DLS evidence. The gem-purchase article `360000002405` and connection-troubleshooting article `360000420025` lack explicit product/version text; their section metadata remains open. General FAQ body coverage remains 20/21. No dimension closed.
+Zendesk article JSON assigns `360017063617` (Super Players) and `360000001969` (player types) to Score! Match FAQs section `115001619089`. These are not DLS evidence. Turn 43 API metadata assigns gem-purchase `360000002405` and connection troubleshooting `360000420025` to Score! Match FAQs section `115001619089`; remove them as DLS evidence. General FAQ body coverage remains 20/21. No dimension closed.
+
+
+## Turn 43 update (2026-10-05) — Parents’ Guide index and source attribution
+
+Parents’ Guide section `360000030369` renders all eight advertised titles; two articles read this turn (third-party purchase-site warning, purchase-not-received troubleshooting). Six bodies remain unread. Zendesk metadata assigns both `360000002405` and `360000420025` to Score! Match FAQs (`115001619089`), not DLS. General FAQ coverage remains 20/21. No dimension closed.

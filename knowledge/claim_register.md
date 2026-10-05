@@ -246,3 +246,8 @@ Article `360001099097` official body sets non-commercial/gameplay-use conditions
 ## Turn 42 product attribution correction
 
 Zendesk metadata assigns `360017063617` (Super Players) and `360000001969` (player types) to Score! Match FAQs section `115001619089`. Their grey/gold appearance and player-type attributes are Score! Match documentation, not DLS evidence. Article `360000002405` says Gems are bought through Store via the plus by the balance, for real money, with bill-payer permission; no title/version or rates are stated. Article `360000420025` offers generic VPN, signal, router, and DNS troubleshooting; no product/version is named.
+
+
+## Turn 43 section attribution and Parents’ Guide
+
+Zendesk metadata assigns `360000002405` (Gem purchase) and `360000420025` (connection issues) to Score! Match FAQs section `115001619089`; do not use either as DLS-specific guidance. Parents’ Guide section `360000030369` lists eight article titles. `360000191445` warns about third-party “free gems”/unlimited-currency sites and says external virtual-currency trading is not allowed; `360000205129` says verify Charged status, restart with a strong connection, reopen, enter Shop to validate, then contact support if unresolved. Both are general, unversioned guidance.

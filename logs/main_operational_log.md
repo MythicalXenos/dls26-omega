@@ -647,3 +647,13 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - General FAQ body count **20/21**; title enumeration 21/21. Reconciliation output: **535 entries / 435 unique URLs visited / 377 unvisited leads**. Retrievals 6/6; total tool calls 10/10. No exhaustion declaration.
 - Bluff check: Score! Match card terminology is not transferred to DLS26; no version claim or recommendation is created from unstamped copy.
 - Close marker 2026-10-05T15:34:53Z (before commits/push).
+
+
+## TURN 43 (2026-10-05) — Parents’ Guide enumeration and Score! Match scope correction
+- Open 2026-10-05T15:44:30Z: expected HEAD `fa6cba3`, correct branch, only turn clock dirty. No state drop; identity verified.
+- Six retrievals: page-235 monitoring; pages 236–237 Zendesk JSON for Gem purchase and connection articles; page-238 Parents’ Guide section listing; pages 239–240 third-party purchase-site warning and missing-purchase guidance.
+- **Scope correction:** metadata assigns both 360000002405 and 360000420025 to Score! Match section 115001619089. Do not use them as DLS sources.
+- Parents’ Guide section 360000030369 renders all 8 advertised titles; two bodies read. General FAQ body count remains **20/21**.
+- Reconciliation output: **541 entries / 440 unique URLs visited / 380 unvisited leads**. Retrievals 6/6; total tool calls 9/10. No exhaustion declaration.
+- Bluff check: no DLS-26 rates/network behavior are inferred from Score! Match documents; generalized Parents’ Guide text is not version-specific.
+- Close marker 2026-10-05T15:46:24Z (before commits/push).

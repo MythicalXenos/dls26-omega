@@ -121,3 +121,8 @@ Reconciliation script output: **529 ledger entries · 430 unique visited URLs ·
 ## Turn 42 reconciliation (2026-10-05)
 
 Reconciliation script output: **535 ledger entries · 435 unique visited URLs · 377 unvisited leads**. Zendesk assigns the Super Players and player-type sources to Score! Match, not DLS. Gem and network FAQ product scope remains unresolved.
+
+
+## Turn 43 reconciliation (2026-10-05)
+
+Reconciliation script output: **541 ledger entries · 440 unique visited URLs · 380 unvisited leads**. Parents’ Guide title enumeration is 8/8; two bodies read. General FAQ body reading is 20/21. Gem and connection articles are Score! Match, not DLS.
