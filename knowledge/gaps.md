@@ -115,3 +115,8 @@ All 10 chunks/18 results were read. The mixed response gives generic Events/Supe
 ## Turn 86 — `Special Players Events` query partial
 
 FTG query has 10 results/8 chunks; only chunk0 read. Visible generic card-colour, Agent, Prize Ladder, and stats articles do not answer Cult Heroes. Resume chunks1–7; do not infer absence. Position-lock remains unverified.
+
+
+## Turn 87 — `Special Players Events` still partial
+
+FTG Help Center query now read through chunk6/8; chunk7 remains. Visible content is generic player/stats help, not Cult Heroes-specific. No absence inference; position-lock remains unverified.

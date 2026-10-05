@@ -336,3 +336,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 86 reconciliation (2026-10-06)
 
 **688 entries · 510 unique visited URLs · 405 unvisited leads**. FTG `Special Players Events` search is partial (chunk0/8); resume at chunk1. Visible generic results do not answer Cult Heroes.
+
+
+## Turn 87 reconciliation (2026-10-06)
+
+**688 entries · 510 unique visited URLs · 405 unvisited leads**. FTG `Special Players Events` query read through chunk6/8; resume chunk7. No Cult Heroes-specific route/reward conclusion.
