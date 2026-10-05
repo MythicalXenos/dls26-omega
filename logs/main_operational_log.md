@@ -948,3 +948,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: `fb9a2c0`, 246 untracked files; archive SHA-256 `d414bc2903f9775287395997b79fa9d0514dd6f7e73d9de10bf02194e3dfb50e`; restored `ac8641f`; 246/246 byte-verified except T84 open marker. ISSUE-0014 #46 logged; identity/upstream restored.
 - Six retrieval calls: FTG `live events` query chunks 1–6 (continuing T83 chunk0; 18 results/10 chunks). One generic DLS “Super Players” article mentions Events/rarer packages; no link to Cult Heroes. Chunks 7–9 pending.
 - T83 audit correction: its three direct URLs were already in the ledger; repeats did not change unique count. Ledger **687 entries / 510 visited URLs / 405 unvisited leads**. Close marker 2026-10-05T22:25:56Z.
+
+
+## TURN 85 (2026-10-06) — completed FTG query
+- Recovery: `fb9a2c0`, 248 untracked files; archive SHA-256 `4fbf512939db4eb29b4b64dba684ffd35730a37f3e4c6a8e0e400194006be663`; restored `2826f8a`; 248/248 byte-verified except T85 open marker. ISSUE-0014 #47 logged; identity/upstream restored.
+- Three retrieval calls: FTG `live events` chunks 7–9 completed the 18-result/10-chunk response. Generic DLS Events/Super Players content; no Cult Heroes-specific route/reward.
+- Ledger: **687 entries / 510 visited URLs / 404 unvisited leads**. Close marker 2026-10-05T22:29:36Z.

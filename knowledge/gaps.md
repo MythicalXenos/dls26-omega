@@ -105,3 +105,8 @@ The U.S. Apple App Store event page displays Cult Heroes as HAPPENING NOW / LIVE
 ## Turn 84 — live-events query still partial
 
 FTG `live events` query: chunks 0–6/10 read; resume chunks 7–9. A generic DLS “Super Players” article mentions Events/rare packages, but no source links Cult Heroes to that category or to Cult Hero Agents. Do not infer route/reward or absence. Position locking remains unverified.
+
+
+## Turn 85 — completed FTG `live events` query
+
+All 10 chunks/18 results were read. The mixed response gives generic Events/Super Players help and unrelated material, not a Cult Heroes-specific route/reward. It does not establish absence beyond the query result set. Position-lock remains unverified.

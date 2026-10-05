@@ -75,3 +75,5 @@ T83 OPEN 2026-10-05T22:19:56Z UTC / 2026-10-06T04:19:56+0600 Asia/Dhaka — stat
 T83 CLOSE 2026-10-05T22:22:21Z UTC / 2026-10-06T04:22:21+06:00 Asia/Dhaka — six retrieval calls complete; source block complete before commit/push.
 T84 OPEN 2026-10-05T22:24:47Z UTC / 2026-10-06T04:24:47+0600 Asia/Dhaka — repo-state verification and continuation of FTG events query
 T84 CLOSE 2026-10-05T22:25:56Z UTC / 2026-10-06T04:25:56+06:00 Asia/Dhaka — six retrieval calls complete; source block complete before commits/push.
+T85 OPEN 2026-10-05T22:28:50Z UTC / 2026-10-06T04:28:50+0600 Asia/Dhaka — state verification and final FTG live-events chunks
+T85 CLOSE 2026-10-05T22:29:36Z UTC / 2026-10-06T04:29:36+06:00 Asia/Dhaka — three retrieval calls complete; source block complete before commits/push.

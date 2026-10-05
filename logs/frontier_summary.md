@@ -326,3 +326,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 84 reconciliation (2026-10-06)
 
 **687 entries · 510 unique visited URLs · 405 unvisited leads**. FTG `live events` query has chunks 0–6/10 read; resume at chunk 7. Generic Super Players material does not identify Cult Heroes. T83 direct-page retrievals were repeats.
+
+
+## Turn 85 reconciliation (2026-10-06)
+
+**687 entries · 510 unique visited URLs · 404 unvisited leads**. FTG `live events` query complete; mixed generic results, no Cult Heroes-specific route/reward. No position-lock conclusion.
