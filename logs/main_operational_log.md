@@ -421,3 +421,4 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 25 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The fairness article is explicitly framed as a publisher position rather than as proof about scripting; the formation "2" is flagged as an example; the likeness comments are flagged as historic; the failed script was rerun rather than worked around, so no entry is missing.
+Turn 25 note: the ledger script failed once on shell quoting (escaped double quotes inside a heredoc are consumed by JSON transport); rewritten with plain concatenation. **Rule: never use backslash escapes in bash commands - they are eaten before the shell sees them.**

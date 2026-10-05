@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T09:55:00Z",
+ "last_reconciled_at": "2026-10-05T10:02:00Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -12849,11 +12849,123 @@
    "discovered_not_yet_visited": [
     "https://support.ftgames.com/hc/en-us/articles/214385385-How-do-I-change-between-Home-and-Away-kits-before-a-match"
    ]
+  },
+  {
+   "source_id": "page-127-dlskiturl-monitor-t25",
+   "event_type": "page_fetch",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-05T10:02:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "monitoring",
+   "language": "en",
+   "payload_summary": "Ninth mid-session monitoring check - UNCHANGED. Same nine front-page items. No new event content; nothing October-dated.",
+   "processing_state": "processed",
+   "deception_screen": "n/a (monitoring).",
+   "conflicts": "None.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-128-ftg-change-formation",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:02:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY, and directly user-relevant. Navigate to the Squad section and tap the formation grid button to change formation. Constraint, verbatim: Formations are limited by season, so for example, in one season you may only have 2 formations to choose from.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; no version stamp; the two-formations figure is given as an example, not as a universal rule.",
+   "conflicts": "None. **Operationally important for the user:** the preferred 3-2-3-2 (and the unlocked 3-1-4-2) may not be selectable in a given season - formation choice is season-gated. First-party constraint that no database carries.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 25 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/7917023109009-How-do-I-edit-my-team-crest"
+   ]
+  },
+  {
+   "source_id": "page-129-ftg-get-promoted",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917423348497-How-do-I-get-promoted",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:02:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY (dim 6 progression), verbatim: The more matches you win, the more XP you will earn. When you reach the maximum XP for your current rank, you will be promoted. Similarly, losing matches will cause you to lose XP and get relegated to a lower rank.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; no XP thresholds, no rank names, no version stamp.",
+   "conflicts": "None. **New: rank is an XP meter that DECREASES on defeats, and relegation is a live mechanic.** Not stated in any storefront text we hold.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 25 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points"
+   ]
+  },
+  {
+   "source_id": "page-130-ftg-not-realistic",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:02:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY POSITION STATEMENT on fairness and randomness. Highlights: DLS is not intended to be a fully accurate simulation of the sport or physics of soccer; it aims to balance fun with realism; you may find many unpredictable situations occurring, just like in real life, including unrealistic ball or player behaviour and disputed referee decisions; and, quoted, like most games, luck forms a part of the experience - ultimately it is the same for all players and above all else we consider our games fair. FTG adds that it reviews feedback and fixes things it judges to harm enjoyment, that not everything will be addressed, and asks players to report genuine bugs.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; a policy statement which by design neither confirms nor denies any specific mechanic.",
+   "conflicts": "**Relevant to the open rubber-banding allegation** (a storefront review claims comeback/balance scripting). The article **does not admit any balancing mechanic**; it asserts that luck is deliberate, that the same rules apply to all players, and that FTG considers the game fair. That is a **publisher position, not evidence for or against scripting** - the allegation stays recorded as player perception, now with the counter-position beside it.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 25 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-131-ftg-team-name",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:02:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY (customisation): click the Customise button and select Team Name. Confirms a Customise hub holding team identity settings.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; low value but completes the customisation map.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 25 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-132-ftg-player-likeness",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesn-t-my-player-look-like-the-real-person",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:02:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (chunk 0 of 4; article body complete, older user comments partially read)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY (licensing/likeness). Article body: DLS is an ever expanding app, and we are regularly updating data and adding new content to the game, so over time you will see improvements. The user comments on the page are 5-6 years old and include players asking why faces from DLS 19 are missing, why commentary does not name some players, and why Bundesliga/German players are absent; an FTG staff reply states, for licensing reasons some players may not be in DLS.",
+   "processing_state": "processed",
+   "deception_screen": "first-party article body is a single sentence; the comments are historic (5-6 years old) and must NOT be read as current-state evidence.",
+   "conflicts": "None. **Corroborates the licensing finding from a second, independent first-party surface** (a staff comment reply, not just article text).",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 25 block)",
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "visited_total": 359,
-  "unvisited_total": 403,
+  "visited_total": 364,
+  "unvisited_total": 405,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -13140,6 +13252,8 @@
    "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
    "https://support.ftgames.com/hc/en-us/articles/4408249822609-Age-Confirmation-Personal-Ads-and-Notifications",
    "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero",
+   "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points",
+   "https://support.ftgames.com/hc/en-us/articles/7917023109009-How-do-I-edit-my-team-crest",
    "https://support.ftgames.com/hc/en-us/articles/7917423348497-How-do-I-get-promoted",
    "https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles",
    "https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation",
