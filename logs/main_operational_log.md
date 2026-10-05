@@ -406,3 +406,18 @@ All timestamps are UTC unless explicitly noted. Entries are appended chronologic
 
 ## TURN 24 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The Roles system is logged with its gap stated rather than implied as understood; the card ladder is logged without inventing thresholds; the "special (black)" inference is presented as what the publisher's own wording supports, not as a new claim about any specific card.
+
+## TURN 25 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**ninth** check). No new event content; nothing October-dated.
+
+## TURN 25 — RESEARCH (6 of 6 retrieval calls; git clean at open, no drop)
+- page-128 **change formation (7917587319313)**: Squad -> formation grid; **formations limited by season** (example: 2 available). User-relevant constraint.
+- page-129 **get promoted (7917423348497)**: XP meter per rank; **losing costs XP and can relegate**. New progression mechanic.
+- page-130 **not realistic (360000842697)**: FTG's fairness/luck statement; **publisher position on the rubber-banding allegation - recorded as a position, not as evidence**.
+- page-131 **team name (214385345)**: Customise button -> Team Name.
+- page-132 **player likeness (360004718318)**: one-sentence body; **staff comment reply repeats the licensing cause** (second first-party surface). Comments are 5-6 years old and flagged non-current.
+- page-127 monitoring (unchanged).
+- Ledger: **433 entries · 363 visited · 405 leads**. Retrieval 6 of 6; tool calls 10 of 10 (one call lost to a shell-quoting syntax error in the ledger script, rerun).
+
+## TURN 25 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. The fairness article is explicitly framed as a publisher position rather than as proof about scripting; the formation "2" is flagged as an example; the likeness comments are flagged as historic; the failed script was rerun rather than worked around, so no entry is missing.

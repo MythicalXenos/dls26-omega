@@ -256,3 +256,13 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Practical rule recorded for the user:** selling a player risks permanent loss if that player later leaves the database for licensing reasons (first-party).
 
 **Gate status:** no dimension closed. Every dimension now carries at least some first-party text; the remaining gaps are (i) OVR thresholds for card tiers, (ii) the Roles system's mechanics, (iii) rates/amounts for currencies, (iv) DLS-26-specific confirmation of all unstamped support text, (v) in-client verification.
+
+## Turn 25 update (2026-10-05) — progression and presentation rules land first-party
+
+**Dimension 6 (progression/online) filled out:** rank is an **XP meter that falls on defeats**, with promotion at max XP and relegation on loss of XP. Combined with the earlier leaderboard reset window (3-30 days) and clan features, dim 6 now has first-party structure on both the solo and multiplayer sides.
+
+**New cross-cutting constraint recorded (formations):** formation choice is **season-gated** — a planning constraint for the user that no database source carries.
+
+**Fairness/randomness:** FTG's own statement puts luck in the design and asserts identical rules for all players, while explicitly refusing to call the game a simulation. This is the publisher's position on the rubber-banding allegation; it is **not** treated as evidence resolving it.
+
+**Gate status:** no dimension closed. Remaining known gaps: OVR thresholds for card tiers, the Roles system's mechanics, currency rates/amounts, Season Points definition, and DLS-26-specific confirmation of unstamped support text.
