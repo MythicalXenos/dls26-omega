@@ -174,3 +174,7 @@ ISSUE-0015 follow-up (Turn 61): the T59 operational-log candidate-list line was 
 
 ### ISSUE-0014 — occurrence #24 (2026-10-06, Turn 62 open)
 Same sandbox-restore signature: local HEAD `fb9a2c0` with project paths untracked. Archived 210 non-git files, fetched the fixed branch, restored remote tip `9501a39`, and byte-checked all 210 tracked files; only `logs/turn_clock.txt` differed by the expected T62 start append. Restored the first-call timestamp; no content loss or force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0014 — occurrence #25 (2026-10-06, Turn 63 open)
+Same sandbox-restore signature: local HEAD `fb9a2c0` with project paths untracked. Archived 211 non-git files, fetched the fixed branch, restored remote tip `d6577cd`, and byte-checked all 211 tracked files; only `logs/turn_clock.txt` differed by the expected T63 start append. Restored the first-call timestamp; no content loss or force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.

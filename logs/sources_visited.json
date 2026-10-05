@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:26:34Z",
+  "last_reconciled_at": "2026-10-05T20:29:41Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17591,11 +17591,31 @@
         "https://www.youtube.com/watch?v=zV0A6TI-BLY",
         "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos"
       ]
+    },
+    {
+      "event_type": "page_fetch",
+      "source_id": "page-316-apple-de-cultheroes-event-t63",
+      "url": "https://apps.apple.com/de/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
+      "domain": "apps.apple.com",
+      "retrieved_at": "2026-10-05T20:29:41Z",
+      "retrieval_role": "page-render",
+      "tool": "fetch_page (complete; hasMore=false)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "official regional App Store event listing / publisher event copy",
+      "language": "de",
+      "payload_path": "source_archive/t63_apple_de_cult_heroes_event.md",
+      "payload_text": "FINDET JETZT STATT\nLIVE-EVENT\nKulthelden\nVerpflichte diese absoluten Topstars, die vielen Fans in Erinnerung sind. Jetzt mit verstärkten Attributen verfügbar!\n[Anzeigen] Dream League Soccer 2026",
+      "payload_summary": "German DLS26 App Store event page displays “FINDET JETZT STATT / LIVE-EVENT / Kulthelden.” Description: “Verpflichte diese absoluten Topstars, die vielen Fans in Erinnerung sind. Jetzt mit verstärkten Attributen verfügbar!” Translation: “Happening now / live event / Cult Heroes. Sign these top stars that many fans remember. Now available with boosted attributes.” It links to the DLS26 listing. This establishes store-rendered copy only; no route, cost, reward, deadline, or in-game state is shown.",
+      "deception_screen": "Direct German App Store event render; same Apple/developer store origin family as the already-read U.S. event page, not an independent game source.",
+      "conflicts": "Apple store copy labels event happening now; it does not provide an end date. Google Play “Ends on 10/14” remains yearless; no contradiction or in-game date is resolved.",
+      "kb_claims": "knowledge/knowledge_base.md (Turn 63 regional storefront note)",
+      "processing_state": "complete",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 488,
-    "unvisited_total": 417,
+    "visited_total": 489,
+    "unvisited_total": 416,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -17691,7 +17711,6 @@
       "https://apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7/download",
       "https://appmagic.rocks/google-play/dream-league-soccer-2024/com.firsttouchgames.dls7",
       "https://apps.apple.com/de/app/1462911602?see-all=reviews&platform=iphone",
-      "https://apps.apple.com/de/app/dream-league-soccer-2026/id1462911602?eventid=6802988564",
       "https://apps.apple.com/de/app/score-hero/id847492141",
       "https://apps.apple.com/de/app/score-match-pvp-fussball/id1145420529",
       "https://apps.apple.com/de/app/ultimate-clash-soccer/id1506588619",
