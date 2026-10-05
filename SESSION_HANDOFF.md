@@ -1,25 +1,24 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T19:44:15Z UTC, Turn 55. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T19:51:13Z UTC, Turn 56. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** expected remote `9dbc532`; actual local `fb9a2c0` with project files untracked. Restored `9dbc532`; all 203 non-clock target files byte-identical, with only the expected T55 clock-start line differing. ISSUE-0014 occurrence #17 logged. No content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`. Research commit `c571c03`; handoff commit follows.
-- **Ledger:** 612 entries · 479 unique URLs · 404 unvisited leads. Seven retrievals; the six-retrieval limit was exceeded by one and recorded. Ten tool calls were made before wrap-up.
+- **Git repair at open:** expected remote `ed37b0f`; actual local `fb9a2c0` with project paths untracked. Restored `ed37b0f`; all 204 non-clock target files byte-identical, with only the expected T56 clock-start append differing. ISSUE-0014 occurrence #18 logged. No content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`. Research commit `33b28f3`; handoff commit follows.
+- **Ledger:** 618 entries · 480 unique URLs · 406 unvisited leads. Six retrievals and nine tool calls before wrap-up.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
 - **GamingOnPhone DLS2025 coins, gems and divisions guides:** complete (chunks 0–1/2), explicitly DLS2025 and dated Dec 16, 2024. Do not apply figures/advice to DLS26 without verification.
 - **BlueStacks DLS26 character-development guide:** all chunks 0–2/3 complete. It closely overlaps GamingOnPhone; not independent corroboration.
-- **DLSKitURL homepage:** T54 showed the same ten cards as T53; both conflict with T52’s “same nine” note. No dates visible in the current renders.
-- **T55 first-party social probes:** YouTube/Instagram searches surfaced no FTG route guide; `@playdls` search returned only the profile. A Facebook search snippet says “Collect them in game now” but has no date or route; direct profile fetch returned HTTP 403. Do not treat search snippets as direct capture.
-- **T55 secondary route lead (`page-304`):** Raven Exe’s public YouTube transcript (uploaded Oct 3, 2026) claims a 225-Gem Draft/seven matches, Season Pass Agent at the end, online challenge with three attempts, and an Events calendar. These are unverified creator statements, not spending advice or first-party rules.
-- T55 source IDs: four search records, `page-303` Facebook HTTP 403 attempt, and `page-304` Raven Exe video. Route confidence remains unchanged; exact new leads are in `logs/sources_visited.json`.
-- **Next exact action (Turn 56):**
+- **SakibPro DLS26 events article:** exact URL was already complete in `page-047` and imported `S-0114`. T56 fetched chunks 0–1 again due a stale queue entry; this is duplicate retrieval, not a new source or independent corroboration. Its route counts remain secondary and unverified.
+- **Cult Heroes route status:** T56 FTG support/TikTok searches found no Cult-specific instructions; `@playdls` Instagram fetch returned HTTP 403. Raven Exe and SakibPro describe routes, but their costs/counts are not verified and no confidence upgrade or spend recommendation is warranted.
+- **T56 source IDs:** `page-305` Instagram HTTP 403; `discovery-t56-ftg-support-cult-search`; `discovery-t56-cult-hero-cost-search`; `page-306`–`page-307` SakibPro duplicate chunks; `discovery-t56-ftg-tiktok-challenge-search`. Exact evidence and frontier are in the ledger.
+- **Next exact action (Turn 57):**
   1. Check `git log -1 HEAD`, branch/status and repo-local identity; use the established no-force recovery/byte-check if the restore recurs.
-  2. Seek first-party/in-game verification of the route and the video’s 225-Gem, seven-match and three-attempt claims. Do not repeat the Facebook/TikTok direct fetches that returned HTTP 403 or treat search snippets as direct source captures.
-  3. Continue connected frontier work within the six-retrieval limit; keep every third-party number attributed and unverified until cross-checked.
+  2. Do not refetch the completed SakibPro article or repeat the direct Instagram/TikTok/Facebook requests that failed; seek a distinct FTG surface or in-game evidence for route, Draft cost, match count and retry claims.
+  3. Continue connected frontier leads and high-value verification within six retrievals; keep all non-FTG numbers attributed and unverified until cross-checked.
   4. Reconcile the machine ledger and push research before handoff. No exhaustion declaration or dimension closure.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -40,4 +39,4 @@
 
 ## Turn-end fields
 
-- Research commit `c571c03`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `33b28f3`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
