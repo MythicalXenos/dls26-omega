@@ -790,3 +790,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Candidate URLs added only if not already visited or in the frontier: . Secondary video snippets are pathfinders only; no spend advice.
 - Reconciliation: **628 entries / 483 unique visited URLs / 417 unvisited leads**; no stale lead removal; 1 new unique leads. General FAQs 20/21; Parents’ Guide 8/8. No KB claim changed; Cult Heroes route and position-lock question remain open. No dimension closed; no exhaustion declaration.
 - Budget: 2 retrieval calls and 9 tool calls before wrap-up; within limits. Close marker 2026-10-05T20:08:59Z (before commits/push).
+
+
+## TURN 60 (2026-10-06) — alternate social lead blocked; frontier correction
+- Open 2026-10-06 02:11:34 +06. Local HEAD was `fb9a2c0` with project paths untracked. Archived 208 non-git files; restored remote tip `cfe2935`; byte-checked all 208 tracked files, with only the expected T60 clock-start append differing. ISSUE-0014 #22 logged; identity `DLS26 Omega <omega@dls26.local>`. No loss/force-push.
+- One retrieval: `page-311-ftg-instagram-profile-t60`, direct fetch of `https://www.instagram.com/firsttouchgames_official/`, HTTP 403. No body returned; account ownership/posts/mechanics not inferred; do not retry the same URL.
+- Reconciled T59's ledger mismatch (ISSUE-0015): handoff/summary said 417 unvisited leads but the machine frontier remained 416 because the SportsDunia URL was missing from its top-level list. Added that recorded lead, then removed the attempted Instagram URL from unvisited. Final persisted frontier: **629 entries / 484 visited / 416 unvisited**. An initial correction draft's entries-only URL count (408) conflicted with the authoritative frontier and aborted before writes; corrected without data loss.
+- No first-party Cult Heroes route or DLS26 position-lock evidence; no KB claim changed. No spending advice, confidence promotion, dimension closure or exhaustion declaration. One retrieval and six tool calls before wrap-up; within limits. Close marker 2026-10-05T20:14:40Z (before commits/push).

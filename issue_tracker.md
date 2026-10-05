@@ -155,3 +155,11 @@ Same sandbox-restore signature: local HEAD `fb9a2c0` with project paths untracke
 
 ### ISSUE-0014 — occurrence #21 (2026-10-06, Turn 59 open)
 Same sandbox-restore signature: local HEAD `fb9a2c0` with 15 project paths untracked. Archived all 208 non-git files, fetched the fixed session branch, and restored remote tip `6871a35`. Byte-checked all 208 tracked files against the archive; only `logs/turn_clock.txt` differed by the expected T59 start append. Restored the original first-call timestamp after reset; no content loss or force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0014 — occurrence #22 (2026-10-06, Turn 60 open)
+Same sandbox-restore signature: local HEAD `fb9a2c0` with the project tree untracked. Archived 208 non-git files, fetched the fixed branch, restored remote tip `cfe2935`, and byte-checked all 208 tracked files; only `logs/turn_clock.txt` differed by the expected T60 start append. Restored the first-call timestamp; no content loss or force-push. Repo-local identity reset to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0015 — T59 frontier reconciliation drift (resolved Turn 60, 2026-10-06)
+T59 logged 417 unvisited leads in its handoff/summary but left `logs/sources_visited.json` at 416 and omitted the newly recorded SportsDunia formation URL from `frontier.unvisited_leads`. Turn 60 reconciled the exact URL and counters, then removed the newly attempted Instagram URL after its HTTP 403 fetch. Final persisted counters are 484 visited and 416 unvisited. A first correction draft tried to recompute visits from only `entries[].url` (408) and aborted before writes when that contradicted the maintained 483 count; no data loss occurred. Final correction retained the authoritative persisted count and applied the one new distinct URL. No game claim was affected.

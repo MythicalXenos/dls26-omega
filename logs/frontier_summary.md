@@ -206,3 +206,8 @@ Reconciliation output: **626 ledger entries · 483 unique visited URLs · 416 un
 ## Turn 59 reconciliation (2026-10-06)
 
 Reconciliation output: **628 ledger entries · 483 unique visited URLs · 417 unvisited leads**; 0 stale exact-URL annotations removed and 1 new unique leads. Two discovery-search calls (formation/position-lock query; targeted YouTube Cult Heroes query); returned snippets only, no page fetch. No first-party route or DLS26 position-lock answer. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed; no exhaustion declaration.
+
+
+## Turn 60 reconciliation (2026-10-06)
+
+Reconciliation output: **629 ledger entries · 484 visited URLs · 416 unvisited leads**. T59 mismatch repaired (ISSUE-0015: SportsDunia lead restored to the top-level frontier); one new page-render attempt returned HTTP 403 and its URL was removed from unvisited leads. No page content/mechanics inferred. An initial entries-only count assertion aborted before writes; final counters use the maintained frontier. Cult Heroes route and position-lock questions remain open; no exhaustion declaration or dimension closure.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:08:59Z",
+  "last_reconciled_at": "2026-10-05T20:14:40Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17485,10 +17485,31 @@
       "conflicts": [],
       "affected_kb_claims": [],
       "discovered_not_yet_visited": []
+    },
+    {
+      "source_id": "page-311-ftg-instagram-profile-t60",
+      "url": "https://www.instagram.com/firsttouchgames_official/",
+      "domain": "instagram.com",
+      "fetched_at": "2026-10-05T20:14:40Z",
+      "retrieved_at": "2026-10-05T20:14:40Z",
+      "retrieval_role": "page-render",
+      "tool": "fetch_page",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "source_type": "social profile lead; account ownership not confirmed from response",
+      "language": "unknown",
+      "payload_path": null,
+      "payload_text": "Failed to fetch page (HTTP 403)",
+      "payload_summary": "Direct profile fetch returned HTTP 403. No page body received; infer nothing about the account or its posts.",
+      "processing_state": "partial",
+      "source_screen_outcome": "Blocked by HTTP 403; no source content available.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 483,
+    "visited_total": 484,
     "unvisited_total": 416,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
@@ -17888,7 +17909,6 @@
       "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
       "https://www.youtube.com/watch?v=OIR9GPIf05o",
       "https://www.youtube.com/watch?v=gpvjf6qVl5c",
-      "https://www.instagram.com/firsttouchgames_official/",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
       "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
@@ -17906,7 +17926,8 @@
       "https://www.youtube.com/shorts/h1ky_iHfvL8",
       "https://www.youtube.com/shorts/0-4pOYomO-Y",
       "https://www.youtube.com/shorts/oqu-WQZ4zOw",
-      "https://www.youtube.com/shorts/K3GVQFghJ7I"
+      "https://www.youtube.com/shorts/K3GVQFghJ7I",
+      "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations"
     ]
   }
 }
