@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T19:49:33Z",
- "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration.",
+ "last_reconciled_at": "2026-10-05T19:56:09Z",
+ "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration.",
  "entries": [
   {
    "source_id": "ops-github-origin-probe-2026-10-02",
@@ -17053,11 +17053,256 @@
     }
    ],
    "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t57-youtube-ftg-cult-search",
+   "event_type": "discovery-search",
+   "query": "site:youtube.com/@FirstTouchGames \"Cult Heroes\" \"DLS26\" official Dream League Soccer",
+   "retrieved_at": "2026-10-05T19:56:09Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official-channel discovery search",
+   "language": "en",
+   "payload_summary": "One result returned the generic First Touch Games YouTube channel profile only. No Cult Heroes video or acquisition instructions surfaced.",
+   "processing_state": "search result captured; channel not fetched",
+   "deception_screen": "Search result only.",
+   "conflicts": "No DLS26 route evidence.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 57 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "firsttouchgames",
+     "url": "https://www.youtube.com/@firsttouchgames",
+     "snippet": "First Touch Games channel profile; description says the studio develops sports games. No Cult Heroes video surfaced."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.youtube.com/@firsttouchgames"
+   ]
+  },
+  {
+   "source_id": "discovery-t57-play-eventdetails-search",
+   "event_type": "discovery-search",
+   "query": "site:play.google.com/store/apps/eventdetails \"Cult Heroes\" Dream League Soccer 2026 sign agents",
+   "retrieved_at": "2026-10-05T19:56:09Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "Google Play event discovery search",
+   "language": "en",
+   "payload_summary": "One result was an unrelated Football League 2026 Play eventdetails page (ID 4831257254277132624). It is not a DLS result; no DLS event ID was discovered.",
+   "processing_state": "search result captured; unrelated result not followed",
+   "deception_screen": "Search-result snippet only.",
+   "conflicts": "Different game; do not merge with DLS event records.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 57 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Start from the bottom, become a football legend!",
+     "url": "https://play.google.com/store/apps/eventdetails/4831257254277132624",
+     "snippet": "Search result identifies Football League 2026, not Dream League Soccer."
+    }
+   ],
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t57-support-position-search",
+   "event_type": "discovery-search",
+   "query": "site:support.ftgames.com/hc/en-us/articles Dream League Soccer player position formation \"out of position\"",
+   "retrieved_at": "2026-10-05T19:56:09Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official support discovery search",
+   "language": "en",
+   "payload_summary": "Ten FTG support results, including generic DLS articles on player development/stats and multiplayer; none answers whether DLS26 locks positions. The formation-related result is a help article whose section/API metadata had already assigned it to Ultimate Clash Soccer, not DLS. Search results only; no position-lock conclusion.",
+   "processing_state": "search results captured; relevant source pages already visited or scope-excluded",
+   "deception_screen": "Search snippets only.",
+   "conflicts": "Do not attribute the Ultimate Clash Soccer formation article to DLS26; user-stated no-position-lock claim remains unverified.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 57 block); knowledge/gaps.md (Turn 57 note)",
+   "results": [
+    {
+     "id": 1,
+     "title": "How do I develop my players?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players",
+     "snippet": "Generic DLS help says Coaches randomly select a player for a permanent upgrade; Form Boosts are temporary.",
+     "pageAge": "2024-12-06"
+    },
+    {
+     "id": 2,
+     "title": "How do the various player stats in DLS affect gameplay?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay",
+     "snippet": "Old generic stat guidance; snippet says some stats affect positions differently.",
+     "pageAge": "2021-04-13"
+    },
+    {
+     "id": 3,
+     "title": "How does Dream League Live matchmaking work?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work",
+     "snippet": "Snippet says LIVE matchmaking considers tier, location and availability.",
+     "pageAge": "2025-02-18"
+    },
+    {
+     "id": 4,
+     "title": "Multiplayer Troubleshooting",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+     "snippet": "General DLS multiplayer help.",
+     "pageAge": "2024-12-06"
+    },
+    {
+     "id": 5,
+     "title": "What are Leaderboards?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360003914998-What-are-Leaderboards",
+     "snippet": "General DLS multiplayer leaderboards, reset interval snippet.",
+     "pageAge": "2024-12-06"
+    },
+    {
+     "id": 6,
+     "title": "Why have I been blocked from playing DLS?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+     "snippet": "Generic DLS multiplayer fairness text.",
+     "pageAge": "2021-08-21"
+    },
+    {
+     "id": 7,
+     "title": "What are the rules of Ultimate Clash Soccer?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/7918507871505-What-are-the-rules-of-Ultimate-Clash-Soccer",
+     "snippet": "Ultimate Clash Soccer, not DLS.",
+     "pageAge": "2024-05-15"
+    },
+    {
+     "id": 8,
+     "title": "How do I edit my team name?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/7916936697233-How-do-I-edit-my-team-name",
+     "snippet": "Related-article rail includes “How do I change my formation?”; this does not establish DLS scope.",
+     "pageAge": "2023-07-20"
+    },
+    {
+     "id": 9,
+     "title": "Why can’t I download Dream League Soccer – Classic?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
+     "snippet": "Legacy DLS Classic page, not current DLS26 position behavior.",
+     "pageAge": "2021-01-20"
+    },
+    {
+     "id": 10,
+     "title": "How can I expand my squad?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360003945677-How-can-I-expand-my-squad",
+     "snippet": "Accommodation capacity guidance, no position-lock claim.",
+     "pageAge": "2020-11-04"
+    }
+   ],
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t57-support-formation-search",
+   "event_type": "discovery-search",
+   "query": "site:support.ftgames.com/hc/en-us/articles \"How do I change my formation?\" Dream League Soccer",
+   "retrieved_at": "2026-10-05T19:56:09Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official support discovery search",
+   "language": "en",
+   "payload_summary": "One result was the team-name article 7916936697233; its related links mention a formation article. Prior body/section/API checks already show the actual formation article 7917587319313 belongs to Ultimate Clash Soccer section 7900693036561. No new DLS formation or position-lock evidence.",
+   "processing_state": "search result only; linked DLS/UCS-scope page not re-fetched",
+   "deception_screen": "Search snippet only.",
+   "conflicts": "Search-result association is not proof that the linked formation article is DLS-specific; prior metadata attributes it to Ultimate Clash Soccer.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 57 block); knowledge/gaps.md (Turn 57 note)",
+   "results": [
+    {
+     "id": 1,
+     "title": "How do I edit my team name?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/7916936697233-How-do-I-edit-my-team-name",
+     "snippet": "Related articles include “How do I change my formation?”; the linked formation article was already categorized as Ultimate Clash Soccer by prior section/API metadata."
+    }
+   ],
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t57-x-ftg-cult-search",
+   "event_type": "discovery-search",
+   "query": "site:x.com \"Cult Heroes\" \"Dream League Soccer 2026\" \"First Touch Games\"",
+   "retrieved_at": "2026-10-05T19:56:09Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official-social discovery search with fan results",
+   "language": "en",
+   "payload_summary": "Ten results. Results attributed to @firsttouchgames are historical 2020–2022 posts and contain no Cult Heroes content. Recent Cult Heroes result belongs to fan account @DLS_world1; other results are fan pages or third-party news. No current FTG X post confirming acquisition route or event mechanics. Search snippets only.",
+   "processing_state": "search results captured; no direct posts fetched",
+   "deception_screen": "Search-result snippets only; fan-account and FTG results distinguished by handle/title.",
+   "conflicts": "No official current DLS26 Cult Heroes content surfaced.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 57 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Dream League Soccer 2026 on X: DLS 2023 is out now",
+     "url": "https://x.com/firsttouchgames/status/1599809633505476618",
+     "snippet": "FTG handle @firsttouchgames; historical DLS2023 post."
+    },
+    {
+     "id": 2,
+     "title": "Dream League Soccer 2026 on X: 10 years of DLS",
+     "url": "https://x.com/firsttouchgames/status/1468608820570214404",
+     "snippet": "FTG handle @firsttouchgames; anniversary post, not Cult Heroes."
+    },
+    {
+     "id": 3,
+     "title": "Dream League Soccer 2026 on X: ScoreHero season",
+     "url": "https://x.com/firsttouchgames/status/1288101923422457857",
+     "snippet": "FTG handle post about Score! Hero, not DLS."
+    },
+    {
+     "id": 4,
+     "title": "Dream League World (@DLS_world1) on X",
+     "url": "https://x.com/DLS_world1?lang=en",
+     "snippet": "Fan account; snippet includes recent Cult Heroes-card preference post, not first-party."
+    },
+    {
+     "id": 5,
+     "title": "Dream League Soccer (@DLSplayer) on X",
+     "url": "https://x.com/dlsplayer?lang=en",
+     "snippet": "Profile explicitly says it is not the official account."
+    },
+    {
+     "id": 6,
+     "title": "Dream League Soccer Page on X",
+     "url": "https://x.com/DreamLeague_ftg/status/1366037693231210504",
+     "snippet": "Fan page tells users to follow @firsttouchgames."
+    },
+    {
+     "id": 7,
+     "title": "Dream League Soccer Page (@DreamLeague_ftg) on X",
+     "url": "https://x.com/dreamleague_ftg",
+     "snippet": "Fan page, not official."
+    },
+    {
+     "id": 8,
+     "title": "Dream League Updates on X: DLS26 releases tomorrow",
+     "url": "https://x.com/thfc_konan/status/1996117572324831469/photo/1",
+     "snippet": "Third-party account labels a release post “OFFICIAL”; not FTG."
+    },
+    {
+     "id": 9,
+     "title": "Dream League soccer (@DLSmobile) / Posts / X",
+     "url": "https://x.com/DLSmobile?lang=en",
+     "snippet": "Fan account; not first-party."
+    },
+    {
+     "id": 10,
+     "title": "Dream League Updates (@thfc_konan) / Posts / X",
+     "url": "https://x.com/thfc_konan",
+     "snippet": "Third-party DLS news profile, not FTG."
+    }
+   ],
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
   "visited_total": 480,
-  "unvisited_total": 406,
+  "unvisited_total": 407,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -17464,7 +17709,8 @@
    "https://www.facebook.com/dreamleaguesoccertr/",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1tnvfy8/how_to_gain_more_gems_and_coins_without_buying_it/",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i75pm4/dls_coins_and_gems_tips/",
-   "https://www.youtube.com/watch?v=v9lZ9JtiWPo"
+   "https://www.youtube.com/watch?v=v9lZ9JtiWPo",
+   "https://www.youtube.com/@firsttouchgames"
   ]
  }
 }

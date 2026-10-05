@@ -765,3 +765,12 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation: **618 entries / 480 unique URLs / 406 unvisited leads**; stale annotations removed 1; new leads added 3. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closure/exhaustion.
 - Budget: six retrievals and nine tool calls before wrap-up. No further retrievals.
 - Close marker 2026-10-05T19:49:33Z (before commits/push).
+
+
+## TURN 57 (2026-10-06) — official channel/social and position-source searches
+- Open 2026-10-06 01:53:33 +06. Local HEAD `fb9a2c0` with project paths untracked. Restored remote tip `bd98672`; verified 205 non-clock files byte-identical, only expected T57 clock-start append differed. ISSUE-0014 #19 logged; repo-local identity `DLS26 Omega <omega@dls26.local>`. No content loss or force-push.
+- Five retrievals: official YouTube channel search (profile only); Google Play eventdetails query (unrelated Football League event); FTG support search for positions; formation-support query (previously identified as Ultimate Clash Soccer); X search (historical FTG posts, recent fan posts, no current Cult Heroes mechanic). No new DLS26 mechanic evidence.
+- Position-lock status remains open: user-stated “no locking” is still unverified; the only returned formation help route is already assigned to Ultimate Clash Soccer by section/API metadata.
+- Reconciliation: **623 entries / 480 unique URLs / 407 unvisited leads**; stale annotations removed 0; new leads added 1. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed; no exhaustion declaration.
+- Budget: five retrievals and ten tool calls before wrap-up. No more retrievals in wrap-up.
+- Close marker 2026-10-05T19:56:09Z (before commits/push).

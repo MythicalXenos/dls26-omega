@@ -1161,3 +1161,16 @@ The exact URL was already recorded as S-0114, page-047-sakibpro-events-article; 
 Searching the exact **225 Gems / seven matches** claim returned the Raven Exe video already read, the DLSKitURL and SakibPro articles, community discussion and generic currency pages. No FTG result independently confirms either number. SakibPro’s broader Dream Draft counts are not necessarily the same as Raven Exe’s claim that one 225-Gem, seven-match Draft awards an Agent; do not merge these into one mechanic. All Draft cost, match counts, retries and reward structures remain unverified and are not spending advice. One modified-APK search result was screened out and not opened.
 
 No confidence promotion or strategy change. No dimension closed; no exhaustion declaration.
+
+
+## TURN 57 (2026-10-06) — official-channel, store and position searches
+
+### Cult Heroes first-party search follow-up
+- A targeted First Touch Games YouTube search returned only its general channel profile (`discovery-t57-youtube-ftg-cult-search`), no Cult Heroes video or route instructions. The channel profile is retained as a future lead if needed.
+- A Google Play eventdetails query (`discovery-t57-play-eventdetails-search`) returned an event for **Football League 2026**, not Dream League Soccer; it is not merged with DLS event evidence.
+- A support-domain search for Cult Heroes/Agents/Draft returned no Cult Heroes-specific FTG support article. A separate X search (`discovery-t57-x-ftg-cult-search`) surfaced historical 2020–2022 posts from `@firsttouchgames` and recent Cult Heroes material from fan accounts; no current FTG X post resolved the route. Search snippets are not direct captures.
+
+### Position and formation source-scope check
+The support search (`discovery-t57-support-position-search`) returned generic DLS support results on development, stats, multiplayer and squad expansion, but no DLS26 position-lock answer. A formation-related help link surfaced again; the actual formation article 7917587319313 is already classified by its section/API metadata as **Ultimate Clash Soccer**, not DLS (`page-189`, `page-201`, revisited context in `page-128`/`page-195`). Do not transfer its formation text to DLS26. The user-stated no-position-lock claim remains unverified.
+
+No gameplay claim was promoted, no recommendations changed, and no dimension was closed. No exhaustion declaration.

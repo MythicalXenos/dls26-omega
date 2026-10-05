@@ -20,3 +20,8 @@ Preliminary DLS26 source retrieval has been performed prematurely while STATE_0 
 - **Prompt abbreviations/terms:** `DLL`, `OVR`, `GK`, and `XI` are prompt shorthands whose exact current DLS26 UI/game terminology remains unverified. The Apple U.S. store description (`page-001-apple-us-dls-store`) exposes “Dream League Live”, and an FTG help-search result (`discovery-001-ftg-official-search`) uses “DLL (multiplayer) matches”; this is a candidate mapping, not yet an in-game terminology confirmation. Route: follow all FTG source links and inspect current in-game/help UI evidence; do not guess expansions for OVR/GK/XI.
 
 No item is closed as “does not exist.” Research absence has not been established.
+
+
+## Turn 57 — position/formation search note
+
+Searches of FTG support returned generic development/stat pages and a formation-related link, but no DLS26-specific position-lock rule. The formation help article 7917587319313 was previously mapped by section/API metadata to Ultimate Clash Soccer (section 7900693036561); it is not DLS evidence. User-stated “no position locking” remains explicitly unverified.
