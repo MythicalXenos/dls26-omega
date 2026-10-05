@@ -271,3 +271,8 @@ Reconciliation output: **649 ledger entries · 504 unique visited URLs · 407 un
 ## Turn 72 reconciliation (2026-10-06)
 
 Reconciliation output: **650 ledger entries · 505 unique visited URLs · 406 unvisited leads**. Structured Apple metadata reports version 13.430 and “Cult Heroes coming soon,” while the existing Apple event card calls the event live; same storefront family. No in-game route/reward or position-lock resolution; no dimension closure/exhaustion.
+
+
+## Turn 73 reconciliation (2026-10-06)
+
+Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 unvisited leads**. Official Help Center search API page 1/3 surfaced a generic DLS “What are Events?” article but no Cult Heroes route. Pages 2–3 remain unexamined; direct article and/or page-2 API URL retained. No position-lock result; no dimension closure/exhaustion.

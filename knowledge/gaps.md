@@ -50,3 +50,8 @@ The existing FTG `core-principles` record (page-066) lists formation choices and
 ## Turn 72 — Apple storefront timing strings conflict
 
 The structured U.S. Apple Lookup API record (`page-332`) reports DLS version 13.430, currentVersionReleaseDate 2026-09-16, and release notes calling Cult Heroes “coming soon,” while the existing Apple event card (`page-316`) says “LIVE EVENT” with boosted attributes. Same Apple/storefront source family; neither string establishes in-game availability, route, costs, or rewards. The unresolved user questions remain open.
+
+
+## Turn 73 — generic FTG Events article is not Cult Heroes route evidence
+
+FTG Help Center API result `What are Events?` (article 214386765, DLS FAQ section) describes permanent/time-based events in the general “Events” section. It does not mention Cult Heroes or establish the collection’s current route/rewards. Search API result page 1/3 only; pages 2–3 remain unexamined.
