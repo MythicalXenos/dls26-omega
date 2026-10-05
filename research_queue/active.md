@@ -28,3 +28,4 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [DONE before T56; repeat retrieved T56] SakibPro events article `dls-26-new-update-events-players/` read in chunks 0–1/2; route/reward claims logged in the KB/claim register, not FTG-confirmed and not a route-confidence upgrade.
 - [queue-Medium] Reconcile the prior session's "17 Cult Heroes" note (read archived sweep notes; ISSUE-0009).
 - [queue-Medium] dlskiturl World Heroes page + 2026 event-sequence claim (TotS 2025 green → Dream Stars 2026 pink → Dynamic Stars → World Heroes → Cult Heroes).
+- [T65 update to queue-High] Tested the official TikTok oEmbed and embed/v2 endpoints for post 7437552025958763809; both HTTP 403/no body (`page-321`, `page-322`). Do not repeat these URLs or infer content from the block. Next: a distinct official source or in-game capture; the original snippet attribution remains unresolved.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:34:18Z",
+  "last_reconciled_at": "2026-10-05T20:39:33Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17694,10 +17694,56 @@
       "conflicts": "No current route statement in the five rendered posts; timeline coverage is limited.",
       "processing_state": "complete page render; limited visible post set",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:39:33Z",
+      "fetched_at": "2026-10-05T20:39:33Z",
+      "language": "en (requested post context; response body unavailable)",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": 403,
+      "source_type": "official TikTok alternate endpoint for FTG post 7437552025958763809",
+      "payload_path": "source_archive/t65_tiktok_embed_endpoint_attempts.md",
+      "deception_screen": "Blocked before content; no page, caption, player, or metadata received.",
+      "conflicts": "Existing search-result snippet mixed a DLS25 title/date with Cult Heroes route text; endpoint failures do not resolve whether that text belongs to this post.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": [],
+      "source_id": "page-321-tiktok-oembed-t65",
+      "url": "https://www.tiktok.com/oembed?url=https%3A%2F%2Fwww.tiktok.com%2F%40dreamleaguesoccer.ftg%2Fvideo%2F7437552025958763809",
+      "domain": "www.tiktok.com",
+      "payload_summary": "Official TikTok oEmbed metadata endpoint requested for the FTG Cult Heroes post ID 7437552025958763809. HTTP 403; no metadata/caption/body returned. This does not resolve the ambiguous search-result snippet."
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:39:33Z",
+      "fetched_at": "2026-10-05T20:39:33Z",
+      "language": "en (requested post context; response body unavailable)",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": 403,
+      "source_type": "official TikTok alternate endpoint for FTG post 7437552025958763809",
+      "payload_path": "source_archive/t65_tiktok_embed_endpoint_attempts.md",
+      "deception_screen": "Blocked before content; no page, caption, player, or metadata received.",
+      "conflicts": "Existing search-result snippet mixed a DLS25 title/date with Cult Heroes route text; endpoint failures do not resolve whether that text belongs to this post.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": [],
+      "source_id": "page-322-tiktok-embed-t65",
+      "url": "https://www.tiktok.com/embed/v2/7437552025958763809",
+      "domain": "www.tiktok.com",
+      "payload_summary": "Official TikTok embed/v2 endpoint requested for the FTG post ID 7437552025958763809. HTTP 403; no player, caption, metadata, or body returned. This does not resolve the ambiguous search-result snippet."
     }
   ],
   "frontier": {
-    "visited_total": 493,
+    "visited_total": 495,
     "unvisited_total": 413,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

@@ -25,3 +25,8 @@ No item is closed as “does not exist.” Research absence has not been establi
 ## Turn 57 — position/formation search note
 
 Searches of FTG support returned generic development/stat pages and a formation-related link, but no DLS26-specific position-lock rule. The formation help article 7917587319313 was previously mapped by section/API metadata to Ultimate Clash Soccer (section 7900693036561); it is not DLS evidence. User-stated “no position locking” remains explicitly unverified.
+
+
+## Turn 65 — blocked official TikTok embed routes
+
+Two distinct alternate endpoints for the already-identified FTG Cult Heroes TikTok post (`/oembed` metadata and `/embed/v2/`) both returned HTTP 403 with no body (`page-321-tiktok-oembed-t65`, `page-322-tiktok-embed-t65`; details in `source_archive/t65_tiktok_embed_endpoint_attempts.md`). The original search snippet remains ambiguous, and these failures neither confirm nor refute its Cult Heroes route wording. Route, costs, and rewards remain open; position-lock behavior remains unverified.

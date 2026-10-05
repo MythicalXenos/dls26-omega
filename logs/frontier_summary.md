@@ -231,3 +231,8 @@ Reconciliation output: **634 ledger entries · 489 unique visited URLs · 416 un
 ## Turn 64 reconciliation (2026-10-06)
 
 Reconciliation output: **638 ledger entries · 493 unique visited URLs · 413 unvisited leads**. Checked the distinct FTG corporate domain, its generic DLS page, a linked Facebook profile (403), and the linked X profile (limited five-post render). No DLS26 event route or position-lock result; no dimension closure/exhaustion.
+
+
+## Turn 65 reconciliation (2026-10-06)
+
+Reconciliation output: **640 ledger entries · 495 unique visited URLs · 413 unvisited leads**. T65 tried the FTG post’s distinct official oEmbed and embed/v2 endpoints; both blocked (HTTP 403). No body or new lead; no route or position-lock finding. No dimension closure/exhaustion.
