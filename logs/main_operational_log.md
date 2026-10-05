@@ -483,3 +483,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 29 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes, with one deliberate negative: the auth-walled article is recorded as **blocked, not visited**, with its HTTP 200 status kept beside the payload summary so the status alone can never be mistaken for a read. No content is claimed for it.
+
+## TURN 30 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**fourteenth** check). No new event content; nothing October-dated.
+
+## TURN 30 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-158 **FAQ category index** — **structural correction**: section counts are Core Principles 1, Parents' Guide 8, General FAQs 21, **Dream League Soccer FAQs 52**, Score! Hero 24, UCS 43, Score! Match 43. Our ~30-URL enumeration was therefore NOT the complete first-party spine; **retracted in the KB and the gate**. New high-value titles added to the frontier, incl. **360001369698 "Some game values and content have changed. Is this a bug?"**.
+- page-159 **change kit (7916959134737)**: My Club -> kit section; **home and GK kit** (diverges from the home/away description in the customisation article - recorded as a gap).
+- page-160 **control button text (14369944135058)**: buttons read **Low Kick / Hard Kick / Lofted Kick**; hide via **Game Settings > Display > Descriptive Button Text OFF**.
+- page-161 **device compatibility (214385685)**: Android **3,000+ devices**; iOS most devices; min OS varies by app; carrier/territory restrictions apply.
+- page-162 **mobile data (360005680437)**: Wi-Fi strongly recommended because most features need to be online.
+- page-157 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 30 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes, and its substance is a negative: the turn's main result is that **a coverage claim we had been repeating was wrong**. It is retracted in the KB and the gate in the same turn it was discovered, with the corrected count (52 DLS articles, ~30 read) stated plainly. The home/GK vs home/away divergence is logged as a gap rather than smoothed.

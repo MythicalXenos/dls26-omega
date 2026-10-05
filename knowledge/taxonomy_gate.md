@@ -310,3 +310,13 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **New retrieval failure class:** a Zendesk **auth wall returning HTTP 200**. Recorded so that no future pass mistakes a 200 for a read. (Do not retry 360015150438 with the fetch tool — it will return the login page again.)
 
 **Gate status:** no dimension closed. Support-article coverage is now deep; the remaining unread first-party items are mostly device/account/legacy-topic articles with low mechanics yield, plus a few auth-walled ones.
+
+## Turn 30 update (2026-10-05) — coverage claim corrected; first-party block NOT exhausted
+
+**Self-correction (important):** earlier turns described the first-party corpus as complete on the strength of a ~30-URL list. The FAQ index shows **52 DLS FAQ articles**, so roughly 22 remain unread. **The block is not exhausted and no exhaustion claim stands.** The full DLS section listing (`sections/203117809`) is the next fetch, because until it is read we cannot know what we are missing.
+
+**Why this matters beyond counting:** the unread titles include `Some game values and content have changed. Is this a bug?` — a likely first-party statement on rating/stat drift, which is the mechanism behind our ±1 cross-source conflicts and the DB estimate caveat. That single article could reframe conflict (h) from "database sloppiness" to "published values move between updates".
+
+**Standing lesson, second time this session:** do not infer completeness from a list that was never reconciled against an index. (First instance: the Turn-20 saturation claim; second: the "complete official spine" claim.)
+
+**Gate status:** no dimension closed; no exhaustion declared.
