@@ -62,3 +62,5 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [T94 supersedes T93; FTG `position changes` query complete] Page 1 (7/7 chunks) and page 2 (15/15) are fully read. Mixed-product/older-version results yielded no DLS26 squad-position lock rule; do not infer global absence. Do not repeat this exact API query. Keep the user-stated no-lock claim unverified and Cult Heroes route/rewards open; pursue only distinct first-party or in-game evidence.
 
 - [T95; distinct FTG API query, partial] `player position` returns 100 results/4 pages. Page 1 chunks 0–5/10 read; resume exact URL at `chunkIndex=6` (chunks 6–9 and pages 2–4 unread). Visible Score! Match/UCSS material and generic DLS stamina stats do not answer DLS26 squad-position locking. No absence inference; keep no-lock user-stated/unverified and Cult Heroes unresolved.
+
+- [T96 update; FTG `player position` query continues] Page 1 is complete (chunks 0–9/10); page 2 chunks 0–1/7 read. Resume page-2 URL at `chunkIndex=2` (chunks 2–6 and pages 3–4 unread). Mixed Score! Match/UCSS/DLS-generic results do not establish DLS26 position locking; no absence inference.
