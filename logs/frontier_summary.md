@@ -86,3 +86,8 @@ Regenerated 2026-10-03 Turn 3 from `logs/sources_visited.json` (derived, never h
 - https://sakibpro.com/tools/ (a Tools index linked from the simulator breadcrumb — may list further tools)
 - identity of sakibpro Classic record 26841 (ES GK 86, broken slug 'player') - likely a Spanish GK legend
 - per-stat weight COEFFICIENTS still unretrieved (model documented; +11 overflow + pair-selection found) - route: datamine files or sakibpro JS (curl blocked)
+
+
+## Turn 36 reconciliation (2026-10-05)
+
+Reconciliation script output: **499 ledger entries · 405 unique visited URLs · 388 unvisited leads**. Six retrievals were recorded, including three revisits; General FAQs `203171905` has 21 titles enumerated and an empty page 2. This is not an exhaustion declaration; do not infer yield or saturation from these totals alone.

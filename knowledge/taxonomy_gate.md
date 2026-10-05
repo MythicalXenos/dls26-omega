@@ -377,3 +377,14 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Two destructive controls, distinct:** Reset Profile (progress loss, 30-day limit) vs Delete Profile (device wipe, cancellable countdown). Both in Settings > Advanced.
 
 **Gate status:** no dimension closed.
+
+
+## Turn 36 update (2026-10-05) — provenance correction; General FAQ title census
+
+**Product attribution remains unresolved.** The five ids `7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, `17146555181585` are listed under the Ultimate Clash Soccer section. Turn 36 reopened three article bodies; they do not name a game, though promotion/sell pages link to UCS-specific articles and formation links to DLS19 legacy help. The saved ledger did not substantiate the prior claim that these ids also appeared in a DLS section listing; that claim is withdrawn. Do not label the articles DLS-specific or UCS-exclusive. Suspend the DLS claims until API metadata or explicit product language is captured. The bux/sell and kit conflicts remain open.
+
+**General FAQs enumeration is complete: 21 titles on section 203171905 page 1; page 2 empty.** Article-content coverage is still partial; enumeration alone does not close the source dimension or authorize an exhaustion declaration. FTS15 kit article 213892809 remains excluded.
+
+**Correction:** Turn 35's "new sixth title section" claim for 8 Ball Hero is wrong; it appears in Turn 30's category-index note. The complete category census is not verified from the partial two-chunk Turn-35 render.
+
+**Gate status:** no dimension closed; netcode is a first-party resolved sub-question, not a closed research dimension.

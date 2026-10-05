@@ -198,3 +198,8 @@ _started turn 56; appends as claims stabilize. Fields: confidence (high/medium/l
 | 100 | **Cross-operator discrepancy: Classic = 34 on sakibpro vs 32 on dlsinside** (2-record gap, unresolved). The Classic family also contains the nameless stub 26841 | medium-high | patch | S-0324 |
 | 101 | **Duplicate records are systematic in Classic, not incidental:** Matthäus 24596 + 27201 (both 86), Batistuta 24595 + 27204 (both 85), Bergkamp 25100 + 27202 (both 85) — same player, two IDs, same rating. Confirms the recycling pattern at record level | high | static | S-0324 |
 | 102 | **Batch-id law further refined: the 258xx range also mixes families.** James Rodríguez 25839 is World Cup Heroes while Messi 25841 and Ronaldo 25842 are Champion. This is the third range where id alone cannot determine family | high | static | S-0323 |
+
+
+## Turn 36 provenance correction
+
+Claims tied to article IDs `7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, and `17146555181585` are **product-attribution unresolved**. They are listed in the Ultimate Clash Soccer section, but the three bodies reopened this turn do not name a game; section placement and related links do not establish exclusivity. Withdraw the unsupported claim that these IDs appeared in a DLS section listing. Do not use their content as DLS-specific until product metadata or explicit in-article attribution is captured. The General FAQs section `203171905` has 21 enumerated titles; article reading remains partial.

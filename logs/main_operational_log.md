@@ -574,3 +574,14 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 35 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes, and deliberately conservative: the re-attribution is filed as **ATTRIBUTION UNCERTAIN** rather than flipped to a confident "these are UCS", because some ids also appeared under DLS listings and Zendesk can show one article in more than one section. Conflicts (n) and the kit divergence are **re-opened**, not silently resolved by the new finding. The netcode guarantee is recorded with its precise scope (opponent's line, not yours).
+
+
+## TURN 36 (2026-10-05) — attribution correction and General FAQs enumeration
+- Open 2026-10-05T10:52:53Z; initial HEAD `9560e60`, branch correct, no state drop. The one dirty path at open was the turn clock. Repo-local identity was set to `DLS26 Omega <omega@dls26.local>` before this turn's commits.
+- Six retrieval calls: page-193 monitoring (unchanged); page-194 promotion article; page-195 formation article; page-196 player-sale article; page-197 General FAQs section (21 titles); page-198 page-2 pagination check (empty).
+- **Attribution correction:** the three reopened bodies do not name a game. They are listed in the UCS section; two have UCS-specific related links. The previous claim that these ids appeared in a DLS section listing was not supported by the saved ledger and is withdrawn. Do not treat them as DLS-specific or UCS-exclusive. No dimension closed.
+- **General FAQs enumeration:** all 21 titles seen; page 2 empty. This closes enumeration only; linked article content remains partly unread.
+- **Census correction:** 8 Ball Hero was already recorded in Turn 30; Turn 35's "new sixth title" claim is withdrawn. Full category census remains unverified.
+- Reconciliation script output: **499 entries / 405 unique URLs visited / 388 unvisited leads**. Retrievals 6/6; total tool calls 10/10. No exhaustion declaration.
+- Bluff check: wording distinguishes section membership from exclusive game attribution; no unresolved article is relabelled. The General FAQs listing is not treated as article-body reading.
+- Close marker 2026-10-05T11:00:36Z (before commits/push).
