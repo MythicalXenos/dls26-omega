@@ -468,3 +468,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 28 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. Conflict (q) is recorded as a conflict; conflict (p) is recorded as leaning two-surfaces-to-one rather than being declared resolved; the scripting denial is explicitly scoped to multiplayer and the allegation left open for single player; the version-gated status of the older Season Pass article is carried into every fact taken from it.
+
+## TURN 29 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**thirteenth** check). No new event content; nothing October-dated.
+
+## TURN 29 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-152 **Facebook Login removed (9804887423121)**: dead route; old Facebook-stored profiles **unrecoverable**; use Apple/Google.
+- page-153 **customise kit/logo (360004080497)**: full customisation map - Players/Manager/Kit tabs; logo templates auto-render the team name; **Custom Logo section must be unlocked**; **512x512 max** URL import; kit png needs a specific layout; **shading/creases added at run-time**; Reset/Delete paths.
+- page-154 **emojis (360020938198)**: 6 by default, 6 equippable, extras earned or purchased; **Multiplayer Chat OFF in Settings > Game** disables them.
+- page-155 **opponent sees kit (360021064298)**: **imported kits/logos are not transferred in multiplayer** - local-only.
+- page-156 **DLS24-to-DLS25 profile (360015150438)**: **NOT READ - HTTP 200 with a Zendesk sign-in wall.** New failure class; do not retry via the fetch tool.
+- page-151 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 29 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes, with one deliberate negative: the auth-walled article is recorded as **blocked, not visited**, with its HTTP 200 status kept beside the payload summary so the status alone can never be mistaken for a read. No content is claimed for it.

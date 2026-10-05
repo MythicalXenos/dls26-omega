@@ -300,3 +300,13 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Practical frontier items closed:** the exact save-data menu path (Options → Advanced), the one-account rule, the silent-unlink trap, the clan entry-requirement/invite-code rule, and the Prize Ladder reward pool (which includes coaches).
 
 **Gate status:** no dimension closed. Dimensions 1–6 all carry first-party text; the live gaps are rates, thresholds, the Roles system, DLS-26-specific confirmation of unstamped text, and the two device-only timers.
+
+## Turn 29 update (2026-10-05) — account-security closed; customisation mapped; a new block class
+
+**Account security is now fully characterised first-party:** Facebook is a dead recovery route, Google/Apple are the only live link routes, Google Play Games and iCloud were never routes, and signing out silently unlinks. This is the practical risk item with the largest downside for the user, and it is now in the Step-5 package with the exact menu path.
+
+**Customisation mapped end to end** (tabs, import specs, run-time shading, deletion) and **bounded**: imported kits/logos are invisible to DLL opponents.
+
+**New retrieval failure class:** a Zendesk **auth wall returning HTTP 200**. Recorded so that no future pass mistakes a 200 for a read. (Do not retry 360015150438 with the fetch tool — it will return the login page again.)
+
+**Gate status:** no dimension closed. Support-article coverage is now deep; the remaining unread first-party items are mostly device/account/legacy-topic articles with low mechanics yield, plus a few auth-walled ones.
