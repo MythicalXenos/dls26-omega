@@ -16511,7 +16511,7 @@
       "source_type": "social/video search results",
       "language": "en",
       "payload_summary": "Ten results surfaced, mainly community Cult Heroes gameplay/tutorial videos; the top creator tutorial was opened as page-304. One result is labelled an official DLS26 teaser trailer from 2025 but is not route evidence. Search snippets are leads, not verified gameplay or FTG claims.",
-      "processing_state": "search results captured; selected video fetched separately",
+      "processing_state": "search results captured; selected video fetched separately in T61; stale duplicate lead retired in T89",
       "deception_screen": "Search-result snippets only.",
       "conflicts": "No current FTG-authored Cult Heroes tutorial identified by this query.",
       "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
@@ -16588,7 +16588,6 @@
         }
       ],
       "discovered_not_yet_visited": [
-        "https://www.youtube.com/watch?v=xTqeXimUjv4",
         "https://www.youtube.com/shorts/ro6fFJb8Vq0",
         "https://www.youtube.com/watch?v=bI6nEX5hjBg",
         "https://www.youtube.com/watch?v=WE8mXQhO6mw",
@@ -17526,7 +17525,19 @@
       "processing_state": "partial (all page-render chunks read; transcript excerpt does not establish the active mechanics)",
       "discovered_not_yet_visited": [
         "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos"
-      ]
+      ],
+      "additional_retrievals": [
+        {
+          "turn": "T89",
+          "tool": "functions.fetch_page chunkIndex=0, 1, 2",
+          "status": "success",
+          "total_chunks": 3,
+          "has_more_after_final_chunk": false,
+          "note": "Exact URL had already been fetched and all rendered chunks read in T61; this is a repeat, not new or independent evidence.",
+          "payload_summary": "Repeated page again identifies uploader as DroidCheat and gives a creator-authored “Cult Heroes Tournament Event Gameplay” description. Returned transcript/page text is match commentary and generic metadata; it provides no route, cost, or reward instructions. No independent visual verification."
+        }
+      ],
+      "last_retrieved_turn": "T89 exact-URL repeat; no new evidence"
     },
     {
       "event_type": "page_fetch",
@@ -19020,6 +19031,84 @@
         "DLS26 position-lock behavior unresolved"
       ],
       "processing_state": "discovery-only; no direct pages fetched; no new target-relevant lead identified",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t89-youtube-cult-heroes-search",
+      "url": "web-search://query?q=site%3Ayoutube.com%20%22First%20Touch%20Games%22%20%22Cult%20Heroes%22%20%22Dream%20League%20Soccer%202026%22",
+      "query": "site:youtube.com \"First Touch Games\" \"Cult Heroes\" \"Dream League Soccer 2026\"",
+      "domain": "youtube.com via web search; search provider not exposed",
+      "retrieved_at": "2026-10-05T22:50:33Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2); returned status=success",
+      "http_status": "not exposed; tool returned success",
+      "source_type": "search-result discovery only; no new page evidence",
+      "language": "English query/results",
+      "payload_path": "source_archive/t89_droidcheat_video_repeat_and_youtube_search.md",
+      "payload_summary": "Five YouTube result cards. The Cult Heroes video results are secondary creator content; one exact video URL is already page-312 from T61 and two are already queued leads. No new verified first-party source or mechanics.",
+      "results": [
+        {
+          "title": "Dream League Soccer 2026: Cult Heroes Tournament Gameplay - YouTube",
+          "url": "https://www.youtube.com/watch?v=xTqeXimUjv4",
+          "pageAge": "Friday, October 02, 2026",
+          "description": "Search result; URL was already fetched as page-312 in T61. The creator title/description is not first-party confirmation."
+        },
+        {
+          "title": "DLS 26 CULT HEROES TOURNAMENT CHAMPIONS WITH YAMAL - DLS CULT HEROES - YouTube",
+          "url": "https://www.youtube.com/watch?v=bI6nEX5hjBg",
+          "pageAge": "Friday, October 02, 2026",
+          "description": "Secondary video result; already retained as an unvisited lead. Search snippet only."
+        },
+        {
+          "title": "DLS 26 NEW EVENT FT CULT HEROES TOURNAMENT #shorts #dls #dls26 - YouTube",
+          "url": "https://www.youtube.com/shorts/ro6fFJb8Vq0",
+          "pageAge": "Friday, October 02, 2026",
+          "description": "Secondary video result; already retained as an unvisited lead. Search snippet only."
+        },
+        {
+          "title": "COMMENT TÉLÉCHARGER DREAM LEAGUE SOCCER 2026 - DLS 26 Android & iOS - YouTube",
+          "url": "https://www.youtube.com/watch?v=48Z_yczTkDk&vl=ar",
+          "pageAge": "Saturday, December 06, 2025",
+          "description": "Unrelated download-video result; no Cult Heroes route/reward detail."
+        },
+        {
+          "title": "DLS 2026",
+          "url": "https://www.youtube.com/@officialchennel-826/shorts",
+          "description": "Search card presents a generic “official” channel description, but the channel identity is unverified; not treated as FTG evidence."
+        }
+      ],
+      "deception_screen": "Search results/snippets and creator-authored descriptions are not first-party or in-game evidence. Do not treat missing results as absence.",
+      "conflicts": "Cult Heroes availability/route/rewards and DLS26 position-lock remain unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery-only; results do not establish official event mechanics",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t89-youtube-topic-channel-cult-heroes",
+      "url": "web-search://query?q=site%3Ayoutube.com%2Fchannel%2FUCBiqZpSo00VKwrWl4HXGiCA%20%22Cult%20Heroes%22",
+      "query": "site:youtube.com/channel/UCBiqZpSo00VKwrWl4HXGiCA \"Cult Heroes\"",
+      "domain": "youtube.com via web search; search provider not exposed",
+      "retrieved_at": "2026-10-05T22:50:33Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth 2); returned status=success",
+      "http_status": "not exposed; tool returned success",
+      "source_type": "search-result discovery only; no new page evidence",
+      "language": "English query/results",
+      "payload_path": "source_archive/t89_droidcheat_video_repeat_and_youtube_search.md",
+      "payload_summary": "Search returned zero result cards for this exact channel-ID/Cult Heroes query. Search output only; it is not proof of absence or that the channel is official.",
+      "results": [],
+      "deception_screen": "Search results/snippets and creator-authored descriptions are not first-party or in-game evidence. Do not treat missing results as absence.",
+      "conflicts": "Cult Heroes availability/route/rewards and DLS26 position-lock remain unresolved.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery-only; results do not establish official event mechanics",
       "discovered_not_yet_visited": []
     }
   ],

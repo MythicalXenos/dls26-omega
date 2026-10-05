@@ -978,3 +978,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 
 **T88 audit correction (2026-10-05T22:44:37Z):** Retrieval/discovery ended after tool call 9 (five retrievals total). Calls 10–17 were eight wrap-up calls, four above the four-call wrap-up ceiling; no retrieval occurred during wrap-up. Earlier T88 budget counts in the operational log, source archive, and handoff are superseded by this correction. The exact URL repeated in T88 was `Cult Hero Agents`; its T88 response is logged as a repeat, not independent evidence. The first sync attempt aborted before writing on the duplicate-URL check; the second wrote the source records but stopped before handoff-count/clock closeout. This call completes closeout and push.
+
+
+## TURN 89 (2026-10-06) — YouTube search triage and recovery
+
+- Opening reset: `fb9a2c0`, 258 project files untracked, upstream unset. Archive SHA-256 `2acf72e7d0648929be4eac6d744929ba875c4a99110905116438bdfa96d6f9f6`; restored `61637b1`; byte-verified 258/258 files. ISSUE-0014 #51 logged; upstream/identity restored.
+- Five retrieval calls: one YouTube web search, three chunk fetches for `xTqeXimUjv4`, and one channel-ID web search. The exact video URL was already page-312 in T61; the T89 retrieval is a repeat, not independent corroboration. Uploader is DroidCheat; creator-authored event wording is not FTG evidence. Returned text provides no route/cost/reward instruction. Channel-ID query returned zero result cards, not proof of absence.
+- Ledger: **693 entries / 512 unique visited URLs / 404 unvisited leads**. Retired the stale duplicate lead for the already-visited URL. No research dimension closed; no exhaustion declaration.
+- Source archive: `source_archive/t89_droidcheat_video_repeat_and_youtube_search.md`; snapshot: `snapshots/KB_snapshot_2026-10-06-turn89-youtube-followup.md`.

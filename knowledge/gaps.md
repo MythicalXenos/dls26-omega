@@ -124,3 +124,7 @@ FTG Help Center query now read through chunk6/8; chunk7 remains. Visible content
 
 ## T88 update — unresolved first-party checks
 The FTG `Special Players Events` response is complete (chunks 0–7/8). One exact Help Center query was repeated from an existing URL; two new exact queries yielded zero matches, and official-site search results were generic/older. None verifies Cult Heroes availability, route, cost, or rewards. DLS26 position-lock remains user-stated/unverified; device setup and in-game capture remain the decisive path. No gap closed. Provenance: `source_archive/t88_ftg_special_players_searches.md`.
+
+
+## T89 update — source repetition, no gap closure
+The `DroidCheat` Cult Heroes gameplay page re-fetched in T89 is the same exact URL already read in T61; do not treat it as independent evidence. The YouTube search results are secondary/discovery-only, and a channel-ID query returning zero results is not an absence finding. Route/rewards and DLS26 position-lock remain open.
