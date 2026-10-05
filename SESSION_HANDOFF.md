@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T20:58:32Z UTC, Turn 69. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T21:02:46Z UTC, Turn 70. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** local HEAD `fb9a2c0` with 220 project files untracked. Archived all 220 files (12,240,361 bytes), restored remote tip `70286da`, and byte-verified all 220 tracked files; only the expected T69 clock-start append differed. ISSUE-0014 occurrence #31 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger:** 647 entries · 502 unique visited URLs · 407 unvisited leads. One retrieval; five tool calls before wrap-up.
+- **Git repair at open:** local HEAD `fb9a2c0` with 221 project files untracked. Archived all 221 files (12,244,651 bytes), restored remote tip `10c4f54`, and byte-verified all 221 tracked files; only the expected T70 clock-start append differed. ISSUE-0014 occurrence #32 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger:** 648 entries · 503 unique visited URLs · 407 unvisited leads. One retrieval; five tool calls before wrap-up.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -27,9 +27,10 @@
 - **T67 source IDs:** `page-326-google-play-event-art-tall-t67` and `page-327-google-play-event-art-landscape-t67`; both image fetches returned HTTP 500, no payload. Note: `source_archive/t67_play_event_art_blocked.md`.
 - **T68 source ID:** `page-328-droidvillaz-new-event-video-t68`; secondary YouTube page, transcript-only, no Cult Heroes route/reward or position-lock evidence. Note: `source_archive/t68_droidvillaz_new_event_video.md`.
 - **T69 source ID:** `page-329-facebook-firsttouchgames-t69`; candidate profile URL returned HTTP 403 with no content; ownership/posts unknown. Note: `source_archive/t69_facebook_firsttouchgames_blocked.md`.
-- **Next exact action (Turn 70):**
+- **T70 source ID:** `page-330-tiktok-item-detail-api-t70`; distinct official item-detail endpoint returned HTTP 403 with no body for the FTG post. Note: `source_archive/t70_tiktok_api_blocked.md`.
+- **Next exact action (Turn 71):**
   1. Verify branch/status/identity and current session tip; repeat byte-verified recovery only if a reset is observed.
-  2. Continue only with distinct accessible first-party or in-game sources for Cult Heroes route/rewards and DLS26 position-lock behavior. The T69 candidate Facebook profile returned 403; do not repeat that exact URL. Do not repeat T67 Play image URLs, T66 social profiles, T65 TikTok endpoints, T60 Instagram, T59 searches, T58 channel/video-tab requests, T64 Facebook/X requests, or FTG `/dls` alias.
+  2. Continue only with distinct accessible first-party or in-game evidence for Cult Heroes route/rewards and DLS26 position-lock behavior. The T70 TikTok item-detail API returned 403; do not repeat it. Do not repeat T69 Facebook profile, T67 Play image URLs, T66 social profiles, T65 TikTok endpoints, T60 Instagram, T59 searches, T58 channel/video-tab requests, T64 Facebook/X requests, or FTG `/dls` alias.
   3. Step-3 device setup remains necessary for in-game route/timer and position behavior. Keep both questions open; no spending advice, confidence promotion, dimension closure, or exhaustion declaration.
   4. Reconcile source entries and frontier, snapshot only if KB changes, update handoff and push. PR #3 remains open and must not be merged.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -51,4 +52,4 @@
 
 ## Turn-end fields
 
-- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, and T68 `59b5d9d`/`70286da` are pushed. T69 research commit `7c778d5`; handoff commit follows. Close marker recorded in `logs/turn_clock.txt`. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, and T69 `7c778d5`/`10c4f54` are pushed. T70 research commit `1995080`; handoff commit follows. Close marker recorded in `logs/turn_clock.txt`. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
