@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T23:21:58Z",
+  "last_reconciled_at": "2026-10-05T23:25:37Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -19208,21 +19208,21 @@
       "retrieved_at": "2026-10-05T23:18:00Z",
       "language": "en-US",
       "retrieval_role": "discovery-search",
-      "tool": "functions.fetch_page chunks 0–5 (T95), chunks 6–9 (T96); page 1 complete; page 2 chunks 0–1 (T96)",
-      "http_status": "not exposed; all ten page-1 chunks and both page-2 chunks returned status=success",
+      "tool": "functions.fetch_page chunks 0–5 (T95), 6–9 (T96); page 1 complete; page 2 chunks 0–1 (T96), 2–6 (T97) complete; page 3 chunk 0 (T97)",
+      "http_status": "not exposed; all ten page-1, seven page-2, and page-3 chunk 0 fetches returned status=success",
       "source_type": "FTG public Zendesk Help Center search API",
-      "payload_path": "source_archive/t96_ftg_player_position_page2_progress.md",
-      "payload_summary": "FTG API reports 100 results across 4 pages (25 per page). Page 1 chunks 0–9/10 are complete; page 2 chunks 0–1/7 are read, chunks 2–6 remain, and pages 3–4 are unread. Visible material includes Score! Match player-type/stat content, an Ultimate Clash Soccer rules/attributes article, generic DLS player-stats and player-management articles, and DLS Leaderboards wording where position means rank. The UCSS and Score! Match behavior is another product; DLS stamina/workload text is not squad assignment/locking. No DLS26-specific position-lock conclusion; query remains partial.",
-      "deception_screen": "Broad mixed-product full-text results. Do not transfer Score! Match/UCSS behavior to DLS26, confuse DLS Leaderboard rank or generic workload with squad assignment, or infer absence from unread pages.",
+      "payload_path": "source_archive/t97_ftg_player_position_query_progress.md",
+      "payload_summary": "FTG API reports 100 results across 4 pages. Page 1 chunks 0–9/10 and page 2 chunks 0–6/7 are complete; page 3 chunk 0/9 is read, chunks 1–8 remain, and page 4 is unread. Visible results mix Score! Match/Score! Hero, Ultimate Clash Soccer, and generic DLS material. A DLS Leaderboards result uses “position” for end-of-season rank; UCSS roles/formation content is another product; DLS stamina wording concerns workload. No DLS26 squad-position assignment/lock guidance surfaced in the read portions. This remains a partial mixed-product search, not a global absence conclusion.",
+      "deception_screen": "Broad mixed-product full-text results. Do not transfer Score! Match/Score! Hero/UCSS behavior to DLS26 or confuse leaderboard rank, workload, roles, or control switching with squad-position locking.",
       "conflicts": "DLS26 no-position-lock remains user-stated/unverified; Cult Heroes availability, route, cost, and rewards remain unresolved.",
       "affected_kb_claims": [
         "DLS26 position-lock behavior unresolved"
       ],
-      "processing_state": "partial: 100 results/4 API pages; page 1 chunks 0–9/10 complete; page 2 chunks 0–1/7 read, chunks 2–6 unread; pages 3–4 unread; no query-wide conclusion",
+      "processing_state": "partial: 100 results/4 API pages; page 1 chunks 0–9/10 complete; page 2 chunks 0–6/7 complete; page 3 chunk 0/9 read, chunks 1–8 unread; page 4 unread; no query-wide conclusion",
       "discovered_not_yet_visited": [
-        "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=player+position [resume at functions.fetch_page chunkIndex=2; page 2 chunks 2–6 unread; pages 3–4 unread]"
+        "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=player+position [resume at functions.fetch_page chunkIndex=1; page 3 chunks 1–8 and page 4 unread]"
       ],
-      "last_retrieved_at": "2026-10-05T23:21:58Z"
+      "last_retrieved_at": "2026-10-05T23:25:37Z"
     },
     {
       "event_type": "discovery_search",
@@ -19233,25 +19233,48 @@
       "retrieved_at": "2026-10-05T23:21:58Z",
       "language": "en-US",
       "retrieval_role": "discovery-search",
-      "tool": "functions.fetch_page chunkIndex=0–1 (T96); page 2 response has 7 rendered chunks",
-      "http_status": "not exposed; both chunk fetches returned status=success",
+      "tool": "functions.fetch_page chunks 0–1 (T96), chunks 2–6 (T97); page 2 complete (7 rendered chunks)",
+      "http_status": "not exposed; all seven page-2 chunk fetches returned status=success",
       "source_type": "FTG public Zendesk Help Center search API",
-      "payload_path": "source_archive/t96_ftg_player_position_page2_progress.md",
-      "payload_summary": "Page 2 of the 100-result/4-page `player position` API query has 7 rendered chunks; chunks 0–1 read, 2–6 unread. Visible results include explicit Ultimate Clash Soccer attributes content, a DLS `Leaderboards` article using “position” to mean rank, and other generic/older-product player help. These do not establish DLS26 squad-position assignment/locking. Page 2 is partial; no query-wide conclusion.",
-      "deception_screen": "Mixed products and topics; do not treat leaderboard ranking or UCSS role/attribute text as DLS26 squad-position rules.",
+      "payload_path": "source_archive/t97_ftg_player_position_query_progress.md",
+      "payload_summary": "Page 2 of the 100-result/4-page `player position` API query has 7 rendered chunks; chunks 0–6 are now read. Visible material includes an Ultimate Clash Soccer attributes/rules/matchmaking section, a DLS Leaderboards article (360003914998) where “position” means standing/rank, and generic DLS squad-expansion help plus other products. None states a DLS26 squad-position assignment/lock rule. Page 2 is complete, but pages 3–4 of the overall search remain partial/unread.",
+      "deception_screen": "Mixed FTG products and topics; do not treat leaderboard ranking or UCSS role/attribute text as DLS26 squad-position rules.",
       "conflicts": "DLS26 no-position-lock remains user-stated/unverified; Cult Heroes availability, route, cost, and rewards remain unresolved.",
       "affected_kb_claims": [
         "DLS26 position-lock behavior unresolved"
       ],
-      "processing_state": "partial: page 2/4 of 100-result API response; chunks 0–1/7 read, chunks 2–6 unread; no query-wide conclusion",
-      "discovered_not_yet_visited": [
-        "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=player+position [resume at functions.fetch_page chunkIndex=2; chunks 2–6 unread]"
+      "processing_state": "complete for API page 2/4: chunks 0–6/7 read; overall player-position search remains partial (page 3 chunk 0 read; page 4 unread)",
+      "discovered_not_yet_visited": [],
+      "last_retrieved_at": "2026-10-05T23:25:37Z"
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t97-ftg-player-position-page3",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=player+position",
+      "query": "player position (API page 3)",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T23:25:37Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page chunkIndex=0 (T97); page 3 response has 9 rendered chunks",
+      "http_status": "not exposed; chunk fetch returned status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t97_ftg_player_position_query_progress.md",
+      "payload_summary": "Page 3 of the 100-result/4-page API query has 9 rendered chunks; only chunk 0 has been read. Visible results include an Ultimate Clash Soccer article and Score! Hero/player-matchmaking help, not DLS26 squad-position guidance. Chunks 1–8 and API page 4 remain unread; no query-wide conclusion.",
+      "deception_screen": "Mixed FTG products. Do not transfer UCSS/Score! Hero help to DLS26 or infer absence from the partial page.",
+      "conflicts": "DLS26 no-position-lock remains user-stated/unverified; Cult Heroes availability, route, cost, and rewards remain unresolved.",
+      "affected_kb_claims": [
+        "DLS26 position-lock behavior unresolved"
       ],
-      "last_retrieved_at": "2026-10-05T23:21:58Z"
+      "processing_state": "partial: page 3/4; chunk 0/9 read; chunks 1–8 unread; page 4 unread; no query-wide conclusion",
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=player+position [resume at functions.fetch_page chunkIndex=1; chunks 1–8 unread; page 4 unread]"
+      ],
+      "last_retrieved_at": "2026-10-05T23:25:37Z"
     }
   ],
   "frontier": {
-    "visited_total": 516,
+    "visited_total": 517,
     "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
@@ -19658,7 +19681,7 @@
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
       "https://www.youtube.com/watch?v=zV0A6TI-BLY",
-      "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=player+position [resume at functions.fetch_page chunkIndex=2; chunks 2–6 unread; pages 3–4 unread]"
+      "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=3&per_page=25&query=player+position [resume at functions.fetch_page chunkIndex=1; chunks 1–8 unread; page 4 unread]"
     ]
   }
 }

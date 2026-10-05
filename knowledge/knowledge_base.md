@@ -1399,3 +1399,8 @@ A distinct FTG Help Center API query reports 100 results across four pages. Page
 ## TURN 96 (2026-10-06) — FTG `player position` query progressed
 
 Completed page 1 of the 100-result/four-page Help Center query (`player position`; chunks 0–9/10), then read page 2 chunks 0–1/7. The response mixes Score! Match and UCSS text with generic DLS stats/player-management and a DLS Leaderboards result using “position” for rank. No DLS26 squad-position lock guidance is established. Page 2 chunks 2–6 and API pages 3–4 remain unread; resume at chunkIndex 2. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain open. Provenance: `source_archive/t96_ftg_player_position_page2_progress.md`.
+
+
+## TURN 97 (2026-10-06) — FTG `player position` query progressed
+
+Completed API page 2 (chunks 0–6/7) and read page 3 chunk 0/9. The 100-result/four-page search remains partial. DLS Leaderboards text uses “position” for ranking; UCSS role/attribute/matchmaking material concerns a different product; generic DLS squad expansion and player workload do not address DLS26 squad-position assignment/locking. No DLS26 lock rule surfaced in the portions read; no absence inference. Resume page 3 at chunkIndex 1. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t97_ftg_player_position_query_progress.md`.

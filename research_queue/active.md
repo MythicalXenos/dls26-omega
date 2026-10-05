@@ -64,3 +64,5 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [T95; distinct FTG API query, partial] `player position` returns 100 results/4 pages. Page 1 chunks 0–5/10 read; resume exact URL at `chunkIndex=6` (chunks 6–9 and pages 2–4 unread). Visible Score! Match/UCSS material and generic DLS stamina stats do not answer DLS26 squad-position locking. No absence inference; keep no-lock user-stated/unverified and Cult Heroes unresolved.
 
 - [T96 update; FTG `player position` query continues] Page 1 is complete (chunks 0–9/10); page 2 chunks 0–1/7 read. Resume page-2 URL at `chunkIndex=2` (chunks 2–6 and pages 3–4 unread). Mixed Score! Match/UCSS/DLS-generic results do not establish DLS26 position locking; no absence inference.
+
+- [T97 update; FTG `player position` query] API page 2 is complete (chunks 0–6/7); page 3 chunk 0/9 read. Resume exact page-3 URL at `chunkIndex=1` (chunks 1–8 and page 4 unread). Leaderboard “position” is rank; UCSS/Score! material is not DLS26 evidence. No absence inference.

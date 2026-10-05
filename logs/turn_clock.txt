@@ -113,3 +113,6 @@ T95 CLOSE 2026-10-05T23:18:00Z (2026-10-06 05:18:00 +06).
 
 T96 START 2026-10-06 05:20:43 +06 — resume FTG player position API page 1 at chunkIndex=6; reconcile checkout before research.
 T96 CLOSE 2026-10-05T23:21:58Z (2026-10-06 05:21:58 +06).
+
+T97 START 2026-10-06 05:24:41 +06 — resume FTG player position API page 2 at chunkIndex=2; reconcile checkout before research.
+T97 CLOSE 2026-10-05T23:25:37Z (2026-10-06 05:25:37 +06).
