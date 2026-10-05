@@ -126,3 +126,8 @@ Reconciliation script output: **535 ledger entries · 435 unique visited URLs ·
 ## Turn 43 reconciliation (2026-10-05)
 
 Reconciliation script output: **541 ledger entries · 440 unique visited URLs · 380 unvisited leads**. Parents’ Guide title enumeration is 8/8; two bodies read. General FAQ body reading is 20/21. Gem and connection articles are Score! Match, not DLS.
+
+
+## Turn 44 reconciliation (2026-10-05)
+
+Reconciliation output: **547 ledger entries · 445 unique URLs visited · 379 unvisited leads**. Parents’ Guide title enumeration 8/8; article bodies 7/8. General FAQ bodies 20/21. Turn 43 Score! Match article reattributions stand; no dimension closed.

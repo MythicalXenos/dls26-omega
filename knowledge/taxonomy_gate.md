@@ -425,3 +425,8 @@ Zendesk article JSON assigns `360017063617` (Super Players) and `360000001969` (
 ## Turn 43 update (2026-10-05) — Parents’ Guide index and source attribution
 
 Parents’ Guide section `360000030369` renders all eight advertised titles; two articles read this turn (third-party purchase-site warning, purchase-not-received troubleshooting). Six bodies remain unread. Zendesk metadata assigns both `360000002405` and `360000420025` to Score! Match FAQs (`115001619089`), not DLS. General FAQ coverage remains 20/21. No dimension closed.
+
+
+## Turn 44 update (2026-10-05) — General FTG Parents’ Guide policies
+
+Five additional Parents’ Guide bodies read: purchase restrictions, refunds, age/general policy, age confirmation/personalization, and contact details. These pages are generic and unstamped; do not represent them as DLS26 settings, store-specific current steps, or an age rating. Ads-personalization text says ads remain but become generic if personalization is off. Parents’ Guide body coverage is 7/8; `360000191485` In-App Chats is the only remaining body. General FAQ reading remains 20/21. No dimension closed.

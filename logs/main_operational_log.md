@@ -657,3 +657,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation output: **541 entries / 440 unique URLs visited / 380 unvisited leads**. Retrievals 6/6; total tool calls 9/10. No exhaustion declaration.
 - Bluff check: no DLS-26 rates/network behavior are inferred from Score! Match documents; generalized Parents’ Guide text is not version-specific.
 - Close marker 2026-10-05T15:46:24Z (before commits/push).
+
+
+## TURN 44 (2026-10-05) — Parents’ Guide article sweep
+- Open 2026-10-05T15:48:43Z: expected HEAD `832ab96`, correct branch and repo-local identity; only clock dirty. No state drop.
+- Six retrievals: dlskiturl monitor; five Parents’ Guide bodies (purchase restrictions, refunds, age policy, age confirmation/ads, contact details). Final Parents’ Guide article `360000191485` remains unread.
+- General Parents’ Guide pages are not DLS26-specific and have no verified build stamp. Their OS menu paths are not treated as current; no settings changes recommended.
+- Reconciliation output: **547 entries / 445 unique URLs visited / 379 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide bodies **7/8**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T15:51:01Z (before commits/push).

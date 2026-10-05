@@ -251,3 +251,8 @@ Zendesk metadata assigns `360017063617` (Super Players) and `360000001969` (play
 ## Turn 43 section attribution and Parents’ Guide
 
 Zendesk metadata assigns `360000002405` (Gem purchase) and `360000420025` (connection issues) to Score! Match FAQs section `115001619089`; do not use either as DLS-specific guidance. Parents’ Guide section `360000030369` lists eight article titles. `360000191445` warns about third-party “free gems”/unlimited-currency sites and says external virtual-currency trading is not allowed; `360000205129` says verify Charged status, restart with a strong connection, reopen, enter Shop to validate, then contact support if unresolved. Both are general, unversioned guidance.
+
+
+## Turn 44 Parents’ Guide articles
+
+Five unversioned general FTG pages read: `360000191385` (purchase authentication/restriction steps for Apple and Google Play), `360000205049` (FTG says Apple refunds are controlled by Apple; Google Play users use purchase history/Report a problem; contact FTG only if referred), `360000204889` (FTG’s general 13+ statement and parental-control links), `4408249822609` (age-banding and ad/notification personalization), and `360000191545` (support form, no phone support, billing privacy). Do not treat the page text as current DLS26 menu instructions or a DLS app-store age rating. On `4408249822609`, FTG says turning personalization off yields generic ads, not no ads; youngest band is permanently unpersonalized. DLS video-clips and Facebook-login links were discovered; see reconciled frontier.
