@@ -111,3 +111,8 @@ Reconciliation script output: **517 ledger entries · 420 unique visited URLs ·
 ## Turn 40 reconciliation (2026-10-05)
 
 Reconciliation script output: **523 ledger entries · 425 unique visited URLs · 379 unvisited leads**. General FAQ bodies read: **16/21**. Save-route conflict remains unresolved; no exhaustion claim.
+
+
+## Turn 41 reconciliation (2026-10-05)
+
+Reconciliation script output: **529 ledger entries · 430 unique visited URLs · 377 unvisited leads**. General FAQ body coverage: **20/21**; the FTS15 kit item remains intentionally unread. Super Players product scope is open pending section metadata.

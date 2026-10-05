@@ -627,3 +627,13 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - General FAQ body coverage: **16/21** per ledger reconciliation output. Reconciliation output: **523 entries / 425 unique URLs visited / 379 unvisited leads**. Retrievals 6/6; total tool calls 9/10. No exhaustion declaration.
 - Bluff check: Zendesk dates are metadata, not game-version evidence; old comments were excluded.
 - Close marker 2026-10-05T15:01:12Z (before commits/push).
+
+
+## TURN 41 (2026-10-05) — General FAQ closeout pass
+- Open 2026-10-05T15:13:13Z: expected HEAD `a10e3a5`, correct branch; only turn clock dirty. No state drop; identity verified.
+- Six retrievals: page-223 monitoring (unchanged); pages 224–227 contact, DLS Classic download, DLS Classic kit, FTS15 download; page-228 Super Players.
+- General FAQ article-body coverage: **20/21** per reconciliation output; only `213892809` remains unread and is explicitly excluded as an FTS15 kit article.
+- Legacy download/kit guidance is recorded as DLS Classic or FTS15 only, not DLS26. Super Players page provides a grey/gold background and event/rare-package claim but no product/version name; keep as an unassigned lead pending API metadata.
+- Reconciliation output: **529 entries / 430 unique URLs visited / 377 unvisited leads**. Retrievals 6/6; total tool calls 8/10. No exhaustion declaration.
+- Bluff check: product scope is not inferred from the article title or related links; legacy comments/claims are not promoted to DLS26 facts.
+- Close marker 2026-10-05T15:14:47Z (before commits/push).

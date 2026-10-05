@@ -410,3 +410,8 @@ General FAQs: 15/21 article bodies read, 21/21 titles enumerated. No dimension c
 ## Turn 40 update (2026-10-05) — account-save conflict retained
 
 Zendesk metadata places `214387685`, `360000603398`, and `360000613657` in General FAQs (`203171905`); DLS article `4413273241873` is in DLS FAQs (`203117809`). Metadata reports `outdated=false` for all, but `edited_at` differs from `updated_at`; none carries DLS build/version applicability. The Google Play Games/iCloud save-route contradiction therefore remains unresolved. Do not promote the support text into a current DLS-26 instruction or advise switching settings. General FAQ body coverage: 16/21. No dimension closed.
+
+
+## Turn 41 update (2026-10-05) — General FAQ body coverage
+
+Four remaining FAQ bodies read: contact, DLS Classic availability/kit instructions, and FTS15 availability. They concern support workflow or legacy titles and do not establish DLS26 behavior. Coverage is 20/21 bodies; the only un-read title is FTS15 kit article 213892809, intentionally excluded. New lead `360017063617` describes Super Players with grey/gold shiny backgrounds, but its product/version scope is unstated; verify API section metadata before using it in the card-tier taxonomy. No dimension closed.

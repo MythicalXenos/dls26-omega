@@ -232,3 +232,12 @@ All three are first-party, unstamped articles. Conflict unresolved; don't reconc
 Zendesk metadata: backup/restore article `214387685` is General FAQs section `203171905`, edited 2024-05-15, updated 2026-09-28; Google Play Games and iCloud setup articles `360000603398` / `360000613657` are also in `203171905`, edited 2020-06-04, updated 2026-07-19; DLS transfer article `4413273241873` is DLS FAQs section `203117809`, edited 2024-12-06, updated 2026-09-28. All are marked `outdated=false`; none has a DLS version stamp. Do not resolve their conflicting save-route instructions by recency alone.
 
 Article `360001099097` official body sets non-commercial/gameplay-use conditions (no game music, no false endorsement, limited trademark use, no mixing or repurposing content, EULA compliance, no misleading unpublished-update claim, and non-offensive content). Historic user comments are not evidence.
+
+
+## Turn 41 support and legacy-title claims
+
+- `360000309705`: FTG support request or community forum are the two routes stated.
+- `214387905`: Dream League Soccer Classic removed from stores; new users cannot obtain it; article mentions iOS 11 no longer running older 32-bit apps. Legacy product only.
+- `214421705`: DLS Classic kit-import template and direct PNG URL workflow; logo URL max 512x512; not DLS26.
+- `213853689`: FTS15 removed from stores and unavailable to new users; legacy product only.
+- `360017063617`: “Super Players” described as rare enhanced player types from Events/rare packages with grey or gold shiny background. Game/version scope not stated; await section metadata.
