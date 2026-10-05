@@ -682,3 +682,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Six retrievals: dlskiturl monitor plus five Zendesk article JSON records (blocked DLS, DLS19-in-DLS25, mobile data, DLS User ID, Score! Match User ID).
 - Reconciliation output: **559 entries / 455 unique URLs / 382 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T16:04:13Z (before commits/push).
+
+
+## TURN 47 (2026-10-05) — Help Center scope reconciliation
+- Open 2026-10-05T16:14:06Z: expected HEAD `35c1698`, correct branch and identity; only clock dirty. No state drop.
+- Six retrievals: dlskiturl monitor; four Zendesk API records (three Score! Match pages misfiled among generic leads, one DLS graphics page); one DLS save-data candidate that rendered the FTG not-found page.
+- Candidate IDs 360008904718, 360004717278, 360005680437 and the other user-specific DLS support pages were body-read previously; no body re-fetch. `441327324187` is distinct from `4413273241873`.
+- Reconciliation output: **565 entries / 460 unique URLs / 377 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tools 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T16:16:17Z (before commits/push).

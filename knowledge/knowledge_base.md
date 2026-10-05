@@ -979,3 +979,23 @@ Turn 46 checked the ledger before retrieval: bodies for `360008904718` (blocked 
 - All five Zendesk records are not marked outdated, but none adds a DLS26-specific build/version stamp. The Score! Match duplicate is explicitly excluded as DLS evidence.
 - Parents’ Guide remains **8/8 titles and bodies**; General FAQs remain **21/21 titles and 20/21 bodies**. `213892809` remains intentionally unfetched.
 - dlskiturl unchanged on the **thirtieth** check: same nine front-page items, no new October-dated item.
+
+
+## TURN 47 (2026-10-05) — Score! Match scope corrections; DLS graphics article; save-ID typo
+
+### Three previously unvisited “player type/currency” Help Center records
+Zendesk API metadata resolves all three to **Score! Match FAQs section `115001619089`**, not DLS:
+- `360000011145` (free currency): created 2018-01-16; edited 2018-02-12; updated 2026-07-09; `outdated=false`. The body explicitly names Score! Match: Bux/Gems from Packages, extra Bux via Video Packages/ads, which appear occasionally.
+- `360000002205` (unlock player types): created 2018-01-15; edited 2018-01-30; updated 2026-09-10; `outdated=false`. Packages, per-Arena limits, and Arena-cover info are Score! Match mechanics.
+- `360000250309` (where to see player types): created/edited 2018-02-09; updated 2026-07-09; `outdated=false`. Body gives Score! Match Squad → Captain → Customise → green player button.
+Do not use any of these as DLS free-currency routes, player-acquisition rules, or role instructions.
+
+### DLS graphics Help Center article
+`360000598437` belongs to DLS FAQs section `203117809`; created 2018-11-20; edited 2021-12-09; updated 2026-07-22; `outdated=false`. Its unversioned body says Android only: Options → Advanced → Graphics Options. It describes FPS and quality settings, hardware dependence, a 30-FPS cap in low-battery/power-saving conditions, and troubleshooting; safe mode after three immediate launch/shutdown cycles is offered to revert graphics settings if the game will not run. No DLS26 build stamp; verify the user's device/menu before giving actionable steps.
+
+### Broken save-data URL distinction
+The unvisited candidate URL with article ID `441327324187` rendered FTG’s “page you were looking for doesn’t exist” message. `fetch_page` reported overall success but exposed no numeric HTTP code; the ledger therefore records the exact HTTP status as unknown, not guessed. This is **not** the different, previously read DLS save-data article `4413273241873`; do not merge them.
+
+### Monitoring and coverage
+- dlskiturl unchanged on the **thirty-first** check: same nine front-page items, no new October-dated item.
+- General FAQ titles remain **21/21 enumerated**, bodies read **20/21**. Parents’ Guide remains **8/8 titles and bodies**. FTS15 article `213892809` remains intentionally unfetched.

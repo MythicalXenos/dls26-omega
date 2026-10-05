@@ -141,3 +141,8 @@ Reconciliation output: **553 ledger entries · 450 unique visited URLs · 380 un
 ## Turn 46 reconciliation (2026-10-05)
 
 Reconciliation output: **559 ledger entries · 455 unique visited URLs · 382 unvisited leads**. General FAQs 20/21 bodies; Parents’ Guide 8/8. Score! Match User ID article `37083387788434` excluded from DLS scope.
+
+
+## Turn 47 reconciliation (2026-10-05)
+
+Reconciliation output: **565 ledger entries · 460 unique URLs visited · 377 unvisited leads**. General FAQ bodies 20/21; Parents’ Guide bodies 8/8. Three Score! Match articles removed from DLS scope; DLS graphics article unversioned.

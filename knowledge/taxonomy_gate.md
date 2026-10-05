@@ -440,3 +440,8 @@ Parents’ Guide article `360000191485` says FTG apps do not use private chat fa
 ## Turn 46 update (2026-10-05) — DLS article metadata and User ID disambiguation
 
 Metadata confirms blocked-from-playing, DLS19-in-DLS25, mobile-data, and DLS User ID articles in DLS FAQs section 203117809. They remain unstamped for DLS26. A similarly titled User ID article `37083387788434` is in Score! Match FAQs section 115001619089; do not mix its route with DLS. DLS19→DLS25 transfer text does not settle DLS25→DLS26. Parents’ Guide coverage stays 8/8; General FAQ reading stays 20/21. No dimension closed.
+
+
+## Turn 47 update (2026-10-05) — Score! Match articles excluded; DLS graphics guidance
+
+API metadata places `360000011145` (free currency), `360000002205` (unlock player types), and `360000250309` (where to see player types) in Score! Match FAQs `115001619089`. Exclude them from DLS. Graphics article `360000598437` is in DLS FAQs `203117809`, but has no DLS26 stamp and its menu path is unverified for the user's device. Candidate save URL `441327324187` rendered a not-found page; do not confuse with valid, previously read ID `4413273241873`. Parents’ Guide remains 8/8; General FAQs remain 20/21. No dimension closed.

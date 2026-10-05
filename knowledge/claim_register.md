@@ -266,3 +266,8 @@ Five unversioned general FTG pages read: `360000191385` (purchase authentication
 ## Turn 46 — DLS metadata and product-specific User ID routes
 
 Zendesk section metadata places `37082887837202` (DLS User ID), `360005680437` (DLS mobile data), `360008904718` (blocked from DLS), and `360004717278` (DLS19 profile in DLS25) in DLS FAQs `203117809`; none confirms DLS26-specific applicability. DLS User ID route: Options → Advanced → System Info → Copy Info. The similarly named `37083387788434` is in Score! Match FAQs `115001619089`, with different blue-gear steps; never attribute it to DLS. The DLS19→DLS25 article does not settle DLS25→DLS26 transfer.
+
+
+## Turn 47 — support article product attribution and DLS graphics
+
+`360000011145`, `360000002205`, and `360000250309` are Score! Match FAQs (`115001619089`) and are not DLS evidence. `360000598437` is DLS FAQs (`203117809`), but the graphics instructions are unversioned and not verified for DLS26/current device. Article ID `441327324187` rendered an FTG not-found page; its exact HTTP code was not exposed. It is distinct from DLS save-data article `4413273241873`.
