@@ -166,3 +166,8 @@ Reconciliation output: **583 ledger entries · 469 unique URLs · 368 unvisited 
 ## Turn 51 reconciliation (2026-10-05)
 
 Reconciliation output: **589 ledger entries · 473 unique URLs · 381 unvisited leads**; stale annotations removed 3. General FAQ bodies 20/21; Parents’ Guide 8/8. GamingOnPhone guide remains partial at chunk 0/2.
+
+
+## Turn 52 reconciliation (2026-10-05)
+
+Reconciliation output: **595 ledger entries · 477 unique URLs · 381 unvisited leads**; stale annotations removed 4. General FAQ bodies 20/21; Parents’ Guide 8/8. GamingOnPhone DLS26 guide complete; DLS2025 resource/division guides and BlueStacks guide remain partial.

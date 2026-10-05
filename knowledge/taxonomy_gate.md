@@ -465,3 +465,8 @@ All 5 policy chunks read. The 2026-02-13 FTG-wide policy describes possible devi
 ## Turn 51 update (2026-10-05) — secondary guide not confirmed
 
 DLSInside Champions/Classic detail pages did not render names; no roster evidence. GamingOnPhone DLS26 career guide is only partially read and makes secondary claims about transfer refresh, chemistry, training, accommodation, stadium/commercial rewards and coach release odds; require FTG/user-screen validation. DLSKitURL archives are kit posts, not mechanics. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.
+
+
+## Turn 52 update (2026-10-05) — secondary guides and older-version claims
+
+GamingOnPhone DLS26 career article completed (published/updated 2026-01-27), still secondary. Its DLS2025 coin/gem/division articles are only chunk 0/2 read; all numerical claims (13/21% commercial bonus, 400 SP, 10-day season, 75/500 scouts, etc.) remain historical/unverified for DLS26. BlueStacks DLS26 guide is partial and textually overlaps GamingOnPhone; not independent corroboration. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.

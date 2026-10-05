@@ -1078,3 +1078,24 @@ The guide’s first chunk makes secondary-source claims that the transfer market
 - Turn opened at `fb9a2c0` with project paths untracked. Backup/fetch/reset to `deb5672`; byte comparison verified **200 files identical**. No content lost or force-push; ISSUE-0014 occurrence #13 recorded.
 - dlskiturl unchanged on the **thirty-fifth** check: same nine front-page items, no new October-dated item.
 - General FAQ bodies **20/21**; Parents’ Guide **8/8**. No exhaustion declaration.
+
+
+## TURN 52 (2026-10-05) — secondary guide pages read; version caveats retained
+
+### GamingOnPhone DLS26 Career guide now complete
+Chunk 1 completes the DLS26 Career Mode guide; byline Saurabh Shetty, published/updated 27 Jan 2026. It says Challenges reward Coins and Gems and most Daily Challenges are simple/under an hour. The article remains secondary and should not be used as FTG-confirmed mechanics without first-party/user-screen verification.
+
+### GamingOnPhone DLS2025 resource/progression guides (partial)
+Three pages fetched are explicitly DLS2025, each only chunk 0/2 read. Historical numbers/rules must not be silently carried forward into DLS26:
+- **Coins:** Commercial Level II/III claimed +13%/+21% bonus; login cycle 20 days; 400 SP Season Pass activation; 40 free SP/day; 10-day season; 1,095 free-pass Coins; Progression Bank; Daily Scenario 50 Coins; monthly/special cup and DLP claims.
+- **Gems:** claimed 20-day login cycle; challenge/Academy Gem rewards; higher-division increases; 10 Gems per Global Challenge Cup round; Dream League Live weekly/match rewards; 400-SP activation and 10-day bank; suggested gem spending on facilities, coaches, agents and boosts.
+- **Division progression:** claimed 15-game objective window; max Medical Centre; release unwanted players for Fitness Coaches; Common Scout 75 Coins vs Legendary 500 and a 5% Common-Scout Legendary chance.
+These are secondary, dated to the DLS2025 generation in their titles; remaining chunk(s) unread.
+
+### BlueStacks DLS26 character guide (partial; wording overlap)
+BlueStacks guide is dated June 2, 2026, but its chunk 0/3 uses very close wording and structure to the GamingOnPhone DLS26 article about Players/Coaches/Physios, facilities and transfer “chemistry”. Treat the pair as non-independent until provenance is established. BlueStacks restates (without FTG verification) the facility/market claims above; chunks 1–2 remain unread.
+
+### Recovery, monitoring and coverage
+- Turn opened at `fb9a2c0` with project paths untracked. Backup/fetch/reset to remote `0f9ee4c`; byte comparison verified **201 files identical**. No content loss or force-push; ISSUE-0014 occurrence #14 recorded.
+- dlskiturl unchanged on the **thirty-sixth** check: same nine front-page items, no new October-dated item.
+- General FAQs **21/21 titles, 20/21 bodies**; Parents’ Guide **8/8 titles and bodies**. No exhaustion declaration.

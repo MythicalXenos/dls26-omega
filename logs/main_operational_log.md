@@ -723,3 +723,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - DLSInside pages lacked names; GamingOnPhone claims remain unverified; archive pages are kit listings, not game mechanics.
 - Reconciliation output: **589 entries / 473 unique URLs / 381 unvisited leads**; stale annotations removed **3**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; calls 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T18:58:59Z (before commits/push).
+
+
+## TURN 52 (2026-10-05) — recovery and secondary guide sweep
+- Open 2026-10-05T19:09:26Z: `fb9a2c0`, project tree untracked. Backup/fetch/reset to remote `0f9ee4c`; byte-checked **201 files, all identical**. No loss/no force-push. ISSUE-0014 occurrence #14 logged.
+- Six retrievals: dlskiturl monitor; GamingOnPhone DLS26 guide chunk 1/2 (completed); DLS2025 coins/gems/division guides chunk 0/2 each; BlueStacks DLS26 character guide chunk 0/3.
+- DLS2025 figures are not carried forward; BlueStacks/GamingOnPhone wording overlap noted.
+- Reconciliation output: **595 entries / 477 unique URLs / 381 unvisited leads**; stale annotated leads removed **4**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; calls 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T19:11:08Z (before commits/push).

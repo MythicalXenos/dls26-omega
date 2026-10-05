@@ -291,3 +291,8 @@ FTG Privacy Policy last-updated 2026-02-13, read in all 5 chunks. It makes gener
 ## Turn 51 — unverified secondary career guide
 
 GamingOnPhone DLS26 guide chunk 0/2 claims transfer refresh after matches, market quality/“chemistry,” coin/gem Scout-Agent routes, Training Centre unlocking formations, Accommodation expanding squad size, Stadium/Commercial coin bonuses, and Legendary-release Coach uncertainty. No FTG validation yet. DLSInside Champions and Classic pages rendered no names, only unlabeled numbers; no roster inference. DLSKitURL archives list kits/event articles but do not verify game mechanics.
+
+
+## Turn 52 — DLS guides (secondary; version scope)
+
+GamingOnPhone DLS26 career guide published/updated 2026-01-27; all chunks read. DLS2025 coin/gem/division guides are partial and contain numerical claims not validated for DLS26 (e.g., commercial +13/+21%, 400 SP, ten-day pass, scout 75/500). BlueStacks June-2026 DLS26 guide repeats GamingOnPhone wording closely; do not count as independent confirmation. Remaining BlueStacks chunks and three DLS2025 guide chunks remain unread.
