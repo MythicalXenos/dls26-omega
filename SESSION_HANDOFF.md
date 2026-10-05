@@ -1,24 +1,25 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T18:59:00Z UTC, Turn 51. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T19:11:08Z UTC, Turn 52. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** expected `deb5672`; actual `fb9a2c0` with project tree untracked. Backup/fetch/reset to `deb5672`, byte-compared 200 files with no differences. ISSUE-0014 occurrence #13 logged. No loss/no force-push. Research commit `776cbca`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
-- **Ledger:** 589 entries · 473 unique URLs · 381 unvisited leads. Six retrievals; 9/10 calls.
-- **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` remains intentionally unfetched. **Parents’ Guide:** 8/8 titles and bodies.
-- **FTG Privacy & Data Policy:** all five chunks read; last updated 2026-02-13; FTG-wide, not a DLS26 per-user collection audit. Do not infer its generic suspected-cheating policy has been applied to the user.
-- **Community DB family:** DLSInside + DreamKitsApp are ONE family; DreamKitsApp warns its OVR/prices are approximate. DLSInside claims 13430/code160/date 2026-09-16, not FTG-confirmed. Champions/Classic/WC Champions detail renders exposed only unlabeled numbers, no identities.
-- **GamingOnPhone DLS26 career guide:** only chunk 0/2 read. Its transfer refresh, market “chemistry,” formation unlock, accommodation/facility coin, and coach-release claims are unverified secondary claims. Continue with chunkIndex 1 before using or dismissing them.
-- **Already-visited event/source correction:** Google Play eventdetails `4830045897422713648` is page-009; do not refetch. US Apple event cards, DLSKitURL Cult Heroes, DLSInside Cult Heroes and SakibPro Cult Heroes articles were already visited. Stale annotated frontier entries have been cleaned.
-- **DLS support scope:** Score! Match section `115001619089` is not DLS. DLS FAQs section `203117809` sources remain unversioned unless otherwise established. Save route Google Play Games/iCloud remains contradictory; do not advise toggling.
-- **Next exact action (Turn 52):**
+- **Git repair at open:** expected `0f9ee4c`; actual `fb9a2c0` with project tree untracked. Backup/fetch/reset to `0f9ee4c`; byte-checked 201 files, all identical. ISSUE-0014 occurrence #14 logged. No loss/no force-push. Research commit `3d54f13`; handoff commit follows. Repo-local identity `DLS26 Omega <omega@dls26.local>`.
+- **Ledger:** 595 entries · 477 unique URLs · 381 unvisited leads. Six retrievals; 9/10 calls.
+- **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
+- **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
+- **GamingOnPhone DLS26 Career Mode guide:** completed; published/updated Jan 27, 2026, but secondary. The other three GamingOnPhone guides are explicitly DLS2025 and only chunk 0/2 read; their numerical rules (e.g., 13/21% commercial bonuses, 400-SP/10-day Pass, scouts 75/500) are not DLS26-confirmed.
+- **BlueStacks DLS26 character-development guide:** June 2, 2026; chunk 0/3 only. Its wording closely overlaps GamingOnPhone; do not count them as independent corroboration.
+- **DLSInside/DreamKitsApp:** one source family; DreamKitsApp warns its ratings/prices are approximate. Several DLSInside category pages rendered numbers but no names; no roster inference.
+- **Next exact action (Turn 53):**
   1. `git log -1 HEAD`; repair if state dropped. Verify repo-local identity.
   2. Mid-session dlskiturl check.
-  3. Continue GamingOnPhone career guide at chunkIndex 1 (same URL, ledger has chunk 0/2). Reconcile subsequent claims against FTG/user screens; do not treat as confirmed.
-  4. Six retrievals max; compact delta files; ≤12,000-character writes; reconcile, snapshot, research commit first, handoff second; push only this branch.
-- Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page returned HTTP 500. No content inferred.
+  3. Continue the four incomplete sources within six calls: GamingOnPhone coins chunk 1/2, gems chunk 1/2, divisions chunk 1/2; BlueStacks character guide chunk 1/3 (leave chunk 2 for next turn if needed). Then verify only high-value claims against FTG/user screens.
+  4. Do not carry DLS2025 values into DLS26 without validation. Reconcile, compact snapshot, research commit first, handoff second, push only this branch.
+- Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
+- Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
+- DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
 - **Do NOT enter STATE_2.** Step-5 package prepared but undelivered.
 
 ## Bootstrap progress and standing rules
@@ -35,4 +36,4 @@
 
 ## Turn-end fields
 
-- Research commit `776cbca`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `3d54f13`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
