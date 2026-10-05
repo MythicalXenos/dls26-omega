@@ -90,3 +90,8 @@ TikTok search results attributed to `@dreamleaguesoccer.ftg` contain potentially
 ## Turn 81 — official social snippets unresolved
 
 TikTok exact-phrase searches still blend Cult Heroes captions with unrelated DLS25 cards; the new candidate fetch returned 403. Facebook search card says “collect them in game now” but does not identify route/reward; direct page fetch returned 403. None establishes a current in-game route or reward. Position-lock remains unverified. See `source_archive/t81_tiktok_snippet_mapping.md`.
+
+
+## Turn 82 — general FTG help does not verify Cult Heroes
+
+The completed `Cult Hero Agent`, `Drafts Season Pass`, and `Drafts` Help Center queries returned generic DLS agent, Season Pass, Prize Ladder, and Dream Draft information plus other-game material. No Cult Heroes-specific event route or reward is described. Do not conflate generic Agents with Cult Hero Agents. Position-lock remains unverified. See `source_archive/t82_ftg_agent_draft_searches.md`.

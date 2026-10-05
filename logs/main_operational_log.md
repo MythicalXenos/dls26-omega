@@ -930,3 +930,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: `fb9a2c0` with 240 untracked files; archive SHA-256 `859308621bd1cfd2976f726d8e58d218054470fa1a8cb5699cc5813e4f80ed4e`; restored `375cb96`; 240/240 byte-verified except T81 open line. ISSUE-0014 #43 logged; identity/upstream restored.
 - Six retrieval calls: four targeted TikTok/Facebook searches, TikTok direct fetch (HTTP 403), and Facebook direct fetch (HTTP 403). Search snippets attach Cult Heroes claims to unrelated/older DLS25 cards; caption-to-post mapping is not established. Facebook snippet provides no route/reward; direct page blocked.
 - Ledger: **678 entries / 510 unique attempted URLs / 404 unvisited leads**. No game claim promoted; both targets remain open. Close marker 2026-10-05T22:12:26Z before commit/push.
+
+
+## TURN 82 (2026-10-06) — FTG support follow-up
+- Recovery: `fb9a2c0` plus 242 untracked files; archive SHA-256 `3ff04d44c40b0b1cce347fec9e48191a63dd7e2f4e35dfc241ee3d5bc6eb32f1`; restored `7b9e5c3`; 242/242 byte-verified except T82 opening marker. ISSUE-0014 #44 logged; identity/upstream restored.
+- Six retrieval calls: FTG `Cult Hero Agent` query (1 result), `Drafts Season Pass` query (12 results, all four chunks), and `Drafts` query (3 results). Generic help only; no Cult Heroes-specific answer.
+- T81 audit correction recorded: 11 total calls (one over cap) after failed validation/inspection; Facebook 403 was a repeated URL, unique counter unaffected. Ledger **681 entries / 510 visited URLs / 404 unvisited leads**. Close marker 2026-10-05T22:16:53Z.

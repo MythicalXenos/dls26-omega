@@ -311,3 +311,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 81 reconciliation (2026-10-06)
 
 **678 entries · 510 unique attempted URLs · 404 unvisited leads**. TikTok route/guarantee snippets remain unmapped to a specific post; new TikTok candidate and Facebook page were blocked (403). No absence inference. Cult Heroes route/rewards and position-lock remain unresolved.
+
+
+## Turn 82 reconciliation (2026-10-06)
+
+**681 entries · 510 unique visited URLs · 404 unvisited leads**. FTG Help Center generic-agent/Draft queries completed; none verified Cult Heroes route/rewards. No position-lock conclusion.

@@ -17,3 +17,7 @@ All `functions.web_search` calls returned `status=success`; numeric HTTP status 
 
 ## Status
 These results are discovery leads, not verified game facts. They do not verify Cult Heroes availability, event dates, acquisition route, cost, or rewards. DLS26 position-lock behavior also remains unverified; the user's “no position locking” remains user-stated. No spending recommendation, scope closure, or exhaustion declaration.
+
+
+## T81 post-turn ledger audit (recorded T82)
+The `https://www.facebook.com/dreamleaguesoccer/` URL was already present in the ledger before the T81 direct fetch; that T81 HTTP-403 attempt was a repeat and did not add a unique visited URL. T81 used six retrieval calls, but a failed validation script plus its diagnostic inspection resulted in 11 total tool calls, one above the turn cap. The failed script wrote no research data; the successful retry committed the complete T81 artifacts.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T22:12:26Z",
+  "last_reconciled_at": "2026-10-05T22:16:53Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -18659,6 +18659,78 @@
         "Cult Heroes acquisition route/rewards unresolved"
       ],
       "processing_state": "blocked direct fetch; no page content verified",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t82-ftg-cult-hero-agent",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Cult%20Hero%20Agent",
+      "query": "Cult Hero Agent",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T22:16:53Z",
+      "fetched_at": "2026-10-05T22:16:53Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunk 0; one page/one chunk)",
+      "http_status": "not exposed; functions.fetch_page returned status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t82_ftg_agent_draft_searches.md",
+      "payload_summary": "API reports one result: FTG DLS FAQ “How do I obtain more players?” (article 360004066417; updated 2026-09-19). Its generic text says Transfers, Scouts, Agents (immediately add a player), and Prize Ladder are ways to obtain players. It does not mention Cult Hero Agents, their source, guarantee, cost, or rewards; do not equate generic Agents with Cult Hero Agents.",
+      "deception_screen": "First-party generic help text only. Do not treat general Agents, Dream Draft matches, Season Pass tiers, or Prize Ladder rewards as evidence of a Cult Heroes event route or guaranteed Cult Hero Agent.",
+      "conflicts": "No event-specific Cult Heroes route/reward or DLS26 position-lock guidance in these search responses.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "query complete; relevant article-specific findings recorded; no actionable new lead",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t82-ftg-drafts-season-pass",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Drafts%20Season%20Pass",
+      "query": "Drafts Season Pass",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T22:16:53Z",
+      "fetched_at": "2026-10-05T22:16:53Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunks 0–3 of 4; page 1/1)",
+      "http_status": "not exposed; functions.fetch_page returned status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t82_ftg_agent_draft_searches.md",
+      "payload_summary": "Complete API response: 12 results across 4 rendered chunks. Results include generic DLS Season Pass information, the standard “How do I get new players?” article (packages/shop/Season Pass), Prize Ladder and Dream Point/Season Points material, plus some Ultimate Clash Soccer pages. No Cult Heroes/Cult Hero Agent event-route or event-reward instruction appears in the completed results. Generic Season Pass/Draft mechanics are not Cult Heroes evidence.",
+      "deception_screen": "First-party generic help text only. Do not treat general Agents, Dream Draft matches, Season Pass tiers, or Prize Ladder rewards as evidence of a Cult Heroes event route or guaranteed Cult Hero Agent.",
+      "conflicts": "No event-specific Cult Heroes route/reward or DLS26 position-lock guidance in these search responses.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "query complete; relevant article-specific findings recorded; no actionable new lead",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t82-ftg-drafts",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Drafts",
+      "query": "Drafts",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T22:16:53Z",
+      "fetched_at": "2026-10-05T22:16:53Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunk 0; one page/one chunk)",
+      "http_status": "not exposed; functions.fetch_page returned status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t82_ftg_agent_draft_searches.md",
+      "payload_summary": "API reports three results. The DLS result is “What are Dream Point Boosts?” (article 24081168829330), which says boosts can apply to Dream Draft matches; the other results are Ultimate Clash Soccer help. It does not describe Cult Hero Agent acquisition or rewards.",
+      "deception_screen": "First-party generic help text only. Do not treat general Agents, Dream Draft matches, Season Pass tiers, or Prize Ladder rewards as evidence of a Cult Heroes event route or guaranteed Cult Hero Agent.",
+      "conflicts": "No event-specific Cult Heroes route/reward or DLS26 position-lock guidance in these search responses.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "query complete; relevant article-specific findings recorded; no actionable new lead",
       "discovered_not_yet_visited": []
     }
   ],

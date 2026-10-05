@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T22:12:26Z UTC, Turn 81. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T22:16:53Z UTC, Turn 82. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** local reset to `fb9a2c0`, 240 project files untracked, upstream unset. Archived all 240 files (SHA-256 `859308621bd1cfd2976f726d8e58d218054470fa1a8cb5699cc5813e4f80ed4e`), restored remote `375cb96`, and byte-verified all files after excluding only T81 clock-start line. ISSUE-0014 occurrence #43 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger:** 678 entries · 510 unique visited URLs · 404 unvisited leads. Six retrieval calls; direct social claims remain unverified.
+- **Git repair at open:** local reset to `fb9a2c0`, 242 project files untracked, upstream unset. Archived all 242 files (SHA-256 `3ff04d44c40b0b1cce347fec9e48191a63dd7e2f4e35dfc241ee3d5bc6eb32f1`), restored remote `7b9e5c3`, and byte-verified all files after excluding only T82 clock-start line. ISSUE-0014 occurrence #44 logged; repo-local identity and upstream restored. No loss/force-push.
+- **Ledger:** 681 entries · 510 unique visited URLs · 404 unvisited leads. Six retrieval calls; FTG generic support queries yielded no event-specific answer.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -38,12 +38,13 @@
 - **T78 source:** `discovery-t78-ftg-help-center-formation-position` is complete: 14 results, chunks 0–8/9; mixed-product FAQs/stats, no DLS26 lock answer. Do not infer absence. Archive: `source_archive/t78_ftg_formation_position_search_partial.md` (updated status in ledger).
 - **T79 sources:** three `functions.web_search` result-only queries (Cult Heroes, FTG formation/positions, official X Cult Heroes) yielded no DLS26 route/reward or position-lock evidence; pages not fetched. Complete query/search triage: `source_archive/t79_official_search_triage.md`; KB snapshot: `snapshots/KB_snapshot_2026-10-06-turn79-ftg-query-complete.md`.
 - **T80 source:** TikTok search-result captions under `@dreamleaguesoccer.ftg` mentioned Cult Hero Agents in Events/Drafts/Season Pass and a guaranteed Special Card, but were mixed and not mapped to post IDs; candidate 7588197165965593888 returned 403 in T81. The other two candidate URLs were already blocked. Archive: `source_archive/t80_official_social_leads.md`.
-- **T81 sources:** exact-phrase TikTok searches still attached claims to unrelated/older video cards; the new direct candidate and official Facebook page fetch returned 403. No route/reward verified. Archive: `source_archive/t81_tiktok_snippet_mapping.md`; snapshot: `snapshots/KB_snapshot_2026-10-06-turn81-social-mapping.md`.
-- **Next exact action (Turn 82):**
-  1. Record the clock first; verify branch/status/upstream/identity and repeat archive/byte-verified recovery only if a reset is observed.
-  2. Do not repeat T81 exact-phrase TikTok searches or refetch blocked TikTok IDs `7588197165965593888`, `7477999051343007008`, `7437552025958763809`, or the blocked Facebook page. Seek a distinct first-party/in-game source for Cult Heroes route/rewards; search snippets remain unmapped and unverified.
-  3. Keep DLS26 position-lock behavior open; preserve user-stated “no position locking” as unverified until Step-3 device setup. No spending recommendation, scope closure, or exhaustion declaration.
-  4. PR #3 remains open and unmerged.
+- **T81 sources:** TikTok phrase searches still attached claims to unrelated/older video cards; new candidate and Facebook page fetches returned 403. Facebook URL was already present in the ledger, so the fetch was a repeat. No route/reward verified. Archive: `source_archive/t81_tiktok_snippet_mapping.md`.
+- **T82 sources:** FTG `Cult Hero Agent`, `Drafts Season Pass` (all 4 chunks), and `Drafts` searches returned generic DLS help, not Cult Heroes-specific route/reward evidence. See `source_archive/t82_ftg_agent_draft_searches.md` and KB snapshot `snapshots/KB_snapshot_2026-10-06-turn82-ftg-help-searches.md`. T81 budget overrun/repeat Facebook fetch are audited in `logs/main_operational_log.md`.
+- **Next exact action (Turn 83):**
+  1. Record the clock first; verify branch/status/upstream/identity and do archive/byte-verified recovery only if a reset is observed.
+  2. Continue with genuinely distinct first-party/in-game sources. Do not replay the completed FTG queries `Cult Heroes`, `Cult Hero Agent`, `Drafts Season Pass`, `Drafts`, `position lock`, or `formation position`; do not refetch blocked TikTok/Facebook/Instagram/YouTube URLs recorded in T80–T81.
+  3. Cult Heroes route/rewards remain unresolved; generic Agents, Drafts, and Season Pass docs do not answer event-specific acquisition. Preserve user-stated no-position-lock as unverified until Step-3 device setup.
+  4. No spending recommendation, scope closure, or exhaustion declaration. PR #3 remains open and unmerged. T81's one-call budget overrun and repeated Facebook fetch are explicitly audited; stay within 10 calls.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -63,4 +64,4 @@
 
 ## Turn-end fields
 
-- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, T69 `7c778d5`/`10c4f54`, T70 `1995080`/`7dddb25`, T71 `b540348`/`760ab99`, T72 `cf788bb`/`7d739b8`, T73 `3a37538`/`4367516`, T74 `823b314`/`8be1c4e`, T75 `e6d3da9`/`0146b79`, T76 `27894b6`/`2b53858`, and T77 `5859428`/`a5e5653` are pushed. T78 research/handoff `9445f2d`/`a51eed8`, T79 `0b1e419`/`786384d`, and T80 `375cb96` are pushed. T81 source, recovery, and handoff are committed and pushed to `arena/01a1022d-dls26-omega`. Close marker is recorded in `logs/turn_clock.txt`. Next input expected: `>`.
+- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, T69 `7c778d5`/`10c4f54`, T70 `1995080`/`7dddb25`, T71 `b540348`/`760ab99`, T72 `cf788bb`/`7d739b8`, T73 `3a37538`/`4367516`, T74 `823b314`/`8be1c4e`, T75 `e6d3da9`/`0146b79`, T76 `27894b6`/`2b53858`, and T77 `5859428`/`a5e5653` are pushed. T78 `9445f2d`/`a51eed8`, T79 `0b1e419`/`786384d`, T80 `375cb96`, and T81 `7b9e5c3` are pushed. T82 source, recovery, and handoff are committed and pushed to `arena/01a1022d-dls26-omega`. Close marker is recorded in `logs/turn_clock.txt`. Next input expected: `>`.
