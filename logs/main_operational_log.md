@@ -782,3 +782,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation: **626 entries / 483 unique URLs / 416 unvisited leads**; stale annotations removed 1; new video leads added 10. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closure/exhaustion.
 - Budget: three retrievals and seven tool calls before wrap-up. No more retrievals.
 - Close marker 2026-10-05T20:00:53Z (before commits/push).
+
+
+## TURN 59 (2026-10-06) — first-party discovery searches; verified checkout recovery
+- Open 2026-10-06 02:03:47 +06. Local checkout had reset to `fb9a2c0` with 15 project paths untracked. Archived 208 non-git files, fetched/restored remote `6871a35`, byte-checked all 208 tracked files (only the expected T59 clock-start append differed). ISSUE-0014 #21 recorded; identity `DLS26 Omega <omega@dls26.local>`. No content loss or force-push.
+- Two retrievals, both discovery searches: `discovery-t59-dls26-formation-position-search` queried DLS26 formation/position-lock terms and surfaced only secondary/community pages; `discovery-t59-youtube-cult-heroes-specific` surfaced five recent Cult Heroes YouTube search results, none clearly attributable to FTG in the returned snippets. Search output is partial; no page was fetched and no mechanics/reward claim was promoted.
+- Candidate URLs added only if not already visited or in the frontier: . Secondary video snippets are pathfinders only; no spend advice.
+- Reconciliation: **628 entries / 483 unique visited URLs / 417 unvisited leads**; no stale lead removal; 1 new unique leads. General FAQs 20/21; Parents’ Guide 8/8. No KB claim changed; Cult Heroes route and position-lock question remain open. No dimension closed; no exhaustion declaration.
+- Budget: 2 retrieval calls and 9 tool calls before wrap-up; within limits. Close marker 2026-10-05T20:08:59Z (before commits/push).
