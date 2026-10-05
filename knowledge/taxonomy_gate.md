@@ -341,3 +341,15 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Next two targets are substantive, not incidental:** `What are facilities` and `How can I expand my squad` are core progression systems we have so far only seen in storefront marketing language.
 
 **Gate status:** no dimension closed.
+
+## Turn 33 update (2026-10-05) — a progression lever with a spend attached
+
+**Squad size is a facility upgrade, not a constant.** Accommodation (Stadiums & Facilities screen) adds squad slots per level. Any squad-planning recommendation therefore has a **cost dimension** and must be phrased as conditional on the user's current accommodation level. Per-level slots and upgrade costs remain unknown — this is now a named gap that blocks sizing advice.
+
+**Facilities defined but not enumerated:** buildings granting unique career-progression bonuses. The individual bonuses are a known-unknown; do not fill them from marketing copy.
+
+**Kit functions disambiguated (not harmonised):** editing (My Club) vs match-day selection (tap player models). Whether an away kit is separately editable stays open.
+
+**First-party pricing still absent:** the IAP article gives the Shop route and nothing else. All pricing in this corpus remains third-party.
+
+**DLS FAQ:** 48 of 52 read; **4 unread**. **Gate status:** no dimension closed.

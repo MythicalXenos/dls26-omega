@@ -528,3 +528,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 32 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The pagination finding closes a discrepancy we had explicitly refused to guess at; the Reset Profile consequences are quoted from FTG's own IMPORTANT warning rather than paraphrased softly; the DLS19 article's "latest version" wording is flagged as an inference rather than stated as a version-specific fact.
+
+## TURN 33 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**seventeenth** check).
+
+## TURN 33 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-177 **expand squad (360003945677)**: squad slots come from **upgrading the accommodation facility** on the **Stadiums & Facilities** screen; one more slot allowance per level. **Squad size is a spendable progression target, not a cap** — directly constrains the rotation-plan question.
+- page-176 **facilities (360003945917)**: buildings granting unique career-progression bonuses; no list, magnitudes or costs (gap retained).
+- page-178 **IAP (214229005)**: Shop opens by tapping the coin/gem tally on any screen; no prices (pricing stays third-party-only).
+- page-179 **home/away kits (214385385)**: tap player models on the pre-match screen — **scope clarification of the T30 kit divergence, not a harmonisation**.
+- page-180 **team stats (213851469)**: My Profile > Records (lifetime); Career > competition (current).
+- page-175 monitoring (unchanged).
+- **DLS FAQ now 48 of 52 read; 4 unread.** Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 33 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. Squad expansion is reported with the exact mechanism and its missing numbers stated as missing; the kit finding is labelled a scope clarification rather than a resolution of the divergence; the "unique bonuses" gap is explicitly refused rather than filled from marketing copy.
