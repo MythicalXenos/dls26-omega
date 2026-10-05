@@ -56,10 +56,11 @@
 - **T96 source:** FTG `player position` query: page 1 complete (0–9/10); page 2 partial at 0–1/7, resume chunkIndex=2; pages 3–4 unread. Mixed results include UCSS/Score! Match and generic DLS content, not DLS26 lock evidence. Archive `source_archive/t96_ftg_player_position_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn96-player-position-page2-progress.md`.
 - **T97 source:** FTG `player position` page 2 complete (0–6/7); page 3 partial at 0/9, resume chunkIndex=1; page 4 unread. DLS Leaderboards “position” means rank; UCSS/Score! results are other products. Archive `source_archive/t97_ftg_player_position_query_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn97-player-position-query-progress.md`.
 - **T98 source:** FTG `player position` query page 3 is read through chunks 0–6/9; resume at chunkIndex=7 (chunks 7–8 remain); page 4 unread. Season Pass tier locks/other-product results are not squad-position evidence. Archive `source_archive/t98_ftg_player_position_page3_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn98-player-position-page3-progress.md`.
-- **Next exact action (Turn 99):**
+- **T99 source:** FTG `player position` page 3 complete (0–8/9); page 4 partial at 0–3/9, resume chunkIndex=4. DLS Season Pass tier locks concern reward progression; rank wording is not squad-player position. Archive `source_archive/t99_ftg_player_position_page4_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn99-player-position-page4-progress.md`.
+- **Next exact action (Turn 100):**
   1. Record the clock first; verify branch/status/upstream/identity and recover with archive/byte verification only if a reset is observed.
-  2. Resume the exact FTG `player position` API page-3 URL at `chunkIndex=7`; chunks 7–8 remain and page 4 is unread. Do not infer absence from partial mixed-product output.
-  3. Keep DLS26 no-position-lock explicitly `user-stated` and unverified pending Step-3 device setup. Do not transfer UCSS/Score! behavior, leaderboard rank, workload stats, or Season Pass locks to squad assignment.
+  2. Resume the exact FTG `player position` API page-4 URL at `chunkIndex=4`; chunks 4–8 remain. Do not infer absence from partial mixed-product output.
+  3. Keep DLS26 no-position-lock explicitly `user-stated` and unverified pending Step-3 device setup. Do not transfer UCSS/Score! behavior, leaderboard rank, workload stats, or Season Pass tier locks to squad assignment.
   4. Keep Cult Heroes availability/route/cost/rewards unresolved; no spending advice or exhaustion declaration. Maintain ≤6 retrievals, ≤10 tools before wrap-up, ≤4 wrap-up calls; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -135,3 +136,8 @@
 
 - Six retrieval calls continued FTG `player position` API page 3 at chunks 1–6/9; all succeeded. Resume page 3 chunk 7; page 4 remains unread.
 - Ledger **699 entries / 517 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:28:31Z. Next input expected: `>`.
+
+## Turn 99 closeout
+
+- Six retrieval calls: completed FTG `player position` page 3 chunks 7–8; read page 4 chunks 0–3. Page 3 is complete; resume page 4 chunk 4.
+- Ledger **700 entries / 518 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:31:47Z. Next input expected: `>`.

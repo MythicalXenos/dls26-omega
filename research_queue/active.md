@@ -68,3 +68,5 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [T97 update; FTG `player position` query] API page 2 is complete (chunks 0–6/7); page 3 chunk 0/9 read. Resume exact page-3 URL at `chunkIndex=1` (chunks 1–8 and page 4 unread). Leaderboard “position” is rank; UCSS/Score! material is not DLS26 evidence. No absence inference.
 
 - [T98 update; FTG `player position` query] Page 3 read through chunks 0–6/9; resume at `chunkIndex=7` (chunks 7–8 and page 4 unread). Pages 1–2 are complete. Visible Season Pass tier locks and mixed-product help are unrelated to DLS26 squad-position locking. No absence inference.
+
+- [T99 update; FTG `player position` query] Page 3 is complete (0–8/9); page 4 read through chunks 0–3/9. Resume page-4 URL at `chunkIndex=4` (chunks 4–8 unread). DLS Season Pass “tier lock” is a progression lock; leaderboard position is rank. Neither answers DLS26 squad-player locking. No absence inference.

@@ -1409,3 +1409,8 @@ Completed API page 2 (chunks 0–6/7) and read page 3 chunk 0/9. The 100-result/
 ## TURN 98 (2026-10-06) — FTG `player position` query progressed
 
 Continued page 3 through chunks 1–6/9 (after chunk 0 in T97). Pages 1–2 are complete; page 3 chunks 7–8 and page 4 remain unread. Visible page-3 material mixes older DLS/FTS customization/profile help, generic DLS settings/Season Pass material, and other FTG products. Season Pass tier locks do not answer squad-position locking. No DLS26 lock rule surfaced in the read portions; no absence inference. Resume page 3 at chunkIndex 7. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t98_ftg_player_position_page3_progress.md`.
+
+
+## TURN 99 (2026-10-06) — FTG `player position` query progressed
+
+Completed API page 3 (chunks 0–8/9) and read page 4 chunks 0–3/9; chunks 4–8 remain. The mixed page-4 results include DLS Season Pass tier-lock text and leaderboard/final-league “position” language. These refer to reward progression and rank, not squad-player positions. No DLS26 position-lock rule surfaced in the read portions; no absence inference. Resume page 4 at chunkIndex 4. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t99_ftg_player_position_page4_progress.md`.
