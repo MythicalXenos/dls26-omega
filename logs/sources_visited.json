@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T10:06:00Z",
+ "last_reconciled_at": "2026-10-05T10:08:00Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -13075,11 +13075,129 @@
    "discovered_not_yet_visited": [
     "https://support.ftgames.com/hc/en-us/articles/4408249822609-Age-Confirmation-Personal-Ads-and-Notifications"
    ]
+  },
+  {
+   "source_id": "page-139-dlskiturl-monitor-t27",
+   "event_type": "page_fetch",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-05T10:08:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "monitoring",
+   "language": "en",
+   "payload_summary": "Eleventh mid-session monitoring check - UNCHANGED. Same nine front-page items. No new event content; nothing October-dated.",
+   "processing_state": "processed",
+   "deception_screen": "n/a (monitoring).",
+   "conflicts": "None.",
+   "kb_claims": "none",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-140-ftg-season-pass",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/17143633310225-What-is-the-Season-Pass",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:08:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY, richest monetisation article found. Two tiers: FREE (all users) and PREMIUM (purchase required, via the Activate Pass button). Points: (1) **purchasing the Season Pass does NOT unlock the Season VIP**; (2) buying it changes elements of your game profile to show off to other players; (3) it unlocks the **Progress Bank, which rewards currency based on Season Points, paid out at the END of the season**; (4) it is **not a subscription and must be repurchased each season** - no auto-renewal; (5) **a countdown timer on the Season Pass message box shows when the current season ends for ALL users**; (6) the pass lasts the whole season and **a late purchase removes the tier time-locks** (buy on day four, work towards tier five immediately; the first tier is free); (7) **Season Points are earned from COMPLETING matches and can be purchased in the Shop when offered**; (8) buying is **retroactive** - any free-track tiers already unlocked instantly convert to Premium rewards with no extra Season Points (unlocked to tier 15 = 15 Premium tiers to claim); (9) **tier locks track the day the Season Pass is currently on** - everything up to the latest tier is claimable, later tiers unlock the next day.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; no prices, no tier count, no season length, no version stamp. Note this is a DIFFERENT article id (17143633310225) from the Season Pass article we already had on the frontier (4404070913169) and is far more detailed; they must still be compared.",
+   "conflicts": "**CONFLICT (p), internal to first-party text:** this article says Season Points come from **completing** matches, while article 7916583518353 (page-134) says they are earned from **winning** matches. Both are FTG text. Not harmonised - the difference matters for any plan that assumes wins are required. Also **new: an in-game countdown timer exists on the Season Pass message box showing the season end for all users** - distinct from the Prize Ladder timer, and worth asking the user to read off as well.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 27 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass"
+   ]
+  },
+  {
+   "source_id": "page-141-ftg-friend-match",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:08:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (chunk 0 of 3; article body complete, historic comments partially read)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY (dim 6). Friend Match is a private match by shared code: enter a code or word in the text field, tap OK, share the code with the opponent who enters it and taps OK. **Codes may contain only A-Z, 0-9 and hyphen**; unique codes are advised because an in-use code can drop you into the wrong match. The feature is reached from the **Dream League Live (Multiplayer) button on the main home screen** and **Friend Match stats are tracked there too**. Historic comments (3-4 years old) report failed connections and no rewards when an opponent quits - flagged as non-current.",
+   "processing_state": "processed",
+   "deception_screen": "first-party body; comments are historic and must not be read as current behaviour.",
+   "conflicts": "None. Useful boundary: **friend matches are excluded from Dream Point Boosts** (per page-135), yet they are tracked in the DLL stats area.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 27 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-142-ftg-multiplayer-troubleshooting",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:08:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY (dim 6), technical. Only **Wi-Fi or high-quality 5G/4G/3G** are allowed for multiplayer. **About 2MB of data per match.** IPv6 and 5G supported. DLS has modest bandwidth needs but is **sensitive to latency and packet loss** (satellite and some cellular links fail on latency). **Netcode: both players connect to FTG cloud servers, and the design means an opponent's connection quality has no impact on your experience, so lag-switch cheats are ineffective**; opponents are not told your network address, limiting DoS risk. Some Wi-Fi is unsuitable (public/hotel). **No Facebook friend invites, but local multiplayer works if both players are on the same platform (Android-Android or iOS-iOS) on the same Wi-Fi router.** Tip: disable Bluetooth for smoother Wi-Fi multiplayer.",
+   "processing_state": "processed",
+   "deception_screen": "first-party; technical claims are FTG's own description of their netcode, not an independent measurement.",
+   "conflicts": "None. Note the **anti-cheat architecture claim** is relevant context next to article 360008904718 (bans for exploits).",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 27 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do"
+   ]
+  },
+  {
+   "source_id": "page-143-ftg-save-data",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:08:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY, and a direct risk item for the user's career save. Link the game profile to **Sign in with Google** or **Sign in with Apple (iOS 13.0+)** by using the login option in the game's settings - **it is not automatic**. **If the profile is not secured that way, FTG cannot guarantee recovery after uninstalling the app, resetting the device, or changing devices.** Explicitly: **save data is NOT secured on Google Play Games or iCloud** - those are different cloud-save services the games do not use. (Older titles such as DLS19 use iCloud / Google Play Saved Games; no cross-platform transfer between Android and iOS; 8 Ball Hero uses Facebook.)",
+   "processing_state": "processed",
+   "deception_screen": "first-party; covers four FTG titles, so parts are not DLS-specific.",
+   "conflicts": "None. **Actionable risk:** the common assumption that Google Play Games or iCloud protects a DLS save is **explicitly false** per FTG.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 27 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
+    "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account"
+   ]
+  },
+  {
+   "source_id": "page-144-ftg-blocked",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T10:08:00Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FIRST-PARTY enforcement policy. Bans follow use of **modded APKs, external hacks on authorised versions, or exploitation of otherwise unknown bugs** - the listed examples are inappropriate gain of virtual currencies, interference with gameplay AI, and circumvention of normal user progression. **Only the App Store and Google Play versions are authorised**; no other version is supported. **Offensive team or manager names can also draw action** in extreme cases. Support will not lift a ban on request; only incorrectly-flagged accounts are reviewed. Links to the terms of use.",
+   "processing_state": "processed",
+   "deception_screen": "first-party policy text; no detection details (by design).",
+   "conflicts": "None. **Directly relevant to a standing rule of this session:** it is another reason the sandbox never pursues modded APKs or 'coin generator' routes, and it explains why our APK frontier entries (apkmirror etc.) are recorded but deliberately not actionable.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 27 block)",
+   "discovered_not_yet_visited": [
+    "https://www.ftgames.com/terms-of-use",
+    "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 368,
-  "unvisited_total": 386,
+  "visited_total": 373,
+  "unvisited_total": 391,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -13335,6 +13453,7 @@
    "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
    "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream Point Boosts",
    "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
+   "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do",
    "https://support.ftgames.com/hc/en-us/articles/360003945937-How-do-I-change-my-manager",
    "https://support.ftgames.com/hc/en-us/articles/360004034498-Why-does-the-app-require-a-connection-to-play",
    "https://support.ftgames.com/hc/en-us/articles/360004080497-How-do-I-customise-my-kit-logo",
@@ -13343,16 +13462,20 @@
    "https://support.ftgames.com/hc/en-us/articles/360005680437-How-can-I-reduce-my-mobile-data-usage",
    "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
    "https://support.ftgames.com/hc/en-us/articles/360015150438-Can-I-use-my-existing-DLS24-profile-in-DLS25",
+   "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted",
    "https://support.ftgames.com/hc/en-us/articles/360017166918-I-am-not-seeing-any-video-clips-what-can-I-do",
    "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match",
    "https://support.ftgames.com/hc/en-us/articles/360020938198-How-do-I-change-my-emojis-in-Dream-League-Live",
    "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live",
    "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
+   "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
    "https://support.ftgames.com/hc/en-us/articles/4408249822609-Age-Confirmation-Personal-Ads-and-Notifications",
+   "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
    "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero",
    "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points",
    "https://support.ftgames.com/hc/en-us/articles/7917023109009-How-do-I-edit-my-team-crest",
    "https://support.ftgames.com/hc/en-us/articles/7949802512401-How-is-save-data-stored-and-transferred-in-Ultimate-Clash-Soccer",
+   "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account",
    "https://support.ftgames.com/hc/en-us/articles/9600462672913-How-is-save-data-stored-and-transferred-in-Score-Match",
    "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS",
    "https://support.ftgames.com/hc/en-us/categories/201738105-FAQs",

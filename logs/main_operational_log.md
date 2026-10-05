@@ -437,3 +437,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 26 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The DP-boost carry-over rule is stated with FTG's own live-service caveat attached; the ad-availability passage is flagged as containing FTG advocacy while its mechanism is reported, not endorsed; the Season/Dream Point split is recorded as a rule rather than left implicit in later notes.
+
+## TURN 27 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**eleventh** check). No new event content; nothing October-dated.
+
+## TURN 27 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-140 **Season Pass (17143633310225)** — the richest monetisation article of the session: FREE/PREMIUM tracks; **not a subscription**; **Progress Bank paid at season end**; **retroactive tier unlock**; **late purchase removes time locks**; **season-end countdown on the pass message box**; buying does NOT unlock Season VIP. **Conflict (p)**: Season Points from completing vs winning matches (two first-party articles).
+- page-141 **Friend Match (360019064438)** — code-based private matches from the DLL button; A-Z/0-9/hyphen only; collision risk; stats tracked in DLL. Body complete; historic comments flagged non-current.
+- page-142 **Multiplayer Troubleshooting (360004222118)** — Wi-Fi or 4G/5G/3G only; **~2 MB per match**; latency-sensitive not bandwidth-hungry; **cloud-server netcode, lag-switch ineffective**; local same-platform Wi-Fi play; no Facebook invites.
+- page-143 **save data (214387685)** — **Google Play Games and iCloud do NOT secure DLS saves**; only in-game Sign in with Google / Apple does, and it is manual. Unsecured saves are not guaranteed recoverable.
+- page-144 **blocked from playing (360008904718)** — bans for modded APKs, hacks and bug exploitation; only store builds authorised; offensive names actionable; bans not lifted on request.
+- page-139 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 27 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. Conflict (p) is recorded, not averaged. The Friend Match comments are explicitly dated and excluded from current-state use. The netcode claims are labelled as FTG's own description rather than an independent measurement. The two-timer discovery is recorded as device-only rather than as a resolved date.

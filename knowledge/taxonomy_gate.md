@@ -278,3 +278,15 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Offline boundary:** Exhibition matches are playable offline.
 
 **Gate status:** no dimension closed. New leads: the Season Pass article under a **second article id** (17143633310225, distinct from 4404070913169) — both need checking for divergence.
+
+## Turn 27 update (2026-10-05) — monetisation mapped; a second in-game timer found
+
+**Dimension 2/6 (monetisation and progression) is now mapped first-party:** the Season Pass is a two-track, non-subscription, per-season purchase that is retroactive, time-lock-removing on late purchase, and tied to a **Progress Bank paid at season end**; and **a countdown timer on the Season Pass message box gives the season end for all users**.
+
+**Why that matters:** we now know there are **two separate in-game timers** — the Prize Ladder timer (the one behind conflict (a)/(b)) and the **Season Pass season countdown**. Both are device-only. The Step-5 ask should request **both** readings, not just the ladder one.
+
+**New conflict (p):** Season Points from "completing matches" (17143633310225) vs "winning matches" (7916583518353), both first-party. Unharmonised — and it changes whether a draw-heavy grind can progress the Season Pass.
+
+**Risk item for the user (dim 7/practical):** DLS saves are **not** protected by Google Play Games or iCloud; only an in-game Sign in with Google / Apple link secures them, and it is not automatic.
+
+**Gate status:** no dimension closed. Next first-party comparison to run: the **second Season Pass article (4404070913169)** against 17143633310225.
