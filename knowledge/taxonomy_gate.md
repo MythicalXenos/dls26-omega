@@ -435,3 +435,8 @@ Five additional Parents’ Guide bodies read: purchase restrictions, refunds, ag
 ## Turn 45 update (2026-10-05) — Parents’ Guide complete; DLS support metadata
 
 Parents’ Guide article `360000191485` says FTG apps do not use private chat facilities; it is general and unversioned. All 8/8 Parents’ Guide bodies are now read. API metadata confirms `360017166918` and `9804887423121` are in DLS FAQs section `203117809`, with no DLS26 build stamp. Facebook-login metadata’s `updated_at` is 2026-10-05, but `edited_at` is 2024-12-06; do not claim the text was revised today. Age/ads article remains in the Parents’ Guide and is not DLS26-specific. General FAQ body coverage remains 20/21; no dimension closed.
+
+
+## Turn 46 update (2026-10-05) — DLS article metadata and User ID disambiguation
+
+Metadata confirms blocked-from-playing, DLS19-in-DLS25, mobile-data, and DLS User ID articles in DLS FAQs section 203117809. They remain unstamped for DLS26. A similarly titled User ID article `37083387788434` is in Score! Match FAQs section 115001619089; do not mix its route with DLS. DLS19→DLS25 transfer text does not settle DLS25→DLS26. Parents’ Guide coverage stays 8/8; General FAQ reading stays 20/21. No dimension closed.

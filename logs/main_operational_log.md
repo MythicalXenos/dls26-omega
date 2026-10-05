@@ -674,3 +674,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Parents’ Guide now 8/8 title and body coverage. General FAQ body count **20/21**.
 - Reconciliation output: **553 entries / 450 unique URLs visited / 380 unvisited leads**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T15:58:16Z (before commits/push).
+
+
+## TURN 46 (2026-10-05) — DLS metadata and user-ID source split
+- Open 2026-10-05T16:02:06Z: expected HEAD `7b0f0f5`, correct branch and identity; only turn clock dirty. No state drop.
+- Ledger check showed article bodies 360008904718, 360004717278, 360005680437, and DLS User ID 37082887837202 were already read. No bodies were redundantly fetched; API metadata was checked. Separate ID `37083387788434` is Score! Match, not DLS.
+- Six retrievals: dlskiturl monitor plus five Zendesk article JSON records (blocked DLS, DLS19-in-DLS25, mobile data, DLS User ID, Score! Match User ID).
+- Reconciliation output: **559 entries / 455 unique URLs / 382 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T16:04:13Z (before commits/push).

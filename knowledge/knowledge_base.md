@@ -962,3 +962,20 @@ Article `360000191485` (In-App Chats) body says FTG apps do not use **private ch
 - Turn 44 handoff mistakenly called the video-clips and Facebook Login articles “new DLS-specific leads.” The ledger shows they were already visited as page-138 and page-152. Turn 45 appropriately fetched only their previously unvisited API metadata URLs; no duplicate article-body retrieval.
 - dlskiturl unchanged on the **twenty-ninth** check: same nine items, no new October-dated item.
 - General FAQ titles remain **21/21 enumerated**; bodies read **20/21** per reconciliation output. FTS15 article `213892809` remains intentionally unfetched.
+
+
+## TURN 46 (2026-10-05) — DLS metadata sweep and User ID product split
+
+### Metadata for already-read DLS support articles
+Turn 46 checked the ledger before retrieval: bodies for `360008904718` (blocked from DLS), `360004717278` (DLS19 profile in DLS25), and `360005680437` (mobile data) were already read. Their article bodies were **not** fetched again; only API metadata was retrieved.
+
+- **360005680437 — mobile data:** DLS FAQs section `203117809`; created 2020-02-11, edited 2022-12-02, updated 2026-07-13, `outdated=false`. Body says most DLS features require online access, recommends Wi-Fi and limiting mobile data, and links Apple/Android data-usage instructions. No DLS26 build or measured data-use rates.
+- **360008904718 — blocked from playing DLS:** DLS FAQs section `203117809`; created 2020-05-18, edited 2021-08-21, updated 2026-09-26, `outdated=false`. Says Apple App Store/Google Play are the authorized DLS sources and rejects modded APKs, external hacks, and exploitative bugs. It says contact support only for an incorrect flag and that bans are not lifted on request absent an error. No DLS26 build stamp.
+- **360004717278 — DLS19 profile in DLS25:** DLS FAQs section `203117809`; created 2020-01-09, edited 2024-12-06, `updated_at` 2026-10-05 02:15:31Z, `outdated=false`. Body says DLS25 is a separate standalone game and DLS19 profiles/purchases do not transfer into it. It does **not** establish DLS25-to-DLS26 transfer behavior. Current-day `updated_at` is not proof of a new text edit.
+- **37082887837202 — DLS User ID:** DLS FAQs section `203117809`; created/edited 2026-07-09; updated 2026-10-03; `outdated=false`. Body route: open DLS → Options gear (top left) → Advanced → System Info (i) → Copy Info. Warns against sharing personal details with other users or exchanging/trading profiles. This matches the previously read page-172.
+- **37083387788434 — separate Score! Match User ID article:** Score! Match FAQs section `115001619089`; created/edited 2026-07-09; updated 2026-10-03; `outdated=false`. Its different route is Score! Match → blue gear on main menu → information → Copy To Clipboard. Do not confuse its UI steps with DLS.
+
+### Scope and completeness
+- All five Zendesk records are not marked outdated, but none adds a DLS26-specific build/version stamp. The Score! Match duplicate is explicitly excluded as DLS evidence.
+- Parents’ Guide remains **8/8 titles and bodies**; General FAQs remain **21/21 titles and 20/21 bodies**. `213892809` remains intentionally unfetched.
+- dlskiturl unchanged on the **thirtieth** check: same nine front-page items, no new October-dated item.
