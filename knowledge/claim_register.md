@@ -296,3 +296,8 @@ GamingOnPhone DLS26 guide chunk 0/2 claims transfer refresh after matches, marke
 ## Turn 52 — DLS guides (secondary; version scope)
 
 GamingOnPhone DLS26 career guide published/updated 2026-01-27; all chunks read. DLS2025 coin/gem/division guides are partial and contain numerical claims not validated for DLS26 (e.g., commercial +13/+21%, 400 SP, ten-day pass, scout 75/500). BlueStacks June-2026 DLS26 guide repeats GamingOnPhone wording closely; do not count as independent confirmation. Remaining BlueStacks chunks and three DLS2025 guide chunks remain unread.
+
+
+## Turn 55 — secondary video assertions about Cult Heroes acquisition (`page-304`)
+
+Raven Exe’s public YouTube transcript (uploaded 2026-10-03; `https://www.youtube.com/watch?v=e41kd1TA1K8`) claims that a Draft costs 225 Gems and takes seven matches to award a Cult Hero Agent; a Season Pass Agent is at the end; an online Cult Hero Challenge awards an Agent after wins with three attempts; and the Transfer Market Events section contains an upcoming-event calendar. The creator also says the Agent can produce a random hero. These are attributed secondary claims only. The direct page rendered its transcript, but this does not prove the depicted UI, game version or repeatability. Keep all figures and timing unverified; do not recommend a spend or upgrade the route confidence without FTG/in-game evidence. Search-only social snippets and the Facebook HTTP 403 attempt (see T55 ledger) do not resolve the route.

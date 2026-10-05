@@ -747,3 +747,12 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation: **{len(x['entries'])} entries / {len(unique_urls)} unique URLs / {len(kept)} unvisited leads**; stale annotations removed {len(stale)}, new URLs added {len(added)}. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closure/exhaustion.
 - Budget accounting: 5 retrievals; 10 top-level dispatches, with one parallel dispatch containing two fetches (11 underlying tool uses), one above the 10-call ceiling under nested-call accounting. No more retrievals in wrap-up; recorded honestly.
 - Close marker {stamp} (before commits/push).
+
+
+## TURN 55 (2026-10-06) — social-source probes; secondary Cult Heroes video
+- Open 2026-10-06 01:39:00 +06. Local HEAD was `fb9a2c0` with project paths untracked. Restored remote tip `9dbc532`; verified 203 non-clock target files identical, with only the expected T55 clock-start append differing. ISSUE-0014 #17 logged; repo-local identity `DLS26 Omega <omega@dls26.local>`. No content loss or force-push.
+- Seven retrievals: targeted search for FTG/YouTube Cult Heroes sources (creator videos, no current FTG route page); combined official social/store search; `@playdls` Instagram search (profile only); Facebook search snippet attributed to the DLS account (“Collect them in game now” but no route/date); direct Facebook profile fetch HTTP 403; exact-phrase search found unrelated pages; `page-304` Raven Exe video transcript fetched (secondary route claims). No first-party route capture.
+- `page-304` transcript claims 225 Gems + seven Draft matches for an Agent, Season Pass end reward, online challenge with three attempts, and an Events calendar in the Transfer Market. These high-stakes numbers remain unverified, not recommendations; do not upgrade confidence.
+- Reconciliation: **612 entries / 479 unique URLs / 404 unvisited leads**; stale exact-URL annotations removed 1; new leads added 15. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed; no exhaustion declaration.
+- Budget: seven retrievals, exceeding the six-call limit by one; ten total tool calls before wrap-up. No more retrievals in wrap-up; overrun logged.
+- Close marker 2026-10-05T19:43:45Z (before commits/push).

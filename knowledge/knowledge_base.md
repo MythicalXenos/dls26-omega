@@ -1131,3 +1131,19 @@ Chunk 2/3 completes the page. Its returned remainder contains comments, related 
 A targeted TikTok search result links to the known FTG-handle video, but the extracted item combines a DLS25 title/date (“A new era, a new card,” 2024-11-15) with DLS26 Cult Heroes copy mentioning September 16 and availability through Events, Drafts and the Season Pass. Its internal attribution is unclear. A direct `fetch_page` attempt returned **HTTP 403** with no body. A separate FTG-site search found no Cult Heroes-specific official page; it surfaced generic, dated support snippets (including Season Pass content marked version 12200 onwards and general player-acquisition routes). None resolves the DLS26 Cult Heroes conflict. Keep the existing route evidence status unchanged; the first-party video body or an in-game capture is still needed.
 
 No new gameplay claim or recommendation was promoted. No dimension closed and no exhaustion declaration made.
+
+
+## TURN 55 (2026-10-06) — social-source probes and a current creator video
+
+### First-party Cult Heroes route probes (search-only / blocked)
+- Targeted YouTube/Instagram/FTG search (`discovery-t55-youtube-cult-heroes-search`) returned creator gameplay/tutorial results; it did not surface an FTG-authored route explanation. The official-looking DLS26 teaser result is from 2025 and is not route evidence.
+- The targeted `@playdls` Instagram search (`discovery-t55-instagram-playdls-search`) returned only the general profile, no Cult Heroes post.
+- The Facebook search result (`discovery-t55-facebook-cult-heroes-search`) attributed a snippet to Dream League Soccer: “Scoring team goals with a full squad of Cult Heroes hits different” / “Collect them in game now.” It contains no date or acquisition method. Direct profile fetch `page-303` returned **HTTP 403**; an exact-phrase search (`discovery-t55-facebook-caption-exact-search`) returned unrelated pages. This is not a direct post capture and does not establish the current event window or route.
+
+### Secondary Cult Heroes tutorial (`page-304`)
+A public YouTube page identifies creator **Raven Exe**, upload date **2026-10-03**, 4:09 duration, and 46 views / 2 likes when fetched. Its transcript claims: (1) a Draft costs 225 Gems and takes seven matches to award a Cult Hero Agent; (2) a Season Pass Agent is at the end; (3) an online Cult Hero Challenge awards an Agent after wins and offers three attempts; and (4) an Events section in the Transfer Market shows a calendar of upcoming Cult Heroes events. The creator also says the Agent may yield a random hero rather than the specific desired player.
+
+These are **creator assertions**, not FTG-confirmed facts. The fetched transcript is not independent gameplay verification; no UI state was inspected separately. Treat the 225-Gem cost, seven-match requirement, three-attempt rule, calendar path and reward timing as unverified. Do not recommend spending or change the existing confidence tier based on this one video. The first-party route remains unresolved.
+
+### Scope and budget
+No game mechanic was promoted to verified and no user strategy changed. Seven retrieval calls were made (six-call cap exceeded by one); the overrun is recorded in the operational log. No dimension closed and no exhaustion declaration made.

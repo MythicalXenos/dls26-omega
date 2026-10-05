@@ -23,7 +23,7 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [queue-Medium] Reconcile the 12-vs-17 Cult Heroes count conflict.
 
 ## Added 2026-10-03 Turn 6
-- [queue-High; still open after T54 probe] First-party confirmation of the Cult Heroes agent flow (FTG TikTok video 7437552025958763809 / FTG site / in-app news). Direct TikTok fetch returned HTTP 403; targeted search snippet mixes DLS25 and DLS26 text, and an FTG-site query found no Cult-specific page. Next: alternate official surface or in-game capture; do not promote confidence from the snippet.
+- [queue-High; still open after T55] First-party confirmation of the Cult Heroes agent flow (FTG TikTok video 7437552025958763809 / FTG site / in-app news). T55 found only search snippets on Instagram/Facebook; Facebook direct fetch returned HTTP 403, and the TikTok snippet remains mixed DLS25/DLS26 text. A Raven Exe video gives secondary claims (225-Gem Draft, seven matches, Season Pass reward, three challenge attempts) but is not verification. Next: alternate official surface or in-game capture; do not recommend spending or promote confidence from snippets/video.
 - [queue-High] Full per-card pages for the 12 (done); next: card-type indexes — dynamicstar, champion, world-winners, team2025, classic, normal, season-pass, /tools/.
 - [queue-High] SakibPro events article `dls-26-new-update-events-players/` (Season Pass/Online/Dream Draft distribution maths).
 - [queue-Medium] Reconcile the prior session's "17 Cult Heroes" note (read archived sweep notes; ISSUE-0009).

@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T19:36:00Z",
- "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration.",
+ "last_reconciled_at": "2026-10-05T19:43:45Z",
+ "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration.",
  "entries": [
   {
    "source_id": "ops-github-origin-probe-2026-10-02",
@@ -16499,11 +16499,348 @@
     "https://www.ftgames.com/about",
     "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
    ]
+  },
+  {
+   "source_id": "discovery-t55-youtube-cult-heroes-search",
+   "event_type": "discovery-search",
+   "query": "(\"Cult Heroes\" OR \"Cult Hero Agents\") \"DLS26\" (site:youtube.com OR site:instagram.com OR site:ftgames.com) First Touch Games",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "social/video search results",
+   "language": "en",
+   "payload_summary": "Ten results surfaced, mainly community Cult Heroes gameplay/tutorial videos; the top creator tutorial was opened as page-304. One result is labelled an official DLS26 teaser trailer from 2025 but is not route evidence. Search snippets are leads, not verified gameplay or FTG claims.",
+   "processing_state": "search results captured; selected video fetched separately",
+   "deception_screen": "Search-result snippets only.",
+   "conflicts": "No current FTG-authored Cult Heroes tutorial identified by this query.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "How to Get MORE Cult Heroes in DLS 26!",
+     "url": "https://www.youtube.com/watch?v=e41kd1TA1K8",
+     "pageAge": "2026-10-03",
+     "snippet": "Creator video claims three ways to get Cult Hero Agents, including Draft, Season Pass and Cult Heroes Tournament/Challenge; this result was fetched separately as page-304."
+    },
+    {
+     "id": 2,
+     "title": "Dream League Soccer 2026: Cult Heroes Tournament Gameplay",
+     "url": "https://www.youtube.com/watch?v=xTqeXimUjv4",
+     "pageAge": "2026-10-02",
+     "snippet": "Community gameplay video for the Cult Heroes Tournament."
+    },
+    {
+     "id": 3,
+     "title": "DLS 26 NEW EVENT FT CULT HEROES TOURNAMENT #shorts #dls #dls26",
+     "url": "https://www.youtube.com/shorts/ro6fFJb8Vq0",
+     "pageAge": "2026-10-02",
+     "snippet": "Short describing the Cult Heroes Tournament as a new event."
+    },
+    {
+     "id": 4,
+     "title": "DLS 26 CULT HEROES TOURNAMENT CHAMPIONS WITH YAMAL - DLS CULT HEROES",
+     "url": "https://www.youtube.com/watch?v=bI6nEX5hjBg",
+     "pageAge": "2026-10-02",
+     "snippet": "Community tournament gameplay."
+    },
+    {
+     "id": 5,
+     "title": "DLS 2026 | TIER 1 CULT HEROES TOURNAMENT FINAL",
+     "url": "https://www.youtube.com/watch?v=WE8mXQhO6mw",
+     "pageAge": "2026-10-02",
+     "snippet": "Community tournament gameplay."
+    },
+    {
+     "id": 6,
+     "title": "DLS 26 CULT HEROES TOURNAMENT CHAMPION WITH MBAPPE",
+     "url": "https://www.youtube.com/watch?v=RrUBfS1aeRM",
+     "pageAge": "2026-10-03",
+     "snippet": "Community video says creator completed the Cult Heroes Tournament."
+    },
+    {
+     "id": 7,
+     "title": "Cult Hero All Season Confirmed: Everything You Need To Know",
+     "url": "https://www.youtube.com/watch?v=vklnY84gMRU",
+     "pageAge": "2026-08-30",
+     "snippet": "Community video title asserts an all-season Cult Hero event; unverified."
+    },
+    {
+     "id": 8,
+     "title": "De Gea – Upgrade & Review | Cult Heroes | DLS26",
+     "url": "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
+     "pageAge": "2026-09-18",
+     "snippet": "Community video about an upgraded Cult Heroes De Gea card."
+    },
+    {
+     "id": 9,
+     "title": "Buying Agents Until I Get A WORLD CUP HEROES Player In DLS 26",
+     "url": "https://www.youtube.com/watch?v=OIR9GPIf05o",
+     "pageAge": "2026-07-02",
+     "snippet": "World Cup Heroes, not Cult Heroes."
+    },
+    {
+     "id": 10,
+     "title": "Dream League Soccer 2026 | OFFICIAL TEASER TRAILER",
+     "url": "https://www.youtube.com/watch?v=gpvjf6qVl5c",
+     "pageAge": "2025-11-07",
+     "snippet": "Search result identifies this as the official DLS26 teaser trailer; not Cult Heroes acquisition guidance."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.youtube.com/watch?v=xTqeXimUjv4",
+    "https://www.youtube.com/shorts/ro6fFJb8Vq0",
+    "https://www.youtube.com/watch?v=bI6nEX5hjBg",
+    "https://www.youtube.com/watch?v=WE8mXQhO6mw",
+    "https://www.youtube.com/watch?v=RrUBfS1aeRM",
+    "https://www.youtube.com/watch?v=vklnY84gMRU",
+    "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
+    "https://www.youtube.com/watch?v=OIR9GPIf05o",
+    "https://www.youtube.com/watch?v=gpvjf6qVl5c"
+   ]
+  },
+  {
+   "source_id": "discovery-t55-ftg-social-and-store-search",
+   "event_type": "discovery-search",
+   "query": "First Touch Games official Instagram Facebook Dream League Soccer 2026 Cult Heroes Agent Event Season Pass September 2026",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official-social/store discovery results plus secondary hits",
+   "language": "en",
+   "payload_summary": "Ten results included FTG-linked Instagram, official generic FTG Games page, Google Play and Apple listing snippets, plus secondary/community pages. No Cult Heroes acquisition-route caption was exposed. The Apple result repeats the already-known conflicting LIVE EVENT text; snippets do not settle event timing or acquisition steps.",
+   "processing_state": "search results captured; not treated as page fetches",
+   "deception_screen": "Search-result snippets only.",
+   "conflicts": "Official store text is not a direct current event screen; Apple event card remains self-conflicting.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Dream League Soccer 2026 (DLS 26): Latest September Update, New Features & What’s Next",
+     "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+     "pageAge": "2026-07-23",
+     "snippet": "Secondary article claims Cult Heroes were announced for version 13.420; not an FTG source."
+    },
+    {
+     "id": 2,
+     "title": "Dream League Soccer 2026 - Apps on Google Play",
+     "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en",
+     "pageAge": "2026-09-14",
+     "snippet": "Store result says late-summer update and Cult Heroes collection coming soon; this listing was already in the research corpus."
+    },
+    {
+     "id": 3,
+     "title": "First Touch Games (@firsttouchgames_official) • Instagram photos and videos",
+     "url": "https://www.instagram.com/firsttouchgames_official/",
+     "snippet": "Profile search result says this is the official First Touch Games account; no Cult Heroes caption surfaced."
+    },
+    {
+     "id": 4,
+     "title": "Dream League Soccer 2026 for Android - Stats, Reviews & Downloads",
+     "url": "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+     "pageAge": "2026-10-03",
+     "snippet": "Third-party listing reproduces recent Cult Heroes update text; not an independent FTG source."
+    },
+    {
+     "id": 5,
+     "title": "Dream League Soccer 2026",
+     "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
+     "pageAge": "2026-07-13",
+     "snippet": "Google Play GB listing and generic game feature text."
+    },
+    {
+     "id": 6,
+     "title": "First Touch Games",
+     "url": "https://www.ftgames.com/games",
+     "snippet": "Official Games page describes DLS generally; no Cult Heroes route."
+    },
+    {
+     "id": 7,
+     "title": "Dream League Soccer 2026 - App Store - Apple",
+     "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+     "pageAge": "2026-06-29",
+     "snippet": "Apple result includes self-conflicting event labels and a Cult Heroes “LIVE EVENT” line; existing status conflict is not resolved by this snippet."
+    },
+    {
+     "id": 8,
+     "title": "Upcoming Cult Heroes Special Cards",
+     "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+     "pageAge": "2026-08-21",
+     "snippet": "Community discussion speculates about Cult Heroes agents, Season Pass and Dream Draft; not first-party."
+    },
+    {
+     "id": 9,
+     "title": "First Touch Games unveils Dream League Soccer 2025",
+     "url": "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
+     "pageAge": "2024-06-12",
+     "snippet": "Older DLS2025 press release; not Cult Heroes evidence."
+    },
+    {
+     "id": 10,
+     "title": "First Touch Games's sponsorship discussion megathread (temporary solution)",
+     "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first-touch-gamess-sponsorship-discussion/",
+     "pageAge": "2024-09-09",
+     "snippet": "Community discussion about FTG social channels; not direct DLS26 route evidence."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+    "https://www.instagram.com/firsttouchgames_official/",
+    "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+    "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
+    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+    "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
+    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first-touch-gamess-sponsorship-discussion/"
+   ]
+  },
+  {
+   "source_id": "discovery-t55-instagram-playdls-search",
+   "event_type": "discovery-search",
+   "query": "site:instagram.com/playdls \"Cult Heroes\" DLS26 agents September 2026 First Touch Games",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official-account search result",
+   "language": "en",
+   "payload_summary": "One result returned the general Dream League Soccer @playdls Instagram profile; no matching Cult Heroes post or acquisition-route text was surfaced. Search result only.",
+   "processing_state": "search result captured; profile not fetched",
+   "deception_screen": "Search-result snippet only.",
+   "conflicts": "No event post found in this search response.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Dream League Soccer (@playdls) • Instagram photos and videos",
+     "url": "https://www.instagram.com/playdls/",
+     "snippet": "Search result says Dream League Soccer (@playdls), 1M followers, and “Dream League Soccer 2026 is out now”; no Cult Heroes post surfaced."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.instagram.com/playdls/"
+   ]
+  },
+  {
+   "source_id": "discovery-t55-facebook-cult-heroes-search",
+   "event_type": "discovery-search",
+   "query": "site:facebook.com/dreamleaguesoccer \"Cult Heroes\" Agents \"DLS26\" \"Season Pass\"",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "official-social-account search result",
+   "language": "en",
+   "payload_summary": "Two results. The Dream League Soccer Facebook profile snippet says “Scoring team goals with a full squad of Cult Heroes hits different” and “Collect them in game now,” with DLS26/CultHeroes hashtags. It gives no publication date or acquisition method. The second result is a Turkish-language page. The profile was fetched directly next and returned HTTP 403; snippet is not a direct page capture.",
+   "processing_state": "search result captured; direct profile attempt separate",
+   "deception_screen": "Search-result snippet only.",
+   "conflicts": "No route details or date; direct profile request failed.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Dream League Soccer (@dreamleaguesoccer)",
+     "url": "https://www.facebook.com/dreamleaguesoccer/",
+     "snippet": "Search result attributed to Dream League Soccer says: “Scoring team goals with a full squad of Cult Heroes hits different 😤 Collect them in game now.” Hashtags include #CultHeroes and #DLS26; no post date or acquisition method shown."
+    },
+    {
+     "id": 2,
+     "title": "Dream League Soccer Türkiye (@dreamleaguesoccertr)",
+     "url": "https://www.facebook.com/dreamleaguesoccertr/",
+     "snippet": "Search result for a Turkish-language DLS page; no route detail."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.facebook.com/dreamleaguesoccertr/"
+   ]
+  },
+  {
+   "source_id": "page-303-facebook-dls-profile-attempt-t55",
+   "event_type": "page_fetch_attempt",
+   "url": "https://www.facebook.com/dreamleaguesoccer/",
+   "domain": "www.facebook.com",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "page-render",
+   "tool": "functions.fetch_page (direct request)",
+   "http_status": 403,
+   "source_type": "official-social profile attempt; direct retrieval failed",
+   "language": "en",
+   "payload_summary": "fetch_page returned “Failed to fetch page (HTTP 403)”; no Facebook page body or post was returned. Do not treat the web-search snippet as a verified direct capture.",
+   "processing_state": "blocked; no content processed",
+   "deception_screen": "HTTP 403; no page body available.",
+   "conflicts": "Search snippet has no date or acquisition details; no direct verification.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t55-facebook-caption-exact-search",
+   "event_type": "discovery-search",
+   "query": "\"Scoring team goals with a full squad of Cult Heroes hits different\" \"Collect them in game now\"",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 2)",
+   "http_status": "not applicable; tool returned success",
+   "source_type": "exact-phrase discovery search",
+   "language": "en",
+   "payload_summary": "Five search results were returned, none was the Dream League Soccer Facebook page or a DLS26 source. Results were unrelated use of “cult heroes,” a Goals achievements guide, football-cult-hero articles and an old Score Hero 2 review. This query did not produce a direct post URL or corroboration.",
+   "processing_state": "search results captured; no relevant page discovered",
+   "deception_screen": "Search-result snippets only.",
+   "conflicts": "No exact-match direct post surfaced.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Cult heroes for your team",
+     "url": "https://www.reddit.com/r/TheOther14/comments/1n8ilgj/cult_heroes_for_your_team/"
+    },
+    {
+     "id": 2,
+     "title": "Goals Achievements List (100% Completion Guide)",
+     "url": "https://fandomwire.com/goals-achievements-list-100-completion-guide/"
+    },
+    {
+     "id": 3,
+     "title": "Football Manager: 10 of the game's greatest cult heroes",
+     "url": "https://www.fourfourtwo.com/features/football-manager-the-greatest-cult-heroes-of-all-time"
+    },
+    {
+     "id": 4,
+     "title": "10 Greatest Cult Heroes in Football History [Ranked]",
+     "url": "https://www.givemesport.com/greatest-cult-heroes-in-football-history-ranked/"
+    },
+    {
+     "id": 5,
+     "title": "Score Hero 2 (compact Android Review)",
+     "url": "https://steemit.com/games/@tioluwanih/score-hero-2-compact-android-review"
+    }
+   ],
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-304-raven-exe-cult-heroes-guide-t55",
+   "event_type": "page_fetch",
+   "url": "https://www.youtube.com/watch?v=e41kd1TA1K8",
+   "domain": "www.youtube.com",
+   "retrieved_at": "2026-10-05T19:43:45Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete; hasMore=false)",
+   "http_status": 200,
+   "source_type": "secondary creator video / transcript",
+   "language": "en",
+   "payload_summary": "Public YouTube video by Raven Exe, title “How to Get MORE Cult Heroes in DLS 26! | 3 Easy Methods + BONUS Tip,” uploaded 2026-10-03; page reported 46 views and 2 likes. Transcript claims: Draft entry costs 225 Gems and requires seven matches to receive a Cult Hero Agent; the Season Pass has an Agent at its end; an online Cult Hero Challenge requires wins and offers three attempts; the Transfer Market Events section allegedly displays an event calendar. The creator says the Agent yields a random Cult Hero rather than a chosen one. These are creator assertions, not FTG-confirmed rules; no in-game UI was independently inspected and high-stakes costs/reward counts require verification before any advice.",
+   "deception_screen": "Public video page and transcript rendered; creator is Raven Exe, not FTG.",
+   "conflicts": "Secondary creator source; no first-party confirmation. Do not use 225-Gem/seven-match/three-attempt figures for planning until verified.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 55 block); knowledge/claim_register.md (Turn 55 note)",
+   "processing_state": "transcript read and claims recorded as unverified secondary evidence",
+   "chunk_index": 0,
+   "total_chunks": 1,
+   "has_more": false,
+   "discovered_not_yet_visited": []
   }
  ],
  "frontier": {
-  "visited_total": 477,
-  "unvisited_total": 390,
+  "visited_total": 479,
+  "unvisited_total": 404,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -16799,7 +17136,6 @@
    "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html — full render: Progression Bank, Global Challenge Cup, Season Points, 90-day cycle",
    "https://www.dreamleaguesoccerkits.com/2026/05/dream-league-soccer-2026-beginners.html",
    "https://www.facebook.com/dreamleaguesoccer",
-   "https://www.facebook.com/dreamleaguesoccer/",
    "https://www.facebook.com/firsttouchgames",
    "https://www.facebook.com/firsttouchgames/mentions",
    "https://www.facebook.com/firsttouchgamess",
@@ -16894,7 +17230,22 @@
    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7664965549348244758",
    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7442747227027541281",
    "https://www.ftgames.com/about",
-   "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
+   "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
+   "https://www.youtube.com/watch?v=xTqeXimUjv4",
+   "https://www.youtube.com/shorts/ro6fFJb8Vq0",
+   "https://www.youtube.com/watch?v=bI6nEX5hjBg",
+   "https://www.youtube.com/watch?v=WE8mXQhO6mw",
+   "https://www.youtube.com/watch?v=RrUBfS1aeRM",
+   "https://www.youtube.com/watch?v=vklnY84gMRU",
+   "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
+   "https://www.youtube.com/watch?v=OIR9GPIf05o",
+   "https://www.youtube.com/watch?v=gpvjf6qVl5c",
+   "https://www.instagram.com/firsttouchgames_official/",
+   "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
+   "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+   "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
+   "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first-touch-gamess-sponsorship-discussion/",
+   "https://www.facebook.com/dreamleaguesoccertr/"
   ]
  }
 }
