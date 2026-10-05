@@ -40,3 +40,8 @@ The en-GB Google Play DLS26 listing (page-323) links the previously identified C
 ## Turn 67 — official Play event-art URLs returned no image
 
 The two Google Play image variants linked to the DLS26 Cult Heroes promo (`page-326`, `page-327`) returned HTTP 500 through `fetch_page`; no image bytes or visual/OCR data were received. This is a route/access failure, not a negative finding. No event-art, route/reward, or position-lock claim is inferred.
+
+
+## Turn 71 — first-party general position wording is not a lock test
+
+The existing FTG `core-principles` record (page-066) lists formation choices and pitch positioning as general AI inputs, but says nothing about DLS26 position eligibility, locks, or penalties. This is not DLS26-specific evidence and does not verify/refute the user-stated no-lock report. The T71 TikTok mobile URL for post 7437552025958763809 returned HTTP 403; no caption/body was obtained.

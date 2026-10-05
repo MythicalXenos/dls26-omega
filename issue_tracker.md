@@ -206,3 +206,7 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 220 project files u
 
 ### ISSUE-0014 — occurrence #32 (2026-10-06, Turn 70 open)
 Same sandbox-reset signature: local branch at `fb9a2c0` with 221 project files untracked. Archived 221 files (12,244,651 bytes), restored remote `10c4f54`, and byte-verified all 221 tracked files; only the expected T70 clock-start append needed normalization. Restored branch/upstream and `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+
+
+### ISSUE-0014 — occurrence #33 (2026-10-06, Turn 71 open)
+Same sandbox-reset signature: local branch at `fb9a2c0` with 222 project files untracked. Archived all 222 files (12,249,303 bytes), restored remote `7dddb25`, and byte-verified all 222 tracked files; only the expected T71 clock-start append needed normalization. Restored branch/upstream and `DLS26 Omega <omega@dls26.local>`. No loss or force-push.

@@ -261,3 +261,8 @@ Reconciliation output: **647 ledger entries · 502 unique visited URLs · 407 un
 ## Turn 70 reconciliation (2026-10-06)
 
 Reconciliation output: **648 ledger entries · 503 unique visited URLs · 407 unvisited leads**. One distinct official TikTok API endpoint returned 403 with no body; no frontier lead consumed. No Cult Heroes route or position-lock result; no dimension closure/exhaustion.
+
+
+## Turn 71 reconciliation (2026-10-06)
+
+Reconciliation output: **649 ledger entries · 504 unique visited URLs · 407 unvisited leads**. The distinct TikTok mobile route for post 7437552025958763809 returned 403/no body. Re-reading the existing FTG core-principles summary adds only general AI-input wording, not DLS26 lock evidence. No route/position-lock resolution; no dimension closure/exhaustion.

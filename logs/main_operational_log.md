@@ -867,3 +867,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - One retrieval: `page-330-tiktok-item-detail-api-t70`, official TikTok `/api/item/detail/` endpoint for post 7437552025958763809; HTTP 403, no JSON/caption/author metadata. This distinct endpoint does not resolve the earlier mixed search-result snippet. No claim promoted.
 - Reconciliation: **648 entries / 503 unique visited URLs / 407 unvisited leads**; no existing frontier lead consumed and no new lead. No KB claim changed or snapshot needed. Cult Heroes route/rewards and position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
 - One retrieval and five tool calls before wrap-up; within limits. Close marker 2026-10-05T21:02:46Z (before commits/push).
+
+
+## TURN 71 (2026-10-06) — mobile TikTok route blocked; position context bounded
+- Open 2026-10-06 03:04:41 +06. Local checkout reset to `fb9a2c0` with 222 project files untracked. Archived all 222 files (12,249,303 bytes), restored remote `7dddb25`, and byte-verified all 222 tracked files; only the expected T71 clock-start append differed. ISSUE-0014 #33 logged; identity `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+- One retrieval: `page-331-tiktok-mobile-post-t71`, distinct `m.tiktok.com/v/7437552025958763809.html` route for the FTG post; HTTP 403 with no redirect/metadata/caption/body. Search-snippet attribution remains unresolved. Separately reviewed the already-logged first-party `page-066` summary: formation choices and pitch positioning appear in FTG's general AI-input wording, but it is not DLS26-specific and is not a position-lock test.
+- Reconciliation: **649 entries / 504 unique visited URLs / 407 unvisited leads**; no existing frontier lead consumed and no new lead. KB bounded-context note + snapshot `snapshots/KB_snapshot_2026-10-06-turn71-position-context.md`. Cult Heroes route/rewards and DLS26 position lock remain unverified; no spending advice, dimension closure, or exhaustion declaration.
+- One retrieval and four tool calls before wrap-up; within limits. Close marker 2026-10-05T21:05:54Z (before commits/push).
