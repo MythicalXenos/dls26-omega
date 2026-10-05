@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T22:35:50Z UTC, Turn 87. Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 88 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** local reset to `fb9a2c0`, 252 project files untracked, upstream unset. Archived all 252 files (SHA-256 `00e7bd6bbcb44bb077d6bdbdc18962779c2057f4f639816bce8af1dcd7aa0561`), restored remote `6102fa1`, and byte-verified all files after excluding only T87 clock-start line. ISSUE-0014 occurrence #49 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger:** 688 entries · 510 unique visited URLs · 405 unvisited leads. Six retrieval calls; FTG Special Players query remains partial.
+- **Git repair at open:** local reset to `fb9a2c0`, 256 project files untracked, upstream unset. Archived all 256 files (SHA-256 `47c40e992b235af164f86a311a51745c115bd6d39d6ad5cda2c558e18a8d05f5`), restored remote `891bea4`, and byte-verified 256/256 files. ISSUE-0014 occurrence #50 logged; repo-local identity and upstream restored. No loss/force-push.
+- **Ledger:** 691 entries · 512 unique visited URLs · 404 unvisited leads. Five retrieval calls; the FTG Special Players query is complete, with no Cult Heroes-specific route/reward in that query.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -43,13 +43,14 @@
 - **T83 sources:** App Store U.S. listing/event and generic FTG Events article were direct-fetched, but all three exact URLs were already in the ledger; T83 fetches were repeats, not independent corroboration. Storefront says HAPPENING NOW/LIVE EVENT only; route/reward not verified. T84 audit is in `source_archive/t84_ftg_live_events_query_progress.md`.
 - **T84 source:** FTG `live events` query chunks 0–6/10; generic “What are Super Players?” does not link Cult Heroes to that category. T85 completed chunks 7–9; see T85 source below. T83 direct URLs were repeats.
 - **T85 source:** complete FTG `live events` query (18 results, chunks 0–9/10); mixed generic DLS/other-game material, no Cult Heroes-specific route/reward. Archive `source_archive/t85_ftg_live_events_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn85-ftg-live-events-complete.md`.
-- **T86 source:** FTG `Special Players Events` query 10 results/8 chunks; chunks 0–6 read across T86–T87, final chunk 7 remains. Visible content is generic/mixed, no Cult Heroes-specific finding.
-- **T87 source:** continued `Special Players Events` chunks 1–6; generic player stats/help, age confirmation, old customization, and other-game material. Resume final chunk7; do not infer absence. Archive `source_archive/t87_special_players_query_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn87-special-players-query.md`.
-- **Next exact action (Turn 88):**
+- **T86 source:** FTG `Special Players Events` query 10 results/8 chunks; chunks 0–7 completed across T86–T88. Mixed generic material; no Cult Heroes-specific finding in this query.
+- **T87 source:** continued `Special Players Events` chunks 1–6; generic player stats/help, age confirmation, old customization, and other-game material. Archive `source_archive/t87_special_players_query_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn87-special-players-query.md`.
+- **T88 source:** final FTG `Special Players Events` chunk7 completed the 8-chunk query. New FTG exact searches: `Cult Hero Agents` returned one generic player-acquisition FAQ; `Cult Heroes Event` and `Cult Heroes rewards` returned zero Help Center results. A targeted FTG-site web search showed only generic/previously visited pages. None verifies Cult Heroes route/rewards or DLS26 position locking. Archive `source_archive/t88_ftg_special_players_searches.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn88-ftg-search-completion.md`.
+- **Next exact action (Turn 89):**
   1. Record the clock first; verify branch/status/upstream/identity and recover with archive/byte verification only if a reset is observed.
-  2. Finish the exact FTG `Special Players Events` API query at chunkIndex 7; chunks 0–6 are read and the final chunk remains. Do not infer absence before completion.
-  3. Do not conflate generic player card colours, Agents, Super Players, Events, or Prize Ladder with Cult Heroes. Continue seeking distinct first-party/in-game route/reward evidence; do not repeat completed exact queries.
-  4. Keep Cult Heroes route/rewards unresolved and user-stated DLS26 no-position-lock unverified until Step-3 device setup. No spending recommendation, closure, or exhaustion declaration; PR #3 open/unmerged. Stay within the 10-tool-call limit.
+  2. Continue with distinct first-party or in-game evidence; do not repeat completed exact queries or treat generic Agents, Super Players, Events, Prize Ladder, app-store text, blocked pages, or search results as event mechanics.
+  3. Keep Cult Heroes availability/route/cost/rewards unresolved; keep DLS26 no-position-lock explicitly `user-stated` and verification owed until Step-3 device setup. No spending recommendation, closure, or exhaustion declaration; PR #3 open/unmerged.
+  4. Maintain research-turn limits (≤6 retrieval calls; ≤10 tool calls before wrap-up) and push before turn end.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -70,3 +71,6 @@
 ## Turn-end fields
 
 - T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, T69 `7c778d5`/`10c4f54`, T70 `1995080`/`7dddb25`, T71 `b540348`/`760ab99`, T72 `cf788bb`/`7d739b8`, T73 `3a37538`/`4367516`, T74 `823b314`/`8be1c4e`, T75 `e6d3da9`/`0146b79`, T76 `27894b6`/`2b53858`, and T77 `5859428`/`a5e5653` are pushed. T78 `9445f2d`/`a51eed8`, T79 `0b1e419`/`786384d`, T80 `375cb96`, T81 `7b9e5c3`, T82 `3849c5d`, T83 `ac8641f`, T84 `111e9ea`/`2826f8a`, T85 `e3fb629`/`87421b0`, and T86 `d79f4d7`/`6102fa1` are pushed. T87 source commit `1367a31` and handoff are pushed to `arena/01a1022d-dls26-omega`. Close marker is recorded in `logs/turn_clock.txt`. Next input expected: `>`.
+
+
+**T88 audit correction (2026-10-05T22:44:37Z):** Retrieval/discovery ended after tool call 9 (five retrievals total). Calls 10–17 were eight wrap-up calls, four above the four-call wrap-up ceiling; no retrieval occurred during wrap-up. Earlier T88 budget counts in the operational log, source archive, and handoff are superseded by this correction. The exact URL repeated in T88 was `Cult Hero Agents`; its T88 response is logged as a repeat, not independent evidence. The first sync attempt aborted before writing on the duplicate-URL check; the second wrote the source records but stopped before handoff-count/clock closeout. This call completes closeout and push.

@@ -341,3 +341,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 87 reconciliation (2026-10-06)
 
 **688 entries · 510 unique visited URLs · 405 unvisited leads**. FTG `Special Players Events` query read through chunk6/8; resume chunk7. No Cult Heroes-specific route/reward conclusion.
+
+
+## Turn 88 reconciliation (2026-10-06)
+
+**691 entries · 512 unique visited URLs · 404 unvisited leads**. FTG `Special Players Events` query is complete (chunks 0–7/8); the final chunk adds only generic account/profile/help material. The `Cult Hero Agents` query URL was repeated; two other exact Help Center queries yielded zero matches. A targeted FTG-site search surfaced no event-specific source. Remove the completed chunk-7 lead. Cult Heroes route/rewards and DLS26 position-lock remain open; no absence or exhaustion inference.

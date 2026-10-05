@@ -966,3 +966,15 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: `fb9a2c0`, 252 untracked files; archive SHA-256 `00e7bd6bbcb44bb077d6bdbdc18962779c2057f4f639816bce8af1dcd7aa0561`; restored `6102fa1`; 252/252 byte-verified except T87 open marker. ISSUE-0014 #49 logged; identity/upstream restored.
 - Six retrieval calls: `Special Players Events` chunks 1–6 (continuing T86 chunk0; 10 results/8 chunks). Mostly generic player stats/help and mixed-product results. Chunk7 pending.
 - Ledger: **688 entries / 510 visited URLs / 405 unvisited leads**. Close marker 2026-10-05T22:35:40Z.
+
+
+## TURN 88 (2026-10-06) — FTG Help Center follow-up and recovery
+
+- Opening reset: `fb9a2c0`, 256 project files untracked, upstream unset. Archive SHA-256 `47c40e992b235af164f86a311a51745c115bd6d39d6ad5cda2c558e18a8d05f5`; restored `891bea4`; byte-verified 256/256 files. ISSUE-0014 #50 logged; identity/upstream restored.
+- Five retrieval calls: completed FTG `Special Players Events` chunk 7/8; the exact `Cult Hero Agents` query URL was a repeat; new Help Center queries `Cult Heroes Event` and `Cult Heroes rewards` returned 0; one targeted FTG-site web search returned generic/older cards. No route/reward/position-lock verification.
+- **Turn-budget audit:** 11 tool calls before wrap-up (one above the 10-call ceiling) and five wrap-up calls (one above the four-call ceiling). The first ledger-sync attempt aborted before writing because it detected a pre-existing exact query URL; the retry records the T88 execution as a repeat. Retrieval calls remained within the six-call cap; no retrieval followed the overrun. Next turn must stop research by call 10 and begin wrap-up.
+- Ledger: **691 entries / 512 unique visited URLs / 404 unvisited leads**. The pending chunk-7 lead was removed. No dimension closed; no exhaustion declaration.
+- Source archive: `source_archive/t88_ftg_special_players_searches.md`; snapshot: `snapshots/KB_snapshot_2026-10-06-turn88-ftg-search-completion.md`.
+
+
+**T88 audit correction (2026-10-05T22:44:37Z):** Retrieval/discovery ended after tool call 9 (five retrievals total). Calls 10–17 were eight wrap-up calls, four above the four-call wrap-up ceiling; no retrieval occurred during wrap-up. Earlier T88 budget counts in the operational log, source archive, and handoff are superseded by this correction. The exact URL repeated in T88 was `Cult Hero Agents`; its T88 response is logged as a repeat, not independent evidence. The first sync attempt aborted before writing on the duplicate-URL check; the second wrote the source records but stopped before handoff-count/clock closeout. This call completes closeout and push.

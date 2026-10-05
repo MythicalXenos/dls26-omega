@@ -120,3 +120,7 @@ FTG query has 10 results/8 chunks; only chunk0 read. Visible generic card-colour
 ## Turn 87 — `Special Players Events` still partial
 
 FTG Help Center query now read through chunk6/8; chunk7 remains. Visible content is generic player/stats help, not Cult Heroes-specific. No absence inference; position-lock remains unverified.
+
+
+## T88 update — unresolved first-party checks
+The FTG `Special Players Events` response is complete (chunks 0–7/8). One exact Help Center query was repeated from an existing URL; two new exact queries yielded zero matches, and official-site search results were generic/older. None verifies Cult Heroes availability, route, cost, or rewards. DLS26 position-lock remains user-stated/unverified; device setup and in-game capture remain the decisive path. No gap closed. Provenance: `source_archive/t88_ftg_special_players_searches.md`.

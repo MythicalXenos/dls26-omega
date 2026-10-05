@@ -1356,3 +1356,10 @@ No new first-party mechanic was established. The route and DLS26 position-lock q
 
 - Continued `Special Players Events` through chunks 1–6/8 (after T86 chunk0). Results continue generic DLS stats/help, generic Super Players, older DLS19 customization, and Score! Match content. No Cult Heroes-specific route/reward surfaced in these chunks. Chunk7 remains unread; do not make a query-wide absence conclusion.
 - Cult Heroes route/rewards and DLS26 position locking remain unresolved. See `source_archive/t87_special_players_query_progress.md`.
+
+
+## Turn 88 — FTG special-player query completed; specific Cult Heroes evidence remains open
+
+FTG Help Center `Special Players Events` is complete (10 results, chunks 0–7/8). Final chunk 7 contains generic account/profile/friend-match/update help; the response does not specifically explain Cult Heroes. The `Cult Hero Agents` API query was repeated at an exact URL already present from earlier work and again returned the generic “How do I obtain more players?” FAQ; it is not independent evidence. Exact searches `Cult Heroes Event` and `Cult Heroes rewards` returned zero results. A targeted FTG-site search yielded generic/older result cards only; snippets are not page evidence. These bounded search outcomes do not establish in-game absence or a route/reward.
+
+Cult Heroes availability, acquisition route, cost, and rewards remain unresolved. DLS26 position-lock behavior remains explicitly `user-stated` and unverified pending Step-3 device setup. Provenance: `source_archive/t88_ftg_special_players_searches.md` and T88 entries in `logs/sources_visited.json`.
