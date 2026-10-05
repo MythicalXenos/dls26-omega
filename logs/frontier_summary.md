@@ -161,3 +161,8 @@ Reconciliation output: **577 ledger entries · 468 unique URLs · 352 unvisited 
 ## Turn 50 reconciliation (2026-10-05)
 
 Reconciliation output: **583 ledger entries · 469 unique URLs · 368 unvisited leads**, stale annotations removed 1. Privacy policy chunks 0–4 complete. General FAQ bodies 20/21; Parents’ Guide 8/8. DLSInside WCC detail render lacked names.
+
+
+## Turn 51 reconciliation (2026-10-05)
+
+Reconciliation output: **589 ledger entries · 473 unique URLs · 381 unvisited leads**; stale annotations removed 3. General FAQ bodies 20/21; Parents’ Guide 8/8. GamingOnPhone guide remains partial at chunk 0/2.

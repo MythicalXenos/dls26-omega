@@ -1061,3 +1061,20 @@ The category page title says Dream League Soccer 2026, but names/cards did not r
 - Turn opened at `fb9a2c0` with all project paths untracked. Backup/fetch/reset to remote `3bde4fc`; byte comparison verified **199 files identical**. No content loss or force-push. ISSUE-0014 occurrence #12 recorded.
 - dlskiturl unchanged on the **thirty-fourth** check: same nine front-page items, no new October-dated item.
 - General FAQs: **21/21 titles, 20/21 bodies**. Parents’ Guide: **8/8 titles and bodies**. No exhaustion declaration.
+
+
+## TURN 51 (2026-10-05) — category archives and partial secondary career guide
+
+### DLSKitURL archives
+- The DLS 26 archive renders ten recent posts (Cult Heroes, English League Classics and club kit guides). The Classic archive renders ten kit-related posts, including English League Classics and vintage international/club kits. These are secondary blog archives with `hasMore=false`; they do not establish in-game player rosters, event availability or gameplay mechanics. Links are in the source ledger.
+
+### DLSInside Champions and Classic pages
+Both pages identify their titles as DLS 2026, but player names/cards failed to render. Champions showed only 12 unlabeled numbers: `7, 10, 10, 14, 22, 10, 23, 7, 22, 9, 9, 7`; Classic showed 12 unlabeled numbers: `10, 10, 11, 10, 5, 10, 9, 11, 8, 9, 19, 10`. Do not interpret these sequences as player IDs, OVRs, positions or names. DLSInside and DreamKitsApp remain one non-FTG family.
+
+### GamingOnPhone DLS26 career guide (chunk 0/2 only)
+The guide’s first chunk makes secondary-source claims that the transfer market refreshes after matches; market quality is affected by team rating/“chemistry”; Scouts cost Coins and Agents Gems; training-center levels unlock formations; Accommodation expands squad size; Stadium capacity and Commercial Centre increase coin rewards; Physios restore stamina/injuries; and releasing a Legendary player does not guarantee a Legendary Coach. It also describes coach tiers and random/stat boosts. These claims are **not FTG-confirmed** and must be reconciled against first-party sources or user screens before being used in a plan. Chunk 1 remains unread; no date surfaced in the fetched chunk.
+
+### Git recovery and coverage
+- Turn opened at `fb9a2c0` with project paths untracked. Backup/fetch/reset to `deb5672`; byte comparison verified **200 files identical**. No content lost or force-push; ISSUE-0014 occurrence #13 recorded.
+- dlskiturl unchanged on the **thirty-fifth** check: same nine front-page items, no new October-dated item.
+- General FAQ bodies **20/21**; Parents’ Guide **8/8**. No exhaustion declaration.

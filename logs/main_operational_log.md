@@ -715,3 +715,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Privacy policy is general FTG-wide, last updated 2026-02-13; recorded conditional claims with no inference about this user or DLS26 runtime.
 - Reconciliation: **583 entries / 469 unique URLs / 368 unvisited leads**; stale annotated leads removed **1**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tool calls 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T18:50:25Z (before commits/push).
+
+
+## TURN 51 (2026-10-05) — recovery and secondary-guide/archive sweep
+- Open 2026-10-05T18:57:09Z: HEAD `fb9a2c0`, project paths untracked. Backup/fetch/reset to remote `deb5672`; byte-check **200 files, all identical**. No loss/no force-push. ISSUE-0014 occurrence #13 logged.
+- Six retrievals: dlskiturl monitor; DLSInside Champions and Classic detail pages; DLSKitURL DLS26 and Classic archives; GamingOnPhone DLS26 guide chunk 0/2.
+- DLSInside pages lacked names; GamingOnPhone claims remain unverified; archive pages are kit listings, not game mechanics.
+- Reconciliation output: **589 entries / 473 unique URLs / 381 unvisited leads**; stale annotations removed **3**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; calls 9/10. No exhaustion declaration.
+- Close marker 2026-10-05T18:58:59Z (before commits/push).

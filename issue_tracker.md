@@ -119,3 +119,7 @@ Same sandbox-restore signature as the prior occurrence: HEAD was `fb9a2c0 Initia
 
 ### ISSUE-0014 — occurrence #12 (2026-10-05, Turn 50 open)
 Same sandbox-restore signature: local HEAD was `fb9a2c0 Initial commit`, project paths appeared untracked. Backed up excluding `.git`, fetched `origin/arena/01a1022d-dls26-omega`, reset to remote tip `3bde4fc`, and byte-compared 199 regular files; all match. Re-stamped Turn-50 clock; no content loss or force-push. Repo-local identity set to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0014 — occurrence #13 (2026-10-05, Turn 51 open)
+Same sandbox-restore signature: local HEAD `fb9a2c0 Initial commit`, whole project tree untracked. Safeguarded excluding `.git`, fetched the branch, reset to remote tip `deb5672`, and byte-compared 200 regular files; all match. Re-stamped the Turn-51 clock; no content loss or force-push. Local identity reset to `DLS26 Omega <omega@dls26.local>`.

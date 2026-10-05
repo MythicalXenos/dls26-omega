@@ -460,3 +460,8 @@ DLSInside and DreamKitsApp cross-link and remain one community-database family; 
 ## Turn 50 update (2026-10-05) — FTG Privacy Policy complete
 
 All 5 policy chunks read. The 2026-02-13 FTG-wide policy describes possible device, gameplay, ad, analytics, and support information, opt-outs, deletion and rights; do not treat it as a per-user DLS26 collection audit. Its suspected-cheating/ad consequence language is policy-wide and not an inference about this player. DLSInside World Cup Champions page rendered no player identities (only unlabeled numbers); no roster claim. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.
+
+
+## Turn 51 update (2026-10-05) — secondary guide not confirmed
+
+DLSInside Champions/Classic detail pages did not render names; no roster evidence. GamingOnPhone DLS26 career guide is only partially read and makes secondary claims about transfer refresh, chemistry, training, accommodation, stadium/commercial rewards and coach release odds; require FTG/user-screen validation. DLSKitURL archives are kit posts, not mechanics. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed.

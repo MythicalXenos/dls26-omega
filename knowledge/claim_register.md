@@ -286,3 +286,8 @@ DLSInside root claims 2026/version name 13430/code160/update 2026-09-16 and play
 ## Turn 50 — complete FTG privacy policy and unusable DLSInside category render
 
 FTG Privacy Policy last-updated 2026-02-13, read in all 5 chunks. It makes general statements about possible collection/use/sharing of device, gameplay, ad and analytics data; ad personalization opt-outs; deletion/rights; and generic anti-cheat automation. It does not prove per-player DLS26 collection or enforcement. CCPA sale statement is specifically in California section. DLSInside World Cup Champions category page yielded only unlabeled numbers, no roster evidence.
+
+
+## Turn 51 — unverified secondary career guide
+
+GamingOnPhone DLS26 guide chunk 0/2 claims transfer refresh after matches, market quality/“chemistry,” coin/gem Scout-Agent routes, Training Centre unlocking formations, Accommodation expanding squad size, Stadium/Commercial coin bonuses, and Legendary-release Coach uncertainty. No FTG validation yet. DLSInside Champions and Classic pages rendered no names, only unlabeled numbers; no roster inference. DLSKitURL archives list kits/event articles but do not verify game mechanics.
