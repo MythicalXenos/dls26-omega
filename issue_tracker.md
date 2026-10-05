@@ -109,3 +109,6 @@ Same signature as occurrence #7: local HEAD at `fb9a2c0 Initial commit` with 15 
 
 ### ISSUE-0014 — occurrence #9 (2026-10-05, Turn 40 open)
 Same signature: local HEAD at `fb9a2c0 Initial commit` with 15 dirty paths. Backed up excluding `.git`, fetched `origin/arena/01a1022d-dls26-omega`, reset hard to remote tip `1ca0491`, and verified clean status. Byte comparison found only `logs/turn_clock.txt` differed; it was re-stamped. No other content lost, no force-push. Repo-local identity verified as `DLS26 Omega <omega@dls26.local>`.
+
+### ISSUE-0014 — occurrence #10 (2026-10-05, Turn 48 open)
+Same sandbox-restore signature: local HEAD was `fb9a2c0 Initial commit`, all project paths appeared untracked, while the working tree was intact. Backed up the tree excluding `.git` (5,938,573-byte archive), fetched `origin/arena/01a1022d-dls26-omega`, and reset to remote tip `09c31e1`. Byte comparison verified every backed-up regular file was identical after repair. Restamped Turn-48 clock; no other content lost, no force-push. Repo-local identity is `DLS26 Omega <omega@dls26.local>`.

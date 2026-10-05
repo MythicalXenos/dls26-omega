@@ -999,3 +999,23 @@ The unvisited candidate URL with article ID `441327324187` rendered FTG’s “p
 ### Monitoring and coverage
 - dlskiturl unchanged on the **thirty-first** check: same nine front-page items, no new October-dated item.
 - General FAQ titles remain **21/21 enumerated**, bodies read **20/21**. Parents’ Guide remains **8/8 titles and bodies**. FTS15 article `213892809` remains intentionally unfetched.
+
+
+## TURN 48 (2026-10-05) — Current storefront/publisher pages and event-state caveats
+
+### Google Play listing (DLS package `com.firsttouchgames.dls7`)
+The listing identifies Dream League Soccer 2026 by First Touch Games Ltd.; says Contains ads and in-app purchases; shows 100M+ downloads, Everyone, in-game purchases including random items, and “Updated on Sep 14, 2026”. Its store description markets 4,000+ licensed players, 8 divisions, 10+ cups, Dream League Live, Clans, facilities, Coaches, ads and an internet requirement. This is publisher/store copy, not proof of every feature’s current in-game implementation, and the returned render has no app version number. Review count conflicted within the two chunks (15M vs 14.4M); disregard it.
+
+Chunk 1 also shows a Google Play event teaser with “Ends on 10/14” and “The names the fans remember, from their peak years”; this render did not reveal the event name. The listing’s late-summer update text says the Cult Heroes collection is “coming soon” and mentions bug fixes. Treat that phrase as potentially stale listing copy, not proof of current event availability or a date. Event-details ID `4830045897422713648` remains an unvisited lead.
+
+### Google Play Data Safety (developer-provided disclosure)
+The page explicitly cautions that practices may vary by app version, use, region, and age. It lists approximate location, device IDs, purchase history, crash logs/diagnostics as data shared in some contexts; collected categories include app interactions/actions, approximate location, optional device IDs, user IDs, purchase history, crash logs, and diagnostics. It says data is encrypted in transit and deletion can be requested. These are developer-provided store disclosures, not independently verified runtime behavior or a privacy audit.
+
+### Apple event card and FTG publisher site
+- Apple’s “English League Classics” event card says users can relive glory days and unlock top players in a Prize Ladder. A single render displays both **“EVENT ENDED”** and **“LIVE EVENT”**; no event date or player list appears. State is internally inconsistent; do not infer the current schedule from it.
+- FTG’s undated generic Games page describes DLS as 4,000+ FIFPRO players, 8 divisions, 3D motion capture, commentary, and team customisation. It links Google Play package `com.firsttouchgames.dls7` and App Store numeric ID `1462911602`, while its Apple anchor labels the app “Dream League Soccer 2020” and the current Apple event page labels it DLS 2026. This is a legacy publisher-page title mismatch, not evidence of two different app IDs or a current DLS26 feature list.
+
+### Recovery, monitor, and coverage
+- Turn opened at local HEAD `fb9a2c0` with all project files untracked. Safeguarded the worktree (5,938,573-byte tar excluding `.git`), fetched the correct branch, reset to remote `09c31e1`, and compared 197 regular files; every backed-up file was byte-identical after repair. No content lost, no force-push; occurrence #10 recorded under ISSUE-0014. Only the current-turn clock was dirty after repair.
+- dlskiturl unchanged on the **thirty-second** check: same nine front-page items, no new October-dated item.
+- General FAQ titles remain **21/21 enumerated**, bodies **20/21**; Parents’ Guide remains **8/8 titles and bodies**. No exhaustion declaration.

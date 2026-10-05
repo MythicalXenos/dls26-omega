@@ -146,3 +146,8 @@ Reconciliation output: **559 ledger entries · 455 unique visited URLs · 382 un
 ## Turn 47 reconciliation (2026-10-05)
 
 Reconciliation output: **565 ledger entries · 460 unique URLs visited · 377 unvisited leads**. General FAQ bodies 20/21; Parents’ Guide bodies 8/8. Three Score! Match articles removed from DLS scope; DLS graphics article unversioned.
+
+
+## Turn 48 reconciliation (2026-10-05)
+
+Reconciliation output: **571 ledger entries · 464 unique URLs visited · 373 unvisited leads**. General FAQ bodies 20/21; Parents’ Guide 8/8. Store listing has no build number; Apple event state self-conflicts.

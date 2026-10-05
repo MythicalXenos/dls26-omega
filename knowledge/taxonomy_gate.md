@@ -445,3 +445,8 @@ Metadata confirms blocked-from-playing, DLS19-in-DLS25, mobile-data, and DLS Use
 ## Turn 47 update (2026-10-05) — Score! Match articles excluded; DLS graphics guidance
 
 API metadata places `360000011145` (free currency), `360000002205` (unlock player types), and `360000250309` (where to see player types) in Score! Match FAQs `115001619089`. Exclude them from DLS. Graphics article `360000598437` is in DLS FAQs `203117809`, but has no DLS26 stamp and its menu path is unverified for the user's device. Candidate save URL `441327324187` rendered a not-found page; do not confuse with valid, previously read ID `4413273241873`. Parents’ Guide remains 8/8; General FAQs remain 20/21. No dimension closed.
+
+
+## Turn 48 update (2026-10-05) — Storefront and event-state caveats
+
+Google Play listing is current-store copy for DLS 2026, but no version number is exposed; its rating, random-item purchases, ads/IAP, and feature claims are store disclosures/marketing, not verified mechanics. Data Safety information is developer-provided and explicitly version/region/age-sensitive. The Apple English League Classics card simultaneously says “EVENT ENDED” and “LIVE EVENT”; not usable for timing. Generic FTG Games page has a 2020-vs-2026 Apple title mismatch at the same numeric app ID. Parents’ Guide remains 8/8; General FAQ bodies 20/21. No dimension closed.

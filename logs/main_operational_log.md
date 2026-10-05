@@ -690,3 +690,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Candidate IDs 360008904718, 360004717278, 360005680437 and the other user-specific DLS support pages were body-read previously; no body re-fetch. `441327324187` is distinct from `4413273241873`.
 - Reconciliation output: **565 entries / 460 unique URLs / 377 unvisited leads**; General FAQ bodies **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; tools 9/10. No exhaustion declaration.
 - Close marker 2026-10-05T16:16:17Z (before commits/push).
+
+
+## TURN 48 (2026-10-05) — sandbox recovery and current store-source sweep
+- Open 2026-10-05T17:50:58Z: local HEAD had regressed to `fb9a2c0 Initial commit`; all project paths untracked. Standard safeguard/fetch/reset restored branch to remote `09c31e1`. A tar backup excluding `.git` was compared after reset: **197 regular files, all byte-identical**; no force-push or content loss. ISSUE-0014 occurrence #10 logged. Identity restored.
+- Six retrievals (including the necessary second chunk): dlskiturl monitor; Google Play DLS listing chunks 0+1; Google Play Data Safety; Apple English League Classics event card; FTG Games publisher page.
+- Store facts are kept distinct from in-game verification. Play review counts conflicted across chunks; Apple event page says both ended/live; no claims about current event timing.
+- Reconciliation output: **571 entries / 464 unique URLs / 373 unvisited leads**; General FAQs **20/21**; Parents’ Guide **8/8**. Retrievals 6/6; total calls 10/10. No exhaustion declaration.
+- Close marker 2026-10-05T17:55:15Z (before commits/push).

@@ -271,3 +271,8 @@ Zendesk section metadata places `37082887837202` (DLS User ID), `360005680437` (
 ## Turn 47 — support article product attribution and DLS graphics
 
 `360000011145`, `360000002205`, and `360000250309` are Score! Match FAQs (`115001619089`) and are not DLS evidence. `360000598437` is DLS FAQs (`203117809`), but the graphics instructions are unversioned and not verified for DLS26/current device. Article ID `441327324187` rendered an FTG not-found page; its exact HTTP code was not exposed. It is distinct from DLS save-data article `4413273241873`.
+
+
+## Turn 48 — storefront disclosures and event card
+
+Google Play DLS package `com.firsttouchgames.dls7` lists DLS 2026, ads/IAP, Everyone, in-game purchases including random items, 100M+ installs, and updated date 2026-09-14; store marketing says 4,000+ players/8 divisions/etc. No app version shown. Review count conflicted across retrieved chunks (15M vs 14.4M); ignored. Data Safety categories are developer-provided and flagged as variable by version/use/region/age. Apple English League Classics card says both “EVENT ENDED” and “LIVE EVENT”; no status inference. FTG Games page is generic/undated and links the same App Store ID under a DLS2020 label.
