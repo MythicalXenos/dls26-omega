@@ -70,3 +70,8 @@ The focused FTG `Cult Hero Agents` API query matched only the already-read gener
 ## Turn 77 — full FTG position-lock query still does not settle DLS26 behavior
 
 The FTG `position lock` search (16 results, 10 chunks) is complete. DLS results mention Season Pass tier locks and general player stats, not a DLS26 squad-position lock rule. This is not proof of in-game absence. Preserve the user-stated no-lock claim as unverified; Step-3 device setup remains necessary.
+
+
+## Turn 78 — formation-position query incomplete
+
+FTG Help Center query `formation position`: 14 results, 9 rendered chunks. Only chunks 0–5 are read; visible hits are mixed across Score! Match, Ultimate Clash Soccer, and DLS. Resume chunks 6–8 before product-aware classification. The query does not verify DLS26 position-lock behavior.

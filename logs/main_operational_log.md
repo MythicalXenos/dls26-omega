@@ -906,3 +906,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Opened 2026-10-06 03:42:58 +06. Reset recovery: archived 234 files (13,366,526 bytes; SHA-256 `f1874726f204c12b824660fb74b877341940b27908afb0a90779526dbf3de6f0`), restored remote `2b53858`, and byte-verified 234/234 files with no mismatch after normalizing only the T77 clock-start append. ISSUE-0014 #39 logged; no loss/force-push.
 - Six retrieval calls: completed FTG `position lock` API response, chunks 4–9 of 10 (chunks 0–3 were read in T76). The 16 mixed-game results do not include a DLS26 squad-position lock rule. DLS Season Pass “tier locks” are unrelated; a DLS stats article was already directly read as `page-004-ftg-stat-mechanics`. No in-game conclusion.
 - Reconciliation: **662 entries / 509 unique visited URLs / 404 unvisited leads**; cleared the partial chunk-resume lead. User-stated no-lock remains unverified. Cult Heroes route/rewards remain open. Close marker 2026-10-05T21:44:36Z before commit/push.
+
+
+## TURN 78 (2026-10-06) — new FTG formation-position query partial
+- Opened 2026-10-06 03:49:13 +06. Reset recovery: archived 236 files (13,551,259 bytes; SHA-256 `2fc03af1aebed0479a8198a45a89990707fb932f4f499e413baee26ece26c294`), restored remote `a5e5653`, byte-verified 236/236 with no mismatch after normalizing T78 clock-start line. ISSUE-0014 #40 logged; no loss/force-push.
+- Six retrieval calls: FTG `formation position` API query chunks 0–5 of 9 (14 results); partial. Visible hits mix Score! Match, Ultimate Clash Soccer and DLS FAQs; no DLS26 conclusion. Resume at chunk 6.
+- Reconciliation: **663 entries / 509 unique visited URLs / 405 unvisited leads**. User-stated no-lock remains unverified; Cult Heroes route/rewards open. Close marker 2026-10-05T21:50:48Z before commit/push.

@@ -234,3 +234,7 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 232 project files u
 
 ### ISSUE-0014 — occurrence #39 (2026-10-06, Turn 77 open)
 Same sandbox-reset signature: local branch at `fb9a2c0` with 234 project files untracked. Archived all 234 files (13,366,526 bytes) to `/tmp/dls26-t77-recovery-1791236587/workspace.tar.gz`; compressed archive SHA-256 `f1874726f204c12b824660fb74b877341940b27908afb0a90779526dbf3de6f0`. Restored remote `2b53858` and byte-verified all 234 tracked files with no mismatches after normalizing only the T77 clock-start append. Restored upstream and `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
+
+
+### ISSUE-0014 — occurrence #40 (2026-10-06, Turn 78 open)
+Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files untracked. Archived all 236 files (13,551,259 bytes) to `/tmp/dls26-t78-recovery-1791236960/workspace.tar.gz`; compressed archive SHA-256 `2fc03af1aebed0479a8198a45a89990707fb932f4f499e413baee26ece26c294`. Restored remote `a5e5653` and byte-verified all 236 tracked files with no mismatches after normalizing only the T78 clock-start append. Restored upstream and `DLS26 Omega <omega@dls26.local>`. No loss or force-push.
