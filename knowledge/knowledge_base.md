@@ -1429,3 +1429,8 @@ Four targeted FTG/YouTube searches returned generic or already-known landing pag
 ## TURN 102 (2026-10-06) — FTG `squad position` query partial
 
 FTG Help Center query `squad position` returned 25 results on one API page. Chunks 0–5/10 were read; chunks 6–9 remain. Visible DLS role/formation/player-management text and rank/other-product material do not answer DLS26 squad-position locking. No absence inference. Resume at chunkIndex 6. T101 search-ledger entries were corrected to canonical provenance fields in this turn. Provenance: `source_archive/t102_ftg_squad_position_query_partial.md`.
+
+
+## TURN 103 (2026-10-06) — FTG `squad position` search complete
+
+Completed chunks 6–9/10 for the FTG API query (25 results, one page); chunk 9 returned `hasMore=false`. The mixed results include generic DLS squad/role/formation/stat help, rank wording, and other FTG products. No DLS26 squad-position lock rule surfaced in this bounded search; no global absence conclusion. UCSS behavior is not DLS26 evidence. Provenance: `source_archive/t103_ftg_squad_position_query_complete.md`.

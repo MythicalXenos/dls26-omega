@@ -1076,3 +1076,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Corrected four T101 search ledger records (unique source IDs; exact queries/results; canonical retrieval fields; timestamps explicitly marked as closeout reconciliation because per-call timestamps were not exposed) before any new retrieval.
 - FTG `squad position` API query: six successful chunks 0–5/10; HTTP code not exposed. Mixed results; no DLS26 lock evidence in read portion; query incomplete. Next chunkIndex 6.
 - Retrieval count **6/6**. Ledger **705 / 523 / 406**. Cult Heroes and position-lock unresolved. Close marker `2026-10-05T23:45:00Z`.
+
+
+## TURN 103 (2026-10-06) — completed FTG `squad position` query
+- Recovery: reset checkout `fb9a2c0`; archived 286 files, SHA-256 `c6ed29b52f78ac5e6bfaadf6603530b49001c5e1d2cbc4fcb12165f5e3be1c38`; restored session tip `4cdf938`, upstream, and repo-local identity. Only T103 clock-start append differed; ISSUE-0014 #65 logged.
+- Fetched page-1 chunks 6–9/10 (four retrievals), completing the 25-result/one-page query begun in T102. Final chunk reports `hasMore=false`. Mixed results; no DLS26-specific position-lock rule; no absence inference.
+- Ledger **705 entries / 523 visited / 405 unvisited leads**. Cult Heroes and position-lock remain open. Close marker `2026-10-05T23:47:38Z`.
