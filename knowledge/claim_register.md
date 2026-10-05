@@ -208,3 +208,12 @@ Claims tied to article IDs `7916959134737`, `7917587319313`, `7917423348497`, `7
 ## Turn 37 provenance resolution
 
 Zendesk article JSON assigns `7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, and `17146555181585` to section `7900693036561` (Ultimate Clash Soccer). Reclassify them as UCS-section support articles; they are not DLS-specific evidence. The bux sale and home/GK kit discrepancies must not be counted as DLS-internal contradictions without independent DLS provenance. Re-audit the previously stated FTG self-contradiction lower bound.
+
+
+## Turn 38 first-party General FAQ claims
+
+- `214388065`: Google Play incompatibility may arise from chipset/graphics, country, or carrier restrictions; clearing Play Store data may help; no further workaround stated if it fails. General, unstamped.
+- `214388105`: Play Store download troubleshooting sequence (website, mobile data, clear cache/data, remove/re-add Google account after restart, contact Google). General, unstamped; not a gameplay data-use recommendation.
+- `213853729`: some Bluetooth controllers work with FTG apps; not all brands guaranteed; no DLS-26-specific model list.
+- `360009450097`: Apple cloud save is distinct from iCloud; DLS path Settings > Advanced; Apple ID 2FA and matching iCloud account required; play matches to upload. No version stamp.
+- `9580096555281`: Google cloud save is distinct from Google Play Games; sign-in appears on supported FTG games. No DLS-specific settings path or version stamp.

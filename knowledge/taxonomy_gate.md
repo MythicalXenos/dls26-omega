@@ -393,3 +393,8 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 ## Turn 37 update (2026-10-05) — canonical section assignment verified
 
 Public Zendesk article JSON returns `section_id: 7900693036561` for all five disputed IDs (`7916959134737`, `7917587319313`, `7917423348497`, `7917583876625`, `17146555181585`). The section renders as **Ultimate Clash Soccer**. Canonical Help Center attribution for these sources is therefore UCS, not DLS. No DLS version stamp or separate product field is present; cross-product reuse is not documented. Remove these five as DLS evidence. The sale-reward and kit inconsistencies are not established DLS internal contradictions; **re-audit the old FTG contradiction count**, especially entries n/o. No dimension closed.
+
+
+## Turn 38 update (2026-10-05) — General FAQ contents sampled
+
+Five General FAQ bodies read: Android Play Store compatibility, Play Store download errors, Bluetooth-controller compatibility, Sign in with Apple setup, and Sign in with Google setup. First-party setup content clarifies that Apple/Google cloud sign-in is distinct from iCloud/Google Play Games; the Apple page gives a DLS Settings > Advanced path but no DLS version stamp. Controller and download guidance is general and not DLS-26-specific. General FAQ body-reading coverage is 10/21 per the reconciliation output; title enumeration is complete, but content coverage and the dimension remain open. No dimension closed.

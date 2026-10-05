@@ -595,3 +595,14 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation script output: **505 entries / 410 unique URLs visited / 388 unvisited leads**. Retrievals 6/6; total tool calls 10/10. No exhaustion declaration.
 - Bluff check: article section assignment is not inflated into a version-specific claim; no dimension closed.
 - Close marker 2026-10-05T12:42:55Z (before commits/push).
+
+
+## TURN 38 (2026-10-05) — General FAQ content block and repeat state repair
+- Open 2026-10-05T13:55:21Z: local HEAD `fb9a2c0 Initial commit`, 15 dirty paths. Backed up excluding `.git`, fetched branch, reset hard to remote `a8efe0c`, verified clean. Archive comparison found only `logs/turn_clock.txt` differed; clock re-stamped. ISSUE-0014 occurrence #8 recorded; no force-push or other content loss.
+- Repo-local identity verified as `DLS26 Omega <omega@dls26.local>`.
+- Six retrievals: page-205 dlskiturl monitoring (unchanged); pages 206–210: Play Store device compatibility, Play Store download error, Bluetooth controller support, Apple sign-in setup, Google sign-in setup.
+- First-party results recorded with scope limits: Apple/Google cloud sign-in differs from iCloud/Google Play Games; DLS Apple path present but unstamped; controller support does not guarantee every brand; download guidance is not a mobile-gameplay recommendation.
+- General FAQ article bodies read: **10/21** per ledger reconciliation output. Title enumeration remains 21/21; no exhaustion.
+- Reconciliation script output: **511 entries / 415 unique URLs visited / 383 unvisited leads**. Retrievals 6/6; total tool calls 9/10. No dimension closed.
+- Bluff check: generalized support copy is not promoted to DLS-26-specific guidance without a version stamp.
+- Close marker 2026-10-05T13:57:43Z (before commits/push).

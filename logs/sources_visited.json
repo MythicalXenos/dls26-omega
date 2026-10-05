@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T12:42:55Z",
+ "last_reconciled_at": "2026-10-05T13:57:43Z",
  "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json.",
  "entries": [
   {
@@ -14347,11 +14347,133 @@
    "conflicts": "Resolves canonical Help Center section assignment to Ultimate Clash Soccer. No DLS version stamp or separate product field is present.",
    "kb_claims": "knowledge/knowledge_base.md (Turn 37 block)",
    "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-205-dlskiturl-monitor-t38",
+   "event_type": "page_fetch",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieved_at": "2026-10-05T13:57:43Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "monitoring",
+   "language": "en",
+   "payload_summary": "Twenty-second mid-session monitoring check: unchanged. Same nine front-page items; no new October-dated item or visible change since Turn 37.",
+   "processing_state": "processed",
+   "deception_screen": "Monitoring render.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 38 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "page-214388065-ftg-Why-does-it-say-on-the-Google-Play-Store-that-my-device-is-incompatible-with-the-app",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/214388065-Why-does-it-say-on-the-Google-Play-Store-that-my-device-is-incompatible-with-the-app",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T13:57:43Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "Google Play device incompatibility may reflect graphical limits or incompatible chipset, country restrictions, or carrier restrictions. Clearing Google Play Store data may help; if not, FTG states there is no other workaround. General FAQ text with no DLS version stamp.",
+   "processing_state": "processed",
+   "deception_screen": "First-party support page rendered; no sign-in interstitial.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 38 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/360000309705-I-can-t-find-my-answer-here-how-can-I-contact-you"
+   ]
+  },
+  {
+   "source_id": "page-214388105-ftg-I-keep-getting-an-error-message-when-I-try-and-download-the-app-from-the-Google-Play-Store-how-do-I-fix-it",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/214388105-I-keep-getting-an-error-message-when-I-try-and-download-the-app-from-the-Google-Play-Store-how-do-I-fix-it",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T13:57:43Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "Google Play download troubleshooting: try the Play Store website; try mobile data with Wi-Fi disabled; clear Play Store cache and data; remove and re-add the Google account after restarting; contact Google if unresolved. General FAQ text; no DLS version stamp.",
+   "processing_state": "processed",
+   "deception_screen": "First-party support page rendered; no sign-in interstitial.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 38 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
+    "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account"
+   ]
+  },
+  {
+   "source_id": "page-213853729-ftg-Is-it-possible-to-use-a-Bluetooth-controller-with-your-apps",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/213853729-Is-it-possible-to-use-a-Bluetooth-controller-with-your-apps",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T13:57:43Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "FTG says its apps have Bluetooth compatibility and can be used with some Bluetooth controllers; it cannot guarantee every brand works. This is app-family-wide, not a DLS-26-specific device list.",
+   "processing_state": "processed",
+   "deception_screen": "First-party support page rendered; no sign-in interstitial.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 38 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/213853689-Why-can-t-I-download-First-Touch-Soccer-15",
+    "https://support.ftgames.com/hc/en-us/articles/213853769-Why-do-I-keep-seeing-a-black-screen-with-grey-buttons-called-Safe-Mode",
+    "https://support.ftgames.com/hc/en-us/articles/360001099097-Can-I-use-your-games-in-my-videos"
+   ]
+  },
+  {
+   "source_id": "page-360009450097-ftg-How-do-I-setup-a-Sign-in-with-Apple-account",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360009450097-How-do-I-setup-a-Sign-in-with-Apple-account",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T13:57:43Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "Sign in with Apple is cloud saving via Apple ID, not the same as iCloud, though an iCloud account with the same Apple ID is required. Apple ID must use two-factor authentication. DLS path: Settings cog (top left) > Advanced > toggle Sign in with Apple to Connected via either arrow. Play a few matches to upload; stable Wi-Fi recommended. Score! Match has a separate path. No version stamp.",
+   "processing_state": "processed",
+   "deception_screen": "First-party support page rendered; no sign-in interstitial.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 38 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/360000613657-How-do-I-setup-an-iCloud-account",
+    "https://support.ftgames.com/hc/en-us/articles/9423705692177-Removal-of-Facebook-Login-from-Score-Match"
+   ]
+  },
+  {
+   "source_id": "page-9580096555281-ftg-How-do-I-setup-a-Sign-in-with-Google-account",
+   "event_type": "page_fetch",
+   "url": "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account",
+   "domain": "support.ftgames.com",
+   "retrieved_at": "2026-10-05T13:57:43Z",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete)",
+   "http_status": 200,
+   "source_type": "first-party-support",
+   "language": "en",
+   "payload_summary": "Sign in with Google is a cloud-saving feature using a Google account and is not Google Play Games. Create a Google account if needed, then sign in on FTG games where the option appears. No DLS-specific setup path or version stamp in this article.",
+   "processing_state": "processed",
+   "deception_screen": "First-party support page rendered; no sign-in interstitial.",
+   "conflicts": "None.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 38 block)",
+   "discovered_not_yet_visited": [
+    "https://support.ftgames.com/hc/en-us/articles/360009450097-How-do-I-setup-a-Sign-in-with-Apple-account"
+   ]
   }
  ],
  "frontier": {
-  "visited_total": 410,
-  "unvisited_total": 388,
+  "visited_total": 415,
+  "unvisited_total": 383,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -14600,11 +14722,8 @@
    "https://support.ftgames.com/hc/en-us/articles/115003073485-Why-aren-t-your-apps-available-on-other-platforms",
    "https://support.ftgames.com/hc/en-us/articles/17144107973265-How-do-I-add-a-friend",
    "https://support.ftgames.com/hc/en-us/articles/213853689-Why-can-t-I-download-First-Touch-Soccer-15",
-   "https://support.ftgames.com/hc/en-us/articles/213853729-Is-it-possible-to-use-a-Bluetooth-controller-with-your-apps",
    "https://support.ftgames.com/hc/en-us/articles/213853769-Why-do-I-keep-seeing-a-black-screen-with-grey-buttons-called-Safe-Mode",
    "https://support.ftgames.com/hc/en-us/articles/214387905-Why-can-t-I-download-Dream-League-Soccer-Classic",
-   "https://support.ftgames.com/hc/en-us/articles/214388065-Why-does-it-say-on-the-Google-Play-Store-that-my-device-is-incompatible-with-the-app",
-   "https://support.ftgames.com/hc/en-us/articles/214388105-I-keep-getting-an-error-message-when-I-try-and-download-the-app-from-the-Google-Play-Store-how-do-I-fix-it",
    "https://support.ftgames.com/hc/en-us/articles/214421705-How-do-I-customise-my-kit-in-Dream-League-Soccer-Classic",
    "https://support.ftgames.com/hc/en-us/articles/214422145-How-do-I-customise-my-kit-logo-in-Dream-League-Soccer-19",
    "https://support.ftgames.com/hc/en-us/articles/360000191445-Other-Sites-Offering-In-App-products",
@@ -14613,7 +14732,6 @@
    "https://support.ftgames.com/hc/en-us/articles/360000603398-How-do-I-setup-a-Google-Play-Games-account",
    "https://support.ftgames.com/hc/en-us/articles/360000613657-How-do-I-setup-an-iCloud-account",
    "https://support.ftgames.com/hc/en-us/articles/360001099097-Can-I-use-your-games-in-my-videos",
-   "https://support.ftgames.com/hc/en-us/articles/360009450097-How-do-I-setup-a-Sign-in-with-Apple-account-",
    "https://support.ftgames.com/hc/en-us/articles/37352328553106-How-do-I-find-my-User-ID-in-your-game",
    "https://support.ftgames.com/hc/en-us/articles/4408249822609-Age-Confirmation-Personal-Ads-and-Notifications",
    "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero",
@@ -14624,8 +14742,7 @@
    "https://support.ftgames.com/hc/en-us/articles/7917384343953-How-does-matchmaking-work-in-Ultimate-Clash-Soccer",
    "https://support.ftgames.com/hc/en-us/articles/7949802512401-How-is-save-data-stored-and-transferred-in-Ultimate-Clash-Soccer",
    "https://support.ftgames.com/hc/en-us/articles/8837193024785-Why-have-I-been-blocked-from-playing-Ultimate-Clash-Soccer",
-   "https://support.ftgames.com/hc/en-us/articles/9580096555281",
-   "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account",
+   "https://support.ftgames.com/hc/en-us/articles/9423705692177-Removal-of-Facebook-Login-from-Score-Match",
    "https://support.ftgames.com/hc/en-us/articles/9600462672913-How-is-save-data-stored-and-transferred-in-Score-Match",
    "https://support.ftgames.com/hc/en-us/sections/115001619089-Score-Match-FAQs",
    "https://support.ftgames.com/hc/en-us/sections/203117609-Score-Hero-FAQs",

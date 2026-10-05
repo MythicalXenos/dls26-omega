@@ -101,3 +101,7 @@ ISSUE-0014 occurrence #6 (2026-10-05, Turn 24 open): standard repair run (backup
 
 ### ISSUE-0014 — occurrence #7 (2026-10-05, Turn 37 open)
 At open, local HEAD had dropped to `fb9a2c0 Initial commit` and the worktree showed 15 dirty paths. Standard no-force repair: tarred the tree excluding `.git`, fetched `origin/arena/01a1022d-dls26-omega`, reset hard to remote tip `5f54cd0`, and verified clean status. A byte comparison of the backup against the recovered worktree found only `logs/turn_clock.txt` differed; that expected current-turn clock was rewritten before commit. No other content lost, no force-push. Repo-local author identity reset to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0014 — occurrence #8 (2026-10-05, Turn 38 open)
+Same signature as occurrence #7: local HEAD at `fb9a2c0 Initial commit` with 15 dirty paths. Tar backup excluding `.git`; fetched `origin/arena/01a1022d-dls26-omega`; reset hard to remote tip `a8efe0c`; clean status. Byte comparison found only `logs/turn_clock.txt` differed. Re-stamped it with the Turn-38 open time; no other content lost, no force-push. Repo-local author identity set to `DLS26 Omega <omega@dls26.local>`.

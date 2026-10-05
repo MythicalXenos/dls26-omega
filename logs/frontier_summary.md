@@ -96,3 +96,8 @@ Reconciliation script output: **499 ledger entries · 405 unique visited URLs ·
 ## Turn 37 reconciliation (2026-10-05)
 
 Reconciliation script output: **505 ledger entries · 410 unique visited URLs · 388 unvisited leads**. Five official Zendesk article JSON records assign the disputed support pages to the Ultimate Clash Soccer section. This resolves their canonical section placement, not DLS version applicability or corpus exhaustion.
+
+
+## Turn 38 reconciliation (2026-10-05)
+
+Reconciliation script output: **511 ledger entries · 415 unique visited URLs · 383 unvisited leads**. General FAQ body coverage: **10/21** titles, with five articles read this turn. This is not an exhaustion declaration.
