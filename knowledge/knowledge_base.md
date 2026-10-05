@@ -1174,3 +1174,14 @@ No confidence promotion or strategy change. No dimension closed; no exhaustion d
 The support search (`discovery-t57-support-position-search`) returned generic DLS support results on development, stats, multiplayer and squad expansion, but no DLS26 position-lock answer. A formation-related help link surfaced again; the actual formation article 7917587319313 is already classified by its section/API metadata as **Ultimate Clash Soccer**, not DLS (`page-189`, `page-201`, revisited context in `page-128`/`page-195`). Do not transfer its formation text to DLS26. The user-stated no-position-lock claim remains unverified.
 
 No gameplay claim was promoted, no recommendations changed, and no dimension was closed. No exhaustion declaration.
+
+
+## TURN 58 (2026-10-06) — FTG YouTube channel and official page review
+
+### FTG YouTube channel (`page-308`, `page-309`)
+The channel-home response starts with an embedded **“Error 401 (Bad Request)”** banner, followed by YouTube shell and a partial channel view. It shows a DLS26 Launch Trailer (video `9Iw8nZRpijA`, labeled seven months old) and older DLS teaser/Champions/Dream Stars videos. The separate Videos-tab response shows the same error banner and signed-out shell but no usable full listing. No Cult Heroes route instructions were returned. These incomplete renders do not prove no such post exists; do not retry the same requests.
+
+### FTG `/dls` alias (`page-310`)
+The requested `https://www.ftgames.com/dls` path resolved to the generic `/games` page already recorded as `page-269`. It repeats the undated product description and app links, including the Apple label “Dream League Soccer 2020.” This is not DLS26-specific and adds no Cult Heroes or position-lock evidence.
+
+No new first-party mechanic was established. The route and DLS26 position-lock questions remain open; no recommendation or confidence tier changed, and no exhaustion declaration was made.

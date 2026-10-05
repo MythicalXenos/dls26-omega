@@ -774,3 +774,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation: **623 entries / 480 unique URLs / 407 unvisited leads**; stale annotations removed 0; new leads added 1. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closed; no exhaustion declaration.
 - Budget: five retrievals and ten tool calls before wrap-up. No more retrievals in wrap-up.
 - Close marker 2026-10-05T19:56:09Z (before commits/push).
+
+
+## TURN 58 (2026-10-06) — FTG YouTube and corporate page checks
+- Open 2026-10-06 01:58:53 +06. Local HEAD `fb9a2c0` with project paths untracked. Restored remote tip `54e52dd`; 206 non-clock target files byte-identical, only expected T58 clock-start append differed. ISSUE-0014 #20 logged; repo-local identity `DLS26 Omega <omega@dls26.local>`. No content loss or force-push.
+- Three retrievals: `page-308` FTG YouTube channel home (embedded 401 banner plus partial official video cards); `page-309` Videos tab (401 banner/shell, no listing); `page-310` FTG `/dls` resolves to already visited `/games` corporate page. No Cult Heroes route or position-lock answer found. Do not treat partial channel listings as proof of absence.
+- Reconciliation: **626 entries / 483 unique URLs / 416 unvisited leads**; stale annotations removed 1; new video leads added 10. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closure/exhaustion.
+- Budget: three retrievals and seven tool calls before wrap-up. No more retrievals.
+- Close marker 2026-10-05T20:00:53Z (before commits/push).

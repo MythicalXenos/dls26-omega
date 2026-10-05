@@ -196,3 +196,8 @@ Reconciliation output: **618 ledger entries · 480 unique visited URLs · 406 un
 ## Turn 57 reconciliation (2026-10-06)
 
 Reconciliation output: **623 ledger entries · 480 unique visited URLs · 407 unvisited leads**; 0 stale annotations removed; 1 new leads added. Five discovery searches: official YouTube channel, Google Play eventdetails, FTG support/position, formation article, and X. No first-party Cult Heroes route or DLS26 position-lock answer surfaced. General FAQ bodies **20/21**; Parents’ Guide **8/8**. No exhaustion declaration.
+
+
+## Turn 58 reconciliation (2026-10-06)
+
+Reconciliation output: **626 ledger entries · 483 unique visited URLs · 416 unvisited leads**; 1 stale annotations removed; 10 new DLS-video leads added. Three retrievals: FTG YouTube channel home, YouTube videos tab (both include embedded 401 banners), and FTG `/dls` alias (duplicate of `/games`). No Cult Heroes route/position-lock answer. General FAQ bodies **20/21**; Parents’ Guide **8/8**. No exhaustion declaration.

@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T19:56:09Z",
- "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration.",
+ "last_reconciled_at": "2026-10-05T20:00:53Z",
+ "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
  "entries": [
   {
    "source_id": "ops-github-origin-probe-2026-10-02",
@@ -17298,11 +17298,90 @@
     }
    ],
    "discovered_not_yet_visited": []
+  },
+  {
+   "event_type": "page_fetch",
+   "retrieved_at": "2026-10-05T20:00:53Z",
+   "language": "en",
+   "processing_state": "processed",
+   "source_id": "page-308-ftg-youtube-channel-home-t58",
+   "url": "https://www.youtube.com/@firsttouchgames",
+   "domain": "www.youtube.com",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete; hasMore=false)",
+   "http_status": "401 banner in returned body; fetch_page tool status=success",
+   "source_type": "official FTG YouTube channel page",
+   "payload_summary": "Public channel response begins “Error 401 (Bad Request)” but then renders YouTube navigation and a partial channel page. Visible DLS26 item is the Launch Trailer (video 9Iw8nZRpijA, labeled 7 months ago); other visible DLS videos are older teaser/Champions/Dream Stars content. No Cult Heroes video or route appears in the returned portion; this partial page does not establish that none exists.",
+   "deception_screen": "The visible links identify the First Touch Games channel and its own store/social destinations; initial error banner limits page completeness.",
+   "conflicts": "No Cult Heroes route in visible cards; channel content listing is incomplete/partial.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 58 block)",
+   "discovered_not_yet_visited": [
+    "https://www.youtube.com/watch?v=9Iw8nZRpijA",
+    "https://www.youtube.com/watch?v=gpvjf6qVl5c",
+    "https://www.youtube.com/watch?v=03VNg9djVZ8",
+    "https://www.youtube.com/watch?v=jx90Sqv7ERA&pp=0gcJCTUMAYcqIYzv",
+    "https://www.youtube.com/watch?v=z5qh1WnzGJg",
+    "https://www.youtube.com/watch?v=gFWooEQlB0I",
+    "https://www.youtube.com/watch?v=b0bZVHMyWQI",
+    "https://www.youtube.com/shorts/AsZR85QN4vk",
+    "https://www.youtube.com/shorts/h1ky_iHfvL8",
+    "https://www.youtube.com/shorts/0-4pOYomO-Y",
+    "https://www.youtube.com/shorts/oqu-WQZ4zOw",
+    "https://www.youtube.com/shorts/K3GVQFghJ7I"
+   ],
+   "chunk_index": 0,
+   "total_chunks": 1,
+   "has_more": false
+  },
+  {
+   "event_type": "page_fetch",
+   "retrieved_at": "2026-10-05T20:00:53Z",
+   "language": "en",
+   "processing_state": "processed",
+   "source_id": "page-309-ftg-youtube-videos-list-t58",
+   "url": "https://www.youtube.com/@firsttouchgames/videos",
+   "domain": "www.youtube.com",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (chunk 0; hasMore=false)",
+   "http_status": "401 banner in returned body; fetch_page tool status=success",
+   "source_type": "official FTG YouTube channel videos tab",
+   "payload_summary": "Videos-tab response begins with the same “Error 401 (Bad Request)” banner and then only a signed-out shell/playback controls; no full video listing or Cult Heroes item was rendered. Do not treat this as an exhaustive channel archive.",
+   "deception_screen": "YouTube page shell; no sign-in credentials supplied.",
+   "conflicts": "The official channel home showed a partial subset; this videos-tab response did not render a usable full list.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 58 block)",
+   "discovered_not_yet_visited": [],
+   "chunk_index": 0,
+   "total_chunks": 1,
+   "has_more": false,
+   "requested_url": "https://www.youtube.com/@firsttouchgames/videos?view=0&sort=dd&shelf_id=1"
+  },
+  {
+   "event_type": "page_fetch",
+   "retrieved_at": "2026-10-05T20:00:53Z",
+   "language": "en",
+   "processing_state": "processed",
+   "source_id": "page-310-ftgames-dls-alias-t58",
+   "url": "https://www.ftgames.com/dls",
+   "requested_url": "https://www.ftgames.com/dls",
+   "resolved_url": "https://www.ftgames.com/games",
+   "domain": "www.ftgames.com",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (status=success; returned canonical URL /games)",
+   "http_status": "not exposed; fetch_page status=success",
+   "source_type": "official FTG corporate product page (alias/revisit)",
+   "payload_summary": "The requested /dls path returned the generic /games page already logged as page-269. It describes DLS generically (4,000+ FIFPRO players, eight divisions, motion-captured moves/commentary/customization) and links the Apple product with a DLS2020 label. It does not describe DLS26 Cult Heroes or current mechanics; this is a duplicate of the previously visited FTG page, not new evidence.",
+   "deception_screen": "Public FTG corporate page; no sign-in interstitial.",
+   "conflicts": "Generic/undated product description; page-269 already contains this same /games page.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 58 block)",
+   "discovered_not_yet_visited": [],
+   "chunk_index": 0,
+   "total_chunks": 1,
+   "has_more": false
   }
  ],
  "frontier": {
-  "visited_total": 480,
-  "unvisited_total": 407,
+  "visited_total": 483,
+  "unvisited_total": 416,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -17710,7 +17789,16 @@
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1tnvfy8/how_to_gain_more_gems_and_coins_without_buying_it/",
    "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i75pm4/dls_coins_and_gems_tips/",
    "https://www.youtube.com/watch?v=v9lZ9JtiWPo",
-   "https://www.youtube.com/@firsttouchgames"
+   "https://www.youtube.com/watch?v=03VNg9djVZ8",
+   "https://www.youtube.com/watch?v=jx90Sqv7ERA&pp=0gcJCTUMAYcqIYzv",
+   "https://www.youtube.com/watch?v=z5qh1WnzGJg",
+   "https://www.youtube.com/watch?v=gFWooEQlB0I",
+   "https://www.youtube.com/watch?v=b0bZVHMyWQI",
+   "https://www.youtube.com/shorts/AsZR85QN4vk",
+   "https://www.youtube.com/shorts/h1ky_iHfvL8",
+   "https://www.youtube.com/shorts/0-4pOYomO-Y",
+   "https://www.youtube.com/shorts/oqu-WQZ4zOw",
+   "https://www.youtube.com/shorts/K3GVQFghJ7I"
   ]
  }
 }
