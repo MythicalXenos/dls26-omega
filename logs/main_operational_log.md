@@ -433,7 +433,7 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - page-136 **connection required (360004034498)**: online for most features (anti-exploit); **Exhibition playable offline**; server-side backup.
 - page-137 **manager (360003945937)**: My Club > Customise > Manager.
 - page-138 **no video clips (360017166918)**: ad supply is provider-controlled, **no frequency guaranteed**, **LAT-enabled devices may get no ads**; troubleshooting list.
-- Ledger: **439 entries · 370 visited · 411 leads**. Retrieval 6 of 6; tool calls 9 of 10.
+- Ledger: **439 entries · 368 visited · 386 leads** (corrected - the Turn-26 log line originally read 370/411 because it was written before the frontier dedupe ran; the machine figures are 368 and 386). Retrieval 6 of 6; tool calls 9 of 10.
 
 ## TURN 26 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. The DP-boost carry-over rule is stated with FTG's own live-service caveat attached; the ad-availability passage is flagged as containing FTG advocacy while its mechanism is reported, not endorsed; the Season/Dream Point split is recorded as a rule rather than left implicit in later notes.
