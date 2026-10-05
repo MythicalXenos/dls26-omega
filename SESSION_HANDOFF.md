@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T20:26:34Z UTC, Turn 62. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T20:29:41Z UTC, Turn 63. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** local HEAD `fb9a2c0` with project paths untracked; archived 210 non-git files, restored remote tip `9501a39`, and byte-checked all 210 tracked files. Only the expected T62 clock-start append differed. ISSUE-0014 occurrence #24 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`. Research commit follows.
-- **Ledger:** 633 entries · 488 unique visited URLs · 417 unvisited leads. Six retrieval calls and ten tool calls before wrap-up.
+- **Git repair at open:** local HEAD `fb9a2c0` with project paths untracked; archived 211 non-git files, restored remote tip `d6577cd`, and byte-checked all 211 tracked files. Only the expected T63 clock-start append differed. ISSUE-0014 occurrence #25 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`. Research commit follows.
+- **Ledger:** 634 entries · 489 unique visited URLs · 416 unvisited leads. One retrieval; six tool calls before wrap-up.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -20,11 +20,12 @@
 - **T60 source ID:** `page-311-ftg-instagram-profile-t60` returned HTTP 403 with no body. Do not repeat this URL. ISSUE-0015 reconciles the T59 417-vs-416 mismatch; the current frontier is 416 unvisited.
 - **T61 source IDs:** `page-312-droidcheat-cult-heroes-gameplay-t61`, `page-313-droidcheat-dls26-playlist-t61`, and `page-314-droidcheat-cult-heroes-plate-final-t61`. All are secondary DroidCheat content; the first page is read, playlist is chunk 0/5, and final video is chunks 0–1/4. Its 42-points/Agent wording is only a creator claim. KB snapshot: `snapshots/KB_snapshot_2026-10-06-turn61-secondary-video.md`.
 - **T62 source ID:** `page-315-droidcheat-cult-heroes-42points-part2-t62`; page-314 chunks 2–3 and page-315 chunks 0–3 are now complete. Both are one secondary DroidCheat source family; 42-point language is not independent verification. KB snapshot: `snapshots/KB_snapshot_2026-10-06-turn62-droidcheat-followup.md`.
-- **Next exact action (Turn 63):**
+- **T63 source ID:** `page-316-apple-de-cultheroes-event-t63` — German Apple event page complete; “Happening now / live event / Cult Heroes” and boosted-attribute copy, but no route, price, reward, or end date. Same Apple family as U.S. listing. KB snapshot: `snapshots/KB_snapshot_2026-10-06-turn63-apple-de-event.md`.
+- **Next exact action (Turn 64):**
   1. Verify branch/status/identity and current session tip; repeat recovery only if a reset is observed.
-  2. Prioritize distinct first-party or in-game evidence for Cult Heroes route/rewards and DLS26 position-lock behavior. Do not treat the repeated DroidCheat 42-point claims as independent; do not recommend spending from them. Do not repeat the blocked T60 Instagram, T59 searches, T58 YouTube-channel requests, or FTG `/dls` alias.
-  3. Keep all route/cost/reward claims and the user-stated no-position-lock report unverified. Device confirmation still requires Step-3 setup. Follow any remaining creator videos only if they can add a distinct, relevant lead; no broad same-channel repeat sweep.
-  4. Reconcile entry leads and the top-level frontier together, snapshot any KB update, update handoff, and push. No dimension closure/exhaustion; PR #3 remains open and must not be merged.
+  2. Continue distinct first-party evidence for Cult Heroes route/rewards and DLS26 position-lock behavior. The German App Store page is now visited and is same-family storefront evidence; do not treat “happening now” as an in-game timer or route. Avoid repeats of the T60 Instagram, T59 searches, T58 YouTube channel checks, and FTG `/dls` alias.
+  3. Keep route, cost, reward, and position-lock claims unverified; device confirmation still requires Step-3 setup. Do not advise spending from secondary claims.
+  4. Reconcile source entries with the top-level frontier, snapshot any KB update, update the handoff, and push. No dimension closure/exhaustion; PR #3 remains open and must not be merged.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -44,4 +45,4 @@
 
 ## Turn-end fields
 
-- Research commit `73401b1`; handoff commit follows. Close marker recorded in `logs/turn_clock.txt`. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `c1ee3d4`; handoff commit follows. Close marker recorded in `logs/turn_clock.txt`. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
