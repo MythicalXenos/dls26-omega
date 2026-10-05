@@ -954,3 +954,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: `fb9a2c0`, 248 untracked files; archive SHA-256 `4fbf512939db4eb29b4b64dba684ffd35730a37f3e4c6a8e0e400194006be663`; restored `2826f8a`; 248/248 byte-verified except T85 open marker. ISSUE-0014 #47 logged; identity/upstream restored.
 - Three retrieval calls: FTG `live events` chunks 7–9 completed the 18-result/10-chunk response. Generic DLS Events/Super Players content; no Cult Heroes-specific route/reward.
 - Ledger: **687 entries / 510 visited URLs / 404 unvisited leads**. Close marker 2026-10-05T22:29:36Z.
+
+
+## TURN 86 (2026-10-06) — new FTG Help Center query
+- Recovery: `fb9a2c0`, 250 untracked files; archive SHA-256 `0ddd81813e675ffe9ae21ae3500707bd86d1e7de8074e5add0075b94cce9a81b`; restored `87421b0`; 250/250 byte-verified except T86 open marker. ISSUE-0014 #48 logged; identity/upstream restored.
+- One retrieval call: FTG query `Special Players Events`, chunk0/8; 10 results. Visible items are generic, not Cult Heroes-specific. Resume chunks1–7.
+- Ledger: **688 entries / 510 visited URLs / 405 unvisited leads**. Close marker 2026-10-05T22:32:37Z.

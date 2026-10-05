@@ -110,3 +110,8 @@ FTG `live events` query: chunks 0–6/10 read; resume chunks 7–9. A generic DL
 ## Turn 85 — completed FTG `live events` query
 
 All 10 chunks/18 results were read. The mixed response gives generic Events/Super Players help and unrelated material, not a Cult Heroes-specific route/reward. It does not establish absence beyond the query result set. Position-lock remains unverified.
+
+
+## Turn 86 — `Special Players Events` query partial
+
+FTG query has 10 results/8 chunks; only chunk0 read. Visible generic card-colour, Agent, Prize Ladder, and stats articles do not answer Cult Heroes. Resume chunks1–7; do not infer absence. Position-lock remains unverified.
