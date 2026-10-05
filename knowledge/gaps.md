@@ -45,3 +45,8 @@ The two Google Play image variants linked to the DLS26 Cult Heroes promo (`page-
 ## Turn 71 — first-party general position wording is not a lock test
 
 The existing FTG `core-principles` record (page-066) lists formation choices and pitch positioning as general AI inputs, but says nothing about DLS26 position eligibility, locks, or penalties. This is not DLS26-specific evidence and does not verify/refute the user-stated no-lock report. The T71 TikTok mobile URL for post 7437552025958763809 returned HTTP 403; no caption/body was obtained.
+
+
+## Turn 72 — Apple storefront timing strings conflict
+
+The structured U.S. Apple Lookup API record (`page-332`) reports DLS version 13.430, currentVersionReleaseDate 2026-09-16, and release notes calling Cult Heroes “coming soon,” while the existing Apple event card (`page-316`) says “LIVE EVENT” with boosted attributes. Same Apple/storefront source family; neither string establishes in-game availability, route, costs, or rewards. The unresolved user questions remain open.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T21:05:54Z",
+  "last_reconciled_at": "2026-10-05T21:10:39Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17949,11 +17949,34 @@
       ],
       "processing_state": "partial / blocked",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "page_fetch",
+      "source_id": "page-332-apple-lookup-us-t72",
+      "url": "https://itunes.apple.com/lookup?id=1462911602&country=us",
+      "domain": "itunes.apple.com",
+      "retrieved_at": "2026-10-05T21:10:39Z",
+      "fetched_at": "2026-10-05T21:10:39Z",
+      "language": "en-US",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page (complete; chunks 0–1/1)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "Apple Lookup API metadata for FTG-published DLS2026 listing",
+      "payload_path": "source_archive/t72_apple_lookup_api.md",
+      "payload_summary": "Single result for Dream League Soccer 2026; seller First Touch Games Ltd.; version 13.430; currentVersionReleaseDate 2026-09-16T14:03:27Z. Release notes say the Cult Heroes collection is “coming soon.” Generic description mentions Agents/Scouts, events and Dream Draft, but gives no Cult Heroes route, cost, rewards, or position-lock behavior. Same Apple/storefront family as existing Apple event page, not in-game evidence.",
+      "deception_screen": "Official App Store metadata for developer-published software; update notes and event-card copy may not reflect live in-game state.",
+      "conflicts": "Release notes say “coming soon,” while existing Apple event card page-316 says “LIVE EVENT”/boosted attributes. Same Apple source family; no in-game state inferred.",
+      "affected_kb_claims": [
+        "Cult Heroes event state and acquisition route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "complete; chunks 0–1",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 504,
-    "unvisited_total": 407,
+    "visited_total": 505,
+    "unvisited_total": 406,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18113,7 +18136,6 @@
       "https://gamingonphone.com/guides/dream-league-soccer-free-codes-and-how-to-redeem-them/ — redeem-code pipeline",
       "https://gamingonphone.com/guides/dream-league-soccer-guide-how-to-play-with-friends/",
       "https://gamingonphone.com/guides/dream-league-soccer-how-to-contact-the-customer-support-service/",
-      "https://itunes.apple.com/lookup?id=1462911602&country=us",
       "https://liftoff.io/privacy-policy/",
       "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7",
       "https://old.reddit.com/r/DreamLeagueSoccer/ (untested)",
