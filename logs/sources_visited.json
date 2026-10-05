@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T20:44:51Z",
+  "last_reconciled_at": "2026-10-05T20:49:19Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17811,11 +17811,57 @@
       "deception_screen": "Access blocked before any profile content was returned.",
       "conflicts": "No content available to assess.",
       "payload_summary": "The official UK Google Play listing links to Instagram @playdls. Direct profile fetch returned HTTP 403; no posts/content received. Distinct from the previously blocked @firsttouchgames_official URL."
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:49:19Z",
+      "fetched_at": "2026-10-05T20:49:19Z",
+      "language": "unknown; no image payload",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": 500,
+      "source_type": "Google Play event artwork image linked from FTG publisher listing",
+      "payload_path": "source_archive/t67_play_event_art_blocked.md",
+      "deception_screen": "Fetch failed before image bytes were returned; no visual/content judgment possible.",
+      "conflicts": "None assessable; no body or image.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": [],
+      "source_id": "page-326-google-play-event-art-tall-t67",
+      "url": "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w851-h2160-rw",
+      "domain": "play-lh.googleusercontent.com",
+      "payload_summary": "Direct fetch of the tall Google Play Cult Heroes event-art variant returned HTTP 500; no bytes/image content were returned. No visual or OCR claims."
+    },
+    {
+      "event_type": "page_fetch",
+      "retrieved_at": "2026-10-05T20:49:19Z",
+      "fetched_at": "2026-10-05T20:49:19Z",
+      "language": "unknown; no image payload",
+      "retrieval_role": "page-render",
+      "tool": "functions.fetch_page",
+      "http_status": 500,
+      "source_type": "Google Play event artwork image linked from FTG publisher listing",
+      "payload_path": "source_archive/t67_play_event_art_blocked.md",
+      "deception_screen": "Fetch failed before image bytes were returned; no visual/content judgment possible.",
+      "conflicts": "None assessable; no body or image.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified",
+        "DLS26 position-lock behavior remains unverified"
+      ],
+      "processing_state": "partial / blocked",
+      "discovered_not_yet_visited": [],
+      "source_id": "page-327-google-play-event-art-landscape-t67",
+      "url": "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw",
+      "domain": "play-lh.googleusercontent.com",
+      "payload_summary": "Direct fetch of the landscape image variant linked from the UK DLS26 Google Play listing returned HTTP 500; no bytes/image content were returned. No visual or OCR claims."
     }
   ],
   "frontier": {
-    "visited_total": 498,
-    "unvisited_total": 411,
+    "visited_total": 500,
+    "unvisited_total": 409,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -17979,7 +18025,6 @@
       "https://liftoff.io/privacy-policy/",
       "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7",
       "https://old.reddit.com/r/DreamLeagueSoccer/ (untested)",
-      "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w851-h2160-rw",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.mpx",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.smp",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.story",
@@ -18226,8 +18271,7 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
-      "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
     ]
   }
 }

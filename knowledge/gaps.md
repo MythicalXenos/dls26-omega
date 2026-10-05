@@ -35,3 +35,8 @@ Two distinct alternate endpoints for the already-identified FTG Cult Heroes TikT
 ## Turn 66 — UK Play storefront text remains ambiguous
 
 The en-GB Google Play DLS26 listing (page-323) links the previously identified Cult Heroes event page and renders `Ends on 10/14` without a year, while the same listing’s update note says the Cult Heroes collection is “coming soon.” This is the same Play listing family as the U.S. page and storefront-only text; it does not verify an in-game deadline, route, or reward. Linked TikTok/Instagram profiles were blocked (403; page-324/page-325). In-game timer and acquisition route remain open.
+
+
+## Turn 67 — official Play event-art URLs returned no image
+
+The two Google Play image variants linked to the DLS26 Cult Heroes promo (`page-326`, `page-327`) returned HTTP 500 through `fetch_page`; no image bytes or visual/OCR data were received. This is a route/access failure, not a negative finding. No event-art, route/reward, or position-lock claim is inferred.

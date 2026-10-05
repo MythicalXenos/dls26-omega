@@ -241,3 +241,8 @@ Reconciliation output: **640 ledger entries · 495 unique visited URLs · 413 un
 ## Turn 66 reconciliation (2026-10-06)
 
 Reconciliation output: **643 ledger entries · 498 unique visited URLs · 411 unvisited leads**. UK Play listing completed in two chunks; linked TikTok/Instagram profile attempts returned 403. One relevant linked event-art variant remains unvisited. No in-game route or position-lock result; no dimension closure/exhaustion.
+
+
+## Turn 67 reconciliation (2026-10-06)
+
+Reconciliation output: **645 ledger entries · 500 unique visited URLs · 409 unvisited leads**. Two linked official Play event-art image variants failed HTTP 500 with no payload. No visual claims, in-game route, or position-lock result; no dimension closure/exhaustion.
