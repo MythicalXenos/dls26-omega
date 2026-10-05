@@ -52,10 +52,11 @@
 - **T92 source:** FTG `position changes` page2/2 chunks0–6/15 read; resume chunk7. DLS stats describe stamina by playing position, not assignment; UCSS formation/ball-position rules are not DLS26 evidence. Archive `source_archive/t92_position_changes_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn92-position-page2-progress.md`.
 - **T93 source:** FTG `position changes` page 2/2 now has chunks 0–12/15 read; chunks 13–14 remain. New generic DLS auto-switch text concerns defender control switching, not squad-position locking. Archive `source_archive/t93_position_changes_page2_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn93-position-page2-progress.md`.
 - **T94 source:** FTG `position changes` Help Center search is now complete (page1 7/7 chunks; page2 15/15). Mixed results did not establish a DLS26 squad-position lock rule; this is not proof of global absence. Archive `source_archive/t94_position_changes_page2_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn94-position-query-complete.md`.
-- **Next exact action (Turn 95):**
+- **T95 source:** New FTG `player position` Help Center query is partial: 100 results/4 pages; page 1 chunks 0–5/10 read, resume at chunkIndex=6. Visible Score! Match/UCSS and generic DLS stats do not establish DLS26 squad-position locking. Archive `source_archive/t95_ftg_player_position_search_partial.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn95-player-position-partial.md`.
+- **Next exact action (Turn 96):**
   1. Record the clock first; verify branch/status/upstream/identity and recover with archive/byte verification only if a reset is observed.
-  2. Do not repeat the completed FTG `position changes` API URL. Continue with a distinct first-party or in-game lead that could directly address squad-position assignment/locking; do not use the mixed query as proof of absence.
-  3. Keep the no-position-lock claim explicitly `user-stated` and unverified pending Step-3 device setup; do not silently switch approaches or promote secondary claims.
+  2. Resume the exact FTG `player position` API URL at `chunkIndex=6`; page 1 chunks 6–9 remain, with API pages 2–4 unread. Do not infer absence from partial mixed-product output.
+  3. Keep DLS26 no-position-lock explicitly `user-stated` and unverified pending Step-3 device setup. Do not transfer UCSS/Score! Match behavior or DLS stamina wording to squad assignment.
   4. Keep Cult Heroes availability/route/cost/rewards unresolved; no spending advice or exhaustion declaration. Maintain ≤6 retrievals, ≤10 tools before wrap-up, ≤4 wrap-up calls; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -111,3 +112,8 @@
 
 - Two retrieval calls completed FTG `position changes` page 2 at chunks 13–14; page 2 is complete at 15/15, joining page 1 at 7/7. No DLS26-specific position-lock rule surfaced in this mixed search; no global absence inference.
 - Ledger **696 entries / 514 visited URLs / 404 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:14:17Z. Next input expected: `>`.
+
+## Turn 95 closeout
+
+- Six retrieval calls: new FTG `player position` API query, chunks 0–5/10 of page 1. Response reports 100 results/4 pages; resume chunk 6. Mixed-product results do not verify DLS26 position-lock behavior.
+- Ledger **697 entries / 515 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:18:00Z. Next input expected: `>`.

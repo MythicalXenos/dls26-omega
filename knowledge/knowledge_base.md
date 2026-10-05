@@ -1389,3 +1389,8 @@ Continued the mixed FTG Help Center API response through page-2 chunks 7–12; c
 ## TURN 94 (2026-10-06) — FTG `position changes` search completed
 
 Completed API page 2 through chunks 13–14 (15/15 total); page 1 was already complete (7/7). The 49-result, two-page Help Center search is mixed across products/eras. Final chunks include UCSS player-attribute help, generic DLS player-appearance/profile compatibility material (including a DLS19-to-DLS25 transfer item), and Score! Match content. No DLS26-specific squad-position assignment/lock rule surfaced in this bounded search; this is not evidence of universal absence. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t94_position_changes_page2_complete.md`.
+
+
+## TURN 95 (2026-10-06) — new FTG `player position` search is partial
+
+A distinct FTG Help Center API query reports 100 results across four pages. Page 1 chunks 0–5/10 are read; the remaining four chunks and pages 2–4 are pending. Visible material mixes Score! Match player types/stats, explicit Ultimate Clash Soccer formation/ball-position behavior, and generic DLS player-stat content. UCSS behavior is not DLS26 evidence; the DLS stamina/workload wording does not address squad-position assignment or locking. No DLS26 position-lock conclusion. Resume at `chunkIndex=6`. DLS26 no-position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t95_ftg_player_position_search_partial.md`.

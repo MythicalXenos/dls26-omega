@@ -1021,3 +1021,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Two retrievals: exact FTG API page 2 chunks 13–14, both successful; final chunk reports `hasMore=false`. Page 2 is complete (0–14/15), page 1 already complete (0–6/7). Mixed results; no DLS26-specific position-lock instruction surfaced, no global absence conclusion.
 - Ledger: **696 entries / 514 unique visited URLs / 404 unvisited leads**; retired the completed page-2 continuation lead. Cult Heroes route/rewards and DLS26 position-lock remain unresolved.
 - Source archive `source_archive/t94_position_changes_page2_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn94-position-query-complete.md`. Close marker `2026-10-05T23:14:17Z`.
+
+
+## TURN 95 (2026-10-06) — distinct FTG `player position` query partial
+- Recovery: opening reset to `fb9a2c0`; archived 270 files, SHA-256 `31d9085b977632d01bba142fdf98e8e4ac13bae737ef55a1e8512e7e640fb714`; restored session tip `2ce9c1e`, upstream and repo-local identity. Only T95 clock-start append differed; ISSUE-0014 #57 logged. No loss/force-push.
+- Six retrievals: new FTG Help Center API query chunks 0–5 of 10 on page 1, all successful. API reports 100 results/4 pages. Visible results mix Score! Match, UCSS, and generic DLS stats; no DLS26 position-lock conclusion. Resume chunk 6.
+- Ledger: **697 entries / 515 unique visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved.
+- Source archive `source_archive/t95_ftg_player_position_search_partial.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn95-player-position-partial.md`. Close marker `2026-10-05T23:18:00Z`.
