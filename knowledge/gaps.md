@@ -60,3 +60,8 @@ FTG Help Center API result `What are Events?` (article 214386765) has `section_i
 ## Turn 75 — broad Help Center query complete; gaps remain
 
 FTG Help Center API pages 1–3 (52 search results) have been read. The final page contains generic account/privacy articles; the broad Hero query produced no explicit DLS26 Cult Heroes route/reward or position-lock instructions. This is not an exhaustion/absence finding. Web-search snippets were not tied to a unique post permalink; two direct TikTok URLs returned 403/no body. Do not use them as evidence. Route/rewards and position locks remain open.
+
+
+## Turn 76 — official searches do not settle either open question
+
+The focused FTG `Cult Hero Agents` API query matched only the already-read general DLS “How do I obtain more players?” article; it does not describe the event item. The `position lock` API query is only partially read (chunks 0–3/10 of 16 results, mixed FTG games). Resume at chunk 4; do not classify yet. A new TikTok URL returned 403/no body. Cult Heroes route/rewards and DLS26 position-lock verification remain open.

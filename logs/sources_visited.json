@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T21:35:36Z",
+  "last_reconciled_at": "2026-10-05T21:40:23Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -18185,10 +18185,80 @@
       ],
       "processing_state": "discovery only; result attribution unresolved",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t76-ftg-help-center-cult-hero-agents",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Cult%20Hero%20Agents",
+      "query": "Cult Hero Agents (public Zendesk Help Center API)",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T21:40:23Z",
+      "fetched_at": "2026-10-05T21:40:23Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunk 0 of 1)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t76_ftg_searches_and_blocked_tiktok.md",
+      "payload_summary": "Exact query returned count=1/page_count=1: DLS FAQ article 360004066417, “How do I obtain more players?” (`section_id` 203117809; labels include agent). The returned body lists transfers, scouts, Agents (“Agents will immediately add a player to your squad”), and Prize Ladder (“awards special rare players when the criteria is met”). API metadata: updated_at 2026-09-19, edited_at 2024-12-06. The article itself was already directly read as `page-063-ftg-obtain-players-faq`; this is not Cult Hero Agent-specific, and the updated_at value does not prove a body change.",
+      "deception_screen": "DLS first-party FAQ but a general mechanism; “Cult Hero Agents” search token match does not establish the event item’s route, cost, guarantee, or reward.",
+      "conflicts": "No event-specific claim; same general article already recorded at page-063.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "complete API search (single result; underlying article already visited)",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t76-ftg-help-center-position-lock",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock",
+      "query": "position lock (public Zendesk Help Center API)",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "2026-10-05T21:40:23Z",
+      "fetched_at": "2026-10-05T21:40:23Z",
+      "language": "en-US",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page (chunks 0–3 of 10; page 1 of 1)",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "FTG public Zendesk Help Center search API",
+      "payload_path": "source_archive/t76_ftg_searches_and_blocked_tiktok.md",
+      "payload_summary": "API reports 16 results on one page, but rendered payload spans 10 chunks. Only chunks 0–3 were read (turn retrieval limit). Visible results mix Score! Match, Ultimate Clash Soccer, and DLS FAQs; apparent “locks” include Season Pass tier locks, not evidence about DLS player-position locking. Chunks 4–9 remain unread; no conclusion.",
+      "deception_screen": "Broad token match across FTG titles; “position” and “lock” can match unrelated gameplay/Season Pass copy. Do not classify until all chunks are read and the product is identified.",
+      "conflicts": "No DLS26 position-lock answer established from the partial payload.",
+      "affected_kb_claims": [
+        "DLS26 position-lock behavior remains user-stated and unverified"
+      ],
+      "processing_state": "partial response: chunks 0–3/10 read; chunks 4–9 pending",
+      "discovered_not_yet_visited": [
+        "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock [resume at functions.fetch_page chunkIndex=4; chunks 4–9 unread]"
+      ]
+    },
+    {
+      "event_type": "page",
+      "source_id": "page-336-tiktok-ftg-video-7653879317407059203-t76",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
+      "domain": "tiktok.com",
+      "retrieved_at": "2026-10-05T21:40:23Z",
+      "fetched_at": "2026-10-05T21:40:23Z",
+      "language": "en",
+      "retrieval_role": "blocked-page; no content",
+      "tool": "functions.fetch_page (chunk 0 of 1)",
+      "http_status": 403,
+      "source_type": "TikTok video URL at previously observed @dreamleaguesoccer.ftg path",
+      "payload_path": "source_archive/t76_ftg_searches_and_blocked_tiktok.md",
+      "payload_summary": "Direct fetch failed with HTTP 403 and no body. Nothing is inferred about the video content or Cult Heroes availability. Do not repeat this exact URL.",
+      "deception_screen": "Blocked retrieval; no content and no absence inference.",
+      "conflicts": "None; post contents unavailable.",
+      "affected_kb_claims": [
+        "Cult Heroes route/rewards remain unverified"
+      ],
+      "processing_state": "blocked (HTTP 403; no body)",
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 508,
+    "visited_total": 509,
     "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
@@ -18564,7 +18634,6 @@
       "https://www.bluestacks.com/blog/redeem-codes/dream-league-soccer-redeem-codes-en.html",
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-custom-kits-guide-en.html",
       "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417",
-      "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
       "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7442747227027541281",
       "https://www.ftgames.com/about",
       "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
@@ -18595,7 +18664,8 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
+      "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock [resume at functions.fetch_page chunkIndex=4; chunks 4–9 unread]"
     ]
   }
 }

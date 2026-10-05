@@ -281,3 +281,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 75 reconciliation (2026-10-06)
 
 **659 entries · 508 unique visited URLs · 405 unvisited leads**. FTG broad Help Center query pages 1–3 now complete. Search snippets did not identify a specific Cult Heroes post; two distinct TikTok URLs returned 403/no body. Do not infer absence; route/rewards and position-lock dimensions remain open.
+
+
+## Turn 76 reconciliation (2026-10-06)
+
+**662 ledger entries · 509 unique visited URLs · 405 unvisited leads**. The position-lock FTG search is partial (chunks 0–3/10); resume at chunk 4. Cult Heroes route/rewards and position-lock verification remain open; no absence/exhaustion conclusion.
