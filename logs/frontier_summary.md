@@ -351,3 +351,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 89 reconciliation (2026-10-06)
 
 **693 entries · 512 unique visited URLs · 404 unvisited leads**. YouTube search surfaced only secondary creator videos; the top DroidCheat result was already fetched in T61, and T89’s chunk reads are a repeat. The channel-ID search returned zero cards; no absence inference. Removed the stale unvisited copy of the already-visited video URL. Cult Heroes route/rewards and DLS26 position-lock remain unresolved.
+
+
+## Turn 90 reconciliation (2026-10-06)
+
+**695 entries · 513 unique visited URLs · 406 unvisited leads**. FTG `position changes` is partial (49 results/2 pages; page1 chunks0–4/7); resume chunk5, then6, and review page2 only after page1. Visible formation/roles articles do not answer the lock question. Instagram search returned zero cards, not proof of absence. Both active questions remain open.

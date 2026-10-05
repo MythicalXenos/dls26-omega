@@ -128,3 +128,7 @@ The FTG `Special Players Events` response is complete (chunks 0–7/8). One exac
 
 ## T89 update — source repetition, no gap closure
 The `DroidCheat` Cult Heroes gameplay page re-fetched in T89 is the same exact URL already read in T61; do not treat it as independent evidence. The YouTube search results are secondary/discovery-only, and a channel-ID query returning zero results is not an absence finding. Route/rewards and DLS26 position-lock remain open.
+
+
+## T90 update — position changes query partial
+FTG `position changes` is incomplete (49 results/2 pages; page 1 chunks 0–4/7 read; chunks 5–6 and page 2 pending). Visible formation/role help does not verify position locking. Instagram search returned zero cards; no absence inference. Keep DLS26 no-lock and Cult Heroes route/reward questions open.

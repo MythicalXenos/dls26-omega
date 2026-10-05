@@ -986,3 +986,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Five retrieval calls: one YouTube web search, three chunk fetches for `xTqeXimUjv4`, and one channel-ID web search. The exact video URL was already page-312 in T61; the T89 retrieval is a repeat, not independent corroboration. Uploader is DroidCheat; creator-authored event wording is not FTG evidence. Returned text provides no route/cost/reward instruction. Channel-ID query returned zero result cards, not proof of absence.
 - Ledger: **693 entries / 512 unique visited URLs / 404 unvisited leads**. Retired the stale duplicate lead for the already-visited URL. No research dimension closed; no exhaustion declaration.
 - Source archive: `source_archive/t89_droidcheat_video_repeat_and_youtube_search.md`; snapshot: `snapshots/KB_snapshot_2026-10-06-turn89-youtube-followup.md`.
+
+
+## TURN 90 (2026-10-06) — FTG `position changes` query progressed
+
+- Opening reset: `fb9a2c0`, 260 project files untracked, upstream unset. Archive SHA-256 `cf0207c37d5337b99aeea8396583520534696d2547b235f69d72418625697091`; restored `b271ea5`; byte-verified 260/260 files. ISSUE-0014 #52 logged; identity/upstream restored. The first reconciliation print hit a null-URL guard error; no files were lost/changed beyond the clock/recovery, and reconciliation then completed with a type guard.
+- Six retrieval calls: Instagram search for `@playdls` + Cult Heroes returned zero results; FTG API query `position changes` chunks 0–4 (all success). Response is 49 results/2 pages; page1 chunks5–6 and page2 pending. Generic formation/roles snippets do not establish DLS26 position locking.
+- Ledger: **695 entries / 513 unique visited URLs / 406 unvisited leads**. No dimension closed; no exhaustion declaration.

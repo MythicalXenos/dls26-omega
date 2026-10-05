@@ -1367,3 +1367,7 @@ Cult Heroes availability, acquisition route, cost, and rewards remain unresolved
 
 ## Turn 89 — YouTube discovery was secondary and repeated
 A targeted YouTube search returned secondary creator video cards, not a verified FTG publication. The top result, a DroidCheat video, had already been fully rendered as `page-312` in T61; T89 fetched the same exact URL again. The page metadata/creator description and match-commentary text are not independent or first-party evidence and do not establish event availability, route, cost, or reward. A follow-up query against a YouTube game-channel ID returned zero search results; this is not proof of absence or channel ownership. Provenance: `source_archive/t89_droidcheat_video_repeat_and_youtube_search.md`. Cult Heroes route/rewards and position-lock remain unresolved.
+
+
+## Turn 90 — `position changes` Help Center search is partial
+A new FTG query returned 49 results across 2 API pages; page 1 contains 7 rendered chunks, of which chunks 0–4 were read. Visible mixed results include generic formation-grid and player-role help snippets. Neither states whether DLS26 locks a player to a position; do not conflate formation editing/player roles with squad-position locking. Chunks 5–6 and API page 2 remain unread; no query-wide conclusion. An Instagram post search for `@playdls` + Cult Heroes returned no result cards; this does not prove absence. Provenance: `source_archive/t90_ftg_position_changes_query_partial.md`. User-stated no-lock remains unverified; Cult Heroes route/rewards remain unresolved.
