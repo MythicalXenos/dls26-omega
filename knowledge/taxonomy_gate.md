@@ -405,3 +405,8 @@ Five General FAQ bodies read: Android Play Store compatibility, Play Store downl
 First-party DLS account pages conflict: `214387685` says Google Play Games and iCloud do not secure DLS saves and are not used by the games; `360000603398` tells DLS users to enable Google Play Games Services and Google Play Cloud; `360000613657` tells DLS users to enable iCloud and play matches to upload. All are unstamped. Preserve the claims side by side; do not choose one as current or advise changing the save route. Ask the user which controls are visible if a device-specific recommendation is needed. Sign in with Google/Apple remain distinct account services, but that distinction does not resolve this storage conflict.
 
 General FAQs: 15/21 article bodies read, 21/21 titles enumerated. No dimension closed; no exhaustion declaration.
+
+
+## Turn 40 update (2026-10-05) — account-save conflict retained
+
+Zendesk metadata places `214387685`, `360000603398`, and `360000613657` in General FAQs (`203171905`); DLS article `4413273241873` is in DLS FAQs (`203117809`). Metadata reports `outdated=false` for all, but `edited_at` differs from `updated_at`; none carries DLS build/version applicability. The Google Play Games/iCloud save-route contradiction therefore remains unresolved. Do not promote the support text into a current DLS-26 instruction or advise switching settings. General FAQ body coverage: 16/21. No dimension closed.

@@ -225,3 +225,10 @@ Zendesk article JSON assigns `7916959134737`, `7917587319313`, `7917423348497`, 
 - `360000603398`: explicit DLS path to enable Google Play Games Services and Google Play Cloud, then make progress online to upload.
 - `360000613657`: explicit DLS path to enable iCloud, play matches for upload, and check iCloud storage.
 All three are first-party, unstamped articles. Conflict unresolved; don't reconcile by inference or give a route-change instruction without checking the user's in-game options.
+
+
+## Turn 40 save-article metadata and video policy
+
+Zendesk metadata: backup/restore article `214387685` is General FAQs section `203171905`, edited 2024-05-15, updated 2026-09-28; Google Play Games and iCloud setup articles `360000603398` / `360000613657` are also in `203171905`, edited 2020-06-04, updated 2026-07-19; DLS transfer article `4413273241873` is DLS FAQs section `203117809`, edited 2024-12-06, updated 2026-09-28. All are marked `outdated=false`; none has a DLS version stamp. Do not resolve their conflicting save-route instructions by recency alone.
+
+Article `360001099097` official body sets non-commercial/gameplay-use conditions (no game music, no false endorsement, limited trademark use, no mixing or repurposing content, EULA compliance, no misleading unpublished-update claim, and non-offensive content). Historic user comments are not evidence.

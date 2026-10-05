@@ -105,3 +105,7 @@ At open, local HEAD had dropped to `fb9a2c0 Initial commit` and the worktree sho
 
 ### ISSUE-0014 — occurrence #8 (2026-10-05, Turn 38 open)
 Same signature as occurrence #7: local HEAD at `fb9a2c0 Initial commit` with 15 dirty paths. Tar backup excluding `.git`; fetched `origin/arena/01a1022d-dls26-omega`; reset hard to remote tip `a8efe0c`; clean status. Byte comparison found only `logs/turn_clock.txt` differed. Re-stamped it with the Turn-38 open time; no other content lost, no force-push. Repo-local author identity set to `DLS26 Omega <omega@dls26.local>`.
+
+
+### ISSUE-0014 — occurrence #9 (2026-10-05, Turn 40 open)
+Same signature: local HEAD at `fb9a2c0 Initial commit` with 15 dirty paths. Backed up excluding `.git`, fetched `origin/arena/01a1022d-dls26-omega`, reset hard to remote tip `1ca0491`, and verified clean status. Byte comparison found only `logs/turn_clock.txt` differed; it was re-stamped. No other content lost, no force-push. Repo-local identity verified as `DLS26 Omega <omega@dls26.local>`.

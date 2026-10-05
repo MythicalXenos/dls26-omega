@@ -616,3 +616,14 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation script output: **517 entries / 420 unique URLs visited / 380 unvisited leads**. Retrievals 6/6; total tool calls 8/10. No exhaustion declaration.
 - Bluff check: the platform “no plans at this time” statement is not presented as current; Google Play/iCloud save instructions remain disputed; no dimension closed.
 - Close marker 2026-10-05T14:03:13Z (before commits/push).
+
+
+## TURN 40 (2026-10-05) — save-route metadata and official video policy
+- Open 2026-10-05T14:58:19Z: local HEAD `fb9a2c0 Initial commit`, 15 dirty paths. Tar backup excluding `.git`; fetch branch; reset hard to remote `1ca0491`; clean status. Byte comparison found only the current turn clock differed; re-stamped. ISSUE-0014 occurrence #9 recorded; no force-push or other content loss.
+- Repo-local identity verified as `DLS26 Omega <omega@dls26.local>`.
+- Six retrievals: page-217 monitoring; pages 218–221 public Zendesk JSON metadata for cross-game backup, Google Play Games setup, iCloud setup, and DLS save-data transfer; page-222 official gameplay-video policy (article body read, historic comments excluded).
+- Metadata: 214387685 General FAQ `203171905`, `edited_at` 2024-05-15, `updated_at` 2026-09-28; setup pages 360000603398 and 360000613657 are General FAQ `203171905`, edited 2020-06-04, updated 2026-07-19; DLS article 4413273241873 is DLS FAQ `203117809`, edited 2024-12-06, updated 2026-09-28. All `outdated=false`; none has DLS build applicability.
+- **Save-route contradiction remains**; do not select either path from web copy alone. User's actual UI is the needed check.
+- General FAQ body coverage: **16/21** per ledger reconciliation output. Reconciliation output: **523 entries / 425 unique URLs visited / 379 unvisited leads**. Retrievals 6/6; total tool calls 9/10. No exhaustion declaration.
+- Bluff check: Zendesk dates are metadata, not game-version evidence; old comments were excluded.
+- Close marker 2026-10-05T15:01:12Z (before commits/push).
