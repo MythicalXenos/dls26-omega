@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T21:56:46Z",
+  "last_reconciled_at": "2026-10-05T22:05:02Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -18350,11 +18350,169 @@
       ],
       "processing_state": "search triaged; no result card promoted to evidence or actionable lead",
       "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t80-youtube-cult-heroes",
+      "url": null,
+      "query": "site:youtube.com/@firsttouchgames OR site:youtube.com/@DreamLeagueSoccer \"Cult Heroes\" DLS26",
+      "result_urls": [
+        "https://www.youtube.com/@firsttouchgames"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:05:02Z",
+      "fetched_at": "2026-10-05T22:05:02Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t80_official_social_leads.md",
+      "payload_summary": "One result card for the general firsttouchgames channel; no Cult Heroes-specific video card in search output.",
+      "deception_screen": "Search-result snippets are discovery leads only. Do not assert route/reward claims until a specific first-party page or in-game evidence is verified; nonappearance is not evidence of absence.",
+      "conflicts": "No verified Cult Heroes route/reward or DLS26 position-lock finding.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; snippets not promoted to evidence",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t80-instagram-ftg-cult-heroes",
+      "url": null,
+      "query": "site:instagram.com/firsttouchgames \"Cult Heroes\" DLS26",
+      "result_urls": [
+        "https://www.instagram.com/firsttouchgames_official/"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:05:02Z",
+      "fetched_at": "2026-10-05T22:05:02Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t80_official_social_leads.md",
+      "payload_summary": "One result card for the general First Touch Games Instagram profile (@firsttouchgames_official); no event-specific post content in search output.",
+      "deception_screen": "Search-result snippets are discovery leads only. Do not assert route/reward claims until a specific first-party page or in-game evidence is verified; nonappearance is not evidence of absence.",
+      "conflicts": "No verified Cult Heroes route/reward or DLS26 position-lock finding.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; snippets not promoted to evidence",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "repeat_source_fetch",
+      "source_id": "page-t80-youtube-firsttouchgames-channel-repeat",
+      "url": "https://www.youtube.com/@firsttouchgames",
+      "domain": "youtube.com",
+      "retrieved_at": "2026-10-05T22:05:02Z",
+      "fetched_at": "2026-10-05T22:05:02Z",
+      "language": "en",
+      "retrieval_role": "primary-source-repeat",
+      "tool": "functions.fetch_page (chunk 0)",
+      "http_status": "numeric HTTP status not exposed; tool status=success, payload includes an embedded “Error 401” string",
+      "source_type": "official First Touch Games YouTube channel page; repeat of prior fetch",
+      "payload_path": "source_archive/t80_official_social_leads.md",
+      "payload_summary": "Repeated URL already logged at page-308-ftg-youtube-channel-home-t58. Returned partial channel content, launch trailer and social links; no new Cult Heroes or position-lock evidence.",
+      "deception_screen": "Partial rendering; not an exhaustive channel crawl or proof of absence.",
+      "conflicts": "No target-specific instruction in returned payload.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "repeat retrieval logged; no new target evidence",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t80-instagram-playdls-cult-heroes",
+      "url": null,
+      "query": "site:instagram.com/playdls \"Cult Heroes\" DLS26",
+      "result_urls": [
+        "https://www.instagram.com/playdls/"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:05:02Z",
+      "fetched_at": "2026-10-05T22:05:02Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t80_official_social_leads.md",
+      "payload_summary": "One result card for Dream League Soccer (@playdls) profile; no Cult Heroes-specific post/caption surfaced.",
+      "deception_screen": "Search-result snippets are discovery leads only. Do not assert route/reward claims until a specific first-party page or in-game evidence is verified; nonappearance is not evidence of absence.",
+      "conflicts": "No verified Cult Heroes route/reward or DLS26 position-lock finding.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; snippets not promoted to evidence",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "repeat_source_fetch_attempt",
+      "source_id": "attempt-t80-instagram-playdls-repeat",
+      "url": "https://www.instagram.com/playdls/",
+      "domain": "instagram.com",
+      "retrieved_at": "2026-10-05T22:05:02Z",
+      "fetched_at": "2026-10-05T22:05:02Z",
+      "language": "en",
+      "retrieval_role": "primary-source-attempt-repeat",
+      "tool": "functions.fetch_page (chunk 0)",
+      "http_status": "HTTP 403 (tool error)",
+      "source_type": "official Dream League Soccer Instagram profile; repeat of previously blocked URL",
+      "payload_path": "source_archive/t80_official_social_leads.md",
+      "payload_summary": "Repeated profile URL already logged at page-305 and page-325; this attempt again returned HTTP 403 with no page payload.",
+      "deception_screen": "Blocked page is not evidence of absence and says nothing about event availability or account content.",
+      "conflicts": "No claim can be drawn from the blocked response.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "repeat blocked attempt logged; do not infer absence or retry without a distinct access method",
+      "discovered_not_yet_visited": []
+    },
+    {
+      "event_type": "discovery_search",
+      "source_id": "discovery-t80-tiktok-cult-heroes",
+      "url": null,
+      "query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Cult Heroes\" DLS26",
+      "result_urls": [
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888",
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008",
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809"
+      ],
+      "domain": "web search request endpoint not exposed by functions.web_search",
+      "retrieved_at": "2026-10-05T22:05:02Z",
+      "fetched_at": "2026-10-05T22:05:02Z",
+      "language": "en",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.web_search (depth=3)",
+      "http_status": "not exposed; tool returned status=success",
+      "source_type": "search result cards only; no underlying result page fetched",
+      "payload_path": "source_archive/t80_official_social_leads.md",
+      "payload_summary": "Three video cards surfaced. Mixed search-result snippets attributed to @dreamleaguesoccer.ftg mention Cult Hero Agents in Events/Drafts/Season Pass and a guaranteed Special Card, but the captions are not reliably mapped to the card URLs. Two result URLs (7477999051343007008 and 7437552025958763809) are already logged as HTTP 403 attempts from earlier turns; only 7588197165965593888 is a new direct-fetch candidate.",
+      "deception_screen": "Search-result snippets are discovery leads only. Do not assert route/reward claims until a specific first-party page or in-game evidence is verified; nonappearance is not evidence of absence.",
+      "conflicts": "No verified Cult Heroes route/reward or DLS26 position-lock finding.",
+      "affected_kb_claims": [
+        "Cult Heroes acquisition route/rewards unresolved",
+        "DLS26 position-lock behavior unresolved"
+      ],
+      "processing_state": "discovery only; snippets not promoted to evidence",
+      "discovered_not_yet_visited": [
+        "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888 [T80 official TikTok result candidate; mixed search snippet mapping unverified; direct fetch required]"
+      ]
     }
   ],
   "frontier": {
     "visited_total": 509,
-    "unvisited_total": 404,
+    "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -18759,7 +18917,8 @@
       "https://www.youtube.com/shorts/K3GVQFghJ7I",
       "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-formations",
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
-      "https://www.youtube.com/watch?v=zV0A6TI-BLY"
+      "https://www.youtube.com/watch?v=zV0A6TI-BLY",
+      "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888 [T80 official TikTok result candidate; mixed search snippet mapping unverified; direct fetch required]"
     ]
   }
 }

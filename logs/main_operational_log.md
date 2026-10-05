@@ -918,3 +918,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Opening reset recovered: `fb9a2c0` with 236 untracked files and no upstream. Archived 236 files; SHA-256 `c275d5bc9bc30928152c0e5bdadcece68b72eaceb4215f01e269d62539d8ccb4`; restored remote `a51eed8`; byte-verified all 236 after excluding only T79 open-marker line. ISSUE-0014 #41 recorded, identity/upstream restored, no force-push.
 - Six retrieval calls: FTG API query `formation position` chunks 6–8 (completing chunks 0–5 from T78; 14 results/9 chunks) plus three web searches targeted at FTG Cult Heroes, FTG formation/positions, and official X Cult Heroes. No direct DLS26 route/reward or position-lock guidance established. Search cards only; no result pages fetched.
 - Ledger: **666 entries / 509 unique visited URLs / 404 unvisited leads**. No target dimension closed. Close marker 2026-10-05T21:56:46Z before commit/push.
+
+
+## TURN 80 (2026-10-06) — official social lead
+- Reset recovery: `fb9a2c0`, 238 untracked files, no upstream. Archived all 238; SHA-256 `0c55e624993e14fc9462cd64231875e15de96d1524be95a7ca547effb517e6cf`; restored `786384d`; 238/238 byte-verified except T80 open marker. ISSUE-0014 #42 logged; identity/upstream restored; no force-push.
+- Six retrieval calls: four search-result queries/pages and two repeated page fetch attempts. TikTok search surfaced potentially relevant Cult Heroes text under `@dreamleaguesoccer.ftg`, but captions are mixed across cards. Two direct URLs were previously blocked; one new candidate URL is queued. YouTube channel and Instagram profile were repeated (YouTube partial; Instagram HTTP 403); no new target evidence.
+- No Cult Heroes claim accepted as fact; position-lock remains unverified. Ledger: **672 entries / 509 unique visited URLs / 405 unvisited leads**. Close marker 2026-10-05T22:05:02Z before commit/push.

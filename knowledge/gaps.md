@@ -80,3 +80,8 @@ FTG Help Center query `formation position`: 14 results, 9 rendered chunks. Only 
 ## Turn 79 — official search follow-up
 
 The complete FTG `formation position` response (14 results/9 chunks) mixes games and DLS player-stat/leaderboard material; it establishes no DLS26 position-lock behavior and does not establish absence. Three additional FTG/official-account search-result queries supplied no event-specific or lock-specific DLS26 evidence; their result cards are not fetched pages. Position-lock and Cult Heroes route/rewards remain open. See `source_archive/t79_official_search_triage.md`.
+
+
+## Turn 80 — direct verification of official social lead pending
+
+TikTok search results attributed to `@dreamleaguesoccer.ftg` contain potentially relevant Cult Heroes route/reward text, but mix captions and do not map the claims to exact video URLs. Two candidate TikTok URLs had already been blocked in earlier turns; one new candidate is queued. Do not promote search snippets to facts. Repeat YouTube/Instagram fetches yielded no new content (YouTube partial; Instagram 403). Position-lock remains open. See `source_archive/t80_official_social_leads.md`.
