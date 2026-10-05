@@ -361,3 +361,8 @@ Reconciliation output: **651 ledger entries · 505 unique visited URLs · 408 un
 ## Turn 91 reconciliation (2026-10-06)
 
 **696 entries · 514 unique visited URLs · 405 unvisited leads**. FTG `position changes` page1/2 complete; page2 only chunk0/15 read, resume chunk1. Product-aware result screening: Score! Match formation-position wording is not DLS26 evidence; DLS Leaderboards “position” is rank. Direct formation/roles help does not settle locking. No query-wide absence conclusion.
+
+
+## Turn 92 reconciliation (2026-10-06)
+
+**696 entries · 514 unique visited URLs · 405 unvisited leads**. FTG `position changes` page2 is partial (chunks0–6/15); resume chunk7. DLS stats discuss stamina by position, not locking; UCSS formation behavior is not transferable. No query-wide conclusion; DLS26 no-lock and Cult Heroes route/rewards remain open.

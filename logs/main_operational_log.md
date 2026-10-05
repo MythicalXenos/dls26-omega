@@ -1000,3 +1000,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Opening reset: `fb9a2c0`, 262 project files untracked, upstream unset. Archive SHA-256 `4177fe9eb4e85f04cfac69faae86f300c9a946f30b5f7fccca024890a354263e`; restored `7534d2b`; byte-verified 262/262 files. ISSUE-0014 #53 logged; identity/upstream restored.
 - Five retrieval calls: FTG query page1 chunks5–6 completed the 7-chunk first page; page2 chunk0/15 read; direct formation/roles article pages fetched. Both article URLs were already in the ledger (`2` repeat(s), `0` new). No DLS26 position-lock verification.
 - Ledger: **696 entries / 514 unique visited URLs / 405 unvisited leads**. Page2 remains open at chunk1. No dimension closed; no exhaustion declaration.
+
+
+## TURN 92 (2026-10-06) — FTG `position changes` page-2 continuation
+
+- Opening reset: `fb9a2c0`, 264 project files untracked, upstream unset. Archive SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`; restored `9bcf413`; byte-verified 264/264 files. ISSUE-0014 #54 logged; identity/upstream restored.
+- Six retrieval calls: FTG page2 chunks1–6 (all success). Page2 now chunks0–6/15 read. DLS stats snippet refers to stamina and workload differences by position; UCSS rules are a separate product. Neither settles DLS26 position locking.
+- Ledger: **696 entries / 514 unique visited URLs / 405 unvisited leads**. Resume page2 chunk7. No dimension closed; no exhaustion declaration.

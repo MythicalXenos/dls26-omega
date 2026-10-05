@@ -1375,3 +1375,7 @@ A new FTG query returned 49 results across 2 API pages; page 1 contains 7 render
 
 ## Turn 91 — FTG `position changes` page 1 complete, page 2 partial
 FTG API page 1/2 is complete (chunks 0–6/7) and page 2 chunk0/15 is read. The mixed first-page results include generic Squad formation-grid/player-role help, a Score! Match stats article mentioning formation-position behavior, and a DLS Leaderboards FAQ using “position” for ranking. Do not transfer Score! Match wording to DLS26 or interpret leaderboard rank as squad position. Direct FTG formation/roles article text gives menu paths only; neither specifies DLS26 position locking. Page 2 remains incomplete; no query-wide conclusion. User-stated no-lock remains unverified. Provenance: `source_archive/t91_ftg_position_changes_page1_complete_page2_partial.md`.
+
+
+## Turn 92 — FTG position-changes page 2 remains partial
+Page 2/2 now has chunks 0–6/15 read. The generic DLS player-stats result (360019166777) includes a stamina note about workload varying by playing position; that is not a statement about assignment or position locks. Another result is explicitly a UCSS rules FAQ; its formation/ball-position behavior is not DLS26 evidence. Chunks 7–14 remain unread, so no query-wide conclusion. Position-lock remains user-stated/unverified; Cult Heroes route/rewards remain unresolved. Provenance: `source_archive/t92_position_changes_page2_progress.md`.

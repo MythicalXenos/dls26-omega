@@ -136,3 +136,7 @@ FTG `position changes` is incomplete (49 results/2 pages; page 1 chunks 0–4/7 
 
 ## T91 update — first-party position search still incomplete
 FTG `position changes` page 1/2 is complete, but page 2 is partial at chunk0/15. The visible Score! Match formation-position text is another product; DLS Leaderboards position refers to rank. Direct formation/roles articles do not settle squad-position locking. Keep DLS26 no-lock user-stated/unverified; continue page2 at chunk1. Cult Heroes route/rewards remain unresolved.
+
+
+## T92 update — page 2 product-aware screen
+FTG `position changes` API page2 is partial (chunks0–6/15). The DLS stats wording concerns workload by playing position, not position locks; UCSS formation behavior is another product. Resume chunk7. Do not close the DLS26 lock gap; Cult Heroes route/rewards remain unresolved.
