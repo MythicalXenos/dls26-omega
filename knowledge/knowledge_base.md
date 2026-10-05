@@ -1117,3 +1117,17 @@ Chunk 1/3 includes FAQ claims about coaches improving attributes/OVR, Physios re
 
 ### Recovery and scope
 Turn 53 opened with the recurring sandbox restore signature. The remote branch was recovered at `d0fbe82`; 201 non-clock target files were byte-identical, and the only expected divergence was this turn’s start line in `logs/turn_clock.txt`. ISSUE-0014 occurrence #15 is logged. No content loss or force-push. Five retrievals were logged; no first-party mechanic was validated, no preference or recommendation changed, no dimension was closed, and no exhaustion declaration was made.
+
+
+## TURN 54 (2026-10-06) — BlueStacks guide complete; first-party route probe blocked
+
+### DLSKitURL monitor (`page-300`)
+The T54 homepage render matches the T53 render: the same ten cards and snippets (eight DLS-related kit/event posts and two PES posts). The T52 note said “same nine,” which conflicts with both T53 and T54. No dates are visible in either current render, so neither a newly posted October item nor a content change is established. Secondary kit/event blog only; no game-mechanics inference.
+
+### BlueStacks DLS26 guide complete (`page-301`)
+Chunk 2/3 completes the page. Its returned remainder contains comments, related recommendations/news and BlueStacks promotional material, with no additional DLS26 mechanic evidence. All three chunks have now been read. The guide remains secondary and closely overlaps GamingOnPhone; do not count the pair as independent corroboration.
+
+### Cult Heroes acquisition-route follow-up (`discovery-t54-tiktok-cult-heroes-7437552025958763809`, `page-302`, `discovery-t54-ftgames-cult-heroes-search`)
+A targeted TikTok search result links to the known FTG-handle video, but the extracted item combines a DLS25 title/date (“A new era, a new card,” 2024-11-15) with DLS26 Cult Heroes copy mentioning September 16 and availability through Events, Drafts and the Season Pass. Its internal attribution is unclear. A direct `fetch_page` attempt returned **HTTP 403** with no body. A separate FTG-site search found no Cult Heroes-specific official page; it surfaced generic, dated support snippets (including Season Pass content marked version 12200 onwards and general player-acquisition routes). None resolves the DLS26 Cult Heroes conflict. Keep the existing route evidence status unchanged; the first-party video body or an in-game capture is still needed.
+
+No new gameplay claim or recommendation was promoted. No dimension closed and no exhaustion declaration made.

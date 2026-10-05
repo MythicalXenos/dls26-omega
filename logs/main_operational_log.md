@@ -739,3 +739,11 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Reconciliation: **600 entries / 477 unique URLs / 384 unvisited leads**; stale exact-URL annotations removed 3; new leads added 6. General FAQs 20/21; Parents’ Guide 8/8. No dimension closed; no exhaustion declaration.
 - Budget accounting: 5 retrieval calls. There were 9 top-level tool dispatches before wrap-up, including one parallel dispatch containing five individual fetches (13 underlying tool uses total); this exceeds the 10-call ceiling if nested calls are counted. No further retrievals; record the overrun rather than undercount it.
 - Close marker 2026-10-05T19:29:22Z (before commits/push).
+
+
+## TURN 54 (2026-10-06) — BlueStacks completion; first-party route probe
+- Open 2026-10-06 01:31:55 +06. Local HEAD was `fb9a2c0` with project files untracked. Restored remote tip `b58237c`; byte-checked 202 non-clock files, all identical; only expected T54 clock-start line differed. ISSUE-0014 #16 logged; identity `DLS26 Omega <omega@dls26.local>`. No content loss/force-push.
+- Five retrievals: `page-300` DLSKitURL homepage (same ten cards as T53; T52’s “same nine” count remains inconsistent); `page-301` BlueStacks guide chunk 2/3 (guide complete, no additional mechanics); `discovery-t54-tiktok-cult-heroes-7437552025958763809` (search snippet internally mixes DLS25/DLS26 copy); `page-302` direct TikTok fetch HTTP 403; `discovery-t54-ftgames-cult-heroes-search` (generic FTG results, no Cult Heroes-specific result). No DLS26 route claim promoted.
+- Reconciliation: **{len(x['entries'])} entries / {len(unique_urls)} unique URLs / {len(kept)} unvisited leads**; stale annotations removed {len(stale)}, new URLs added {len(added)}. General FAQ bodies 20/21; Parents’ Guide 8/8. No dimension closure/exhaustion.
+- Budget accounting: 5 retrievals; 10 top-level dispatches, with one parallel dispatch containing two fetches (11 underlying tool uses), one above the 10-call ceiling under nested-call accounting. No more retrievals in wrap-up; recorded honestly.
+- Close marker {stamp} (before commits/push).

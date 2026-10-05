@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
- "last_reconciled_at": "2026-10-05T19:29:22Z",
- "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration.",
+ "last_reconciled_at": "2026-10-05T19:36:00Z",
+ "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration.",
  "entries": [
   {
    "source_id": "ops-github-origin-probe-2026-10-02",
@@ -16294,11 +16294,216 @@
    "chunk_index": 1,
    "total_chunks": 3,
    "has_more": true
+  },
+  {
+   "event_type": "page_fetch",
+   "retrieved_at": "2026-10-05T19:36:00Z",
+   "http_status": 200,
+   "language": "en",
+   "processing_state": "processed",
+   "source_id": "page-300-dlskiturl-monitor-t54",
+   "url": "https://dlskiturl.com/",
+   "domain": "dlskiturl.com",
+   "retrieval_role": "page-render",
+   "tool": "fetch_page (complete; hasMore=false)",
+   "source_type": "monitoring",
+   "payload_summary": "Thirty-eighth homepage check. It renders the same ten cards and matching snippets as page-295: Atlético Madrid kits, Cult Heroes, Tottenham kits, English League Classics, Dortmund kits, Juventus kits, Real Madrid kits, Liverpool 2006/07 kits, PES 2017 and PES 2021. The Turn-52 “same nine” count remains inconsistent with both T53 and T54 ten-card renders. No publication dates appear in these renders; no gameplay inference.",
+   "deception_screen": "Public secondary blog homepage rendered; no sign-in interstitial.",
+   "conflicts": "Prior Turn-52 card count discrepancy persists; T53 and T54 renders match each other.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 54 block)",
+   "discovered_not_yet_visited": [],
+   "chunk_index": 0,
+   "total_chunks": 1,
+   "has_more": false
+  },
+  {
+   "event_type": "page_fetch",
+   "retrieved_at": "2026-10-05T19:36:00Z",
+   "http_status": 200,
+   "language": "en",
+   "processing_state": "processed",
+   "source_id": "page-301-bluestacks-dls26-character-development-chunk2",
+   "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-character-development-guide-en.html",
+   "domain": "www.bluestacks.com",
+   "retrieval_role": "page-render-chunk2",
+   "tool": "fetch_page (chunk 2; hasMore=false)",
+   "source_type": "secondary-game-guide",
+   "payload_summary": "Final chunk 2/3 completes the BlueStacks DLS26 character-development article. The returned remainder is comments, related article/news rails and BlueStacks promotional content; it supplies no additional DLS26 gameplay/mechanic evidence for the guide. Chunks 0–2 are now complete; the article remains secondary and overlaps the GamingOnPhone guide.",
+   "deception_screen": "Public secondary guide rendered; no sign-in interstitial.",
+   "conflicts": "Not FTG-published; close overlap with GamingOnPhone remains; no independent corroboration.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 54 block)",
+   "discovered_not_yet_visited": [],
+   "chunk_index": 2,
+   "total_chunks": 3,
+   "has_more": false
+  },
+  {
+   "source_id": "discovery-t54-tiktok-cult-heroes-7437552025958763809",
+   "event_type": "discovery-search",
+   "query": "site:tiktok.com/@dreamleaguesoccer.ftg/video \"7437552025958763809\" Dream League Soccer Cult Heroes",
+   "retrieved_at": "2026-10-05T19:36:00Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 2)",
+   "http_status": "not applicable; tool returned success",
+   "payload_summary": "Search returned five TikTok URLs. Result 1 links to the targeted FTG-handle video and mixes a DLS25 title/date (“A new era, a new card”, 2024-11-15) with a DLS26 Cult Heroes caption saying Sept 16 and listing Events, Drafts and the Season Pass. The extracted result does not establish that the route text belongs to that exact video; direct fetch was separately attempted and returned HTTP 403. Search snippets only, not a direct video transcript.",
+   "source_type": "social-media discovery result; direct page not rendered",
+   "language": "en",
+   "processing_state": "search-result captured; attribution unresolved",
+   "deception_screen": "Search result only; no direct page content.",
+   "conflicts": "Mixed DLS25 title/date and DLS26 route copy; do not promote Cult Heroes acquisition confidence on this snippet.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 54 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "A new era, a new card. #DLS25",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+     "pageAge": "2024-11-15",
+     "snippet": "Search-result text includes “A new era, a new card. #DLS25” and then “Cult Heroes are coming to #DLS26 on September 16th. Find them by collecting Cult Hero Agents, available in Events, Drafts and the Season Pass.” The result mixes the DLS25 title/date with DLS26 route text; attribution within the extracted result is unclear."
+    },
+    {
+     "id": 2,
+     "title": "Master Football Skills in Dream League Soccer",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417",
+     "snippet": "Search output describes skills in Live matches and also contains other DLS26 World Cup Heroes/World Winners text; not used to infer the Cult Heroes route."
+    },
+    {
+     "id": 3,
+     "title": "One tournament, two new special cards. Coming soon in #DLS26 #WorldWinner #WorldHeroes #DLS #DreamLeagueSoccer",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
+     "snippet": "Search result describes two World Winner/World Heroes special cards; unrelated to the Cult Heroes-route claim."
+    },
+    {
+     "id": 4,
+     "title": "DLS #WorldWinners are now available, celebrating the players that went all the way. Find them in Legendary Agents in #DLS26 now.",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7664965549348244758",
+     "snippet": "Search result says World Winners are available in Legendary Agents in DLS26; not a Cult Heroes route source."
+    },
+    {
+     "id": 5,
+     "title": "Exciting Updates Coming for DLS 25 Soccer Fans",
+     "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7442747227027541281",
+     "snippet": "Search result describes more room for players in DLS25; not used for the DLS26 Cult Heroes claim."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417",
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7664965549348244758",
+    "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7442747227027541281"
+   ]
+  },
+  {
+   "source_id": "page-302-tiktok-cult-heroes-attempt-t54",
+   "event_type": "page_fetch_attempt",
+   "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+   "domain": "www.tiktok.com",
+   "retrieved_at": "2026-10-05T19:36:00Z",
+   "retrieval_role": "page-render",
+   "tool": "functions.fetch_page (direct request)",
+   "http_status": 403,
+   "source_type": "FTG-handle social post; direct retrieval failed",
+   "language": "en",
+   "payload_summary": "fetch_page returned error “Failed to fetch page (HTTP 403)”; no page body or transcript was returned. This attempt does not verify the mixed search-result caption.",
+   "processing_state": "blocked; no content processed",
+   "deception_screen": "HTTP 403; no sign-in or article body available to inspect.",
+   "conflicts": "Search-result attribution remains ambiguous; direct source body unavailable.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 54 block)",
+   "discovered_not_yet_visited": []
+  },
+  {
+   "source_id": "discovery-t54-ftgames-cult-heroes-search",
+   "event_type": "discovery-search",
+   "query": "site:ftgames.com \"Cult Heroes\" \"Dream League Soccer\" Agents Season Pass",
+   "retrieved_at": "2026-10-05T19:36:00Z",
+   "retrieval_role": "discovery-search",
+   "tool": "functions.web_search (depth 3)",
+   "http_status": "not applicable; tool returned success",
+   "payload_summary": "Search returned ten FTG/support results but no Cult Heroes-specific official page. Relevant snippets describe generic FAQs: Season Pass information marked applicable from DLS version 12200 onwards (page age Jun 5, 2025), generic Gem sources (Dec 6, 2024), and general player acquisition via Transfers/Scouts/Agents/Prize Ladder (Dec 6, 2024). These are secondary-to-current-status clues only, not proof of the Cult Heroes acquisition route or DLS26 applicability.",
+   "source_type": "official-site discovery search",
+   "language": "en",
+   "processing_state": "search results only; linked pages not fetched in this turn",
+   "deception_screen": "Search-result snippets only; no interstitial inspected.",
+   "conflicts": "No Cult Heroes-specific official result; generic support snippets are version-dated and do not resolve this conflict.",
+   "kb_claims": "knowledge/knowledge_base.md (Turn 54 block)",
+   "results": [
+    {
+     "id": 1,
+     "title": "Dream League Soccer FAQs",
+     "url": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs",
+     "pageAge": "2021-04-13",
+     "snippet": "FAQ section result; lists “What is the Season Pass?”"
+    },
+    {
+     "id": 2,
+     "title": "What is the Season Pass?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
+     "pageAge": "2025-06-05",
+     "snippet": "Search snippet says information applies from latest DLS release version 12200 onwards; free and premium tiers; Progress Bank based on DLL XP; the Season Pass is per season, not a subscription."
+    },
+    {
+     "id": 3,
+     "title": "How can I get Gems?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems",
+     "pageAge": "2024-12-06",
+     "snippet": "Snippet lists league objectives, tournaments, Season Pass, Prize Ladder and Multiplayer/Dream League Live as Gem sources."
+    },
+    {
+     "id": 4,
+     "title": "How do I obtain more players?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players",
+     "pageAge": "2024-12-06",
+     "snippet": "Snippet says Transfers show new players after a single-player match; Scouts offer discounted players; Agents immediately add a player; Prize Ladder awards rare players when criteria are met."
+    },
+    {
+     "id": 5,
+     "title": "First Touch Games",
+     "url": "https://www.ftgames.com/games",
+     "snippet": "Company Games page; snippet describes Dream League Soccer generally."
+    },
+    {
+     "id": 6,
+     "title": "What are Clans?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/30839289076626-What-are-Clans",
+     "pageAge": "2025-12-04",
+     "snippet": "Snippet says Clan points are earned through matches, challenges and season passes."
+    },
+    {
+     "id": 7,
+     "title": "How do I backup/restore/transfer my save data?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+     "pageAge": "2024-05-15",
+     "snippet": "Snippet addresses older DLS19 saves, not the Cult Heroes route."
+    },
+    {
+     "id": 8,
+     "title": "About",
+     "url": "https://www.ftgames.com/about",
+     "snippet": "FTG company/about page."
+    },
+    {
+     "id": 9,
+     "title": "How can I change my graphics settings?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
+     "pageAge": "2021-12-09",
+     "snippet": "Generic graphics-settings support result."
+    },
+    {
+     "id": 10,
+     "title": "Why can't I update the app?",
+     "url": "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app",
+     "pageAge": "2021-01-20",
+     "snippet": "Generic app-update support result."
+    }
+   ],
+   "discovered_not_yet_visited": [
+    "https://www.ftgames.com/about",
+    "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
+   ]
   }
  ],
  "frontier": {
   "visited_total": 477,
-  "unvisited_total": 384,
+  "unvisited_total": 390,
   "unvisited_leads": [
    "'26 Feb Winter Reload' mid-season deltas",
    "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -16683,7 +16888,13 @@
    "https://dlskiturl.com/pes-2021-apk-obb/",
    "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html",
    "https://www.bluestacks.com/blog/redeem-codes/dream-league-soccer-redeem-codes-en.html",
-   "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-custom-kits-guide-en.html"
+   "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-custom-kits-guide-en.html",
+   "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417",
+   "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7653879317407059203",
+   "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7664965549348244758",
+   "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7442747227027541281",
+   "https://www.ftgames.com/about",
+   "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
   ]
  }
 }
