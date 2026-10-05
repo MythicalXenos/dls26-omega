@@ -498,3 +498,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 30 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes, and its substance is a negative: the turn's main result is that **a coverage claim we had been repeating was wrong**. It is retracted in the KB and the gate in the same turn it was discovered, with the corrected count (52 DLS articles, ~30 read) stated plainly. The home/GK vs home/away divergence is logged as a gap rather than smoothed.
+
+## TURN 31 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**fifteenth** check). No new event content; nothing October-dated.
+
+## TURN 31 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-164 **DLS FAQ section listing**: **30 titles rendered vs 52 advertised** (discrepancy recorded; do not treat either as settled). Of the 30, **4 unread**; up to 22 unaccounted for. Coverage claim stays retracted.
+- page-165 **"Some game values and content have changed" (360001369698)**: **live-service sentence** - FTG changes values regularly, for creative/technical/business reasons, **sometimes temporarily**. **Reframes conflict (h): ±1 gaps may be real drift, not estimation error; causes now explicitly open.** Historic "buks" comment supports the legacy-terminology reading of conflict (n).
+- page-166 **Fair Gaming (360009168377)**: pointer only; **no divergence** from ftgames.com/core-principles.
+- page-167 **next update (213689249)**: older duplicate; **channel-list divergence** (Twitter/YouTube vs TikTok/Instagram/Facebook) - policy identical.
+- page-168 **languages (213853309)**: 13 UI languages incl. Turkish and Arabic.
+- page-163 monitoring (unchanged).
+- Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 31 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. The 30-vs-52 discrepancy is recorded as a discrepancy rather than averaged into a number; the "buks" comment is labelled historic chatter and offered only as supporting context on terminology, not proof; the Fair Gaming check is logged as a **negative result** (no divergence) rather than padded; and the turn is described as improving method, not adding game facts.

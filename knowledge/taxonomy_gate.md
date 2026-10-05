@@ -320,3 +320,14 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Standing lesson, second time this session:** do not infer completeness from a list that was never reconciled against an index. (First instance: the Turn-20 saturation claim; second: the "complete official spine" claim.)
 
 **Gate status:** no dimension closed; no exhaustion declared.
+
+## Turn 31 update (2026-10-05) — the drift question is now explicitly open, not assumed
+
+**The important change is to how we read evidence, not to a dimension.** FTG's live-service statement (values change regularly, for creative/technical/business reasons, sometimes temporarily) means **every cross-source numeric difference could be real drift rather than estimation error**, and we cannot tell which from outside the game. Consequences carried forward:
+- The ±1 band stays a band; the *cause* moves from "assumed estimation error" to **open**.
+- Any single third-party OVR is now understood as **a reading at a point in time**, not a stable property of the card.
+- The Step-5 ask's value rises again: only an in-game reading can anchor a value, and even then only for that moment.
+
+**Coverage, precisely:** 30 DLS FAQ titles rendered vs 52 advertised; 4 of the 30 unread; up to 22 unaccounted for. Block remains open; no exhaustion claim.
+
+**Gate status:** no dimension closed. Note that this turn improved *method* rather than *coverage*, and that is recorded as such rather than dressed up as new game knowledge.
