@@ -290,3 +290,13 @@ The Turn-20 line "no high-value unread narrative source remains" is **retracted*
 **Risk item for the user (dim 7/practical):** DLS saves are **not** protected by Google Play Games or iCloud; only an in-game Sign in with Google / Apple link secures them, and it is not automatic.
 
 **Gate status:** no dimension closed. Next first-party comparison to run: the **second Season Pass article (4404070913169)** against 17143633310225.
+
+## Turn 28 update (2026-10-05) — first-party texts now disagreeing with each other; scripting denial scoped
+
+**A pattern worth naming:** now that many first-party articles are on record, **FTG's own support text contradicts itself in several places** — Progress Bank basis (q), Season Point source (p), sale reward (o), currency naming (n), coach targeting (m). None of these is a third-party error. The rule is unchanged: **record both, never harmonise, never average.** Where two surfaces outvote one (conflict p) that is noted as a lean, not a resolution.
+
+**Scripting allegation, now properly scoped:** FTG denies bots, difficulty control, AI manipulation and outcome influence **in Dream League Live only**, while confirming that **single-player difficulty scales with division movement**. The allegation stands for career play; it is answered (on FTG's word) for multiplayer.
+
+**Practical frontier items closed:** the exact save-data menu path (Options → Advanced), the one-account rule, the silent-unlink trap, the clan entry-requirement/invite-code rule, and the Prize Ladder reward pool (which includes coaches).
+
+**Gate status:** no dimension closed. Dimensions 1–6 all carry first-party text; the live gaps are rates, thresholds, the Roles system, DLS-26-specific confirmation of unstamped text, and the two device-only timers.

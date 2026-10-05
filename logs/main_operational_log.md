@@ -452,3 +452,18 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 ## TURN 27 — BLUFF CHECK (Mechanism 8)
 - Complete? Yes. Conflict (p) is recorded, not averaged. The Friend Match comments are explicitly dated and excluded from current-state use. The netcode claims are labelled as FTG's own description rather than an independent measurement. The two-timer discovery is recorded as device-only rather than as a resolved date.
+
+## TURN 28 (2026-10-05) — MID-SESSION MONITORING
+- dlskiturl home unchanged (**twelfth** check). No new event content; nothing October-dated.
+
+## TURN 28 — RESEARCH (6 of 6 retrieval calls; git clean at open)
+- page-146 **Season Pass 4404070913169** (second article, older, v12200+): **conflict (q)** - Progress Bank pays on **DLL XP** here vs **Season Points** in 17143633310225; only this one says purchase **removes all tier locks**; tier named SEASON PASS not PREMIUM; Season Points from **completing** matches with the amount **varying by game mode** (leans conflict p against the "winning matches" article, without closing it).
+- page-147 **save data in DLS (4413273241873)**: one account per player; **Options (gear) -> Advanced -> Manage Devices / Link Profile**; Google=Android, Apple=iOS; **code transfer for cross-platform**, code unusable on the generating device; **signing out silently unlinks the profile**.
+- page-148 **Prize Ladder (23108987826962)**: rewards are **coins, gems, coaches, dream point boosts, special players and more**; Dream Points given in matches. **Ladder grants coaches - loop closed with the coaching and selling rules.**
+- page-149 **Clans (30839289076626)**: one clan at a time; one leader; **entry requirements hide clans from search but invite codes bypass that**; **clan points from matches, challenges and season passes**.
+- page-150 **difficulty (360018360418)**: single-player difficulty **scales with division movement**, DLS25 added Medium/Hard base setting; **DLL: no bots, no difficulty control, no AI manipulation, no outcome influence** - an explicit denial **scoped to multiplayer only**.
+- page-145 monitoring (unchanged).
+- Ledger: **451 entries · 379 visited · 393 leads**. Retrieval 6 of 6; tool calls 9 of 10.
+
+## TURN 28 — BLUFF CHECK (Mechanism 8)
+- Complete? Yes. Conflict (q) is recorded as a conflict; conflict (p) is recorded as leaning two-surfaces-to-one rather than being declared resolved; the scripting denial is explicitly scoped to multiplayer and the allegation left open for single player; the version-gated status of the older Season Pass article is carried into every fact taken from it.
