@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** 2026-10-05T20:01:24Z UTC, Turn 58. Branch is authoritative for file state; this file for intent.
+**Updated:** 2026-10-05T20:08:59Z UTC, Turn 59. Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Git repair at open:** expected remote `54e52dd`; actual local `fb9a2c0` with project paths untracked. Restored `54e52dd`; all 206 non-clock target files byte-identical, with only the expected T58 clock-start append differing. ISSUE-0014 occurrence #20 logged. No content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`. Research commit `a9cee08`; handoff commit follows.
-- **Ledger:** 626 entries · 483 unique URLs · 416 unvisited leads. Three retrievals and seven tool calls before wrap-up.
+- **Git repair at open:** local HEAD `fb9a2c0` with project paths untracked; archived 208 non-git files, restored remote tip `6871a35`, and byte-checked all 208 tracked files. Only the expected T59 clock-start append differed. ISSUE-0014 occurrence #21 logged; no content loss or force-push. Repo-local identity `DLS26 Omega <omega@dls26.local>`. Research commit follows.
+- **Ledger:** 628 entries · 483 unique visited URLs · 417 unvisited leads. Two discovery-search retrievals; nine tool calls before wrap-up.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -16,11 +16,12 @@
 - **Cult Heroes route:** still no first-party route confirmation. T55/T56 direct social requests were blocked or search-only; T58 channel/profile pages did not show route instructions. SakibPro/Raven Exe numbers remain secondary and unverified; no spend recommendation.
 - **Position/formation:** user-stated no-position-lock claim remains unverified. The relevant FTG formation help article is assigned to Ultimate Clash Soccer, not DLS.
 - **T58 source IDs:** `page-308` FTG YouTube channel home (401 banner plus partial cards); `page-309` videos tab (401 banner/shell, no list); `page-310` FTG `/dls` alias, duplicate of `/games` page-269. New DLS-related channel video leads remain in the ledger.
-- **Next exact action (Turn 59):**
-  1. Check `git log -1 HEAD`, branch/status and repo-local identity; use the established no-force recovery/byte-check if the restore recurs.
-  2. Continue high-value frontier work, prioritizing first-party material; do not repeat the YouTube channel/videos fetches, the FTG `/dls` alias, or prior social/support routes.
-  3. Keep DLS26 position locking and Cult Heroes route/cost/reward figures unverified absent direct evidence. Do not advise spending from secondary sources.
-  4. Reconcile the machine ledger and push research before handoff. No exhaustion declaration or dimension closure.
+- **T59 source IDs:** `discovery-t59-dls26-formation-position-search` and `discovery-t59-youtube-cult-heroes-specific`. Both are search-result-only records; no pages fetched. No official route or position-lock result surfaced. New leads: 1; see ledger and T59 log.
+- **Next exact action (Turn 60):**
+  1. Verify `git log -1 HEAD`, branch/status and repo-local identity. T59 sandbox reset was recovered without loss; repeat recovery only if observed anew.
+  2. Continue high-value first-party or in-game verification for Cult Heroes acquisition and DLS26 position-lock behavior. Do not repeat T59 searches or T58 YouTube channel/videos and `/dls` requests. Treat search snippets and all secondary route videos only as pathfinders, not proof.
+  3. Keep both questions and all costs/rewards unverified absent direct evidence; no spending advice, confidence promotion, dimension closure, or exhaustion declaration.
+  4. Reconcile `logs/sources_visited.json`, update the handoff, and push to the fixed session branch before turn end. PR #3 remains the single active PR; do not merge.
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
 - DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
@@ -40,4 +41,4 @@
 
 ## Turn-end fields
 
-- Research commit `a9cee08`; handoff commit follows. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
+- Research commit `7bdd6b1`; handoff commit follows. Close marker recorded in `logs/turn_clock.txt`. Push only to `arena/01a1022d-dls26-omega`. Next input expected: `>`.
