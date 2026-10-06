@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T01:50:55Z",
+  "last_reconciled_at": "2026-10-06T01:55:54Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20837,10 +20837,54 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t126_official_surface_checks.md",
       "processing_status": "response recorded; no route or reward claim"
+    },
+    {
+      "source_id": "t127-apple-ca-events-empty",
+      "event_type": "first-party-store-event-endpoint-check",
+      "url": "https://amp-api.apps.apple.com/v1/catalog/ca/apps/1462911602/in-app-events?l=en",
+      "domain": "amp-api.apps.apple.com",
+      "retrieved_at": "Logged at T127 close 2026-10-06T01:55:54Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "Canada catalog in-app-events check as a distinct official-store surface",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "fetch_page status=success; numeric HTTP status not exposed",
+      "source_type": "Apple App Store API response",
+      "language": "en",
+      "payload_summary": "The Canada catalog in-app-events endpoint returned an empty content string. No JSON, event metadata, title, or error was received. Empty content is not evidence that the app has no events or that a Cult Heroes event is unavailable.",
+      "processing_state": "complete for the exact endpoint; payload empty",
+      "deception_screen": "Do not infer current event availability or absence from the empty response.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t127_regional_event_api_and_reddit_query.md",
+      "processing_status": "recorded; no game fact established"
+    },
+    {
+      "source_id": "t127-reddit-search-api-403",
+      "event_type": "parent-source-search-endpoint",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/search.json?q=sci9uc0c02th1%20OR%20%22cult-heroes-v0-sci9uc0c02th1.jpeg%22&restrict_sr=1&sort=new&limit=100",
+      "domain": "reddit.com",
+      "retrieved_at": "Logged at T127 close 2026-10-06T01:55:54Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "direct subreddit search API attempt to resolve parent post for T125 image filename/id",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "HTTP 403 (tool reported failed fetch); no body",
+      "source_type": "Reddit subreddit search endpoint; parent post not returned",
+      "language": "en",
+      "payload_summary": "The search JSON endpoint for preview identifier `sci9uc0c02th1` and the image filename was blocked with HTTP 403 and returned no body/results. This does not establish whether a parent post exists. No alternate Reddit route was attempted in this turn.",
+      "processing_state": "blocked on exact API URL; do not retry same URL",
+      "deception_screen": "No absence inference from blocked response; user-generated screenshot remains unauthenticated.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`."
+      ],
+      "payload_path": "source_archive/t127_regional_event_api_and_reddit_query.md",
+      "processing_status": "logged as a blocked parent-provenance attempt"
     }
   ],
   "frontier": {
-    "visited_total": 564,
+    "visited_total": 566,
     "unvisited_total": 410,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

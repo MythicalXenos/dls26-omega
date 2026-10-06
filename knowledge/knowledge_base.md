@@ -1521,3 +1521,7 @@ A single Reddit-labeled image-search result, preserved at `source_archive/t125_i
 ## T126 official-surface checks
 
 T126 produced no new gameplay claim: the first-party YouTube channel videos-path response contained an Error 401 body and no video list; a UK App Store in-app-events API response was empty; discovery searches did not resolve the T125 image’s parent post. No absence inference. Preserve the T125 screenshot only as limited, unverified UI wording. Cult Heroes route/rewards and DLS26 position-lock remain open. Full provenance: `source_archive/t126_official_surface_checks.md`.
+
+## T127 regional endpoint and parent trace
+
+T127 added no gameplay claim. The Canada App Store in-app-events API returned empty content and a direct Reddit search API request for the T125 screenshot identifier returned HTTP 403/no body; neither establishes absence. The screenshot parent remains unresolved. Cult Heroes route/rewards and DLS26 position-lock remain open. Full provenance: `source_archive/t127_regional_event_api_and_reddit_query.md`.
