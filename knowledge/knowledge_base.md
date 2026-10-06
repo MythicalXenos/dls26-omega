@@ -1545,3 +1545,7 @@ T131’s direct Apple event resource returned empty content. The FTG Help Center
 ## T132 lineup-position image search
 
 A distinct image search for DLS26 lineup/position UI returned only promotional/editorial graphics from SportsDunia/TapTap, not authenticated in-game controls. No position-lock or Cult Heroes route/reward evidence; no absence inference. Provenance and assets: `source_archive/t132_image_search_lineup_query.md`.
+
+## T133 FTG lineup and Agent-rewards searches
+
+FTG `lineup` Help Center query completed without an explicit position-lock rule. FTG `Agent rewards` query is partial through chunks 0–2/10; visible results are generic and not Cult Heroes-specific. Resume at chunk 3; no absence inference. Provenance: `source_archive/t133_ftg_lineup_and_agent_rewards_queries.md`.

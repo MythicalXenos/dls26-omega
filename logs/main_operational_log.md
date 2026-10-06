@@ -1260,3 +1260,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 347 files, SHA-256 `2e3a71cb356090d34963f3bdfaa4f37ede4b60d2afced62c5ce02384f89ea6e1`; restored/verified pushed tip `a63f2cd`, upstream and repo-local identity; ISSUE-0014 #94.
 - One image search, three local image inspections. Results were SportsDunia/TapTap promotional/editorial images, not in-game lineup UI. No lock/route facts or absence inference.
 - Ledger **774/577/407**. Both dimensions remain open. Close `2026-10-06T02:19:07Z`.
+
+
+## TURN 133 (2026-10-06) — FTG Help Center lineup/reward queries
+- Recovery: reset `fb9a2c0`; archived 352 files, SHA-256 `16f305ca5aaf34d2c9ea1a294397c3d0b2b9fed1808dbc65ad9fb40b05c72226`; restored/verified pushed tip `3938397`, upstream and repo-local identity; ISSUE-0014 #95.
+- Completed FTG `lineup` query (3/3 chunks), no lock rule; FTG `Agent rewards` query partial (chunks0–2/10), generic existing material only so far; resume chunk3. No Cult Heroes fact or absence inference.
+- Ledger **776/579/408**. Close `2026-10-06T02:23:31Z`.
