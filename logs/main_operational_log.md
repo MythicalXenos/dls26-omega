@@ -1155,3 +1155,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (310 files; SHA-256 `600a4b8b0a3f0f75382891967e590a739eb3e0c6e88a5140847f106da8b94d28`), then restored `1f1c1ce`, upstream, and repo-local identity. No loss; ISSUE-0014 #77 logged.
 - Three retrievals: Play screenshot URLs 4–6 via fetch_page each returned HTTP 500/no payload. No visual evidence; URLs 7–24 remain queued.
 - Ledger **729 / 547 / 415**. Close marker `2026-10-06T00:43:12Z`.
+
+
+## TURN 116 (2026-10-06) — FTG Prize Ladder help query
+- Recovery: reset checkout archived (312 files; SHA-256 `854d3e1de778c5a3a2da226cd5f383e525efa29a2b1d916b6ad9f7460b3af1ef`), then restored `d91331c`, upstream, and repo-local identity. No loss; ISSUE-0014 #78 logged.
+- Two retrievals: FTG Help Center `Prize Ladder` query completed (10 results/1 page/2 chunks). Generic agent/prize-ladder content is not Cult-specific; no direct article repeated.
+- Ledger **730 / 548 / 414**. Close marker `2026-10-06T00:47:22Z`.

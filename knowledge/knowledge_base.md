@@ -1494,3 +1494,8 @@ BD-parameterized Play event page repeats generic limited-time copy, without rout
 ## TURN 115 source-screen note (no visual evidence)
 
 Three distinct Play screenshot URLs returned HTTP 500/no payload via `fetch_page`; no image contents were assessed. Eighteen exact links remain queued; do not infer absence from access failures. Provenance: `source_archive/t115_play_screenshot_fetch_blocked.md`.
+
+
+## TURN 116 source-screen note (generic help only)
+
+FTG Help Center `Prize Ladder` query returned generic progression/reward and player-acquisition help. The direct articles were previously visited; this search does not connect generic Agents or Prize Ladder to Cult Heroes. Do not infer route/rewards or a position-lock rule. Provenance: `source_archive/t116_ftg_prize_ladder_search.md`.

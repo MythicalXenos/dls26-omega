@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T00:43:12Z",
+  "last_reconciled_at": "2026-10-06T00:47:22Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20037,11 +20037,46 @@
       "conflicts": [],
       "affected_kb_claims": [],
       "discovered_not_yet_visited": []
+    },
+    {
+      "source_id": "t116-ftg-help-center-prize-ladder-search",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Prize%20Ladder",
+      "domain": "support.ftgames.com",
+      "fetched_at": "2026-10-06T00:47:22Z",
+      "retrieved_at": "2026-10-06T00:47:22Z",
+      "retrieval_role": "discovery-search",
+      "tool": "functions.fetch_page chunks 0–1 of 2",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "official FTG Help Center search API; 10 mixed results",
+      "language": "en",
+      "payload_path": "source_archive/t116_ftg_prize_ladder_search.md",
+      "payload_summary": "Exact query `Prize Ladder`: 10 results, one page, two rendered chunks; chunks 0 and 1 complete. First-party results include “What is the Prize Ladder?” (progression-based items including special players), “What are Dream Point Boosts?”, generic “How do I obtain more players?” (Transfers, Scouts, Agents, Prize Ladder), and generic coin/reward and leaderboard articles. The direct Prize Ladder article was already visited twice (page-058/page-148); the obtain-players article was already visited (page-063), so neither was re-fetched. No result ties the generic prize ladder or agents to Cult Heroes; no Cult-specific route, cost, or reward. No position-lock material.",
+      "search_query": "Prize Ladder",
+      "search_results": [
+        {
+          "title": "What is the Prize Ladder?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/23108987826962-What-is-the-Prize-Ladder"
+        },
+        {
+          "title": "What are Dream Point Boosts?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts"
+        },
+        {
+          "title": "How do I obtain more players?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players"
+        }
+      ],
+      "processing_state": "complete search response; 10 results, 1 page, 2 chunks; generic results only",
+      "source_screen_outcome": "Official generic help text is not Cult Heroes-specific. Do not infer that Cult Hero Agents use generic Agent flow or that Prize Ladder is the Cult route. No position-lock conclusion.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 547,
-    "unvisited_total": 415,
+    "visited_total": 548,
+    "unvisited_total": 414,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -20073,7 +20108,6 @@
       "FTG socials archive ladder announcements Dec-2025..Sep-2026 (G-0062 resolution)",
       "FTG socials ladder-announcement sweep (G-0062 dates) + GIIODROID FB archive",
       "FTG socials sweep + GIIODROID FB archive (G-0062/0063)",
-      "FTG support prize-ladder article (search)",
       "FTG's own Cult Heroes event artwork + FTG channels, to confirm or refute the 12-name Cult Heroes list from a first-party origin",
       "FTG's own Cult Heroes event artwork + social channels — first-party confirmation of the 12-name roster (G-0024)",
       "FTG's own channels for the English League Classics announcement — still no first-party mechanics statement",
