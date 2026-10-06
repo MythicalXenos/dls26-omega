@@ -1284,3 +1284,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 357 files, SHA-256 `1722e2a0a96d60c699f143b948365c7857657434a5fa148b5a42902df0ef38b6`; fetched/restored and byte-verified pushed tip `85c38d4`, upstream and repo-local identity; ISSUE-0014 #98.
 - Six calls requested FTG `change formation` chunks1–6. Visible successful results: 1,3,4,5,6; chunk2 has no visible response/status object; page2 unread. One DLS Running-behaviour excerpt concerns in-match movement, not squad position locking.
 - Ledger **780/583/406**. Both research dimensions remain open. Close `2026-10-06T02:42:47Z`.
+
+
+## TURN 137 (2026-10-06) — FTG formation query page 2
+- Recovery: reset `fb9a2c0`; archived 359 files, SHA-256 `b041ab7c77fe0da05bfe641c2a4ba3159c4a4d9e87412ea73b737243690a6314`; fetched/restored and byte-verified pushed tip `7bb069a`, upstream and repo-local identity; ISSUE-0014 #99.
+- Two retrievals: page1 chunk2 retry succeeded, completing page1 chunks0–6; page2 chunk0/15 returned Score! Match/Ultimate Clash Soccer results. Page2 chunks1–14 low priority and unread. No cross-title transfer or absence inference.
+- Ledger **781/584/406**. Both dimensions remain open. Close `2026-10-06T02:47:15Z`.

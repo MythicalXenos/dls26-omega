@@ -1561,3 +1561,7 @@ FTG `Agent rewards` query is complete across 10 chunks; results are general/mixe
 ## T136 FTG formation and movement context
 
 An FTG DLS player-stats/behaviour excerpt retrieved during the partial `change formation` search says players with the `Running` behaviour make attacking runs/find space, while players without it stay more closely to their formation position. This is an in-match movement statement, not evidence about assigning or locking squad positions; the article is not version-stamped DLS26. The query remains partial (page1 chunk2 response/status unknown; page2 unread). No absence inference. Provenance: `source_archive/t136_ftg_change_formation_query_continuation.md`.
+
+## T137 FTG formation query page-2 cross-title results
+
+FTG `change formation` page 1 (7/7 chunks) is complete. The DLS Running-behaviour excerpt concerns in-match movement relative to formation position, not squad assignment or locking; no DLS26 version stamp. Page 2 chunk0/15 surfaced Score! Match and Ultimate Clash Soccer content, including formation/ball-position behavior explicitly tied to UCSS. Do not transfer cross-title mechanics to DLS26. Page-2 chunks1–14 remain unread and low priority; no query-wide absence inference. Provenance: `source_archive/t137_ftg_change_formation_page2.md`.
