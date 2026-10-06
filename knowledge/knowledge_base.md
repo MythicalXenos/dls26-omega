@@ -1499,3 +1499,8 @@ Three distinct Play screenshot URLs returned HTTP 500/no payload via `fetch_page
 ## TURN 116 source-screen note (generic help only)
 
 FTG Help Center `Prize Ladder` query returned generic progression/reward and player-acquisition help. The direct articles were previously visited; this search does not connect generic Agents or Prize Ladder to Cult Heroes. Do not infer route/rewards or a position-lock rule. Provenance: `source_archive/t116_ftg_prize_ladder_search.md`.
+
+
+## TURN 117 source-screen note (store directory only)
+
+The Google Play developer directory lists Dream League Soccer 2026 under First Touch Games Ltd.; this confirms listing association only, not Cult Heroes mechanics or position-lock behavior. Screenshot links were shown but not fetched or assessed. Provenance: `source_archive/t117_google_play_developer_page.md`.

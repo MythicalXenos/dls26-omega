@@ -1161,3 +1161,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (312 files; SHA-256 `854d3e1de778c5a3a2da226cd5f383e525efa29a2b1d916b6ad9f7460b3af1ef`), then restored `d91331c`, upstream, and repo-local identity. No loss; ISSUE-0014 #78 logged.
 - Two retrievals: FTG Help Center `Prize Ladder` query completed (10 results/1 page/2 chunks). Generic agent/prize-ladder content is not Cult-specific; no direct article repeated.
 - Ledger **730 / 548 / 414**. Close marker `2026-10-06T00:47:22Z`.
+
+
+## TURN 117 (2026-10-06) — official Play developer directory
+- Recovery: reset checkout archived (314 files; SHA-256 `954f54d9576d90324cc1cacad3473d812254ccdcc4b62753ee98f1f6715b44a1`), then restored `d27dc41`, upstream, and repo-local identity. No loss; ISSUE-0014 #79 logged.
+- Two retrievals: official Google Play developer directory chunks 0–1/2. DLS 2026 is listed under FTG; no game-mechanics evidence. Screenshot assets not fetched.
+- Ledger **731 / 549 / 413**. Close marker `2026-10-06T00:51:31Z`.
