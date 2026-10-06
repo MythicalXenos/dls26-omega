@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T02:23:31Z",
+  "last_reconciled_at": "2026-10-06T02:31:52Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -21230,23 +21230,23 @@
       "event_type": "first-party-help-center-query-partial",
       "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Agent%20rewards",
       "domain": "support.ftgames.com",
-      "retrieved_at": "Logged at T133 close 2026-10-06T02:23:31Z; retrieval timestamps not exposed.",
+      "retrieved_at": "T133 chunks 0–2; T134 chunks 3–6 and 8; T134 close 2026-10-06T02:31:52Z. Per-fetch timestamps not exposed.",
       "retrieval_role": "focused FTG Help Center search for generic Agent/reward documentation that might clarify the limited Cult Heroes UI capture",
-      "tool": "functions.fetch_page chunks 0–2",
-      "retrieval_tool": "functions.fetch_page chunkIndex 0, 1, 2",
-      "http_status": "all three chunks returned status=success; numeric HTTP status not exposed",
+      "tool": "functions.fetch_page chunks 0–6 and 8; chunkIndex 7 returned HTTP 502; chunkIndex 9 not requested",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0,1,2,3,4,5,6,7(attempt failed HTTP 502),8; 9 pending",
+      "http_status": "Chunks 0–6 and 8 returned status=success (numeric HTTP status not exposed); chunk 7 returned HTTP 502/no payload; chunk 9 not requested.",
       "source_type": "FTG Help Center API search response, mixed general DLS and other-product results",
       "language": "en",
-      "payload_summary": "Exact query `Agent rewards` returned count=18, page_count=1, totalChunks=10. Chunks 0–2 only have been retrieved; they show the already-read generic “How do I obtain more players?” FAQ, Season Pass, coins, Prize Ladder, clan rewards, and other generic/older product articles. No Cult Heroes-specific route, guarantee, or cost is visible in these chunks. The query is partial; do not infer absence.",
-      "processing_state": "partial: chunks 0–2/10 read; chunks 3–9 unread",
+      "payload_summary": "Exact query `Agent rewards` returned count=18, page_count=1, totalChunks=10. Chunks 0–6 and 8/10 retrieved successfully; chunk 7 retrieval failed HTTP 502 and chunk 9 was not requested. Visible results continue generic/older DLS Help Center material (including player stats, friend bonuses, ads and reward/help FAQs); no Cult Heroes-specific route, guarantee, or cost is present in the successfully retrieved chunks. The exact query is still partial; do not infer absence.",
+      "processing_state": "partial: chunks 0–6 and 8/10 retrieved; chunk 7 HTTP 502; chunk 9 unread",
       "deception_screen": "Generic Agent and rewards content is not Cult Heroes-specific and must not be promoted into an event claim.",
       "conflicts": [],
       "kb_claims": [],
       "discovered_not_yet_visited": [
-        "FTG Help Center exact query `Agent rewards`: count=18, page 1/1, 10 rendered chunks; chunks 0–2 read in T133 and show generic Agent/Season Pass/Prize Ladder/clan material only. Resume at chunkIndex=3 (chunks 3–9 unread). Do not infer Cult Heroes-specific route or rewards from this partial fuzzy search."
+        "FTG Help Center exact query `Agent rewards`: count=18, page 1/1, 10 rendered chunks. Chunks 0–6 and 8 succeeded across T133–T134; chunk 7 retrieval returned HTTP 502/no payload, chunk 9 remains unread. In T135 retry exact chunkIndex=7 and fetch chunkIndex=9; do not repeat successful chunks 0–6 or 8. Successful excerpts are generic DLS player-stat, friend-bonus, ad/help and other generic reward material, not Cult Heroes-specific. No absence inference."
       ],
       "payload_path": "source_archive/t133_ftg_lineup_and_agent_rewards_queries.md",
-      "processing_status": "partial; continuation retained in frontier"
+      "processing_status": "partial; retry chunk 7 and fetch unread chunk 9 in T135"
     }
   ],
   "frontier": {
@@ -21660,7 +21660,7 @@
       "https://play-lh.googleusercontent.com/OR7NRBrBLI3FkmlQOrKcZ3qZWjvl8lz26WSPnYNnPHAz3zvunpZWxkQYmoUBl3z453aFibmQzBZfaocm6OxI=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
-      "FTG Help Center exact query `Agent rewards`: count=18, page 1/1, 10 rendered chunks; chunks 0–2 read in T133 and show generic Agent/Season Pass/Prize Ladder/clan material only. Resume at chunkIndex=3 (chunks 3–9 unread). Do not infer Cult Heroes-specific route or rewards from this partial fuzzy search."
+      "FTG Help Center exact query `Agent rewards`: count=18, page 1/1, 10 rendered chunks. Chunks 0–6 and 8 succeeded across T133–T134; chunk 7 retrieval returned HTTP 502/no payload, chunk 9 remains unread. In T135 retry exact chunkIndex=7 and fetch chunkIndex=9; do not repeat successful chunks 0–6 or 8. Successful excerpts are generic DLS player-stat, friend-bonus, ad/help and other generic reward material, not Cult Heroes-specific. No absence inference."
     ]
   }
 }
