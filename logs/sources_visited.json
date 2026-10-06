@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T02:59:34Z",
+  "last_reconciled_at": "2026-10-06T03:06:22Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -17782,9 +17782,7 @@
         "DLS26 position-lock behavior remains unverified"
       ],
       "processing_state": "complete",
-      "discovered_not_yet_visited": [
-        "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw"
-      ],
+      "discovered_not_yet_visited": [],
       "source_id": "page-323-google-play-dls-uk-listing-t66",
       "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en-GB&gl=GB",
       "domain": "play.google.com",
@@ -17874,7 +17872,7 @@
       "http_status": 500,
       "source_type": "Google Play event artwork image linked from FTG publisher listing",
       "payload_path": "source_archive/t67_play_event_art_blocked.md",
-      "deception_screen": "Fetch failed before image bytes were returned; no visual/content judgment possible.",
+      "deception_screen": "Fetch failed before image bytes were returned; no visual/content judgment possible. T140 accidentally repeated the exact URL after it surfaced in the Play listing; fetch_page returned HTTP 500. No image was inspected; do not retry.",
       "conflicts": "None assessable; no body or image.",
       "affected_kb_claims": [
         "Cult Heroes route/rewards remain unverified",
@@ -17885,7 +17883,16 @@
       "source_id": "page-327-google-play-event-art-landscape-t67",
       "url": "https://play-lh.googleusercontent.com/AjvOMta70YWNd3eTjJO3i0hNzkEprOZzxtc45nWUgRLgH07HqTLkO-RRBL07AcqLlVwFxgYDyTb3T_Hj-UnXwSc=w648-h364-rw",
       "domain": "play-lh.googleusercontent.com",
-      "payload_summary": "Direct fetch of the landscape image variant linked from the UK DLS26 Google Play listing returned HTTP 500; no bytes/image content were returned. No visual or OCR claims."
+      "payload_summary": "Direct fetch of the landscape image variant linked from the UK DLS26 Google Play listing returned HTTP 500; no bytes/image content were returned. No visual or OCR claims.",
+      "attempt_history": [
+        {
+          "turn": "T140",
+          "retrieved_at": "T140; exact fetch timestamp not exposed",
+          "tool": "functions.fetch_page",
+          "result": "error: Failed to fetch page (HTTP 500)",
+          "context": "URL surfaced from the completed Google Play BD listing chunk 1; exact URL was already present in the ledger, so this was an accidental duplicate attempt before checking its prior record. No image bytes/content obtained. Do not retry."
+        }
+      ]
     },
     {
       "event_type": "page_fetch",
@@ -21530,23 +21537,23 @@
       "event_type": "first-party-storefront-page-partial",
       "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en&gl=bd",
       "domain": "play.google.com",
-      "retrieved_at": "T139 close 2026-10-06T02:59:34Z; fetch-page chunk timestamps not exposed.",
+      "retrieved_at": "T139 chunk 0 and T140 chunk 1; per-fetch timestamps not exposed",
       "retrieval_role": "read distinct Bangladesh Google Play DLS listing for current first-party feature text and in-game/event clues",
-      "tool": "functions.fetch_page chunk 0",
-      "retrieval_tool": "functions.fetch_page chunkIndex 0 only",
+      "tool": "functions.fetch_page chunks 0 and 1",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0, then 1",
       "http_status": "status=success; numeric HTTP status not exposed",
       "source_type": "Google Play DLS 2026 app listing, Bangladesh locale parameters",
       "language": "en",
-      "payload_summary": "The Bangladesh-parameterized listing identifies Dream League Soccer 2026 / First Touch Games Ltd.; chunk 0/2 reports a Sep 14, 2026 update and generic app description/features. Copy refers generically to recruiting Agents/Scouts for the transfer market and participating in regular seasons/events; it contains no Cult Heroes-specific route, cost, or reward in the returned chunk. Screenshot URLs repeat the already inventoried #1–24 assets; no new image was fetched. Chunk 1 is unread, so the page remains partial and no absence inference is made.",
-      "processing_state": "partial: chunk 0/2 read; chunk 1 unread",
-      "deception_screen": "Generic Agents and events wording is not Cult Heroes-specific and is not proof of present in-game availability. The listing page is storefront copy, not an in-game capture.",
-      "conflicts": [],
-      "kb_claims": [],
-      "discovered_not_yet_visited": [
-        "Google Play BD DLS listing exact URL `https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en&gl=bd`: `functions.fetch_page` chunk 0/2 succeeded; chunk 1 unread. Visible copy is generic DLS feature/store text (Agents/Scouts, events) and does not establish a Cult Heroes route or current availability. Resume at chunkIndex=1 if useful; do not repeat chunk 0 or treat screenshots re-listed on the page as new assets."
+      "payload_summary": "The Bangladesh-parameterized listing identifies Dream League Soccer 2026 / First Touch Games Ltd.; chunk 0/2 reports a Sep 14, 2026 update and generic app description/features. Copy refers generically to recruiting Agents/Scouts for the transfer market and participating in regular seasons/events; it contains no Cult Heroes-specific route, cost, or reward in the returned chunk. Screenshot URLs repeat the already inventoried #1–24 assets; no new image was fetched. Chunk 1 is unread, so the page remains partial and no absence inference is made. T140 resumed chunk 1/2. It displays an event tile “Ends on 10/14” and “The names the fans remember, from their peak years,” linking to the already visited Google Play eventdetails URL `https://play.google.com/store/apps/eventdetails/4830045897422713648` (ledger source `page-009-googleplay-cult-heroes-event`). The year/region context and in-game availability remain unverified. This is storefront promotion, not a route/cost/reward capture. The same listing retains the dated “Cult Heroes collection, coming soon!” release-note text; do not reconcile the different store-copy contexts as current gameplay status.",
+      "processing_state": "complete: chunks 0–1/2 read in T139–T140",
+      "deception_screen": "Generic Agents and events wording is not Cult Heroes-specific and is not proof of present in-game availability. The listing page is storefront copy, not an in-game capture. Chunk 1’s date-like tile and same-listing “coming soon” release note are storefront content; neither proves current in-game access, acquisition route, cost, or reward. The linked eventdetails page was already visited and is not an independent new source.",
+      "conflicts": [
+        "T140 same listing renders an event tile “Ends on 10/14” while also showing “Cult Heroes collection, coming soon!” release-note text; year and live in-game context are not established."
       ],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t139_first_party_store_and_help_probes.md",
-      "processing_status": "partial; continue at chunkIndex 1 if relevant"
+      "processing_status": "complete for this page render; no in-game capture or route/reward established"
     },
     {
       "source_id": "discovery-t139-ftg-cultheroes-drafts-agents-zero",
@@ -21593,7 +21600,7 @@
   ],
   "frontier": {
     "visited_total": 595,
-    "unvisited_total": 402,
+    "unvisited_total": 401,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -21635,7 +21642,6 @@
       "Monthly Trophy / Global Challenge Cup rewards",
       "PROMPT.md + SCHEMA.md full compliance read (repo-authority files)",
       "Play Store 'See all reviews' (all regions, by helpfulness and newest)",
-      "Google Play BD DLS listing exact URL `https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en&gl=bd`: `functions.fetch_page` chunk 0/2 succeeded; chunk 1 unread. Visible copy is generic DLS feature/store text (Agents/Scouts, events) and does not establish a Cult Heroes route or current availability. Resume at chunkIndex=1 if useful; do not repeat chunk 0 or treat screenshots re-listed on the page as new assets.",
       "Player Recovery feature semantics",
       "Recruitment Centre discount percentages",
       "Season Pass user-screen verification (G-0084): 400 SP activation / 10-day season / free+premium dual track / bank-claim-gate - dual-sourced on web (evergreen provenance); confirm on user screens",

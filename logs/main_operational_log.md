@@ -1302,3 +1302,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 363 files, SHA-256 `661713573ed41f5eac2258a4eabce2d5ae5ce0b70178b291519b680bb811cd81`; fetched/restored and byte-verified pushed tip `678a73a`, upstream and repo-local identity; ISSUE-0014 #101.
 - Apple Lookup current record: v13.430, note “Cult Heroes collection, coming soon” dated 2026-09-16; same U.S. storefront family as T72, not independent. Apple BD events empty and BD lookup count0. Play BD listing partial/generic. FTG phrase query count0.
 - Ledger **792/595/402**. No new route/reward/position-lock fact. Both dimensions remain open. Close `2026-10-06T02:59:34Z`.
+
+
+## TURN 140 (2026-10-06) — Play BD listing continuation
+- Recovery: reset `fb9a2c0`, archived/verified 365 working files (SHA-256 `7850bd5ee4276051cd23c3aead143fd95f021d87d500ebadc2713ebb69683fd1`), fetched/restored `cd9610e`, restored upstream/identity; safety stash `e849699`; ISSUE-0014 #102.
+- Completed Play BD listing chunks 0–1. A store event tile says “Ends on 10/14” with no year and links to previously visited eventdetails; same page’s release note says “coming soon.” Storefront-only; no route/reward/current game availability inferred.
+- Banner URL attempt returned HTTP 500; exact URL already ledgered and duplicate attempt disclosed; no image inspection. Ledger **792/595/401**. Both research dimensions remain open. Close `2026-10-06T03:06:22Z`.

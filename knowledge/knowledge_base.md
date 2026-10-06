@@ -1573,3 +1573,7 @@ FTG `Cult Heroes Agents event` exact query returned count=0; this is not global 
 ## T139 first-party storefront and Help Center checks
 
 Apple iTunes Lookup current record reports DLS version 13.430 with a 2026-09-16 release note saying the Cult Heroes collection is “coming soon”. It is the same Apple U.S. storefront family as T72, not independent corroboration, and does not establish current in-game availability or route. Apple BD events was empty and BD lookup returned zero results for those exact endpoints only. Google Play BD listing chunk0/2 has generic Agents/events copy, not a Cult Heroes-specific route. FTG `Cult Heroes Drafts Agents` exact query returned count=0; no global absence inference. Provenance: `source_archive/t139_first_party_store_and_help_probes.md`.
+
+## T140 Google Play BD listing continuation
+
+The completed Bangladesh Google Play listing (chunks 0–1/2) renders an “Ends on 10/14” event tile linking to the previously visited eventdetails page 4830045897422713648; the year is not shown. The same listing carries “Cult Heroes collection, coming soon!” release-note copy. This is storefront text, not an in-game acquisition route, reward, cost, or current-availability confirmation. The banner URL returned HTTP 500 with no image; it was already ledgered and the accidental duplicate attempt is documented. Route/rewards and position-lock remain open. Provenance: `source_archive/t140_googleplay_bd_listing_continuation.md`.

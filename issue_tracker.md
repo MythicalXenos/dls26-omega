@@ -543,3 +543,6 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 139 recovery occurrence
 
 - ISSUE-0014 occurrence #101, 2026-10-06: reset checkout at `fb9a2c0`; archived 363 files at `/tmp/dls26-t139-recovery-20261006085546.tar.gz`, SHA-256 `661713573ed41f5eac2258a4eabce2d5ae5ce0b70178b291519b680bb811cd81`; fetched/restored pushed tip `678a73a`, configured upstream and repo-local identity, and byte-verified all archived files. Safety stash remains in `.git`. No content loss.
+
+
+- ISSUE-0014 occurrence #102, 2026-10-06: reset checkout at `fb9a2c0` with 365 untracked working files; archived and byte-verified them at `/tmp/dls26-t140-recovery-20261006090205.tar.gz`, SHA-256 `7850bd5ee4276051cd23c3aead143fd95f021d87d500ebadc2713ebb69683fd1`; fetched/restored pushed tip `cd9610e`, configured upstream and repo-local identity, and retained safety stash `e849699`. No content loss.
