@@ -73,6 +73,132 @@
   3. Keep Cult Heroes availability/route/cost/rewards unresolved and position-lock explicitly `user-stated` and unverified pending Step-3 device setup.
   4. Maintain ≤6 retrievals, ≤10 tools, ≤4 wrap-up calls; no spending advice, dimension closure, or exhaustion declaration. Push before turn end.
 
+- Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
+- Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
+- DLS save-route contradiction persists; no version stamp, do not advise toggling Google Play Games/iCloud.
+- **Do NOT enter STATE_2.** Step-5 package prepared but undelivered.
+
+## Bootstrap progress and standing rules
+
+- Corpus: 15 imported topics; all 52 DLS FAQ articles read; General FAQs 21/21 titles enumerated and 20/21 bodies read; Parents’ Guide 8/8 titles/bodies read; facilities/squad mechanism; first-party netcode; account recovery; profile deletion/reset; My Profile menu; version chain 13.050→13.430; remaining findings in `knowledge/knowledge_base.md`.
+- Rules: DB OVR labels are estimates and point-in-time readings; DK+dlsinside are ONE family; ±1 drift cause open; open the card before trusting an index row; match by ID sets, never list length; read pages, not slugs; reconcile frontier before judging yield; do not infer completeness from an unreconciled list; try `?page=N` before calling a list truncated; unstamped support text is not DLS-26-confirmed; HTTP 200 alone does not prove an article was read; figures come only from reconciliation output; no backslash escapes in bash; keep every file write ≤12,000 characters.
+- PR #3 remains the single active PR; never merge. PROMPT CAPTURE remains DIGEST-ONLY; no placeholder `DLS26_OMEGA_PROMPT.md`.
+
+## Pending user input and review items
+
+- Step-5 package prepared but undelivered: both timers + DP/tier; balances; spending stance; squad/division and formations grid; save-link check; prompt-capture upgrade; PRs #1/#2 and proposed amendment #2; optional screenshots. Potential additions: accommodation level + squad size; connection type.
+- Disputed items remain open: Cult Heroes route; Aubameyang year; Season Pass 1 vs 6; Vozinha 83/84; Pedri 87/86/85; OVR drift cause; Classic 32/34; Kane 86/85; coach targeting; Season Points source; Progress Bank basis; re-audit contradiction count; Google Play Games/iCloud save route.
+- Issue tracker: ISSUE-0001, 0003–0008, 0010, 0011, 0013, 0014 open; 0009 and 0012 resolved.
+
+## Turn-end fields
+
+- T64 commits `5d83d26`/`f417a8e`, T65 `516897b`/`4373f03`, T66 `60a5252`/`2a85391`, T67 `53f8855`/`286eabb`, T68 `59b5d9d`/`70286da`, T69 `7c778d5`/`10c4f54`, T70 `1995080`/`7dddb25`, T71 `b540348`/`760ab99`, T72 `cf788bb`/`7d739b8`, T73 `3a37538`/`4367516`, T74 `823b314`/`8be1c4e`, T75 `e6d3da9`/`0146b79`, T76 `27894b6`/`2b53858`, and T77 `5859428`/`a5e5653` are pushed. T78 `9445f2d`/`a51eed8`, T79 `0b1e419`/`786384d`, T80 `375cb96`, T81 `7b9e5c3`, T82 `3849c5d`, T83 `ac8641f`, T84 `111e9ea`/`2826f8a`, T85 `e3fb629`/`87421b0`, and T86 `d79f4d7`/`6102fa1` are pushed. T87 source commit `1367a31` and handoff are pushed to `arena/01a1022d-dls26-omega`. Close marker is recorded in `logs/turn_clock.txt`. Next input expected: `>`.
+
+
+**T88 audit correction (2026-10-05T22:44:37Z):** Retrieval/discovery ended after tool call 9 (five retrievals total). Calls 10–17 were eight wrap-up calls, four above the four-call wrap-up ceiling; no retrieval occurred during wrap-up. Earlier T88 budget counts in the operational log, source archive, and handoff are superseded by this correction. The exact URL repeated in T88 was `Cult Hero Agents`; its T88 response is logged as a repeat, not independent evidence. The first sync attempt aborted before writing on the duplicate-URL check; the second wrote the source records but stopped before handoff-count/clock closeout. T88 closeout was committed and pushed as `61637b1`.
+
+
+## Turn 89 closeout
+
+- Five retrieval calls; the DroidCheat video fetch was an exact repeat of T61 page-312. No new unique visited URL; stale duplicate lead retired. Cult Heroes route/rewards and DLS26 position-lock remain open. Source/recovery/handoff changes are committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T22:50:33Z. Next input expected: `>`.
+
+
+## Turn 90 closeout
+
+- Six retrieval calls; FTG `position changes` partial through chunk4/7; next action is chunk5. Instagram search was zero-results only. Ledger: 695 entries / 513 visited / 406 unvisited. Both questions unresolved. T90 source/recovery/handoff committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T22:55:19Z. Next input expected: `>`.
+
+
+## Turn 91 closeout
+
+- Five retrieval calls; FTG `position changes` page1 complete and page2 partial at chunk0/15. Direct formation/roles pages were exact-URL repeats. Ledger: 696 entries / 514 visited / 405 unvisited. Both core questions remain unresolved. T91 source/recovery/handoff committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T23:00:04Z. Next input expected: `>`.
+
+
+## Turn 92 closeout
+
+- Six retrieval calls; FTG `position changes` page2 partial through chunk6/15; next action chunk7. Ledger: 696 entries / 514 visited / 405 unvisited. Both core questions remain unresolved. T92 source/recovery/handoff committed and pushed to `arena/01a1022d-dls26-omega`; exact tip is in Git. Close time: 2026-10-05T23:03:54Z. Next input expected: `>`.
+
+## Turn 93 closeout
+
+- Six retrieval calls: FTG `position changes` page 2 chunks 7–12 (all success). Resume at chunk 13; no query-wide conclusion. Ledger **696 entries / 514 visited URLs / 405 unvisited leads**.
+- Cult Heroes route/rewards and DLS26 position-lock remain unresolved. No dimension closed; no exhaustion declaration. Close time: 2026-10-05T23:09:31Z. Next input expected: `>`.
+
+## Turn 94 closeout
+
+- Two retrieval calls completed FTG `position changes` page 2 at chunks 13–14; page 2 is complete at 15/15, joining page 1 at 7/7. No DLS26-specific position-lock rule surfaced in this mixed search; no global absence inference.
+- Ledger **696 entries / 514 visited URLs / 404 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:14:17Z. Next input expected: `>`.
+
+## Turn 95 closeout
+
+- Six retrieval calls: new FTG `player position` API query, chunks 0–5/10 of page 1. Response reports 100 results/4 pages; resume chunk 6. Mixed-product results do not verify DLS26 position-lock behavior.
+- Ledger **697 entries / 515 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:18:00Z. Next input expected: `>`.
+
+## Turn 96 closeout
+
+- Six retrieval calls: completed FTG `player position` API page 1 chunks 6–9 and continued page 2 chunks 0–1; all succeeded. Page 1 is complete; resume page 2 chunk 2. No DLS26 position-lock conclusion.
+- Ledger **698 entries / 516 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:21:58Z. Next input expected: `>`.
+
+## Turn 97 closeout
+
+- Six retrieval calls: FTG `player position` page 2 chunks 2–6 completed; page 3 chunk 0 read. Page 2 is complete; resume page 3 chunk 1. No DLS26 position-lock conclusion.
+- Ledger **699 entries / 517 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:25:37Z. Next input expected: `>`.
+
+## Turn 98 closeout
+
+- Six retrieval calls continued FTG `player position` API page 3 at chunks 1–6/9; all succeeded. Resume page 3 chunk 7; page 4 remains unread.
+- Ledger **699 entries / 517 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:28:31Z. Next input expected: `>`.
+
+## Turn 99 closeout
+
+- Six retrieval calls: completed FTG `player position` page 3 chunks 7–8; read page 4 chunks 0–3. Page 3 is complete; resume page 4 chunk 4.
+- Ledger **700 entries / 518 visited URLs / 405 unvisited leads**. Cult Heroes route/rewards and DLS26 position-lock remain unresolved. Close time: 2026-10-05T23:31:47Z. Next input expected: `>`.
+
+## Turn 100 closeout and audit
+
+- FTG `player position` query completed (all four pages). No DLS26-specific lock rule surfaced; no global absence inference.
+- Retrieval-budget overrun: **11 executions** versus six allowed (five over). Four exact repeats of T99 page-4 chunks 0–3; seven new chunk fetches (page3 7–8, page4 4–8). No further retrieval occurred after the overrun; full audit is in `source_archive/t100_ftg_player_position_query_complete.md`.
+- Ledger **700 entries / 518 visited URLs / 404 unvisited leads**. Both target questions remain unresolved. Close time: 2026-10-05T23:34:54Z. Next input expected: `>`.
+
+## Turn 101 closeout
+
+- Four targeted FTG/YouTube searches only; no page-level fetch, no new game facts. An unverified channel result is retained solely for possible affiliation verification; it is not first-party evidence.
+- Ledger: **704 entries / 522 visited URLs / 405 unvisited leads**. Cult Heroes and DLS26 position-lock questions remain unresolved. Close time: 2026-10-05T23:40:38Z. Next input expected: `>`.
+
+## Turn 102 closeout
+
+- Repaired T101 web-search entries before new research; no further provenance mismatch is known.
+- Read FTG `squad position` chunks0–5/10 (six retrievals, ceiling reached); continue chunkIndex6. No DLS26 position-lock rule surfaced in these mixed partial results; no absence inference.
+- Ledger: **705 entries / 523 visited URLs / 406 unvisited leads**. Both core questions remain unresolved. Close time: 2026-10-05T23:45:00Z. Next input expected: `>`.
+
+## Turn 103 closeout
+
+- Completed the FTG `squad position` query (25 results, all 10 chunks). No DLS26 lock rule surfaced; no global absence inference.
+- Ledger: **705 entries / 523 visited URLs / 405 unvisited leads**. Cult Heroes and position-lock questions remain unresolved. Close time: 2026-10-05T23:47:38Z. Next input expected: `>`.
+
+## Turn 104 closeout
+
+- FTG `Cult Heroes` Help Center query `locale=de`: page 1/3, chunks0–5/6 complete; pages 2–3 unread. Returned metadata is en-us and visible results are unrelated Score!/8 Ball Hero articles; no route/reward evidence and no absence inference.
+- Ledger: **706 entries / 524 visited URLs / 406 unvisited leads**. Position-lock remains user-stated/unverified; both questions open. Close time: 2026-10-05T23:50:49Z. Next input expected: `>`.
+
+## Turn 105 closeout
+
+- Completed the 52-result, three-page FTG `Cult Heroes` locale=de API search. No DLS26 event route/reward information surfaced; no absence inference.
+- Ledger: **708 entries / 526 visited URLs / 405 unvisited leads**. Both core questions remain unresolved. Close time: 2026-10-05T23:54:37Z. Next input expected: `>`.
+
+## Turn 106 closeout
+
+- Two retrievals: one X search (historical/unrelated results only) and one Reddit JSON attempt (HTTP 403/no payload). No gameplay claim established.
+- Ledger: **710 entries / 528 visited URLs / 405 unvisited leads**. Both target questions remain unresolved. Close time: 2026-10-06T00:00:23Z. Next input expected: `>`.
+
+## Turn 107 closeout
+
+- Three TikTok route attempts (direct, oEmbed, embed/v2) for video 7503572653068848417 all returned HTTP 403/no payload. No content or ownership verified; no absence inference.
+- Ledger: **713 entries / 531 visited URLs / 404 unvisited leads**. Both research questions remain unresolved. Close time: 2026-10-06T00:04:56Z. Next input expected: `>`.
+
+## Turn 108 closeout
+
+- Three TikTok route attempts for video 7442747227027541281 all returned HTTP 403/no payload. No content or ownership verified; no absence inference.
+- Ledger: **716 entries / 534 visited URLs / 403 unvisited leads**. Both research questions remain unresolved. Close time: 2026-10-06T00:08:30Z. Next input expected: `>`.
+
 ## Turn 109 closeout
 
 - Two retrievals: Play event-details search returned zero cards; old.reddit mirror returned HTTP 403/no body. No absence inference.
