@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 161):**
+- **Next exact action (Turn 162):**
   1. Record the clock first; verify fixed branch/upstream/repo-local identity; recover only if reset recurs.
-  2. Continue exact FTG `position lock` at chunkIndex=5 only (chunks 0–4 already read). Continue `position locking` at chunkIndex=1 only if that distinct continuation may add evidence. Do not repeat `change formation` or `assign player position`.
-  3. Keep outcomes phrase-specific; do not infer global absence. “DLS26 has no position locking” remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No spending advice, dimension closure or exhaustion declaration. Push before turn end.
+  2. Continue the distinct FTG `position locking` endpoint at chunkIndex=2 only (chunks 0–1 read); do not reread. Keep mixed-title/zero-result outcomes phrase-specific.
+  3. “DLS26 has no position locking” remains `user-stated`, verification owed. Cult Heroes route/rewards remain unconfirmed. No global-absence inference, spending advice, dimension closure or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -518,3 +518,11 @@
 - Six retrieval calls: chunk 0 for each new query, then chunks 1–4 for `position lock`. Search responses are partial and mixed; the formation/ball-position snippet is from Ultimate Clash Soccer, not DLS26. No DLS26-specific position-lock guidance in read chunks. Details: `source_archive/t160_ftg_position_lock_searches.md`.
 - Ledger after T160: **859 records / 636 visited URL attempts / 392 unvisited leads**. Position-lock remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No research dimension closed.
 - T160 close time: 2026-10-06 15:25:18 +0600 Asia/Dhaka. Next input expected: `>` .
+
+
+## T161 closeout
+
+- Clock was written first. Checkout reset to `fb9a2c0` without upstream; before retrieval, archived 411 files at `/tmp/dls26-t161-recovery-20261006152632.tar.gz` (SHA-256 `c7141ab291e28892f58e77983819b8e22294cd6a7beb4ddcd2c6bd79fe0d0d92`), fetched pushed tip `69b6a43`, restored upstream/repo-local identity, and byte-verified all 411 files.
+- Six retrieval calls: completed `position lock` chunks 5–9/10 and read `position locking` chunk 1/10. The completed query remains mixed and yielded no DLS26-specific position-lock guidance. Details: `source_archive/t161_position_lock_query_continuation.md`.
+- Ledger after T161: **861 records / 636 visited URL attempts / 391 unvisited leads**. Position-lock remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No research dimension closed.
+- T161 close time: 2026-10-06 15:27:08 +0600 Asia/Dhaka. Next input expected: `>` .

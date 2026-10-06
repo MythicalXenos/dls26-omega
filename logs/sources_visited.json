@@ -22851,11 +22851,49 @@
       ],
       "turn": "T160",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t161-ftg-position-lock-chunks5-9",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "http_status": null,
+      "http_status_note": "All five requested chunks returned tool status=success; numeric HTTP status not exposed. Chunk 9 reported hasMore=false.",
+      "payload_summary": "Completed the exact 10-chunk `position lock` query (chunks 0–4 T160, chunks 5–9 T161). Remaining output continued the generic DLS player-stats article, Score! Match player-type/bug material, plus other-title and generic lock matches. No DLS26-specific squad-position lock guidance surfaced in this phrase-specific query. Do not infer global absence.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T161",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamps not exposed"
+    },
+    {
+      "source_id": "t161-ftg-position-locking-chunk1",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20locking",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20locking",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        1
+      ],
+      "http_status": null,
+      "http_status_note": "Requested chunk returned tool status=success; numeric HTTP status not exposed. Total rendered chunks=10.",
+      "payload_summary": "Continued exact `position locking` query from chunk 0 (T160); chunk 1 continues mixed Season Pass tier-lock and Score! Match player-stats material. Chunks 2–9 remain unread. No DLS26-specific conclusion; no absence inference.",
+      "discovered_not_yet_visited_leads": [
+        "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunks 0–1 read (chunk 0 in T160, chunk 1 in T161); chunks 2–9 remain unread. Visible output continues mixed Season Pass tier-lock and Score! Match stats articles; no DLS26 position-lock inference. Resume at chunkIndex=2 only."
+      ],
+      "turn": "T161",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
     "visited_total": 636,
-    "unvisited_total": 392,
+    "unvisited_total": 391,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -23247,8 +23285,7 @@
       "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched.",
       "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json — FTG help-center result “Why are my players auto-switching all the time?”; only result snippet/body in mixed query inspected, direct page not fetched; generic DLS control-selection context, not position-lock evidence.",
-      "FTG Help Center exact query `position lock`: 16 results, 10 rendered chunks; chunks 0–4 read in T160, chunks 5–9 unread. Mixed FTG results include other-title rules, Season Pass “tier lock” matches and a generic DLS stats article; no DLS26-specific position-lock guidance in read chunks. Resume at chunkIndex=5 only; no absence inference.",
-      "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunk 0 read in T160, chunks 1–9 unread. Its visible first chunk matches the mixed `position lock` result set; not enough to infer absence. Resume at chunkIndex=1 only if needed."
+      "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunks 0–1 read (chunk 0 in T160, chunk 1 in T161); chunks 2–9 remain unread. Visible output continues mixed Season Pass tier-lock and Score! Match stats articles; no DLS26 position-lock inference. Resume at chunkIndex=2 only."
     ]
   }
 }
