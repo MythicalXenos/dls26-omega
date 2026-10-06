@@ -22490,10 +22490,118 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T156",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t157-facebook-dls-profile-http403",
+      "domain": "facebook.com",
+      "url": "https://www.facebook.com/dreamleaguesoccer",
+      "exact_url": "https://www.facebook.com/dreamleaguesoccer",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct fetch of the DLS Facebook profile linked from the FTG YouTube channel returned HTTP 403; no profile body or posts retrieved.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T157",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t157-tiktok-dls-profile-http403",
+      "domain": "tiktok.com",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+      "exact_url": "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct fetch of the DLS TikTok profile linked from the FTG YouTube channel returned HTTP 403; no profile body or posts retrieved.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T157",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t157-websearch-facebook-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:facebook.com/dreamleaguesoccer \"Cult Heroes\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Search returned the DLS Facebook profile URL and profile metadata saying First Touch Games Limited is responsible for the Page, plus a search-index snippet: “Scoring team goals with a full squad of Cult Heroes hits different … Collect them in game now.” No separate post permalink was returned; direct profile fetch was HTTP 403. Preserve as an unverified first-party search snippet only, not a confirmed availability or route claim.",
+      "search_results": [
+        {
+          "url": "https://www.facebook.com/dreamleaguesoccer/",
+          "title": "Dream League Soccer (@dreamleaguesoccer)",
+          "description": "Profile result identifies an App page and says FIRST TOUCH GAMES LIMITED is responsible; bundled post snippet says a full Cult Heroes squad “hits different” and “Collect them in game now.”"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T157",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t157-websearch-tiktok-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Cult Heroes\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Search surfaced snippets attributed to the FTG-YouTube-linked TikTok handle `@dreamleaguesoccer.ftg`, including “Cult Heroes are still available… Get Cult Hero Agents for a guaranteed Special Card” and “Cult Heroes… Collect them in game now.” The result descriptions bundle multiple posts, and do not identify a stable permalink for these lines. Another returned URL is an older DLS25 European-Classics title. Do not treat snippets as verified availability or reward evidence.",
+      "search_results": [
+        {
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008",
+          "title": "Four new Classic Players available tomorrow (DLS25 European Classics)",
+          "description": "Search output also bundled Cult Heroes snippets; exact attribution to this video is uncertain."
+        },
+        {
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+          "title": "A new era, a new card. #DLS25",
+          "description": "Search output bundled a separate text snippet about Cult Heroes coming to DLS26; attribution/date mismatch requires verification."
+        },
+        {
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888",
+          "title": "Get ready for the best players of 2025 (#DLS26)"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T157",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t157-websearch-tiktok-route-phrase",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Cult Heroes are coming\" \"Events, Drafts\" \"Season Pass\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Exact-phrase search returned the same TikTok URL `7437552025958763809`, whose title is “A new era, a new card. #DLS25”; the description also includes “Cult Heroes are coming to #DLS26 on September 16th” and says to find them by collecting Cult Hero Agents, available in Events, Drafts and the Season Pass. Because title/content attribution is mismatched and the direct URL failed HTTP 403, keep this as an unverified search-index snippet; do not record the route as confirmed.",
+      "search_results": [
+        {
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+          "title": "A new era, a new card. #DLS25",
+          "description": "Search snippet includes DLS26/Cult Heroes/Agents/Events/Drafts/Season Pass text; post attribution and date remain uncertain."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T157",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t157-tiktok-video-7437552025958763809-http403",
+      "domain": "tiktok.com",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+      "exact_url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct fetch of the TikTok search-result URL returned HTTP 403. No video/page content retrieved; the DLS25 title versus DLS26 snippet mismatch remains unresolved. Do not infer video content or promote the search snippet.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T157",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 627,
+    "visited_total": 630,
     "unvisited_total": 390,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

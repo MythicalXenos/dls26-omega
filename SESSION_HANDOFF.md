@@ -67,9 +67,9 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 157):**
+- **Next exact action (Turn 158):**
   1. Record the clock first; verify fixed branch/upstream/repo-local identity; recover only if reset recurs.
-  2. Inspect the distinct DLS Facebook `https://www.facebook.com/dreamleaguesoccer` and/or TikTok `https://www.tiktok.com/@dreamleaguesoccer.ftg` links surfaced by the FTG YouTube channel page. Verify the account linkage and use only first-party posts. Do not retry blocked Instagram URLs or the T155 `facebook.com/firsttouchgames` page.
+  2. Resolve exact post permalinks/dates for the Facebook/TikTok Cult Heroes search snippets with fresh phrase searches on the linked DLS handles. The search output includes agent/Events/Drafts/Season Pass wording, but TikTok attribution conflicts with a DLS25 title and the direct page returned 403. Do not promote until a directly attributable first-party post is retrieved. Do not repeat T157 searches or retry the blocked URLs.
   3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`, verification owed. No spending advice, global-absence inference, dimension closure or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -486,3 +486,11 @@
 - Six retrieval calls: two Instagram profile-data fetches and one profile fetch returned HTTP 403; an FTG YouTube channel page was readable despite a leading error stanza and linked the DLS social handles; two targeted web searches yielded only profile/channel-level results. No Cult Heroes acquisition route/reward evidence retrieved. See `source_archive/t156_ftg_linked_social_accounts.md`.
 - Ledger after T156: **840 records / 627 visited URL attempts / 390 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No research dimension closed.
 - T156 close time: 2026-10-06 15:05:39 +0600 Asia/Dhaka. Next input expected: `>` .
+
+
+## T157 closeout
+
+- Clock was written first. Checkout reset to `fb9a2c0` without upstream; before research, archived 403 files at `/tmp/dls26-t157-recovery-20261006150916.tar.gz` (SHA-256 `0d1c0e877d1205204dec2dc481f4e5dbde699ce36f9363b4445309792f6976c1`), fetched pushed tip `aa3f7cb`, restored upstream/repo-local identity, and byte-verified all 403 files.
+- Six retrieval calls: Facebook/TikTok profile fetches and a TikTok result fetch all returned HTTP 403; three targeted web searches surfaced search-index snippets that mention a Cult Heroes/Agent route, but direct attribution is uncertain and one TikTok result is titled DLS25. No route/reward claim promoted. Details: `source_archive/t157_dls_social_search_snippets.md`.
+- Ledger after T157: **846 records / 630 visited URL attempts / 390 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No research dimension closed.
+- T157 close time: 2026-10-06 15:12:27 +0600 Asia/Dhaka. Next input expected: `>` .
