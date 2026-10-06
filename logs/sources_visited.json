@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T00:27:16Z",
+  "last_reconciled_at": "2026-10-06T00:33:03Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -19820,11 +19820,55 @@
       "discovered_not_yet_visited": [
         "FTG Help Center `out of position`: page 1 complete (chunks 0–12); page 2 chunk 0/5 read and returned graphics/save-data material; chunks 1–4/5 remain a low-priority continuation. Do not infer absence from the partial page 2."
       ]
+    },
+    {
+      "source_id": "t113-instagram-firsttouchgames-official-blocked",
+      "url": "https://www.instagram.com/firsttouchgames_official",
+      "domain": "instagram.com",
+      "fetched_at": "2026-10-06T00:33:03Z",
+      "retrieved_at": "2026-10-06T00:33:03Z",
+      "retrieval_role": "research",
+      "tool": "functions.fetch_page chunkIndex 0",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": "403 (fetch_page status=error; no payload)",
+      "source_type": "candidate Instagram profile; affiliation/content unverified",
+      "language": "en",
+      "payload_path": "source_archive/t113_ftgames_about_and_instagram_block.md",
+      "payload_summary": "functions.fetch_page returned error: “Failed to fetch page (HTTP 403)”. No profile body or posts were received. The profile identity/ownership and any Cult Heroes content remain unverified; a block is not evidence of absence.",
+      "search_query": null,
+      "search_results": [],
+      "processing_state": "blocked (HTTP 403); no payload",
+      "source_screen_outcome": "Do not infer account ownership, post contents, event availability, or absence.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": []
+    },
+    {
+      "source_id": "t113-ftgames-about-page",
+      "url": "https://www.ftgames.com/about",
+      "domain": "ftgames.com",
+      "fetched_at": "2026-10-06T00:33:03Z",
+      "retrieved_at": "2026-10-06T00:33:03Z",
+      "retrieval_role": "research",
+      "tool": "functions.fetch_page chunkIndex 0",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": "not exposed; fetch_page status=success",
+      "source_type": "official FTG corporate About page",
+      "language": "en",
+      "payload_path": "source_archive/t113_ftgames_about_and_instagram_block.md",
+      "payload_summary": "The rendered About page gives broad company/studio text and lists Dream League Soccer among FTG titles. It contains no Cult Heroes acquisition route/reward details or DLS26 position-lock statement in the returned text. It does not resolve or verify the candidate Instagram profile. This is corporate context only.",
+      "search_query": null,
+      "search_results": [],
+      "processing_state": "complete page render; no task-specific game mechanic",
+      "source_screen_outcome": "First-party company page is not evidence of a Cult Heroes route/reward or DLS26 position-lock behavior.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 538,
-    "unvisited_total": 401,
+    "visited_total": 540,
+    "unvisited_total": 399,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -20123,7 +20167,6 @@
       "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/ — full page-render (flagged source): version chain, July 'Cult Heroes tweaks' claim",
       "https://www.firsttouchgames.com/images/logos/DLS_Logo.png",
       "https://www.ftgames.com/terms-of-use",
-      "https://www.instagram.com/firsttouchgames_official",
       "https://www.mintegral.com/en/privacy",
       "https://www.moloco.com/privacy-policy",
       "https://www.reddit.com/r/DreamLeagueSoccer.json or a thread's .json (untested)",
@@ -20196,7 +20239,6 @@
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html",
       "https://www.bluestacks.com/blog/redeem-codes/dream-league-soccer-redeem-codes-en.html",
       "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-custom-kits-guide-en.html",
-      "https://www.ftgames.com/about",
       "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
       "https://www.youtube.com/shorts/ro6fFJb8Vq0",
       "https://www.youtube.com/watch?v=bI6nEX5hjBg",

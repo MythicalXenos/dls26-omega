@@ -1479,3 +1479,8 @@ FTG Help Center API results include a DLS-labeled stats article whose Running-be
 ## TURN 112 source-screen note (not a position-lock finding)
 
 FTG Help Center `out of position` page 1 is complete (13 chunks); it returned mixed products/topics. Page 2 chunk 0/5 surfaced graphics-settings and save-data articles; chunks 1–4 remain unread and low priority. No DLS26 position-lock conclusion; do not infer absence. Provenance: `source_archive/t112_ftg_out_of_position_page1_complete_and_page2_partial.md`.
+
+
+## TURN 113 source-screen note (no game-mechanics finding)
+
+Candidate Instagram profile `firsttouchgames_official` returned HTTP 403/no payload; ownership remains unverified. The FTG About page is generic corporate context and does not resolve Cult Heroes mechanics or DLS26 position locking. Provenance: `source_archive/t113_ftgames_about_and_instagram_block.md`.

@@ -1136,3 +1136,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (304 files; SHA-256 `a2b3d8f308d3c89e74bcc7984c3e4b13f80a7943b6935a87dcbd0f42ea081374`), then restored `291a1d0`, upstream, and repo-local identity. No loss; ISSUE-0014 #74 logged.
 - Six retrievals: completed FTG Help Center `out of position` page 1 (13/13 chunks); page 2 chunk 0/5 sampled, with graphics/save-data results. Chunks 1–4 remain low priority; no absence inference.
 - Ledger **720 / 538 / 401**. Close marker `2026-10-06T00:27:16Z`.
+
+
+## TURN 113 (2026-10-06) — FTG social/profile and corporate-page checks
+- Recovery: reset checkout archived (306 files; SHA-256 `8d367360d2adf2f533af217943ef2232e87bb74ba3bce717745c990afd8fc896`), then restored `e0c98a5`, upstream, and repo-local identity. No loss; ISSUE-0014 #75 logged.
+- Two retrievals: candidate Instagram URL HTTP 403/no payload; FTG About page generic corporate copy, no mechanics. No profile-ownership or absence inference.
+- Ledger **722 / 540 / 399**. Close marker `2026-10-06T00:33:03Z`.
