@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 153):**
+- **Next exact action (Turn 154):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity and recover only if reset recurs.
-  2. Seek distinct first-party or in-game Cult Heroes route/reward evidence or version-bound DLS26 position-lock evidence. Do not repeat the completed `change formation` query or promote its generic/other-title results. Keep auto-switching separate from position locking.
-  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`; no spending advice, global-absence claim, dimension closure or exhaustion declaration. Push before turn end.
+  2. If useful, continue FTG Help Center `assign player position` at chunkIndex=6 (never reread 0–5); inspect only for DLS-version-specific position-lock guidance. Keep generic DLS and other-title material separate.
+  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`; no spending advice, absence inference, dimension closure or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -454,3 +454,11 @@
 - Completed the exact FTG Help Center `change formation` page-2 response through chunks 11–14, joining chunks 0–10 and the previously completed page 1. The full mixed query surfaced no DLS26-specific position-lock guidance; no global-absence inference. Details: `source_archive/t152_ftg_change_formation_page2_complete.md`.
 - Ledger after T152: **823 records / 618 visited URL attempts / 394 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position lock remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
 - T152 close time: 2026-10-06 14:37:47 +0600 Asia/Dhaka. Next input expected: `>`.
+
+
+## T153 closeout
+
+- Reset checkout recovered to pushed tip `603590e`; 395 files byte-verified in `/tmp/dls26-t153-recovery-20261006143846.tar.gz` (SHA-256 `02c3672dc7077f5453acb445c8336bc68206a454923205e991f303bea9f49c6a`). Upstream and repo-local identity restored.
+- Six retrieval calls: screenshot #22 returned HTTP 500 with no image; FTG Help Center `assign player position` chunks 1–5/9 were retrieved. The query remains partial; its mixed, version-unstamped snippets do not verify DLS26 position locking. Full record: `source_archive/t153_assign_position_query_and_screenshot22.md`.
+- Ledger after T153: **825 records / 619 visited URL attempts / 393 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
+- T153 close time: 2026-10-06 14:40:22 +0600 Asia/Dhaka. Next input expected: `>`.
