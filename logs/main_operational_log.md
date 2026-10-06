@@ -1180,3 +1180,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (343 members; SHA-256 `a229636d258ed22e48f85e551ee63a22942f5116df0f6f7032a0f24f7e733352`), then restored `989cd3e`, upstream, and repo-local identity. All 318 regular-file payloads match the archive; ISSUE-0014 #81 logged.
 - One retrieval: FTG-scoped exact-phrase `functions.web_search`; five generic/unrelated snippets, all exact URLs previously represented in the ledger. No page fetch, new lead, game claim, or absence inference.
 - Ledger **734 / 551 / 411** (search-only event is not a page-URL visit). Close marker `2026-10-06T01:06:48Z`.
+
+
+## TURN 120 (2026-10-06) — distinct source triage
+- Recovery: reset checkout archived (345 members; SHA-256 `4d9cad0689c3bafda508bbe3210902a60806c6954738a5a66c2c7d698a4b18c6`), then restored `956c043`, upstream, and repo-local identity. All 320 regular-file payloads match the archive; ISSUE-0014 #82 logged.
+- Three retrievals: FTG exact API query `Cult Heroes collection` returned count 0; screenshot URL 8 failed TLS before HTTP/no bytes; exact Wayback CDX query returned `[]`. No image/snapshot assessment; no absence inference.
+- Ledger **737 / 554 / 410**. Close marker `2026-10-06T01:13:36Z`.

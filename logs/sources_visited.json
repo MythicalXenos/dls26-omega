@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T01:06:48Z",
+  "last_reconciled_at": "2026-10-06T01:13:36Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20192,11 +20192,74 @@
           "snippet": "Generic fair-play policy snippet; unrelated to the target mechanics."
         }
       ]
+    },
+    {
+      "retrieved_at": "Logged at T120 close 2026-10-06T01:13:36Z; individual tool execution timestamp not exposed.",
+      "language": "en",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t120_first_party_source_triage.md",
+      "also_seen": [],
+      "source_id": "t120-ftg-cult-heroes-collection-api-zero",
+      "event_type": "first-party-help-search",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?per_page=5&query=Cult%20Heroes%20collection",
+      "domain": "support.ftgames.com",
+      "retrieval_role": "FTG public Help Center API query",
+      "tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "not exposed by fetch_page; tool status=success",
+      "source_type": "first-party Help Center API search response, not an article",
+      "payload_summary": "Exact query `Cult Heroes collection`; JSON returned count=0, next_page=null, page=1, page_count=0, per_page=25 (request included per_page=5), results=[]. This is a result for this exact API query only; it does not establish global absence.",
+      "processing_state": "complete for the exact search response; no result page to follow",
+      "deception_screen": "No game content returned; do not infer absence from zero query results.",
+      "processing_status": "query response recorded; no mechanics claim"
+    },
+    {
+      "retrieved_at": "Logged at T120 close 2026-10-06T01:13:36Z; individual tool execution timestamp not exposed.",
+      "language": "not applicable",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t120_first_party_source_triage.md",
+      "also_seen": [],
+      "source_id": "t120-play-screenshot-08-curl-tls-failure",
+      "event_type": "asset-retrieval-attempt",
+      "url": "https://play-lh.googleusercontent.com/8djmQFQ5-YRLHpUDyUmR3NyNPdTvd6cNFIfTxAKnRri0ZvstRwNZyGkjZs2LoRO5c3PyVNzFJi_5sCugZv_3yus=w526-h296-rw",
+      "domain": "play-lh.googleusercontent.com",
+      "retrieval_role": "public Google Play screenshot asset attempt",
+      "tool": "functions.bash curl --http1.1 GET",
+      "http_status": "000; no HTTP response (curl exit 35, SSL_ERROR_SYSCALL)",
+      "source_type": "Google Play event screenshot URL; no payload received",
+      "payload_summary": "Exact screenshot URL 8 was attempted once via curl. HTTP status 000, zero downloaded bytes, curl exit 35 / OpenSSL SSL_ERROR_SYSCALL. No image was available or visually assessed. Do not retry this exact URL; 16 screenshot URLs remain untried.",
+      "processing_state": "attempt logged; no image payload",
+      "deception_screen": "No visual or game-content inference.",
+      "processing_status": "failed before HTTP; no asset processing"
+    },
+    {
+      "retrieved_at": "Logged at T120 close 2026-10-06T01:13:36Z; individual tool execution timestamp not exposed.",
+      "language": "en",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t120_first_party_source_triage.md",
+      "also_seen": [],
+      "source_id": "t120-wayback-ftgames-dls-cdx-empty",
+      "event_type": "archive-index-query",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.ftgames.com%2Fgames%2Fdls&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cdigest&collapse=digest",
+      "domain": "web.archive.org",
+      "retrieval_role": "archive index lookup for an FTG DLS page",
+      "tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "not exposed by fetch_page; tool status=success",
+      "source_type": "Internet Archive CDX response; exact URL query only",
+      "payload_summary": "CDX JSON response was an empty array `[]` for the exact query `www.ftgames.com/games/dls` with statuscode=200 filter. This does not establish that no other archived FTG/DLS pages or captures exist.",
+      "processing_state": "complete for this exact CDX lookup; no snapshot URL discovered",
+      "deception_screen": "No DLS26 game claim; do not generalize the empty exact-query result.",
+      "processing_status": "index response recorded; no snapshot fetch"
     }
   ],
   "frontier": {
-    "visited_total": 551,
-    "unvisited_total": 411,
+    "visited_total": 554,
+    "unvisited_total": 410,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -20592,7 +20655,6 @@
       "https://www.youtube.com/watch?v=zV0A6TI-BLY",
       "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence",
       "FTG Help Center `out of position`: page 1 complete (chunks 0–12); page 2 chunk 0/5 read and returned graphics/save-data material; chunks 1–4/5 remain a low-priority continuation. Do not infer absence from the partial page 2.",
-      "https://play-lh.googleusercontent.com/8djmQFQ5-YRLHpUDyUmR3NyNPdTvd6cNFIfTxAKnRri0ZvstRwNZyGkjZs2LoRO5c3PyVNzFJi_5sCugZv_3yus=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/QfnGqBQUfptOCmqKvFPByO9IrpJhdQOMbEqGcYURer53RF7z5xCGVnd9TT6J9cUSGUkzve1iGDo5yYEWcknROSw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/LE_Ru9LmfZThTqc78Z3xvI_yabngdY-WohS9348FUnH-DawIc4R7U30s9VT86vYDiA0EKVlVQDXLDcRgr3eV3g=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/tEgeHK-qliU3iD1mI1Hm_mCOHRTLTGwqzdNOx0fFt8XraGUVAiTwcuCQTnWLUAwEgcMB7jPI25cqKP9SzusKHw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
