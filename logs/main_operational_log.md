@@ -1242,3 +1242,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 341 files, SHA-256 `b58a8587c6be8d0b5a7845ac62b8327633b2cece482012f6c6f39aa98a86a114`; restored/verified pushed tip `4937e60`, upstream and repo-local identity; ISSUE-0014 #91.
 - Completed FTG Help Center `out of position` page 2 chunks 1–4/5; page 1/page-2 query now complete. Mixed results do not contain an explicit DLS26 lock rule; no absence inference. X direct search returned HTTP 403/no body.
 - No new Cult Heroes facts. Ledger **765/569/407**. Close `2026-10-06T02:06:04Z`.
+
+
+## TURN 130 (2026-10-06) — FTG product-page checks
+- Recovery: reset `fb9a2c0`; archived 343 files, SHA-256 `b94b10e35d484918874f490f52b7c84d94aa8198ec32f7ef15c7fd0c350f7715`; restored/verified pushed tip `dd2c801`, upstream and repo-local identity; ISSUE-0014 #92.
+- Three first-party requests: two DLS-specific FTG URLs returned 404/NoSuchKey; PT-BR Help Center query returned zero results. No game facts, no absence inference.
+- Ledger **768/572/407**. Cult Heroes route/rewards and position-lock remain open. Close `2026-10-06T02:10:56Z`.

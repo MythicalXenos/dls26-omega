@@ -1533,3 +1533,7 @@ Two queued official Play event screenshot URLs were attempted without image payl
 ## T129 FTG position-query completion
 
 T129 completed the remaining FTG Help Center `out of position` page-2 chunks 1–4; page 1 was already complete. The mixed results contain no explicit DLS26 squad-position-lock instruction. This does not establish absence or resolve the user-stated no-lock claim. Cult Heroes route/rewards remain open. Provenance: `source_archive/t129_ftg_out_of_position_page2_completion.md`.
+
+## T130 FTG product-page and pt-BR query checks
+
+T130’s two unvisited DLS-specific FTG page paths returned 404/NoSuchKey; the exact PT-BR Help Center query `Agentes Heróis Cultos` returned zero results. These exact results do not establish global absence and yielded no gameplay facts. Cult Heroes route/rewards and DLS26 position-lock remain open. Provenance: `source_archive/t130_ftg_product_page_and_ptbr_query.md`.
