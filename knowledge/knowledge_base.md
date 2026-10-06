@@ -1469,3 +1469,8 @@ The targeted Google Play event-details search returned zero result cards; no abs
 ## TURN 110 source-screen note (not a gameplay claim)
 
 The FTG Help Center `out of position` search is partial: page 1 chunks 0–1/13 read, with mixed-game results; page 2 unread. No DLS26 position-lock answer appears in the partial chunks. Keep the query open; do not transfer Score! Match/UCS wording. Provenance: `source_archive/t110_ftg_out_of_position_query_partial.md`.
+
+
+## TURN 111 source-screen note (not a position-lock finding)
+
+FTG Help Center API results include a DLS-labeled stats article whose Running-behavior text says players without the attribute stay more closely to formation position. Scope: in-match movement/AI wording; it does not establish squad position locking or a DLS26-specific lock rule. Query remains partial (page 1 chunks 0–7/13). Provenance: `source_archive/t111_ftg_out_of_position_query_chunks_2_7.md`.

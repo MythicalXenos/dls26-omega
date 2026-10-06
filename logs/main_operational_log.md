@@ -1124,3 +1124,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (300 files; SHA-256 `15119c10ea785f9dbabac4e419960c41e58d04b7593b9cec72c4d1f7d6237a0a`), then restored `9fbc24d`, upstream, and repo-local identity. Initial `tar -tzf | head` SIGPIPE interrupted only the listing; full archive was verified before recovery. ISSUE-0014 #72 logged.
 - Two retrievals, FTG Help Center API query `out of position`, page 1 chunks 0–1/13. Mixed-game results; no DLS26 position-lock conclusion. Continue chunk 2; no absence inference.
 - Ledger **719 / 537 / 401**. Close marker `2026-10-06T00:18:08Z`.
+
+
+## TURN 111 (2026-10-06) — FTG Help Center search continuation
+- Recovery: reset checkout archived (302 files; SHA-256 `f256ffffe3ff4cfe853bdd040dda5a0e4ecf4ea1636c7ab44ee883818f151324`), then restored `506987a`, upstream, and repo-local identity. No loss; ISSUE-0014 #73 logged.
+- Six retrievals, `out of position` API page 1 chunks 2–7. DLS-labeled Running-behavior text is not a squad position-lock finding. Query remains partial; continue chunk 8.
+- Ledger **719 / 537 / 401**. Close marker `2026-10-06T00:22:05Z`.

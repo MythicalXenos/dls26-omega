@@ -398,3 +398,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 110 recovery occurrence
 
 - ISSUE-0014 occurrence #72, 2026-10-06: opening reset to `fb9a2c0` with 300 non-ignored project files untracked. Archived before cleanup at `/tmp/dls26-t110-recovery-20261006061549.tar.gz`, SHA-256 `15119c10ea785f9dbabac4e419960c41e58d04b7593b9cec72c4d1f7d6237a0a`. The first archive-list pipeline returned SIGPIPE after `head` closed its input; recovery had not started. A later call verified all 300 members, fetched/restored `9fbc24d`, upstream, and repo-local identity. No files were discarded.
+
+
+## Turn 111 recovery occurrence
+
+- ISSUE-0014 occurrence #73, 2026-10-06: opening reset to `fb9a2c0`; archived 302 non-ignored project files at `/tmp/dls26-t111-recovery-20261006062044.tar.gz`, SHA-256 `f256ffffe3ff4cfe853bdd040dda5a0e4ecf4ea1636c7ab44ee883818f151324`; verified archive before fetching/restoring `506987a`, upstream, and repo-local identity. No files discarded.

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T00:18:08Z",
+  "last_reconciled_at": "2026-10-06T00:22:05Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -19768,24 +19768,24 @@
       "source_id": "t110-ftg-help-center-out-of-position-partial",
       "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=out%20of%20position",
       "domain": "support.ftgames.com",
-      "fetched_at": "2026-10-06T00:18:08Z",
-      "retrieved_at": "2026-10-06T00:18:08Z",
+      "fetched_at": "2026-10-06T00:22:05Z",
+      "retrieved_at": "2026-10-06T00:22:05Z",
       "retrieval_role": "discovery-search",
-      "tool": "functions.fetch_page chunks 0–1 of 13",
+      "tool": "functions.fetch_page chunks 0–1 (T110), 2–7 (T111); page 1 of the same search",
       "retrieval_tool": "functions.fetch_page",
-      "http_status": "not exposed; fetch_page status=success on chunks 0 and 1",
+      "http_status": "not exposed; fetch_page status=success on chunks 0–7",
       "source_type": "official FTG Help Center search API; mixed-game results",
       "language": "en",
-      "payload_path": "source_archive/t110_ftg_out_of_position_query_partial.md",
-      "payload_summary": "Exact query `out of position`: 34 results, 2 pages. Page 1 has 13 rendered chunks; only chunks 0–1 were retrieved. Chunk 0 shows Score! Match player types, Score! Hero camera position, and Ultimate Clash Soccer rules. Chunk 1 continues the Ultimate Clash Soccer rules and includes a Dream League Live leaderboard article (leaderboard rank, not squad placement) and Score! Match player-stats material. No DLS26 position-lock answer was found in these partial chunks. This mixed, incomplete search does not establish absence. Per-call timestamps are not exposed.",
+      "payload_path": "source_archive/t111_ftg_out_of_position_query_chunks_2_7.md",
+      "payload_summary": "Exact query `out of position`: 34 results across 2 pages. Page 1 renders in 13 chunks; chunks 0–7 have now been read across T110–T111, chunks 8–12 and page 2 remain unread. Results are mixed FTG products. Chunk 7 includes a first-party DLS help result “How do the various player stats in DLS affect gameplay?” (updated_at 2026-10-03T10:47:54Z); the API body describes the Running behaviour attribute and says players without it stay more closely to their formation position. This wording concerns in-match movement/AI behavior; it does not establish squad slot locking or DLS26-specific lock behavior. Other results include Score! Match/Score! Hero/UCS and leaderboard material; do not transfer those game mechanics. No absence inference.",
       "search_query": "out of position",
       "search_results": [],
-      "processing_state": "partial; page 1 chunks 0–1/13; page 1 chunks 2–12 and page 2 unread",
-      "source_screen_outcome": "Official support results are mixed across FTG games. Do not transfer Score! Match/UCS wording to DLS26; no DLS26 lock claim or absence conclusion.",
+      "processing_state": "partial; page 1 chunks 0–7/13 retrieved; page 1 chunks 8–12 and page 2 unread",
+      "source_screen_outcome": "The DLS-labeled Help Center result is scoped to Running behavior and in-match movement; no position-lock rule established. Article direct page may be unvisited; do not conflate formation behavior with a squad-position lock.",
       "conflicts": [],
       "affected_kb_claims": [],
       "discovered_not_yet_visited": [
-        "FTG Help Center query `out of position`: continue page 1 chunks 2–12 of 13, then assess page 2 (9 remaining results); T110 read only chunks 0–1; mixed products, no DLS26 position-lock conclusion."
+        "FTG Help Center query `out of position`: continue page 1 chunks 8–12 of 13, then assess page 2 (9 results) if useful; T110 read chunks 0–1 and T111 read chunks 2–7. No DLS26 position-lock conclusion."
       ]
     }
   ],
@@ -20193,7 +20193,7 @@
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
       "https://www.youtube.com/watch?v=zV0A6TI-BLY",
       "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence",
-      "FTG Help Center query `out of position`: continue page 1 chunks 2–12 of 13, then assess page 2 (9 remaining results); T110 read only chunks 0–1; mixed products, no DLS26 position-lock conclusion."
+      "FTG Help Center query `out of position`: continue page 1 chunks 8–12 of 13, then assess page 2 (9 results) if useful; T110 read chunks 0–1 and T111 read chunks 2–7. No DLS26 position-lock conclusion."
     ]
   }
 }
