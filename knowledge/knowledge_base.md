@@ -1581,3 +1581,7 @@ The completed Bangladesh Google Play listing (chunks 0–1/2) renders an “Ends
 ## T141 official Play screenshot access check
 
 Official Google Play screenshot URL #17 returned HTTP 500 before image content; no visual claim is available. This exact URL is retired. URLs #18–24 remain uninspected and low priority. Provenance: `source_archive/t141_play_screenshot_17_blocked.md`.
+
+## T142 social-search snippet triage
+
+A Facebook @dreamleaguesoccer search snippet says “Collect them in game now” beside Cult Heroes copy, but the profile URL was previously blocked and no exact post permalink/date was retrieved. A global exact-phrase search points to an already logged old DLS25/EuropeanClassics TikTok result whose description concatenates Cult Heroes language. Treat both as ambiguous search snippets only; no acquisition route, reward, cost, or current in-game availability claim is supported. Provenance: `source_archive/t142_social_snippet_triage.md`.
