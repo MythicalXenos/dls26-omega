@@ -22027,10 +22027,83 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T148",
       "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t149-play-screenshot21-http500",
+      "domain": "play-lh.googleusercontent.com",
+      "url": "https://play-lh.googleusercontent.com/Git6SsoIxbLP80JjxU-vDZRUWT8m7AWfKDZj97zn5BXJ_N59Uae6Jv1RgFoXILQ_7-zne8GuoIiNPZNdiR0Zdw=w526-h296-rw",
+      "exact_url": "https://play-lh.googleusercontent.com/Git6SsoIxbLP80JjxU-vDZRUWT8m7AWfKDZj97zn5BXJ_N59Uae6Jv1RgFoXILQ_7-zne8GuoIiNPZNdiR0Zdw=w526-h296-rw",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 500,
+      "payload_summary": "Fetch failed with HTTP 500; no image bytes or page content returned. No visual inference.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T149",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t149-image-search-query-cult-heroes-ui",
+      "domain": "image search backend not exposed",
+      "url": null,
+      "exact_url": null,
+      "search_query": "First Touch Games official Dream League Soccer 2026 Cult Heroes in-game event screen Agents Play Store",
+      "retrieval_tool": "functions.image_search",
+      "http_status": null,
+      "http_status_note": "HTTP status not exposed; tool status=success.",
+      "payload_summary": "Three result images were returned and visually inspected with functions.read_file. Result metadata, source URLs, thumbnail URLs, file hashes and limits are in source_archive/t149_image_search_visual_triage.md. No image shows a Cult Heroes route/reward or position-lock control.",
+      "discovered_not_yet_visited_leads": [
+        "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/"
+      ],
+      "turn": "T149",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t149-image-result-1",
+      "domain": "imgs.search.brave.com",
+      "url": "https://imgs.search.brave.com/hY_zn5M9bcb1xd0AD93XH-FOJT-arPBQ08IbhoFiXYI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvejl2aW1h/eXMxc25kMS5qcGVn",
+      "exact_url": "https://imgs.search.brave.com/hY_zn5M9bcb1xd0AD93XH-FOJT-arPBQ08IbhoFiXYI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvejl2aW1h/eXMxc25kMS5qcGVn",
+      "source_url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/",
+      "search_query": "First Touch Games official Dream League Soccer 2026 Cult Heroes in-game event screen Agents Play Store",
+      "retrieval_tool": "functions.image_search + functions.read_file",
+      "http_status": null,
+      "http_status_note": "HTTP status not exposed by image_search; saved result was visually inspected locally.",
+      "payload_summary": "Title: r/DreamLeagueSoccer - First Touch Games's sponsorship discussion (temporary solution). Source page: https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/. Local preserved thumbnail: source_archive/t149_image_search_results/01_result.jpg (SHA-256 0b25f978bc19d7e8f3ed90993f64e91133cd99bb7ea3eb366787141d5d38288e, 168789 bytes). Visual observation: Promotional collage with a 2026 Dream League Soccer heading, match footage, and a DLS 2026 laptop image; no Cult Heroes acquisition UI, reward, formation, or lock control visible. Community result, not FTG-authored evidence.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T149",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t149-image-result-2",
+      "domain": "imgs.search.brave.com",
+      "url": "https://imgs.search.brave.com/t1OKhh4-wifVR5pWQqh-oMf-bnI_4YtEV3AkE2a7Kio/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZmlmYXdvcmxkY3Vw/bmV3cy5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjUvMTIv/RHJlYW0tTGVhZ3Vl/LVNvY2Nlci0yMDI2/LURMUy0yNi53ZWJw",
+      "exact_url": "https://imgs.search.brave.com/t1OKhh4-wifVR5pWQqh-oMf-bnI_4YtEV3AkE2a7Kio/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZmlmYXdvcmxkY3Vw/bmV3cy5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjUvMTIv/RHJlYW0tTGVhZ3Vl/LVNvY2Nlci0yMDI2/LURMUy0yNi53ZWJw",
+      "source_url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+      "search_query": "First Touch Games official Dream League Soccer 2026 Cult Heroes in-game event screen Agents Play Store",
+      "retrieval_tool": "functions.image_search + functions.read_file",
+      "http_status": null,
+      "http_status_note": "HTTP status not exposed by image_search; saved result was visually inspected locally.",
+      "payload_summary": "Title: Dream League Soccer 2026 (DLS 26). Source page: https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/. Local preserved thumbnail: source_archive/t149_image_search_results/02_result.webp (SHA-256 027238b6fc5b2866b69678c1cd8b62764aa823de5846f10a86475214b8642ec3, 37956 bytes). Visual observation: Image is a creator thumbnail explicitly marked DLS24, showing a player/phone and “I Played Dream League Soccer... better than FC24?”; not DLS26 event/route evidence.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T149",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t149-image-result-3",
+      "domain": "imgs.search.brave.com",
+      "url": "https://imgs.search.brave.com/dXhPvH0hZNEs-p6BEPvMgVr-qNwS0LlsAbcd8MC4m7E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS96Y2g4RWo4STA2/Ukp2SHY5V0J6OEpl/WllwcGtmeFktNmls/QnZZTWxnRzU0Mmtq/cVd6WWZZYjVJb0RN/RmJreURQRktJRHZl/RFpQNmNwLUNkSlNfX3puQ1U9dzUyNi1oMzk2",
+      "exact_url": "https://imgs.search.brave.com/dXhPvH0hZNEs-p6BEPvMgVr-qNwS0LlsAbcd8MC4m7E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS96Y2g4RWo4STA2/Ukp2SHY5V0J6OEpl/WllwcGtmeFktNmls/QnZZTWxnRzU0Mmtq/cVd6WWZZYjVJb0RN/RmJreURQRktJRHZl/RFpQNmNwLUNkSlNfX3puQ1U9dzUyNi1oMzk2",
+      "source_url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en_US",
+      "search_query": "First Touch Games official Dream League Soccer 2026 Cult Heroes in-game event screen Agents Play Store",
+      "retrieval_tool": "functions.image_search + functions.read_file",
+      "http_status": null,
+      "http_status_note": "HTTP status not exposed by image_search; saved result was visually inspected locally.",
+      "payload_summary": "Title: Screenshot image. Source page: https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en_US. Local preserved thumbnail: source_archive/t149_image_search_results/03_result.png (SHA-256 0c52c8ce4cffcee8a011fa36df6aa8151bfecf9b6d144dc2bd72d13aa1063633, 186271 bytes). Visual observation: Play listing screenshot shows a DLS26 hub/menu with Career, Dream League Live, Season Draft, DLS Clans, Transfers and My Club panels. It does not show Cult Heroes/Agent acquisition, a formation screen, or a position-lock control.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T149",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
     }
   ],
   "frontier": {
-    "visited_total": 613,
+    "visited_total": 617,
     "unvisited_total": 394,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
@@ -22418,7 +22491,6 @@
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
       "https://www.youtube.com/watch?v=zV0A6TI-BLY",
       "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence",
-      "https://play-lh.googleusercontent.com/Git6SsoIxbLP80JjxU-vDZRUWT8m7AWfKDZj97zn5BXJ_N59Uae6Jv1RgFoXILQ_7-zne8GuoIiNPZNdiR0Zdw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/p8RqYbUMuBC9zE00JJOHvaUve4l0x3FlP0AuzV6xD4CdG1w-tu5L46XDoJRPPdXeEbVZ95MnjRkKxD1Wr7qwoQ=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/OR7NRBrBLI3FkmlQOrKcZ3qZWjvl8lz26WSPnYNnPHAz3zvunpZWxkQYmoUBl3z453aFibmQzBZfaocm6OxI=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
@@ -22426,7 +22498,8 @@
       "FTG Help Center `change formation` page 2/2 exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`: 48 results total; page 2 renders 15 chunks. Only chunkIndex=0 was read in T137; chunks 1–14 remain unread. Visible chunk 0 contains Score! Match article 360000250309 (section 115001619089) and “What are the rules of Ultimate Clash Soccer?” article 7918507871505 (section 7900693036561). Do not transfer either title’s formation/position rules to DLS26. Defer the remaining long mixed response as low priority unless a relevant lead emerges; no query-wide absence inference.",
       "FTG Help Center exact query `assign player position`: count=9, page_count=1, 9 rendered chunks; only chunkIndex=0 was retrieved. Visible initial hits include Score! Match section 115001619089 and Ultimate Clash Soccer section 7900693036561; do not transfer their player-position rules to DLS26. Chunks 1–8 remain unread. If continued, resume at chunkIndex=1; no absence inference.",
       "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
-      "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority."
+      "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",
+      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched."
     ]
   }
 }
