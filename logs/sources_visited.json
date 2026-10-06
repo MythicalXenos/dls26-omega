@@ -22719,10 +22719,102 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T158",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t159-websearch-playdls-agent-route",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:instagram.com/playdls \"Cult Hero Agents\" \"Events\" \"Drafts\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Returned only the Dream League Soccer `@playdls` Instagram profile result (bio says DLS26 is out now); no Cult Heroes post, permalink or date surfaced. This does not establish absence.",
+      "search_results": [
+        {
+          "url": "https://www.instagram.com/playdls/",
+          "title": "Dream League Soccer (@playdls) • Instagram photos and videos",
+          "description": "Profile-level snippet, not a Cult Heroes post."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T159",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t159-websearch-instagram-post-url",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:instagram.com/p/ \"Cult Hero Agents\" \"DLS26\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Search returned an empty result set; no post permalink or content. Phrase-specific zero results are not global-absence evidence.",
+      "search_results": [],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T159",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t159-ftgames-dls-landing-redirect",
+      "domain": "ftgames.com",
+      "url": "https://www.ftgames.com/dls",
+      "exact_url": "https://www.ftgames.com/dls",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": null,
+      "http_status_note": "Tool status=success; final URL returned as https://www.ftgames.com/games; numeric HTTP status not exposed.",
+      "final_url": "https://www.ftgames.com/games",
+      "payload_summary": "The first-party URL redirected to the generic FTG Games page. DLS copy describes general team-building, 4,000+ players, divisions, motion-captured moves, commentary and customization; lists App Store/Google Play/Facebook/trailer links. No Cult Heroes event, acquisition route or reward details; not version-specific DLS26 guidance.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T159",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t159-websearch-playdls-cult-phrase",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:instagram.com/playdls \"Cult Heroes are coming\" \"Cult Hero Agents\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Returned only the same `@playdls` profile result; no post-level Cult Heroes material or permalink/date. No absence inference.",
+      "search_results": [
+        {
+          "url": "https://www.instagram.com/playdls/",
+          "title": "Dream League Soccer (@playdls) • Instagram photos and videos",
+          "description": "Profile-level result only."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T159",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t159-websearch-official-youtube-agent-phrase",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:youtube.com/@firsttouchgames \"Cult Hero Agents\" \"DLS26\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Returned only the `firsttouchgames` YouTube channel profile and studio description; no Cult Hero Agents post or video surfaced in this result. The channel page was previously fetched in T156; no refetch. This is not absence evidence.",
+      "search_results": [
+        {
+          "url": "https://www.youtube.com/@firsttouchgames",
+          "title": "firsttouchgames",
+          "description": "Studio/channel profile only."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T159",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 633,
+    "visited_total": 634,
     "unvisited_total": 390,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
