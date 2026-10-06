@@ -1454,3 +1454,8 @@ A targeted X search surfaced only historical/unrelated posts; it is discovery-on
 ## TURN 107 (2026-10-06) — TikTok candidate routes blocked
 
 The direct, oEmbed and embed/v2 URLs for TikTok video 7503572653068848417 each returned HTTP 403 with no payload. Content and account affiliation remain unassessed; do not infer absence or event mechanics. Provenance: `source_archive/t107_tiktok_7503572653068848417_blocked.md`.
+
+
+## TURN 108 (2026-10-06) — second TikTok candidate blocked
+
+The direct, oEmbed and embed/v2 routes for TikTok candidate 7442747227027541281 each returned HTTP 403/no payload. Content and account affiliation remain unassessed; do not infer absence or event mechanics. Provenance: `source_archive/t108_tiktok_7442747227027541281_blocked.md`.

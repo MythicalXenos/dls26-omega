@@ -1106,3 +1106,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout `fb9a2c0`; archived 294 files, SHA-256 `be7bf55bb1b8f0cd367561861d0d5dfe0f035c2a53a2e0bf2e0e3e086d90baa1`; restored session tip `186e18b`, upstream, and repo-local identity. Only T107 clock-start append differed; ISSUE-0014 #69 logged.
 - Three retrievals for video 7503572653068848417 (direct/oEmbed/embed-v2) returned HTTP 403/no payload. Do not infer from blocks.
 - Ledger **713 / 531 / 404**. Cult Heroes and position-lock unresolved. Close marker `2026-10-06T00:04:56Z`.
+
+
+## TURN 108 (2026-10-06) — second TikTok candidate access audit
+- Recovery: reset checkout `fb9a2c0`; archived 296 files, SHA-256 `f5c7b48f492fb31bf5102a3df2333569bd3ca72e53e6ba7b4d8290ff6749fa22`; restored session tip `97cf938`, upstream, and repo-local identity. Only T108 clock-start append differed; ISSUE-0014 #70 logged.
+- Three retrievals for video 7442747227027541281 (direct/oEmbed/embed-v2) returned HTTP 403/no payload. Do not infer from blocks.
+- Ledger **716 / 534 / 403**. Cult Heroes and DLS26 position-lock unresolved. Close marker `2026-10-06T00:08:30Z`.
