@@ -22100,10 +22100,42 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T149",
       "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t150-ftg-change-formation-page2-chunks1-4",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "http_status": null,
+      "http_status_note": "Tool returned status=success for each requested chunk; HTTP status not exposed.",
+      "payload_summary": "Continued existing mixed FTG Help Center query page 2 (48 results, 15 chunks); chunks 1–4/15 succeeded. Visible fragments include an unbound snippet about default player positions following formation/ball position with overrides and generic DLS player-stat material. No identified DLS26 position-lock rule; no absence inference.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T150",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamps not exposed)"
+    },
+    {
+      "source_id": "t150-ftg-dls-player-stats-article-generic",
+      "domain": "firsttouch.zendesk.com",
+      "url": "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360019166777.json",
+      "exact_url": "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360019166777.json",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": null,
+      "http_status_note": "Tool returned status=success; HTTP status not exposed.",
+      "payload_summary": "FTG Zendesk article \"How do the various player stats in DLS affect gameplay?\" (created 2021-04-13, updated 2026-10-03). Generic DLS copy, no game-version label; discusses player stats including stamina varying by position, but no squad-position lock rule and no Cult Heroes mechanics. Do not treat as DLS26-specific.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T150",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
     }
   ],
   "frontier": {
-    "visited_total": 617,
+    "visited_total": 618,
     "unvisited_total": 394,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
@@ -22495,7 +22527,7 @@
       "https://play-lh.googleusercontent.com/OR7NRBrBLI3FkmlQOrKcZ3qZWjvl8lz26WSPnYNnPHAz3zvunpZWxkQYmoUBl3z453aFibmQzBZfaocm6OxI=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
-      "FTG Help Center `change formation` page 2/2 exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`: 48 results total; page 2 renders 15 chunks. Only chunkIndex=0 was read in T137; chunks 1–14 remain unread. Visible chunk 0 contains Score! Match article 360000250309 (section 115001619089) and “What are the rules of Ultimate Clash Soccer?” article 7918507871505 (section 7900693036561). Do not transfer either title’s formation/position rules to DLS26. Defer the remaining long mixed response as low priority unless a relevant lead emerges; no query-wide absence inference.",
+      "FTG Help Center `change formation` page 2/2 exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`: 48 results total; page 2 renders 15 chunks. Chunks 0–4 were read (chunk 0 in T137; chunks 1–4 in T150); chunks 5–14 remain unread. Mixed-product results; an unbound chunk-boundary snippet mentions default player positions following formation/ball position with overrides, but article identity/version not established here. A separate general DLS player-stats article is version-unstamped. No DLS26 position-lock inference; no query-wide absence inference.",
       "FTG Help Center exact query `assign player position`: count=9, page_count=1, 9 rendered chunks; only chunkIndex=0 was retrieved. Visible initial hits include Score! Match section 115001619089 and Ultimate Clash Soccer section 7900693036561; do not transfer their player-position rules to DLS26. Chunks 1–8 remain unread. If continued, resume at chunkIndex=1; no absence inference.",
       "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
       "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",

@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 150):**
+- **Next exact action (Turn 151):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity and recover only if reset recurs.
-  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior. Do not repeat the T149 image query or retry screenshot #21. Screenshots #22–24 remain uninspected; Google Play CDN images are low priority after repeated errors.
-  3. Keep “DLS26 has no position locking” labeled `user-stated`; verification remains owed. No spending advice, global-absence claim, dimension closure, or exhaustion declaration. Push before turn end.
+  2. If useful, continue the exact FTG Help Center `change formation` page-2 response at chunkIndex=5 (never reread chunks 0–4); inspect for DLS-specific, version-bound position-lock guidance. Keep generic or other-product rules separate.
+  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`; no spending advice, absence inference, dimension closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -430,3 +430,11 @@
 - One new first-party screenshot URL (#21) returned HTTP 500 with no image bytes. A distinct image search returned three visually inspected thumbnails; the official Play listing image shows a hub screen but no target mechanics. Full record and preserved thumbnails: `source_archive/t149_image_search_visual_triage.md`.
 - Ledger after T149: **819 records / 617 visited URL attempts / 394 unvisited leads**. Cult Heroes route/rewards/current availability remain unconfirmed; position lock remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
 - T149 close time: 2026-10-06 14:13:43 +0600 Asia/Dhaka. Next input expected: `>`.
+
+
+## T150 closeout
+
+- Reset checkout recovered to pushed tip `81a51a0`; 389 files byte-verified in `/tmp/dls26-t150-recovery-20261006142909.tar.gz` (SHA-256 `6bd822c4f27e346ddc52b6fafbeb7dd908732c16c3aa72bfb39ace93a5e8f54e`). Upstream and repo-local identity restored.
+- Five retrieval calls continued the existing mixed FTG Help Center `change formation` page-2 response at chunks 1–4, then fetched its general DLS player-stats article. No DLS26-specific lock rule surfaced; the article is version-unstamped. Full limits: `source_archive/t150_ftg_change_formation_continuation.md`.
+- Ledger after T150: **821 records / 618 visited URL attempts / 394 unvisited leads**. No new game fact. Cult Heroes route/rewards/current availability remain unconfirmed; position lock remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
+- T150 close time: 2026-10-06 14:31:43 +0600 Asia/Dhaka. Next input expected: `>`.
