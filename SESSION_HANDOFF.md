@@ -1,11 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 162 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 163 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
-- **Current T162 state:** Ledger 862 records · 636 visited URL attempts · 391 unvisited leads. FTG Help Center `position locking` chunks 0–2/10 are read; next is `chunkIndex=3` only. No DLS26-specific position-lock guidance surfaced in chunk 2; position-lock remains `user-stated`, verification owed. Cult Heroes route/rewards remain unconfirmed.
+- **Current T163 state:** Ledger 863 records · 636 visited URL attempts · 391 unvisited leads. FTG Help Center `position locking` chunks 0–3/10 are read; next is `chunkIndex=4` only. No DLS26-specific position-lock guidance surfaced in chunk 3; position-lock remains `user-stated`, verification owed. Cult Heroes route/rewards remain unconfirmed.
+- **T163 checkout recovery:** At turn open the checkout was reset to `fb9a2c0` with 413 project files untracked. Archived to `/tmp/dls26-t163-recovery-20261006094018.tar.gz` (SHA-256 `be8b5e846dce2c09014ff02f94a9d7b81a0de8543e4e3667b4f50263cbc17199`), fetched remote tip `e3e604e`, byte-verified all 413 archived files against that tree (the commit also contains baseline `.gitignore` and `README.md`), restored upstream and repo-local identity `DLS26 Omega <omega@dls26.local>`. No project data lost.
 - **T162 checkout recovery:** At turn open the checkout was reset to `fb9a2c0` with 411 project files untracked. Archived to `/tmp/dls26-t162-recovery-20261006093711.tar.gz` (SHA-256 `1c173767786a381071767de68796fdb0bcd582eac0dc718cbace215583145a6a`), fetched remote tip `ca429c8`, byte-verified the 411 archived files against that tree (the commit also contains baseline `.gitignore` and `README.md`), restored upstream and repo-local identity `DLS26 Omega <omega@dls26.local>`. No project data lost.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
 - **Ledger (T146 historical close):** 807 records · 610 unique visited URLs · 396 unvisited leads. FTG teaser metadata is generic DLS26 launch context; linked shortlink resolves to the already visited games catalogue. A separate official-channel clip is explicitly DLS25 and not transferable. No Cult Heroes route/reward or position-lock evidence.
@@ -529,4 +530,5 @@
 - Ledger after T161: **861 records / 636 visited URL attempts / 391 unvisited leads**. Position-lock remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No research dimension closed.
 - T161 close time: 2026-10-06 15:27:08 +0600 Asia/Dhaka. Next input expected: `>` .
 - [COMPLETE T162] FTG Help Center `position locking` chunk 2/10 read; mixed content, no DLS26-specific guidance; chunks 3–9 remain. See `source_archive/t162_ftg_position_locking_chunk2.md` and `snapshots/KB_snapshot_2026-10-06-turn162.md`.
-- [T163 next] Resume the same exact FTG Help Center query at `chunkIndex=3` only; do not reread chunks 0–2. No global-absence inference. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No spending advice, dimension closure, or exhaustion declaration.
+- [COMPLETE T163] FTG Help Center `position locking` chunk 3/10 read; mixed content, no DLS26-specific guidance; chunks 4–9 remain. See `source_archive/t163_ftg_position_locking_chunk3.md` and `snapshots/KB_snapshot_2026-10-06-turn163.md`.
+- [T164 next] Resume the same exact FTG Help Center query at `chunkIndex=4` only; do not reread chunks 0–3. No global-absence inference. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No spending advice, dimension closure, or exhaustion declaration.
