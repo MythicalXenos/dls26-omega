@@ -1,12 +1,14 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 146 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 162 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
+- **Current T162 state:** Ledger 862 records · 636 visited URL attempts · 391 unvisited leads. FTG Help Center `position locking` chunks 0–2/10 are read; next is `chunkIndex=3` only. No DLS26-specific position-lock guidance surfaced in chunk 2; position-lock remains `user-stated`, verification owed. Cult Heroes route/rewards remain unconfirmed.
+- **T162 checkout recovery:** At turn open the checkout was reset to `fb9a2c0` with 411 project files untracked. Archived to `/tmp/dls26-t162-recovery-20261006093711.tar.gz` (SHA-256 `1c173767786a381071767de68796fdb0bcd582eac0dc718cbace215583145a6a`), fetched remote tip `ca429c8`, byte-verified the 411 archived files against that tree (the commit also contains baseline `.gitignore` and `README.md`), restored upstream and repo-local identity `DLS26 Omega <omega@dls26.local>`. No project data lost.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T146 close):** 807 records · 610 unique visited URLs · 396 unvisited leads. FTG teaser metadata is generic DLS26 launch context; linked shortlink resolves to the already visited games catalogue. A separate official-channel clip is explicitly DLS25 and not transferable. No Cult Heroes route/reward or position-lock evidence.
+- **Ledger (T146 historical close):** 807 records · 610 unique visited URLs · 396 unvisited leads. FTG teaser metadata is generic DLS26 launch context; linked shortlink resolves to the already visited games catalogue. A separate official-channel clip is explicitly DLS25 and not transferable. No Cult Heroes route/reward or position-lock evidence.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -526,3 +528,5 @@
 - Six retrieval calls: completed `position lock` chunks 5–9/10 and read `position locking` chunk 1/10. The completed query remains mixed and yielded no DLS26-specific position-lock guidance. Details: `source_archive/t161_position_lock_query_continuation.md`.
 - Ledger after T161: **861 records / 636 visited URL attempts / 391 unvisited leads**. Position-lock remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No research dimension closed.
 - T161 close time: 2026-10-06 15:27:08 +0600 Asia/Dhaka. Next input expected: `>` .
+- [COMPLETE T162] FTG Help Center `position locking` chunk 2/10 read; mixed content, no DLS26-specific guidance; chunks 3–9 remain. See `source_archive/t162_ftg_position_locking_chunk2.md` and `snapshots/KB_snapshot_2026-10-06-turn162.md`.
+- [T163 next] Resume the same exact FTG Help Center query at `chunkIndex=3` only; do not reread chunks 0–2. No global-absence inference. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No spending advice, dimension closure, or exhaustion declaration.
