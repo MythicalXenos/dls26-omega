@@ -1585,3 +1585,7 @@ Official Google Play screenshot URL #17 returned HTTP 500 before image content; 
 ## T142 social-search snippet triage
 
 A Facebook @dreamleaguesoccer search snippet says “Collect them in game now” beside Cult Heroes copy, but the profile URL was previously blocked and no exact post permalink/date was retrieved. A global exact-phrase search points to an already logged old DLS25/EuropeanClassics TikTok result whose description concatenates Cult Heroes language. Treat both as ambiguous search snippets only; no acquisition route, reward, cost, or current in-game availability claim is supported. Provenance: `source_archive/t142_social_snippet_triage.md`.
+
+## T143 creator-video and media-access checks
+
+Two secondary YouTube pages described Cult Heroes Tournament play, but returned transcripts do not establish an acquisition route or reward; video frames were not inspected. The FTG Help Center `Cult Heroes Tournament` exact query returned count=0 only. Google Play screenshot #18 and one video thumbnail returned HTTP 500 without image payload. No game claim is promoted. Provenance: `source_archive/t143_youtube_videos_and_ftg_query.md`.

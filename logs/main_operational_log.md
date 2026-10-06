@@ -1320,3 +1320,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived/verified 369 working files (SHA-256 `ca68fe0a9c29aa01bd5fe7f395b5223e8fbeb5e29e9a2d12b8f03970e6f7959c`), fetched/restored `08f57cc`, restored upstream/identity; safety stash `2b999af`; ISSUE-0014 #104.
 - Four web searches: Instagram empty; Facebook snippet includes “Collect them in game now” but page blocked/exact-post query empty; global exact-phrase result maps to an already logged old DLS25 TikTok with concatenated text. No route/reward/status promoted.
 - Ledger **797/600/400**. Both research dimensions remain open. Close `2026-10-06T03:16:50Z`.
+
+
+## TURN 143 (2026-10-06) — creator-video spot checks
+- Recovery: reset `fb9a2c0`; archived/verified 371 working files (SHA-256 `3b231f6c16036a9d9ba57de6839349cb893a586b0d60de9928001ffbd2a3ce8f`), fetched/restored `51fc3fd`, restored upstream/identity; stash `d55a46d`; ISSUE-0014 #105.
+- Two secondary video pages returned transcripts but no acquisition/position mechanics; frames not inspected. FTG Help `Cult Heroes Tournament` count 0 for exact phrase. Play screenshot #18 and RrUB thumbnail HTTP 500, no image.
+- Ledger **802/605/398**. Both dimensions remain open. Close `2026-10-06T03:22:46Z`.

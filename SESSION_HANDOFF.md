@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 142 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 143 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T142 close):** 797 records · 600 unique visited URLs · 400 unvisited leads. Four targeted social searches surfaced only snippets: Facebook copy says “Collect them in game now,” but the direct page is blocked and exact-post follow-up returned no cards; a broader phrase result points to an already-logged old DLS25 TikTok with merged Cult Heroes text. Attribution unresolved; no route/reward/current-availability claim promoted. Position-lock and acquisition mechanics remain open.
+- **Ledger (T143 close):** 802 records · 605 unique visited URLs · 398 unvisited leads. Two creator-video pages were read, but frames were not inspected and no acquisition claim is promoted; FTG `Cult Heroes Tournament` query returned zero for that phrase only. Google Play screenshot #18 and one YouTube thumbnail were blocked (HTTP 500); #19–24 remain uninspected. Route/rewards and position-lock remain open.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 143):**
+- **Next exact action (Turn 144):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if reset recurs.
-  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior; no spending advice, absence claim, or dimension closure.
-  3. Do not retry blocked Facebook/TikTok pages or repeat T142 social queries, completed store/event URLs, or Play screenshot URLs #1–17.
+  2. Seek distinct first-party or in-game evidence for Cult Heroes acquisition route/rewards or DLS26 position behavior; no spending advice, absence claim, or dimension closure.
+  3. Do not retry screenshot #18, the RrUB thumbnail, or prior blocked media; do not repeat the T143 FTG query or completed video pages. Screenshots #19–24 remain uninspected and low priority.
   4. Keep “DLS26 has no position locking” labeled user-stated; verification remains owed. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -385,3 +385,8 @@
 - Recovered reset checkout `fb9a2c0`: archived/byte-verified 369 working files at `/tmp/dls26-t142-recovery-20261006091359.tar.gz` (SHA-256 `ca68fe0a9c29aa01bd5fe7f395b5223e8fbeb5e29e9a2d12b8f03970e6f7959c`), fetched/restored pushed tip `08f57cc`, restored upstream and repo-local identity, and retained safety stash `2b999af`. ISSUE-0014 occurrence #104.
 - Four social web searches were logged. A Facebook search snippet says “Collect them in game now,” but no exact post URL/date was found and the direct profile URL remains blocked. Exact phrase search surfaces an already logged old DLS25 TikTok with concatenated Cult Heroes wording; attribution is unresolved. No route/reward/position fact promoted.
 - Ledger **797/600/400**. Both research dimensions remain open. Close `2026-10-06T03:16:50Z`. Next input expected: `>`.
+## Turn 143 closeout
+
+- Recovered reset checkout `fb9a2c0`: archived/byte-verified 371 working files at `/tmp/dls26-t143-recovery-20261006091855.tar.gz` (SHA-256 `3b231f6c16036a9d9ba57de6839349cb893a586b0d60de9928001ffbd2a3ce8f`), fetched/restored pushed tip `51fc3fd`, restored upstream and repo-local identity, and retained safety stash `d55a46d`. ISSUE-0014 occurrence #105.
+- Read two secondary creator-video pages, with no frames inspected or route/reward claims promoted; FTG Help Center `Cult Heroes Tournament` exact query returned zero. Play screenshot #18 and RrUB thumbnail failed HTTP 500; no image content. #19–24 remain uninspected.
+- Ledger **802/605/398**. Route/rewards and position-lock remain open. Close `2026-10-06T03:22:46Z`. Next input expected: `>`.
