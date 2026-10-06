@@ -22399,10 +22399,101 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T155",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t156-instagram-profile-api-firsttouchgames-official-403",
+      "domain": "instagram.com",
+      "url": "https://www.instagram.com/api/v1/users/web_profile_info/?username=firsttouchgames_official",
+      "exact_url": "https://www.instagram.com/api/v1/users/web_profile_info/?username=firsttouchgames_official",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Distinct Instagram profile-data endpoint for username firsttouchgames_official returned HTTP 403. No JSON/profile/post content; no inference about profile contents.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T156",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t156-websearch-official-ftg-youtube-channel",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:youtube.com/@FirstTouchGames \"Cult Heroes\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "One result surfaced the `firsttouchgames` YouTube channel at the handle URL, with a studio description and linked corporate/social accounts. No Cult Heroes-specific post appeared in this one-result search response; this is not absence evidence.",
+      "search_results": [
+        {
+          "url": "https://www.youtube.com/@firsttouchgames",
+          "title": "firsttouchgames",
+          "description": "FTG studio description; sameAs links to firsttouchgames.com and twitter.com/firsttouchgames."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T156",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t156-youtube-firsttouchgames-channel-page",
+      "domain": "youtube.com",
+      "url": "https://www.youtube.com/@firsttouchgames",
+      "exact_url": "https://www.youtube.com/@firsttouchgames",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed. Returned text begins with an `Error 401 (Bad Request)` stanza, then renders channel/profile content; do not label this as an HTTP 401 response.",
+      "payload_summary": "Channel page titled `firsttouchgames` displayed the DLS26 launch trailer, a general DLS26 description, and account links: Instagram `playdls`, Facebook `dreamleaguesoccer`, TikTok `dreamleaguesoccer.ftg`, plus the FTG DLS download page. It lists the DLS26 official teaser and older DLS videos. No Cult Heroes acquisition route/reward guidance appeared in the visible channel content. The page links to the accounts; this supports which handles to investigate, not current event availability.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T156",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t156-instagram-playdls-profile-403",
+      "domain": "instagram.com",
+      "url": "https://www.instagram.com/playdls/",
+      "exact_url": "https://www.instagram.com/playdls/",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Instagram profile URL linked from the First Touch Games YouTube channel returned HTTP 403. No profile body or posts retrieved; no inference about contents.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T156",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t156-instagram-playdls-profile-json-403",
+      "domain": "instagram.com",
+      "url": "https://www.instagram.com/api/v1/users/web_profile_info/?username=playdls",
+      "exact_url": "https://www.instagram.com/api/v1/users/web_profile_info/?username=playdls",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Distinct Instagram profile-data URL for username playdls returned HTTP 403. No JSON/profile/post content; do not infer absence of relevant posts.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T156",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t156-websearch-playdls-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:instagram.com/playdls \"Cult Heroes\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "One Instagram profile result for Dream League Soccer `@playdls`; search snippet says DLS26 is out now. No Cult Heroes-specific post, route or reward result was returned. Direct profile and profile-data fetches in T156 returned HTTP 403. Search coverage is limited; no absence inference.",
+      "search_results": [
+        {
+          "url": "https://www.instagram.com/playdls/",
+          "title": "Dream League Soccer (@playdls) • Instagram photos and videos",
+          "description": "Search snippet identifies Dream League Soccer and says “Dream League Soccer 2026 is out now.”"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T156",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 623,
+    "visited_total": 627,
     "unvisited_total": 390,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
