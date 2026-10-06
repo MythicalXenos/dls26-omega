@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 137 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 138 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T137 close):** 781 records · 584 unique visited URLs · 406 unvisited leads. FTG `change formation` page 1 is complete; page 2 is partial (chunk 0/15 read, chunks 1–14 unread) and low priority because visible results are Score! Match/Ultimate Clash Soccer, not DLS26. The DLS Running-behaviour excerpt remains movement context only. Cult Heroes route/rewards and position-lock remain open.
+- **Ledger (T138 close):** 787 records · 590 unique visited URLs · 403 unvisited leads. FTG `Cult Heroes Agents event` exact query returned count 0. `assign player position` is partial (chunk0/9; visible results are other products). Play screenshots #13–16 failed before HTTP; 8 remain untried. Cult Heroes route/rewards and position-lock remain open.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 138):**
+- **Next exact action (Turn 139):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if reset recurs.
-  2. Prioritize distinct first-party/in-game Cult Heroes route/reward or DLS26 position-lock evidence. Do not repeat `change formation` page-1 chunks0–6, page-2 chunk0, `Agent rewards`, or blocked Play asset URLs #1–12.
-  3. Keep page-2 chunks1–14 as a low-priority mixed-title continuation; do not transfer Score! Match or Ultimate Clash Soccer mechanics to DLS26 or infer query-wide absence.
+  2. Prioritize a distinct, high-value first-party/in-game source for Cult Heroes route/rewards or DLS26 position behavior; do not repeat exact completed searches or Play screenshot URLs #1–16.
+  3. Keep FTG `assign player position` chunks1–8 and `change formation` page2 chunks1–14 as partial, low-priority leads because visible results are cross-title. Remaining Play screenshots #17–24 are also low priority after 16 distinct asset failures; do not claim their contents.
   4. Keep position-lock user-stated/unverified; no spending advice, scope closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -360,3 +360,8 @@
 - Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:45:35 +0600`). Archived 359 files at `/tmp/dls26-t137-recovery-20261006084542.tar.gz`, SHA-256 `b041ab7c77fe0da05bfe641c2a4ba3159c4a4d9e87412ea73b737243690a6314`; fetched/restored pushed tip `7bb069a`, configured upstream and repo-local identity, and byte-verified all 359 files. ISSUE-0014 occurrence #99; recovery safety stash retained.
 - Retried FTG `change formation` page1 chunk 2 successfully; page1 chunks 0–6 are complete. Fetched page2 chunk0/15; visible hits are Score! Match and Ultimate Clash Soccer, not DLS26. Page2 chunks1–14 remain explicitly low priority; no cross-title transfer or absence inference.
 - Ledger **781/584/406**. Both research dimensions remain open. Close `2026-10-06T02:47:15Z`. Next input expected: `>`.
+## Turn 138 closeout
+
+- Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:49:41 +0600`). Archived 361 files at `/tmp/dls26-t138-recovery-20261006084949.tar.gz`, SHA-256 `85fd6d22989a409224f41ea07ef7f1cb4f3db023a391ed11d26adbaa67618715`; fetched/restored pushed tip `c1ed75b`, configured upstream and repo-local identity, and byte-verified all 361 files. ISSUE-0014 occurrence #100; recovery safety stash retained.
+- FTG `Cult Heroes Agents event` exact query returned count=0. `assign player position` is partial (chunk0/9; visible results are Score! Match/Ultimate Clash Soccer). Four distinct Play screenshot assets #13–16 failed TLS before HTTP; zero bytes and no visual inference.
+- Ledger **787/590/403**. Both research dimensions remain open. Close `2026-10-06T02:53:15Z`. Next input expected: `>`.

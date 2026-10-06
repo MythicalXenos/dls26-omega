@@ -1290,3 +1290,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 359 files, SHA-256 `b041ab7c77fe0da05bfe641c2a4ba3159c4a4d9e87412ea73b737243690a6314`; fetched/restored and byte-verified pushed tip `7bb069a`, upstream and repo-local identity; ISSUE-0014 #99.
 - Two retrievals: page1 chunk2 retry succeeded, completing page1 chunks0–6; page2 chunk0/15 returned Score! Match/Ultimate Clash Soccer results. Page2 chunks1–14 low priority and unread. No cross-title transfer or absence inference.
 - Ledger **781/584/406**. Both dimensions remain open. Close `2026-10-06T02:47:15Z`.
+
+
+## TURN 138 (2026-10-06) — FTG query and Play screenshot probes
+- Recovery: reset `fb9a2c0`; archived 361 files, SHA-256 `85fd6d22989a409224f41ea07ef7f1cb4f3db023a391ed11d26adbaa67618715`; fetched/restored and byte-verified pushed tip `c1ed75b`, upstream and repo-local identity; ISSUE-0014 #100.
+- FTG `Cult Heroes Agents event` count=0 (phrase-scoped); `assign player position` partial chunk0/9, visible initial hits cross-title.
+- Play screenshot assets #13–16: all curl exit35 / HTTP000 / zero bytes; no images inspected. Eight URLs #17–24 remain untried. Ledger **787/590/403**. Both dimensions open. Close `2026-10-06T02:53:15Z`.

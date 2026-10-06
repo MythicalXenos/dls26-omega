@@ -1565,3 +1565,7 @@ An FTG DLS player-stats/behaviour excerpt retrieved during the partial `change f
 ## T137 FTG formation query page-2 cross-title results
 
 FTG `change formation` page 1 (7/7 chunks) is complete. The DLS Running-behaviour excerpt concerns in-match movement relative to formation position, not squad assignment or locking; no DLS26 version stamp. Page 2 chunk0/15 surfaced Score! Match and Ultimate Clash Soccer content, including formation/ball-position behavior explicitly tied to UCSS. Do not transfer cross-title mechanics to DLS26. Page-2 chunks1–14 remain unread and low priority; no query-wide absence inference. Provenance: `source_archive/t137_ftg_change_formation_page2.md`.
+
+## T138 FTG queries and official Play asset failures
+
+FTG `Cult Heroes Agents event` exact query returned count=0; this is not global absence. FTG `assign player position` is partial (chunk0/9) and the visible hits are Score! Match/Ultimate Clash Soccer, not DLS26. Official Play screenshot URLs #13–16 failed TLS before HTTP, with zero bytes; no image contents inferred. Provenance: `source_archive/t138_ftg_and_play_first_party_probes.md`.
