@@ -57,16 +57,17 @@
 - **T97 source:** FTG `player position` page 2 complete (0–6/7); page 3 partial at 0/9, resume chunkIndex=1; page 4 unread. DLS Leaderboards “position” means rank; UCSS/Score! results are other products. Archive `source_archive/t97_ftg_player_position_query_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn97-player-position-query-progress.md`.
 - **T98 source:** FTG `player position` query page 3 is read through chunks 0–6/9; resume at chunkIndex=7 (chunks 7–8 remain); page 4 unread. Season Pass tier locks/other-product results are not squad-position evidence. Archive `source_archive/t98_ftg_player_position_page3_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn98-player-position-page3-progress.md`.
 - **T99 source:** FTG `player position` page 3 complete (0–8/9); page 4 partial at 0–3/9, resume chunkIndex=4. DLS Season Pass tier locks concern reward progression; rank wording is not squad-player position. Archive `source_archive/t99_ftg_player_position_page4_progress.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn99-player-position-page4-progress.md`.
+- **T106 source:** X discovery search returned only old/unrelated snippets; Reddit 1vtm4ty JSON attempt returned HTTP 403/no payload. No game facts established. Provenance: `source_archive/t106_x_and_reddit_cult_heroes_checks.md`.
 - **T105 source:** FTG Help Center `Cult Heroes` query with locale=de is complete (52 results/3 pages). Fuzzy results are other products/generic help; no DLS26 route/reward facts and no absence inference. Provenance: `source_archive/t105_ftg_cult_heroes_locale_de_complete.md`.
 - **T104 source:** FTG Help Center `Cult Heroes` query with `locale=de`; page 1/3 chunks0–5/6 complete, unrelated Score!/8 Ball Hero results; no DLS26 route/reward evidence and no absence inference. Resume at the returned page-2 URL in `source_archive/t104_ftg_cult_heroes_locale_de_partial.md`.
 - **T103 source:** FTG `squad position` query complete (25 results, one API page, chunks 0–9/10); no DLS26 position-lock rule surfaced in this mixed search, no absence inference. Archive `source_archive/t103_ftg_squad_position_query_complete.md`.
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 106):**
+- **Next exact action (Turn 107):**
   1. Record the clock first; verify branch/status/upstream/identity and archive before cleanup if reset checkout recurs.
-  2. Do not repeat the completed FTG `Cult Heroes` locale=de query, the `player position`/`squad position` searches, or generic official-site searches. Select a distinct first-party/in-game lead that could directly establish event route/rewards or position-lock behavior.
-  3. Keep DLS26 no-position-lock explicitly `user-stated` and unverified pending Step-3 device setup. Do not use search snippets, blocked pages, or other-product mechanics as evidence.
+  2. Check this distinct queued TikTok URL first: `https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7503572653068848417`. Verify page/account/content directly before treating it as first-party; do not use snippets or infer from a block.
+  3. Keep DLS26 no-position-lock explicitly `user-stated` and unverified pending Step-3 device setup; do not infer from blocked or mixed sources.
   4. Keep Cult Heroes availability/route/cost/rewards unresolved; no spending advice or exhaustion declaration. Maintain ≤6 retrievals, ≤10 tools, ≤4 wrap-up calls; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -179,3 +180,8 @@
 
 - Completed the 52-result, three-page FTG `Cult Heroes` locale=de API search. No DLS26 event route/reward information surfaced; no absence inference.
 - Ledger: **708 entries / 526 visited URLs / 405 unvisited leads**. Both core questions remain unresolved. Close time: 2026-10-05T23:54:37Z. Next input expected: `>`.
+
+## Turn 106 closeout
+
+- Two retrievals: one X search (historical/unrelated results only) and one Reddit JSON attempt (HTTP 403/no payload). No gameplay claim established.
+- Ledger: **710 entries / 528 visited URLs / 405 unvisited leads**. Both target questions remain unresolved. Close time: 2026-10-06T00:00:23Z. Next input expected: `>`.

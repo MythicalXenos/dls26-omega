@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-05T23:54:37Z",
+  "last_reconciled_at": "2026-10-06T00:00:23Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -19512,10 +19512,85 @@
       "retrieval_tool": "functions.fetch_page",
       "search_query": "Cult Heroes (locale=de), page 2",
       "source_screen_outcome": "Fuzzy Help Center results from other FTG products and generic account/help articles; no DLS26 event-specific route/reward evidence. No absence inference."
+    },
+    {
+      "source_id": "t106-web-search-x-cult-heroes",
+      "url": "web-search://query?q=site%3Ax.com%2Ffirsttouchgames%20%22Cult%20Heroes%22%20%22Dream%20League%20Soccer%22",
+      "domain": "web-search (non-HTTP tool result)",
+      "fetched_at": "2026-10-06T00:00:23Z",
+      "retrieved_at": "2026-10-06T00:00:23Z",
+      "retrieval_role": "discovery-search",
+      "tool": "web_search",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "not applicable — web_search returned status=success; no result page fetched",
+      "source_type": "discovery-search; result snippets only",
+      "language": "en",
+      "payload_path": "source_archive/t106_x_and_reddit_cult_heroes_checks.md",
+      "payload_summary": "Exact query: site:x.com/firsttouchgames \"Cult Heroes\" \"Dream League Soccer\"\nReturned five old posts (2016, 2017, 2020, 2022, 2023) about older DLS releases/support or Score! Hero; no Cult Heroes content. Search snippets are discovery only; no X page fetched. Per-call time not exposed; timestamp is T106 closeout reconciliation.",
+      "search_query": "site:x.com/firsttouchgames \"Cult Heroes\" \"Dream League Soccer\"",
+      "search_results": [
+        {
+          "title": "Dream League Soccer 2026 on X: DLS 2016 announcement",
+          "url": "https://x.com/firsttouchgames/status/702839782536306689",
+          "page_age": "Thursday, February 25, 2016",
+          "snippet": "Search snippet says DLS 2016 was released; unrelated to Cult Heroes."
+        },
+        {
+          "title": "Dream League Soccer 2026 on X: support email reply",
+          "url": "https://x.com/firsttouchgames/status/913437994836774912",
+          "page_age": "Thursday, September 28, 2017",
+          "snippet": "Search snippet directs a user to support@ftgames.com; unrelated."
+        },
+        {
+          "title": "Dream League Soccer 2026 on X: DLS 2023 release",
+          "url": "https://x.com/firsttouchgames/status/1599809633505476618?lang=en",
+          "page_age": "Monday, December 05, 2022",
+          "snippet": "Search snippet announces DLS 2023; unrelated to Cult Heroes."
+        },
+        {
+          "title": "Dream League Soccer 2026 on X: Score! Hero season",
+          "url": "https://x.com/firsttouchgames/status/1288101923422457857",
+          "page_age": "Tuesday, July 28, 2020",
+          "snippet": "Search snippet concerns a Score! Hero season; another product."
+        },
+        {
+          "title": "Dream League Soccer 2026 en X: DLS24 teaser",
+          "url": "https://x.com/firsttouchgames/status/1728091021194543513",
+          "page_age": "2023",
+          "snippet": "Search snippet says “Not long to go now” with #DLS24; unrelated."
+        }
+      ],
+      "processing_state": "complete discovery search; only historical/unrelated posts surfaced; no page-level content fetched",
+      "source_screen_outcome": "No Cult Heroes-specific X result surfaced in this search. Do not infer absence from search results or treat snippets as source facts.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": []
+    },
+    {
+      "source_id": "t106-reddit-cult-heroes-json-blocked",
+      "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/.json?raw_json=1",
+      "domain": "reddit.com",
+      "fetched_at": "2026-10-06T00:00:23Z",
+      "retrieved_at": "2026-10-06T00:00:23Z",
+      "retrieval_role": "research",
+      "tool": "functions.fetch_page chunkIndex 0",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": "403 (reported by fetch_page; no payload)",
+      "source_type": "user-generated Reddit thread JSON endpoint; blocked",
+      "language": "en",
+      "payload_path": "source_archive/t106_x_and_reddit_cult_heroes_checks.md",
+      "payload_summary": "Attempted the previously queued 1vtm4ty Cult Heroes thread JSON endpoint with raw_json=1. fetch_page returned error: “Failed to fetch page (HTTP 403)”. No body or image content was returned. The earlier HTML route was already blocked; do not infer thread content or absence.",
+      "search_query": null,
+      "search_results": [],
+      "processing_state": "blocked (HTTP 403); no payload; no thread claim assessed",
+      "source_screen_outcome": "Blocked retrieval is not evidence about the post contents, in-game route, or event availability.",
+      "conflicts": [],
+      "affected_kb_claims": [],
+      "discovered_not_yet_visited": []
     }
   ],
   "frontier": {
-    "visited_total": 526,
+    "visited_total": 528,
     "unvisited_total": 405,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

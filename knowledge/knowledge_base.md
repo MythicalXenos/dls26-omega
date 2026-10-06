@@ -1444,3 +1444,8 @@ A distinct `locale=de` query returned 52 results/3 pages. Page 1 chunks 0–5/6 
 ## TURN 105 (2026-10-06) — FTG `Cult Heroes` locale=de search complete
 
 Completed all 52 results across three pages (page1 T104; page2 chunks0–4/5 and page3 chunk0/1 in T105). The fuzzy results are mostly Score! Hero/8 Ball Hero and generic account/privacy help, with en-us article metadata despite `locale=de`. No DLS26 Cult Heroes availability, route, cost or reward detail surfaced; no global absence inference. Provenance: `source_archive/t105_ftg_cult_heroes_locale_de_complete.md`.
+
+
+## TURN 106 (2026-10-06) — X search and Reddit JSON source check
+
+A targeted X search surfaced only historical/unrelated posts; it is discovery-only and does not establish absence. A distinct Reddit `.json?raw_json=1` endpoint returned HTTP 403 with no payload; no post content was assessed. Neither retrieval verifies Cult Heroes mechanics or DLS26 position locking. Provenance: `source_archive/t106_x_and_reddit_cult_heroes_checks.md`.

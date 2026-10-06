@@ -1094,3 +1094,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout `fb9a2c0`; archived 290 files, SHA-256 `e51e4f0d7fd468a305d69bd5a8f5fa6e0d0f1c7ea7b6d96a2a73880efd06a9d1`; restored session tip `94465d0`, upstream, and repo-local identity. Only T105 clock-start append differed; ISSUE-0014 #67 logged.
 - Completed page2 chunks0–4/5 and page3 chunk0/1 (six retrievals); full query 52 results/3 pages. Fuzzy unrelated products/generic account help; no DLS26 route/reward fact or absence inference.
 - Ledger **708 / 526 / 405**. Cult Heroes and DLS26 position-lock remain open. Close marker `2026-10-05T23:54:37Z`.
+
+
+## TURN 106 (2026-10-06) — X/Reddit source check
+- Recovery: reset checkout `fb9a2c0`; archived 292 files, SHA-256 `bd5903fa2982a0e4c6f9f55c761f31fde9085769302fff8f453bd578c83931b3`; restored session tip `bf6b3c1`, upstream, and repo-local identity. Only T106 clock-start append differed; ISSUE-0014 #68 logged.
+- Two retrievals: X search returned historical/unrelated snippets only; Reddit `.json?raw_json=1` endpoint returned HTTP 403/no payload. No inference from either.
+- Ledger **710 / 528 / 405**. Cult Heroes and DLS26 position-lock unresolved. Close marker `2026-10-06T00:00:23Z`.
