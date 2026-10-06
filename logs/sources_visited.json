@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T01:13:36Z",
+  "last_reconciled_at": "2026-10-06T01:17:57Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20255,10 +20255,88 @@
       "processing_state": "complete for this exact CDX lookup; no snapshot URL discovered",
       "deception_screen": "No DLS26 game claim; do not generalize the empty exact-query result.",
       "processing_status": "index response recorded; no snapshot fetch"
+    },
+    {
+      "retrieved_at": "Logged at T121 close 2026-10-06T01:17:57Z; individual tool execution timestamp not exposed.",
+      "language": "en",
+      "conflicts": [],
+      "kb_claims": [],
+      "payload_path": "source_archive/t121_targeted_searches_and_ftg_query.md",
+      "also_seen": [],
+      "source_id": "discovery-t121-reddit-cult-heroes-agent-screenshot",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "site:reddit.com/r/DreamLeagueSoccer \"Cult Heroes\" \"Agent\" \"DLS26\" screenshot",
+      "domain": "web-search (Reddit DLS subreddit scope)",
+      "retrieval_role": "discovery only; no page retrieval",
+      "tool": "functions.web_search",
+      "http_status": "not exposed by search tool; status=success",
+      "source_type": "search-result query only",
+      "payload_summary": "The search tool returned status=success with an empty results array. No Reddit page, post, image, or in-game capture was fetched. This exact query result does not establish absence.",
+      "processing_state": "complete for query; no lead to follow",
+      "deception_screen": "No post or game claim accepted; no absence inference.",
+      "processing_status": "discovery-only search recorded",
+      "discovered_not_yet_visited": [],
+      "search_results": []
+    },
+    {
+      "retrieved_at": "Logged at T121 close 2026-10-06T01:17:57Z; individual tool execution timestamp not exposed.",
+      "language": "en",
+      "conflicts": [],
+      "kb_claims": [],
+      "payload_path": "source_archive/t121_targeted_searches_and_ftg_query.md",
+      "also_seen": [],
+      "source_id": "discovery-t121-reddit-dls26-out-of-position-formation",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "site:reddit.com/r/DreamLeagueSoccer \"out of position\" \"DLS26\" formation players",
+      "domain": "web-search (Reddit DLS subreddit scope)",
+      "retrieval_role": "discovery only; no page retrieval",
+      "tool": "functions.web_search",
+      "http_status": "not exposed by search tool; status=success",
+      "source_type": "search-result query only",
+      "payload_summary": "The search tool returned status=success with an empty results array. No Reddit page, video, image, or in-game capture was fetched. This exact query result does not establish absence.",
+      "processing_state": "complete for query; no lead to follow",
+      "deception_screen": "No post or game claim accepted; no absence inference.",
+      "processing_status": "discovery-only search recorded",
+      "discovered_not_yet_visited": [],
+      "search_results": []
+    },
+    {
+      "retrieved_at": "Logged at T121 close 2026-10-06T01:17:57Z; individual tool execution timestamp not exposed.",
+      "language": "en",
+      "conflicts": [],
+      "kb_claims": [],
+      "payload_path": "source_archive/t121_targeted_searches_and_ftg_query.md",
+      "also_seen": [
+        "https://support.ftgames.com/hc/en-us/articles/360001808418-What-does-the-Reset-Game-button-do"
+      ],
+      "source_id": "t121-ftg-cult-heroes-unlock-api",
+      "event_type": "first-party-help-search",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Cult%20Heroes%20unlock",
+      "domain": "support.ftgames.com",
+      "retrieval_role": "FTG public Help Center API query",
+      "tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "not exposed by fetch_page; tool status=success",
+      "source_type": "first-party Help Center API search response; one fuzzy result",
+      "payload_summary": "Exact query `Cult Heroes unlock` returned count=1, page_count=1, next_page=null. The sole result is “What does the Reset Game button do?” (article 360001808418; section_id 360000489137), with Hero Bux/reset wording; it is not a DLS26 Cult Heroes route/reward or position-lock source. No absence inference.",
+      "processing_state": "complete for exact query response; result classified as non-DLS target",
+      "deception_screen": "Fuzzy search result is unrelated to DLS26; no transfer of another product wording.",
+      "processing_status": "query and result metadata recorded; no target evidence",
+      "discovered_not_yet_visited": [],
+      "search_results": [
+        {
+          "title": "What does the “Reset Game” button do?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360001808418-What-does-the-Reset-Game-button-do",
+          "article_id": 360001808418,
+          "section_id": 360000489137,
+          "body_summary": "Reset-game and Hero Bux wording; article returned embedded in the API search response. No direct article-page fetch."
+        }
+      ]
     }
   ],
   "frontier": {
-    "visited_total": 554,
+    "visited_total": 555,
     "unvisited_total": 410,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

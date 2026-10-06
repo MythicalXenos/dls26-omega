@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 120 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 121 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T120 close):** 737 records · 554 unique visited URLs · 410 unvisited leads. T120 added two exact-source query records and one failed asset URL; target questions remain open.
+- **Ledger (T121 close):** 740 records · 555 unique visited URLs · 410 unvisited leads. T121 added two search-only queries and one FTG API-query URL; no target evidence.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 121):**
+- **Next exact action (Turn 122):**
   1. Record the clock first; verify branch/status/upstream/identity and archive if the reset checkout recurs.
-  2. Choose a distinct unvisited first-party/in-game source for Cult Heroes route/rewards or DLS26 position-lock behavior; avoid completed exact queries, visited pages, blocked social URLs, and failed image URLs.
-  3. Keep 16 remaining Play screenshot links and Help Center page-2 chunks 1–4 low priority; do not generalize zero-result queries or blocked retrievals.
+  2. Select a distinct unvisited first-party/in-game source for Cult Heroes route/rewards or DLS26 position-lock behavior; avoid completed exact queries and pages already represented in the ledger.
+  3. Keep 16 remaining Play screenshot URLs and Help Center page-2 chunks 1–4 low priority; do not generalize from empty searches or unrelated-product results.
   4. Keep both questions open and position-lock explicitly `user-stated`/unverified pending Step-3 device setup. No spending advice or exhaustion declaration; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -269,3 +269,9 @@
 - Recovery: opening reset to `fb9a2c0`; archived 345 members at `/tmp/dls26-t120-recovery-20261006070940.tar.gz` (SHA-256 `4d9cad0689c3bafda508bbe3210902a60806c6954738a5a66c2c7d698a4b18c6`). Verified all 320 regular-file payloads byte-for-byte against the restored worktree. Restored `956c043`, upstream `origin/arena/01a1022d-dls26-omega`, and repo-local identity `DLS26 Omega <omega@dls26.local>`; no file-content loss.
 - Three retrievals: FTG exact Help Center API query returned zero results; screenshot URL 8 failed before HTTP/no bytes; exact Wayback CDX query returned `[]`. No image assessment, snapshot fetch, or absence inference.
 - Ledger: **737 / 554 / 410**. Both questions remain open; position-lock is user-stated/unverified. Close `2026-10-06T01:13:36Z`. Next input expected: `>`.
+
+## Turn 121 closeout
+
+- Recovery: opening reset to `fb9a2c0`; archived 347 members at `/tmp/dls26-t121-recovery-20261006071536.tar.gz` (SHA-256 `c07237d3ddd31653837b4296fca57414ea6e603c3bc4f09cbace2d5c02f5f3d7`). Verified all 322 regular-file payloads byte-for-byte against the restored worktree. Restored `0e63355`, upstream `origin/arena/01a1022d-dls26-omega`, and repo-local identity `DLS26 Omega <omega@dls26.local>`; no file-content loss.
+- Three retrievals: two distinct Reddit-scoped discovery queries returned empty result sets; the FTG Help Center query returned one fuzzy, non-DLS result. No post/page image or in-game capture was assessed; no absence inference.
+- Ledger: **740 / 555 / 410**. Both questions remain open; position-lock is user-stated/unverified. Close `2026-10-06T01:17:57Z`. Next input expected: `>`.
