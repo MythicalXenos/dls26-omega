@@ -1272,3 +1272,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 354 files, SHA-256 `68f09c560da531c54f29e566ea034c8cd7767bd25ea164eb5a461d53a168750c`; fetched/restored and byte-verified pushed tip `fc33db1`, upstream and repo-local identity; ISSUE-0014 #96.
 - Six retrieval calls resumed the exact `Agent rewards` result: chunks3–6,8 success; chunk7 HTTP 502/no payload; chunk9 not requested. Combined with T133: chunks0–6,8/10 successfully retrieved. Visible excerpts are generic/help content; no Cult Heroes inference. Next T135: retry only7 and fetch9.
 - Ledger **776/579/408**. Both research dimensions remain open. Close `2026-10-06T02:31:52Z`.
+
+
+## TURN 135 (2026-10-06) — FTG completion and Play screenshot probes
+- Recovery: reset `fb9a2c0`; archived 355 files, SHA-256 `685c5c37c5828397b533ca4633711626e2512746fe6dc15ccb51b904bd061e69`; fetched/restored and byte-verified pushed tip `9654c12`, upstream and repo-local identity; ISSUE-0014 #97.
+- Completed FTG `Agent rewards` exact query (all 10 chunks); generic/mixed material only. `Cult Heroes Agent rewards` count=0 for exact phrase. `change formation` partial (page1 chunk0/7, 2 pages; visible cross-title articles).
+- Two official Play assets #11–12 failed TLS, HTTP000/zero bytes; no visual inference, 12 remain untried. Ledger **780/583/406**. Both research dimensions open. Close `2026-10-06T02:39:43Z`.

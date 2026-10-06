@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 134 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 135 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T134 close):** 776 records · 579 unique visited URLs · 408 unvisited leads. FTG `lineup` is complete; `Agent rewards` remains partial (chunks 0–6 and 8 succeeded, chunk 7 returned HTTP 502, chunk 9 unread). Cult Heroes route/rewards and position-lock remain open.
+- **Ledger (T135 close):** 780 records · 583 unique visited URLs · 406 unvisited leads. FTG `Agent rewards` is complete for its exact query; `Cult Heroes Agent rewards` returned count 0 for that phrase; `change formation` remains partial (page 1 chunk 0/7 of 2 pages). Position-lock and Cult Heroes route/rewards remain open.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 135):**
-  1. Record the clock first; verify the fixed branch/status/upstream/repo-local identity; archive and recover from reset if needed.
-  2. Continue the same FTG `Agent rewards` response: retry chunkIndex=7 (T134 returned HTTP 502) and fetch chunkIndex=9 (not yet requested). Do not repeat successful chunks 0–6 or 8.
-  3. If both pending chunks return, close the exact query and use remaining retrieval capacity for distinct first-party/in-game Cult Heroes route/reward or DLS26 position evidence. If a chunk fails again, keep it explicitly partial; no absence inference.
+- **Next exact action (Turn 136):**
+  1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if a reset recurs.
+  2. Continue the partial FTG `change formation` query at page-1 chunkIndex=1 through 6; do not repeat chunk 0. Visible section metadata so far points to non-DLS/Score! Match material, not DLS26 position-lock evidence.
+  3. After page 1, assess the discovered page-2 endpoint only if still relevant; then prioritize distinct first-party/in-game Cult Heroes route/reward or DLS26 position evidence. The remaining 12 Play screenshot URLs are low-priority untried leads; never retry URLs #1–12.
   4. Keep position-lock user-stated/unverified; no spending advice, scope closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -344,3 +344,9 @@
 - Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:28:28 +0600`). Archived 354 files at `/tmp/dls26-t134-recovery-20261006082850.tar.gz`, SHA-256 `68f09c560da531c54f29e566ea034c8cd7767bd25ea164eb5a461d53a168750c`; fetched/restored pushed tip `fc33db1`, configured upstream and repo-local identity, and byte-verified all 354 files. ISSUE-0014 occurrence #96; a safety stash remains in `.git`.
 - Continued FTG `Agent rewards`: chunks 3–6 and 8 returned success; chunk 7 returned HTTP 502/no payload; chunk 9 was not requested. Combined with T133, chunks 0–6 and 8/10 are read. Visible results are general DLS/help material, not Cult Heroes-specific.
 - Ledger **776/579/408**. Both research dimensions remain open. Close `2026-10-06T02:31:52Z`. Next input expected: `>`.
+## Turn 135 closeout
+
+- Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:34:32 +0600`). Archived 355 files at `/tmp/dls26-t135-recovery-20261006083441.tar.gz`, SHA-256 `685c5c37c5828397b533ca4633711626e2512746fe6dc15ccb51b904bd061e69`; fetched/restored pushed tip `9654c12`, configured upstream and repo-local identity, and byte-verified all 355 files. ISSUE-0014 occurrence #97; recovery safety stash retained.
+- Completed FTG `Agent rewards` chunks 7 and 9; exact 10-chunk query now complete and generic/mixed only. New FTG `Cult Heroes Agent rewards` query returned count=0. New `change formation` query is partial (page1 chunk0/7, 2 pages), with visible cross-title results only.
+- Two untried official Play event screenshot URLs (#11, #12) failed TLS before HTTP, zero bytes; no visual inference; 12 remain untried.
+- Ledger **780/583/406**. Both research dimensions remain open. Close `2026-10-06T02:39:43Z`. Next input expected: `>`.
