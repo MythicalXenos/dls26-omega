@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T09:54:33Z",
+  "last_reconciled_at": "2026-10-06T09:58:23Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -23031,10 +23031,24 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T169",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t170-firsttouchgames-youtube-search-cult-heroes",
+      "domain": "youtube.com",
+      "url": "https://www.youtube.com/@firsttouchgames/search?query=Cult%20Heroes",
+      "exact_url": "https://www.youtube.com/@firsttouchgames/search?query=Cult%20Heroes",
+      "final_url": "https://www.youtube.com/@firsttouchgames/search",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": null,
+      "http_status_note": "Tool returned status=success, but rendered content contains an `Error 401 (Bad Request)` banner stating the request is malformed; numeric HTTP status was not separately exposed.",
+      "payload_summary": "Tried the official First Touch Games YouTube channel search path for `Cult Heroes`. The returned YouTube shell says “This channel has no content that matched \\\"Cult Heroes.\\\"” but also shows an Error 401/malformed-request banner, and the returned URL drops the query string. This is not a reliable zero-result search and is not evidence that no official content exists. Do not retry this exact URL.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T170",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 636,
+    "visited_total": 637,
     "unvisited_total": 390,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
