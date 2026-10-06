@@ -1484,3 +1484,8 @@ FTG Help Center `out of position` page 1 is complete (13 chunks); it returned mi
 ## TURN 113 source-screen note (no game-mechanics finding)
 
 Candidate Instagram profile `firsttouchgames_official` returned HTTP 403/no payload; ownership remains unverified. The FTG About page is generic corporate context and does not resolve Cult Heroes mechanics or DLS26 position locking. Provenance: `source_archive/t113_ftgames_about_and_instagram_block.md`.
+
+
+## TURN 114 source-screen note (store text only; no mechanics)
+
+BD-parameterized Play event page repeats generic limited-time copy, without route/cost/reward details. It exposes 24 screenshot links vs historical S-0023 note of 20; three direct GETs failed TLS/no bytes and 21 exact links remain queued. No visual or in-game claim. Provenance: `source_archive/t114_play_bd_event_screenshots.md`.

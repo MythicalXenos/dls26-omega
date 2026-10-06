@@ -1142,3 +1142,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (306 files; SHA-256 `8d367360d2adf2f533af217943ef2232e87bb74ba3bce717745c990afd8fc896`), then restored `e0c98a5`, upstream, and repo-local identity. No loss; ISSUE-0014 #75 logged.
 - Two retrievals: candidate Instagram URL HTTP 403/no payload; FTG About page generic corporate copy, no mechanics. No profile-ownership or absence inference.
 - Ledger **722 / 540 / 399**. Close marker `2026-10-06T00:33:03Z`.
+
+
+## TURN 114 (2026-10-06) — localized Play page and screenshot URL leads
+- Recovery: reset checkout archived (308 files; SHA-256 `152081a062bd91e433ea45c71036a2d4508c3f8fa5a2edcedaefc10a841cebb3`), then restored `70878db`, upstream, and repo-local identity. No loss; ISSUE-0014 #76 logged.
+- Six retrievals total: Instagram candidate 403/no payload; FTG About generic; BD Play event page generic copy; three screenshot GETs TLS EOF/no HTTP. 21 exact screenshot URLs queued; no visual interpretation.
+- First closeout helper stopped on a local NameError after source-ledger write only; finalization resumed from verified ledger state without repeating retrievals.
+- Ledger **726 / 544 / 418**. Close marker `2026-10-06T00:41:13Z`.
