@@ -1589,3 +1589,7 @@ A Facebook @dreamleaguesoccer search snippet says “Collect them in game now”
 ## T143 creator-video and media-access checks
 
 Two secondary YouTube pages described Cult Heroes Tournament play, but returned transcripts do not establish an acquisition route or reward; video frames were not inspected. The FTG Help Center `Cult Heroes Tournament` exact query returned count=0 only. Google Play screenshot #18 and one video thumbnail returned HTTP 500 without image payload. No game claim is promoted. Provenance: `source_archive/t143_youtube_videos_and_ftg_query.md`.
+
+## T144 Season Pass search context
+
+FTG Help Center `Cult Heroes Season Pass` search is partial (chunks 0–3/5). Visible DLS Season Pass FAQs describe generic free/premium progression, not a Cult Heroes Agent/card route. A “How do I get new players?” result is from Ultimate Clash Soccer section 7900693036561 and must not be transferred to DLS26. A Gam Man Soccer creator video forecast contains date/duration ambiguity and remains unverified; no route/reward fact is promoted. Provenance: `source_archive/t144_season_pass_query_and_creator_video.md`.

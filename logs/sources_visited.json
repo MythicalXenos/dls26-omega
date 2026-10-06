@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T03:22:46Z",
+  "last_reconciled_at": "2026-10-06T06:21:21Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -21760,12 +21760,21 @@
       "language": "image; visual content unavailable",
       "payload_summary": "Exact screenshot URL #18 from T114 inventory returned HTTP 500. No image bytes or visual content were received; infer nothing about the screenshot. Retire this exact URL and do not retry. Screenshots #19–24 remain uninspected; #1–18 are now retired.",
       "processing_state": "failed: HTTP 500; no image payload; exact URL retired",
-      "deception_screen": "No screenshot was inspected; do not infer a feature, event, or UI from the error.",
+      "deception_screen": "No screenshot was inspected; do not infer a feature, event, or UI from the error. T144 accidentally repeated this exact retired URL; another HTTP 500, no image. This duplicate is logged only in attempt_history; do not retry.",
       "conflicts": [],
       "kb_claims": [],
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t143_youtube_videos_and_ftg_query.md",
-      "processing_status": "attempt failed before image payload; no retry"
+      "processing_status": "attempt failed before image payload; no retry",
+      "attempt_history": [
+        {
+          "turn": "T144",
+          "retrieved_at": "T144; exact fetch timestamp not exposed",
+          "tool": "functions.fetch_page",
+          "result": "Failed to fetch page (HTTP 500)",
+          "context": "Accidental duplicate request of the exact screenshot #18 URL already retired in T143; no bytes or image content. Do not retry again."
+        }
+      ]
     },
     {
       "source_id": "discovery-t143-ftg-cult-heroes-tournament-zero",
@@ -21808,10 +21817,56 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t143_youtube_videos_and_ftg_query.md",
       "processing_status": "attempt failed before image payload; no retry"
+    },
+    {
+      "source_id": "page-t144-youtube-gamman-cult-hero-all-seasons-ugc",
+      "event_type": "secondary-video-page-render",
+      "url": "https://www.youtube.com/watch?v=vklnY84gMRU",
+      "domain": "youtube.com",
+      "retrieved_at": "T144 close 2026-10-06T06:21:21Z; exact fetch timestamp not exposed",
+      "retrieval_role": "inspect queued creator video making Cult Heroes Season Pass timing/reward claims; assess provenance and transcript without promoting claims",
+      "tool": "functions.fetch_page chunk 0",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "status=success; numeric HTTP status not exposed",
+      "source_type": "Public gaming creator YouTube page with description and transcript",
+      "language": "en and Bengali (description/transcript)",
+      "payload_summary": "Page identifies uploader Gam Man Soccer (@gamman1889), title “Cult Hero All Season Confirmed: Everything You Need To Know”, uploaded 2026-08-30, duration 2:26. The creator description advertises a Bangla guide and timestamps pass-season schedules. Transcript claims the Cult Heroes event arrives Sep 16, there are “one or two free agents” in season one, and season passes 1/2/3 arrive Sep 16/Sep 26/Oct 6; it says seasons run nine days, while the stated date gaps are about ten days and the transcript self-corrects Oct 3 to Oct 6. These are creator assertions/predictions, not FTG-confirmed facts. No on-screen frames were inspected and no specific acquisition route, cost, or reward condition was established.",
+      "processing_state": "page/transcript retrieved; video frames not inspected",
+      "deception_screen": "Secondary creator source; title and transcript use “confirmed” language but do not supply first-party provenance. Internal schedule/duration ambiguity. Do not promote the claims as current event facts or spending guidance.",
+      "conflicts": [
+        "The video’s claimed season spacing/duration is internally unclear; no official cross-check is established in this page."
+      ],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t144_season_pass_query_and_creator_video.md",
+      "processing_status": "secondary page only; schedule/agent claims unverified"
+    },
+    {
+      "source_id": "discovery-t144-ftg-cultheroes-season-pass-partial",
+      "event_type": "first-party-help-center-search-partial",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Cult%20Heroes%20Season%20Pass",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "T144 chunks 0–3; exact fetch timestamps not exposed",
+      "retrieval_role": "first-party phrase search for Cult Heroes Season Pass mechanics following creator schedule claims",
+      "tool": "functions.fetch_page chunks 0–3",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0,1,2,3",
+      "http_status": "all retrieved chunks status=success; numeric HTTP status not exposed",
+      "source_type": "FTG Help Center API search response",
+      "language": "en",
+      "payload_summary": "Exact query `Cult Heroes Season Pass` reports count=16, page_count=1, totalChunks=5. Chunks 0–3 were read; chunk 4 remains unread. Visible results include generic DLS Season Pass articles (including article 4404070913169, updated 2026-09-21 and applicable from DLS version 12.200 onward, describing general free/premium tracks and Season Points) but no Cult Heroes-specific Agent/card route in the read chunks. Other hits include older generic rewards and other FTG titles. The “How do I get new players?” result id 17146272243473 is in section 7900693036561 (Ultimate Clash Soccer); do not transfer its copy to DLS26.",
+      "processing_state": "partial: chunks 0–3/5 read; chunk 4 unread",
+      "deception_screen": "Search is full-text/fuzzy and mixed across FTG titles. Generic DLS Season Pass policy is not Cult Heroes-specific; UCSS/Score! Hero content is not DLS26 evidence. No absence inference.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "FTG Help Center `Cult Heroes Season Pass` exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Cult%20Heroes%20Season%20Pass`: result count=16/page_count=1/totalChunks=5. Chunks 0–3 were read in T144; chunkIndex=4 remains unread. Resume that exact response at chunkIndex=4 only. Visible results so far are generic Season Pass/player/rewards articles, mixed with Score! Hero and Ultimate Clash Soccer; no Cult Heroes-specific route or Agent reward was found in the read chunks. Do not transfer UCSS/Score! rules to DLS26 or infer absence."
+      ],
+      "payload_path": "source_archive/t144_season_pass_query_and_creator_video.md",
+      "processing_status": "partial exact query response; continue at chunkIndex 4 only"
     }
   ],
   "frontier": {
-    "visited_total": 605,
+    "visited_total": 607,
     "unvisited_total": 398,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
@@ -22178,7 +22233,6 @@
       "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings",
       "https://www.youtube.com/shorts/ro6fFJb8Vq0",
       "https://www.youtube.com/watch?v=WE8mXQhO6mw",
-      "https://www.youtube.com/watch?v=vklnY84gMRU",
       "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
       "https://www.youtube.com/watch?v=OIR9GPIf05o",
       "https://www.youtube.com/watch?v=gpvjf6qVl5c",
@@ -22211,7 +22265,8 @@
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
       "FTG Help Center `change formation` page 2/2 exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`: 48 results total; page 2 renders 15 chunks. Only chunkIndex=0 was read in T137; chunks 1–14 remain unread. Visible chunk 0 contains Score! Match article 360000250309 (section 115001619089) and “What are the rules of Ultimate Clash Soccer?” article 7918507871505 (section 7900693036561). Do not transfer either title’s formation/position rules to DLS26. Defer the remaining long mixed response as low priority unless a relevant lead emerges; no query-wide absence inference.",
       "FTG Help Center exact query `assign player position`: count=9, page_count=1, 9 rendered chunks; only chunkIndex=0 was retrieved. Visible initial hits include Score! Match section 115001619089 and Ultimate Clash Soccer section 7900693036561; do not transfer their player-position rules to DLS26. Chunks 1–8 remain unread. If continued, resume at chunkIndex=1; no absence inference.",
-      "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI."
+      "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
+      "FTG Help Center `Cult Heroes Season Pass` exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Cult%20Heroes%20Season%20Pass`: result count=16/page_count=1/totalChunks=5. Chunks 0–3 were read in T144; chunkIndex=4 remains unread. Resume that exact response at chunkIndex=4 only. Visible results so far are generic Season Pass/player/rewards articles, mixed with Score! Hero and Ultimate Clash Soccer; no Cult Heroes-specific route or Agent reward was found in the read chunks. Do not transfer UCSS/Score! rules to DLS26 or infer absence."
     ]
   }
 }
