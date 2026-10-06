@@ -1149,3 +1149,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Six retrievals total: Instagram candidate 403/no payload; FTG About generic; BD Play event page generic copy; three screenshot GETs TLS EOF/no HTTP. 21 exact screenshot URLs queued; no visual interpretation.
 - First closeout helper stopped on a local NameError after source-ledger write only; finalization resumed from verified ledger state without repeating retrievals.
 - Ledger **726 / 544 / 418**. Close marker `2026-10-06T00:41:13Z`.
+
+
+## TURN 115 (2026-10-06) — screenshot image access attempts
+- Recovery: reset checkout archived (310 files; SHA-256 `600a4b8b0a3f0f75382891967e590a739eb3e0c6e88a5140847f106da8b94d28`), then restored `1f1c1ce`, upstream, and repo-local identity. No loss; ISSUE-0014 #77 logged.
+- Three retrievals: Play screenshot URLs 4–6 via fetch_page each returned HTTP 500/no payload. No visual evidence; URLs 7–24 remain queued.
+- Ledger **729 / 547 / 415**. Close marker `2026-10-06T00:43:12Z`.

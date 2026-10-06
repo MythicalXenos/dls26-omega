@@ -1489,3 +1489,8 @@ Candidate Instagram profile `firsttouchgames_official` returned HTTP 403/no payl
 ## TURN 114 source-screen note (store text only; no mechanics)
 
 BD-parameterized Play event page repeats generic limited-time copy, without route/cost/reward details. It exposes 24 screenshot links vs historical S-0023 note of 20; three direct GETs failed TLS/no bytes and 21 exact links remain queued. No visual or in-game claim. Provenance: `source_archive/t114_play_bd_event_screenshots.md`.
+
+
+## TURN 115 source-screen note (no visual evidence)
+
+Three distinct Play screenshot URLs returned HTTP 500/no payload via `fetch_page`; no image contents were assessed. Eighteen exact links remain queued; do not infer absence from access failures. Provenance: `source_archive/t115_play_screenshot_fetch_blocked.md`.
