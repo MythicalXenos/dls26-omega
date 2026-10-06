@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T09:58:23Z",
+  "last_reconciled_at": "2026-10-06T10:01:30Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -23045,6 +23045,39 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T170",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t171-websearch-firsttouchgames-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; search returned an empty result set.",
+      "search_query": "site:firsttouchgames.com \"Cult Heroes\" \"DLS26\"",
+      "search_results": [],
+      "payload_summary": "This exact site-scoped discovery query returned no search results. It is a narrow search-index outcome only; it does not establish that FTG has no Cult Heroes content or that the event is absent.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T171",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t171-ftg-official-teaser-chunk1",
+      "domain": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=gpvjf6qVl5c",
+      "exact_url": "https://www.youtube.com/watch?v=gpvjf6qVl5c",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        1
+      ],
+      "http_status": null,
+      "http_status_note": "Requested chunk returned tool status=success; numeric HTTP status not exposed. T171 output reports totalChunks=163 and hasMore=true.",
+      "payload_summary": "Continued the FTG-linked official DLS26 teaser page at chunk 1 only. Title remains “Dream League Soccer 2026 | OFFICIAL TEASER TRAILER”; the returned text is a large player-configuration payload, not transcript or gameplay evidence. No Cult Heroes acquisition, reward, cost, player-list, or position-lock information surfaced. T146 recorded chunk 0/154; T171 reports 163 total chunks, so retain the discrepancy.",
+      "discovered_not_yet_visited_leads": [
+        "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c`: chunk 0 was read in T146 (that response reported 154 chunks); chunk 1 read in T171 reports `totalChunks=163` and `hasMore=true`. Chunks 0–1 read; chunks 2–162 remain unread under the latest response. The page is script-heavy/low priority; chunk 1 returned player configuration rather than transcript or Cult Heroes mechanics. Continue only if useful; preserve the 154-vs-163 count discrepancy."
+      ],
+      "turn": "T171",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
@@ -23438,7 +23471,7 @@
       "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence",
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
       "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
-      "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",
+      "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c`: chunk 0 was read in T146 (that response reported 154 chunks); chunk 1 read in T171 reports `totalChunks=163` and `hasMore=true`. Chunks 0–1 read; chunks 2–162 remain unread under the latest response. The page is script-heavy/low priority; chunk 1 returned player configuration rather than transcript or Cult Heroes mechanics. Continue only if useful; preserve the 154-vs-163 count discrepancy.",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched.",
       "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json — FTG help-center result “Why are my players auto-switching all the time?”; only result snippet/body in mixed query inspected, direct page not fetched; generic DLS control-selection context, not position-lock evidence."
     ]
