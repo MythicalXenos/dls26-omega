@@ -22252,10 +22252,157 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T154",
       "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t155-websearch-instagram-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:instagram.com/firsttouchgames \"Cult Heroes\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Search returned one Instagram profile result, `First Touch Games (@firsttouchgames_official)`, whose snippet self-describes as the official First Touch Games account. No Cult Heroes post or route was returned. The profile HTML was separately attempted in T155 and returned HTTP 403; no post content retrieved. This search sample is not proof of absence.",
+      "search_results": [
+        {
+          "url": "https://www.instagram.com/firsttouchgames_official/",
+          "title": "First Touch Games (@firsttouchgames_official) • Instagram photos and videos",
+          "description": "Search snippet self-identifies the account as official; profile not directly readable in T155."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T155",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t155-websearch-x-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:x.com/firsttouchgames \"Cult Heroes\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Returned a sample of @firsttouchgames X results dominated by historical unrelated posts (2016, 2017, 2020, 2022 and 2023-era DLS/other-game notices); no Cult Heroes-specific source appeared in the returned sample. Search indexing is partial and this is not evidence of absence. No X post was fetched in T155.",
+      "search_results": [
+        {
+          "url": "https://x.com/firsttouchgames/status/702839782536306689",
+          "title": "DLS 2016 release post (2016)"
+        },
+        {
+          "url": "https://x.com/firsttouchgames/status/913437994836774912",
+          "title": "Support-email reply (2017)"
+        },
+        {
+          "url": "https://x.com/firsttouchgames/status/1288101923422457857",
+          "title": "Score! Hero post (2020)"
+        },
+        {
+          "url": "https://x.com/firsttouchgames/status/1599809633505476618?lang=en",
+          "title": "DLS 2023 release post (2022)"
+        },
+        {
+          "url": "https://x.com/firsttouchgames/status/1728091021194543513",
+          "title": "DLS24 teaser (2023)"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T155",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t155-websearch-facebook-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:facebook.com/firsttouchgames \"Cult Heroes\" \"Dream League Soccer\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Returned an apparent First Touch Games Facebook profile and a mentions page, plus a similarly named `firsttouchgamess` page. Snippets contained general profile text, not Cult Heroes artwork, route or reward details. The root profile was separately fetched and returned HTTP 403; no page body/post was retrieved. Do not infer absence or treat the similar-name page as official.",
+      "search_results": [
+        {
+          "url": "https://www.facebook.com/firsttouchgames/",
+          "title": "First Touch Games (@firsttouchgames)"
+        },
+        {
+          "url": "https://www.facebook.com/firsttouchgames/mentions/",
+          "title": "First Touch Games mentions"
+        },
+        {
+          "url": "https://www.facebook.com/firsttouchgamess/",
+          "title": "FTG - First Touch Games (similar-name page; affiliation unverified)"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T155",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t155-websearch-youtube-cult-heroes",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:youtube.com \"DLS26\" \"Cult Heroes\" \"First Touch Games\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Search snippets returned DLS26/Cult Heroes tournament gameplay video titles, including two additional hits at xTqeXimUjv4 and RrUBfS1aeRM. Uploaders/ownership were not verified; no video was fetched and no gameplay, route, reward or availability claim is promoted. Other returned hits overlap existing frontier leads. Search results are discovery hints only, not first-party evidence.",
+      "search_results": [
+        {
+          "url": "https://www.youtube.com/watch?v=xTqeXimUjv4",
+          "title": "Dream League Soccer 2026: Cult Heroes Tournament Gameplay",
+          "page_age": "2026-10-02"
+        },
+        {
+          "url": "https://www.youtube.com/shorts/ro6fFJb8Vq0",
+          "title": "DLS 26 NEW EVENT FT CULT HEROES TOURNAMENT"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bI6nEX5hjBg",
+          "title": "DLS 26 Cult Heroes Tournament Champions with Yamal"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RrUBfS1aeRM",
+          "title": "DLS 26 Cult Heroes Tournament Champion with Mbappe",
+          "page_age": "2026-10-03"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
+          "title": "De Gea — Upgrade & Review | Cult Heroes | DLS26"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T155",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t155-instagram-profile-http403",
+      "domain": "instagram.com",
+      "url": "https://www.instagram.com/firsttouchgames_official/",
+      "exact_url": "https://www.instagram.com/firsttouchgames_official/",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct profile fetch returned HTTP 403; no profile body or posts retrieved. Do not infer account contents or absence of Cult Heroes material.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T155",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t155-facebook-profile-http403",
+      "domain": "facebook.com",
+      "url": "https://www.facebook.com/firsttouchgames/",
+      "exact_url": "https://www.facebook.com/firsttouchgames/",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct First Touch Games profile fetch returned HTTP 403; no page body or posts retrieved. Do not infer account contents or absence of Cult Heroes material.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T155",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 621,
+    "visited_total": 623,
     "unvisited_total": 390,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
