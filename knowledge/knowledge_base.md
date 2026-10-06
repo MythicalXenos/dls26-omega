@@ -1529,3 +1529,7 @@ T127 added no gameplay claim. The Canada App Store in-app-events API returned em
 ## T128 Play screenshot asset access failures
 
 Two queued official Play event screenshot URLs were attempted without image payloads (one HTTP 500; one curl TLS failure with HTTP 000). No visual/gameplay claim or absence inference is made. Fourteen screenshot URLs remain low priority. Provenance: `source_archive/t128_play_event_screenshot_fetch_failures.md`.
+
+## T129 FTG position-query completion
+
+T129 completed the remaining FTG Help Center `out of position` page-2 chunks 1–4; page 1 was already complete. The mixed results contain no explicit DLS26 squad-position-lock instruction. This does not establish absence or resolve the user-stated no-lock claim. Cult Heroes route/rewards remain open. Provenance: `source_archive/t129_ftg_out_of_position_page2_completion.md`.

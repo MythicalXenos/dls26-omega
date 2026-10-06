@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T02:01:11Z",
+  "last_reconciled_at": "2026-10-06T02:06:04Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -19777,16 +19777,15 @@
       "source_type": "official FTG Help Center search API; mixed-game results",
       "language": "en",
       "payload_path": "source_archive/t112_ftg_out_of_position_page1_complete_and_page2_partial.md",
-      "payload_summary": "Exact query `out of position`. Page 1 (25 results) is now complete, chunks 0–12/13 across T110–T112. Results are mixed FTG products. A DLS-labeled result concerns Running behavior and in-match movement relative to formation; other retrieved items include DLS graphics/customization and Dream League Live, Score! Match, Score! Hero, Ultimate Clash Soccer, and older DLS/FTS material. No squad position-lock rule appears in the retrieved page-1 results; this does not establish absence. Page 2 has 9 results; only chunk 0/5 read in T112, with DLS graphics-settings and DLS save-data articles; chunks 1–4 unread. The direct DLS stats article URL was already present in the machine ledger before T112.",
+      "payload_summary": "FTG Help Center exact query `out of position`: page 1 complete (chunks 0–12/13) and page 2 complete (chunks 0–4/5; last four chunks fetched T129). Mixed results cover running/formation movement, graphics, customization, account/save and other-product material; no explicit DLS26 squad-position-lock rule surfaced. No absence inference.",
       "search_query": "out of position",
       "search_results": [],
       "processing_state": "page 1 complete (13/13 chunks); page 2 partial (chunk 0/5); chunks 1–4 unread",
       "source_screen_outcome": "Mixed products and topics. The DLS Running-behavior result is about in-match movement, not a squad lock; page 2 is incomplete and no absence inference is warranted.",
       "conflicts": [],
       "affected_kb_claims": [],
-      "discovered_not_yet_visited": [
-        "FTG Help Center `out of position`: page 1 complete (chunks 0–12); page 2 chunk 0/5 read and returned graphics/save-data material; chunks 1–4/5 remain a low-priority continuation. Do not infer absence from the partial page 2."
-      ]
+      "discovered_not_yet_visited": [],
+      "processing_status": "both pages complete; T129 closed the page-2 continuation"
     },
     {
       "source_id": "t112-ftg-out-of-position-page2-partial",
@@ -19801,7 +19800,7 @@
       "source_type": "official FTG Help Center search API; page 2 partial, mixed-game results",
       "language": "en",
       "payload_path": "source_archive/t112_ftg_out_of_position_page1_complete_and_page2_partial.md",
-      "payload_summary": "Page 2 of the same exact FTG Help Center query reports 9 remaining results and 5 rendered chunks. Only chunk 0 was retrieved. It includes a DLS graphics-settings article and a DLS save-data storage/transfer article; no position-lock evidence in this chunk. Chunks 1–4 remain unread. This partial, mixed-topic page does not establish absence.",
+      "payload_summary": "Page 2 of the FTG Help Center `out of position` query is complete after T129 fetched chunks 1–4/5 (chunk 0 was read in T112). Nine mixed results; no explicit DLS26 squad-position-lock answer. Do not infer absence.",
       "search_query": "out of position",
       "search_results": [
         {
@@ -19817,9 +19816,9 @@
       "source_screen_outcome": "Retrieved results concern graphics settings and save-data, not position locks. Leave the remaining chunks in the frontier; do not infer absence.",
       "conflicts": [],
       "affected_kb_claims": [],
-      "discovered_not_yet_visited": [
-        "FTG Help Center `out of position`: page 1 complete (chunks 0–12); page 2 chunk 0/5 read and returned graphics/save-data material; chunks 1–4/5 remain a low-priority continuation. Do not infer absence from the partial page 2."
-      ]
+      "discovered_not_yet_visited": [],
+      "processing_status": "completed in T129; chunks 0–4/5 read; no lock conclusion",
+      "completed_by": "t129-ftg-out-of-position-page2-complete"
     },
     {
       "source_id": "t113-instagram-firsttouchgames-official-blocked",
@@ -20923,11 +20922,53 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t128_play_event_screenshot_fetch_failures.md",
       "processing_status": "attempted official screenshot asset; no payload"
+    },
+    {
+      "source_id": "t129-ftg-out-of-position-page2-complete",
+      "event_type": "first-party-help-center-query-completion",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=out+of+position",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "Logged at T129 close 2026-10-06T02:06:04Z; per-call timestamps not exposed.",
+      "retrieval_role": "complete the already-partial page-2 response for FTG Help Center `out of position` query",
+      "tool": "functions.fetch_page chunks 1–4 (parallel)",
+      "retrieval_tool": "functions.fetch_page chunkIndex 1, 2, 3, 4",
+      "http_status": "all four chunks returned status=success; numeric HTTP status not exposed",
+      "source_type": "FTG Help Center search API, mixed product/article results",
+      "language": "en",
+      "payload_summary": "Fetched page-2 chunks 1–4/5; with T112 chunk 0 and completed page 1, this exact two-page query is now complete. Additional results include DLS19 kit/logo customization, player appearance, DLS25 profile transfer, generic save/account/friend-match material, and Score! Match/Score! Hero articles. Search matches are largely incidental uses of “out” or generic position context; no explicit DLS26 squad-position-lock rule surfaced. This is not proof of absence.",
+      "processing_state": "complete: page 2 chunks 0–4/5; page 1 had already been completed in T110–T112",
+      "deception_screen": "Do not transfer older DLS/other FTG product material to DLS26; no DLS26 lock claim accepted.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t129_ftg_out_of_position_page2_completion.md",
+      "processing_status": "continuation complete; query remains non-conclusive for DLS26"
+    },
+    {
+      "source_id": "t129-x-cult-heroes-search-403",
+      "event_type": "official-social-search-attempt",
+      "url": "https://x.com/search?q=from%3Afirsttouchgames%20%22Cult%20Heroes%22&src=typed_query",
+      "domain": "x.com",
+      "retrieved_at": "Logged at T129 close 2026-10-06T02:06:04Z; per-call timestamps not exposed.",
+      "retrieval_role": "direct X search page for posts from the previously viewed FTG profile mentioning Cult Heroes",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "HTTP 403 (tool reported failed fetch); no page body",
+      "source_type": "X search page; no post content returned",
+      "language": "en",
+      "payload_summary": "Direct X search URL for `from:firsttouchgames \"Cult Heroes\"` returned HTTP 403 with no body. This is an access failure, not evidence about whether posts exist. Do not retry this exact URL.",
+      "processing_state": "blocked on exact X search URL",
+      "deception_screen": "No absence inference from the 403; do not use older profile snippets as current route evidence.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t129_ftg_out_of_position_page2_completion.md",
+      "processing_status": "attempted; no post/page content"
     }
   ],
   "frontier": {
-    "visited_total": 568,
-    "unvisited_total": 408,
+    "visited_total": 569,
+    "unvisited_total": 407,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -21321,7 +21362,6 @@
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
       "https://www.youtube.com/watch?v=zV0A6TI-BLY",
       "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence",
-      "FTG Help Center `out of position`: page 1 complete (chunks 0–12); page 2 chunk 0/5 read and returned graphics/save-data material; chunks 1–4/5 remain a low-priority continuation. Do not infer absence from the partial page 2.",
       "https://play-lh.googleusercontent.com/tEgeHK-qliU3iD1mI1Hm_mCOHRTLTGwqzdNOx0fFt8XraGUVAiTwcuCQTnWLUAwEgcMB7jPI25cqKP9SzusKHw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/_XzQcNoEgW7X1Fb8Jx0yjwMH90YYO3LNTkzdbZPnPyhaLLPHUrBty5-8WJimr9Y9eeLTMT_FbnHObPs3vJHOFnM=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/aEh1y9_WcQ_lh4_WpvCdaC6aqbRj1IhTkAXUoIxMtEkdzPLPmWRAAD9dMmnn0jSxXPbRhqfATsW4Yu3T5iejstE=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",

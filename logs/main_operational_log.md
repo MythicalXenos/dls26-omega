@@ -1236,3 +1236,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 339 files, SHA-256 `37fdd306c297ed1a223f6566ff1a1fac182baa90c06c045b715938de98567f1b`; restored/verified pushed tip `0f31a4b`, upstream, and repo-local identity; ISSUE-0014 #90.
 - Two distinct official Google Play event screenshot URLs attempted: one HTTP 500/no payload; one curl exit 35 TLS error (HTTP 000, zero bytes). No screenshot content or game fact. 14 other URLs remain low priority.
 - Ledger **763/568/408**. No dimension closed. Close `2026-10-06T02:01:11Z`.
+
+
+## TURN 129 (2026-10-06) — FTG position query completion
+- Recovery: reset `fb9a2c0`; archived 341 files, SHA-256 `b58a8587c6be8d0b5a7845ac62b8327633b2cece482012f6c6f39aa98a86a114`; restored/verified pushed tip `4937e60`, upstream and repo-local identity; ISSUE-0014 #91.
+- Completed FTG Help Center `out of position` page 2 chunks 1–4/5; page 1/page-2 query now complete. Mixed results do not contain an explicit DLS26 lock rule; no absence inference. X direct search returned HTTP 403/no body.
+- No new Cult Heroes facts. Ledger **765/569/407**. Close `2026-10-06T02:06:04Z`.
