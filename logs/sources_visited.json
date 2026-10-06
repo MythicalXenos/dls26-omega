@@ -22155,11 +22155,30 @@
       ],
       "turn": "T151",
       "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamps not exposed)"
+    },
+    {
+      "source_id": "t152-ftg-change-formation-page2-chunks11-14-complete",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "http_status": null,
+      "http_status_note": "All four requested chunks returned tool status=success; HTTP status not exposed.",
+      "payload_summary": "Completed page 2/2 of the mixed FTG Help Center query (48 results; 15 chunks). Visible final chunks contain legacy FTS15 kit customization, Score! Match/Score! Hero save and transfer articles, and Ultimate Clash Soccer attributes; no DLS26-specific position-lock guidance. The generic DLS auto-switch article remains distinct from position locking. No global-absence inference.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T152",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamps not exposed)"
     }
   ],
   "frontier": {
     "visited_total": 618,
-    "unvisited_total": 395,
+    "unvisited_total": 394,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -22550,7 +22569,6 @@
       "https://play-lh.googleusercontent.com/OR7NRBrBLI3FkmlQOrKcZ3qZWjvl8lz26WSPnYNnPHAz3zvunpZWxkQYmoUBl3z453aFibmQzBZfaocm6OxI=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
-      "FTG Help Center `change formation` page 2/2 exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`: 48 results total; page 2 has 15 chunks. Chunks 0–10 have been read (0 in T137, 1–4 in T150, 5–10 in T151); chunks 11–14 remain unread. Mixed-product results include generic DLS articles and other FTG games. A control auto-switch article is not a position-lock rule. No DLS26-specific inference or query-wide absence conclusion.",
       "FTG Help Center exact query `assign player position`: count=9, page_count=1, 9 rendered chunks; only chunkIndex=0 was retrieved. Visible initial hits include Score! Match section 115001619089 and Ultimate Clash Soccer section 7900693036561; do not transfer their player-position rules to DLS26. Chunks 1–8 remain unread. If continued, resume at chunkIndex=1; no absence inference.",
       "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
       "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",
