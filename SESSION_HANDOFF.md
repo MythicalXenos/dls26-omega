@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 147):**
-  1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if reset recurs.
-  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior. Avoid completed FTG queries, prior blocked media, and DLS25-to-DLS26 transfers.
-  3. Keep “DLS26 has no position locking” labeled user-stated; verification remains owed. No spending advice, absence declaration, or dimension closure. Push before turn end.
+- **Next exact action (Turn 148):**
+  1. Record the clock first; verify fixed branch/status/upstream/repo-local identity and recover only if reset recurs.
+  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior. Do not repeat the T147 searches or retry screenshot #18/#19; the remaining Play screenshots #20–24 stay uninspected and low priority after repeated CDN failures.
+  3. Keep “DLS26 has no position locking” labeled `user-stated`; verification remains owed. No spending advice, global-absence claim, dimension closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -404,3 +404,12 @@
 - Recovered reset checkout `fb9a2c0`: archived/byte-verified 377 working files at `/tmp/dls26-t146-recovery-20261006122727.tar.gz` (SHA-256 `41f47f5cbd5434b09fd74987d96fd5e848c7f3b5ba56ad0981d24dec5270429a`), fetched/restored pushed tip `4e72b23`, restored upstream and repo-local identity, and retained safety stash `46365a0`. ISSUE-0014 occurrence #108.
 - Read an official DLS26 teaser page (partial, no Cult Heroes detail), followed the FTG `/dls` shortlink to a generic games catalogue, and read an explicitly DLS25 Champions video (not transferable).
 - Ledger **807/610/396**. No new route/reward/position fact. Close `2026-10-06T06:30:39Z`. Next input expected: `>`.
+
+
+## T147 closeout
+
+- T147 recovered the reset checkout to pushed tip `1b4f56e`; the 379-file archive at `/tmp/dls26-t147-recovery-20261006123420.tar.gz` was byte-verified (SHA-256 `5cfb454e1aa80a8b57567c8a202cde5fe4a0293777d64bde3c7b63e2b1eed6ac`). Upstream and repo-local identity restored; stash `f088077` retained.
+- Three retrieval calls: two query-only Reddit searches returned no results; direct official Play screenshot URL #19 returned HTTP 500 with no image bytes. Full record: `source_archive/t147_reddit_parent_trace_and_play_screenshot19.md`.
+- Ledger: **810 records / 611 visited URL attempts / 396 unvisited leads**. The two query-only searches have no exposed request URL or HTTP status; screenshot #19 was retired from the unvisited frontier after its failed attempt.
+- No new game fact. Cult Heroes route/rewards/current availability remain unconfirmed. Position locking remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
+- T147 close time: 2026-10-06 12:38:55 +0600 Asia/Dhaka. Next input expected: `>`.

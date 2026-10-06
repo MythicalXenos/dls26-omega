@@ -21927,10 +21927,51 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t146_ftg_youtube_and_shortlink.md",
       "processing_status": "complete older-version source; not applicable to DLS26"
+    },
+    {
+      "source_id": "t147-search-reddit-cult-heroes-portuguese-ui-copy",
+      "domain": "reddit.com (site-restricted search; search backend/endpoint not exposed)",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:reddit.com/r/DreamLeagueSoccer \"Colete nossa seleção de jogadores especiais\" Cult Heroes",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Not exposed by functions.web_search; tool returned status=success.",
+      "payload_summary": "Successful search-tool execution; results list was empty. No page URL or page payload returned.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T147",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t147-search-reddit-cult-heroes-use-agent-cta",
+      "domain": "reddit.com (site-restricted search; search backend/endpoint not exposed)",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:reddit.com/r/DreamLeagueSoccer \"USAR AGENTE\" \"Heróis Cultos\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Not exposed by functions.web_search; tool returned status=success.",
+      "payload_summary": "Successful search-tool execution; results list was empty. No page URL or page payload returned.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T147",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
+    },
+    {
+      "source_id": "t147-play-screenshot-19-http-500",
+      "domain": "play-lh.googleusercontent.com",
+      "url": "https://play-lh.googleusercontent.com/F6iyUl_VUu2750o_S0azaxZF2B-er2p2cuF8rIdduT0mkQfXvQ5wNQsYGCRfalHSgdsu-3fduzCbg70WFIT3Xw=w526-h296-rw",
+      "exact_url": "https://play-lh.googleusercontent.com/F6iyUl_VUu2750o_S0azaxZF2B-er2p2cuF8rIdduT0mkQfXvQ5wNQsYGCRfalHSgdsu-3fduzCbg70WFIT3Xw=w526-h296-rw",
+      "search_query": null,
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 500,
+      "payload_summary": "Fetch failed with HTTP 500; no image bytes or page content returned. No visual inference.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T147",
+      "retrieved_on": "2026-10-06 (Asia/Dhaka; exact per-call timestamp not exposed)"
     }
   ],
   "frontier": {
-    "visited_total": 610,
+    "visited_total": 611,
     "unvisited_total": 396,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
