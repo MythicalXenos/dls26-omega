@@ -1513,3 +1513,7 @@ Apple's FTG developer directory lists DLS 2026 among the developer's apps; no Cu
 ## T124 in-game capture reinspection
 
 Previously saved S-0025 user-generated screenshots were re-read with `functions.read_file` in T124 (paths and SHA-256 values are in `source_archive/t124_store_api_social_feed_and_image_reinspection.md`). The Isco screenshot visibly places a `PLAYER SIGNED` modal over `LIVE TRANSFERS` with a `CULT HEROES` subsection visible. This is direct visual UI content, consistent with but not proof of a Live Transfers acquisition path; it does not show transaction origin, cost, reward terms, current event availability, or position-lock behavior. These are not independent new captures; retain S-0025's authenticity caveats.
+
+## T125 user-generated in-game Agent screen
+
+A single Reddit-labeled image-search result, preserved at `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg` (full provenance and SHA-256 in `source_archive/t125_image_search_and_parent_trace.md`), visibly displays the Portuguese instruction `Receba Agentes Heróis Cultos jogando em vários eventos!` (“Receive Cult Heroes Agents by playing in various events!”) and a `USAR AGENTE` (“USE AGENT”) button. This is one user-generated screenshot; its direct post/date/authenticity are unresolved. It supports the text visible in the captured UI only, not a fully verified/current route, event threshold, price, resulting card, or position-lock rule. No secondary captions or renders are promoted.

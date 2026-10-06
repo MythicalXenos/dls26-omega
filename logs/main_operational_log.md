@@ -1211,3 +1211,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Three external retrievals: Apple AMP empty body; YouTube legacy feed 404; alternate-domain Wayback CDX exact query `[]`.
 - Re-read two existing S-0025 user-generated in-game screenshots. The Isco signed modal appears over `LIVE TRANSFERS` with `CULT HEROES` subsection visible; this does not prove transaction origin. No route price/reward or position-lock conclusion.
 - Ledger **749 / 562 / 409**. Close marker `2026-10-06T01:32:35Z`.
+
+
+## TURN 125 (2026-10-06) — Cult Heroes Agent image evidence
+- Recovery: reset checkout archived (355 members; SHA-256 `c860ecb97522b9c5fa949233b6d56790c6b22a1674eaa5283ed52320a2ec6d42`), then restored `c2a79a4`, upstream, and repo-local identity. All 330 archived regular files match; ISSUE-0014 #87 logged.
+- One image search, two follow-up web searches, three local image inspections. One Reddit-labeled user-generated screenshot visibly directs players to receive Cult Heroes Agents by playing in various events and displays `USE AGENT`; parent permalink/date unresolved. Other results are a card render and a TapTap promo banner.
+- Route interpretation remains single-source UI evidence, not independently verified/current; no exact thresholds/cost/reward outcome. Position-lock remains user-stated/unverified.
+- Ledger **755 / 563 / 410**. Close marker `2026-10-06T01:41:36Z`.

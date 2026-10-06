@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T01:32:35Z",
+  "last_reconciled_at": "2026-10-06T01:41:36Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20530,11 +20530,217 @@
         "S-0025"
       ],
       "content_sha256": "4711c206e454504e76a819e989f192f3394dd047a5b8a0266a3c5aff3753231c"
+    },
+    {
+      "source_id": "discovery-t125-image-search-agent-screen",
+      "event_type": "image-search-discovery",
+      "url": null,
+      "search_query": "Dream League Soccer 2026 Cult Heroes Agent reward screen in-game screenshot",
+      "domain": "image-search",
+      "retrieved_at": "Logged at T125 close 2026-10-06T01:41:36Z; individual tool execution timestamps not exposed.",
+      "retrieval_role": "image discovery; three returned files saved and visually reviewed",
+      "tool": "functions.image_search + functions.read_file",
+      "http_status": "image_search status=success; HTTP status not exposed",
+      "source_type": "mixed image results: Reddit-labeled in-game UI, third-party card render, TapTap promotional banner",
+      "language": "pt-BR + en",
+      "payload_summary": "Three images returned. Result 1 is a Portuguese Cult Heroes UI capture labelled by the search tool as Reddit; result 2 is a “DREAM KITS” card render; result 3 is a TapTap promotional banner. Only result 1 contains possible in-game route text. Exact source_page URL for result 1 was only the r/DreamLeagueSoccer subreddit root; no direct post permalink, uploader, or date was returned.",
+      "processing_state": "all three downloaded image files visually inspected; result 1 retained as limited in-game UI evidence; results 2–3 excluded from mechanics claims",
+      "deception_screen": "Result 1 is user-generated and not authenticated by a direct post page; record only visible interface text. Results 2–3 are not in-game evidence.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`."
+      ],
+      "payload_path": "source_archive/t125_image_search_and_parent_trace.md",
+      "processing_status": "search event and result classifications recorded",
+      "also_seen": [
+        "https://www.reddit.com/r/DreamLeagueSoccer/",
+        "https://taptap.io/app/180521"
+      ],
+      "search_results": [
+        {
+          "title": "r/DreamLeagueSoccer - Cult heroes",
+          "source_url": "https://www.reddit.com/r/DreamLeagueSoccer/",
+          "original_image_url": "https://preview.redd.it/cult-heroes-v0-sci9uc0c02th1.jpeg?width=640&crop=smart&auto=webp&s=37b71d7dbc14d35ea582a851c32169b6d53abb5d",
+          "archive_path": "source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg",
+          "sha256": "2435d7a9d0337ca8c2e8fa6db70e24aba5ece9db8afe8b88d8fe8b2120488848"
+        },
+        {
+          "title": "r/DreamLeagueSoccer - Dele Alli Cult Heroes card",
+          "source_url": "https://www.reddit.com/r/DreamLeagueSoccer/",
+          "archive_path": "source_archive/t125_image_search_results/reddit_dele_alli_card_render.png",
+          "sha256": "560afea3ce73bd0c9ed6faa2366edc5c06d2c744c17713e33e55ac465903f7fc"
+        },
+        {
+          "title": "Dream League Soccer 2026 Game Screenshot",
+          "source_url": "https://taptap.io/app/180521",
+          "archive_path": "source_archive/t125_image_search_results/taptap_cult_heroes_promo_banner.jpg",
+          "sha256": "8597e44fec49ba1ab90acfe0cf6af2984ea24ba6c6c14188bac2cf485504fd00"
+        }
+      ]
+    },
+    {
+      "source_id": "t125-preview-reddit-agent-screen",
+      "event_type": "image-result-reinspection",
+      "url": "https://preview.redd.it/cult-heroes-v0-sci9uc0c02th1.jpeg?width=640&crop=smart&auto=webp&s=37b71d7dbc14d35ea582a851c32169b6d53abb5d",
+      "domain": "preview.redd.it",
+      "retrieved_at": "Logged at T125 close 2026-10-06T01:41:36Z; individual tool execution timestamps not exposed.",
+      "retrieval_role": "user-generated in-game screenshot, image-search result read locally",
+      "tool": "functions.image_search (through thumbnail proxy) + functions.read_file",
+      "http_status": "not exposed by image_search; image saved successfully",
+      "source_type": "Reddit-labeled UGC screenshot appearing to show a DLS Cult Heroes event screen",
+      "language": "pt-BR",
+      "payload_summary": "Visible UI text: `Colete nossa seleção de jogadores especiais. Receba Agentes Heróis Cultos jogando em vários eventos!` (manual translation: “Collect our selection of special players. Receive Cult Heroes Agents by playing in various events!”). A green `USAR AGENTE` (“USE AGENT”) button is visible. Screen also displays `TEMPO RESTANTE 12d 22h 48m` (time remaining) without an absolute date. This single user-generated screenshot supports only what its UI displays; it does not identify which events, thresholds, costs, card-conversion outcome, or current availability, and says nothing about position locking. Direct Reddit post provenance remains unresolved.",
+      "processing_state": "visual reading completed; translation identified as manual; no independent corroboration",
+      "deception_screen": "Do not treat the Reddit post title or surrounding commentary as evidence. Screenshot authenticity/date/version are not independently verified.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`."
+      ],
+      "payload_path": "source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg",
+      "processing_status": "image preserved with SHA-256 and visual summary",
+      "also_seen": [
+        "https://www.reddit.com/r/DreamLeagueSoccer/"
+      ],
+      "content_sha256": "2435d7a9d0337ca8c2e8fa6db70e24aba5ece9db8afe8b88d8fe8b2120488848"
+    },
+    {
+      "source_id": "t125-read-dele-alli-render",
+      "event_type": "image-result-classification",
+      "url": null,
+      "local_path": "source_archive/t125_image_search_results/reddit_dele_alli_card_render.png",
+      "domain": "workspace/source_archive/t125_image_search_results",
+      "retrieved_at": "Logged at T125 close 2026-10-06T01:41:36Z; individual tool execution timestamps not exposed.",
+      "retrieval_role": "classification of a returned image-search result",
+      "tool": "functions.read_file",
+      "http_status": "not applicable; local image read",
+      "source_type": "third-party card render; visible DREAM KITS watermark",
+      "language": "en",
+      "payload_summary": "The Dele Alli card image visibly carries a DREAM KITS watermark and a designed price/card layout; it is not a direct in-game screen and is excluded from route/reward/position claims.",
+      "processing_state": "reviewed; not used as game-mechanics evidence",
+      "deception_screen": "Third-party rendered card art; not evidence of in-game UI.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t125_image_search_results/reddit_dele_alli_card_render.png",
+      "processing_status": "classified as non-gameplay image",
+      "content_sha256": "560afea3ce73bd0c9ed6faa2366edc5c06d2c744c17713e33e55ac465903f7fc"
+    },
+    {
+      "source_id": "t125-read-taptap-banner",
+      "event_type": "image-result-classification",
+      "url": null,
+      "local_path": "source_archive/t125_image_search_results/taptap_cult_heroes_promo_banner.jpg",
+      "domain": "workspace/source_archive/t125_image_search_results",
+      "retrieved_at": "Logged at T125 close 2026-10-06T01:41:36Z; individual tool execution timestamps not exposed.",
+      "retrieval_role": "classification of a returned image-search result",
+      "tool": "functions.read_file",
+      "http_status": "not applicable; local image read",
+      "source_type": "TapTap promotional banner, not game UI",
+      "language": "en",
+      "payload_summary": "The image is a colorful promotional banner with player-card collage and the text `COLLECT CULT HEROES`. It does not show an acquisition screen, route, cost, or reward interface; excluded as in-game evidence.",
+      "processing_state": "reviewed; not used as route evidence",
+      "deception_screen": "Third-party promotional image, not direct gameplay screen.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t125_image_search_results/taptap_cult_heroes_promo_banner.jpg",
+      "processing_status": "classified as non-gameplay image",
+      "content_sha256": "8597e44fec49ba1ab90acfe0cf6af2984ea24ba6c6c14188bac2cf485504fd00"
+    },
+    {
+      "source_id": "discovery-t125-search-filename",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "\"cult-heroes-v0-sci9uc0c02th1.jpeg\"",
+      "domain": "web-search",
+      "retrieved_at": "Logged at T125 close 2026-10-06T01:41:36Z; individual tool execution timestamps not exposed.",
+      "retrieval_role": "attempt to identify the Reddit image parent by exact filename",
+      "tool": "functions.web_search",
+      "http_status": "not exposed by tool; status=success",
+      "source_type": "search-result query only",
+      "language": "en",
+      "payload_summary": "Five result cards returned for the exact filename query; results concerned generic football merchandise, Assassin’s Creed, a 1944 article, and unrelated pages. No DLS Reddit parent permalink was identified. This exact search does not establish absence.",
+      "processing_state": "complete for query; no relevant page fetched",
+      "deception_screen": "Search results are unrelated and not evidence about DLS26.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t125_image_search_and_parent_trace.md",
+      "processing_status": "discovery-only search recorded",
+      "also_seen": [],
+      "search_results": [
+        {
+          "title": "Cult Heroes — Project Futbol",
+          "url": "https://projectfutbol.com/collections/cult-heroes"
+        },
+        {
+          "title": "Heroes of the Cult",
+          "url": "https://assassinscreed.fandom.com/wiki/Heroes_of_the_Cult"
+        },
+        {
+          "title": "The Cult of Heroes",
+          "url": "https://www.cambridge.org/core/journals/harvard-theological-review/article/abs/cult-of-heroes/579CA35192908C3455E2B52BEFEF0393"
+        },
+        {
+          "title": "Cult Heroes Football Shirts",
+          "url": "https://www.cultkits.com/collections/cult-heroes"
+        },
+        {
+          "title": "a list of absolute cult heroes",
+          "url": "https://www.imdb.com/list/ls006630590/"
+        }
+      ]
+    },
+    {
+      "source_id": "discovery-t125-search-portuguese-ui",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "\"Receba Agentes Heróis Cultos jogando em vários eventos\"",
+      "domain": "web-search",
+      "retrieved_at": "Logged at T125 close 2026-10-06T01:41:36Z; individual tool execution timestamps not exposed.",
+      "retrieval_role": "attempt to identify the image parent from its Portuguese on-screen sentence",
+      "tool": "functions.web_search",
+      "http_status": "not exposed by tool; status=success",
+      "source_type": "search-result query only",
+      "language": "pt-BR",
+      "payload_summary": "Five result cards returned, all unrelated to DLS26 or the Reddit image. No parent post URL was found. This exact search does not establish absence.",
+      "processing_state": "complete for query; no relevant page fetched",
+      "deception_screen": "No game claim accepted from unrelated search results.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t125_image_search_and_parent_trace.md",
+      "processing_status": "discovery-only search recorded",
+      "also_seen": [],
+      "search_results": [
+        {
+          "title": "Como conseguir Fragmentos de Herói rápido em Clash Royale (Guia completo)",
+          "url": "https://royalearena.com.br/clash-royale/noticias-cr/como-conseguir-fragmentos-heroi-guia/"
+        },
+        {
+          "title": "Todos os Heróis",
+          "url": "https://mobile-legends.fandom.com/pt-br/wiki/Todos_os_Her%C3%B3is"
+        },
+        {
+          "title": "Assassin’s Creed Odyssey - Localização dos Cultistas (Culto do Kosmos)",
+          "url": "https://criticalhits.com.br/games/assassins-creed-odyssey-como-achar-todos-os-cultistas/"
+        },
+        {
+          "title": "Do hero skills stack while garrisoning?",
+          "url": "https://www.reddit.com/r/whiteoutsurvival/comments/17zsf9t/do_hero_skills_stack_while_garrisoning/"
+        },
+        {
+          "title": "Policiais fantasiados são inovação positiva contra furtos no carnaval",
+          "url": "https://oglobo.globo.com/opiniao/editorial/coluna/2026/02/policiais-fantasiados-sao-inovacao-positiva-contra-furtos-no-carnaval.ghtml"
+        }
+      ]
     }
   ],
   "frontier": {
-    "visited_total": 562,
-    "unvisited_total": 409,
+    "visited_total": 563,
+    "unvisited_total": 410,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -20944,7 +21150,8 @@
       "https://play-lh.googleusercontent.com/Git6SsoIxbLP80JjxU-vDZRUWT8m7AWfKDZj97zn5BXJ_N59Uae6Jv1RgFoXILQ_7-zne8GuoIiNPZNdiR0Zdw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/p8RqYbUMuBC9zE00JJOHvaUve4l0x3FlP0AuzV6xD4CdG1w-tu5L46XDoJRPPdXeEbVZ95MnjRkKxD1Wr7qwoQ=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/OR7NRBrBLI3FkmlQOrKcZ3qZWjvl8lz26WSPnYNnPHAz3zvunpZWxkQYmoUBl3z453aFibmQzBZfaocm6OxI=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
-      "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114."
+      "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
+      "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`."
     ]
   }
 }
