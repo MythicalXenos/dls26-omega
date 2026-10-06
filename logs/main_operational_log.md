@@ -1112,3 +1112,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout `fb9a2c0`; archived 296 files, SHA-256 `f5c7b48f492fb31bf5102a3df2333569bd3ca72e53e6ba7b4d8290ff6749fa22`; restored session tip `97cf938`, upstream, and repo-local identity. Only T108 clock-start append differed; ISSUE-0014 #70 logged.
 - Three retrievals for video 7442747227027541281 (direct/oEmbed/embed-v2) returned HTTP 403/no payload. Do not infer from blocks.
 - Ledger **716 / 534 / 403**. Cult Heroes and DLS26 position-lock unresolved. Close marker `2026-10-06T00:08:30Z`.
+
+
+## TURN 109 (2026-10-06) — Play event and Reddit mirror checks
+- Recovery: reset checkout `fb9a2c0`; archived 298 files, SHA-256 `8d46bb78735be7d0300e4c33d6e3f8846034c1d8f2f38da7fad0a9366570d390`; restored session tip `a1d83f1`, upstream, and repo-local identity. Only T109 clock-start append differed; ISSUE-0014 #71 logged.
+- Two retrievals: Google Play eventdetails search yielded zero cards; old.reddit 1vtm4ty thread mirror returned HTTP 403/no body. No absence inference.
+- Ledger **718 / 536 / 400**. Cult Heroes and position-lock unresolved. Close marker `2026-10-06T00:13:27Z`.

@@ -81,4 +81,5 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [DONE T106] Targeted X search returned only historical/unrelated snippets; queued Reddit 1vtm4ty JSON route returned HTTP 403/no payload. Neither is evidence of absence or event mechanics.
 - [DONE T107] Tried direct, oEmbed, and embed/v2 routes for video 7503572653068848417; all returned HTTP 403/no payload. Do not repeat these URLs or infer absence.
 - [DONE T108] Direct, oEmbed and embed/v2 routes for TikTok candidate 7442747227027541281 all returned HTTP 403/no payload. Do not repeat these URLs or infer absence.
-- [T109 next] Select a distinct first-party or in-game lead for Cult Heroes route/rewards or DLS26 position-lock. Avoid the two blocked TikTok IDs and their tested routes; do not use search snippets or infer absence. Step-3 in-game verification still requires device setup.
+- [DONE T109] Google Play eventdetails search returned zero cards; old.reddit mirror of 1vtm4ty returned HTTP 403/no payload. No absence inference; text/mirror leads retired as attempted; separate image lead remains.
+- [T110 next] Choose a distinct unvisited first-party or in-game lead from `logs/sources_visited.json`; do not repeat blocked Reddit/TikTok endpoints or interpret zero-result searches as absence. Keep Cult Heroes and position-lock questions open.

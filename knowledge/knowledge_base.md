@@ -1459,3 +1459,8 @@ The direct, oEmbed and embed/v2 URLs for TikTok video 7503572653068848417 each r
 ## TURN 108 (2026-10-06) — second TikTok candidate blocked
 
 The direct, oEmbed and embed/v2 routes for TikTok candidate 7442747227027541281 each returned HTTP 403/no payload. Content and account affiliation remain unassessed; do not infer absence or event mechanics. Provenance: `source_archive/t108_tiktok_7442747227027541281_blocked.md`.
+
+
+## TURN 109 (2026-10-06) — Play event search and Reddit mirror
+
+The targeted Google Play event-details search returned zero result cards; no absence or in-game inference. The old.reddit mirror of thread 1vtm4ty returned HTTP 403/no body; post content remains unknown. Specific text/mirror leads are retired as attempted, while the separate image lead remains. Provenance: `source_archive/t109_play_eventdetails_and_old_reddit.md`.
