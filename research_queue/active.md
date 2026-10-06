@@ -82,4 +82,5 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 - [DONE T107] Tried direct, oEmbed, and embed/v2 routes for video 7503572653068848417; all returned HTTP 403/no payload. Do not repeat these URLs or infer absence.
 - [DONE T108] Direct, oEmbed and embed/v2 routes for TikTok candidate 7442747227027541281 all returned HTTP 403/no payload. Do not repeat these URLs or infer absence.
 - [DONE T109] Google Play eventdetails search returned zero cards; old.reddit mirror of 1vtm4ty returned HTTP 403/no payload. No absence inference; text/mirror leads retired as attempted; separate image lead remains.
-- [T110 next] Choose a distinct unvisited first-party or in-game lead from `logs/sources_visited.json`; do not repeat blocked Reddit/TikTok endpoints or interpret zero-result searches as absence. Keep Cult Heroes and position-lock questions open.
+- [DONE T110] FTG Help Center exact query `out of position`: page 1 chunks 0–1/13 read; mixed-game results, no DLS26 position-lock conclusion. No transfer from Score! Match/UCS; no absence inference.
+- [T111 next] Continue this query at page 1 chunkIndex 2, complete page 1, then assess page 2 if useful. Keep Cult Heroes route/rewards and DLS26 position-lock unresolved; select a distinct first-party/in-game lead afterward.

@@ -1118,3 +1118,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout `fb9a2c0`; archived 298 files, SHA-256 `8d46bb78735be7d0300e4c33d6e3f8846034c1d8f2f38da7fad0a9366570d390`; restored session tip `a1d83f1`, upstream, and repo-local identity. Only T109 clock-start append differed; ISSUE-0014 #71 logged.
 - Two retrievals: Google Play eventdetails search yielded zero cards; old.reddit 1vtm4ty thread mirror returned HTTP 403/no body. No absence inference.
 - Ledger **718 / 536 / 400**. Cult Heroes and position-lock unresolved. Close marker `2026-10-06T00:13:27Z`.
+
+
+## TURN 110 (2026-10-06) — partial FTG out-of-position query
+- Recovery: reset checkout archived (300 files; SHA-256 `15119c10ea785f9dbabac4e419960c41e58d04b7593b9cec72c4d1f7d6237a0a`), then restored `9fbc24d`, upstream, and repo-local identity. Initial `tar -tzf | head` SIGPIPE interrupted only the listing; full archive was verified before recovery. ISSUE-0014 #72 logged.
+- Two retrievals, FTG Help Center API query `out of position`, page 1 chunks 0–1/13. Mixed-game results; no DLS26 position-lock conclusion. Continue chunk 2; no absence inference.
+- Ledger **719 / 537 / 401**. Close marker `2026-10-06T00:18:08Z`.

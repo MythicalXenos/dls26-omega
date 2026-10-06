@@ -1464,3 +1464,8 @@ The direct, oEmbed and embed/v2 routes for TikTok candidate 7442747227027541281 
 ## TURN 109 (2026-10-06) — Play event search and Reddit mirror
 
 The targeted Google Play event-details search returned zero result cards; no absence or in-game inference. The old.reddit mirror of thread 1vtm4ty returned HTTP 403/no body; post content remains unknown. Specific text/mirror leads are retired as attempted, while the separate image lead remains. Provenance: `source_archive/t109_play_eventdetails_and_old_reddit.md`.
+
+
+## TURN 110 source-screen note (not a gameplay claim)
+
+The FTG Help Center `out of position` search is partial: page 1 chunks 0–1/13 read, with mixed-game results; page 2 unread. No DLS26 position-lock answer appears in the partial chunks. Keep the query open; do not transfer Score! Match/UCS wording. Provenance: `source_archive/t110_ftg_out_of_position_query_partial.md`.

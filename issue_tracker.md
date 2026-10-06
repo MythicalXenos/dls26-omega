@@ -393,3 +393,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 109 recovery occurrence
 
 - ISSUE-0014 occurrence #71, 2026-10-06: opening reset to `fb9a2c0`, with 298 project files untracked and upstream unset. Archived files, SHA-256 `8d46bb78735be7d0300e4c33d6e3f8846034c1d8f2f38da7fad0a9366570d390`, restored `a1d83f1` from the session remote, upstream, and repo-local identity. After recovery, only T109 clock-start append differed. No loss/force-push.
+
+
+## Turn 110 recovery occurrence
+
+- ISSUE-0014 occurrence #72, 2026-10-06: opening reset to `fb9a2c0` with 300 non-ignored project files untracked. Archived before cleanup at `/tmp/dls26-t110-recovery-20261006061549.tar.gz`, SHA-256 `15119c10ea785f9dbabac4e419960c41e58d04b7593b9cec72c4d1f7d6237a0a`. The first archive-list pipeline returned SIGPIPE after `head` closed its input; recovery had not started. A later call verified all 300 members, fetched/restored `9fbc24d`, upstream, and repo-local identity. No files were discarded.
