@@ -473,3 +473,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 125 recovery occurrence
 
 - ISSUE-0014 occurrence #87, 2026-10-06: opening reset to `fb9a2c0`; archived 355 non-ignored files at `/tmp/dls26-t125-recovery-20261006073446.tar.gz`, SHA-256 `c860ecb97522b9c5fa949233b6d56790c6b22a1674eaa5283ed52320a2ec6d42`; verified all 330 regular-file payloads before restoring `c2a79a4`, upstream, and repo-local identity. Newly generated T125 image-search files were preserved in the source archive. No file-content loss.
+
+
+## Turn 126 recovery occurrence
+
+- ISSUE-0014 occurrence #88, 2026-10-06: opening reset to `fb9a2c0`; archived 335 files at `/tmp/dls26-t126-recovery-20261006014551.tar.gz`, SHA-256 `64217662963d78ed158005d69084deddb02fbdfc44a39eae8fcc9b1bc7dda555`. Fetched/reset to pushed tip `ed04d77`, restored all 335 files and verified archive bytes before the local clock-line correction. The first shell wrote an unprefixed UTC timestamp; the clock was corrected to `T126 START 2026-10-06 07:45:51 +0600`. Repo-local identity/upstream restored; no source-file loss.

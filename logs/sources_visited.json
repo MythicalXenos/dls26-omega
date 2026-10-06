@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T01:41:36Z",
+  "last_reconciled_at": "2026-10-06T01:50:55Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20736,10 +20736,111 @@
           "url": "https://oglobo.globo.com/opiniao/editorial/coluna/2026/02/policiais-fantasiados-sao-inovacao-positiva-contra-furtos-no-carnaval.ghtml"
         }
       ]
+    },
+    {
+      "source_id": "t126-youtube-official-videos-401",
+      "event_type": "official-channel-page-attempt",
+      "url": "https://www.youtube.com/@firsttouchgames/videos",
+      "domain": "youtube.com",
+      "retrieved_at": "Logged at T126 close 2026-10-06T01:50:55Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "check official channel video listing for a distinct Cult Heroes post or in-game route evidence",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "fetch_page status=success; payload text begins `Error 401 (Bad Request)`; numeric HTTP response metadata not separately exposed",
+      "source_type": "first-party YouTube channel videos path; no channel video data returned",
+      "language": "en",
+      "payload_summary": "The response consisted of an Error 401 text plus generic signed-out YouTube shell and channel label. No channel video list, Cult Heroes-specific post, caption, or gameplay content was returned. This one page error does not establish absence from the channel or platform. Do not retry this exact URL.",
+      "processing_state": "complete for this exact URL; no page content retrieved",
+      "deception_screen": "No game facts inferred from the generic shell or error text.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t126_official_surface_checks.md",
+      "processing_status": "logged as a failed/empty official-channel page retrieval"
+    },
+    {
+      "source_id": "discovery-t126-tiktok-route-search",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Cult Heroes\" Agents events DLS26 First Touch Games",
+      "domain": "web-search",
+      "retrieved_at": "Logged at T126 close 2026-10-06T01:50:55Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "discovery search for an attributable first-party Cult Heroes event/Agent post",
+      "tool": "functions.web_search",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "status=success; numeric HTTP status not exposed",
+      "source_type": "search-result query only",
+      "language": "en",
+      "payload_summary": "The search returned an empty results array. No post or page was fetched; this exact query does not establish platform-wide absence.",
+      "processing_state": "complete for this query",
+      "deception_screen": "No game facts inferred from empty search results.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t126_official_surface_checks.md",
+      "processing_status": "discovery-only result recorded",
+      "search_results": []
+    },
+    {
+      "source_id": "discovery-t126-reddit-parent-search",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "site:reddit.com/r/DreamLeagueSoccer \"Agentes Heróis Cultos\" OR \"sci9uc0c02th1\"",
+      "domain": "web-search",
+      "retrieved_at": "Logged at T126 close 2026-10-06T01:50:55Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "attempt to resolve the Reddit screenshot parent using the image id/Portuguese wording",
+      "tool": "functions.web_search",
+      "retrieval_tool": "functions.web_search",
+      "http_status": "status=success; numeric HTTP status not exposed",
+      "source_type": "search-result cards only; no Reddit page fetched",
+      "language": "pt-BR + en",
+      "payload_summary": "Three result cards were returned, all TikTok URLs rather than a Reddit parent. They are all previously attempted/visited URLs. Snippets are mixed across adjacent captions and do not reliably bind the Cult Heroes event/Agent text to any one video. This repeats a previously documented search-index attribution ambiguity; no claim is promoted and no absence inference is made.",
+      "processing_state": "complete for this query; returned URLs already visited/attempted",
+      "deception_screen": "Search snippets are not direct post payloads. See prior T75/T81 attribution warnings; do not assign caption text to a video URL.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t126_official_surface_checks.md",
+      "processing_status": "discovery-only result recorded; no new exact page URL",
+      "search_results": [
+        {
+          "title": "Get ready for the best players of 2025, all in one go. #DLS #DLS26 #DreamLeagueSoccer #TO25",
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7588197165965593888"
+        },
+        {
+          "title": "Four new Classic Players will be available tomorrow. Are you ready to upgrade your squad? #DLS #DLS25 #DreamLeagueSoccer #EuropeanClassics #Classic",
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008"
+        },
+        {
+          "title": "A new era, a new card. #DLS25",
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7437552025958763809"
+        }
+      ]
+    },
+    {
+      "source_id": "t126-apple-gb-in-app-events-empty",
+      "event_type": "first-party-store-event-endpoint-check",
+      "url": "https://amp-api.apps.apple.com/v1/catalog/gb/apps/1462911602/in-app-events?l=en",
+      "domain": "amp-api.apps.apple.com",
+      "retrieved_at": "Logged at T126 close 2026-10-06T01:50:55Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "regionally distinct official App Store in-app-events endpoint check after the US endpoint returned empty",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "fetch_page status=success; numeric HTTP status not exposed",
+      "source_type": "Apple App Store API response",
+      "language": "en",
+      "payload_summary": "The UK catalog in-app-events endpoint returned an empty content string: no JSON, event metadata, title, or error. Empty content is not evidence that the app has no events, nor does it establish Cult Heroes availability/absence. No page content was retrieved.",
+      "processing_state": "complete for exact URL; response payload empty",
+      "deception_screen": "No inference about current event availability from an empty API response.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t126_official_surface_checks.md",
+      "processing_status": "response recorded; no route or reward claim"
     }
   ],
   "frontier": {
-    "visited_total": 563,
+    "visited_total": 564,
     "unvisited_total": 410,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

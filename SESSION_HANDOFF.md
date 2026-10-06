@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 125 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 126 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T125 close):** 755 records · 563 unique visited URLs · 410 unvisited leads. One user-generated in-game screen displays an Agent/event-play instruction; exact event thresholds and position-lock remain unresolved.
+- **Ledger (T126 close):** 759 records · 564 unique visited URLs · 410 unvisited leads. No new game fact; the T125 user-generated screenshot remains a limited UI observation. Cult Heroes route/rewards and DLS26 position-lock remain open.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,11 +67,11 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 126):**
-  1. Record the clock first; verify branch/status/upstream/identity and archive if the reset checkout recurs.
-  2. Seek independent first-party/in-game corroboration for the screen text directing users to earn Cult Heroes Agents through various events; resolve the image result’s direct Reddit post/date if possible.
-  3. Keep exact reward thresholds/cost, current event availability, and DLS26 position-lock open; no inference from the screenshot about current state or transaction source.
-  4. Keep the 16 remaining Play screenshot URLs and Help Center page-2 chunks 1–4 low priority. No spending advice or exhaustion declaration; push before turn end.
+- **Next exact action (Turn 127):**
+  1. Record the clock first; check fixed branch, status, upstream, and repo-local identity; archive and restore if the reset checkout recurs.
+  2. Pursue a distinct unvisited first-party/in-game surface for Cult Heroes route/rewards or position behavior; avoid T126’s empty API response, 401 channel page, exact search queries, and previously blocked TikTok URLs.
+  3. Keep the T125 screenshot’s parent permalink/date unresolved unless a genuinely new trace resolves it; the UGC screenshot only supports its visible UI wording.
+  4. Keep position-lock user-stated/unverified; no spending advice, dimension closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -299,3 +299,8 @@
 - Recovery: opening reset to `fb9a2c0`; archived 355 members at `/tmp/dls26-t125-recovery-20261006073446.tar.gz` (SHA-256 `c860ecb97522b9c5fa949233b6d56790c6b22a1674eaa5283ed52320a2ec6d42`). Verified all 330 regular-file payloads byte-for-byte against the restored worktree before archiving the new image-search results. Restored `c2a79a4`, upstream `origin/arena/01a1022d-dls26-omega`, and repo-local identity `DLS26 Omega <omega@dls26.local>`; no file-content loss.
 - Image search yielded one Reddit-labeled screenshot with apparent in-game Portuguese text about receiving Cult Heroes Agents by playing in various events and a `USE AGENT` button. A second result was a DREAM KITS render; a third was a TapTap banner. The screenshot's original Reddit permalink/date remain unresolved. Two exact follow-up searches did not identify the parent; no absence inference.
 - Ledger: **755 / 563 / 410**. Cult Heroes route is partially supported by one UGC visual but not independently verified; position-lock remains user-stated/unverified. Close `2026-10-06T01:41:36Z`. Next input expected: `>`.
+## Turn 126 closeout
+
+- Recovery: opening checkout reset to `fb9a2c0`; clock was written first, but the first shell pipeline wrote its timestamp without the `T126 START` prefix and in UTC. It was corrected to Dhaka local `2026-10-06 07:45:51 +0600`. Archived 335 files at `/tmp/dls26-t126-recovery-20261006014551.tar.gz`, SHA-256 `64217662963d78ed158005d69084deddb02fbdfc44a39eae8fcc9b1bc7dda555`; fetched/reset the fixed branch to `ed04d77`, restored upstream/repo-local identity, and byte-verified the archived workspace before the clock normalization. ISSUE-0014 occurrence #88 records the reset.
+- Four retrievals: official YouTube channel videos URL returned a generic shell with an `Error 401` body; the UK App Store in-app-events API returned empty content; two distinct web searches returned no resolvable Reddit parent or attributable event post. Existing TikTok URL cards were not fetched again; their caption mapping remains ambiguous. No new gameplay fact.
+- Ledger: **759 / 564 / 410**. Cult Heroes route/rewards and DLS26 position-lock remain open; T125 screenshot is limited UGC UI evidence. Close `2026-10-06T01:50:55Z`. Next input expected: `>`.

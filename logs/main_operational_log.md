@@ -1218,3 +1218,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - One image search, two follow-up web searches, three local image inspections. One Reddit-labeled user-generated screenshot visibly directs players to receive Cult Heroes Agents by playing in various events and displays `USE AGENT`; parent permalink/date unresolved. Other results are a card render and a TapTap promo banner.
 - Route interpretation remains single-source UI evidence, not independently verified/current; no exact thresholds/cost/reward outcome. Position-lock remains user-stated/unverified.
 - Ledger **755 / 563 / 410**. Close marker `2026-10-06T01:41:36Z`.
+
+
+## TURN 126 (2026-10-06) — first-party surface checks
+- Recovery: reset checkout at `fb9a2c0`; archived 335 files, SHA-256 `64217662963d78ed158005d69084deddb02fbdfc44a39eae8fcc9b1bc7dda555`; restored/verified pushed tip `ed04d77`, upstream and local identity. Initial shell clock line lacked its prefix and used UTC; corrected to Dhaka local time; ISSUE-0014 #88 recorded.
+- Four retrievals: YouTube channel videos path response body reported Error 401 and returned no video list; UK Apple in-app-events API returned empty text; two discovery searches yielded no resolvable Reddit parent or attributable route post. Previously blocked TikTok URLs not refetched; mixed snippets not promoted.
+- No new gameplay fact. T125 image remains a single-source UGC UI observation; Cult Heroes route/rewards and position-lock remain open. Ledger **759/564/410**. Close `2026-10-06T01:50:55Z`.

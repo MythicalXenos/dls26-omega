@@ -1517,3 +1517,7 @@ Previously saved S-0025 user-generated screenshots were re-read with `functions.
 ## T125 user-generated in-game Agent screen
 
 A single Reddit-labeled image-search result, preserved at `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg` (full provenance and SHA-256 in `source_archive/t125_image_search_and_parent_trace.md`), visibly displays the Portuguese instruction `Receba Agentes Heróis Cultos jogando em vários eventos!` (“Receive Cult Heroes Agents by playing in various events!”) and a `USAR AGENTE` (“USE AGENT”) button. This is one user-generated screenshot; its direct post/date/authenticity are unresolved. It supports the text visible in the captured UI only, not a fully verified/current route, event threshold, price, resulting card, or position-lock rule. No secondary captions or renders are promoted.
+
+## T126 official-surface checks
+
+T126 produced no new gameplay claim: the first-party YouTube channel videos-path response contained an Error 401 body and no video list; a UK App Store in-app-events API response was empty; discovery searches did not resolve the T125 image’s parent post. No absence inference. Preserve the T125 screenshot only as limited, unverified UI wording. Cult Heroes route/rewards and DLS26 position-lock remain open. Full provenance: `source_archive/t126_official_surface_checks.md`.
