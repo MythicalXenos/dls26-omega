@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T10:01:30Z",
+  "last_reconciled_at": "2026-10-06T10:04:15Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -23078,11 +23078,27 @@
       ],
       "turn": "T171",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t172-oldreddit-dls-subreddit-root-blocked",
+      "domain": "old.reddit.com",
+      "url": "https://old.reddit.com/r/DreamLeagueSoccer/",
+      "exact_url": "https://old.reddit.com/r/DreamLeagueSoccer/",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        0
+      ],
+      "http_status": 403,
+      "http_status_note": "Tool error: Failed to fetch page (HTTP 403); no response body or page content.",
+      "payload_summary": "Attempted the previously untested old.reddit.com DLS subreddit listing as a route to resolve provenance for the T125 in-game screenshot. Fetch returned HTTP 403 with no content, so no posts, uploader, date, or parent permalink were inspected. Do not retry this exact URL; the failure says nothing about whether the image parent or event exists.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T172",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 637,
-    "unvisited_total": 390,
+    "visited_total": 638,
+    "unvisited_total": 389,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -23239,7 +23255,6 @@
       "https://gamingonphone.com/guides/dream-league-soccer-how-to-contact-the-customer-support-service/",
       "https://liftoff.io/privacy-policy/",
       "https://m.apkpure.com/dream-league-soccer-game/com.firsttouchgames.dls7",
-      "https://old.reddit.com/r/DreamLeagueSoccer/ (untested)",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.mpx",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.smp",
       "https://play.google.com/store/apps/details?id=com.firsttouchgames.story",
