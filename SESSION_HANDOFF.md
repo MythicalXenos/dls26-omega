@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 118):**
+- **Next exact action (Turn 119):**
   1. Record the clock first; verify branch/status/upstream/identity and archive before cleanup if the reset checkout recurs.
-  2. Choose a distinct unvisited first-party/in-game lead relevant to Cult Heroes route/rewards or DLS26 position locking. Do not repeat completed Help Center queries, blocked profile URLs, or generic FTG corporate pages.
-  3. The Google Play developer directory was generic; 18 screenshot links remain untried but low priority after six distinct asset failures. Help Center page-2 chunks 1–4 also remain low priority.
+  2. Select a distinct unvisited first-party/in-game source for Cult Heroes route/rewards or DLS26 position locking. Avoid completed Help Center queries, blocked social profiles, generic developer directories, and failed screenshot URLs.
+  3. Keep 17 remaining Play screenshot links and Help Center page-2 chunks 1–4 low priority unless a new delivery path appears; do not infer absence from access failures.
   4. Keep both questions open and position-lock explicitly `user-stated`/unverified pending Step-3 device setup. No spending advice, closure, or exhaustion declaration; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -251,3 +251,9 @@
 - Recovery: archived 314 files (SHA-256 `954f54d9576d90324cc1cacad3473d812254ccdcc4b62753ee98f1f6715b44a1`), restored `d27dc41`, upstream, and repo-local identity; no loss.
 - Two retrievals: official Google Play developer directory, chunks 0–1/2. It lists DLS 2026 under FTG but adds no event mechanics or position-lock evidence; screenshots not fetched.
 - Ledger: **731 / 549 / 413**. Close `2026-10-06T00:51:31Z`. Next input expected: `>`.
+
+## Turn 118 closeout
+
+- Recovery: archived 316 files (SHA-256 `81e28c8b959d1bc586f12a5c73d01ada8661337f6272e20a7c6b69671af14d4c`), restored `12a774a`, upstream, and repo-local identity; no loss.
+- Two retrievals: Apple developer directory lists DLS under FTG but adds no mechanics; one Play screenshot URL via curl failed TLS/SSL before HTTP. No visual assessment; 17 URLs remain queued.
+- Ledger: **733 / 551 / 411**. Both questions remain open. Close `2026-10-06T00:57:03Z`. Next input expected: `>`.

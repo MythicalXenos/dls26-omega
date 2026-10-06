@@ -1504,3 +1504,8 @@ FTG Help Center `Prize Ladder` query returned generic progression/reward and pla
 ## TURN 117 source-screen note (store directory only)
 
 The Google Play developer directory lists Dream League Soccer 2026 under First Touch Games Ltd.; this confirms listing association only, not Cult Heroes mechanics or position-lock behavior. Screenshot links were shown but not fetched or assessed. Provenance: `source_archive/t117_google_play_developer_page.md`.
+
+
+## TURN 118 source-screen note (directory context only)
+
+Apple's FTG developer directory lists DLS 2026 among the developer's apps; no Cult Heroes route/rewards or DLS26 position-lock evidence. A separate Play screenshot URL failed via curl before HTTP; no image was assessed. Provenance: `source_archive/t118_store_directories_and_screenshot.md`.

@@ -1167,3 +1167,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (314 files; SHA-256 `954f54d9576d90324cc1cacad3473d812254ccdcc4b62753ee98f1f6715b44a1`), then restored `d27dc41`, upstream, and repo-local identity. No loss; ISSUE-0014 #79 logged.
 - Two retrievals: official Google Play developer directory chunks 0–1/2. DLS 2026 is listed under FTG; no game-mechanics evidence. Screenshot assets not fetched.
 - Ledger **731 / 549 / 413**. Close marker `2026-10-06T00:51:31Z`.
+
+
+## TURN 118 (2026-10-06) — Apple developer directory and screenshot delivery check
+- Recovery: reset checkout archived (316 files; SHA-256 `81e28c8b959d1bc586f12a5c73d01ada8661337f6272e20a7c6b69671af14d4c`), then restored `12a774a`, upstream, and repo-local identity. No loss; ISSUE-0014 #80 logged.
+- Two retrievals: Apple developer directory (listing context only); distinct Play screenshot URL via curl failed TLS/SSL before HTTP, no payload. No visual inference; 17 URLs remain queued.
+- Initial finalizer stopped on a queue-marker assertion after the source ledger/archive write; finalization resumed from persisted state without repeating retrievals.
+- Ledger **733 / 551 / 411**. Close marker `2026-10-06T00:57:03Z`.
