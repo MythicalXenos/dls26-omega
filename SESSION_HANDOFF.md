@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 130 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 131 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T130 close):** 768 records · 572 unique visited URLs · 407 unvisited leads. T130 first-party surface checks yielded no route/position evidence; both research questions remain open.
+- **Ledger (T131 close):** 770 records · 574 unique visited URLs · 407 unvisited leads. Apple’s direct event resource was empty; FTG’s Special Card/Agents search surfaced only generic existing FAQs. No new route or position-lock evidence.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 131):**
+- **Next exact action (Turn 132):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if reset recurs.
-  2. Seek a genuinely new first-party/in-game source for Cult Heroes route/rewards or DLS26 position behavior; avoid T130 exact paths/query, the completed FTG `out of position` query, T129 X URL, regional App Store endpoints, blocked Reddit API, and failed Play-image URLs.
-  3. Keep the remaining 14 official Play screenshots low priority and the T125 screenshot parent unresolved.
+  2. Seek a genuinely new first-party/in-game source for Cult Heroes route/rewards or DLS26 position behavior; avoid T131 exact URLs/query, T130 paths/query, completed FTG position searches, T129 X URL, regional App Store endpoints, blocked Reddit API, and failed Play-image URLs.
+  3. Keep the 14 remaining official Play screenshots low priority and the T125 Reddit parent unresolved.
   4. Keep position-lock user-stated/unverified; no spending advice, scope closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -324,3 +324,8 @@
 - Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:09:36 +0600`). Archived 343 files at `/tmp/dls26-t130-recovery-20261006020936.tar.gz`, SHA-256 `b94b10e35d484918874f490f52b7c84d94aa8198ec32f7ef15c7fd0c350f7715`; restored pushed tip `dd2c801` and verified all 343 files. Repo-local identity/upstream restored; ISSUE-0014 occurrence #92.
 - Three distinct FTG source requests: two DLS-specific page paths returned 404/NoSuchKey; the Portuguese Help Center query returned zero results. No game fact or absence inference.
 - Ledger **768/572/407**. Cult Heroes route/rewards and position-lock remain open. Close `2026-10-06T02:10:56Z`. Next input expected: `>`.
+## Turn 131 closeout
+
+- Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:13:38 +0600`). Archived 345 files at `/tmp/dls26-t131-recovery-20261006021338.tar.gz`, SHA-256 `61d8b14a7b18249ae1635add81dd124ca25892ccd39ed2ae184d6ffdcbf1ff7d`; restored pushed tip `ff69681` and verified all 345 files. Repo-local identity/upstream restored; ISSUE-0014 occurrence #93.
+- Two first-party requests: direct Apple event resource returned empty content; FTG `Special Card Agents` query returned generic/already-read FAQs. No new gameplay fact; no absence inference.
+- Ledger **770/574/407**. Cult Heroes route/rewards and position-lock remain open. Close `2026-10-06T02:14:49Z`. Next input expected: `>`.

@@ -1248,3 +1248,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 343 files, SHA-256 `b94b10e35d484918874f490f52b7c84d94aa8198ec32f7ef15c7fd0c350f7715`; restored/verified pushed tip `dd2c801`, upstream and repo-local identity; ISSUE-0014 #92.
 - Three first-party requests: two DLS-specific FTG URLs returned 404/NoSuchKey; PT-BR Help Center query returned zero results. No game facts, no absence inference.
 - Ledger **768/572/407**. Cult Heroes route/rewards and position-lock remain open. Close `2026-10-06T02:10:56Z`.
+
+
+## TURN 131 (2026-10-06) — Apple event resource and FTG query
+- Recovery: reset `fb9a2c0`; archived 345 files, SHA-256 `61d8b14a7b18249ae1635add81dd124ca25892ccd39ed2ae184d6ffdcbf1ff7d`; restored/verified pushed tip `ff69681`, upstream and repo-local identity; ISSUE-0014 #93.
+- Two first-party retrievals: Apple event resource empty; FTG Special Card/Agents query returned generic/already-read FAQs only. No new game fact, no absence inference.
+- Ledger **770/574/407**. Both research dimensions remain open. Close `2026-10-06T02:14:49Z`.

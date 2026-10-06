@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T02:10:56Z",
+  "last_reconciled_at": "2026-10-06T02:14:49Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -21027,10 +21027,66 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t130_ftg_product_page_and_ptbr_query.md",
       "processing_status": "first-party localized query recorded; no mechanics evidence"
+    },
+    {
+      "source_id": "t131-apple-us-event-resource-empty",
+      "event_type": "first-party-event-resource-check",
+      "url": "https://amp-api.apps.apple.com/v1/catalog/us/in-app-events/6802988564?l=en",
+      "domain": "amp-api.apps.apple.com",
+      "retrieved_at": "Logged at T131 close 2026-10-06T02:14:49Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "check the direct Apple catalog resource for the already-known Cult Heroes in-app event",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "fetch_page status=success; numeric HTTP status not exposed",
+      "source_type": "Apple App Store API resource endpoint",
+      "language": "en",
+      "payload_summary": "The direct in-app-event resource endpoint for known event ID 6802988564 returned an empty content string. No JSON, event attributes, route, rewards, cost, or status fields were exposed. Empty content is not evidence of event absence or current in-game availability.",
+      "processing_state": "complete for this exact URL; empty payload",
+      "deception_screen": "Do not infer event absence or in-game availability from an empty API response.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t131_apple_event_resource_and_support_search.md",
+      "processing_status": "direct first-party API attempt; no event metadata"
+    },
+    {
+      "source_id": "discovery-t131-ftg-special-card-agents",
+      "event_type": "first-party-help-center-query",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=Special%20Card%20Agents",
+      "domain": "support.ftgames.com",
+      "retrieved_at": "Logged at T131 close 2026-10-06T02:14:49Z; individual retrieval timestamps not exposed.",
+      "retrieval_role": "search official Help Center for a focused Agent/Special Card explanation beyond the Cult Hero-specific queries already completed",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "status=success; numeric HTTP status not exposed",
+      "source_type": "FTG Help Center search API response",
+      "language": "en",
+      "payload_summary": "Exact query `Special Card Agents` returned count=2, page_count=1. Result 1 is the already-read general FAQ “How do I obtain more players?” (article 360004066417); its generic Agent wording is not Cult Heroes-specific and adds no new route/reward fact. Result 2 is the generic card-colour FAQ (article 214385645), not an acquisition route. No Cult Heroes guarantee, event source, cost, or position-lock rule established.",
+      "processing_state": "complete for exact query; one page/chunk",
+      "deception_screen": "Search API results/snippets are not evidence of a Cult Heroes-specific route; do not promote generic Agent text.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t131_apple_event_resource_and_support_search.md",
+      "processing_status": "query recorded; results are generic/already known",
+      "search_results": [
+        {
+          "id": 360004066417,
+          "title": "How do I obtain more players?",
+          "url": "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360004066417.json",
+          "html_url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players"
+        },
+        {
+          "id": 214385645,
+          "title": "Why are some players displaying a different player card colour?",
+          "url": "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/214385645.json",
+          "html_url": "https://support.ftgames.com/hc/en-us/articles/214385645-Why-are-some-players-displaying-a-different-player-card-colour"
+        }
+      ]
     }
   ],
   "frontier": {
-    "visited_total": 572,
+    "visited_total": 574,
     "unvisited_total": 407,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",

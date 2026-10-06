@@ -498,3 +498,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 130 recovery occurrence
 
 - ISSUE-0014 occurrence #92, 2026-10-06: reset checkout at `fb9a2c0`; archived 343 files at `/tmp/dls26-t130-recovery-20261006020936.tar.gz`, SHA-256 `b94b10e35d484918874f490f52b7c84d94aa8198ec32f7ef15c7fd0c350f7715`; restored pushed tip `dd2c801`, upstream, and repo-local identity; byte-verified all archived files. No content loss.
+
+
+## Turn 131 recovery occurrence
+
+- ISSUE-0014 occurrence #93, 2026-10-06: reset checkout at `fb9a2c0`; archived 345 files at `/tmp/dls26-t131-recovery-20261006021338.tar.gz`, SHA-256 `61d8b14a7b18249ae1635add81dd124ca25892ccd39ed2ae184d6ffdcbf1ff7d`; restored pushed tip `ff69681`, upstream, and repo-local identity; verified all archived files. No content loss.

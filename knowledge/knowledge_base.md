@@ -1537,3 +1537,7 @@ T129 completed the remaining FTG Help Center `out of position` page-2 chunks 1�
 ## T130 FTG product-page and pt-BR query checks
 
 T130’s two unvisited DLS-specific FTG page paths returned 404/NoSuchKey; the exact PT-BR Help Center query `Agentes Heróis Cultos` returned zero results. These exact results do not establish global absence and yielded no gameplay facts. Cult Heroes route/rewards and DLS26 position-lock remain open. Provenance: `source_archive/t130_ftg_product_page_and_ptbr_query.md`.
+
+## T131 direct event resource and Agent query
+
+T131’s direct Apple event resource returned empty content. The FTG Help Center `Special Card Agents` query returned only generic/already-read FAQs; no Cult Heroes-specific route/reward or DLS26 position-lock evidence. Do not infer absence or combine generic Agent guidance into a Cult Heroes claim. Provenance: `source_archive/t131_apple_event_resource_and_support_search.md`.
