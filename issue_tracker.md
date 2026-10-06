@@ -561,3 +561,6 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 
 
 - ISSUE-0014 occurrence #107, 2026-10-06: reset checkout at `fb9a2c0`; archived and byte-verified 375 working files at `/tmp/dls26-t145-recovery-20261006122337.tar.gz`, SHA-256 `86b464fb3da680e37a01749e510a6ee882c5e7f5fc0fc0d3f6889854ab6ec045`; fetched/restored pushed tip `ef378e8`, restored upstream/repo-local identity, and retained safety stash `efd5468`. No content loss.
+
+
+- ISSUE-0014 occurrence #108, 2026-10-06: reset checkout at `fb9a2c0`; archived and byte-verified 377 working files at `/tmp/dls26-t146-recovery-20261006122727.tar.gz`, SHA-256 `41f47f5cbd5434b09fd74987d96fd5e848c7f3b5ba56ad0981d24dec5270429a`; fetched/restored pushed tip `4e72b23`, restored upstream/repo-local identity, and retained safety stash `46365a0`. No content loss.

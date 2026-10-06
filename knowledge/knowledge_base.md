@@ -1597,3 +1597,7 @@ FTG Help Center `Cult Heroes Season Pass` search is partial (chunks 0–3/5). Vi
 ## T145 completed Season Pass Help Center query
 
 The exact FTG Help Center query `Cult Heroes Season Pass` is complete (16 results, 1 page, chunks 0–4/5). Its mixed results include generic DLS Season Pass help and other FTG titles, but no Cult Heroes-specific Agent/card route or reward guidance. The final chunk’s DLS19-to-DLS25 profile-transfer FAQ is unrelated. No global absence inference. Provenance: `source_archive/t145_ftg_season_pass_query_completion.md`.
+
+## T146 official-channel video scope check
+
+The official DLS26 teaser page says the game was available in December 2025 but contains no Cult Heroes mechanics in its visible metadata; its page render is partial. FTG’s `/dls` shortlink resolves to the generic already-visited games catalogue. A separate official-channel video is explicitly about DLS25 Champions and cannot be transferred to DLS26. No route/reward/position claim. Provenance: `source_archive/t146_ftg_youtube_and_shortlink.md`.

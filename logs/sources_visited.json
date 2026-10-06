@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T06:25:55Z",
+  "last_reconciled_at": "2026-10-06T06:30:39Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -21861,11 +21861,77 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t144_season_pass_query_and_creator_video.md",
       "processing_status": "complete exact query response; no Cult Heroes-specific route/reward in retrieved results; no absence inference"
+    },
+    {
+      "source_id": "page-t146-ftg-dls26-official-teaser-video",
+      "event_type": "first-party-video-page-partial",
+      "url": "https://www.youtube.com/watch?v=gpvjf6qVl5c",
+      "domain": "youtube.com",
+      "retrieved_at": "T146 close 2026-10-06T06:30:39Z; exact fetch timestamp not exposed",
+      "retrieval_role": "inspect an unvisited FTG-channel video linked from the official channel page for any DLS26/Cult Heroes route evidence",
+      "tool": "functions.fetch_page chunk 0",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "status=success; numeric HTTP status not exposed",
+      "source_type": "First Touch Games official YouTube video page",
+      "language": "en",
+      "payload_summary": "Page identifies uploader `firsttouchgames`, title “Dream League Soccer 2026 | OFFICIAL TEASER TRAILER”, uploaded 2025-11-07, duration 26 seconds. Description says DLS26 is available December 2025 and links to `https://ftgames.com/dls`. Chunk 0/154 was read; tool output is dominated by YouTube page/script text and reports hasMore=true. The title/description do not mention Cult Heroes, acquisition route/reward, or position behavior; no video frames inspected.",
+      "processing_state": "partial: chunk 0/154 read, chunks 1–153 unread",
+      "deception_screen": "Official launch teaser is not evidence of Cult Heroes mechanics or current availability. Do not infer content from the unread page shell or video frames.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [
+        "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority."
+      ],
+      "payload_path": "source_archive/t146_ftg_youtube_and_shortlink.md",
+      "processing_status": "partial first-party video page; no route details"
+    },
+    {
+      "source_id": "page-t146-ftgames-dls-shortlink",
+      "event_type": "first-party-shortlink-redirect",
+      "url": "https://ftgames.com/dls",
+      "canonical_url": "https://www.ftgames.com/games",
+      "domain": "ftgames.com",
+      "retrieved_at": "T146 close 2026-10-06T06:30:39Z; exact fetch timestamp not exposed",
+      "retrieval_role": "follow the DLS download link in the official FTG YouTube teaser and check for any DLS26-specific event details",
+      "tool": "functions.fetch_page chunk 0",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "status=success; redirect status not exposed",
+      "source_type": "First Touch Games official website shortlink to games catalogue",
+      "language": "en",
+      "payload_summary": "Request to `https://ftgames.com/dls` resolved to `https://www.ftgames.com/games` and returned the generic FTG games catalogue, already visited as the same first-party page family. It repeats standard DLS marketing copy, app-store links, and general screenshots; no Cult Heroes route, reward, cost, or position-lock information. Not independent corroboration of the existing catalogue page.",
+      "processing_state": "complete: shortlink resolved to previously visited generic games catalogue",
+      "deception_screen": "Redirect/canonical page is generic corporate/store-link context; not event or in-game evidence.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t146_ftg_youtube_and_shortlink.md",
+      "processing_status": "complete redirect resolution; no new mechanic"
+    },
+    {
+      "source_id": "page-t146-ftg-dls25-champions-video",
+      "event_type": "first-party-video-page-complete",
+      "url": "https://www.youtube.com/watch?v=03VNg9djVZ8",
+      "domain": "youtube.com",
+      "retrieved_at": "T146 close 2026-10-06T06:30:39Z; exact fetch timestamp not exposed",
+      "retrieval_role": "verify whether an official-channel “Champions” video lead concerns DLS26 or an older-version mechanic",
+      "tool": "functions.fetch_page chunk 0",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "status=success; numeric HTTP status not exposed",
+      "source_type": "First Touch Games official YouTube video page",
+      "language": "en",
+      "payload_summary": "Page identifies uploader `firsttouchgames`, title “CHAMPIONS Are Here In DLS25!”, uploaded 2025-07-17, duration 29 seconds. Description says Champions are available in DLS25 and directs players to Legendary Agents. This is DLS25-specific and does not establish any DLS26 Cult Heroes route, reward, or availability; do not transfer across versions. Transcript is music only.",
+      "processing_state": "complete page, one chunk; transcript has no mechanics",
+      "deception_screen": "Explicitly DLS25, not DLS26. Do not transfer its “Legendary Agents” wording to Cult Heroes or DLS26.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t146_ftg_youtube_and_shortlink.md",
+      "processing_status": "complete older-version source; not applicable to DLS26"
     }
   ],
   "frontier": {
-    "visited_total": 607,
-    "unvisited_total": 397,
+    "visited_total": 610,
+    "unvisited_total": 396,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -22233,14 +22299,12 @@
       "https://www.youtube.com/watch?v=WE8mXQhO6mw",
       "https://www.youtube.com/watch?v=Ke9auIZvfWg&vl=en",
       "https://www.youtube.com/watch?v=OIR9GPIf05o",
-      "https://www.youtube.com/watch?v=gpvjf6qVl5c",
       "https://www.gamespress.com/First-Touch-Games-unveils-Dream-League-Soccer-2025-Classic-Stars-Meet-",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first-touch-gamess-sponsorship-discussion/",
       "https://www.facebook.com/dreamleaguesoccertr/",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1tnvfy8/how_to_gain_more_gems_and_coins_without_buying_it/",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1i75pm4/dls_coins_and_gems_tips/",
       "https://www.youtube.com/watch?v=v9lZ9JtiWPo",
-      "https://www.youtube.com/watch?v=03VNg9djVZ8",
       "https://www.youtube.com/watch?v=jx90Sqv7ERA&pp=0gcJCTUMAYcqIYzv",
       "https://www.youtube.com/watch?v=z5qh1WnzGJg",
       "https://www.youtube.com/watch?v=gFWooEQlB0I",
@@ -22263,7 +22327,8 @@
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
       "FTG Help Center `change formation` page 2/2 exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`: 48 results total; page 2 renders 15 chunks. Only chunkIndex=0 was read in T137; chunks 1–14 remain unread. Visible chunk 0 contains Score! Match article 360000250309 (section 115001619089) and “What are the rules of Ultimate Clash Soccer?” article 7918507871505 (section 7900693036561). Do not transfer either title’s formation/position rules to DLS26. Defer the remaining long mixed response as low priority unless a relevant lead emerges; no query-wide absence inference.",
       "FTG Help Center exact query `assign player position`: count=9, page_count=1, 9 rendered chunks; only chunkIndex=0 was retrieved. Visible initial hits include Score! Match section 115001619089 and Ultimate Clash Soccer section 7900693036561; do not transfer their player-position rules to DLS26. Chunks 1–8 remain unread. If continued, resume at chunkIndex=1; no absence inference.",
-      "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI."
+      "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
+      "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority."
     ]
   }
 }

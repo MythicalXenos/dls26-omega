@@ -1338,3 +1338,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived/verified 375 files (SHA-256 `86b464fb3da680e37a01749e510a6ee882c5e7f5fc0fc0d3f6889854ab6ec045`), fetched/restored `ef378e8`, upstream/identity restored; stash `efd5468`; ISSUE-0014 #107.
 - Completed FTG `Cult Heroes Season Pass` query chunk 4/5. Full exact response remains mixed/generic; no Cult Heroes-specific route/reward guidance. T144 screenshot #18 accidental duplicate remains logged; no retry this turn.
 - Ledger **804/607/397**. Both research dimensions remain open. Close `2026-10-06T06:25:55Z`.
+
+
+## TURN 146 (2026-10-06) — official-channel follow-through
+- Recovery: reset `fb9a2c0`; archived/verified 377 files (SHA-256 `41f47f5cbd5434b09fd74987d96fd5e848c7f3b5ba56ad0981d24dec5270429a`), fetched/restored `4e72b23`, upstream/identity restored; stash `46365a0`; ISSUE-0014 #108.
+- Read FTG DLS26 teaser metadata (154-chunk render, only chunk0; no event mechanics), followed its `/dls` shortlink to the generic catalogue, and read an official-channel DLS25 Champions video. No DLS26 Cult Heroes route/reward evidence; no cross-title transfer.
+- Ledger **807/610/396**. Both dimensions remain open. Close `2026-10-06T06:30:39Z`.
