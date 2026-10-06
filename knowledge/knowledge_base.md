@@ -1525,3 +1525,7 @@ T126 produced no new gameplay claim: the first-party YouTube channel videos-path
 ## T127 regional endpoint and parent trace
 
 T127 added no gameplay claim. The Canada App Store in-app-events API returned empty content and a direct Reddit search API request for the T125 screenshot identifier returned HTTP 403/no body; neither establishes absence. The screenshot parent remains unresolved. Cult Heroes route/rewards and DLS26 position-lock remain open. Full provenance: `source_archive/t127_regional_event_api_and_reddit_query.md`.
+
+## T128 Play screenshot asset access failures
+
+Two queued official Play event screenshot URLs were attempted without image payloads (one HTTP 500; one curl TLS failure with HTTP 000). No visual/gameplay claim or absence inference is made. Fourteen screenshot URLs remain low priority. Provenance: `source_archive/t128_play_event_screenshot_fetch_failures.md`.

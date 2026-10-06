@@ -1230,3 +1230,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 337 files, SHA-256 `b11db1fd0e79357a1ed31059416e459b092f7b34c416c57a2f19875333eaf32d`; restored/verified pushed tip `0f0bffe`, upstream and repo-local identity; ISSUE-0014 #89.
 - Two retrievals: Canada App Store event API was empty; direct Reddit subreddit search endpoint returned HTTP 403/no body. No absence inference; image parent unresolved.
 - No new gameplay evidence. Cult Heroes route/rewards and position-lock remain open. Ledger **761/566/410**. Close `2026-10-06T01:55:54Z`.
+
+
+## TURN 128 (2026-10-06) — Play screenshot asset failures
+- Recovery: reset `fb9a2c0`; archived 339 files, SHA-256 `37fdd306c297ed1a223f6566ff1a1fac182baa90c06c045b715938de98567f1b`; restored/verified pushed tip `0f31a4b`, upstream, and repo-local identity; ISSUE-0014 #90.
+- Two distinct official Google Play event screenshot URLs attempted: one HTTP 500/no payload; one curl exit 35 TLS error (HTTP 000, zero bytes). No screenshot content or game fact. 14 other URLs remain low priority.
+- Ledger **763/568/408**. No dimension closed. Close `2026-10-06T02:01:11Z`.
