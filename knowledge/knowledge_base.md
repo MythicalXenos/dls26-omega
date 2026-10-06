@@ -1569,3 +1569,7 @@ FTG `change formation` page 1 (7/7 chunks) is complete. The DLS Running-behaviou
 ## T138 FTG queries and official Play asset failures
 
 FTG `Cult Heroes Agents event` exact query returned count=0; this is not global absence. FTG `assign player position` is partial (chunk0/9) and the visible hits are Score! Match/Ultimate Clash Soccer, not DLS26. Official Play screenshot URLs #13–16 failed TLS before HTTP, with zero bytes; no image contents inferred. Provenance: `source_archive/t138_ftg_and_play_first_party_probes.md`.
+
+## T139 first-party storefront and Help Center checks
+
+Apple iTunes Lookup current record reports DLS version 13.430 with a 2026-09-16 release note saying the Cult Heroes collection is “coming soon”. It is the same Apple U.S. storefront family as T72, not independent corroboration, and does not establish current in-game availability or route. Apple BD events was empty and BD lookup returned zero results for those exact endpoints only. Google Play BD listing chunk0/2 has generic Agents/events copy, not a Cult Heroes-specific route. FTG `Cult Heroes Drafts Agents` exact query returned count=0; no global absence inference. Provenance: `source_archive/t139_first_party_store_and_help_probes.md`.

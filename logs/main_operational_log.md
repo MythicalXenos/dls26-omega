@@ -1296,3 +1296,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 361 files, SHA-256 `85fd6d22989a409224f41ea07ef7f1cb4f3db023a391ed11d26adbaa67618715`; fetched/restored and byte-verified pushed tip `c1ed75b`, upstream and repo-local identity; ISSUE-0014 #100.
 - FTG `Cult Heroes Agents event` count=0 (phrase-scoped); `assign player position` partial chunk0/9, visible initial hits cross-title.
 - Play screenshot assets #13–16: all curl exit35 / HTTP000 / zero bytes; no images inspected. Eight URLs #17–24 remain untried. Ledger **787/590/403**. Both dimensions open. Close `2026-10-06T02:53:15Z`.
+
+
+## TURN 139 (2026-10-06) — first-party storefront probes
+- Recovery: reset `fb9a2c0`; archived 363 files, SHA-256 `661713573ed41f5eac2258a4eabce2d5ae5ce0b70178b291519b680bb811cd81`; fetched/restored and byte-verified pushed tip `678a73a`, upstream and repo-local identity; ISSUE-0014 #101.
+- Apple Lookup current record: v13.430, note “Cult Heroes collection, coming soon” dated 2026-09-16; same U.S. storefront family as T72, not independent. Apple BD events empty and BD lookup count0. Play BD listing partial/generic. FTG phrase query count0.
+- Ledger **792/595/402**. No new route/reward/position-lock fact. Both dimensions remain open. Close `2026-10-06T02:59:34Z`.
