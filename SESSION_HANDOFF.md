@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 122 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 123 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T122 close):** 743 records · 558 unique visited URLs · 410 unvisited leads. T122 checked only FTG site metadata endpoints; no DLS26 evidence.
+- **Ledger (T123 close):** 744 records · 559 unique visited URLs · 409 unvisited leads. T123 added one first-party channel video page; it contributes no target mechanic evidence.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 123):**
+- **Next exact action (Turn 124):**
   1. Record the clock first; verify branch/status/upstream/identity and archive if the reset checkout recurs.
   2. Select a distinct unvisited first-party/in-game source relevant to Cult Heroes route/rewards or DLS26 position-lock; avoid completed exact queries and previously visited pages.
-  3. Keep the 16 remaining Play screenshot URLs and Help Center page-2 chunks 1–4 low priority; do not treat metadata 404s as a global absence finding.
+  3. Keep 16 remaining Play screenshot URLs and Help Center page-2 chunks 1–4 low priority; do not infer event availability or mechanics from generic launch material.
   4. Keep both questions open and position-lock explicitly `user-stated`/unverified pending Step-3 device setup. No spending advice or exhaustion declaration; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -281,3 +281,9 @@
 - Recovery: opening reset to `fb9a2c0`; archived 349 members at `/tmp/dls26-t122-recovery-20261006072049.tar.gz` (SHA-256 `c9e0f2836d0fe5220e94e1155d62067b5144c7ff8a03be3c4bb3de19140e0a28`). Verified all 324 regular-file payloads byte-for-byte against the restored worktree. Restored `5cddd2e`, upstream `origin/arena/01a1022d-dls26-omega`, and repo-local identity `DLS26 Omega <omega@dls26.local>`; no file-content loss.
 - Three retrievals: FTG sitemap, FTG robots, and alternate-domain sitemap endpoints each rendered 404/NoSuchKey. No DLS26 content was returned; no inference about other pages.
 - Ledger: **743 / 558 / 410**. Both questions remain open; position-lock is user-stated/unverified. Close `2026-10-06T01:21:58Z`. Next input expected: `>`.
+
+## Turn 123 closeout
+
+- Recovery: opening reset to `fb9a2c0`; archived 351 members at `/tmp/dls26-t123-recovery-20261006072500.tar.gz` (SHA-256 `1c54a6d7b12ff16f8c695b0034009ca168fd25ad1caa826d7655a8ffdd6203bc`). Verified all 326 regular-file payloads byte-for-byte against the restored worktree. Restored `8d03606`, upstream `origin/arena/01a1022d-dls26-omega`, and repo-local identity `DLS26 Omega <omega@dls26.local>`; no file-content loss.
+- One retrieval: official-channel launch-trailer page for DLS26, with generic description/transcript. It does not provide Cult Heroes route/reward or position-lock information; no video frames or thumbnail assessed.
+- Ledger: **744 / 559 / 409**. Both questions remain open; position-lock is user-stated/unverified. Close `2026-10-06T01:26:24Z`. Next input expected: `>`.

@@ -1198,3 +1198,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (349 members; SHA-256 `c9e0f2836d0fe5220e94e1155d62067b5144c7ff8a03be3c4bb3de19140e0a28`), then restored `5cddd2e`, upstream, and repo-local identity. All 324 regular-file payloads match the archive; ISSUE-0014 #84 logged.
 - Three retrievals: FTG sitemap, robots, and alternate-domain sitemap endpoints rendered 404/NoSuchKey. No DLS26 content or global-absence inference.
 - Ledger **743 / 558 / 410**. Close marker `2026-10-06T01:21:58Z`.
+
+
+## TURN 123 (2026-10-06) — FTG launch-trailer page
+- Recovery: reset checkout archived (351 members; SHA-256 `1c54a6d7b12ff16f8c695b0034009ca168fd25ad1caa826d7655a8ffdd6203bc`), then restored `8d03606`, upstream, and repo-local identity. All 326 regular-file payloads match the archive; ISSUE-0014 #85 logged.
+- One retrieval: FTG-channel DLS26 launch-trailer page. Generic description/transcript; no Cult Heroes route/reward or position-lock detail. No frames or thumbnail assessed.
+- Ledger **744 / 559 / 409**. Close marker `2026-10-06T01:26:24Z`.
