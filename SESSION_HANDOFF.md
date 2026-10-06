@@ -67,11 +67,11 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 112):**
+- **Next exact action (Turn 113):**
   1. Record the clock first; verify branch/status/upstream/identity and archive before cleanup if the reset checkout recurs.
-  2. Continue the exact FTG Help Center `out of position` query at page 1 chunkIndex 8; read through chunk 12, then assess page 2 only if useful. Do not transfer other FTG games' wording to DLS26 or infer absence.
-  3. Fetch the DLS help article direct URL only if it is not already visited; its Running-behavior text is not a position-lock finding.
-  4. Keep Cult Heroes route/rewards unresolved and position-lock `user-stated`/unverified pending Step-3 device setup. No spending advice, dimension closure, or exhaustion declaration; push before turn end.
+  2. Select a distinct unvisited first-party or in-game lead from the machine frontier for Cult Heroes route/rewards or DLS26 position locking. Do not repeat completed exact queries or blocked URLs.
+  3. Page 2 chunks 1–4 of the FTG `out of position` query remain low priority after chunk 0 returned graphics/save-data material; revisit only if useful. Do not infer absence from this partial page.
+  4. Keep Cult Heroes unresolved and position-lock explicitly `user-stated`/unverified pending Step-3 device setup. No spending advice, dimension closure, or exhaustion declaration; push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -215,3 +215,9 @@
 - Recovery: archived 302 files (SHA-256 `f256ffffe3ff4cfe853bdd040dda5a0e4ecf4ea1636c7ab44ee883818f151324`), restored `506987a`, upstream, and repo-local identity; no loss.
 - Six retrievals: FTG Help Center `out of position`, page 1 chunks 2–7/13. The DLS-labeled Running-behavior result concerns in-match movement, not squad position locking; direct article scope remains unverified. Continue chunks 8–12.
 - Ledger: **719 / 537 / 401**. Cult Heroes unresolved; no-lock remains user-stated/unverified. Close time `2026-10-06T00:22:05Z`. Next input expected: `>`.
+
+## Turn 112 closeout
+
+- Recovery: archived 304 files (SHA-256 `a2b3d8f308d3c89e74bcc7984c3e4b13f80a7943b6935a87dcbd0f42ea081374`), restored `291a1d0`, upstream, and repo-local identity; no loss.
+- Six retrievals: completed FTG `out of position` page 1 (13/13 chunks); sampled page 2 chunk 0/5, which returned graphics/save-data items. Keep chunks 1–4 low priority; no absence inference or lock conclusion.
+- Ledger: **720 / 538 / 401**. Cult Heroes details unresolved; position-lock remains user-stated/unverified. Close `2026-10-06T00:27:16Z`. Next input expected: `>`.

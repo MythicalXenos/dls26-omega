@@ -1474,3 +1474,8 @@ The FTG Help Center `out of position` search is partial: page 1 chunks 0–1/13 
 ## TURN 111 source-screen note (not a position-lock finding)
 
 FTG Help Center API results include a DLS-labeled stats article whose Running-behavior text says players without the attribute stay more closely to formation position. Scope: in-match movement/AI wording; it does not establish squad position locking or a DLS26-specific lock rule. Query remains partial (page 1 chunks 0–7/13). Provenance: `source_archive/t111_ftg_out_of_position_query_chunks_2_7.md`.
+
+
+## TURN 112 source-screen note (not a position-lock finding)
+
+FTG Help Center `out of position` page 1 is complete (13 chunks); it returned mixed products/topics. Page 2 chunk 0/5 surfaced graphics-settings and save-data articles; chunks 1–4 remain unread and low priority. No DLS26 position-lock conclusion; do not infer absence. Provenance: `source_archive/t112_ftg_out_of_position_page1_complete_and_page2_partial.md`.
