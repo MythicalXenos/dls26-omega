@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 154):**
-  1. Record the clock first; verify fixed branch/status/upstream/repo-local identity and recover only if reset recurs.
-  2. If useful, continue FTG Help Center `assign player position` at chunkIndex=6 (never reread 0–5); inspect only for DLS-version-specific position-lock guidance. Keep generic DLS and other-title material separate.
-  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`; no spending advice, absence inference, dimension closure or exhaustion declaration. Push before turn end.
+- **Next exact action (Turn 155):**
+  1. Record the clock first; verify the fixed branch, upstream and repo-local identity; recover only if a reset recurs.
+  2. Pursue a distinct first-party Cult Heroes artwork/player-list lead through official FTG social channels (fresh targeted discovery, then inspect the official source itself). Do not repeat completed exact searches or retry Play screenshots #21–24.
+  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`, verification owed. No spending advice, global-absence inference, dimension closure or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -462,3 +462,11 @@
 - Six retrieval calls: screenshot #22 returned HTTP 500 with no image; FTG Help Center `assign player position` chunks 1–5/9 were retrieved. The query remains partial; its mixed, version-unstamped snippets do not verify DLS26 position locking. Full record: `source_archive/t153_assign_position_query_and_screenshot22.md`.
 - Ledger after T153: **825 records / 619 visited URL attempts / 393 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
 - T153 close time: 2026-10-06 14:40:22 +0600 Asia/Dhaka. Next input expected: `>`.
+
+
+## T154 closeout
+
+- Initial branch validation found the session branch reset to `fb9a2c0` without an upstream; no source retrieval occurred before recovery. Archived 397 files at `/tmp/dls26-t154-recovery-20261006144623.tar.gz` (SHA-256 `f68a3cb13863d85e2bb9f648ca99d4a472f491c2995753ddfb4ca615b52345b7`), fetched pushed tip `231aeb4`, restored upstream and repo-local identity, and byte-verified all 397 files.
+- Five retrieval calls: completed FTG `assign player position` chunks 6–8/9, and attempted official Play screenshots #23–24 (both HTTP 500, no image). No DLS26-specific position-lock guidance surfaced in the mixed query. T149 transcription correction was applied from the original image-search output without a refetch. Details: `source_archive/t154_ftg_query_and_play_screenshots.md`.
+- Ledger after T154: **828 records / 621 visited URL attempts / 390 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No research dimension closed.
+- T154 close time: 2026-10-06 14:51:00 +0600 Asia/Dhaka. Next input expected: `>` .

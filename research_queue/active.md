@@ -137,5 +137,7 @@ No queued discoveries yet. During bootstrap, only inaccessible wall sources may 
 
 
 - [BLOCKED T153] Official Play screenshot #22 returned HTTP 500 with no image; retire this exact URL. Screenshots #23–24 remain uninspected; no inference from #22.
-- [PARTIAL T153] FTG Help Center `assign player position` chunks 1–5/9 read; chunks 6–8 remain. Mixed generic DLS/other-title results; one unbound formation/ball-position snippet is not DLS26 lock evidence. See `source_archive/t153_assign_position_query_and_screenshot22.md`.
-- [T154 next] Continue the exact FTG `assign player position` endpoint at chunkIndex=6 only if useful; do not reread chunks 0–5 or transfer other-title/generic results to DLS26.
+- [COMPLETE T154] FTG Help Center `assign player position` chunks 0–8/9 read across T138/T153/T154. Mixed, version-unstamped results; the unbound formation/ball-position snippet is not DLS26 lock evidence. See `source_archive/t154_ftg_query_and_play_screenshots.md`.
+- [BLOCKED T154] Official Play screenshots #23–24 each returned HTTP 500 with no image content; no visual inference.
+- [CORRECTED T154] T149 result #3 proxy transcription corrected from embedded `w526-h396` to `w526-h296` in ledger and triage note, from original output; no refetch.
+- [T155 next] Use a distinct discovery route for FTG-owned Cult Heroes artwork/player-list evidence via official social channels (for example, discover an official post through a fresh targeted search); verify ownership at the source. Do not repeat exact completed searches or retry screenshots #21–24. Keep route/rewards unconfirmed and position-lock `user-stated`; no global-absence inference.
