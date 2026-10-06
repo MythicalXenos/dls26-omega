@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 158):**
+- **Next exact action (Turn 159):**
   1. Record the clock first; verify fixed branch/upstream/repo-local identity; recover only if reset recurs.
-  2. Resolve exact post permalinks/dates for the Facebook/TikTok Cult Heroes search snippets with fresh phrase searches on the linked DLS handles. The search output includes agent/Events/Drafts/Season Pass wording, but TikTok attribution conflicts with a DLS25 title and the direct page returned 403. Do not promote until a directly attributable first-party post is retrieved. Do not repeat T157 searches or retry the blocked URLs.
-  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`, verification owed. No spending advice, global-absence inference, dimension closure or exhaustion declaration. Push before turn end.
+  2. Use a fresh exact-phrase search on the FTG-linked Instagram `@playdls` account to locate a directly attributable Cult Heroes post/permalink/date (e.g. `site:instagram.com/playdls "Cult Hero Agents" "Events" "Drafts"`). Do not repeat T156–T158 searches or retry the blocked Facebook/TikTok/Instagram URLs.
+  3. Keep route/rewards unconfirmed until a direct source is retrieved and attribution/date are clear; position-lock remains `user-stated`, verification owed. No spending advice, global-absence inference, dimension closure or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -494,3 +494,11 @@
 - Six retrieval calls: Facebook/TikTok profile fetches and a TikTok result fetch all returned HTTP 403; three targeted web searches surfaced search-index snippets that mention a Cult Heroes/Agent route, but direct attribution is uncertain and one TikTok result is titled DLS25. No route/reward claim promoted. Details: `source_archive/t157_dls_social_search_snippets.md`.
 - Ledger after T157: **846 records / 630 visited URL attempts / 390 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No research dimension closed.
 - T157 close time: 2026-10-06 15:12:27 +0600 Asia/Dhaka. Next input expected: `>` .
+
+
+## T158 closeout
+
+- Clock was written first. Checkout reset to `fb9a2c0` without upstream; before research, archived 405 files at `/tmp/dls26-t158-recovery-20261006151631.tar.gz` (SHA-256 `47efba5b22ff0ac0e49ba041cd76c7c41024b2612711b1a3c8024f63a427b212`), fetched pushed tip `9c7b428`, restored upstream/repo-local identity, and byte-verified all 405 files.
+- Six retrieval calls. Exact Facebook/TikTok phrase searches returned profile/snippet results but no post permalink/date. Three direct fetches (Facebook profile, TikTok profile, one TikTok video) returned HTTP 403. Two profile fetches were unintended exact repeats of T157 blocked URLs; this procedural error is logged and must not recur. A general exact-phrase search returned only secondary/community results, not promoted. Details: `source_archive/t158_social_caption_attribution.md`.
+- Ledger after T158: **852 records / 633 visited URL attempts / 390 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No dimension closed.
+- T158 close time: 2026-10-06 15:19:18 +0600 Asia/Dhaka. Next input expected: `>` .

@@ -22598,10 +22598,131 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T157",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t158-facebook-dls-profile-http403-repeat",
+      "domain": "facebook.com",
+      "url": "https://www.facebook.com/dreamleaguesoccer",
+      "exact_url": "https://www.facebook.com/dreamleaguesoccer",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct profile fetch returned HTTP 403 and no page content. This was an unintended repeat of the exact URL already blocked in T157; no content was obtained. Do not retry again.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T158",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed",
+      "duplicate_attempt_note": "Repeated T157 exact URL in error; no additional source content."
+    },
+    {
+      "source_id": "t158-tiktok-dls-profile-http403-repeat",
+      "domain": "tiktok.com",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+      "exact_url": "https://www.tiktok.com/@dreamleaguesoccer.ftg",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct profile fetch returned HTTP 403 and no page content. This was an unintended repeat of the exact URL already blocked in T157; no content was obtained. Do not retry again.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T158",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed",
+      "duplicate_attempt_note": "Repeated T157 exact URL in error; no additional source content."
+    },
+    {
+      "source_id": "t158-websearch-facebook-exact-cult-caption",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:facebook.com/dreamleaguesoccer \"Scoring team goals with a full squad of Cult Heroes hits different\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Fresh exact-caption search returned the DLS Facebook profile URL and the same “Scoring team goals with a full squad of Cult Heroes hits different … Collect them in game now” snippet. No distinct post permalink/date returned. The profile URL was already blocked in T157; retain only as unverified search-index text, not confirmed availability or route evidence.",
+      "search_results": [
+        {
+          "url": "https://www.facebook.com/dreamleaguesoccer/",
+          "title": "Dream League Soccer (@dreamleaguesoccer)",
+          "description": "Profile snippet repeats the Cult Heroes “collect them in game now” caption; no post permalink."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T158",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t158-websearch-tiktok-agent-snippet",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "site:tiktok.com/@dreamleaguesoccer.ftg \"Cult Heroes are still available\" \"guaranteed Special Card\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "Search returned URL 7477999051343007008, titled as a DLS25 European-Classics/Four Classic Players post, while its description bundled text saying Cult Heroes remain available and Cult Hero Agents guarantee a Special Card. Attribution of that Cult Heroes text to the linked result is uncertain; no exact Cult Heroes permalink/date was returned. Do not promote as a verified reward/availability claim.",
+      "search_results": [
+        {
+          "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008",
+          "title": "Four new Classic Players will be available tomorrow (DLS25 European Classics)",
+          "description": "Search output also included Cult Heroes/Cult Hero Agents lines; association with this DLS25-titled URL is uncertain."
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T158",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t158-tiktok-video747-http403",
+      "domain": "tiktok.com",
+      "url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008",
+      "exact_url": "https://www.tiktok.com/@dreamleaguesoccer.ftg/video/7477999051343007008",
+      "retrieval_tool": "functions.fetch_page",
+      "http_status": 403,
+      "payload_summary": "Direct fetch returned HTTP 403; no video/page content. The DLS25 title versus bundled Cult Heroes text remains unresolved. Do not retry or infer content.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T158",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t158-websearch-exact-phrase-secondary-results",
+      "domain": "search-tool",
+      "url": null,
+      "exact_url": null,
+      "search_query": "\"Cult Heroes are still available for you to add to your squad\" \"Cult Hero Agents\"",
+      "retrieval_tool": "functions.web_search",
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed.",
+      "payload_summary": "The exact-phrase search returned secondary pages (DLSKitURL, Reddit, YouTube creator video and DLSInside); no directly attributable FTG social post/permalink. Their mechanics, cost and route assertions were not opened or promoted. Search results are logged only as secondary context; they do not verify the official snippets.",
+      "search_results": [
+        {
+          "url": "https://dlskiturl.com/dls-26-cult-heroes-event/",
+          "title": "DLS 26 Cult Heroes (New Event)",
+          "source_class": "secondary; not fetched/promoted"
+        },
+        {
+          "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1vtm4ty/upcoming_cult_heroes_special_cards/",
+          "title": "Upcoming Cult Heroes Special Cards",
+          "source_class": "community; not fetched/promoted"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=e41kd1TA1K8",
+          "title": "How to Get MORE Cult Heroes in DLS 26!",
+          "source_class": "creator video; not fetched/promoted"
+        },
+        {
+          "url": "https://www.reddit.com/r/TheOther14/comments/1n8ilgj/cult_heroes_for_your_team/",
+          "title": "Cult heroes for your team",
+          "source_class": "unrelated community; not fetched/promoted"
+        },
+        {
+          "url": "https://dlsinside.com/players/specials/cult-heroes",
+          "title": "Dream League Soccer 2026 Cult Heroes Players",
+          "source_class": "secondary database; not fetched/promoted"
+        }
+      ],
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T158",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 630,
+    "visited_total": 633,
     "unvisited_total": 390,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
