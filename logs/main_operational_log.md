@@ -1133,6 +1133,6 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 
 
 ## TURN 112 (2026-10-06) — FTG support query completion and page-2 sample
-- Recovery: reset checkout archived (304 files; SHA-256 `a2b3d8f308d3c89e74bcc7984c3e4b13f80a7943b6935a87dcbd0f42ea081374`), then restored `291a1d0`, upstream, and repo-local identity. No loss; ISSUE-0014 #75 logged.
+- Recovery: reset checkout archived (304 files; SHA-256 `a2b3d8f308d3c89e74bcc7984c3e4b13f80a7943b6935a87dcbd0f42ea081374`), then restored `291a1d0`, upstream, and repo-local identity. No loss; ISSUE-0014 #74 logged.
 - Six retrievals: completed FTG Help Center `out of position` page 1 (13/13 chunks); page 2 chunk 0/5 sampled, with graphics/save-data results. Chunks 1–4 remain low priority; no absence inference.
 - Ledger **720 / 538 / 401**. Close marker `2026-10-06T00:27:16Z`.
