@@ -69,8 +69,8 @@
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
 - **Next exact action (Turn 134):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if reset recurs.
-  2. Continue the already-partial FTG `Agent rewards` API response at chunkIndex=3 through 9; no repeat of chunks 0–2 or the exact URL as a new query.
-  3. Then seek distinct first-party/in-game Cult Heroes route/reward or DLS26 position evidence; avoid T133 `lineup`, T131/T130 queries, completed position searches, T129 X, store endpoints, blocked Reddit, and failed Play images.
+  2. Continue the already-partial FTG `Agent rewards` API response at chunkIndex=3 through 8 (six retrieval calls, within the turn ceiling); no repeat of chunks 0–2 or the exact URL as a new query.
+  3. Reserve chunkIndex=9 for T135 so the exact query is complete without exceeding the six-call limit. Only after that, seek distinct first-party/in-game Cult Heroes route/reward or DLS26 position evidence; avoid T133 `lineup`, T131/T130 queries, completed position searches, T129 X, store endpoints, blocked Reddit, and failed Play images.
   4. Keep position-lock user-stated/unverified; no spending advice, scope closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
