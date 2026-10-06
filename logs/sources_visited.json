@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T10:04:15Z",
+  "last_reconciled_at": "2026-10-06T10:11:38Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -23094,11 +23094,27 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T172",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t173-ftg-autoswitch-article-direct",
+      "domain": "firsttouch.zendesk.com",
+      "url": "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json",
+      "exact_url": "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        0
+      ],
+      "http_status": null,
+      "http_status_note": "Tool status=success; numeric HTTP status not exposed. One rendered response chunk; hasMore=false.",
+      "payload_summary": "Direct FTG Help Center article 360008831518, “Why are my players auto-switching all the time?” (section_id 203117809; updated 2026-07-29). It describes automatic control selection while defending and the Controls > Auto Switch setting. This concerns which player the user controls, not assignment/locking of players to squad positions; no DLS26-specific position-lock rule is stated.",
+      "discovered_not_yet_visited_leads": [],
+      "turn": "T173",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 638,
-    "unvisited_total": 389,
+    "visited_total": 639,
+    "unvisited_total": 388,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -23487,8 +23503,7 @@
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
       "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
       "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c`: chunk 0 was read in T146 (that response reported 154 chunks); chunk 1 read in T171 reports `totalChunks=163` and `hasMore=true`. Chunks 0–1 read; chunks 2–162 remain unread under the latest response. The page is script-heavy/low priority; chunk 1 returned player configuration rather than transcript or Cult Heroes mechanics. Continue only if useful; preserve the 154-vs-163 count discrepancy.",
-      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched.",
-      "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json — FTG help-center result “Why are my players auto-switching all the time?”; only result snippet/body in mixed query inspected, direct page not fetched; generic DLS control-selection context, not position-lock evidence."
+      "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched."
     ]
   }
 }
