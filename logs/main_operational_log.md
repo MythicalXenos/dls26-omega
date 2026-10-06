@@ -1332,3 +1332,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived/verified 373 files (SHA-256 `d43d7c53552dfa49969c326dd8dd0144efeb7b3f45691302d5838e854288b0ac`), fetched/restored `166c29e`, upstream/identity restored; stash `1054d51`; ISSUE-0014 #106.
 - FTG `Cult Heroes Season Pass` response chunks0–3/5; generic DLS pass FAQ only. Creator video is secondary and date-ambiguous. Screenshot #18 accidental duplicate retry returned HTTP500; no image, do not retry.
 - Ledger **804/607/398**. Both research dimensions remain open. Close `2026-10-06T06:21:21Z`.
+
+
+## TURN 145 (2026-10-06) — complete Season Pass query
+- Recovery: reset `fb9a2c0`; archived/verified 375 files (SHA-256 `86b464fb3da680e37a01749e510a6ee882c5e7f5fc0fc0d3f6889854ab6ec045`), fetched/restored `ef378e8`, upstream/identity restored; stash `efd5468`; ISSUE-0014 #107.
+- Completed FTG `Cult Heroes Season Pass` query chunk 4/5. Full exact response remains mixed/generic; no Cult Heroes-specific route/reward guidance. T144 screenshot #18 accidental duplicate remains logged; no retry this turn.
+- Ledger **804/607/397**. Both research dimensions remain open. Close `2026-10-06T06:25:55Z`.
