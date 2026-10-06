@@ -1449,3 +1449,8 @@ Completed all 52 results across three pages (page1 T104; page2 chunks0–4/5 and
 ## TURN 106 (2026-10-06) — X search and Reddit JSON source check
 
 A targeted X search surfaced only historical/unrelated posts; it is discovery-only and does not establish absence. A distinct Reddit `.json?raw_json=1` endpoint returned HTTP 403 with no payload; no post content was assessed. Neither retrieval verifies Cult Heroes mechanics or DLS26 position locking. Provenance: `source_archive/t106_x_and_reddit_cult_heroes_checks.md`.
+
+
+## TURN 107 (2026-10-06) — TikTok candidate routes blocked
+
+The direct, oEmbed and embed/v2 URLs for TikTok video 7503572653068848417 each returned HTTP 403 with no payload. Content and account affiliation remain unassessed; do not infer absence or event mechanics. Provenance: `source_archive/t107_tiktok_7503572653068848417_blocked.md`.
