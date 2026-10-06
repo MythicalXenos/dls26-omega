@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T09:46:39Z",
+  "last_reconciled_at": "2026-10-06T09:49:06Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -22961,6 +22961,24 @@
       ],
       "turn": "T165",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
+    },
+    {
+      "source_id": "t166-ftg-position-locking-chunk6",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20locking",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20locking",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        6
+      ],
+      "http_status": null,
+      "http_status_note": "Requested chunk returned tool status=success; numeric HTTP status not exposed. Total rendered chunks=10; hasMore=true.",
+      "payload_summary": "Continued the generic DLS player-stats FAQ in the exact `position locking` query. Chunk 6 covers skill actions, strength, tackling and passing. It describes attribute effects, not squad-position locking; the article is not version-bound to DLS26. Chunks 7–9 remain unread; no global-absence inference.",
+      "discovered_not_yet_visited_leads": [
+        "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunks 0–6 read (chunk 0 T160, chunk 1 T161, chunk 2 T162, chunk 3 T163, chunk 4 T164, chunk 5 T165, chunk 6 T166); chunks 7–9 remain unread. Chunk 6 continues the generic DLS player-stats FAQ (skill actions, strength, tackling, passing); it is not DLS26 squad-position-lock evidence. Resume at chunkIndex=7 only."
+      ],
+      "turn": "T166",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
@@ -23357,7 +23375,7 @@
       "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched.",
       "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json — FTG help-center result “Why are my players auto-switching all the time?”; only result snippet/body in mixed query inspected, direct page not fetched; generic DLS control-selection context, not position-lock evidence.",
-      "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunks 0–5 read (chunk 0 T160, chunk 1 T161, chunk 2 T162, chunk 3 T163, chunk 4 T164, chunk 5 T165); chunks 6–9 remain unread. Chunk 5 continues the generic DLS player-stats FAQ and discusses stat effects by position, not squad-position locks; no DLS26-specific position-lock guidance surfaced. Resume at chunkIndex=6 only."
+      "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunks 0–6 read (chunk 0 T160, chunk 1 T161, chunk 2 T162, chunk 3 T163, chunk 4 T164, chunk 5 T165, chunk 6 T166); chunks 7–9 remain unread. Chunk 6 continues the generic DLS player-stats FAQ (skill actions, strength, tackling, passing); it is not DLS26 squad-position-lock evidence. Resume at chunkIndex=7 only."
     ]
   }
 }
