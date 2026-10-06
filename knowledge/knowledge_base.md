@@ -1509,3 +1509,7 @@ The Google Play developer directory lists Dream League Soccer 2026 under First T
 ## TURN 118 source-screen note (directory context only)
 
 Apple's FTG developer directory lists DLS 2026 among the developer's apps; no Cult Heroes route/rewards or DLS26 position-lock evidence. A separate Play screenshot URL failed via curl before HTTP; no image was assessed. Provenance: `source_archive/t118_store_directories_and_screenshot.md`.
+
+## T124 in-game capture reinspection
+
+Previously saved S-0025 user-generated screenshots were re-read with `functions.read_file` in T124 (paths and SHA-256 values are in `source_archive/t124_store_api_social_feed_and_image_reinspection.md`). The Isco screenshot visibly places a `PLAYER SIGNED` modal over `LIVE TRANSFERS` with a `CULT HEROES` subsection visible. This is direct visual UI content, consistent with but not proof of a Live Transfers acquisition path; it does not show transaction origin, cost, reward terms, current event availability, or position-lock behavior. These are not independent new captures; retain S-0025's authenticity caveats.

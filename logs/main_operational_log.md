@@ -1204,3 +1204,10 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (351 members; SHA-256 `1c54a6d7b12ff16f8c695b0034009ca168fd25ad1caa826d7655a8ffdd6203bc`), then restored `8d03606`, upstream, and repo-local identity. All 326 regular-file payloads match the archive; ISSUE-0014 #85 logged.
 - One retrieval: FTG-channel DLS26 launch-trailer page. Generic description/transcript; no Cult Heroes route/reward or position-lock detail. No frames or thumbnail assessed.
 - Ledger **744 / 559 / 409**. Close marker `2026-10-06T01:26:24Z`.
+
+
+## TURN 124 (2026-10-06) — store API, feed, archive, and screenshot reinspection
+- Recovery: reset checkout archived (353 members; SHA-256 `223c1023808f9c6734412e4f4f487b8b124c826b807a6e9bed888dcf0d27c506`), then restored `f7d8b46`, upstream, and repo-local identity. All 328 regular-file payloads match the archive; ISSUE-0014 #86 logged.
+- Three external retrievals: Apple AMP empty body; YouTube legacy feed 404; alternate-domain Wayback CDX exact query `[]`.
+- Re-read two existing S-0025 user-generated in-game screenshots. The Isco signed modal appears over `LIVE TRANSFERS` with `CULT HEROES` subsection visible; this does not prove transaction origin. No route price/reward or position-lock conclusion.
+- Ledger **749 / 562 / 409**. Close marker `2026-10-06T01:32:35Z`.
