@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T00:56:32Z",
+  "last_reconciled_at": "2026-10-06T01:06:48Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -20137,6 +20137,61 @@
       "conflicts": [],
       "affected_kb_claims": [],
       "discovered_not_yet_visited": []
+    },
+    {
+      "source_id": "discovery-t119-ftg-support-cult-heroes-collection-search",
+      "event_type": "discovery-search",
+      "url": null,
+      "search_query": "site:support.ftgames.com/hc/en-us/articles \"Cult Heroes collection\" \"Dream League Soccer\"",
+      "domain": "web-search (FTG Help Center scope)",
+      "retrieved_at": "Logged at T119 close 2026-10-06T01:06:48Z; web_search did not expose its execution timestamp.",
+      "retrieval_role": "discovery only; no source page retrieval",
+      "tool": "functions.web_search",
+      "http_status": "not exposed by tool; search status=success",
+      "source_type": "search-result snippets; first-party FTG Help Center result URLs, not direct page fetches",
+      "language": "en",
+      "payload_summary": "Five snippets surfaced, all from exact URLs already present in the source ledger. They were generic or unrelated; no Cult Heroes-specific route/reward or DLS26 position-lock evidence. No new unvisited lead; no absence inference.",
+      "processing_state": "search result set triaged; no linked page fetched; not processed as game-mechanics evidence",
+      "deception_screen": "No game claim accepted from snippets; search was mixed/generic and cannot establish absence.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t119_ftg_support_search_triage.md",
+      "processing_status": "complete for discovery-query purpose only",
+      "also_seen": [
+        "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+        "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems",
+        "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
+        "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
+        "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS"
+      ],
+      "search_results": [
+        {
+          "title": "How do I backup/restore/transfer my save data?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+          "snippet": "For older games no longer generally available, such as Dream League Soccer (formally DLS19), backup/restore/transfer uses iCloud (iOS) or Google Play Saved Games (Android)."
+        },
+        {
+          "title": "How can I get Gems?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems",
+          "snippet": "Snippet lists league objectives, tournaments, Season Pass, Prize Ladder, and Dream League Live as Gem sources; quantity depends on circumstance; Gems can also be purchased. Generic and not Cult Heroes-specific."
+        },
+        {
+          "title": "Can I change my team name?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/214385345-Can-I-change-my-team-name",
+          "snippet": "Search result title and related-article links only; unrelated to either question."
+        },
+        {
+          "title": "How do I find my User ID?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
+          "snippet": "Search result title and related-article links only; unrelated to either question."
+        },
+        {
+          "title": "Why have I been blocked from playing DLS?",
+          "url": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+          "snippet": "Generic fair-play policy snippet; unrelated to the target mechanics."
+        }
+      ]
     }
   ],
   "frontier": {

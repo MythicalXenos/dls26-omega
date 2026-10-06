@@ -1174,3 +1174,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Two retrievals: Apple developer directory (listing context only); distinct Play screenshot URL via curl failed TLS/SSL before HTTP, no payload. No visual inference; 17 URLs remain queued.
 - Initial finalizer stopped on a queue-marker assertion after the source ledger/archive write; finalization resumed from persisted state without repeating retrievals.
 - Ledger **733 / 551 / 411**. Close marker `2026-10-06T00:57:03Z`.
+
+
+## TURN 119 (2026-10-06) — FTG Help Center search-result triage
+- Recovery: reset checkout archived (343 members; SHA-256 `a229636d258ed22e48f85e551ee63a22942f5116df0f6f7032a0f24f7e733352`), then restored `989cd3e`, upstream, and repo-local identity. All 318 regular-file payloads match the archive; ISSUE-0014 #81 logged.
+- One retrieval: FTG-scoped exact-phrase `functions.web_search`; five generic/unrelated snippets, all exact URLs previously represented in the ledger. No page fetch, new lead, game claim, or absence inference.
+- Ledger **734 / 551 / 411** (search-only event is not a page-URL visit). Close marker `2026-10-06T01:06:48Z`.
