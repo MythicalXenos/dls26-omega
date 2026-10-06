@@ -1308,3 +1308,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`, archived/verified 365 working files (SHA-256 `7850bd5ee4276051cd23c3aead143fd95f021d87d500ebadc2713ebb69683fd1`), fetched/restored `cd9610e`, restored upstream/identity; safety stash `e849699`; ISSUE-0014 #102.
 - Completed Play BD listing chunks 0–1. A store event tile says “Ends on 10/14” with no year and links to previously visited eventdetails; same page’s release note says “coming soon.” Storefront-only; no route/reward/current game availability inferred.
 - Banner URL attempt returned HTTP 500; exact URL already ledgered and duplicate attempt disclosed; no image inspection. Ledger **792/595/401**. Both research dimensions remain open. Close `2026-10-06T03:06:22Z`.
+
+
+## TURN 141 (2026-10-06) — Play screenshot attempt
+- Recovery: reset `fb9a2c0`; archived and verified 367 files (SHA-256 `e8d9446e7ceded6090b06c9751b1b78896e86fa2f6f8eaa05bb99d6c716fd2f1`); fetched/restored `2e93c49`, upstream and repo-local identity; stash `be7a5f8`; ISSUE-0014 #103.
+- Attempted official Play screenshot URL #17 once; fetch_page HTTP 500, no image content. Retired this URL; no visual/game claim. URLs #18–24 remain uninspected.
+- Ledger **793/596/400**. Both research dimensions remain open. Close `2026-10-06T03:11:06Z`.

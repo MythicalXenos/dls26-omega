@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T03:06:22Z",
+  "last_reconciled_at": "2026-10-06T03:11:06Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -21596,11 +21596,32 @@
       "discovered_not_yet_visited": [],
       "payload_path": "source_archive/t139_first_party_store_and_help_probes.md",
       "processing_status": "complete exact lookup only; no absence inference"
+    },
+    {
+      "source_id": "page-t141-play-event-screenshot-17-http500",
+      "event_type": "first-party-store-screenshot-fetch-failure",
+      "url": "https://play-lh.googleusercontent.com/3MqyvMOcLFhKs21WwXGcXKfuJCvTyXEPYk65XayN1biuDRrA0mV-ur9LP0Fr6BVz65jcCYLv10lqptUw0r-Fbw=w526-h296-rw",
+      "domain": "play-lh.googleusercontent.com",
+      "retrieved_at": "T141 close 2026-10-06T03:11:06Z; exact fetch timestamp not exposed",
+      "retrieval_role": "attempt one previously queued Google Play screenshot URL (#17) as a possible first-party/in-game UI source",
+      "tool": "functions.fetch_page",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0",
+      "http_status": "HTTP 500 (tool reported failure)",
+      "source_type": "Google Play listing screenshot image",
+      "language": "image; text/visual content unavailable",
+      "payload_summary": "Exact screenshot URL #17 from the T114 inventory was requested once in T141. fetch_page returned HTTP 500; no image bytes or visual content were exposed. Nothing about the screenshot is inferred. Retire this exact URL and do not retry. URLs #18–24 remain uninspected; earlier URLs #1–16 are already retired.",
+      "processing_state": "failed: HTTP 500; no image payload; exact URL retired",
+      "deception_screen": "No image was inspected; do not infer any game feature or UI from the error.",
+      "conflicts": [],
+      "kb_claims": [],
+      "discovered_not_yet_visited": [],
+      "payload_path": "source_archive/t141_play_screenshot_17_blocked.md",
+      "processing_status": "attempt failed before image payload; no retry"
     }
   ],
   "frontier": {
-    "visited_total": 595,
-    "unvisited_total": 401,
+    "visited_total": 596,
+    "unvisited_total": 400,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -21992,7 +22013,6 @@
       "https://www.youtube.com/channel/UCJQ6UjqvhNoJM7DLDdx45Jw/videos",
       "https://www.youtube.com/watch?v=zV0A6TI-BLY",
       "https://www.youtube.com/@dreamleaguesoccer7906 — ownership unverified; only consider if an official FTG link can establish affiliation; not primary evidence",
-      "https://play-lh.googleusercontent.com/3MqyvMOcLFhKs21WwXGcXKfuJCvTyXEPYk65XayN1biuDRrA0mV-ur9LP0Fr6BVz65jcCYLv10lqptUw0r-Fbw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/zch8Ej8I06RJvHv9WBz8JeZYppkfxY-6ilBvYMlgG542kjqWzYfYb5IoDMFbkyDPFKIDveDZP6cp-CdJS__znCU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/F6iyUl_VUu2750o_S0azaxZF2B-er2p2cuF8rIdduT0mkQfXvQ5wNQsYGCRfalHSgdsu-3fduzCbg70WFIT3Xw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/3wD-_bDOwy1DKi1t1kV_YSPX4VbMkOM1OsnKC2EE_1dsIswKVYDTWqkTp5mLRba5sw6-h9n4cJjNNlS5fKntQw=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",

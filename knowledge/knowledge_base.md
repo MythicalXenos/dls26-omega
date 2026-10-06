@@ -1577,3 +1577,7 @@ Apple iTunes Lookup current record reports DLS version 13.430 with a 2026-09-16 
 ## T140 Google Play BD listing continuation
 
 The completed Bangladesh Google Play listing (chunks 0–1/2) renders an “Ends on 10/14” event tile linking to the previously visited eventdetails page 4830045897422713648; the year is not shown. The same listing carries “Cult Heroes collection, coming soon!” release-note copy. This is storefront text, not an in-game acquisition route, reward, cost, or current-availability confirmation. The banner URL returned HTTP 500 with no image; it was already ledgered and the accidental duplicate attempt is documented. Route/rewards and position-lock remain open. Provenance: `source_archive/t140_googleplay_bd_listing_continuation.md`.
+
+## T141 official Play screenshot access check
+
+Official Google Play screenshot URL #17 returned HTTP 500 before image content; no visual claim is available. This exact URL is retired. URLs #18–24 remain uninspected and low priority. Provenance: `source_archive/t141_play_screenshot_17_blocked.md`.

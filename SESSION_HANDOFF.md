@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 140 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 141 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T140 close):** 792 records · 595 unique visited URLs · 401 unvisited leads. Play BD app-listing chunks 0–1 show a promotion tile ending “10/14” (year not shown) and the same listing’s “coming soon” release-note copy; this storefront does not establish in-game route/rewards or current availability. Position-lock and route/rewards remain open.
+- **Ledger (T141 close):** 793 records · 596 unique visited URLs · 400 unvisited leads. T141’s queued official Play screenshot #17 request failed HTTP 500 with no image payload; exact URL retired, #18–24 remain uninspected. No new DLS26 route/reward or position-lock evidence; both questions remain open.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,11 +67,11 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 141):**
+- **Next exact action (Turn 142):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if reset recurs.
-  2. Seek distinct first-party or in-game evidence for the Cult Heroes acquisition route/rewards or DLS26 position behavior; no spending advice or dimension closure.
-  3. Do not repeat the completed Play BD app listing/eventdetails URLs, the blocked banner URL, T139 exact queries, or Play screenshot URLs #1–16. The T140 banner attempt was an accidental duplicate, returned HTTP 500, and is retired.
-  4. Keep the user-stated “no position locking” labeled as user-stated with verification owed; keep existing position/formation mixed-query chunks low priority. Push before turn end.
+  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior; no spending advice, absence claim, or dimension closure.
+  3. Do not retry T141 screenshot #17 or previously blocked media URLs; do not repeat completed Play listing/eventdetails URLs, T139 queries, or screenshot URLs #1–16. Screenshots #18–24 remain uninspected and low priority.
+  4. Keep “DLS26 has no position locking” labeled user-stated; verification remains owed. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -375,3 +375,8 @@
 - Recovered reset checkout `fb9a2c0`: archived/byte-verified 365 working files at `/tmp/dls26-t140-recovery-20261006090205.tar.gz` (SHA-256 `7850bd5ee4276051cd23c3aead143fd95f021d87d500ebadc2713ebb69683fd1`), fetched/restored pushed tip `cd9610e`, restored upstream and repo-local identity, and retained safety stash `e849699`. ISSUE-0014 occurrence #102.
 - Completed Google Play BD listing chunks 0–1; the listing shows an event tile “Ends on 10/14” (year not shown) linked to an already-visited eventdetails page, alongside “coming soon” release-note copy. This storefront evidence does not establish route, cost, reward, or current in-game availability. A linked banner fetch returned HTTP 500; the URL was already in the ledger and the duplicate attempt is disclosed; no image was inspected.
 - Ledger **792/595/401**. No research dimension closed. Close `2026-10-06T03:06:22Z`. Next input expected: `>`.
+## Turn 141 closeout
+
+- Recovered reset checkout `fb9a2c0`: archived/byte-verified 367 working files at `/tmp/dls26-t141-recovery-20261006090858.tar.gz` (SHA-256 `e8d9446e7ceded6090b06c9751b1b78896e86fa2f6f8eaa05bb99d6c716fd2f1`), fetched/restored pushed tip `2e93c49`, restored upstream and repo-local identity, and retained safety stash `be7a5f8`. ISSUE-0014 occurrence #103.
+- Attempted one queued official Google Play screenshot (#17); fetch_page returned HTTP 500 and no image. No visual inference; URL retired. #18–24 remain uninspected.
+- Ledger **793/596/400**. Cult Heroes route/rewards and position-lock remain open. Close `2026-10-06T03:11:06Z`. Next input expected: `>`.
