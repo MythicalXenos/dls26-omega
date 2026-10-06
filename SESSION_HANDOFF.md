@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 160):**
+- **Next exact action (Turn 161):**
   1. Record the clock first; verify fixed branch/upstream/repo-local identity; recover only if reset recurs.
-  2. Run a new exact FTG Help Center search for `position lock` or `position locking`; do not repeat completed `change formation` or `assign player position` queries. Inspect only any DLS26/version-bound guidance and preserve mixed/zero results as phrase-specific.
-  3. Keep Cult Heroes route/rewards unconfirmed and “DLS26 has no position locking” labeled `user-stated`, verification owed. No spending advice, global-absence inference, dimension closure or exhaustion declaration. Push before turn end.
+  2. Continue exact FTG `position lock` at chunkIndex=5 only (chunks 0–4 already read). Continue `position locking` at chunkIndex=1 only if that distinct continuation may add evidence. Do not repeat `change formation` or `assign player position`.
+  3. Keep outcomes phrase-specific; do not infer global absence. “DLS26 has no position locking” remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No spending advice, dimension closure or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
 - Reddit DLS26 midseason thread returned HTTP 403; FTG support landing page HTTP 500. No content inferred.
@@ -510,3 +510,11 @@
 - Five retrieval calls: four targeted searches returned profile-level/empty results; the official FTG `/dls` link redirected to generic `/games` marketing text. No Cult Heroes route/reward post or permalink/date was retrieved. Details: `source_archive/t159_instagram_search_and_ftg_page.md`.
 - Ledger after T159: **857 records / 634 visited URL attempts / 390 unvisited leads**. Cult Heroes route/rewards remain unconfirmed; position-lock remains `user-stated`, verification owed. No research dimension closed.
 - T159 close time: 2026-10-06 15:22:40 +0600 Asia/Dhaka. Next input expected: `>` .
+
+
+## T160 closeout
+
+- Clock was written first. Checkout reset to `fb9a2c0` without upstream; before retrieval, archived 409 files at `/tmp/dls26-t160-recovery-20261006152429.tar.gz` (SHA-256 `c10e798107281bd17c0e81a42564bf504e736a9de235f9a7993dac04f6844385`), fetched pushed tip `ef8480f`, restored upstream/repo-local identity, and byte-verified all 409 files.
+- Six retrieval calls: chunk 0 for each new query, then chunks 1–4 for `position lock`. Search responses are partial and mixed; the formation/ball-position snippet is from Ultimate Clash Soccer, not DLS26. No DLS26-specific position-lock guidance in read chunks. Details: `source_archive/t160_ftg_position_lock_searches.md`.
+- Ledger after T160: **859 records / 636 visited URL attempts / 392 unvisited leads**. Position-lock remains `user-stated`, verification owed; Cult Heroes route/rewards remain unconfirmed. No research dimension closed.
+- T160 close time: 2026-10-06 15:25:18 +0600 Asia/Dhaka. Next input expected: `>` .

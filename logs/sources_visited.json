@@ -22811,11 +22811,51 @@
       "discovered_not_yet_visited_leads": [],
       "turn": "T159",
       "retrieved_on": "2026-10-06 Asia/Dhaka; exact tool timestamp not exposed"
+    },
+    {
+      "source_id": "t160-ftg-position-lock-chunks0-4",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20lock",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "http_status": null,
+      "http_status_note": "All requested chunks returned tool status=success; numeric HTTP status not exposed. Total rendered chunks=10.",
+      "payload_summary": "Exact FTG Help Center query `position lock` returned count=16, page_count=1, totalChunks=10. Chunks 0–4 read. Visible mixed results include Score! Match, Ultimate Clash Soccer, Season Pass tier-lock material, leaderboards and generic DLS player-stats text. The formation/ball-position behavior appears in an Ultimate Clash Soccer rules article, not DLS26. No DLS26-specific position-lock guidance surfaced in the read chunks; chunks 5–9 remain unread.",
+      "discovered_not_yet_visited_leads": [
+        "FTG Help Center exact query `position lock`: 16 results, 10 rendered chunks; chunks 0–4 read in T160, chunks 5–9 unread. Mixed FTG results include other-title rules, Season Pass “tier lock” matches and a generic DLS stats article; no DLS26-specific position-lock guidance in read chunks. Resume at chunkIndex=5 only; no absence inference."
+      ],
+      "turn": "T160",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamps not exposed"
+    },
+    {
+      "source_id": "t160-ftg-position-locking-chunk0",
+      "domain": "support.ftgames.com",
+      "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20locking",
+      "exact_url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=position%20locking",
+      "retrieval_tool": "functions.fetch_page",
+      "chunk_indexes": [
+        0
+      ],
+      "http_status": null,
+      "http_status_note": "Requested chunk returned tool status=success; numeric HTTP status not exposed. Total rendered chunks=10.",
+      "payload_summary": "Exact FTG Help Center query `position locking` returned count=16, page_count=1, totalChunks=10. Chunk 0 read; its visible results match the first chunk of the `position lock` query (mixed titles and Season Pass lock matches). Chunks 1–9 unread. No DLS26-specific conclusion; no absence inference.",
+      "discovered_not_yet_visited_leads": [
+        "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunk 0 read in T160, chunks 1–9 unread. Its visible first chunk matches the mixed `position lock` result set; not enough to infer absence. Resume at chunkIndex=1 only if needed."
+      ],
+      "turn": "T160",
+      "retrieved_on": "2026-10-06 Asia/Dhaka; exact per-call timestamp not exposed"
     }
   ],
   "frontier": {
-    "visited_total": 634,
-    "unvisited_total": 390,
+    "visited_total": 636,
+    "unvisited_total": 392,
     "unvisited_leads": [
       "'26 Feb Winter Reload' mid-season deltas",
       "'I completed the ladder without opening a single reward' thread (claim-window mechanics, G-0049)",
@@ -23206,7 +23246,9 @@
       "Secondary creator-video thumbnail (not an in-game source): `https://i.ytimg.com/vi_webp/bI6nEX5hjBg/maxresdefault.webp`; low priority; inspect only if its visual is useful, and do not treat creator artwork as game UI.",
       "Official FTG YouTube teaser page `https://www.youtube.com/watch?v=gpvjf6qVl5c` is only partially rendered: chunk 0/154 retrieved in T146, chunks 1–153 unread. Visible title/description concern the general DLS26 launch (available December 2025), not Cult Heroes. Continue at chunkIndex=1 only if useful; page is script-heavy and low priority.",
       "https://www.reddit.com/r/DreamLeagueSoccer/comments/1fco78u/first_touch_gamess_sponsorship_discussion/ — Reddit image-search result; sponsorship discussion, low relevance, page not fetched.",
-      "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json — FTG help-center result “Why are my players auto-switching all the time?”; only result snippet/body in mixed query inspected, direct page not fetched; generic DLS control-selection context, not position-lock evidence."
+      "https://firsttouch.zendesk.com/api/v2/help_center/en-us/articles/360008831518.json — FTG help-center result “Why are my players auto-switching all the time?”; only result snippet/body in mixed query inspected, direct page not fetched; generic DLS control-selection context, not position-lock evidence.",
+      "FTG Help Center exact query `position lock`: 16 results, 10 rendered chunks; chunks 0–4 read in T160, chunks 5–9 unread. Mixed FTG results include other-title rules, Season Pass “tier lock” matches and a generic DLS stats article; no DLS26-specific position-lock guidance in read chunks. Resume at chunkIndex=5 only; no absence inference.",
+      "FTG Help Center exact query `position locking`: 16 results, 10 rendered chunks; chunk 0 read in T160, chunks 1–9 unread. Its visible first chunk matches the mixed `position lock` result set; not enough to infer absence. Resume at chunkIndex=1 only if needed."
     ]
   }
 }
