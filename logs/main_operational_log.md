@@ -1192,3 +1192,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset checkout archived (347 members; SHA-256 `c07237d3ddd31653837b4296fca57414ea6e603c3bc4f09cbace2d5c02f5f3d7`), then restored `0e63355`, upstream, and repo-local identity. All 322 regular-file payloads match the archive; ISSUE-0014 #83 logged.
 - Three retrievals: two Reddit-scoped web searches returned zero cards; FTG API query `Cult Heroes unlock` returned one fuzzy, non-DLS result. No page/article post-fetch or in-game capture; no absence inference.
 - Ledger **740 / 555 / 410**. Close marker `2026-10-06T01:17:57Z`.
+
+
+## TURN 122 (2026-10-06) — FTG site metadata checks
+- Recovery: reset checkout archived (349 members; SHA-256 `c9e0f2836d0fe5220e94e1155d62067b5144c7ff8a03be3c4bb3de19140e0a28`), then restored `5cddd2e`, upstream, and repo-local identity. All 324 regular-file payloads match the archive; ISSUE-0014 #84 logged.
+- Three retrievals: FTG sitemap, robots, and alternate-domain sitemap endpoints rendered 404/NoSuchKey. No DLS26 content or global-absence inference.
+- Ledger **743 / 558 / 410**. Close marker `2026-10-06T01:21:58Z`.

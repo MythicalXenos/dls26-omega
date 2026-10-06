@@ -453,3 +453,8 @@ Same sandbox-reset signature: local branch at `fb9a2c0` with 236 project files u
 ## Turn 121 recovery occurrence
 
 - ISSUE-0014 occurrence #83, 2026-10-06: opening reset to `fb9a2c0`; archived 347 non-ignored files at `/tmp/dls26-t121-recovery-20261006071536.tar.gz`, SHA-256 `c07237d3ddd31653837b4296fca57414ea6e603c3bc4f09cbace2d5c02f5f3d7`; verified all 322 regular-file payloads before restoring `0e63355`, upstream, and repo-local identity. No file-content loss.
+
+
+## Turn 122 recovery occurrence
+
+- ISSUE-0014 occurrence #84, 2026-10-06: opening reset to `fb9a2c0`; archived 349 non-ignored files at `/tmp/dls26-t122-recovery-20261006072049.tar.gz`, SHA-256 `c9e0f2836d0fe5220e94e1155d62067b5144c7ff8a03be3c4bb3de19140e0a28`; verified all 324 regular-file payloads before restoring `5cddd2e`, upstream, and repo-local identity. No file-content loss.
