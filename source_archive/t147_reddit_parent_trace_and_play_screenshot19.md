@@ -12,4 +12,4 @@ Date: 2026-10-06, Asia/Dhaka. Three retrieval calls; exact per-call timestamps w
 
 No new game evidence was obtained. The two query-only searches did not return a permalink; the Play CDN request produced no image. Do not promote the T125 user-generated screenshot to a first-party claim, and do not infer anything about the uninspected screenshots #20–24 from this HTTP 500. Cult Heroes route/rewards/current availability remain unconfirmed. “DLS26 has no position locking” remains `user-stated`; verification is still owed. No spending advice, global-absence claim, exhaustion declaration, or research-dimension closure.
 
-Ledger after reconciliation: **810 records / 611 visited URL attempts / 396 unvisited leads**. The two search executions are logged as query-only records with URL and HTTP status explicitly not exposed.
+Ledger after reconciliation: **810 records / 611 visited URL attempts / 395 unvisited leads**. The two search executions are logged as query-only records with URL and HTTP status explicitly not exposed.
