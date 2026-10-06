@@ -1557,3 +1557,7 @@ FTG Help Center `Agent rewards` query remains partial: chunks 0–6 and 8/10 suc
 ## T135 first-party FTG and Play probes
 
 FTG `Agent rewards` query is complete across 10 chunks; results are general/mixed and do not establish a Cult Heroes route/reward. The exact `Cult Heroes Agent rewards` query returned count=0 only; no global absence inference. `change formation` remains partial (page1 chunk0/7, page2 unread); visible article 7917587319313 is mapped to non-DLS section 7900693036561, and no DLS26 position-lock behavior is established. Official Play screenshot URLs #11 and #12 failed TLS before HTTP (HTTP000, zero bytes); do not retry or infer image contents. Provenance: `source_archive/t135_ftg_searches_and_play_asset_failures.md`.
+
+## T136 FTG formation and movement context
+
+An FTG DLS player-stats/behaviour excerpt retrieved during the partial `change formation` search says players with the `Running` behaviour make attacking runs/find space, while players without it stay more closely to their formation position. This is an in-match movement statement, not evidence about assigning or locking squad positions; the article is not version-stamped DLS26. The query remains partial (page1 chunk2 response/status unknown; page2 unread). No absence inference. Provenance: `source_archive/t136_ftg_change_formation_query_continuation.md`.

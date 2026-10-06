@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_reconciled_at": "2026-10-06T02:39:43Z",
+  "last_reconciled_at": "2026-10-06T02:42:47Z",
   "note": "Merged ledger: session 01a0f962 entries (schema v1) + imported entries from prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json (S-id series). Dedupe by normalized URL; imported entries keep their S-id in source_id and their original session field. Archived originals preserved: prior_sessions/2026-10-02_sources_visited_01a0f962.json, prior_sessions/2026-09-27_01a0e3cd/logs/sources_visited.json. Turn 53 reconciliation: five page-fetch calls appended; exact visited-URL annotations pruned and newly surfaced leads added; no exhaustion declaration. Turn 54 reconciliation: five retrievals logged, including one HTTP 403 attempt; repeated card list and search-only evidence did not validate DLS26 mechanics; no exhaustion declaration. Turn 55 reconciliation: seven retrievals captured, including direct social HTTP 403 and a secondary video transcript; retrieval limit exceeded by one and documented; no exhaustion declaration. Turn 56 reconciliation: six retrievals, including completed SakibPro article chunks and a blocked Instagram profile; no first-party Cult Heroes route confirmation; no exhaustion declaration. T56 SakibPro chunks 0–1 repeat an article already logged as S-0114, page-047-sakibpro-events-article; do not count as independent corroboration. Turn 57: five discovery searches logged; no first-party Cult Heroes route or DLS26 position-lock answer found; no exhaustion declaration. Turn 58: three direct page requests logged (two YouTube pages with embedded 401 banners; FTG /dls alias repeats /games); no route-specific first-party finding or exhaustion declaration.",
   "entries": [
     {
@@ -21272,23 +21272,23 @@
       "event_type": "first-party-help-center-query-partial",
       "url": "https://support.ftgames.com/api/v2/help_center/articles/search.json?query=change%20formation",
       "domain": "support.ftgames.com",
-      "retrieved_at": "T135 close 2026-10-06T02:39:43Z; retrieval timestamps not exposed.",
+      "retrieved_at": "T135 chunk 0; T136 requested chunks 1–6 (visible successes 1,3,4,5,6; chunk 2 outcome/status not surfaced); T136 close 2026-10-06T02:42:47Z. Per-fetch timestamps not exposed.",
       "retrieval_role": "distinct FTG Help Center query for formation controls relevant to the open DLS26 position-editing/lock question",
-      "tool": "functions.fetch_page chunk 0",
-      "retrieval_tool": "functions.fetch_page chunkIndex 0 only",
-      "http_status": "status=success; numeric HTTP status not exposed",
+      "tool": "functions.fetch_page chunks 0–6 across T135–T136; T136 visible success responses for 1,3,4,5,6; no visible response object for requested chunk 2",
+      "retrieval_tool": "functions.fetch_page chunkIndex 0 (T135), 1–6 requested (T136); explicit T136 result metadata for 1,3,4,5,6; chunk 2 pending verification",
+      "http_status": "T135 chunk 0 and T136 chunks 1,3,4,5,6 returned status=success (numeric HTTP status not exposed); T136 chunk 2 was requested but no response/status object is visible; page 2 not fetched.",
       "source_type": "FTG Help Center API search response, mixed-title results",
       "language": "en",
-      "payload_summary": "Exact query `change formation` returned count=48, page_count=2; page 1 is rendered in 7 chunks and only chunk 0 was fetched. The visible result “How do I change my formation?” (article 7917587319313) is already known and maps to non-DLS section_id 7900693036561; another formation result (360000002185) is in Score! Match section 115001619089. No visible item establishes DLS26 player-position editing or locking. Page-1 chunks 1–6 and page 2 are unread; do not infer absence from this partial mixed search.",
-      "processing_state": "partial: page 1 chunk 0/7 read; page 1 chunks 1–6 and page 2/2 unread",
+      "payload_summary": "Exact query `change formation` returned count=48 over 2 API pages; page 1 has 7 rendered chunks. Chunk 0 was read in T135; T136 requested chunks 1–6, with visible successful payloads for indices 1,3,4,5,6. No result or status for the requested index 2 is visible in the tool output, so its state is unknown and it remains pending. Visible results mix generic DLS account/kit/help articles with other FTG titles. A returned DLS player-stats/behaviour excerpt says players without the Running behaviour stay closer to their formation position; that is about in-match movement, not changing/locking squad positions, and it has no DLS26 version stamp. Page 2 remains unread. No position-lock or global-absence conclusion.",
+      "processing_state": "partial: page 1 chunks 0,1,3–6 have visible successful results; chunk 2 was requested but response/status unknown; page 2/2 unread",
       "deception_screen": "Changing a formation is not the same as moving individual players or locking their positions; cross-title support results are not DLS26 evidence.",
       "conflicts": [],
       "kb_claims": [],
       "discovered_not_yet_visited": [
-        "FTG Help Center exact query `change formation`: exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?query=change%20formation`; count=48, page_count=2, page 1 renders 7 chunks, only chunkIndex=0 read. Chunks 1–6 and page 2 (`https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`) remain unread. The visible formation article ID 7917587319313 is mapped in the existing taxonomy to non-DLS section 7900693036561; other visible formation result is Score! Match section 115001619089. No DLS26 position-lock or absence conclusion. Resume at chunkIndex=1 if useful; do not repeat chunk 0."
+        "FTG Help Center exact query `change formation`: count=48, page_count=2, page 1 renders 7 chunks. Chunk 0 succeeded in T135; T136 requested chunks 1–6 and visible success responses confirmed chunks 1, 3, 4, 5, and 6. ChunkIndex=2 was requested but no result/status object is visible in the session output; treat payload/status as unknown and retry chunkIndex=2. Page 2 URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation` has not been fetched. Do not repeat successful chunks 0,1,3,4,5,6. A DLS player-behaviour excerpt about staying closer to formation position concerns in-match movement, not squad assignment/locking; no absence inference."
       ],
       "payload_path": "source_archive/t135_ftg_searches_and_play_asset_failures.md",
-      "processing_status": "partial; continuation retained, no position-lock conclusion"
+      "processing_status": "partial; retry chunk 2 and fetch page 2 only if relevant; no absence inference"
     },
     {
       "source_id": "page-t135-play-event-screenshot-11",
@@ -21742,7 +21742,7 @@
       "https://play-lh.googleusercontent.com/OR7NRBrBLI3FkmlQOrKcZ3qZWjvl8lz26WSPnYNnPHAz3zvunpZWxkQYmoUBl3z453aFibmQzBZfaocm6OxI=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "https://play-lh.googleusercontent.com/kKbi-9I70rkHHpSnlD2T6UIas-5VD10niN36mi5v3WCv7_J8j8TQPLbGSzXkwFmk07fwhdpt2hW5NwmhrFOIyWU=w526-h296-rw — official Play event page screenshot link; unvisited; discovered T114.",
       "Resolve the original Reddit post permalink, uploader, and date for image-search preview `cult-heroes-v0-sci9uc0c02th1.jpeg`; the returned page link was only the subreddit root. The saved in-game image is `source_archive/t125_image_search_results/reddit_cult_heroes_agent_event_ui.jpg`.",
-      "FTG Help Center exact query `change formation`: exact URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?query=change%20formation`; count=48, page_count=2, page 1 renders 7 chunks, only chunkIndex=0 read. Chunks 1–6 and page 2 (`https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation`) remain unread. The visible formation article ID 7917587319313 is mapped in the existing taxonomy to non-DLS section 7900693036561; other visible formation result is Score! Match section 115001619089. No DLS26 position-lock or absence conclusion. Resume at chunkIndex=1 if useful; do not repeat chunk 0."
+      "FTG Help Center exact query `change formation`: count=48, page_count=2, page 1 renders 7 chunks. Chunk 0 succeeded in T135; T136 requested chunks 1–6 and visible success responses confirmed chunks 1, 3, 4, 5, and 6. ChunkIndex=2 was requested but no result/status object is visible in the session output; treat payload/status as unknown and retry chunkIndex=2. Page 2 URL `https://support.ftgames.com/api/v2/help_center/articles/search.json?page=2&per_page=25&query=change+formation` has not been fetched. Do not repeat successful chunks 0,1,3,4,5,6. A DLS player-behaviour excerpt about staying closer to formation position concerns in-match movement, not squad assignment/locking; no absence inference."
     ]
   }
 }

@@ -1,12 +1,12 @@
 # SESSION HANDOFF — session `arena/01a1022d-dls26-omega`
 
-**Updated:** Turn 135 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
+**Updated:** Turn 136 (2026-10-06 Asia/Dhaka; exact start/close times are in `logs/turn_clock.txt`). Branch is authoritative for file state; this file for intent.
 
 ## Active state and exact resumption point
 
 - **`STATE_1_RESEARCH_SWEEP` ACTIVE.** No dimension closed; no exhaustion declaration.
 - **Git repair at open:** local reset to `fb9a2c0`, 264 project files untracked, upstream unset. Archived all 264 files (SHA-256 `8434a4ce7c2b042498fbb45682de90196cb54ad117eb772c4ceb10eb0afc7a74`), restored remote `9bcf413`, and byte-verified 264/264 files. ISSUE-0014 occurrence #54 logged; repo-local identity and upstream restored. No loss/force-push.
-- **Ledger (T135 close):** 780 records · 583 unique visited URLs · 406 unvisited leads. FTG `Agent rewards` is complete for its exact query; `Cult Heroes Agent rewards` returned count 0 for that phrase; `change formation` remains partial (page 1 chunk 0/7 of 2 pages). Position-lock and Cult Heroes route/rewards remain open.
+- **Ledger (T136 close):** 780 records · 583 unique visited URLs · 406 unvisited leads. FTG `change formation` remains partial: page 1 chunks 0,1,3–6 returned visible success; chunk 2 response/status is unknown; page 2 unread. One DLS behavior excerpt concerns in-match movement only. Cult Heroes route/rewards and position-lock remain open.
 - **General FAQs:** 21/21 titles; **20/21 bodies**. FTS15 `213892809` intentionally unfetched. **Parents’ Guide:** 8/8 titles/bodies.
 - **FTG Privacy Policy:** all five chunks read; generic FTG-wide statement, not a per-user DLS26 collection audit.
 - **GamingOnPhone DLS26 Career Mode guide:** complete, published/updated Jan 27, 2026, secondary.
@@ -67,10 +67,10 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 136):**
+- **Next exact action (Turn 137):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity; archive and restore if a reset recurs.
-  2. Continue the partial FTG `change formation` query at page-1 chunkIndex=1 through 6; do not repeat chunk 0. Visible section metadata so far points to non-DLS/Score! Match material, not DLS26 position-lock evidence.
-  3. After page 1, assess the discovered page-2 endpoint only if still relevant; then prioritize distinct first-party/in-game Cult Heroes route/reward or DLS26 position evidence. The remaining 12 Play screenshot URLs are low-priority untried leads; never retry URLs #1–12.
+  2. Retry only FTG `change formation` page-1 chunkIndex=2 (T136 requested it but no response/status object surfaced), then fetch page 2 at the exact URL in the active queue, chunkIndex=0. Do not repeat successful page-1 chunks 0,1,3,4,5,6.
+  3. Use no more than six retrieval calls; follow page-2 chunk continuations only if budget permits. Separate in-match movement behavior from squad position editing/locking.
   4. Keep position-lock user-stated/unverified; no spending advice, scope closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -350,3 +350,8 @@
 - Completed FTG `Agent rewards` chunks 7 and 9; exact 10-chunk query now complete and generic/mixed only. New FTG `Cult Heroes Agent rewards` query returned count=0. New `change formation` query is partial (page1 chunk0/7, 2 pages), with visible cross-title results only.
 - Two untried official Play event screenshot URLs (#11, #12) failed TLS before HTTP, zero bytes; no visual inference; 12 remain untried.
 - Ledger **780/583/406**. Both research dimensions remain open. Close `2026-10-06T02:39:43Z`. Next input expected: `>`.
+## Turn 136 closeout
+
+- Reset checkout at `fb9a2c0`; clock recorded first (`2026-10-06 08:40:45 +0600`). Archived 357 files at `/tmp/dls26-t136-recovery-20261006084055.tar.gz`, SHA-256 `1722e2a0a96d60c699f143b948365c7857657434a5fa148b5a42902df0ef38b6`; fetched/restored pushed tip `85c38d4`, configured upstream and repo-local identity, and byte-verified all 357 files. ISSUE-0014 occurrence #98; recovery safety stash retained.
+- Six FTG `change formation` chunk requests were made for indices 1–6. Visible success responses confirmed 1,3,4,5,6; chunk 2 was requested but no result/status object is visible, so its state is unknown. Page 2 remains unread. A DLS behavior excerpt about Running and formation position is in-match movement context, not squad-position lock evidence.
+- Ledger **780/583/406**. Both research dimensions remain open. Close `2026-10-06T02:42:47Z`. Next input expected: `>`.

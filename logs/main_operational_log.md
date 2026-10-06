@@ -1278,3 +1278,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 355 files, SHA-256 `685c5c37c5828397b533ca4633711626e2512746fe6dc15ccb51b904bd061e69`; fetched/restored and byte-verified pushed tip `9654c12`, upstream and repo-local identity; ISSUE-0014 #97.
 - Completed FTG `Agent rewards` exact query (all 10 chunks); generic/mixed material only. `Cult Heroes Agent rewards` count=0 for exact phrase. `change formation` partial (page1 chunk0/7, 2 pages; visible cross-title articles).
 - Two official Play assets #11–12 failed TLS, HTTP000/zero bytes; no visual inference, 12 remain untried. Ledger **780/583/406**. Both research dimensions open. Close `2026-10-06T02:39:43Z`.
+
+
+## TURN 136 (2026-10-06) — FTG formation-query continuation
+- Recovery: reset `fb9a2c0`; archived 357 files, SHA-256 `1722e2a0a96d60c699f143b948365c7857657434a5fa148b5a42902df0ef38b6`; fetched/restored and byte-verified pushed tip `85c38d4`, upstream and repo-local identity; ISSUE-0014 #98.
+- Six calls requested FTG `change formation` chunks1–6. Visible successful results: 1,3,4,5,6; chunk2 has no visible response/status object; page2 unread. One DLS Running-behaviour excerpt concerns in-match movement, not squad position locking.
+- Ledger **780/583/406**. Both research dimensions remain open. Close `2026-10-06T02:42:47Z`.
