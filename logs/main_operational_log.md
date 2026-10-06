@@ -1254,3 +1254,9 @@ Turn 25 note: the ledger script failed once on shell quoting (escaped double quo
 - Recovery: reset `fb9a2c0`; archived 345 files, SHA-256 `61d8b14a7b18249ae1635add81dd124ca25892ccd39ed2ae184d6ffdcbf1ff7d`; restored/verified pushed tip `ff69681`, upstream and repo-local identity; ISSUE-0014 #93.
 - Two first-party retrievals: Apple event resource empty; FTG Special Card/Agents query returned generic/already-read FAQs only. No new game fact, no absence inference.
 - Ledger **770/574/407**. Both research dimensions remain open. Close `2026-10-06T02:14:49Z`.
+
+
+## TURN 132 (2026-10-06) — lineup/position image search
+- Recovery: reset `fb9a2c0`; archived 347 files, SHA-256 `2e3a71cb356090d34963f3bdfaa4f37ede4b60d2afced62c5ce02384f89ea6e1`; restored/verified pushed tip `a63f2cd`, upstream and repo-local identity; ISSUE-0014 #94.
+- One image search, three local image inspections. Results were SportsDunia/TapTap promotional/editorial images, not in-game lineup UI. No lock/route facts or absence inference.
+- Ledger **774/577/407**. Both dimensions remain open. Close `2026-10-06T02:19:07Z`.

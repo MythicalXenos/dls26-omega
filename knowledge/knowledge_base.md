@@ -1541,3 +1541,7 @@ T130’s two unvisited DLS-specific FTG page paths returned 404/NoSuchKey; the e
 ## T131 direct event resource and Agent query
 
 T131’s direct Apple event resource returned empty content. The FTG Help Center `Special Card Agents` query returned only generic/already-read FAQs; no Cult Heroes-specific route/reward or DLS26 position-lock evidence. Do not infer absence or combine generic Agent guidance into a Cult Heroes claim. Provenance: `source_archive/t131_apple_event_resource_and_support_search.md`.
+
+## T132 lineup-position image search
+
+A distinct image search for DLS26 lineup/position UI returned only promotional/editorial graphics from SportsDunia/TapTap, not authenticated in-game controls. No position-lock or Cult Heroes route/reward evidence; no absence inference. Provenance and assets: `source_archive/t132_image_search_lineup_query.md`.
