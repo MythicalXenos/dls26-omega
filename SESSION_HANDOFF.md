@@ -67,9 +67,9 @@
 - **T102 source:** FTG Help Center `squad position` query is partial (chunks 0–5/10); resume at chunkIndex 6. Mixed DLS roles/formation, rank, and other-product results do not establish DLS26 position locking. T101 search records were repaired to canonical provenance. Full audit: `source_archive/t102_ftg_squad_position_query_partial.md`.
 - **T101 source:** Four targeted FTG/YouTube searches returned generic or already-known results; no pages fetched and no gameplay fact established. One unverified YouTube channel is logged only for possible affiliation checking, not as a primary source. Provenance: `source_archive/t101_ftg_official_surface_searches.md`.
 - **T100 source:** FTG `player position` query is complete (pages1–4: 10/7/9/9 chunks). No DLS26 lock rule surfaced; this is not proof of global absence. T100 exceeded the retrieval ceiling: 11 calls, 4 exact repeats, 7 new; no later retrievals. Archive `source_archive/t100_ftg_player_position_query_complete.md`; snapshot `snapshots/KB_snapshot_2026-10-06-turn100-player-position-query-complete.md`.
-- **Next exact action (Turn 148):**
+- **Next exact action (Turn 149):**
   1. Record the clock first; verify fixed branch/status/upstream/repo-local identity and recover only if reset recurs.
-  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior. Do not repeat the T147 searches or retry screenshot #18/#19; the remaining Play screenshots #20–24 stay uninspected and low priority after repeated CDN failures.
+  2. Seek distinct first-party or in-game evidence for Cult Heroes route/rewards or DLS26 position behavior. Do not repeat T148 exact searches, the malformed URL, or retry canonical screenshot #20 / screenshot #19. Screenshots #21–24 remain uninspected.
   3. Keep “DLS26 has no position locking” labeled `user-stated`; verification remains owed. No spending advice, global-absence claim, dimension closure, or exhaustion declaration. Push before turn end.
 
 - Google Play eventdetails `4830045897422713648` is already visited as page-009; do not refetch. DLS support bodies in page-IDs 138, 144, 152, 162, 172, 173, etc. were already read; avoid duplicates.
@@ -410,6 +410,15 @@
 
 - T147 recovered the reset checkout to pushed tip `1b4f56e`; the 379-file archive at `/tmp/dls26-t147-recovery-20261006123420.tar.gz` was byte-verified (SHA-256 `5cfb454e1aa80a8b57567c8a202cde5fe4a0293777d64bde3c7b63e2b1eed6ac`). Upstream and repo-local identity restored; stash `f088077` retained.
 - Three retrieval calls: two query-only Reddit searches returned no results; direct official Play screenshot URL #19 returned HTTP 500 with no image bytes. Full record: `source_archive/t147_reddit_parent_trace_and_play_screenshot19.md`.
-- Ledger: **810 records / 611 visited URL attempts / 396 unvisited leads**. The two query-only searches have no exposed request URL or HTTP status; screenshot #19 was retired from the unvisited frontier after its failed attempt.
+- Ledger: **810 records / 611 visited URL attempts / 395 unvisited leads**. The two query-only searches have no exposed request URL or HTTP status; screenshot #19 was retired from the unvisited frontier after its failed attempt.
 - No new game fact. Cult Heroes route/rewards/current availability remain unconfirmed. Position locking remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
 - T147 close time: 2026-10-06 12:38:55 +0600 Asia/Dhaka. Next input expected: `>`.
+
+
+## T148 closeout
+
+- Reset checkout recovery occurred twice. First recovery byte-verified 381 files in `/tmp/dls26-t148-recovery-20261006124249.tar.gz` (SHA-256 `da6b1d67f3e3222877bdc0b0b9bad2a42ab2f52427c15e0ccde1d7cf3e276f65`); second recovery byte-verified 382 files in `/tmp/dls26-t148b-recovery-20261006125000.tar.gz` (SHA-256 `a3791188a063f77fb48d997882f1b05437510efcf0da5eb255aacbc9d73b2f36`). Both restored pushed tip `098bd55`, upstream and repo-local identity.
+- Corrected T147 screenshot #19's free-text frontier entry; T147 totals are 810 records / 611 visited URL attempts / 395 unvisited leads. See `source_archive/t148_frontier_reconciliation.md`.
+- Four retrieval calls: two YouTube searches returned only a channel-profile result (no event video); one malformed near-match URL produced an Error 400 page; the canonical screenshot #20 URL returned HTTP 500. Neither request returned image bytes. Details: `source_archive/t148_official_youtube_search_and_play_screenshot20.md`.
+- Ledger after T148: **814 records / 613 visited URL attempts / 394 unvisited leads**. No new game fact. Cult Heroes route/rewards/current availability remain unconfirmed; position lock remains `user-stated`, verification owed. No dimension closed; no global absence/exhaustion claim.
+- T148 close time: 2026-10-06 14:08:02 +0600 Asia/Dhaka. Next input expected: `>`.
