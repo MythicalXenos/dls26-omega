@@ -10,6 +10,6 @@
   "needs_user": false,
   "expected_terminal_class": "BOOTSTRAP_START",
   "exact_resumption_point": "Reconcile checkout (fetch origin; ISSUE-0014 check), then STATE_1: (1) continue FTG support canonical-article inventory for position-lock (support.ftgames.com help_center articles search 'player position' page 3 chunk 7 -> page 4, per T98/T173 cursor; FTG SUPPORT source-family rule); (2) page-render https://dlskiturl.com/dls-26-english-league-classics/ and refresh Apple in-app-events API (amp-api.apps.apple.com/v1/catalog/us/apps/1462911602/in-app-events?l=en) for the English League Classics end date; (3) retry Google Play storefront (alternate id/params; US URL returned Play Not-Found body this session); (4) sweep remaining v76 rule tokens for digest coverage gaps; (5) write logs/turn_manifest.json + transaction journal events every turn; (6) deliver the overdue interim contact at the next session boundary.",
-  "timestamp": "2026-10-07T22:59:46Z",
+  "timestamp": "2026-10-07T23:00:18Z",
   "status": "READY_TO_YIELD"
 }

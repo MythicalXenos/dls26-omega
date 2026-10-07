@@ -1121,3 +1121,5 @@
 - **NEXT ACTIONS (in order):** 1) checkout reconciliation + ISSUE-0014 check at turn open; 2) FTG support canonical-article inventory for position-lock (search API page 3 chunk 7 → page 4 per T98/T173 cursor; FTG SUPPORT source-family rule); 3) page-render the dlskiturl article + refresh Apple in-app-events API for the event end date; 4) retry Google Play via an alternate route; 5) sweep remaining v76 rule tokens; 6) manifest + journal every turn; 7) interim contact at the next session boundary.
 - **Manifest:** `logs/turn_manifest.json` (first in chain; ISSUE-0017) — READY_TO_YIELD, continuation_allowed true, needs_user false, expected_terminal_class BOOTSTRAP_START, checkpoint `arena-78cc3cd8-T1`.
 - **Turn clock:** T174 START 2026-10-07T22:55:00Z (first tool call; clock file written late — deviation logged). Close marker appended. End of last turn (chain): 2026-10-06T10:11Z.
+
+- **T174 CLOSE 2026-10-07T23:00:18Z** — 2 retrieval calls; ledger reconciled; manifest, journal, handoff, log, issues and digest delta all written and pushed with the checkpoint commit. Next input expected: `>`.
