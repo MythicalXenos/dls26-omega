@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "session_id": "a8a92133",
+  "turn_seq": 1,
+  "active_state": "STATE_0_SETUP",
+  "active_bootstrap_step": 0,
+  "checkpoint_id": "a8a92133-cp0001",
+  "continuation_allowed": true,
+  "needs_user": false,
+  "expected_terminal_class": "BOOTSTRAP_START",
+  "next_state": "STATE_0_SETUP",
+  "exact_resumption_point": "STATE_0_SETUP is incomplete. Remaining obligation: persist DLS26_OMEGA_PROMPT.md by transcription of the Turn 1 user message, in parts, committing after each part. Then record its size and SHA-256 and capture status (transcription), run the OPERATIONAL_RULES.md section 5 self-check, commit and push. Read handoff/handoff.md first. Do not enter STATE_1 until Setup is complete on disk.",
+  "timestamp": "2026-10-09T11:32:32Z",
+  "status": "READY_TO_YIELD"
+}
