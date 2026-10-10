@@ -8,3 +8,4 @@
 {"at_utc": "2026-10-10T20:48:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "multiplayer-troubleshooting + blocked enforcement policy", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-7"}
 {"at_utc": "2026-10-10T20:55:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "dream-point-boosts + earn-coins", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-8"}
 {"at_utc": "2026-10-10T21:02:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "free-coins + obtain-players", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-9"}
+{"at_utc": "2026-10-10T21:10:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "save-data + season-points (season leaderboard identified)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-10"}

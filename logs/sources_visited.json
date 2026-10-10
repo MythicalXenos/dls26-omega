@@ -686,14 +686,21 @@
     {
       "admission_seq": 61,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-126); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-season-points",
-      "status": "UNVISITED",
-      "ticket_seq": 61,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:10:00Z",
+          "event": "extract",
+          "seq": 125
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 125,
       "url": "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points"
     },
     {
@@ -833,14 +840,21 @@
     {
       "admission_seq": 72,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-125); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-save-data",
-      "status": "UNVISITED",
-      "ticket_seq": 72,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:10:00Z",
+          "event": "extract",
+          "seq": 124
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 124,
       "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS"
     },
     {
@@ -1268,6 +1282,44 @@
       "status": "UNVISITED",
       "ticket_seq": 114,
       "url": "https://www.ftgames.com/terms-of-use"
+    },
+    {
+      "admission_seq": 121,
+      "discovered_at": "2026-10-10T21:10:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-age-limits",
+      "status": "UNVISITED",
+      "ticket_seq": 121,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000204889-What-are-the-Age-Limits-and-General-Policies-for-our-Apps"
+    },
+    {
+      "admission_seq": 122,
+      "discovered_at": "2026-10-10T21:10:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-match-connection-issues",
+      "status": "UNVISITED",
+      "ticket_seq": 122,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7917279109777-I-keep-having-connection-issues-during-a-match-what-can-I-do"
+    },
+    {
+      "admission_seq": 123,
+      "discovered_at": "2026-10-10T21:10:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-ultimate-clash",
+      "scope_proof": "related-link cross-game title (Ultimate Clash Soccer), not DLS; scope evidence = article title names a different FTG game",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 123,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7916299062289-How-do-the-various-player-attributes-in-Ultimate-Clash-Soccer-affect-gameplay"
     }
   ],
   "residual_debt": [
@@ -1281,10 +1333,11 @@
     "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved",
     "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)",
     "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice",
-    "support owed next: save-data, user-id, season-points, cant-connect, data-deletion, app-update, profile-transfer; official-web: core-principles, terms-of-use, official-site"
+    "support owed next: user-id, cant-connect, app-update, profile-transfer, fb-login-removal, connection-required, device-compat, cant-update, friend-match, restart-career, video-clips, data-usage, player-look, control-buttons, kit-logo, change-manager, emojis, kit-visible-live, age-limits, match-connection-issues, season-pass-rev1/rev2",
+    "SEASON LEADERBOARD (Main Menu, Season Points totals) is a newly identified ranking surface \u2014 measurement/tie-breaks/visibility/eligibility OPEN (CLAIM-021)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 120,
+  "sequence_counter": 125,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1593,6 +1646,20 @@
       "event": "extract",
       "ref_id": "ref-support-obtain-players",
       "seq": 120
+    },
+    {
+      "at_utc": "2026-10-10T21:10:00Z",
+      "detail": "account/linking/device-limit policy",
+      "event": "extract",
+      "ref_id": "ref-support-save-data",
+      "seq": 124
+    },
+    {
+      "at_utc": "2026-10-10T21:10:00Z",
+      "detail": "season leaderboard + season points",
+      "event": "extract",
+      "ref_id": "ref-support-season-points",
+      "seq": 125
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1648,8 +1715,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 18,
-      "ticket_seq": 120
+      "served_count": 20,
+      "ticket_seq": 125
     }
   }
 }

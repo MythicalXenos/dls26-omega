@@ -1,60 +1,60 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 995,
+      "bytes": 1251,
       "path": "HANDOFF.md",
-      "sha256": "409907429abb508e2144a374daa866f803eb550a7c0887badbc1750b11308f70"
+      "sha256": "239cdaf8957778948d6c7f0d9b6a18ffc3a4199886dd7531c52f49a991fb01c2"
     },
     {
-      "bytes": 288,
-      "path": "evidence/extract/EV-123_support_free_coins.md",
-      "sha256": "e0c8c51659e0eea5144b4759a56c58c13f82054f8fafb9c87ca8c2cca67a0182"
+      "bytes": 1184,
+      "path": "evidence/extract/EV-125_support_save_data.md",
+      "sha256": "32b5fa698b78fd9bd460d1d6f1c9a8993ef9ed65a309200957ecdcd097664867"
     },
     {
-      "bytes": 762,
-      "path": "evidence/extract/EV-124_support_obtain_players.md",
-      "sha256": "4371086d0525408b0471c890a0fec7f51bbebd046df95ca1dd159e24b5c62764"
+      "bytes": 958,
+      "path": "evidence/extract/EV-126_support_season_points.md",
+      "sha256": "3faf9690c941a39c04e6afa55be6e3f17f4cb45b41eedeb913ae65983abf031d"
     },
     {
-      "bytes": 9663,
+      "bytes": 10384,
       "path": "evidence/index.jsonl",
-      "sha256": "fdbde4d7f773796b56f5d98832064946b5844df1d5cad1b5edd975ba55afa5fe"
+      "sha256": "770dbe09e22ffc9f4b851b5078c28545288ccf7700b850abbed8446716d2c94f"
     },
     {
-      "bytes": 18424,
+      "bytes": 20217,
       "path": "kb/claims.jsonl",
-      "sha256": "645ab0aa26c46447f30123f35cdc154ae0f69e38ea94fb8672a52ef5baa9f09d"
+      "sha256": "0ce026c14759ff13982b415d99475d93cb96dbf74bc51ffffe1115e1827b3d7f"
     },
     {
-      "bytes": 2289,
+      "bytes": 2497,
       "path": "logs/operations.jsonl",
-      "sha256": "af73f31c07e4eb427901c358a28a6529c8c7a5b93bdf65df090b00aa20904b8b"
+      "sha256": "65eec86e49f9ce1296cdd363272ec522ce1bc6841653df77f9b258976b1551fb"
     },
     {
-      "bytes": 57511,
+      "bytes": 60118,
       "path": "logs/sources_visited.json",
-      "sha256": "87942b461eeda17182c1f73c16983f29bd9b680215d870aa8fd4e5d2abf7a776"
+      "sha256": "fc9398b5d5d14e792a1defe7b52108c780fec1bfbc1b32788ba7d5f393697607"
     }
   ],
-  "checkpoint_nonce": "nonce-c2f7d4061eaf48dc",
+  "checkpoint_nonce": "nonce-cde340334c304b29",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-10T21:02:00Z",
+  "created_at": "2026-10-10T21:10:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "d2764414e0a72aacd5d305aa6decc38258c41d9c",
+  "parent_commit": "4fc9dc4f25db650a0d7f01e8d18c9777c5a0adef",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 8,
+  "sequence": 9,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -64,13 +64,16 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-d16dc50faa4a",
+  "turn_id": "turn-9e695fd81fc0",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-10T21:02:00Z",
-    "executed_fail": [],
+    "bluff_check_at": "2026-10-10T21:10:00Z",
+    "executed_fail": [
+      "wrap script first run: python SyntaxError (quote mismatch) - nothing written; repaired and re-run"
+    ],
     "executed_pass": [
-      "EV-123/124 persisted",
-      "CLAIM-020 added",
+      "EV-125/126 persisted",
+      "CLAIM-021/022 added",
+      "season leaderboard finding recorded",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"
     ],
