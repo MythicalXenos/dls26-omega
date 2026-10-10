@@ -1055,14 +1055,21 @@
     {
       "admission_seq": 88,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-124); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-obtain-players",
-      "status": "UNVISITED",
-      "ticket_seq": 88,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:02:00Z",
+          "event": "extract",
+          "seq": 120
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 120,
       "url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players"
     },
     {
@@ -1147,14 +1154,21 @@
     {
       "admission_seq": 94,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-123); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-free-coins",
-      "status": "UNVISITED",
-      "ticket_seq": 94,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:02:00Z",
+          "event": "extract",
+          "seq": 119
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 119,
       "url": "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins"
     },
     {
@@ -1267,10 +1281,10 @@
     "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved",
     "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)",
     "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice",
-    "support owed next: free-coins, obtain-players, save-data, user-id, season-points, cant-connect, data-deletion; official-web: core-principles, terms-of-use, official-site"
+    "support owed next: save-data, user-id, season-points, cant-connect, data-deletion, app-update, profile-transfer; official-web: core-principles, terms-of-use, official-site"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 118,
+  "sequence_counter": 120,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1565,6 +1579,20 @@
       "event": "extract",
       "ref_id": "ref-support-earn-coins",
       "seq": 118
+    },
+    {
+      "at_utc": "2026-10-10T21:02:00Z",
+      "detail": "free coins = video clips",
+      "event": "extract",
+      "ref_id": "ref-support-free-coins",
+      "seq": 119
+    },
+    {
+      "at_utc": "2026-10-10T21:02:00Z",
+      "detail": "acquisition channels + market refresh",
+      "event": "extract",
+      "ref_id": "ref-support-obtain-players",
+      "seq": 120
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1620,8 +1648,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 16,
-      "ticket_seq": 118
+      "served_count": 18,
+      "ticket_seq": 120
     }
   }
 }

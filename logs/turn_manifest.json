@@ -1,60 +1,60 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1024,
+      "bytes": 995,
       "path": "HANDOFF.md",
-      "sha256": "656622042966db086e3f221a06f125ee6db442b799bd4d6ae3098a5874716039"
+      "sha256": "409907429abb508e2144a374daa866f803eb550a7c0887badbc1750b11308f70"
     },
     {
-      "bytes": 807,
-      "path": "evidence/extract/EV-121_support_dream_point_boosts.md",
-      "sha256": "ec8741d6b59864e0422936ce1c9921540a9a89491c603b96c1e987fa6fae3146"
+      "bytes": 288,
+      "path": "evidence/extract/EV-123_support_free_coins.md",
+      "sha256": "e0c8c51659e0eea5144b4759a56c58c13f82054f8fafb9c87ca8c2cca67a0182"
     },
     {
-      "bytes": 423,
-      "path": "evidence/extract/EV-122_support_earn_coins.md",
-      "sha256": "55522c5d4c49192de1e568b9538854c8c6460603d29d029c348e436c9c849148"
+      "bytes": 762,
+      "path": "evidence/extract/EV-124_support_obtain_players.md",
+      "sha256": "4371086d0525408b0471c890a0fec7f51bbebd046df95ca1dd159e24b5c62764"
     },
     {
-      "bytes": 8987,
+      "bytes": 9663,
       "path": "evidence/index.jsonl",
-      "sha256": "88618f0621f9ef35493ea5b9dc4d49b58dd064279bf22fc43e45594d05b6ac36"
+      "sha256": "fdbde4d7f773796b56f5d98832064946b5844df1d5cad1b5edd975ba55afa5fe"
     },
     {
-      "bytes": 17488,
+      "bytes": 18424,
       "path": "kb/claims.jsonl",
-      "sha256": "f88e391520fd795b6a725ab65fada366dae2809ce0115d058cc4fb93e639800d"
+      "sha256": "645ab0aa26c46447f30123f35cdc154ae0f69e38ea94fb8672a52ef5baa9f09d"
     },
     {
-      "bytes": 2112,
+      "bytes": 2289,
       "path": "logs/operations.jsonl",
-      "sha256": "2677fc4838ec15690f828c1b4eb9a3a0bb14c060d8dc1d7d250e27e3892b332e"
+      "sha256": "af73f31c07e4eb427901c358a28a6529c8c7a5b93bdf65df090b00aa20904b8b"
     },
     {
-      "bytes": 56732,
+      "bytes": 57511,
       "path": "logs/sources_visited.json",
-      "sha256": "ac39d470ecbb80cbc925201680360d1412cc7b5a3164285d27da0000d65062a9"
+      "sha256": "87942b461eeda17182c1f73c16983f29bd9b680215d870aa8fd4e5d2abf7a776"
     }
   ],
-  "checkpoint_nonce": "nonce-ae3988e4ccab44f7",
+  "checkpoint_nonce": "nonce-c2f7d4061eaf48dc",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-10T20:55:00Z",
+  "created_at": "2026-10-10T21:02:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "d0b227342a6b38d3d27c09f4c4150629ca2ed723",
+  "parent_commit": "d2764414e0a72aacd5d305aa6decc38258c41d9c",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 7,
+  "sequence": 8,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -64,13 +64,13 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-7405ba2055c7",
+  "turn_id": "turn-d16dc50faa4a",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-10T20:55:00Z",
+    "bluff_check_at": "2026-10-10T21:02:00Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-121/122 persisted",
-      "CLAIM-019 added",
+      "EV-123/124 persisted",
+      "CLAIM-020 added",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"
     ],
