@@ -223,7 +223,7 @@
     {
       "admission_seq": 6,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "snippet extracted; full DB/tool extraction OWED",
+      "extraction_cursor": "complete (1/1 chunk): homepage/database shell + FAQ captured; per-player data is JS-loaded (dynamic projections disclosed as uncaptured); tools pages admitted separately",
       "family": "databases-tools",
       "projections": [
         "player DB schema and coverage",
@@ -233,8 +233,15 @@
         "upgrade simulator"
       ],
       "ref_id": "ref-db-sakibpro",
-      "status": "IN_PROGRESS",
-      "ticket_seq": 31,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:20:00Z",
+          "event": "extract",
+          "seq": 106
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 106,
       "url": "https://sakibpro.com/players/"
     },
     {
@@ -255,14 +262,14 @@
     {
       "admission_seq": 8,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "HTTP 403 attempt 2026-10-10T20:16Z (evidence/raw/reddit_access_attempt.md); backoff; owed",
+      "extraction_cursor": "2 attempts refused (www 403 at 20:16Z, old.reddit 403 at 20:19Z; evidence/raw/reddit_access_attempt.md). Missing content: thread body+comments. Reopen: user-provided content, different network/capability, or successful later fetch. Family note: r/DreamLeagueSoccer sibling refs share expected refusal; each still owed its own attempt or family-evidence classification with disclosure.",
       "family": "community-reddit",
       "projections": [
         "mid-season update observations",
         "rating retains/changes"
       ],
       "ref_id": "ref-reddit-midseason-megathread",
-      "status": "RETRYABLE_FAILURE",
+      "status": "ACCESS_BOUNDARY",
       "ticket_seq": 33,
       "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1rf90a7/dream_league_soccer_2026_midseason_update/"
     },
@@ -1100,22 +1107,57 @@
       "status": "UNVISITED",
       "ticket_seq": 94,
       "url": "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins"
+    },
+    {
+      "admission_seq": 103,
+      "discovered_at": "2026-10-10T20:20:00Z",
+      "extraction_cursor": null,
+      "family": "databases-tools",
+      "projections": [
+        "tool extraction"
+      ],
+      "ref_id": "ref-db-sakibpro-trending",
+      "status": "UNVISITED",
+      "ticket_seq": 103,
+      "url": "https://sakibpro.com/players/trending.php"
+    },
+    {
+      "admission_seq": 104,
+      "discovered_at": "2026-10-10T20:20:00Z",
+      "extraction_cursor": null,
+      "family": "databases-tools",
+      "projections": [
+        "tool extraction"
+      ],
+      "ref_id": "ref-db-sakibpro-price-calc",
+      "status": "UNVISITED",
+      "ticket_seq": 104,
+      "url": "https://sakibpro.com/players/price-calculator.php"
+    },
+    {
+      "admission_seq": 105,
+      "discovered_at": "2026-10-10T20:20:00Z",
+      "extraction_cursor": null,
+      "family": "databases-tools",
+      "projections": [
+        "tool extraction"
+      ],
+      "ref_id": "ref-db-sakibpro-compare",
+      "status": "UNVISITED",
+      "ticket_seq": 105,
+      "url": "https://sakibpro.com/players/compare.php"
     }
   ],
   "residual_debt": [
-    "full-page extraction owed for all remaining admitted references (~45), fair-service order per ticket_seq",
-    "Play listing chunk 1/2 (reviews) owed for ref-store-gplay",
-    "Support articles with mission priority: player-stats, season-pass(+revs), season-points, prize-ladder, dream-point-boosts, earn-coins, free-coins, obtain-players, blocked, save-data, user-id",
-    "Dream League Live ranking mechanics: tie-breaks, per-leaderboard reset interval, eligibility, rank verification \u2014 OPEN (CLAIM-003)",
-    "LIVE Tier definition/count/progression rules \u2014 only matchmaking article found so far; scoped negative recorded (EV-110)",
-    "Legendary Fitness / fitness-coach mechanics \u2014 OPEN (user-plan-critical)",
-    "controls/execution system extraction (player-stats + control-buttons + community reports)",
-    "PT and ID community coverage deficits owed; reddit family RETRYABLE_FAILURE (403)",
-    "build reconciliation 13.410 vs 13.420; Step 2 APK feasibility; Step 3 device UNASSESSED",
-    "next service must rotate families after official-support heavy turn (databases-tools, community-reddit retry, community-web-en)"
+    "support priority articles owed (player-stats, season-pass+revs, season-points, prize-ladder, dream-point-boosts, earn/free-coins, obtain-players, blocked, save-data, user-id) \u2014 next turn per cursor",
+    "Play listing chunk 1/2 owed; sakibpro per-player data is JS-loaded (uncaptured projections disclosed); tools pages (trending/price-calc/compare) owed",
+    "community-reddit family ACCESS_BOUNDARY (403 x2) \u2014 reopen conditions recorded; PT/ID coverage deficits owed",
+    "Dream League Live ranking mechanics OPEN (CLAIM-003): tie-breaks, intervals, eligibility, verification",
+    "Legendary Fitness / fitness-coach mechanics OPEN (CLAIM-006)",
+    "build reconciliation 13.410 vs 13.420; Step 2 APK feasibility; Step 3 device UNASSESSED"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 102,
+  "sequence_counter": 106,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1347,11 +1389,19 @@
       "event": "extract",
       "ref_id": "ref-support-search-tier",
       "seq": 102
+    },
+    {
+      "at_utc": "2026-10-10T20:20:00Z",
+      "detail": "database homepage + card-type taxonomy + tool links",
+      "event": "extract",
+      "ref_id": "ref-db-sakibpro",
+      "seq": 106
     }
   ],
   "session_id": "sess-bb22126f679b",
   "source_families": {
     "community-reddit": {
+      "notes": "403 bot-blocking observed on 2 attempts of ref-reddit-midseason-megathread (www + old.reddit); sibling refs owed own attempts or documented family classification",
       "served_count": 1,
       "ticket_seq": 36
     },
@@ -1391,8 +1441,8 @@
       "ticket_seq": 50
     },
     "databases-tools": {
-      "served_count": 1,
-      "ticket_seq": 32
+      "served_count": 2,
+      "ticket_seq": 106
     },
     "official-stores": {
       "notes": "Google Play com.firsttouchgames.dls7 + App Store id1462911602",

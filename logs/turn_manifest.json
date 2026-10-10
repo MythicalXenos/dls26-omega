@@ -1,87 +1,32 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 4689,
+      "bytes": 1906,
       "path": "HANDOFF.md",
-      "sha256": "6e2a031b43fd24f552e84c8fa0dc665a3e1fff4594fc325c5dddda91e0b55470"
+      "sha256": "a2439461137bf166b1f742f827f44339d132797a0fa130bc11799509791dd482"
     },
     {
-      "bytes": 789,
-      "path": "evidence/extract/EV-101_support_leaderboards.md",
-      "sha256": "20c964ac2787938d7a7abb96eb9430b66b2dd10c17167a3595e4d4c636f29605"
+      "bytes": 1171,
+      "path": "evidence/extract/EV-114_sakibpro_db.md",
+      "sha256": "52e2e3bb3f26d069ba0d713fde1ea9281f503aad8bdcd38d9c2e94ed7ad553ed"
     },
     {
-      "bytes": 1435,
-      "path": "evidence/extract/EV-102_support_matchmaking.md",
-      "sha256": "6590dbf2d54a647cc521ac3a470ef0729311cfa10870c7e68cc83a13aad639a0"
-    },
-    {
-      "bytes": 1778,
-      "path": "evidence/extract/EV-103_gplay_listing.md",
-      "sha256": "84a4500bd2466b439ecdc99abbd1bb6c2a47cec77c5c4c7668298fc09f0f0156"
-    },
-    {
-      "bytes": 1029,
-      "path": "evidence/extract/EV-107_support_difficulty.md",
-      "sha256": "1653ee3f1ce34a1a8488b76f7980392afbd967c3378f5b04247a3b0631715039"
-    },
-    {
-      "bytes": 864,
-      "path": "evidence/extract/EV-108_support_clans.md",
-      "sha256": "78046f1f8270ac57d008a12356e55ffa0c8e980edbe880569a991f09accafd6d"
-    },
-    {
-      "bytes": 1844,
-      "path": "evidence/extract/EV-109_support_dls_section_inventory.md",
-      "sha256": "930563f75aebe9097ec36f689a08691f167da97a9d805aa4fc4a6cbf9212ceda"
-    },
-    {
-      "bytes": 1242,
-      "path": "evidence/extract/EV-110_search_tier.md",
-      "sha256": "c701417c4e0fb44ff00897d02987b60b5337f26e61dd26ca97d452cb012d180e"
-    },
-    {
-      "bytes": 5548,
+      "bytes": 5958,
       "path": "evidence/index.jsonl",
-      "sha256": "c143320947ad874d8156c91d01991c1caa89ef1527974f3974754baaf8a61c0a"
+      "sha256": "02dbaffc56e04db7768eaf81958a5bf1d6390c6029149d933427377e7e68eb5b"
     },
     {
-      "bytes": 575,
-      "path": "evidence/raw/reddit_access_attempt.md",
-      "sha256": "805786df6a93946a5921a6fb4dbdb4498aaa96ef5f14e0d44ef347c6b2b241fd"
-    },
-    {
-      "bytes": 11115,
-      "path": "kb/claims.jsonl",
-      "sha256": "819a2f7d3a392fd8830d190a1e9bdc1f13e79be410781765da6ef37e1c2e241e"
-    },
-    {
-      "bytes": 1835,
+      "bytes": 2502,
       "path": "logs/issues.jsonl",
-      "sha256": "efe243cefdf7d71db9820a972ff5fbb37fb5608394bfac32635c27b2138513df"
+      "sha256": "2187f31e6edb4a063297e520cb2debb5c4776aec2ea75fdb6aa08442f8a6edff"
     },
     {
-      "bytes": 1334,
-      "path": "logs/operations.jsonl",
-      "sha256": "5bdf20cdcd0ae155a4f8d82ed2b0b8f598688c53f8d40ff34f3abf503f1765e5"
-    },
-    {
-      "bytes": 746,
-      "path": "logs/receipt_turn-d59cdfff91f0.reconstructed.json",
-      "sha256": "374c15ff7e4944c02d7093a83185a39377a249d4a554f714181bb70fc1e23749"
-    },
-    {
-      "bytes": 5472,
-      "path": "logs/revisions.jsonl",
-      "sha256": "270a489eb3b47c54bfbc1d886d6371a6f890d8cf53461a8f3f0e4e9cf6c02f79"
-    },
-    {
-      "bytes": 49622,
+      "bytes": 51288,
       "path": "logs/sources_visited.json",
-      "sha256": "da8fdad5222decdd3c21150dd7a9e304441ba4dd572dbdde22245d0a70350f85"
+      "sha256": "dc4b97d292c040960937eae1177efab42291d9a4efb8212176a3ab83f88c256c"
     }
   ],
-  "checkpoint_nonce": "nonce-c88ddb51c58d4a37",
+  "checkpoint_nonce": "nonce-6ada6e45487b4141",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
@@ -94,42 +39,37 @@
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "f61fb78aeedd31b9d4f972003d1eb60a5dc207fb",
+  "parent_commit": "6101596ba17713eec3dfbac54d53b67d3162dca7",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 2,
+  "sequence": 3,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
-    "bash_subprocesses_approx": 6,
-    "fetch_page_calls": 6,
-    "host_calls_total_approx": 15,
-    "underlying_retrievals": 6
+    "bash_subprocesses_approx": 3,
+    "fetch_page_calls": 2,
+    "host_calls_total_approx": 7,
+    "underlying_retrievals": 2
   },
-  "turn_id": "turn-909dbe125bef",
+  "turn_id": "turn-507e6b2d15e3",
   "wrap_checks": {
     "bluff_check_at": "2026-10-10T20:22:00Z",
-    "executed_fail": [
-      "claims-update script first run failed (NameError null->None) \u2014 repaired and re-run successfully before checkpoint; recorded honestly"
-    ],
+    "executed_fail": [],
     "executed_pass": [
-      "master hash re-verified this turn (7e9b1137...e4e4)",
-      "workspace-loss reconciliation: 30/30 blobs byte-identical to published checkpoint f61fb78 before ref move (ISS-0004)",
-      "evidence extracts written for all full-page extractions (evidence/extract/, evidence/raw/)",
-      "sources ledger updated: 68 refs, seq 102, dispositions valid",
-      "claims 12 with revision log (prior versions preserved in logs/revisions.jsonl)",
-      "interrupted-turn identity retained (turn-909dbe125bef); no terminal line was emitted before checkpoint",
-      "protocol checks + manifest verification + publication executed in this wrap (results below in prepare/publish output)"
+      "master hash verified at turn start; git tree clean at HEAD 6101596 before work",
+      "sakibpro extraction persisted (EV-114) with disclosed JS-data limits",
+      "reddit attempt #2 recorded; ACCESS_BOUNDARY classification with reopen conditions (ISS-0006)",
+      "sources ledger 71 refs / seq 106, dispositions valid; HANDOFF updated; protocol checks + prepare + publish executed in this wrap"
     ],
     "not_run": [
-      "release-check suite (OMEGA-AMENDMENT-001) \u2014 no harness yet; debt",
-      "external independent review \u2014 debt open",
-      "reddit extractions (403) \u2014 attempt recorded, not service"
+      "release-check suite (debt)",
+      "external review (debt)",
+      "support priority articles (next turn per cursor)"
     ],
-    "output_leak_check": "assistant conversational output this turn is the single CONTINUE terminal line; earlier interrupted drafts contained reasoning prose before their stop (protocol deviation acknowledged; those turns emitted no terminal line and published no checkpoint)"
+    "output_leak_check": "assistant conversational output this turn is the single CONTINUE terminal line"
   }
 }
