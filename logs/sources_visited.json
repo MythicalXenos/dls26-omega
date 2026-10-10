@@ -944,14 +944,21 @@
     {
       "admission_seq": 80,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-121); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-dream-point-boosts",
-      "status": "UNVISITED",
-      "ticket_seq": 80,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:55:00Z",
+          "event": "extract",
+          "seq": 117
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 117,
       "url": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts"
     },
     {
@@ -1120,14 +1127,21 @@
     {
       "admission_seq": 93,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-122); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-earn-coins",
-      "status": "UNVISITED",
-      "ticket_seq": 93,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:55:00Z",
+          "event": "extract",
+          "seq": 118
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 118,
       "url": "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app"
     },
     {
@@ -1252,11 +1266,11 @@
     "DLL XP / Progress Bank mechanics: how XP is earned/measured, relation to leaderboard position and LIVE Tier \u2014 OPEN (mission-critical, CLAIM-013/014)",
     "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved",
     "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)",
-    "support owed next: dream-point-boosts, earn/free-coins, obtain-players, save-data, user-id, season-points, cant-connect, data-deletion; official-web: core-principles, terms-of-use, official-site",
-    "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice"
+    "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice",
+    "support owed next: free-coins, obtain-players, save-data, user-id, season-points, cant-connect, data-deletion; official-web: core-principles, terms-of-use, official-site"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 116,
+  "sequence_counter": 118,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1537,6 +1551,20 @@
       "event": "extract",
       "ref_id": "ref-support-blocked",
       "seq": 116
+    },
+    {
+      "at_utc": "2026-10-10T20:55:00Z",
+      "detail": "DPB scope extracted",
+      "event": "extract",
+      "ref_id": "ref-support-dream-point-boosts",
+      "seq": 117
+    },
+    {
+      "at_utc": "2026-10-10T20:55:00Z",
+      "detail": "coin sources extracted",
+      "event": "extract",
+      "ref_id": "ref-support-earn-coins",
+      "seq": 118
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1592,8 +1620,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 14,
-      "ticket_seq": 116
+      "served_count": 16,
+      "ticket_seq": 118
     }
   }
 }
