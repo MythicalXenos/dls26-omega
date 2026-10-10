@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OMEGA local journal + publication receipts (must stay outside immutable commits)
+.omega/

@@ -1,0 +1,52 @@
+{
+  "schema": "control-1.0",
+  "protocol_version": 2,
+  "session_id": "sess-bb22126f679b",
+  "operation_id": null,
+  "operation_request_ref": null,
+  "operation_note": "Bootstrap is not a SWEEP operation. Direct user message 2026-10-10 carrying OMEGA PROMPT v77 requested FIRST SESSION BOOTSTRAP and transition into Step 1 research. No SWEEP request received.",
+  "conversation_binding": {
+    "id": "conv-local-0001",
+    "source": "local-generated",
+    "observed_from_host": false,
+    "note": "Arena conversation/message IDs are not observable via tools; generated local ID only (OMEGA-CHECKPOINT-001)"
+  },
+  "mode": "BOOTSTRAP",
+  "step": 1,
+  "phase": "WORKING",
+  "next_step": 1,
+  "device_disposition": "UNASSESSED",
+  "predecessor_exits": [
+    {"step": 0, "exit_file": "logs/exits/step0_setup.exit.json", "exit_id": "exit-step0-setup-sess-bb22126f679b", "accepted_disposition": "ACCEPTED_SELF_VALIDATED"}
+  ],
+  "physical_evidence": [
+    "DLS26_OMEGA_PROMPT.md",
+    "docs/prompt_archive/OMEGA_PROMPT_v77.md",
+    "OPERATIONAL_RULES.md",
+    "docs/CAPABILITY_INVENTORY.md",
+    "docs/prompt_changelog.md",
+    "config/capabilities.json",
+    "config/user_profile_seed.json",
+    "profile/user.json",
+    "schemas/control.schema.json",
+    "schemas/turn_manifest.schema.json",
+    "schemas/sources_visited.schema.json",
+    "schemas/claim.schema.json",
+    "tools/protocol.py",
+    "tools/checkpoint.py",
+    "tools/frontier.py",
+    "logs/sources_visited.json",
+    "logs/exits/step0_setup.exit.json",
+    "logs/operations.jsonl",
+    "logs/issues.jsonl",
+    "logs/revisions.jsonl",
+    "evidence/raw/search_digest_turn1.md",
+    "evidence/index.jsonl",
+    "kb/claims.jsonl",
+    "research/turn1_discovery.md",
+    "HANDOFF.md",
+    "handoff/attention_required.md"
+  ],
+  "resumption_point": "Step 1 initial finite research epoch (epoch-0-initial-2026-10-10 v1) is OPEN. Cursor: fair-service queue head is ref-store-gplay then ref-support-portal-home (full-page extraction via fetch_page), then rotate to official-support family inventory (support.ftgames.com, Zendesk-family rules, real pagination). Mission-critical open question: define the verifiable global ranking target (CLAIM-003). Full cursors: logs/sources_visited.json; readable summary: HANDOFF.md.",
+  "updated_at": "2026-10-10T17:58:00Z"
+}

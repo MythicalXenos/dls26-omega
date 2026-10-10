@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "kb/claims.jsonl record (claim-1.0)",
+  "type": "object",
+  "required": ["claim_id","proposition","context_build","confidence_tier","volatility_tier","supporting_evidence","contradicting_evidence","last_valid_check","origin_history","challenges"],
+  "properties": {
+    "claim_id": {"type": "string"},
+    "proposition": {"type": "string"},
+    "confidence_tier": {"enum": ["Confirmed","High Confidence","Community Consensus","Speculative","Disputed"]},
+    "volatility_tier": {"enum": ["Critical","High","Low","Frozen"]},
+    "supporting_evidence": {"type": "array", "items": {"type": "string"}},
+    "contradicting_evidence": {"type": "array", "items": {"type": "string"}},
+    "last_attempt": {"type": ["string", "null"]},
+    "last_valid_check": {"type": ["string", "null"]},
+    "next_due": {"type": ["string", "null"]}
+  }
+}

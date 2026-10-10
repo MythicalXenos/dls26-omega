@@ -1,0 +1,42 @@
+{
+  "schema": "exit_proof-1.0",
+  "protocol_version": 2,
+  "exit_id": "exit-step0-setup-sess-bb22126f679b",
+  "step": 0,
+  "session_id": "sess-bb22126f679b",
+  "reviewer": "Omega agent self-review (Arena session a7e23a6b). No external reviewer; external verification is recorded debt per OMEGA-GATES-001 gate 9.",
+  "accepted_disposition": "ACCEPTED_SELF_VALIDATED",
+  "created_at": "2026-10-10T17:58:00Z",
+  "accepted_at_utc": "2026-10-10T17:58:00Z",
+  "work_attested": [
+    "Verified master written: DLS26_OMEGA_PROMPT.md sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (50775 bytes)",
+    "Verified immutable archive: docs/prompt_archive/OMEGA_PROMPT_v77.md, byte-identical (same sha256, verified via sha256sum comparison at 2026-10-10T17:33:23Z)",
+    "Rules digest bound to master hash: OPERATIONAL_RULES.md",
+    "Capability inventory with actual limits: docs/CAPABILITY_INVENTORY.md + config/capabilities.json",
+    "Schemas written: schemas/control.schema.json, turn_manifest.schema.json, sources_visited.schema.json, claim.schema.json",
+    "Executable contracts written: tools/protocol.py (field contract + OMEGA-RULE linker), tools/checkpoint.py (prepare/publish), tools/frontier.py",
+    "Initial repository records initialized (control, exits, sources ledger with sealed epoch-0 contract, claims, evidence index, profile seed+user, operations/issues/revisions logs, handoff, attention file)",
+    "Usable persistence path: /home/user/dls26-omega on branch arena/a7e23a6b-dls26-omega"
+  ],
+  "evidence": [
+    {"artifact": "DLS26_OMEGA_PROMPT.md", "sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4"},
+    {"artifact": "docs/prompt_archive/OMEGA_PROMPT_v77.md", "sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4"},
+    {"artifact": "OPERATIONAL_RULES.md", "sha256_ref": "bound in logs/turn_manifest.json artifact_manifest"},
+    {"artifact": "docs/CAPABILITY_INVENTORY.md", "sha256_ref": "bound in logs/turn_manifest.json artifact_manifest"},
+    {"artifact": "tools/protocol.py", "sha256_ref": "bound in logs/turn_manifest.json artifact_manifest"},
+    {"artifact": "logs/turn_manifest.json", "note": "checkpoint envelope; exact path/hash manifest of all artifacts; published receipt at .omega/receipts/turn-d59cdfff91f0.json (outside this immutable commit per OMEGA-CHECKPOINT-001)"}
+  ],
+  "checkpoint": {
+    "turn_id": "turn-d59cdfff91f0",
+    "checkpoint_nonce": "nonce-d3c19a3907ee4dbc",
+    "validation": "tools/protocol.py check-all executed; tools/checkpoint.py prepare/publish executed; publication receipt recorded outside commit",
+    "parent_commit": "fb9a2c025ec267f6b787382766ce44c7e373d091"
+  },
+  "limitations": [
+    "Self-validation only: no external evaluator has reviewed this package (debt open)",
+    "exact-silence output contract subject to host channel behavior; incompatibilities logged in logs/issues.jsonl if they occur",
+    "six-call environment figure not yet reconciled with observed host-call counts (telemetry ongoing)",
+    "This exit accepts Setup only; it makes no claim about research completeness"
+  ],
+  "migration": {"revised": false, "note": "Any future revision must be a declared migration/review, not an in-place rewrite"}
+}

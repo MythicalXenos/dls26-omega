@@ -1,0 +1,60 @@
+{
+  "schema": "capabilities-1.0",
+  "session_id": "sess-bb22126f679b",
+  "observed_at_utc": "2026-10-10T17:33:23Z",
+  "platform": {
+    "host": "Arena.ai Agent Mode sandbox (e2b.local)",
+    "os": "Debian GNU/Linux 12 (bookworm), Linux 6.1.158+, x86_64",
+    "cpu": 2,
+    "ram_gib": 3.8,
+    "disk_free_gib": 20,
+    "kvm": false
+  },
+  "identity": {
+    "git_user": "MythicalXenos <333574927+MythicalXenos@users.noreply.github.com>",
+    "repo": "https://github.com/MythicalXenos/dls26-omega.git",
+    "branch": "arena/a7e23a6b-dls26-omega",
+    "base_commit": "fb9a2c025ec267f6b787382766ce44c7e373d091",
+    "host_message_ids_observed": false
+  },
+  "tools_available": [
+    "bash", "read_file", "write_file", "edit_file", "web_search", "fetch_page",
+    "image_search", "generate_image", "generate_speech", "add_voice", "ask_user",
+    "list_connector_tools", "start_process", "get_process_output", "stop_process",
+    "present_file", "git", "gh"
+  ],
+  "runtime": {
+    "python": "3.11.2",
+    "node": "present",
+    "git": "2.39.5",
+    "gh": "2.23.0",
+    "jq": "present",
+    "unzip": "present",
+    "java_apktool_jadx_aapt": "absent",
+    "pip_npm_reachable": true
+  },
+  "network": {
+    "sandbox_egress_allowlist": [
+      "github.com", "api.github.com", "codeload.github.com",
+      "registry.npmjs.org", "pypi.org", "files.pythonhosted.org"
+    ],
+    "web_research_via": ["web_search", "fetch_page (text/PDF up to 30 pages)"],
+    "arbitrary_binary_download": "not demonstrated"
+  },
+  "device_access": {
+    "usb_adb": false,
+    "user_mac_or_phone_reachable": false,
+    "verified_bridge_service": false,
+    "disposition": "UNASSESSED",
+    "note": "Step 3 domain; no spare device/account assumed"
+  },
+  "publication": {
+    "method": "ordinary git push + git ls-remote verification",
+    "receipts_location": ".omega/receipts/ (outside immutable commits)",
+    "force_push_permitted": false
+  },
+  "notes": [
+    "Six-call dossier figure treated as conservative launch config; actual counts recorded per turn in logs/turn_manifest.json",
+    "Full detail: docs/CAPABILITY_INVENTORY.md"
+  ]
+}

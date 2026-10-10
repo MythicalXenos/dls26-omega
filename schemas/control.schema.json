@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "logs/control.json (control-1.0)",
+  "type": "object",
+  "required": ["schema","protocol_version","session_id","operation_id","operation_request_ref","conversation_binding","mode","step","phase","next_step","device_disposition","predecessor_exits","physical_evidence","resumption_point","updated_at"],
+  "properties": {
+    "schema": {"const": "control-1.0"},
+    "protocol_version": {"const": 2},
+    "session_id": {"type": "string"},
+    "operation_id": {"type": ["string", "null"]},
+    "operation_request_ref": {"type": ["string", "null"]},
+    "conversation_binding": {"type": "object", "required": ["observed_from_host"]},
+    "mode": {"type": "string"},
+    "step": {"type": "integer", "minimum": 0, "maximum": 5},
+    "phase": {"enum": ["WORKING", "COMPLETED", "WAITING_USER", "BLOCKED"]},
+    "next_step": {"type": "integer", "minimum": 0, "maximum": 5},
+    "device_disposition": {"enum": ["UNASSESSED", "READY", "DECLINED", "UNAVAILABLE"]},
+    "predecessor_exits": {"type": "array", "items": {"type": "object", "required": ["step", "exit_file"]}},
+    "physical_evidence": {"type": "array", "items": {"type": ["object", "string"]}},
+    "resumption_point": {"type": "string"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  }
+}

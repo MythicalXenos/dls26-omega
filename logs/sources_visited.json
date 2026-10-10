@@ -1,0 +1,159 @@
+{
+  "schema": "sources_visited-1.0",
+  "session_id": "sess-bb22126f679b",
+  "sequence_counter": 52,
+  "epochs": [
+    {
+      "epoch_id": "epoch-0-initial-2026-10-10",
+      "contract_version": 1,
+      "sealed_at_utc": "2026-10-10T17:40:00Z",
+      "seal_note": "Contract sealed before evaluating closure (OMEGA-EPOCH-001). Later evidence is next-epoch debt unless an urgent dependency reopens this contract under a new version.",
+      "scope_trigger": "FIRST SESSION BOOTSTRAP Step 1: initial finite research epoch over the full requested domain for the DLS26 competitive-ranking mission (OMEGA-MISSION-001) with competitive coverage and fundamental questions",
+      "as_of": {
+        "utc": "2026-10-10T17:40:00Z",
+        "public_game_build": "UNKNOWN_AT_SEAL (candidates observed in turn-1 snippets: Android 13.410/13.420, Google Play listing updated 2026-09-14)",
+        "installed_build": "UNKNOWN (GAP_NOT_SUPPLIED)",
+        "note": "as-of build must be established by research; timestamps are real clock observations"
+      },
+      "admitted_reference_policy": "Seed discovery via search-tool queries across required dimensions and languages; every discovered connected/uncertain reference is admitted with monotone admission_seq and stays owed until served or dispositioned with proof. NON_CONNECTED requires positive scope proof.",
+      "required_dimensions": [
+        "ranking-measurement-eligibility",
+        "controls-execution",
+        "core-on-pitch-behavior",
+        "current-build-and-events",
+        "roster-development-economy",
+        "competitive-tactics",
+        "historical-context",
+        "technical-artifacts",
+        "official-material",
+        "databases-tools",
+        "community-english",
+        "community-non-english"
+      ],
+      "language_plan": {
+        "required_search_languages": ["en", "es", "pt", "tr", "id", "vi"],
+        "conditional": ["bn (Bangla) — add if a relevant community or dependency is discovered"],
+        "note": "A translated query is an attempt, not coverage proof. Original-language evidence is preserved with English interpretation."
+      },
+      "content_projections": [
+        "ranking existence: what leaderboard/ladder/competitive mode actually exists in the current franchise season",
+        "measurement: how rank is computed/updated, tie-breaks, season resets, eligibility",
+        "fundamentals: controls/execution, core on-pitch behavior, competitive tactics",
+        "current build: live version, recent updates/events as of 2026-10-10",
+        "economy/development: roster acquisition, training (incl. Legendary Fitness mechanics), recovery, currencies",
+        "technical: authentic artifact availability (APK/IPA), databases/tools",
+        "history: franchise rebrand/continuity (DLS25 -> DLS26 or current naming)"
+      ],
+      "discovery_procedure": "web_search per dimension x language (seed batches), fetch_page extraction on admitted high-value references, admission of every discovered connected/uncertain reference into logs/sources_visited.json with fair-service tickets",
+      "extraction_obligations": "Process each admitted reference's relevant projections; track cursors; an access boundary is not a completed extraction; failed fetch is an attempt, not service",
+      "final_checks": "Coverage accounting and information extraction recorded separately; residual debt preserved; negative claims versioned and scoped; RESEARCH_READY_WITH_LIMITS (not global exhaustion) is the honest closure label if limitations remain",
+      "status": "OPEN",
+      "turn1_coverage_accounting": {
+        "as_of_utc": "2026-10-10T17:55:00Z",
+        "discovery_evidence_per_dimension": {
+          "ranking-measurement-eligibility": "partial: FTG support articles found (leaderboards reset 3-30 days; matchmaking uses LIVE Tier ranking); store listings advertise global leaderboards; tie-breaks/eligibility/verification NOT yet established",
+          "controls-execution": "partial snippets: community reports of switching delay/exploits (Google Play reviews); ES guide on camera/sensitivity; full extraction owed",
+          "core-on-pitch-behavior": "snippet-level only",
+          "current-build-and-events": "partial: update timeline 2025-12 launch -> Winter Reload -> May 2026 ratings pass -> Summer Spotlight -> late-summer v13.410 Cult Heroes; v13.420 listed by VI portal",
+          "roster-development-economy": "partial: training/coaches/facilities/recovery mechanics snippets; Legendary Fitness mechanics NOT yet identified",
+          "competitive-tactics": "snippet-level (formations, containment defending)",
+          "historical-context": "partial: seasonal-update continuity of com.firsttouchgames.dls7",
+          "technical-artifacts": "NOT yet attempted (Step 2 scope); no APK acquired",
+          "official-material": "partial: store listings + 2 FTG support articles; support portal inventory owed (Zendesk family rules)",
+          "databases-tools": "partial: sakibpro.com discovered (14k+ player DB, simulators)",
+          "community-english": "partial: reddit r/DreamLeagueSoccer megathreads + web guides",
+          "community-non-english": "partial: ES (3), TR (1, cheat-suspect), VI (1) admitted; PT and ID dedicated communities NOT found in this batch — coverage deficit, owed"
+        },
+        "coverage_result": "IN_PROGRESS — all admitted references have valid dispositions (all IN_PROGRESS with cursors), required dimensions have discovery evidence but extraction is incomplete; epoch remains OPEN",
+        "extraction_result": "IN_PROGRESS — turn-1 processed search-result projections only (snippet digests); full-page projections uncaptured for every admitted reference"
+      }
+    }
+  ],
+  "discovery_slices": [
+    {"slice_id": "DS-1", "at_utc": "2026-10-10T17:42:00Z", "queries": ["Dream League Soccer 2026 global leaderboard ranking system", "Dream League Soccer 2026 update patch notes October 2026", "Dream League Soccer 2026 best players ratings database", "reddit Dream League Soccer 2026 division ladder ranking points"], "language": "en", "results": 20, "evidence_artifact": "evidence/raw/search_digest_turn1.md"},
+    {"slice_id": "DS-2", "at_utc": "2026-10-10T17:50:00Z", "queries": ["\"Dream League Soccer 2026\" guía consejos trucos plantilla (es)", "\"Dream League Soccer 2026\" dicas jogadores elenco (pt)", "\"Dream League Soccer 2026\" taktik hileler oyuncular (tr)", "\"Dream League Soccer 2026\" tips pemain terbaik (id)", "\"Dream League Soccer 2026\" thủ thuật cầu thủ hay nhất (vi)", "\"Dream League Live\" leaderboard ranking how it works DLS 26 seasons (en)"], "language": "es,pt,tr,id,vi,en", "results": 24, "evidence_artifact": "evidence/raw/search_digest_turn1.md"}
+  ],
+  "source_families": {
+    "official-stores": {"ticket_seq": 28, "served_count": 1, "notes": "Google Play com.firsttouchgames.dls7 + App Store id1462911602"},
+    "official-support": {"ticket_seq": 31, "served_count": 1, "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)"},
+    "databases-tools": {"ticket_seq": 32, "served_count": 1},
+    "community-reddit": {"ticket_seq": 36, "served_count": 1},
+    "community-web-en": {"ticket_seq": 45, "served_count": 1},
+    "community-web-es": {"ticket_seq": 48, "served_count": 1},
+    "community-web-tr": {"ticket_seq": 49, "served_count": 1, "risk_flags": ["cheat-suspect", "credential-phishing risk", "do-not-execute"]},
+    "community-web-vi": {"ticket_seq": 50, "served_count": 1},
+    "community-ugc": {"ticket_seq": 51, "served_count": 1},
+    "community-web-pt": {"ticket_seq": null, "served_count": 0, "notes": "no dedicated PT source admitted in turn 1; translated query attempted; coverage deficit owed"},
+    "community-web-id": {"ticket_seq": null, "served_count": 0, "notes": "no dedicated ID source admitted in turn 1; translated query attempted; coverage deficit owed"}
+  },
+  "references": [
+    {"ref_id": "ref-store-gplay", "family": "official-stores", "status": "IN_PROGRESS", "admission_seq": 1, "ticket_seq": 27, "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7", "projections": ["store listing features/claims", "version + updated date", "review snippets (community-anecdote)"], "extraction_cursor": "turn-1 search digest only; full-page listing + release notes OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-store-appstore", "family": "official-stores", "status": "IN_PROGRESS", "admission_seq": 2, "ticket_seq": 28, "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602", "projections": ["version history / release notes", "feature claims"], "extraction_cursor": "turn-1 search digest only; full version-history extraction OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-support-leaderboards", "family": "official-support", "status": "IN_PROGRESS", "admission_seq": 3, "ticket_seq": 29, "url": "https://support.ftgames.com/hc/en-us/articles/360003914998-What-are-Leaderboards", "projections": ["leaderboard definition", "reset interval", "prize rules"], "extraction_cursor": "snippet extracted (EV-101); full article + revisions/locales OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-support-matchmaking", "family": "official-support", "status": "IN_PROGRESS", "admission_seq": 4, "ticket_seq": 29, "url": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work", "projections": ["matchmaking attributes", "LIVE Tier ranking definition", "tier progression"], "extraction_cursor": "snippet extracted (EV-102); full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-support-portal-home", "family": "official-support", "status": "UNVISITED", "admission_seq": 5, "ticket_seq": 30, "url": "https://support.ftgames.com/hc/en-us", "projections": ["article inventory", "categories", "pagination", "search for rank/tier/season/eligibility articles"], "extraction_cursor": null, "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-db-sakibpro", "family": "databases-tools", "status": "IN_PROGRESS", "admission_seq": 6, "ticket_seq": 31, "url": "https://sakibpro.com/players/", "projections": ["player DB schema and coverage", "card types", "max upgrades", "prices", "upgrade simulator"], "extraction_cursor": "snippet extracted; full DB/tool extraction OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-reddit-launch-megathread", "family": "community-reddit", "status": "IN_PROGRESS", "admission_seq": 7, "ticket_seq": 32, "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pbdd5o/dream_league_soccer_2026_update_megathread_day_1/", "projections": ["launch-day observations", "Prize Ladder Midfield Classics", "rating changes"], "extraction_cursor": "snippet extracted; thread comments OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-reddit-midseason-megathread", "family": "community-reddit", "status": "IN_PROGRESS", "admission_seq": 8, "ticket_seq": 33, "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1rf90a7/dream_league_soccer_2026_midseason_update/", "projections": ["mid-season update observations", "rating retains/changes"], "extraction_cursor": "snippet extracted; thread OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-reddit-rating-predictions", "family": "community-reddit", "status": "IN_PROGRESS", "admission_seq": 9, "ticket_seq": 34, "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1p0ploo/countdown_to_dream_league_soccer_2026_rating/", "projections": ["community rating predictions (pre-launch, historical)"], "extraction_cursor": "snippet extracted; thread OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-reddit-top2516", "family": "community-reddit", "status": "IN_PROGRESS", "admission_seq": 10, "ticket_seq": 35, "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pbvbei/top_2516_players_in_dls_26/", "projections": ["community-revealed rating tiers"], "extraction_cursor": "snippet extracted; thread OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-thesoccerera-features", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 11, "ticket_seq": 36, "url": "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/", "projections": ["feature breakdown quoting App Store notes", "update history"], "extraction_cursor": "snippet extracted; full article OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-thesoccerera-launch", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 12, "ticket_seq": 37, "url": "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/", "projections": ["launch claims (date CONTRADICTION noted)", "ratings table"], "extraction_cursor": "snippet extracted; full article OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-fifaworldcupnews", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 13, "ticket_seq": 38, "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/", "projections": ["update timeline claims (Jan/May/Sep 2026)", "feature list"], "extraction_cursor": "snippet extracted; full article OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-dlskits-updates", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 14, "ticket_seq": 39, "url": "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/", "projections": ["update list (v13.410 Cult Heroes, Summer Spotlight, Winter Reload)", "clan/facility details"], "extraction_cursor": "snippet extracted; full article OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-sportsdunia-players", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 15, "ticket_seq": 40, "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-players", "projections": ["top player ratings list", "stat claims"], "extraction_cursor": "snippet extracted (contains at least one factual error: Van Dijk nationality) ; full article OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-sportsdunia-teams", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 16, "ticket_seq": 41, "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-teams", "projections": ["best-teams opinions"], "extraction_cursor": "snippet extracted; full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-web-z2u-guide", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 17, "ticket_seq": 42, "url": "https://www.z2u.com/detail/dream-league-soccer-2026-best-players-guide.html", "projections": ["player guide claims", "incentive check (RMT marketplace)"], "extraction_cursor": "snippet extracted; incentive-motive source — see notes", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-web-gamingonphone", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 18, "ticket_seq": 43, "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/", "projections": ["game modes", "DLL weekly leaderboard + gems", "controls system", "progression tips"], "extraction_cursor": "snippet extracted; full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-web-bluestacks", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 19, "ticket_seq": 44, "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-beginner-guide-en.html", "projections": ["facilities effects (Medical/Training)", "DLL weekly leaderboard", "economy tips"], "extraction_cursor": "snippet extracted (page age metadata inconsistent: 2021) ; full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-web-mwm-appstore-agg", "family": "community-web-en", "status": "IN_PROGRESS", "admission_seq": 20, "ticket_seq": 45, "url": "https://mwm.ai/apps/dream-league-soccer-2026/1462911602", "projections": ["app store aggregation claims (DLL global leaderboards)"], "extraction_cursor": "snippet extracted; full page OWED", "discovered_at": "2026-10-10T17:42:00Z"},
+    {"ref_id": "ref-es-kotaku", "family": "community-web-es", "status": "IN_PROGRESS", "admission_seq": 21, "ticket_seq": 46, "url": "https://es.kotaku.com/los-mejores-con-consejos-para-dominar-dream-league-soccer-2026-y-jugar-como-profesional-2000031741", "projections": ["tactics/formations", "camera/controls advice", "training specialization", "club upgrade order"], "extraction_cursor": "snippet extracted (ES, interpreted in research/turn1_discovery.md); full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-es-tuapppara", "family": "community-web-es", "status": "IN_PROGRESS", "admission_seq": 22, "ticket_seq": 47, "url": "https://tuapppara.com/juegos/dream-league-soccer/", "projections": ["speed+acceleration training pairing", "free progression routes (Prize Ladder/Dream Points)", "kit import"], "extraction_cursor": "snippet extracted (ES); full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-es-mundodls", "family": "community-web-es", "status": "IN_PROGRESS", "admission_seq": 23, "ticket_seq": 48, "url": "https://mundodls.com/posiciones-dream-league-soccer", "projections": ["position roles and key attributes"], "extraction_cursor": "snippet extracted (ES, page dated 2025-02 pre-DLS26 — build applicability limit); full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-tr-dlshile", "family": "community-web-tr", "status": "IN_PROGRESS", "admission_seq": 24, "ticket_seq": 49, "url": "https://dlshile.com/", "projections": ["community cheat-claims (risk analysis only)", "squad-building tips (TR)"], "extraction_cursor": "snippet extracted (TR); FULL PAGE MUST BE TREATED AS UNTRUSTED (cheat/phishing-suspect, do not execute or enter any credentials); risk record OWED", "discovered_at": "2026-10-10T17:50:00Z", "risk_flags": ["cheat-suspect", "credential-phishing risk", "do-not-execute"]},
+    {"ref_id": "ref-vi-download-com-vn", "family": "community-web-vi", "status": "IN_PROGRESS", "admission_seq": 25, "ticket_seq": 50, "url": "https://download.com.vn/dream-league-soccer-2020-cho-android-146685", "projections": ["Android version (13.420)", "Prize Ladder English League Classics", "rank-up tips (Division Objectives 15-match seasons)", "player-release for fitness coaches claim"], "extraction_cursor": "snippet extracted (VI, interpreted in research/turn1_discovery.md); full article OWED", "discovered_at": "2026-10-10T17:50:00Z"},
+    {"ref_id": "ref-ugc-tiktok-best11", "family": "community-ugc", "status": "IN_PROGRESS", "admission_seq": 26, "ticket_seq": 51, "url": "https://www.tiktok.com/discover/best-11-dls-players-in-2026", "projections": ["creator-demonstration content index"], "extraction_cursor": "snippet extracted (ES/EN mixed); deeper UGC sampling OWED", "discovered_at": "2026-10-10T17:50:00Z"}
+  ],
+  "service_events": [
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 27, "ref_id": "ref-store-gplay", "detail": "search-result projections digested to evidence/raw/search_digest_turn1.md"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 28, "ref_id": "ref-store-appstore", "detail": "search-result projections digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 29, "ref_id": "ref-support-leaderboards", "detail": "official support snippet extracted (EV-101)"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 29, "ref_id": "ref-support-matchmaking", "detail": "official support snippet extracted (EV-102)"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 31, "ref_id": "ref-db-sakibpro", "detail": "database snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 32, "ref_id": "ref-reddit-launch-megathread", "detail": "thread snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 33, "ref_id": "ref-reddit-midseason-megathread", "detail": "thread snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 34, "ref_id": "ref-reddit-rating-predictions", "detail": "thread snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 35, "ref_id": "ref-reddit-top2516", "detail": "thread snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 36, "ref_id": "ref-web-thesoccerera-features", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 37, "ref_id": "ref-web-thesoccerera-launch", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 38, "ref_id": "ref-web-fifaworldcupnews", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 39, "ref_id": "ref-web-dlskits-updates", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 40, "ref_id": "ref-web-sportsdunia-players", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 41, "ref_id": "ref-web-sportsdunia-teams", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 42, "ref_id": "ref-web-z2u-guide", "detail": "article snippet digested (incentive-motive source)"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 43, "ref_id": "ref-web-gamingonphone", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 44, "ref_id": "ref-web-bluestacks", "detail": "article snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:47:00Z", "seq": 45, "ref_id": "ref-web-mwm-appstore-agg", "detail": "aggregator snippet digested"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 46, "ref_id": "ref-es-kotaku", "detail": "ES article snippet digested with English interpretation"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 47, "ref_id": "ref-es-tuapppara", "detail": "ES article snippet digested with English interpretation"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 48, "ref_id": "ref-es-mundodls", "detail": "ES article snippet digested (build applicability limit noted)"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 49, "ref_id": "ref-tr-dlshile", "detail": "TR snippet digested as untrusted risk-analysis material only"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 50, "ref_id": "ref-vi-download-com-vn", "detail": "VI snippet digested with English interpretation"},
+    {"event": "snippet_extract", "at_utc": "2026-10-10T17:53:00Z", "seq": 51, "ref_id": "ref-ugc-tiktok-best11", "detail": "UGC index snippet digested"}
+  ],
+  "coverage": {
+    "note": "Derived view; authority is this file's records",
+    "dimensions": {}
+  },
+  "residual_debt": [
+    "FULL-PAGE extraction owed for all 26 admitted references (turn-1 processed search-result projections only)",
+    "FTG support portal (support.ftgames.com) complete relevant inventory with real pagination, revisions/translations/comments — Zendesk-family rules; no arbitrary cutoff",
+    "Dream League Live ranking mechanics: tie-breaks, season/leaderboard interval per leaderboard type, eligibility, rank verification method, what 'highest verifiable global ranking' actually is — OPEN (mission-critical)",
+    "Legendary Fitness / fitness-coach mechanics (eligibility, targeting, caps, distributions, costs) — OPEN (user-plan-critical; VI snippet claim EV-105 to verify)",
+    "Controls/execution system and input-latency community reports — extraction owed",
+    "PT and ID dedicated community sources — coverage deficit owed (queries attempted only)",
+    "Current exact build/version reconciliation (Android 13.410 vs 13.420; store listing updated 2026-09-14)",
+    "Technical artifacts (Step 2): authentic APK/IPA acquisition path in this sandbox not yet demonstrated",
+    "Bangla (bn) community check conditional on discovered communities — not yet triggered"
+  ]
+}

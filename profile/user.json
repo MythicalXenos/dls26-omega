@@ -1,0 +1,35 @@
+{
+  "schema": "user_state-1.0",
+  "user_state_revision": "usr-rev-1",
+  "revision_time_utc": "2026-10-10T17:33:23Z",
+  "derived_from": "config/user_profile_seed.json (seed_origin: master v77 user message)",
+  "user": {"name": "Saad"},
+  "preferences": {
+    "two_xi_rotation": "two-XI rotation preferred",
+    "coin_physio": "no-coin-physio stance (do not spend coins on physio)"
+  },
+  "plans": {
+    "first_stage_development": {
+      "name": "Legendary Fitness",
+      "status": "selected-by-user",
+      "stage": "first stage",
+      "pinned": true,
+      "replacement_requires": "explicit user decision after evidence comparison (OMEGA-COACHING-001)"
+    }
+  },
+  "reported_game_account_facts": {
+    "formation": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "camera_settings": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "assist_settings": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "account_roster_reports": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "facilities_stadium_currency_progression": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "free_recovery_stat_targets": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "installed_game_build_version": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null},
+    "account_state_balances": {"value": null, "status": "GAP_NOT_SUPPLIED", "observed_at": null}
+  },
+  "conflict_log": [],
+  "notes": [
+    "Unknown is not zero (OMEGA-CLAIM-001). GAP_NOT_SUPPLIED items are queued for the Step-5 consolidated ask, not assumed.",
+    "Private state (roster, balances, build) cannot be refreshed by public release-note searches; user-stated provenance required."
+  ]
+}
