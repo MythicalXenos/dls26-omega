@@ -618,14 +618,21 @@
     {
       "admission_seq": 57,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-120); closed for comments",
       "family": "official-support",
       "projections": [
         "enforcement/ban policy"
       ],
       "ref_id": "ref-support-blocked",
-      "status": "UNVISITED",
-      "ticket_seq": 57,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:48:00Z",
+          "event": "extract",
+          "seq": 116
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 116,
       "url": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS"
     },
     {
@@ -1093,14 +1100,21 @@
     {
       "admission_seq": 92,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-119); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-multiplayer-troubleshooting",
-      "status": "UNVISITED",
-      "ticket_seq": 92,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:48:00Z",
+          "event": "extract",
+          "seq": 115
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 115,
       "url": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting"
     },
     {
@@ -1187,6 +1201,45 @@
       "status": "VISITED",
       "ticket_seq": 110,
       "url": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems"
+    },
+    {
+      "admission_seq": 112,
+      "discovered_at": "2026-10-10T20:48:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-cant-connect",
+      "status": "UNVISITED",
+      "ticket_seq": 112,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do"
+    },
+    {
+      "admission_seq": 113,
+      "discovered_at": "2026-10-10T20:48:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-data-deletion",
+      "status": "UNVISITED",
+      "ticket_seq": 113,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted"
+    },
+    {
+      "admission_seq": 114,
+      "discovered_at": "2026-10-10T20:48:00Z",
+      "extraction_cursor": null,
+      "family": "official-web",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-official-terms",
+      "status": "UNVISITED",
+      "ticket_seq": 114,
+      "url": "https://www.ftgames.com/terms-of-use"
     }
   ],
   "residual_debt": [
@@ -1198,11 +1251,12 @@
     "player-stats comment chunks 1-3 owed (ref-support-player-stats IN_PROGRESS)",
     "DLL XP / Progress Bank mechanics: how XP is earned/measured, relation to leaderboard position and LIVE Tier \u2014 OPEN (mission-critical, CLAIM-013/014)",
     "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved",
-    "support articles owed next: dream-point-boosts, earn/free-coins, obtain-players, multiplayer-troubleshooting, blocked, save-data, user-id, season-points",
-    "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)"
+    "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)",
+    "support owed next: dream-point-boosts, earn/free-coins, obtain-players, save-data, user-id, season-points, cant-connect, data-deletion; official-web: core-principles, terms-of-use, official-site",
+    "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 111,
+  "sequence_counter": 116,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1469,6 +1523,20 @@
       "event": "extract",
       "ref_id": "ref-support-prize-ladder",
       "seq": 111
+    },
+    {
+      "at_utc": "2026-10-10T20:48:00Z",
+      "detail": "multiplayer network/netcode/anti-lag-switch claims",
+      "event": "extract",
+      "ref_id": "ref-support-multiplayer-troubleshooting",
+      "seq": 115
+    },
+    {
+      "at_utc": "2026-10-10T20:48:00Z",
+      "detail": "enforcement/ban policy + authorised-versions-only rule",
+      "event": "extract",
+      "ref_id": "ref-support-blocked",
+      "seq": 116
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1524,8 +1592,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 12,
-      "ticket_seq": 111
+      "served_count": 14,
+      "ticket_seq": 116
     }
   }
 }
