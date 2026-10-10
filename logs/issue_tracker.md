@@ -58,3 +58,13 @@ Entries: ISSUE-NNN, date (UTC), category, description, status, log reference. Pr
 ## ISSUE-014 — no transcription check against the original
 - Category: verification limit. Description: DLS26_OMEGA_PROMPT.md is an agent transcription. It cannot be checked byte-for-byte against the original message from inside the sandbox.
 - Status: open. Capture status recorded as transcription, not MECHANICAL.
+
+## ISSUE-015 — original prompt source unavailable at resumed turn
+- Category: blocking dependency. Description: the current resumed context contains only a condensed summary, not the full Turn 1 prompt. No `DLS26_OMEGA_PROMPT.md` exists in the published checkpoint. Reconstructing a verbatim user-authored prompt from the digest would fabricate or omit content.
+- Status: ATTENTION_REQUIRED. Setup remains incomplete; STATE_1 is blocked. Required input and resumption condition are in handoff/attention_required.md.
+- Log reference: main log, category SETUP, topic "prompt capture blocked".
+
+## ISSUE-016 — local branch reference diverged from published checkpoint
+- Category: environment divergence. Description: at turn start, local branch `arena/a8a92133-dls26-omega` pointed to `fb9a2c0` while origin's branch pointed to `4bcee78`. Content comparison showed every local file matched the remote tree and there were no workspace-only files. The remote branch was fetched and the local branch pointer reconciled to it with a mixed reset; no worktree content was discarded.
+- Status: resolved and recorded once for this cause. Local branch and remote now both point to the published checkpoint; working tree clean before this turn's blocker files.
+- Log reference: main log, category SELF-AUDIT, topic "turn-start repository reconciliation".
