@@ -1,0 +1,14 @@
+{
+  "turn_id": "turn-d59cdfff91f0",
+  "checkpoint_nonce": "nonce-d3c19a3907ee4dbc",
+  "commit": "f61fb78aeedd31b9d4f972003d1eb60a5dc207fb",
+  "parent_commit": "fb9a2c025ec267f6b787382766ce44c7e373d091",
+  "remote": "origin",
+  "branch": "arena/a7e23a6b-dls26-omega",
+  "remote_ref": "refs/heads/arena/a7e23a6b-dls26-omega",
+  "remote_sha_observed": "f61fb78aeedd31b9d4f972003d1eb60a5dc207fb",
+  "verified_at": "2026-10-10T20:03:44Z",
+  "method": "git push + git ls-remote byte-identity check (original), re-verified via git ls-remote after workspace loss",
+  "reconstructed_after_workspace_loss": true,
+  "scope_note": "hash proves byte identity at the verified repository endpoint only; reconstruction attests re-verification, not a new push"
+}
