@@ -631,14 +631,21 @@
     {
       "admission_seq": 58,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text captured (EV-116); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-season-pass",
-      "status": "UNVISITED",
-      "ticket_seq": 58,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:30:00Z",
+          "event": "extract",
+          "seq": 109
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 109,
       "url": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass"
     },
     {
@@ -799,14 +806,21 @@
     {
       "admission_seq": 71,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "chunks 0/4 extracted (EV-115 full stat model); comment chunks 1-3 OWED",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-player-stats",
-      "status": "UNVISITED",
-      "ticket_seq": 71,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:30:00Z",
+          "event": "extract",
+          "seq": 108
+        }
+      ],
+      "status": "IN_PROGRESS",
+      "ticket_seq": 108,
       "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay"
     },
     {
@@ -1146,18 +1160,34 @@
       "status": "UNVISITED",
       "ticket_seq": 105,
       "url": "https://sakibpro.com/players/compare.php"
+    },
+    {
+      "admission_seq": 107,
+      "discovered_at": "2026-10-10T20:30:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "gems economy"
+      ],
+      "ref_id": "ref-support-get-gems",
+      "status": "UNVISITED",
+      "ticket_seq": 107,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems"
     }
   ],
   "residual_debt": [
-    "support priority articles owed (player-stats, season-pass+revs, season-points, prize-ladder, dream-point-boosts, earn/free-coins, obtain-players, blocked, save-data, user-id) \u2014 next turn per cursor",
     "Play listing chunk 1/2 owed; sakibpro per-player data is JS-loaded (uncaptured projections disclosed); tools pages (trending/price-calc/compare) owed",
     "community-reddit family ACCESS_BOUNDARY (403 x2) \u2014 reopen conditions recorded; PT/ID coverage deficits owed",
     "Dream League Live ranking mechanics OPEN (CLAIM-003): tie-breaks, intervals, eligibility, verification",
     "Legendary Fitness / fitness-coach mechanics OPEN (CLAIM-006)",
-    "build reconciliation 13.410 vs 13.420; Step 2 APK feasibility; Step 3 device UNASSESSED"
+    "build reconciliation 13.410 vs 13.420; Step 2 APK feasibility; Step 3 device UNASSESSED",
+    "player-stats comment chunks 1-3 owed (ref-support-player-stats IN_PROGRESS)",
+    "support articles owed next: season-points, prize-ladder, dream-point-boosts, get-gems (NEW), earn/free-coins, obtain-players, blocked, save-data, user-id",
+    "DLL XP / Progress Bank mechanics: how XP is earned/measured, relation to leaderboard position and LIVE Tier \u2014 OPEN (mission-critical, CLAIM-013/014)",
+    "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 106,
+  "sequence_counter": 109,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1396,6 +1426,20 @@
       "event": "extract",
       "ref_id": "ref-db-sakibpro",
       "seq": 106
+    },
+    {
+      "at_utc": "2026-10-10T20:30:00Z",
+      "detail": "stats mechanics article body captured",
+      "event": "extract",
+      "ref_id": "ref-support-player-stats",
+      "seq": 108
+    },
+    {
+      "at_utc": "2026-10-10T20:30:00Z",
+      "detail": "season pass + Progress Bank + DLL XP + global season end",
+      "event": "extract",
+      "ref_id": "ref-support-season-pass",
+      "seq": 109
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1451,8 +1495,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 8,
-      "ticket_seq": 102
+      "served_count": 10,
+      "ticket_seq": 109
     }
   }
 }
