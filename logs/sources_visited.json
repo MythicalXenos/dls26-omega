@@ -917,14 +917,21 @@
     {
       "admission_seq": 79,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-118); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-prize-ladder",
-      "status": "UNVISITED",
-      "ticket_seq": 79,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:40:00Z",
+          "event": "extract",
+          "seq": 111
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 111,
       "url": "https://support.ftgames.com/hc/en-us/articles/23108987826962-What-is-the-Prize-Ladder"
     },
     {
@@ -1164,14 +1171,21 @@
     {
       "admission_seq": 107,
       "discovered_at": "2026-10-10T20:30:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-117); closed for comments",
       "family": "official-support",
       "projections": [
         "gems economy"
       ],
       "ref_id": "ref-support-get-gems",
-      "status": "UNVISITED",
-      "ticket_seq": 107,
+      "service_events": [
+        {
+          "at": "2026-10-10T20:40:00Z",
+          "event": "extract",
+          "seq": 110
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 110,
       "url": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems"
     }
   ],
@@ -1182,12 +1196,13 @@
     "Legendary Fitness / fitness-coach mechanics OPEN (CLAIM-006)",
     "build reconciliation 13.410 vs 13.420; Step 2 APK feasibility; Step 3 device UNASSESSED",
     "player-stats comment chunks 1-3 owed (ref-support-player-stats IN_PROGRESS)",
-    "support articles owed next: season-points, prize-ladder, dream-point-boosts, get-gems (NEW), earn/free-coins, obtain-players, blocked, save-data, user-id",
     "DLL XP / Progress Bank mechanics: how XP is earned/measured, relation to leaderboard position and LIVE Tier \u2014 OPEN (mission-critical, CLAIM-013/014)",
-    "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved"
+    "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved",
+    "support articles owed next: dream-point-boosts, earn/free-coins, obtain-players, multiplayer-troubleshooting, blocked, save-data, user-id, season-points",
+    "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 109,
+  "sequence_counter": 111,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1440,6 +1455,20 @@
       "event": "extract",
       "ref_id": "ref-support-season-pass",
       "seq": 109
+    },
+    {
+      "at_utc": "2026-10-10T20:40:00Z",
+      "detail": "gems sources extracted",
+      "event": "extract",
+      "ref_id": "ref-support-get-gems",
+      "seq": 110
+    },
+    {
+      "at_utc": "2026-10-10T20:40:00Z",
+      "detail": "prize ladder + dream points extracted",
+      "event": "extract",
+      "ref_id": "ref-support-prize-ladder",
+      "seq": 111
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1495,8 +1524,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 10,
-      "ticket_seq": 109
+      "served_count": 12,
+      "ticket_seq": 111
     }
   }
 }

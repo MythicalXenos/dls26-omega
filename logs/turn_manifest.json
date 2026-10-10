@@ -1,83 +1,82 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1389,
+      "bytes": 1117,
       "path": "HANDOFF.md",
-      "sha256": "9aebf9959caea800a308e117bb3758e9d3a9b335c0a1f79a5bb622033e639437"
+      "sha256": "28674ae2a6d3ff5ae0f2285dd6141da194e7d14834a04f7381ec62ee1926cc69"
     },
     {
-      "bytes": 2346,
-      "path": "evidence/extract/EV-115_support_player_stats.md",
-      "sha256": "fb878e5c172f318470eb1df30d0396d7241dde4e22becc4d02e6ef4d8d307ca0"
+      "bytes": 563,
+      "path": "evidence/extract/EV-117_support_get_gems.md",
+      "sha256": "ba021d48c454320945cea8f2a0d9f672f2f08cd53598ff91d0982f0a152528c5"
     },
     {
-      "bytes": 1431,
-      "path": "evidence/extract/EV-116_support_season_pass.md",
-      "sha256": "1f0ea0039d946bb2f3bc20664d53bb9e32b520d1a4d847d2cb27a97bb55243bc"
+      "bytes": 761,
+      "path": "evidence/extract/EV-118_support_prize_ladder.md",
+      "sha256": "d64d9580275445852309f178ac4e1d6de0b46ff2a7488f7028eb26c748a17679"
     },
     {
-      "bytes": 6828,
+      "bytes": 7482,
       "path": "evidence/index.jsonl",
-      "sha256": "bcd9060aca140c042aaed01995d9dc608d99dde38a1936ab3f734bf9c32e260d"
+      "sha256": "0df92c12225eee55a6cab65eda77259f4c9601d32f932632280deec306d4f2a4"
     },
     {
-      "bytes": 12979,
+      "bytes": 14549,
       "path": "kb/claims.jsonl",
-      "sha256": "580c406c491237ec0a1f34410ab85318137818d732e0be86856184420d7e5dee"
+      "sha256": "b2daed1042afd83994e83460372fb334787d731f39bc7c8b5f06edbff8cacd9a"
     },
     {
-      "bytes": 1541,
+      "bytes": 1725,
       "path": "logs/operations.jsonl",
-      "sha256": "1deeb056463e12f784574cb3d85c4e4e22018ed47eb3dbd3fcaa5d863849e5bd"
+      "sha256": "d4a6dda389496678b501a6b29a55a06994b82e78d2551899318e0ed89e927f15"
     },
     {
-      "bytes": 52866,
+      "bytes": 53743,
       "path": "logs/sources_visited.json",
-      "sha256": "23660528c5274767d8c2c2b437b56c31887bde1ba8e2aeacc7b667dd343f2de3"
+      "sha256": "dc3c0abda9e36e8507bebc46c8b496a18ee07603cd74e7ea54c3642f959a4c50"
     }
   ],
-  "checkpoint_nonce": "nonce-13883c564c394c90",
+  "checkpoint_nonce": "nonce-5bdc573a64e5450e",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-10T20:30:00Z",
+  "created_at": "2026-10-10T20:40:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "6d519d601ca4331c8f91e4a3737936e9aa658033",
+  "parent_commit": "0940ee24dd63cd1af26a1e74ddab1e2bb81a1ede",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 4,
+  "sequence": 5,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 2,
-    "host_calls_total_approx": 3,
+    "host_calls_total_approx": 4,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-c563dbac29d7",
+  "turn_id": "turn-ebfb13114c7c",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-10T20:30:00Z",
+    "bluff_check_at": "2026-10-10T20:40:00Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-115/116 persisted",
-      "claims CLAIM-013/014 added",
-      "sources ledger + HANDOFF updated",
-      "protocol checks + prepare + publish in this wrap"
+      "EV-117/118 persisted",
+      "CLAIM-015/016 added",
+      "ledger+HANDOFF updated",
+      "protocol+prepare+publish executed"
     ],
     "not_run": [
       "release-check suite (debt)",
-      "external review (debt)",
-      "player-stats comment chunks 1-3"
+      "external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"
   }

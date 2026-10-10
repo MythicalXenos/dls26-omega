@@ -4,3 +4,4 @@
 {"at_utc": "2026-10-10T20:08:00Z", "event": "RESUME_AFTER_INTERRUPTION", "note": "user stop + > resumed; interrupted turn-2 identity retained (turn-909dbe125bef/nonce-c88ddb51c58d4a37); no terminal line had been emitted and no checkpoint published", "op_id": "op-bootstrap-ceb4e55e"}
 {"at_utc": "2026-10-10T20:18:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 6, "host_calls": 3, "note": "gplay chunk0, portal inventory, section inventory, leaderboards/matchmaking/difficulty/clans full texts, search-tier; reddit 403", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-3"}
 {"at_utc": "2026-10-10T20:30:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "player-stats body (comments paginated) + season-pass full", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-5"}
+{"at_utc": "2026-10-10T20:40:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "get-gems + prize-ladder full texts", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-6"}
