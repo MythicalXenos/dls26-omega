@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 318,
+ "sequence_counter": 320,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4274,6 +4274,20 @@
    "ref_id": null,
    "seq": 318,
    "detail": "docs/residue/HIGH_VOLATILITY_DRIFT_REVIEW.md created; LINK-APPLIED: CLAIM-021+=EV-162, CLAIM-050+=EV-195/197, CLAIM-068+=EV-197; context_evidence fields added to CLAIM-003/006 (no tier changes; origin semantics protected)"
+  },
+  {
+   "at_utc": "2026-10-11T17:43:20Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 319,
+   "detail": "t67: fetch_page/web_search remapped AGAIN (7th turn); local Step-2/3 prep scoping executed; official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:43:20Z",
+   "event": "synthesis",
+   "ref_id": null,
+   "seq": 320,
+   "detail": "docs/step2_3_preparation/CLAIM043_PERIMETER_AND_OBSERVATION_CHECKLIST.md created: hard bans + allowed surfaces + residue->in-client checklist (ranking target, XP ladder, Legendary Fitness, roster validation, version marker, economy) + device guardrails (CLAIM-082/083) + transition gating"
   }
  ],
  "session_id": "sess-bb22126f679b",
