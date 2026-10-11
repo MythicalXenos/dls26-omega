@@ -860,14 +860,21 @@
     {
       "admission_seq": 73,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-127); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-user-id",
-      "status": "UNVISITED",
-      "ticket_seq": 73,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:18:00Z",
+          "event": "extract",
+          "seq": 129
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 129,
       "url": "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID"
     },
     {
@@ -1247,14 +1254,21 @@
     {
       "admission_seq": 112,
       "discovered_at": "2026-10-10T20:48:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-128); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-cant-connect",
-      "status": "UNVISITED",
-      "ticket_seq": 112,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:18:00Z",
+          "event": "extract",
+          "seq": 130
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 130,
       "url": "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do"
     },
     {
@@ -1320,6 +1334,46 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 123,
       "url": "https://support.ftgames.com/hc/en-us/articles/7916299062289-How-do-the-various-player-attributes-in-Ultimate-Clash-Soccer-affect-gameplay"
+    },
+    {
+      "admission_seq": 126,
+      "discovered_at": "2026-10-10T21:18:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-user-id-rev",
+      "revision_of": "ref-support-user-id",
+      "status": "UNVISITED",
+      "ticket_seq": 126,
+      "url": "https://support.ftgames.com/hc/en-us/articles/37083387788434-How-do-I-find-my-User-ID"
+    },
+    {
+      "admission_seq": 127,
+      "discovered_at": "2026-10-10T21:18:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-backup-restore",
+      "status": "UNVISITED",
+      "ticket_seq": 127,
+      "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data"
+    },
+    {
+      "admission_seq": 128,
+      "discovered_at": "2026-10-10T21:18:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-not-realistic",
+      "status": "UNVISITED",
+      "ticket_seq": 128,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this"
     }
   ],
   "residual_debt": [
@@ -1333,11 +1387,12 @@
     "version marker discrepancy: support Season Pass article cites \"version 12200 onwards\" vs community-listed 13.410/13.420 \u2014 unresolved",
     "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)",
     "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice",
-    "support owed next: user-id, cant-connect, app-update, profile-transfer, fb-login-removal, connection-required, device-compat, cant-update, friend-match, restart-career, video-clips, data-usage, player-look, control-buttons, kit-logo, change-manager, emojis, kit-visible-live, age-limits, match-connection-issues, season-pass-rev1/rev2",
-    "SEASON LEADERBOARD (Main Menu, Season Points totals) is a newly identified ranking surface \u2014 measurement/tie-breaks/visibility/eligibility OPEN (CLAIM-021)"
+    "SEASON LEADERBOARD (Main Menu, Season Points totals) is a newly identified ranking surface \u2014 measurement/tie-breaks/visibility/eligibility OPEN (CLAIM-021)",
+    "support owed next: not-realistic (HIGH priority - official unpredictability explanation), backup-restore, app-update, profile-transfer, fb-login-removal, remaining set, season-pass revs",
+    "user-id revision 37083387788434 admitted (revision accounting)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 125,
+  "sequence_counter": 130,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1660,6 +1715,20 @@
       "event": "extract",
       "ref_id": "ref-support-season-points",
       "seq": 125
+    },
+    {
+      "at_utc": "2026-10-10T21:18:00Z",
+      "detail": "user-id path + profile-trading ban",
+      "event": "extract",
+      "ref_id": "ref-support-user-id",
+      "seq": 129
+    },
+    {
+      "at_utc": "2026-10-10T21:18:00Z",
+      "detail": "connection requirements + offline exhibition",
+      "event": "extract",
+      "ref_id": "ref-support-cant-connect",
+      "seq": 130
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1715,8 +1784,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 20,
-      "ticket_seq": 125
+      "served_count": 22,
+      "ticket_seq": 130
     }
   }
 }
