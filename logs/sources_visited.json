@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 311,
+ "sequence_counter": 314,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4225,6 +4225,27 @@
    "ref_id": null,
    "seq": 311,
    "detail": "github query note: \"dream league\" (unquoted game name) = FANTASY-FOOTBALL name collision (johnwatson484/dream-league-*, GauravAmarnani FPL, aylingorgun); use \"dream league soccer\"/\"dls26\" for game scope; NO leaderboard/tracker repos found for DLS (CLAIM-003/071 residue NOT closed by gh avenue)"
+  },
+  {
+   "at_utc": "2026-10-11T17:31:52Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 312,
+   "detail": "t64: fetch_page/web_search remapped to bash AGAIN (4th turn); probes via whitelist hosts (npm search API + GitHub code search REST); official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:31:52Z",
+   "event": "extract",
+   "ref_id": null,
+   "seq": 313,
+   "detail": "EV-217 npm+code-search sweep: 2 npm hack packages (malware-pattern markers; do-not-install) extend CLAIM-084; code-search negative for Season Points/leaderboard (5 SEO-spam hits only) — CLAIM-003/071 residue OPEN"
+  },
+  {
+   "at_utc": "2026-10-11T17:31:52Z",
+   "event": "audit",
+   "ref_id": null,
+   "seq": 314,
+   "detail": "t64 internal review: ledger consistent (claims 85, evidence 119, refs 157, ops 64); artifact-index anchor-fragment paths verified present (false alarms cleared); normalized evidence-ID strings in CLAIM-054/058/068; 1 legacy service_event (idx 59) without seq tolerated; sell-players dup (REPRESENTATION_DUPLICATE) remains intentional"
   }
  ],
  "session_id": "sess-bb22126f679b",

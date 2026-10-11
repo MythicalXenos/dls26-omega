@@ -1,88 +1,88 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1883,
+      "bytes": 1774,
       "path": "HANDOFF.md",
-      "sha256": "1af2b9b092c33051c8bf8088426a7bc5a8d93942dfd3da1b3ad7dd2e45d03bf8"
+      "sha256": "e139c25922266a938d15d3d983767ac7d80d1dbdb99b49f0977c29db9a4efe01"
     },
     {
-      "bytes": 2428,
-      "path": "evidence/extract/EV-216_playerdata_schema_probe.md",
-      "sha256": "c71c7301783f849ea8676c872737864501af65ba9dc83a14d610f7f487146760"
+      "bytes": 2233,
+      "path": "evidence/extract/EV-217_npm_code_search_sweep.md",
+      "sha256": "0c5ba7d8d66316a9b31461419239aec97a5935a8ac78e46f46bb3d01d39876e4"
     },
     {
-      "bytes": 42532,
+      "bytes": 43080,
       "path": "evidence/index.jsonl",
-      "sha256": "9469705c40a099245045a1df2ec84811ba996825c0d050a9aad4897d9f9bb6dc"
+      "sha256": "c31761f931e594dfb3b5aa1d0bc162ee96b59b8337c3fcd09b8ec0a9b2c6a03b"
     },
     {
-      "bytes": 89813,
+      "bytes": 90540,
       "path": "kb/claims.jsonl",
-      "sha256": "cb58a53a8c35a4b7ebeff915412968cd41a73439145aede7cc09459a5b1f3734"
+      "sha256": "7392dd58d9a0c4e4dad2d33ff053e916f8fa9970ff5d4cad6892b434a1b8f8db"
     },
     {
-      "bytes": 2555,
+      "bytes": 2654,
       "path": "logs/control.json",
-      "sha256": "a38f56eee940771bedade2851487db930c2e5fb434a0abbbedd8e2db47336711"
+      "sha256": "1fd66fd71ab0e192969cdb2f19691855a36bf701f5a8512d28cd557aa55d95fa"
     },
     {
-      "bytes": 16859,
+      "bytes": 17345,
       "path": "logs/operations.jsonl",
-      "sha256": "37f7bfb4f337d5724975a6542883a9fa57917d37995f3847358d2c926dfbd3de"
+      "sha256": "ec89f7ccd3ef8e610a9d79ceb807132673627ad144380881404c68ab87a5cf57"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-5993ea7a51d1.json",
-      "sha256": "867bbbe9892326d8d04944de580126568e40478b912df8e2699808b4d0ce77df"
+      "path": "logs/receipts_pending/turn-2a8ba35b8864.json",
+      "sha256": "017cd0b61e3a15a983b34e8f6ba04406f7a5627b24e76c6627fffebb99643c47"
     },
     {
-      "bytes": 143700,
+      "bytes": 144764,
       "path": "logs/sources_visited.json",
-      "sha256": "bbcfcb77cda5b20f6c23c95049b8b41628d9796aee61cb4a6860faac294d8416"
+      "sha256": "05ad28c5382f92a019b3c43ef84025aca1f048f1054ccf840c5e9e9995144a92"
     }
   ],
-  "checkpoint_nonce": "nonce-9cd3baebb480d0ac",
+  "checkpoint_nonce": "nonce-a8568bcae3a0fe41",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:27:16Z",
+  "created_at": "2026-10-11T17:31:52Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "f636b31cd488c03cd4e157d034d5cd99cec6d9c3",
+  "parent_commit": "96d7b20498eb8fe765b5f3e0d9de67636657b564",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 63,
+  "sequence": 64,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 0,
-    "host_calls_total_approx": 10,
+    "host_calls_total_approx": 9,
     "search_calls": 0
   },
-  "turn_id": "turn-2a8ba35b8864",
+  "turn_id": "turn-dcbcea33af34",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:27:16Z",
+    "bluff_check_at": "2026-10-11T17:31:52Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-216 persisted (playerData.json schema/demographics); CLAIM-085 refined (v10.20 marker), CLAIM-086 added (Speculative), CLAIM-079 annotated",
-      "tool outage honestly logged (3rd turn); 572KB dump kept out of git (schema summary only in EV-216)",
-      "negative finding logged (no DLS leaderboard tooling on gh; fantasy-football query collision)",
-      "official cursor preserved unchanged; ledger dumped before wrap; ref-reconciliation ran"
+      "EV-217 persisted (npm hack ecosystem + leaderboard code-search negative); CLAIM-084 extended (npm origins, do-not-install)",
+      "internal audit run: ledger consistent; anchor-fragment artifact paths verified; CLAIM-054/058/068 evidence IDs normalized",
+      "tool outage honestly logged (4th turn); nothing installed/downloaded from npm",
+      "official cursor preserved unchanged; ref-reconciliation + protocol checks before prepare"
     ],
     "not_run": [
-      "official-support cursor (backup-restore/dls19-profile/etc) \u2014 blocked on fetch_page outage",
+      "official-support cursor \u2014 blocked on fetch_page outage",
       "reddit probe \u2014 blocked on web_search outage",
-      "release-check suite (debt); external review (debt)"
+      "full release-check suite + external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"
   }
