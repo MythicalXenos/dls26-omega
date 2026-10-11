@@ -1217,27 +1217,43 @@
     {
       "admission_seq": 90,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "404 oops 2026-10-10; re-discovery owed",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-emojis",
-      "status": "UNVISITED",
-      "ticket_seq": 90,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:15:00Z",
+          "detail": "404 -> RETRYABLE_FAILURE",
+          "event": "extract",
+          "seq": 180
+        }
+      ],
+      "status": "RETRYABLE_FAILURE",
+      "ticket_seq": 180,
       "url": "https://support.ftgames.com/hc/en-us/articles/360020938198-How-do-I-change-my-emojis-in-Dream-League-Live"
     },
     {
       "admission_seq": 91,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "404 oops 2026-10-10; re-discovery owed",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-kit-visible-live",
-      "status": "UNVISITED",
-      "ticket_seq": 91,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:15:00Z",
+          "detail": "404 -> RETRYABLE_FAILURE",
+          "event": "extract",
+          "seq": 181
+        }
+      ],
+      "status": "RETRYABLE_FAILURE",
+      "ticket_seq": 181,
       "url": "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live"
     },
     {
@@ -1904,10 +1920,11 @@
     "player-look comments chunks 1-3 (LOW)",
     "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering",
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
-    "support owed next: emojis 3600020938198 + kit-visible-live 3600021064298, then age-limits 360000204889 + age-confirmation 4408249822609"
+    "support owed next: age-limits 360000204889 + age-confirmation 4408249822609, then match-connection-issues 7917279109777 + skill-move 213851489",
+    "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 179,
+  "sequence_counter": 181,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2424,6 +2441,20 @@
       "event": "extract",
       "ref_id": "ref-support-change-manager",
       "seq": 179
+    },
+    {
+      "at_utc": "2026-10-10T23:15:00Z",
+      "detail": "HTTP 404 (stale id 3600020938198) -> RETRYABLE_FAILURE",
+      "event": "extract",
+      "ref_id": "ref-support-emojis",
+      "seq": 180
+    },
+    {
+      "at_utc": "2026-10-10T23:15:00Z",
+      "detail": "HTTP 404 (stale id 3600021064298) -> RETRYABLE_FAILURE",
+      "event": "extract",
+      "ref_id": "ref-support-kit-visible-live",
+      "seq": 181
     }
   ],
   "session_id": "sess-bb22126f679b",

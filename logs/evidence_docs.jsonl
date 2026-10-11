@@ -2,3 +2,4 @@
 {"at_utc": "2026-10-10T21:58:00Z", "event_id": "EVD-0006", "note": "404 oops 2026-10-10; RETRYABLE_FAILURE; re-discovery owed", "ref_ids": ["ref-support-cant-update"], "type": "page-missing"}
 {"at_utc": "2026-10-10T22:05:00Z", "event_id": "EVD-0007", "note": "404 oops 2026-10-10; stale Zendesk ids; RETRYABLE_FAILURE; strategy change -> help-center discovery next", "ref_ids": ["ref-support-friend-match", "ref-support-restart-career"], "type": "page-missing"}
 {"at_utc": "2026-10-10T23:00:00Z", "event_id": "EVD-0008", "note": "404 oops 2026-10-10; RETRYABLE_FAILURE", "ref_ids": ["ref-support-control-buttons"], "type": "page-missing"}
+{"at_utc": "2026-10-10T23:15:00Z", "event_id": "EVD-0009", "note": "404 oops 2026-10-10; RETRYABLE_FAILURE; snippets preserved from discovery listing", "ref_ids": ["ref-support-emojis", "ref-support-kit-visible-live"], "type": "page-missing"}
