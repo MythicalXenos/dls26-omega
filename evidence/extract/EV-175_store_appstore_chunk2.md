@@ -1,0 +1,3 @@
+# EV-175 (chunks 2/6) — App Store listing reviews chunk 2
+source: https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 | store-published | fetched 2026-10-11T01:32Z
+COMMUNITY SENTIMENT (not fact): old-version nostalgia (individual player/stat training REMOVED — replaced by coaches that "don't even upgrade the player you want" = community corroboration of CLAIM-028 random-target); gem scarcity / scout P2W complaints; CPU press swarm; event matchmaking complaints ("not same skill level, 86+ teams" — EVENTS, not standard DLL tier matching); scripted AI scenario complaints; referee/offsides complaints. Version history NOT in this chunk (3-6 residual).

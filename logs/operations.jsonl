@@ -39,3 +39,4 @@
 {"at_utc": "2026-10-11T01:10:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "core-principles EV-169 + terms-of-use EV-170 (mission + ops constraint)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-38"}
 {"at_utc": "2026-10-11T01:18:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "gplay chunk1 EV-171 (closed) + appstore chunk0 EV-172", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-39"}
 {"at_utc": "2026-10-11T01:26:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "appstore chunk1 EV-173 + sakibpro trending EV-174", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-40"}
+{"at_utc": "2026-10-11T01:34:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "appstore chunk2 EV-175 + price-calc EV-176", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-41"}
