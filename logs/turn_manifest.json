@@ -1,78 +1,77 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1658,
+      "bytes": 1692,
       "path": "HANDOFF.md",
-      "sha256": "3f4b95c765f836bb26038ec5a1a0b9e6348c206581b2d0b94f81e8e9c9c21dac"
+      "sha256": "2374c0152a53c9ed3fcc27f38c4891cfc5cad8268411befb2945a468a62c9a83"
     },
     {
-      "bytes": 92001,
+      "bytes": 93257,
       "path": "kb/claims.jsonl",
-      "sha256": "1f54095c47413c4d7e292eea2ac422485780ac6052ce334b844e043c29afbb6b"
+      "sha256": "51a51afecb5c33599861de17cdf79862ad836ec1281f6115f537f05101eb28b9"
     },
     {
-      "bytes": 2681,
+      "bytes": 2754,
       "path": "logs/control.json",
-      "sha256": "33eb7a5716b7782302908da1058cd5fccb7777d18d27dfe4a2cc98c071150c3a"
+      "sha256": "e8a7e48682ec7e43fbda3d128d6fed8cfc79260ff1483cf58d967133399bca43"
     },
     {
-      "bytes": 19953,
+      "bytes": 20426,
       "path": "logs/operations.jsonl",
-      "sha256": "9529c3e4cc8463e751d866db046fa9380316b714ccc946b1565d28f9667c5b5d"
+      "sha256": "e7d87bed0944cd18e853b03e9eb85b6617d1980dfe3b2df6fb9bf7a5df49a7f2"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-f5d66e8c0987.json",
-      "sha256": "d9be02e592f06389b77c75e737c065cd48cc9e8504f9a81f3b57a6744ccb0ec5"
+      "path": "logs/receipts_pending/turn-80bf00d0a57e.json",
+      "sha256": "4131cbedec391bd0c45b10746934f717510982ae6350e29e9babf145df95da44"
     },
     {
-      "bytes": 148522,
+      "bytes": 149147,
       "path": "logs/sources_visited.json",
-      "sha256": "ab7f4d7afa1f6c4265ef6f7a1a203763b1631e2dc905284cd766bcc06118f789"
+      "sha256": "cdf2d6d6e5a616b79656f1bc17946b0c204a8aba246f4f4bdf14aaadd5baa833"
     }
   ],
-  "checkpoint_nonce": "nonce-525dab879dca3296",
+  "checkpoint_nonce": "nonce-80e1bd3904ec5edb",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:50:44Z",
+  "created_at": "2026-10-11T17:54:08Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "7a5a83eac002af0127baad55873c3d00bda38e4c",
+  "parent_commit": "800f4f689001881e9be5ba9e1883298ea373d426",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 70,
+  "sequence": 71,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 0,
-    "host_calls_total_approx": 8,
+    "host_calls_total_approx": 9,
     "search_calls": 0
   },
-  "turn_id": "turn-80bf00d0a57e",
+  "turn_id": "turn-dae7eed4e5c3",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:50:44Z",
+    "bluff_check_at": "2026-10-11T17:54:08Z",
     "executed_fail": [],
     "executed_pass": [
-      "CLAIM-008 dispute resolved from corpus (EV-183; 17/12/2025; Disputed->High Confidence; refuted source retained)",
-      "ID/PT family notes reconciled (stale deficit notes corrected)",
-      "no tier inflation (Confirmed gate explicitly not claimed); conflict preserved in-record",
-      "tool outage logged (10th turn); official cursor preserved; checks + ref-reconciliation before prepare"
+      "EV-183-pattern sweep executed: CLAIM-011 -> High Confidence (EV-207 linked, hedge removed honestly); CLAIM-004/007 documented with closure paths; CLAIM-042 untouched (genuine dispute)",
+      "no tier inflation beyond session convention (Confirmed gates not claimed)",
+      "tool outage logged (11th turn); official cursor preserved; checks + ref-reconciliation before prepare"
     ],
     "not_run": [
       "official-support cursor \u2014 blocked on fetch_page outage",
       "reddit probe \u2014 blocked on web_search outage",
-      "EV-183-pattern sweep for other claims (next local option)",
+      "in-client template fills (need Saad/device; Step 3/5)",
       "full release-check suite + external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"

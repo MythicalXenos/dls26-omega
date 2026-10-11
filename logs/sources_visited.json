@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 326,
+ "sequence_counter": 328,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4330,6 +4330,20 @@
    "ref_id": null,
    "seq": 326,
    "detail": "CLAIM-008 dispute RESOLVED via EV-183 store version history (launch 17/12/2025; Dec-2026 claim refuted-but-retained; Disputed -> High Confidence); ID/PT family notes reconciled (stale turn-1 deficit notes corrected)"
+  },
+  {
+   "at_utc": "2026-10-11T17:54:08Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 327,
+   "detail": "t71: fetch_page/web_search remapped AGAIN (11th turn); EV-183-pattern sweep executed; official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:54:08Z",
+   "event": "audit",
+   "ref_id": null,
+   "seq": 328,
+   "detail": "EV-183-pattern sweep: CLAIM-011 resolved-adjacent (EV-207 linked; Speculative -> High Confidence, hedge removed); CLAIM-004/007 sweep notes recorded (no offline resolution; in-client templates are closure path); CLAIM-042 stays Disputed (genuine cross-era official conflict)"
   }
  ],
  "session_id": "sess-bb22126f679b",
