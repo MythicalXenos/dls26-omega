@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 316,
+ "sequence_counter": 318,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4260,6 +4260,20 @@
    "ref_id": null,
    "seq": 316,
    "detail": "docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md created: ranking-surface map (CLAIM-002/003/021/067/071/081), 6 open ranking items, Legendary Fitness terminology conflict, volatility calendar (DUE today: CLAIM-003/006), closure-candidate source lists; staged ask #6 added to attention_required.md"
+  },
+  {
+   "at_utc": "2026-10-11T17:39:57Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 317,
+   "detail": "t66: fetch_page/web_search remapped AGAIN (6th turn); local HIGH-volatility drift review executed; official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:39:57Z",
+   "event": "audit",
+   "ref_id": null,
+   "seq": 318,
+   "detail": "docs/residue/HIGH_VOLATILITY_DRIFT_REVIEW.md created; LINK-APPLIED: CLAIM-021+=EV-162, CLAIM-050+=EV-195/197, CLAIM-068+=EV-197; context_evidence fields added to CLAIM-003/006 (no tier changes; origin semantics protected)"
   }
  ],
  "session_id": "sess-bb22126f679b",

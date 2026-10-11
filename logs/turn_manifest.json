@@ -1,65 +1,60 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1950,
+      "bytes": 1618,
       "path": "HANDOFF.md",
-      "sha256": "5c7de572258c18367a642dcc7371c572959ca669ef95e38751c36d32ffaad4d3"
+      "sha256": "6cdc81aedd7d0c72b9503d4caa165680d32f57993a63d7726a34fd38c0d47d6e"
     },
     {
-      "bytes": 5870,
-      "path": "docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md",
-      "sha256": "4e51e89d445a4b36128e8cd7c2fe6ad9f1480ff5b93b6b729f8d03c73f708200"
+      "bytes": 3759,
+      "path": "docs/residue/HIGH_VOLATILITY_DRIFT_REVIEW.md",
+      "sha256": "996b24f01432790ddd0df480601c6245aa0bea30fac64a691f297f5611d9eb01"
     },
     {
-      "bytes": 1664,
-      "path": "handoff/attention_required.md",
-      "sha256": "a93957f71c69f18fdc8b083306947513dea941b7406fec923d7d4c2b9ee97c98"
-    },
-    {
-      "bytes": 90874,
+      "bytes": 91168,
       "path": "kb/claims.jsonl",
-      "sha256": "ce08172d591efe87d466f0001afcedd3ba0ecdf9420fe7c835c767af31b00b94"
+      "sha256": "ca54d8d7f1d638a374572db13f6c76bab9966a7a446a0fc9c8166e1c018b949b"
     },
     {
-      "bytes": 2588,
+      "bytes": 2645,
       "path": "logs/control.json",
-      "sha256": "8ba20b3198f2cc8b33c78cb8dc8cc1871b64a8ccdd566138544f62b70e987106"
+      "sha256": "d704641b651a2c6e9e73be8bdf11503dadfd4beaf0d91a86f85e25b42054c958"
     },
     {
-      "bytes": 17782,
+      "bytes": 18203,
       "path": "logs/operations.jsonl",
-      "sha256": "b6877018a7f4c85852fbb06054782298881fd56fa036255fac4fa780b2bc1ce7"
+      "sha256": "4c2002fd8cb08162fc8bce432c6eed5a710fa95efad7c118b8c60b5a0f5e0386"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-dcbcea33af34.json",
-      "sha256": "9f3529ee7d6bef6c374d8653a6d77830846e502ef8bb482aeb14631fd8a159b7"
+      "path": "logs/receipts_pending/turn-80a809663d60.json",
+      "sha256": "acac99219bfb2050ef583708c811ec85c73c5742279975b81cb9cefdd45a71d5"
     },
     {
-      "bytes": 145461,
+      "bytes": 146046,
       "path": "logs/sources_visited.json",
-      "sha256": "0ed021313ab47c813186fbd3c1715026d48ba96585e0b6c5a8b7bab28305a68f"
+      "sha256": "6bd2d3afcc15145eb01ee4563853b005a8878dc57473e4fb6979cfe915c0dc8c"
     }
   ],
-  "checkpoint_nonce": "nonce-972af284e43d9357",
+  "checkpoint_nonce": "nonce-5a2d64fd1a72f26a",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:35:13Z",
+  "created_at": "2026-10-11T17:39:57Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "c439e31dce163e6ba92dd8fcaef6e2170cad7ea7",
+  "parent_commit": "5a0b84542356204c7f5fbccb0d9288d24587a32b",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 65,
+  "sequence": 66,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,20 +64,20 @@
     "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-80a809663d60",
+  "turn_id": "turn-b6956ec1f8ae",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:35:13Z",
+    "bluff_check_at": "2026-10-11T17:39:57Z",
     "executed_fail": [],
     "executed_pass": [
-      "docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md created (ranking map + fitness conflict + volatility calendar + closure candidates)",
-      "staged ask #6 added (target ranking surface + verifiable definition)",
-      "CLAIM-003/006 last_attempt honest (synthesis attempt; valid-check still null)",
-      "tool outage logged (5th turn); official cursor preserved; ref-reconciliation + protocol checks before prepare"
+      "docs/residue/HIGH_VOLATILITY_DRIFT_REVIEW.md created (32 HV claims classified)",
+      "safe links applied (CLAIM-021/050/068); context_evidence on CLAIM-003/006; NO tier changes; origin semantics protected",
+      "CLAIM-027 divergence verified stable; over-linking rejected (negative results excluded)",
+      "tool outage logged (6th turn); official cursor preserved; checks + ref-reconciliation before prepare"
     ],
     "not_run": [
       "official-support cursor \u2014 blocked on fetch_page outage",
       "reddit probe \u2014 blocked on web_search outage",
-      "real first-valid-check for CLAIM-003/006 (needs sources or in-client)",
+      "Medium/Low claim full pass (next local option)",
       "full release-check suite + external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"
