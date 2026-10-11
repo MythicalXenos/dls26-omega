@@ -807,14 +807,21 @@
     {
       "admission_seq": 70,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "full text done (1/1) EV-131; comments none",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-app-update",
-      "status": "UNVISITED",
-      "ticket_seq": 70,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:42:00Z",
+          "event": "extract",
+          "seq": 138
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 138,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be"
     },
     {
@@ -893,14 +900,21 @@
     {
       "admission_seq": 75,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "full text done (1/1) EV-132; comments chunks 0/4 captured, 1-3 residual (LOW priority user chatter)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-profile-transfer",
-      "status": "UNVISITED",
-      "ticket_seq": 75,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:42:00Z",
+          "event": "extract",
+          "seq": 139
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 139,
       "url": "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25"
     },
     {
@@ -1465,10 +1479,10 @@
     "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice",
     "SEASON LEADERBOARD (Main Menu, Season Points totals) is a newly identified ranking surface \u2014 measurement/tie-breaks/visibility/eligibility OPEN (CLAIM-021)",
     "user-id revision 37083387788434 admitted (revision accounting)",
-    "support owed next: app-update, profile-transfer, fb-login-removal, connection-required, device-compat, cant-update, friend-match, restart-career, video-clips, data-usage, player-look, control-buttons, kit-logo, change-manager, emojis, kit-visible-live, age-limits, match-connection-issues, season-pass-rev1/rev2, signin setup guides, user-id-rev"
+    "support owed next: connection-required, device-compat, fb-login-removal, cant-update, friend-match, restart-career, video-clips, data-usage, player-look, control-buttons, kit-logo, change-manager, emojis, kit-visible-live, age-limits, match-connection-issues, season-pass-rev1/rev2, signin setup guides, user-id-rev; profile-transfer comments chunks 1-3 (LOW)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 137,
+  "sequence_counter": 139,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1819,6 +1833,20 @@
       "event": "extract",
       "ref_id": "ref-support-backup-restore",
       "seq": 137
+    },
+    {
+      "at_utc": "2026-10-10T21:42:00Z",
+      "detail": "update-schedule policy + social channels",
+      "event": "extract",
+      "ref_id": "ref-support-app-update",
+      "seq": 138
+    },
+    {
+      "at_utc": "2026-10-10T21:42:00Z",
+      "detail": "profiles/purchases do not transfer DLS19->DLS25",
+      "event": "extract",
+      "ref_id": "ref-support-profile-transfer",
+      "seq": 139
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1874,8 +1902,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 24,
-      "ticket_seq": 137
+      "served_count": 26,
+      "ticket_seq": 139
     }
   }
 }
