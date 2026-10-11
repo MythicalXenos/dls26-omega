@@ -1476,15 +1476,22 @@
     {
       "admission_seq": 126,
       "discovered_at": "2026-10-10T21:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-159 \u2014 SCORE! MATCH VARIANT (steps); franchise anti-trading header applies to all games",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-user-id-rev",
       "revision_of": "ref-support-user-id",
-      "status": "UNVISITED",
-      "ticket_seq": 126,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:02:00Z",
+          "event": "extract",
+          "seq": 202
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 202,
       "url": "https://support.ftgames.com/hc/en-us/articles/37083387788434-How-do-I-find-my-User-ID"
     },
     {
@@ -1907,14 +1914,21 @@
       "admission_seq": 176,
       "discovered_at": "2026-10-10T23:08:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-158",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-change-kit",
-      "status": "UNVISITED",
-      "ticket_seq": 176,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:02:00Z",
+          "event": "extract",
+          "seq": 201
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 201,
       "url": "https://support.ftgames.com/hc/en-us/articles/7916959134737-How-do-I-change-my-kit"
     },
     {
@@ -2077,6 +2091,21 @@
       "status": "UNVISITED",
       "ticket_seq": 197,
       "url": "https://support.ftgames.com/hc/en-us/articles/7917682153361-I-am-not-seeing-any-video-clips-what-can-I-do"
+    },
+    {
+      "admission_seq": 200,
+      "discovered_at": "2026-10-11T00:02:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "note": "user-id family variant (per-game steps expected)",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-user-id-rev2",
+      "status": "UNVISITED",
+      "ticket_seq": 200,
+      "url": "https://support.ftgames.com/hc/en-us/articles/37083217732882-How-do-I-find-my-User-ID"
     }
   ],
   "residual_debt": [
@@ -2106,10 +2135,11 @@
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
     "after support tail: season-pass revs, signin setup guides x2, data-deletion; then family switches (FTG core-principles/terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community)",
-    "support owed next: change-kit 7916959134737 + user-id-rev 37083387788434, then video-clips-rev 7917682153361 + season-pass-rev1 360005678698"
+    "support owed next: video-clips-rev 7917682153361 + season-pass-rev1 360005678698, then season-pass-rev2 360005678818 + signin-apple 360009450097",
+    "then: signin-google 9580096555281 + user-id-rev2 37083217732882; then data-deletion 360017046578; support family nearly closed"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 199,
+  "sequence_counter": 202,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2710,6 +2740,20 @@
       "event": "extract",
       "ref_id": "ref-support-restrict-iap",
       "seq": 199
+    },
+    {
+      "at_utc": "2026-10-11T00:02:00Z",
+      "detail": "My Club kit editor (home + GK)",
+      "event": "extract",
+      "ref_id": "ref-support-change-kit",
+      "seq": 201
+    },
+    {
+      "at_utc": "2026-10-11T00:02:00Z",
+      "detail": "per-game user-id variants confirmed",
+      "event": "extract",
+      "ref_id": "ref-support-user-id-rev",
+      "seq": 202
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2765,8 +2809,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 51,
-      "ticket_seq": 199
+      "served_count": 53,
+      "ticket_seq": 202
     }
   }
 }
