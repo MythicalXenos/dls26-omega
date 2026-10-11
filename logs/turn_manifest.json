@@ -1,74 +1,89 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1513,
+      "bytes": 1828,
       "path": "HANDOFF.md",
-      "sha256": "157631d767e1976726702e629c7bea377d974c827aaac72c294b3c3c29539f40"
+      "sha256": "59410e2a23205f51a6778b3314a00877e9cb596018f2be48b316a4bedea64786"
     },
     {
-      "bytes": 2550,
+      "bytes": 2376,
+      "path": "evidence/extract/EV-215_github_community_ecosystem.md",
+      "sha256": "3fd3bde60d7f572f47fc655306d8784c9b890b303f8507bb4e2e0717ccf8f63d"
+    },
+    {
+      "bytes": 41978,
+      "path": "evidence/index.jsonl",
+      "sha256": "15b25cdf0d414ee78b51ee61fd3e78a5845c4f006d81920b4ee6348d24c4f9a2"
+    },
+    {
+      "bytes": 88279,
+      "path": "kb/claims.jsonl",
+      "sha256": "1f38a5e8b645b72122bcde6d30a595c223621131c759d9aa5b1ad23b954a312f"
+    },
+    {
+      "bytes": 2609,
       "path": "logs/control.json",
-      "sha256": "35ef3ee99090b91227a3cd99e6f99c42cb137eeffb0fe38059081c1c0707fd61"
+      "sha256": "51eb44626ff6dd5d82d73fc26e11d91e6f241a45b018551910c124bf296e7133"
     },
     {
-      "bytes": 15746,
+      "bytes": 16318,
       "path": "logs/operations.jsonl",
-      "sha256": "7deb9dee5544926c932221fd3de244f9d99afef8f28c1b0a446166e2e4fa3e04"
+      "sha256": "f72eff25d21c366417e7e0ff13ee0634953493703d5f143ed8728de33f85b9cb"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-22ed718d1d84.json",
-      "sha256": "36b520657508b7c9d8b575446d354aaa3d244972bb24ebd7cefa2fb72870793a"
+      "path": "logs/receipts_pending/turn-8ff57ac74958.json",
+      "sha256": "ed2c229675a069ef82130fb12474d30c59502901f130f1f296f4f988a423d4fb"
     },
     {
-      "bytes": 138817,
+      "bytes": 142633,
       "path": "logs/sources_visited.json",
-      "sha256": "74dd1cf05271599dd7dde97deec82a2abf835bbca47bf08df1fd1423c8e926bd"
+      "sha256": "b3ff021a5652a753aa5b55808b6815e9fe5f3d90699b762d65f97057ebf184f2"
     }
   ],
-  "checkpoint_nonce": "nonce-465f8f6f15b8b853",
+  "checkpoint_nonce": "nonce-2c1eb28de5a3e6ec",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:17:01Z",
+  "created_at": "2026-10-11T17:21:53Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "41e7378ff0c2b13a066c42abc647b3f35b977db7",
+  "parent_commit": "08f801d4d3f9af7f4e6414fbb044997ef3f81b7d",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 61,
+  "sequence": 62,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 0,
-    "host_calls_total_approx": 12,
+    "host_calls_total_approx": 16,
     "search_calls": 0
   },
-  "turn_id": "turn-8ff57ac74958",
+  "turn_id": "turn-5993ea7a51d1",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:17:01Z",
+    "bluff_check_at": "2026-10-11T17:21:53Z",
     "executed_fail": [],
     "executed_pass": [
-      "honest zero-extraction accounting: TOOL_OUTAGE logged (fetch_page/web_search emission failure at harness level, 8 attempts)",
-      "frontier hygiene: sell-players dup (admission 258) closed REPRESENTATION_DUPLICATE of 154 (EV-202); obtain-players confirmed complete (EV-124) removed from owed lists",
-      "cursor preserved unchanged for next turn (backup-restore stale-risk + dls19-profile)",
-      "mkdir+.omega verified; defensive ref-reconciliation ran before prepare",
-      "ledger+HANDOFF+control updated"
+      "EV-215 persisted + CLAIM-084 (cheat/bot ecosystem, Confirmed, do-not-use) + CLAIM-085 (community-data staleness, High Confidence)",
+      "tool outage honestly logged (fetch_page/web_search remapped to bash, 2nd turn); gh->api.github.com used as whitelist-compliant fallback channel",
+      "hack-ecosystem handled listing-only (no code fetched; bot dir not extracted) per CLAIM-075/043 red lines",
+      "4 refs admitted (seq 305-308) BEFORE any downstream use; ledger dumped",
+      "official cursor preserved unchanged; mkdir+.omega + ref-reconciliation ran before prepare"
     ],
     "not_run": [
-      "all external fetches/searches (tool emission failure \u2014 NOT attempted at the network layer)",
-      "release-check suite (debt)",
-      "external review (debt)"
+      "official-support cursor (backup-restore/dls19-profile/etc) \u2014 blocked on fetch_page outage",
+      "reddit probe \u2014 blocked on web_search outage",
+      "release-check suite (debt); external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"
   }

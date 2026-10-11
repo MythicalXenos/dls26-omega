@@ -3113,6 +3113,95 @@
      "seq": 301
     }
    ]
+  },
+  {
+   "admission_seq": 305,
+   "discovered_at": "2026-10-11T17:21:53Z",
+   "discovered_by": "GITHUB_SEARCH",
+   "extraction_cursor": "complete (1/1): repo tree + description (EV-215); no README; season assets DLS19-DLS23 only",
+   "family": "databases-tools",
+   "projections": [
+    "listing+tree inspection"
+   ],
+   "ref_id": "ref-gh-dls-card-creator",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:21:53Z",
+     "event": "extract",
+     "seq": 305
+    }
+   ],
+   "status": "VISITED",
+   "ticket_seq": 305,
+   "url": "https://github.com/theshinramen/DLS-Card-Creator"
+  },
+  {
+   "admission_seq": 306,
+   "discovered_at": "2026-10-11T17:21:53Z",
+   "discovered_by": "GITHUB_SEARCH",
+   "extraction_cursor": "complete (1/1): repo tree (EV-215): data/playerData.json + teams/flags/playerphotos + bot dir (bot contents NOT extracted — red line)",
+   "family": "databases-tools",
+   "projections": [
+    "listing+tree inspection"
+   ],
+   "ref_id": "ref-gh-dls-files",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:21:53Z",
+     "event": "extract",
+     "seq": 306
+    }
+   ],
+   "status": "VISITED",
+   "ticket_seq": 306,
+   "url": "https://github.com/theshinramen/DLS-Files"
+  },
+  {
+   "admission_seq": 307,
+   "discovered_at": "2026-10-11T17:21:53Z",
+   "discovered_by": "GITHUB_SEARCH",
+   "extraction_cursor": "complete (1/1): listing+readme probe (EV-215); no README; sibling repos DLS2026-game + dls26 noted",
+   "family": "community-ugc",
+   "projections": [
+    "listing+tree inspection"
+   ],
+   "ref_id": "ref-gh-dls26-fansite",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:21:53Z",
+     "event": "extract",
+     "seq": 307
+    }
+   ],
+   "status": "VISITED",
+   "ticket_seq": 307,
+   "url": "https://github.com/wasswacosmas/DREAM-LEAGUE-SOCCER-2026"
+  },
+  {
+   "admission_seq": 308,
+   "discovered_at": "2026-10-11T17:21:53Z",
+   "discovered_by": "GITHUB_SEARCH",
+   "extraction_cursor": "complete (1/1): LISTING-LEVEL ONLY (EV-215); hack/mod repos existence evidence; content NOT fetched (do-not-execute)",
+   "family": "community-ugc",
+   "projections": [
+    "listing+tree inspection"
+   ],
+   "ref_id": "ref-gh-hack-ecosystem",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:21:53Z",
+     "event": "extract",
+     "seq": 308
+    }
+   ],
+   "status": "VISITED",
+   "ticket_seq": 308,
+   "url": "https://github.com/search?q=dream+league+soccer",
+   "risk_flags": [
+    "cheat-suspect",
+    "do-not-execute",
+    "credential-phishing risk"
+   ]
   }
  ],
  "residual_debt": [
@@ -3299,7 +3388,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 303,
+ "sequence_counter": 308,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4075,6 +4164,41 @@
    "ref_id": null,
    "seq": 303,
    "detail": "t61 zero-extraction turn: fetch_page/web_search emission failed at harness level (8 intended calls materialized as bash); cursor preserved unchanged (backup-restore 214387685 stale-risk + dls19-profile 360004717278)"
+  },
+  {
+   "at_utc": "2026-10-11T17:21:53Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 304,
+   "detail": "t62: fetch_page/web_search STILL unreachable at harness layer (intended calls remapped to bash again); extraction channel = gh CLI -> api.github.com (whitelist host); official cursor preserved unchanged"
+  },
+  {
+   "at_utc": "2026-10-11T17:21:53Z",
+   "event": "extract",
+   "ref_id": "ref-gh-dls-card-creator",
+   "seq": 305,
+   "detail": "complete (1/1): repo tree + description (EV-215); no README; season assets DLS19-DLS23 only"
+  },
+  {
+   "at_utc": "2026-10-11T17:21:53Z",
+   "event": "extract",
+   "ref_id": "ref-gh-dls-files",
+   "seq": 306,
+   "detail": "complete (1/1): repo tree (EV-215): data/playerData.json + teams/flags/playerphotos + bot dir (bot contents NOT extracted — red line)"
+  },
+  {
+   "at_utc": "2026-10-11T17:21:53Z",
+   "event": "extract",
+   "ref_id": "ref-gh-dls26-fansite",
+   "seq": 307,
+   "detail": "complete (1/1): listing+readme probe (EV-215); no README; sibling repos DLS2026-game + dls26 noted"
+  },
+  {
+   "at_utc": "2026-10-11T17:21:53Z",
+   "event": "extract",
+   "ref_id": "ref-gh-hack-ecosystem",
+   "seq": 308,
+   "detail": "complete (1/1): LISTING-LEVEL ONLY (EV-215); hack/mod repos existence evidence; content NOT fetched (do-not-execute)"
   }
  ],
  "session_id": "sess-bb22126f679b",
