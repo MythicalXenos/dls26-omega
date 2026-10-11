@@ -1,10 +1,10 @@
 # HANDOFF.md — DLS26 Omega session handoff
-- Session: sess-bb22126f679b | Turn: turn-7a8f72395ed4 (sequence 48) | Mode: BOOTSTRAP | State: Step 1 WORKING
-- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T11:25:31Z
+- Session: sess-bb22126f679b | Turn: turn-6f9ceb04021d (sequence 49) | Mode: BOOTSTRAP | State: Step 1 WORKING
+- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T11:28:45Z
 
-## This turn (DS-48) — standard-card profiles + special-card versioning rule
-- `ref-pt-gameoverdrive` chunk 1 (EV-189, CLAIM-061): 86-tier approx stats (Haaland 93 SPE/94 STR/95 SHO; Kane 97 SHO; Yamal 94 ACC/96 CON; etc.); 85-tier profiles (Van Dijk 1.95m 95 STR/92 TK; Bruno 95 PAS/93 STA); fit > raw OVR. **Special-card versioning rule: specials/event/classics exceed standard ('World Cup Champions' Rodri 88), availability event-bound, ALWAYS compare card versions.**
-- `ref-db-dreamkitsapp-data` complete (EV-190): 'Best players' = t258 special-card pseudo-team (CR7/Rodri/Messi 88 match known specials); Nico Williams 96 = likely maxed-potential special calc (CLAIM-060 narrowed, still unlabeled).
+## This turn (DS-49) — SEASON STRUCTURE LEADS (mission-critical)
+- `ref-pt-gameoverdrive` complete (EV-191): CR7 std = 82 (Champion special 88 — versioning rule live); market quality scales with CLUB PROGRESS; snapshot build 13.430 ("versao 160").
+- DS-49 VI/TR discovery (EV-192) — **three mission leads from download.com.vn (VI)**: (1) **Division season = 15 matches; promotion via Division Objectives (required wins+goals; all-wins NOT required)** → CLAIM-062; (2) **Prize Ladder 'English League Classics': Dream Points (DP) milestones 62.5K/115K/175K/250K unlock players** → CLAIM-063 (DP quantified!); (3) **DLL gems by WEEKLY leaderboard position — 2nd independent source** → CLAIM-051 upgraded to Community Consensus. Also: Van Dijk 86 (reddit) vs 85 conflict; TR store rating 4.3 vs global 4.6; APK mirrors soft112/tamindir = NON_CONNECTED (authorised-stores-only).
 
 ## Next action (cursor)
-On `>`: `ref-pt-gameoverdrive` chunks 2-3 (FAQ, ratings-drift, acquisition) + VI/TR community discovery (web_search), then reddit family + support queue (player-roles, terms chunks 1-3). Mission-critical OPEN (CLAIM-003/021): season leaderboard scope/tie-breaks/eligibility + currency identity (CLAIM-050, 5 names); Legendary Fitness identity (CLAIM-006). Staged user asks: handoff/attention_required.md.
+On `>`: **`ref-vi-download-com-vn` FULL PAGE** (fitness coach → CLAIM-006 + Division Objectives/Prize Ladder detail) — top priority — then support queue (`ref-support-player-roles` 7917583876625) or reddit family. Mission-critical OPEN (CLAIM-003/021): season leaderboard scope/tie-breaks/eligibility + Division Objectives corroboration; currency identity (CLAIM-050); Legendary Fitness (CLAIM-006). Staged user asks: handoff/attention_required.md.
