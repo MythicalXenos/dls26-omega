@@ -27,3 +27,4 @@
 {"at_utc": "2026-10-10T23:22:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "age-limits EV-148 + age-confirmation EV-149", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-26"}
 {"at_utc": "2026-10-10T23:30:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "match-connection EV-150 + skill-move EV-151", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-27"}
 {"at_utc": "2026-10-10T23:38:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "graphics EV-152 + refund EV-153", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-28"}
+{"at_utc": "2026-10-10T23:46:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "home-away-kit EV-154 + connection-older EV-155", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-29"}

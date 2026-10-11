@@ -1955,29 +1955,43 @@
       "admission_seq": 185,
       "discovered_at": "2026-10-10T23:30:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-155",
       "family": "official-support",
       "note": "older connection article (revision candidate)",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-connection-older",
-      "status": "UNVISITED",
-      "ticket_seq": 185,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:46:00Z",
+          "event": "extract",
+          "seq": 196
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 196,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000420025-I-keep-having-connection-issues-what-can-I-do"
     },
     {
       "admission_seq": 186,
       "discovered_at": "2026-10-10T23:30:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-154",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-home-away-kit",
-      "status": "UNVISITED",
-      "ticket_seq": 186,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:46:00Z",
+          "event": "extract",
+          "seq": 195
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 195,
       "url": "https://support.ftgames.com/hc/en-us/articles/214385385-How-do-I-change-between-Home-and-Away-kits-before-a-match"
     },
     {
@@ -2021,6 +2035,19 @@
       "status": "UNVISITED",
       "ticket_seq": 191,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000191385-How-to-restrict-in-app-purchases"
+    },
+    {
+      "admission_seq": 194,
+      "discovered_at": "2026-10-10T23:46:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-fbremoval-scorematch",
+      "scope_proof": "article title names \"Score! Match\" (different game)",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 194,
+      "url": "https://support.ftgames.com/hc/en-us/articles/9423705692177-Removal-of-Facebook-Login-from-Score-Match"
     }
   ],
   "residual_debt": [
@@ -2048,11 +2075,12 @@
     "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering",
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
-    "support owed next: home-away-kit 214385385 + connection-older 360000420025, then graphics-rev 7918056936721 + restrict-iap 360000191385",
-    "graphics comments chunks 1-2 (LOW)"
+    "graphics comments chunks 1-2 (LOW)",
+    "support owed next: graphics-rev 7918056936721 + restrict-iap 360000191385, then change-kit 7916959134737 + user-id-rev 37083387788434",
+    "after support tail: season-pass revs, signin setup guides x2, data-deletion; then family switches (FTG core-principles/terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 193,
+  "sequence_counter": 196,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2625,6 +2653,20 @@
       "event": "extract",
       "ref_id": "ref-support-refund",
       "seq": 193
+    },
+    {
+      "at_utc": "2026-10-10T23:46:00Z",
+      "detail": "pre-match kit cycling",
+      "event": "extract",
+      "ref_id": "ref-support-home-away-kit",
+      "seq": 195
+    },
+    {
+      "at_utc": "2026-10-10T23:46:00Z",
+      "detail": "identical body to EV-150 (duplicate-content note)",
+      "event": "extract",
+      "ref_id": "ref-support-connection-older",
+      "seq": 196
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2680,8 +2722,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 47,
-      "ticket_seq": 193
+      "served_count": 49,
+      "ticket_seq": 196
     }
   }
 }
