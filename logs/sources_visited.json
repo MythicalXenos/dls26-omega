@@ -2982,31 +2982,62 @@
    "admission_seq": 289,
    "discovered_at": "2026-10-11T16:50:40Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-207 — difficulty model + no-bot DLL",
    "family": "official-support",
    "note": "PRIORITY: difficulty mechanics (career/Division Objectives interplay)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-game-difficulty",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 289,
-   "url": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work"
+   "url": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work",
+   "service_events": [
+    {
+     "at": "2026-10-11T16:53:04Z",
+     "event": "extract",
+     "seq": 291
+    }
+   ]
   },
   {
    "admission_seq": 290,
    "discovered_at": "2026-10-11T16:50:40Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-208 — Score! Match scope",
    "family": "official-support",
    "note": "newer friend-add article (likely DLS26 scope)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-add-friend-dls",
-   "status": "UNVISITED",
+   "status": "NON_CONNECTED",
    "ticket_seq": 290,
-   "url": "https://support.ftgames.com/hc/en-us/articles/9667176515601-How-do-I-add-a-friend"
+   "url": "https://support.ftgames.com/hc/en-us/articles/9667176515601-How-do-I-add-a-friend",
+   "disposition_reason": "NON_CONNECTED: article describes Score! Match friend system — Score! Match title scope, not DLS26 (both add-friend articles now dispositioned: 17144107973265=UCS, 9667176515601=Score!Match)",
+   "service_events": [
+    {
+     "at": "2026-10-11T16:53:04Z",
+     "event": "extract",
+     "seq": 292,
+     "note": "dispositioned NON_CONNECTED (Score! Match scope)"
+    }
+   ]
+  },
+  {
+   "admission_seq": 293,
+   "discovered_at": "2026-10-11T16:53:04Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "restart-career revision 3 (213851909 404; 7917210208145 admitted)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-restart-career-3rd",
+   "status": "UNVISITED",
+   "ticket_seq": 293,
+   "url": "https://support.ftgames.com/hc/en-us/articles/3600017167418-How-do-I-restart-my-career-from-the-beginning"
   }
  ],
  "residual_debt": [
@@ -3161,10 +3192,17 @@
    "LICENSING GAPS confirmed (CLAIM-079): Bundesliga example — validate roster in-client before planning",
    "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation pool season-limited (CLAIM-077)",
    "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t57: ref-support-dll-matchmaking 360018359998 = TOP priority next (matchmaking, mission lead); restart-career-3rd 3600017167418 owed",
+   "t57: owed support: change-kit 7916959134737, restart-career-rev 7917210208145, data-deletion-2 360017046578, dls19-profile 360004717278, obtain-players 360004066417, graphics-old, video-clips-new, next-update, age-policies; stale-risk trio; player-look comments 1-3; player-stats comments 1-3",
+   "DLL NO-BOTS/no-manipulation recorded (CLAIM-080) — ranking math is pure PvP; base-difficulty selector needs in-client check",
+   "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation season pool (CLAIM-077); licensing gaps (CLAIM-079)",
+   "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-diamonds; support-contact; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 290,
+ "sequence_counter": 293,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
