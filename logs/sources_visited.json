@@ -578,7 +578,7 @@
     {
       "admission_seq": 55,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": "complete: full text captured (EV-107)",
+      "extraction_cursor": "complete (1/1) EV-141",
       "family": "official-support",
       "projections": [
         "full-page extraction"
@@ -589,10 +589,15 @@
           "at": "2026-10-10T20:18:00Z",
           "event": "extract",
           "seq": 99
+        },
+        {
+          "at": "2026-10-10T22:45:00Z",
+          "event": "extract",
+          "seq": 168
         }
       ],
       "status": "VISITED",
-      "ticket_seq": 99,
+      "ticket_seq": 168,
       "url": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work"
     },
     {
@@ -1641,14 +1646,21 @@
       "admission_seq": 153,
       "discovered_at": "2026-10-10T22:20:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-142",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-can-i-sell",
-      "status": "UNVISITED",
-      "ticket_seq": 153,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:45:00Z",
+          "event": "extract",
+          "seq": 169
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 169,
       "url": "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players"
     },
     {
@@ -1754,6 +1766,20 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 164,
       "url": "https://support.ftgames.com/hc/en-us/articles/3600020682577-How-do-the-various-player-stats-in-Score-Match-affect-gameplay"
+    },
+    {
+      "admission_seq": 167,
+      "discovered_at": "2026-10-10T22:45:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-auto-switching",
+      "status": "UNVISITED",
+      "ticket_seq": 167,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360008831518-Why-are-my-players-auto-switching-all-the-time"
     }
   ],
   "residual_debt": [
@@ -1777,11 +1803,12 @@
       "then: control-buttons, kit-logo 360004080497, change-manager, emojis 3600020938198, kit-visible-live 3600021064298, age-limits 360000204889 + age-confirmation 4408249822609, match-connection-issues 7917279109777, season-pass revs, signin setup guides, user-id-rev, data-deletion",
       "re-discover moved articles via further searches: friend-match, restart-career, cant-update, connection-required, device-compat (stale ids)"
     ],
-    "support owed next: difficulty 360018360418 (PRIORITY) + can-i-sell 360003945617, then card-colour + resign-player",
-    "player-look comments chunks 1-3 (LOW)"
+    "player-look comments chunks 1-3 (LOW)",
+    "support owed next: card-colour 214385645 + resign-player 214385465, then auto-switching 360008831518 + control-buttons",
+    "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 166,
+  "sequence_counter": 169,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2242,6 +2269,20 @@
       "event": "extract",
       "ref_id": "ref-support-player-look",
       "seq": 166
+    },
+    {
+      "at_utc": "2026-10-10T22:45:00Z",
+      "detail": "difficulty model + DLL no-bots/no-manipulation claim",
+      "event": "extract",
+      "ref_id": "ref-support-difficulty",
+      "seq": 168
+    },
+    {
+      "at_utc": "2026-10-10T22:45:00Z",
+      "detail": "release->coach (v12200+) + Recover window; conflicts EV-137 bux wording",
+      "event": "extract",
+      "ref_id": "ref-support-can-i-sell",
+      "seq": 169
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2297,8 +2338,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 34,
-      "ticket_seq": 166
+      "served_count": 36,
+      "ticket_seq": 169
     }
   }
 }
