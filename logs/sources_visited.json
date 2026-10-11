@@ -1222,7 +1222,7 @@
   {
    "admission_seq": 85,
    "discovered_at": "2026-10-10T20:18:00Z",
-   "extraction_cursor": "full text (1/1) EV-140; comments chunks 0/4 captured, 1-3 residual LOW (staff reply re licensing noted)",
+   "extraction_cursor": "chunk 0/4 captured (EV-206: licensing-gap comment GOLD); comment chunks 1-3 residual (low)",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -1233,9 +1233,14 @@
      "at": "2026-10-10T22:36:00Z",
      "event": "extract",
      "seq": 166
+    },
+    {
+     "at": "2026-10-11T16:50:40Z",
+     "event": "extract",
+     "seq": 288
     }
    ],
-   "status": "VISITED",
+   "status": "IN_PROGRESS",
    "ticket_seq": 166,
    "url": "https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesn-t-my-player-look-like-the-real-person"
   },
@@ -2625,16 +2630,25 @@
    "admission_seq": 257,
    "discovered_at": "2026-10-11T12:01:06Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-205 — UCS scope confirmed",
    "family": "official-support",
    "note": "social features",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-add-friend",
-   "status": "UNVISITED",
+   "status": "NON_CONNECTED",
    "ticket_seq": 257,
-   "url": "https://support.ftgames.com/hc/en-us/articles/17144107973265-How-do-I-add-a-friend"
+   "url": "https://support.ftgames.com/hc/en-us/articles/17144107973265-How-do-I-add-a-friend",
+   "disposition_reason": "NON_CONNECTED: article describes Ultimate Clash Soccer friend system (Generate Code / Add Friend on UCS leaderboard) — UCS title scope, not DLS26; newer counterpart 9667176515601 admitted",
+   "service_events": [
+    {
+     "at": "2026-10-11T16:50:40Z",
+     "event": "extract",
+     "seq": 287,
+     "note": "dispositioned NON_CONNECTED (UCS scope)"
+    }
+   ]
   },
   {
    "admission_seq": 258,
@@ -2963,6 +2977,36 @@
    "status": "UNVISITED",
    "ticket_seq": 286,
    "url": "https://support.ftgames.com/hc/en-us/articles/7917682153361-I-am-not-seeing-any-video-clips-what-can-I-do"
+  },
+  {
+   "admission_seq": 289,
+   "discovered_at": "2026-10-11T16:50:40Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "PRIORITY: difficulty mechanics (career/Division Objectives interplay)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-game-difficulty",
+   "status": "UNVISITED",
+   "ticket_seq": 289,
+   "url": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work"
+  },
+  {
+   "admission_seq": 290,
+   "discovered_at": "2026-10-11T16:50:40Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "newer friend-add article (likely DLS26 scope)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-add-friend-dls",
+   "status": "UNVISITED",
+   "ticket_seq": 290,
+   "url": "https://support.ftgames.com/hc/en-us/articles/9667176515601-How-do-I-add-a-friend"
   }
  ],
  "residual_debt": [
@@ -3109,10 +3153,18 @@
    "FORMATION POOL SEASON-LIMITED (CLAIM-077) — user pinned formation plans need per-season remapping at coaching time",
    "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006)",
    "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comment chunks; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t56: ref-support-game-difficulty 360018360418 = NEXT priority; add-friend-dls 9667176515601 owed",
+   "t56: player-look comment chunks 1-3 residual; player-stats comment chunks 1-3 owed (360019166777)",
+   "t56: owed support: change-kit 7916959134737, restart-career-rev 7917210208145, data-deletion-2 360017046578, dls19-profile 360004717278, obtain-players 360004066417, graphics-old 360000598437, video-clips-new 7917682153361, next-update, age-policies; stale-risk trio",
+   "LICENSING GAPS confirmed (CLAIM-079): Bundesliga example — validate roster in-client before planning",
+   "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation pool season-limited (CLAIM-077)",
+   "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-diamonds; support-contact; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 286,
+ "sequence_counter": 290,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",

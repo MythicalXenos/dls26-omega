@@ -1,0 +1,3 @@
+# EV-205 (full 1/1) — support "How do I add a friend?" 17144107973265 = ULTIMATE CLASH SOCCER SCOPE
+source: https://support.ftgames.com/hc/en-us/articles/17144107973265-How-do-I-add-a-friend | official-support | fetched 2026-10-11T17:00Z
+OPERATIVE CONTENT: article describes friend-add in **Ultimate Clash Soccer** ("Generate Code" 6-char via leaderboard trophy button > "Add Friend"). NOT DLS26 content despite being related-linked from DLS articles. DISPOSITION: NON_CONNECTED (UCS title scope). Related discovery: **9667176515601 "How do I add a friend?" (newer ID — likely the DLS26 counterpart, admitted UNVISITED)**; kit-logo/graphics (served); get-promoted (served); UCS-blocked (known NC).

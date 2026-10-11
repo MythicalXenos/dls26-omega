@@ -1,70 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1347,
+      "bytes": 1295,
       "path": "HANDOFF.md",
-      "sha256": "d1fadd7a21fb09a1dbce1d4bd84dd84a39264bf7257a53df2e44c0014c7996f7"
+      "sha256": "f82ddf4d3ff7023d77d54aabebaada3c8b3d5d8a1c1a2c084633ffc2dd47a699"
     },
     {
-      "bytes": 931,
-      "path": "evidence/extract/EV-203_support_change_formation.md",
-      "sha256": "41377f1f6acff1565c9347311a1f5e3826130db1c18364885e4ccae915c8663a"
+      "bytes": 702,
+      "path": "evidence/extract/EV-205_support_add_friend_ucs_scope.md",
+      "sha256": "548ab6ccdca93410619affc2c2a537115729b5403c8684169cb2de8a4bc0f912"
     },
     {
-      "bytes": 1140,
-      "path": "evidence/extract/EV-204_support_graphics_settings.md",
-      "sha256": "ce087f9770c6dd016fd6c7cdf470fa38154e82360346d019b3f1d2d177a73ada"
+      "bytes": 1139,
+      "path": "evidence/extract/EV-206_support_player_look_comments.md",
+      "sha256": "85d214e506b374cfaabe2b2af52c6bc5d04d65157f9372470c4ff244104c6884"
     },
     {
-      "bytes": 37725,
+      "bytes": 38469,
       "path": "evidence/index.jsonl",
-      "sha256": "4cbd1d732f0962ee5bc82f922493989d3f4f7e6a70e1ed0cc2bf270eaba5fa61"
+      "sha256": "0607f84043c1db7aefb1b66bd1055f61bba4133490ac934ef27ec07764fff0f3"
     },
     {
-      "bytes": 79013,
+      "bytes": 80076,
       "path": "kb/claims.jsonl",
-      "sha256": "f78d318402cb81d3e83e54daeadb36fb66f4b042fc689f115c18c0420177aab5"
+      "sha256": "c6b7e5a44069960682c7493c9ac1144cd761ee06c9d1b710651a5dd1d57fe851"
     },
     {
-      "bytes": 2236,
+      "bytes": 2287,
       "path": "logs/control.json",
-      "sha256": "ec2f9e206ca09c35c8f64ba2d7b30b97b6deb9a15c45402daabf0f3c9d250a57"
+      "sha256": "bc0516099d90894ba1c31e341334c1f1dfeffb0bea588f968a35eafa49d6e01a"
     },
     {
-      "bytes": 13641,
+      "bytes": 13980,
       "path": "logs/operations.jsonl",
-      "sha256": "80ebce8b9961e3c179ed6b1ea6fca609c91d975d65f181939332c7e0e9355040"
+      "sha256": "bcfd4f4da6ddb66e3e56a2becf9dba6544adf1ac6983043969f8eff2b01666b3"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-5598450ecbb9.json",
-      "sha256": "dd1a6ddd7fcab97b9bcdb7d55d7b70cc1cfca21e24da002063a666c84221635b"
+      "path": "logs/receipts_pending/turn-228aa8bf1f0a.json",
+      "sha256": "b8c9250d11ec848ee2c709f63363dd9428209c7ebc8b8032f80eaffd81081339"
     },
     {
-      "bytes": 129346,
+      "bytes": 131763,
       "path": "logs/sources_visited.json",
-      "sha256": "547dec4ea26c1bee55fb47321cd75a367dcc9f63332cdd2be41744b49152a95c"
+      "sha256": "51fe760a51ba1993b92d0a5c5b6399095adf7df5cd3170400c313f8ea820357e"
     }
   ],
-  "checkpoint_nonce": "nonce-dcab5d6981a9aa86",
+  "checkpoint_nonce": "nonce-102132cc66d6e727",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T16:48:10Z",
+  "created_at": "2026-10-11T16:50:40Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "5b8150a249b4c08f5810c5074b046e1241f87e16",
+  "parent_commit": "045e8c2d0bd6942682e2b20c9d0203e2239be311",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 55,
+  "sequence": 56,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,17 +74,17 @@
     "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-228aa8bf1f0a",
+  "turn_id": "turn-985d9764bcbb",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T16:48:10Z",
+    "bluff_check_at": "2026-10-11T16:50:40Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-203/204 + CLAIM-077/078 persisted; CLAIM-070 updated (season pool constraint)",
-      "formation season-pool constraint recorded vs user pinned plans (plans preserved)",
-      "3 refs admitted before serve",
-      "cursors honest (both refs complete 1/1)",
-      "mkdir+.omega dirs verified this turn (prior-turn wipe recovered via fetch+mixed reset, chain continuous)",
-      "defensive ref-reconciliation ran before prepare",
+      "EV-205/206 + CLAIM-079 persisted",
+      "UCS add-friend dispositioned NON_CONNECTED with scope proof (not silently deleted)",
+      "licensing-gap official comment captured (vintage disclosed)",
+      "2 refs admitted before serve",
+      "cursors honest (add-friend dispositioned; player-look 0/4 comment tail owed)",
+      "mkdir+.omega verified; defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"
     ],

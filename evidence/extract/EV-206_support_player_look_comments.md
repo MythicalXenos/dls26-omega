@@ -1,0 +1,5 @@
+# EV-206 (chunk 0/4) — support "Why doesn't my player look like the real person?" 360004718318 (ref-support-player-look)
+source: https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesn-t-my-player-look-like-the-real-person | official-support | fetched 2026-10-11T17:00Z
+BODY: "DLS is an ever expanding app... regularly updating data and adding new content... over time you will see improvements." (likeness/face data improves gradually).
+COMMENTS (gold in chunk 0): (a) face-data REGRESSION reported (players with faces in DLS19 lost them later); (b) commentator does not call many player names; (c) flag errors occur (Darikwa listed England instead of Zimbabwe); (d) **OFFICIAL STAFF REPLY (5-6y ago): "for licensing reasons some players may not be in DLS" — example: Bundesliga / some German players absent.** => LICENSING GAPS exist in the roster (CLAIM-079); vintage = DLS19/DLS25 era, may persist.
+RELATED (admitted): **360018360418 "How does game difficulty work?" — mission-relevant difficulty mechanics**; player-stats 360019166777 (owed); Score!Match stats (NC). Comment chunks 1-3/4 residual (low-value tail).
