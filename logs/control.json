@@ -52,6 +52,6 @@
   "HANDOFF.md",
   "handoff/attention_required.md"
  ],
- "resumption_point": "Step 1 finite research epoch OPEN. Cursor UNCHANGED (fetch_page still owed): backup-restore 214387685 stale-risk re-verify + dls19-profile 360004717278, then reddit probe (ISS-0006), then age-policies 360000204889 / next-update 360000262229 / restart-career-3rd 3600017167418 / connection-general 360000420025. t61-t62 TOOL_OUTAGE: fetch_page/web_search remapped to bash at harness layer; t62 worked around via gh->api.github.com (whitelist): EV-215 + CLAIM-084 (cheat/bot ecosystem exists — hard DO-NOT-USE) + CLAIM-085 (community data lags live season; validate in-client, cf CLAIM-079). If outage persists: remaining official cursor CANNOT be closed via gh; re-attempt fetch_page every turn. Residue OPEN: CLAIM-003/071 tie-breaks, CLAIM-067 XP ladder, CLAIM-006 Legendary Fitness. CLAIM-043 UI-only governs Steps 2/3.",
- "updated_at": "2026-10-11T17:21:53Z"
+ "resumption_point": "Step 1 finite research epoch OPEN. Cursor UNCHANGED (fetch_page owed): backup-restore 214387685 stale-risk re-verify + dls19-profile 360004717278, then reddit probe (ISS-0006), age-policies 360000204889 / next-update 360000262229 / restart-career-3rd 3600017167418 / connection-general 360000420025. t61-t63 TOOL_OUTAGE (fetch_page/web_search -> bash). gh avenue CLOSED-ISH after t63: EV-215/216 + CLAIM-084/085/086 recorded; no leaderboard tooling on GitHub (query collision: bare \"dream league\" = fantasy football). If outage persists next turn: extraction options exhausted on gh for mission core; do frontier hygiene + retry fetch_page. Residue OPEN: CLAIM-003/071 tie-breaks, CLAIM-067 XP ladder, CLAIM-006 Legendary Fitness. CLAIM-043 UI-only governs Steps 2/3.",
+ "updated_at": "2026-10-11T17:27:16Z"
 }

@@ -1,0 +1,12 @@
+# EV-216 (dataset probe 1/1) — DATABASES/TOOLS: theshinramen/DLS-Files data/playerData.json schema + demographics (community dump, untrusted download)
+source: https://github.com/theshinramen/DLS-Files (raw content via api.github.com) | databases-tools | fetched 2026-10-11T17:27:16Z
+CHANNEL NOTE: fetch_page/web_search STILL unreachable at harness layer (t61-t63); gh CLI -> api.github.com fallback (whitelist host). File: data/playerData.json, 572,248 bytes, blob sha 06b88df8512063d771957e0b3f497c784946e2dd. Download kept in /tmp only — NOT committed (large dataset rule).
+
+OPERATIVE CONTENT (observed):
+- **1,117 player records** (flat JSON list). Record keys (22): First Name, Last Name, Player ID, Nationality, Club, Position, Foot, Rating, Height (cm), Price, **Game Version**, Speed, Acceleration, Stamina, Strength, Tackling, Passing, Shooting, Control, Handling (GK), Reactions (GK), Total Stats.
+- **Game Version values: 'v10.20' (736) + blank (381 incl. trailing-space variant)** — dump is DLS ~10.20-era (several seasons stale). Sample: Haaland, Man City, CF, L, Rating 86, 195cm, Price 2675 (string).
+- Rating range 55-86 (era-bounded). Positions (13): CB 185, CF 157, CM 141, GK 115, DM 93, LW 76, AM 75, RB 73, LB 72, RW 59, RM 27, LM 26, SS 18.
+- 90 clubs incl. real names: Chelsea, Liverpool, Sevilla, Tottenham, Man United, AC Milan, Real Madrid, Arsenal, **Juventus, Inter Milan, Roma, Napoli**; 341 free-agent/blank club rows. **Bundesliga probe: NO Bayern / Dortmund / Leverkusen-style entries found** (consistent with licensing-gap color in EV-206/CLAIM-079, but v10.20-era snapshot only — current DLS26 roster MUST be validated in-client).
+- Attribute model (community mirror): outfield 8 (Speed, Acceleration, Stamina, Strength, Tackling, Passing, Shooting, Control) + GK 2 (Handling, Reactions) + Total Stats aggregate + OVR Rating.
+
+ASSESSMENT: (a) first concrete community player-attribute taxonomy recovered — planning aid for roster/valuation work (which stats exist per position; price scale for market scouting). (b) dump era v10.20 CONFIRMS CLAIM-085 staleness with new detail (same origin repo — counts once). (c) Bundesliga absence + real-name Serie A/PL in-era = licensing-snapshot color only; never a current-licensing claim. NO rankings/leaderboard fields in schema (player-level only) — season/DLL leaderboard residue (CLAIM-003/071) remains OPEN and untouched by this dump.
