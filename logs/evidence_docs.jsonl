@@ -6,3 +6,4 @@
 {"at_utc": "2026-10-11T00:10:00Z", "event_id": "EVD-0010", "note": "404 oops 2026-10-11; RETRYABLE_FAILURE; mission-adjacent (season pass/leaderboard)", "ref_ids": ["ref-support-season-pass-rev1"], "type": "page-missing"}
 {"at_utc": "2026-10-11T00:26:00Z", "event_id": "EVD-0010", "note": "404s hit constructed urls 360005678698/360005678818 (not frontier refs); ref-support-season-pass-rev1 restored UNVISITED", "ref_ids": [], "type": "page-missing-corrected"}
 {"at_utc": "2026-10-11T00:26:00Z", "event_id": "EVD-0011", "note": "superseded-by EVD-0010 correction: 360005678818 not a frontier ref; rev2 ref = 440407098513 still UNVISITED", "ref_ids": [], "type": "page-missing-corrected"}
+{"at_utc": "2026-10-11T00:34:00Z", "event_id": "EVD-0012", "note": "404 oops 2026-10-11; RETRYABLE_FAILURE", "ref_ids": ["ref-support-season-pass-rev2"], "type": "page-missing"}

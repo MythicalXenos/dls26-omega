@@ -663,21 +663,29 @@
     {
       "admission_seq": 59,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "404 oops 2026-10-11 (this ref url 440407098513 verified as the fetched one)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-season-pass-rev2",
       "revision_of": "ref-support-season-pass",
-      "status": "UNVISITED",
-      "ticket_seq": 59,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:34:00Z",
+          "detail": "404 -> RETRYABLE_FAILURE",
+          "event": "extract",
+          "seq": 210
+        }
+      ],
+      "status": "RETRYABLE_FAILURE",
+      "ticket_seq": 210,
       "url": "https://support.ftgames.com/hc/en-us/articles/440407098513-What-is-the-Season-Pass"
     },
     {
       "admission_seq": 60,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-162 (MISSION extract)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
@@ -696,10 +704,15 @@
           "event": "disposition-corrected",
           "note": "DS-32 404 fetch hit constructed url 360005678698, not this ref url 17143633310225; restored UNVISITED; two spurious urls (360005678698/360005678818) 404 but are not frontier refs",
           "seq": 207
+        },
+        {
+          "at": "2026-10-11T00:34:00Z",
+          "event": "extract",
+          "seq": 209
         }
       ],
-      "status": "UNVISITED",
-      "ticket_seq": 207,
+      "status": "VISITED",
+      "ticket_seq": 209,
       "url": "https://support.ftgames.com/hc/en-us/articles/17143633310225-What-is-the-Season-Pass"
     },
     {
@@ -2191,11 +2204,12 @@
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
     "then: signin-google 9580096555281 + user-id-rev2 37083217732882; then data-deletion 360017046578; support family nearly closed",
-    "NEXT: season-pass-rev1 17143633310225 + season-pass-rev2 440407098513 (REAL urls; mission-adjacent), then signin-google-setup 9580096555281 + user-id-rev2 37083217732882",
-    "then: video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657; spurious 404 urls 360005678698/360005678818 are NOT refs (EVD-0010/0011 annotate)"
+    "then: video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657; spurious 404 urls 360005678698/360005678818 are NOT refs (EVD-0010/0011 annotate)",
+    "support owed next: signin-google-setup 9580096555281 + user-id-rev2 37083217732882, then video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657",
+    "MISSION follow-ups from EV-162: resolve Progress Bank basis conflict (Season Points vs DLL XP wording); Season VIP concept unexplored; \"Season Points purchasable in Shop\" affects fair-grind expectations"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 208,
+  "sequence_counter": 210,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2838,6 +2852,20 @@
       "event": "extract",
       "ref_id": "ref-support-signin-apple-setup",
       "seq": 208
+    },
+    {
+      "at_utc": "2026-10-11T00:34:00Z",
+      "detail": "Season Pass tiers; Progress Bank on SEASON POINTS; day-gated tiers; global season end",
+      "event": "extract",
+      "ref_id": "ref-support-season-pass-rev1",
+      "seq": 209
+    },
+    {
+      "at_utc": "2026-10-11T00:34:00Z",
+      "detail": "HTTP 404 -> RETRYABLE_FAILURE",
+      "event": "extract",
+      "ref_id": "ref-support-season-pass-rev2",
+      "seq": 210
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2893,8 +2921,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 55,
-      "ticket_seq": 208
+      "served_count": 56,
+      "ticket_seq": 209
     }
   }
 }

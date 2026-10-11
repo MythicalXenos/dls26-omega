@@ -1,65 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1216,
+      "bytes": 1225,
       "path": "HANDOFF.md",
-      "sha256": "296bdf4314a5d7935e4ac7569364a8b66194b83cfd5d636d5d1d2b87ff31fc09"
+      "sha256": "6f0abb2d8df9d1dcae0301076811497c041e0adca6efa32b1f08388e2b0e423e"
     },
     {
-      "bytes": 908,
-      "path": "evidence/extract/EV-161_support_signin_apple.md",
-      "sha256": "47b8e783ae115d6166f4e370558d4a9b44179df42ab1c5c1fa285e71d9eec0d9"
+      "bytes": 1597,
+      "path": "evidence/extract/EV-162_support_season_pass_rev1.md",
+      "sha256": "48150c2814f3d4c4e07b6cfdf0cf357c163c4af418a2fec8b62374dac1d73cec"
     },
     {
-      "bytes": 481,
-      "path": "evidence/extract/EVD-0010_page_missing_season_pass.md",
-      "sha256": "c1634487f090003ffd2a2d90b1ac3d2bb79b6b8f072264b56d34f15e704eec66"
+      "bytes": 233,
+      "path": "evidence/extract/EVD-0012_page_missing_season_pass_rev2.md",
+      "sha256": "59734d4168f80eb474840b79684752fdb1275ec0a2c9b3b30615984876c8600a"
     },
     {
-      "bytes": 21753,
+      "bytes": 22145,
       "path": "evidence/index.jsonl",
-      "sha256": "880cb549b187989f1eb6fa445f8bfe5335916b01b705290e99cc21901573bd5b"
+      "sha256": "c531b785afadf49f4269a7a19c1e7da361401593a4a2935a32ad5a46e7cc402b"
     },
     {
-      "bytes": 1895,
+      "bytes": 34697,
+      "path": "kb/claims.jsonl",
+      "sha256": "9c63091b82fd0926046771f2668aa6d65df0e42d14712c4dee5ae2752d7f5be0"
+    },
+    {
+      "bytes": 2073,
       "path": "logs/evidence_docs.jsonl",
-      "sha256": "17068739ec3839d28b7ea940c30352f37bdbcf84ffd8476b80c44f43229ee774"
+      "sha256": "da4ba9811aebefccf27c3fbdbb857af882d3cd3285a38f73e2fdecba8852867a"
     },
     {
-      "bytes": 7178,
+      "bytes": 7382,
       "path": "logs/operations.jsonl",
-      "sha256": "66754b850f6f95d9b7390080b51630119c9b95a4d627fcfbd555b724e6a9bf2d"
+      "sha256": "aa80c4100d2602a5efec56b03b60cffdb3dc550fd9b6d31741a23ca51b6f4475"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-ab0fcdcc6f60.json",
-      "sha256": "0fbf9fde6c59568117f5e4ec6119c3d9bd73a0ee9c70e6164930d3dbdb454f30"
+      "path": "logs/receipts_pending/turn-7369dcb3ea1d.json",
+      "sha256": "b5339992c84f4f386e313f85e1df4da4453ad2a4e794ad8ef1ffc59a59b33d7f"
     },
     {
-      "bytes": 99448,
+      "bytes": 100535,
       "path": "logs/sources_visited.json",
-      "sha256": "4269bdf105d9c7e7c0b4c67eb3752469cd88e671c376a48b28b533d556cb2956"
+      "sha256": "40e1ccab58901d75a668c00c0818bc3c0a12d9bf4654ae0bf00c748abe5fe2fd"
     }
   ],
-  "checkpoint_nonce": "nonce-1f712b985d654840",
+  "checkpoint_nonce": "nonce-68ddabf3bc1340d2",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T00:26:00Z",
+  "created_at": "2026-10-11T00:34:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "d183462687e6f44c0b190658a0f855ea6388efe4",
+  "parent_commit": "9cbd6bbe34781f708edd89718e0982d1f4f934ee",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 33,
+  "sequence": 34,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,16 +74,14 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-7369dcb3ea1d",
+  "turn_id": "turn-f3b0d28cf9c2",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T00:26:00Z",
-    "executed_fail": [
-      "DS-33 first wrap attempt KeyError (ref id mismatch); zero side effects; corrected ids used"
-    ],
+    "bluff_check_at": "2026-10-11T00:34:00Z",
+    "executed_fail": [],
     "executed_pass": [
-      "EV-161 persisted (correct ref id)",
-      "EVD-0010/0011 correction annotations",
-      "season-pass-rev1 disposition restored",
+      "EV-162 + CLAIM-040 persisted",
+      "Progress Bank conflict preserved (Season Points vs DLL XP)",
+      "EVD-0012 recorded",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"

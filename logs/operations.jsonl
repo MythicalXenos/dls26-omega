@@ -32,3 +32,4 @@
 {"at_utc": "2026-10-11T00:02:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "change-kit EV-158 + user-id-rev EV-159 (Score! Match variant discovered)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-31"}
 {"at_utc": "2026-10-11T00:10:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "video-clips-rev EV-160 (duplicate); season-pass-rev1 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-32"}
 {"at_utc": "2026-10-11T00:26:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "signin-apple-setup EV-161; season-pass url confusion corrected (EVD-0010/0011 annotations)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-33"}
+{"at_utc": "2026-10-11T00:34:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "season-pass-rev1 EV-162 (MISSION) + rev2 404 EVD-0012", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-34"}
