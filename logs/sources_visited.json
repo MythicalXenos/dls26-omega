@@ -1444,14 +1444,21 @@
     {
       "admission_seq": 122,
       "discovered_at": "2026-10-10T21:10:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-150",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-match-connection-issues",
-      "status": "UNVISITED",
-      "ticket_seq": 122,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:30:00Z",
+          "event": "extract",
+          "seq": 188
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 188,
       "url": "https://support.ftgames.com/hc/en-us/articles/7917279109777-I-keep-having-connection-issues-during-a-match-what-can-I-do"
     },
     {
@@ -1858,14 +1865,21 @@
       "admission_seq": 172,
       "discovered_at": "2026-10-10T23:00:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-151",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-skill-move",
-      "status": "UNVISITED",
-      "ticket_seq": 172,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:30:00Z",
+          "event": "extract",
+          "seq": 189
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 189,
       "url": "https://support.ftgames.com/hc/en-us/articles/213851489-How-do-I-perform-a-skill-move"
     },
     {
@@ -1922,6 +1936,48 @@
       "status": "UNVISITED",
       "ticket_seq": 182,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000205049-How-to-get-a-refund-on-an-in-app-purchase"
+    },
+    {
+      "admission_seq": 185,
+      "discovered_at": "2026-10-10T23:30:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "note": "older connection article (revision candidate)",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-connection-older",
+      "status": "UNVISITED",
+      "ticket_seq": 185,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000420025-I-keep-having-connection-issues-what-can-I-do"
+    },
+    {
+      "admission_seq": 186,
+      "discovered_at": "2026-10-10T23:30:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-home-away-kit",
+      "status": "UNVISITED",
+      "ticket_seq": 186,
+      "url": "https://support.ftgames.com/hc/en-us/articles/214385385-How-do-I-change-between-Home-and-Away-kits-before-a-match"
+    },
+    {
+      "admission_seq": 187,
+      "discovered_at": "2026-10-10T23:30:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-blocked-ultimate-clash",
+      "scope_proof": "article title names \"different game\"",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 187,
+      "url": "https://support.ftgames.com/hc/en-us/articles/8837193024785-Why-have-I-been-blocked-from-playing-Ultimate-Clash-Soccer"
     }
   ],
   "residual_debt": [
@@ -1949,10 +2005,10 @@
     "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering",
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
-    "support owed next: match-connection-issues 7917279109777 + skill-move 213851489, then graphics 360000598437 + refund 360000205049"
+    "support owed next: graphics 360000598437 + refund 360000205049, then home-away-kit 214385385 + connection-older 360000420025 (revision check)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 184,
+  "sequence_counter": 189,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2497,6 +2553,20 @@
       "event": "extract",
       "ref_id": "ref-support-age-confirmation",
       "seq": 184
+    },
+    {
+      "at_utc": "2026-10-10T23:30:00Z",
+      "detail": "VPN/signal/Wi-Fi/DNS troubleshooting ladder",
+      "event": "extract",
+      "ref_id": "ref-support-match-connection-issues",
+      "seq": 188
+    },
+    {
+      "at_utc": "2026-10-10T23:30:00Z",
+      "detail": "swipe skill moves: Marseille/rainbow/stepover",
+      "event": "extract",
+      "ref_id": "ref-support-skill-move",
+      "seq": 189
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2552,8 +2622,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 43,
-      "ticket_seq": 184
+      "served_count": 45,
+      "ticket_seq": 189
     }
   }
 }
