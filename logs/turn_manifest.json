@@ -1,88 +1,88 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1612,
+      "bytes": 1558,
       "path": "HANDOFF.md",
-      "sha256": "b2dc8c66e6ff0dde9a760b52b287de5ed4e35872497ce2b91a83c8063af10873"
+      "sha256": "95d138b519a8e5b188c8e9420cd71bb1927b793cfb8c53120eeb12e0fe13d1e3"
     },
     {
-      "bytes": 2167,
-      "path": "evidence/extract/EV-193_vi_download_com_vn_chunk0_prize_ladder.md",
-      "sha256": "c6af7ca342f6d8139b31dd727eeeff7d9ca462b492efac9030589cb2cf5f660a"
+      "bytes": 1199,
+      "path": "evidence/extract/EV-195_support_get_promoted.md",
+      "sha256": "8efda4d55d9dcc29fbd131e3d2fb2e0b196fd3f370d8ac05fd1b0b002c96825f"
     },
     {
-      "bytes": 813,
-      "path": "evidence/extract/EV-194_support_player_roles.md",
-      "sha256": "491299a624c3acd2591839c9f1324fbf4c7b8fa17cae52a4ea5e420641da4fe8"
+      "bytes": 1803,
+      "path": "evidence/extract/EV-196_vi_download_com_vn_chunk1_economy.md",
+      "sha256": "c5681265e9815848475dc0e2b378afb210fe2bcd4019d0036ec409474dd3351b"
     },
     {
-      "bytes": 33926,
+      "bytes": 34735,
       "path": "evidence/index.jsonl",
-      "sha256": "b8fdc9f123eb296eb2ed730ddda4ab3687afd2a0bf48d80c4ca1fb9f05178740"
+      "sha256": "fead3e953123f6f1cba6b3940ef7e9d7044852adb569191265eb6f7cdb5ab2ca"
     },
     {
-      "bytes": 64916,
+      "bytes": 69854,
       "path": "kb/claims.jsonl",
-      "sha256": "bc7e27706a1aba325555a07f80e53439e4aff7312ff1a310dac93e4c5ec3ac60"
+      "sha256": "d7ed4bb3fa9648c08a5f749519e3ee8b2d6bdfa342e446cac9e42c29065bf1e0"
     },
     {
-      "bytes": 2370,
+      "bytes": 2328,
       "path": "logs/control.json",
-      "sha256": "4e5988bf752fe378a8f4e29ce0c2362581965fb1bfe9f1b3e6e9a44f98a69f67"
+      "sha256": "f2bad9e874dc18cb30cf17aa4dc82243ec0008265a2f28fcea4280d6977a5fcf"
     },
     {
-      "bytes": 11812,
+      "bytes": 12221,
       "path": "logs/operations.jsonl",
-      "sha256": "cf742162d70c0813d0dbcebc254019c9a3ef21ae057c3e1cd8c977d9cb6aca08"
+      "sha256": "c8d313192a2dc72363afb5114b562be2a33a6383b77d42febb8fb846a2572d34"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-6f9ceb04021d.json",
-      "sha256": "537f1ce7e7dd73eeda46289e50e495903bfec42214ea577783d53181dd21ea55"
+      "path": "logs/receipts_pending/turn-c896d9d3675c.json",
+      "sha256": "0e6d624d059b74636f358f3cbbdebd21d1c7fe7e63700e9211f1c08bef61a32f"
     },
     {
-      "bytes": 116068,
+      "bytes": 118811,
       "path": "logs/sources_visited.json",
-      "sha256": "3422135fba6f92d9136c6b1cf00dfaabc295c2f66196b3c71d776a2281e86f39"
+      "sha256": "5dbc5f74f9eeb0b51f1dd80ac1b5b0d03c83dcd6456e9c1a124ffadb1ac711b5"
     }
   ],
-  "checkpoint_nonce": "nonce-9af242c4ade8fafb",
+  "checkpoint_nonce": "nonce-e78a083762caf6b5",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T12:01:06Z",
+  "created_at": "2026-10-11T12:16:32Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "d5b9791e719a41e396a6904b63664f50f1c00ade",
+  "parent_commit": "bfb6d8c3c70d000cbfbe21de1552b45fcf358c09",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 50,
+  "sequence": 51,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 2,
-    "host_calls_total_approx": 7,
+    "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-c896d9d3675c",
+  "turn_id": "turn-de0fe6a2dec5",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T12:01:06Z",
+    "bluff_check_at": "2026-10-11T12:16:32Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-193/194 + CLAIM-064/065/066 persisted; CLAIM-050 updated (earning-loop separation)",
-      "Prize Ladder free-to-play path documented (user no-IAP alignment)",
-      "5 related support refs admitted BEFORE any serve (get-promoted PRIORITY)",
-      "cursors honest (download.com.vn 0/5; player-roles complete)",
+      "EV-195/196 + CLAIM-067..070 persisted; CLAIM-050/062 updated",
+      "official XP ladder recorded Confirmed (surface honest as OPEN)",
+      "what-season-points admitted as PRIORITY #1 before any serve",
+      "cursors honest (get-promoted complete; download.com.vn 0-1/5)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"

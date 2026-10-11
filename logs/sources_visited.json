@@ -555,7 +555,7 @@
   {
    "admission_seq": 25,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "chunk 0/5 captured (EV-193); 1-4 owed (fitness coach -> CLAIM-006 + rest)",
+   "extraction_cursor": "chunks 0-1/5 captured (EV-193/196); 2-4 owed",
    "family": "community-web-vi",
    "projections": [
     "Android version (13.420)",
@@ -578,6 +578,11 @@
      "at": "2026-10-11T12:01:06Z",
      "event": "extract",
      "seq": 255
+    },
+    {
+     "at": "2026-10-11T12:16:32Z",
+     "event": "extract",
+     "seq": 263
     }
    ]
   },
@@ -2635,16 +2640,23 @@
    "admission_seq": 259,
    "discovered_at": "2026-10-11T12:01:06Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-195 — XP ladder confirmed; surface open",
    "family": "official-support",
    "note": "PRIORITY: official promotion mechanics (CLAIM-003/021/062)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-get-promoted",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 259,
-   "url": "https://support.ftgames.com/hc/en-us/articles/7917423348497-How-do-I-get-promoted"
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917423348497-How-do-I-get-promoted",
+   "service_events": [
+    {
+     "at": "2026-10-11T12:16:32Z",
+     "event": "extract",
+     "seq": 262
+    }
+   ]
   },
   {
    "admission_seq": 260,
@@ -2675,6 +2687,52 @@
    "status": "UNVISITED",
    "ticket_seq": 261,
    "url": "https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation"
+  },
+  {
+   "admission_seq": 264,
+   "discovered_at": "2026-10-11T12:16:32Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "PRIORITY #1: Season Points official definition (CLAIM-050/065/068)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-what-season-points",
+   "status": "UNVISITED",
+   "ticket_seq": 264,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points"
+  },
+  {
+   "admission_seq": 265,
+   "discovered_at": "2026-10-11T12:16:32Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "update cadence",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-next-update",
+   "status": "UNVISITED",
+   "ticket_seq": 265,
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be"
+  },
+  {
+   "admission_seq": 266,
+   "discovered_at": "2026-10-11T12:16:32Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "UCS matchmaking (other franchise title)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-nc-ucs-matchmaking",
+   "status": "NON_CONNECTED",
+   "ticket_seq": 266,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917384343953-How-does-matchmaking-work-in-Ultimate-Clash-Soccer",
+   "disposition_reason": "NON_CONNECTED: Ultimate Clash Soccer title, not DLS26 (scope proof: article subject is UCS)"
   }
  ],
  "residual_debt": [
@@ -2783,10 +2841,19 @@
    "Prize Ladder free-to-play path documented (CLAIM-064) — aligns with user no-IAP constraints",
    "Legendary Fitness OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021); Division 15-match structure needs corroboration (CLAIM-062)",
    "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comments; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t51: ref-support-what-season-points 7916583518353 = PRIORITY #1 next (Season Points official definition)",
+   "t51: download.com.vn chunks 2-4 owed; support owed: kit-logo 360004080497, next-update 360000262229, sell-players, change-formation, graphics-settings, add-friend",
+   "XP ladder OFFICIAL (CLAIM-067) but surface (Career vs DLL) OPEN; interaction with Division Objectives unmapped",
+   "Progress Bank = Season Points (CLAIM-068, 2 sources) — CLAIM-014 'DLL XP' wording conflict only partially resolved (preserved)",
+   "fitness coach = injury recovery + market rotation via surplus release (CLAIM-069) — Legendary Fitness identity still OPEN (CLAIM-006)",
+   "Legendary Fitness OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021)",
+   "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comments; player-diamonds; support-contact; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 261,
+ "sequence_counter": 266,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
