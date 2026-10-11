@@ -555,7 +555,7 @@
   {
    "admission_seq": 25,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "chunks 0-1/5 captured (EV-193/196); 2-4 owed",
+   "extraction_cursor": "chunks 0-2/4 captured (EV-193/196/198); chunk 3 residual (tail)",
    "family": "community-web-vi",
    "projections": [
     "Android version (13.420)",
@@ -583,6 +583,11 @@
      "at": "2026-10-11T12:16:32Z",
      "event": "extract",
      "seq": 263
+    },
+    {
+     "at": "2026-10-11T12:21:15Z",
+     "event": "extract",
+     "seq": 268
     }
    ]
   },
@@ -2692,16 +2697,23 @@
    "admission_seq": 264,
    "discovered_at": "2026-10-11T12:16:32Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-197 — SEASON LEADERBOARD confirmed",
    "family": "official-support",
    "note": "PRIORITY #1: Season Points official definition (CLAIM-050/065/068)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-what-season-points",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 264,
-   "url": "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points"
+   "url": "https://support.ftgames.com/hc/en-us/articles/7916583518353-What-are-Season-Points",
+   "service_events": [
+    {
+     "at": "2026-10-11T12:21:15Z",
+     "event": "extract",
+     "seq": 267
+    }
+   ]
   },
   {
    "admission_seq": 265,
@@ -2733,6 +2745,96 @@
    "ticket_seq": 266,
    "url": "https://support.ftgames.com/hc/en-us/articles/7917384343953-How-does-matchmaking-work-in-Ultimate-Clash-Soccer",
    "disposition_reason": "NON_CONNECTED: Ultimate Clash Soccer title, not DLS26 (scope proof: article subject is UCS)"
+  },
+  {
+   "admission_seq": 269,
+   "discovered_at": "2026-10-11T12:21:15Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "age limits + general policies",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-age-policies",
+   "status": "UNVISITED",
+   "ticket_seq": 269,
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000204889-What-are-the-Age-Limits-and-General-Policies-for-our-Apps"
+  },
+  {
+   "admission_seq": 270,
+   "discovered_at": "2026-10-11T12:21:15Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "connection issues troubleshooting (review theme: input delay/disconnects)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-connection-issues",
+   "status": "UNVISITED",
+   "ticket_seq": 270,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917279109777-I-keep-having-connection-issues-during-a-match-what-can-I-do"
+  },
+  {
+   "admission_seq": 271,
+   "discovered_at": "2026-10-11T12:21:15Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "community-web-vi",
+   "note": "DLS26 new features article",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-vi-new-features",
+   "status": "UNVISITED",
+   "ticket_seq": 271,
+   "url": "https://download.com.vn/nhung-thong-tin-moi-nhat-ve-dream-league-soccer-186558"
+  },
+  {
+   "admission_seq": 272,
+   "discovered_at": "2026-10-11T12:21:15Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "community-web-vi",
+   "note": "DLS26 what-is-new / launch article",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-vi-whats-new",
+   "status": "UNVISITED",
+   "ticket_seq": 272,
+   "url": "https://download.com.vn/dream-league-soccer-mua-moi-197994"
+  },
+  {
+   "admission_seq": 273,
+   "discovered_at": "2026-10-11T12:21:15Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "community-web-vi",
+   "note": "update guide",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-vi-update-guide",
+   "status": "UNVISITED",
+   "ticket_seq": 273,
+   "url": "https://download.com.vn/huong-dan-cap-nhat-dream-league-soccer-moi-199177"
+  },
+  {
+   "admission_seq": 274,
+   "discovered_at": "2026-10-11T12:21:15Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "community-web-vi",
+   "note": "play-with-friends guide (cf friend-match support)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-vi-friends-guide",
+   "status": "UNVISITED",
+   "ticket_seq": 274,
+   "url": "https://download.com.vn/huong-dan-choi-dream-league-soccer-cung-ban-be-161114"
   }
  ],
  "residual_debt": [
@@ -2850,10 +2952,18 @@
    "fitness coach = injury recovery + market rotation via surplus release (CLAIM-069) — Legendary Fitness identity still OPEN (CLAIM-006)",
    "Legendary Fitness OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021)",
    "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comments; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t52: SEASON LEADERBOARD surface CONFIRMED (EV-197) — residue: tie-breaks, reset intervals, eligibility, mode scope (CLAIM-071)",
+   "t52: download.com.vn chunk 3 residual; support owed: kit-logo 360004040497(stale-risk), sell-players, change-formation, graphics-settings, add-friend, next-update, age-policies, connection-issues",
+   "t52: VI related guides owed: new-features 186558, whats-new 197994, update-guide 199177, friends-guide 161114",
+   "XP ladder surface (Career vs DLL) still OPEN (CLAIM-067); Legendary Fitness identity OPEN (CLAIM-006)",
+   "currency placements remaining: DP/Clan Points/Cup Coins (CLAIM-050); Claim-014 wording conflict preserved",
+   "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comments; player-diamonds; support-contact; moved-article re-discovery (connection-required content now recaptured EV-198)"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 266,
+ "sequence_counter": 274,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
