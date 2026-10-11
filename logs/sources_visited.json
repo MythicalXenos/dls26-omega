@@ -1352,28 +1352,104 @@
     {
       "admission_seq": 127,
       "discovered_at": "2026-10-10T21:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-130); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-backup-restore",
-      "status": "UNVISITED",
-      "ticket_seq": 127,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:35:00Z",
+          "event": "extract",
+          "seq": 137
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 137,
       "url": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data"
     },
     {
       "admission_seq": 128,
       "discovered_at": "2026-10-10T21:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): full text (EV-129); closed for comments",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-not-realistic",
-      "status": "UNVISITED",
-      "ticket_seq": 128,
+      "service_events": [
+        {
+          "at": "2026-10-10T21:35:00Z",
+          "event": "extract",
+          "seq": 136
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 136,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this"
+    },
+    {
+      "admission_seq": 131,
+      "discovered_at": "2026-10-10T21:35:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-signin-apple-setup",
+      "status": "UNVISITED",
+      "ticket_seq": 131,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360009450097-How-do-I-setup-a-Sign-in-with-Apple-account"
+    },
+    {
+      "admission_seq": 132,
+      "discovered_at": "2026-10-10T21:35:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-signin-google-setup",
+      "status": "UNVISITED",
+      "ticket_seq": 132,
+      "url": "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account"
+    },
+    {
+      "admission_seq": 133,
+      "discovered_at": "2026-10-10T21:35:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-save-ultimate-clash",
+      "scope_proof": "article title names a different FTG game (different game); out of DLS scope",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 133,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7949802512401-How-is-save-data-stored-and-transferred-in-Ultimate-Draft-Soccer"
+    },
+    {
+      "admission_seq": 134,
+      "discovered_at": "2026-10-10T21:35:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-save-scorematch",
+      "scope_proof": "article title names a different FTG game (different game); out of DLS scope",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 134,
+      "url": "https://support.ftgames.com/hc/en-us/articles/9600462672913-How-is-save-data-stored-and-transferred-in-Score-Match"
+    },
+    {
+      "admission_seq": 135,
+      "discovered_at": "2026-10-10T21:35:00Z",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-save-scorehero",
+      "scope_proof": "article title names a different FTG game (different game); out of DLS scope",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 135,
+      "url": "https://support.ftgames.com/hc/en-us/articles/4417876006161-How-is-save-data-stored-and-transferred-in-Score-Hero-2022"
     }
   ],
   "residual_debt": [
@@ -1388,11 +1464,11 @@
     "coach items (Prize Ladder rewards) vs Legendary Fitness plan terminology \u2014 OPEN (CLAIM-006/016)",
     "exploit-policy implication: bug exploitation is sanctionable per EV-120 \u2014 weigh against community exploit guides (CLAIM-005) before any advice",
     "SEASON LEADERBOARD (Main Menu, Season Points totals) is a newly identified ranking surface \u2014 measurement/tie-breaks/visibility/eligibility OPEN (CLAIM-021)",
-    "support owed next: not-realistic (HIGH priority - official unpredictability explanation), backup-restore, app-update, profile-transfer, fb-login-removal, remaining set, season-pass revs",
-    "user-id revision 37083387788434 admitted (revision accounting)"
+    "user-id revision 37083387788434 admitted (revision accounting)",
+    "support owed next: app-update, profile-transfer, fb-login-removal, connection-required, device-compat, cant-update, friend-match, restart-career, video-clips, data-usage, player-look, control-buttons, kit-logo, change-manager, emojis, kit-visible-live, age-limits, match-connection-issues, season-pass-rev1/rev2, signin setup guides, user-id-rev"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 130,
+  "sequence_counter": 137,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1729,6 +1805,20 @@
       "event": "extract",
       "ref_id": "ref-support-cant-connect",
       "seq": 130
+    },
+    {
+      "at_utc": "2026-10-10T21:35:00Z",
+      "detail": "official unpredictability/luck statement",
+      "event": "extract",
+      "ref_id": "ref-support-not-realistic",
+      "seq": 136
+    },
+    {
+      "at_utc": "2026-10-10T21:35:00Z",
+      "detail": "current-game backup = Google/Apple sign-in only; no Play Games/iCloud",
+      "event": "extract",
+      "ref_id": "ref-support-backup-restore",
+      "seq": 137
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -1784,8 +1874,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 22,
-      "ticket_seq": 130
+      "served_count": 24,
+      "ticket_seq": 137
     }
   }
 }

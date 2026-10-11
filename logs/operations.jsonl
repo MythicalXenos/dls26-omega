@@ -10,3 +10,4 @@
 {"at_utc": "2026-10-10T21:02:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "free-coins + obtain-players", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-9"}
 {"at_utc": "2026-10-10T21:10:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "save-data + season-points (season leaderboard identified)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-10"}
 {"at_utc": "2026-10-10T21:18:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "user-id + cant-connect", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-11"}
+{"at_utc": "2026-10-10T21:35:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "not-realistic + backup-restore", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-12"}

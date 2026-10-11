@@ -1,292 +1,65 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 4720,
-      "path": ".gitignore",
-      "sha256": "32021e1219d549a14886ab58fd146892e310cb6b9a46bbae65fc01f238ac70d9"
-    },
-    {
-      "bytes": 50775,
-      "path": "DLS26_OMEGA_PROMPT.md",
-      "sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4"
-    },
-    {
-      "bytes": 1088,
+      "bytes": 1227,
       "path": "HANDOFF.md",
-      "sha256": "017d70bd5d0d0e70b2713d778763fbe91490bae84b072271fe9e42dfefe67b2a"
+      "sha256": "12b4e230c757734dc6c5989e8856e8bb3b61414a8187412fac6c02693c2f3e79"
     },
     {
-      "bytes": 17572,
-      "path": "OPERATIONAL_RULES.md",
-      "sha256": "0452253953ef8daebb8a77a543d8b09b351694da5ca24d485b9f67bf07ee3c64"
+      "bytes": 1524,
+      "path": "evidence/extract/EV-129_support_not_realistic.md",
+      "sha256": "dad7f5370abb4c498eee2dea3c4752a8aeee416ac2c69337d5b275a240df8d9b"
     },
     {
-      "bytes": 2111,
-      "path": "config/capabilities.json",
-      "sha256": "0b6e6faae9f5ef425df537bb8bfd41b0629b37719e7e40a576dfb3f54c3218b9"
+      "bytes": 962,
+      "path": "evidence/extract/EV-130_support_backup_restore.md",
+      "sha256": "0615540288f8e625d12bd7e48d677c259a389098d00f6ad11356808d1dcc7cd5"
     },
     {
-      "bytes": 2631,
-      "path": "config/user_profile_seed.json",
-      "sha256": "673694125db10edcd0d34d8f021251d223a7a7cf9280b5190ac480c6b7c337c5"
-    },
-    {
-      "bytes": 5704,
-      "path": "docs/CAPABILITY_INVENTORY.md",
-      "sha256": "4d2245305db3939e1d45b8985d9280a58db20b39e0a5f8adeb346fa294fc6016"
-    },
-    {
-      "bytes": 50775,
-      "path": "docs/prompt_archive/OMEGA_PROMPT_v77.md",
-      "sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4"
-    },
-    {
-      "bytes": 1712,
-      "path": "docs/prompt_changelog.md",
-      "sha256": "3407c5ea6851eb5dd50b8b5c839ccee487caa5118b8105a0551de5d5637cb302"
-    },
-    {
-      "bytes": 789,
-      "path": "evidence/extract/EV-101_support_leaderboards.md",
-      "sha256": "20c964ac2787938d7a7abb96eb9430b66b2dd10c17167a3595e4d4c636f29605"
-    },
-    {
-      "bytes": 1435,
-      "path": "evidence/extract/EV-102_support_matchmaking.md",
-      "sha256": "6590dbf2d54a647cc521ac3a470ef0729311cfa10870c7e68cc83a13aad639a0"
-    },
-    {
-      "bytes": 1778,
-      "path": "evidence/extract/EV-103_gplay_listing.md",
-      "sha256": "84a4500bd2466b439ecdc99abbd1bb6c2a47cec77c5c4c7668298fc09f0f0156"
-    },
-    {
-      "bytes": 1029,
-      "path": "evidence/extract/EV-107_support_difficulty.md",
-      "sha256": "1653ee3f1ce34a1a8488b76f7980392afbd967c3378f5b04247a3b0631715039"
-    },
-    {
-      "bytes": 864,
-      "path": "evidence/extract/EV-108_support_clans.md",
-      "sha256": "78046f1f8270ac57d008a12356e55ffa0c8e980edbe880569a991f09accafd6d"
-    },
-    {
-      "bytes": 1844,
-      "path": "evidence/extract/EV-109_support_dls_section_inventory.md",
-      "sha256": "930563f75aebe9097ec36f689a08691f167da97a9d805aa4fc4a6cbf9212ceda"
-    },
-    {
-      "bytes": 1242,
-      "path": "evidence/extract/EV-110_search_tier.md",
-      "sha256": "c701417c4e0fb44ff00897d02987b60b5337f26e61dd26ca97d452cb012d180e"
-    },
-    {
-      "bytes": 1171,
-      "path": "evidence/extract/EV-114_sakibpro_db.md",
-      "sha256": "52e2e3bb3f26d069ba0d713fde1ea9281f503aad8bdcd38d9c2e94ed7ad553ed"
-    },
-    {
-      "bytes": 2346,
-      "path": "evidence/extract/EV-115_support_player_stats.md",
-      "sha256": "fb878e5c172f318470eb1df30d0396d7241dde4e22becc4d02e6ef4d8d307ca0"
-    },
-    {
-      "bytes": 1431,
-      "path": "evidence/extract/EV-116_support_season_pass.md",
-      "sha256": "1f0ea0039d946bb2f3bc20664d53bb9e32b520d1a4d847d2cb27a97bb55243bc"
-    },
-    {
-      "bytes": 563,
-      "path": "evidence/extract/EV-117_support_get_gems.md",
-      "sha256": "ba021d48c454320945cea8f2a0d9f672f2f08cd53598ff91d0982f0a152528c5"
-    },
-    {
-      "bytes": 761,
-      "path": "evidence/extract/EV-118_support_prize_ladder.md",
-      "sha256": "d64d9580275445852309f178ac4e1d6de0b46ff2a7488f7028eb26c748a17679"
-    },
-    {
-      "bytes": 1363,
-      "path": "evidence/extract/EV-119_support_multiplayer_troubleshooting.md",
-      "sha256": "47dfd92dc9b0e9aadad46cbec8e01d62f4095af2d6198222cd53df578322e1f8"
-    },
-    {
-      "bytes": 1470,
-      "path": "evidence/extract/EV-120_support_blocked.md",
-      "sha256": "92b3212d848cd134a88dc01ff60749ef76cf9632a2809edb7ed401fcb38ee21e"
-    },
-    {
-      "bytes": 807,
-      "path": "evidence/extract/EV-121_support_dream_point_boosts.md",
-      "sha256": "ec8741d6b59864e0422936ce1c9921540a9a89491c603b96c1e987fa6fae3146"
-    },
-    {
-      "bytes": 423,
-      "path": "evidence/extract/EV-122_support_earn_coins.md",
-      "sha256": "55522c5d4c49192de1e568b9538854c8c6460603d29d029c348e436c9c849148"
-    },
-    {
-      "bytes": 288,
-      "path": "evidence/extract/EV-123_support_free_coins.md",
-      "sha256": "e0c8c51659e0eea5144b4759a56c58c13f82054f8fafb9c87ca8c2cca67a0182"
-    },
-    {
-      "bytes": 762,
-      "path": "evidence/extract/EV-124_support_obtain_players.md",
-      "sha256": "4371086d0525408b0471c890a0fec7f51bbebd046df95ca1dd159e24b5c62764"
-    },
-    {
-      "bytes": 1184,
-      "path": "evidence/extract/EV-125_support_save_data.md",
-      "sha256": "32b5fa698b78fd9bd460d1d6f1c9a8993ef9ed65a309200957ecdcd097664867"
-    },
-    {
-      "bytes": 958,
-      "path": "evidence/extract/EV-126_support_season_points.md",
-      "sha256": "3faf9690c941a39c04e6afa55be6e3f17f4cb45b41eedeb913ae65983abf031d"
-    },
-    {
-      "bytes": 747,
-      "path": "evidence/extract/EV-127_support_user_id.md",
-      "sha256": "2ce0cbab217109a6c13ac42a338339fb3ea264be810a088f160717b07e29a18b"
-    },
-    {
-      "bytes": 846,
-      "path": "evidence/extract/EV-128_support_cant_connect.md",
-      "sha256": "3bba038b521374c14936a68dada4f7cb6f444d7f52cb3e8e66edd98d63cc906b"
-    },
-    {
-      "bytes": 11003,
+      "bytes": 11709,
       "path": "evidence/index.jsonl",
-      "sha256": "e2e64d72c35b668089995c01e61f98848d53cc5503b51235e5cea215a3512070"
+      "sha256": "f7dfbb66f445d65f5aa5d94f2f66a07a90349ae096a4196bd491a9fbe9bed2be"
     },
     {
-      "bytes": 575,
-      "path": "evidence/raw/reddit_access_attempt.md",
-      "sha256": "805786df6a93946a5921a6fb4dbdb4498aaa96ef5f14e0d44ef347c6b2b241fd"
-    },
-    {
-      "bytes": 9916,
-      "path": "evidence/raw/search_digest_turn1.md",
-      "sha256": "a1e74f40d4cba7f8784a61b7956a8722a2b8e3c809f2898405c68a2ab34c2eb6"
-    },
-    {
-      "bytes": 1219,
-      "path": "handoff/attention_required.md",
-      "sha256": "00280e55d82ef06bd9cc01f6785b00c1c6be1eba32989dc1e011d08daa0a2a62"
-    },
-    {
-      "bytes": 21023,
+      "bytes": 22010,
       "path": "kb/claims.jsonl",
-      "sha256": "ced716ae1af9b749ee8ff1c3ee70eeb24ab4fb9dbe0f1549af5a3c74de95a926"
+      "sha256": "f717a61c73e1c2937fd6a26b0b183221d64dca1bf14903c110d52590c0c6f27c"
     },
     {
-      "bytes": 2318,
-      "path": "logs/control.json",
-      "sha256": "ece1a3e407a9085c14a5f3e47daa710416570c3faadd3debb327ee1ebdddf5c5"
-    },
-    {
-      "bytes": 3260,
-      "path": "logs/exits/step0_setup.exit.json",
-      "sha256": "3a8ce06d68fcee16388b6cb83d6c019bd2035a2d6b16166c05b45fa846552eae"
-    },
-    {
-      "bytes": 2829,
-      "path": "logs/issues.jsonl",
-      "sha256": "91bf3752d7d10536207b912f83bea95dfd7446002bd5f08f0e76d907794b4f61"
-    },
-    {
-      "bytes": 2670,
+      "bytes": 2851,
       "path": "logs/operations.jsonl",
-      "sha256": "46b0267959bd0c0cf90421cff4213f8fd24e228ee05517f847a73f6f0710ae70"
+      "sha256": "25c5227a54b1876951f3e8201c1b543449dbb46c7d6420b53553893f941c5cc6"
     },
     {
-      "bytes": 746,
-      "path": "logs/receipt_turn-d59cdfff91f0.reconstructed.json",
-      "sha256": "374c15ff7e4944c02d7093a83185a39377a249d4a554f714181bb70fc1e23749"
+      "bytes": 581,
+      "path": "logs/receipts_pending/turn-92415f3ba2c1.json",
+      "sha256": "cc81a02caa6921af100642117f876b3ce535da8aed50607e436fd4d9b5c4b20d"
     },
     {
-      "bytes": 5472,
-      "path": "logs/revisions.jsonl",
-      "sha256": "270a489eb3b47c54bfbc1d886d6371a6f890d8cf53461a8f3f0e4e9cf6c02f79"
-    },
-    {
-      "bytes": 62183,
+      "bytes": 65609,
       "path": "logs/sources_visited.json",
-      "sha256": "57d4c108eeda025bea6ef0a2f25a515192be981c201a58f473c9e581df9e3c49"
-    },
-    {
-      "bytes": 1789,
-      "path": "profile/user.json",
-      "sha256": "0a1b8b0efa4eac6e6997ee726acc6bb4d46e230e9179adc4ab09a366c97ee52f"
-    },
-    {
-      "bytes": 7907,
-      "path": "research/turn1_discovery.md",
-      "sha256": "87d80a739cd30e9903c180b1fbfd85248ad570447143d9af168f5cfb7b47b4fa"
-    },
-    {
-      "bytes": 900,
-      "path": "schemas/claim.schema.json",
-      "sha256": "83b1c51b2b382e2a969b30b88ea27a8b16b19783f63e07c96fc4e16f19fd898c"
-    },
-    {
-      "bytes": 1324,
-      "path": "schemas/control.schema.json",
-      "sha256": "0635406484f9e96e982953da2d14a2fc018c3530875b77c73e970f03832cef9a"
-    },
-    {
-      "bytes": 913,
-      "path": "schemas/sources_visited.schema.json",
-      "sha256": "3f8a5a76673fc61460e91e59f2fb5eedfb6d7e3094d999d113eaa77390b9ad1d"
-    },
-    {
-      "bytes": 1015,
-      "path": "schemas/turn_manifest.schema.json",
-      "sha256": "8106f8ec9f06ea801219bc0dc6e5a69f71062f8df948a29e9ad6917e286e9419"
-    },
-    {
-      "bytes": 12507,
-      "path": "tools/checkpoint.py",
-      "sha256": "44e85947598fc2f221ba31e48b5364962c381ec8cecc079e9daaf185e4213207"
-    },
-    {
-      "bytes": 5845,
-      "path": "tools/frontier.py",
-      "sha256": "e48031126dd9415a6db70a354a6d30be4f22dca458c7e09c9fb45ea5390c144f"
-    },
-    {
-      "bytes": 15880,
-      "path": "tools/protocol.py",
-      "sha256": "9ec1db162ac18bb8de695c1ec67ce1a9ac519e47877cc93878c893a52bc896dd"
+      "sha256": "37cb617837d72b71fa12ac5c27de466dfdb3b80ba33871b8febf6280c7eebffc"
     }
   ],
-  "checkpoint_nonce": "nonce-ab9968df0f5f42d5",
+  "checkpoint_nonce": "nonce-d912d3f9fd294737",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-10T21:22:00Z",
+  "created_at": "2026-10-10T21:35:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "6768e33c62778a45ec1162da1eac4199727700b0",
+  "parent_commit": "2bc405dc156adae64c27c9fb793ce8bd2a55b632",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
-  "reconciliation": {
-    "at_utc": "2026-10-10T21:25:00Z",
-    "corrected_parent": "6768e33c62778a45ec1162da1eac4199727700b0",
-    "defective_local_parent": "fb9a2c025ec267f6b787382766ce44c7e373d091",
-    "policy": "same logical turn identity/nonce/sequence retained; no force push, no remote rewrite; explicit reconciliation per OMEGA-RECOVERY-001",
-    "reason": "workspace git refs reset to fb9a2c0 between turns (ISS-0004 recurrence) caused checkpoint to be committed on the wrong parent; publish rejected (remote contains work not in local history)"
-  },
   "schema": "turn_manifest-1.0",
-  "sequence": 10,
+  "sequence": 11,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -296,17 +69,16 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-92415f3ba2c1",
+  "turn_id": "turn-b1745077cb64",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-10T21:22:00Z",
-    "executed_fail": [
-      "first wrap attempt failed: .omega/journal missing (ISS-0004 recurrence) at meta write; mkdir + rewrap succeeded same turn"
-    ],
+    "bluff_check_at": "2026-10-10T21:35:00Z",
+    "executed_fail": [],
     "executed_pass": [
-      "EV-127/128 persisted",
-      "CLAIM-023 added",
+      "EV-129/130 persisted",
+      "CLAIM-024 added",
+      "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
-      "protocol+prepare+publish executed in recovery wrap"
+      "protocol+prepare+publish executed"
     ],
     "not_run": [
       "release-check suite (debt)",
