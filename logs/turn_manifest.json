@@ -1,70 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1337,
+      "bytes": 1216,
       "path": "HANDOFF.md",
-      "sha256": "8770ec8b6161e16746de26599820090f73dadc032e15eda64c629c1fd022520b"
+      "sha256": "9f2ecb030ae124e903978cb1dca816688c7a1a88dc53d7f2a26dfdc4b15bafcf"
     },
     {
-      "bytes": 1126,
-      "path": "evidence/extract/EV-207_support_game_difficulty.md",
-      "sha256": "084215fb74d7aa7e3ab9de02f7b354e3a0209eb60deb62b1611d43bf7fc808b2"
+      "bytes": 1295,
+      "path": "evidence/extract/EV-209_support_dll_matchmaking.md",
+      "sha256": "fd40fdc5ce55f993b0075f45f6a7e80cb4c8d7eaa2a0841d3fedb7ffb4cba73b"
     },
     {
-      "bytes": 818,
-      "path": "evidence/extract/EV-208_support_add_friend_scorematch_scope.md",
-      "sha256": "6c03e2ae1a8cf0f9ddf4c6c6e2f4597f41133c0c397e5e338a91255a20486946"
+      "bytes": 716,
+      "path": "evidence/extract/EV-210_support_change_kit.md",
+      "sha256": "385da350da0ca3bd202b4ece3503b6045da310a54a23a7b52a7b67d0eea6cf32"
     },
     {
-      "bytes": 39191,
+      "bytes": 39910,
       "path": "evidence/index.jsonl",
-      "sha256": "05b265bc1748573d0cdac71a2fa40b1233729f6963a96ccd961e7413963280be"
+      "sha256": "b1266a59b8280fb16ba13e596a955f30795da5b295b1988217b71ebf88ea2bbb"
     },
     {
-      "bytes": 81401,
+      "bytes": 82929,
       "path": "kb/claims.jsonl",
-      "sha256": "4c9a2ffd7ead7b8bce55caa4bfb886fc85b268a68cbe7273140d23437e8e040a"
+      "sha256": "906e6d5bcfa13b4e9733ef0d5dc3e0bb8f2dabdcf334aea4a01e9c161f6b1864"
     },
     {
-      "bytes": 2265,
+      "bytes": 2222,
       "path": "logs/control.json",
-      "sha256": "f8f2a266159c92fd6c5e5a1663c2beb654e5b30206fbe5aa31f8bac6618fab7d"
+      "sha256": "d11743284e9be9dcd062fe2c2cc38469746ff7e719f5c87516111c83fe37b73d"
     },
     {
-      "bytes": 14318,
+      "bytes": 14647,
       "path": "logs/operations.jsonl",
-      "sha256": "3be84f87d85d7339e112583e8525ce13a9d6675ce1c1b1e3f413d0e083cd712e"
+      "sha256": "a42f210daff42811cce43b05fe497b3e63225207ed6d4e5e22b151e591d3b02b"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-985d9764bcbb.json",
-      "sha256": "9205094efedc3f6a2381bcd14ee1e3c7f25396980d7a1573861780653ec4e2a5"
+      "path": "logs/receipts_pending/turn-fa0d8e7684f6.json",
+      "sha256": "49b3bcc88e3d7f7c35a85ccfc7c89068be844f102641fb2f5a28c864228057eb"
     },
     {
-      "bytes": 133810,
+      "bytes": 134906,
       "path": "logs/sources_visited.json",
-      "sha256": "95aed3bf9e38eb157c07f4d5f0d9bd4cf887a625bafa2899138e48a2d722f46f"
+      "sha256": "630860131eb54c1f633daec4eb41bf6bce43b36ee546a30652078b6f13edccda"
     }
   ],
-  "checkpoint_nonce": "nonce-780770f1b216de39",
+  "checkpoint_nonce": "nonce-d4e15722ba16d889",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T16:53:04Z",
+  "created_at": "2026-10-11T16:58:13Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "db31f2f11197fbc1f633b38ee9112d169aafb6e2",
+  "parent_commit": "ae252233be7d35cb6b4bb05b9cd80a902f7df46a",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 57,
+  "sequence": 58,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,16 +74,14 @@
     "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-fa0d8e7684f6",
+  "turn_id": "turn-63850647d644",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T16:53:04Z",
+    "bluff_check_at": "2026-10-11T16:58:13Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-207/208 + CLAIM-080 persisted; CLAIM-044 reinforced",
-      "no-bot DLL statement recorded as publisher claim (challenge honest)",
-      "add-friend-dls dispositioned NON_CONNECTED with scope proof (both articles now dispositioned)",
-      "dll-matchmaking admitted before serve (PRIORITY)",
-      "cursors honest (game-difficulty complete)",
+      "EV-209/210 + CLAIM-081 persisted; CLAIM-027/074 updated",
+      "matchmaking official list recorded; recent-results divergence preserved (not merged)",
+      "cursors honest (both refs complete 1/1)",
       "mkdir+.omega verified; defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"

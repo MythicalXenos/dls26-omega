@@ -1,0 +1,3 @@
+# EV-210 (full 1/1) — OFFICIAL support: How do I change my kit? 7916959134737 (ref-support-change-kit)
+source: https://support.ftgames.com/hc/en-us/articles/7916959134737-How-do-I-change-my-kit | official-support | fetched 2026-10-11T17:22Z
+OPERATIVE CONTENT: Main Menu > "My Club" section > kit section > edit current **home and GK kit**. (DLS26 UI surface naming = 'My Club'; this terse article covers home+GK editing only — richer kit/logo controls incl. away/trim/imports live in kit-logo 360004080497 (EV-200), surface names there = 'Customise'; both routes may coexist across versions.) Related: kit-logo (served); DLSC/DLS19/FTS15 kit articles (known NC); kit-visible-live 360021064298 (RETRYABLE known).
