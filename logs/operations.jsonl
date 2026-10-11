@@ -36,3 +36,4 @@
 {"at_utc": "2026-10-11T00:42:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "signin-google-setup EV-163 + user-id-rev2 EV-164 (Score! Hero)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-35"}
 {"at_utc": "2026-10-11T00:50:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "video-clips-rev2 EV-165 (family closed) + data-deletion EV-166", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-36"}
 {"at_utc": "2026-10-11T01:02:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "icloud-setup EV-167 + user-id-rev3 EV-168 (support family closed)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-37"}
+{"at_utc": "2026-10-11T01:10:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "core-principles EV-169 + terms-of-use EV-170 (mission + ops constraint)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-38"}

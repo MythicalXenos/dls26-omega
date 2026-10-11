@@ -764,14 +764,21 @@
     {
       "admission_seq": 64,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-169",
       "family": "official-web",
       "projections": [
         "fair-play policy"
       ],
       "ref_id": "ref-official-core-principles",
-      "status": "UNVISITED",
-      "ticket_seq": 64,
+      "service_events": [
+        {
+          "at": "2026-10-11T01:10:00Z",
+          "event": "extract",
+          "seq": 220
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 220,
       "url": "https://www.ftgames.com/core-principles"
     },
     {
@@ -1445,14 +1452,21 @@
     {
       "admission_seq": 114,
       "discovered_at": "2026-10-10T20:48:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "full text chunks 0/4 EV-170; chunks 1-3 residual",
       "family": "official-web",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-official-terms",
-      "status": "UNVISITED",
-      "ticket_seq": 114,
+      "service_events": [
+        {
+          "at": "2026-10-11T01:10:00Z",
+          "event": "extract",
+          "seq": 221
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 221,
       "url": "https://www.ftgames.com/terms-of-use"
     },
     {
@@ -2290,12 +2304,13 @@
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
     "MISSION follow-ups from EV-162: resolve Progress Bank basis conflict (Season Points vs DLL XP wording); Season VIP concept unexplored; \"Season Points purchasable in Shop\" affects fair-grind expectations",
-    "after support: family switches \u2014 ftgames.com core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community; reddit family",
     "SUPPORT FAMILY CLOSED except contact 360000309705 (admitted; low priority) + assorted RETRYABLE_FAILURE re-discoveries",
-    "NEXT FAMILY: ftgames.com core-principles (MISSION: fair-gaming policy) + terms-of-use, then play listing chunk 1/2 + apps.apple.com version history, then sakibpro tools x3 + PT/ID community + reddit family"
+    "terms-of-use chunks 1-3 (residual projections on the same ref)",
+    "MISSION/OPS NOTE: EULA 2.1.1 bans reverse engineering/decompilation; 2.1.2 bans automation software/bots/hacks/mods/unauthorized third-party software; 2.1.3 bans non-UI access -> CONSTRAINS Step 2 static analysis + Step 3 device pipeline design (must be UI-driven only, no RE, no automation that FTG could deem conflicting)",
+    "next: play listing chunk 1/2 + apps.apple.com version history, then sakibpro tools x3 + PT/ID community + reddit family"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 219,
+  "sequence_counter": 221,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2994,6 +3009,20 @@
       "event": "extract",
       "ref_id": "ref-support-user-id-rev3",
       "seq": 219
+    },
+    {
+      "at_utc": "2026-10-11T01:10:00Z",
+      "detail": "fair-gaming charter + matchmaking recent-results input",
+      "event": "extract",
+      "ref_id": "ref-official-core-principles",
+      "seq": 220
+    },
+    {
+      "at_utc": "2026-10-11T01:10:00Z",
+      "detail": "EULA 25 Jul 2025; obligations 2.1; authorized stores",
+      "event": "extract",
+      "ref_id": "ref-official-terms",
+      "seq": 221
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -3051,6 +3080,10 @@
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
       "served_count": 62,
       "ticket_seq": 219
+    },
+    "official-web": {
+      "served_count": 2,
+      "ticket_seq": 221
     }
   }
 }

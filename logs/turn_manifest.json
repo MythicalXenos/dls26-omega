@@ -1,65 +1,65 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1278,
+      "bytes": 1221,
       "path": "HANDOFF.md",
-      "sha256": "7bc6b5a9fd5bfe3bc4bd3a1d64ce30ce8b8fd9ac6b7ca337d4cd74e2ffddc472"
+      "sha256": "93650456d8e8b290824a776ee20e594ba5e54076e5408b9e4a7f2808ca2d1be3"
     },
     {
-      "bytes": 806,
-      "path": "evidence/extract/EV-167_support_icloud_setup.md",
-      "sha256": "e1603dba7cc15b44ca364fc5d8d9de0f07fdef639d36ae3d76bcade141cb4448"
+      "bytes": 1275,
+      "path": "evidence/extract/EV-169_officialweb_core_principles.md",
+      "sha256": "53b76126a6e36ac81e7b6d5af0edf5a986e628d5bfd7d66376c2c3a0489dbffa"
     },
     {
-      "bytes": 494,
-      "path": "evidence/extract/EV-168_support_user_id_rev3.md",
-      "sha256": "702f82060b18c1569504405f2c42feb5873c910825a772327c28b1a29120c7ca"
+      "bytes": 1474,
+      "path": "evidence/extract/EV-170_officialweb_terms_of_use.md",
+      "sha256": "8c49377f91455461a46326ad706645dd1fffad6ce677e4d87f9f64df9e51caec"
     },
     {
-      "bytes": 24079,
+      "bytes": 24747,
       "path": "evidence/index.jsonl",
-      "sha256": "022c9162b0861a7f8ec5436a2dcd5e0f2872fcdacf3376cadba6c3c20beb9882"
+      "sha256": "16c50aa4f7067952c19ae1242a0f35221b82e14228f5efc39a39554c11290c51"
     },
     {
-      "bytes": 36369,
+      "bytes": 38483,
       "path": "kb/claims.jsonl",
-      "sha256": "6c95d6ec2f482076a253c11376ccdfb521a851199addc8cef6f0ce3d8a3f6567"
+      "sha256": "eb6f23e504312df7de9a54638ad2990496b7d943a7ea4bf7454246364b6117b7"
     },
     {
-      "bytes": 8024,
+      "bytes": 8246,
       "path": "logs/operations.jsonl",
-      "sha256": "c03f385ee717667c3b8ce2cd4fcb092f3f9ca30f0314fae06139748cd1236af5"
+      "sha256": "70e1b80c42188b9b61ab068becbe25f9d3f109318312d27f07d2cbe61f1cc8e6"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-c07952ef3e50.json",
-      "sha256": "b962f34b0d836e8c3d8066ded0820c9a9ac92c328e77523df22a8df68d0171fb"
+      "path": "logs/receipts_pending/turn-c0c3d45da1bd.json",
+      "sha256": "e3006accf1a6e5af7e02f54ab528e7349032393155deb95c492fe54a32c96a75"
     },
     {
-      "bytes": 104493,
+      "bytes": 105469,
       "path": "logs/sources_visited.json",
-      "sha256": "8618206864f0b7639afe14f04f1ad65f07ec94dc244a5a51eff781a44fd93e00"
+      "sha256": "1b3822a8213d60305a76663eb6f3a82b55a0949c368efe0ab3db0e5d02719261"
     }
   ],
-  "checkpoint_nonce": "nonce-af5e2e1af3b84d3c",
+  "checkpoint_nonce": "nonce-ab3bc9dccf114c8f",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T01:02:00Z",
+  "created_at": "2026-10-11T01:10:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "1bff8e60db1d3d673e2169e29c32413c0d3333be",
+  "parent_commit": "5875322aa634c3948ffeea3624c2c7b8525c98aa",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 37,
+  "sequence": 38,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,16 +69,13 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-c0c3d45da1bd",
+  "turn_id": "turn-dad550c075c0",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T01:02:00Z",
-    "executed_fail": [
-      "first wrap attempt KeyError (icloud ref missing; zero side effects); ref re-admitted and wrap re-run"
-    ],
+    "bluff_check_at": "2026-10-11T01:10:00Z",
+    "executed_fail": [],
     "executed_pass": [
-      "EV-167/168 + CLAIM-042 (Disputed) persisted",
-      "user-id family complete; support family closed",
-      "contact ref admitted",
+      "EV-169/170 + CLAIM-043/044 persisted",
+      "EULA ops constraint flagged for Steps 2/3",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"
