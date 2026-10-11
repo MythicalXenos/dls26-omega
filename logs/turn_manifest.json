@@ -1,70 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1274,
+      "bytes": 1227,
       "path": "HANDOFF.md",
-      "sha256": "3f30e8425831ae077a8a9079de464d9fafc21f6814d938d778d9272ad4ed6bdd"
+      "sha256": "d438e5c27b0611477146daa228588339dc0d0a67460f0607a022851596e171e1"
     },
     {
-      "bytes": 916,
-      "path": "evidence/extract/EV-211_support_restart_career.md",
-      "sha256": "d16317b5d290efcc3bd854de4f4548b0a0e863a6de1ea93961a26dc33f18ac46"
+      "bytes": 1269,
+      "path": "evidence/extract/EV-213_support_save_data_model.md",
+      "sha256": "7d94b1873272b11afe1b94dfee95a1e80f7ab56a76f73fb5ca9e4267236e1d04"
     },
     {
-      "bytes": 1067,
-      "path": "evidence/extract/EV-212_support_data_deletion_v2.md",
-      "sha256": "129d16bdcd9e7dbf03b834a906fcbc9c55d0142ff4fb52c35bc3855c9fa7f4af"
+      "bytes": 618,
+      "path": "evidence/extract/EV-214_support_fb_removal_dls.md",
+      "sha256": "03e8d98ef440026667ab94a49eb90232912564a3c918013ea48bee80b24f2616"
     },
     {
-      "bytes": 40645,
+      "bytes": 41390,
       "path": "evidence/index.jsonl",
-      "sha256": "48096787c134ffa9c46576c99aee0142c49c0f55586ba50cd3309d7676e0153b"
+      "sha256": "b7502479dc052c94c28bf1c27234b0290607f0fb852b8e454a3381bf94e795f9"
     },
     {
-      "bytes": 84283,
+      "bytes": 85935,
       "path": "kb/claims.jsonl",
-      "sha256": "fd0a5b207b129b04892910ab80c3624f07c12f28a41c39eaa64cba083f4caabc"
+      "sha256": "e9dad2f65e0a766e476501ba78f260b391d66eedc9784e45813aac20cd1b171f"
     },
     {
-      "bytes": 2259,
+      "bytes": 2231,
       "path": "logs/control.json",
-      "sha256": "0d971dee57560cfbb2e337700b7378d28a99ab5480c9b0db075ab8d03ee26992"
+      "sha256": "b981e94330bfde1f272a8ee0b5f3f5ca3f517d0c2d9b08234518d56d4be87a20"
     },
     {
-      "bytes": 14967,
+      "bytes": 15262,
       "path": "logs/operations.jsonl",
-      "sha256": "d6620184a98a08ef14fa49cf1ad65b7f9c8d41f39d786ded05faca359a141c84"
+      "sha256": "e44aac4d23ed68a935ce5e548a048d8757ac26c0ffbd4818ac2db69b8a4b8e2b"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-63850647d644.json",
-      "sha256": "63e7cbf79f9e93ade6401730e9bda6142c4ad5c64f21302a9e83db5bfd7c9077"
+      "path": "logs/receipts_pending/turn-d3767b4d955f.json",
+      "sha256": "10250b55deeaa1d87d2903eff6c86fd24264eba66809b5ebccfea9957e6e4c11"
     },
     {
-      "bytes": 137118,
+      "bytes": 138149,
       "path": "logs/sources_visited.json",
-      "sha256": "a9b578b95b2823db3133b37bd7f9e6c75bdfa8aae09362b7f5167485ad69bc13"
+      "sha256": "1131617b7f567cc2a24ae78c515940405021ee40012609626dad695d3e9ce9e1"
     }
   ],
-  "checkpoint_nonce": "nonce-3ad1baed9b27b9f4",
+  "checkpoint_nonce": "nonce-17232dc3b8e61903",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:00:24Z",
+  "created_at": "2026-10-11T17:02:34Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "c31dd2117eed9aade268dcf3cc713c0a67f13ff9",
+  "parent_commit": "e769a97f5246045b79db304edd84fdcc20f681d9",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 59,
+  "sequence": 60,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,14 +74,13 @@
     "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-d3767b4d955f",
+  "turn_id": "turn-22ed718d1d84",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:00:24Z",
+    "bluff_check_at": "2026-10-11T17:02:34Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-211/212 + CLAIM-082 persisted; CLAIM-041 refined (countdown+Cancel, 30-day reset)",
-      "destructive surfaces hard-blocked in automation policy",
-      "3 save-data refs admitted before serve",
+      "EV-213/214 + CLAIM-083 persisted; CLAIM-022 updated; CLAIM-042 dispute annotated",
+      "sign-out hazard + code-transfer rules recorded for Step 3/5 device pipeline",
       "cursors honest (both refs complete 1/1)",
       "mkdir+.omega verified; defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",

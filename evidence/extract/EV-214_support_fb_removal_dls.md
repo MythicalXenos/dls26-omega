@@ -1,0 +1,3 @@
+# EV-214 (full 1/1) — OFFICIAL support: Removal of Facebook Login from DLS 9804887423121
+source: https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS | official-support | fetched 2026-10-11T17:42Z
+OPERATIVE CONTENT (verbatim): "Facebook Login was removed from DLS several years ago and it is no longer possible to recover profiles that were previously stored via. Facebook Login. Please ensure that you use 'Sign in with Apple' (iOS 13 and above) or 'Sign in with Google' to secure your profile." => OFFICIAL confirmation of EV-198 mirror; FB-era profiles permanently gone.

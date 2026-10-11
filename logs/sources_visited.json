@@ -3067,31 +3067,45 @@
    "admission_seq": 298,
    "discovered_at": "2026-10-11T17:00:24Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-213 — account model",
    "family": "official-support",
    "note": "save-data storage/transfer (CLAIM-022/042 domain)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-save-data-dls",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 298,
-   "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS"
+   "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:02:34Z",
+     "event": "extract",
+     "seq": 300
+    }
+   ]
   },
   {
    "admission_seq": 299,
    "discovered_at": "2026-10-11T17:00:24Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-214 — FB gone officially",
    "family": "official-support",
    "note": "FB-login removal (DLS) — complements EV-198",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-fbremoval-dls",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 299,
-   "url": "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS"
+   "url": "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:02:34Z",
+     "event": "extract",
+     "seq": 301
+    }
+   ]
   }
  ],
  "residual_debt": [
@@ -3268,10 +3282,17 @@
    "Destructive surfaces mapped (CLAIM-082): Reset 30-day cooldown wipes IAP; Delete Profile countdown+Cancel — hard-block in automation",
    "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation season pool (CLAIM-077); licensing gaps (CLAIM-079)",
    "reddit family ACCESS_BOUNDARY (probe when convenient); terms chunks 1-3; player-diamonds; support-contact"
+  ],
+  [
+   "t60: backup-restore 214387685 (stale-risk) + dls19-profile 360004717278 owed next; then reddit probe (ISS-0006)",
+   "t60: owed support: restart-career-3rd 3600017167418, obtain-players, graphics-old, video-clips-new, next-update, age-policies; stale-risk trio; RETRYABLE pair; player-look/player-stats comment chunks",
+   "Account model mapped (CLAIM-083): sign-in pinned, never sign out, code transfer cross-platform; device limit value unknown",
+   "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation season pool (CLAIM-077); licensing gaps (CLAIM-079)",
+   "terms chunks 1-3; player-diamonds; support-contact"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 299,
+ "sequence_counter": 301,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
