@@ -1,0 +1,2 @@
+# EVD-0005 — page-missing record (no information extracted)
+ref-support-connection-required (360004575718) and ref-support-device-compat (360004441177): both fetches 2026-10-10T21:48Z returned the Zendesk "oops / page you were looking for doesn't exist" stub. STATUS: PAGE_MISSING. Topics: "Why do I need an internet connection to play DLS" and "Which devices are compatible with DLS" — substantially covered by EV-128 and EV-132 comments respectively. Re-discovery via help-center search owed.
