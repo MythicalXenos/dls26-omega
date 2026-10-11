@@ -1,70 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1495,
+      "bytes": 1421,
       "path": "HANDOFF.md",
-      "sha256": "4e7a0aa4151db30028d8b5d6bed0d6ce0a81fd18dbea3905497f7700fccf617a"
+      "sha256": "50e99d54beef4b099b3426c44bc10d0e7b05071e7fa90ab19cd90eeeda7b9933"
     },
     {
-      "bytes": 1382,
-      "path": "evidence/extract/EV-187_dreamkitsapp_data_taxonomy.md",
-      "sha256": "36fdb12539e1be5aae93d8a164f935246f882d43244dcffc7ae319783aa1038f"
+      "bytes": 1631,
+      "path": "evidence/extract/EV-189_pt_gameoverdrive_stats_and_specials.md",
+      "sha256": "ef37f054852ecbb9c63553d38529dc4c37943af69c5f0cfb1cd5a98f1e8c480c"
     },
     {
-      "bytes": 1242,
-      "path": "evidence/extract/EV-188_dreamkitsapp_players_catalog.md",
-      "sha256": "fef6dfd5e10fa55bf1db8b95f635ddbe706ce844e8aff1b85bf39b4323878a10"
+      "bytes": 1139,
+      "path": "evidence/extract/EV-190_dreamkitsapp_data_best_players.md",
+      "sha256": "91bc60b89eecab4b41438a5bedbc6fcfbb71187fb685d8bd5e9e728378790b82"
     },
     {
-      "bytes": 31552,
+      "bytes": 32311,
       "path": "evidence/index.jsonl",
-      "sha256": "6bdb65c6221257c6d9e6f3d91b707330b0a780a9ac92ea7cd765d7b06c0e7000"
+      "sha256": "42424f6a29f2fa5e767c088c06d57e592fbe589551a12259b614012967e3d867"
     },
     {
-      "bytes": 57172,
+      "bytes": 58861,
       "path": "kb/claims.jsonl",
-      "sha256": "b5ea2fd1770b8eaaa62abedc8be7cfcf1b2cef45d1f83ca1d06c5c31933df5bb"
+      "sha256": "9f9751eeb023dc7dfdd73c368b7c78b2a5c3c440bbbd1a68195bdae42cfe0513"
     },
     {
-      "bytes": 2255,
+      "bytes": 2195,
       "path": "logs/control.json",
-      "sha256": "d2c839c44c0a748800ccebba8f8643f29daeff53e00a9e5689c3426fbca552e0"
+      "sha256": "c181c1f34563777ecd22215a2127c244075d019e7d2074b85bc7c64b2ab904bb"
     },
     {
-      "bytes": 10691,
+      "bytes": 11014,
       "path": "logs/operations.jsonl",
-      "sha256": "96fc029fd853329993f5b8f0a58727e31e636790a7ec161ce7892c5232f47617"
+      "sha256": "ce5be5b2f683800fc577ee32aceae7037093cd05a45a475b529e8b2b769dd25b"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-ce552292785d.json",
-      "sha256": "6135475b991c440e9b14d13eb3d9b83552925df556d5fd022fa499f500815a4a"
+      "path": "logs/receipts_pending/turn-8dc08b19ebe9.json",
+      "sha256": "e5800fb472f00fdffbf40292aa88f2e66bf72585fad430e8301bcd39050ed5b7"
     },
     {
-      "bytes": 108625,
+      "bytes": 109560,
       "path": "logs/sources_visited.json",
-      "sha256": "5f4ed6955b3515ef91d7aa6ec6b168576ede07395abe8366d1d26029eaf64e55"
+      "sha256": "43b4a67d018dc7e10d3592b9eae49baa7e5fbd4a8d8355fc53ad22946e83a8b4"
     }
   ],
-  "checkpoint_nonce": "nonce-adbc31b064de5dfb",
+  "checkpoint_nonce": "nonce-e2fc1af1e652bb50",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T11:22:31Z",
+  "created_at": "2026-10-11T11:25:31Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "e2231a491cbb60908ab475eef7f3715fdc8a0b95",
+  "parent_commit": "e41ad2de99e8ca208abc80ec2136aaafe4b19ca4",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 47,
+  "sequence": 48,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,14 +74,14 @@
     "host_calls_total_approx": 7,
     "search_calls": 0
   },
-  "turn_id": "turn-8dc08b19ebe9",
+  "turn_id": "turn-7a8f72395ed4",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T11:22:31Z",
+    "bluff_check_at": "2026-10-11T11:25:31Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-187/188 + CLAIM-059/060 persisted; CLAIM-058 updated (96-vs-86 tension)",
-      "card taxonomy cross-check done (multi-scheme preserved, no forced unification)",
-      "cursors honest (dreamkitsapp-data 0/2; players complete)",
+      "EV-189/190 + CLAIM-061 persisted; CLAIM-058/060 updated (t258 special group, tension narrowed not closed)",
+      "special-card versioning rule recorded (card-version discipline for all future rank talk)",
+      "cursors honest (gameoverdrive 0-1/4; dreamkitsapp-data complete)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"
