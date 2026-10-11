@@ -677,15 +677,23 @@
     {
       "admission_seq": 60,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "404 oops 2026-10-11; stale id 360005678698; re-discovery owed (MISSION-ADJACENT: season pass)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-season-pass-rev1",
       "revision_of": "ref-support-season-pass",
-      "status": "UNVISITED",
-      "ticket_seq": 60,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:10:00Z",
+          "detail": "404 -> RETRYABLE_FAILURE",
+          "event": "extract",
+          "seq": 206
+        }
+      ],
+      "status": "RETRYABLE_FAILURE",
+      "ticket_seq": 206,
       "url": "https://support.ftgames.com/hc/en-us/articles/17143633310225-What-is-the-Season-Pass"
     },
     {
@@ -2081,15 +2089,22 @@
       "admission_seq": 197,
       "discovered_at": "2026-10-10T23:54:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-160 \u2014 identical body to EV-134 (duplicate-content)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-video-clips-rev",
       "revision_of": "ref-support-video-clips",
-      "status": "UNVISITED",
-      "ticket_seq": 197,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:10:00Z",
+          "event": "extract",
+          "seq": 205
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 205,
       "url": "https://support.ftgames.com/hc/en-us/articles/7917682153361-I-am-not-seeing-any-video-clips-what-can-I-do"
     },
     {
@@ -2106,6 +2121,34 @@
       "status": "UNVISITED",
       "ticket_seq": 200,
       "url": "https://support.ftgames.com/hc/en-us/articles/37083217732882-How-do-I-find-my-User-ID"
+    },
+    {
+      "admission_seq": 203,
+      "discovered_at": "2026-10-11T00:10:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "note": "third video-clips id (family)",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-video-clips-rev2",
+      "status": "UNVISITED",
+      "ticket_seq": 203,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360017166898-I-am-not-seeing-any-video-clips-what-can-I-do"
+    },
+    {
+      "admission_seq": 204,
+      "discovered_at": "2026-10-11T00:10:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-what-ucs",
+      "scope_proof": "article title names \"different game\"",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 204,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7916118205457-What-is-Ultimate-Clash-Soccer"
     }
   ],
   "residual_debt": [
@@ -2135,11 +2178,12 @@
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
     "after support tail: season-pass revs, signin setup guides x2, data-deletion; then family switches (FTG core-principles/terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community)",
-    "support owed next: video-clips-rev 7917682153361 + season-pass-rev1 360005678698, then season-pass-rev2 360005678818 + signin-apple 360009450097",
-    "then: signin-google 9580096555281 + user-id-rev2 37083217732882; then data-deletion 360017046578; support family nearly closed"
+    "then: signin-google 9580096555281 + user-id-rev2 37083217732882; then data-deletion 360017046578; support family nearly closed",
+    "MISSION: season-pass articles 404 on stale ids; after rev2 attempt, run help-center SEARCH \"Season Pass\" + \"leaderboard\" for valid ids",
+    "support owed next: season-pass-rev2 360005678818 + signin-apple 360009450097, then signin-google 9580096555281 + user-id-rev2 37083217732882, then video-clips-rev2 360017166898 + data-deletion 360017046578"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 202,
+  "sequence_counter": 206,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2754,6 +2798,20 @@
       "event": "extract",
       "ref_id": "ref-support-user-id-rev",
       "seq": 202
+    },
+    {
+      "at_utc": "2026-10-11T00:10:00Z",
+      "detail": "duplicate body of EV-134",
+      "event": "extract",
+      "ref_id": "ref-support-video-clips-rev",
+      "seq": 205
+    },
+    {
+      "at_utc": "2026-10-11T00:10:00Z",
+      "detail": "HTTP 404 -> RETRYABLE_FAILURE (mission-adjacent; search rediscovery priority)",
+      "event": "extract",
+      "ref_id": "ref-support-season-pass-rev1",
+      "seq": 206
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2809,8 +2867,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 53,
-      "ticket_seq": 202
+      "served_count": 54,
+      "ticket_seq": 205
     }
   }
 }
