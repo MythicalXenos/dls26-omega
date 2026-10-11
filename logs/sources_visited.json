@@ -147,7 +147,7 @@
     {
       "admission_seq": 2,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "chunks 0/6 captured EV-172; 1-6 residual (version history target)",
+      "extraction_cursor": "chunks 0-1/6 captured (EV-172/173); 2-6 residual (version history)",
       "family": "official-stores",
       "projections": [
         "version history / release notes",
@@ -159,10 +159,15 @@
           "at": "2026-10-11T01:18:00Z",
           "event": "extract",
           "seq": 223
+        },
+        {
+          "at": "2026-10-11T01:26:00Z",
+          "event": "extract",
+          "seq": 224
         }
       ],
       "status": "IN_PROGRESS",
-      "ticket_seq": 223,
+      "ticket_seq": 224,
       "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602"
     },
     {
@@ -1365,14 +1370,21 @@
     {
       "admission_seq": 103,
       "discovered_at": "2026-10-10T20:20:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-174",
       "family": "databases-tools",
       "projections": [
         "tool extraction"
       ],
       "ref_id": "ref-db-sakibpro-trending",
+      "service_events": [
+        {
+          "at": "2026-10-11T01:26:00Z",
+          "event": "extract",
+          "seq": 225
+        }
+      ],
       "status": "UNVISITED",
-      "ticket_seq": 103,
+      "ticket_seq": 225,
       "url": "https://sakibpro.com/players/trending.php"
     },
     {
@@ -2320,10 +2332,11 @@
     "terms-of-use chunks 1-3 (residual projections on the same ref)",
     "MISSION/OPS NOTE: EULA 2.1.1 bans reverse engineering/decompilation; 2.1.2 bans automation software/bots/hacks/mods/unauthorized third-party software; 2.1.3 bans non-UI access -> CONSTRAINS Step 2 static analysis + Step 3 device pipeline design (must be UI-driven only, no RE, no automation that FTG could deem conflicting)",
     "appstore chunks 1-6 residual (WHAT'S NEW/version history hunt = mission version-discrepancy work)",
-    "next: appstore chunk 1 + ref-db-sakibpro-trending (players/trending.php), then price-calc + compare, then PT/ID community + reddit family"
+    "appstore chunks 2-6 (version history hunt continues)",
+    "next: appstore chunk 2 + ref-db-sakibpro-price-calc (players/price-calculator.php), then ref-db-sakibpro-compare + PT/ID community start"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 223,
+  "sequence_counter": 225,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -3050,6 +3063,20 @@
       "event": "extract",
       "ref_id": "ref-store-appstore",
       "seq": 223
+    },
+    {
+      "at_utc": "2026-10-11T01:26:00Z",
+      "detail": "reviews chunk (community sentiment)",
+      "event": "extract",
+      "ref_id": "ref-store-appstore",
+      "seq": 224
+    },
+    {
+      "at_utc": "2026-10-11T01:26:00Z",
+      "detail": "17-player roster update; card types CLASSIC/CULT HEROES/SEASON PASS",
+      "event": "extract",
+      "ref_id": "ref-db-sakibpro-trending",
+      "seq": 225
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -3095,13 +3122,13 @@
       "ticket_seq": 50
     },
     "databases-tools": {
-      "served_count": 2,
-      "ticket_seq": 106
+      "served_count": 3,
+      "ticket_seq": 225
     },
     "official-stores": {
       "notes": "Google Play com.firsttouchgames.dls7 + App Store id1462911602",
-      "served_count": 4,
-      "ticket_seq": 223
+      "served_count": 5,
+      "ticket_seq": 224
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",

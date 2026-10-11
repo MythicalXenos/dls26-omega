@@ -1,65 +1,65 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1162,
+      "bytes": 997,
       "path": "HANDOFF.md",
-      "sha256": "3baf414e4f993b75dd65309d5a5f1ecec2dba7413bfffa52c0e2a6d291deebd7"
+      "sha256": "094e0c7f436c8692414f508694e399e68fb37f0b520385277c105feef01cddf1"
     },
     {
-      "bytes": 986,
-      "path": "evidence/extract/EV-171_store_gplay_chunk1.md",
-      "sha256": "00168821c74c186e100324b7e75f77d0b5c4644f93e07a9dd7e9009751fd5bc2"
+      "bytes": 536,
+      "path": "evidence/extract/EV-173_store_appstore_chunk1.md",
+      "sha256": "f1ea20825b026df399a80dfb8844c488193e903082015d92b5f35ebb793fd912"
     },
     {
-      "bytes": 1104,
-      "path": "evidence/extract/EV-172_store_appstore_chunk0.md",
-      "sha256": "428ba28e2a9a05b67bbf4fb25031fd54b8446526e96c55d77eaa7239172e3201"
+      "bytes": 1085,
+      "path": "evidence/extract/EV-174_sakibpro_trending.md",
+      "sha256": "fae1522faccaa5da349f8e9fee196228d266f4458b3e63299cde3c8a0cfd3073"
     },
     {
-      "bytes": 25485,
+      "bytes": 26185,
       "path": "evidence/index.jsonl",
-      "sha256": "4a5cd60c00e06d4b3483e4f90507c039cdaf6a089d98a1dbb9381f2083e9c4e3"
+      "sha256": "be7f20c4d17089dc0d3c408ce9c5508904b6faa7654546823a5a2e3e5acaa94c"
     },
     {
-      "bytes": 39511,
+      "bytes": 40301,
       "path": "kb/claims.jsonl",
-      "sha256": "298a4c14ae08a6a4a194780b9211e06f7be0876bffdeab54f0a7a9d5dc054dcc"
+      "sha256": "9e1b26e16724088b6593001358b1bc668e4236d7c422dd711cceab561d6fa378"
     },
     {
-      "bytes": 8450,
+      "bytes": 8650,
       "path": "logs/operations.jsonl",
-      "sha256": "5eafed7697dd0da6690bda03d0e250233c40e0ea94c10d710f67f8ffcf3713d8"
+      "sha256": "5aed1e37f5c1f1822e855de9613883e3893fad2a6f0885927080a258821015a4"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-dad550c075c0.json",
-      "sha256": "8f58a41c00932266cb90e399a6bd24f73ab49b995eada5bfeb830c37902d10ff"
+      "path": "logs/receipts_pending/turn-c074c2fed27a.json",
+      "sha256": "7cb81fb5a558bcf90091ea8d49789e512b238fbb52c483eaac52f4c3d9c3a97b"
     },
     {
-      "bytes": 106264,
+      "bytes": 107017,
       "path": "logs/sources_visited.json",
-      "sha256": "3c0242cc62e994e4ccec24ba89eeaba1b14e59a7c1470e0283e08ec3a2795947"
+      "sha256": "56c9f0451a7d8e91a522607e54bff170c852a04c98abf123299ad4957e616a90"
     }
   ],
-  "checkpoint_nonce": "nonce-5d3d6a610b91471d",
+  "checkpoint_nonce": "nonce-d053c47365a243c2",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T01:18:00Z",
+  "created_at": "2026-10-11T01:26:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "01e06f6a92f4d2ad3e1bc7f360ff427964c61307",
+  "parent_commit": "44e8bbcc229af787ea0c5e17f766b17c87a393b8",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 39,
+  "sequence": 40,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,13 +69,12 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-c074c2fed27a",
+  "turn_id": "turn-2dec53f53363",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T01:18:00Z",
+    "bluff_check_at": "2026-10-11T01:26:00Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-171/172 + CLAIM-045 persisted",
-      "gplay listing closed",
+      "EV-173/174 + CLAIM-046 persisted",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"
