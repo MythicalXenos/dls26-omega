@@ -1886,14 +1886,21 @@
       "admission_seq": 173,
       "discovered_at": "2026-10-10T23:00:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "full text EV-152; comments chunks 0/3 captured, 1-2 residual LOW",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-graphics",
-      "status": "UNVISITED",
-      "ticket_seq": 173,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:38:00Z",
+          "event": "extract",
+          "seq": 192
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 192,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
     },
     {
@@ -1927,14 +1934,21 @@
       "admission_seq": 182,
       "discovered_at": "2026-10-10T23:22:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-153",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-refund",
-      "status": "UNVISITED",
-      "ticket_seq": 182,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:38:00Z",
+          "event": "extract",
+          "seq": 193
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 193,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000205049-How-to-get-a-refund-on-an-in-app-purchase"
     },
     {
@@ -1978,6 +1992,35 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 187,
       "url": "https://support.ftgames.com/hc/en-us/articles/8837193024785-Why-have-I-been-blocked-from-playing-Ultimate-Clash-Soccer"
+    },
+    {
+      "admission_seq": 190,
+      "discovered_at": "2026-10-10T23:38:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "note": "revision/newer id of graphics article",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-graphics-rev",
+      "status": "UNVISITED",
+      "ticket_seq": 190,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7918056936721-How-can-I-change-my-graphics-settings"
+    },
+    {
+      "admission_seq": 191,
+      "discovered_at": "2026-10-10T23:38:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-restrict-iap",
+      "status": "UNVISITED",
+      "ticket_seq": 191,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000191385-How-to-restrict-in-app-purchases"
     }
   ],
   "residual_debt": [
@@ -2005,10 +2048,11 @@
     "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering",
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
-    "support owed next: graphics 360000598437 + refund 360000205049, then home-away-kit 214385385 + connection-older 360000420025 (revision check)"
+    "support owed next: home-away-kit 214385385 + connection-older 360000420025, then graphics-rev 7918056936721 + restrict-iap 360000191385",
+    "graphics comments chunks 1-2 (LOW)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 189,
+  "sequence_counter": 193,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2567,6 +2611,20 @@
       "event": "extract",
       "ref_id": "ref-support-skill-move",
       "seq": 189
+    },
+    {
+      "at_utc": "2026-10-10T23:38:00Z",
+      "detail": "Android graphics options + safe mode + FPS pacing",
+      "event": "extract",
+      "ref_id": "ref-support-graphics",
+      "seq": 192
+    },
+    {
+      "at_utc": "2026-10-10T23:38:00Z",
+      "detail": "store-controlled refunds",
+      "event": "extract",
+      "ref_id": "ref-support-refund",
+      "seq": 193
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2622,8 +2680,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 45,
-      "ticket_seq": 189
+      "served_count": 47,
+      "ticket_seq": 193
     }
   }
 }
