@@ -1424,14 +1424,21 @@
     {
       "admission_seq": 121,
       "discovered_at": "2026-10-10T21:10:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-148 (slug redirect to general policies)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-age-limits",
-      "status": "UNVISITED",
-      "ticket_seq": 121,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:22:00Z",
+          "event": "extract",
+          "seq": 183
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 183,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000204889-What-are-the-Age-Limits-and-General-Policies-for-our-Apps"
     },
     {
@@ -1623,14 +1630,21 @@
       "admission_seq": 148,
       "discovered_at": "2026-10-10T22:10:00Z",
       "discovered_by": "DISCOVERED_BY_SEARCH",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-149",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-age-confirmation",
-      "status": "UNVISITED",
-      "ticket_seq": 148,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:22:00Z",
+          "event": "extract",
+          "seq": 184
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 184,
       "url": "https://support.ftgames.com/hc/en-us/articles/4408249822609-Age-Confirmation-Personal-Ads-and-Notifications"
     },
     {
@@ -1894,6 +1908,20 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 177,
       "url": "https://support.ftgames.com/hc/en-us/articles/213892809-How-do-I-customise-my-kit-in-FTS-15"
+    },
+    {
+      "admission_seq": 182,
+      "discovered_at": "2026-10-10T23:22:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-refund",
+      "status": "UNVISITED",
+      "ticket_seq": 182,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000205049-How-to-get-a-refund-on-an-in-app-purchase"
     }
   ],
   "residual_debt": [
@@ -1920,11 +1948,11 @@
     "player-look comments chunks 1-3 (LOW)",
     "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering",
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
-    "support owed next: age-limits 360000204889 + age-confirmation 4408249822609, then match-connection-issues 7917279109777 + skill-move 213851489",
-    "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat"
+    "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
+    "support owed next: match-connection-issues 7917279109777 + skill-move 213851489, then graphics 360000598437 + refund 360000205049"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 181,
+  "sequence_counter": 184,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2455,6 +2483,20 @@
       "event": "extract",
       "ref_id": "ref-support-kit-visible-live",
       "seq": 181
+    },
+    {
+      "at_utc": "2026-10-10T23:22:00Z",
+      "detail": "13+ policy + store ratings + parental controls",
+      "event": "extract",
+      "ref_id": "ref-support-age-limits",
+      "seq": 183
+    },
+    {
+      "at_utc": "2026-10-10T23:22:00Z",
+      "detail": "age bandings + feature gating + personalisation toggles",
+      "event": "extract",
+      "ref_id": "ref-support-age-confirmation",
+      "seq": 184
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2510,8 +2552,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 41,
-      "ticket_seq": 179
+      "served_count": 43,
+      "ticket_seq": 184
     }
   }
 }

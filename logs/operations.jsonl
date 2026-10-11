@@ -24,3 +24,4 @@
 {"at_utc": "2026-10-10T23:00:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "auto-switching EV-145; control-buttons 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-23"}
 {"at_utc": "2026-10-10T23:08:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "kit-logo EV-146 + change-manager EV-147", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-24"}
 {"at_utc": "2026-10-10T23:15:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "emojis + kit-visible-live both 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-25"}
+{"at_utc": "2026-10-10T23:22:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "age-limits EV-148 + age-confirmation EV-149", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-26"}
