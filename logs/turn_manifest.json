@@ -1,91 +1,90 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1302,
+      "bytes": 1347,
       "path": "HANDOFF.md",
-      "sha256": "a01558fa0e7af5f45070da8ffbc4fbfbe08c32c6b3128c9545c7ed04283be3e1"
+      "sha256": "d1fadd7a21fb09a1dbce1d4bd84dd84a39264bf7257a53df2e44c0014c7996f7"
     },
     {
-      "bytes": 1388,
-      "path": "evidence/extract/EV-201_support_blocked_dls_sanctions.md",
-      "sha256": "1ae3af6ce4bd8a6570800f3324fc9441feeac307c59eda35d61bef2e8a66068c"
+      "bytes": 931,
+      "path": "evidence/extract/EV-203_support_change_formation.md",
+      "sha256": "41377f1f6acff1565c9347311a1f5e3826130db1c18364885e4ccae915c8663a"
     },
     {
-      "bytes": 832,
-      "path": "evidence/extract/EV-202_support_sell_players.md",
-      "sha256": "72e59ffe89d62848d58072464aee0ea0949c2cd562efa342993bcfe179b99d45"
+      "bytes": 1140,
+      "path": "evidence/extract/EV-204_support_graphics_settings.md",
+      "sha256": "ce087f9770c6dd016fd6c7cdf470fa38154e82360346d019b3f1d2d177a73ada"
     },
     {
-      "bytes": 37016,
+      "bytes": 37725,
       "path": "evidence/index.jsonl",
-      "sha256": "732c8aec0bc2187ac1abf43b28ff2d5577c78ab4160f4d2041229f927f594413"
+      "sha256": "4cbd1d732f0962ee5bc82f922493989d3f4f7e6a70e1ed0cc2bf270eaba5fa61"
     },
     {
-      "bytes": 76762,
+      "bytes": 79013,
       "path": "kb/claims.jsonl",
-      "sha256": "f9fbe83b887580e0e39883048d8687ac009a81a79b90621df7f1f4aa3ff15ed4"
+      "sha256": "f78d318402cb81d3e83e54daeadb36fb66f4b042fc689f115c18c0420177aab5"
     },
     {
-      "bytes": 2273,
+      "bytes": 2236,
       "path": "logs/control.json",
-      "sha256": "2c708cc2426f3ebc8caa8fa39080b36633c4b0b2adb65ff0343cc0f7077a014a"
+      "sha256": "ec2f9e206ca09c35c8f64ba2d7b30b97b6deb9a15c45402daabf0f3c9d250a57"
     },
     {
-      "bytes": 13319,
+      "bytes": 13641,
       "path": "logs/operations.jsonl",
-      "sha256": "76e5214554e5e4f646d5989406e9b162bf7ff898e0ffa332824974aa461d708e"
+      "sha256": "80ebce8b9961e3c179ed6b1ea6fca609c91d975d65f181939332c7e0e9355040"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-e1c3d7a70fb5.json",
-      "sha256": "fa719ef14b52172ca7fce09894c70e1e28e99842f9682da9c55c771a1013e694"
+      "path": "logs/receipts_pending/turn-5598450ecbb9.json",
+      "sha256": "dd1a6ddd7fcab97b9bcdb7d55d7b70cc1cfca21e24da002063a666c84221635b"
     },
     {
-      "bytes": 127035,
+      "bytes": 129346,
       "path": "logs/sources_visited.json",
-      "sha256": "ddbd74fa59c44fa8a461426bbc98c3cb6ea6d0a3aa83c5a0ada6b0bbecef4113"
+      "sha256": "547dec4ea26c1bee55fb47321cd75a367dcc9f63332cdd2be41744b49152a95c"
     }
   ],
-  "checkpoint_nonce": "nonce-c8a2c3577d98b69f",
+  "checkpoint_nonce": "nonce-dcab5d6981a9aa86",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T16:42:36Z",
+  "created_at": "2026-10-11T16:48:10Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "1174757eaa4d602ea2e9e56255db68cce791127e",
+  "parent_commit": "5b8150a249b4c08f5810c5074b046e1241f87e16",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 54,
+  "sequence": 55,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 2,
-    "host_calls_total_approx": 9,
+    "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-5598450ecbb9",
+  "turn_id": "turn-228aa8bf1f0a",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T16:42:36Z",
-    "executed_fail": [
-      "first meta-write attempt failed: .omega/journal missing (ISS-0004 wipe) \u2014 recovered same turn"
-    ],
+    "bluff_check_at": "2026-10-11T16:48:10Z",
+    "executed_fail": [],
     "executed_pass": [
-      "EV-201/202 + CLAIM-075/076 persisted; CLAIM-005 upgraded Confirmed; CLAIM-043 reinforced",
-      "sanction red line recorded for Steps 2-5 + coaching",
-      "2 refs admitted before serve",
+      "EV-203/204 + CLAIM-077/078 persisted; CLAIM-070 updated (season pool constraint)",
+      "formation season-pool constraint recorded vs user pinned plans (plans preserved)",
+      "3 refs admitted before serve",
       "cursors honest (both refs complete 1/1)",
-      "mkdir+.omega recovery + defensive ref-reconciliation ran before prepare",
+      "mkdir+.omega dirs verified this turn (prior-turn wipe recovered via fetch+mixed reset, chain continuous)",
+      "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"
     ],

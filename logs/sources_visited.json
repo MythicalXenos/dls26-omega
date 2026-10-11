@@ -2677,31 +2677,45 @@
    "admission_seq": 260,
    "discovered_at": "2026-10-11T12:01:06Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-204 — Android-only FPS/quality",
    "family": "official-support",
    "note": "graphics/camera settings (user pinned camera)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-graphics-settings",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 260,
-   "url": "https://support.ftgames.com/hc/en-us/articles/7918056936721-How-can-I-change-my-graphics-settings"
+   "url": "https://support.ftgames.com/hc/en-us/articles/7918056936721-How-can-I-change-my-graphics-settings",
+   "service_events": [
+    {
+     "at": "2026-10-11T16:48:10Z",
+     "event": "extract",
+     "seq": 284
+    }
+   ]
   },
   {
    "admission_seq": 261,
    "discovered_at": "2026-10-11T12:01:06Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-203 — season-limited pool",
    "family": "official-support",
    "note": "formation change (user pinned formation)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-change-formation",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 261,
-   "url": "https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation"
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation",
+   "service_events": [
+    {
+     "at": "2026-10-11T16:48:10Z",
+     "event": "extract",
+     "seq": 283
+    }
+   ]
   },
   {
    "admission_seq": 264,
@@ -2919,6 +2933,36 @@
    "status": "UNVISITED",
    "ticket_seq": 282,
    "url": "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25"
+  },
+  {
+   "admission_seq": 285,
+   "discovered_at": "2026-10-11T16:48:10Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "older graphics-settings ID (dup candidate of 7918056936721; dup-closure candidate)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-graphics-settings-old",
+   "status": "UNVISITED",
+   "ticket_seq": 285,
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000598437-How-can-I-change-my-graphics-settings"
+  },
+  {
+   "admission_seq": 286,
+   "discovered_at": "2026-10-11T16:48:10Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "newer video-clips ID (family previously closed as dup on old IDs)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-video-clips-new",
+   "status": "UNVISITED",
+   "ticket_seq": 286,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917682153361-I-am-not-seeing-any-video-clips-what-can-I-do"
   }
  ],
  "residual_debt": [
@@ -3058,10 +3102,17 @@
    "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006)",
    "Sanction policy now HARD RED LINE (CLAIM-075) — Steps 2/3 design + coaching must comply",
    "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comment chunks; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t55: owed support: add-friend 17144107973265 + player-look 360004718318 (next), change-kit 7916959134737, restart-career-rev 7917210208145, data-deletion-2 360017046578, dls19-profile 360004717278, obtain-players 360004066417, graphics-old 360000598437 (dup candidate), video-clips-new 7917682153361, next-update, age-policies; stale-risk trio 360000420025/360003945557/360004222118",
+   "t55: VI related guides owed (186558/197994/199177/161114); download.com.vn chunk 3; appstore-id chunk 3",
+   "FORMATION POOL SEASON-LIMITED (CLAIM-077) — user pinned formation plans need per-season remapping at coaching time",
+   "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006)",
+   "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comment chunks; player-diamonds; support-contact; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 282,
+ "sequence_counter": 286,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",

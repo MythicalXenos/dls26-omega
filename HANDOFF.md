@@ -1,10 +1,10 @@
 # HANDOFF.md — DLS26 Omega session handoff
-- Session: sess-bb22126f679b | Turn: turn-5598450ecbb9 (sequence 54) | Mode: BOOTSTRAP | State: Step 1 WORKING
-- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T16:41:51Z
+- Session: sess-bb22126f679b | Turn: turn-228aa8bf1f0a (sequence 55) | Mode: BOOTSTRAP | State: Step 1 WORKING
+- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T16:48:10Z
 
-## This turn (DS-54) — SANCTION POLICY (hard red line) + sell flow
-- `ref-support-blocked-dls` (EV-201, **CLAIM-075 Confirmed**): **only App Store/Play Store versions authorised; modded APKs, external hacks AND bug exploitation (currency gain, AI interference, progression circumvention) bannable; DLL fairness explicitly protected; bans not removed unless misflagged.** CLAIM-005 → Confirmed; CLAIM-043 reinforced. Governs Steps 2–5 + all coaching.
-- `ref-support-sell-players` (EV-202, CLAIM-076): discard non-Starting-11 players for specified 'bux' (legacy coin name); squad-size floor; no-refund theme consistent.
+## This turn (DS-55) — user-plan inputs: formation pool + device graphics
+- `ref-support-change-formation` (EV-203, **CLAIM-077 Confirmed**): **formations are SEASON-LIMITED (e.g. only 2 per season)** — Squad > formation grid. User's pinned formation plan must be remapped per in-season pool at coaching time (plan preserved, constraint noted). CLAIM-070 updated.
+- `ref-support-graphics-settings` (EV-204, CLAIM-078 Confirmed): Android-only (Profile > Graphics); 30 vs 60 FPS (constant 30 often smoother; battery-saver forces 30); safe-mode recovery. Step-3 input: 30 FPS constant, battery saver off. 3 new support refs admitted (obtain-players, graphics-old dup-candidate, video-clips-new).
 
 ## Next action (cursor)
-On `>`: `ref-support-change-formation` 7917587319313 + `ref-support-graphics-settings` 7918056936721 (USER PINNED formation/camera settings), then add-friend/player-look/change-kit, then reddit family. Mission residue (CLAIM-003/071): tie-breaks/intervals/eligibility; XP-ladder surface; Legendary Fitness (CLAIM-006). Staged user asks: handoff/attention_required.md.
+On `>`: `ref-support-add-friend` 17144107973265 + `ref-support-player-look` 360004718318, then change-kit/restart-career-rev/data-deletion-2, then reddit family. Mission residue (CLAIM-003/071): tie-breaks/intervals/eligibility; XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006). Staged user asks: handoff/attention_required.md.

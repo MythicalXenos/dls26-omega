@@ -1,0 +1,4 @@
+# EV-203 (full 1/1) — OFFICIAL support: How do I change my formation? (ref-support-change-formation) — SEASON-LIMITED POOL
+source: https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation | official-support | fetched 2026-10-11T16:52Z
+OPERATIVE CONTENT (verbatim): "Simply navigate to the 'Squad' section and tap the formation grid button to change your formation. **Formations are limited by season, so for example, in one season you may only have 2 formations to choose from.**" => STRATEGY-CRITICAL: the formation pool rotates per season (e.g. only 2 options); user's pinned formation plans must adapt to the in-season pool; community 'best formation' lists (CLAIM-070) are only actionable if the formation is in-pool.
+RELATED (admitted): 360004066417 "How do I obtain more players?"; 360004717278 DLS19-profile (admitted t54); kit-logo/player-roles (served); DLS19-kit 214421705 (known NC).
