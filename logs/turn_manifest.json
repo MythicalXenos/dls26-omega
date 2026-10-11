@@ -1,88 +1,88 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1380,
+      "bytes": 1290,
       "path": "HANDOFF.md",
-      "sha256": "8e86c7dac1c1511e086004e5e9886d02ad4a58004cbf8792a5383b11a81fdaef"
+      "sha256": "1aff8bc9d0e64390f6df8f3910484a8be75618c048f9b88ff41eac6e500617b4"
     },
     {
-      "bytes": 1301,
-      "path": "evidence/extract/EV-197_support_what_are_season_points.md",
-      "sha256": "d4e95864768d6ce355c916894278e477bffa9f76c451d68ad0fa14a4d8ae7686"
+      "bytes": 1056,
+      "path": "evidence/extract/EV-199_support_connection_issues.md",
+      "sha256": "e90e056185404f1353ac079591335d7a2d3d9c26f33ec1833e158b0d947c3d93"
     },
     {
-      "bytes": 1427,
-      "path": "evidence/extract/EV-198_vi_download_com_vn_chunk2_faq_mirror.md",
-      "sha256": "a346dd3e03612999320fd10fb00fc2ac826a1cdea32af2f19e57bea0ba09abcd"
+      "bytes": 1094,
+      "path": "evidence/extract/EV-200_support_kit_logo.md",
+      "sha256": "c28836f5ea3454070860501cd61a938f4b0b20247bb9fc49fa04904d4ae16970"
     },
     {
-      "bytes": 35535,
+      "bytes": 36262,
       "path": "evidence/index.jsonl",
-      "sha256": "8f51c739dd9ef7a0c2d8aea1e92bf0c92f641d6f3bb05dc9c6ec26b62fcc0ee4"
+      "sha256": "dbc3e676a88e31a6fa3315c6a799b9b22afbe56031bcfea22d9de0f828c039f7"
     },
     {
-      "bytes": 72720,
+      "bytes": 74594,
       "path": "kb/claims.jsonl",
-      "sha256": "4071c820a8f2a46a1865886d28038f0b6eee624fb1bfa9948550c6132ebf1392"
+      "sha256": "94956ca0c24fc3e3bfc72811177515db8e4deded7a93a7ccc2c5977577150285"
     },
     {
-      "bytes": 2272,
+      "bytes": 2197,
       "path": "logs/control.json",
-      "sha256": "3d3829681754e016bdbed49925aa3c1bdedb8679b39c8ffef10ac815838e8a01"
+      "sha256": "6ba47bf5415605d3a67ae02bf33d111a40f21d8619f2c02fbec3919be9c53c29"
     },
     {
-      "bytes": 12657,
+      "bytes": 13013,
       "path": "logs/operations.jsonl",
-      "sha256": "67d54e2c0d57e86225130fd9b1f324acd7b5d83a7dfc9560f5c3a68b07628146"
+      "sha256": "925352006891926eb3a07e050a5998a178f9f06bef25e71e763a547f60724daa"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-de0fe6a2dec5.json",
-      "sha256": "1cd7c41d44ca8e5cf4a1cdff8073b35b130b5ab1fe58ebed9d792cdbc4fb4b94"
+      "path": "logs/receipts_pending/turn-7b596d1aab0e.json",
+      "sha256": "1ebe92b456f5ebdcfe721a09919b1e74b4ce85c0aee1f6df12ea94c851bab125"
     },
     {
-      "bytes": 122828,
+      "bytes": 124954,
       "path": "logs/sources_visited.json",
-      "sha256": "d99337e3890bd619254e6322556a704ffdb434d04c0493c673eac7812fa92245"
+      "sha256": "c01e723abcf67e0c45a7a634d19aef8f5a91cc973e97235e5a90318e938e7c8f"
     }
   ],
-  "checkpoint_nonce": "nonce-cb3c5419c47952b5",
+  "checkpoint_nonce": "nonce-b655b0dcb9ecfbf6",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T12:21:15Z",
+  "created_at": "2026-10-11T12:33:13Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "2844e31c9cda30eb6e21a17f9e6a7ea9f16da3af",
+  "parent_commit": "51ed895cf6f8e7f1c60f42c4d572e5d1854a48d7",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 52,
+  "sequence": 53,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 2,
-    "host_calls_total_approx": 9,
+    "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-7b596d1aab0e",
+  "turn_id": "turn-e1c3d7a70fb5",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T12:21:15Z",
+    "bluff_check_at": "2026-10-11T12:33:13Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-197/198 + CLAIM-071/072 persisted; CLAIM-021/003/050 updated (surface confirmed)",
-      "season leaderboard existence Confirmed with honest residue (tie-breaks OPEN)",
-      "6 refs admitted before any serve",
-      "cursors honest (what-season-points complete; download.com.vn 0-2/4)",
+      "EV-199/200 + CLAIM-073/074 persisted",
+      "stale-risk 360004080497 SURVIVED \u2014 no false 404 recorded",
+      "blocked-dls sanction-policy ref admitted before serve",
+      "cursors honest (both refs complete 1/1)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"
