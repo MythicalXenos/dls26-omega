@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 337,
+ "sequence_counter": 338,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4407,6 +4407,13 @@
    "ref_id": null,
    "seq": 337,
    "detail": "t79: fetch_page/web_search remapped AGAIN (19th turn); minimal-hygiene turn; sanity OK (85 claims/157 refs/79 ops lines/119 evidence); official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T18:12:31Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 338,
+   "detail": "t80: fetch_page/web_search remapped AGAIN (20th turn); minimal-hygiene turn; sanity OK (85 claims/157 refs/80 ops lines/119 evidence); official cursor preserved"
   }
  ],
  "session_id": "sess-bb22126f679b",
