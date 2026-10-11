@@ -1091,27 +1091,41 @@
     {
       "admission_seq": 84,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-139",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-data-usage",
-      "status": "UNVISITED",
-      "ticket_seq": 84,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:36:00Z",
+          "event": "extract",
+          "seq": 165
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 165,
       "url": "https://support.ftgames.com/hc/en-us/articles/360005680437-How-can-I-reduce-my-mobile-data-usage"
     },
     {
       "admission_seq": 85,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "full text (1/1) EV-140; comments chunks 0/4 captured, 1-3 residual LOW (staff reply re licensing noted)",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-player-look",
-      "status": "UNVISITED",
-      "ticket_seq": 85,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:36:00Z",
+          "event": "extract",
+          "seq": 166
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 166,
       "url": "https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesn-t-my-player-look-like-the-real-person"
     },
     {
@@ -1727,6 +1741,19 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 161,
       "url": "https://support.ftgames.com/hc/en-us/articles/7916219239441-How-do-I-play-Ultimate-Clash-Soccer"
+    },
+    {
+      "admission_seq": 164,
+      "discovered_at": "2026-10-10T22:36:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-scorematch-stats",
+      "scope_proof": "article title names \"different game\"",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 164,
+      "url": "https://support.ftgames.com/hc/en-us/articles/3600020682577-How-do-the-various-player-stats-in-Score-Match-affect-gameplay"
     }
   ],
   "residual_debt": [
@@ -1750,10 +1777,11 @@
       "then: control-buttons, kit-logo 360004080497, change-manager, emojis 3600020938198, kit-visible-live 3600021064298, age-limits 360000204889 + age-confirmation 4408249822609, match-connection-issues 7917279109777, season-pass revs, signin setup guides, user-id-rev, data-deletion",
       "re-discover moved articles via further searches: friend-match, restart-career, cant-update, connection-required, device-compat (stale ids)"
     ],
-    "support owed next: data-usage 360005680437 + player-look 360004718318, then can-i-sell 360003945617 + card-colour 214385645"
+    "support owed next: difficulty 360018360418 (PRIORITY) + can-i-sell 360003945617, then card-colour + resign-player",
+    "player-look comments chunks 1-3 (LOW)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 163,
+  "sequence_counter": 166,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2200,6 +2228,20 @@
       "event": "extract",
       "ref_id": "ref-support-missing-players",
       "seq": 163
+    },
+    {
+      "at_utc": "2026-10-10T22:36:00Z",
+      "detail": "online-required features; Wi-Fi recommended",
+      "event": "extract",
+      "ref_id": "ref-support-data-usage",
+      "seq": 165
+    },
+    {
+      "at_utc": "2026-10-10T22:36:00Z",
+      "detail": "likeness drift + licensing staff reply",
+      "event": "extract",
+      "ref_id": "ref-support-player-look",
+      "seq": 166
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2255,8 +2297,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 32,
-      "ticket_seq": 163
+      "served_count": 34,
+      "ticket_seq": 166
     }
   }
 }
