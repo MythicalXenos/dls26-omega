@@ -1064,6 +1064,7 @@
         }
       ],
       "status": "RETRYABLE_FAILURE",
+      "superseded_by": "ref-support-restart-career-rev",
       "ticket_seq": 145,
       "url": "https://support.ftgames.com/hc/en-us/articles/213851909-How-do-I-restart-my-career-from-the-beginning"
     },
@@ -1605,14 +1606,21 @@
       "admission_seq": 152,
       "discovered_at": "2026-10-10T22:20:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-138",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-missing-players",
-      "status": "UNVISITED",
-      "ticket_seq": 152,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:28:00Z",
+          "event": "extract",
+          "seq": 163
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 163,
       "url": "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app"
     },
     {
@@ -1633,15 +1641,92 @@
       "admission_seq": 154,
       "discovered_at": "2026-10-10T22:20:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-137",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-sell-players",
-      "status": "UNVISITED",
-      "ticket_seq": 154,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:28:00Z",
+          "event": "extract",
+          "seq": 162
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 162,
       "url": "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players"
+    },
+    {
+      "admission_seq": 157,
+      "discovered_at": "2026-10-10T22:28:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-player-roles",
+      "status": "UNVISITED",
+      "ticket_seq": 157,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles"
+    },
+    {
+      "admission_seq": 158,
+      "discovered_at": "2026-10-10T22:28:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "note": "moved article rediscovered via related links",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-restart-career-rev",
+      "status": "UNVISITED",
+      "ticket_seq": 158,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7917210208145-How-do-I-restart-my-career-from-the-beginning"
+    },
+    {
+      "admission_seq": 159,
+      "discovered_at": "2026-10-10T22:28:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-card-colour",
+      "status": "UNVISITED",
+      "ticket_seq": 159,
+      "url": "https://support.ftgames.com/hc/en-us/articles/214385645-Why-are-some-players-displaying-a-different-player-card-colour"
+    },
+    {
+      "admission_seq": 160,
+      "discovered_at": "2026-10-10T22:28:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-resign-player",
+      "status": "UNVISITED",
+      "ticket_seq": 160,
+      "url": "https://support.ftgames.com/hc/en-us/articles/214385465-Can-I-re-sign-a-player-that-I-have-sold-previously"
+    },
+    {
+      "admission_seq": 161,
+      "discovered_at": "2026-10-10T22:28:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [],
+      "ref_id": "ref-nc-play-ultimate-clash",
+      "scope_proof": "article title names \"different game\"",
+      "status": "NON_CONNECTED",
+      "ticket_seq": 161,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7916219239441-How-do-I-play-Ultimate-Clash-Soccer"
     }
   ],
   "residual_debt": [
@@ -1665,10 +1750,10 @@
       "then: control-buttons, kit-logo 360004080497, change-manager, emojis 3600020938198, kit-visible-live 3600021064298, age-limits 360000204889 + age-confirmation 4408249822609, match-connection-issues 7917279109777, season-pass revs, signin setup guides, user-id-rev, data-deletion",
       "re-discover moved articles via further searches: friend-match, restart-career, cant-update, connection-required, device-compat (stale ids)"
     ],
-    "support owed next: sell-players 17146555181585 + missing-players 213852049, then data-usage 360005680437 + player-look 360004718318"
+    "support owed next: data-usage 360005680437 + player-look 360004718318, then can-i-sell 360003945617 + card-colour 214385645"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 156,
+  "sequence_counter": 163,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2101,6 +2186,20 @@
       "event": "extract",
       "ref_id": "ref-support-develop-players",
       "seq": 156
+    },
+    {
+      "at_utc": "2026-10-10T22:28:00Z",
+      "detail": "discard non-starting players for specified bux",
+      "event": "extract",
+      "ref_id": "ref-support-sell-players",
+      "seq": 162
+    },
+    {
+      "at_utc": "2026-10-10T22:28:00Z",
+      "detail": "DB churn + licensing gaps",
+      "event": "extract",
+      "ref_id": "ref-support-missing-players",
+      "seq": 163
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2156,8 +2255,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 30,
-      "ticket_seq": 156
+      "served_count": 32,
+      "ticket_seq": 163
     }
   }
 }

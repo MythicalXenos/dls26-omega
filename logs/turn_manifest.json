@@ -1,65 +1,65 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1310,
+      "bytes": 1003,
       "path": "HANDOFF.md",
-      "sha256": "dc159e43c1b87f4f5bb770046cbc4f583ce7501ebcb29ceaa38715157d354889"
+      "sha256": "a3b452a8a2789266e59aca9ecb6ad6b1bf4951da373764683d0c6fe5524bc151"
     },
     {
-      "bytes": 1491,
-      "path": "evidence/extract/EV-135_support_dll_matchmaking.md",
-      "sha256": "e3706bf988d1e7bf84dd2feb38d0469148173a1201da0cd3b047fe6881ce7797"
+      "bytes": 783,
+      "path": "evidence/extract/EV-137_support_sell_players.md",
+      "sha256": "52e9123a791be9ee1e04a56497b09b59fcac71aa3b11e87edc6887a1125fe403"
     },
     {
-      "bytes": 1160,
-      "path": "evidence/extract/EV-136_support_develop_players.md",
-      "sha256": "140b615608eeb1d2a71d1e6970c2aae78325e2ae1ed392a22173fee3d8b437fc"
+      "bytes": 636,
+      "path": "evidence/extract/EV-138_support_missing_players.md",
+      "sha256": "da3fb0efeb657d272cd7cec949ea708ed94e3be398f5212ef19595f05f640664"
     },
     {
-      "bytes": 13774,
+      "bytes": 14403,
       "path": "evidence/index.jsonl",
-      "sha256": "0ab6354315e7a3842df8eb0637d575cd09610714369914b1a0679d1eb1e612ff"
+      "sha256": "f0397a9f561d9edf5e021066e80355d7d003d6a4e509d3aa659f0720b3644bbc"
     },
     {
-      "bytes": 25263,
+      "bytes": 26045,
       "path": "kb/claims.jsonl",
-      "sha256": "a1b60eb1d63290f7245ac98024715865e84e3c1378e6a92a3923216a1f67a90d"
+      "sha256": "cd47b4d5a8789a3b7a990765c8194700559a34e815575eed1bba2b1e1b1b9861"
     },
     {
-      "bytes": 4104,
+      "bytes": 4299,
       "path": "logs/operations.jsonl",
-      "sha256": "0f59a7778841cc89298fb3e166afdabf7893446099d6beeff94d907bbcdbc8ff"
+      "sha256": "be6432408e1198dbfde8953fd3e8037d1ba709ef345915ce387ad543c679c267"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-075adb42467a.json",
-      "sha256": "e86732e905f93c395f8073cd6ede995fe15f1e0fb727a365b1d03d0118f8018d"
+      "path": "logs/receipts_pending/turn-17bf3658f91a.json",
+      "sha256": "2cc8bc719a7b706ca5c0beda6067d8341f586ec03027c0032f2025eea5e287a8"
     },
     {
-      "bytes": 75630,
+      "bytes": 78928,
       "path": "logs/sources_visited.json",
-      "sha256": "8d3ee79e1a07da00c97d31fc44281adcce99ef148cc7d32fb81c51d39e3be454"
+      "sha256": "654b844347ca81504ae4078fc8a881183af64e274db4aa96672993a953e05471"
     }
   ],
-  "checkpoint_nonce": "nonce-501a2df2f4b94fae",
+  "checkpoint_nonce": "nonce-dd46d3ed20364841",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-10T22:20:00Z",
+  "created_at": "2026-10-10T22:28:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "37a426a6db0e866530c02288611c17dba5670c33",
+  "parent_commit": "51af8350369493fc2c06b60852942b5320e4ed47",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 17,
+  "sequence": 18,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,13 +69,13 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-17bf3658f91a",
+  "turn_id": "turn-39ea1228ab62",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-10T22:20:00Z",
+    "bluff_check_at": "2026-10-10T22:28:00Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-135/136 + CLAIM-027/028 persisted",
-      "3 refs admitted (related-link harvest)",
+      "EV-137/138 + CLAIM-029 persisted",
+      "5 refs admitted (1 NON_CONNECTED, 1 moved-article rev)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"
