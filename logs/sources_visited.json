@@ -1968,16 +1968,23 @@
    "admission_seq": 158,
    "discovered_at": "2026-10-10T22:28:00Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-211 — reset hazard",
    "family": "official-support",
    "note": "moved article rediscovered via related links",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-restart-career-rev",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 158,
-   "url": "https://support.ftgames.com/hc/en-us/articles/7917210208145-How-do-I-restart-my-career-from-the-beginning"
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917210208145-How-do-I-restart-my-career-from-the-beginning",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:00:24Z",
+     "event": "extract",
+     "seq": 296
+    }
+   ]
   },
   {
    "admission_seq": 159,
@@ -2932,16 +2939,23 @@
    "admission_seq": 281,
    "discovered_at": "2026-10-11T16:41:51Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-212 — delete hazard refined",
    "family": "official-support",
    "note": "data deletion v2 (cf CLAIM-041 Delete Profile)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-data-deletion-2",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 281,
-   "url": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted"
+   "url": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:00:24Z",
+     "event": "extract",
+     "seq": 297
+    }
+   ]
   },
   {
    "admission_seq": 282,
@@ -3048,6 +3062,36 @@
    "status": "UNVISITED",
    "ticket_seq": 293,
    "url": "https://support.ftgames.com/hc/en-us/articles/3600017167418-How-do-I-restart-my-career-from-the-beginning"
+  },
+  {
+   "admission_seq": 298,
+   "discovered_at": "2026-10-11T17:00:24Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "save-data storage/transfer (CLAIM-022/042 domain)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-save-data-dls",
+   "status": "UNVISITED",
+   "ticket_seq": 298,
+   "url": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS"
+  },
+  {
+   "admission_seq": 299,
+   "discovered_at": "2026-10-11T17:00:24Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "FB-login removal (DLS) — complements EV-198",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-fbremoval-dls",
+   "status": "UNVISITED",
+   "ticket_seq": 299,
+   "url": "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS"
   }
  ],
  "residual_debt": [
@@ -3216,10 +3260,18 @@
    "Matchmaking official (CLAIM-081): Tier+location+availability; 'recent results' divergence preserved (CLAIM-027/044)",
    "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation season pool (CLAIM-077); licensing gaps (CLAIM-079)",
    "reddit family ACCESS_BOUNDARY (probe when convenient); terms chunks 1-3; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t59: save-data family NEXT: 4413273241873 (save-data storage) + 9804887423121 (FB removal) + 214387685 (backup/restore, stale-risk)",
+   "t59: owed support: restart-career-3rd 3600017167418, dls19-profile, obtain-players, graphics-old, video-clips-new, next-update, age-policies; stale-risk trio; RETRYABLE kit-visible-live/emojis-live",
+   "t59: player-look comments 1-3; player-stats comment chunks 1-3 (360019166777)",
+   "Destructive surfaces mapped (CLAIM-082): Reset 30-day cooldown wipes IAP; Delete Profile countdown+Cancel — hard-block in automation",
+   "Season Leaderboard residue: tie-breaks/intervals/eligibility (CLAIM-071); XP-ladder surface (CLAIM-067); Legendary Fitness (CLAIM-006); formation season pool (CLAIM-077); licensing gaps (CLAIM-079)",
+   "reddit family ACCESS_BOUNDARY (probe when convenient); terms chunks 1-3; player-diamonds; support-contact"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 295,
+ "sequence_counter": 299,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
