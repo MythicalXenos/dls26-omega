@@ -1,65 +1,65 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1027,
+      "bytes": 1278,
       "path": "HANDOFF.md",
-      "sha256": "18b1fa3cfe99010fceecd49cc35b0db839543d4e8c8bc16c7ab876fe540676cf"
+      "sha256": "7bc6b5a9fd5bfe3bc4bd3a1d64ce30ce8b8fd9ac6b7ca337d4cd74e2ffddc472"
     },
     {
-      "bytes": 318,
-      "path": "evidence/extract/EV-165_support_video_clips_rev2.md",
-      "sha256": "321563342bae35ff67ff719b67290ccc43b5023ad4711d648da5bc5725a211cf"
+      "bytes": 806,
+      "path": "evidence/extract/EV-167_support_icloud_setup.md",
+      "sha256": "e1603dba7cc15b44ca364fc5d8d9de0f07fdef639d36ae3d76bcade141cb4448"
     },
     {
-      "bytes": 772,
-      "path": "evidence/extract/EV-166_support_data_deletion.md",
-      "sha256": "6e3cc5012efd473588b9d27a8f70d217bda74e23303614ec91a6f5121cbd5dd0"
+      "bytes": 494,
+      "path": "evidence/extract/EV-168_support_user_id_rev3.md",
+      "sha256": "702f82060b18c1569504405f2c42feb5873c910825a772327c28b1a29120c7ca"
     },
     {
-      "bytes": 23403,
+      "bytes": 24079,
       "path": "evidence/index.jsonl",
-      "sha256": "7ccd1989b3a0a81911c6a2ea87e68433b78de62e2006e6d5cc40d278077b8af1"
+      "sha256": "022c9162b0861a7f8ec5436a2dcd5e0f2872fcdacf3376cadba6c3c20beb9882"
     },
     {
-      "bytes": 35395,
+      "bytes": 36369,
       "path": "kb/claims.jsonl",
-      "sha256": "b669da46f04cacb6b294e77a91e4d74af07c866834f00809f8b02c6de8e6f4de"
+      "sha256": "6c95d6ec2f482076a253c11376ccdfb521a851199addc8cef6f0ce3d8a3f6567"
     },
     {
-      "bytes": 7808,
+      "bytes": 8024,
       "path": "logs/operations.jsonl",
-      "sha256": "51141ee858feac49d4efc1f51cdd73c0830158da2d9b1274beb99377404a3706"
+      "sha256": "c03f385ee717667c3b8ce2cd4fcb092f3f9ca30f0314fae06139748cd1236af5"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-faf60bee2d77.json",
-      "sha256": "33087c37ccee6a248a9125a2fd58fcda6e5c39ec99ee9020b5fc65ecb8c751a4"
+      "path": "logs/receipts_pending/turn-c07952ef3e50.json",
+      "sha256": "b962f34b0d836e8c3d8066ded0820c9a9ac92c328e77523df22a8df68d0171fb"
     },
     {
-      "bytes": 102535,
+      "bytes": 104493,
       "path": "logs/sources_visited.json",
-      "sha256": "6c1cecf05ead5d9423942465fb9ec77548ed34d4ba32970e777b608b78dd6359"
+      "sha256": "8618206864f0b7639afe14f04f1ad65f07ec94dc244a5a51eff781a44fd93e00"
     }
   ],
-  "checkpoint_nonce": "nonce-982dc268d6da474c",
+  "checkpoint_nonce": "nonce-af5e2e1af3b84d3c",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T00:50:00Z",
+  "created_at": "2026-10-11T01:02:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "2e969bc412cb4d59fee4f2ca533a392024f6eb7e",
+  "parent_commit": "1bff8e60db1d3d673e2169e29c32413c0d3333be",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 36,
+  "sequence": 37,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,13 +69,16 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-c07952ef3e50",
+  "turn_id": "turn-c0c3d45da1bd",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T00:50:00Z",
-    "executed_fail": [],
+    "bluff_check_at": "2026-10-11T01:02:00Z",
+    "executed_fail": [
+      "first wrap attempt KeyError (icloud ref missing; zero side effects); ref re-admitted and wrap re-run"
+    ],
     "executed_pass": [
-      "EV-165/166 + CLAIM-041 persisted",
-      "video-clips family closed note",
+      "EV-167/168 + CLAIM-042 (Disputed) persisted",
+      "user-id family complete; support family closed",
+      "contact ref admitted",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"

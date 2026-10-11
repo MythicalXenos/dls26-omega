@@ -2208,16 +2208,59 @@
       "admission_seq": 211,
       "discovered_at": "2026-10-11T00:42:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-168 \u2014 ULTIMATE CLASH SOCCER VARIANT; family map complete (4 games)",
       "family": "official-support",
       "note": "user-id family variant #5 (game unknown until fetched)",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-user-id-rev3",
-      "status": "UNVISITED",
-      "ticket_seq": 211,
+      "service_events": [
+        {
+          "at": "2026-10-11T01:02:00Z",
+          "event": "extract",
+          "seq": 219
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 219,
       "url": "https://support.ftgames.com/hc/en-us/articles/37083330886546-How-do-I-find-my-User-ID"
+    },
+    {
+      "admission_seq": 216,
+      "discovered_at": "2026-10-11T01:02:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": "complete (1/1) EV-167",
+      "family": "official-support",
+      "note": "admitted from EV-161 related link; earlier admission attempt was lost in a failed wrap (no side effects)",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-icloud-setup",
+      "service_events": [
+        {
+          "at": "2026-10-11T01:02:00Z",
+          "event": "extract",
+          "seq": 218
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 218,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000613657-How-do-I-setup-an-iCloud-account"
+    },
+    {
+      "admission_seq": 217,
+      "discovered_at": "2026-10-11T01:02:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-contact",
+      "status": "UNVISITED",
+      "ticket_seq": 217,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360000309705-I-can-t-find-my-answer-here-how-can-I-contact-you"
     }
   ],
   "residual_debt": [
@@ -2248,10 +2291,11 @@
     "graphics comments chunks 1-2 (LOW)",
     "MISSION follow-ups from EV-162: resolve Progress Bank basis conflict (Season Points vs DLL XP wording); Season VIP concept unexplored; \"Season Points purchasable in Shop\" affects fair-grind expectations",
     "after support: family switches \u2014 ftgames.com core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community; reddit family",
-    "support final pair: icloud-setup 360000613657 + user-id-rev3 37083330886546, then support family CLOSED -> switch families (ftgames core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com versions; sakibpro; PT/ID community; reddit)"
+    "SUPPORT FAMILY CLOSED except contact 360000309705 (admitted; low priority) + assorted RETRYABLE_FAILURE re-discoveries",
+    "NEXT FAMILY: ftgames.com core-principles (MISSION: fair-gaming policy) + terms-of-use, then play listing chunk 1/2 + apps.apple.com version history, then sakibpro tools x3 + PT/ID community + reddit family"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 215,
+  "sequence_counter": 219,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2936,6 +2980,20 @@
       "event": "extract",
       "ref_id": "ref-support-data-deletion",
       "seq": 215
+    },
+    {
+      "at_utc": "2026-10-11T01:02:00Z",
+      "detail": "in-game iCloud toggle (older path) + upload-after-matches",
+      "event": "extract",
+      "ref_id": "ref-support-icloud-setup",
+      "seq": 218
+    },
+    {
+      "at_utc": "2026-10-11T01:02:00Z",
+      "detail": "user-id family closed",
+      "event": "extract",
+      "ref_id": "ref-support-user-id-rev3",
+      "seq": 219
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2991,8 +3049,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 60,
-      "ticket_seq": 215
+      "served_count": 62,
+      "ticket_seq": 219
     }
   }
 }
