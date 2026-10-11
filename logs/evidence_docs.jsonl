@@ -1,1 +1,2 @@
 {"at_utc": "2026-10-10T21:50:00Z", "event_id": "EVD-0005", "note": "Zendesk article IDs 360004575718/360004441177 return the center oops 404 page (2026-10-10); both topics partially covered elsewhere; no info extractable", "ref_ids": ["ref-support-connection-required", "ref-support-device-compat"], "type": "page-missing"}
+{"at_utc": "2026-10-10T21:58:00Z", "event_id": "EVD-0006", "note": "404 oops 2026-10-10; RETRYABLE_FAILURE; re-discovery owed", "ref_ids": ["ref-support-cant-update"], "type": "page-missing"}
