@@ -1,88 +1,88 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1653,
+      "bytes": 1612,
       "path": "HANDOFF.md",
-      "sha256": "b55bf5dc77bff55d263547c2e61fe415639a2a4219dd04169c6844cdccb46faa"
+      "sha256": "b2dc8c66e6ff0dde9a760b52b287de5ed4e35872497ce2b91a83c8063af10873"
     },
     {
-      "bytes": 1058,
-      "path": "evidence/extract/EV-191_pt_gameoverdrive_acquisition_faq.md",
-      "sha256": "09a45618912ea9f32988d532721749123f09ac251ae5aea8b1d85c760e92d185"
+      "bytes": 2167,
+      "path": "evidence/extract/EV-193_vi_download_com_vn_chunk0_prize_ladder.md",
+      "sha256": "c6af7ca342f6d8139b31dd727eeeff7d9ca462b492efac9030589cb2cf5f660a"
     },
     {
-      "bytes": 2186,
-      "path": "evidence/extract/EV-192_discovery_vi_tr_snippets.md",
-      "sha256": "2c36532a1373459a0bfa9e72f8736df4bc333154c83913aed5933c1b30cc8db9"
+      "bytes": 813,
+      "path": "evidence/extract/EV-194_support_player_roles.md",
+      "sha256": "491299a624c3acd2591839c9f1324fbf4c7b8fa17cae52a4ea5e420641da4fe8"
     },
     {
-      "bytes": 33149,
+      "bytes": 33926,
       "path": "evidence/index.jsonl",
-      "sha256": "38f975daac6b0335f3976537d9347a13f01f73a6e0e5a236c876afd85017c2e3"
+      "sha256": "b8fdc9f123eb296eb2ed730ddda4ab3687afd2a0bf48d80c4ca1fb9f05178740"
     },
     {
-      "bytes": 61295,
+      "bytes": 64916,
       "path": "kb/claims.jsonl",
-      "sha256": "a2befec366554db4096940bc8fd51503b8b59299db37a044d9095aa22581c039"
+      "sha256": "bc7e27706a1aba325555a07f80e53439e4aff7312ff1a310dac93e4c5ec3ac60"
     },
     {
-      "bytes": 2330,
+      "bytes": 2370,
       "path": "logs/control.json",
-      "sha256": "c7966f3a6ab68eb0dc4669ee1e4ed08f8189b9146547340c154957b27cbfad50"
+      "sha256": "4e5988bf752fe378a8f4e29ce0c2362581965fb1bfe9f1b3e6e9a44f98a69f67"
     },
     {
-      "bytes": 11400,
+      "bytes": 11812,
       "path": "logs/operations.jsonl",
-      "sha256": "7cdddb3f0c2a92550863476fed396e305a373e23e09764e7e9470650ce05e800"
+      "sha256": "cf742162d70c0813d0dbcebc254019c9a3ef21ae057c3e1cd8c977d9cb6aca08"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-7a8f72395ed4.json",
-      "sha256": "f35884374362d4aa360a2a10ea5121dc952cb4d00d85be4f30076b2ea21136da"
+      "path": "logs/receipts_pending/turn-6f9ceb04021d.json",
+      "sha256": "537f1ce7e7dd73eeda46289e50e495903bfec42214ea577783d53181dd21ea55"
     },
     {
-      "bytes": 112660,
+      "bytes": 116068,
       "path": "logs/sources_visited.json",
-      "sha256": "9b4091a640f4152f5684a2dadea53185732efcd363a5df353073bfa7a4b3c39e"
+      "sha256": "3422135fba6f92d9136c6b1cf00dfaabc295c2f66196b3c71d776a2281e86f39"
     }
   ],
-  "checkpoint_nonce": "nonce-8904f5c75e818008",
+  "checkpoint_nonce": "nonce-9af242c4ade8fafb",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T11:28:45Z",
+  "created_at": "2026-10-11T12:01:06Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "1b995998b73cae5d9fc739f02a62f658917de703",
+  "parent_commit": "d5b9791e719a41e396a6904b63664f50f1c00ade",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 49,
+  "sequence": 50,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
-    "fetch_page_calls": 1,
-    "host_calls_total_approx": 8,
-    "search_calls": 2
+    "fetch_page_calls": 2,
+    "host_calls_total_approx": 7,
+    "search_calls": 0
   },
-  "turn_id": "turn-6f9ceb04021d",
+  "turn_id": "turn-c896d9d3675c",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T11:28:45Z",
+    "bluff_check_at": "2026-10-11T12:01:06Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-191/192 + CLAIM-062/063 persisted; CLAIM-051 upgraded (2 origins), CLAIM-050/058 updated",
-      "APK mirrors dispositioned NON_CONNECTED with scope proof (not fetched)",
-      "download.com.vn snippet captured; FULL PAGE explicitly owed (no double-count)",
-      "cursors honest (gameoverdrive operative complete; DS-49 recorded)",
+      "EV-193/194 + CLAIM-064/065/066 persisted; CLAIM-050 updated (earning-loop separation)",
+      "Prize Ladder free-to-play path documented (user no-IAP alignment)",
+      "5 related support refs admitted BEFORE any serve (get-promoted PRIORITY)",
+      "cursors honest (download.com.vn 0/5; player-roles complete)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"

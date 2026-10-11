@@ -1,10 +1,10 @@
 # HANDOFF.md — DLS26 Omega session handoff
-- Session: sess-bb22126f679b | Turn: turn-6f9ceb04021d (sequence 49) | Mode: BOOTSTRAP | State: Step 1 WORKING
-- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T11:28:45Z
+- Session: sess-bb22126f679b | Turn: turn-c896d9d3675c (sequence 50) | Mode: BOOTSTRAP | State: Step 1 WORKING
+- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T12:01:06Z
 
-## This turn (DS-49) — SEASON STRUCTURE LEADS (mission-critical)
-- `ref-pt-gameoverdrive` complete (EV-191): CR7 std = 82 (Champion special 88 — versioning rule live); market quality scales with CLUB PROGRESS; snapshot build 13.430 ("versao 160").
-- DS-49 VI/TR discovery (EV-192) — **three mission leads from download.com.vn (VI)**: (1) **Division season = 15 matches; promotion via Division Objectives (required wins+goals; all-wins NOT required)** → CLAIM-062; (2) **Prize Ladder 'English League Classics': Dream Points (DP) milestones 62.5K/115K/175K/250K unlock players** → CLAIM-063 (DP quantified!); (3) **DLL gems by WEEKLY leaderboard position — 2nd independent source** → CLAIM-051 upgraded to Community Consensus. Also: Van Dijk 86 (reddit) vs 85 conflict; TR store rating 4.3 vs global 4.6; APK mirrors soft112/tamindir = NON_CONNECTED (authorised-stores-only).
+## This turn (DS-50) — Prize Ladder full + CURRENCY SEPARATION + support discovery
+- `ref-vi-download-com-vn` chunk 0/5 (EV-193, CLAIM-064/065/066): **Prize Ladder 'English League Classics' = Berbatov CF, Essien DM, Andy Cole CF, Petit DM; DP unlocks 62.5K/115K/175K/250K; + coins/gems/coach/special-agent rewards; Live PvP + event tournaments farm more DP** (free-to-play path). **Career matches = Season Points + Coins** → Season Points ≠ Dream Points (distinct earning loops; CLAIM-050 partially resolved). Weekly-leaderboard gems 2nd source; Scenario daily 50 Coins; Pink (Dream Star) / Purple (Champions) event cards.
+- `ref-support-player-roles` (EV-194): Squad → Roles button; **5 related refs admitted — PRIORITY: `ref-support-get-promoted` 7917423348497** (official promotion mechanics), + add-friend 17144107973265, sell-players 17146555181585, graphics-settings 7918056936721, change-formation 7917587319313.
 
 ## Next action (cursor)
-On `>`: **`ref-vi-download-com-vn` FULL PAGE** (fitness coach → CLAIM-006 + Division Objectives/Prize Ladder detail) — top priority — then support queue (`ref-support-player-roles` 7917583876625) or reddit family. Mission-critical OPEN (CLAIM-003/021): season leaderboard scope/tie-breaks/eligibility + Division Objectives corroboration; currency identity (CLAIM-050); Legendary Fitness (CLAIM-006). Staged user asks: handoff/attention_required.md.
+On `>`: `ref-support-get-promoted` (PRIORITY) + `ref-vi-download-com-vn` chunk 1 (fitness coach → CLAIM-006), then remaining related support refs, then reddit family. Mission-critical OPEN (CLAIM-003/021): promotion/leaderboard surface specifics; Progress Bank basis (Season Points vs DP); Legendary Fitness (CLAIM-006). Staged user asks: handoff/attention_required.md.

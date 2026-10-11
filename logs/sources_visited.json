@@ -555,7 +555,7 @@
   {
    "admission_seq": 25,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "SNIPPET captured (EV-192A: Prize Ladder DP milestones, 15-match Division Objectives, weekly-leaderboard gems, VN store absence) — FULL PAGE OWED (fitness coach -> CLAIM-006)",
+   "extraction_cursor": "chunk 0/5 captured (EV-193); 1-4 owed (fitness coach -> CLAIM-006 + rest)",
    "family": "community-web-vi",
    "projections": [
     "Android version (13.420)",
@@ -573,6 +573,11 @@
      "event": "snippet_extract",
      "seq": 252,
      "note": "mission-critical season-structure leads; full page owed"
+    },
+    {
+     "at": "2026-10-11T12:01:06Z",
+     "event": "extract",
+     "seq": 255
     }
    ]
   },
@@ -1912,15 +1917,22 @@
    "admission_seq": 157,
    "discovered_at": "2026-10-10T22:28:00Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "complete (1/1) EV-194; 5 related refs admitted",
    "family": "official-support",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-player-roles",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 157,
-   "url": "https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles"
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles",
+   "service_events": [
+    {
+     "at": "2026-10-11T12:01:06Z",
+     "event": "extract",
+     "seq": 256
+    }
+   ]
   },
   {
    "admission_seq": 158,
@@ -2588,6 +2600,81 @@
    "status": "NON_CONNECTED",
    "ticket_seq": 254,
    "url": "https://www.tamindir.com/indir/dream-league-soccer-2025-apk/"
+  },
+  {
+   "admission_seq": 257,
+   "discovered_at": "2026-10-11T12:01:06Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "social features",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-add-friend",
+   "status": "UNVISITED",
+   "ticket_seq": 257,
+   "url": "https://support.ftgames.com/hc/en-us/articles/17144107973265-How-do-I-add-a-friend"
+  },
+  {
+   "admission_seq": 258,
+   "discovered_at": "2026-10-11T12:01:06Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "sell flow (no-refund review theme)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-sell-players",
+   "status": "UNVISITED",
+   "ticket_seq": 258,
+   "url": "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players"
+  },
+  {
+   "admission_seq": 259,
+   "discovered_at": "2026-10-11T12:01:06Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "PRIORITY: official promotion mechanics (CLAIM-003/021/062)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-get-promoted",
+   "status": "UNVISITED",
+   "ticket_seq": 259,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917423348497-How-do-I-get-promoted"
+  },
+  {
+   "admission_seq": 260,
+   "discovered_at": "2026-10-11T12:01:06Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "graphics/camera settings (user pinned camera)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-graphics-settings",
+   "status": "UNVISITED",
+   "ticket_seq": 260,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7918056936721-How-can-I-change-my-graphics-settings"
+  },
+  {
+   "admission_seq": 261,
+   "discovered_at": "2026-10-11T12:01:06Z",
+   "discovered_by": "HARVESTED_RELATED_LINK",
+   "extraction_cursor": null,
+   "family": "official-support",
+   "note": "formation change (user pinned formation)",
+   "projections": [
+    "full-page extraction"
+   ],
+   "ref_id": "ref-support-change-formation",
+   "status": "UNVISITED",
+   "ticket_seq": 261,
+   "url": "https://support.ftgames.com/hc/en-us/articles/7917587319313-How-do-I-change-my-formation"
   }
  ],
  "residual_debt": [
@@ -2687,10 +2774,19 @@
    "currency identity (DP/Season Points/DLL XP/Clan Points/Cup Coins) UNRESOLVED (CLAIM-050); Legendary Fitness OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021)",
    "APK mirrors (soft112/tamindir) dispositioned NON_CONNECTED (authorised-stores-only); dlshile.com remains phishing-suspect",
    "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-roles; player-stats comments; player-diamonds; support-contact; moved-article re-discovery"
+  ],
+  [
+   "t50: download.com.vn chunks 1-4 OWED (fitness coach -> CLAIM-006 + remaining features)",
+   "t50: ref-support-get-promoted 7917423348497 = PRIORITY next (official promotion mechanics)",
+   "t50: new related refs owed: add-friend, sell-players, graphics-settings, change-formation",
+   "Season Points (Career) vs Dream Points (events) earning loops separated (CLAIM-065) — DLL XP/Clan Points/Cup Coins still unmapped; Progress Bank basis OPEN",
+   "Prize Ladder free-to-play path documented (CLAIM-064) — aligns with user no-IAP constraints",
+   "Legendary Fitness OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021); Division 15-match structure needs corroboration (CLAIM-062)",
+   "reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-stats comments; player-diamonds; support-contact; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 254,
+ "sequence_counter": 261,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
