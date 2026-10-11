@@ -21,3 +21,4 @@
 {"at_utc": "2026-10-10T22:36:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "data-usage EV-139 + player-look EV-140; difficulty ref admitted PRIORITY", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-20"}
 {"at_utc": "2026-10-10T22:45:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "difficulty EV-141 + can-i-sell EV-142 (mission-critical pair)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-21"}
 {"at_utc": "2026-10-10T22:52:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "card-colour EV-143 + resign-player EV-144", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-22"}
+{"at_utc": "2026-10-10T23:00:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "auto-switching EV-145; control-buttons 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-23"}
