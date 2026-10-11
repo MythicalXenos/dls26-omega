@@ -2379,7 +2379,7 @@
    "admission_seq": 235,
    "discovered_at": "2026-10-11T11:05:37Z",
    "discovered_by": "HARVESTED_SEARCH_DS43",
-   "extraction_cursor": null,
+   "extraction_cursor": "chunks 0/4 captured (EV-181); 1-3 owed (version history expected chunk 1)",
    "family": "official-stores",
    "note": "ID-locale store page",
    "projections": [
@@ -2387,15 +2387,22 @@
     "Dream Points / Premium Season Pass notes"
    ],
    "ref_id": "ref-store-appstore-id",
-   "status": "UNVISITED",
+   "status": "IN_PROGRESS",
    "ticket_seq": 235,
-   "url": "https://apps.apple.com/id/app/dream-league-soccer-2026/id1462911602?l=id"
+   "url": "https://apps.apple.com/id/app/dream-league-soccer-2026/id1462911602?l=id",
+   "service_events": [
+    {
+     "at": "2026-10-11T11:09:54Z",
+     "event": "extract",
+     "seq": 241
+    }
+   ]
   },
   {
    "admission_seq": 236,
    "discovered_at": "2026-10-11T11:05:37Z",
    "discovered_by": "HARVESTED_SEARCH_DS43",
-   "extraction_cursor": null,
+   "extraction_cursor": "operative content complete (chunk 0/2 EV-182); chunk 1 = low-value tail",
    "family": "community-web-id",
    "note": "ID guide",
    "projections": [
@@ -2403,9 +2410,16 @@
     "formations"
    ],
    "ref_id": "ref-web-industry-guide",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 236,
-   "url": "https://www.industry.co.id/read/155443/panduan-bermain-game-dream-league-soccer-2026-di-update-terbarunya"
+   "url": "https://www.industry.co.id/read/155443/panduan-bermain-game-dream-league-soccer-2026-di-update-terbarunya",
+   "service_events": [
+    {
+     "at": "2026-10-11T11:09:54Z",
+     "event": "extract",
+     "seq": 242
+    }
+   ]
   },
   {
    "admission_seq": 237,
@@ -2517,10 +2531,19 @@
    "terms-of-use chunks 1-3 owed; player-roles 7917583876625; player-stats comment chunks 1-3; player-diamonds 21389882928282; ref-support-contact 360000309705; moved-article re-discovery via help-center search",
    "download.com.vn (VI fitness coach -> CLAIM-006) still owed",
    "version mapping 12200<->13.xx unknown (CLAIM-048); launch Dec 2025 vs Dec 2026 contradiction preserved"
+  ],
+  [
+   "t44: appstore-id chunks 1-3 OWED (version history: Dream Points/Premium Season Pass 13.100-13.110 notes)",
+   "t44: industry-updates + gameoverdrive + dreamkitsapp x2 still UNVISITED (admitted DS-43)",
+   "dev triad Physio mechanics unspecified (CLAIM-052) — feeds no-coin-physio plan validation",
+   "weekly-leaderboard gems claim still single origin (CLAIM-051) — needs corroboration (mission lead)",
+   "currency identity Dream Points/Season Points/DLL XP UNRESOLVED (CLAIM-050)",
+   "Legendary Fitness identity OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021)",
+   "PT/ID/VI/TR discovery continues; reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-roles; player-stats comments; player-diamonds; support-contact; download.com.vn; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 240,
+ "sequence_counter": 242,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",

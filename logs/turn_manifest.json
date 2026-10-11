@@ -1,90 +1,89 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 2074,
+      "bytes": 1560,
       "path": "HANDOFF.md",
-      "sha256": "e104a184196684a71a48b953767fdbd49b60256243d2887698bd603572e02323"
+      "sha256": "f8a742ab56d6b1a1180bf5a98d2cc2de6531233efc9e1aa01b35480ee8c22ba1"
     },
     {
-      "bytes": 1378,
-      "path": "evidence/extract/EV-179_sakibpro_simulator.md",
-      "sha256": "b4b3774d82435d9e985801d73921b0c4f6eb0dd91a527e414f9fa9e00ab46910"
+      "bytes": 1602,
+      "path": "evidence/extract/EV-181_store_appstore_id_chunk0.md",
+      "sha256": "abdddda85dde89f4f873617b3aad57be8337ed698e4ed02366cca85ab17d1e20"
     },
     {
-      "bytes": 2282,
-      "path": "evidence/extract/EV-180_discovery_pt_id_snippets.md",
-      "sha256": "2090f60006e2eb2e8c3660a09cb8262487c6999f71ae3931dee7027512aee2f0"
+      "bytes": 1557,
+      "path": "evidence/extract/EV-182_industry_id_guide.md",
+      "sha256": "db82b8304398f6d82117a2818c6ea103c5c63db65dfc178f564f726bdb707f89"
     },
     {
-      "bytes": 28340,
+      "bytes": 29182,
       "path": "evidence/index.jsonl",
-      "sha256": "1679377e60734a186f35c594a9ceabbc7aa0277dd07b5a60dd0e5716f302be08"
+      "sha256": "67a0748e46f1bdd17467e2fb53dcf21eb35ce23ca48e778ee46b40daef621b2d"
     },
     {
-      "bytes": 45479,
+      "bytes": 48158,
       "path": "kb/claims.jsonl",
-      "sha256": "37fe0f7bf6f441cbcdc5f43c0317f5d75fec73e66ba4224e358b462d993759c1"
+      "sha256": "6754154d64ed77e999f6d10bf3e68a2dfc2f51d585ca25cec339dfa4caa9295d"
     },
     {
-      "bytes": 2220,
+      "bytes": 2237,
       "path": "logs/control.json",
-      "sha256": "970993d9a6a68852635428e6d68941c5b6f368c2895ba5a5754ae04ccb0b42db"
+      "sha256": "e93a16f0c4968ce2ceb31666944208e3a49905068c2b85336908ba9de2449482"
     },
     {
-      "bytes": 9352,
+      "bytes": 9688,
       "path": "logs/operations.jsonl",
-      "sha256": "0825f9c9404210590bad85dcf9d4f73cf3310a871e2988eed6f2fb31f0982f51"
+      "sha256": "edcce5e366814a7a844d2471daa2ae5276e7071d68d1fa83693377d42763992e"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-a914fbc64873.json",
-      "sha256": "82b1de220c359bc91c913f265b98c5c4eb80a4399bda8ed844ee81e91cf47937"
+      "path": "logs/receipts_pending/turn-4ffa3a3d552a.json",
+      "sha256": "05d1d16c17e32f7ff4e8250f6aaaac2fdeb0d46d4d5e5d522a53a0b3c508d452"
     },
     {
-      "bytes": 103968,
+      "bytes": 105144,
       "path": "logs/sources_visited.json",
-      "sha256": "cf5958453c4cd7d16c3cfe40298c9e03400a7295244915adc21f650ac03340e0"
+      "sha256": "0c7959b04a3198767d64586e9bc3606fb129bfb3161236dc40186f19a7ef4cbc"
     }
   ],
-  "checkpoint_nonce": "nonce-04e0f0fc2aa61f9c",
+  "checkpoint_nonce": "nonce-bf290e4c9b6e1423",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T11:06:13Z",
+  "created_at": "2026-10-11T11:09:54Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "59590d346179109993d1b8b6a835b9b76f05f272",
+  "parent_commit": "52054ad71de71dd184d42d184f67eae1b230c0d2",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 43,
+  "sequence": 44,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
-    "fetch_page_calls": 1,
-    "host_calls_total_approx": 8,
-    "web_search_calls": 2
+    "fetch_page_calls": 2,
+    "host_calls_total_approx": 7,
+    "search_calls": 0
   },
-  "turn_id": "turn-4ffa3a3d552a",
+  "turn_id": "turn-1a4220464cfa",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T11:06:13Z",
+    "bluff_check_at": "2026-10-11T11:09:54Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-179/180 + CLAIM-049/050/051 persisted",
-      "ledger status lag corrected (sakibpro tool pages -> VISITED)",
-      "6 new refs admitted from DS-43 BEFORE any serve of them",
+      "EV-181/182 + CLAIM-052/053 persisted; CLAIM-051 updated with EV-182",
+      "appstore-id cursor honest (0/4; version history OWED chunk 1)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
-      "protocol check-master/check-control/check-exits/check-sources all pass pre-prepare"
+      "protocol checks pass pre-prepare"
     ],
     "not_run": [
       "release-check suite (debt)",
