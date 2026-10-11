@@ -1,55 +1,60 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1658,
+      "bytes": 1503,
       "path": "HANDOFF.md",
-      "sha256": "323c3f896b336aa156098c4e9c18046bbf4c7d96b290fe17c8930acd25dfc048"
+      "sha256": "96f5dd77973dda2ca3d5ce043810e05fafdc8a0ecb67d6fb421d6fe2938f9708"
     },
     {
-      "bytes": 4509,
-      "path": "docs/step2_3_preparation/CLAIM043_PERIMETER_AND_OBSERVATION_CHECKLIST.md",
-      "sha256": "effd5b4d2500d38cc9f03165e56d11c991407aa9ae701a7a39ccf592c6842d2e"
+      "bytes": 3881,
+      "path": "docs/step2_3_preparation/EVIDENCE_CAPTURE_TEMPLATES.md",
+      "sha256": "c2ca5c0945e7e24e0e2091a0ef4023537636951b26a0a93bd777756fe08f774f"
     },
     {
-      "bytes": 2597,
+      "bytes": 1897,
+      "path": "handoff/attention_required.md",
+      "sha256": "7f39e7f9211cbf5d433a970409a9a57cedcfd473358bf4617b29ab727872d29c"
+    },
+    {
+      "bytes": 2564,
       "path": "logs/control.json",
-      "sha256": "a29ebcc889f9c0c57d158284a564d6d7ed061d5f42641b14224c300c0baa0e0b"
+      "sha256": "4e8a42e7d3a1860dd36ed1c41301e1f1c2ae6a0605310623d2bff65c10fa90a5"
     },
     {
-      "bytes": 18639,
+      "bytes": 19053,
       "path": "logs/operations.jsonl",
-      "sha256": "6d0367d2ec7b8387290283f04ee5cde6738293e133b4e16675f88b94669418de"
+      "sha256": "ede23622e63478fe179d98319116621e317a06917963ea00de635f24c76a037e"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-b6956ec1f8ae.json",
-      "sha256": "2091a9d54952d22ae5998183a3b4b4309a8c8199c8fc82827e76e78050228728"
+      "path": "logs/receipts_pending/turn-3ef66f92002e.json",
+      "sha256": "f6dc43f2ed205f82a05d7be8363691a7c9f99db9171c83b3b594e2aabe7a9b77"
     },
     {
-      "bytes": 146695,
+      "bytes": 147226,
       "path": "logs/sources_visited.json",
-      "sha256": "2dbd837a0ef2d57cfdd386d7cf7c84407cc270faf1c58ab483a8656e1aa6d4cd"
+      "sha256": "bcdfe96aba1741a803b5f72415d5a734d5b772f32662dc080050bd078ae0ea4f"
     }
   ],
-  "checkpoint_nonce": "nonce-965cca4441e93821",
+  "checkpoint_nonce": "nonce-8e34eec071418a34",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:43:20Z",
+  "created_at": "2026-10-11T17:45:17Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "520d2210c7be7d12e16e9c56a24e00c62305c192",
+  "parent_commit": "9d2e76339c776ff677cca55f4f0d6d2f73cfb42a",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 67,
+  "sequence": 68,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -59,19 +64,19 @@
     "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-3ef66f92002e",
+  "turn_id": "turn-51472080a7f4",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:43:20Z",
+    "bluff_check_at": "2026-10-11T17:45:17Z",
     "executed_fail": [],
     "executed_pass": [
-      "docs/step2_3_preparation/CLAIM043_PERIMETER_AND_OBSERVATION_CHECKLIST.md created (hard bans + allowed surfaces + 6-item in-client checklist + device guardrails + transition gating)",
-      "state machine NOT advanced (epoch OPEN; transition gated on seal or user direction)",
-      "tool outage logged (7th turn); official cursor preserved; checks + ref-reconciliation before prepare"
+      "docs/step2_3_preparation/EVIDENCE_CAPTURE_TEMPLATES.md created (A-F + provenance + tier guidance)",
+      "attention_required.md Step-5 batch pointer added",
+      "tool outage logged (8th turn); official cursor preserved; checks + ref-reconciliation before prepare"
     ],
     "not_run": [
       "official-support cursor \u2014 blocked on fetch_page outage",
       "reddit probe \u2014 blocked on web_search outage",
-      "Medium/Low claim full pass (alternative local option)",
+      "Medium/Low claim pass / epoch seal prep (deferred decision)",
       "full release-check suite + external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"

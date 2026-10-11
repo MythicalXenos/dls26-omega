@@ -28,5 +28,9 @@ batching; not raised piecemeal):
    cadence? public profile? in-client capture?). CLAIM-003 cannot pin the target without
    this; queued for Step 5 batching (t65).
 
+Step-5 batch should also hand Saad the fillable forms in
+`docs/step2_3_preparation/EVIDENCE_CAPTURE_TEMPLATES.md` (templates A-F: ranking surfaces,
+post-match deltas, item catalogue, roster validation, session preamble, match log).
+
 Declined requests and their reasons are preserved here when they occur; they are
 re-raised only when the reason materially changes (OMEGA-MISSION-001).

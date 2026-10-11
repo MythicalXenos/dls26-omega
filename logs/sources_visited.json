@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 320,
+ "sequence_counter": 322,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4288,6 +4288,20 @@
    "ref_id": null,
    "seq": 320,
    "detail": "docs/step2_3_preparation/CLAIM043_PERIMETER_AND_OBSERVATION_CHECKLIST.md created: hard bans + allowed surfaces + residue->in-client checklist (ranking target, XP ladder, Legendary Fitness, roster validation, version marker, economy) + device guardrails (CLAIM-082/083) + transition gating"
+  },
+  {
+   "at_utc": "2026-10-11T17:45:17Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 321,
+   "detail": "t68: fetch_page/web_search remapped AGAIN (8th turn); local evidence-capture templates delivered; official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:45:17Z",
+   "event": "synthesis",
+   "ref_id": null,
+   "seq": 322,
+   "detail": "docs/step2_3_preparation/EVIDENCE_CAPTURE_TEMPLATES.md created (templates A-F + provenance header + tier guidance); attention_required.md Step-5 batch pointer added"
   }
  ],
  "session_id": "sess-bb22126f679b",
