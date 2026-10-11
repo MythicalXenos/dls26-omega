@@ -147,7 +147,7 @@
     {
       "admission_seq": 2,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "chunks 0-2/6 captured (EV-172/173/175); 3-6 residual (version history)",
+      "extraction_cursor": "chunks 0-3/6 captured (EV-172/173/175/177); 4-6 residual (older history)",
       "family": "official-stores",
       "projections": [
         "version history / release notes",
@@ -169,10 +169,15 @@
           "at": "2026-10-11T01:34:00Z",
           "event": "extract",
           "seq": 226
+        },
+        {
+          "at": "2026-10-11T01:42:00Z",
+          "event": "extract",
+          "seq": 229
         }
       ],
       "status": "IN_PROGRESS",
-      "ticket_seq": 226,
+      "ticket_seq": 229,
       "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602"
     },
     {
@@ -1415,14 +1420,21 @@
     {
       "admission_seq": 105,
       "discovered_at": "2026-10-10T20:20:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-178",
       "family": "databases-tools",
       "projections": [
         "tool extraction"
       ],
       "ref_id": "ref-db-sakibpro-compare",
+      "service_events": [
+        {
+          "at": "2026-10-11T01:42:00Z",
+          "event": "extract",
+          "seq": 230
+        }
+      ],
       "status": "UNVISITED",
-      "ticket_seq": 105,
+      "ticket_seq": 230,
       "url": "https://sakibpro.com/players/compare.php"
     },
     {
@@ -2311,6 +2323,21 @@
       "status": "UNVISITED",
       "ticket_seq": 217,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000309705-I-can-t-find-my-answer-here-how-can-I-contact-you"
+    },
+    {
+      "admission_seq": 228,
+      "discovered_at": "2026-10-11T01:42:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "community-database",
+      "note": "upgrade simulator (maxed +10 OVR potential)",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-db-sakibpro-simulator",
+      "status": "UNVISITED",
+      "ticket_seq": 228,
+      "url": "https://sakibpro.com/players/simulator.html"
     }
   ],
   "residual_debt": [
@@ -2346,10 +2373,11 @@
     "appstore chunks 1-6 residual (WHAT'S NEW/version history hunt = mission version-discrepancy work)",
     "appstore chunks 2-6 (version history hunt continues)",
     "appstore chunks 3-6 (version history hunt continues)",
-    "next: appstore chunk 3 + ref-db-sakibpro-compare (players/compare.php), then PT/ID community start + reddit family"
+    "appstore chunks 4-6 (older version notes; LOW incremental value after history found)",
+    "next: ref-db-sakibpro-simulator (players/simulator.html) + PT/ID community start (search-based), then reddit family + remaining community"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 227,
+  "sequence_counter": 230,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -3104,6 +3132,20 @@
       "event": "extract",
       "ref_id": "ref-db-sakibpro-price-calc",
       "seq": 227
+    },
+    {
+      "at_utc": "2026-10-11T01:42:00Z",
+      "detail": "VERSION HISTORY FOUND (13.310-13.430)",
+      "event": "extract",
+      "ref_id": "ref-store-appstore",
+      "seq": 229
+    },
+    {
+      "at_utc": "2026-10-11T01:42:00Z",
+      "detail": "head-to-head compare + radar + tactical maps + simulator link",
+      "event": "extract",
+      "ref_id": "ref-db-sakibpro-compare",
+      "seq": 230
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -3149,13 +3191,13 @@
       "ticket_seq": 50
     },
     "databases-tools": {
-      "served_count": 4,
-      "ticket_seq": 227
+      "served_count": 5,
+      "ticket_seq": 230
     },
     "official-stores": {
       "notes": "Google Play com.firsttouchgames.dls7 + App Store id1462911602",
-      "served_count": 6,
-      "ticket_seq": 226
+      "served_count": 7,
+      "ticket_seq": 229
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
