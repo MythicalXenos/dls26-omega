@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 324,
+ "sequence_counter": 326,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4316,6 +4316,20 @@
    "ref_id": null,
    "seq": 324,
    "detail": "docs/step1/COVERAGE_ACCOUNTING_PRESEAL.md created (family/status matrix, extraction ledger split, 6 seal conditions, 33-debt classes); stale family-notes for ID/PT identified; epoch NOT sealed"
+  },
+  {
+   "at_utc": "2026-10-11T17:50:44Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 325,
+   "detail": "t70: fetch_page/web_search remapped AGAIN (10th turn); local claim maintenance executed; official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:50:44Z",
+   "event": "audit",
+   "ref_id": null,
+   "seq": 326,
+   "detail": "CLAIM-008 dispute RESOLVED via EV-183 store version history (launch 17/12/2025; Dec-2026 claim refuted-but-retained; Disputed -> High Confidence); ID/PT family notes reconciled (stale turn-1 deficit notes corrected)"
   }
  ],
  "session_id": "sess-bb22126f679b",
@@ -4338,12 +4352,12 @@
    "ticket_seq": 48
   },
   "community-web-id": {
-   "notes": "no dedicated ID source admitted in turn 1; translated query attempted; coverage deficit owed",
+   "notes": "RECONCILED t70: 2 ID refs admitted + VISITED (industry.co.id x2, EV-182/184); turn-1 note \"no dedicated ID source\" is historical. Residual: chunk-1 tails = low-priority comments only.",
    "served_count": 0,
    "ticket_seq": null
   },
   "community-web-pt": {
-   "notes": "no dedicated PT source admitted in turn 1; translated query attempted; coverage deficit owed",
+   "notes": "RECONCILED t70: 1 PT ref admitted + VISITED (gameoverdrive.com.br, EV-186/189/191); turn-1 note \"no dedicated PT source\" is historical. Residual: chunk-3 = comment tail only.",
    "served_count": 0,
    "ticket_seq": null
   },
