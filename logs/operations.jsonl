@@ -16,3 +16,4 @@
 {"at_utc": "2026-10-10T21:58:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "fb-login-removal EV-133; cant-update 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-15"}
 {"at_utc": "2026-10-10T22:05:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "friend-match + restart-career both 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-16"}
 {"at_utc": "2026-10-10T22:12:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "help-center discovery (9 urls; coaches + dll-matchmaking leads) + video-clips EV-134", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-17"}
+{"at_utc": "2026-10-10T22:20:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "dll-matchmaking EV-135 + develop-players EV-136 (mission leads)", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-18"}

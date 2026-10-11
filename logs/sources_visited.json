@@ -1521,30 +1521,44 @@
       "admission_seq": 146,
       "discovered_at": "2026-10-10T22:10:00Z",
       "discovered_by": "DISCOVERED_BY_SEARCH",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-135",
       "family": "official-support",
       "note": "PRIORITY: DLL matchmaking mechanics (mission-critical)",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-dll-matchmaking",
-      "status": "UNVISITED",
-      "ticket_seq": 146,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:20:00Z",
+          "event": "extract",
+          "seq": 155
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 155,
       "url": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work"
     },
     {
       "admission_seq": 147,
       "discovered_at": "2026-10-10T22:10:00Z",
       "discovered_by": "DISCOVERED_BY_SEARCH",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-136",
       "family": "official-support",
       "note": "PRIORITY: coaches/development (CLAIM-006 lead; DLS19-era) ",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-develop-players",
-      "status": "UNVISITED",
-      "ticket_seq": 147,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:20:00Z",
+          "event": "extract",
+          "seq": 156
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 156,
       "url": "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players"
     },
     {
@@ -1586,6 +1600,48 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 150,
       "url": "https://support.ftgames.com/hc/en-us/articles/214421705-How-do-I-customise-my-kit-in-Dream-League-Soccer-Classic"
+    },
+    {
+      "admission_seq": 152,
+      "discovered_at": "2026-10-10T22:20:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-missing-players",
+      "status": "UNVISITED",
+      "ticket_seq": 152,
+      "url": "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app"
+    },
+    {
+      "admission_seq": 153,
+      "discovered_at": "2026-10-10T22:20:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-can-i-sell",
+      "status": "UNVISITED",
+      "ticket_seq": 153,
+      "url": "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players"
+    },
+    {
+      "admission_seq": 154,
+      "discovered_at": "2026-10-10T22:20:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-sell-players",
+      "status": "UNVISITED",
+      "ticket_seq": 154,
+      "url": "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players"
     }
   ],
   "residual_debt": [
@@ -1608,10 +1664,11 @@
       "support owed next: dll-matchmaking 360018359998 + develop-players 360003914778 (PRIORITY mission leads), then data-usage 360005680437 + player-look 360004718318",
       "then: control-buttons, kit-logo 360004080497, change-manager, emojis 3600020938198, kit-visible-live 3600021064298, age-limits 360000204889 + age-confirmation 4408249822609, match-connection-issues 7917279109777, season-pass revs, signin setup guides, user-id-rev, data-deletion",
       "re-discover moved articles via further searches: friend-match, restart-career, cant-update, connection-required, device-compat (stale ids)"
-    ]
+    ],
+    "support owed next: sell-players 17146555181585 + missing-players 213852049, then data-usage 360005680437 + player-look 360004718318"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 151,
+  "sequence_counter": 156,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2030,6 +2087,20 @@
       "at_utc": "2026-10-10T22:10:00Z",
       "detail": "help-center search \"Dream League Soccer\": 9 valid URLs harvested incl. dll-matchmaking 360018359998 + develop-players 360003914778 (coaches snippet) ",
       "event": "discovery"
+    },
+    {
+      "at_utc": "2026-10-10T22:20:00Z",
+      "detail": "matchmaking inputs: LIVE Tier + location + pool; no difficulty overlays",
+      "event": "extract",
+      "ref_id": "ref-support-dll-matchmaking",
+      "seq": 155
+    },
+    {
+      "at_utc": "2026-10-10T22:20:00Z",
+      "detail": "coaches = random permanent upgrades; Form Boost temporary (Training-scaling)",
+      "event": "extract",
+      "ref_id": "ref-support-develop-players",
+      "seq": 156
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2085,8 +2156,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 28,
-      "ticket_seq": 151
+      "served_count": 30,
+      "ticket_seq": 156
     }
   }
 }
