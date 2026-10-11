@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 322,
+ "sequence_counter": 324,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4302,6 +4302,20 @@
    "ref_id": null,
    "seq": 322,
    "detail": "docs/step2_3_preparation/EVIDENCE_CAPTURE_TEMPLATES.md created (templates A-F + provenance header + tier guidance); attention_required.md Step-5 batch pointer added"
+  },
+  {
+   "at_utc": "2026-10-11T17:47:59Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 323,
+   "detail": "t69: fetch_page/web_search remapped AGAIN (9th turn); coverage-accounting preseal delivered; official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:47:59Z",
+   "event": "audit",
+   "ref_id": null,
+   "seq": 324,
+   "detail": "docs/step1/COVERAGE_ACCOUNTING_PRESEAL.md created (family/status matrix, extraction ledger split, 6 seal conditions, 33-debt classes); stale family-notes for ID/PT identified; epoch NOT sealed"
   }
  ],
  "session_id": "sess-bb22126f679b",
