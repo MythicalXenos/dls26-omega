@@ -1717,28 +1717,42 @@
       "admission_seq": 159,
       "discovered_at": "2026-10-10T22:28:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-143",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-card-colour",
-      "status": "UNVISITED",
-      "ticket_seq": 159,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:52:00Z",
+          "event": "extract",
+          "seq": 170
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 170,
       "url": "https://support.ftgames.com/hc/en-us/articles/214385645-Why-are-some-players-displaying-a-different-player-card-colour"
     },
     {
       "admission_seq": 160,
       "discovered_at": "2026-10-10T22:28:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-144",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-resign-player",
-      "status": "UNVISITED",
-      "ticket_seq": 160,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:52:00Z",
+          "event": "extract",
+          "seq": 171
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 171,
       "url": "https://support.ftgames.com/hc/en-us/articles/214385465-Can-I-re-sign-a-player-that-I-have-sold-previously"
     },
     {
@@ -1804,11 +1818,11 @@
       "re-discover moved articles via further searches: friend-match, restart-career, cant-update, connection-required, device-compat (stale ids)"
     ],
     "player-look comments chunks 1-3 (LOW)",
-    "support owed next: card-colour 214385645 + resign-player 214385465, then auto-switching 360008831518 + control-buttons",
-    "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering"
+    "ISS-0003 note: official article gates on \"version 12200 onwards\" (in-app build numbering) vs app-store 13.4x community numbering",
+    "support owed next: auto-switching 360008831518 + control-buttons, then kit-logo 360004080497 + change-manager"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 169,
+  "sequence_counter": 171,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2283,6 +2297,20 @@
       "event": "extract",
       "ref_id": "ref-support-can-i-sell",
       "seq": 169
+    },
+    {
+      "at_utc": "2026-10-10T22:52:00Z",
+      "detail": "rarity taxonomy bronze/blue/gold/red/black",
+      "event": "extract",
+      "ref_id": "ref-support-card-colour",
+      "seq": 170
+    },
+    {
+      "at_utc": "2026-10-10T22:52:00Z",
+      "detail": "re-sign delay + Recover window + licensing lockout (v12200+)",
+      "event": "extract",
+      "ref_id": "ref-support-resign-player",
+      "seq": 171
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2338,8 +2366,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 36,
-      "ticket_seq": 169
+      "served_count": 38,
+      "ticket_seq": 171
     }
   }
 }
