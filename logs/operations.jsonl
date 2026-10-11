@@ -28,3 +28,4 @@
 {"at_utc": "2026-10-10T23:30:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "match-connection EV-150 + skill-move EV-151", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-27"}
 {"at_utc": "2026-10-10T23:38:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "graphics EV-152 + refund EV-153", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-28"}
 {"at_utc": "2026-10-10T23:46:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "home-away-kit EV-154 + connection-older EV-155", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-29"}
+{"at_utc": "2026-10-10T23:54:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "graphics-rev EV-156 + restrict-iap EV-157", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-30"}

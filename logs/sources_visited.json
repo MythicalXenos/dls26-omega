@@ -2011,29 +2011,43 @@
       "admission_seq": 190,
       "discovered_at": "2026-10-10T23:38:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-156 (revision of EV-152)",
       "family": "official-support",
       "note": "revision/newer id of graphics article",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-graphics-rev",
-      "status": "UNVISITED",
-      "ticket_seq": 190,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:54:00Z",
+          "event": "extract",
+          "seq": 198
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 198,
       "url": "https://support.ftgames.com/hc/en-us/articles/7918056936721-How-can-I-change-my-graphics-settings"
     },
     {
       "admission_seq": 191,
       "discovered_at": "2026-10-10T23:38:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-157",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-restrict-iap",
-      "status": "UNVISITED",
-      "ticket_seq": 191,
+      "service_events": [
+        {
+          "at": "2026-10-10T23:54:00Z",
+          "event": "extract",
+          "seq": 199
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 199,
       "url": "https://support.ftgames.com/hc/en-us/articles/360000191385-How-to-restrict-in-app-purchases"
     },
     {
@@ -2048,6 +2062,21 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 194,
       "url": "https://support.ftgames.com/hc/en-us/articles/9423705692177-Removal-of-Facebook-Login-from-Score-Match"
+    },
+    {
+      "admission_seq": 197,
+      "discovered_at": "2026-10-10T23:54:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-video-clips-rev",
+      "revision_of": "ref-support-video-clips",
+      "status": "UNVISITED",
+      "ticket_seq": 197,
+      "url": "https://support.ftgames.com/hc/en-us/articles/7917682153361-I-am-not-seeing-any-video-clips-what-can-I-do"
     }
   ],
   "residual_debt": [
@@ -2076,11 +2105,11 @@
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
-    "support owed next: graphics-rev 7918056936721 + restrict-iap 360000191385, then change-kit 7916959134737 + user-id-rev 37083387788434",
-    "after support tail: season-pass revs, signin setup guides x2, data-deletion; then family switches (FTG core-principles/terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community)"
+    "after support tail: season-pass revs, signin setup guides x2, data-deletion; then family switches (FTG core-principles/terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community)",
+    "support owed next: change-kit 7916959134737 + user-id-rev 37083387788434, then video-clips-rev 7917682153361 + season-pass-rev1 360005678698"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 196,
+  "sequence_counter": 199,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2667,6 +2696,20 @@
       "event": "extract",
       "ref_id": "ref-support-connection-older",
       "seq": 196
+    },
+    {
+      "at_utc": "2026-10-10T23:54:00Z",
+      "detail": "menu path changed to hamburger>Profile>Graphics; safe-mode shortcut Android 8+",
+      "event": "extract",
+      "ref_id": "ref-support-graphics-rev",
+      "seq": 198
+    },
+    {
+      "at_utc": "2026-10-10T23:54:00Z",
+      "detail": "store-side purchase authentication",
+      "event": "extract",
+      "ref_id": "ref-support-restrict-iap",
+      "seq": 199
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2722,8 +2765,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 49,
-      "ticket_seq": 196
+      "served_count": 51,
+      "ticket_seq": 199
     }
   }
 }
