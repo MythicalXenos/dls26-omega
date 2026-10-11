@@ -1425,14 +1425,21 @@
     {
       "admission_seq": 113,
       "discovered_at": "2026-10-10T20:48:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-166",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-data-deletion",
-      "status": "UNVISITED",
-      "ticket_seq": 113,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:50:00Z",
+          "event": "extract",
+          "seq": 215
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 215,
       "url": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted"
     },
     {
@@ -2166,15 +2173,22 @@
       "admission_seq": 203,
       "discovered_at": "2026-10-11T00:10:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-165 \u2014 third identical body (family closed)",
       "family": "official-support",
       "note": "third video-clips id (family)",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-video-clips-rev2",
-      "status": "UNVISITED",
-      "ticket_seq": 203,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:50:00Z",
+          "event": "extract",
+          "seq": 214
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 214,
       "url": "https://support.ftgames.com/hc/en-us/articles/360017166898-I-am-not-seeing-any-video-clips-what-can-I-do"
     },
     {
@@ -2232,13 +2246,12 @@
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
-    "then: video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657; spurious 404 urls 360005678698/360005678818 are NOT refs (EVD-0010/0011 annotate)",
     "MISSION follow-ups from EV-162: resolve Progress Bank basis conflict (Season Points vs DLL XP wording); Season VIP concept unexplored; \"Season Points purchasable in Shop\" affects fair-grind expectations",
-    "support owed next: video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657 + user-id-rev3 37083330886546 (support family then ~closed)",
-    "after support: family switches \u2014 ftgames.com core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community; reddit family"
+    "after support: family switches \u2014 ftgames.com core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community; reddit family",
+    "support final pair: icloud-setup 360000613657 + user-id-rev3 37083330886546, then support family CLOSED -> switch families (ftgames core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com versions; sakibpro; PT/ID community; reddit)"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 213,
+  "sequence_counter": 215,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2909,6 +2922,20 @@
       "event": "extract",
       "ref_id": "ref-support-user-id-rev2",
       "seq": 213
+    },
+    {
+      "at_utc": "2026-10-11T00:50:00Z",
+      "detail": "duplicate of EV-134/160",
+      "event": "extract",
+      "ref_id": "ref-support-video-clips-rev2",
+      "seq": 214
+    },
+    {
+      "at_utc": "2026-10-11T00:50:00Z",
+      "detail": "Delete Profile flow (all games) + irreversibility",
+      "event": "extract",
+      "ref_id": "ref-support-data-deletion",
+      "seq": 215
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2964,8 +2991,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 58,
-      "ticket_seq": 213
+      "served_count": 60,
+      "ticket_seq": 215
     }
   }
 }
