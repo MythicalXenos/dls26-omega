@@ -1,9 +1,9 @@
 # HANDOFF.md — DLS26 Omega session handoff
-- Session: sess-bb22126f679b | Turn: turn-54295d08a15a (sequence 93) | Mode: BOOTSTRAP | State: Step 1 WORKING
-- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T18:42:49Z
+- Session: sess-bb22126f679b | Turn: turn-675055b3e094 (sequence 94) | Mode: BOOTSTRAP | State: Step 1 WORKING
+- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T18:44:14Z
 
-## This turn (DS-93) — minimal hygiene (33rd-turn tool outage)
-- fetch_page/web_search probe remapped again (33rd turn). Ledger parse sanity OK (85 claims / 157 refs / 93 ops lines / 119 evidence index entries / counter 351). Nothing new extracted; nothing manufactured.
+## This turn (DS-94) — minimal hygiene (34th-turn tool outage)
+- fetch_page/web_search probe remapped again (34th turn). Ledger parse sanity OK (85 claims / 157 refs / 94 ops lines / 119 evidence index entries / counter 352). Nothing new extracted; nothing manufactured.
 
 ## Next action (cursor) — UNCHANGED (needs fetch_page)
-On `>`: **re-attempt fetch_page first** (34th-turn probe). If live: `ref-support-backup-restore` 214387685 (stale-risk) + `ref-support-dls19-profile` 360004717278, then reddit probe (ISS-0006), then `age-policies` 360000204889 / `next-update` 360000262229 / `restart-career-3rd` 3600017167418 / `connection-general` 360000420025; priority extras: player-stats comments 1-3 + develop-players 360003914778. If still down: minimal hygiene (sanity + probe + wrap). Residue: docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md. Staged asks: handoff/attention_required.md.
+On `>`: **re-attempt fetch_page first** (35th-turn probe). If live: `ref-support-backup-restore` 214387685 (stale-risk) + `ref-support-dls19-profile` 360004717278, then reddit probe (ISS-0006), then `age-policies` 360000204889 / `next-update` 360000262229 / `restart-career-3rd` 3600017167418 / `connection-general` 360000420025; priority extras: player-stats comments 1-3 + develop-players 360003914778. If still down: minimal hygiene (sanity + probe + wrap). Residue: docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md. Staged asks: handoff/attention_required.md.
