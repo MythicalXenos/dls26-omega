@@ -14,3 +14,4 @@
 {"at_utc": "2026-10-10T21:42:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "app-update + profile-transfer", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-13"}
 {"at_utc": "2026-10-10T21:50:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "connection-required + device-compat both 404 PAGE_MISSING", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-14"}
 {"at_utc": "2026-10-10T21:58:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "fb-login-removal EV-133; cant-update 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-15"}
+{"at_utc": "2026-10-10T22:05:00Z", "event": "EXTRACTION_SLICE", "fetch_page_calls": 2, "note": "friend-match + restart-career both 404 RETRYABLE_FAILURE", "op_id": "op-bootstrap-ceb4e55e", "slice": "DS-16"}

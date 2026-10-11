@@ -1028,27 +1028,43 @@
     {
       "admission_seq": 81,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "404 oops page 2026-10-10; stale Zendesk article id; re-discovery owed",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-friend-match",
-      "status": "UNVISITED",
-      "ticket_seq": 81,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:05:00Z",
+          "detail": "404 -> RETRYABLE_FAILURE",
+          "event": "extract",
+          "seq": 144
+        }
+      ],
+      "status": "RETRYABLE_FAILURE",
+      "ticket_seq": 144,
       "url": "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match"
     },
     {
       "admission_seq": 82,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "404 oops page 2026-10-10; stale Zendesk article id; re-discovery owed",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-restart-career",
-      "status": "UNVISITED",
-      "ticket_seq": 82,
+      "service_events": [
+        {
+          "at": "2026-10-10T22:05:00Z",
+          "detail": "404 -> RETRYABLE_FAILURE",
+          "event": "extract",
+          "seq": 145
+        }
+      ],
+      "status": "RETRYABLE_FAILURE",
+      "ticket_seq": 145,
       "url": "https://support.ftgames.com/hc/en-us/articles/213851909-How-do-I-restart-my-career-from-the-beginning"
     },
     {
@@ -1510,10 +1526,12 @@
     "user-id revision 37083387788434 admitted (revision accounting)",
     "re-discover moved articles: connection-required + device-compat (404 2026-10-10; search help center)",
     "re-discover moved articles: connection-required, device-compat, cant-update (all 404 2026-10-10)",
-    "support owed next: friend-match, restart-career, video-clips, data-usage, player-look, control-buttons, kit-logo, change-manager, emojis, kit-visible-live, age-limits, match-connection-issues, season-pass-rev1/rev2, signin setup guides, user-id-rev; profile-transfer comments 1-3 (LOW)"
+    "STRATEGY CHANGE: 5 of 7 stale related-link IDs 404; stop blind stale-ID fetches - next slice = help-center discovery (section listing/search) to rebuild valid URLs, then resume extraction",
+    "re-discover moved articles: connection-required, device-compat, cant-update, friend-match, restart-career (404 2026-10-10)",
+    "support owed (valid ids first): video-clips 360017166918, data-usage 360017166978, player-look 360004718318, kit-logo 360004080497, season-pass-rev1 360005678698, age-limits 360000204889, match-connection-issues 7917279109777, signin setup 360009450097 + 9580096555281, user-id-rev 37083387788434, data-deletion 360017046578, not-realistic-already-done"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 143,
+  "sequence_counter": 145,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -1906,6 +1924,20 @@
       "event": "extract",
       "ref_id": "ref-support-cant-update",
       "seq": 143
+    },
+    {
+      "at_utc": "2026-10-10T22:05:00Z",
+      "detail": "HTTP 404 oops (stale article id 360017186357) -> RETRYABLE_FAILURE",
+      "event": "extract",
+      "ref_id": "ref-support-friend-match",
+      "seq": 144
+    },
+    {
+      "at_utc": "2026-10-10T22:05:00Z",
+      "detail": "HTTP 404 oops (stale article id 360016073617) -> RETRYABLE_FAILURE",
+      "event": "extract",
+      "ref_id": "ref-support-restart-career",
+      "seq": 145
     }
   ],
   "session_id": "sess-bb22126f679b",
