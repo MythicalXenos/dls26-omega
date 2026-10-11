@@ -120,7 +120,7 @@
     {
       "admission_seq": 1,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "full-page chunk 0/2 extracted (EV-103); chunk 1 (reviews area) OWED",
+      "extraction_cursor": "complete (2/2) EV-171; LISTING CLOSED",
       "family": "official-stores",
       "projections": [
         "store listing features/claims",
@@ -133,24 +133,36 @@
           "at": "2026-10-10T20:18:00Z",
           "event": "extract",
           "seq": 95
+        },
+        {
+          "at": "2026-10-11T01:18:00Z",
+          "event": "extract",
+          "seq": 222
         }
       ],
-      "status": "IN_PROGRESS",
-      "ticket_seq": 95,
+      "status": "VISITED",
+      "ticket_seq": 222,
       "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7"
     },
     {
       "admission_seq": 2,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "turn-1 search digest only; full version-history extraction OWED",
+      "extraction_cursor": "chunks 0/6 captured EV-172; 1-6 residual (version history target)",
       "family": "official-stores",
       "projections": [
         "version history / release notes",
         "feature claims"
       ],
       "ref_id": "ref-store-appstore",
+      "service_events": [
+        {
+          "at": "2026-10-11T01:18:00Z",
+          "event": "extract",
+          "seq": 223
+        }
+      ],
       "status": "IN_PROGRESS",
-      "ticket_seq": 28,
+      "ticket_seq": 223,
       "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602"
     },
     {
@@ -2307,10 +2319,11 @@
     "SUPPORT FAMILY CLOSED except contact 360000309705 (admitted; low priority) + assorted RETRYABLE_FAILURE re-discoveries",
     "terms-of-use chunks 1-3 (residual projections on the same ref)",
     "MISSION/OPS NOTE: EULA 2.1.1 bans reverse engineering/decompilation; 2.1.2 bans automation software/bots/hacks/mods/unauthorized third-party software; 2.1.3 bans non-UI access -> CONSTRAINS Step 2 static analysis + Step 3 device pipeline design (must be UI-driven only, no RE, no automation that FTG could deem conflicting)",
-    "next: play listing chunk 1/2 + apps.apple.com version history, then sakibpro tools x3 + PT/ID community + reddit family"
+    "appstore chunks 1-6 residual (WHAT'S NEW/version history hunt = mission version-discrepancy work)",
+    "next: appstore chunk 1 + ref-db-sakibpro-trending (players/trending.php), then price-calc + compare, then PT/ID community + reddit family"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 221,
+  "sequence_counter": 223,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -3023,6 +3036,20 @@
       "event": "extract",
       "ref_id": "ref-official-terms",
       "seq": 221
+    },
+    {
+      "at_utc": "2026-10-11T01:18:00Z",
+      "detail": "gplay final chunk: data-safety, reviews (community), Cult Heroes update, IAP random-item label",
+      "event": "extract",
+      "ref_id": "ref-store-gplay",
+      "seq": 222
+    },
+    {
+      "at_utc": "2026-10-11T01:18:00Z",
+      "detail": "DLS26 store description + features + reviews",
+      "event": "extract",
+      "ref_id": "ref-store-appstore",
+      "seq": 223
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -3073,8 +3100,8 @@
     },
     "official-stores": {
       "notes": "Google Play com.firsttouchgames.dls7 + App Store id1462911602",
-      "served_count": 2,
-      "ticket_seq": 95
+      "served_count": 4,
+      "ticket_seq": 223
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",

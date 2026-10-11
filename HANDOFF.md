@@ -1,10 +1,10 @@
 # HANDOFF.md — DLS26 Omega session handoff
-- Session: sess-bb22126f679b | Turn: turn-dad550c075c0 (sequence 38) | Mode: BOOTSTRAP | State: Step 1 WORKING
-- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T01:10:00Z
+- Session: sess-bb22126f679b | Turn: turn-c074c2fed27a (sequence 39) | Mode: BOOTSTRAP | State: Step 1 WORKING
+- Master v77 sha256 7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4 (verified) | Updated: 2026-10-11T01:18:00Z
 
-## This turn (DS-38) — MISSION + OPS CONSTRAINT
-- `ref-official-web-core-principles` (EV-169, CLAIM-044): fair-gaming charter; **matchmaking input "recent results"** (new vs EV-135); AI influence factors listed (tactics/formation/dev profile/weather/spin/stadium); no pre-determined results/bias (official, incentive-tagged).
-- `ref-official-web-terms-of-use` (EV-170, CLAIM-043): EULA 25 Jul 2025 — authorised stores only; **NO reverse engineering/decompilation; NO automation software/bots/hacks/mods; UI-only access** → Steps 2/3 MUST be UI-driven, non-RE. Chunks 1-3 residual.
+## This turn (DS-39) — store evidence
+- gplay listing (EV-171, CLOSED 2/2): Cult Heroes live event; "random items" IAP label; review themes (input delay, Wi-Fi issues, coach double-fee, no-coin refunds) = community sentiment.
+- appstore (EV-172, chunks 0/6): **DLS26 = 8 divisions, Clan system, Coaches (technical+physical), Global Leaderboards + Events with prizes, regular seasons** (CLAIM-045). Version history still unread (chunks 1-6).
 
 ## Next action (cursor)
-On `>`: play listing chunk 1/2 + `ref-support-contact` (360000309705) OR apps.apple.com version history (mission: version discrepancy). Mission-critical OPEN (CLAIM-003): season leaderboard surface specifics + DLL XP vs Season Points; Legendary Fitness identity (CLAIM-006). Staged user asks: handoff/attention_required.md.
+On `>`: appstore chunk 1 (version-history hunt) + `ref-db-sakibpro-trending` (sakibpro.com/players/trending.php), then `ref-db-sakibpro-price-calc` + `ref-db-sakibpro-compare`. Mission-critical OPEN (CLAIM-003): season leaderboard scope/tie-breaks/eligibility + DLL XP vs Season Points; Legendary Fitness identity (CLAIM-006, coaches CONFIRMED in store copy). Staged user asks: handoff/attention_required.md.

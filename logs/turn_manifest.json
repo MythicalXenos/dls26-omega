@@ -1,65 +1,65 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1221,
+      "bytes": 1162,
       "path": "HANDOFF.md",
-      "sha256": "93650456d8e8b290824a776ee20e594ba5e54076e5408b9e4a7f2808ca2d1be3"
+      "sha256": "3baf414e4f993b75dd65309d5a5f1ecec2dba7413bfffa52c0e2a6d291deebd7"
     },
     {
-      "bytes": 1275,
-      "path": "evidence/extract/EV-169_officialweb_core_principles.md",
-      "sha256": "53b76126a6e36ac81e7b6d5af0edf5a986e628d5bfd7d66376c2c3a0489dbffa"
+      "bytes": 986,
+      "path": "evidence/extract/EV-171_store_gplay_chunk1.md",
+      "sha256": "00168821c74c186e100324b7e75f77d0b5c4644f93e07a9dd7e9009751fd5bc2"
     },
     {
-      "bytes": 1474,
-      "path": "evidence/extract/EV-170_officialweb_terms_of_use.md",
-      "sha256": "8c49377f91455461a46326ad706645dd1fffad6ce677e4d87f9f64df9e51caec"
+      "bytes": 1104,
+      "path": "evidence/extract/EV-172_store_appstore_chunk0.md",
+      "sha256": "428ba28e2a9a05b67bbf4fb25031fd54b8446526e96c55d77eaa7239172e3201"
     },
     {
-      "bytes": 24747,
+      "bytes": 25485,
       "path": "evidence/index.jsonl",
-      "sha256": "16c50aa4f7067952c19ae1242a0f35221b82e14228f5efc39a39554c11290c51"
+      "sha256": "4a5cd60c00e06d4b3483e4f90507c039cdaf6a089d98a1dbb9381f2083e9c4e3"
     },
     {
-      "bytes": 38483,
+      "bytes": 39511,
       "path": "kb/claims.jsonl",
-      "sha256": "eb6f23e504312df7de9a54638ad2990496b7d943a7ea4bf7454246364b6117b7"
+      "sha256": "298a4c14ae08a6a4a194780b9211e06f7be0876bffdeab54f0a7a9d5dc054dcc"
     },
     {
-      "bytes": 8246,
+      "bytes": 8450,
       "path": "logs/operations.jsonl",
-      "sha256": "70e1b80c42188b9b61ab068becbe25f9d3f109318312d27f07d2cbe61f1cc8e6"
+      "sha256": "5eafed7697dd0da6690bda03d0e250233c40e0ea94c10d710f67f8ffcf3713d8"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-c0c3d45da1bd.json",
-      "sha256": "e3006accf1a6e5af7e02f54ab528e7349032393155deb95c492fe54a32c96a75"
+      "path": "logs/receipts_pending/turn-dad550c075c0.json",
+      "sha256": "8f58a41c00932266cb90e399a6bd24f73ab49b995eada5bfeb830c37902d10ff"
     },
     {
-      "bytes": 105469,
+      "bytes": 106264,
       "path": "logs/sources_visited.json",
-      "sha256": "1b3822a8213d60305a76663eb6f3a82b55a0949c368efe0ab3db0e5d02719261"
+      "sha256": "3c0242cc62e994e4ccec24ba89eeaba1b14e59a7c1470e0283e08ec3a2795947"
     }
   ],
-  "checkpoint_nonce": "nonce-ab3bc9dccf114c8f",
+  "checkpoint_nonce": "nonce-5d3d6a610b91471d",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T01:10:00Z",
+  "created_at": "2026-10-11T01:18:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "5875322aa634c3948ffeea3624c2c7b8525c98aa",
+  "parent_commit": "01e06f6a92f4d2ad3e1bc7f360ff427964c61307",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 38,
+  "sequence": 39,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -69,13 +69,13 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-dad550c075c0",
+  "turn_id": "turn-c074c2fed27a",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T01:10:00Z",
+    "bluff_check_at": "2026-10-11T01:18:00Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-169/170 + CLAIM-043/044 persisted",
-      "EULA ops constraint flagged for Steps 2/3",
+      "EV-171/172 + CLAIM-045 persisted",
+      "gplay listing closed",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"
