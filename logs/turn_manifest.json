@@ -1,70 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1550,
+      "bytes": 1495,
       "path": "HANDOFF.md",
-      "sha256": "4749b6f301a0b51bb7c63c455a1335c904fc91adb81dd2798989f15ae8313e56"
+      "sha256": "4e7a0aa4151db30028d8b5d6bed0d6ce0a81fd18dbea3905497f7700fccf617a"
     },
     {
-      "bytes": 2434,
-      "path": "evidence/extract/EV-185_store_appstore_id_chunk2_tail_privacy_iap.md",
-      "sha256": "c133bbdbbe36b9fe7efeb3b8c03ca67a9d9a6df3d621a657d4aa77b7fc7ec48c"
+      "bytes": 1382,
+      "path": "evidence/extract/EV-187_dreamkitsapp_data_taxonomy.md",
+      "sha256": "36fdb12539e1be5aae93d8a164f935246f882d43244dcffc7ae319783aa1038f"
     },
     {
-      "bytes": 1222,
-      "path": "evidence/extract/EV-186_pt_gameoverdrive_best_players.md",
-      "sha256": "37e292801de22d68d6e01d5320e3e5c7a5f67a75c2ad8abe1e553e35a38fa7f2"
+      "bytes": 1242,
+      "path": "evidence/extract/EV-188_dreamkitsapp_players_catalog.md",
+      "sha256": "fef6dfd5e10fa55bf1db8b95f635ddbe706ce844e8aff1b85bf39b4323878a10"
     },
     {
-      "bytes": 30841,
+      "bytes": 31552,
       "path": "evidence/index.jsonl",
-      "sha256": "90c8ae4c07248b984d48c1ef3eae167fe8cdefdfd2c77758d62ed0ec565556f6"
+      "sha256": "6bdb65c6221257c6d9e6f3d91b707330b0a780a9ac92ea7cd765d7b06c0e7000"
     },
     {
-      "bytes": 54597,
+      "bytes": 57172,
       "path": "kb/claims.jsonl",
-      "sha256": "e72d3f4307931d1d1860c46500d8e4149fcfef221f1638211f0c4b874f34011d"
+      "sha256": "b5ea2fd1770b8eaaa62abedc8be7cfcf1b2cef45d1f83ca1d06c5c31933df5bb"
     },
     {
-      "bytes": 2269,
+      "bytes": 2255,
       "path": "logs/control.json",
-      "sha256": "ad9a1614f32df703d08ea2900a198300d20fdc047a22733b15562ed7dbeb4dc0"
+      "sha256": "d2c839c44c0a748800ccebba8f8643f29daeff53e00a9e5689c3426fbca552e0"
     },
     {
-      "bytes": 10368,
+      "bytes": 10691,
       "path": "logs/operations.jsonl",
-      "sha256": "755b8f0c08f4d312055bd629132044b71a83cb6b3a1bebbb9ffe0d843d172ac9"
+      "sha256": "96fc029fd853329993f5b8f0a58727e31e636790a7ec161ce7892c5232f47617"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-b9b2cf6d092c.json",
-      "sha256": "87d83175e0f555b119bb1efa3b6c151e7942b554ca678345fa6e4d4ab08e1406"
+      "path": "logs/receipts_pending/turn-ce552292785d.json",
+      "sha256": "6135475b991c440e9b14d13eb3d9b83552925df556d5fd022fa499f500815a4a"
     },
     {
-      "bytes": 107480,
+      "bytes": 108625,
       "path": "logs/sources_visited.json",
-      "sha256": "acdc17ffc46420843e336a8dd2fda5e6577b6343bd22c279894a3045e65743a2"
+      "sha256": "5f4ed6955b3515ef91d7aa6ec6b168576ede07395abe8366d1d26029eaf64e55"
     }
   ],
-  "checkpoint_nonce": "nonce-69996a00c4179ace",
+  "checkpoint_nonce": "nonce-adbc31b064de5dfb",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T11:20:03Z",
+  "created_at": "2026-10-11T11:22:31Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "ae4599f2d72cbab6caf2a88c4bbc9b45f2d0bc9d",
+  "parent_commit": "e2231a491cbb60908ab475eef7f3715fdc8a0b95",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 46,
+  "sequence": 47,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,14 +74,14 @@
     "host_calls_total_approx": 7,
     "search_calls": 0
   },
-  "turn_id": "turn-ce552292785d",
+  "turn_id": "turn-8dc08b19ebe9",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T11:20:03Z",
+    "bluff_check_at": "2026-10-11T11:22:31Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-185/186 + CLAIM-056/057/058 persisted; CLAIM-050 updated (Cup Coins + Dream Points unplaced)",
-      "franchise band + launch week recorded store-backed (CLAIM-057)",
-      "cursors honest (appstore-id 0-2/4; gameoverdrive 0/4)",
+      "EV-187/188 + CLAIM-059/060 persisted; CLAIM-058 updated (96-vs-86 tension)",
+      "card taxonomy cross-check done (multi-scheme preserved, no forced unification)",
+      "cursors honest (dreamkitsapp-data 0/2; players complete)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"
