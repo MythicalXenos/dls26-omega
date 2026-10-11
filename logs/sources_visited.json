@@ -2379,7 +2379,7 @@
    "admission_seq": 235,
    "discovered_at": "2026-10-11T11:05:37Z",
    "discovered_by": "HARVESTED_SEARCH_DS43",
-   "extraction_cursor": "chunks 0/4 captured (EV-181); 1-3 owed (version history expected chunk 1)",
+   "extraction_cursor": "chunks 0-1/4 captured (EV-181/183); chunk 2 = tail of 13.040 launch notes (Dream Points line confirm); chunk 3 residual reviews",
    "family": "official-stores",
    "note": "ID-locale store page",
    "projections": [
@@ -2395,6 +2395,11 @@
      "at": "2026-10-11T11:09:54Z",
      "event": "extract",
      "seq": 241
+    },
+    {
+     "at": "2026-10-11T11:12:58Z",
+     "event": "extract",
+     "seq": 243
     }
    ]
   },
@@ -2425,7 +2430,7 @@
    "admission_seq": 237,
    "discovered_at": "2026-10-11T11:05:37Z",
    "discovered_by": "HARVESTED_SEARCH_DS43",
-   "extraction_cursor": null,
+   "extraction_cursor": "operative content complete (chunk 0/2 EV-184); chunk 1 = low-value tail",
    "family": "community-web-id",
    "note": "ID updates article",
    "projections": [
@@ -2433,9 +2438,16 @@
     "launch-date claim"
    ],
    "ref_id": "ref-web-industry-updates",
-   "status": "UNVISITED",
+   "status": "VISITED",
    "ticket_seq": 237,
-   "url": "https://www.industry.co.id/read/155444/daftar-update-terbaru-dari-game-dream-league-soccer-2026-ada-apa-saja"
+   "url": "https://www.industry.co.id/read/155444/daftar-update-terbaru-dari-game-dream-league-soccer-2026-ada-apa-saja",
+   "service_events": [
+    {
+     "at": "2026-10-11T11:12:58Z",
+     "event": "extract",
+     "seq": 244
+    }
+   ]
   },
   {
    "admission_seq": 238,
@@ -2540,10 +2552,19 @@
    "currency identity Dream Points/Season Points/DLL XP UNRESOLVED (CLAIM-050)",
    "Legendary Fitness identity OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021)",
    "PT/ID/VI/TR discovery continues; reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-roles; player-stats comments; player-diamonds; support-contact; download.com.vn; moved-article re-discovery"
+  ],
+  [
+   "t45: appstore-id chunk 2 owed (tail of 13.040/050 launch notes — confirm Premium Season Pass/Dream Points exact version, CLAIM-050); chunk 3 residual reviews",
+   "t45: gameoverdrive (PT) + dreamkitsapp x2 still UNVISITED (admitted DS-43)",
+   "LAUNCH DATE RESOLVED 17/12/2025 (EV-183) — Dec-2026 claim refuted; 13.2xx band absent from store list",
+   "currency identity Dream Points/Season Points/DLL XP/Clan Points UNRESOLVED (CLAIM-050)",
+   "Legendary Fitness identity OPEN (CLAIM-006); season leaderboard surface OPEN (CLAIM-003/021); weekly-gems claim single origin (CLAIM-051)",
+   "Physio mechanics unspecified (CLAIM-052) — no-coin-physio plan unvalidated",
+   "PT/ID/VI/TR discovery continues; reddit family ACCESS_BOUNDARY; terms chunks 1-3; player-roles; player-stats comments; player-diamonds; support-contact; download.com.vn; moved-article re-discovery"
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 242,
+ "sequence_counter": 244,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",

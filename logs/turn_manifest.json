@@ -1,70 +1,70 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1560,
+      "bytes": 1615,
       "path": "HANDOFF.md",
-      "sha256": "f8a742ab56d6b1a1180bf5a98d2cc2de6531233efc9e1aa01b35480ee8c22ba1"
+      "sha256": "26e6d85b3da9535505af2cddd074d9c2e595d9435cdfb23eea00547a8afcaefb"
     },
     {
-      "bytes": 1602,
-      "path": "evidence/extract/EV-181_store_appstore_id_chunk0.md",
-      "sha256": "abdddda85dde89f4f873617b3aad57be8337ed698e4ed02366cca85ab17d1e20"
+      "bytes": 2470,
+      "path": "evidence/extract/EV-183_store_appstore_id_chunk1_version_history.md",
+      "sha256": "53dd8c5eb5ef4edc0535acc64c7b5c732ce4f8d02546ffaf86be1269bf0b721d"
     },
     {
-      "bytes": 1557,
-      "path": "evidence/extract/EV-182_industry_id_guide.md",
-      "sha256": "db82b8304398f6d82117a2818c6ea103c5c63db65dfc178f564f726bdb707f89"
+      "bytes": 1006,
+      "path": "evidence/extract/EV-184_industry_id_updates.md",
+      "sha256": "b0039766fe38c4c6ec76869923f518d0febb0efc8e0121c436ebc11032634307"
     },
     {
-      "bytes": 29182,
+      "bytes": 30053,
       "path": "evidence/index.jsonl",
-      "sha256": "67a0748e46f1bdd17467e2fb53dcf21eb35ce23ca48e778ee46b40daef621b2d"
+      "sha256": "0a272bed116362241c1399e0b1e869ebc114fd6f1f297eeb259656501bb9adc5"
     },
     {
-      "bytes": 48158,
+      "bytes": 51172,
       "path": "kb/claims.jsonl",
-      "sha256": "6754154d64ed77e999f6d10bf3e68a2dfc2f51d585ca25cec339dfa4caa9295d"
+      "sha256": "aa0d8c9fa7fb283cbf8cc4c3a46e1f7ea5a60398569704acbe43748d62c1b8b5"
     },
     {
-      "bytes": 2237,
+      "bytes": 2219,
       "path": "logs/control.json",
-      "sha256": "e93a16f0c4968ce2ceb31666944208e3a49905068c2b85336908ba9de2449482"
+      "sha256": "dfd62ba9b3937ab4c25abb4b298ef4eb20e37f38fe7c813ad8214d97d6b314e4"
     },
     {
-      "bytes": 9688,
+      "bytes": 9995,
       "path": "logs/operations.jsonl",
-      "sha256": "edcce5e366814a7a844d2471daa2ae5276e7071d68d1fa83693377d42763992e"
+      "sha256": "3ae3196f868a958ad631040b7d4192a8f3d376247610c07080708e7d5e73c2f5"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-4ffa3a3d552a.json",
-      "sha256": "05d1d16c17e32f7ff4e8250f6aaaac2fdeb0d46d4d5e5d522a53a0b3c508d452"
+      "path": "logs/receipts_pending/turn-1a4220464cfa.json",
+      "sha256": "533e6641123585f6a3a415f1910800140523ac4bafde5347084aa22c8f7f3a14"
     },
     {
-      "bytes": 105144,
+      "bytes": 106359,
       "path": "logs/sources_visited.json",
-      "sha256": "0c7959b04a3198767d64586e9bc3606fb129bfb3161236dc40186f19a7ef4cbc"
+      "sha256": "2498ca03b699718fcdb18820e06bc61595fbf91147b1720740b7f13551d1aeac"
     }
   ],
-  "checkpoint_nonce": "nonce-bf290e4c9b6e1423",
+  "checkpoint_nonce": "nonce-682c6e3845bfcf21",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T11:09:54Z",
+  "created_at": "2026-10-11T11:12:58Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "52054ad71de71dd184d42d184f67eae1b230c0d2",
+  "parent_commit": "7e57159e463d2e5111dfdd051c3a9a5a926d7832",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 44,
+  "sequence": 45,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,13 +74,14 @@
     "host_calls_total_approx": 7,
     "search_calls": 0
   },
-  "turn_id": "turn-1a4220464cfa",
+  "turn_id": "turn-b9b2cf6d092c",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T11:09:54Z",
+    "bluff_check_at": "2026-10-11T11:12:58Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-181/182 + CLAIM-052/053 persisted; CLAIM-051 updated with EV-182",
-      "appstore-id cursor honest (0/4; version history OWED chunk 1)",
+      "EV-183/184 + CLAIM-054/055 persisted; CLAIM-050 updated (Clan Points + attribution correction)",
+      "launch-date contradiction resolved store-backed (17/12/2025) and recorded",
+      "appstore-id cursor honest (0-1/4; chunk 2 = launch-notes tail owed)",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF+control updated",
       "protocol checks pass pre-prepare"
