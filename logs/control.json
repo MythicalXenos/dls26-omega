@@ -52,6 +52,6 @@
   "HANDOFF.md",
   "handoff/attention_required.md"
  ],
- "resumption_point": "Step 1 finite research epoch OPEN. Cursor after DS-60: backup-restore 214387685 (stale-risk) + dls19-profile 360004717278, then reddit probe, then obtain-players/age-policies/next-update. NEW (CLAIM-083): account model = one-account, sign-in+code transfer, sign-out hazard. Residue OPEN: season leaderboard tie-breaks (CLAIM-071), XP-ladder surface (CLAIM-067), Legendary Fitness (CLAIM-006). Ops constraint CLAIM-043 (UI-only) governs Steps 2/3.",
- "updated_at": "2026-10-11T17:02:34Z"
+ "resumption_point": "Step 1 finite research epoch OPEN. t61 = TOOL_OUTAGE turn (0 fetch/search; harness emission failure; cursor UNCHANGED). Cursor: backup-restore 214387685 stale-risk re-verify + dls19-profile 360004717278, then reddit probe (ISS-0006 reopen check), then age-policies 360000204889 / next-update 360000262229 / restart-career-3rd 3600017167418 / connection-general 360000420025. Frontier corrections t61: obtain-players NOT owed (EV-124 complete); sell-players admission 258 = REPRESENTATION_DUPLICATE of 154. NEW (CLAIM-083): account model = one-account, sign-in+code transfer, sign-out hazard. Residue OPEN: season leaderboard tie-breaks (CLAIM-071), XP-ladder surface (CLAIM-067), Legendary Fitness (CLAIM-006). Ops constraint CLAIM-043 (UI-only) governs Steps 2/3.",
+ "updated_at": "2026-10-11T17:17:01Z"
 }

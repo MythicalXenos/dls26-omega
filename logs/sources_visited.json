@@ -1666,7 +1666,7 @@
   {
    "admission_seq": 127,
    "discovered_at": "2026-10-10T21:18:00Z",
-   "extraction_cursor": "complete (1/1): full text (EV-130); closed for comments",
+   "extraction_cursor": "complete (1/1): full text (EV-130); closed for comments | stale-risk re-verify OWED (old ID 214387685; re-check after EV-213 account model)",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -2671,16 +2671,23 @@
    "admission_seq": 258,
    "discovered_at": "2026-10-11T12:01:06Z",
    "discovered_by": "HARVESTED_RELATED_LINK",
-   "extraction_cursor": null,
+   "extraction_cursor": "closed as REPRESENTATION_DUPLICATE of admission 154 (same URL 17146555181585; EV-202 extracted at seq 162); no re-serve",
    "family": "official-support",
-   "note": "sell flow (no-refund review theme)",
+   "note": "dup-closed t61 (DS-61)",
    "projections": [
     "full-page extraction"
    ],
    "ref_id": "ref-support-sell-players",
-   "status": "UNVISITED",
+   "status": "REPRESENTATION_DUPLICATE",
    "ticket_seq": 258,
-   "url": "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players"
+   "url": "https://support.ftgames.com/hc/en-us/articles/17146555181585-How-do-I-sell-players",
+   "service_events": [
+    {
+     "at": "2026-10-11T17:17:01Z",
+     "event": "duplicate-close",
+     "seq": 302
+    }
+   ]
   },
   {
    "admission_seq": 259,
@@ -3292,7 +3299,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 301,
+ "sequence_counter": 303,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4061,6 +4068,13 @@
    "event": "extract",
    "ref_id": "ref-db-sakibpro-compare",
    "seq": 230
+  },
+  {
+   "at_utc": "2026-10-11T17:17:01Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 303,
+   "detail": "t61 zero-extraction turn: fetch_page/web_search emission failed at harness level (8 intended calls materialized as bash); cursor preserved unchanged (backup-restore 214387685 stale-risk + dls19-profile 360004717278)"
   }
  ],
  "session_id": "sess-bb22126f679b",

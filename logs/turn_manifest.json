@@ -1,92 +1,72 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1227,
+      "bytes": 1513,
       "path": "HANDOFF.md",
-      "sha256": "d438e5c27b0611477146daa228588339dc0d0a67460f0607a022851596e171e1"
+      "sha256": "157631d767e1976726702e629c7bea377d974c827aaac72c294b3c3c29539f40"
     },
     {
-      "bytes": 1269,
-      "path": "evidence/extract/EV-213_support_save_data_model.md",
-      "sha256": "7d94b1873272b11afe1b94dfee95a1e80f7ab56a76f73fb5ca9e4267236e1d04"
-    },
-    {
-      "bytes": 618,
-      "path": "evidence/extract/EV-214_support_fb_removal_dls.md",
-      "sha256": "03e8d98ef440026667ab94a49eb90232912564a3c918013ea48bee80b24f2616"
-    },
-    {
-      "bytes": 41390,
-      "path": "evidence/index.jsonl",
-      "sha256": "b7502479dc052c94c28bf1c27234b0290607f0fb852b8e454a3381bf94e795f9"
-    },
-    {
-      "bytes": 85935,
-      "path": "kb/claims.jsonl",
-      "sha256": "e9dad2f65e0a766e476501ba78f260b391d66eedc9784e45813aac20cd1b171f"
-    },
-    {
-      "bytes": 2231,
+      "bytes": 2550,
       "path": "logs/control.json",
-      "sha256": "b981e94330bfde1f272a8ee0b5f3f5ca3f517d0c2d9b08234518d56d4be87a20"
+      "sha256": "35ef3ee99090b91227a3cd99e6f99c42cb137eeffb0fe38059081c1c0707fd61"
     },
     {
-      "bytes": 15262,
+      "bytes": 15746,
       "path": "logs/operations.jsonl",
-      "sha256": "e44aac4d23ed68a935ce5e548a048d8757ac26c0ffbd4818ac2db69b8a4b8e2b"
+      "sha256": "7deb9dee5544926c932221fd3de244f9d99afef8f28c1b0a446166e2e4fa3e04"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-d3767b4d955f.json",
-      "sha256": "10250b55deeaa1d87d2903eff6c86fd24264eba66809b5ebccfea9957e6e4c11"
+      "path": "logs/receipts_pending/turn-22ed718d1d84.json",
+      "sha256": "36b520657508b7c9d8b575446d354aaa3d244972bb24ebd7cefa2fb72870793a"
     },
     {
-      "bytes": 138149,
+      "bytes": 138817,
       "path": "logs/sources_visited.json",
-      "sha256": "1131617b7f567cc2a24ae78c515940405021ee40012609626dad695d3e9ce9e1"
+      "sha256": "74dd1cf05271599dd7dde97deec82a2abf835bbca47bf08df1fd1423c8e926bd"
     }
   ],
-  "checkpoint_nonce": "nonce-17232dc3b8e61903",
+  "checkpoint_nonce": "nonce-465f8f6f15b8b853",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:02:34Z",
+  "created_at": "2026-10-11T17:17:01Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "e769a97f5246045b79db304edd84fdcc20f681d9",
+  "parent_commit": "41e7378ff0c2b13a066c42abc647b3f35b977db7",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 60,
+  "sequence": 61,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
-    "fetch_page_calls": 2,
-    "host_calls_total_approx": 8,
+    "fetch_page_calls": 0,
+    "host_calls_total_approx": 12,
     "search_calls": 0
   },
-  "turn_id": "turn-22ed718d1d84",
+  "turn_id": "turn-8ff57ac74958",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:02:34Z",
+    "bluff_check_at": "2026-10-11T17:17:01Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-213/214 + CLAIM-083 persisted; CLAIM-022 updated; CLAIM-042 dispute annotated",
-      "sign-out hazard + code-transfer rules recorded for Step 3/5 device pipeline",
-      "cursors honest (both refs complete 1/1)",
+      "honest zero-extraction accounting: TOOL_OUTAGE logged (fetch_page/web_search emission failure at harness level, 8 attempts)",
+      "frontier hygiene: sell-players dup (admission 258) closed REPRESENTATION_DUPLICATE of 154 (EV-202); obtain-players confirmed complete (EV-124) removed from owed lists",
+      "cursor preserved unchanged for next turn (backup-restore stale-risk + dls19-profile)",
       "mkdir+.omega verified; defensive ref-reconciliation ran before prepare",
-      "ledger+HANDOFF+control updated",
-      "protocol checks pass pre-prepare"
+      "ledger+HANDOFF+control updated"
     ],
     "not_run": [
+      "all external fetches/searches (tool emission failure \u2014 NOT attempted at the network layer)",
       "release-check suite (debt)",
       "external review (debt)"
     ],
