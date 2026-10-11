@@ -1,77 +1,76 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1692,
+      "bytes": 1409,
       "path": "HANDOFF.md",
-      "sha256": "2374c0152a53c9ed3fcc27f38c4891cfc5cad8268411befb2945a468a62c9a83"
+      "sha256": "4e59bd190aff7030182cde21f1349f3b57c7603949838967b37dc6f1e701d99e"
     },
     {
-      "bytes": 93257,
-      "path": "kb/claims.jsonl",
-      "sha256": "51a51afecb5c33599861de17cdf79862ad836ec1281f6115f537f05101eb28b9"
+      "bytes": 3172,
+      "path": "docs/step2_3_preparation/WORKED_EXAMPLES_FROM_CORPUS.md",
+      "sha256": "8df9f133c1297b0e258c9222932678abd9f896f2f70b63ef258b2fcec4f8b231"
     },
     {
-      "bytes": 2754,
+      "bytes": 2607,
       "path": "logs/control.json",
-      "sha256": "e8a7e48682ec7e43fbda3d128d6fed8cfc79260ff1483cf58d967133399bca43"
+      "sha256": "f0daf9a9473ed499a9e8a66e042a915c5555fa4c26de34e2bbd92ca380566296"
     },
     {
-      "bytes": 20426,
+      "bytes": 20806,
       "path": "logs/operations.jsonl",
-      "sha256": "e7d87bed0944cd18e853b03e9eb85b6617d1980dfe3b2df6fb9bf7a5df49a7f2"
+      "sha256": "7df532276ae76054c275a125c1c2ccb8ae7a95f9132c7fb9bdf9284c632942f1"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-80bf00d0a57e.json",
-      "sha256": "4131cbedec391bd0c45b10746934f717510982ae6350e29e9babf145df95da44"
+      "path": "logs/receipts_pending/turn-dae7eed4e5c3.json",
+      "sha256": "a2918bfda08036ab1f374a7d2ad51f8875a322caa756b9962347f08caa4d0a22"
     },
     {
-      "bytes": 149147,
+      "bytes": 149696,
       "path": "logs/sources_visited.json",
-      "sha256": "cdf2d6d6e5a616b79656f1bc17946b0c204a8aba246f4f4bdf14aaadd5baa833"
+      "sha256": "1acda462649ff5ab6ed4de947c6bc6af74c8260d6286d8290b207f38515217ee"
     }
   ],
-  "checkpoint_nonce": "nonce-80e1bd3904ec5edb",
+  "checkpoint_nonce": "nonce-0c12230c5cfd3fec",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:54:08Z",
+  "created_at": "2026-10-11T17:56:05Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "800f4f689001881e9be5ba9e1883298ea373d426",
+  "parent_commit": "89d1490dee7f12a76a75f1c968636f420301e684",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 71,
+  "sequence": 72,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 0,
-    "host_calls_total_approx": 9,
+    "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-dae7eed4e5c3",
+  "turn_id": "turn-cc2a57b27e3f",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:54:08Z",
+    "bluff_check_at": "2026-10-11T17:56:05Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-183-pattern sweep executed: CLAIM-011 -> High Confidence (EV-207 linked, hedge removed honestly); CLAIM-004/007 documented with closure paths; CLAIM-042 untouched (genuine dispute)",
-      "no tier inflation beyond session convention (Confirmed gates not claimed)",
-      "tool outage logged (11th turn); official cursor preserved; checks + ref-reconciliation before prepare"
+      "docs/step2_3_preparation/WORKED_EXAMPLES_FROM_CORPUS.md created (EXAMPLE-A + EXAMPLE-C; corpus-synthesized with non-observation warnings; conflicts preserved)",
+      "tool outage logged (12th turn); official cursor preserved; checks + ref-reconciliation before prepare"
     ],
     "not_run": [
       "official-support cursor \u2014 blocked on fetch_page outage",
       "reddit probe \u2014 blocked on web_search outage",
-      "in-client template fills (need Saad/device; Step 3/5)",
+      "live template fills (need Saad/device)",
       "full release-check suite + external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"
