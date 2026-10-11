@@ -1,70 +1,60 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1225,
+      "bytes": 1187,
       "path": "HANDOFF.md",
-      "sha256": "6f0abb2d8df9d1dcae0301076811497c041e0adca6efa32b1f08388e2b0e423e"
+      "sha256": "8d1ef4d84f42f0cce0e6df8d3cb7a6d3badd3794935b5d4465008505f026d1f7"
     },
     {
-      "bytes": 1597,
-      "path": "evidence/extract/EV-162_support_season_pass_rev1.md",
-      "sha256": "48150c2814f3d4c4e07b6cfdf0cf357c163c4af418a2fec8b62374dac1d73cec"
+      "bytes": 528,
+      "path": "evidence/extract/EV-163_support_signin_google.md",
+      "sha256": "34c991ae60805033a484c8d313185e12c2d0d27619ad8a48d8dc192f6ccee5b8"
     },
     {
-      "bytes": 233,
-      "path": "evidence/extract/EVD-0012_page_missing_season_pass_rev2.md",
-      "sha256": "59734d4168f80eb474840b79684752fdb1275ec0a2c9b3b30615984876c8600a"
+      "bytes": 546,
+      "path": "evidence/extract/EV-164_support_user_id_rev2.md",
+      "sha256": "e4ada448b320db1c5cd224b0a8f16b520c534cbfefed310bdc8c2450ab9b75fe"
     },
     {
-      "bytes": 22145,
+      "bytes": 22772,
       "path": "evidence/index.jsonl",
-      "sha256": "c531b785afadf49f4269a7a19c1e7da361401593a4a2935a32ad5a46e7cc402b"
+      "sha256": "454176526c20388f0d6d2cc8a8661920bcc2b693a98ab2433d242cba4e9325d5"
     },
     {
-      "bytes": 34697,
-      "path": "kb/claims.jsonl",
-      "sha256": "9c63091b82fd0926046771f2668aa6d65df0e42d14712c4dee5ae2752d7f5be0"
-    },
-    {
-      "bytes": 2073,
-      "path": "logs/evidence_docs.jsonl",
-      "sha256": "da4ba9811aebefccf27c3fbdbb857af882d3cd3285a38f73e2fdecba8852867a"
-    },
-    {
-      "bytes": 7382,
+      "bytes": 7595,
       "path": "logs/operations.jsonl",
-      "sha256": "aa80c4100d2602a5efec56b03b60cffdb3dc550fd9b6d31741a23ca51b6f4475"
+      "sha256": "6447dc98a9315912475e77872728423993ef80b1979abba509db56e405897d42"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-7369dcb3ea1d.json",
-      "sha256": "b5339992c84f4f386e313f85e1df4da4453ad2a4e794ad8ef1ffc59a59b33d7f"
+      "path": "logs/receipts_pending/turn-f3b0d28cf9c2.json",
+      "sha256": "aa72af0226bb461385deea0c57836957d41aaf1e16372b74753b3db23d9118c1"
     },
     {
-      "bytes": 100535,
+      "bytes": 101877,
       "path": "logs/sources_visited.json",
-      "sha256": "40e1ccab58901d75a668c00c0818bc3c0a12d9bf4654ae0bf00c748abe5fe2fd"
+      "sha256": "681f42ffb368b869e5aec4ecd5cee2f3dc7d72f2e09515a1be00b2c382b84371"
     }
   ],
-  "checkpoint_nonce": "nonce-68ddabf3bc1340d2",
+  "checkpoint_nonce": "nonce-d469f9e06b254dad",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T00:34:00Z",
+  "created_at": "2026-10-11T00:42:00Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "9cbd6bbe34781f708edd89718e0982d1f4f934ee",
+  "parent_commit": "edf86279f500a6d2de44ecea308bb94089dd1cb5",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 34,
+  "sequence": 35,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -74,14 +64,13 @@
     "host_calls_total_approx": 3,
     "underlying_retrievals": 2
   },
-  "turn_id": "turn-f3b0d28cf9c2",
+  "turn_id": "turn-faf60bee2d77",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T00:34:00Z",
+    "bluff_check_at": "2026-10-11T00:42:00Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-162 + CLAIM-040 persisted",
-      "Progress Bank conflict preserved (Season Points vs DLL XP)",
-      "EVD-0012 recorded",
+      "EV-163/164 persisted",
+      "user-id-rev3 admitted",
       "defensive ref-reconciliation ran before prepare",
       "ledger+HANDOFF updated",
       "protocol+prepare+publish executed"

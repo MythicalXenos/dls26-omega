@@ -1584,14 +1584,21 @@
     {
       "admission_seq": 132,
       "discovered_at": "2026-10-10T21:35:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-163",
       "family": "official-support",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-signin-google-setup",
-      "status": "UNVISITED",
-      "ticket_seq": 132,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:42:00Z",
+          "event": "extract",
+          "seq": 212
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 212,
       "url": "https://support.ftgames.com/hc/en-us/articles/9580096555281-How-do-I-setup-a-Sign-in-with-Google-account"
     },
     {
@@ -2137,15 +2144,22 @@
       "admission_seq": 200,
       "discovered_at": "2026-10-11T00:02:00Z",
       "discovered_by": "HARVESTED_RELATED_LINK",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1) EV-164 \u2014 SCORE! HERO VARIANT",
       "family": "official-support",
       "note": "user-id family variant (per-game steps expected)",
       "projections": [
         "full-page extraction"
       ],
       "ref_id": "ref-support-user-id-rev2",
-      "status": "UNVISITED",
-      "ticket_seq": 200,
+      "service_events": [
+        {
+          "at": "2026-10-11T00:42:00Z",
+          "event": "extract",
+          "seq": 213
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 213,
       "url": "https://support.ftgames.com/hc/en-us/articles/37083217732882-How-do-I-find-my-User-ID"
     },
     {
@@ -2175,6 +2189,21 @@
       "status": "NON_CONNECTED",
       "ticket_seq": 204,
       "url": "https://support.ftgames.com/hc/en-us/articles/7916118205457-What-is-Ultimate-Clash-Soccer"
+    },
+    {
+      "admission_seq": 211,
+      "discovered_at": "2026-10-11T00:42:00Z",
+      "discovered_by": "HARVESTED_RELATED_LINK",
+      "extraction_cursor": null,
+      "family": "official-support",
+      "note": "user-id family variant #5 (game unknown until fetched)",
+      "projections": [
+        "full-page extraction"
+      ],
+      "ref_id": "ref-support-user-id-rev3",
+      "status": "UNVISITED",
+      "ticket_seq": 211,
+      "url": "https://support.ftgames.com/hc/en-us/articles/37083330886546-How-do-I-find-my-User-ID"
     }
   ],
   "residual_debt": [
@@ -2203,13 +2232,13 @@
     "re-discover moved: control-buttons, friend-match, cant-update, connection-required, device-compat",
     "re-discover moved batch (help-center search): emojis, kit-visible-live, control-buttons, friend-match, cant-update, connection-required, device-compat",
     "graphics comments chunks 1-2 (LOW)",
-    "then: signin-google 9580096555281 + user-id-rev2 37083217732882; then data-deletion 360017046578; support family nearly closed",
     "then: video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657; spurious 404 urls 360005678698/360005678818 are NOT refs (EVD-0010/0011 annotate)",
-    "support owed next: signin-google-setup 9580096555281 + user-id-rev2 37083217732882, then video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657",
-    "MISSION follow-ups from EV-162: resolve Progress Bank basis conflict (Season Points vs DLL XP wording); Season VIP concept unexplored; \"Season Points purchasable in Shop\" affects fair-grind expectations"
+    "MISSION follow-ups from EV-162: resolve Progress Bank basis conflict (Season Points vs DLL XP wording); Season VIP concept unexplored; \"Season Points purchasable in Shop\" affects fair-grind expectations",
+    "support owed next: video-clips-rev2 360017166898 + data-deletion 360017046578, then icloud-setup 360000613657 + user-id-rev3 37083330886546 (support family then ~closed)",
+    "after support: family switches \u2014 ftgames.com core-principles + terms-of-use; play listing chunk 1/2; apps.apple.com version history; sakibpro tools x3; PT/ID community; reddit family"
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 210,
+  "sequence_counter": 213,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -2866,6 +2895,20 @@
       "event": "extract",
       "ref_id": "ref-support-season-pass-rev2",
       "seq": 210
+    },
+    {
+      "at_utc": "2026-10-11T00:42:00Z",
+      "detail": "Google sign-in cloud save (not Play Games)",
+      "event": "extract",
+      "ref_id": "ref-support-signin-google-setup",
+      "seq": 212
+    },
+    {
+      "at_utc": "2026-10-11T00:42:00Z",
+      "detail": "per-game user-id family grows",
+      "event": "extract",
+      "ref_id": "ref-support-user-id-rev2",
+      "seq": 213
     }
   ],
   "session_id": "sess-bb22126f679b",
@@ -2921,8 +2964,8 @@
     },
     "official-support": {
       "notes": "support.ftgames.com Zendesk-style portal; FULL INVENTORY OWED per OMEGA-FRONTIER-001 (no arbitrary cutoff)",
-      "served_count": 56,
-      "ticket_seq": 209
+      "served_count": 58,
+      "ticket_seq": 213
     }
   }
 }
