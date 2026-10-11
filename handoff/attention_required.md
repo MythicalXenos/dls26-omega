@@ -1,6 +1,6 @@
 # handoff/attention_required.md
 
-Updated: 2026-10-10 (session sess-bb22126f679b)
+Updated: 2026-10-11 (session sess-bb22126f679b) — t65 staged ask #6 added (target ranking surface)
 
 ## Blocking conditions / indispensable user requests
 
@@ -21,6 +21,12 @@ batching; not raised piecemeal):
 4. The desired speed/acceleration target range behind the Legendary Fitness plan
    (numeric range if available).
 5. Facilities/stadium currency and progression state (as reported).
+
+6. **Target ranking surface** for the "#1 verifiable global ranking" mission goal:
+   SEASON LEADERBOARD (Season Points), Dream League Live global leaderboard, LIVE Tier,
+   Career Legendary Division, or Clan — and what "verifiable" should mean (screenshot
+   cadence? public profile? in-client capture?). CLAIM-003 cannot pin the target without
+   this; queued for Step 5 batching (t65).
 
 Declined requests and their reasons are preserved here when they occur; they are
 re-raised only when the reason materially changes (OMEGA-MISSION-001).

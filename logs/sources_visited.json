@@ -3393,7 +3393,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 314,
+ "sequence_counter": 316,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -4246,6 +4246,20 @@
    "ref_id": null,
    "seq": 314,
    "detail": "t64 internal review: ledger consistent (claims 85, evidence 119, refs 157, ops 64); artifact-index anchor-fragment paths verified present (false alarms cleared); normalized evidence-ID strings in CLAIM-054/058/068; 1 legacy service_event (idx 59) without seq tolerated; sell-players dup (REPRESENTATION_DUPLICATE) remains intentional"
+  },
+  {
+   "at_utc": "2026-10-11T17:35:13Z",
+   "event": "TOOL_OUTAGE",
+   "ref_id": null,
+   "seq": 315,
+   "detail": "t65: fetch_page/web_search remapped to bash AGAIN (5th turn); local contingency executed (residue synthesis + volatility calendar); official cursor preserved"
+  },
+  {
+   "at_utc": "2026-10-11T17:35:13Z",
+   "event": "synthesis",
+   "ref_id": null,
+   "seq": 316,
+   "detail": "docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md created: ranking-surface map (CLAIM-002/003/021/067/071/081), 6 open ranking items, Legendary Fitness terminology conflict, volatility calendar (DUE today: CLAIM-003/006), closure-candidate source lists; staged ask #6 added to attention_required.md"
   }
  ],
  "session_id": "sess-bb22126f679b",

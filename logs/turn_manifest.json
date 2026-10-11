@@ -1,87 +1,88 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 1774,
+      "bytes": 1950,
       "path": "HANDOFF.md",
-      "sha256": "e139c25922266a938d15d3d983767ac7d80d1dbdb99b49f0977c29db9a4efe01"
+      "sha256": "5c7de572258c18367a642dcc7371c572959ca669ef95e38751c36d32ffaad4d3"
     },
     {
-      "bytes": 2233,
-      "path": "evidence/extract/EV-217_npm_code_search_sweep.md",
-      "sha256": "0c5ba7d8d66316a9b31461419239aec97a5935a8ac78e46f46bb3d01d39876e4"
+      "bytes": 5870,
+      "path": "docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md",
+      "sha256": "4e51e89d445a4b36128e8cd7c2fe6ad9f1480ff5b93b6b729f8d03c73f708200"
     },
     {
-      "bytes": 43080,
-      "path": "evidence/index.jsonl",
-      "sha256": "c31761f931e594dfb3b5aa1d0bc162ee96b59b8337c3fcd09b8ec0a9b2c6a03b"
+      "bytes": 1664,
+      "path": "handoff/attention_required.md",
+      "sha256": "a93957f71c69f18fdc8b083306947513dea941b7406fec923d7d4c2b9ee97c98"
     },
     {
-      "bytes": 90540,
+      "bytes": 90874,
       "path": "kb/claims.jsonl",
-      "sha256": "7392dd58d9a0c4e4dad2d33ff053e916f8fa9970ff5d4cad6892b434a1b8f8db"
+      "sha256": "ce08172d591efe87d466f0001afcedd3ba0ecdf9420fe7c835c767af31b00b94"
     },
     {
-      "bytes": 2654,
+      "bytes": 2588,
       "path": "logs/control.json",
-      "sha256": "1fd66fd71ab0e192969cdb2f19691855a36bf701f5a8512d28cd557aa55d95fa"
+      "sha256": "8ba20b3198f2cc8b33c78cb8dc8cc1871b64a8ccdd566138544f62b70e987106"
     },
     {
-      "bytes": 17345,
+      "bytes": 17782,
       "path": "logs/operations.jsonl",
-      "sha256": "ec89f7ccd3ef8e610a9d79ceb807132673627ad144380881404c68ab87a5cf57"
+      "sha256": "b6877018a7f4c85852fbb06054782298881fd56fa036255fac4fa780b2bc1ce7"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-2a8ba35b8864.json",
-      "sha256": "017cd0b61e3a15a983b34e8f6ba04406f7a5627b24e76c6627fffebb99643c47"
+      "path": "logs/receipts_pending/turn-dcbcea33af34.json",
+      "sha256": "9f3529ee7d6bef6c374d8653a6d77830846e502ef8bb482aeb14631fd8a159b7"
     },
     {
-      "bytes": 144764,
+      "bytes": 145461,
       "path": "logs/sources_visited.json",
-      "sha256": "05ad28c5382f92a019b3c43ef84025aca1f048f1054ccf840c5e9e9995144a92"
+      "sha256": "0ed021313ab47c813186fbd3c1715026d48ba96585e0b6c5a8b7bab28305a68f"
     }
   ],
-  "checkpoint_nonce": "nonce-a8568bcae3a0fe41",
+  "checkpoint_nonce": "nonce-972af284e43d9357",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-11T17:31:52Z",
+  "created_at": "2026-10-11T17:35:13Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "96d7b20498eb8fe765b5f3e0d9de67636657b564",
+  "parent_commit": "c439e31dce163e6ba92dd8fcaef6e2170cad7ea7",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 64,
+  "sequence": 65,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 0,
-    "host_calls_total_approx": 9,
+    "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-dcbcea33af34",
+  "turn_id": "turn-80a809663d60",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-11T17:31:52Z",
+    "bluff_check_at": "2026-10-11T17:35:13Z",
     "executed_fail": [],
     "executed_pass": [
-      "EV-217 persisted (npm hack ecosystem + leaderboard code-search negative); CLAIM-084 extended (npm origins, do-not-install)",
-      "internal audit run: ledger consistent; anchor-fragment artifact paths verified; CLAIM-054/058/068 evidence IDs normalized",
-      "tool outage honestly logged (4th turn); nothing installed/downloaded from npm",
-      "official cursor preserved unchanged; ref-reconciliation + protocol checks before prepare"
+      "docs/residue/RANKING_AND_PROGRESSION_RESIDUE.md created (ranking map + fitness conflict + volatility calendar + closure candidates)",
+      "staged ask #6 added (target ranking surface + verifiable definition)",
+      "CLAIM-003/006 last_attempt honest (synthesis attempt; valid-check still null)",
+      "tool outage logged (5th turn); official cursor preserved; ref-reconciliation + protocol checks before prepare"
     ],
     "not_run": [
       "official-support cursor \u2014 blocked on fetch_page outage",
       "reddit probe \u2014 blocked on web_search outage",
+      "real first-valid-check for CLAIM-003/006 (needs sources or in-client)",
       "full release-check suite + external review (debt)"
     ],
     "output_leak_check": "single CONTINUE terminal line this turn"
