@@ -3393,7 +3393,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 424,
+  "sequence_counter": 425,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -5016,6 +5016,13 @@
       "event": "TOOL_OUTAGE",
       "ref_id": null,
       "note": "t166; PROBE_T166_FETCH_PAGE remapped; ISS-0004 recurred at boundary (git history+refs+.omega wiped); recovered via fetch+reset --mixed + 164 refs recreated from subjects; wrap minimal"
+    },
+    {
+      "seq": 425,
+      "ts": "2026-10-14T05:16:46.540944+00:00",
+      "event": "TOOL_OUTAGE",
+      "ref_id": null,
+      "note": "t167; PROBE_T167_FETCH_PAGE remapped; chain intact at t166; wrap minimal"
     }
   ],
   "session_id": "sess-bb22126f679b",

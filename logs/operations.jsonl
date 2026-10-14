@@ -172,3 +172,4 @@
 {"op_id": "DS-165", "ts": "2026-10-14T05:14:59.512783+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t165 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-166", "ts": "2026-10-14T05:16:06.929276+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t166 TOOL_OUTAGE; ISS-0004 recovered (164 refs recreated); wrap minimal"}
 {"op_id": "DS-166b", "ts": "2026-10-14T05:16:06.929276+00:00", "type": "RECOVERY", "target": "git/refs", "outcome": "ISS-0004 recurrence (6th): fetch origin + reset --mixed; refs recreated from subjects (164); no hand-reconstruction; no force-push"}
+{"op_id": "DS-167", "ts": "2026-10-14T05:16:46.540944+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t167 TOOL_OUTAGE; chain intact; wrap minimal"}
