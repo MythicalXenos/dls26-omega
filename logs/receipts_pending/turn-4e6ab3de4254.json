@@ -1,0 +1,13 @@
+{
+  "branch": "arena/a7e23a6b-dls26-omega",
+  "checkpoint_nonce": "nonce-84e8d7b04414000b",
+  "commit": "df712f411c58c7758e5fc1dd0b0344b401766d11",
+  "method": "git push + git ls-remote byte-identity check",
+  "parent_commit": "42d3636a72e91b23598163ea0454f3ddad5ca61c",
+  "remote": "origin",
+  "remote_ref": "refs/heads/arena/a7e23a6b-dls26-omega",
+  "remote_sha_observed": "df712f411c58c7758e5fc1dd0b0344b401766d11",
+  "scope_note": "hash proves byte identity at the verified repository endpoint only",
+  "turn_id": "turn-4e6ab3de4254",
+  "verified_at": "2026-10-14T12:17:13Z"
+}
