@@ -3,43 +3,43 @@
     {
       "bytes": 2574,
       "path": "logs/control.json",
-      "sha256": "9ddf664fc9136912728b1b3330a40fc63b3711e84b13deccdb75c39bae9084a5"
+      "sha256": "aa3d070078c43dcf0014e25ad2fc6236fff1c4106a688f0e6bf4f174e0d790cd"
     },
     {
-      "bytes": 56689,
+      "bytes": 56863,
       "path": "logs/operations.jsonl",
-      "sha256": "a6b295cfe9b037109be3b9b6848c5ebbddc6692a8f9794f54d936e335a150abb"
+      "sha256": "9d913c0a0d86057528697d2996608c075f3148b5106d52bf166ae02569e87b16"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-14774e454d30.json",
-      "sha256": "54a78f697a79c87d76206f1ca1f4e302e957591269448344c8a6c3fabac3008d"
+      "path": "logs/receipts_pending/turn-424962511346.json",
+      "sha256": "de111afd734fbaa8080f1a6626611dd5ebdb4cb9a3d9e5af13bceaf3046b9a67"
     },
     {
-      "bytes": 205143,
+      "bytes": 205363,
       "path": "logs/sources_visited.json",
-      "sha256": "5debeb916e4991a925e880cac004bd56a2c4e508bb9407843c21dfeb1dadac6e"
+      "sha256": "7db0ce1764634e69df99aa3bed12d9f3e24268ed3d9a2075b60d715ae654c78c"
     }
   ],
-  "checkpoint_nonce": "nonce-2147941a21bf975a",
+  "checkpoint_nonce": "nonce-0f7e930e87e11eb2",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-14T07:18:04Z",
+  "created_at": "2026-10-14T07:19:27Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "b379c6e33689177827a6440bad0b386d5d654eac",
+  "parent_commit": "263201ec5bb57870f0197cff9aca5ff182b0b419",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 245,
+  "sequence": 246,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
@@ -49,14 +49,14 @@
     "host_calls_total_approx": 8,
     "search_calls": 0
   },
-  "turn_id": "turn-424962511346",
+  "turn_id": "turn-3647ed73e0c6",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-14T07:18:04.077571+00:00",
+    "bluff_check_at": "2026-10-14T07:19:27.601913+00:00",
     "executed_fail": [],
     "executed_pass": [
       "minimal hygiene: all ledgers parse (85 claims / 157 refs / 119 evidence)",
-      "tool outage logged (185th turn); official cursor preserved; checks + ref-reconciliation before prepare"
+      "tool outage logged (186th turn); official cursor preserved; checks + ref-reconciliation before prepare"
     ],
-    "ref_reconciliation": "completed; 0 recreated (chain intact at t244)"
+    "ref_reconciliation": "completed; 0 recreated (chain intact at t245)"
   }
 }
