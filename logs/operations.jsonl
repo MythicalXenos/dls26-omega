@@ -556,3 +556,4 @@
 {"op_id": "DS-545", "ts": "2026-10-14T18:39:17.955389+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t545 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-546", "ts": "2026-10-14T18:44:11.910804+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t546 TOOL_OUTAGE; ISS-0004 #11 recovered; chain restored through t545"}
 {"op_id": "DS-546b", "ts": "2026-10-14T18:44:11.910804+00:00", "type": "RECOVERY_NOTE", "target": "git history", "outcome": "ISS-0004 #11 at t546 start: history collapsed to fb9a2c02 Initial. Recovered via git fetch origin + reset --mixed f4cadf86acedb2960cf62d56c24436f201c8da6d (t545 tip) + recreated 544 refs/omega/turns/* + receipts marked reconciled:true. Chain continuous t1-t545."}
+{"op_id": "DS-547", "ts": "2026-10-14T18:45:08.267797+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t547 TOOL_OUTAGE; chain intact; wrap minimal"}
