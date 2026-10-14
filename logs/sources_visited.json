@@ -3393,7 +3393,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 810,
+  "sequence_counter": 811,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -7718,6 +7718,13 @@
       "event": "TOOL_OUTAGE",
       "ref_id": null,
       "note": "t552; ISS-0004 recurrence #12 recovered (reset --mixed bbded8f + 550 refs reconciled); PROBE_T552 remapped; wrap minimal"
+    },
+    {
+      "seq": 811,
+      "ts": "2026-10-14T18:59:30.276551+00:00",
+      "event": "TOOL_OUTAGE",
+      "ref_id": null,
+      "note": "t553; PROBE_T553_FETCH_PAGE remapped; chain intact at t552; wrap minimal"
     }
   ],
   "session_id": "sess-bb22126f679b",
