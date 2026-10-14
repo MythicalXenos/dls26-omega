@@ -3393,7 +3393,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 516,
+  "sequence_counter": 517,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -5660,6 +5660,13 @@
       "event": "TOOL_OUTAGE",
       "ref_id": null,
       "note": "t258; PROBE_T258_FETCH_PAGE remapped; chain intact at t257; wrap minimal"
+    },
+    {
+      "seq": 517,
+      "ts": "2026-10-14T07:41:41.803461+00:00",
+      "event": "TOOL_OUTAGE",
+      "ref_id": null,
+      "note": "t259; PROBE_T259_FETCH_PAGE remapped; chain intact at t258; wrap minimal"
     }
   ],
   "session_id": "sess-bb22126f679b",
