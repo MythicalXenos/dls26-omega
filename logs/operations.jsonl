@@ -306,3 +306,4 @@
 {"op_id": "DS-297", "ts": "2026-10-14T08:55:22.851773+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t297 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-298", "ts": "2026-10-14T08:59:05.832847+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t298 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-299", "ts": "2026-10-14T09:00:10.531246+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t299 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-300", "ts": "2026-10-14T09:01:15.608530+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t300 TOOL_OUTAGE; chain intact; wrap minimal"}
