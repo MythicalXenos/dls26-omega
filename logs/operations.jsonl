@@ -759,3 +759,5 @@
 {"op_id": "DS-743", "ts": "2026-10-14T23:50:38.571731+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t743 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-744", "ts": "2026-10-14T23:52:08.948291+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t744 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-745", "ts": "2026-10-14T23:54:03.238409+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t745 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-746", "ts": "2026-10-14T23:58:17.816150+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t746 TOOL_OUTAGE; ISS-0004 #16 recovered; wrap minimal"}
+{"op_id": "DS-746b", "ts": "2026-10-14T23:58:17.816150+00:00", "type": "RECOVERY_NOTE", "target": "git history", "outcome": "ISS-0004 #16 at t746 turn start (log = fb9a2c02 Initial only); git fetch origin -> reset --mixed a7c4964cd03a117a6595d61169c60b9b6099ed21 (t745 remote tip) -> recreated 744 refs + receipts (reconciled:true); chain restored to 745 commits"}
