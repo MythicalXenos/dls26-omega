@@ -659,3 +659,5 @@
 {"op_id": "DS-644", "ts": "2026-10-14T21:09:21.521725+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t644 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-645", "ts": "2026-10-14T21:11:06.638323+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t645 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-646", "ts": "2026-10-14T21:14:28.825253+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t646 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-647", "ts": "2026-10-14T21:17:46.018554+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t647 TOOL_OUTAGE; wrap minimal"}
+{"op_id": "DS-647b", "ts": "2026-10-14T21:17:46.018554+00:00", "type": "RECOVERY_NOTE", "target": "history/refs", "outcome": "ISS-0004 #15: history collapsed to fb9a2c02; recovered via fetch + reset --mixed aff4e248bc6bbc017ca5fc2977d6bd6a9fe48733 + recreated 645 refs/receipts reconciled:true"}
