@@ -561,3 +561,5 @@
 {"op_id": "DS-549", "ts": "2026-10-14T18:47:10.771176+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t549 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-550", "ts": "2026-10-14T18:52:36.926845+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t550 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-551", "ts": "2026-10-14T18:57:09.778865+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t551 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-552", "ts": "2026-10-14T18:58:33.584747+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t552 TOOL_OUTAGE; ISS-0004 #12 recovered; chain restored through t551"}
+{"op_id": "DS-552b", "ts": "2026-10-14T18:58:33.584747+00:00", "type": "RECOVERY_NOTE", "target": "git history", "outcome": "ISS-0004 #12 at t552 start: history collapsed to fb9a2c02 Initial. Recovered via git fetch origin + reset --mixed bbded8f09193aed372f5851aec5a0c807cd52210 (t551 tip) + recreated 550 refs/omega/turns/* + receipts marked reconciled:true. Chain continuous t1-t551."}
