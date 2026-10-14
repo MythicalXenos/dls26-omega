@@ -3393,7 +3393,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 521,
+  "sequence_counter": 522,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -5695,6 +5695,13 @@
       "event": "TOOL_OUTAGE",
       "ref_id": null,
       "note": "t263; PROBE_T263_FETCH_PAGE remapped; chain intact at t262; wrap minimal"
+    },
+    {
+      "seq": 522,
+      "ts": "2026-10-14T07:53:15.348465+00:00",
+      "event": "TOOL_OUTAGE",
+      "ref_id": null,
+      "note": "t264; PROBE_T264_FETCH_PAGE remapped; ISS-0004 8th recurrence at turn start (log=fb9a2c02 only); recovered via fetch+reset --mixed; 262 refs recreated from subjects; chain intact through t263"
     }
   ],
   "session_id": "sess-bb22126f679b",

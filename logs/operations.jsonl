@@ -269,3 +269,5 @@
 {"op_id": "DS-261", "ts": "2026-10-14T07:44:30.840980+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t261 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-262", "ts": "2026-10-14T07:48:02.543103+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t262 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-263", "ts": "2026-10-14T07:50:34.441780+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t263 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-264b", "ts": "2026-10-14T07:53:15.348465+00:00", "type": "RECOVERY", "target": "git history/refs", "outcome": "ISS-0004 8th recurrence at t264 start; fetch origin + reset --mixed (263 commits restored, head 6afd1ef=t263); 262 refs recreated from subjects with stub receipts reconciled:true"}
+{"op_id": "DS-264", "ts": "2026-10-14T07:53:15.348465+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t264 TOOL_OUTAGE + ISS-0004 recovery; chain intact through t263; wrap minimal"}
