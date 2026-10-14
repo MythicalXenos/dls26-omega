@@ -588,3 +588,4 @@
 {"op_id": "DS-573b", "ts": "2026-10-14T19:31:36.137998+00:00", "type": "RECOVERY_NOTE", "target": "git history", "outcome": "ISS-0004 #14 at t573 start: history collapsed to fb9a2c02 Initial. Recovered via git fetch origin + reset --mixed 78188e068c0fac3beea0a80902eda47c646a8a76 (t572 tip) + recreated 571 refs/omega/turns/* + receipts marked reconciled:true. Chain continuous t1-t572."}
 {"op_id": "DS-574", "ts": "2026-10-14T19:32:35.455201+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t574 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-575", "ts": "2026-10-14T19:33:46.645248+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t575 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-576", "ts": "2026-10-14T19:34:35.537463+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t576 TOOL_OUTAGE; chain intact; wrap minimal"}
