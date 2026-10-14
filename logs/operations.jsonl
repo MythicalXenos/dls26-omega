@@ -373,3 +373,4 @@
 {"op_id": "DS-363", "ts": "2026-10-14T10:26:18.369809+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t363 TOOL_OUTAGE; ISS-0004 recovered mid-wrap; chain intact through t362"}
 {"op_id": "DS-364", "ts": "2026-10-14T10:27:23.969462+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t364 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-365", "ts": "2026-10-14T10:28:26.975925+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t365 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-366", "ts": "2026-10-14T10:29:41.895525+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t366 TOOL_OUTAGE; chain intact; wrap minimal"}
