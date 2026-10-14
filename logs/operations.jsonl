@@ -158,3 +158,5 @@
 {"op_id": "DS-152", "ts": "2026-10-14T04:55:42.924040+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t152 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-153", "ts": "2026-10-14T04:56:50.658663+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t153 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-154", "ts": "2026-10-14T05:00:27.226711+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t154 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-155", "ts": "2026-10-14T05:01:28.342868+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t155 TOOL_OUTAGE; ISS-0004 recovered (153 refs recreated); wrap minimal"}
+{"op_id": "DS-155b", "ts": "2026-10-14T05:01:28.342868+00:00", "type": "RECOVERY", "target": "git/refs", "outcome": "ISS-0004 recurrence (5th): fetch origin + reset --mixed; refs recreated from subjects (153); no hand-reconstruction; no force-push"}
