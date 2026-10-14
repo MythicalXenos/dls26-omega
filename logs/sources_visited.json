@@ -3393,7 +3393,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 704,
+  "sequence_counter": 705,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -6976,6 +6976,13 @@
       "event": "TOOL_OUTAGE",
       "ref_id": null,
       "note": "t446; PROBE_T446_FETCH_PAGE remapped; ISS-0004 10th recurrence at turn start; RECOVERY-001 executed (fetch+reset --mixed 445 commits + 444 refs recreated); wrap minimal"
+    },
+    {
+      "seq": 705,
+      "ts": "2026-10-14T16:12:15.830015+00:00",
+      "event": "TOOL_OUTAGE",
+      "ref_id": null,
+      "note": "t447; PROBE_T447_FETCH_PAGE remapped; chain intact at t446 post-recovery; wrap minimal"
     }
   ],
   "session_id": "sess-bb22126f679b",
