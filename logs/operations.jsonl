@@ -300,3 +300,4 @@
 {"op_id": "DS-291", "ts": "2026-10-14T08:48:32.446630+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t291 TOOL_OUTAGE; t290 verified intact post user-stop; >> handled as single resume; wrap minimal"}
 {"op_id": "DS-292", "ts": "2026-10-14T08:49:48.787121+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t292 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-293", "ts": "2026-10-14T08:51:02.950778+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t293 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-294", "ts": "2026-10-14T08:52:25.428249+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t294 TOOL_OUTAGE; chain intact; wrap minimal"}
