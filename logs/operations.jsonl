@@ -369,3 +369,5 @@
 {"op_id": "DS-360", "ts": "2026-10-14T10:20:31.600356+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t360 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-361", "ts": "2026-10-14T10:21:42.618056+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t361 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-362", "ts": "2026-10-14T10:22:39.148563+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t362 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-363b", "ts": "2026-10-14T10:26:03.840024+00:00", "type": "RECOVERY_NOTE", "target": "git history + refs", "outcome": "ISS-0004 9th recurrence before t363; RECOVERY-001 applied: fetch origin + reset --mixed (362 commits) + 361 refs recreated (reconciled stubs); chain continuous through t362 0c9c9f5"}
+{"op_id": "DS-363", "ts": "2026-10-14T10:26:18.369809+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t363 TOOL_OUTAGE; ISS-0004 recovered mid-wrap; chain intact through t362"}
