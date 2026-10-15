@@ -963,3 +963,4 @@
 {"op_id": "DS-944", "ts": "2026-10-15T05:13:35.991128+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t944 TOOL_OUTAGE; chain intact; stop-notice re t943 stale (verified complete 943 commits); wrap minimal"}
 {"op_id": "DS-945", "ts": "2026-10-15T05:14:52.764234+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t945 TOOL_OUTAGE; chain intact; stop-notice re t944 stale (verified complete 944 commits); wrap minimal"}
 {"op_id": "DS-946", "ts": "2026-10-15T05:16:10.443985+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t946 TOOL_OUTAGE; chain intact; stop-notice re t945 stale (verified complete 945 commits); wrap minimal"}
+{"op_id": "DS-947", "ts": "2026-10-15T05:17:24.625462+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t947 TOOL_OUTAGE; chain intact; stop-notice re t946 stale (verified complete 946 commits); wrap minimal"}
