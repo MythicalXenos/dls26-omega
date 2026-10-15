@@ -67,7 +67,7 @@
       "admitted_reference_policy": "Seed discovery via search-tool queries across required dimensions and languages; every discovered connected/uncertain reference is admitted with monotone admission_seq and stays owed until served or dispositioned with proof. NON_CONNECTED requires positive scope proof.",
       "as_of": {
         "installed_build": "UNKNOWN (GAP_NOT_SUPPLIED)",
-        "note": "as-of build must be established by research; timestamps are real clock observations. public_game_build RESOLVED t1035 (13.430). installed_build on Saad's device STILL UNKNOWN (GAP_NOT_SUPPLIED) \u2014 confirm in-client.",
+        "note": "as-of build must be established by research; timestamps are real clock observations. public_game_build RESOLVED t1035 (13.430, Play 'Updated Sep 14 2026' re-verified live t1036 EV-222). installed_build on Saad's device STILL UNKNOWN (GAP_NOT_SUPPLIED). OFFICIAL SUPPORT CHANNEL = support.ftgames.com (LIVE); firsttouchgames.zendesk.com alias DEAD (EV-222).",
         "public_game_build": "13.430 (Google Play, 2026-09-14; appbrain store-metadata mirror) \u2014 RESOLVED from UNKNOWN_AT_SEAL via EV-220 (tools restored t1035 2026-10-15); prior 13.420 'Summer Spotlight' 2026-09-01; build line 13.4x; High Confidence (third-party trackers, not FTG-official)",
         "utc": "2026-10-10T17:40:00Z"
       },
@@ -142,7 +142,7 @@
     {
       "admission_seq": 1,
       "discovered_at": "2026-10-10T17:42:00Z",
-      "extraction_cursor": "complete (2/2) EV-171; LISTING CLOSED",
+      "extraction_cursor": "complete (2/2) EV-171; LISTING CLOSED | LIVE re-verified t1036 2026-10-15 (EV-222): content byte-matched prior capture; source ALIVE",
       "family": "official-stores",
       "projections": [
         "store listing features/claims",
@@ -160,6 +160,11 @@
           "at": "2026-10-11T01:18:00Z",
           "event": "extract",
           "seq": 222
+        },
+        {
+          "at": "2026-10-15T09:32:15Z",
+          "event": "reverify",
+          "seq": 1301
         }
       ],
       "status": "VISITED",
@@ -205,7 +210,7 @@
     {
       "admission_seq": 3,
       "discovered_at": "2026-10-10T17:50:00Z",
-      "extraction_cursor": "complete: full text captured (EV-101); closed for comments",
+      "extraction_cursor": "complete: full text captured (EV-101); closed for comments | LIVE re-verified t1036 2026-10-15 (EV-222): content byte-matched prior capture; source ALIVE",
       "family": "official-support",
       "projections": [
         "leaderboard definition",
@@ -218,6 +223,11 @@
           "at": "2026-10-10T20:18:00Z",
           "event": "extract",
           "seq": 97
+        },
+        {
+          "at": "2026-10-15T09:32:15Z",
+          "event": "reverify",
+          "seq": 1299
         }
       ],
       "status": "VISITED",
@@ -227,7 +237,7 @@
     {
       "admission_seq": 4,
       "discovered_at": "2026-10-10T17:50:00Z",
-      "extraction_cursor": "complete: full text captured (EV-102); closed for comments",
+      "extraction_cursor": "complete: full text captured (EV-102); closed for comments | LIVE re-verified t1036 2026-10-15 (EV-222): content byte-matched prior capture; source ALIVE",
       "family": "official-support",
       "projections": [
         "matchmaking attributes",
@@ -240,6 +250,11 @@
           "at": "2026-10-10T20:18:00Z",
           "event": "extract",
           "seq": 98
+        },
+        {
+          "at": "2026-10-15T09:32:15Z",
+          "event": "reverify",
+          "seq": 1300
         }
       ],
       "status": "VISITED",
@@ -856,15 +871,22 @@
     {
       "admission_seq": 65,
       "discovered_at": "2026-10-10T20:18:00Z",
-      "extraction_cursor": null,
+      "extraction_cursor": "complete (1/1): corporate/marketing site, studio est.2011 + 1bn downloads + 4-title portfolio; NO support hub (support.ftgames.com is the live portal) \u2192 EV-221; fetched live t1036",
       "family": "official-web",
       "projections": [
         "official news/announcements"
       ],
       "ref_id": "ref-official-site",
-      "status": "UNVISITED",
-      "ticket_seq": 65,
-      "url": "https://www.firsttouchgames.com"
+      "status": "VISITED",
+      "ticket_seq": 1297,
+      "url": "https://www.firsttouchgames.com",
+      "service_events": [
+        {
+          "at": "2026-10-15T09:32:15Z",
+          "event": "extract",
+          "seq": 1297
+        }
+      ]
     },
     {
       "admission_seq": 66,
@@ -3276,6 +3298,32 @@
         "third-party tracker (not FTG-official)",
         "store metadata can lag"
       ]
+    },
+    {
+      "admission_seq": 312,
+      "discovered_at": "2026-10-15T09:32:15Z",
+      "discovered_by": "FETCH_PAGE_PROBE",
+      "extraction_cursor": "DEAD: firsttouchgames.zendesk.com/hc \u2192 'Help Center Closed / no longer exists'; wrong-domain alias. LIVE official support portal = support.ftgames.com (use that). \u2192 EV-222 boundary correction",
+      "family": "official-support",
+      "projections": [
+        "boundary correction: dead zendesk alias vs live support.ftgames.com"
+      ],
+      "ref_id": "ref-ftg-zendesk-alias-dead",
+      "service_events": [
+        {
+          "at": "2026-10-15T09:32:15Z",
+          "event": "access_boundary",
+          "seq": 1298
+        }
+      ],
+      "status": "ACCESS_BOUNDARY",
+      "ticket_seq": 1298,
+      "url": "https://firsttouchgames.zendesk.com/hc/en-us",
+      "risk_flags": [
+        "dead-source",
+        "wrong-domain-alias",
+        "do-not-use (use support.ftgames.com)"
+      ]
     }
   ],
   "residual_debt": [
@@ -3462,7 +3510,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 1296,
+  "sequence_counter": 1301,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -11189,6 +11237,41 @@
       "event": "EXTRACT",
       "ref_id": "ref-version-aggregators-dls26",
       "note": "EV-220 captured (current version 13.430; resolves version-marker residue)."
+    },
+    {
+      "seq": 1297,
+      "ts": "2026-10-15T09:32:15Z",
+      "event": "EXTRACT",
+      "ref_id": "ref-official-site",
+      "note": "EV-221 firsttouchgames.com official corporate site (serves owed UNVISITED ref)."
+    },
+    {
+      "seq": 1298,
+      "ts": "2026-10-15T09:32:15Z",
+      "event": "ACCESS_BOUNDARY",
+      "ref_id": "ref-ftg-zendesk-alias-dead",
+      "note": "EV-222: firsttouchgames.zendesk.com alias DEAD; live official support = support.ftgames.com."
+    },
+    {
+      "seq": 1299,
+      "ts": "2026-10-15T09:32:15Z",
+      "event": "REVERIFY",
+      "ref_id": "ref-support-leaderboards",
+      "note": "EV-222: leaderboards 360003914998 re-fetched LIVE, byte-matched EV-101 (3-30 day reset confirmed)."
+    },
+    {
+      "seq": 1300,
+      "ts": "2026-10-15T09:32:15Z",
+      "event": "REVERIFY",
+      "ref_id": "ref-support-matchmaking",
+      "note": "EV-222: DLL matchmaking 360018359998 re-fetched LIVE, byte-matched EV-102 (LIVE Tier ranking confirmed)."
+    },
+    {
+      "seq": 1301,
+      "ts": "2026-10-15T09:32:15Z",
+      "event": "REVERIFY",
+      "ref_id": "ref-store-gplay",
+      "note": "EV-222: Google Play listing re-fetched LIVE, matched EV-103 ('Global Leaderboards' copy + Sep 14 2026 Cult Heroes update)."
     }
   ],
   "session_id": "sess-bb22126f679b",

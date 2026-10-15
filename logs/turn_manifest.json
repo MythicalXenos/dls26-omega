@@ -1,90 +1,85 @@
 {
   "artifact_manifest": [
     {
-      "bytes": 2792,
-      "path": "evidence/extract/EV-218_gamingonphone_dls26_beginners_guide.md",
-      "sha256": "290bee4624c1378be662168a5b3976d85128266b2adcf71e210e6c01c4f7bf14"
+      "bytes": 1563,
+      "path": "evidence/extract/EV-221_firsttouchgames_official_site.md",
+      "sha256": "ff7aec52949e43242c8b5c79ed7c902fdae2bdf1c5d4569017fc2f3a0cacad45"
     },
     {
-      "bytes": 2882,
-      "path": "evidence/extract/EV-219_bluestacks_dls26_free_rewards_progression.md",
-      "sha256": "62b43bc0dde7de4474508f236512ce0812f8a86b475bb9dabaf8fc5a099a3736"
+      "bytes": 3656,
+      "path": "evidence/extract/EV-222_official_ranking_reverification_t1036.md",
+      "sha256": "192f39e5d67046a9328bac333ba5345fd9a451d2db1508c18e0af959d2a3a31b"
     },
     {
-      "bytes": 2029,
-      "path": "evidence/extract/EV-220_dls26_version_aggregators.md",
-      "sha256": "f6a4d49c1f9832756c3228202320fef39817adb9eb2fd18cfb4a998d1651c4d1"
-    },
-    {
-      "bytes": 44890,
+      "bytes": 46086,
       "path": "evidence/index.jsonl",
-      "sha256": "b535738cb6e95908202c9dadda40191060711e74e75e3a2fe8aadb1c0605e367"
+      "sha256": "4c9565b0200bc25f4f95ba52afb921c0c6e79485c0d99b94dba1c1cff5b01e67"
     },
     {
-      "bytes": 98207,
+      "bytes": 99791,
       "path": "kb/claims.jsonl",
-      "sha256": "6003f9f3bb2e6264fd680ecb2aab0e305fd73dccad5f49804f125929a013050e"
+      "sha256": "e99722e44c65705218b3bbd6d39c1fb8b679356ac5bcf914f6219e92ad58b223"
     },
     {
-      "bytes": 3687,
+      "bytes": 4232,
       "path": "logs/control.json",
-      "sha256": "d481dbaafe675b702817cc409a2e0c982ccf865a09d38c8f6626c666c4d3e7cc"
+      "sha256": "16e449d1620e57e6f6e81b36c44f723ef65ece98651314650f0f38cbcba64301"
     },
     {
-      "bytes": 207339,
+      "bytes": 208359,
       "path": "logs/operations.jsonl",
-      "sha256": "b00d613c459bed49f68d67e0900fd7e153c020d77107d5a7c44ffdcee821ab48"
+      "sha256": "e1b46489c551c1076259584af0677cca29a569d66f7591bc09fb4a59f3588f1a"
     },
     {
       "bytes": 581,
-      "path": "logs/receipts_pending/turn-658b340c9bf2.json",
-      "sha256": "78c63df8adad5b038eec96a42a992b6e14a6049a1fc75a1fc757ab5fa15079c6"
+      "path": "logs/receipts_pending/turn-e9c3dcd56db2.json",
+      "sha256": "37c034c9883f5efb48e98d240186bdd210472399f13ae7ab118231e7da02afe3"
     },
     {
-      "bytes": 389966,
+      "bytes": 393287,
       "path": "logs/sources_visited.json",
-      "sha256": "4d9c4337c8405119df8ce993a1438ddfa679c1fb72549727c7b3c28b8c017411"
+      "sha256": "64a2ff85dd7c7ef6b632b81fc8f7c0824ef12052ffa3a303bd7f4778f78f92fe"
     }
   ],
-  "checkpoint_nonce": "nonce-f4abab8091729006",
+  "checkpoint_nonce": "nonce-349b2ca646762689",
   "conversation_binding": {
     "id": "conv-local-0001",
     "observed_from_host": false,
     "source": "local-generated"
   },
-  "created_at": "2026-10-15T09:21:53Z",
+  "created_at": "2026-10-15T09:32:15Z",
   "host_message_ids": {
     "observed": false,
     "value": null
   },
   "mode": "BOOTSTRAP",
   "next_step": 1,
-  "parent_commit": "08370743b748a5f95a41a76cec229ec0646054eb",
+  "parent_commit": "38ff1fcb9e09f7f776200e53429d72bc50471fad",
   "phase": "WORKING",
   "prompt_sha256": "7e9b11373507f203e1af77094d7732adc36059c365dce4469e02dd415ca8e4e4",
   "protocol_version": 2,
   "schema": "turn_manifest-1.0",
-  "sequence": 1035,
+  "sequence": 1036,
   "session_id": "sess-bb22126f679b",
   "step": 1,
   "terminal_line": "Bootstrap in progress [Step 1]. Send > to continue.",
   "terminal_line_class": "CONTINUE",
   "tool_call_counts": {
     "fetch_page_calls": 4,
-    "host_calls_total_approx": 14,
-    "search_calls": 2
+    "host_calls_total_approx": 12,
+    "search_calls": 1
   },
-  "turn_id": "turn-e9c3dcd56db2",
+  "turn_id": "turn-acbd3995ad43",
   "wrap_checks": {
-    "bluff_check_at": "2026-10-15T09:21:53.836212+00:00",
-    "checks_4": "PASS: check-master (21 rules, sha 7e9b1137) + check-control (WORKING/step1) + check-exits (step0) + check-sources (1 epoch/160 refs)",
+    "bluff_check_at": "2026-10-15T09:32:15.303749+00:00",
+    "checks_4": "PASS: check-master (21 rules, sha 7e9b1137) + check-control (WORKING/step1) + check-exits (step0) + check-sources (1 epoch/161 refs)",
     "executed_fail": [],
     "executed_pass": [
-      "TOOL_OUTAGE CLEARED: web_search x2 + fetch_page x4 VERIFIED genuine (incl NON-whitelisted gamingonphone chunks0-1 + bluestacks chunk0 FULL content) \u2014 host-routed egress confirmed; 974-turn outage (t61-t1034) ended",
-      "Step 1 RESEARCH resumed: EV-218 (gamingonphone beginners) + EV-219 (bluestacks multi-track progression) + EV-220 (version 13.430) captured; all ledgers parse (87 claims / 160 refs / 122 evidence)",
-      "CLAIM-087 (version 13.4x High Confidence \u2014 RESOLVES version-marker residue) + CLAIM-088 (multi-track progression High Confidence) added; CLAIM-003 (kept Speculative, multi-track/weekly-reset nuance) + CLAIM-071 (kept Confirmed, community corroboration + SP-source sub-question) updated",
-      "epoch public_game_build RESOLVED 13.430 (was UNKNOWN_AT_SEAL); frontier +3 refs (seq 1293-1296); control turn 1035 outage cleared; DS-1035 logged; ref-reconciliation + protocol checks before prepare"
+      "tools LIVE: fetch_page x4 (support.ftgames.com leaderboards+matchmaking byte-matched EV-101/102; play.google.com matched EV-103; firsttouchgames.com new; firsttouchgames.zendesk.com alias probed DEAD) + web_search x1",
+      "CLAIM-003 INTERVAL residue RESOLVED (official 3-30 day leaderboard reset, EV-101 re-verified live EV-222); remaining open narrowed to tie-breaks/eligibility/external-verifiability/installed_build",
+      "CLAIM-002/081/027 last_valid_check refreshed 2026-10-15 (live re-verification); CLAIM-087 reconciled with CLAIM-054 Confirmed parent",
+      "firsttouchgames.com official site SERVED (EV-221; ref-official-site UNVISITED\u2192VISITED); zendesk-alias-dead ACCESS_BOUNDARY ref added; all ledgers parse (87 claims / 161 refs / 124 evidence)"
     ],
-    "ref_reconciliation": "completed; 0 recreated (1033 refs intact at t1034 tip 08370743; journal-committed subset all have refs)"
+    "ref_reconciliation": "completed; 0 recreated (1034 refs intact at t1035 tip 38ff1fcb)"
   }
 }
