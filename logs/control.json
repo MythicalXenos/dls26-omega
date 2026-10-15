@@ -52,8 +52,16 @@
     "HANDOFF.md",
     "handoff/attention_required.md"
   ],
-  "resumption_point": "Step 1 finite research epoch OPEN (NOT sealed). Cursor UNCHANGED (fetch_page owed): backup-restore 214387685 stale-risk re-verify + dls19-profile 360004717278, then reddit probe (ISS-0006), age-policies 360000204889 / next-update 360000262229 / restart-career-3rd 3600017167418 / connection-general 360000420025; priority extras: player-stats comments (360019166777) + develop-players 360003914778 (CLAIM-006). t61-t102 TOOL_OUTAGE (42 turns). Policy: minimal hygiene turns until fetch tools return. Residue OPEN: CLAIM-003/071, CLAIM-067, CLAIM-006 (+ version marker). Disputed: CLAIM-042. Staged asks: attention_required.md (6).",
-  "updated_at": "2026-10-11T18:58:40Z",
-  "turn": 1034,
-  "updated": "2026-10-15T08:53:53.934824+00:00"
+  "resumption_point": "Step 1 finite research epoch OPEN (NOT sealed). TOOL_OUTAGE CLEARED t1035 (user directive 2026-10-15; web_search + fetch_page VERIFIED working incl NON-whitelisted hosts). Research RESUMED: EV-218 (gamingonphone beginners) + EV-219 (bluestacks progression) + EV-220 (version 13.430) captured; CLAIM-087 (version 13.4x, High Confidence \u2014 RESOLVES version-marker residue) + CLAIM-088 (multi-track progression, High Confidence) added; CLAIM-003/071 updated (multi-track nuance + SP-source sub-question). Epoch public_game_build RESOLVED 13.430. CURSOR (fetch_page NOW WORKS \u2014 resume owed): backup-restore 214387685 (stale-risk RE-VERIFY), dls19-profile 360004717278, age-policies 360000204889, next-update 360000262229, restart-career-3rd 3600017167418, connection-general 360000420025, graphics-old 360000598437, video-clips-new 7917682153361, name-change 360000001989 + name-facebook 360001808378, support-contact 360000309705, VI guides 186558/197994/199177/161114, reddit probe (ISS-0006), player-look/player-stats comments 1-3, develop-players 360003914778 (CLAIM-006), vi-download ch3, appstore-id ch3, terms ch1-3, player-diamonds; official support/store pages now fetchable. Residue OPEN: CLAIM-003 (global-rank verifiability \u2014 tie-breaks/eligibility/verification/installed_build), CLAIM-067, CLAIM-006. installed_build UNKNOWN. Disputed: CLAIM-042. Staged asks: attention_required.md (6).",
+  "updated_at": "2026-10-15T09:20:16Z",
+  "turn": 1035,
+  "updated": "2026-10-15T09:20:16.471215+00:00",
+  "tool_outage_active": false,
+  "tool_recovery": {
+    "cleared_at_turn": 1035,
+    "cleared_at_utc": "2026-10-15T09:20:16Z",
+    "outage_span": "t61-t1034 (974 turns)",
+    "verification": "web_search x2 + fetch_page x4 (incl NON-whitelisted gamingonphone/bluestacks full content)",
+    "trigger": "user directive 2026-10-15"
+  }
 }

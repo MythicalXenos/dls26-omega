@@ -67,8 +67,8 @@
       "admitted_reference_policy": "Seed discovery via search-tool queries across required dimensions and languages; every discovered connected/uncertain reference is admitted with monotone admission_seq and stays owed until served or dispositioned with proof. NON_CONNECTED requires positive scope proof.",
       "as_of": {
         "installed_build": "UNKNOWN (GAP_NOT_SUPPLIED)",
-        "note": "as-of build must be established by research; timestamps are real clock observations",
-        "public_game_build": "UNKNOWN_AT_SEAL (candidates observed in turn-1 snippets: Android 13.410/13.420, Google Play listing updated 2026-09-14)",
+        "note": "as-of build must be established by research; timestamps are real clock observations. public_game_build RESOLVED t1035 (13.430). installed_build on Saad's device STILL UNKNOWN (GAP_NOT_SUPPLIED) \u2014 confirm in-client.",
+        "public_game_build": "13.430 (Google Play, 2026-09-14; appbrain store-metadata mirror) \u2014 RESOLVED from UNKNOWN_AT_SEAL via EV-220 (tools restored t1035 2026-10-15); prior 13.420 'Summer Spotlight' 2026-09-01; build line 13.4x; High Confidence (third-party trackers, not FTG-official)",
         "utc": "2026-10-10T17:40:00Z"
       },
       "content_projections": [
@@ -3207,6 +3207,75 @@
         "do-not-execute",
         "credential-phishing risk"
       ]
+    },
+    {
+      "admission_seq": 309,
+      "discovered_at": "2026-10-15T09:20:16Z",
+      "discovered_by": "WEB_SEARCH",
+      "extraction_cursor": "complete (chunks 0-1 of 3 fetched; chunk2 footer nav non-substantive) \u2192 EV-218",
+      "family": "community-web-en",
+      "projections": [
+        "beginners guide: progression, modes, controls, tips"
+      ],
+      "ref_id": "ref-gamingonphone-dls26-beginners",
+      "service_events": [
+        {
+          "at": "2026-10-15T09:20:16Z",
+          "event": "extract",
+          "seq": 1294
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 1294,
+      "url": "https://www.gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+      "risk_flags": []
+    },
+    {
+      "admission_seq": 310,
+      "discovered_at": "2026-10-15T09:20:16Z",
+      "discovered_by": "WEB_SEARCH",
+      "extraction_cursor": "complete (chunk 0 of 4 fetched; substantive progression detail captured) \u2192 EV-219",
+      "family": "community-web-en",
+      "projections": [
+        "free-rewards guide: multi-track progression economy"
+      ],
+      "ref_id": "ref-bluestacks-dls26-free-rewards",
+      "service_events": [
+        {
+          "at": "2026-10-15T09:20:16Z",
+          "event": "extract",
+          "seq": 1295
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 1295,
+      "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-free-rewards-guide-en.html",
+      "risk_flags": []
+    },
+    {
+      "admission_seq": 311,
+      "discovered_at": "2026-10-15T09:20:16Z",
+      "discovered_by": "WEB_SEARCH",
+      "extraction_cursor": "complete (aggregator set: appbrain 13.430 / fifaworldcupnews 13.420 / apkgk 13.130 / soft112 history) \u2192 EV-220",
+      "family": "databases-tools",
+      "projections": [
+        "store-metadata version tracking; resolves version-marker residue"
+      ],
+      "ref_id": "ref-version-aggregators-dls26",
+      "service_events": [
+        {
+          "at": "2026-10-15T09:20:16Z",
+          "event": "extract",
+          "seq": 1296
+        }
+      ],
+      "status": "VISITED",
+      "ticket_seq": 1296,
+      "url": "https://www.appbrain.com/app/dream-league-soccer-2026/com.firsttouchgames.dls7",
+      "risk_flags": [
+        "third-party tracker (not FTG-official)",
+        "store metadata can lag"
+      ]
     }
   ],
   "residual_debt": [
@@ -3393,7 +3462,7 @@
     ]
   ],
   "schema": "sources_visited-1.0",
-  "sequence_counter": 1292,
+  "sequence_counter": 1296,
   "service_events": [
     {
       "at_utc": "2026-10-10T17:47:00Z",
@@ -11092,6 +11161,34 @@
       "event": "TOOL_OUTAGE",
       "ref_id": null,
       "note": "t1034; PROBE_T1034_FETCH_PAGE remapped; chain intact at t1033; stop-notice re t1033 stale (verified complete); wrap minimal"
+    },
+    {
+      "seq": 1293,
+      "ts": "2026-10-15T09:20:16Z",
+      "event": "TOOL_RECOVERY",
+      "ref_id": null,
+      "note": "t1035; USER DIRECTIVE 2026-10-15: web tools restored. VERIFIED via genuine web_search (DLS26 Season Points + version queries \u2192 real hits) AND fetch_page (github.com + NON-whitelisted gamingonphone.com chunks0-1 + bluestacks.com chunk0 \u2192 FULL content). Host-routed egress confirmed. TOOL_OUTAGE flag CLEARED after 974 consecutive outage turns (t61-t1034). Step 1 research RESUMED."
+    },
+    {
+      "seq": 1294,
+      "ts": "2026-10-15T09:20:16Z",
+      "event": "EXTRACT",
+      "ref_id": "ref-gamingonphone-dls26-beginners",
+      "note": "EV-218 captured (beginners guide: progression/modes/controls)."
+    },
+    {
+      "seq": 1295,
+      "ts": "2026-10-15T09:20:16Z",
+      "event": "EXTRACT",
+      "ref_id": "ref-bluestacks-dls26-free-rewards",
+      "note": "EV-219 captured (multi-track progression economy)."
+    },
+    {
+      "seq": 1296,
+      "ts": "2026-10-15T09:20:16Z",
+      "event": "EXTRACT",
+      "ref_id": "ref-version-aggregators-dls26",
+      "note": "EV-220 captured (current version 13.430; resolves version-marker residue)."
     }
   ],
   "session_id": "sess-bb22126f679b",
