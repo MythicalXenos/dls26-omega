@@ -796,3 +796,4 @@
 {"op_id": "DS-778", "ts": "2026-10-15T00:43:52.003387+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t778 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-779", "ts": "2026-10-15T00:45:29.006370+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t779 TOOL_OUTAGE; chain intact; wrap minimal"}
 {"op_id": "DS-780", "ts": "2026-10-15T00:48:13.701480+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t780 TOOL_OUTAGE; chain intact; wrap minimal"}
+{"op_id": "DS-781", "ts": "2026-10-15T00:49:17.612271+00:00", "type": "HYGIENE_SLICE", "target": "ledger/control", "outcome": "t781 TOOL_OUTAGE; chain intact; wrap minimal"}
