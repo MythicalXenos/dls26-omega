@@ -5,3 +5,4 @@ Rollback procedure: identify the last snapshot before a corruption, diff forward
 | --- | --- | --- |
 | claims_2026-10-17T2032Z.jsonl | 117 | First snapshot on this branch after the two-corpora merge |
 | claims_20261017T1728Z.jsonl | 118 | Turn-15 snapshot: CLAIM-119 added; CLAIM-020 corrected; frontier re-stamped; sha256 f8dea58ff1293b74 |
+| claims_20261017T1731Z.jsonl | 122 | Turn-16 snapshot: cross-branch merge, CLAIM-120..123 added, 10 witnesses upgraded from summaries to service records, RETRYABLE_FAILURE -> 0; sha256 c613b7fc2f9a46b4 |

@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 15,
-  "checkpoint_id": "ckpt-20261017-step1-014",
-  "previous_checkpoint_id": "ckpt-20261017-step1-013",
+  "turn_seq": 16,
+  "checkpoint_id": "ckpt-20261017-step1-015",
+  "previous_checkpoint_id": "ckpt-20261017-step1-014",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,23 +14,23 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/WITNESS_SPOTCHECK_sample6_turn15.md",
-    "kb_snapshots/claims_20261017T1728Z.jsonl",
-    "step1_epochs/IN_CLIENT_CHECKLIST.md",
-    "SCHEMA.md",
-    "kb/index.md"
+    "audit/CROSS_BRANCH_MERGE_turn16.md",
+    "logs/sources_visited.json",
+    "step1_epochs/EPOCH_CONTRACT_DRAFT.md",
+    "kb/claims.jsonl",
+    "kb_snapshots/claims_20261017T1731Z.jsonl"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) sample 7 of the witness pass over the 64 never-tested claims, prioritising anything a coaching sentence would rest on and any claim witnessed only by a kb/*.md summary; (2) read the 22655f48 corpus directly for CLAIM-101/102/091/113/114/115/117 - if raw capture text exists there, replace the summary witness, if not record that the corpus holds only summaries; (3) verify the contract's '26/30 support articles' floor against the frontier instead of repeating it. No new registers. Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 remains a first-contact decision. Any JSONL rewrite goes through a script file with byte-level verification (OBS-016).",
-  "created_at": "2026-10-17T20:30:00Z",
-  "not_before": "2026-10-17T20:30:00Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) decide claim-or-no-claim for the two captured-but-unclaimed articles 360003945557 (can't connect) and 37082887837202 (find user ID), writing summary-only provenance if claimed; (2) sample 7 of the witness pass over the remaining untested claims including CLAIM-120..123; (3) read the six kb/*.md topic files on branch arena/22655f48-dls26-omega line by line against claims.jsonl to find facts that were never promoted - the merge proved that branch held more than we imported. No new registers. Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 remains a first-contact decision. JSONL rewrites go through scripts/ with byte verification (OBS-016).",
+  "created_at": "2026-10-17T21:05:00Z",
+  "not_before": "2026-10-17T21:05:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/WITNESS_SPOTCHECK_sample6_turn15.md",
-    "kb/index.md"
+    "audit/CROSS_BRANCH_MERGE_turn16.md",
+    "issue_tracker.md"
   ]
 }

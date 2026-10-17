@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T20:30Z (session sess-20261017-001, turn 15, checkpoint ckpt-20261017-step1-014)
+Updated: 2026-10-17T21:05Z (session sess-20261017-001, turn 16, checkpoint ckpt-20261017-step1-015)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 16 result — cross-branch merge: ID collision repaired, retryable debt driven to zero, four claims added
+- **The sibling branch has no raw capture corpus** (28 files, no `evidence/`), so claims witnessed only by a `kb/*.md` summary cannot be upgraded from it. But its **service log** (69 records) is primary-adjacent, and ten claims were re-witnessed against it (traceability, not evidential strength — stated in each claim).
+- **OBS-017, severe: source-log ID collision.** Twelve IDs (051–063, except 057) carried different records on the two branches; any citation of `S-20261017-05x` was ambiguous. Repaired by script: ours renumbered to 070–081, the sibling's 051–069 imported as canonical, full mapping written into the log's `id_repairs[]`, verified 81 entries / 81 unique IDs.
+- **RETRYABLE_FAILURE is now 0.** The three articles carried as retryable since the t69 snapshot (control-button text, emojis, kit visibility) were fetched in full on the sibling at 17:10Z. EV-226/227/228 written; frontier 96 → 101 visited, 163 refs total.
+- **Three never-admitted articles** discovered and admitted: fairness stance (360000842697), can't-connect (360003945557), find-user-ID (37082887837202).
+- **Four new claims:** CLAIM-120 descriptive button text toggle (likely the mechanical answer to the "wrong input" complaint), CLAIM-121 emoji cap and chat kill-switch, CLAIM-122 imported kits are NOT visible to opponents, CLAIM-123 official fairness stance — the last sets a mission constraint: a "#1" target must span enough matches for luck to average out.
+
 ## Turn 15 result — a real error found and fixed, C-009 promoted to Priority 0, snapshot taken
 - **Sample 6 (four mechanism pairs, economy and cadence):** one substantive error, three structural flags.
   - **CLAIM-020 was wrong**: it said "Free coins only via short video clips". EV-123 says *you can* watch clips to earn free coins (subject to availability) — no exclusivity — and the official coin list credits match wins, draws, clean sheets and goals. Rewritten; the acquisition channels and the ad-dependent clause are now separated because they carry different volatility.
@@ -118,11 +125,11 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 16)
-1. **Sample 7**: the last untouched block — the 64 claims never witness-tested, prioritising (a) anything a coaching sentence would rest on and (b) claims whose sources are `kb/*.md` summaries rather than EV records.
-2. **Read the 22655f48 corpus directly** for the High-tier claims whose only witness is a derived summary (CLAIM-101, 102, 091, 113, 114, 115, 117): if raw capture text exists there, replace the summary witness with it; if not, record that the corpus itself only holds summaries.
-3. **Contract §3 floors re-check**: official sources currently claim "26/30 support articles" — verify that number against the frontier rather than repeating it.
-4. No new registers (D-06). Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 is still a first-contact decision.
+## Exact resumption point (next turn — turn 17)
+1. **Two captured-but-unclaimed articles**: 360003945557 (can't connect) and 37082887837202 (find user ID) — decide claim-or-no-claim; if a claim, write it with summary-only provenance like EV-226…229.
+2. **Sample 7 of the witness pass** over the remaining untested claims, now including CLAIM-120…123.
+3. **Check the 22655f48 kb topic files for facts that never became claims** — the merge proved that branch held more than we imported; a line-by-line read of its six `kb/*.md` files against `claims.jsonl` is the cheapest remaining completeness test.
+4. No new registers (D-06). Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 is still a first-contact decision. JSONL rewrites go through `scripts/` with byte verification (OBS-016).
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

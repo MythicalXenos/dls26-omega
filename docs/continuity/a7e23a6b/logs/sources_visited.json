@@ -1318,7 +1318,7 @@
   {
    "admission_seq": 86,
    "discovered_at": "2026-10-10T20:18:00Z",
-   "extraction_cursor": "404 oops 2026-10-10; stale id 360007551137; re-discovery owed",
+   "extraction_cursor": "404 oops 2026-10-10; stale id 360007551137; re-discovery owed | full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (S-20261017-061)",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -1330,9 +1330,17 @@
      "detail": "404 -> RETRYABLE_FAILURE",
      "event": "extract",
      "seq": 175
+    },
+    {
+     "at": "2026-10-17T20:58:00Z",
+     "event": "restamp",
+     "seq": 1315,
+     "from": "RETRYABLE_FAILURE",
+     "to": "VISITED",
+     "note": "full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (S-20261017-061)"
     }
    ],
-   "status": "RETRYABLE_FAILURE",
+   "status": "VISITED",
    "ticket_seq": 175,
    "url": "https://support.ftgames.com/hc/en-us/articles/14369944135058-How-do-I-hide-the-text-on-the-control-buttons"
   },
@@ -1404,7 +1412,7 @@
   {
    "admission_seq": 90,
    "discovered_at": "2026-10-10T20:18:00Z",
-   "extraction_cursor": "404 oops 2026-10-10; re-discovery owed",
+   "extraction_cursor": "404 oops 2026-10-10; re-discovery owed | full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (S-20261017-058)",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -1416,16 +1424,24 @@
      "detail": "404 -> RETRYABLE_FAILURE",
      "event": "extract",
      "seq": 180
+    },
+    {
+     "at": "2026-10-17T20:58:00Z",
+     "event": "restamp",
+     "seq": 1316,
+     "from": "RETRYABLE_FAILURE",
+     "to": "VISITED",
+     "note": "full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (S-20261017-058)"
     }
    ],
-   "status": "RETRYABLE_FAILURE",
+   "status": "VISITED",
    "ticket_seq": 180,
    "url": "https://support.ftgames.com/hc/en-us/articles/360020938198-How-do-I-change-my-emojis-in-Dream-League-Live"
   },
   {
    "admission_seq": 91,
    "discovered_at": "2026-10-10T20:18:00Z",
-   "extraction_cursor": "404 oops 2026-10-10; re-discovery owed",
+   "extraction_cursor": "404 oops 2026-10-10; re-discovery owed | full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (S-20261017-059)",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -1437,9 +1453,17 @@
      "detail": "404 -> RETRYABLE_FAILURE",
      "event": "extract",
      "seq": 181
+    },
+    {
+     "at": "2026-10-17T20:58:00Z",
+     "event": "restamp",
+     "seq": 1317,
+     "from": "RETRYABLE_FAILURE",
+     "to": "VISITED",
+     "note": "full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (S-20261017-059)"
     }
    ],
-   "status": "RETRYABLE_FAILURE",
+   "status": "VISITED",
    "ticket_seq": 181,
    "url": "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live"
   },
@@ -3449,6 +3473,48 @@
     "wrong-domain-alias",
     "do-not-use (use support.ftgames.com)"
    ]
+  },
+  {
+   "admission_seq": 1318,
+   "ticket_seq": 1318,
+   "ref_id": "ref-support-fairness-stance",
+   "family": "official-support",
+   "status": "VISITED",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this",
+   "discovered_at": "2026-10-17T20:58:00Z",
+   "projections": [
+    "article body"
+   ],
+   "service_events": [
+    {
+     "at": "2026-10-17T20:58:00Z",
+     "event": "admit",
+     "seq": 1318
+    }
+   ],
+   "extraction_cursor": "full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega; EV record owed for two of the three",
+   "admission_note": "Never admitted to the 161-ref frontier; discovered by merging the sibling branch service log in turn 16 (OBS-017 fallout)."
+  },
+  {
+   "admission_seq": 1319,
+   "ticket_seq": 1319,
+   "ref_id": "ref-support-connect-cannot",
+   "family": "official-support",
+   "status": "VISITED",
+   "url": "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do",
+   "discovered_at": "2026-10-17T20:58:00Z",
+   "projections": [
+    "article body"
+   ],
+   "service_events": [
+    {
+     "at": "2026-10-17T20:58:00Z",
+     "event": "admit",
+     "seq": 1319
+    }
+   ],
+   "extraction_cursor": "full text captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega; EV record owed for two of the three",
+   "admission_note": "Never admitted to the 161-ref frontier; discovered by merging the sibling branch service log in turn 16 (OBS-017 fallout)."
   }
  ],
  "residual_debt": [
@@ -3635,7 +3701,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 1314,
+ "sequence_counter": 1319,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -11501,6 +11567,30 @@
    "ref_id": "ref-support-restart-career-3rd",
    "from": "UNVISITED",
    "to": "NON_CONNECTED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T20:58:00Z",
+   "seq": 1315,
+   "ref_id": "ref-support-control-buttons",
+   "from": "RETRYABLE_FAILURE",
+   "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T20:58:00Z",
+   "seq": 1316,
+   "ref_id": "ref-support-emojis",
+   "from": "RETRYABLE_FAILURE",
+   "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T20:58:00Z",
+   "seq": 1317,
+   "ref_id": "ref-support-kit-visible-live",
+   "from": "RETRYABLE_FAILURE",
+   "to": "VISITED"
   }
  ],
  "session_id": "sess-bb22126f679b",
@@ -11697,6 +11787,39 @@
     "ref-support-contact (360000309705): dispositioned CANONICALIZED-ADMIN, but the schema has no status for an administrative endpoint with an empty projection. It stays UNVISITED and is carried explicitly rather than being forced into NON_CONNECTED, which would falsely imply a different game."
    ],
    "prior_file_sha256": "5babdc2d43986c5731ba7935a0a848c4b48c7f3133db6bba8785e051abbb1aab"
+  },
+  {
+   "at": "2026-10-17T20:58:00Z",
+   "session_id": "sess-20261017-001",
+   "done_by": "turn-16 merge wave 3",
+   "reason": "Three refs carried as RETRYABLE_FAILURE had in fact been fetched in full on branch arena/22655f48-dls26-omega on 2026-10-17T17:10Z; three further official articles found in that log had never been admitted to the frontier at all.",
+   "counts_before": {
+    "VISITED": 96,
+    "IN_PROGRESS": 23,
+    "ACCESS_BOUNDARY": 2,
+    "REPRESENTATION_DUPLICATE": 8,
+    "UNVISITED": 8,
+    "NON_CONNECTED": 21,
+    "RETRYABLE_FAILURE": 3
+   },
+   "counts_after": {
+    "VISITED": 101,
+    "IN_PROGRESS": 23,
+    "ACCESS_BOUNDARY": 2,
+    "REPRESENTATION_DUPLICATE": 8,
+    "UNVISITED": 8,
+    "NON_CONNECTED": 21
+   },
+   "changes_closed": [
+    "ref-support-control-buttons",
+    "ref-support-emojis",
+    "ref-support-kit-visible-live"
+   ],
+   "references_admitted": [
+    "ref-support-fairness-stance",
+    "ref-support-connect-cannot"
+   ],
+   "prior_file_sha256": "78d689b8fb5d27a3e13b8e46b9c461dbc83700ef642ea15a9ffcee5d85cac0d4"
   }
  ]
 }

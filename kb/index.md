@@ -28,3 +28,11 @@ Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep bui
 - Conflicts: **9 open** (C-001…C-009), 3 resolved (C-R01…C-R03). The most consequential open question is **C-009** — whether the Season Leaderboard is a public ranking at all, which decides whether "#1" can be measured on it.
 - Witness coverage: **54 of 118 claims** (46%) have had a textual comparison against their cited records across six samples; the rest are structurally verified only. Each sample so far has found at least one defect, so the remainder should not be assumed clean.
 - Topic-file note: the T-/B-/L-/M-/GS- summaries remain derived views and still describe the pre-merge claim set. They are now **older than the claim authority by 31 claims** (CLAIM-089…119 have no summary entry). This is a known, recorded lag, not an error to be fixed by inventing summaries.
+
+## Index state — turn 16 (2026-10-17T17:31Z)
+- Claim authority: **122 claims** (CLAIM-001…CLAIM-123). Confirmed 31 / High 55 / Community 23 / Speculative 12 / Disputed 1. Snapshot `kb_snapshots/claims_20261017T1731Z.jsonl` (sha256 `c613b7fc…`).
+- Evidence registry: **131 records** + 7 unregistered `EVD-*` failure records.
+- Frontier: **163 refs** — 101 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 2 ACCESS_BOUNDARY / 8 DUPLICATE / **0 RETRYABLE**. Every known article has been retrieved at least once.
+- Conflicts: 9 open, 3 resolved.
+- Witness coverage: 54/118 pre-merge claims tested textually; the merge re-witnessed 10 of them against service records (traceability, not strength).
+- **Source-log namespaces are not single-writer** (OBS-017): always fetch sibling logs before assigning new IDs.

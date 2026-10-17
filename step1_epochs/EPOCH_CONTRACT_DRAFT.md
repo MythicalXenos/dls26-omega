@@ -9,23 +9,22 @@ Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Revised turn 10 (
 - Platform reference: Android package `com.firsttouchgames.dls7`, iOS id1462911602
 - Epoch status: **OPEN** (not sealed)
 
-## 2. Admitted references (RE-STAMPED turn 14 — reproducible from disk)
-Source: `docs/continuity/a7e23a6b/logs/sources_visited.json`, executed with `python3 tools/frontier.py summary` from that directory.
-File SHA-256 after re-stamp: `78d689b8fb5d27a3e13b8e46b9c461dbc83700ef642ea15a9ffcee5d85cac0d4` (before: `64a2ff85…`; the pre-re-stamp file at branch `a7e23a6b` commit `5ab3ec6` remains unmodified in git history).
-Sequence counter 1314 · service events 1122 · two re-stamp waves recorded in the file's own `restamps[]` array.
+## 2. Admitted references (RE-STAMPED turn 16 — zero retryable)
+Source: `docs/continuity/a7e23a6b/logs/sources_visited.json`, executed with `python3 tools/frontier.py summary`.
+File SHA-256: `9bfcc7de11a48190d31322d02ee19f7598d5bfb494c9b4e89e4989d81337dbd7`. Sequence 1319 · service events 1125. Three re-stamp waves recorded in the file's own `restamps[]`.
 
 | Status | Count | Note |
 | --- | --- | --- |
-| VISITED | **96** | +5 captured on 2026-10-17 after the t69 snapshot |
-| IN_PROGRESS | **23** | two advanced by chunk; none completed (store chunks 2–5, player-stats comments 1–3, Reddit and community families) |
-| NON_CONNECTED | **21** | +1 (restart-career-3rd, scope evidence in EV-208 lineage) |
-| UNVISITED | **8** | 7 owed under ACCESS_BOUNDARY + 1 administrative endpoint (`ref-support-contact`, dispositioned CANONICALIZED-ADMIN) |
-| RETRYABLE_FAILURE | **3** | control-buttons, emojis, kit-visible-live — all support articles still owed |
+| VISITED | **101** | +5 closed in turn 16 (control-buttons, emojis, kit-visible) after merging the sibling branch's service log |
+| IN_PROGRESS | **23** | store chunks 2–5; player-stats comments 1–3; Reddit and community families |
+| NON_CONNECTED | **21** | scope proofs recorded |
+| UNVISITED | **8** | 7 owed behind ACCESS_BOUNDARY + 1 administrative endpoint |
+| RETRYABLE_FAILURE | **0** | **every known article has been retrieved at least once** |
 | ACCESS_BOUNDARY | **2** | Reddit mid-season megathread; FTG zendesk alias |
-| REPRESENTATION_DUPLICATE | **8** | each carries a named canonical capture |
-| **Total** | **161** | unchanged — this is a status re-stamp, not an admission change |
+| REPRESENTATION_DUPLICATE | **8** | each with a named canonical capture |
+| **Total** | **163** | 161 original + 3 articles discovered by the merge that had never been admitted |
 
-**What changed and why it mattered:** the contract had been quoting the t69 snapshot for five turns. Eight refs had in fact been served the same day the tools returned. The corrected picture is that **Step 1's remaining debt is extraction and access, not retrieval**: three known articles remain unfetched, twenty-three refs are mid-capture, and eight are owed behind the block.
+**Two facts worth stating plainly.** First, the epoch now has **no retryable retrieval failures**: every named article has been fetched at least once, on one branch or the other. Second, the frontier was wrong three times in six turns about its own counts (t69 staleness in turn 13, disposition drift in turn 14, three "retryable" refs that the sibling branch had already captured in turn 16). Each correction came from reading the physical records, not from reasoning about them. The remaining Step-1 debt is therefore **extraction and access**, not retrieval.
 
 ## 3. Required dimensions (the contract's floors)
 ### Source types (Mechanism 3 — a floor, not a ceiling)
@@ -46,10 +45,10 @@ Live state & environment · on-pitch mechanics · competitive systems & optimiza
 A ref counts as fully extracted only when, for each projection it was admitted for: the content was retrieved, the projection was written to an EV record, and at least one claim cites it **or** a documented "no claim" decision exists. Comments, pagination and translations are separate projections and are separately owed (OMEGA-CLOSURE-001).
 
 ## 5. Accounts owed at seal (placeholders, must be zero or explicitly carried)
-- [ ] 23 IN_PROGRESS refs — completed or carried as access-limited with predicate (count verified by `frontier.py summary`, turn 12)
-- [x] ~~9 RETRYABLE refs~~ **CLOSED turn 13–14**: five were already captured (friend-match, restart-career, connection-required, device-compat, cant-update), one was a superseded ID (season-pass rev2). Three remain and are listed as RETRYABLE below.
-- [ ] 7 owed UNVISITED refs — captured or carried (plus 1 administrative endpoint)
-- [ ] 3 uncaptured support article bodies (#19 control-buttons, #26 emojis, #27 kit visibility) — unchanged, all still RETRYABLE_FAILURE
+- [ ] 23 IN_PROGRESS refs — completed or carried as access-limited with predicate (verified by `frontier.py summary`, turn 16)
+- [x] ~~9 RETRYABLE refs~~ **FULLY CLOSED turns 13–16**: five already captured, one superseded ID, three captured on the sibling branch. RETRYABLE_FAILURE = 0.
+- [ ] 7 owed UNVISITED refs — captured or carried (plus 1 administrative endpoint). These are the ONLY retrieval debt left.
+- [x] ~~3 uncaptured support article bodies (#19 control-buttons, #26 emojis, #27 kit visibility)~~ **CLOSED turn 16**: all three were captured in full on branch arena/22655f48-dls26-omega at 17:10Z and are now EV-226/227/228. RETRYABLE_FAILURE is zero.
 - [x] ~~4 summary-only articles lacking EV records (RQ-006)~~ **PARTLY CLOSED turn 14**: three of the captures now have EV records (EV-223/224/225) with summary-only provenance stated in each; the RQ-006 set proper still needs its own pass.
 - [ ] open conflicts — settled or carried with both sides. Count is **9** (C-001…C-009), not 5: C-006 liveness, C-007 store list, C-008 promotion mechanics and C-009 leaderboard identity were added in turns 11–14.
 - [x] ~~53 remaining numeric claims — spot-checked (RQ-015)~~ **CLOSED turn 9**: all 62 EV-backed numeric claims inspected; 4 corrections applied (CLAIM-004, 007, 053, 087). Non-issues individually verified. Record: `audit/TRANSCRIPTION_SPOTCHECK_turn8.md` §"Turn-9 completion".

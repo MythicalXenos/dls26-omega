@@ -1,0 +1,6 @@
+# EV-226 (cross-branch capture record — FULL BODY NOT PRESERVED) — OFFICIAL support: How do I hide the text on the control buttons? (14369944135058)
+source: https://support.ftgames.com/hc/en-us/articles/14369944135058-How-do-I-hide-the-text-on-the-control-buttons | official-support | captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (status HTTP 200, full text)
+PROVENANCE LIMIT: the body was not written to a file; the surviving record is that branch's service-log summary `S-20261017-061`, quoted verbatim below. This workspace has now merged that record (it survives as S-20261017-061, distinct from the renumbered local probes).
+VERBATIM SERVICE SUMMARY: "Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') removable via Game Settings > Display > Descriptive Button Text OFF; available in-game or Main Menu; re-enable with ON"
+WHAT THIS SUPPORTS: the existence of a captions toggle, its path, and the three caption strings. It does NOT support any claim about how the toggle affects timing or skill.
+CLOSES: ref-support-control-buttons — the last-but-two item on the frontier's RETRYABLE list, and the single most-requested UI question from launch-era reviews (CLAIM-091 reports clear-input confusion).

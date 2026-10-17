@@ -454,57 +454,63 @@
     },
     {
       "id": "S-20261017-051",
-      "url_or_query": "https://api.github.com/ (reachability probe)",
-      "tool": "shell/script",
-      "status": 200,
-      "source_family": "environment",
-      "payload_summary": "GitHub API reachable from sandbox; HTTP 200. Capability observation, not research content.",
-      "retrieved_at": "2026-10-17T16:51Z"
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "DLL networking: Wi-Fi or high-quality 5G/4G/3G only; FTG cloud servers; netcode designed so opponent connection quality has NO impact on your experience - lag-switch cheats not effective; opponent never sees your network address (DoS protection); persistent lag = device-to-FTG-server issue, usually last mile; no Facebook-friend invites (local multiplayer same-platform, same Wi-Fi router); IPv6 and 5G supported; ~2MB data per match; Bluetooth off improves Wi-Fi multiplayer",
+      "retrieved_at": "2026-10-17T16:04Z",
+      "imported_from": "arena/22655f48-dls26-omega"
     },
     {
       "id": "S-20261017-052",
-      "url_or_query": "https://registry.npmjs.org/ (reachability probe)",
-      "tool": "shell/script",
-      "status": 200,
-      "source_family": "environment",
-      "payload_summary": "npm registry reachable; HTTP 200. Capability observation.",
-      "retrieved_at": "2026-10-17T16:51Z"
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Player database constantly updated; players added and removed; some players cannot be included for licensing reasons. Related: different player card colour (214385445), re-sign sold players (214385465)",
+      "retrieved_at": "2026-10-17T16:04Z",
+      "imported_from": "arena/22655f48-dls26-omega"
     },
     {
       "id": "S-20261017-053",
-      "url_or_query": "https://pypi.org/simple/ (reachability probe)",
-      "tool": "shell/script",
-      "status": 200,
-      "source_family": "environment",
-      "payload_summary": "PyPI reachable; HTTP 200. Capability observation.",
-      "retrieved_at": "2026-10-17T16:51Z"
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Yes: Manage Players (bottom right of Transfers screen) > select player > release; a coach is received for the release; recently sold players appear in the 'Recover' section of Manage Players for a limited time (applicable from v12.200+)",
+      "retrieved_at": "2026-10-17T16:04Z",
+      "imported_from": "arena/22655f48-dls26-omega"
     },
     {
       "id": "S-20261017-054",
-      "url_or_query": "git ls-remote origin (https://github.com/MythicalXenos/dls26-omega.git)",
-      "tool": "shell/script",
-      "status": "success",
-      "source_family": "repository",
-      "payload_summary": "Repository access verified; refs observed: main fb9a2c0, arena/22655f48-dls26-omega d12a84c, arena/a7e23a6b-dls26-omega 5ab3ec6. gh authenticated as MythicalXenos.",
-      "retrieved_at": "2026-10-17T16:51Z"
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Delete Profile: Main Menu > Settings > Advanced > Delete (trash can) > Delete Profile; removes all profiles saved on the device, wiping entirely; cannot be reversed once the countdown duration has passed; Cancel Request button on the pop-up before processing; per Privacy Policy; DLS path given alongside Score! Hero, Score! Match, Ultimate Clash Soccer paths",
+      "retrieved_at": "2026-10-17T16:04Z",
+      "imported_from": "arena/22655f48-dls26-omega"
     },
     {
       "id": "S-20261017-055",
-      "url_or_query": "https://support.ftgames.com/hc/en-us",
-      "tool": "shell/script",
-      "status": null,
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360017166918-I-am-not-seeing-any-video-clips + 360005680437 data usage + 360004718318 player likeness (3 fetches)",
+      "tool": "page-render",
+      "status": "success (HTTP 200 x3, full text)",
       "source_family": "official-support",
-      "payload_summary": "Transport failure: TLS connect error (curl 35 SSL_ERROR_SYSCALL), no HTTP status. Access boundary for this environment generation; reopening predicate: allowlisted host or verified network change.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "payload_summary": "Video clips: multiple ad networks manage own content; FTG controls only ad types; no promise/guarantee of clip frequency or reward doublers; LAT reduces ad availability (iOS14+ exacerbated); fixes: latest version, reinstall (BACK UP PROFILE FIRST), disable VPN, Wi-Fi, restart, force-close regularly, wait days. Data usage: online required for majority of features; use Wi-Fi, limit mobile data. Player likeness: database ever-expanding, improvements over time (thin official answer; comments: licensing-limited faces/names, Bundesliga absence examples)",
+      "retrieved_at": "2026-10-17T16:04Z",
+      "imported_from": "arena/22655f48-dls26-omega"
     },
     {
       "id": "S-20261017-056",
-      "url_or_query": "https://firsttouchgames.zendesk.com/hc/en-us",
-      "tool": "shell/script",
-      "status": null,
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360008315158 (auto-switching) + 1714655181585 (sell players) + 360005984437 (graphics settings) (3 fetches)",
+      "tool": "page-render",
+      "status": "404 - pages do not exist (NEGATIVE FINDING)",
       "source_family": "official-support",
-      "payload_summary": "Transport failure: TLS connect error (curl 35), no HTTP status. Same boundary as S-055.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "payload_summary": "Three article titles survive in related-article link blobs but return Zendesk 404 'the page you were looking for doesn't exist': auto-switching FAQ, how-do-I-sell-players, graphics settings. The community auto-switching complaint has no captured official answer (GS-030)",
+      "retrieved_at": "2026-10-17T16:04Z",
+      "imported_from": "arena/22655f48-dls26-omega"
     },
     {
       "id": "S-20261017-057",
@@ -517,57 +523,255 @@
     },
     {
       "id": "S-20261017-058",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360020938198-How-do-I-change-my-emojis-in-Dream-League-Live",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "6 emojis by default; earned/purchased emojis selected via Emoji Selection; only 6 pre-selected usable at once (swap required); access via My Profile (team+manager name, top right of Main Menu) > Emojis; disable chat entirely via gear icon > Game > Multiplayer Chat OFF",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-059",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Custom (imported) kits and logos are NOT transferred across multiplayer matches - opponent does not see yours, you do not see theirs; FTG acknowledges the demand but states it is not possible for several reasons",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-060",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "User ID: Options (gear, top left) > Advanced > System Info ('i') > Copy Info > paste into support reply. FTG warning: user is responsible for not loaning/exchanging/sharing/selling/buying game profiles (Terms of Use); do not share personal details - unrecoverable if lost that way",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-061",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/14369944135058-How-do-I-hide-the-text-on-the-control-buttons",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') removable via Game Settings > Display > Descriptive Button Text OFF; available in-game or Main Menu; re-enable with ON",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-062",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Connection required for most game modes; mobile or Wi-Fi both acceptable; stable connection required for multiplayer; exhibition matches playable with no active connection. Related: 'Something happened in the game that's not realistic' (360000842697), backup/restore/transfer save data (214387685)",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-063",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "OFFICIAL FAIRNESS STANCE: DLS is a game, not a fully accurate simulation of soccer or physics; FTG balances fun with realism; unpredictable situations occur 'just like in real life' including unrealistic ball/player behaviour and referee decisions the player disagrees with; 'luck forms a part of the experience'; 'Ultimately it's the same for all players and above all else we consider our games fair'; FTG reviews feedback and fixes what harms enjoyment but 'not everything will be addressed'; genuine bugs should be reported",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-064",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Link the profile to Sign in with Google or Sign in with Apple (iOS 13.0+) - NOT automatic, done via in-game settings. Without it FTG cannot guarantee recovery after uninstall, device reset or device change. Save data is NOT secured on Google Play Games or iCloud - different cloud services not used by FTG games. Legacy DLS19-era games: only iCloud (iOS) / Google Play Saved Games (Android), no cross-platform transfer. 8 Ball Hero alone uses Facebook",
+      "retrieved_at": "2026-10-17T17:10Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-065",
+      "url_or_query": "web_search: DLS 2026 version 13.140-13.210",
+      "tool": "discovery-search",
+      "status": "success (GAP RESOLVED)",
+      "source_family": "mixed",
+      "payload_summary": "APKMirror runs 13.130 (Mar 27 2026) directly to 13.300 (May 27) - no 13.140-13.299 build on APKMirror/APKPure/Softonic/appglint; TouchArcade still listed 13.130 as current 'Updated Mar 27 2026'. App Store version history recovered 13.050 (Jan 15) launch notes in full (Clans, TR/AR commentary, updated data, unlimited Special Players, improved venues, match atmosphere, Kick-Off Stars Raphinha+Alvarez, soundtrack, cutscenes, gameplay, hundreds of fixes) and 13.130 (Mar 27, Dream Stars 2026 boosted players + 12th Man vote)",
+      "retrieved_at": "2026-10-17T17:20Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-066",
+      "url_or_query": "web_search: DLS 2026 version 13.360-13.400",
+      "tool": "discovery-search",
+      "status": "success (GAP RESOLVED)",
+      "source_family": "mixed",
+      "payload_summary": "APKMirror runs 13.350 (Jul 14) directly to 13.410 (Aug 20); dlsinside version-code table shows code 154=13.350 then 158=13.410, implying codes 155-157 were internal-only. No public release between mid-July and Aug 20",
+      "retrieved_at": "2026-10-17T17:20Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-067",
+      "url_or_query": "web_search (Indonesian): DLS 2026 forum diskusi komunitas tips formasi",
+      "tool": "discovery-search",
+      "status": "success (NON-ENGLISH LANE)",
+      "source_family": "community-non-english",
+      "payload_summary": "industry.co.id guide (4-4-2 best basic, stadium most important facility, market refreshes each match, coaches 4 categories, physios claim), carakami.com formation guide (Apr 2026), teckknow.com (stamina is everything, rotation), kuybeli.com WhatsApp community-group directory (real Indonesian community locus), Reddit ms/Indonesian translation mirrors, r/DreamLeagueSoccer tips list",
+      "retrieved_at": "2026-10-17T17:20Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-068",
+      "url_or_query": "web_search: DLS 2026 Cult Heroes ratings full list",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "third-party-database",
+      "payload_summary": "COMPLETE 12-card roster with ratings/positions from dreamkitsapp.com/players/type/cult-heroes (de Gea 85 GK, Dybala 85 SS/RW, Aubameyang 85 CF/RW, Alarcon 84 AM/CM, Vozinha 84 GK, Ziyech 84 RW/AM, Otamendi 84 CB, Insigne 84 LW/RW, David Luiz 84 CB/DM, Shaqiri 83 AM/RW, Herrera 83 CM/DM, Blind 83 CB/LB) + dlsinside per-player stat pages (0-1000 scale, dorsals, heights) + sakibpro ratings + dreamkitsapp data page (World Winners Cucurella 85 LB, World Heroes Messi 87 SS, Kick-off Stars Raphinha 85 LW). CONFLICT: Vozinha 84 (dreamkitsapp) vs 83 (dlsinside + dlskiturl) - 83 adopted",
+      "retrieved_at": "2026-10-17T17:20Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-069",
+      "url_or_query": "web_search (Spanish): DLS 2026 foro comunidad tactica guia",
+      "tool": "discovery-search",
+      "status": "success (NON-ENGLISH LANE)",
+      "source_family": "community-non-english",
+      "payload_summary": "MUNDODLS.COM FORO found - 'La comunidad #1 de Dream League Soccer en espanol' (kits/tactics/squads) plus mundodls positions guide (ED/EI/MC/MCO codes); es.kotaku guide (Jan 2026: sprint abuse penalized, patience, containment defending, role-specialised training); tuapppara.com (confirms official stat semantics in Spanish); r/DreamLeagueSoccer Tips/Tricks List (Mar 18 2026) - defensive-control, anti-wing-spam, anti-C-spam, close-control dribbling, free-kick and corner tactics",
+      "retrieved_at": "2026-10-17T17:20Z",
+      "imported_from": "arena/22655f48-dls26-omega"
+    },
+    {
+      "id": "S-20261017-070",
+      "url_or_query": "https://api.github.com/ (reachability probe)",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "environment",
+      "payload_summary": "GitHub API reachable from sandbox; HTTP 200. Capability observation, not research content.",
+      "retrieved_at": "2026-10-17T16:51Z",
+      "renumbered_from": "S-20261017-051",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-051 for a different retrieval. Renumbered turn 16 (OBS-017)."
+    },
+    {
+      "id": "S-20261017-071",
+      "url_or_query": "https://registry.npmjs.org/ (reachability probe)",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "environment",
+      "payload_summary": "npm registry reachable; HTTP 200. Capability observation.",
+      "retrieved_at": "2026-10-17T16:51Z",
+      "renumbered_from": "S-20261017-052",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-052 for a different retrieval. Renumbered turn 16 (OBS-017)."
+    },
+    {
+      "id": "S-20261017-072",
+      "url_or_query": "https://pypi.org/simple/ (reachability probe)",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "environment",
+      "payload_summary": "PyPI reachable; HTTP 200. Capability observation.",
+      "retrieved_at": "2026-10-17T16:51Z",
+      "renumbered_from": "S-20261017-053",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-053 for a different retrieval. Renumbered turn 16 (OBS-017)."
+    },
+    {
+      "id": "S-20261017-073",
+      "url_or_query": "git ls-remote origin (https://github.com/MythicalXenos/dls26-omega.git)",
+      "tool": "shell/script",
+      "status": "success",
+      "source_family": "repository",
+      "payload_summary": "Repository access verified; refs observed: main fb9a2c0, arena/22655f48-dls26-omega d12a84c, arena/a7e23a6b-dls26-omega 5ab3ec6. gh authenticated as MythicalXenos.",
+      "retrieved_at": "2026-10-17T16:51Z",
+      "renumbered_from": "S-20261017-054",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-054 for a different retrieval. Renumbered turn 16 (OBS-017)."
+    },
+    {
+      "id": "S-20261017-074",
+      "url_or_query": "https://support.ftgames.com/hc/en-us",
+      "tool": "shell/script",
+      "status": null,
+      "source_family": "official-support",
+      "payload_summary": "Transport failure: TLS connect error (curl 35 SSL_ERROR_SYSCALL), no HTTP status. Access boundary for this environment generation; reopening predicate: allowlisted host or verified network change.",
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-055",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-055 for a different retrieval. Renumbered turn 16 (OBS-017)."
+    },
+    {
+      "id": "S-20261017-075",
+      "url_or_query": "https://firsttouchgames.zendesk.com/hc/en-us",
+      "tool": "shell/script",
+      "status": null,
+      "source_family": "official-support",
+      "payload_summary": "Transport failure: TLS connect error (curl 35), no HTTP status. Same boundary as S-055.",
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-056",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-056 for a different retrieval. Renumbered turn 16 (OBS-017)."
+    },
+    {
+      "id": "S-20261017-076",
       "url_or_query": "https://www.google.com/ (unrelated control probe, single)",
       "tool": "shell/script",
       "status": null,
       "source_family": "environment",
       "payload_summary": "Control probe: TLS connect error (curl 35). Confirms the boundary is destination policy, not a targeted-site outage. No second diagnostic run (OMEGA-RETRIEVAL-001 cap).",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-058",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-058 for a different retrieval. Renumbered turn 16 (OBS-017)."
     },
     {
-      "id": "S-20261017-059",
+      "id": "S-20261017-077",
       "url_or_query": "gh api GET /search/repositories?q=dream league soccer 2026",
       "tool": "shell/script",
       "status": 200,
       "source_family": "technical",
       "payload_summary": "11 repos: fan sites (wasswacosmas), kit generators (imsaifbalti), hack-spam repo, Unity prototype (marhoapuyor-creator). No APK/save/stat data.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-059",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-059 for a different retrieval. Renumbered turn 16 (OBS-017)."
     },
     {
-      "id": "S-20261017-060",
+      "id": "S-20261017-078",
       "url_or_query": "gh api GET /search/repositories?q=dls26",
       "tool": "shell/script",
       "status": 200,
       "source_family": "technical",
       "payload_summary": "43 repos; inspected DREAM-LEAGUE-SOCCER-2026, DLS2026-game, dls26 (wasswacosmas), dls26 (EDIANGALERA, empty), dls26 (temoingift, Lovable web app). All fan/web content, no game data.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-060",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-060 for a different retrieval. Renumbered turn 16 (OBS-017)."
     },
     {
-      "id": "S-20261017-061",
+      "id": "S-20261017-079",
       "url_or_query": "gh api GET /search/code?q=com.firsttouchgames.dls7",
       "tool": "shell/script",
       "status": 200,
       "source_family": "technical",
       "payload_summary": "276 hits, all incidental package-name lists (launchers, analytics). No asset, config or data files from the game.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-061",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-061 for a different retrieval. Renumbered turn 16 (OBS-017)."
     },
     {
-      "id": "S-20261017-062",
+      "id": "S-20261017-080",
       "url_or_query": "npm registry search: dream league soccer",
       "tool": "shell/script",
       "status": 200,
       "source_family": "technical",
       "payload_summary": "3,018 packages; top results are hack-tool spam (untrusted, do not install) and unrelated font packages. No legitimate tooling identified.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-062",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-062 for a different retrieval. Renumbered turn 16 (OBS-017)."
     },
     {
-      "id": "S-20261017-063",
+      "id": "S-20261017-081",
       "url_or_query": "git archive 5ab3ec6 (evidence, docs/step1, schemas, tools, research, kb) from origin/arena/a7e23a6b-dls26-omega",
       "tool": "shell/script",
       "status": "success",
       "source_family": "repository",
       "payload_summary": "Imported continuity corpus: 87 claims (kb/claims.jsonl), 118 evidence extracts, coverage accounting (157 refs, t69 pre-seal), schemas, tools, preparation docs. No content altered.",
-      "retrieved_at": "2026-10-17T16:53Z"
+      "retrieved_at": "2026-10-17T16:53Z",
+      "renumbered_from": "S-20261017-063",
+      "renumber_reason": "ID namespace collision with branch arena/22655f48-dls26-omega: that session already used S-20261017-063 for a different retrieval. Renumbered turn 16 (OBS-017)."
     }
   ],
   "source_families": {
@@ -645,5 +849,32 @@
     "technical": "partial — GitHub/npm/pypi only; negative for APK/save/stat corpora (S-059..062)",
     "user_generated_content": "access boundary (YouTube/TikTok not allowlisted); prior corpus holds partial UGC"
   },
-  "digests": {}
+  "digests": {},
+  "id_repairs": [
+    {
+      "at": "2026-10-17T20:55:00Z",
+      "session": "sess-20261017-001",
+      "turn": 16,
+      "issue": "OBS-017 - S-20261017-051..063 (except 057) were assigned to different retrievals by this session and by branch arena/22655f48-dls26-omega.",
+      "action": "This session's colliding records renumbered; the sibling's 051-069 imported as canonical for that range; sibling-only 064-069 imported.",
+      "mapping": {
+        "S-20261017-051": "S-20261017-070",
+        "S-20261017-052": "S-20261017-071",
+        "S-20261017-053": "S-20261017-072",
+        "S-20261017-054": "S-20261017-073",
+        "S-20261017-055": "S-20261017-074",
+        "S-20261017-056": "S-20261017-075",
+        "S-20261017-058": "S-20261017-076",
+        "S-20261017-059": "S-20261017-077",
+        "S-20261017-060": "S-20261017-078",
+        "S-20261017-061": "S-20261017-079",
+        "S-20261017-062": "S-20261017-080",
+        "S-20261017-063": "S-20261017-081"
+      },
+      "entries_before": 63,
+      "sibling_entries": 69,
+      "entries_after": 81,
+      "rule_for_future": "Continue numbering from max(existing)+1 after fetching all sibling refs. Never assume a date-based namespace is single-writer."
+    }
+  ]
 }

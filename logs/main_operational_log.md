@@ -226,3 +226,11 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **Snapshot**: kb_snapshots/claims_20261017T1728Z.jsonl (118 claims, sha f8dea58f…); kb/index.md refreshed with live counts and the topic-summary lag note.
 - Integrity re-verified after edits: 0 unresolved EV tokens, 0 bad covers, 118 claims / 127 index records.
 - File-write hazard recorded: Python heredocs in this shell can turn `\n` separators into literal backslash-n, corrupting JSONL. Turn-15 edits were applied with `scripts/turn15_claim_edits.py` and verified byte-wise (118 real newlines, 0 literal `\n`, 0 blank-line pairs).
+
+## 2026-10-17T21:05Z — turn 16 — STATE_1_RESEARCH_SWEEP (offline)
+- **Cross-branch merge of service logs** (`audit/CROSS_BRANCH_MERGE_turn16.md`). The sibling branch has no evidence corpus, but its 69-record service log is primary-adjacent.
+- **OBS-017 (severe, fixed):** twelve `S-20261017-05x` IDs held different records on the two branches. Renumbered ours to 070–081 via `scripts/turn16_merge_sources.py`, imported the sibling's 051–069 as canonical, wrote the mapping into `id_repairs[]`; verified 81 entries / 81 unique IDs. `CAPABILITY_INVENTORY.md` pointer updated.
+- **RETRYABLE_FAILURE 3 → 0.** Control-button text, emojis and kit visibility were already fetched in full on the sibling at 17:10Z; EV-226/227/228 written with summary-only provenance. Frontier now 163 refs: 101 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 2 ACCESS_BOUNDARY / 8 DUPLICATE / 0 RETRYABLE. SHA `9bfcc7de…`.
+- **Three refs admitted that had never been in the frontier** (fairness stance 360000842697, can't-connect 360003945557, find-user-ID 37082887837202).
+- **Four claims added (CLAIM-120…123)**: descriptive button text toggle; emoji cap + chat kill-switch; imported kits invisible to DLL opponents; official fairness stance. 122 claims; snapshot `kb_snapshots/claims_20261017T1731Z.jsonl` (sha `c613b7fc…`). Index regenerated; integrity re-verified (0 unresolved EV tokens, 0 bad covers).
+- Note for the record: this is the third time the frontier's own counts were wrong; each correction came from reading physical records rather than recomputing from summaries.

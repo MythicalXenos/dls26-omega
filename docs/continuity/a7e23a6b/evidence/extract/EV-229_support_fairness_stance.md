@@ -1,0 +1,7 @@
+# EV-229 (cross-branch capture record — FULL BODY NOT PRESERVED) — OFFICIAL support: Something happened in the game that's not realistic — why? (360000842697)
+source: https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this | official-support | captured 2026-10-17T17:10Z on branch arena/22655f48-dls26-omega (HTTP 200, full text)
+PROVENANCE LIMIT: body not preserved; witness is `S-20261017-063`, quoted verbatim.
+VERBATIM SERVICE SUMMARY: "OFFICIAL FAIRNESS STANCE: DLS is a game, not a fully accurate simulation of soccer or physics; FTG balances fun with realism; unpredictable situations occur 'just like in real life' including unrealistic ball/player behaviour and referee decisions the player disagrees with; 'luck forms a part of the experience'; 'Ultimately it's the same for all players and above all else we consider our games fair'; FTG reviews feedback and fixes what harms enjoyment but 'not everything will be addressed'; genuine bugs should be reported"
+WHY THIS MATTERS: this is the strongest official statement in the corpus about variance and fairness. It bears directly on the mission — a "#1" target must be defined over enough matches that luck averages out, and any claim that a specific match was "scripted" is contradicted by policy (not by observation).
+WHAT IT DOES NOT SUPPORT: any assertion that the game is free of bias in implementation; it is a policy statement, not a measurement.
+NEW REF: this article was never in the 161-ref frontier.

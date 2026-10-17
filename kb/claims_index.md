@@ -1,6 +1,6 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:28Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **118**
+Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:31Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **122**
 Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Speculative 12 / Disputed 1. Volatility: High 40 / Medium 31 / Low 33 / Critical 11 / Frozen 3.
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |
 | --- | --- | --- | --- | --- |
@@ -237,3 +237,7 @@ Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Specu
 - CLAIM-116: Single database origin; counts include 'Hidden' and 'Exclusives' buckets whose meaning is not verified
 - CLAIM-117: Exact date unknown; seasonal December pattern is inference only
 - CLAIM-118: Review sentiment; self-selected sample
+| CLAIM-120 | Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') can be removed: Game Settings > Display > Descriptive Button Text OFF, from in-game or the M... | High Confidence | volatility-Low | 2026-11-17 |
+| CLAIM-121 | Dream League Live emoji system (official 360020938198): six emojis available by default; further emojis are earned or purchased and chosen in Emoji Selection... | High Confidence | volatility-Low | 2026-11-17 |
+| CLAIM-122 | Custom imported kits and logos are NOT visible to opponents in Dream League Live (official 360021064298): the opponent does not see yours and you do not see ... | High Confidence | volatility-Low | 2026-11-17 |
+| CLAIM-123 | OFFICIAL FAIRNESS STANCE (article 360000842697): DLS is a game, not an accurate simulation of football or physics; FTG balances fun against realism; unpredic... | High Confidence | volatility-Low | 2027-01-17 |

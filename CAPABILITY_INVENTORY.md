@@ -1,5 +1,5 @@
 # CAPABILITY INVENTORY — DLS26 OMEGA
-Observed: 2026-10-17T16:51:01Z (UTC), sandbox environment. Method: direct probes recorded below and in `logs/sources_visited.json` (S-20261017-051..054). Absences are recorded as explicitly as presences; nothing here is assumed on a later environment without re-checking (OMEGA-HEALTH-001).
+Observed: 2026-10-17T16:51:01Z (UTC), sandbox environment. Method: direct probes recorded below and in `logs/sources_visited.json` (now S-20261017-070..073 after the turn-16 namespace repair, OBS-017). Absences are recorded as explicitly as presences; nothing here is assumed on a later environment without re-checking (OMEGA-HEALTH-001).
 
 ## Present and verified this environment
 - Linux x86_64 (kernel 6.1), 2 vCPU, 3,939 MB RAM, 20 GB free on /, no swap pressure observed.
