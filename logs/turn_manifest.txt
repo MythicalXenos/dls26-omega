@@ -1,0 +1,12 @@
+TURN 23 (2026-10-17 ~23:55Z ckpt-20261017-step1-022):
+- FBGD repo enumeration complete: 11276 files, 17 non-asset; no hidden stat/formula; Data/*.json only.
+- DLS_Manager_26.apk = TWA shell (com.dlsmanager26 wraps footballgamingbd.online); no mechanic content.
+- pypi/npm exhaustive search: zero legitimate DLS26 packages; 3 scam npm "hack" pkgs only.
+- Resolved champion-88 conflict: two-source corroboration (dreamkitsapp EV-187/190 + FBGD EV-246/248) confirms Ronaldo 88 LW + Messi 88 Cf Champion cards. Multi-card-per-player structure documented (CLAIM-135).
+- Wrote EV-248 (multi-card resolution); upgraded CLAIM-132 → High Confidence; added CLAIM-135.
+- GitHub sweep wave 2 (11 targeted queries): com.firsttouchgames.dls7 276 hits (mostly security/launcher/backup repos), season pass 798 (spam/unrelated), Form Boost 0, Dream Points 1; partial rate-limited.
+- Pulled beerphilipp/taptrap + tabbed-out static APK analysis: target SDK 35, Unity build (Unity Ads), 52 activities, ad SDKs = AdColony+Unity Ads+MoPub+AdMob; CLAIM-136 added, EV-249.
+- TrungTaHust/dls_ext_sv DLSStats = shell PWA only; EV-250.
+- Sample 13: 7/7 clean post-stamp (0 BAD, 0 WARN after repair).
+- Totals: 134 claims (+2 net), 153 EV (+3 net).
+- Research sweep remains OPEN (user directive turn 22). EPOCH_CONTRACT §2 closure status = REOPENED, saturation not yet reached (nuget/crates/maven/cocoapods not yet swept; Discord/Reddit/weibo/Bilibili/中文社区 deep dives pending; remaining GitHub rate-limited queries pending; FBGD/UPDATED sibling repo enumeration pending; APK step2 datamine queued).
