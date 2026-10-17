@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLS26 听哨声五连测</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body, html {
+            margin: 0; padding: 0; height: 100%;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #213555; 
+            display: flex; flex-direction: column;
+            user-select: none; overflow-x: hidden;
+        }
+
+        /* 大屏幕测试区 */
+        #test-zone {
+            flex: 1; display: flex; flex-direction: column;
+            justify-content: center; align-items: center; text-align: center;
+            cursor: pointer; transition: background-color 0.1s ease;
+            color: white; position: relative;
+        }
+
+        .bg-blue { background-color: #213555; } 
+        .bg-red { background-color: #d93838; }  
+        .bg-green { background-color: #2eb85c; } 
+
+        /* 右上角进度标识：更鲜艳明显的紫色圆圈 */
+        #progress-container {
+            position: absolute; top: 20px; right: 20px;
+            color: white; font-size: 22px; font-weight: bold;
+            background-color: #d93838; /* 红色更醒目 */
+            width: 60px; height: 60px; border-radius: 50%;
+            display: none; 
+            justify-content: center; align-items: center;
+            border: 3px solid #fff;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+            z-index: 50;
+        }
+
+        #icon { font-size: 80px; margin-bottom: 20px; text-shadow: 0 5px 15px rgba(0,0,0,0.4);}
+        #ms-display { font-size: 70px; font-weight: 900; margin: 0; letter-spacing: 2px;}
+        #instruction { font-size: 20px; margin-top: 15px; opacity: 0.85; font-weight: 300; line-height: 1.5;}
+
+        /* --- 独立的交互按钮区 --- */
+        #interactive-btn {
+            display: flex; flex-direction: column; align-items: center; margin-top: 30px;
+            z-index: 100;
+        }
+
+        /* 你的专属图片图标 */
+        #btn-image {
+            width: 90px; height: 90px; border-radius: 50%;
+            /* 请确保图片和这个网页文件在同一个目录下 */
+            background-image: url('f66c33e405adba701e67eb4d6cab583a.jpg');
+            background-size: cover; background-position: center;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
+            border: 4px solid white;
+            transition: transform 0.1s;
+        }
+        #btn-image:active { transform: scale(0.92); }
+
+        #btn-text { font-size: 20px; margin-top: 12px; font-weight: bold; color: #fff; background: rgba(0,0,0,0.2); padding: 5px 15px; border-radius: 15px;}
+
+        /* 底部广告文本 */
+        #footer-ad {
+            position: absolute; bottom: 20px; width: 100%; text-align: center;
+            color: rgba(255,255,255,0.6); font-size: 15px; font-weight: 300; letter-spacing: 1px;
+        }
+
+        /* 图表区 */
+        #stats-zone {
+            display: none; height: 50vh; background-color: white;
+            padding: 20px; box-sizing: border-box; border-top: 5px solid #d93838;
+            flex-direction: column; align-items: center;
+        }
+
+        .stats-header { text-align: center; font-size: 20px; font-weight: 900; color: #213555; margin-bottom: 5px; }
+        #chart-container { width: 100%; height: 55%; max-width: 800px; margin: 0 auto; }
+
+        .rank-legend {
+            width: 100%; max-width: 800px; display: flex; justify-content: space-between;
+            margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;
+        }
+        
+        .rank-item {
+            flex: 1; text-align: center; font-size: 13px; color: #475569; display: flex; flex-direction: column; align-items: center;
+        }
+        .rank-emoji { font-size: 22px; margin-bottom: 4px; }
+        .rank-time { font-weight: bold; color: #d93838; font-size: 12px; margin-bottom: 2px;}
+        .rank-desc { font-weight: bold; color: #1e293b;}
+
+        /* 广告弹窗 */
+        #ad-popup-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.85); display: none; z-index: 200;
+            justify-content: center; align-items: center;
+        }
+        #ad-popup-content {
+            background-color: white; padding: 30px; border-radius: 15px; text-align: center; width: 80%; max-width: 350px;
+        }
+        #ad-popup-text { font-size: 20px; font-weight: 900; color: #213555; margin-bottom: 25px;}
+        #ad-popup-btn {
+            background-color: #d93838; color: white; border: none; padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 8px; cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="progress-container"><span id="progress-text">1/5</span></div>
+
+    <div id="test-zone" class="bg-blue">
+        <div id="icon">⚽</div>
+        <div id="ms-display">DLS26 听音测试</div>
+        <div id="instruction">裁判将连续吹哨 5 次<br>取平均值评定段位</div>
+        
+        <div id="interactive-btn">
+            <div id="btn-image"></div>
+            <span id="btn-text">点击开始</span>
+        </div>
+
+        <div id="footer-ad">更多内容搜索公众号DLS26China</div>
+    </div>
+
+    <div id="stats-zone">
+        <div class="stats-header">全网玩家平均分布 📊</div>
+        <div id="chart-container"><canvas id="distributionChart"></canvas></div>
+        <div class="rank-legend">
+            <div class="rank-item"><span class="rank-emoji">🚩</span><span class="rank-time">&lt; 120ms</span><span class="rank-desc">抢跑</span></div>
+            <div class="rank-item"><span class="rank-emoji">🧤</span><span class="rank-time">120-180ms</span><span class="rank-desc">顶级门神</span></div>
+            <div class="rank-item"><span class="rank-emoji">⚽</span><span class="rank-time">180-240ms</span><span class="rank-desc">主力</span></div>
+            <div class="rank-item"><span class="rank-emoji">🍺</span><span class="rank-time">240-300ms</span><span class="rank-desc">野球场</span></div>
+            <div class="rank-item"><span class="rank-emoji">🚢</span><span class="rank-time">&gt; 300ms</span><span class="rank-desc">航母转身</span></div>
+        </div>
+    </div>
+
+    <div id="ad-popup-overlay">
+        <div id="ad-popup-content">
+            <div id="ad-popup-text">更多内容搜索公众号<br>DLS26China</div>
+            <button id="ad-popup-btn" onclick="hideAdPopup()">知道了，重新开始</button>
+        </div>
+    </div>
+
+    <script>
+        const testZone = document.getElementById('test-zone');
+        const icon = document.getElementById('icon');
+        const msDisplay = document.getElementById('ms-display');
+        const instruction = document.getElementById('instruction');
+        const statsZone = document.getElementById('stats-zone');
+        const progressContainer = document.getElementById('progress-container');
+        const progressText = document.getElementById('progress-text');
+        const interactiveBtn = document.getElementById('interactive-btn');
+        const btnText = document.getElementById('btn-text');
+        const footerAd = document.getElementById('footer-ad');
+        const adPopup = document.getElementById('ad-popup-overlay');
+
+        let state = 'idle'; 
+        let startTime, timer, chartInstance = null, audioCtx;
+        let currentTest = 0;
+        const totalTests = 5;
+        let scores = [];
+
+        function initAudio() {
+            if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+        }
+
+        function playWhistle() {
+            if (!audioCtx) return;
+            const oscillator = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+            oscillator.type = 'triangle'; 
+            oscillator.frequency.setValueAtTime(2500, audioCtx.currentTime); 
+            oscillator.frequency.exponentialRampToValueAtTime(3200, audioCtx.currentTime + 0.1); 
+            gainNode.gain.setValueAtTime(1, audioCtx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.2); 
+            oscillator.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+            oscillator.start();
+            oscillator.stop(audioCtx.currentTime + 0.2); 
+        }
+
+        // --- 核心修复：分离按钮点击 和 屏幕反应点击 ---
+
+        // 1. 按钮专门负责推进流程（开始、继续、结算）
+        function handleBtnClick(e) {
+            e.stopPropagation(); // 阻止事件冒泡到大屏幕上
+            initAudio();
+
+            if (state === 'idle') {
+                resetGame();
+                startWaiting();
+            } else if (state === 'mid-result') {
+                startWaiting();
+            } else if (state === 'final-result') {
+                adPopup.style.display = 'flex'; // 触发广告弹窗
+            }
+        }
+
+        interactiveBtn.addEventListener('mousedown', handleBtnClick);
+        interactiveBtn.addEventListener('touchstart', (e) => { e.preventDefault(); handleBtnClick(e); });
+
+        // 2. 大屏幕专门负责接收反应测试的点击（只有在红灯和绿灯时有效）
+        function handleScreenClick(e) {
+            if (state === 'waiting') {
+                falseStart();
+            } else if (state === 'ready') {
+                recordScore();
+            }
+        }
+
+        testZone.addEventListener('mousedown', handleScreenClick);
+        testZone.addEventListener('touchstart', (e) => {
+            if (state === 'waiting' || state === 'ready') {
+                e.preventDefault(); 
+                handleScreenClick(e);
+            }
+        });
+
+        // 游戏逻辑控制
+        function resetGame() {
+            currentTest = 0; scores = [];
+            statsZone.style.display = 'none'; 
+            progressContainer.style.display = 'flex'; 
+            interactiveBtn.style.display = 'none'; 
+            footerAd.style.display = 'none'; 
+        }
+
+        function startWaiting() {
+            currentTest++;
+            progressText.innerText = `${currentTest}/${totalTests}`;
+            state = 'waiting';
+            
+            testZone.className = 'bg-red'; 
+            icon.innerText = '🛑';
+            msDisplay.innerText = '...';
+            instruction.innerText = `[第 ${currentTest} 测] 闭上眼，听裁判哨声...`;
+            msDisplay.style.fontSize = '80px';
+            interactiveBtn.style.display = 'none'; // 隐藏按钮，让玩家点屏幕
+
+            const randomDelay = Math.floor(Math.random() * 3000) + 2000;
+            timer = setTimeout(() => {
+                state = 'ready';
+                testZone.className = 'bg-green';
+                icon.innerText = '⚽';
+                msDisplay.innerText = '踢！';
+                playWhistle(); 
+                startTime = performance.now(); 
+            }, randomDelay);
+        }
+
+        function falseStart() {
+            clearTimeout(timer);
+            currentTest--; 
+            state = 'mid-result';
+            
+            testZone.className = 'bg-blue';
+            icon.innerText = '🚩';
+            msDisplay.innerText = '抢跑了！';
+            instruction.innerText = '裁判还没吹哨，请勿提前点击。';
+            interactiveBtn.style.display = 'flex'; 
+            btnText.innerText = '重新开始本轮';
+        }
+
+        function recordScore() {
+            const reactionTime = Math.round(performance.now() - startTime);
+            scores.push(reactionTime);
+            
+            if (currentTest < totalTests) {
+                state = 'mid-result';
+                testZone.className = 'bg-blue';
+                icon.innerText = '⏱️';
+                msDisplay.innerText = reactionTime + ' ms';
+                instruction.innerText = `完成第 ${currentTest} 次，请继续。`;
+                interactiveBtn.style.display = 'flex'; 
+                btnText.innerText = '点击继续';
+            } else {
+                finishGame();
+            }
+        }
+
+        function finishGame() {
+            state = 'final-result';
+            const avgScore = Math.round(scores.reduce((a, b) => a + b) / totalTests);
+            
+            testZone.className = 'bg-blue';
+            icon.innerText = '🏆';
+            msDisplay.innerText = `平均 ${avgScore} ms`;
+            msDisplay.style.fontSize = '60px';
+            instruction.innerText = '五连测完成！向下滑动查看段位分布';
+            
+            progressContainer.style.display = 'none'; 
+            interactiveBtn.style.display = 'flex'; 
+            btnText.innerText = '重新开始';
+
+            statsZone.style.display = 'flex'; 
+            renderChart(avgScore);
+            setTimeout(() => { window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); }, 100);
+        }
+
+        function hideAdPopup() { 
+            adPopup.style.display = 'none';
+            state = 'idle';
+            testZone.className = 'bg-blue';
+            icon.innerText = '⚽';
+            msDisplay.innerText = 'DLS26 听音测试';
+            msDisplay.style.fontSize = '70px';
+            instruction.innerText = '裁判将连续吹哨 5 次\n取平均值评定段位';
+            progressContainer.style.display = 'none'; 
+            interactiveBtn.style.display = 'flex'; 
+            btnText.innerText = '点击开始';
+            footerAd.style.display = 'block';
+            statsZone.style.display = 'none';
+        }
+
+        function renderChart(playerScore) {
+            const ctx = document.getElementById('distributionChart').getContext('2d');
+            const labels = [], data = [];
+            const mean = 250, stdDev = 40;  
+            for (let i = 0; i <= 500; i += 25) { 
+                labels.push(i + 'ms');
+                data.push(Math.exp(-Math.pow(i - mean, 2) / (2 * Math.pow(stdDev, 2))) * 100);
+            }
+
+            if (chartInstance) chartInstance.destroy();
+
+            chartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: '大盘分布', data: data, borderColor: '#213555', backgroundColor: 'rgba(33, 53, 85, 0.2)', fill: true, tension: 0.4, pointRadius: 2 },
+                        { type: 'scatter', label: '你的成绩', data: [{ x: Math.min(Math.round(playerScore / 25) * 25, 500) + 'ms', y: Math.exp(-Math.pow(playerScore - mean, 2) / (2 * Math.pow(stdDev, 2))) * 100 }], backgroundColor: '#d93838', borderColor: '#fff', borderWidth: 2, pointRadius: 10 }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: { y: { display: false }, x: { grid: { display: false }, ticks: { maxRotation: 45, minRotation: 45 } } }, plugins: { legend: { display: false } } }
+            });
+        }
+    </script>
+</body>
+</html>

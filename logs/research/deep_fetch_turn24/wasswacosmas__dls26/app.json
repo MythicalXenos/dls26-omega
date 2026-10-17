@@ -1,0 +1,31 @@
+{
+  "name": "DLS26 Fan Website",
+  "description": "A comprehensive fan website for DLS26",
+  "version": "1.0.0",
+  "author": "wasswacosmas",
+  "repository": "https://github.com/wasswacosmas/dls26",
+  "languages": [
+    "HTML",
+    "CSS",
+    "Python",
+    "JSON",
+    "YAML"
+  ],
+  "features": [
+    "Player Statistics",
+    "Match History",
+    "Team Rankings",
+    "User Comments"
+  ],
+  "dependencies": {
+    "frontend": [
+      "HTML5",
+      "CSS3"
+    ],
+    "backend": [
+      "Python 3.8+",
+      "Flask"
+    ]
+  },
+  "license": "MIT"
+}

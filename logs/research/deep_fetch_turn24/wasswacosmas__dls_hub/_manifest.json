@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "path": "dls hub/gunicorn.conf.py",
+      "size": 115
+    },
+    {
+      "path": "dls hub/requirements.txt",
+      "size": 84
+    },
+    {
+      "path": "dls hub/templets/base.html",
+      "size": 3100
+    },
+    {
+      "path": "dls hub/templets/contact.html",
+      "size": 996
+    },
+    {
+      "path": "dls hub/templets/database.html",
+      "size": 2848
+    },
+    {
+      "path": "dls hub/templets/guide.html",
+      "size": 1380
+    },
+    {
+      "path": "dls hub/templets/index.html",
+      "size": 750
+    },
+    {
+      "path": "dls hub/templets/market.html",
+      "size": 1895
+    },
+    {
+      "path": "dls hub/templets/play.html",
+      "size": 3670
+    },
+    {
+      "path": "dls hub/templets/stats.html",
+      "size": 1393
+    },
+    {
+      "path": "dls hub/templets/tactics.html",
+      "size": 1404
+    },
+    {
+      "path": "gunicorn.conf.py",
+      "size": 115
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    },
+    {
+      "path": "templets/base.html",
+      "size": 3100
+    },
+    {
+      "path": "templets/contact.html",
+      "size": 996
+    },
+    {
+      "path": "templets/database.html",
+      "size": 2848
+    },
+    {
+      "path": "templets/guide.html",
+      "size": 1380
+    },
+    {
+      "path": "templets/index.html",
+      "size": 750
+    },
+    {
+      "path": "templets/market.html",
+      "size": 1895
+    },
+    {
+      "path": "templets/play.html",
+      "size": 3670
+    },
+    {
+      "path": "templets/stats.html",
+      "size": 1393
+    },
+    {
+      "path": "templets/tactics.html",
+      "size": 1404
+    },
+    {
+      "path": "vercel.json",
+      "size": 154
+    }
+  ],
+  "pulled": [
+    "dls hub/templets/stats.html",
+    "templets/stats.html",
+    "dls hub/templets/tactics.html",
+    "templets/tactics.html"
+  ]
+}

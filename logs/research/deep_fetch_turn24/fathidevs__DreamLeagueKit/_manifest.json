@@ -1,0 +1,630 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 225
+    },
+    {
+      "path": ".idea/.gitignore",
+      "size": 47
+    },
+    {
+      "path": ".idea/compiler.xml",
+      "size": 169
+    },
+    {
+      "path": ".idea/gradle.xml",
+      "size": 815
+    },
+    {
+      "path": ".idea/jarRepositories.xml",
+      "size": 1240
+    },
+    {
+      "path": ".idea/markdown-navigator-enh.xml",
+      "size": 2159
+    },
+    {
+      "path": ".idea/markdown-navigator.xml",
+      "size": 3437
+    },
+    {
+      "path": ".idea/misc.xml",
+      "size": 3826
+    },
+    {
+      "path": ".idea/render.experimental.xml",
+      "size": 173
+    },
+    {
+      "path": ".idea/vcs.xml",
+      "size": 180
+    },
+    {
+      "path": "app/.gitignore",
+      "size": 6
+    },
+    {
+      "path": "app/build.gradle",
+      "size": 3054
+    },
+    {
+      "path": "app/google-services.json",
+      "size": 1008
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "size": 750
+    },
+    {
+      "path": "app/release/DLS Kits.apk",
+      "size": 9995760
+    },
+    {
+      "path": "app/release/output-metadata.json",
+      "size": 345
+    },
+    {
+      "path": "app/release/v1.1/DLS Kits.apk",
+      "size": 9948595
+    },
+    {
+      "path": "app/release/v1.1/manual color set/DLS Kits.apk",
+      "size": 9949398
+    },
+    {
+      "path": "app/src/androidTest/java/com/gmail/dreamleaguekit/ExampleInstrumentedTest.java",
+      "size": 762
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "size": 2831
+    },
+    {
+      "path": "app/src/main/ic_launcher-playstore.png",
+      "size": 6993
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/AdMobClass.java",
+      "size": 5078
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/CommentsActivity.java",
+      "size": 11537
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/CreateActivity.java",
+      "size": 12172
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/MainActivity.java",
+      "size": 6216
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/PlayersDB.java",
+      "size": 1903
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/create_kit/CreateCanvas.java",
+      "size": 23637
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/create_kit/CreateFragment.java",
+      "size": 53580
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/favorite/FavoriteFragment.java",
+      "size": 12813
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/home/HomeFragment.java",
+      "size": 14049
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/modal/KitsModal.java",
+      "size": 2890
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/modal/SavesModel.java",
+      "size": 1504
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/modal/UsesModel.java",
+      "size": 1338
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/posts/KitPreviewActivity.java",
+      "size": 29445
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/posts/ViewKitImagesAdapter.java",
+      "size": 3644
+    },
+    {
+      "path": "app/src/main/java/com/gmail/dreamleaguekit/profile/ProfileFragment.java",
+      "size": 11543
+    },
+    {
+      "path": "app/src/main/res/anim/btn_scale_down.xml",
+      "size": 403
+    },
+    {
+      "path": "app/src/main/res/anim/btn_scale_up.xml",
+      "size": 403
+    },
+    {
+      "path": "app/src/main/res/anim/close_host_card_animation.xml",
+      "size": 266
+    },
+    {
+      "path": "app/src/main/res/anim/open_host_card_animation.xml",
+      "size": 266
+    },
+    {
+      "path": "app/src/main/res/anim/report_banner_down.xml",
+      "size": 263
+    },
+    {
+      "path": "app/src/main/res/anim/report_banner_up.xml",
+      "size": 263
+    },
+    {
+      "path": "app/src/main/res/animator/card_click_effect.xml",
+      "size": 841
+    },
+    {
+      "path": "app/src/main/res/animator/card_click_effect_at_saves.xml",
+      "size": 840
+    },
+    {
+      "path": "app/src/main/res/color/bottom_nav_colors.xml",
+      "size": 316
+    },
+    {
+      "path": "app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+      "size": 1406
+    },
+    {
+      "path": "app/src/main/res/drawable/card_border.xml",
+      "size": 336
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_add_photo_alternate_24px.xml",
+      "size": 451
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_circle.xml",
+      "size": 451
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_logos_placement.xml",
+      "size": 7355
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_long_sleeves.xml",
+      "size": 1616
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_long_sleeves_1strip.xml",
+      "size": 542
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_long_sleeves_2strips.xml",
+      "size": 800
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_long_sleeves_3strips.xml",
+      "size": 1162
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_promo_logo.xml",
+      "size": 2219
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_rings.xml",
+      "size": 1475
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shirt.xml",
+      "size": 1998
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shirt_1strip.xml",
+      "size": 577
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shirt_2strips.xml",
+      "size": 857
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shirt_3strips.xml",
+      "size": 1179
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shirt_number_color.xml",
+      "size": 310
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_short_number_color.xml",
+      "size": 310
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_short_sleeves.xml",
+      "size": 1392
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_short_sleeves_1strip.xml",
+      "size": 872
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_short_sleeves_2strips.xml",
+      "size": 1045
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_short_sleeves_3strips.xml",
+      "size": 1171
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shorts.xml",
+      "size": 1972
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shorts_1strip.xml",
+      "size": 477
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shorts_2strips.xml",
+      "size": 670
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_shorts_3strips.xml",
+      "size": 907
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_socks.xml",
+      "size": 1580
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_socks_1strip.xml",
+      "size": 486
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_socks_2strips.xml",
+      "size": 742
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_socks_3strips.xml",
+      "size": 990
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_app_temp_under_sleeves.xml",
+      "size": 1403
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_baseline_close_24.xml",
+      "size": 420
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_bookmark_24px.xml",
+      "size": 361
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_bookmark_24px_inactive.xml",
+      "size": 340
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_dialog_promo_icon_01.xml",
+      "size": 973
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_dialog_shirt_logo_icon_01.xml",
+      "size": 974
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_dialog_shorts_logo_icon.xml",
+      "size": 1284
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_dialog_socks_logo_icon_01.xml",
+      "size": 765
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_icon.xml",
+      "size": 658
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_icon_noblank.xml",
+      "size": 685
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_img_placeholder.xml",
+      "size": 1556
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_profile_iv_placeholder.xml",
+      "size": 773
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_branded_profile_tab_icon.xml",
+      "size": 787
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_comment_bank_24px.xml",
+      "size": 387
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_create_kit_icon_24px.xml",
+      "size": 1050
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_home_24px.xml",
+      "size": 462
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_image_placeholder.xml",
+      "size": 5695
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "size": 1360
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_logo.xml",
+      "size": 1130
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_palette_24px.xml",
+      "size": 795
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_profile_24px.xml",
+      "size": 548
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_save_24px.xml",
+      "size": 432
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_share_24px.xml",
+      "size": 688
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_soccer_ball.xml",
+      "size": 1277
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_texture_24px.xml",
+      "size": 581
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_visibility_24px.xml",
+      "size": 497
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_visibility_off_24px.xml",
+      "size": 856
+    },
+    {
+      "path": "app/src/main/res/drawable/light_ripple_eff.xml",
+      "size": 408
+    },
+    {
+      "path": "app/src/main/res/drawable/search_background.xml",
+      "size": 262
+    },
+    {
+      "path": "app/src/main/res/drawable/tab_indicator_default.xml",
+      "size": 379
+    },
+    {
+      "path": "app/src/main/res/drawable/tab_indicator_selected.xml",
+      "size": 378
+    },
+    {
+      "path": "app/src/main/res/drawable/tab_selector.xml",
+      "size": 287
+    },
+    {
+      "path": "app/src/main/res/layout-560dpi/fragment_profile.xml",
+      "size": 9840
+    },
+    {
+      "path": "app/src/main/res/layout/activity_comments.xml",
+      "size": 4770
+    },
+    {
+      "path": "app/src/main/res/layout/activity_create.xml",
+      "size": 4155
+    },
+    {
+      "path": "app/src/main/res/layout/activity_kit_preview.xml",
+      "size": 6262
+    },
+    {
+      "path": "app/src/main/res/layout/activity_main.xml",
+      "size": 1933
+    },
+    {
+      "path": "app/src/main/res/layout/add_image_dialog.xml",
+      "size": 11038
+    },
+    {
+      "path": "app/src/main/res/layout/comments_item.xml",
+      "size": 2151
+    },
+    {
+      "path": "app/src/main/res/layout/fragment_create.xml",
+      "size": 5222
+    },
+    {
+      "path": "app/src/main/res/layout/fragment_favorite.xml",
+      "size": 2235
+    },
+    {
+      "path": "app/src/main/res/layout/fragment_home.xml",
+      "size": 3540
+    },
+    {
+      "path": "app/src/main/res/layout/fragment_viewpager_item.xml",
+      "size": 3009
+    },
+    {
+      "path": "app/src/main/res/layout/home_rv_item.xml",
+      "size": 2822
+    },
+    {
+      "path": "app/src/main/res/layout/logout_dialog.xml",
+      "size": 361
+    },
+    {
+      "path": "app/src/main/res/layout/saves_list_item.xml",
+      "size": 3000
+    },
+    {
+      "path": "app/src/main/res/layout/saving_kit_dialog.xml",
+      "size": 3626
+    },
+    {
+      "path": "app/src/main/res/layout/set_color_layout.xml",
+      "size": 18982
+    },
+    {
+      "path": "app/src/main/res/layout/strips_layout.xml",
+      "size": 12264
+    },
+    {
+      "path": "app/src/main/res/layout/team_no_exist_report_dialog.xml",
+      "size": 4520
+    },
+    {
+      "path": "app/src/main/res/menu/bottom_nav_items.xml",
+      "size": 876
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "size": 267
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "size": 267
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "size": 979
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "size": 2380
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "size": 756
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "size": 1591
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "size": 1415
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "size": 3546
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "size": 2164
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "size": 5510
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "size": 3065
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "size": 7949
+    },
+    {
+      "path": "app/src/main/res/raw/ball_btn_animation.json",
+      "size": 68902
+    },
+    {
+      "path": "app/src/main/res/values-night/dimens.xml",
+      "size": 106
+    },
+    {
+      "path": "app/src/main/res/values-night/strings.xml",
+      "size": 1974
+    },
+    {
+      "path": "app/src/main/res/values-night/themes.xml",
+      "size": 108
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "size": 422
+    },
+    {
+      "path": "app/src/main/res/values/dimens.xml",
+      "size": 156
+    },
+    {
+      "path": "app/src/main/res/values/ic_launcher_background.xml",
+      "size": 120
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "size": 2746
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "size": 924
+    },
+    {
+      "path": "app/src/test/java/com/gmail/dreamleaguekit/ExampleUnitTest.java",
+      "size": 385
+    },
+    {
+      "path": "build.gradle",
+      "size": 684
+    },
+    {
+      "path": "gradle.properties",
+      "size": 1093
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "size": 54329
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "size": 232
+    },
+    {
+      "path": "gradlew",
+      "size": 5296
+    },
+    {
+      "path": "gradlew.bat",
+      "size": 2176
+    },
+    {
+      "path": "settings.gradle",
+      "size": 50
+    }
+  ],
+  "pulled": [
+    "app/src/main/res/anim/close_host_card_animation.xml",
+    "app/src/main/res/anim/open_host_card_animation.xml",
+    "app/src/main/res/drawable/card_border.xml",
+    "app/src/test/java/com/gmail/dreamleaguekit/ExampleUnitTest.java",
+    "app/src/androidTest/java/com/gmail/dreamleaguekit/ExampleInstrumentedTest.java",
+    "app/src/main/res/animator/card_click_effect_at_saves.xml",
+    "app/src/main/res/animator/card_click_effect.xml",
+    "app/src/main/java/com/gmail/dreamleaguekit/modal/UsesModel.java"
+  ]
+}

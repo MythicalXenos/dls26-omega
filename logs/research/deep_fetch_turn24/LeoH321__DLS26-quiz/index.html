@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLS26玩家鉴定</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div id="welcome-section" class="card welcome-card">
+            <h1 class="welcome-title">DLS26，你是什么<br>狗？</h1>
+            <button class="welcome-btn" onclick="startQuiz()">开始鉴定</button>
+        </div>
+
+        <div id="quiz-section" class="hidden">
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            
+            <div class="quiz-info-header">
+                <div id="progress-text">进度: 1 / 30</div>
+                <div id="timer-text">用时: 00:00</div>
+            </div>
+
+            <div id="question-container">
+                <h2 id="question-text">加载中...</h2>
+                <div id="options-container">
+                    </div>
+            </div>
+        </div>
+
+        <div id="result-section" class="hidden">
+            <div class="result-top-row">
+                <div class="card card-left">
+                    <p class="card-sm-title">你的人格类型是：</p>
+                    <h2 class="card-cn-name" id="res-cn-name">计算中...</h2>
+                    <h1 class="card-en-name" id="res-en-name">...</h1>
+                    <div class="avatar-placeholder" id="res-avatar">🗿</div>
+                    <p class="card-footer-quote" id="res-quote">...</p>
+                </div>
+
+                <div class="card card-right">
+                    <p class="card-sm-title">你的主类型</p>
+                    <h1 class="card-main-title" id="res-full-title">计算中...</h1>
+                    <div class="badge-container">
+                        <span class="badge" id="res-badge">匹配度 0% · 精准命中 0/30 维</span>
+                    </div>
+                    <p class="card-sub-text" id="res-time-text">维度命中度较高，当前结果可视为你的第一游戏画像。</p>
+                </div>
+            </div>
+
+            <div class="card card-bottom">
+                <h3 class="interpretation-title">该流派的简单解读</h3>
+                <p class="interpretation-text" id="res-desc">加载中...</p>
+            </div>
+            
+            <div class="restart-container">
+                <button class="restart-btn" onclick="location.reload()">重新鉴定</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-info">
+        找到我们：微信公众号DLS26China
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

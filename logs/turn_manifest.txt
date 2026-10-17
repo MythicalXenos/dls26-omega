@@ -10,3 +10,15 @@ TURN 23 (2026-10-17 ~23:55Z ckpt-20261017-step1-022):
 - Sample 13: 7/7 clean post-stamp (0 BAD, 0 WARN after repair).
 - Totals: 134 claims (+2 net), 153 EV (+3 net).
 - Research sweep remains OPEN (user directive turn 22). EPOCH_CONTRACT §2 closure status = REOPENED, saturation not yet reached (nuget/crates/maven/cocoapods not yet swept; Discord/Reddit/weibo/Bilibili/中文社区 deep dives pending; remaining GitHub rate-limited queries pending; FBGD/UPDATED sibling repo enumeration pending; APK step2 datamine queued).
+
+TURN 24 (2026-10-18 ~00:25Z ckpt-20261018-step1-023):
+- GitHub wave 3: 12 targeted code queries finished (1559 hits). Chinese 梦幻足球联盟=15 hits; DLS26 coach=27; simulator=17; Form Boost/Dream Points exact=0 in code search.
+- Repo org enumeration: FootballGamingBD has 11 sibling repos (mostly duplicate player-DB scaffolds); Larrycr7aaaa has 20 repos including a substantial "DLS-FIFA-FC-PES-UCS--FTG-API"; TrungTaHust has 8 (dls, dls-ext, dls_ext_sv); LeoH321 has 4 (quiz/reaction-test/tool-CB/superleague); fathidevs/DreamLeagueKit = Indonesian Android kit-creator app (no stat data); wasswacosmas = scam/fake "fan website" templates.
+- DEEP FETCH of 22 repos: TrungTaHust/dls-ext is the major prize — real DLSStats Sencha ExtJS PWA with full data layer.
+- EV-251: TrungTaHust/dls-ext full data — 20261 base roster 2518 players, 70 vintage special cards, 149 club/79 nation formations, 160-tier price_map (4 sub-tiers per OVR, 20–2800 coins), 6534 player IDs. Confirms 8-attribute schema (SPE/ACC/STA/STR/CON/PAS/SHO/TAC), CON heaviest-weighted.
+- EV-252: Larrycr7aaaa/DLS26-API — 41 current-event promo cards with full statlines; OVR up to 98 (Champions Messi/Ronaldo); GK columns rename to GKR/GKH; cross-validates OLS formula MAE=0.70.
+- CLAIM-137..145 added: schema, GK mapping, price tiers, formations, base roster 2518, vintage ceiling 88, Unlicensed bucket, promo ceiling 98, OLS OVR formula (const+weighted sum).
+- CLAIM-006 corrected (max 96 → 98 via Champions tier; Nico Williams 96 is Dynamic Stars cap).
+- Sample 14: 7/7 clean post-stamp.
+- Totals: 143 claims (+9 net), 155 EV (+4 net this commit — EV-249/250 were added at ckpt-022 actually; EV-251/252 here).
+- Remaining research (OPEN): pull 20262/20263 from TrungTaHust for post-update promos; pull Larrycr7aaaa DLS-FIFA-FC-PES-UCS--FTG-API large repo (88MB may have "FTG API" reverse-engineered endpoints); inspect fathidevs/DreamLeagueKit for shared-preferences/save paths; pull LeoH321/DLSsuperleague (Chinese WeChat league manager) for meta/league structure; scan nuget/crates/conda-forge/maven (exhaustive); deeper girtab/girtab.github.io (702 hits, need to triage); web_search for DLS26 communities once allowed.

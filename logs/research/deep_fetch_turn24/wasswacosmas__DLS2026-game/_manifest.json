@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "index.html",
+      "size": 4469
+    },
+    {
+      "path": "style.css",
+      "size": 2385
+    }
+  ],
+  "pulled": [
+    "index.html",
+    "index.html"
+  ]
+}

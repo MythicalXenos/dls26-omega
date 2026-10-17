@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "Messi.png",
+      "size": 408692
+    },
+    {
+      "path": "Messi1.png",
+      "size": 430149
+    },
+    {
+      "path": "Messi10.png",
+      "size": 647034
+    },
+    {
+      "path": "Messi11.png",
+      "size": 657357
+    },
+    {
+      "path": "Messi2.png",
+      "size": 542485
+    },
+    {
+      "path": "Messi3.png",
+      "size": 455218
+    },
+    {
+      "path": "Messi4.png",
+      "size": 649785
+    },
+    {
+      "path": "Messi5.png",
+      "size": 577540
+    },
+    {
+      "path": "Messi6.png",
+      "size": 622014
+    },
+    {
+      "path": "Messi7.png",
+      "size": 576202
+    },
+    {
+      "path": "Messi8.png",
+      "size": 592668
+    },
+    {
+      "path": "Messi9.png",
+      "size": 575935
+    },
+    {
+      "path": "README.md",
+      "size": 15
+    },
+    {
+      "path": "players.json",
+      "size": 1194
+    }
+  ],
+  "pulled": [
+    "README.md",
+    "README.md",
+    "players.json"
+  ]
+}

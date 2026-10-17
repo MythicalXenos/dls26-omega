@@ -1,0 +1,173 @@
+{
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 271
+    },
+    {
+      "path": ".gitignore",
+      "size": 485
+    },
+    {
+      "path": "DLS26GameManager.cs",
+      "size": 1216
+    },
+    {
+      "path": "DLS26Manager.cpp",
+      "size": 1312
+    },
+    {
+      "path": "DLS26Manager.java",
+      "size": 1447
+    },
+    {
+      "path": "DLS26ViewModel.swift",
+      "size": 1019
+    },
+    {
+      "path": "Dockerfile",
+      "size": 509
+    },
+    {
+      "path": "README.md",
+      "size": 2702
+    },
+    {
+      "path": "analytics.R",
+      "size": 1058
+    },
+    {
+      "path": "api.php",
+      "size": 1224
+    },
+    {
+      "path": "app.js",
+      "size": 1149
+    },
+    {
+      "path": "app.json",
+      "size": 545
+    },
+    {
+      "path": "campaigns.html",
+      "size": 3860
+    },
+    {
+      "path": "community.html",
+      "size": 4801
+    },
+    {
+      "path": "config.py",
+      "size": 1675
+    },
+    {
+      "path": "config.toml",
+      "size": 1054
+    },
+    {
+      "path": "config.xml",
+      "size": 1102
+    },
+    {
+      "path": "config.yaml",
+      "size": 744
+    },
+    {
+      "path": "contact.html",
+      "size": 6579
+    },
+    {
+      "path": "dls26_core.c",
+      "size": 1004
+    },
+    {
+      "path": "dls26_service.rb",
+      "size": 829
+    },
+    {
+      "path": "games.html",
+      "size": 3429
+    },
+    {
+      "path": "guides.html",
+      "size": 4940
+    },
+    {
+      "path": "index.html",
+      "size": 3624
+    },
+    {
+      "path": "main.py",
+      "size": 1010
+    },
+    {
+      "path": "main.rs",
+      "size": 996
+    },
+    {
+      "path": "multiplayer.html",
+      "size": 4230
+    },
+    {
+      "path": "news.html",
+      "size": 4875
+    },
+    {
+      "path": "repository.kt",
+      "size": 958
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    },
+    {
+      "path": "schema.graphql",
+      "size": 866
+    },
+    {
+      "path": "schema.sql",
+      "size": 1623
+    },
+    {
+      "path": "server.go",
+      "size": 1053
+    },
+    {
+      "path": "setup.ps1",
+      "size": 1145
+    },
+    {
+      "path": "setup.sh",
+      "size": 1015
+    },
+    {
+      "path": "style.css",
+      "size": 2262
+    },
+    {
+      "path": "styles.css",
+      "size": 15404
+    },
+    {
+      "path": "tournaments.html",
+      "size": 4796
+    },
+    {
+      "path": "types.ts",
+      "size": 952
+    },
+    {
+      "path": "weapons.html",
+      "size": 3454
+    }
+  ],
+  "pulled": [
+    "README.md",
+    "README.md",
+    "index.html",
+    "index.html",
+    "app.json",
+    "DLS26Manager.java",
+    "multiplayer.html"
+  ]
+}

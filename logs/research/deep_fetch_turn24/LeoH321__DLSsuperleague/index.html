@@ -1,0 +1,2043 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DLS 微信群足球联赛管理系统</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- React & ReactDOM -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <!-- Babel Standalone -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Supabase JS Client -->
+  <script src="https://unpkg.com/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- html2canvas for poster generation -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: #030712; color: #f8fafc; }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #0b0f19; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    // ----------------------------------------------------------------------------------
+    // ☁️ Supabase 全局内置配置（已填入你的 Supabase URL 和 Key，上传 GitHub 后全群永久自动连接！）
+    // ----------------------------------------------------------------------------------
+    const DEFAULT_SUPABASE_URL = "https://msjfjtwxondxbbslhqok.supabase.co";
+    const DEFAULT_SUPABASE_ANON_KEY = "sb_publishable_h2bId_aXPZzv0ArWq3VYCw_bnKT4rSl";
+
+    const DEFAULT_ADMIN_PIN = "0727";
+    const GROUPS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"];
+
+    const DLS_TEAMS = [
+      "皇家马德里", "曼城", "拜仁慕尼黑", "巴黎圣日耳曼", "巴塞罗那", "阿森纳", "国际米兰", "利物浦",
+      "尤文图斯", "AC米兰", "马德里竞技", "多特蒙德", "勒沃库森", "切尔西", "曼联", "热刺"
+    ];
+
+    // 复制剪贴板通用工具函数（兼容微信浏览器与标准 Web 环境）
+    const copyToClipboard = (text, successCallback) => {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          if (successCallback) successCallback();
+        }).catch(() => {
+          fallbackCopyText(text, successCallback);
+        });
+      } else {
+        fallbackCopyText(text, successCallback);
+      }
+    };
+
+    const fallbackCopyText = (text, successCallback) => {
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      textArea.style.position = "fixed";
+      textArea.style.left = "-9999px";
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        if (successCallback) successCallback();
+      } catch (err) {
+        console.error('复制失败', err);
+      }
+      document.body.removeChild(textArea);
+    };
+
+    // 生成淘汰赛树状结构 (32强 -> 16强 -> 8强 -> 半决赛 -> 季军赛/总决赛)
+    const generateKnockoutStructure = () => {
+      const r32 = [];
+      for (let i = 1; i <= 16; i++) {
+        const g1 = GROUPS[(i - 1) % 16];
+        const g2 = GROUPS[i % 16];
+        r32.push({
+          id: `R32-${i.toString().padStart(2, '0')}`,
+          round: '32_strong',
+          title: `32强 第${i}组`,
+          half: i <= 8 ? 'upper' : 'lower',
+          format: 'two_legs',
+          p1_source: `${g1}1`,
+          p2_source: `${g2}2`,
+          p1_id: null,
+          p2_id: null,
+          leg1: { p1: null, p2: null, status: 'pending' },
+          leg2: { p1: null, p2: null, status: 'pending' },
+          leg3: { p1: null, p2: null, status: 'pending', penalty_winner: null },
+          winner_id: null,
+          pending_score: null,
+          status: 'pending'
+        });
+      }
+
+      const r16 = Array.from({ length: 8 }, (_, i) => ({
+        id: `R16-${(i + 1).toString().padStart(2, '0')}`,
+        round: '16_strong',
+        title: `16强 第${i + 1}组`,
+        half: i < 4 ? 'upper' : 'lower',
+        format: 'two_legs',
+        p1_id: null,
+        p2_id: null,
+        leg1: { p1: null, p2: null, status: 'pending' },
+        leg2: { p1: null, p2: null, status: 'pending' },
+        leg3: { p1: null, p2: null, status: 'pending', penalty_winner: null },
+        winner_id: null,
+        pending_score: null,
+        status: 'pending'
+      }));
+
+      const r8 = Array.from({ length: 4 }, (_, i) => ({
+        id: `R8-${(i + 1).toString().padStart(2, '0')}`,
+        round: '8_strong',
+        title: `8强 第${i + 1}组`,
+        half: i < 2 ? 'upper' : 'lower',
+        format: 'two_legs',
+        p1_id: null,
+        p2_id: null,
+        leg1: { p1: null, p2: null, status: 'pending' },
+        leg2: { p1: null, p2: null, status: 'pending' },
+        leg3: { p1: null, p2: null, status: 'pending', penalty_winner: null },
+        winner_id: null,
+        pending_score: null,
+        status: 'pending'
+      }));
+
+      const r4 = Array.from({ length: 2 }, (_, i) => ({
+        id: `R4-${(i + 1).toString().padStart(2, '0')}`,
+        round: 'semi_final',
+        title: i === 0 ? '上半区半决赛' : '下半区半决赛',
+        half: i === 0 ? 'upper' : 'lower',
+        format: 'two_legs',
+        p1_id: null,
+        p2_id: null,
+        leg1: { p1: null, p2: null, status: 'pending' },
+        leg2: { p1: null, p2: null, status: 'pending' },
+        leg3: { p1: null, p2: null, status: 'pending', penalty_winner: null },
+        winner_id: null,
+        pending_score: null,
+        status: 'pending'
+      }));
+
+      const thirdPlace = {
+        id: 'R3RD-01',
+        round: 'third_place',
+        title: '🥉 季军争夺战 (Bo3)',
+        format: 'bo3',
+        p1_id: null,
+        p2_id: null,
+        games: [
+          { game: 1, p1: null, p2: null, status: 'pending' },
+          { game: 2, p1: null, p2: null, status: 'pending' },
+          { game: 3, p1: null, p2: null, status: 'pending' }
+        ],
+        winner_id: null,
+        pending_score: null,
+        status: 'pending'
+      };
+
+      const grandFinal = {
+        id: 'RFINAL-01',
+        round: 'final',
+        title: '🏆 终极总决赛 (Bo5)',
+        format: 'bo5',
+        p1_id: null,
+        p2_id: null,
+        games: [
+          { game: 1, p1: null, p2: null, status: 'pending' },
+          { game: 2, p1: null, p2: null, status: 'pending' },
+          { game: 3, p1: null, p2: null, status: 'pending' },
+          { game: 4, p1: null, p2: null, status: 'pending' },
+          { game: 5, p1: null, p2: null, status: 'pending' }
+        ],
+        winner_id: null,
+        pending_score: null,
+        status: 'pending'
+      };
+
+      return [...r32, ...r16, ...r8, ...r4, thirdPlace, grandFinal];
+    };
+
+    const generateBlankData = (customPlayerList = null, title = "DLS 微信群欧冠级足球联赛") => {
+      const players = [];
+      
+      if (customPlayerList && customPlayerList.length > 0) {
+        customPlayerList.forEach((p, idx) => {
+          const pin = (1000 + (idx + 1) * 137) % 9000 + 1000;
+          const groupIndex = idx % 16;
+          players.push({
+            id: `P${(idx + 1).toString().padStart(2, '0')}`,
+            name: p.name || `选手 ${idx + 1}`,
+            team: p.team || DLS_TEAMS[idx % DLS_TEAMS.length],
+            group: GROUPS[groupIndex],
+            pin: pin.toString()
+          });
+        });
+      } else {
+        for (let i = 1; i <= 64; i++) {
+          const pin = (1000 + i * 137) % 9000 + 1000;
+          const groupIndex = (i - 1) % 16;
+          const teamIndex = (i - 1) % DLS_TEAMS.length;
+          players.push({
+            id: `P${i.toString().padStart(2, '0')}`,
+            name: `选手 ${i}`,
+            team: DLS_TEAMS[teamIndex],
+            group: GROUPS[groupIndex],
+            pin: pin.toString()
+          });
+        }
+      }
+
+      const activeGroups = Array.from(new Set(players.map(p => p.group)));
+      const groupMatches = [];
+      activeGroups.forEach(g => {
+        const groupPlayers = players.filter(p => p.group === g);
+        let matchIdx = 1;
+        for (let i = 0; i < groupPlayers.length; i++) {
+          for (let j = i + 1; j < groupPlayers.length; j++) {
+            groupMatches.push({
+              id: `G-${g}-${matchIdx++}`,
+              group: g,
+              p1_id: groupPlayers[i].id,
+              p2_id: groupPlayers[j].id,
+              p1_score: null,
+              p2_score: null,
+              pending_score: null,
+              status: 'pending'
+            });
+          }
+        }
+      });
+
+      const knockoutMatches = generateKnockoutStructure();
+
+      return {
+        title: title,
+        playerCount: players.length,
+        adminPin: DEFAULT_ADMIN_PIN,
+        supabaseUrl: DEFAULT_SUPABASE_URL,
+        supabaseAnonKey: DEFAULT_SUPABASE_ANON_KEY,
+        players,
+        groupMatches,
+        knockoutMatches,
+        predictions: {}
+      };
+    };
+
+    const { useState, useEffect, useMemo, useRef } = React;
+
+    function App() {
+      const [data, setData] = useState(() => {
+        const saved = localStorage.getItem('dls_tournament_data_v6');
+        const initial = saved ? JSON.parse(saved) : generateBlankData();
+        initial.supabaseUrl = DEFAULT_SUPABASE_URL;
+        initial.supabaseAnonKey = DEFAULT_SUPABASE_ANON_KEY;
+        return initial;
+      });
+
+      const [userVotes, setUserVotes] = useState(() => {
+        const savedVotes = localStorage.getItem('dls_user_votes_v6');
+        return savedVotes ? JSON.parse(savedVotes) : {};
+      });
+
+      const [activeTab, setActiveTab] = useState('matches');
+      const [searchQuery, setSearchQuery] = useState('');
+      const [selectedMatch, setSelectedMatch] = useState(null);
+      const [modalType, setModalType] = useState(null); // 'score' | 'share' | 'admin' | 'tree'
+      const [adminLoggedIn, setAdminLoggedIn] = useState(false);
+      const [posterImage, setPosterImage] = useState(null);
+      const [toast, setToast] = useState(null);
+      const [cloudStatus, setCloudStatus] = useState('offline'); // 'offline' | 'connected' | 'syncing'
+
+      const supabaseRef = useRef(null);
+
+      const showToast = (message, type = 'info') => {
+        setToast({ message, type });
+        setTimeout(() => setToast(null), 3000);
+      };
+
+      const cleanSupabaseUrl = (url) => {
+        if (!url) return '';
+        return url.replace(/\/rest\/v1\/?$/, '').replace(/\/$/, '');
+      };
+
+      useEffect(() => {
+        const rawUrl = data.supabaseUrl || DEFAULT_SUPABASE_URL;
+        const url = cleanSupabaseUrl(rawUrl);
+        const key = data.supabaseAnonKey || DEFAULT_SUPABASE_ANON_KEY;
+
+        if (!url || !key || !window.supabase) {
+          setCloudStatus('offline');
+          return;
+        }
+
+        let isMounted = true;
+        let pollingInterval = null;
+        let channel = null;
+
+        try {
+          const client = window.supabase.createClient(url, key);
+          supabaseRef.current = client;
+
+          const fetchLatestData = () => {
+            client.from('tournament_data').select('data').eq('id', 'main_tournament').single()
+              .then(({ data: res, error }) => {
+                if (!isMounted) return;
+                if (res && res.data) {
+                  setData(res.data);
+                  setCloudStatus('connected');
+                } else if (!error) {
+                  client.from('tournament_data').upsert({ id: 'main_tournament', data: data })
+                    .then(() => { if (isMounted) setCloudStatus('connected'); });
+                }
+              })
+              .catch(() => {
+                if (isMounted) setCloudStatus('offline');
+              });
+          };
+
+          fetchLatestData();
+
+          try {
+            channel = client.channel('public:tournament_data')
+              .on('postgres_changes', { event: 'UPDATE', schema: 'public', table: 'tournament_data', filter: 'id=eq.main_tournament' }, (payload) => {
+                if (isMounted && payload.new && payload.new.data) {
+                  setData(payload.new.data);
+                  setCloudStatus('connected');
+                }
+              })
+              .subscribe((status) => {
+                if (status === 'CHANNEL_ERROR' || status === 'TIMED_OUT') {
+                  if (!pollingInterval) {
+                    pollingInterval = setInterval(fetchLatestData, 4000);
+                  }
+                }
+              });
+          } catch (wsErr) {
+            pollingInterval = setInterval(fetchLatestData, 4000);
+          }
+        } catch (e) {
+          console.warn('Supabase 初始化提示:', e);
+          setCloudStatus('offline');
+        }
+
+        return () => {
+          isMounted = false;
+          if (pollingInterval) clearInterval(pollingInterval);
+          if (channel && supabaseRef.current) {
+            try { supabaseRef.current.removeChannel(channel); } catch (err) {}
+          }
+        };
+      }, [data.supabaseUrl, data.supabaseAnonKey]);
+
+      const saveState = (newData) => {
+        setData(newData);
+        localStorage.setItem('dls_tournament_data_v6', JSON.stringify(newData));
+
+        if (supabaseRef.current) {
+          setCloudStatus('syncing');
+          supabaseRef.current.from('tournament_data').upsert({ id: 'main_tournament', data: newData })
+            .then(({ error }) => {
+              if (!error) setCloudStatus('connected');
+              else setCloudStatus('offline');
+            });
+        }
+      };
+
+      useEffect(() => {
+        localStorage.setItem('dls_user_votes_v6', JSON.stringify(userVotes));
+      }, [userVotes]);
+
+      useEffect(() => {
+        if (window.lucide) {
+          window.lucide.createIcons();
+        }
+      });
+
+      const playerMap = useMemo(() => {
+        const map = {};
+        (data.players || []).forEach(p => { map[p.id] = p; });
+        return map;
+      }, [data.players]);
+
+      const groupStandings = useMemo(() => {
+        const standings = {};
+        GROUPS.forEach(g => {
+          const groupPlayers = (data.players || []).filter(p => p.group === g);
+          standings[g] = groupPlayers.map(p => ({
+            ...p,
+            played: 0,
+            won: 0,
+            drawn: 0,
+            lost: 0,
+            ptsFor: 0,
+            ptsAgainst: 0,
+            diff: 0,
+            points: 0
+          }));
+        });
+
+        (data.groupMatches || []).forEach(m => {
+          if (m.status === 'completed' && m.p1_score !== null && m.p2_score !== null) {
+            const g = m.group;
+            const p1 = standings[g]?.find(p => p.id === m.p1_id);
+            const p2 = standings[g]?.find(p => p.id === m.p2_id);
+
+            if (p1 && p2) {
+              p1.played += 1;
+              p2.played += 1;
+              p1.ptsFor += m.p1_score;
+              p1.ptsAgainst += m.p2_score;
+              p2.ptsFor += m.p2_score;
+              p2.ptsAgainst += m.p1_score;
+
+              if (m.p1_score > m.p2_score) {
+                p1.won += 1;
+                p1.points += 3;
+                p2.lost += 1;
+              } else if (m.p2_score > m.p1_score) {
+                p2.won += 1;
+                p2.points += 3;
+                p1.lost += 1;
+              } else {
+                p1.drawn += 1;
+                p2.drawn += 1;
+                p1.points += 1;
+                p2.points += 1;
+              }
+            }
+          }
+        });
+
+        GROUPS.forEach(g => {
+          if (standings[g]) {
+            standings[g].forEach(p => { p.diff = p.ptsFor - p.ptsAgainst; });
+            standings[g].sort((a, b) => b.points - a.points || b.diff - a.diff || b.ptsFor - a.ptsFor);
+          }
+        });
+
+        return standings;
+      }, [data.groupMatches, data.players]);
+
+      useEffect(() => {
+        let updated = false;
+        const newKnockoutMatches = [...(data.knockoutMatches || [])];
+
+        GROUPS.forEach((g) => {
+          const gMatches = (data.groupMatches || []).filter(m => m.group === g);
+          const isFinished = gMatches.length > 0 && gMatches.every(m => m.status === 'completed');
+          const groupRank = groupStandings[g];
+
+          if (isFinished && groupRank && groupRank.length >= 2) {
+            const top1 = groupRank[0].id;
+            const top2 = groupRank[1].id;
+
+            const targetMatchP1 = newKnockoutMatches.find(km => km.p1_source === `${g}1`);
+            const targetMatchP2 = newKnockoutMatches.find(km => km.p2_source === `${g}2`);
+
+            if (targetMatchP1 && targetMatchP1.p1_id !== top1) {
+              targetMatchP1.p1_id = top1;
+              updated = true;
+            }
+            if (targetMatchP2 && targetMatchP2.p2_id !== top2) {
+              targetMatchP2.p2_id = top2;
+              updated = true;
+            }
+          }
+        });
+
+        if (updated) {
+          saveState({ ...data, knockoutMatches: newKnockoutMatches });
+        }
+      }, [groupStandings, data.groupMatches]);
+
+      const handleVote = (matchId, target) => {
+        if (userVotes[matchId]) {
+          showToast("你已经对此场对局做出过预测投选", "info");
+          return;
+        }
+
+        const currentPred = data.predictions?.[matchId] || { p1Votes: 0, p2Votes: 0 };
+        const updatedPred = {
+          ...currentPred,
+          p1Votes: target === 'p1' ? currentPred.p1Votes + 1 : currentPred.p1Votes,
+          p2Votes: target === 'p2' ? currentPred.p2Votes + 1 : currentPred.p2Votes
+        };
+
+        saveState({
+          ...data,
+          predictions: { ...(data.predictions || {}), [matchId]: updatedPred }
+        });
+        setUserVotes(prev => ({ ...prev, [matchId]: target }));
+        showToast("预测投选成功！", "success");
+      };
+
+      const advanceWinnerToNextRound = (currentMatch, allMatches) => {
+        const roundOrder = ['32_strong', '16_strong', '8_strong', 'semi_final'];
+        const currentRoundIdx = roundOrder.indexOf(currentMatch.round);
+        
+        if (currentRoundIdx !== -1 && currentRoundIdx < roundOrder.length - 1) {
+          const matchNum = parseInt(currentMatch.id.split('-')[1]);
+          const nextRoundKey = roundOrder[currentRoundIdx + 1];
+          const nextMatchNum = Math.ceil(matchNum / 2);
+          const nextMatchId = getRoundPrefix(nextRoundKey) + '-' + nextMatchNum.toString().padStart(2, '0');
+
+          const nextMatch = allMatches.find(m => m.id === nextMatchId);
+          if (nextMatch) {
+            if (matchNum % 2 !== 0) {
+              nextMatch.p1_id = currentMatch.winner_id;
+            } else {
+              nextMatch.p2_id = currentMatch.winner_id;
+            }
+          }
+        } else if (currentMatch.round === 'semi_final') {
+          const matchNum = parseInt(currentMatch.id.split('-')[1]);
+          const loser_id = currentMatch.winner_id === currentMatch.p1_id ? currentMatch.p2_id : currentMatch.p1_id;
+
+          const finalMatch = allMatches.find(m => m.id === 'RFINAL-01');
+          const thirdMatch = allMatches.find(m => m.id === 'R3RD-01');
+
+          if (matchNum === 1) {
+            if (finalMatch) finalMatch.p1_id = currentMatch.winner_id;
+            if (thirdMatch) thirdMatch.p1_id = loser_id;
+          } else {
+            if (finalMatch) finalMatch.p2_id = currentMatch.winner_id;
+            if (thirdMatch) thirdMatch.p2_id = loser_id;
+          }
+        }
+      };
+
+      const getRoundPrefix = (roundKey) => {
+        if (roundKey === '16_strong') return 'R16';
+        if (roundKey === '8_strong') return 'R8';
+        if (roundKey === 'semi_final') return 'R4';
+        return 'R32';
+      };
+
+      const handleScoreSubmit = (matchId, payload, pin, isConfirmation = false) => {
+        let isGroupMatch = matchId.startsWith('G-');
+        const targetMatch = isGroupMatch 
+          ? data.groupMatches.find(x => x.id === matchId)
+          : data.knockoutMatches.find(x => x.id === matchId);
+
+        if (!targetMatch) return false;
+
+        const p1 = playerMap[targetMatch.p1_id];
+        const p2 = playerMap[targetMatch.p2_id];
+
+        let allowed = adminLoggedIn;
+        let submitterId = null;
+
+        if (!allowed && pin) {
+          if (p1?.pin === pin) { allowed = true; submitterId = p1.id; }
+          else if (p2?.pin === pin) { allowed = true; submitterId = p2.id; }
+          else if (pin === data.adminPin) { allowed = true; }
+        }
+
+        if (!allowed) {
+          showToast("PIN 码验证错误，请输入选手个人 4 位 PIN 码", "error");
+          return false;
+        }
+
+        const shouldDirectFinalize = adminLoggedIn || isConfirmation || (targetMatch.pending_score && targetMatch.pending_score.submitted_by !== submitterId);
+
+        if (isGroupMatch) {
+          const updatedMatches = data.groupMatches.map(m => {
+            if (m.id === matchId) {
+              if (shouldDirectFinalize) {
+                return {
+                  ...m,
+                  p1_score: Number(payload.p1),
+                  p2_score: Number(payload.p2),
+                  pending_score: null,
+                  status: 'completed'
+                };
+              } else {
+                return {
+                  ...m,
+                  pending_score: { p1: Number(payload.p1), p2: Number(payload.p2), submitted_by: submitterId },
+                  status: 'awaiting_confirm'
+                };
+              }
+            }
+            return m;
+          });
+          saveState({ ...data, groupMatches: updatedMatches });
+        } else {
+          const updatedKnockouts = [...data.knockoutMatches];
+          const matchIndex = updatedKnockouts.findIndex(km => km.id === matchId);
+          if (matchIndex !== -1) {
+            const copy = { ...updatedKnockouts[matchIndex] };
+            
+            if (!shouldDirectFinalize) {
+              copy.pending_score = { ...payload, submitted_by: submitterId };
+              copy.status = 'awaiting_confirm';
+            } else {
+              copy.pending_score = null;
+              if (copy.format === 'two_legs') {
+                if (payload.leg === 1) {
+                  copy.leg1 = { p1: Number(payload.p1), p2: Number(payload.p2), status: 'completed' };
+                } else if (payload.leg === 2) {
+                  copy.leg2 = { p1: Number(payload.p1), p2: Number(payload.p2), status: 'completed' };
+                } else if (payload.leg === 3) {
+                  copy.leg3 = { 
+                    p1: Number(payload.p1), 
+                    p2: Number(payload.p2), 
+                    penalty_winner: payload.penaltyWinner || null,
+                    status: 'completed' 
+                  };
+                }
+
+                const agg1 = (copy.leg1.p1 || 0) + (copy.leg2.p1 || 0);
+                const agg2 = (copy.leg1.p2 || 0) + (copy.leg2.p2 || 0);
+
+                if (copy.leg1.status === 'completed' && copy.leg2.status === 'completed') {
+                  if (agg1 > agg2) {
+                    copy.winner_id = copy.p1_id;
+                    copy.status = 'completed';
+                  } else if (agg2 > agg1) {
+                    copy.winner_id = copy.p2_id;
+                    copy.status = 'completed';
+                  } else {
+                    if (copy.leg3.status === 'completed') {
+                      if (copy.leg3.p1 > copy.leg3.p2) {
+                        copy.winner_id = copy.p1_id;
+                        copy.status = 'completed';
+                      } else if (copy.leg3.p2 > copy.leg3.p1) {
+                        copy.winner_id = copy.p2_id;
+                        copy.status = 'completed';
+                      } else {
+                        if (copy.leg3.penalty_winner === 'p1') {
+                          copy.winner_id = copy.p1_id;
+                          copy.status = 'completed';
+                        } else if (copy.leg3.penalty_winner === 'p2') {
+                          copy.winner_id = copy.p2_id;
+                          copy.status = 'completed';
+                        } else {
+                          copy.status = 'needs_decider';
+                        }
+                      }
+                    } else {
+                      copy.status = 'needs_decider';
+                    }
+                  }
+                }
+              } else if (copy.format === 'bo3' || copy.format === 'bo5') {
+                const gameIndex = payload.gameIndex;
+                copy.games[gameIndex] = {
+                  game: gameIndex + 1,
+                  p1: Number(payload.p1),
+                  p2: Number(payload.p2),
+                  status: 'completed'
+                };
+
+                let p1Wins = 0, p2Wins = 0;
+                copy.games.forEach(g => {
+                  if (g.status === 'completed') {
+                    if (g.p1 > g.p2) p1Wins++;
+                    else if (g.p2 > g.p1) p2Wins++;
+                  }
+                });
+
+                const targetWins = copy.format === 'bo3' ? 2 : 3;
+                if (p1Wins >= targetWins) {
+                  copy.winner_id = copy.p1_id;
+                  copy.status = 'completed';
+                } else if (p2Wins >= targetWins) {
+                  copy.winner_id = copy.p2_id;
+                  copy.status = 'completed';
+                } else {
+                  copy.status = 'in_progress';
+                }
+              }
+
+              if (copy.winner_id && copy.status === 'completed') {
+                advanceWinnerToNextRound(copy, updatedKnockouts);
+              }
+            }
+
+            updatedKnockouts[matchIndex] = copy;
+            saveState({ ...data, knockoutMatches: updatedKnockouts });
+          }
+        }
+
+        setSelectedMatch(null);
+        setModalType(null);
+
+        if (!shouldDirectFinalize) {
+          showToast("比分已暂存！已通知对手进行核对确认", "info");
+        } else {
+          showToast("比分录入并核准成功！", "success");
+        }
+        return true;
+      };
+
+      const handleGeneratePoster = async () => {
+        const posterEl = document.getElementById('poster-content');
+        if (!posterEl) return;
+        try {
+          const canvas = await html2canvas(posterEl, { scale: 2, backgroundColor: '#030712' });
+          setPosterImage(canvas.toDataURL('image/png'));
+          setModalType('share');
+        } catch (err) {
+          showToast('生成战报海报失败，请重试', 'error');
+        }
+      };
+
+      const handleGenerateTreePoster = async () => {
+        const treeEl = document.getElementById('champion-tree-content');
+        if (!treeEl) return;
+        try {
+          const canvas = await html2canvas(treeEl, { scale: 2, backgroundColor: '#030712' });
+          setPosterImage(canvas.toDataURL('image/png'));
+          setModalType('share');
+        } catch (err) {
+          showToast('生成冠军树战报失败，请重试', 'error');
+        }
+      };
+
+      return (
+        <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100 relative">
+          {/* TOAST NOTIFICATION */}
+          {toast && (
+            <div className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-xl text-xs font-bold shadow-2xl transition-all border ${
+              toast.type === 'error' ? 'bg-red-950 text-red-200 border-red-800' :
+              toast.type === 'success' ? 'bg-emerald-950 text-emerald-200 border-emerald-800' :
+              'bg-indigo-950 text-indigo-200 border-indigo-800'
+            }`}>
+              {toast.message}
+            </div>
+          )}
+
+          {/* HEADER */}
+          <header className="sticky top-0 z-30 bg-slate-900/95 backdrop-blur border-b border-slate-800 px-4 py-3 shadow-lg">
+            <div className="max-w-6xl mx-auto flex items-center justify-between gap-3">
+              <div className="flex items-center space-x-3">
+                <div className="w-9 h-9 rounded-lg bg-indigo-600 flex items-center justify-center font-black text-lg shadow">
+                  ⚽
+                </div>
+                <div>
+                  <div className="flex items-center space-x-2">
+                    <h1 className="text-base sm:text-lg font-bold text-white leading-tight">{data.title}</h1>
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold border ${
+                      cloudStatus === 'connected' ? 'bg-emerald-950 text-emerald-300 border-emerald-800' :
+                      cloudStatus === 'syncing' ? 'bg-amber-950 text-amber-300 border-amber-800 animate-pulse' :
+                      'bg-slate-800 text-slate-400 border-slate-700'
+                    }`}>
+                      {cloudStatus === 'connected' ? '🟢 云端秒级同步中' : cloudStatus === 'syncing' ? '🟡 云端同步中...' : '⚪ 单机缓存模式'}
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-400">48-64人小组赛 + 欧冠双回合淘汰 + 胜者确定/败方核对</p>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-2">
+                <button
+                  onClick={() => setModalType('tree')}
+                  className="px-3 py-1.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-xs font-semibold flex items-center space-x-1 transition shadow text-white"
+                >
+                  <span>🌳 冠军树状对局图</span>
+                </button>
+                <button
+                  onClick={handleGeneratePoster}
+                  className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold flex items-center space-x-1 transition shadow"
+                >
+                  <span>战报海报</span>
+                </button>
+                <button
+                  onClick={() => setModalType('admin')}
+                  className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 border border-slate-700 transition"
+                >
+                  <span>{adminLoggedIn ? '控制台' : '管理登录'}</span>
+                </button>
+              </div>
+            </div>
+          </header>
+
+          {/* NAV TABS */}
+          <nav className="bg-slate-900 border-b border-slate-800 px-4">
+            <div className="max-w-6xl mx-auto flex space-x-2 overflow-x-auto py-2 custom-scrollbar">
+              {[
+                { id: 'matches', label: '🔍 搜对局/提交比分' },
+                { id: 'group', label: '📊 小组积分榜' },
+                { id: 'knockout', label: '🏆 淘汰赛对局 & 胜率预测' },
+                { id: 'admin', label: '⚙️ 系统管理 / 名单录入' }
+              ].map(tab => (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition ${
+                    activeTab === tab.id
+                      ? 'bg-indigo-600 text-white shadow'
+                      : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              ))}
+            </div>
+          </nav>
+
+          {/* MAIN CONTENT AREA */}
+          <main className="flex-1 max-w-6xl w-full mx-auto p-4 sm:p-6">
+            {activeTab === 'matches' && (
+              <MyMatchesTab
+                data={data}
+                playerMap={playerMap}
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
+                userVotes={userVotes}
+                onVote={handleVote}
+                onSelectMatch={(m) => { setSelectedMatch(m); setModalType('score'); }}
+                showToast={showToast}
+              />
+            )}
+
+            {activeTab === 'group' && (
+              <GroupStageTab
+                data={data}
+                playerMap={playerMap}
+                groupStandings={groupStandings}
+                onSelectMatch={(m) => { setSelectedMatch(m); setModalType('score'); }}
+                showToast={showToast}
+              />
+            )}
+
+            {activeTab === 'knockout' && (
+              <KnockoutTab
+                data={data}
+                playerMap={playerMap}
+                userVotes={userVotes}
+                onVote={handleVote}
+                onSelectMatch={(m) => { setSelectedMatch(m); setModalType('score'); }}
+                showToast={showToast}
+              />
+            )}
+
+            {activeTab === 'admin' && (
+              <AdminTab
+                data={data}
+                saveState={saveState}
+                setUserVotes={setUserVotes}
+                adminLoggedIn={adminLoggedIn}
+                setAdminLoggedIn={setAdminLoggedIn}
+                showToast={showToast}
+              />
+            )}
+          </main>
+
+          {/* MODALS */}
+          {modalType === 'score' && selectedMatch && (
+            <ScoreModal
+              match={selectedMatch}
+              playerMap={playerMap}
+              adminLoggedIn={adminLoggedIn}
+              onClose={() => { setSelectedMatch(null); setModalType(null); }}
+              onSubmit={handleScoreSubmit}
+            />
+          )}
+
+          {modalType === 'share' && posterImage && (
+            <ShareModal
+              imageUrl={posterImage}
+              onClose={() => setModalType(null)}
+            />
+          )}
+
+          {modalType === 'tree' && (
+            <ChampionTreeModal
+              data={data}
+              playerMap={playerMap}
+              onClose={() => setModalType(null)}
+              onExportTree={handleGenerateTreePoster}
+            />
+          )}
+
+          {modalType === 'admin' && (
+            <AdminLoginModal
+              adminPin={data.adminPin}
+              adminLoggedIn={adminLoggedIn}
+              onLogin={() => { setAdminLoggedIn(true); setModalType(null); setActiveTab('admin'); }}
+              onLogout={() => { setAdminLoggedIn(false); setModalType(null); }}
+              onClose={() => setModalType(null)}
+            />
+          )}
+
+          {/* HIDDEN POSTER CONTAINER */}
+          <div className="fixed top-[-9999px] left-[-9999px]">
+            <PosterContainer id="poster-content" data={data} groupStandings={groupStandings} playerMap={playerMap} />
+          </div>
+        </div>
+      );
+    }
+
+    function MyMatchesTab({ data, playerMap, searchQuery, setSearchQuery, userVotes, onVote, onSelectMatch, showToast }) {
+      const filteredMatches = useMemo(() => {
+        if (!searchQuery.trim()) return [];
+        const q = searchQuery.toLowerCase().trim();
+        const matchedPlayers = (data.players || []).filter(p => p.name.toLowerCase().includes(q) || p.pin === q || p.team.toLowerCase().includes(q) || p.id.toLowerCase() === q);
+        const playerIds = new Set(matchedPlayers.map(p => p.id));
+
+        const groups = (data.groupMatches || []).filter(m => playerIds.has(m.p1_id) || playerIds.has(m.p2_id));
+        const knockouts = (data.knockoutMatches || []).filter(m => playerIds.has(m.p1_id) || playerIds.has(m.p2_id));
+
+        return { groups, knockouts, matchedPlayers };
+      }, [searchQuery, data, playerMap]);
+
+      return (
+        <div className="space-y-6">
+          <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 text-center">
+            <h2 className="text-base font-bold text-white mb-1">🔍 查找选手对局 / 提交与核对比分</h2>
+            <p className="text-xs text-slate-400 mb-4">输入选手名字、DLS球队或个人 4 位 PIN 码定位比赛</p>
+            <div className="max-w-md mx-auto relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+                placeholder="例如: 阿杰 或 皇家马德里 或 PIN码..."
+                className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-indigo-500 transition"
+              />
+            </div>
+          </div>
+
+          {searchQuery.trim() ? (
+            <div className="space-y-6">
+              {filteredMatches.matchedPlayers.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  {filteredMatches.matchedPlayers.map(p => (
+                    <div key={p.id} className="bg-indigo-950 border border-indigo-800 px-3 py-1 rounded-lg text-xs flex items-center space-x-2">
+                      <span className="font-bold text-indigo-300">{p.name}</span>
+                      <span className="text-slate-400">({p.team})</span>
+                      <span className="bg-indigo-600 text-white px-1.5 py-0.5 rounded text-[10px]">PIN: {p.pin}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              <div className="space-y-3">
+                <h3 className="text-xs font-bold text-slate-300">小组赛阶段</h3>
+                {filteredMatches.groups.length === 0 ? (
+                  <p className="text-xs text-slate-500 bg-slate-900 p-4 rounded-xl border border-slate-800">未找到相关小组赛对局</p>
+                ) : (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {filteredMatches.groups.map(m => (
+                      <GroupMatchCard key={m.id} match={m} playerMap={playerMap} onSelect={onSelectMatch} showToast={showToast} />
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <div className="space-y-3">
+                <h3 className="text-xs font-bold text-slate-300">淘汰赛阶段</h3>
+                {filteredMatches.knockouts.length === 0 ? (
+                  <p className="text-xs text-slate-500 bg-slate-900 p-4 rounded-xl border border-slate-800">未找到相关淘汰赛对局</p>
+                ) : (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {filteredMatches.knockouts.map(m => (
+                      <KnockoutMatchCard
+                        key={m.id}
+                        match={m}
+                        playerMap={playerMap}
+                        predictions={data.predictions}
+                        userVotes={userVotes}
+                        onVote={onVote}
+                        onSelect={onSelectMatch}
+                        showToast={showToast}
+                      />
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          ) : (
+            <div className="bg-slate-900/60 p-8 rounded-2xl border border-slate-800/80 text-center space-y-2">
+              <div className="text-3xl">⚽</div>
+              <h3 className="text-sm font-bold text-slate-200">输入教练名字或 PIN 码搜索比赛</h3>
+              <p className="text-xs text-slate-400 max-w-sm mx-auto">找到对局后可直接输入 4 位 PIN 码录入比分或进行胜率预测投选。</p>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    function GroupStageTab({ data, playerMap, groupStandings, onSelectMatch, showToast }) {
+      const [selectedGroup, setSelectedGroup] = useState('ALL');
+      const displayGroups = selectedGroup === 'ALL' ? GROUPS : [selectedGroup];
+
+      const handleBatchCopyGroupNudges = () => {
+        const unplayedList = [];
+        displayGroups.forEach(g => {
+          const matches = (data.groupMatches || []).filter(m => m.group === g && m.status !== 'completed');
+          matches.forEach(m => {
+            const p1 = playerMap[m.p1_id] || { name: '待定', team: '' };
+            const p2 = playerMap[m.p2_id] || { name: '待定', team: '' };
+            unplayedList.push(`• @${p1.name}(${p1.team}) vs @${p2.name}(${p2.team}) [${g}组]`);
+          });
+        });
+
+        if (unplayedList.length === 0) {
+          showToast('当前选中的小组赛事已全部完赛！🎉', 'success');
+          return;
+        }
+
+        const text = `⚽【DLS 微信群联赛 · 小组赛催赛通知】\n以下对局尚未完成，请各位教练尽快完成比赛并提交比分：\n\n${unplayedList.join('\n')}\n\n👉 请登录微信比赛系统提交比分！`;
+        copyToClipboard(text, () => showToast(`已复制 ${unplayedList.length} 场未完赛催赛文本至剪贴板！`, 'success'));
+      };
+
+      return (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between gap-2 overflow-x-auto pb-2 custom-scrollbar">
+            <div className="flex items-center space-x-1.5 shrink-0">
+              <button
+                onClick={() => setSelectedGroup('ALL')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition ${
+                  selectedGroup === 'ALL' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                }`}
+              >
+                全部 16 组 (A-P)
+              </button>
+              {GROUPS.map(g => (
+                <button
+                  key={g}
+                  onClick={() => setSelectedGroup(g)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
+                    selectedGroup === g ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                  }`}
+                >
+                  {g}组
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={handleBatchCopyGroupNudges}
+              className="px-3 py-1.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs whitespace-nowrap shrink-0 shadow flex items-center space-x-1"
+            >
+              <span>📢 一键复制未完赛催赛清单</span>
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {displayGroups.map(g => {
+              const standings = groupStandings[g] || [];
+              const matches = (data.groupMatches || []).filter(m => m.group === g);
+              const isGroupComplete = matches.length > 0 && matches.every(m => m.status === 'completed');
+
+              return (
+                <div key={g} className="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden shadow-lg flex flex-col">
+                  <div className="bg-slate-800/80 px-4 py-2.5 border-b border-slate-700/60 flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <span className="w-5 h-5 rounded bg-indigo-600 text-white text-xs font-bold flex items-center justify-center">
+                        {g}
+                      </span>
+                      <h3 className="font-bold text-white text-xs">{g} 小组积分榜</h3>
+                    </div>
+                    {isGroupComplete ? (
+                      <span className="bg-emerald-500/20 text-emerald-400 text-[10px] font-bold px-2 py-0.5 rounded border border-emerald-500/30">
+                        ✓ 完赛 (前2出线)
+                      </span>
+                    ) : (
+                      <span className="text-[11px] text-slate-400">进行中 ({matches.filter(m => m.status === 'completed').length}/{matches.length})</span>
+                    )}
+                  </div>
+
+                  <div className="p-3 overflow-x-auto">
+                    <table className="w-full text-left text-xs">
+                      <thead>
+                        <tr className="text-slate-400 border-b border-slate-800 pb-1.5 text-[11px]">
+                          <th className="pb-1.5 pl-1">排名</th>
+                          <th className="pb-1.5">教练 (球队)</th>
+                          <th className="pb-1.5 text-center">已打</th>
+                          <th className="pb-1.5 text-center">胜/平/负</th>
+                          <th className="pb-1.5 text-center">进/失</th>
+                          <th className="pb-1.5 text-right pr-1">积分</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-slate-800/50">
+                        {standings.map((p, idx) => {
+                          const isTop2 = idx < 2 && isGroupComplete;
+                          return (
+                            <tr key={p.id} className={isTop2 ? 'bg-emerald-950/20 font-semibold' : ''}>
+                              <td className="py-2 pl-1">
+                                <span className={`w-4 h-4 rounded-full text-[10px] flex items-center justify-center font-bold ${
+                                  idx === 0 ? 'bg-amber-500 text-slate-950' : idx === 1 ? 'bg-slate-300 text-slate-950' : 'text-slate-500'
+                                }`}>
+                                  {idx + 1}
+                                </span>
+                              </td>
+                              <td className="py-2">
+                                <span className="text-slate-200 block font-bold truncate">{p.name}</span>
+                                <span className="text-[10px] text-slate-400 block truncate">{p.team}</span>
+                              </td>
+                              <td className="py-2 text-center text-slate-400">{p.played}</td>
+                              <td className="py-2 text-center text-slate-400">{p.won}/{p.drawn}/{p.lost}</td>
+                              <td className="py-2 text-center text-slate-400">{p.ptsFor}:{p.ptsAgainst}</td>
+                              <td className="py-2 text-right pr-1 font-bold text-amber-400">{p.points}</td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div className="p-3 bg-slate-950/50 border-t border-slate-800 space-y-2 mt-auto">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {matches.map(m => (
+                        <GroupMatchCard key={m.id} match={m} playerMap={playerMap} onSelect={onSelectMatch} showToast={showToast} />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+    }
+
+    function KnockoutTab({ data, playerMap, userVotes, onVote, onSelectMatch, showToast }) {
+      const [roundFilter, setRoundFilter] = useState('32_strong');
+
+      const rounds = [
+        { id: '32_strong', label: '32 强 (双回合)' },
+        { id: '16_strong', label: '16 强 (双回合)' },
+        { id: '8_strong', label: '8 强 (双回合)' },
+        { id: 'semi_final', label: '半决赛 (双回合)' },
+        { id: 'finals', label: '季军赛(Bo3) & 终极总决赛(Bo5)' }
+      ];
+
+      const currentMatches = useMemo(() => {
+        if (roundFilter === 'finals') {
+          return (data.knockoutMatches || []).filter(m => m.round === 'third_place' || m.round === 'final');
+        }
+        return (data.knockoutMatches || []).filter(m => m.round === roundFilter);
+      }, [data.knockoutMatches, roundFilter]);
+
+      const handleBatchCopyKnockoutNudges = () => {
+        const unplayedList = [];
+        currentMatches.forEach(m => {
+          if (m.status !== 'completed' && m.p1_id && m.p2_id) {
+            const p1 = playerMap[m.p1_id] || { name: '待定', team: '' };
+            const p2 = playerMap[m.p2_id] || { name: '待定', team: '' };
+            unplayedList.push(`• @${p1.name}(${p1.team}) vs @${p2.name}(${p2.team}) [${m.title}]`);
+          }
+        });
+
+        if (unplayedList.length === 0) {
+          showToast('当前阶段所有对局均已完赛或尚未产生对阵！', 'info');
+          return;
+        }
+
+        const roundObj = rounds.find(r => r.id === roundFilter);
+        const text = `⚽【DLS 微信群联赛 · 淘汰赛(${roundObj?.label || ''})催赛通知】\n以下淘汰赛对局尚未完成，请教练尽快约战：\n\n${unplayedList.join('\n')}\n\n👉 比赛结束后请及时提交比分！`;
+        copyToClipboard(text, () => showToast(`已复制 ${unplayedList.length} 场淘汰赛催赛文本至剪贴板！`, 'success'));
+      };
+
+      return (
+        <div className="space-y-6">
+          <div className="flex items-center justify-between gap-2 overflow-x-auto pb-2 custom-scrollbar">
+            <div className="flex items-center space-x-2 shrink-0">
+              {rounds.map(r => (
+                <button
+                  key={r.id}
+                  onClick={() => setRoundFilter(r.id)}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition ${
+                    roundFilter === r.id ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800'
+                  }`}
+                >
+                  {r.label}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={handleBatchCopyKnockoutNudges}
+              className="px-3 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs whitespace-nowrap shrink-0 shadow flex items-center space-x-1"
+            >
+              <span>📢 一键复制本轮催赛清单</span>
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {currentMatches.map(m => (
+              <KnockoutMatchCard
+                key={m.id}
+                match={m}
+                playerMap={playerMap}
+                predictions={data.predictions}
+                userVotes={userVotes}
+                onVote={onVote}
+                onSelect={onSelectMatch}
+                showToast={showToast}
+              />
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    function AdminTab({ data, saveState, setUserVotes, adminLoggedIn, setAdminLoggedIn, showToast }) {
+      const [newTitle, setNewTitle] = useState(data.title);
+      const [confirmAction, setConfirmAction] = useState(null);
+      const [rawPlayersText, setRawPlayersText] = useState('');
+      const [adminInputPin, setAdminInputPin] = useState('');
+
+      if (!adminLoggedIn) {
+        return (
+          <div className="bg-slate-900 p-6 rounded-xl border border-slate-800 max-w-sm mx-auto text-center space-y-4">
+            <h2 className="text-base font-bold text-white">管理员后台登录</h2>
+            <p className="text-xs text-slate-400">请输入管理员密码以开启控制台</p>
+            <input
+              type="password"
+              value={adminInputPin}
+              onChange={e => setAdminInputPin(e.target.value)}
+              placeholder="请输入管理员密码"
+              className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-center text-xs text-white font-mono focus:outline-none focus:border-indigo-500"
+              onKeyDown={e => {
+                if (e.key === 'Enter') {
+                  if (adminInputPin === data.adminPin) {
+                    setAdminLoggedIn(true);
+                    setAdminInputPin('');
+                    showToast("管理员登录成功！", "success");
+                  } else {
+                    showToast("密码错误，请重新输入！", "error");
+                  }
+                }
+              }}
+            />
+            <button
+              onClick={() => {
+                if (adminInputPin === data.adminPin) {
+                  setAdminLoggedIn(true);
+                  setAdminInputPin('');
+                  showToast("管理员登录成功！", "success");
+                } else {
+                  showToast("密码错误，请重新输入！", "error");
+                }
+              }}
+              className="w-full py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white transition shadow"
+            >
+              验证登录
+            </button>
+          </div>
+        );
+      }
+
+      const handleBatchImportPlayers = () => {
+        if (!rawPlayersText.trim()) {
+          showToast('请先粘贴新一期的参赛选手名单', 'error');
+          return;
+        }
+
+        const lines = rawPlayersText.split('\n').map(l => l.trim()).filter(Boolean);
+        if (lines.length < 4) {
+          showToast('最少请输入 4 名选手才能开赛', 'error');
+          return;
+        }
+
+        const parsedPlayers = lines.map(line => {
+          const parts = line.split(/\s+/);
+          return {
+            name: parts[0],
+            team: parts[1] || DLS_TEAMS[Math.floor(Math.random() * DLS_TEAMS.length)]
+          };
+        });
+
+        const fresh = generateBlankData(parsedPlayers, newTitle || "DLS 微信群欧冠级足球联赛");
+        fresh.supabaseUrl = data.supabaseUrl;
+        fresh.supabaseAnonKey = data.supabaseAnonKey;
+        saveState(fresh);
+        setUserVotes({});
+        localStorage.removeItem('dls_user_votes_v6');
+        showToast(`成功导入 ${parsedPlayers.length} 名选手并开启新一期赛事！`, 'success');
+        setRawPlayersText('');
+      };
+
+      const handleExecuteClearBlank = () => {
+        const fresh = generateBlankData(data.players || [], data.title);
+        fresh.supabaseUrl = data.supabaseUrl;
+        fresh.supabaseAnonKey = data.supabaseAnonKey;
+        saveState(fresh);
+        setUserVotes({});
+        localStorage.removeItem('dls_user_votes_v6');
+        showToast('已清空当前期赛程与比分！', 'success');
+        setConfirmAction(null);
+      };
+
+      return (
+        <div className="space-y-5">
+          <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 flex items-center justify-between">
+            <h2 className="text-sm font-bold text-white">⚙️ 管理员操作控制台</h2>
+            <button
+              onClick={() => setAdminLoggedIn(false)}
+              className="px-2.5 py-1 rounded bg-red-950 text-red-400 hover:bg-red-900 text-xs font-bold"
+            >
+              退出管理身份
+            </button>
+          </div>
+
+          {/* SUPABASE CONFIG MODULE */}
+          <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-2">
+            <h3 className="text-xs font-bold text-emerald-400 flex items-center space-x-1">
+              <span>☁️ Supabase 云端实时同步状态</span>
+            </h3>
+            <p className="text-[11px] text-slate-300 leading-relaxed bg-slate-950 p-2.5 rounded-lg border border-slate-800">
+              云端连接凭证已直接保存在 index.html 源码中（默认连接已生效），无需在后台反复修改。全群提交比分均可在 0.5 秒内瞬间全员自动刷新！
+            </p>
+          </div>
+
+          <div className="bg-indigo-950/40 border border-indigo-800/80 p-4 rounded-xl space-y-2 text-xs">
+            <h3 className="font-bold text-indigo-300 flex items-center space-x-1">
+              <span>📥 每一期参赛选手录入操作指南</span>
+            </h3>
+            <ol className="list-decimal list-inside text-slate-300 space-y-1 text-[11px] leading-relaxed">
+              <li>在微信群内收集报名名单（例：<code className="text-amber-400 bg-slate-950 px-1 rounded">阿杰 皇家马德里</code> 或仅名字 <code className="text-amber-400 bg-slate-950 px-1 rounded">老王</code>）。</li>
+              <li>粘贴至下方文本框中，每行一位选手。若未指定球队，系统将随机分配豪门。</li>
+              <li>点击“🚀 导入名单并开启新一期”，系统将自动抽签分配 16 个小组 (A-P) 并重置赛程。</li>
+              <li>将底部的 **4 位 PIN 码表** 发给群友，群友即可凭 PIN 码比赛与提交比分！</li>
+            </ol>
+          </div>
+
+          <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 className="text-xs font-bold text-slate-300">📝 批量录入新一期选手名单</h3>
+            <textarea
+              rows={5}
+              value={rawPlayersText}
+              onChange={e => setRawPlayersText(e.target.value)}
+              placeholder="格式例：&#10;阿杰 皇家马德里&#10;老王 曼城&#10;小李 巴黎圣日耳曼&#10;战神"
+              className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-xs text-white font-mono focus:outline-none focus:border-indigo-500"
+            />
+            <button
+              onClick={handleBatchImportPlayers}
+              className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white transition shadow"
+            >
+              🚀 导入名单并开启全新一期赛事
+            </button>
+          </div>
+
+          <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 className="text-xs font-bold text-slate-300">修改本期联赛标题</h3>
+            <div className="flex space-x-2">
+              <input
+                type="text"
+                value={newTitle}
+                onChange={e => setNewTitle(e.target.value)}
+                className="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white focus:outline-none"
+              />
+              <button
+                onClick={() => {
+                  saveState({ ...data, title: newTitle });
+                  showToast('标题已成功保存', 'success');
+                }}
+                className="px-3 py-1.5 rounded-lg bg-indigo-600 text-xs font-bold text-white"
+              >
+                保存标题
+              </button>
+            </div>
+          </div>
+
+          <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 className="text-xs font-bold text-slate-300">本期比赛比分清空</h3>
+            <button
+              onClick={() => setConfirmAction('clear_blank')}
+              className="px-3 py-2 rounded-lg bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs transition"
+            >
+              🧹 清空当前期所有比赛比分与预测
+            </button>
+
+            {confirmAction === 'clear_blank' && (
+              <div className="bg-red-950/60 border border-red-800/80 p-3 rounded-xl space-y-2">
+                <p className="text-xs font-bold text-red-200">
+                  ⚠️ 确定要清空本期当前已录入的所有比赛成绩与胜率预测吗？选手名单与分组将保留。
+                </p>
+                <div className="flex space-x-2">
+                  <button
+                    onClick={handleExecuteClearBlank}
+                    className="px-3 py-1 rounded bg-red-600 text-white font-bold text-xs"
+                  >
+                    确认清空比分
+                  </button>
+                  <button
+                    onClick={() => setConfirmAction(null)}
+                    className="px-3 py-1 rounded bg-slate-800 text-slate-300 font-bold text-xs"
+                  >
+                    取消
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+
+          <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
+            <h3 className="text-xs font-bold text-slate-300">本期选手 4 位 PIN 码对照表</h3>
+            <div className="max-h-64 overflow-y-auto custom-scrollbar border border-slate-800 rounded-lg">
+              <table className="w-full text-left text-xs table-fixed">
+                <thead className="bg-slate-950 text-slate-400 sticky top-0">
+                  <tr>
+                    <th className="p-2 w-16">ID</th>
+                    <th className="p-2">教练 (球队)</th>
+                    <th className="p-2 w-20">小组</th>
+                    <th className="p-2 w-24">PIN 码</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-800/50">
+                  {(data.players || []).map(p => (
+                    <tr key={p.id}>
+                      <td className="p-2 font-mono text-slate-500 truncate">{p.id}</td>
+                      <td className="p-2 font-bold text-white truncate">{p.name} <span className="text-slate-400 font-normal">({p.team})</span></td>
+                      <td className="p-2 truncate"><span className="bg-slate-800 px-1.5 py-0.5 rounded text-indigo-400 font-bold">{p.group}组</span></td>
+                      <td className="p-2 truncate"><span className="bg-indigo-900 text-indigo-300 font-mono font-bold px-1.5 py-0.5 rounded">{p.pin}</span></td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function GroupMatchCard({ match, playerMap, onSelect, showToast }) {
+      const p1 = playerMap[match.p1_id] || { name: '待定', team: '' };
+      const p2 = playerMap[match.p2_id] || { name: '待定', team: '' };
+      const isDone = match.status === 'completed';
+      const isAwaiting = match.status === 'awaiting_confirm';
+
+      const handleSingleNudge = (e) => {
+        e.stopPropagation();
+        const text = `@${p1.name}(${p1.team}) @${p2.name}(${p2.team}) ${match.group}组小组赛对局请于今晚前完成并提交比分！👉比赛链接`;
+        copyToClipboard(text, () => showToast(`已复制对局催赛文本！可直接粘贴至微信群`, 'success'));
+      };
+
+      return (
+        <div className={`bg-slate-950 rounded-xl p-2.5 border ${
+          isAwaiting ? 'border-amber-500/60 bg-amber-950/20' : isDone ? 'border-slate-800' : 'border-indigo-900/40'
+        } flex items-center justify-between space-x-2`}>
+          <div className="flex-1 space-y-1 min-w-0">
+            <div className="flex items-center justify-between text-xs">
+              <span className="truncate font-semibold text-slate-200">
+                {p1.name} <span className="text-[10px] text-slate-500">({p1.team})</span>
+              </span>
+              <span className="font-bold font-mono ml-2 text-indigo-300">
+                {isAwaiting ? `(${match.pending_score?.p1})` : match.p1_score ?? '-'}
+              </span>
+            </div>
+            <div className="flex items-center justify-between text-xs">
+              <span className="truncate font-semibold text-slate-200">
+                {p2.name} <span className="text-[10px] text-slate-500">({p2.team})</span>
+              </span>
+              <span className="font-bold font-mono ml-2 text-indigo-300">
+                {isAwaiting ? `(${match.pending_score?.p2})` : match.p2_score ?? '-'}
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center space-x-1 shrink-0">
+            {!isDone && (
+              <button
+                onClick={handleSingleNudge}
+                title="复制单场微信催赛文本"
+                className="px-1.5 py-1 rounded text-[10px] font-bold bg-amber-950 text-amber-300 border border-amber-800 hover:bg-amber-900"
+              >
+                📢 催赛
+              </button>
+            )}
+            <button
+              onClick={() => onSelect(match)}
+              className={`px-2 py-1 rounded text-[11px] font-bold whitespace-nowrap ${
+                isAwaiting ? 'bg-amber-600 hover:bg-amber-500 text-white animate-pulse' :
+                isDone ? 'bg-slate-800 hover:bg-slate-700 text-slate-300' : 'bg-indigo-600 hover:bg-indigo-500 text-white'
+              }`}
+            >
+              {isAwaiting ? '核对' : isDone ? '修改' : '录入'}
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    function KnockoutMatchCard({ match, playerMap, predictions, userVotes, onVote, onSelect, showToast }) {
+      const p1 = playerMap[match.p1_id] || { name: match.p1_source ? `小组 ${match.p1_source}` : '待定', team: '' };
+      const p2 = playerMap[match.p2_id] || { name: match.p2_source ? `小组 ${match.p2_source}` : '待定', team: '' };
+      const isDone = match.status === 'completed';
+      const isAwaiting = match.status === 'awaiting_confirm';
+      const needsDecider = match.status === 'needs_decider';
+
+      const leg1 = match.leg1 || {};
+      const leg2 = match.leg2 || {};
+      const leg3 = match.leg3 || {};
+
+      const agg1 = (leg1.p1 || 0) + (leg2.p1 || 0);
+      const agg2 = (leg1.p2 || 0) + (leg2.p2 || 0);
+
+      const pred = predictions?.[match.id] || { p1Votes: 0, p2Votes: 0 };
+      const totalVotes = pred.p1Votes + pred.p2Votes;
+      const p1Pct = totalVotes > 0 ? Math.round((pred.p1Votes / totalVotes) * 100) : 50;
+      const p2Pct = totalVotes > 0 ? 100 - p1Pct : 50;
+      const userVoteChoice = userVotes[match.id];
+
+      const handleSingleNudge = () => {
+        if (!match.p1_id || !match.p2_id) return;
+        const text = `@${p1.name}(${p1.team}) @${p2.name}(${p2.team}) ${match.title}淘汰赛请于今晚完成比赛并提交比分！👉比赛链接`;
+        copyToClipboard(text, () => showToast(`已复制淘汰赛催赛文本至剪贴板！`, 'success'));
+      };
+
+      return (
+        <div className={`bg-slate-900 rounded-xl p-3.5 border ${
+          needsDecider ? 'border-amber-500 shadow-amber-500/10' :
+          isAwaiting ? 'border-amber-500/80 bg-amber-950/10' :
+          isDone ? 'border-slate-800' : 'border-slate-800'
+        } space-y-2.5`}>
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] font-bold text-indigo-400 bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-800/50">
+              {match.title}
+            </span>
+            <div className="flex items-center space-x-1.5">
+              {!isDone && match.p1_id && match.p2_id && (
+                <button
+                  onClick={handleSingleNudge}
+                  className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-950 text-amber-300 border border-amber-800 hover:bg-amber-900"
+                >
+                  📢 催赛
+                </button>
+              )}
+              {isAwaiting ? (
+                <span className="text-[10px] font-bold bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded border border-amber-500/30 animate-pulse">
+                  ⚠️ 待对手核对确认
+                </span>
+              ) : needsDecider ? (
+                <span className="text-[10px] font-bold bg-amber-500 text-slate-950 px-2 py-0.5 rounded">
+                  💥 总进球平局！解锁加赛第3场(含点球)
+                </span>
+              ) : isDone ? (
+                <span className="text-[10px] font-bold bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/30">
+                  已完赛
+                </span>
+              ) : (
+                <span className="text-[11px] text-slate-400">进行中</span>
+              )}
+            </div>
+          </div>
+
+          <div className="space-y-1.5 bg-slate-950 p-2.5 rounded-lg border border-slate-800 text-xs">
+            <div className="flex items-center justify-between">
+              <span className={`font-bold truncate ${match.winner_id === match.p1_id ? 'text-amber-400' : 'text-slate-200'}`}>
+                {p1.name} <span className="text-[10px] font-normal text-slate-500">({p1.team})</span> {match.winner_id === match.p1_id && '🏆'}
+              </span>
+              <span className="font-mono font-bold text-indigo-300">
+                {match.format === 'two_legs' ? `总进球: ${agg1}` : ''}
+              </span>
+            </div>
+            <div className="flex items-center justify-between">
+              <span className={`font-bold truncate ${match.winner_id === match.p2_id ? 'text-amber-400' : 'text-slate-200'}`}>
+                {p2.name} <span className="text-[10px] font-normal text-slate-500">({p2.team})</span> {match.winner_id === match.p2_id && '🏆'}
+              </span>
+              <span className="font-mono font-bold text-indigo-300">
+                {match.format === 'two_legs' ? `总进球: ${agg2}` : ''}
+              </span>
+            </div>
+          </div>
+
+          {match.format === 'two_legs' && (
+            <div className="grid grid-cols-3 gap-1 text-[10px] text-center text-slate-400 bg-slate-950/50 p-1.5 rounded">
+              <div>
+                <span className="block text-slate-500">第1回合</span>
+                <span className="font-mono font-bold text-slate-300">{leg1.status === 'completed' ? `${leg1.p1}-${leg1.p2}` : '-'}</span>
+              </div>
+              <div>
+                <span className="block text-slate-500">第2回合</span>
+                <span className="font-mono font-bold text-slate-300">{leg2.status === 'completed' ? `${leg2.p1}-${leg2.p2}` : '-'}</span>
+              </div>
+              <div className={needsDecider ? 'text-amber-400 font-bold' : ''}>
+                <span className="block text-slate-500">加赛第3场(含点球)</span>
+                <span className="font-mono font-bold">
+                  {leg3.status === 'completed' 
+                    ? `${leg3.p1}-${leg3.p2}` + (leg3.penalty_winner ? ` (点球:${playerMap[leg3.penalty_winner === 'p1' ? match.p1_id : match.p2_id]?.name || ''}胜)` : '')
+                    : needsDecider ? '待加赛' : '-'}
+                </span>
+              </div>
+            </div>
+          )}
+
+          {match.p1_id && match.p2_id && (
+            <div className="bg-slate-950/60 p-2 rounded-lg border border-slate-800/80 space-y-1.5">
+              <div className="flex items-center justify-between text-[10px] text-slate-400">
+                <span>🗳️ 胜率预测 ({totalVotes}人参与)</span>
+                {userVoteChoice && <span className="text-emerald-400 font-bold">已预测</span>}
+              </div>
+              <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden flex">
+                <div style={{ width: `${p1Pct}%` }} className="bg-indigo-500 h-full"></div>
+                <div style={{ width: `${p2Pct}%` }} className="bg-amber-500 h-full"></div>
+              </div>
+              <div className="flex justify-between items-center text-[10px]">
+                <button
+                  onClick={() => onVote(match.id, 'p1')}
+                  disabled={isDone || !!userVoteChoice}
+                  className="text-indigo-300 hover:underline"
+                >
+                  支持 {p1.name} ({p1Pct}%)
+                </button>
+                <button
+                  onClick={() => onVote(match.id, 'p2')}
+                  disabled={isDone || !!userVoteChoice}
+                  className="text-amber-300 hover:underline"
+                >
+                  支持 {p2.name} ({p2Pct}%)
+                </button>
+              </div>
+            </div>
+          )}
+
+          <button
+            onClick={() => onSelect(match)}
+            disabled={!match.p1_id || !match.p2_id}
+            className={`w-full py-1.5 rounded-lg text-xs font-bold text-white transition ${
+              isAwaiting ? 'bg-amber-600 hover:bg-amber-500 animate-pulse' : 'bg-indigo-600 hover:bg-indigo-500'
+            }`}
+          >
+            {isAwaiting ? '核对并确认比分' : '录入 / 更新比分'}
+          </button>
+        </div>
+      );
+    }
+
+    function ScoreModal({ match, playerMap, adminLoggedIn, onClose, onSubmit }) {
+      const p1 = playerMap[match.p1_id] || { name: '教练1', team: '' };
+      const p2 = playerMap[match.p2_id] || { name: '教练2', team: '' };
+
+      const [pin, setPin] = useState('');
+      const [legTarget, setLegTarget] = useState(1);
+      const [gameIndex, setGameIndex] = useState(0);
+      const [p1Score, setP1Score] = useState(match.pending_score?.p1 ?? '');
+      const [p2Score, setP2Score] = useState(match.pending_score?.p2 ?? '');
+      const [penaltyWinner, setPenaltyWinner] = useState('p1');
+
+      const isGroup = match.id.startsWith('G-');
+      const isAwaitingConfirm = match.status === 'awaiting_confirm';
+      const submitterName = match.pending_score?.submitted_by ? playerMap[match.pending_score.submitted_by]?.name : null;
+
+      return (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 w-full max-w-sm rounded-xl p-5 space-y-4 shadow-xl">
+            <div className="flex items-center justify-between border-b border-slate-800 pb-2">
+              <h3 className="font-bold text-white text-sm">录入 / 修改 / 确认比分</h3>
+              <button onClick={onClose} className="text-slate-400 font-bold">✕</button>
+            </div>
+
+            {isAwaitingConfirm && (
+              <div className="bg-amber-950/50 border border-amber-500/50 p-2.5 rounded-lg text-xs space-y-1">
+                <span className="font-bold text-amber-400 block">⚠️ 待对方核对确认</span>
+                <p className="text-slate-300 text-[11px]">
+                  {submitterName ? `[${submitterName}]` : '对手'} 已暂存比分：<strong className="text-amber-400">{p1.name} {match.pending_score?.p1} - {match.pending_score?.p2} {p2.name}</strong>。
+                  请核对无误后输入你的 PIN 码点击“确认比分”，或直接修改重新提交。
+                </p>
+              </div>
+            )}
+
+            {!isGroup && match.format === 'two_legs' && (
+              <div className="grid grid-cols-3 gap-1.5">
+                {[1, 2, 3].map(leg => (
+                  <button
+                    key={leg}
+                    onClick={() => setLegTarget(leg)}
+                    className={`py-1 rounded text-xs font-bold ${legTarget === leg ? 'bg-indigo-600 text-white' : 'bg-slate-950 text-slate-400'}`}
+                  >
+                    {leg === 3 ? '加赛第3场' : `第 ${leg} 回合`}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            <div className="grid grid-cols-2 gap-3 bg-slate-950 p-3 rounded-lg border border-slate-800">
+              <div className="text-center space-y-1">
+                <span className="block font-bold text-xs text-white truncate">{p1.name}</span>
+                <input
+                  type="number"
+                  value={p1Score}
+                  onChange={e => setP1Score(e.target.value)}
+                  placeholder="进球"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg py-1.5 text-center text-lg font-bold font-mono text-amber-400 focus:outline-none"
+                />
+              </div>
+              <div className="text-center space-y-1">
+                <span className="block font-bold text-xs text-white truncate">{p2.name}</span>
+                <input
+                  type="number"
+                  value={p2Score}
+                  onChange={e => setP2Score(e.target.value)}
+                  placeholder="进球"
+                  className="w-full bg-slate-900 border border-slate-700 rounded-lg py-1.5 text-center text-lg font-bold font-mono text-amber-400 focus:outline-none"
+                />
+              </div>
+            </div>
+
+            {!adminLoggedIn && (
+              <div>
+                <input
+                  type="password"
+                  maxLength={4}
+                  value={pin}
+                  onChange={e => setPin(e.target.value)}
+                  placeholder="输入个人 4 位 PIN 码"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-center font-mono text-xs text-white focus:outline-none"
+                />
+              </div>
+            )}
+
+            <div className="flex space-x-2">
+              {isAwaitingConfirm && (
+                <button
+                  onClick={() => {
+                    if (p1Score === '' || p2Score === '') return;
+                    onSubmit(match.id, { p1: p1Score, p2: p2Score, leg: legTarget, gameIndex, penaltyWinner }, pin, true);
+                  }}
+                  className="flex-1 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 font-bold text-xs text-white shadow"
+                >
+                  ✅ 确认核准比分
+                </button>
+              )}
+              <button
+                onClick={() => {
+                  if (p1Score === '' || p2Score === '') return;
+                  onSubmit(match.id, { p1: p1Score, p2: p2Score, leg: legTarget, gameIndex, penaltyWinner }, pin, false);
+                }}
+                className="flex-1 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white shadow"
+              >
+                {isAwaitingConfirm ? '修改并重新提交' : '提交比分'}
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function ChampionTreeModal({ data, playerMap, onClose, onExportTree }) {
+      const knockouts = data.knockoutMatches || [];
+      
+      const upperR32 = knockouts.filter(m => m.round === '32_strong' && m.half === 'upper');
+      const upperR16 = knockouts.filter(m => m.round === '16_strong' && m.half === 'upper');
+      const upperR8 = knockouts.filter(m => m.round === '8_strong' && m.half === 'upper');
+      const upperSemi = knockouts.find(m => m.round === 'semi_final' && m.half === 'upper');
+
+      const lowerR32 = knockouts.filter(m => m.round === '32_strong' && m.half === 'lower');
+      const lowerR16 = knockouts.filter(m => m.round === '16_strong' && m.half === 'lower');
+      const lowerR8 = knockouts.filter(m => m.round === '8_strong' && m.half === 'lower');
+      const lowerSemi = knockouts.find(m => m.round === 'semi_final' && m.half === 'lower');
+
+      const finalMatch = knockouts.find(m => m.round === 'final');
+      const thirdMatch = knockouts.find(m => m.round === 'third_place');
+      const champion = finalMatch?.winner_id ? playerMap[finalMatch.winner_id] : null;
+
+      const renderTreeNode = (m) => {
+        if (!m) return <div className="bg-slate-900 border border-slate-800 rounded p-1 text-[10px] w-24 text-slate-600 text-center">待定</div>;
+        const p1 = playerMap[m.p1_id] || { name: m.p1_source || '待定', team: '' };
+        const p2 = playerMap[m.p2_id] || { name: m.p2_source || '待定', team: '' };
+
+        let p1ScoreDisplay = '-';
+        let p2ScoreDisplay = '-';
+
+        if (m.format === 'two_legs') {
+          const l1 = m.leg1 || {};
+          const l2 = m.leg2 || {};
+          if (l1.status === 'completed' || l2.status === 'completed') {
+            const agg1 = (l1.p1 || 0) + (l2.p1 || 0);
+            const agg2 = (l1.p2 || 0) + (l2.p2 || 0);
+            p1ScoreDisplay = agg1;
+            p2ScoreDisplay = agg2;
+          }
+        }
+
+        return (
+          <div key={m.id} className="bg-slate-900 border border-slate-750/80 rounded-lg p-1.5 text-[10px] w-28 sm:w-32 space-y-1 shadow-md shrink-0">
+            <div className={`flex items-center justify-between font-semibold truncate ${m.winner_id === m.p1_id ? 'text-amber-400 font-bold' : 'text-slate-200'}`}>
+              <span className="truncate max-w-[80px]">{p1.name}</span>
+              <span className="font-mono bg-slate-950 px-1 rounded text-indigo-300 ml-1">{p1ScoreDisplay}</span>
+            </div>
+            <div className={`flex items-center justify-between font-semibold truncate ${m.winner_id === m.p2_id ? 'text-amber-400 font-bold' : 'text-slate-200'}`}>
+              <span className="truncate max-w-[80px]">{p2.name}</span>
+              <span className="font-mono bg-slate-950 px-1 rounded text-indigo-300 ml-1">{p2ScoreDisplay}</span>
+            </div>
+          </div>
+        );
+      };
+
+      const TreeConnectorDown = () => (
+        <div className="w-full flex flex-col items-center my-0.5">
+          <div className="w-1/2 h-2 border-l-2 border-r-2 border-b-2 border-slate-700 rounded-b"></div>
+          <div className="w-0.5 h-2 bg-slate-700"></div>
+        </div>
+      );
+
+      const TreeConnectorUp = () => (
+        <div className="w-full flex flex-col items-center my-0.5">
+          <div className="w-0.5 h-2 bg-slate-700"></div>
+          <div className="w-1/2 h-2 border-l-2 border-r-2 border-t-2 border-slate-700 rounded-t"></div>
+        </div>
+      );
+
+      return (
+        <div className="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md overflow-y-auto p-4 sm:p-6">
+          <div className="max-w-6xl w-full mx-auto bg-slate-950 border border-slate-800 rounded-2xl p-4 sm:p-6 space-y-4 my-4 sm:my-8 shadow-2xl">
+            <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+              <div>
+                <h3 className="font-bold text-white text-base flex items-center space-x-2">
+                  <span>🏆 淘汰赛冠军之路对局树状图</span>
+                </h3>
+                <p className="text-[11px] text-slate-400">上下双区对向汇聚模式 (懂球帝大赛经典战报风格)</p>
+              </div>
+              <div className="flex space-x-2">
+                <button onClick={onExportTree} className="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white shadow">
+                  📸 一键导出树状图海报
+                </button>
+                <button onClick={onClose} className="text-slate-400 font-bold px-2 hover:text-white">✕</button>
+              </div>
+            </div>
+
+            <div id="champion-tree-content" className="p-4 bg-slate-950 border border-slate-900 rounded-2xl overflow-x-auto custom-scrollbar flex flex-col items-center space-y-6">
+              
+              {/* TOP HALF (FLOWS DOWNWARDS) */}
+              <div className="w-full flex flex-col items-center space-y-3 min-w-[720px]">
+                <div className="bg-indigo-950/60 border border-indigo-800/80 px-4 py-1 rounded-full text-xs font-bold text-indigo-300">
+                  ⚔️ 上半区 (Upper Half · A - H 组)
+                </div>
+
+                <div className="grid grid-cols-8 gap-2 w-full justify-items-center">
+                  {upperR32.map(m => renderTreeNode(m))}
+                </div>
+
+                <div className="grid grid-cols-4 gap-2 w-full justify-items-center">
+                  {Array.from({ length: 4 }).map((_, i) => <TreeConnectorDown key={i} />)}
+                </div>
+
+                <div className="grid grid-cols-4 gap-4 w-full justify-items-center">
+                  {upperR16.map(m => renderTreeNode(m))}
+                </div>
+
+                <div className="grid grid-cols-2 gap-4 w-full justify-items-center">
+                  {Array.from({ length: 2 }).map((_, i) => <TreeConnectorDown key={i} />)}
+                </div>
+
+                <div className="grid grid-cols-2 gap-8 w-full justify-items-center">
+                  {upperR8.map(m => renderTreeNode(m))}
+                </div>
+
+                <div className="w-full flex justify-center">
+                  <TreeConnectorDown />
+                </div>
+
+                <div className="flex justify-center">
+                  {renderTreeNode(upperSemi)}
+                </div>
+
+                <div className="w-0.5 h-4 bg-indigo-500"></div>
+              </div>
+
+              {/* CENTER FINALS AREA */}
+              <div className="w-full max-w-lg bg-gradient-to-b from-indigo-950/40 via-amber-950/30 to-indigo-950/40 border border-amber-500/50 p-5 rounded-2xl flex flex-col items-center space-y-3 shadow-2xl text-center">
+                <div className="flex items-center space-x-2">
+                  <span className="text-xl">🏆</span>
+                  <span className="text-sm font-black text-amber-400 uppercase tracking-widest">终极总决赛 (Bo5)</span>
+                  <span className="text-xl">🏆</span>
+                </div>
+
+                {renderTreeNode(finalMatch)}
+
+                <div className="bg-amber-500 text-slate-950 py-2 px-6 rounded-xl font-black text-xs shadow-xl min-w-[180px]">
+                  <span className="block text-[9px] uppercase tracking-wider opacity-80">👑 本期冠军教练</span>
+                  <span className="text-base block mt-0.5">{champion ? champion.name : '等待王者降临'}</span>
+                  {champion && <span className="text-[10px] font-normal block opacity-90">({champion.team})</span>}
+                </div>
+
+                <div className="pt-2 border-t border-slate-800/80 w-full flex flex-col items-center space-y-1">
+                  <span className="text-[11px] font-bold text-slate-400">🥉 季军争夺战 (Bo3)</span>
+                  {renderTreeNode(thirdMatch)}
+                </div>
+              </div>
+
+              {/* BOTTOM HALF (FLOWS UPWARDS) */}
+              <div className="w-full flex flex-col items-center space-y-3 min-w-[720px]">
+                <div className="w-0.5 h-4 bg-indigo-500"></div>
+
+                <div className="flex justify-center">
+                  {renderTreeNode(lowerSemi)}
+                </div>
+
+                <div className="w-full flex justify-center">
+                  <TreeConnectorUp />
+                </div>
+
+                <div className="grid grid-cols-2 gap-8 w-full justify-items-center">
+                  {lowerR8.map(m => renderTreeNode(m))}
+                </div>
+
+                <div className="grid grid-cols-2 gap-4 w-full justify-items-center">
+                  {Array.from({ length: 2 }).map((_, i) => <TreeConnectorUp key={i} />)}
+                </div>
+
+                <div className="grid grid-cols-4 gap-4 w-full justify-items-center">
+                  {lowerR16.map(m => renderTreeNode(m))}
+                </div>
+
+                <div className="grid grid-cols-4 gap-2 w-full justify-items-center">
+                  {Array.from({ length: 4 }).map((_, i) => <TreeConnectorUp key={i} />)}
+                </div>
+
+                <div className="grid grid-cols-8 gap-2 w-full justify-items-center">
+                  {lowerR32.map(m => renderTreeNode(m))}
+                </div>
+
+                <div className="bg-indigo-950/60 border border-indigo-800/80 px-4 py-1 rounded-full text-xs font-bold text-indigo-300">
+                  ⚔️ 下半区 (Lower Half · I - P 组)
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    function PosterContainer({ id, data, groupStandings, playerMap }) {
+      return (
+        <div id={id} className="w-[600px] bg-slate-950 p-8 space-y-6 text-slate-100 border border-slate-800">
+          <div className="flex items-center justify-between border-b border-slate-800 pb-4">
+            <div>
+              <h1 className="text-xl font-black text-amber-400">{data.title}</h1>
+              <p className="text-xs text-slate-400">微信群官方战报 · 实时更新榜单</p>
+            </div>
+            <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center font-black text-xl">🏆</div>
+          </div>
+
+          <div className="space-y-3">
+            <h3 className="text-xs font-bold text-indigo-400 uppercase tracking-wider">📊 各小组出线态势</h3>
+            <div className="grid grid-cols-4 gap-2">
+              {GROUPS.map(g => {
+                const rank = groupStandings[g] || [];
+                return (
+                  <div key={g} className="bg-slate-900 p-2 rounded-lg border border-slate-800 text-[11px]">
+                    <span className="font-bold text-amber-400 block mb-0.5">{g} 组</span>
+                    <div className="text-[10px] space-y-0.5">
+                      <div className="truncate text-slate-200">1. {rank[0]?.name || '-'} ({rank[0]?.points || 0}分)</div>
+                      <div className="truncate text-slate-400">2. {rank[1]?.name || '-'} ({rank[1]?.points || 0}分)</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="text-center border-t border-slate-800 pt-4 text-[10px] text-slate-500">
+            生成时间: {new Date().toLocaleString('zh-CN')} · 微信群比赛管理系统
+          </div>
+        </div>
+      );
+    }
+
+    function ShareModal({ imageUrl, onClose }) {
+      return (
+        <div className="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 w-full max-w-lg rounded-2xl p-6 space-y-4 text-center">
+            <div className="flex items-center justify-between">
+              <h3 className="font-bold text-white text-base">📱 战报长图生成成功</h3>
+              <button onClick={onClose} className="text-slate-400 font-bold">✕</button>
+            </div>
+
+            <div className="bg-amber-950/60 border border-amber-500/50 p-2.5 rounded-xl text-xs text-amber-200 flex items-center justify-center space-x-1.5">
+              <span>💡 提示：长按上方战报图可直接【发送给微信好友】或【保存到相册】</span>
+            </div>
+
+            <div className="max-h-[55vh] overflow-y-auto rounded-xl border border-slate-800">
+              <img src={imageUrl} alt="微信战报长图" className="w-full h-auto" />
+            </div>
+            <a
+              href={imageUrl}
+              download="DLS微信群比赛战报.png"
+              className="block w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 font-bold text-xs text-white"
+            >
+              下载战报图片
+            </a>
+          </div>
+        </div>
+      );
+    }
+
+    function AdminLoginModal({ adminPin, adminLoggedIn, onLogin, onLogout, onClose }) {
+      const [pin, setPin] = useState('');
+      const [errorMsg, setErrorMsg] = useState('');
+
+      return (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 w-full max-w-sm rounded-2xl p-6 space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="font-bold text-white text-base">⚙️ 管理员认证</h3>
+              <button onClick={onClose} className="text-slate-400 font-bold">✕</button>
+            </div>
+            {adminLoggedIn ? (
+              <div className="space-y-4 text-center">
+                <p className="text-xs text-emerald-400 font-bold">✓ 已成功登录管理员身份</p>
+                <button onClick={onLogout} className="w-full py-2 rounded-xl bg-red-600 text-xs font-bold text-white">
+                  退出登录
+                </button>
+              </div>
+            ) : (
+              <div className="space-y-4">
+                <input
+                  type="password"
+                  value={pin}
+                  onChange={e => { setPin(e.target.value); setErrorMsg(''); }}
+                  placeholder="输入管理员密码"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2 text-center font-mono text-sm text-white focus:outline-none focus:border-indigo-500"
+                  onKeyDown={e => {
+                    if (e.key === 'Enter') {
+                      if (pin === adminPin) onLogin();
+                      else setErrorMsg('密码错误，请重新输入！');
+                    }
+                  }}
+                />
+                {errorMsg && <p className="text-xs text-red-400 font-bold text-center">{errorMsg}</p>}
+                <button
+                  onClick={() => {
+                    if (pin === adminPin) onLogin();
+                    else setErrorMsg('密码错误，请重新输入！');
+                  }}
+                  className="w-full py-2.5 rounded-xl bg-indigo-600 font-bold text-xs text-white"
+                >
+                  确认登录
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>

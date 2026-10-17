@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "Data/.keep",
+      "size": 1
+    },
+    {
+      "path": "Data/Player.json",
+      "size": 154544
+    }
+  ],
+  "pulled": [
+    "Data/Player.json"
+  ]
+}

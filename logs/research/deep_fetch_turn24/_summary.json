@@ -1,0 +1,329 @@
+{
+  "Larrycr7aaaa/DLS-FIFA-FC-PES-UCS--FTG-API": {
+    "total_files": 66,
+    "data_files": 5,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html",
+      "cards.html",
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "Larrycr7aaaa/specialcardsdls-api-and-database-css-html-js-json": {
+    "total_files": 54,
+    "data_files": 5,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html",
+      "cards.html",
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "Larrycr7aaaa/DLS26-API": {
+    "total_files": 2,
+    "data_files": 1,
+    "big_json": 0,
+    "pulled": [
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "Larrycr7aaaa/ultra-updated-dls26-and-api": {
+    "total_files": 50,
+    "data_files": 4,
+    "big_json": 0,
+    "pulled": [
+      "cards.html",
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "Larrycr7aaaa/26dls-41-cards-data": {
+    "total_files": 50,
+    "data_files": 4,
+    "big_json": 0,
+    "pulled": [
+      "cards.html",
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "Larrycr7aaaa/dls26-UPDTD": {
+    "total_files": 54,
+    "data_files": 4,
+    "big_json": 0,
+    "pulled": [
+      "cards.html",
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "Larrycr7aaaa/DLS-DATA-BASE": {
+    "total_files": 52,
+    "data_files": 4,
+    "big_json": 0,
+    "pulled": [
+      "cards.html",
+      "dls26-cards.json"
+    ],
+    "top_dirs": []
+  },
+  "fathidevs/DreamLeagueKit": {
+    "total_files": 154,
+    "data_files": 128,
+    "big_json": 0,
+    "pulled": [
+      "app/src/main/res/anim/close_host_card_animation.xml",
+      "app/src/main/res/anim/open_host_card_animation.xml",
+      "app/src/main/res/drawable/card_border.xml",
+      "app/src/test/java/com/gmail/dreamleaguekit/ExampleUnitTest.java",
+      "app/src/androidTest/java/com/gmail/dreamleaguekit/ExampleInstrumentedTest.java",
+      "app/src/main/res/animator/card_click_effect_at_saves.xml",
+      "app/src/main/res/animator/card_click_effect.xml",
+      "app/src/main/java/com/gmail/dreamleaguekit/modal/UsesModel.java"
+    ],
+    "top_dirs": [
+      ".idea",
+      "app",
+      "app/release",
+      "app/release/v1.1",
+      "app/release/v1.1/manual color set",
+      "app/src/androidTest/java/com/gmail/dreamleaguekit",
+      "app/src/main",
+      "app/src/main/java/com/gmail/dreamleaguekit",
+      "app/src/main/java/com/gmail/dreamleaguekit/create_kit",
+      "app/src/main/java/com/gmail/dreamleaguekit/favorite",
+      "app/src/main/java/com/gmail/dreamleaguekit/home",
+      "app/src/main/java/com/gmail/dreamleaguekit/modal",
+      "app/src/main/java/com/gmail/dreamleaguekit/posts",
+      "app/src/main/java/com/gmail/dreamleaguekit/profile",
+      "app/src/main/res/anim",
+      "app/src/main/res/animator",
+      "app/src/main/res/color",
+      "app/src/main/res/drawable",
+      "app/src/main/res/drawable-v24",
+      "app/src/main/res/layout"
+    ]
+  },
+  "FootballGamingBD/dls-player-db": {
+    "total_files": 14,
+    "data_files": 2,
+    "big_json": 0,
+    "pulled": [
+      "README.md",
+      "README.md",
+      "players.json"
+    ],
+    "top_dirs": []
+  },
+  "FootballGamingBD/DLS26_PlayerData": {
+    "total_files": 2,
+    "data_files": 1,
+    "big_json": 0,
+    "pulled": [
+      "Data/Player.json"
+    ],
+    "top_dirs": [
+      "Data"
+    ]
+  },
+  "FootballGamingBD/Player-Database": {
+    "total_files": 116,
+    "data_files": 0,
+    "big_json": 1,
+    "pulled": [],
+    "top_dirs": []
+  },
+  "FootballGamingBD/players": {
+    "total_files": 1,
+    "data_files": 1,
+    "big_json": 0,
+    "pulled": [
+      "README.md",
+      "README.md"
+    ],
+    "top_dirs": []
+  },
+  "FootballGamingBD/PlayerDls": {
+    "total_files": 272,
+    "data_files": 3,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html",
+      "Data/Player.json"
+    ],
+    "top_dirs": [
+      "Assets",
+      "Assets/CardBG",
+      "Assets/Cardborder",
+      "Assets/Flag",
+      "Assets/Players",
+      "Assets/Positionbox",
+      "Assets/Staricon",
+      "Assets/Yearbox",
+      "Assets/rating circle",
+      "Data"
+    ]
+  },
+  "FootballGamingBD/Dls": {
+    "total_files": 63,
+    "data_files": 0,
+    "big_json": 0,
+    "pulled": [],
+    "top_dirs": []
+  },
+  "TrungTaHust/dls": {
+    "total_files": 551,
+    "data_files": 399,
+    "big_json": 1,
+    "pulled": [
+      "README.md",
+      "README.md",
+      "data.json",
+      "package.json",
+      "node_modules/object-inspect/package-support.json",
+      "node_modules/escape-html/package.json",
+      "node_modules/qs/lib/formats.js",
+      "node_modules/cookie-signature/package.json",
+      "node_modules/path-to-regexp/package.json",
+      "node_modules/inherits/package.json",
+      "node_modules/ms/package.json",
+      "node_modules/ipaddr.js/package.json"
+    ],
+    "top_dirs": [
+      "node_modules",
+      "node_modules/.bin",
+      "node_modules/accepts",
+      "node_modules/array-flatten",
+      "node_modules/body-parser",
+      "node_modules/body-parser/lib",
+      "node_modules/body-parser/lib/types",
+      "node_modules/bytes",
+      "node_modules/call-bind",
+      "node_modules/call-bind/.github",
+      "node_modules/call-bind/test",
+      "node_modules/content-disposition",
+      "node_modules/content-type",
+      "node_modules/cookie",
+      "node_modules/cookie-signature",
+      "node_modules/cors",
+      "node_modules/cors/lib",
+      "node_modules/debug",
+      "node_modules/debug/src",
+      "node_modules/define-data-property"
+    ]
+  },
+  "TrungTaHust/dls-ext": {
+    "total_files": 542,
+    "data_files": 18,
+    "big_json": 11,
+    "pulled": [
+      "index.html",
+      "index.html",
+      "app.json",
+      "resources/DLSStats-all.css",
+      "resources/data/formations.json",
+      "resources/data/id_stats.csv",
+      "resources/DLSStats-all_2.css",
+      "resources/DLSStats-all_1.css"
+    ],
+    "top_dirs": [
+      "resources",
+      "resources/data",
+      "resources/data/screenshot/market",
+      "resources/data/screenshot/market/crop",
+      "resources/data/screenshot/scenario",
+      "resources/ext/ext-watermark",
+      "resources/ext/ext-watermark/demo-files",
+      "resources/ext/ext-watermark/fonts",
+      "resources/ext/images",
+      "resources/font-awesome/fonts",
+      "resources/font-ext/fonts",
+      "resources/fonts",
+      "resources/images",
+      "resources/images/breadcrumb",
+      "resources/images/btn",
+      "resources/images/btn-group",
+      "resources/images/button",
+      "resources/images/datepicker",
+      "resources/images/dd",
+      "resources/images/editor"
+    ]
+  },
+  "LeoH321/DLS26-quiz": {
+    "total_files": 3,
+    "data_files": 3,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html"
+    ],
+    "top_dirs": []
+  },
+  "LeoH321/dls26-reaction-test": {
+    "total_files": 2,
+    "data_files": 1,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html"
+    ],
+    "top_dirs": []
+  },
+  "LeoH321/DLSsuperleague": {
+    "total_files": 1,
+    "data_files": 1,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html"
+    ],
+    "top_dirs": []
+  },
+  "wasswacosmas/DLS2026-game": {
+    "total_files": 2,
+    "data_files": 2,
+    "big_json": 0,
+    "pulled": [
+      "index.html",
+      "index.html"
+    ],
+    "top_dirs": []
+  },
+  "wasswacosmas/dls26": {
+    "total_files": 40,
+    "data_files": 19,
+    "big_json": 0,
+    "pulled": [
+      "README.md",
+      "README.md",
+      "index.html",
+      "index.html",
+      "app.json",
+      "DLS26Manager.java",
+      "multiplayer.html"
+    ],
+    "top_dirs": []
+  },
+  "wasswacosmas/dls_hub": {
+    "total_files": 23,
+    "data_files": 21,
+    "big_json": 0,
+    "pulled": [
+      "dls hub/templets/stats.html",
+      "templets/stats.html",
+      "dls hub/templets/tactics.html",
+      "templets/tactics.html"
+    ],
+    "top_dirs": [
+      "dls hub",
+      "dls hub/templets",
+      "templets"
+    ]
+  }
+}

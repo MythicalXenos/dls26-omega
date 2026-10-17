@@ -1,0 +1,2182 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 20
+    },
+    {
+      "path": "app.js",
+      "size": 1825533
+    },
+    {
+      "path": "app.json",
+      "size": 2370
+    },
+    {
+      "path": "app.jsonp",
+      "size": 2400
+    },
+    {
+      "path": "index.html",
+      "size": 40442
+    },
+    {
+      "path": "resources/DLSStats-all.css",
+      "size": 60
+    },
+    {
+      "path": "resources/DLSStats-all_1.css",
+      "size": 337915
+    },
+    {
+      "path": "resources/DLSStats-all_2.css",
+      "size": 135128
+    },
+    {
+      "path": "resources/Readme.md",
+      "size": 125
+    },
+    {
+      "path": "resources/background.jpg",
+      "size": 508390
+    },
+    {
+      "path": "resources/data/20231.json",
+      "size": 541475
+    },
+    {
+      "path": "resources/data/20241.json",
+      "size": 743226
+    },
+    {
+      "path": "resources/data/20242.json",
+      "size": 1821816
+    },
+    {
+      "path": "resources/data/20251.json",
+      "size": 1690358
+    },
+    {
+      "path": "resources/data/20252.json",
+      "size": 1590677
+    },
+    {
+      "path": "resources/data/20253.json",
+      "size": 1677377
+    },
+    {
+      "path": "resources/data/20261.json",
+      "size": 1112580
+    },
+    {
+      "path": "resources/data/20262.json",
+      "size": 2384446
+    },
+    {
+      "path": "resources/data/20263.json",
+      "size": 2424218
+    },
+    {
+      "path": "resources/data/checklist.json",
+      "size": 16735
+    },
+    {
+      "path": "resources/data/data.json",
+      "size": 11551977
+    },
+    {
+      "path": "resources/data/formations.json",
+      "size": 6761
+    },
+    {
+      "path": "resources/data/id_stats.csv",
+      "size": 125054
+    },
+    {
+      "path": "resources/data/player_id.json",
+      "size": 564242
+    },
+    {
+      "path": "resources/data/player_id.json.bak",
+      "size": 555730
+    },
+    {
+      "path": "resources/data/player_id.json.bak2",
+      "size": 557925
+    },
+    {
+      "path": "resources/data/player_id.json.bak3",
+      "size": 557925
+    },
+    {
+      "path": "resources/data/player_id.json.bak4",
+      "size": 558007
+    },
+    {
+      "path": "resources/data/price_map.json",
+      "size": 2258
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r0c0.png",
+      "size": 45202
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r0c1.png",
+      "size": 46347
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r0c2.png",
+      "size": 44198
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r1c0.png",
+      "size": 44773
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r1c1.png",
+      "size": 47383
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r1c2.png",
+      "size": 46606
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r2c0.png",
+      "size": 46514
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r2c1.png",
+      "size": 45391
+    },
+    {
+      "path": "resources/data/screenshot/market/crop/test_r2c2.png",
+      "size": 46582
+    },
+    {
+      "path": "resources/data/screenshot/market/test.png",
+      "size": 1230275
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.35.649.png",
+      "size": 1116882
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.38.378.png",
+      "size": 1118758
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.40.957.png",
+      "size": 1118505
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.43.197.png",
+      "size": 1118945
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.46.137.png",
+      "size": 1121184
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.49.087.png",
+      "size": 1118119
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.52.931.png",
+      "size": 1118779
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.02.57.750.png",
+      "size": 1119572
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.03.01.480.png",
+      "size": 1118451
+    },
+    {
+      "path": "resources/data/screenshot/scenario/Screenshot_2026.04.08_06.03.03.807.png",
+      "size": 1222168
+    },
+    {
+      "path": "resources/data/special.json",
+      "size": 27847
+    },
+    {
+      "path": "resources/ext/ext-watermark/Read Me.txt",
+      "size": 385
+    },
+    {
+      "path": "resources/ext/ext-watermark/demo-files/demo.css",
+      "size": 1896
+    },
+    {
+      "path": "resources/ext/ext-watermark/demo-files/demo.js",
+      "size": 900
+    },
+    {
+      "path": "resources/ext/ext-watermark/demo.html",
+      "size": 8643
+    },
+    {
+      "path": "resources/ext/ext-watermark/fonts/ext-watermark.eot",
+      "size": 11760
+    },
+    {
+      "path": "resources/ext/ext-watermark/fonts/ext-watermark.svg",
+      "size": 47252
+    },
+    {
+      "path": "resources/ext/ext-watermark/fonts/ext-watermark.ttf",
+      "size": 11572
+    },
+    {
+      "path": "resources/ext/ext-watermark/fonts/ext-watermark.woff",
+      "size": 11648
+    },
+    {
+      "path": "resources/ext/ext-watermark/selection.json",
+      "size": 57868
+    },
+    {
+      "path": "resources/ext/ext-watermark/style.css",
+      "size": 1403
+    },
+    {
+      "path": "resources/ext/images/folder.gif",
+      "size": 351
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-brands-400.eot",
+      "size": 134294
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-brands-400.svg",
+      "size": 747927
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-brands-400.ttf",
+      "size": 133988
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-brands-400.woff",
+      "size": 89988
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-brands-400.woff2",
+      "size": 76736
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-regular-400.eot",
+      "size": 34034
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-regular-400.svg",
+      "size": 144714
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-regular-400.ttf",
+      "size": 33736
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-regular-400.woff",
+      "size": 16276
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-regular-400.woff2",
+      "size": 13224
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-solid-900.eot",
+      "size": 203030
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-solid-900.svg",
+      "size": 918991
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-solid-900.ttf",
+      "size": 202744
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-solid-900.woff",
+      "size": 101648
+    },
+    {
+      "path": "resources/font-awesome/fonts/fa-solid-900.woff2",
+      "size": 78268
+    },
+    {
+      "path": "resources/font-ext/fonts/ExtJS.eot",
+      "size": 14360
+    },
+    {
+      "path": "resources/font-ext/fonts/ExtJS.svg",
+      "size": 54113
+    },
+    {
+      "path": "resources/font-ext/fonts/ExtJS.ttf",
+      "size": 14192
+    },
+    {
+      "path": "resources/font-ext/fonts/ExtJS.woff",
+      "size": 14268
+    },
+    {
+      "path": "resources/fonts/OpenSans-Bold.ttf",
+      "size": 224592
+    },
+    {
+      "path": "resources/fonts/OpenSans-BoldItalic.ttf",
+      "size": 213292
+    },
+    {
+      "path": "resources/fonts/OpenSans-ExtraBold.ttf",
+      "size": 222584
+    },
+    {
+      "path": "resources/fonts/OpenSans-ExtraBoldItalic.ttf",
+      "size": 213420
+    },
+    {
+      "path": "resources/fonts/OpenSans-Italic.ttf",
+      "size": 212896
+    },
+    {
+      "path": "resources/fonts/OpenSans-Light.ttf",
+      "size": 222412
+    },
+    {
+      "path": "resources/fonts/OpenSans-LightItalic.ttf",
+      "size": 213128
+    },
+    {
+      "path": "resources/fonts/OpenSans-Regular.ttf",
+      "size": 217360
+    },
+    {
+      "path": "resources/fonts/OpenSans-Semibold.ttf",
+      "size": 221328
+    },
+    {
+      "path": "resources/fonts/OpenSans-SemiboldItalic.ttf",
+      "size": 212820
+    },
+    {
+      "path": "resources/images/breadcrumb/default-arrow-open-rtl.png",
+      "size": 205
+    },
+    {
+      "path": "resources/images/breadcrumb/default-arrow-open.png",
+      "size": 206
+    },
+    {
+      "path": "resources/images/breadcrumb/default-arrow-rtl.png",
+      "size": 217
+    },
+    {
+      "path": "resources/images/breadcrumb/default-arrow.png",
+      "size": 219
+    },
+    {
+      "path": "resources/images/breadcrumb/default-scroll-left.png",
+      "size": 2990
+    },
+    {
+      "path": "resources/images/breadcrumb/default-scroll-right.png",
+      "size": 2983
+    },
+    {
+      "path": "resources/images/breadcrumb/default-split-arrow-open-rtl.png",
+      "size": 242
+    },
+    {
+      "path": "resources/images/breadcrumb/default-split-arrow-open.png",
+      "size": 241
+    },
+    {
+      "path": "resources/images/breadcrumb/default-split-arrow-over-rtl.png",
+      "size": 256
+    },
+    {
+      "path": "resources/images/breadcrumb/default-split-arrow-over.png",
+      "size": 257
+    },
+    {
+      "path": "resources/images/breadcrumb/default-split-arrow-rtl.png",
+      "size": 256
+    },
+    {
+      "path": "resources/images/breadcrumb/default-split-arrow.png",
+      "size": 255
+    },
+    {
+      "path": "resources/images/btn-group/btn-group-default-framed-corners.gif",
+      "size": 82
+    },
+    {
+      "path": "resources/images/btn-group/btn-group-default-framed-notitle-corners.gif",
+      "size": 82
+    },
+    {
+      "path": "resources/images/btn-group/btn-group-default-framed-notitle-sides.gif",
+      "size": 117
+    },
+    {
+      "path": "resources/images/btn-group/btn-group-default-framed-sides.gif",
+      "size": 126
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-corners.gif",
+      "size": 47
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-disabled-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-disabled-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-focus-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-focus-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-large-sides.gif",
+      "size": 58
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-corners.gif",
+      "size": 47
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-disabled-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-disabled-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-focus-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-focus-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-medium-sides.gif",
+      "size": 57
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-corners.gif",
+      "size": 47
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-disabled-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-disabled-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-focus-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-focus-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-small-sides.gif",
+      "size": 56
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-corners.gif",
+      "size": 47
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-disabled-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-disabled-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-focus-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-focus-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-large-sides.gif",
+      "size": 58
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-corners.gif",
+      "size": 47
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-disabled-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-disabled-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-focus-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-focus-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-medium-sides.gif",
+      "size": 57
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-corners.gif",
+      "size": 47
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-disabled-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-disabled-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-focus-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-focus-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-default-toolbar-small-sides.gif",
+      "size": 56
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-large-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-medium-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-focus-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-focus-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-over-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-over-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-pressed-corners.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/btn/btn-plain-toolbar-small-pressed-sides.gif",
+      "size": 227
+    },
+    {
+      "path": "resources/images/button/default-large-arrow-rtl.png",
+      "size": 184
+    },
+    {
+      "path": "resources/images/button/default-large-arrow.png",
+      "size": 247
+    },
+    {
+      "path": "resources/images/button/default-large-s-arrow-b-rtl.png",
+      "size": 241
+    },
+    {
+      "path": "resources/images/button/default-large-s-arrow-b.png",
+      "size": 285
+    },
+    {
+      "path": "resources/images/button/default-large-s-arrow-rtl.png",
+      "size": 254
+    },
+    {
+      "path": "resources/images/button/default-large-s-arrow.png",
+      "size": 348
+    },
+    {
+      "path": "resources/images/button/default-medium-arrow-rtl.png",
+      "size": 153
+    },
+    {
+      "path": "resources/images/button/default-medium-arrow.png",
+      "size": 220
+    },
+    {
+      "path": "resources/images/button/default-medium-s-arrow-b-rtl.png",
+      "size": 211
+    },
+    {
+      "path": "resources/images/button/default-medium-s-arrow-b.png",
+      "size": 261
+    },
+    {
+      "path": "resources/images/button/default-medium-s-arrow-rtl.png",
+      "size": 220
+    },
+    {
+      "path": "resources/images/button/default-medium-s-arrow.png",
+      "size": 308
+    },
+    {
+      "path": "resources/images/button/default-small-arrow-rtl.png",
+      "size": 120
+    },
+    {
+      "path": "resources/images/button/default-small-arrow.png",
+      "size": 173
+    },
+    {
+      "path": "resources/images/button/default-small-s-arrow-b-rtl.png",
+      "size": 173
+    },
+    {
+      "path": "resources/images/button/default-small-s-arrow-b.png",
+      "size": 1121
+    },
+    {
+      "path": "resources/images/button/default-small-s-arrow-rtl.png",
+      "size": 166
+    },
+    {
+      "path": "resources/images/button/default-small-s-arrow.png",
+      "size": 1106
+    },
+    {
+      "path": "resources/images/button/default-toolbar-large-arrow-rtl.png",
+      "size": 186
+    },
+    {
+      "path": "resources/images/button/default-toolbar-large-arrow.png",
+      "size": 290
+    },
+    {
+      "path": "resources/images/button/default-toolbar-large-s-arrow-b-rtl.png",
+      "size": 240
+    },
+    {
+      "path": "resources/images/button/default-toolbar-large-s-arrow-b.png",
+      "size": 336
+    },
+    {
+      "path": "resources/images/button/default-toolbar-large-s-arrow-rtl.png",
+      "size": 253
+    },
+    {
+      "path": "resources/images/button/default-toolbar-large-s-arrow.png",
+      "size": 340
+    },
+    {
+      "path": "resources/images/button/default-toolbar-medium-arrow-rtl.png",
+      "size": 154
+    },
+    {
+      "path": "resources/images/button/default-toolbar-medium-arrow.png",
+      "size": 252
+    },
+    {
+      "path": "resources/images/button/default-toolbar-medium-s-arrow-b-rtl.png",
+      "size": 209
+    },
+    {
+      "path": "resources/images/button/default-toolbar-medium-s-arrow-b.png",
+      "size": 291
+    },
+    {
+      "path": "resources/images/button/default-toolbar-medium-s-arrow-rtl.png",
+      "size": 259
+    },
+    {
+      "path": "resources/images/button/default-toolbar-medium-s-arrow.png",
+      "size": 361
+    },
+    {
+      "path": "resources/images/button/default-toolbar-small-arrow-rtl.png",
+      "size": 122
+    },
+    {
+      "path": "resources/images/button/default-toolbar-small-arrow.png",
+      "size": 199
+    },
+    {
+      "path": "resources/images/button/default-toolbar-small-s-arrow-b-rtl.png",
+      "size": 193
+    },
+    {
+      "path": "resources/images/button/default-toolbar-small-s-arrow-b.png",
+      "size": 252
+    },
+    {
+      "path": "resources/images/button/default-toolbar-small-s-arrow-rtl.png",
+      "size": 176
+    },
+    {
+      "path": "resources/images/button/default-toolbar-small-s-arrow.png",
+      "size": 234
+    },
+    {
+      "path": "resources/images/button/grid-cell-small-arrow-rtl.png",
+      "size": 15044
+    },
+    {
+      "path": "resources/images/button/grid-cell-small-arrow.png",
+      "size": 173
+    },
+    {
+      "path": "resources/images/button/grid-cell-small-s-arrow-b.png",
+      "size": 1121
+    },
+    {
+      "path": "resources/images/button/grid-cell-small-s-arrow-rtl.png",
+      "size": 166
+    },
+    {
+      "path": "resources/images/button/grid-cell-small-s-arrow.png",
+      "size": 1106
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-large-arrow-rtl.png",
+      "size": 186
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-large-arrow.png",
+      "size": 290
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-large-s-arrow-b-rtl.png",
+      "size": 240
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-large-s-arrow-b.png",
+      "size": 336
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-large-s-arrow-rtl.png",
+      "size": 253
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-large-s-arrow.png",
+      "size": 340
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-medium-arrow-rtl.png",
+      "size": 154
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-medium-arrow.png",
+      "size": 252
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-medium-s-arrow-b-rtl.png",
+      "size": 209
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-medium-s-arrow-b.png",
+      "size": 291
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-medium-s-arrow-rtl.png",
+      "size": 259
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-medium-s-arrow.png",
+      "size": 361
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-small-arrow-rtl.png",
+      "size": 122
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-small-arrow.png",
+      "size": 199
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-small-s-arrow-b-rtl.png",
+      "size": 193
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-small-s-arrow-b.png",
+      "size": 252
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-small-s-arrow-rtl.png",
+      "size": 176
+    },
+    {
+      "path": "resources/images/button/plain-toolbar-small-s-arrow.png",
+      "size": 234
+    },
+    {
+      "path": "resources/images/datepicker/arrow-left.png",
+      "size": 1065
+    },
+    {
+      "path": "resources/images/datepicker/arrow-right.png",
+      "size": 1065
+    },
+    {
+      "path": "resources/images/datepicker/month-arrow.png",
+      "size": 975
+    },
+    {
+      "path": "resources/images/dd/drop-add.png",
+      "size": 1325
+    },
+    {
+      "path": "resources/images/dd/drop-no.png",
+      "size": 1277
+    },
+    {
+      "path": "resources/images/dd/drop-yes.png",
+      "size": 1325
+    },
+    {
+      "path": "resources/images/editor/tb-sprite.png",
+      "size": 2487
+    },
+    {
+      "path": "resources/images/fieldset/collapse-tool.png",
+      "size": 332
+    },
+    {
+      "path": "resources/images/form/checkbox.png",
+      "size": 1826
+    },
+    {
+      "path": "resources/images/form/clear-trigger-rtl.png",
+      "size": 1718
+    },
+    {
+      "path": "resources/images/form/clear-trigger.png",
+      "size": 1718
+    },
+    {
+      "path": "resources/images/form/date-trigger-rtl.png",
+      "size": 1257
+    },
+    {
+      "path": "resources/images/form/date-trigger.png",
+      "size": 1257
+    },
+    {
+      "path": "resources/images/form/exclamation.png",
+      "size": 1190
+    },
+    {
+      "path": "resources/images/form/radio.png",
+      "size": 2434
+    },
+    {
+      "path": "resources/images/form/search-trigger-rtl.png",
+      "size": 1624
+    },
+    {
+      "path": "resources/images/form/search-trigger.png",
+      "size": 1624
+    },
+    {
+      "path": "resources/images/form/spinner-rtl.png",
+      "size": 1304
+    },
+    {
+      "path": "resources/images/form/spinner.png",
+      "size": 1304
+    },
+    {
+      "path": "resources/images/form/tag-field-item-close.png",
+      "size": 16459
+    },
+    {
+      "path": "resources/images/form/trigger-rtl.png",
+      "size": 1137
+    },
+    {
+      "path": "resources/images/form/trigger.png",
+      "size": 1137
+    },
+    {
+      "path": "resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif",
+      "size": 158
+    },
+    {
+      "path": "resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-sides.gif",
+      "size": 114
+    },
+    {
+      "path": "resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif",
+      "size": 158
+    },
+    {
+      "path": "resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-sides.gif",
+      "size": 114
+    },
+    {
+      "path": "resources/images/grid/add.png",
+      "size": 356
+    },
+    {
+      "path": "resources/images/grid/col-move-bottom.png",
+      "size": 1222
+    },
+    {
+      "path": "resources/images/grid/col-move-top.png",
+      "size": 1222
+    },
+    {
+      "path": "resources/images/grid/columns.png",
+      "size": 372
+    },
+    {
+      "path": "resources/images/grid/dd-insert-arrow-left.png",
+      "size": 1044
+    },
+    {
+      "path": "resources/images/grid/dd-insert-arrow-right.png",
+      "size": 1049
+    },
+    {
+      "path": "resources/images/grid/dirty-rtl.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/grid/dirty.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/grid/drop-no.png",
+      "size": 1277
+    },
+    {
+      "path": "resources/images/grid/drop-yes.png",
+      "size": 1325
+    },
+    {
+      "path": "resources/images/grid/filters/equals.png",
+      "size": 17709
+    },
+    {
+      "path": "resources/images/grid/filters/find.png",
+      "size": 17992
+    },
+    {
+      "path": "resources/images/grid/filters/greater_than.png",
+      "size": 17938
+    },
+    {
+      "path": "resources/images/grid/filters/less_than.png",
+      "size": 17929
+    },
+    {
+      "path": "resources/images/grid/gear-small.png",
+      "size": 467
+    },
+    {
+      "path": "resources/images/grid/group-by.png",
+      "size": 609
+    },
+    {
+      "path": "resources/images/grid/group-clear.png",
+      "size": 606
+    },
+    {
+      "path": "resources/images/grid/group-collapse.png",
+      "size": 216
+    },
+    {
+      "path": "resources/images/grid/group-expand.png",
+      "size": 228
+    },
+    {
+      "path": "resources/images/grid/groups.png",
+      "size": 516
+    },
+    {
+      "path": "resources/images/grid/hd-pop.png",
+      "size": 196
+    },
+    {
+      "path": "resources/images/grid/hmenu-asc.png",
+      "size": 1007
+    },
+    {
+      "path": "resources/images/grid/hmenu-desc.png",
+      "size": 1007
+    },
+    {
+      "path": "resources/images/grid/hmenu-lock.png",
+      "size": 420
+    },
+    {
+      "path": "resources/images/grid/hmenu-unlock.png",
+      "size": 426
+    },
+    {
+      "path": "resources/images/grid/loading.gif",
+      "size": 1849
+    },
+    {
+      "path": "resources/images/grid/op-empty.png",
+      "size": 647
+    },
+    {
+      "path": "resources/images/grid/op-eq.png",
+      "size": 243
+    },
+    {
+      "path": "resources/images/grid/op-exists.png",
+      "size": 371
+    },
+    {
+      "path": "resources/images/grid/op-fn.png",
+      "size": 710
+    },
+    {
+      "path": "resources/images/grid/op-gt.png",
+      "size": 450
+    },
+    {
+      "path": "resources/images/grid/op-gte.png",
+      "size": 490
+    },
+    {
+      "path": "resources/images/grid/op-identical.png",
+      "size": 350
+    },
+    {
+      "path": "resources/images/grid/op-in.png",
+      "size": 457
+    },
+    {
+      "path": "resources/images/grid/op-like.png",
+      "size": 487
+    },
+    {
+      "path": "resources/images/grid/op-lt.png",
+      "size": 472
+    },
+    {
+      "path": "resources/images/grid/op-lte.png",
+      "size": 496
+    },
+    {
+      "path": "resources/images/grid/op-neq.png",
+      "size": 502
+    },
+    {
+      "path": "resources/images/grid/op-nidentical.png",
+      "size": 568
+    },
+    {
+      "path": "resources/images/grid/op-nin.png",
+      "size": 612
+    },
+    {
+      "path": "resources/images/grid/op-nlike.png",
+      "size": 585
+    },
+    {
+      "path": "resources/images/grid/page-first.png",
+      "size": 1134
+    },
+    {
+      "path": "resources/images/grid/page-last.png",
+      "size": 1140
+    },
+    {
+      "path": "resources/images/grid/page-next.png",
+      "size": 1122
+    },
+    {
+      "path": "resources/images/grid/page-prev.png",
+      "size": 1118
+    },
+    {
+      "path": "resources/images/grid/pick-button.png",
+      "size": 1126
+    },
+    {
+      "path": "resources/images/grid/refresh.png",
+      "size": 1238
+    },
+    {
+      "path": "resources/images/grid/remove.png",
+      "size": 240
+    },
+    {
+      "path": "resources/images/grid/sort_asc.png",
+      "size": 1007
+    },
+    {
+      "path": "resources/images/grid/sort_desc.png",
+      "size": 1007
+    },
+    {
+      "path": "resources/images/grid/summary.png",
+      "size": 438
+    },
+    {
+      "path": "resources/images/loadmask/loading.gif",
+      "size": 1849
+    },
+    {
+      "path": "resources/images/magnify.png",
+      "size": 3385
+    },
+    {
+      "path": "resources/images/menu/default-checked.png",
+      "size": 1280
+    },
+    {
+      "path": "resources/images/menu/default-group-checked.png",
+      "size": 1073
+    },
+    {
+      "path": "resources/images/menu/default-menu-parent-left.png",
+      "size": 1007
+    },
+    {
+      "path": "resources/images/menu/default-menu-parent.png",
+      "size": 1012
+    },
+    {
+      "path": "resources/images/menu/default-menubar-checked.png",
+      "size": 1280
+    },
+    {
+      "path": "resources/images/menu/default-menubar-group-checked.png",
+      "size": 1073
+    },
+    {
+      "path": "resources/images/menu/default-menubar-menu-parent-left.png",
+      "size": 15001
+    },
+    {
+      "path": "resources/images/menu/default-menubar-menu-parent.png",
+      "size": 3304
+    },
+    {
+      "path": "resources/images/menu/default-menubar-scroll-bottom.png",
+      "size": 1474
+    },
+    {
+      "path": "resources/images/menu/default-menubar-scroll-top.png",
+      "size": 1470
+    },
+    {
+      "path": "resources/images/menu/default-menubar-unchecked.png",
+      "size": 1090
+    },
+    {
+      "path": "resources/images/menu/default-scroll-bottom.png",
+      "size": 1119
+    },
+    {
+      "path": "resources/images/menu/default-scroll-top.png",
+      "size": 1109
+    },
+    {
+      "path": "resources/images/menu/default-unchecked.png",
+      "size": 1090
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-bottom-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-bottom-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-left-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-right-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-collapsed-top-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-left-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-left-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-left-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-right-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-right-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-right-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-top-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-default-framed-top-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-bottom-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-bottom-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-left-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-left-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-right-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-right-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-top-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-collapsed-top-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-left-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-left-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-left-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-right-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-right-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-right-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-top-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel-header/panel-header-light-framed-top-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/panel/panel-default-framed-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel/panel-default-framed-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/panel/panel-light-framed-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/panel/panel-light-framed-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/shared/icon-error.png",
+      "size": 2272
+    },
+    {
+      "path": "resources/images/shared/icon-info.png",
+      "size": 3376
+    },
+    {
+      "path": "resources/images/shared/icon-question.png",
+      "size": 1668
+    },
+    {
+      "path": "resources/images/shared/icon-warning.png",
+      "size": 1967
+    },
+    {
+      "path": "resources/images/sizer/e-handle.png",
+      "size": 946
+    },
+    {
+      "path": "resources/images/sizer/ne-handle.png",
+      "size": 951
+    },
+    {
+      "path": "resources/images/sizer/nw-handle.png",
+      "size": 950
+    },
+    {
+      "path": "resources/images/sizer/s-handle.png",
+      "size": 939
+    },
+    {
+      "path": "resources/images/sizer/se-handle.png",
+      "size": 953
+    },
+    {
+      "path": "resources/images/sizer/sw-handle.png",
+      "size": 950
+    },
+    {
+      "path": "resources/images/slider/slider-bg.png",
+      "size": 465
+    },
+    {
+      "path": "resources/images/slider/slider-thumb.png",
+      "size": 2420
+    },
+    {
+      "path": "resources/images/slider/slider-v-bg.png",
+      "size": 464
+    },
+    {
+      "path": "resources/images/slider/slider-v-thumb.png",
+      "size": 2420
+    },
+    {
+      "path": "resources/images/tab-bar/default-more-left.png",
+      "size": 1163
+    },
+    {
+      "path": "resources/images/tab-bar/default-more.png",
+      "size": 1163
+    },
+    {
+      "path": "resources/images/tab-bar/default-plain-more-left.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/tab-bar/default-plain-more.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/tab-bar/default-plain-scroll-bottom.png",
+      "size": 348
+    },
+    {
+      "path": "resources/images/tab-bar/default-plain-scroll-left.png",
+      "size": 360
+    },
+    {
+      "path": "resources/images/tab-bar/default-plain-scroll-right.png",
+      "size": 351
+    },
+    {
+      "path": "resources/images/tab-bar/default-plain-scroll-top.png",
+      "size": 344
+    },
+    {
+      "path": "resources/images/tab-bar/default-scroll-bottom.png",
+      "size": 262
+    },
+    {
+      "path": "resources/images/tab-bar/default-scroll-left.png",
+      "size": 253
+    },
+    {
+      "path": "resources/images/tab-bar/default-scroll-right.png",
+      "size": 246
+    },
+    {
+      "path": "resources/images/tab-bar/default-scroll-top.png",
+      "size": 249
+    },
+    {
+      "path": "resources/images/tab/tab-default-bottom-active-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-bottom-focus-active-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-bottom-focus-over-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-bottom-over-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-close.png",
+      "size": 1388
+    },
+    {
+      "path": "resources/images/tab/tab-default-left-active-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-left-focus-active-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-left-focus-over-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-left-over-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-right-active-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-right-focus-active-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-right-focus-over-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-right-over-fbg.gif",
+      "size": 53
+    },
+    {
+      "path": "resources/images/tab/tab-default-top-active-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-top-focus-active-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-top-focus-over-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tab/tab-default-top-over-fbg.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/tip/tip-default-corners.gif",
+      "size": 81
+    },
+    {
+      "path": "resources/images/tip/tip-default-sides.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/tip/tip-form-invalid-corners.gif",
+      "size": 81
+    },
+    {
+      "path": "resources/images/tip/tip-form-invalid-sides.gif",
+      "size": 63
+    },
+    {
+      "path": "resources/images/toolbar/default-more-left.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/toolbar/default-more.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/toolbar/default-scroll-bottom.png",
+      "size": 17867
+    },
+    {
+      "path": "resources/images/toolbar/default-scroll-left.png",
+      "size": 2990
+    },
+    {
+      "path": "resources/images/toolbar/default-scroll-right.png",
+      "size": 2983
+    },
+    {
+      "path": "resources/images/toolbar/default-scroll-top.png",
+      "size": 17867
+    },
+    {
+      "path": "resources/images/toolbar/footer-more-left.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/toolbar/footer-more.png",
+      "size": 972
+    },
+    {
+      "path": "resources/images/toolbar/footer-scroll-left.png",
+      "size": 2990
+    },
+    {
+      "path": "resources/images/toolbar/footer-scroll-right.png",
+      "size": 2983
+    },
+    {
+      "path": "resources/images/tools/tool-sprites-dark.png",
+      "size": 3249
+    },
+    {
+      "path": "resources/images/tools/tool-sprites.png",
+      "size": 3642
+    },
+    {
+      "path": "resources/images/tree/arrows-rtl.png",
+      "size": 399
+    },
+    {
+      "path": "resources/images/tree/arrows.png",
+      "size": 416
+    },
+    {
+      "path": "resources/images/tree/drop-above.png",
+      "size": 1203
+    },
+    {
+      "path": "resources/images/tree/drop-add.gif",
+      "size": 1001
+    },
+    {
+      "path": "resources/images/tree/drop-add.png",
+      "size": 15562
+    },
+    {
+      "path": "resources/images/tree/drop-append.png",
+      "size": 1203
+    },
+    {
+      "path": "resources/images/tree/drop-below.png",
+      "size": 1203
+    },
+    {
+      "path": "resources/images/tree/drop-between.gif",
+      "size": 104
+    },
+    {
+      "path": "resources/images/tree/drop-between.png",
+      "size": 1203
+    },
+    {
+      "path": "resources/images/tree/drop-no.gif",
+      "size": 949
+    },
+    {
+      "path": "resources/images/tree/drop-no.png",
+      "size": 18138
+    },
+    {
+      "path": "resources/images/tree/drop-over.gif",
+      "size": 140
+    },
+    {
+      "path": "resources/images/tree/drop-over.png",
+      "size": 18068
+    },
+    {
+      "path": "resources/images/tree/drop-under.gif",
+      "size": 141
+    },
+    {
+      "path": "resources/images/tree/drop-under.png",
+      "size": 18240
+    },
+    {
+      "path": "resources/images/tree/drop-yes.gif",
+      "size": 1016
+    },
+    {
+      "path": "resources/images/tree/drop-yes.png",
+      "size": 15690
+    },
+    {
+      "path": "resources/images/tree/elbow-end-minus-rtl.png",
+      "size": 1047
+    },
+    {
+      "path": "resources/images/tree/elbow-end-minus.png",
+      "size": 1059
+    },
+    {
+      "path": "resources/images/tree/elbow-end-plus-rtl.png",
+      "size": 1090
+    },
+    {
+      "path": "resources/images/tree/elbow-end-plus.png",
+      "size": 129
+    },
+    {
+      "path": "resources/images/tree/elbow-end-rtl.png",
+      "size": 971
+    },
+    {
+      "path": "resources/images/tree/elbow-end.png",
+      "size": 1025
+    },
+    {
+      "path": "resources/images/tree/elbow-line-rtl.png",
+      "size": 963
+    },
+    {
+      "path": "resources/images/tree/elbow-line.png",
+      "size": 72
+    },
+    {
+      "path": "resources/images/tree/elbow-minus-nl-rtl.png",
+      "size": 1031
+    },
+    {
+      "path": "resources/images/tree/elbow-minus-nl.png",
+      "size": 1040
+    },
+    {
+      "path": "resources/images/tree/elbow-minus-rtl.png",
+      "size": 131
+    },
+    {
+      "path": "resources/images/tree/elbow-minus.png",
+      "size": 1056
+    },
+    {
+      "path": "resources/images/tree/elbow-plus-nl-rtl.png",
+      "size": 1060
+    },
+    {
+      "path": "resources/images/tree/elbow-plus-nl.png",
+      "size": 119
+    },
+    {
+      "path": "resources/images/tree/elbow-plus-rtl.png",
+      "size": 1069
+    },
+    {
+      "path": "resources/images/tree/elbow-plus.png",
+      "size": 1071
+    },
+    {
+      "path": "resources/images/tree/elbow-rtl.png",
+      "size": 74
+    },
+    {
+      "path": "resources/images/tree/elbow.png",
+      "size": 966
+    },
+    {
+      "path": "resources/images/tree/folder-open-rtl.png",
+      "size": 995
+    },
+    {
+      "path": "resources/images/tree/folder-open.png",
+      "size": 1011
+    },
+    {
+      "path": "resources/images/tree/folder-rtl.png",
+      "size": 14949
+    },
+    {
+      "path": "resources/images/tree/folder.png",
+      "size": 978
+    },
+    {
+      "path": "resources/images/tree/leaf-rtl.png",
+      "size": 1014
+    },
+    {
+      "path": "resources/images/tree/leaf.png",
+      "size": 1014
+    },
+    {
+      "path": "resources/images/tree/loading.gif",
+      "size": 1849
+    },
+    {
+      "path": "resources/images/util/splitter/mini-bottom.png",
+      "size": 456
+    },
+    {
+      "path": "resources/images/util/splitter/mini-left.png",
+      "size": 434
+    },
+    {
+      "path": "resources/images/util/splitter/mini-right.png",
+      "size": 442
+    },
+    {
+      "path": "resources/images/util/splitter/mini-top.png",
+      "size": 430
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-bottom-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-bottom-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-bottom-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-bottom-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-left-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-left-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-left-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-right-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-right-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-right-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-top-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-collapsed-top-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-left-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-left-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-left-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-right-corners-rtl.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-right-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-right-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-top-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window-header/window-header-default-top-sides.gif",
+      "size": 64
+    },
+    {
+      "path": "resources/images/window/toast/fade-blue.png",
+      "size": 1347
+    },
+    {
+      "path": "resources/images/window/toast/fader.png",
+      "size": 2404
+    },
+    {
+      "path": "resources/images/window/toast/icon16_error.png",
+      "size": 1108
+    },
+    {
+      "path": "resources/images/window/toast/icon16_info.png",
+      "size": 851
+    },
+    {
+      "path": "resources/images/window/window-default-corners.gif",
+      "size": 52
+    },
+    {
+      "path": "resources/images/window/window-default-sides.gif",
+      "size": 89
+    },
+    {
+      "path": "vercel.json",
+      "size": 256
+    }
+  ],
+  "pulled": [
+    "index.html",
+    "index.html",
+    "app.json",
+    "resources/DLSStats-all.css",
+    "resources/data/formations.json",
+    "resources/data/id_stats.csv",
+    "resources/DLSStats-all_2.css",
+    "resources/DLSStats-all_1.css"
+  ]
+}

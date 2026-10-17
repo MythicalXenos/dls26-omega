@@ -1,0 +1,216 @@
+{
+  "files": [
+    {
+      "path": "aubameyang.jpg",
+      "size": 309225
+    },
+    {
+      "path": "berg.jpeg",
+      "size": 22667
+    },
+    {
+      "path": "cannavaro.jpg",
+      "size": 23861
+    },
+    {
+      "path": "cards.html",
+      "size": 2886
+    },
+    {
+      "path": "cr17.jpg",
+      "size": 27514
+    },
+    {
+      "path": "cr18.jpg",
+      "size": 59752
+    },
+    {
+      "path": "cubarsi.png",
+      "size": 74788
+    },
+    {
+      "path": "cucurella.png",
+      "size": 146258
+    },
+    {
+      "path": "de bruyne.jpg",
+      "size": 93850
+    },
+    {
+      "path": "dembele.jpg",
+      "size": 48297
+    },
+    {
+      "path": "di maria.jpeg",
+      "size": 18951
+    },
+    {
+      "path": "dibu.png",
+      "size": 90700
+    },
+    {
+      "path": "dl.jpg",
+      "size": 29999
+    },
+    {
+      "path": "dls26-cards.json",
+      "size": 27279
+    },
+    {
+      "path": "download.png",
+      "size": 372576
+    },
+    {
+      "path": "dybala.jpeg",
+      "size": 30577
+    },
+    {
+      "path": "ee.jpg",
+      "size": 7267
+    },
+    {
+      "path": "el pibe.jpg",
+      "size": 126786
+    },
+    {
+      "path": "enzo.png",
+      "size": 89459
+    },
+    {
+      "path": "guler.jpg",
+      "size": 33931
+    },
+    {
+      "path": "isco.jpg",
+      "size": 27477
+    },
+    {
+      "path": "j.pedro.jpg",
+      "size": 28757
+    },
+    {
+      "path": "james.png",
+      "size": 119479
+    },
+    {
+      "path": "k.navas.jpeg",
+      "size": 35388
+    },
+    {
+      "path": "kane.jpg",
+      "size": 34337
+    },
+    {
+      "path": "kante.png",
+      "size": 83722
+    },
+    {
+      "path": "mbappe.jpg",
+      "size": 21434
+    },
+    {
+      "path": "mc kennie.jpeg",
+      "size": 23497
+    },
+    {
+      "path": "messi2012.jpg",
+      "size": 1776
+    },
+    {
+      "path": "modric.jpeg",
+      "size": 11864
+    },
+    {
+      "path": "neymr.jpg",
+      "size": 29851
+    },
+    {
+      "path": "nw.jpg",
+      "size": 10266
+    },
+    {
+      "path": "otamendi.jpg",
+      "size": 31210
+    },
+    {
+      "path": "pavard.png",
+      "size": 126828
+    },
+    {
+      "path": "payne.jpg",
+      "size": 16272
+    },
+    {
+      "path": "pedri.jpeg",
+      "size": 27120
+    },
+    {
+      "path": "pogba.png",
+      "size": 140548
+    },
+    {
+      "path": "rdp.jpg",
+      "size": 7624
+    },
+    {
+      "path": "rivaldo.jpg",
+      "size": 29088
+    },
+    {
+      "path": "rodri.png",
+      "size": 126845
+    },
+    {
+      "path": "rr.jpg",
+      "size": 27343
+    },
+    {
+      "path": "ryerson.jpeg",
+      "size": 30881
+    },
+    {
+      "path": "script.js",
+      "size": 9640
+    },
+    {
+      "path": "sound 1 dls.mp3",
+      "size": 5162977
+    },
+    {
+      "path": "sound 2 dls.mp3",
+      "size": 4019441
+    },
+    {
+      "path": "sound 3 dls.mp3",
+      "size": 2770579
+    },
+    {
+      "path": "sound 4 dls.mp3",
+      "size": 1342515
+    },
+    {
+      "path": "styles.css",
+      "size": 8431
+    },
+    {
+      "path": "suarez.jpg",
+      "size": 21288
+    },
+    {
+      "path": "vozinha.png",
+      "size": 106196
+    },
+    {
+      "path": "yamal.png",
+      "size": 153451
+    },
+    {
+      "path": "yildiz.jpg",
+      "size": 43072
+    }
+  ],
+  "pulled": [
+    "cards.html",
+    "dls26-cards.json"
+  ]
+}

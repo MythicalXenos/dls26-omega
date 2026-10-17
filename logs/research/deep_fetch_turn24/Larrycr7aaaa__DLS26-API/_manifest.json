@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "Description",
+      "size": 150
+    },
+    {
+      "path": "dls26-cards.json",
+      "size": 16530
+    }
+  ],
+  "pulled": [
+    "dls26-cards.json"
+  ]
+}
