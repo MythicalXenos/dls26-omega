@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "authority": "MECHANISM 4 — RESEARCH QUEUE. Active queue: only active items. During sweeps and all bootstrap steps the queue is inactive for everything except inaccessible wall sources — all other discoveries are followed immediately. During operational work it captures discoveries genuinely unrelated to the current task that would derail it if pursued now.",
+  "created_utc": "2026-10-16T23:45:02Z",
+  "fair_service": {
+    "cycle_position": 0,
+    "rule": "one fair FIFO slice reserved in each cycle of three service slices; the other two may use the adopted urgency/coverage/impact ordering",
+    "cycle_persistence_note": "cycle position persisted across turns including reduced-budget turns"
+  },
+  "items": []
+}

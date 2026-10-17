@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "authority": "MECHANISM 4 — RESEARCH QUEUE (archive half). Separate file from the active queue because different access patterns warrant different files; the active queue stays lean and fast as this archive grows. Holds archived items with their archiving reason. Nothing is discarded.",
+  "created_utc": "2026-10-16T23:45:02Z",
+  "items": []
+}
