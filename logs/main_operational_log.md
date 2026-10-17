@@ -116,4 +116,25 @@ RESEARCH 3 | RECOMMENDATION 0 | OUTCOME 0 | QUESTION 0 | REVISION 1 | CONFLICT 0
 ## Turn 5 — category counts
 RESEARCH 3 | RECOMMENDATION 0 | OUTCOME 0 | QUESTION 0 | REVISION 0 | CONFLICT 0 | DISAGREEMENT 0 | EXHAUSTION DECLARATION 0 | SKEPTIC CHALLENGE 0 | DEVILS ADVOCATE 0 | BLUFF CHECK 0 | SELF-AUDIT 0 | INDEPENDENT VERIFICATION 0 | DEGRADATION EVENT 0 | DECEPTION FINDING 0 | EVIDENCE CONFLICT 0 | CONFIDENCE PROMOTION 1 | SOURCE TYPE COVERAGE 0 | NEGATIVE FINDING 1 | MATCH LOG 0 | SETUP 0 | SESSION 2 | ANOMALY 0 | IRREVERSIBLE ACTION 1
 
+## Turn 6 — 2026-10-17 (UTC) — STATE_1_RESEARCH_SWEEP, Step 1 continued (turn window ~17:10–17:16Z)
+
+[2026-10-17T17:10Z] SESSION — User cue ">" consumed the Turn-5 checkpoint authorization (ckpt-20261017-step1-004, CONTINUE).
+
+[2026-10-17T17:10Z] ANOMALY — OBS-006 RECURRED for the second time: at turn start the local git HEAD was back at base commit fb9a2c0 with all work files untracked, and the remote-tracking ref for the session branch was absent. Recovery: `git fetch origin --prune` re-created origin/arena/22655f48-dls26-omega; `git reset --soft` moved HEAD to a78595c; the index then showed staged deletions (index still at base while HEAD had advanced), so `git reset` (mixed) refreshed the index against HEAD, leaving a clean tree. Verified on disk during recovery that all work files were intact (DLS26_OMEGA_PROMPT.md 173,446 bytes; OPERATIONAL_RULES.md 160,405 bytes; kb/game-systems.md 18,193 bytes). Lesson recorded: on this environment, always run `git fetch` BEFORE attempting a reset against a remote ref, and verify file sizes on disk before trusting `git status`.
+
+[2026-10-17T17:10Z] RESEARCH — 7 FTG support articles captured in full: DLL emojis, custom-kit visibility in multiplayer, User ID retrieval, control-button text toggle, cannot-connect, "Something happened in the game that's not realistic", and save-data backup/restore/transfer.
+
+[2026-10-17T17:10Z] RESEARCH — MILESTONE: the section-listed FTG DLS FAQ inventory is COMPLETE (30 of 30 attempted: 27 captured in full, 3 confirmed dead links). Official-source coverage for Step 1 is now exhaustive against the canonical index; remaining official work is peripheral articles (player card colour, re-sign, Age Confirmation, Sign-in setup guides).
+
+[2026-10-17T17:10Z] RESEARCH — Highest-value capture of the turn: FTG's official fairness/unpredictability stance (GS-031). Verbatim-load-bearing elements: DLS is not a fully accurate simulation; unpredictability is deliberate; "luck forms a part of the experience"; "Ultimately it's the same for all players and above all else we consider our games 'fair'"; FTG fixes what it judges harms enjoyment but "not everything will be addressed". Combined with GS-002 (no manipulation, no outcome influencing in DLL) and GS-024 (opponent connection quality cannot affect your experience, lag-switch ineffective), the developer has now denied TARGETED manipulation across three separate official surfaces. Consequence for future analysis: community "script"/momentum claims are perceptions to be TESTED against match data, not assumptions to build advice on (T-027, T-033).
+
+[2026-10-17T17:10Z] CONFLICT / DECEPTION SCREEN — Common community advice "your DLS is backed up to iCloud / Google Play Games" is FALSE per official FTG (GS-037): save data is NOT secured on Google Play Games or iCloud; only Sign in with Google / Sign in with Apple secures a profile, and only if enabled manually. This belief would cause a user to lose a profile silently. Recorded as a high-priority misconception for Step-5 user onboarding questioning and for any account-safety advice.
+
+[2026-10-17T17:10Z] CONFIDENCE PROMOTION — GS-031…GS-038 all Confirmed (official-stated). Terminology T-029…T-033 added (Descriptive Button Text, Multiplayer Chat, System Info, Sign in with Google/Apple, Luck).
+
+[2026-10-17T17:10Z] SESSION — Checkpoint ckpt-20261017-step1-005. Step-1 sweep continues autonomously; nothing indispensable owed to the user. Terminal class: CONTINUE.
+
+## Turn 6 — category counts
+RESEARCH 3 | RECOMMENDATION 0 | OUTCOME 0 | QUESTION 0 | REVISION 0 | CONFLICT 1 | DISAGREEMENT 0 | EXHAUSTION DECLARATION 0 | SKEPTIC CHALLENGE 0 | DEVILS ADVOCATE 0 | BLUFF CHECK 0 | SELF-AUDIT 0 | INDEPENDENT VERIFICATION 0 | DEGRADATION EVENT 0 | DECEPTION FINDING 1 | EVIDENCE CONFLICT 0 | CONFIDENCE PROMOTION 1 | SOURCE TYPE COVERAGE 1 | NEGATIVE FINDING 0 | MATCH LOG 0 | SETUP 0 | SESSION 2 | ANOMALY 1 | IRREVERSIBLE ACTION 0
+
 [2026-10-17T13:41Z] ANOMALY — Turn-4 telemetry: this turn's retrieval blocks ran longer than the 360-second later-bootstrap-turn ceiling (15 sequential-parallel page fetches plus artifact writes); the turn closed promptly once the checkpoint was publishable, and the actual limiting condition (page-fetch latency on zendesk support pages plus large append edits) is recorded here per OMEGA-PROGRESS-001. No work product lost; all 17 turn-4 retrievals are logged. Proposal for the user's consideration (PROPOSED, not adopted): none required — the ceiling is a soft budget for pacing, not a hard stop, and the turn-end sequence completed in order.

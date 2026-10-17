@@ -41,3 +41,10 @@ rotation, coaching state (partially resolved — see T-018), reset cycles (parti
 - **T-026 Stadium bonus** — an official coin-earning condition, linked to the Stadium facility (FTG article 214385285 + GS-023). Existence Confirmed; exact mechanics owed. Volatility: High.
 - **T-027 "Scripts"** — community slang for perceived momentum/rubber-band manipulation. Launch-era megathread claim: "scripts seem to be gone or weaker" in DLS26 (single megathread — Speculative as a mechanism claim). FTG's official position: in DLL there is no manipulation of any in-game situation and no influencing of any outcome (GS-002). Recorded as community perception, not a verified mechanism.
 - **T-028 Reserves / substitutes** — DLS26 carries reserves plus a fixed eight substitutes (community megathread, multiple agreeing comments — Community Consensus; GS-022). Volatility: High.
+
+## Turn-6 additions (verified 2026-10-17)
+- **T-029 Descriptive Button Text** — the settings label for the in-game control captions (Low Kick / Hard Kick / Lofted Kick); Game Settings → Display → Descriptive Button Text ON/OFF (FTG article 14369944135058). Confirmed. Frozen.
+- **T-030 Multiplayer Chat toggle** — the settings switch that disables emoji chat in DLL (gear → Game → Multiplayer Chat OFF) (FTG article 360020938198). Confirmed. Frozen.
+- **T-031 System Info** — the "i" button under Options → Advanced that exposes the User ID via "Copy Info" (FTG article 37082887837202). Confirmed. Frozen.
+- **T-032 Sign in with Google / Sign in with Apple** — the ONLY supported profile-securing services for current FTG games; must be enabled manually through in-game settings; Google Play Games and iCloud are explicitly NOT used for save backup (FTG articles 214387685, 4413273241873). Confirmed. Frozen.
+- **T-033 Luck** — an officially acknowledged component of the DLS experience ("like most games, luck forms a part of the experience"), alongside deliberate unpredictability (FTG article 360000842697). Confirmed as a *category* the developer names; specific magnitude unresearched. Volatility: Low.
