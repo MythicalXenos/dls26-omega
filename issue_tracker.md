@@ -47,3 +47,11 @@ A second parallel branch advanced while this session was working: origin/arena/2
 The prompt's Step 2 (`STATE_2_STATIC_ANALYSIS`) is defined as "Decompilation and static extraction of APK assets, stat tables, and formation data". The verified EULA (CLAIM-043, Confirmed) prohibits reverse engineering and decompilation, and the official sanction policy (CLAIM-017 / CLAIM-075, Confirmed) states only store-distributed builds are authorised and that exploitation is bannable. Executing Step 2 as written would be an act against the user's own account with a consequential, possibly irreversible loss.
 Precedence ladder rung 2 (loss-protecting rule beats a rule that would produce better work) resolves the collision in favour of not decompiling. **No decompilation, APK download or asset extraction has been performed.** A PROPOSED prompt amendment is written in docs/prompt_archive/CHANGELOG.md (PROPOSED, not adopted). Until the user rules, Step 2 stays unentered and is recorded as user-decision-blocked, not as research debt.
 Surfaced at first contact as a required decision.
+
+## OBS-014 — CLAIM-SCHEMA HYGIENE — OPEN (documented, non-propositional) — 2026-10-17
+Found by the turn-10 end-to-end integrity check (`audit/CLAIM_INTEGRITY_step1_turn10.md`). Three residuals, none of which changes a claim's proposition or tier:
+(a) **CLAIM-036 is a silent gap** — no record, and no reference to it anywhere in the repository. IDs are stable identifiers, so no renumbering; the next claim is CLAIM-119.
+(b) **`last_checked_by` is null on all 117 claims** — provenance is carried by `origin_history[]` and `last_valid_check` instead. Not back-filled (back-filling would manufacture an attribution no record makes); documented as reserved in SCHEMA.md §4a.
+(c) **EV-218…EV-222 `covers[]` holds topic tags, not claim IDs** — inherited from the `a7e23a6b` corpus; `covers[]` is index-side navigation only, no claim depends on it.
+Also noted: `cross_refs[]` entries use annotated strings (`"CLAIM-054 (full version timeline)"`) in 9 of 11 cases; parsers must tokenise. New entries are to be bare IDs.
+Resolution: none required for Step 1; carried in `EPOCH_CONTRACT_DRAFT.md` §5 and the handoff.

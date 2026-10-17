@@ -1,11 +1,11 @@
 # STEP 1 — SEALED EPOCH CONTRACT (DRAFT — NOT SEALED)
-Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Status: **DRAFT**. This file is not a seal, satisfies no exit predicate, and must not be cited as one. It exists so that sealing, when the access block lifts, is a matter of filling placeholders rather than writing a contract under pressure.
+Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Revised turn 10 (2026-10-17T17:12Z) to fold in turn-9 results: numeric witness pass closed, negative-finding register written, Mechanism-3 source-type walk written. Status: **DRAFT**. This file is not a seal, satisfies no exit predicate, and must not be cited as one. It exists so that sealing, when the access block lifts, is a matter of filling placeholders rather than writing a contract under pressure.
 
 ## 1. Identification
 - Epoch ID: `epoch-step1-001`
 - Contract owner: this repo (branch `arena/b5d5681d-dls26-omega` at the commit that contains this file)
 - Game edition: Dream League Soccer 2026, build **13.430** (version code 160) as the reference build; later builds are next-epoch debt
-- Snapshot boundary: all captures through **2026-10-17T20:00Z**
+- Snapshot boundary: all captures through **2026-10-17T17:10Z** (turn 10); the 2026-10-15T09:31Z re-verification remains the latest live retrieval
 - Platform reference: Android package `com.firsttouchgames.dls7`, iOS id1462911602
 - Epoch status: **OPEN** (not sealed)
 
@@ -27,7 +27,7 @@ Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Status: **DRAFT**
 ### Source types (Mechanism 3 — a floor, not a ceiling)
 1. Official sources — **covered** (26/30 support articles; store listings; policy pages)
 2. Third-party databases/tools — **covered** (sakibpro, dlsinside historical, dreamkitsapp)
-3. English-language community — **snippet-level only** (blocked)
+3. English-language community — **snippet-level only** (blocked); the largest single deficit in the category-by-category walk (`MECH3_SOURCE_TYPE_WALK.md`)
 4. Non-English community — **partial** (ES/VI/TR/ID/PT; snippet-level)
 5. Technical sources — **negative** on reachable families; decompilation prohibited
 6. User-generated content — **partial** (historic captures)
@@ -48,13 +48,19 @@ A ref counts as fully extracted only when, for each projection it was admitted f
 - [ ] 3 uncaptured support article bodies (#19, #26, #27)
 - [ ] 4 summary-only articles lacking EV records (RQ-006)
 - [ ] 5 open conflicts (C-001…C-005) — settled or carried with both sides
-- [ ] 53 remaining numeric claims — spot-checked (RQ-015)
+- [x] ~~53 remaining numeric claims — spot-checked (RQ-015)~~ **CLOSED turn 9**: all 62 EV-backed numeric claims inspected; 4 corrections applied (CLAIM-004, 007, 053, 087). Non-issues individually verified. Record: `audit/TRANSCRIPTION_SPOTCHECK_turn8.md` §"Turn-9 completion".
+- [x] ~~Negative-finding register absent~~ **WRITTEN turn 9**: `step1_epochs/NEGATIVE_FINDINGS.md`, NEG-001…008, each with a reopening condition and the build/capture it was established against.
+- [x] ~~Mechanism-3 categories not walked~~ **WALKED turn 9**: `step1_epochs/MECH3_SOURCE_TYPE_WALK.md` — official at access limit; third-party DBs historical; EN community the largest deficit; non-English partial; technical negative to permitted limit; UGC partial. Exhaustion NOT declared.
+- [x] ~~Claim authority unverified end-to-end~~ **CHECKED turn 10**: 117/117 JSONL lines parse; IDs unique, ordered; 264 support EV tokens and 22 context EV tokens all resolve to index records whose artifacts exist; every claim has a volatility tier and a valid `next_due`; no claim lacks an evidence basis; `kb/claims_index.md` = 117 rows, 1:1. Report: `audit/CLAIM_INTEGRITY_step1_turn10.md`.
+- [ ] Freshness debt carried: CLAIM-003 and CLAIM-006 are past `next_due` (2026-10-11) with no retrieval channel; dates are **not** bumped (that would falsify freshness). CLAIM-005 and CLAIM-021 fall due 2026-10-17. Carried into first contact as a stated limitation.
+- [ ] In-client observation programme: 14 items in `step1_epochs/IN_CLIENT_CHECKLIST.md` (P1 controls/FPS/camera/stat labels/build; P2 division/leaderboard/rewards/prize state; P3 formation/subs/market/coach). These are user-assisted observations, not research refs; they are carried as a Step-5 dependency, not as seal blockers.
+- [ ] Claim-hygiene residuals (OBS-014): CLAIM-036 number gap (no record, no reference), `last_checked_by` null on all 117 imported claims, EV-218…EV-222 `covers[]` holds topic tags rather than claim IDs (inherited from the a7e23a6b corpus). None changes a proposition; all are recorded rather than silently normalised.
 
 ## 6. Required final checks before seal
 1. Both exhaustion conditions computed independently and written, per the two-condition test.
 2. Mechanism 3 checklist walked category by category with specific answers.
 3. Skeptic pass on every claim promoted during the epoch; Devil's Advocate pass on the epoch's conclusions.
-4. A negative-finding register complete, with the version each closure was established against.
+4. A negative-finding register complete, with the version each closure was established against. **Status: register written (NEG-001…008); "complete" is not claimed — it can only be asserted at seal, after the access boundary lifts, because absence-of-finding under a block is not absence-of-existence.**
 5. The audit package for the epoch assembled from the promotion log.
 6. This contract's placeholders resolved; the frontier regenerated from the physical log and diffed against it.
 

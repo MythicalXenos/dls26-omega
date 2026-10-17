@@ -38,6 +38,12 @@ Claim ID, proposition, build/platform/mode context, confidence tier, volatility 
 - `challenges[]` continues to hold open Skeptic/DA challenges as plain sentences; a challenged claim may not be quoted without its challenge where the challenge bears on the intended use.
 - Additions are recorded here rather than renaming fields, so existing records stay valid without migration (old schema kept).
 
+## 4b. Claim field conventions (recorded turn 10, no migration)
+- `last_checked_by` is **reserved**: null in all imported records. Provenance is carried by `origin_history[]` and `last_valid_check`; populate it only when a real re-check is performed by a named actor. Null must never be read as "checked by nobody" or as proof of freshness.
+- `cross_refs[]` entries must be **bare `CLAIM-###` strings**. Nine legacy entries carry parenthetical annotations; parsers must match the ID token. Do not rewrite them retroactively.
+- `supporting_evidence[]` is a free-text list; each entry may be a bare `EV-###` or a descriptive witness (kb-file reference, claim reference, failure record). A resolver must extract every `EV-###`/`EVD-###` token and check it against `evidence/index.jsonl` **plus** the `evidence/extract/` filenames, because page-missing `EVD-*` records exist as files but are not registered in the index.
+- `covers[]` in `evidence/index.jsonl` normally holds claim IDs; five inherited records (EV-218…EV-222) hold topic tags instead. Treat it as navigation metadata, never as evidence of coverage.
+
 ## 5. Migration and rollback
 - Version is explicit and integer; unknown versions are rejected, not guessed.
 - Any schema change: write the reason and migration steps here, keep the old shape readable, migrate losslessly, verify counts/digests, commit a KB snapshot before and after.

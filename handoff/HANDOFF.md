@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T21:00Z (session sess-20261017-001, turn 9, checkpoint ckpt-20261017-step1-008)
+Updated: 2026-10-17T17:12Z (session sess-20261017-001, turn 10, checkpoint ckpt-20261017-step1-009)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -7,6 +7,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Next state (next turn boundary): STATE_1_RESEARCH_SWEEP.
 - Continuation: allowed; user not required; expected line this turn: `Bootstrap in progress [Step 1]. Send > to continue.`
 - No user ask owed. Nothing irreversible has been done or recommended.
+
+## Turn 10 result — integrity check, contract refresh, first-contact basis, degradation audit
+- **Claim authority integrity: PASS.** 117/117 lines parse; IDs unique/ordered (OBS-014a: CLAIM-036 gap, unreferenced); 264 supporting and 22 context EV tokens all resolve; every claim has a tier and a valid `next_due`; no empty evidence basis; `claims_index.md` is 1:1. Report: `audit/CLAIM_INTEGRITY_step1_turn10.md`.
+- **Contract refreshed:** `EPOCH_CONTRACT_DRAFT.md` §5 now records the turn-9 closures (numeric pass, NEG register, Mechanism-3 walk) and the new residual debts; still DRAFT, still unsealed.
+- **First-contact basis written:** `step1_epochs/FIRST_CONTACT_BASIS.md` — four briefing tiers, the "#1 is undefined" opening, six batched user-only asks, delivery gate at Step 5. Not delivered.
+- **Degradation self-audit:** `audit/DEGRADATION_SELF_AUDIT_turn10.md` — 8 events; dominant finding is that the entire knowledge base is second-hand and cross-corpus agreement is not independence.
+- Schema conventions recorded (`SCHEMA.md` §4b); OBS-014 logged.
 
 ## Turn 2 result — environment boundary + continuity correction
 - Actual reachability attempts (not inherited assumptions): support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com and a control host all fail at TLS (curl 35, null HTTP status). api.github.com, registry.npmjs.org, pypi.org return 200. This environment generation is allowlist-limited: web research families are ACCESS_BOUNDARY, not "site down".
@@ -74,11 +81,15 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
-## Exact resumption point (next turn)
-Per the manifest: (1) close the remaining synthesis gap EV-173 (store-review sentiment) as its own low-tier claim, or record it as not worth a claim with reasons; (2) Devil's Advocate pass over the Step-1 topic map's readiness conclusions (Mechanism 7 — is the evidence enough for the readiness calls it makes, and does any gap claim overreach?); (3) reconcile the EVIDENCE CONFLICT ledger into a single conflicts file with each pair, its status and its reopening test; (4) refresh the epoch accounting for the 16 UNVISITED t69 refs with a per-ref disposition (owed vs access-boundary). Network re-test only on environment change or a new permitted route.
+## Exact resumption point (next turn — turn 11)
+1. **Second stratified witness spot-check**: 10 claims drawn from those *not* covered in turn 8/9, weighted to Confirmed and Community Consensus; strip IDs/dates before comparing propositions to EV text. This is the D-05 correction.
+2. **Conflicts ledger residual**: add C-006 for the CLAIM-106 vs 22655f48 GS-030 contradiction (sibling says the auto-switch article 360008315158 is dead; our EV-145 holds its full text). Both sides, status, reopening test.
+3. **Step-3 device pipeline plan** (offline-capable, read-only): what the pipeline will require of the device, what it will never do (no root, no patching, no save edits), and the capture/telemetry checklist. No device access exists in this sandbox — write the plan, do not pretend to run it.
+4. Refresh `kb/claims_index.md` only if claims change; do not create new accounting artefacts unless a check fails (D-06 correction).
+Web families remain ACCESS_BOUNDARY; re-probe only on an environment-generation change. OBS-013 stays a first-contact decision; nothing to download or decompile.
 
 ## Owed debt / open items
-- OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued).
+- OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).
 - Step 1 gaps: web families ACCESS_BOUNDARY this environment; version gaps 13.140-13.299 and 13.360-13.400; true non-English forums; technical/decompilation layer unavailable; UGC partial.
 - Step 2/3 blocked in this sandbox: no java/ADB/APK tooling/device. Recorded as capability limits, never as done.
 - Optional user-side unblock (for first contact, not asked now): push captured pages/APK/save files into raw_game_data/ — the system will process them as read-only input.
