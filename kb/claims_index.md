@@ -1,8 +1,7 @@
 # KB — CLAIM INDEX (derived view)
 Generated mechanically from `kb/claims.jsonl` at 2026-10-17T19:27Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-
-Total claims: **117**
-
+Total claims: **118**
+Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Speculative 12 / Disputed 1. Volatility: High 40 / Medium 31 / Low 33 / Critical 11 / Frozen 3.
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |
 | --- | --- | --- | --- | --- |
 | CLAIM-001 | DLS26 ('Dream League Soccer 2026') is the 2025/26-season entry of First Touch Games' Dream League Soccer franc | High Confidence | volatility-High | 2026-11-10 |
@@ -34,7 +33,7 @@ Total claims: **117**
 | CLAIM-027 | DLL matchmaking inputs are primarily LIVE Tier ranking, player location and the availability pool at match tim | High Confidence | volatility-Medium | 2026-11-15 |
 | CLAIM-028 | Coaches are player-development consumables: a selected coach randomly picks a player to permanently upgrade; F | High Confidence | volatility-High | 2026-11-01 |
 | CLAIM-029 | Squad churn rules (official): non-Starting-11 players can be discarded for a specified payout ("bux"/coins); t | High Confidence | volatility-Medium | 2026-11-15 |
-| CLAIM-030 | DLS requires online connectivity for the majority of features (Wi-Fi recommended); player likenesses improve o | High Confidence | volatility-Low | 2026-12-01 |
+| CLAIM-030 | DLS requires online connectivity for the majority of features (Wi-Fi recommended); player likenesses improve over time via regular data updates; licensing ga... | High Confidence | volatility-Low | 2026-12-01 |
 | CLAIM-031 | Difficulty model (official): single-player difficulty scales with division progress; DLS25 added a base-diffic | High Confidence | volatility-Medium | 2026-11-15 |
 | CLAIM-032 | Release economy (version 12200+): releasing a player via Transfers>Manage Players grants a COACH (development  | High Confidence | volatility-High | 2026-11-01 |
 | CLAIM-033 | Card rarity taxonomy (official): common=bronze, rare=blue, legendary=gold, max=red, special=black (by overall  | High Confidence | volatility-Medium | 2026-11-15 |
@@ -102,7 +101,7 @@ Total claims: **117**
 | CLAIM-096 | Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; | Speculative | volatility-Critical | 2026-11-17 |
 | CLAIM-097 | OVR is community/tool shorthand for Overall (the player's rating). Tool usage: sakibpro defines team OVR as th | High Confidence | volatility-Frozen | 2026-11-17 |
 | CLAIM-098 | Clan system rules (official article 30839289076626, EV-108 full text): one clan at a time; one leader, leaders | Confirmed | volatility-High | 2026-11-17 |
-| CLAIM-099 | Friend Match is a private match created with a shared code or word (characters A-Z, 0-9 and hyphen only), acce | High Confidence | volatility-Low | 2026-11-17 |
+| CLAIM-099 | Friend Match is a private match created with a shared code or word (characters A-Z, 0-9 and hyphen only), accessed from the Dream League Live (Multiplayer) s... | High Confidence | volatility-Low | 2026-11-17 |
 | CLAIM-100 | Device compatibility guidance is NOT published as a minimum-spec list. The official article (214385685, alt slug 360004441177) returned a Zendesk 404 on 2026... | High Confidence | volatility-Low | 2026-11-17 |
 | CLAIM-101 | Squad depth: DLS26 carries reserves plus a fixed eight substitutes (community megathread, December 2025, multi | Community Consensus | volatility-High | 2026-11-17 |
 | CLAIM-102 | New-player starting state: a basic lineup around 50-60 OVR; returning players carry progress over, including ' | Speculative | volatility-High | 2026-11-17 |
@@ -122,11 +121,10 @@ Total claims: **117**
 | CLAIM-116 | Special-player taxonomy with counts (dlsinside database at build 13.430, single database): Cult Heroes 12, Wor | High Confidence | volatility-Critical | 2026-11-17 |
 | CLAIM-117 | A DLS 27 cycle is being prepared: a dlsinside blog post (25 Aug 2026) covers 'DLS 27: All New, Returning, and  | Community Consensus | volatility-Critical | 2026-11-17 |
 | CLAIM-118 | App Store review sentiment on the DLS26 listing (chunk captured 2026-10-11): wish-list items include managing  | Community Consensus | volatility-Critical | 2026-11-17 |
-
+| CLAIM-119 | OFFICIAL update-troubleshooting ladder (article 360000220945): iOS — close DLS, open App Store > Updates, pull to refresh, locate DLS and Update (or search D... | High Confidence | volatility-Low | 2026-11-17 |
 ## Distribution
 - Confidence: High Confidence 49, Speculative 13, Confirmed 31, Disputed 1, Community Consensus 23
 - Volatility: volatility-High 40, volatility-Critical 11, volatility-Low 32, volatility-Medium 31, volatility-Frozen 3
-
 ## Claims with open challenges
 - CLAIM-001: launch-date contradiction CLAIM-008
 - CLAIM-002: full articles now extracted (EV-101/102 verbatim match snippets); community 'weekly' reset vs official '3-30 days' range still unresolved (n

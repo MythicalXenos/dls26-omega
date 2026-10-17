@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T18:58:00Z",
+  "updated_at": "2026-10-17T19:50:00Z",
   "items": [
     {
       "id": "RQ-20261017-001",
@@ -149,19 +149,30 @@
       "id": "RQ-20261017-017",
       "topic": "Promote three captured-but-unpreserved support bodies into EV records (friend match 360019064438, connection requirement 360004034498, can't update 360000220945); reconcile two more whose content lives under other IDs (restart career 213851909 ~ EV-211; device compat 214385685 ~ GS-018 + service summary)",
       "tier": "queue-High",
-      "status": "open",
+      "status": "completed",
       "added": "2026-10-17T18:58Z",
       "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a73",
-      "note": "Retrieval already happened (service log 2026-10-17 13:30Z); only extraction is owed. Do NOT write 'full text' EV records from payload summaries \u2014 where only the service-log summary survives, the EV record must say so in authenticity_limits."
+      "note": "EV-223/224/225 written with summary-only provenance; CLAIM-119 added for the update ladder; CLAIM-030/099 gained witnesses. No body text was invented.",
+      "completed_at": "2026-10-17T19:35Z"
     },
     {
       "id": "RQ-20261017-018",
       "topic": "Re-stamp the frontier (t69 -> current) with the eleven status changes and a migration note",
       "tier": "queue-Medium",
-      "status": "open",
+      "status": "completed",
       "added": "2026-10-17T18:58Z",
       "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a77",
-      "note": "Do not edit the imported artifact in place without a migration note; freeze procedure step 5 requires a digest tied to a commit."
+      "note": "Frontier re-stamped in two waves (8 status changes + 5 disposition alignments), restamps[] array added, digests recorded, contract \u00a72 rewritten from the tool output.",
+      "completed_at": "2026-10-17T19:45Z"
+    },
+    {
+      "id": "RQ-20261017-019",
+      "topic": "Resolve C-009 with an in-client look: does Main Menu > Season Leaderboard show other players and a position number?",
+      "tier": "queue-Critical",
+      "status": "open",
+      "added": "2026-10-17T19:50Z",
+      "source": "logs/conflicts.md C-009",
+      "note": "This single observation decides whether the mission's '#1' can be measured on the Season Leaderboard at all. Fold into the P2 in-client checklist."
     }
   ]
 }

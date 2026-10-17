@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T19:02Z (session sess-20261017-001, turn 13, checkpoint ckpt-20261017-step1-012)
+Updated: 2026-10-17T19:55Z (session sess-20261017-001, turn 14, checkpoint ckpt-20261017-step1-013)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 14 result — extraction debt paid, frontier re-stamped, pair sample found C-009
+- **Three EV records written** (EV-223/224/225) for the captured-but-unpreserved support bodies (friend match, connection requirement, can't update). Each states **summary-only provenance** in its first lines — no body text was invented. A new claim, **CLAIM-119**, carries the official update-troubleshooting ladder, which had no claim before.
+- **Frontier re-stamped** (RQ-018) in two waves: 8 status changes for refs actually served on 2026-10-17, then 5 alignments with the turn-6 disposition document. Final, tool-verified distribution: **96 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 3 RETRYABLE / 2 ACCESS_BOUNDARY / 8 DUPLICATE = 161**. File SHA-256 `78d689b8…`; the pre-stamp artifact stays unmodified in git history. Contract §2 rewritten from the tool output.
+- **Pair-based witness sample (sample 5):** four mechanism pairs; three clean, one exposed a scope gap. **C-009**: the article that defines Leaderboards scopes them to Multiplayer (3–30 day resets), while the Season Leaderboard is a Main Menu board by Season Points — no official text links them, and nothing shows whether it is public. Because "#1" is the mission's success condition, this is the most consequential open question in the KB. CLAIM-003 amended; RQ-019 queued for an in-client look.
+- **Witness coverage 46/118 claims (39%).** No tier lowered; no date bumped without a check.
+
 ## Turn 13 result — frontier reconciled (the count was nine refs stale), CLAIM-100 corrected, sample 4
 - **The epoch's debt profile is now correct.** Diffing this workspace's 63-entry service log against the recovered 161-ref frontier found **11 stale statuses**: five refs recorded as RETRYABLE_FAILURE and two as UNVISITED had already been captured in full on 2026-10-17, and two IN_PROGRESS refs advanced by chunk. The contract's "9 retryable" is really **4** (one of which is a superseded article ID). The frontier was never re-stamped after the tools returned — the count was inherited from the t69 snapshot. Report: `step1_epochs/FRONTIER_DELTA_turn13.md`.
 - **CLAIM-100 corrected and promoted.** The device-compatibility article that 404'd on 2026-10-10 served full text on 2026-10-17: "iOS compatible with most devices… Android 3,000+ devices… availability restricted by hardware/carrier/territory… minimum OS varies per app". The claim now states the capture history and the content; Speculative → **High Confidence**. NEG-009 records the general lesson: a 404 on one date does not prove permanent removal.
@@ -102,12 +108,11 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 14)
-1. **RQ-017 — write the three missing EV records** (friend match 360019064438, connection requirement 360004034498, can't update 360000220945) from what the service log actually preserves, marking summary-only provenance where the full body is not in the workspace. Do not invent body text.
-2. **RQ-018 — re-stamp the frontier** with the eleven status changes, a migration note, and the new digest; this is freeze step 1 and turns the contract's §2 into a reproducible number.
-3. **Sample 5** of the witness pass: target the 34 remaining High Confidence claims, and this time test **pairs** (claims describing the same mechanism) — sample 4 showed that tension ownership is asymmetric and only one side of a supersession tends to carry the note.
-4. No new registers (D-06).
-Web families remain ACCESS_BOUNDARY; re-probe only on environment-generation change. OBS-013 remains a first-contact decision; nothing to download or decompile.
+## Exact resumption point (next turn — turn 15)
+1. **Sample 6**: the remaining never-tested High Confidence claims (about 34), again in pairs around a single mechanism, prioritising anything that could affect advice about spending currency or match volume.
+2. **Consolidate the C-009 question into the in-client checklist** (P1, not P2) — it gates the mission definition, not a detail.
+3. **Write `kb/index.md` refresh and a claims snapshot** (`kb_snapshots/`) since the claim set changed (118 claims, CLAIM-119 added) — the snapshot rule requires one after a claim change.
+4. Do not create new registers (D-06). Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 is still a first-contact decision.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

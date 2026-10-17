@@ -211,3 +211,9 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **CLAIM-100 corrected** from the live capture (device compatibility: most devices, 3,000+ Android devices, no numeric spec floor) and promoted Speculative → High Confidence. NEG-009 added: page liveness is not stable, so one 404 does not prove removal.
 - **Sample 4 witness pass** (`audit/WITNESS_SPOTCHECK_sample4_turn13.md`): 8 single-witness High Confidence claims; 7 faithful, CLAIM-014 superseded by the current official article (note added), CLAIM-094 discloses C-001. Witness coverage 38/117.
 - Contract §2/§5 updated with the corrected counts; RQ-017/018 queued; index rows regenerated for the three edited claims. No retrieval attempted; nothing downloaded or decompiled.
+
+## 2026-10-17T19:55Z — turn 14 — STATE_1_RESEARCH_SWEEP (offline)
+- **RQ-017 closed**: EV-223/224/225 written for friend-match (360019064438), connection-required (360004034498) and can't-update (360000220945) captures. Every record opens with a PROVENANCE LIMIT stating the body was not preserved and that the content is the verbatim service summary — no reconstruction. CLAIM-119 added (update ladder, High Confidence); CLAIM-030/099 gained witnesses and lost a stale challenge.
+- **RQ-018 closed**: frontier re-stamped in two waves (13 status changes total), `restamps[]` audit array added, sequence 1301 → 1314. Verified by `frontier.py summary`: 96/23/21/8/3/2/8 = 161. SHA-256 `78d689b8…`; prior artifact untouched in git.
+- **Sample 5 (pairs)** `audit/WITNESS_SPOTCHECK_sample5_turn14.md`: three clean pairs, one scope gap → **C-009** (are DLL leaderboards and the Main Season Leaderboard the same surface, and is it public?). CLAIM-003 amended; RQ-019 queued. Witness coverage 46/118.
+- Claims file hygiene: the JSONL was rewritten with one record per line (no blank lines); 118 records, all parse.

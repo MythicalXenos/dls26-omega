@@ -63,6 +63,14 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **May say meanwhile:** "the only official promotion text describes an XP ladder; a community guide describes division objectives. Which governs Career is unverified — check your division screen before optimising for objectives."
 - **Impact on coaching:** blocks any advice that trades wins for goal-farming until resolved.
 
+### C-009 — Is the Season Leaderboard the same board as the DLL leaderboards?
+- **Side A:** the article defining leaderboards scopes them to **Multiplayer (Dream League Live)**, resets 3–30 days, prizes by end position (EV-101; CLAIM-002, High Confidence).
+- **Side B:** a different official article says Season Points "and your current total is shown on the **season leaderboard accessed from the Main Menu**" (EV-126/EV-197; CLAIM-071, Confirmed).
+- **Status:** UNRESOLVED. Both are official and neither mentions the other. Three readings are open: (i) two separate boards; (ii) one board with two entry points; (iii) the Main Menu board is a personal/personal-plus standings view with no public ranking at all.
+- **Why it matters:** the mission target is "#1". CLAIM-003 lists the Season Leaderboard as a candidate surface. If it is not a public, cross-player ranking, it cannot define "#1", and the only public surfaces left are the DLL leaderboards (3–30 day resets) and LIVE Tier.
+- **Settles it:** a Main Menu → Season Leaderboard capture showing whether other players appear and whether a rank/position is displayed, or an official sentence linking the two.
+- **May say meanwhile:** "there are two official boards with different names and no documented relationship; neither has been shown to display a global position."
+
 ## RESOLVED (kept for history, with the evidence that resolved them)
 
 ### C-R01 — Launch date: Dec 4 2026 vs Dec 17 2025

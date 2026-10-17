@@ -9,21 +9,23 @@ Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Revised turn 10 (
 - Platform reference: Android package `com.firsttouchgames.dls7`, iOS id1462911602
 - Epoch status: **OPEN** (not sealed)
 
-## 2. Admitted references
-| Group | Count | Source |
-| --- | --- | --- |
-| Frontier refs (t69) | 161 | `logs/sources_visited.json` @ 5ab3ec6 |
-| VISITED | 91 | same |
-| IN_PROGRESS | 23 | accounted in `INPROGRESS_ACCOUNTING.md`; two advanced by chunk on 2026-10-17, none completed |
-| NON_CONNECTED | 20 | scope proofs recorded |
-| UNVISITED | 15 → 8 after disposition | `UNVISITED_DISPOSITIONS.md` |
-| RETRYABLE_FAILURE | 9 → **4** | five were captured on 2026-10-17 but the frontier was never re-stamped; one of the four remaining is a superseded article ID. See `FRONTIER_DELTA_turn13.md` |
-| ACCESS_BOUNDARY | 2 | reopening predicates recorded |
-| REPRESENTATION_DUPLICATE | 1 | canonical pointer recorded |
-| This session's probes | 13 (S-051…063) | capability + continuity, not game content |
-| **Admitted total pending seal** | **to be frozen at seal** | — |
+## 2. Admitted references (RE-STAMPED turn 14 — reproducible from disk)
+Source: `docs/continuity/a7e23a6b/logs/sources_visited.json`, executed with `python3 tools/frontier.py summary` from that directory.
+File SHA-256 after re-stamp: `78d689b8fb5d27a3e13b8e46b9c461dbc83700ef642ea15a9ffcee5d85cac0d4` (before: `64a2ff85…`; the pre-re-stamp file at branch `a7e23a6b` commit `5ab3ec6` remains unmodified in git history).
+Sequence counter 1314 · service events 1122 · two re-stamp waves recorded in the file's own `restamps[]` array.
 
-**Turn-13 reconciliation:** the RETRYABLE row is superseded — five refs were captured after the t69 snapshot. The epoch's real debt is now **extraction**, not retrieval: five captured bodies still lack EV records. The frontier file was deliberately not re-stamped; see `step1_epochs/FRONTIER_DELTA_turn13.md` §6.
+| Status | Count | Note |
+| --- | --- | --- |
+| VISITED | **96** | +5 captured on 2026-10-17 after the t69 snapshot |
+| IN_PROGRESS | **23** | two advanced by chunk; none completed (store chunks 2–5, player-stats comments 1–3, Reddit and community families) |
+| NON_CONNECTED | **21** | +1 (restart-career-3rd, scope evidence in EV-208 lineage) |
+| UNVISITED | **8** | 7 owed under ACCESS_BOUNDARY + 1 administrative endpoint (`ref-support-contact`, dispositioned CANONICALIZED-ADMIN) |
+| RETRYABLE_FAILURE | **3** | control-buttons, emojis, kit-visible-live — all support articles still owed |
+| ACCESS_BOUNDARY | **2** | Reddit mid-season megathread; FTG zendesk alias |
+| REPRESENTATION_DUPLICATE | **8** | each carries a named canonical capture |
+| **Total** | **161** | unchanged — this is a status re-stamp, not an admission change |
+
+**What changed and why it mattered:** the contract had been quoting the t69 snapshot for five turns. Eight refs had in fact been served the same day the tools returned. The corrected picture is that **Step 1's remaining debt is extraction and access, not retrieval**: three known articles remain unfetched, twenty-three refs are mid-capture, and eight are owed behind the block.
 
 ## 3. Required dimensions (the contract's floors)
 ### Source types (Mechanism 3 — a floor, not a ceiling)
@@ -45,11 +47,11 @@ A ref counts as fully extracted only when, for each projection it was admitted f
 
 ## 5. Accounts owed at seal (placeholders, must be zero or explicitly carried)
 - [ ] 23 IN_PROGRESS refs — completed or carried as access-limited with predicate (count verified by `frontier.py summary`, turn 12)
-- [x] ~~9 RETRYABLE refs — retried or carried~~ **RECONCILED turn 13**: five proved already captured (friend-match, restart-career, connection-required, device-compat, cant-update), one is a superseded ID (season-pass rev2), three remain genuinely owed (control-buttons, emojis, kit-visible-live). Detail: `FRONTIER_DELTA_turn13.md` §3.
-- [ ] 7 owed UNVISITED refs — captured or carried
-- [ ] 3 uncaptured support article bodies (#19, #26, #27)
-- [ ] 4 summary-only articles lacking EV records (RQ-006)
-- [ ] 5 open conflicts (C-001…C-005) — settled or carried with both sides
+- [x] ~~9 RETRYABLE refs~~ **CLOSED turn 13–14**: five were already captured (friend-match, restart-career, connection-required, device-compat, cant-update), one was a superseded ID (season-pass rev2). Three remain and are listed as RETRYABLE below.
+- [ ] 7 owed UNVISITED refs — captured or carried (plus 1 administrative endpoint)
+- [ ] 3 uncaptured support article bodies (#19 control-buttons, #26 emojis, #27 kit visibility) — unchanged, all still RETRYABLE_FAILURE
+- [x] ~~4 summary-only articles lacking EV records (RQ-006)~~ **PARTLY CLOSED turn 14**: three of the captures now have EV records (EV-223/224/225) with summary-only provenance stated in each; the RQ-006 set proper still needs its own pass.
+- [ ] open conflicts — settled or carried with both sides. Count is **9** (C-001…C-009), not 5: C-006 liveness, C-007 store list, C-008 promotion mechanics and C-009 leaderboard identity were added in turns 11–14.
 - [x] ~~53 remaining numeric claims — spot-checked (RQ-015)~~ **CLOSED turn 9**: all 62 EV-backed numeric claims inspected; 4 corrections applied (CLAIM-004, 007, 053, 087). Non-issues individually verified. Record: `audit/TRANSCRIPTION_SPOTCHECK_turn8.md` §"Turn-9 completion".
 - [x] ~~Negative-finding register absent~~ **WRITTEN turn 9**: `step1_epochs/NEGATIVE_FINDINGS.md`, NEG-001…008, each with a reopening condition and the build/capture it was established against.
 - [x] ~~Mechanism-3 categories not walked~~ **WALKED turn 9**: `step1_epochs/MECH3_SOURCE_TYPE_WALK.md` — official at access limit; third-party DBs historical; EN community the largest deficit; non-English partial; technical negative to permitted limit; UGC partial. Exhaustion NOT declared.
