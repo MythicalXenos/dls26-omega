@@ -1,0 +1,2 @@
+# EVD-0010 — page-missing record (CORRECTED annotation)
+Constructed urls 360005678698 / 360005678818 ("What is / How does the Season Pass work") fetched 2026-10-11T00:08-00:16Z returned Zendesk oops 404. These urls were NOT frontier refs (DS-32 mis-tagged ref-support-season-pass-rev1; disposition restored). The real season-pass refs: 4404070913169 (VISITED, EV-earlier), 17143633310225 (rev1, UNVISITED), 440407098513 (rev2, UNVISITED). No information extracted from the 404s.

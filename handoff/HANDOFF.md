@@ -1,12 +1,18 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T16:51:31Z (session sess-20261017-001, turn 1, checkpoint ckpt-20261017-setup-002)
+Updated: 2026-10-17T17:03Z (session sess-20261017-001, turn 2, checkpoint ckpt-20261017-step1-001)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
-- Active: STATE_0_SETUP — **complete on disk this turn**.
-- Next state (next turn boundary): STATE_1_RESEARCH_SWEEP, step 1.
-- Continuation: allowed; user not required; expected line this turn: BOOTSTRAP_START.
-- No user ask is owed from Setup. Nothing irreversible has been done or recommended.
+- Active: STATE_1_RESEARCH_SWEEP (step 1). Setup exit validated and consumed at this turn boundary.
+- Next state (next turn boundary): STATE_1_RESEARCH_SWEEP.
+- Continuation: allowed; user not required; expected line this turn: `Bootstrap in progress [Step 1]. Send > to continue.`
+- No user ask owed. Nothing irreversible has been done or recommended.
+
+## Turn 2 result — environment boundary + continuity correction
+- Actual reachability attempts (not inherited assumptions): support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com and a control host all fail at TLS (curl 35, null HTTP status). api.github.com, registry.npmjs.org, pypi.org return 200. This environment generation is allowlist-limited: web research families are ACCESS_BOUNDARY, not "site down".
+- GitHub technical sweep (4 repo searches, 5 inspections, 1 code search) and npm search: no DLS26 APK, save-format, stat-table or decompilation corpus. NEGATIVE FINDING, bounded to queries/date; logged S-059..062, RQ-002.
+- Major continuity correction: branch arena/a7e23a6b-dls26-omega (v77) holds a far more advanced corpus than 22655f48 — 87 claims, 118 evidence extracts, 157-ref coverage accounting (t69 pre-seal), schemas and preparation docs. Imported losslessly: kb/claims.jsonl is now the live claim authority; step1_epochs/coverage_accounting live; full corpus at docs/continuity/a7e23a6b/. Markdown topic files remain derived summaries. OBS-011 logged; reconciliation queued RQ-003.
+- Episode status honesty: the imported epoch remains OPEN and unsealed; no closure is claimed.
 
 ## Setup exit evidence (all written and verified on disk)
 1. Prompt persistence MECHANICAL: DLS26_OMEGA_PROMPT.md, 175,596 bytes, SHA-256 b7fd30da008740723e62241002a447adf2ccda57fc23a68da4bb1f6b8db6dd7b; archived at docs/prompt_archive/OMEGA_PROMPT_v76.md and OMEGA_PROMPT_v78_2026-10-17.md.
@@ -24,9 +30,10 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Prompt discrepancy: prior capture was 173,446 bytes labelled v78; this session's delivered prompt is 175,596 bytes labelled v78 (43 changed lines, ~31 added clauses). The current delivered text is authoritative for this session; discrepancy logged OBS-007.
 
 ## Exact resumption point (next turn)
-STATE_1_RESEARCH_SWEEP Step 1: resume the inherited frontier list in logs/turn_manifest.json and prior handoff. First, at turn start, reconcile workspace/HEAD with origin and re-check network capability; if the allowlist blocks external targets, record ACCESS_BOUNDARY with the actual attempt matrix rather than claiming failure or success. Continue source-by-source, log every retrieval to logs/sources_visited.json, write claims to kb/ with tiers.
+Offline-capable Step 1 work first, per the manifest: (1) RQ-003 reconcile claims.jsonl with markdown summaries and build the alias map; (2) synthesize the 118 imported evidence extracts into KB topic coverage and check which previously-owed FTG articles are already captured (EV-110..165 look substantially complete); (3) refresh over-due claims from captured evidence only, marking web-dependent refreshes ACCESS_BOUNDARY; (4) advance step1_epochs/coverage_accounting to the two-condition closure test and name remaining debt. Re-test the network only on an environment-generation change or a new permitted route.
 
 ## Owed debt / open items
-- OBS-001 (v76 archive filename vs v78 content), OBS-002 (referenced-but-absent prompt sections), OBS-003 (manifest enum vs six-class vocabulary), OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (digest append-size deviation, repaired), OBS-010 (Setup wall-clock exceeded).
-- Step 1 coverage gaps inherited: 15 FTG article bodies, version gaps, true non-English forums, technical/decompilation layer, user-generated content.
-- Step 2/3 blocked in this sandbox: no java/ADB/APK tooling/device. Recorded as capability limits, not as done.
+- OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued).
+- Step 1 gaps: web families ACCESS_BOUNDARY this environment; version gaps 13.140-13.299 and 13.360-13.400; true non-English forums; technical/decompilation layer unavailable; UGC partial.
+- Step 2/3 blocked in this sandbox: no java/ADB/APK tooling/device. Recorded as capability limits, never as done.
+- Optional user-side unblock (for first contact, not asked now): push captured pages/APK/save files into raw_game_data/ — the system will process them as read-only input.

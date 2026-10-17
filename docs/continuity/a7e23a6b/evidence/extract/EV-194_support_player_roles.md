@@ -1,0 +1,4 @@
+# EV-194 (full 1/1) — support article: How do I change my player roles? (ref-support-player-roles)
+source: https://support.ftgames.com/hc/en-us/articles/7917583876625-How-do-I-change-my-player-roles | official-support | fetched 2026-10-11T11:47Z
+OPERATIVE CONTENT: Squad screen (Main Menu) -> "Roles" button -> change player roles. Article closed for comments.
+RELATED-ARTICLE DISCOVERY (5 new frontier refs admitted): 17144107973265 "How do I add a friend?"; 17146555181585 "How do I sell players?" (cf sell-no-refund review theme); **7917423348497 "How do I get promoted?" — PRIORITY mission lead (CLAIM-003/021/062 promotion mechanics, OFFICIAL)**; 7918056936721 "How can I change my graphics settings?" (user pinned camera settings); 7917587319313 "How do I change my formation?" (user pinned formation).

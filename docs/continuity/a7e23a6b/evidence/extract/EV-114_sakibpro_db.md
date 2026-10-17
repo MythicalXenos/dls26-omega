@@ -1,0 +1,5 @@
+# EV-114 (full-page extraction) — SakibPro DLS26 player database
+source: https://sakibpro.com/players/ | origin_method: database-derived (community DB) | fetched: 2026-10-10T20:19Z | chunk 1/1
+CONTENT (operative): "over 14,000 players with full stats, OVR ratings, positions, nationalities, and card types"; filters by club/country/position (GK, CB, LB, RB, DM, CM, AM, LM, RM, LW, RW, SS, CF, plus variants); card types observed: Normal, Season Pass, Cult Heroes, Champion, World Winners, Dreamstar 25, Dreamstar 26, World Cup Heroes, Classic, Team 2025, Kickoff, Dynamic Star; sort modes include Fastest Players (aggregate of SPE and ACC), Tallest, Shortest; tools: Price Calculator, Player Comparison; player cards show "maximum potential (+10 OVR upgrades)" and transfer coin costs.
+SELF-CLAIM (verbatim): ratings are "absolutely" accurate, processed from "active live updates" — self-attested marketing claim, UNVERIFIED (authenticity limit).
+DISCLOSED LIMITS: player rows load via JS ("Loading Players Database..."); individual player data not captured in this fetch (uncaptured projections). New refs admitted: trending.php, price-calculator.php, compare.php.

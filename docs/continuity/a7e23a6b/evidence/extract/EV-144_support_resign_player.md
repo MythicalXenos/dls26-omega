@@ -1,0 +1,4 @@
+# EV-144 (full-page) — Can I re-sign a player that I have sold previously?
+source: https://support.ftgames.com/hc/en-us/articles/214385465 | official-stated | fetched 2026-10-10T22:50Z | closed for comments
+FULL TEXT: "NOTE: All information included below is applicable from our latest DLS release (version 12200 onwards). Yes, but it may be some time before they are available again. Players who were recently sold, appear in the 'Recover' section of 'Manage Players' for a limited time. Please note as well that some players are subject to licensing restrictions, so if you sell a player that is no longer available in the game, you will not be able to re-sign them."
+ECONOMY: Recover window + delayed market reappearance + permanent licensing lockout risk on release. Squad-planning consequence: never release licensed-edge players casually.

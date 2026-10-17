@@ -1,0 +1,65 @@
+{
+  "schema": "user_profile_seed-1.0",
+  "seed_origin": {
+    "source": "DLS26 OMEGA master prompt v77 (direct user message, 2026-10-10)",
+    "observed_at_utc": "2026-10-10T17:33:23Z",
+    "note": "This fresh workspace contained no prior user_profile_seed.json. Items below are only what the user-supplied master asserts as user context; everything else is an explicit gap, not zero and not invented."
+  },
+  "user": {
+    "name": "Saad",
+    "goal": "#1 in the highest verifiable global competitive ranking of the current Dream League Soccer franchise"
+  },
+  "preferences": {
+    "two_xi_rotation": {
+      "value": "two-XI rotation preferred",
+      "source": "master v77 OMEGA-PROFILE-001",
+      "observed_at": "2026-10-10"
+    },
+    "coin_physio": {
+      "value": "no-coin-physio stance (do not spend coins on physio)",
+      "source": "master v77 OMEGA-PROFILE-001",
+      "observed_at": "2026-10-10"
+    }
+  },
+  "plans": {
+    "first_stage_development": {
+      "name": "Legendary Fitness",
+      "status": "selected-by-user",
+      "stage": "first stage",
+      "source": "master v77 OMEGA-COACHING-001",
+      "observed_at": "2026-10-10",
+      "testable_questions": [
+        "eligibility of players for Legendary Fitness",
+        "targeting behavior of the training item",
+        "caps and distributions of stat gains",
+        "state dependence and costs",
+        "attainment of the desired speed/acceleration range"
+      ],
+      "guarantees": "none; optimality and target attainment are research questions, not prompt-proven mechanics"
+    }
+  },
+  "reported_game_account_facts": {
+    "formation": {"value": null, "status": "GAP_NOT_SUPPLIED"},
+    "camera_settings": {"value": null, "status": "GAP_NOT_SUPPLIED"},
+    "assist_settings": {"value": null, "status": "GAP_NOT_SUPPLIED"},
+    "account_roster_reports": {
+      "value": null,
+      "status": "GAP_NOT_SUPPLIED",
+      "note": "Master references roster/account reports and warns that 'almost all' phrasing never implies ownership of every candidate"
+    },
+    "facilities_stadium_currency_progression": {
+      "value": null,
+      "status": "GAP_NOT_SUPPLIED",
+      "note": "Belongs in claim records with user-stated provenance until checked"
+    },
+    "free_recovery_stat_targets": {
+      "value": null,
+      "status": "GAP_NOT_SUPPLIED",
+      "note": "Attainability must be researched; never advertised as guaranteed"
+    },
+    "installed_game_build_version": {"value": null, "status": "GAP_NOT_SUPPLIED"},
+    "account_state_balances": {"value": null, "status": "GAP_NOT_SUPPLIED"}
+  },
+  "hypotheses": [],
+  "declined_requests": []
+}

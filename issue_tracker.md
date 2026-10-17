@@ -31,3 +31,6 @@ RULES DIGEST construction used two appends larger than the required 12,000-chara
 
 ## OBS-010 — ANOMALY — OPEN — 2026-10-17
 STATE_0_SETUP exceeded the 420-second wall-clock ceiling (about 11 minutes) because of verbatim prompt transcription plus setup writes. Work was checkpointed immediately once publishable; all artifacts verified. This is the second occurrence (prior OBS-004); proposal for user consideration only (PROPOSED, not adopted): treat large mechanical captures under the mandate's chunking clause across the first turns, or amend the ceiling with measured evidence via OMEGA-AMENDMENT-001.
+
+## OBS-011 — ANOMALY — OPEN — 2026-10-17
+Two parallel claim systems now exist in the live tree: kb/claims.jsonl (87 CLAIM-nnn claims, branch a7e23a6b, Oct 10–15) and the markdown topic summaries imported from branch 22655f48 (T-/B-/L-/M-/GS-nnn IDs, Oct 17). They overlap in subject and may disagree. Resolution applied: claims.jsonl is the single claim authority, markdown files are derived topic summaries, claims.jsonl wins conflicts. Full reconciliation (dedupe, alias map, re-tier) queued as RQ-20261017-003. Not merged silently, not discarded.

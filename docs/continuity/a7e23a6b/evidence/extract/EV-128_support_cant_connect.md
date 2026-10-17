@@ -1,0 +1,4 @@
+# EV-128 (full-page) — I can't connect to the game, what can I do?
+source: https://support.ftgames.com/hc/en-us/articles/360003945557 | official-stated | fetched 2026-10-10T21:16Z | closed for comments
+FULL TEXT: "As Dream League Soccer requires a connection to play most game modes, please ensure that you are connected to the internet when starting the game. You can use either a mobile or Wi-Fi connection to access the game, but a stable connection is required for multiplayer matches. [link: Multiplayer Troubleshooting]. If you do not have an active internet connection, you can still play exhibition matches."
+NEW DISCOVERIES: "How do I backup/restore/transfer my save data?" (214387685); "Something happened in the game that's not realistic. Why is this?" (360000842697) - official unpredictability explanation, admitted HIGH priority.

@@ -1,0 +1,4 @@
+# EV-211 (full 1/1) — OFFICIAL support: How do I restart my career? 7917210208145 (ref-support-restart-career-rev)
+source: https://support.ftgames.com/hc/en-us/articles/7917210208145-How-do-I-restart-my-career-from-the-beginning | official-support | fetched 2026-10-11T17:33Z
+OPERATIVE CONTENT (verbatim core): Reset path = Main Menu (hamburger) > Profile > Reset/Delete > Reset; **available only after you have ranked up**. **Profile resets are LIMITED to one reset every 30 days.** Reset loses ALL existing progress, upgrades, currency **and any in-app purchases** — **cannot be undone**. => DESTRUCTIVE SURFACE #2 (cf Delete Profile CLAIM-041): hard-block in all automation; 30-day cooldown is a real operational constraint for any restart strategy.
+RELATED: data-deletion-2 360017046578 (served t59); connection-issues (served); UCS-blocked (NC); graphics (served); video-clips-new 7917682153361 (admitted).

@@ -1,0 +1,5 @@
+# EV-136 (full-page) — How do I develop my players?
+source: https://support.ftgames.com/hc/en-us/articles/360003914778 | official-stated | fetched 2026-10-10T22:18Z | closed for comments
+FULL TEXT: "Dream League Soccer introduces coaches, which are used to develop your players. Tap on the 'Coaches' button in the Team Management screen to select your coach. Coaches will then randomly select a player to permanently upgrade. For more powerful but temporary player upgrades, give them a 'Form Boost'. This will increase your player's attributes for a set number of matches as detailed by your 'Training' facilities level (duration starts at a minimum of one match)."
+CLAIM-006 LEAD RESOLVED (official): 'coaches' = player-development consumables with RANDOM target player + permanent upgrade. TERMINOLOGY: user-pinned 'Legendary Fitness' (coach) not named here; likely a named coach/bundle variant (video-mirror lead). CAVEAT: help article present-tense but aged (DLS19-era related dates); DLS26 specifics volatile — confirm current behavior at launch.
+NEW REFS: missing-players 213852049 (licensing), can-i-sell 360003945617, sell-players 17146555181585.

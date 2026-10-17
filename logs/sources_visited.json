@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "registry_note": "OMEGA-FRONTIER-001 source log. Turn-2/3 entries use turn-window timestamps (per-call clock not captured — deviation recorded in main log). 2026-10-17: 4 environment/repository capability probes added (S-051..054) from session sess-20261017-001; content research entries S-001..050 inherited from branch 22655f48.",
+  "registry_note": "OMEGA-FRONTIER-001 source log. Turn-2/3 entries use turn-window timestamps (per-call clock not captured — deviation recorded in main log). 2026-10-17: 4 environment/repository capability probes added (S-051..054) from session sess-20261017-001; content research entries S-001..050 inherited from branch 22655f48. 2026-10-17 turn 2: access-boundary matrix S-055..058, GitHub technical sweep S-059..062, continuity import S-063.",
   "entries": [
     {
       "id": "S-20261017-001",
@@ -487,6 +487,87 @@
       "source_family": "repository",
       "payload_summary": "Repository access verified; refs observed: main fb9a2c0, arena/22655f48-dls26-omega d12a84c, arena/a7e23a6b-dls26-omega 5ab3ec6. gh authenticated as MythicalXenos.",
       "retrieved_at": "2026-10-17T16:51Z"
+    },
+    {
+      "id": "S-20261017-055",
+      "url_or_query": "https://support.ftgames.com/hc/en-us",
+      "tool": "shell/script",
+      "status": null,
+      "source_family": "official-support",
+      "payload_summary": "Transport failure: TLS connect error (curl 35 SSL_ERROR_SYSCALL), no HTTP status. Access boundary for this environment generation; reopening predicate: allowlisted host or verified network change.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-056",
+      "url_or_query": "https://firsttouchgames.zendesk.com/hc/en-us",
+      "tool": "shell/script",
+      "status": null,
+      "source_family": "official-support",
+      "payload_summary": "Transport failure: TLS connect error (curl 35), no HTTP status. Same boundary as S-055.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-057",
+      "url_or_query": "https://dlsinside.com/",
+      "tool": "shell/script",
+      "status": null,
+      "source_family": "databases-tools",
+      "payload_summary": "Transport failure: TLS connect error (curl 35), no HTTP status. Access boundary; version-table debt carried in queue.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-058",
+      "url_or_query": "https://www.google.com/ (unrelated control probe, single)",
+      "tool": "shell/script",
+      "status": null,
+      "source_family": "environment",
+      "payload_summary": "Control probe: TLS connect error (curl 35). Confirms the boundary is destination policy, not a targeted-site outage. No second diagnostic run (OMEGA-RETRIEVAL-001 cap).",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-059",
+      "url_or_query": "gh api GET /search/repositories?q=dream league soccer 2026",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "technical",
+      "payload_summary": "11 repos: fan sites (wasswacosmas), kit generators (imsaifbalti), hack-spam repo, Unity prototype (marhoapuyor-creator). No APK/save/stat data.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-060",
+      "url_or_query": "gh api GET /search/repositories?q=dls26",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "technical",
+      "payload_summary": "43 repos; inspected DREAM-LEAGUE-SOCCER-2026, DLS2026-game, dls26 (wasswacosmas), dls26 (EDIANGALERA, empty), dls26 (temoingift, Lovable web app). All fan/web content, no game data.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-061",
+      "url_or_query": "gh api GET /search/code?q=com.firsttouchgames.dls7",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "technical",
+      "payload_summary": "276 hits, all incidental package-name lists (launchers, analytics). No asset, config or data files from the game.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-062",
+      "url_or_query": "npm registry search: dream league soccer",
+      "tool": "shell/script",
+      "status": 200,
+      "source_family": "technical",
+      "payload_summary": "3,018 packages; top results are hack-tool spam (untrusted, do not install) and unrelated font packages. No legitimate tooling identified.",
+      "retrieved_at": "2026-10-17T16:53Z"
+    },
+    {
+      "id": "S-20261017-063",
+      "url_or_query": "git archive 5ab3ec6 (evidence, docs/step1, schemas, tools, research, kb) from origin/arena/a7e23a6b-dls26-omega",
+      "tool": "shell/script",
+      "status": "success",
+      "source_family": "repository",
+      "payload_summary": "Imported continuity corpus: 87 claims (kb/claims.jsonl), 118 evidence extracts, coverage accounting (157 refs, t69 pre-seal), schemas, tools, preparation docs. No content altered.",
+      "retrieved_at": "2026-10-17T16:53Z"
     }
   ],
   "source_families": {
@@ -557,12 +638,12 @@
     ]
   },
   "coverage": {
-    "official": "deep (25 FTG support articles captured in full)",
-    "third_party_databases": "covered (dlsinside partial - JS-rendered rows)",
-    "english_community": "covered",
-    "non_english_community": "extended (ID/VI/FA/FR/PT store copies, kitdls.net, sikayetvar.com, Turkish threads) - true forums still owed",
-    "technical": "partial (static APK variant data; no decompilation yet)",
-    "user_generated_content": "partial (YouTube, TikTok)"
+    "official": "access boundary in this environment (support.ftgames.com TLS-blocked); prior corpus holds 70 VISITED support refs from an earlier environment",
+    "third_party_databases": "access boundary (dlsinside.com TLS-blocked); prior corpus holds database extractions",
+    "english_community": "access boundary (non-allowlisted hosts); prior corpus holds community captures",
+    "non_english_community": "access boundary in this environment; prior corpus holds ES/VI/TR/ID/PT captures",
+    "technical": "partial — GitHub/npm/pypi only; negative for APK/save/stat corpora (S-059..062)",
+    "user_generated_content": "access boundary (YouTube/TikTok not allowlisted); prior corpus holds partial UGC"
   },
   "digests": {}
 }

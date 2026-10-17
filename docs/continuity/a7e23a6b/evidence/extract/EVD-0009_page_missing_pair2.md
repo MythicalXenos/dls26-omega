@@ -1,0 +1,2 @@
+# EVD-0009 — page-missing record (no information extracted)
+ref-support-emojis (3600020938198) + ref-support-kit-visible-live (3600021064298): both fetches 2026-10-10T23:13Z returned Zendesk oops 404 despite appearing in search listing results (5-year-old articles). STATUS: RETRYABLE_FAILURE. Search snippets already preserved in EV-140-era discovery notes: emojis default 6 in DLL; custom kits/logos NOT transferred to multiplayer matches (opponent cannot see them).

@@ -1,0 +1,11 @@
+# EV-215 (scan 1/1) — TECHNICAL/UGC: GitHub community-tooling + cheat-ecosystem scan (via gh api, whitelist host api.github.com)
+source: github.com search listings + repo contents (gh api) | databases-tools + community-ugc | fetched 2026-10-11T17:21:53Z
+CHANNEL NOTE: fetch_page/web_search tools unreachable at harness layer (see TOOL_OUTAGE service events t61+t62); discovery performed via allowed host api.github.com (gh CLI). Search queries: "dream league soccer", "dls26".
+
+OPERATIVE CONTENT (observed listings + repo trees, 2026-10-11):
+1. theshinramen/DLS-Card-Creator (17 stars, updated 2026-09-14) — "A card creator for the popular soccer game Dream League Soccer by First Touch Games." Web app (index.html/script.js/style.css) with per-season asset dirs **DLS19, DLS21, DLS22, DLS23 only** (no DLS24/25/26 dirs) — community tooling coverage LAGS the live season.
+2. theshinramen/DLS-Files (2 stars, updated 2025-12-16) — "Files from Dream League Soccer for DLS Card Creator and **DLS Bot**". Tree: `bot/ | data/ (playerData.json) | flags/ | playerphotos/ | teams/ (t*.png crest images)`. = community data dump + linkage to a DLS **bot** project (automation tooling). Bot contents NOT extracted (red line: no automation tooling per CLAIM-075/080/043).
+3. wasswacosmas/DREAM-LEAGUE-SOCCER-2026 + wasswacosmas/DLS2026-game + wasswacosmas/dls26 (2-3 stars each) — "DLS26 fan website" repos; no README present (readme API 404).
+4. HACK/MOD LISTINGS (existence only; NO code/README fetched; do-not-execute): mirtechgames/mirtechgames.dreamleaguesoccer ("Dream League Soccer Hack"), danielionut883-eng/DLS-26-Hack-Mod-Apk-... ("Hack/Mod Apk ... Unlimited GEMS and COINS"), RychTech/DebiNyce ("DLS26 Hack."), EDIANGALERA/dls26 ("pack dls26"), LeoH321/dls26-tool-CB ("dls26-tool for CB"), plus spam/low-effort repos.
+
+ASSESSMENT: (a) public cheat/mod + automation ("bot") ecosystem demonstrably exists around the DLS franchise incl. DLS26-branded hack ads — sanctions environment claim (CLAIM-075) corroborated from the demand side; ALL such tooling remains a hard DO-NOT-USE (bannable; also credential-phishing risk cf. dlshile.com). (b) community datasets/tooling lag the live season (Card Creator stops at DLS23; DLS-Files data last updated 2025-12) — reinforces CLAIM-079 practice: validate roster/stats IN-CLIENT, treat community DBs as planning aids only.

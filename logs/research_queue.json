@@ -1,11 +1,10 @@
 {
   "schema_version": 1,
-  "authority": "MECHANISM 4 — RESEARCH QUEUE. Active queue: only active items. During sweeps and all bootstrap steps the queue is inactive for everything except inaccessible wall sources — all other discoveries are followed immediately. During operational work it captures discoveries genuinely unrelated to the current task that would derail it if pursued now.",
-  "created_utc": "2026-10-16T23:45:02Z",
-  "fair_service": {
-    "cycle_position": 0,
-    "rule": "one fair FIFO slice reserved in each cycle of three service slices; the other two may use the adopted urgency/coverage/impact ordering",
-    "cycle_persistence_note": "cycle position persisted across turns including reduced-budget turns"
-  },
-  "items": []
+  "updated_at": "2026-10-17T17:02Z",
+  "items": [
+    {"id": "RQ-20261017-001", "topic": "WALL SOURCE: all non-allowlisted research hosts (support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com, community/Reddit/YouTube/TikTok)", "tier": "queue-Critical", "status": "blocked-access-boundary", "added": "2026-10-17T17:00Z", "source": "S-055..058", "reopen_predicate": "host allowlist change, permitted proxy route, or user-supplied capture pushed to raw_game_data/", "debt": "15 FTG article bodies listed in ckpt-20261017-setup-002 resumption point; version gaps 13.140-13.299, 13.360-13.400; true non-English forums; Dynamic Stars official detail"},
+    {"id": "RQ-20261017-002", "topic": "Technical/datamining corpus via GitHub and package registries", "tier": "queue-High", "status": "open-negative", "added": "2026-10-17T17:00Z", "source": "S-059..062", "note": "Negative for APK/save/stat data on these families as of 2026-10-17; do not repeat identical queries; new query shapes only if a new lead appears."},
+    {"id": "RQ-20261017-003", "topic": "Reconcile kb/claims.jsonl (87 CLAIM-nnn) with 22655f48 markdown topic summaries (T/B/L/M/GS IDs); build alias map, resolve conflicts, re-tier staleness", "tier": "queue-High", "status": "open", "added": "2026-10-17T17:01Z", "source": "OBS-011", "note": "claims.jsonl wins conflicts until reconciliation is complete."},
+    {"id": "RQ-20261017-004", "topic": "Refresh over-due claims in claims.jsonl (next_due dates) where verification is possible without the blocked web", "tier": "queue-Medium", "status": "open", "added": "2026-10-17T17:01Z", "source": "coverage accounting t69"}
+  ]
 }

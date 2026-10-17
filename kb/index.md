@@ -14,3 +14,9 @@ Statement; confidence tier (Confirmed / High Confidence / Community Consensus / 
 
 ## Standing obligations (Step-1 first obligations, in force until done)
 Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep build/version and rebrand status current; maintain the six-source-type and six-lane coverage matrix; log every fetch to logs/sources_visited.json and every claim to kb/ with tiers and origin.
+
+## Continuity merge — 2026-10-17T16:53Z (session sess-20261017-001)
+- Live claim authority is now **kb/claims.jsonl** — 87 claims (CLAIM-001…088, no 087 duplicate gap) imported verbatim from branch arena/a7e23a6b-dls26-omega (v77 research run, checkpoint 5ab3ec6, 2026-10-10…15). Schema: claim_id, proposition, confidence_tier, volatility_tier, context_build, supporting_evidence, contradicting_evidence, challenges, origin_history, replacements, last_valid_check, last_attempt, last_checked_by, next_due.
+- The markdown topic files above (T-/B-/L-/M-/GS- IDs) are retained as **topic summaries and derived views** from branch 22655f48. They are not a second claim authority; where a summary and claims.jsonl disagree, claims.jsonl wins and the summary is corrected in the next reconciliation pass (queue item RQ-20261017-003).
+- Epoch coverage accounting imported to step1_epochs/coverage_accounting/ (pre-seal dry run, t69, 157 refs, epoch OPEN — no seal claimed).
+- Imported evidence corpus (118 evidence extracts) and tools/schemas preserved at docs/continuity/a7e23a6b/ and schema/imported_a7e23a6b/.
