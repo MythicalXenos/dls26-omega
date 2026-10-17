@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T20:46Z",
+  "updated_at": "2026-10-17T18:58:00Z",
   "items": [
     {
       "id": "RQ-20261017-001",
@@ -77,20 +77,20 @@
     },
     {
       "id": "RQ-20261017-009",
-      "topic": "Controls/settings inventory (camera, assist, control layout, Auto Switch option set) — highest-value missing artifact for execution advice",
+      "topic": "Controls/settings inventory (camera, assist, control layout, Auto Switch option set) \u2014 highest-value missing artifact for execution advice",
       "tier": "queue-Critical",
       "status": "needs-device-or-permitted-route",
       "added": "2026-10-17T18:33Z",
-      "source": "step1_epochs/TOPIC_MAP.md §A",
+      "source": "step1_epochs/TOPIC_MAP.md \u00a7A",
       "note": "Requires either in-game observation via the user, or a permitted APK route for datamining. Do not fabricate option names."
     },
     {
       "id": "RQ-20261017-010",
-      "topic": "Formation/role mechanics and set-piece behaviour — no verified claims exist; blocks the formation-specific meta the prompt requires",
+      "topic": "Formation/role mechanics and set-piece behaviour \u2014 no verified claims exist; blocks the formation-specific meta the prompt requires",
       "tier": "queue-High",
       "status": "needs-device-or-permitted-route",
       "added": "2026-10-17T18:33Z",
-      "source": "step1_epochs/TOPIC_MAP.md §B"
+      "source": "step1_epochs/TOPIC_MAP.md \u00a7B"
     },
     {
       "id": "RQ-20261017-011",
@@ -98,7 +98,7 @@
       "tier": "queue-High",
       "status": "needs-device-or-permitted-route",
       "added": "2026-10-17T18:33Z",
-      "source": "step1_epochs/TOPIC_MAP.md §C/§D/§E",
+      "source": "step1_epochs/TOPIC_MAP.md \u00a7C/\u00a7D/\u00a7E",
       "note": "Until captured, every cost/ROI answer is approximate and must say so."
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "id": "RQ-20261017-014",
-      "topic": "Settle conflicts C-001…C-005 (languages, leaderboard cadence, release payout, iCloud toggle, DLL weekly wording) with a capture or datamined check",
+      "topic": "Settle conflicts C-001\u2026C-005 (languages, leaderboard cadence, release payout, iCloud toggle, DLL weekly wording) with a capture or datamined check",
       "tier": "queue-High",
       "status": "blocked-access-boundary",
       "added": "2026-10-17T19:30Z",
@@ -138,12 +138,30 @@
     },
     {
       "id": "RQ-20261017-016",
-      "topic": "USER DECISION: Step 2 definition (decompilation vs permitted static analysis) — OBS-013",
+      "topic": "USER DECISION: Step 2 definition (decompilation vs permitted static analysis) \u2014 OBS-013",
       "tier": "queue-Critical",
       "status": "awaiting-user-decision",
       "added": "2026-10-17T20:27Z",
       "source": "OBS-013",
       "note": "PROPOSED amendment in changelog; Step 2 unentered until ruled."
+    },
+    {
+      "id": "RQ-20261017-017",
+      "topic": "Promote three captured-but-unpreserved support bodies into EV records (friend match 360019064438, connection requirement 360004034498, can't update 360000220945); reconcile two more whose content lives under other IDs (restart career 213851909 ~ EV-211; device compat 214385685 ~ GS-018 + service summary)",
+      "tier": "queue-High",
+      "status": "open",
+      "added": "2026-10-17T18:58Z",
+      "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a73",
+      "note": "Retrieval already happened (service log 2026-10-17 13:30Z); only extraction is owed. Do NOT write 'full text' EV records from payload summaries \u2014 where only the service-log summary survives, the EV record must say so in authenticity_limits."
+    },
+    {
+      "id": "RQ-20261017-018",
+      "topic": "Re-stamp the frontier (t69 -> current) with the eleven status changes and a migration note",
+      "tier": "queue-Medium",
+      "status": "open",
+      "added": "2026-10-17T18:58Z",
+      "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a77",
+      "note": "Do not edit the imported artifact in place without a migration note; freeze procedure step 5 requires a digest tied to a commit."
     }
   ]
 }

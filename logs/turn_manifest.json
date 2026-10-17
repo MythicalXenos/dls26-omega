@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 12,
-  "checkpoint_id": "ckpt-20261017-step1-011",
-  "previous_checkpoint_id": "ckpt-20261017-step1-010",
+  "turn_seq": 13,
+  "checkpoint_id": "ckpt-20261017-step1-012",
+  "previous_checkpoint_id": "ckpt-20261017-step1-011",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,23 +14,23 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/WITNESS_SPOTCHECK_sample3_turn12.md",
-    "logs/conflicts.md",
-    "step1_epochs/EPOCH_CONTRACT_DRAFT.md",
+    "step1_epochs/FRONTIER_DELTA_turn13.md",
+    "audit/WITNESS_SPOTCHECK_sample4_turn13.md",
     "kb/claims.jsonl",
-    "docs/continuity/a7e23a6b/logs/sources_visited.json"
+    "step1_epochs/EPOCH_CONTRACT_DRAFT.md",
+    "step1_epochs/NEGATIVE_FINDINGS.md"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) sample 4 of the witness pass - target the 30 High Confidence claims that have never been tested, 8 claims, mixed single-witness; (2) reconcile this session's 63-entry live sources log against the 161-ref t69 frontier recovered in turn 12 and write the per-ref delta (feeds the freeze procedure step 1); (3) begin Step-3 script scaffolds only if time remains - the plan is written but no script exists. Web families remain ACCESS_BOUNDARY; re-probe only on environment-generation change. OBS-013 remains a first-contact decision; nothing to download or decompile.",
-  "created_at": "2026-10-17T18:20:00Z",
-  "not_before": "2026-10-17T18:20:00Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) RQ-017 - write EV records for the three captured-but-unpreserved support bodies (friend match 360019064438, connection requirement 360004034498, can't update 360000220945), marking summary-only provenance; never invent body text; (2) RQ-018 - re-stamp the frontier with the eleven turn-13 status changes plus a migration note and new digest; (3) sample 5 of the witness pass over the remaining High Confidence claims, testing claim PAIRS for asymmetric tension ownership. Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 remains a first-contact decision.",
+  "created_at": "2026-10-17T19:02:00Z",
+  "not_before": "2026-10-17T19:02:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/WITNESS_SPOTCHECK_sample3_turn12.md",
-    "step1_epochs/EPOCH_CONTRACT_DRAFT.md"
+    "step1_epochs/FRONTIER_DELTA_turn13.md",
+    "audit/WITNESS_SPOTCHECK_sample4_turn13.md"
   ]
 }

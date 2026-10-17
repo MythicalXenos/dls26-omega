@@ -97,13 +97,13 @@ Total claims: **117**
 | CLAIM-091 | Launch-era (Dec 2025) gameplay sentiment across multiple independent Reddit threads and App Store reviews (Com | Community Consensus | volatility-Critical | 2026-11-17 |
 | CLAIM-092 | Historical/legend players can appear in multiple versions and multiple copies can exist in one squad (multiple | Community Consensus | volatility-High | 2026-11-17 |
 | CLAIM-093 | Facilities are five in number: Stadium, Medical, Commercial, Training (store copy) and Fanzone (Summer Spotlig | Confirmed | volatility-High | 2026-11-17 |
-| CLAIM-094 | Technical envelope from static APK listing data (APKMirror, imported capture): Android 10+ (some variants 12L+ | High Confidence | volatility-High | 2026-11-17 |
+| CLAIM-094 | Technical envelope from static APK listing data (APKMirror, imported capture): Android 10+ (some variants 12L+); ABIs arm64-v8a and armeabi-v7a; base APK rou... | High Confidence | volatility-High | 2026-11-17 |
 | CLAIM-095 | 'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup Winners pack' plus a  | Speculative | volatility-Critical | 2026-11-17 |
 | CLAIM-096 | Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; | Speculative | volatility-Critical | 2026-11-17 |
 | CLAIM-097 | OVR is community/tool shorthand for Overall (the player's rating). Tool usage: sakibpro defines team OVR as th | High Confidence | volatility-Frozen | 2026-11-17 |
 | CLAIM-098 | Clan system rules (official article 30839289076626, EV-108 full text): one clan at a time; one leader, leaders | Confirmed | volatility-High | 2026-11-17 |
 | CLAIM-099 | Friend Match is a private match created with a shared code or word (characters A-Z, 0-9 and hyphen only), acce | High Confidence | volatility-Low | 2026-11-17 |
-| CLAIM-100 | Device compatibility guidance exists as an official article (214385685 / alt slug 360004441177) but the page r | Speculative | volatility-Low | 2026-11-17 |
+| CLAIM-100 | Device compatibility guidance is NOT published as a minimum-spec list. The official article (214385685, alt slug 360004441177) returned a Zendesk 404 on 2026... | High Confidence | volatility-Low | 2026-11-17 |
 | CLAIM-101 | Squad depth: DLS26 carries reserves plus a fixed eight substitutes (community megathread, December 2025, multi | Community Consensus | volatility-High | 2026-11-17 |
 | CLAIM-102 | New-player starting state: a basic lineup around 50-60 OVR; returning players carry progress over, including ' | Speculative | volatility-High | 2026-11-17 |
 | CLAIM-103 | Live-service cadence: DLS26 receives multiple in-season updates (observed roughly monthly version bumps from F | High Confidence | volatility-Critical | 2026-11-17 |

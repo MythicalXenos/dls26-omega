@@ -14,14 +14,16 @@ Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Revised turn 10 (
 | --- | --- | --- |
 | Frontier refs (t69) | 161 | `logs/sources_visited.json` @ 5ab3ec6 |
 | VISITED | 91 | same |
-| IN_PROGRESS | 23 | accounted in `INPROGRESS_ACCOUNTING.md` |
+| IN_PROGRESS | 23 | accounted in `INPROGRESS_ACCOUNTING.md`; two advanced by chunk on 2026-10-17, none completed |
 | NON_CONNECTED | 20 | scope proofs recorded |
 | UNVISITED | 15 → 8 after disposition | `UNVISITED_DISPOSITIONS.md` |
-| RETRYABLE_FAILURE | 9 | retry owed |
+| RETRYABLE_FAILURE | 9 → **4** | five were captured on 2026-10-17 but the frontier was never re-stamped; one of the four remaining is a superseded article ID. See `FRONTIER_DELTA_turn13.md` |
 | ACCESS_BOUNDARY | 2 | reopening predicates recorded |
 | REPRESENTATION_DUPLICATE | 1 | canonical pointer recorded |
 | This session's probes | 13 (S-051…063) | capability + continuity, not game content |
 | **Admitted total pending seal** | **to be frozen at seal** | — |
+
+**Turn-13 reconciliation:** the RETRYABLE row is superseded — five refs were captured after the t69 snapshot. The epoch's real debt is now **extraction**, not retrieval: five captured bodies still lack EV records. The frontier file was deliberately not re-stamped; see `step1_epochs/FRONTIER_DELTA_turn13.md` §6.
 
 ## 3. Required dimensions (the contract's floors)
 ### Source types (Mechanism 3 — a floor, not a ceiling)
@@ -43,7 +45,7 @@ A ref counts as fully extracted only when, for each projection it was admitted f
 
 ## 5. Accounts owed at seal (placeholders, must be zero or explicitly carried)
 - [ ] 23 IN_PROGRESS refs — completed or carried as access-limited with predicate (count verified by `frontier.py summary`, turn 12)
-- [ ] 9 RETRYABLE refs — retried or carried
+- [x] ~~9 RETRYABLE refs — retried or carried~~ **RECONCILED turn 13**: five proved already captured (friend-match, restart-career, connection-required, device-compat, cant-update), one is a superseded ID (season-pass rev2), three remain genuinely owed (control-buttons, emojis, kit-visible-live). Detail: `FRONTIER_DELTA_turn13.md` §3.
 - [ ] 7 owed UNVISITED refs — captured or carried
 - [ ] 3 uncaptured support article bodies (#19, #26, #27)
 - [ ] 4 summary-only articles lacking EV records (RQ-006)
