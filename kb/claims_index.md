@@ -1,6 +1,6 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:31Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **122**
+Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:37Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **129**
 Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Speculative 12 / Disputed 1. Volatility: High 40 / Medium 31 / Low 33 / Critical 11 / Frozen 3.
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |
 | --- | --- | --- | --- | --- |
@@ -241,3 +241,10 @@ Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Specu
 | CLAIM-121 | Dream League Live emoji system (official 360020938198): six emojis available by default; further emojis are earned or purchased and chosen in Emoji Selection... | High Confidence | volatility-Low | 2026-11-17 |
 | CLAIM-122 | Custom imported kits and logos are NOT visible to opponents in Dream League Live (official 360021064298): the opponent does not see yours and you do not see ... | High Confidence | volatility-Low | 2026-11-17 |
 | CLAIM-123 | OFFICIAL FAIRNESS STANCE (article 360000842697): DLS is a game, not an accurate simulation of football or physics; FTG balances fun against realism; unpredic... | High Confidence | volatility-Low | 2027-01-17 |
+| CLAIM-124 | Offline modes (official 360003945557): most game modes require an internet connection, mobile or Wi-Fi both work, but Dream League Live (multiplayer) specifi... | Confirmed | volatility-Low | 2027-01-17 |
+| CLAIM-125 | User ID retrieval path (official 37082887837202): open DLS → Options (gear, top left) → Advanced → System Info (the "i" button) → Copy Info, then paste into ... | Confirmed | volatility-Low | 2027-01-17 |
+| CLAIM-126 | VERSION-GAP RESOLUTION (B-009, sibling research): the two apparent gaps in the 2026 version timeline are real periods without a public release, not missing d... | High Confidence | volatility-Frozen | 2026-11-17 |
+| CLAIM-127 | Stat display scale (GS-042 sibling observation): dlsinside publishes raw attribute values on a 0–1000 scale (e.g. David Luiz TAC 899 / STR 859 / SPE 789) whi... | High Confidence | volatility-Frozen | 2027-01-17 |
+| CLAIM-128 | Save-data backup surface (official 214387685, restated in GS-037 by sibling): FTG's current recommendation is to link the profile to **Sign in with Google** ... | Confirmed | volatility-Low | 2027-01-17 |
+| CLAIM-129 | Cult Heroes 12-card roster, database-corroborated (GS-039/040 sibling): David de Gea GK 85 (ESP, #1); Paulo Dybala SS/RW 85 (ARG, #10); Pierre-Emerick Aubame... | High Confidence | volatility-Critical | 2026-10-22 |
+| CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041, single database): World Winners — Marc Cucurella LB 85 (ESP); World Heroes ... | High Confidence | volatility-Critical | 2026-10-22 |

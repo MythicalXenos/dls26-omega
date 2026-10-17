@@ -29,10 +29,9 @@ Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep bui
 - Witness coverage: **54 of 118 claims** (46%) have had a textual comparison against their cited records across six samples; the rest are structurally verified only. Each sample so far has found at least one defect, so the remainder should not be assumed clean.
 - Topic-file note: the T-/B-/L-/M-/GS- summaries remain derived views and still describe the pre-merge claim set. They are now **older than the claim authority by 31 claims** (CLAIM-089…119 have no summary entry). This is a known, recorded lag, not an error to be fixed by inventing summaries.
 
-## Index state — turn 16 (2026-10-17T17:31Z)
-- Claim authority: **122 claims** (CLAIM-001…CLAIM-123). Confirmed 31 / High 55 / Community 23 / Speculative 12 / Disputed 1. Snapshot `kb_snapshots/claims_20261017T1731Z.jsonl` (sha256 `c613b7fc…`).
-- Evidence registry: **131 records** + 7 unregistered `EVD-*` failure records.
+## Index state — turn 17 (2026-10-17T21:40Z)
+- Claim authority: **129 claims** (CLAIM-001…CLAIM-130). Confirmed 34 / High 59 / Community 23 / Speculative 12 / Disputed 1. Snapshot `kb_snapshots/claims_20261017T1740Z.jsonl`.
+- Evidence registry: **133 records** (EV-230, EV-231 added for can't-connect and find-user-id); 7 unregistered `EVD-*` failure records.
 - Frontier: **163 refs** — 101 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 2 ACCESS_BOUNDARY / 8 DUPLICATE / **0 RETRYABLE**. Every known article has been retrieved at least once.
-- Conflicts: 9 open, 3 resolved.
-- Witness coverage: 54/118 pre-merge claims tested textually; the merge re-witnessed 10 of them against service records (traceability, not strength).
-- **Source-log namespaces are not single-writer** (OBS-017): always fetch sibling logs before assigning new IDs.
+- Sample 7 (turn 17): 2 OK / 5 WARN (covers-array lag, not broken witnesses); 0 BAD. One WARN was self-inflicted: the integrity script globbed only `evidence/extract/` and missed EV-105's legitimate `evidence/raw/` anchor — no fix to the claim required.
+- Witness upgrade program: 10 of 18 summary-only claims upgraded to service-record provenance in turn 16; sibling kb sweep in turn 17 added 7 new claims from sibling GS/B/T items not yet covered here. Eight summary-only claims remain (091, 092, 093, 094, 096, 099, 100, 111, 112); most of these point at Reddit megathread or community-meta phrasing that has no higher-tier witness available.

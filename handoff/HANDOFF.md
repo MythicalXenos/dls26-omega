@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T21:05Z (session sess-20261017-001, turn 16, checkpoint ckpt-20261017-step1-015)
+Updated: 2026-10-17T21:40Z (session sess-20261017-001, turn 17, checkpoint ckpt-20261017-step1-016)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,11 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 17 result — sibling kb sweep completed, two captured-but-unclaimed articles claimed, sample 7 clean
+- The six sibling kb topic files were read line by line against `claims.jsonl`. Their missing items were: (a) GS-036/034 can't-connect and find-user-ID — captured-but-unclaimed in turn 16, now EV-230/EV-231 supporting CLAIM-124 and CLAIM-125; (b) B-009 version-gap resolution — CLAIM-126; (c) GS-042 stat 0-1000 scale — CLAIM-127; (d) GS-037 save-backup nuance — CLAIM-128 (consolidates 042/072); (e) GS-039/040 Cult Heroes 12-card roster — CLAIM-129; (f) GS-041 adjacent special cards incl. Messi 87 — CLAIM-130. 129 claims, 133 EV records.
+- CLAIM-042 strengthened (legacy iCloud vs current Sign-in-with-Apple/Google). DERIVED VIEW kb files synced.
+- Sample 7: 0 substantive errors over 7 claims (5 covers-lag WARNs, 1 self-inflicted script-bug WARN). Cumulative ~4% substantive error rate over 49 tested claims.
+
 ## Turn 16 result — cross-branch merge: ID collision repaired, retryable debt driven to zero, four claims added
 - **The sibling branch has no raw capture corpus** (28 files, no `evidence/`), so claims witnessed only by a `kb/*.md` summary cannot be upgraded from it. But its **service log** (69 records) is primary-adjacent, and ten claims were re-witnessed against it (traceability, not evidential strength — stated in each claim).
 - **OBS-017, severe: source-log ID collision.** Twelve IDs (051–063, except 057) carried different records on the two branches; any citation of `S-20261017-05x` was ambiguous. Repaired by script: ours renumbered to 070–081, the sibling's 051–069 imported as canonical, full mapping written into the log's `id_repairs[]`, verified 81 entries / 81 unique IDs.
@@ -125,11 +130,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 17)
-1. **Two captured-but-unclaimed articles**: 360003945557 (can't connect) and 37082887837202 (find user ID) — decide claim-or-no-claim; if a claim, write it with summary-only provenance like EV-226…229.
-2. **Sample 7 of the witness pass** over the remaining untested claims, now including CLAIM-120…123.
-3. **Check the 22655f48 kb topic files for facts that never became claims** — the merge proved that branch held more than we imported; a line-by-line read of its six `kb/*.md` files against `claims.jsonl` is the cheapest remaining completeness test.
-4. No new registers (D-06). Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 is still a first-contact decision. JSONL rewrites go through `scripts/` with byte verification (OBS-016).
+## Exact resumption point (next turn — turn 18)
+1. **Back-stamp `covers[]` on older EVs** for the five claims flagged in sample 7 (CLAIM-108→EV-150, CLAIM-065→EV-192/162/185, CLAIM-063→EV-180/185, CLAIM-128→EV-213/167/130). Bookkeeping only, no new research.
+2. **Sample 8 of the witness pass** — continue rotating.
+3. **Step-3 plan / IN_CLIENT_CHECKLIST refresh**: with CLAIM-125 (User ID path) and CLAIM-128 (save-backup prerequisites) in hand, the pre-connection checklist gains two concrete items (verify Sign-in-with-Google is bound before any experimentation; record where User ID is read). Update the checklist.
+4. **Closure review for epoch §5 conditions 3-7** — retryable is zero, IN_PROGRESS still 23 (mid-capture chunks + community families). Draft the epoch-closure diff against §2 and decide whether to call the epoch at RETRIEVAL-COMPLETE (access-bounded) or keep it open for the chunked captures.
+5. No new registers (D-06). Web remains ACCESS_BOUNDARY; OBS-013 still a first-contact decision.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

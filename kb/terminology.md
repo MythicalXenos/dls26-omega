@@ -43,3 +43,10 @@ rotation, coaching state (partially resolved — see T-018), reset cycles (parti
 - **T-026 Stadium bonus** — an official coin-earning condition, linked to the Stadium facility (FTG article 214385285 + GS-023). Existence Confirmed; exact mechanics owed. Volatility: High.
 - **T-027 "Scripts"** — community slang for perceived momentum/rubber-band manipulation. Launch-era megathread claim: "scripts seem to be gone or weaker" in DLS26 (single megathread — Speculative as a mechanism claim). FTG's official position: in DLL there is no manipulation of any in-game situation and no influencing of any outcome (GS-002). Recorded as community perception, not a verified mechanism.
 - **T-028 Reserves / substitutes** — DLS26 carries reserves plus a fixed eight substitutes (community megathread, multiple agreeing comments — Community Consensus; GS-022). Volatility: High.
+
+## Turn-6 additions (merged from sibling kb, turn 17 — DERIVED VIEW)
+- **T-029 Descriptive Button Text** → CLAIM-120.
+- **T-030 Multiplayer Chat toggle** → CLAIM-121.
+- **T-031 System Info** → CLAIM-125.
+- **T-032 Sign in with Google / Sign in with Apple** → CLAIM-128 (the ONLY supported profile-securing services; NOT Google Play Games / iCloud).
+- **T-033 Luck** → CLAIM-123 (officially acknowledged category; magnitude unresearched).

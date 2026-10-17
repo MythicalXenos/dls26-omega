@@ -234,3 +234,11 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **Three refs admitted that had never been in the frontier** (fairness stance 360000842697, can't-connect 360003945557, find-user-ID 37082887837202).
 - **Four claims added (CLAIM-120…123)**: descriptive button text toggle; emoji cap + chat kill-switch; imported kits invisible to DLL opponents; official fairness stance. 122 claims; snapshot `kb_snapshots/claims_20261017T1731Z.jsonl` (sha `c613b7fc…`). Index regenerated; integrity re-verified (0 unresolved EV tokens, 0 bad covers).
 - Note for the record: this is the third time the frontier's own counts were wrong; each correction came from reading physical records rather than recomputing from summaries.
+
+## 2026-10-17T21:40Z — turn 17 — STATE_1_RESEARCH_SWEEP (offline)
+- **Sibling kb sweep**: the six `kb/*.md` topic files on `arena/22655f48-dls26-omega` were read line by line against `claims.jsonl`; seven new claims added (CLAIM-124 offline modes, CLAIM-125 User-ID retrieval path, CLAIM-126 version-gap resolution, CLAIM-127 stat 0-1000 scale, CLAIM-128 save-data backup consolidation, CLAIM-129 Cult Heroes 12-card roster, CLAIM-130 adjacent special cards incl. Messi 87) and two EV records (EV-230 can't-connect, EV-231 find-user-id). 129 claims.
+- Note: the sibling had produced research (not just summaries) for version gaps, the stat scale, and save-backup nuances — these were previously absent here. OBS-017 fallout continues to pay off.
+- CLAIM-042 (save-path iCloud vs current) strengthened: sibling GS-037 confirms it is a legacy-vs-current split, not a contradiction. Still carries Disputed pending user device confirmation in Step 3.
+- `kb/game-systems.md`, `kb/build-version.md`, `kb/terminology.md`, `kb/index.md` DERIVED VIEWs synced to the new claim set.
+- **Sample 7** (`audit/_sample7_turn17`): 2 OK / 5 WARN / 0 BAD. All five WARNs are covers-array lag in existing EVs (the `covers[]` field was not back-stamped when claims were added before turn 15). One WARN was self-inflicted (integrity glob missed `evidence/raw/` anchors). **No substantive errors this sample.** Cumulative 2 BAD over 49 tested claims (~4%).
+- Epoch contract §2 already reflects 163 refs / 0 RETRYABLE from turn 16; no re-stamp needed this turn.

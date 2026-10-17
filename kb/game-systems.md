@@ -37,3 +37,18 @@ Official FTG-stated mechanics from support articles fetched in full 2026-10-17, 
 - **GS-028 Data usage** — online required for the majority of features; FTG strongly recommends Wi-Fi and limiting mobile data (article 360005680437). Confidence: Confirmed (thin article). Volatility: Low.
 - **GS-029 Special-player taxonomy (dlsinside database, build 13.430)** — Specials collections with player counts: Cult Heroes 12, World Cup Champions 8, World Cup Heroes 8, Dynamic Stars 40, Team Of 2025 11, Kickoff Stars 2, Champion 12, Star 23, Classic 32, Hidden 270, Exclusives 7,388. Database totals: 14,435 players, 263 teams, 255 stadiums. Confidence: High Confidence (database-derived, single database — dlsinside; corroborate counts before high-stakes use). Volatility: Critical.
 - **GS-030 NEGATIVE FINDING — dead support links** — three article titles survive in related-article link blobs but their pages return 404: "Why are my players auto-switching all the time?" (360008315158), "How do I sell players?" (1714655181585), "How can I change my graphics settings?" (360005984437). The community auto-switching complaint (M-001) therefore has no captured official answer. Frozen (as of capture).
+
+## Turn-6 additions (merged from sibling kb, turn 17 — DERIVED VIEW; claim authority is `kb/claims.jsonl`)
+- **GS-031** → CLAIM-123 Officially stated fairness & unpredictability stance (article 360000842697).
+- **GS-032** → CLAIM-121 Emojis in DLL (six-default, swap, chat kill-switch; article 360020938198).
+- **GS-033** → CLAIM-122 Custom kits/logos are not transmitted in multiplayer (article 360021064298).
+- **GS-034** → CLAIM-125 User ID retrieval path (article 37082887837202).
+- **GS-035** → CLAIM-120 Control-button text toggle ("Descriptive Button Text"; article 14369944135058).
+- **GS-036** → CLAIM-124 Offline modes — exhibition is the only explicitly offline mode (article 360003945557).
+- **GS-037** → CLAIM-128 Save-data backup surface (Sign in with Google/Apple; NOT Play Games/iCloud for current games; article 214387685).
+- **GS-038** Kick taxonomy (Low Kick / Hard Kick / Lofted Kick) from GS-035 label names; no dedicated claim — taxonomy is a subset of CLAIM-120 plus CLAIM-007's input-kick references.
+
+## Turn-7 additions (merged from sibling kb, turn 17 — DERIVED VIEW)
+- **GS-039/040** → CLAIM-129 Cult Heroes 12-card roster with ratings and positions, Vozinha 83 adopted over dreamkitsapp's 84.
+- **GS-041** → CLAIM-130 Adjacent special cards in build 13.430 (World Winners Cucurella 85, World Heroes Messi 87, Kick-off Stars Raphinha 85).
+- **GS-042** → CLAIM-127 Stat display scale: dlsinside raw 0–1000 ≈ 10× the displayed 0–99 value.

@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 16,
-  "checkpoint_id": "ckpt-20261017-step1-015",
-  "previous_checkpoint_id": "ckpt-20261017-step1-014",
+  "turn_seq": 17,
+  "checkpoint_id": "ckpt-20261017-step1-016",
+  "previous_checkpoint_id": "ckpt-20261017-step1-015",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,23 +14,22 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/CROSS_BRANCH_MERGE_turn16.md",
-    "logs/sources_visited.json",
-    "step1_epochs/EPOCH_CONTRACT_DRAFT.md",
+    "audit/_sample7_turn17/README.md",
     "kb/claims.jsonl",
-    "kb_snapshots/claims_20261017T1731Z.jsonl"
+    "kb_snapshots/claims_20261017T1738Z.jsonl",
+    "docs/continuity/a7e23a6b/evidence/extract/EV-230_support_cant_connect.md",
+    "docs/continuity/a7e23a6b/evidence/extract/EV-231_support_find_user_id.md"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) decide claim-or-no-claim for the two captured-but-unclaimed articles 360003945557 (can't connect) and 37082887837202 (find user ID), writing summary-only provenance if claimed; (2) sample 7 of the witness pass over the remaining untested claims including CLAIM-120..123; (3) read the six kb/*.md topic files on branch arena/22655f48-dls26-omega line by line against claims.jsonl to find facts that were never promoted - the merge proved that branch held more than we imported. No new registers. Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 remains a first-contact decision. JSONL rewrites go through scripts/ with byte verification (OBS-016).",
-  "created_at": "2026-10-17T21:05:00Z",
-  "not_before": "2026-10-17T21:05:00Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1: (1) back-stamp covers[] on EV-150/162/180/185/192/213/167/130 for the five sample-7 WARN claims; (2) sample 8; (3) refresh step1_epochs/IN_CLIENT_CHECKLIST.md with CLAIM-125 User-ID path and CLAIM-128 save-backup prerequisite; (4) closure review against epoch \u00a75 conditions 3-7 \u2014 decide if Step 1 is RETRIEVAL-COMPLETE (access-bounded, 0 retryable, 163 refs, remaining IN_PROGRESS are chunk-parsing or access-limited). No new registers. Web remains ACCESS_BOUNDARY. OBS-013 remains a first-contact decision.",
+  "created_at": "2026-10-17T21:40:00Z",
+  "not_before": "2026-10-17T21:40:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/CROSS_BRANCH_MERGE_turn16.md",
-    "issue_tracker.md"
+    "audit/_sample7_turn17/README.md"
   ]
 }
