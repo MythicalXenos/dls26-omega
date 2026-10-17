@@ -1,11 +1,17 @@
-# IRREVERSIBLE / CONSEQUENTIAL ACTION TYPES — DLS26 (STANDING LIST)
-Owner artifact per IRREVERSIBLE ACTION PROTECTION: this is a standing record of game knowledge (not of the user), it survives the session it was first presented in, and it is read at session start like every other artifact.
+# IRREVERSIBLE ACTIONS — DLS26 OMEGA
+Standing list of verified irreversible actions, maintained per the Knowledge Management rules. An action enters this list only when its irreversibility is itself verified from evidence — never assumed (ZERO UNGROUNDED CLAIMS INVARIANT). First entry written turn 4 (2026-10-17); the list was empty at bootstrap pending Step-1 verification.
 
-**Status: EMPTY — no DLS26-specific irreversible or consequential action type has been verified yet.** Per the ZERO UNGROUNDED CLAIMS INVARIANT, no game action is listed here until Step 1 research verifies it from a traceable tool execution result (fetched page, search snippet, or decompiled asset) in the physical session log. Populated during STATE_1_RESEARCH_SWEEP and presented in full at first contact (STATE_5), where the user is asked to tell the agent before any such action.
+Entry format: ID | action | what it destroys | cooldown/limits | evidence origin | source | verified date | system duties (warn-before, never-initiate, handoff note).
 
-## Entry format (for verified entries)
-- Action type (DLS26's exact in-game terminology)
-- Why irreversible or consequential (IRREVERSIBLE = cannot be undone at all; CONSEQUENTIAL = undoable only at a cost worth avoiding — resources spent, progress reset, sequencing broken, an opportunity that does not return)
-- Evidence record reference (traceable tool execution)
-- Date verified; volatility tier (named with system per TIER RULE)
-- Notes (sequencing effects, active-plan conflicts)
+## IRREV-001 — Reset Profile (in-game)
+- **Action**: Settings (gear icon, top left) → Advanced → "Reset Profile" (skull-and-crossbones button).
+- **Destroys**: ALL game progress — coins, gems, consumables, and in-app purchases. FTG: "it will not be possible to recover any previous game profiles… this process cannot be undone."
+- **Limits**: one reset per 30 days.
+- **Evidence origin**: official-stated (FTG support article 213851909, "How do I restart my career from the beginning?", full text fetched 2026-10-17).
+- **Confidence**: Confirmed. **Volatility**: Low (mechanic).
+- **System duties**: (1) warn the user before any action that could trigger it; (2) never initiate or recommend it — if the user asks, state the consequences verbatim from the article before proceeding; (3) record any user-executed reset in the main operational log and update user_profile.md (club/game state becomes "new career"); (4) distinguish it from legitimate save transfer (GS-015), which is the non-destructive alternative.
+
+## Related destructive-risk surfaces (not irreversible actions by the system, but loss-bearing)
+- Signing out of Sign in with Google / Apple unlinks the profile; loss-susceptible on uninstall or device change (GS-015, official-stated).
+- Facebook-Login-stored profiles are unrecoverable (GS-021, official-stated).
+- Modded APKs / hacks / bug exploitation: ban surface — FTG ("Why have I been blocked from playing DLS?", 360008904718): only App Store / Google Play versions are authorised; bans are not lifted on request unless incorrectly flagged. Recommending mods is therefore prohibited (ToS + irreversible account risk).

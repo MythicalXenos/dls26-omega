@@ -18,7 +18,7 @@ Turn-2 Step-1 obligation: resolve prompt shorthand and unnamed game terms to DLS
 - **T-010 Position labels in community/tool use**: GK, CB, LB, RB, CDM/DM, CM, CAM/AM, LM/RM, LW/RW, CF/ST. Community+tool origin; official in-game labels pending Step-2 datamining.
 - **T-011 Team OVR formula (sakibpro tool claim)**: mean of base-or-maxed Overall Ratings of the 11 placed players; empty slots excluded. Speculative — single tool source, not official; owes datamining verification.
 - **T-012 Trained-player rating hypothesis** (trained = base + 1 OVR): single Reddit theory thread. Speculative, quarantined.
-- **T-013 DLL structure**: ranked Tiers (Tier 1 = top per community world-record post); FTG-official matchmaking factors are LIVE Tier ranking, location, availability pool; usually same-Tier opponents; no overlaid difficulty controls; outcomes governed by skill/tactics/team strength (Confirmed — official support article). Exact tier names/counts and XP totals (e.g., 145,299 XP reports): Speculative, single community source.
+- **T-013 DLL structure**: ranked Tiers (Tier 1 = top per community world-record post); FTG-official matchmaking factors are LIVE Tier ranking, location, availability pool; usually same-Tier opponents; no overlaid difficulty controls; outcomes governed by skill/tactics/team strength (Confirmed — official support article). Exact tier names/counts and XP totals (e.g., 145,296 XP reports): Speculative, single community source.
 
 ## Prompt terms still unresolved (owed)
 rotation, coaching state (partially resolved — see T-018), reset cycles (partially resolved — see T-020), breakpoints, matchup matrix, gameplans, ceiling (partially resolved — see T-021), bonus development (partially resolved — see T-017).
@@ -33,3 +33,11 @@ rotation, coaching state (partially resolved — see T-018), reset cycles (parti
 - **T-020 Reset cycles** — partially resolved: transfer refresh advances per single-player match (in-game week, T-016); Season Pass and Prize Ladder run on seasonal cycles with countdown timers (official); DLL leaderboards reset weekly (community, gamingonphone). Full reset semantics still owed (datamining, Step 2).
 - **T-021 Ceiling** — community/tool usage: a developed player's maximum rating = base OVR +10 (rarely +11) (Community Consensus, long-standing across versions); DLS26 weighted-progression variant per sakibpro simulator (Speculative, tool-derived, single source). Not yet official-stated.
 - **T-022 Position label set** — GK, CB, LB, RB, CM, CDM, AM ("Aggressive Midfielder"), SS ("Secondary Striker"), CF, ST, LW, RW, LM, RM (community/tool rendering; GS-011). High Confidence.
+
+## Turn-4 additions (verified 2026-10-17)
+- **T-023 Progress Bank** — Season Pass feature: pass holders earn currency from DLL (multiplayer) XP, paid out at the end of the season (FTG article 4404070913169). Confirmed. Volatility: High (per-season).
+- **T-024 My Club** — the in-game menu containing the Customise screen (team name, manager, kits, logos) (FTG articles 360004080497, 360003945937). High Confidence (official-stated wording). Frozen.
+- **T-025 Clean sheet** — a match without conceding; an official coin-earning condition (FTG article 214385285). Confirmed. Frozen.
+- **T-026 Stadium bonus** — an official coin-earning condition, linked to the Stadium facility (FTG article 214385285 + GS-023). Existence Confirmed; exact mechanics owed. Volatility: High.
+- **T-027 "Scripts"** — community slang for perceived momentum/rubber-band manipulation. Launch-era megathread claim: "scripts seem to be gone or weaker" in DLS26 (single megathread — Speculative as a mechanism claim). FTG's official position: in DLL there is no manipulation of any in-game situation and no influencing of any outcome (GS-002). Recorded as community perception, not a verified mechanism.
+- **T-028 Reserves / substitutes** — DLS26 carries reserves plus a fixed eight substitutes (community megathread, multiple agreeing comments — Community Consensus; GS-022). Volatility: High.

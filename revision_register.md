@@ -1,11 +1,9 @@
 # REVISION REGISTER — DLS26 OMEGA
-Fast-reference knowledge change index. A REVISION here is a change to advice or to recorded knowledge — not a revision of the prompt file (handled under Prompt Versioning in docs/prompt_changelog.md) and not the REVISION category of the main operational log (where an individual change is recorded rather than indexed).
+Records every change to existing KB advice or claims, with reason and authority. Distinct from the RECOMMENDATION log category (which logs delivered advice) and from prompt-file versions (docs/prompt_changelog.md). Empty at bootstrap; first entry turn 4.
 
-Entry format (minimum): timestamp | what changed | what before | why | trigger | affected prior advice | topic the advice concerned (written identically to the RECOMMENDATION-category topic wording) | links.
-
-Recommendations themselves are NOT recorded here — the RECOMMENDATION category of logs/main_operational_log.md holds those; duplicating them here would put the same fact in two files that can then disagree. This register holds the changes only.
-
-Read at session start; consulted whenever prior advice on a topic has to be found fast.
-
-## Entries
-(none yet — no advice has been given and no recorded knowledge has changed; bootstrap Turn 1)
+## R-001 — 2026-10-17 — DLL leaderboard reset cadence
+- **Prior claim**: M-003 (kb/community-meta.md) stated DLL leaderboards "reset weekly" — origin: gamingonphone guide (single community source).
+- **Corrected claim**: FTG official support article 360003914998 ("What are Leaderboards?"): "Leaderboards reset at regular intervals (from 3-30 days) and users will receive prizes based on their position at the end time."
+- **Reason**: official-stated evidence superseded a single-source community instance; the weekly reset is one possible interval within the official 3–30 day range, not the rule.
+- **Authority**: Evidence Hierarchy (official-stated outranks community-reported); REVISION rule (prior statement incomplete, not fabricated — the source did describe a real observed interval).
+- **Consequence for pending work**: none — no advice had been delivered on this claim; M-003 updated in place; main log REVISION entry written.
