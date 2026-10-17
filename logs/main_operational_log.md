@@ -191,3 +191,10 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **First-contact basis drafted** (`step1_epochs/FIRST_CONTACT_BASIS.md`): four tiers, "#1 is not yet defined", six batched user asks, delivery gate at Step 5. Not delivered.
 - **Degradation self-audit** (`audit/DEGRADATION_SELF_AUDIT_turn10.md`): 8 events; D-01 missing terminal line at turn 9; D-02 all knowledge second-hand; D-03 cross-corpus agreement is not independence; D-05 ~45+ claims never witness-tested; D-06 process outrunning knowledge. Corrections listed.
 - No retrieval attempted (ACCESS_BOUNDARY unchanged); no irreversible action; nothing downloaded or decompiled.
+
+## 2026-10-17T18:05Z — turn 11 — STATE_1_RESEARCH_SWEEP (offline)
+- **Witness sample 2** (`audit/WITNESS_SPOTCHECK_turn11.md`): 10 claims not previously tested, 9 pass, 1 correction. CLAIM-043's EULA (EV-170) names four authorised storefronts; the sanctions article (EV-201) names two. New conflict **C-007**; challenge added to CLAIM-043; tier unchanged.
+- **C-006** added for the auto-switch dead-link contradiction (content held in EV-145; liveness unresolved). Ledger now 7 open, 3 resolved.
+- **Step-3 pipeline plan** written and left DRAFT: three capture tiers, prohibition table mapped to CLAIM-043/075, state schema, six scripts, risk table, user preconditions. Nothing executed; no device in this environment.
+- **OBS-015** logged: progress-signal obligation vs the single-terminal-line output rule; the signal is delivered in the handoff each session boundary, not in chat.
+- Total textual witness coverage now 20/117 claims (turn-8 10 + turn-11 10); the numeric pass covered 62 separately. No claim tier changed today.

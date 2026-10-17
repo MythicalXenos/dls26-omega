@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T17:12Z (session sess-20261017-001, turn 10, checkpoint ckpt-20261017-step1-009)
+Updated: 2026-10-17T18:05Z (session sess-20261017-001, turn 11, checkpoint ckpt-20261017-step1-010)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -14,6 +14,14 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **First-contact basis written:** `step1_epochs/FIRST_CONTACT_BASIS.md` — four briefing tiers, the "#1 is undefined" opening, six batched user-only asks, delivery gate at Step 5. Not delivered.
 - **Degradation self-audit:** `audit/DEGRADATION_SELF_AUDIT_turn10.md` — 8 events; dominant finding is that the entire knowledge base is second-hand and cross-corpus agreement is not independence.
 - Schema conventions recorded (`SCHEMA.md` §4b); OBS-014 logged.
+
+## Progress signal (prompt: "THE BOOTSTRAP MUST NOT BE ABLE TO WITHHOLD EVERYTHING FOREVER")
+- **Step:** 1 of 5 — Exhaustive Research. Part: closing the evidence-integrity and readiness work while the web families are unreachable.
+- **Established so far:** 117 claims over 8 divisions of the game (mechanics, economy, account safety, live-service, build history), all traceable to a preserved record; 123 EV artifacts + 7 failure records; a negative-finding register; a conflict ledger with 7 open items; the "#1" target still undefined because no verified global ranking surface exists.
+- **What remains:** witness-testing 97 of 117 claims; 8 owed/23 in-progress source refs; 3 uncaptured support articles; 5 original conflicts; the sealed epoch contract; and Steps 2–5, none of which is entered.
+- **Untouched:** English-language community pages (snippet-only), live in-client observation, all datamining, and any current-season state of the user's own account.
+- **Shape of the remaining frontier:** small and contract-shaped offline; large and blocked online. Nothing left in Step 1 can be finished without either a retrieval channel or the user's ruling on Step 2.
+- **Session estimate:** unmeasured projection — 2–4 more offline turns to finish the auditable parts of Step 1; zero estimate for the network-dependent remainder.
 
 ## Turn 2 result — environment boundary + continuity correction
 - Actual reachability attempts (not inherited assumptions): support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com and a control host all fail at TLS (curl 35, null HTTP status). api.github.com, registry.npmjs.org, pypi.org return 200. This environment generation is allowlist-limited: web research families are ACCESS_BOUNDARY, not "site down".
@@ -81,12 +89,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
-## Exact resumption point (next turn — turn 11)
-1. **Second stratified witness spot-check**: 10 claims drawn from those *not* covered in turn 8/9, weighted to Confirmed and Community Consensus; strip IDs/dates before comparing propositions to EV text. This is the D-05 correction.
-2. **Conflicts ledger residual**: add C-006 for the CLAIM-106 vs 22655f48 GS-030 contradiction (sibling says the auto-switch article 360008315158 is dead; our EV-145 holds its full text). Both sides, status, reopening test.
-3. **Step-3 device pipeline plan** (offline-capable, read-only): what the pipeline will require of the device, what it will never do (no root, no patching, no save edits), and the capture/telemetry checklist. No device access exists in this sandbox — write the plan, do not pretend to run it.
-4. Refresh `kb/claims_index.md` only if claims change; do not create new accounting artefacts unless a check fails (D-06 correction).
-Web families remain ACCESS_BOUNDARY; re-probe only on an environment-generation change. OBS-013 stays a first-contact decision; nothing to download or decompile.
+## Exact resumption point (next turn — turn 12)
+1. **Third witness sample, interpretive tier**: 10 claims drawn from the 13 Speculative and 23 Community Consensus claims (none of the previous samples touched these beyond CLAIM-118/091). Question is interpretive overreach, not transcription: does the proposition assert more than the source does?
+2. **Claim-currency pass on CLAIM-003 and CLAIM-006** — overdue since 2026-10-11 with no retrieval channel. Do not bump dates; instead re-read the cited records, tighten the proposition to exactly what they support, and state in-claim that freshness is unverified.
+3. **Publish the epoch contract's remaining unresolved placeholder** — the admitted-reference total cannot be frozen while 8 refs are owed behind the access boundary; write the precise freeze procedure (what command reads the frontier, what "frozen" means, what must match) so seal day is mechanical.
+4. Do not create further registers (D-06); if a check finds nothing, say so in one line and stop.
+Web families remain ACCESS_BOUNDARY; re-probe only on environment-generation change. OBS-013 remains a first-contact decision; nothing to download or decompile.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

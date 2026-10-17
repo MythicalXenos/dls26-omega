@@ -55,3 +55,7 @@ Found by the turn-10 end-to-end integrity check (`audit/CLAIM_INTEGRITY_step1_tu
 (c) **EV-218…EV-222 `covers[]` holds topic tags, not claim IDs** — inherited from the `a7e23a6b` corpus; `covers[]` is index-side navigation only, no claim depends on it.
 Also noted: `cross_refs[]` entries use annotated strings (`"CLAIM-054 (full version timeline)"`) in 9 of 11 cases; parsers must tokenise. New entries are to be bare IDs.
 Resolution: none required for Step 1; carried in `EPOCH_CONTRACT_DRAFT.md` §5 and the handoff.
+
+## OBS-015 — RULE TENSION — progress signal vs single terminal line — 2026-10-17 (turn 11)
+The prompt requires a PROGRESS SIGNAL "at every session boundary during the bootstrap, in the handoff and in one short message", while OMEGA-OUTPUT-001 and MACHINE-READ LINES require the complete conversational output of a bootstrap turn to be exactly one closed-vocabulary terminal line. Read literally, the two cannot both be satisfied in one turn.
+Resolution applied: the full progress signal is written into `handoff/HANDOFF.md` (§ Progress signal) at every session boundary — step, part, established, remaining, untouched source types/languages/layers, frontier shape, and an explicitly-labelled unmeasured session estimate — and the conversational output remains the single terminal line from the closed vocabulary. The progress signal is therefore durable and auditable but not spoken. If the user wants it spoken, the closed vocabulary needs a variant line, which only the user can authorise. Recorded rather than silently choosing.

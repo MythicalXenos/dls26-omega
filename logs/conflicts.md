@@ -38,6 +38,22 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Status:** UNRESOLVED in wording; the underlying facts are compatible if "weekly" refers to one of several ladders.
 - **Settles it:** a capture of the live leaderboard surface with its timer.
 
+### C-006 — Auto-switch article: live text vs reported dead link
+- **Side A:** the article "Why are my players auto-switching all the time?" (360008315158) is **live and fully captured** — EV-145 holds its complete text, fetched 2026-10-10T22:58Z, and CLAIM-106 is built on it verbatim.
+- **Side B:** the sibling session on `arena/22655f48-dls26-omega` records the same article as a dead link (GS-030), captured on its own timeline.
+- **Status:** UNRESOLVED. Both captures are physical; the most probable explanation is a transient Zendesk outage or a removal-and-restore between the two fetches, not a contradiction about content.
+- **Settles it:** one fresh fetch of the slug in a permitted environment, recording HTTP status and timestamp.
+- **May say meanwhile:** quote CLAIM-106 from EV-145 (full text exists) and note that the URL's liveness is not guaranteed; the *behaviour* claim does not depend on the URL staying up.
+- **Note:** this is the residual "cross-branch contradiction" item carried since turn 6.
+
+### C-007 — Which stores are authorised: four vs two
+- **Side A:** the Terms of Use / EULA (last updated 25 Jul 2025, EV-170, full page) names **four** authorised stores — Apple App Store, Google Play, Amazon App Store, Windows Phone Store — and says FTG "does not publish to any other store".
+- **Side B:** the sanction-policy article (EV-201, verbatim) says **"The only authorised versions of DLS are available from Apple's App Store or Google's Play Store."**
+- **Status:** UNRESOLVED. The two official texts are not reconcilable as written. Likely explanations: the EULA is the older, broader legal list (Windows Phone Store is defunct), while the sanction article reflects current distribution. Neither side is a community claim.
+- **Impact on the mission:** **none for the red line** — mods, hacks and third-party builds are prohibited under both texts, and only Play/App Store builds are what the user can install today. It matters for precision: CLAIM-043 must not be quoted as "the EULA says Play and App Store only".
+- **Settles it:** a current FTG store-availability statement, or an EULA revision listing two stores.
+- **May say meanwhile:** "FTG's EULA lists four storefronts; its sanctions article recognises Play and App Store. Only those two are current for DLS26."
+
 ## RESOLVED (kept for history, with the evidence that resolved them)
 
 ### C-R01 — Launch date: Dec 4 2026 vs Dec 17 2025

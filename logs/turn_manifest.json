@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 10,
-  "checkpoint_id": "ckpt-20261017-step1-009",
-  "previous_checkpoint_id": "ckpt-20261017-step1-008",
+  "turn_seq": 11,
+  "checkpoint_id": "ckpt-20261017-step1-010",
+  "previous_checkpoint_id": "ckpt-20261017-step1-009",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,24 +14,22 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/CLAIM_INTEGRITY_step1_turn10.md",
-    "audit/DEGRADATION_SELF_AUDIT_turn10.md",
-    "step1_epochs/FIRST_CONTACT_BASIS.md",
-    "step1_epochs/EPOCH_CONTRACT_DRAFT.md",
-    "SCHEMA.md"
+    "audit/WITNESS_SPOTCHECK_turn11.md",
+    "step1_epochs/STEP3_DEVICE_PIPELINE_PLAN.md",
+    "logs/conflicts.md",
+    "kb/claims.jsonl"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) second stratified witness spot-check of 10 claims not covered in turns 8-9 (D-05 correction: strip IDs/dates before comparing propositions to EV text); (2) add C-006 to logs/conflicts.md for CLAIM-106 vs 22655f48 GS-030 (auto-switch article 360008315158 reported dead by sibling; EV-145 holds its full text); (3) draft the Step-3 device pipeline plan, read-only and offline (no root/patching/save edits; no device exists in this sandbox); (4) no new accounting artefacts unless a check fails. Web families remain ACCESS_BOUNDARY; re-probe only on environment-generation change. OBS-013 remains a first-contact decision; nothing to download or decompile.",
-  "created_at": "2026-10-17T17:12:00Z",
-  "not_before": "2026-10-17T17:12:00Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) third witness sample of 10 claims drawn from the Speculative and Community Consensus tiers (interpretive overreach, not transcription); (2) currency pass on overdue CLAIM-003/CLAIM-006 by re-reading cited records and tightening propositions, without bumping dates; (3) write the epoch-contract reference-freeze procedure so seal day is mechanical. No new registers unless a check fails. Web families remain ACCESS_BOUNDARY; re-probe only on environment-generation change. OBS-013 remains a first-contact decision; nothing to download or decompile.",
+  "created_at": "2026-10-17T18:05:00Z",
+  "not_before": "2026-10-17T18:05:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/CLAIM_INTEGRITY_step1_turn10.md",
-    "audit/DEGRADATION_SELF_AUDIT_turn10.md",
-    "step1_epochs/FIRST_CONTACT_BASIS.md"
+    "audit/WITNESS_SPOTCHECK_turn11.md",
+    "step1_epochs/STEP3_DEVICE_PIPELINE_PLAN.md"
   ]
 }
