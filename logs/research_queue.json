@@ -1,10 +1,76 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T17:02Z",
+  "updated_at": "2026-10-17T17:31Z",
   "items": [
-    {"id": "RQ-20261017-001", "topic": "WALL SOURCE: all non-allowlisted research hosts (support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com, community/Reddit/YouTube/TikTok)", "tier": "queue-Critical", "status": "blocked-access-boundary", "added": "2026-10-17T17:00Z", "source": "S-055..058", "reopen_predicate": "host allowlist change, permitted proxy route, or user-supplied capture pushed to raw_game_data/", "debt": "15 FTG article bodies listed in ckpt-20261017-setup-002 resumption point; version gaps 13.140-13.299, 13.360-13.400; true non-English forums; Dynamic Stars official detail"},
-    {"id": "RQ-20261017-002", "topic": "Technical/datamining corpus via GitHub and package registries", "tier": "queue-High", "status": "open-negative", "added": "2026-10-17T17:00Z", "source": "S-059..062", "note": "Negative for APK/save/stat data on these families as of 2026-10-17; do not repeat identical queries; new query shapes only if a new lead appears."},
-    {"id": "RQ-20261017-003", "topic": "Reconcile kb/claims.jsonl (87 CLAIM-nnn) with 22655f48 markdown topic summaries (T/B/L/M/GS IDs); build alias map, resolve conflicts, re-tier staleness", "tier": "queue-High", "status": "open", "added": "2026-10-17T17:01Z", "source": "OBS-011", "note": "claims.jsonl wins conflicts until reconciliation is complete."},
-    {"id": "RQ-20261017-004", "topic": "Refresh over-due claims in claims.jsonl (next_due dates) where verification is possible without the blocked web", "tier": "queue-Medium", "status": "open", "added": "2026-10-17T17:01Z", "source": "coverage accounting t69"}
+    {
+      "id": "RQ-20261017-001",
+      "topic": "WALL SOURCE: all non-allowlisted research hosts (support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com, community/Reddit/YouTube/TikTok)",
+      "tier": "queue-Critical",
+      "status": "blocked-access-boundary",
+      "added": "2026-10-17T17:00Z",
+      "source": "S-055..058",
+      "reopen_predicate": "host allowlist change, permitted proxy route, or user-supplied capture pushed to raw_game_data/",
+      "debt": "15 FTG article bodies listed in ckpt-20261017-setup-002 resumption point; version gaps 13.140-13.299, 13.360-13.400; true non-English forums; Dynamic Stars official detail"
+    },
+    {
+      "id": "RQ-20261017-002",
+      "topic": "Technical/datamining corpus via GitHub and package registries",
+      "tier": "queue-High",
+      "status": "open-negative",
+      "added": "2026-10-17T17:00Z",
+      "source": "S-059..062",
+      "note": "Negative for APK/save/stat data on these families as of 2026-10-17; do not repeat identical queries; new query shapes only if a new lead appears."
+    },
+    {
+      "id": "RQ-20261017-004",
+      "topic": "Refresh over-due claims in claims.jsonl (next_due dates) where verification is possible without the blocked web",
+      "tier": "queue-Medium",
+      "status": "open",
+      "added": "2026-10-17T17:01Z",
+      "source": "coverage accounting t69"
+    },
+    {
+      "id": "RQ-20261017-003",
+      "topic": "Reconcile kb/claims.jsonl with 22655f48 markdown summaries",
+      "tier": "queue-High",
+      "status": "in-progress",
+      "added": "2026-10-17T17:01Z",
+      "progress": "Alias map built: 73/73 summaries mapped (56 mapped, 9 review, 7 orphan-owed, 1 negative). Remaining: verify 9 REVIEW rows against source text; rewrite summaries as derived views or retire them.",
+      "source": "OBS-011 / kb/claim_alias_map.md"
+    },
+    {
+      "id": "RQ-20261017-005",
+      "topic": "Promote 7 orphan topics to claim records from preserved evidence (Clans, Friend Match, device compatibility, squad depth, new-player start state, live-service cadence, team-OVR formula)",
+      "tier": "queue-High",
+      "status": "open",
+      "added": "2026-10-17T17:28Z",
+      "source": "kb/claim_alias_map.md",
+      "note": "Each promotion needs evidence reference and tier; no values invented. Trained-rating hypothesis remains Speculative, quarantined."
+    },
+    {
+      "id": "RQ-20261017-006",
+      "topic": "Backfill EV extraction records for FTG articles captured only as GS summaries (connection requirement, device compatibility, Friend Match) and canonical URLs for EV-167 iCloud and EV-194 player roles",
+      "tier": "queue-Medium",
+      "status": "open",
+      "added": "2026-10-17T17:28Z",
+      "source": "step1_epochs/ARTICLE_COVERAGE.md",
+      "note": "Record-format debt; knowledge is captured but the physical extraction record is missing."
+    },
+    {
+      "id": "RQ-20261017-007",
+      "topic": "Refresh overdue claims CLAIM-003 (global ranking surface) and CLAIM-006 (VI fitness-coach release claim) with a real check; if the web is blocked, record ACCESS_BOUNDARY without advancing next_due",
+      "tier": "queue-Critical",
+      "status": "open",
+      "added": "2026-10-17T17:29Z",
+      "source": "kb/claims_index.md"
+    },
+    {
+      "id": "RQ-20261017-008",
+      "topic": "Retry FTG articles 14369944135058 (control buttons), 360020938198 (DLL emojis), 360021064298 (opponent kit visibility) and the moved update-troubleshooting slug when a permitted route exists",
+      "tier": "queue-High",
+      "status": "blocked-access-boundary",
+      "added": "2026-10-17T17:29Z",
+      "source": "step1_epochs/ARTICLE_COVERAGE.md"
+    }
   ]
 }

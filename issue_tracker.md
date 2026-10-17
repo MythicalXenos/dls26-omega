@@ -34,3 +34,8 @@ STATE_0_SETUP exceeded the 420-second wall-clock ceiling (about 11 minutes) beca
 
 ## OBS-011 — ANOMALY — OPEN — 2026-10-17
 Two parallel claim systems now exist in the live tree: kb/claims.jsonl (87 CLAIM-nnn claims, branch a7e23a6b, Oct 10–15) and the markdown topic summaries imported from branch 22655f48 (T-/B-/L-/M-/GS-nnn IDs, Oct 17). They overlap in subject and may disagree. Resolution applied: claims.jsonl is the single claim authority, markdown files are derived topic summaries, claims.jsonl wins conflicts. Full reconciliation (dedupe, alias map, re-tier) queued as RQ-20261017-003. Not merged silently, not discarded.
+
+## OBS-006 recurrence — 2026-10-17 (turn 3)
+The environment again reset local git state between turns (this time replacing .git with a fresh index at the branch commit while leaving branch files as untracked identical copies). Detected at turn start; verified byte-identical content on samples; index rebuilt with Unstaged changes after reset:
+M	logs/main_operational_log.md
+M	logs/research_queue.json; tree clean, no data lost, no history rewritten. Same cause as OBS-006 (environment behavior between sessions), so this is logged as a recurrence rather than a new defect. Watch item unchanged: verify HEAD/index/worktree at every turn start. If this recurs with content loss, the mitigation will be to treat GitHub as sole store and re-clone at turn start.
