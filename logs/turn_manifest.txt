@@ -42,3 +42,15 @@ TURN 26 (2026-10-18 ~01:15Z ckpt-20261018-step1-025):
 - CLAIM-150 (button map), CLAIM-151 (state machine), CLAIM-152 (ad types), CLAIM-153 (HUD elements); CLAIM-026 refined.
 - Sample 16: 7/7 clean post-stamp.
 - Totals: 151 claims (+4), 157 EV (+1).
+
+TURN 27 (2026-10-18 ~01:40Z ckpt-20261018-step1-026):
+- Non-GitHub package registries (maven central, crates.io, nuget, conda-forge) are all TLS-blocked by sandbox allowlist; no exhaustive scan possible without new allowlist. Already confirmed pypi/npm empty; remaining registries marked as out-of-sandbox.
+- GitHub wave 4 final: Chinese 梦幻足球联盟 (11+7+3 hits - all LeoH321/DLS26China tools already pulled), discord/reddit archival (16-28 hits - mostly README links not mirrored bots), formation hits 26, season pass hits 1, dls26-discord 28, subreddit 16.
+- girtab.github.io = 75k files, 0 DLS matches (false positives).
+- MAJOR find: LeoH321/dls26-tool-CB "DLS26 后卫练卡推演 (唯抢断胜率版)" (CB-training simulator from DLS26China WeChat). The 23KB JS implements an EXHAUSTIVE DP solver encoding training mechanics.
+- EV-255: coach tiers (白+1/蓝+2/金+3), position-specific attribute weights (CB: CON=2 weight, others=1), k-of-n random draw, 100-stat hard cap, over-capacity fractional dilution, stat color thresholds (≥90 blue/≥80 green/≥70 yellow/<70 red), decision rule (gold≥12cap, blue 6-12, white<6).
+- CLAIM-154 (coach tiers/colors/cost formula), CLAIM-155 (CB CON weight=2), CLAIM-156 (draw/cap/dilution mechanic), CLAIM-157 (color thresholds), CLAIM-158 (threshold heuristic).
+- CLAIM-049 upgraded to High Confidence with quantified weights.
+- Sample 17: 7/7 clean post-stamp.
+- Totals: 156 claims (+5), 158 EV (+1).
+- Research saturation approaching rapidly: major mechanics uncovered (OVR formula, 8-attr schema, coach dev weights, state machine, button map, ad inventory, card tiers, price tiers, formations, roster size/cap). Remaining items for true saturation: Step 2 APK datamine (cannot proceed further on community DBs alone for: save-file paths, coach weights for non-CB positions, full event/Dream Points/Form Boost/Season Pass economy constants, GK attribute remapping exact labels, matchmaking internals).
