@@ -1,0 +1,3 @@
+=== UNBOUNDED SWEEP RESTART turn 30 ===
+2026-10-17T22:14:55Z
+KB pre-sweep: 156 claims, 158 EVs
