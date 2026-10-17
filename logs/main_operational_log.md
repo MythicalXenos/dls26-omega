@@ -198,3 +198,10 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **Step-3 pipeline plan** written and left DRAFT: three capture tiers, prohibition table mapped to CLAIM-043/075, state schema, six scripts, risk table, user preconditions. Nothing executed; no device in this environment.
 - **OBS-015** logged: progress-signal obligation vs the single-terminal-line output rule; the signal is delivered in the handoff each session boundary, not in chat.
 - Total textual witness coverage now 20/117 claims (turn-8 10 + turn-11 10); the numeric pass covered 62 separately. No claim tier changed today.
+
+## 2026-10-17T18:20Z — turn 12 — STATE_1_RESEARCH_SWEEP (offline)
+- **Interpretive witness sample 3** (`audit/WITNESS_SPOTCHECK_sample3_turn12.md`): 10 low-tier claims; 9 reproduce their sources, 1 exposes a strategy-level conflict. New **C-008**: community says division promotion runs on Division Objectives (EV-192/196); the only official text says it is an XP ladder (EV-195, CLAIM-067). Challenge added to CLAIM-062 blocking objective-efficiency coaching until a Career capture settles it.
+- **Wording drift recorded** on CLAIM-070 ("vs strong opponents", "pressure" not in source; 4-4-2 "best basic" disagreement). CLAIM-042 found more cautious than its own evidence (no change).
+- **Freshness repaired**: CLAIM-003 and CLAIM-006 had been verified on/after their due dates but `next_due` was never advanced — the schedule, not the knowledge, was stale. Dates re-derived from `last_valid_check` + modal tier interval (Critical 6 d, High 21 d) and the repair written inside each claim.
+- **Frontier made executable**: `frontier.py` failed for want of its input log; recovered `logs/sources_visited.json` from branch a7e23a6b at 5ab3ec6 (161 refs) into the corpus and ran `summary` — returns exactly the contract's §2 distribution (91/23/2/9/15/20/1, sequence 1301). The epoch's core count is now reproducible from disk.
+- **Epoch contract §5a rewritten** as a seven-step freeze procedure with a digest requirement; still DRAFT, still unsealed.

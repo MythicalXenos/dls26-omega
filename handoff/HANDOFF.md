@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T18:05Z (session sess-20261017-001, turn 11, checkpoint ckpt-20261017-step1-010)
+Updated: 2026-10-17T18:20Z (session sess-20261017-001, turn 12, checkpoint ckpt-20261017-step1-011)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,11 +89,18 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
-## Exact resumption point (next turn — turn 12)
-1. **Third witness sample, interpretive tier**: 10 claims drawn from the 13 Speculative and 23 Community Consensus claims (none of the previous samples touched these beyond CLAIM-118/091). Question is interpretive overreach, not transcription: does the proposition assert more than the source does?
-2. **Claim-currency pass on CLAIM-003 and CLAIM-006** — overdue since 2026-10-11 with no retrieval channel. Do not bump dates; instead re-read the cited records, tighten the proposition to exactly what they support, and state in-claim that freshness is unverified.
-3. **Publish the epoch contract's remaining unresolved placeholder** — the admitted-reference total cannot be frozen while 8 refs are owed behind the access boundary; write the precise freeze procedure (what command reads the frontier, what "frozen" means, what must match) so seal day is mechanical.
-4. Do not create further registers (D-06); if a check finds nothing, say so in one line and stop.
+## Turn 12 result — interpretive sample, C-008, freshness repair, executable frontier
+- **The most consequential finding so far.** Community says Career promotion runs on Division Objectives (wins+goals); the only official text says promotion is an XP ladder (wins +XP, losses −XP, max XP promotes). Both cannot be the same mechanism as described. **C-008** added; CLAIM-062 carries a challenge blocking objective-efficiency coaching until a Career screen is captured.
+- **Sample 3** (`audit/WITNESS_SPOTCHECK_sample3_turn12.md`): 10 low-tier claims; 9 faithful, 1 conflict, 2 wording drifts. Union of textually witnessed claims now 30/117 (26%).
+- **Freshness repaired**: CLAIM-003/006 were verified on/after their due dates — the `next_due` field, not the knowledge, was stale. Re-derived from `last_valid_check` + modal interval and the repair written into each claim.
+- **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
+- **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
+
+## Exact resumption point (next turn — turn 13)
+1. **Sample 4 of the witness pass**: 8 claims from the 30 High Confidence claims never tested; prefer single-witness ones.
+2. **Reconcile the live 63-entry `logs/sources_visited.json` against the recovered 161-ref frontier** and write the per-ref delta — this is step 1 of the freeze procedure and the last mechanical blocker before a seal could even be proposed.
+3. Step-3 script scaffolds only if time remains; the plan exists, no script does.
+4. No new registers unless a check fails (D-06).
 Web families remain ACCESS_BOUNDARY; re-probe only on environment-generation change. OBS-013 remains a first-contact decision; nothing to download or decompile.
 
 ## Owed debt / open items

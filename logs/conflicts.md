@@ -54,6 +54,15 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Settles it:** a current FTG store-availability statement, or an EULA revision listing two stores.
 - **May say meanwhile:** "FTG's EULA lists four storefronts; its sanctions article recognises Play and App Store. Only those two are current for DLS26."
 
+### C-008 — Promotion: Division Objectives vs XP ladder
+- **Side A (community, VI):** each Division season = 15 matches, and promotion runs through **Division Objectives** — required wins + goals totals, no need to win every match (EV-192 snippet, EV-196 full page; CLAIM-062, Community Consensus).
+- **Side B (official, verbatim):** *"The more matches you win, the more XP you will earn. When you reach the maximum XP for your current rank, you will be promoted. Similarly, losing matches will cause you to lose XP and get relegated."* (EV-195, article 7917423348497; CLAIM-067, Confirmed). The article does **not** name the surface (Career division vs Dream League Live rank).
+- **Status:** UNRESOLVED, and it is the sharpest conflict found in the interpretive sample, because the two accounts imply different strategies: objective-completion efficiency (Side A) vs win-rate/XP accumulation (Side B).
+- **Plausible reconciliation:** objectives grant the XP, or the two mechanics govern different ladders (Career vs DLL). Neither is documented.
+- **Settles it:** a Career screen capture showing the promotion requirement (objectives list vs XP bar), or an official article that names the surface.
+- **May say meanwhile:** "the only official promotion text describes an XP ladder; a community guide describes division objectives. Which governs Career is unverified — check your division screen before optimising for objectives."
+- **Impact on coaching:** blocks any advice that trades wins for goal-farming until resolved.
+
 ## RESOLVED (kept for history, with the evidence that resolved them)
 
 ### C-R01 — Launch date: Dec 4 2026 vs Dec 17 2025

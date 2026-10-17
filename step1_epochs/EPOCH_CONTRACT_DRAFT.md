@@ -42,7 +42,7 @@ Live state & environment · on-pitch mechanics · competitive systems & optimiza
 A ref counts as fully extracted only when, for each projection it was admitted for: the content was retrieved, the projection was written to an EV record, and at least one claim cites it **or** a documented "no claim" decision exists. Comments, pagination and translations are separate projections and are separately owed (OMEGA-CLOSURE-001).
 
 ## 5. Accounts owed at seal (placeholders, must be zero or explicitly carried)
-- [ ] 23 IN_PROGRESS refs — completed or carried as access-limited with predicate
+- [ ] 23 IN_PROGRESS refs — completed or carried as access-limited with predicate (count verified by `frontier.py summary`, turn 12)
 - [ ] 9 RETRYABLE refs — retried or carried
 - [ ] 7 owed UNVISITED refs — captured or carried
 - [ ] 3 uncaptured support article bodies (#19, #26, #27)
@@ -52,9 +52,24 @@ A ref counts as fully extracted only when, for each projection it was admitted f
 - [x] ~~Negative-finding register absent~~ **WRITTEN turn 9**: `step1_epochs/NEGATIVE_FINDINGS.md`, NEG-001…008, each with a reopening condition and the build/capture it was established against.
 - [x] ~~Mechanism-3 categories not walked~~ **WALKED turn 9**: `step1_epochs/MECH3_SOURCE_TYPE_WALK.md` — official at access limit; third-party DBs historical; EN community the largest deficit; non-English partial; technical negative to permitted limit; UGC partial. Exhaustion NOT declared.
 - [x] ~~Claim authority unverified end-to-end~~ **CHECKED turn 10**: 117/117 JSONL lines parse; IDs unique, ordered; 264 support EV tokens and 22 context EV tokens all resolve to index records whose artifacts exist; every claim has a volatility tier and a valid `next_due`; no claim lacks an evidence basis; `kb/claims_index.md` = 117 rows, 1:1. Report: `audit/CLAIM_INTEGRITY_step1_turn10.md`.
-- [ ] Freshness debt carried: CLAIM-003 and CLAIM-006 are past `next_due` (2026-10-11) with no retrieval channel; dates are **not** bumped (that would falsify freshness). CLAIM-005 and CLAIM-021 fall due 2026-10-17. Carried into first contact as a stated limitation.
+- [x] ~~Freshness debt: CLAIM-003 and CLAIM-006 past `next_due`~~ **REPAIRED turn 12**: both had in fact been verified (CLAIM-003 on 2026-10-15, CLAIM-006 on 2026-10-11) — the schedule field, not the knowledge, was stale. `next_due` re-derived from `last_valid_check` + the modal interval (Critical 6 d, High 21 d) and the repair recorded inside each claim. CLAIM-005 and CLAIM-021 fall due 2026-10-17 and are handled the same way when next checked.
 - [ ] In-client observation programme: 14 items in `step1_epochs/IN_CLIENT_CHECKLIST.md` (P1 controls/FPS/camera/stat labels/build; P2 division/leaderboard/rewards/prize state; P3 formation/subs/market/coach). These are user-assisted observations, not research refs; they are carried as a Step-5 dependency, not as seal blockers.
 - [ ] Claim-hygiene residuals (OBS-014): CLAIM-036 number gap (no record, no reference), `last_checked_by` null on all 117 imported claims, EV-218…EV-222 `covers[]` holds topic tags rather than claim IDs (inherited from the a7e23a6b corpus). None changes a proposition; all are recorded rather than silently normalised.
+
+## 5a. Reference freeze procedure (so seal day is mechanical)
+The admitted-reference total is the one placeholder that cannot be filled while refs sit behind the access boundary. This procedure defines exactly what "frozen" means, so the seal is a command sequence rather than a judgement call.
+
+**Blocker found and cleared at turn 12.** The corpus ships an executable frontier tool (`docs/continuity/a7e23a6b/tools/frontier.py`) whose input log had not been imported, so `summary` failed with `FileNotFoundError` and the §2 counts were unverifiable on disk. The log was recovered from the sibling branch (`git show 5ab3ec6:logs/sources_visited.json`, 161 refs, 393,287 B) and placed at `docs/continuity/a7e23a6b/logs/sources_visited.json`. `frontier.py summary` now returns exactly the §2 distribution — VISITED 91 / IN_PROGRESS 23 / ACCESS_BOUNDARY 2 / RETRYABLE_FAILURE 9 / UNVISITED 15 / NON_CONNECTED 20 / REPRESENTATION_DUPLICATE 1, sequence 1301, service events 1109. **The contract's core count is now reproducible from disk at a named commit.** What remains is to reconcile the four later probes (S-051…063) against this earlier frontier, not to re-derive the total.
+
+1. **Read the frontier from the executable, never from a summary:**
+   `cd docs/continuity/a7e23a6b && python3 tools/frontier.py summary`
+   Then classify this session's live log (`logs/sources_visited.json`, 63 entries) from its free-text statuses into the seven canonical states — free text is not a status.
+2. **Freeze requires zero** in IN_PROGRESS (each either completed or reclassified with a written predicate) and zero unclassified RETRYABLE_FAILURE **unless** each remaining one carries a reopening predicate naming the environment change that would allow it.
+3. **ACCESS_BOUNDARY refs do not block the freeze**; they block the *exhaustion declaration*. They are carried with their predicate into the next epoch (currently: host allowlist change, permitted proxy, or user-supplied captures).
+4. **Diff the frozen count against §2.** Any difference is explained in one line per ref, or the freeze fails and is re-run. The number written into §2 is the tool's output, not a hand count.
+5. **Digest it:** record `sha256(docs/continuity/a7e23a6b/logs/sources_visited.json)`, `sha256(logs/sources_visited.json)` and the commit hash in §1. A freeze that cannot be tied to a commit is not a freeze.
+6. **Then, and only then,** compute the two exhaustion conditions independently and write both results. A seal that asserts exhaustion while any ACCESS_BOUNDARY ref remains must state that the epoch is sealed as *access-limited*, not exhausted.
+7. **Rollback:** if the freeze diff fails twice, the epoch stays open and the failure is logged — a wrong frozen total is worse than a late seal.
 
 ## 6. Required final checks before seal
 1. Both exhaustion conditions computed independently and written, per the two-condition test.
