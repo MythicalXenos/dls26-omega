@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>DLS Hub — Dream League Soccer Community</title>
+  <meta name="description" content="The ultimate Dream League Soccer community hub. Connect, compete, and climb the leaderboards." />
+  <!-- Open Graph / Social Share -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DLS Hub — Dream League Soccer Community" />
+  <meta property="og:description" content="The ultimate Dream League Soccer community hub. Connect, compete, and climb the leaderboards." />
+  <meta property="og:image" content="https://dlshub.vercel.app/public/images/logo.jpg" />
+  <meta property="og:url" content="https://dlshub.vercel.app" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DLS Hub — Dream League Soccer Community" />
+  <meta name="twitter:description" content="The ultimate Dream League Soccer community hub. Connect, compete, and climb the leaderboards." />
+  <meta name="twitter:image" content="https://dlshub.vercel.app/public/images/logo.jpg" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="/public/images/logo.jpg" />
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0f1f17" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Rajdhani (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <script>
+    // Tailwind config — DLS Hub v3 (BlazeWebGuide-style blue + light/dark toggle)
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            pitch:   '#0d1b2a',   // DLS navy bg
+            turf:    '#0f2744',   // DLS dark card
+            lime:    '#ffd600',   // DLS gold accent
+            coral:   '#ef4444',   // danger
+            ice:     '#ffffff',   // bright white text
+            mist:    '#90a4ae',   // muted text
+            line:    'rgba(255,255,255,0.08)',   // subtle borders
+          },
+          fontFamily: {
+            display: ['Rajdhani', 'sans-serif'],
+            body:    ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="public/css/app.css" />
+</head>
+
+<body class="bg-pitch text-ice font-body min-h-screen">
+
+  <!-- ═══════════════════════════════════════════
+       TOP NAV
+  ═══════════════════════════════════════════ -->
+  <nav id="navbar" class="fixed top-0 inset-x-0 z-50 bg-pitch/90 backdrop-blur border-b border-line">
+    <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center" onclick="navigate('home')">
+        <img src="/public/images/logo.jpg" alt="DLS Hub" class="h-10 w-auto" />
+      </a>
+
+      <!-- Desktop nav links (hidden when logged-out) -->
+      <div id="nav-auth" class="hidden md:flex items-center gap-6 text-sm font-medium text-mist">
+        <button onclick="navigate('feed')"          class="nav-link hover:text-ice transition">Feed</button>
+        <button onclick="navigate('chat')"          class="nav-link hover:text-ice transition">Community Chat</button>
+        <button onclick="navigate('dm')"            class="nav-link hover:text-ice transition">Messages</button>
+        <button onclick="navigate('leaderboards')" class="nav-link hover:text-ice transition">Leaderboards</button>
+        <button onclick="navigate('tournaments')" class="nav-link hover:text-ice transition">Tournaments</button>
+      </div>
+
+      <!-- Right side controls — always in a flex row so install button can't break layout -->
+      <div class="flex items-center gap-2 ml-auto">
+
+        <!-- Install app (PWA) — hidden until installable -->
+        <button id="install-btn" onclick="installApp()" class="hidden items-center gap-1 border border-blue-500 text-blue-400 hover:bg-blue-500/10 px-3 py-1.5 rounded-lg text-xs font-medium transition" title="Install DLS Hub">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i> Install
+        </button>
+
+        <!-- Sound toggle -->
+        <button onclick="toggleSound()" class="p-2 text-mist hover:text-lime transition" title="Toggle sound">
+          <i data-lucide="volume-2" id="sound-icon" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Online status -->
+        <span id="online-count" class="text-xs text-mist bg-turf border border-line rounded-full px-2 py-1 hidden"><span class="inline-block w-2 h-2 bg-green-400 rounded-full mr-1 animate-pulse"></span><span id="online-num">0</span> online</span>
+
+        <!-- Points display (logged-in only) -->
+        <span id="nav-points" class="hidden text-xs text-lime font-medium bg-turf border border-line rounded-full px-3 py-1">
+          <i data-lucide="coins" class="w-3.5 h-3.5 inline mr-1"></i><span id="nav-points-amount">0</span>
+        </span>
+
+        <!-- Theme toggle -->
+        <button onclick="toggleTheme()" class="p-2 text-mist hover:text-lime transition" title="Toggle theme">
+          <i data-lucide="sun" id="theme-icon-light" class="w-5 h-5 hidden"></i>
+          <i data-lucide="moon" id="theme-icon-dark" class="w-5 h-5"></i>
+        </button>
+
+        <!-- Notification bell (logged-in only) -->
+        <button id="notif-btn" class="hidden relative p-2 text-mist hover:text-lime" onclick="toggleNotifications()">
+          <i data-lucide="bell" class="w-5 h-5"></i>
+          <span id="notif-badge" class="hidden absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] bg-coral text-white text-[10px] font-bold rounded-full flex items-center justify-center px-1 leading-none">0</span>
+        </button>
+
+        <!-- Avatar dropdown (logged-in) -->
+        <div id="avatar-menu" class="hidden relative">
+          <button onclick="toggleAvatarMenu()" class="flex items-center gap-2">
+            <img id="nav-avatar" src="https://ui-avatars.com/api/?name=User&background=0f1f17&color=b5ff47" class="w-8 h-8 rounded-full ring-2 ring-lime/40" />
+          </button>
+          <div id="avatar-dropdown" class="hidden absolute right-0 mt-2 w-44 bg-turf border border-line rounded-xl shadow-xl text-sm">
+            <button onclick="navigate('profile')"  class="w-full text-left px-4 py-2.5 hover:text-lime transition">My Profile</button>
+            <button id="admin-nav-link" onclick="navigate('admin')" class="w-full text-left px-4 py-2.5 hover:text-lime transition hidden">Admin</button>
+            <button onclick="handleSignOut()"       class="w-full text-left px-4 py-2.5 text-coral hover:opacity-80 transition">Sign Out</button>
+          </div>
+        </div>
+
+        <!-- Auth buttons (logged-out) -->
+        <div id="auth-buttons" class="flex items-center gap-2">
+          <button onclick="navigate('login')" class="text-sm px-4 py-1.5 rounded-lg border border-blue-500 text-blue-400 hover:bg-blue-500/20 transition font-medium" style="box-shadow: 0 0 10px rgba(59,130,246,0.4)">Log In</button>
+          <button onclick="navigate('signup')" class="btn-lime text-sm px-4 py-1.5">Sign Up</button>
+        </div>
+
+      </div>
+
+      <!-- Mobile hamburger (hidden on mobile — use bottom nav) -->
+      <button id="hamburger" class="hidden md:hidden p-2 text-mist" onclick="toggleMobileMenu()">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-line bg-turf text-sm font-medium">
+      <div id="mobile-nav-auth" class="hidden flex-col p-4 gap-3 text-mist">
+        <button onclick="navigate('feed');toggleMobileMenu()"         class="text-left hover:text-ice">Feed</button>
+        <button onclick="navigate('chat');toggleMobileMenu()"         class="text-left hover:text-ice">Community Chat</button>
+        <button onclick="navigate('dm');toggleMobileMenu()"           class="text-left hover:text-ice">Messages</button>
+        <button onclick="navigate('leaderboards')" class="nav-link hover:text-ice transition">Leaderboards</button>
+        <button onclick="navigate('tournaments')" class="nav-link hover:text-ice transition">Tournaments</button>
+        <button onclick="navigate('admin');toggleMobileMenu()"        class="text-left hover:text-ice">Admin</button>
+        <button onclick="navigate('profile');toggleMobileMenu()"      class="text-left hover:text-ice">My Profile</button>
+        <button onclick="handleSignOut()"                              class="text-left text-coral">Sign Out</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Notification panel -->
+  <div id="notif-panel" class="hidden fixed top-14 right-4 z-50 w-80 bg-turf border border-line rounded-2xl shadow-2xl overflow-hidden">
+    <div class="p-4 border-b border-line flex justify-between items-center">
+      <span class="font-display text-lg text-lime">Notifications</span>
+      <button onclick="clearNotifications()" class="text-xs text-mist hover:text-ice">Clear all</button>
+    </div>
+    <div id="notif-list" class="max-h-72 overflow-y-auto divide-y divide-line text-sm text-mist">
+      <p class="p-4 text-center">No notifications yet</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       PAGE VIEWS  (only one visible at a time)
+  ═══════════════════════════════════════════ -->
+  <main class="pt-20 pb-24 md:pb-8">
+
+    <!-- ── HOME ── -->
+    <div id="page-home" class="page-view">
+      <!-- Hero -->
+      <section class="relative flex flex-col items-center justify-center text-center px-6 py-16 pb-24 overflow-hidden" style="min-height: calc(100vh - 64px)">
+        <!-- Ambient pitch lines background -->
+        <div class="absolute inset-0 pitch-lines opacity-20 pointer-events-none"></div>
+        <div class="relative z-10 max-w-3xl">
+          <span class="inline-block text-xs uppercase tracking-[0.3em] text-lime mb-6 font-medium">Dream League Soccer Community</span>
+          <h1 class="font-display text-6xl md:text-8xl text-ice leading-none mb-6">
+            WHERE<br/><span class="text-lime">LEGENDS</span><br/>CONNECT
+          </h1>
+          <p class="text-mist text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
+            Trade tactics, show off your squad, climb the global leaderboard, and talk DLS with thousands of managers worldwide.
+          </p>
+          <!-- Logged OUT: show Join + Leaderboards -->
+          <div id="home-guest-btns" class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button onclick="navigate('signup')" class="btn-lime text-base px-8 py-3">Join the Hub</button>
+            <button onclick="navigate('leaderboards')" class="nav-link hover:text-ice transition">Leaderboards</button>
+          </div>
+          <!-- Logged IN: show Go to Feed -->
+          <div id="home-auth-btns" class="hidden flex flex-col sm:flex-row gap-4 justify-center">
+            <button onclick="navigate('feed')" class="btn-lime text-base px-8 py-3">Go to Feed</button>
+            <button onclick="navigate('leaderboards')" class="nav-link hover:text-ice transition">Leaderboards</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats strip — only visible when logged in -->
+      <section id="home-stats-section" class="hidden border-y border-line bg-turf">
+        <div class="max-w-5xl mx-auto grid grid-cols-3 divide-x divide-line">
+          <div class="py-10 text-center">
+            <p id="stat-users" class="font-display text-4xl text-lime">—</p>
+            <p class="text-mist text-sm mt-1">Managers</p>
+          </div>
+          <div class="py-10 text-center">
+            <p id="stat-posts" class="font-display text-4xl text-lime">—</p>
+            <p class="text-mist text-sm mt-1">Posts</p>
+          </div>
+          <div class="py-10 text-center">
+            <p id="stat-msgs" class="font-display text-4xl text-lime">—</p>
+            <p class="text-mist text-sm mt-1">Messages</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature cards -->
+      <section class="max-w-5xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="feature-card" onclick="navigate('feed')">
+          <i data-lucide="layout-list" class="w-8 h-8 text-lime mb-4"></i>
+          <h3 class="font-display text-xl mb-2">Community Feed</h3>
+          <p class="text-mist text-sm">Post your squad, share tactics, and react to the community.</p>
+        </div>
+        <div class="feature-card" onclick="navigate('chat')">
+          <i data-lucide="message-circle" class="w-8 h-8 text-lime mb-4"></i>
+          <h3 class="font-display text-xl mb-2">Live Chat Room</h3>
+          <p class="text-mist text-sm">Real-time global chat with DLS managers around the world.</p>
+        </div>
+        <div class="feature-card" onclick="navigate('leaderboards')">
+          <i data-lucide="trophy" class="w-8 h-8 text-lime mb-4"></i>
+          <h3 class="font-display text-xl mb-2">Leaderboards</h3>
+          <p class="text-mist text-sm">See who's dominating the season and climb the ranks.</p>
+        </div>
+      </section>
+      <!-- Footer links -->
+      <div class="text-center py-8 border-t border-line">
+        <div class="flex items-center justify-center gap-4 text-mist text-sm">
+          <a href="#" onclick="navigate('terms')" class="hover:text-lime transition">Terms of Service</a>
+          <span>·</span>
+          <a href="#" onclick="navigate('privacy')" class="hover:text-lime transition">Privacy Policy</a>
+        </div>
+        <p class="text-mist text-xs mt-3 opacity-50">Created by <span class="text-lime">Randyblazedev</span> ⚽</p>
+      </div>
+    </div>
+
+    <!-- ── SIGNUP ── -->
+    <div id="page-signup" class="page-view hidden">
+      <div class="min-h-screen flex items-center justify-center px-4 py-20">
+        <div class="w-full max-w-md">
+          <div class="auth-card">
+            <h2 class="font-display text-4xl text-lime mb-1">Create Account</h2>
+            <p class="text-mist text-sm mb-8">Join the DLS Hub community</p>
+            <div id="signup-error" class="hidden mb-4 p-3 bg-coral/10 border border-coral/30 rounded-lg text-coral text-sm"></div>
+            <div class="space-y-4">
+              <div>
+                <label class="form-label">Username</label>
+                <input id="su-username" type="text" class="form-input" placeholder="e.g. GoalKing99" />
+              </div>
+              <div>
+                <label class="form-label">Email</label>
+                <input id="su-email" type="email" class="form-input" placeholder="you@example.com" />
+              </div>
+              <div>
+                <label class="form-label">Password</label>
+                <input id="su-password" type="password" class="form-input" placeholder="Min. 6 characters" />
+              </div>
+              <div>
+                <label class="form-label">Favourite DLS Team</label>
+                <input id="su-team" type="text" class="form-input" placeholder="e.g. FC Thunder" />
+              </div>
+              <button onclick="handleSignUp()" class="btn-lime w-full py-3 text-base mt-2">
+                Create Account
+              </button>
+            </div>
+            <p class="text-center text-mist text-sm mt-6">
+              Already have an account?
+              <button onclick="navigate('login')" class="text-lime hover:underline ml-1">Log In</button>
+            </p>
+            <div class="flex items-center justify-center gap-4 text-mist text-xs mt-4 opacity-50">
+              <a href="#" onclick="navigate('terms')" class="hover:text-ice transition">Terms of Service</a>
+              <span>·</span>
+              <a href="#" onclick="navigate('privacy')" class="hover:text-ice transition">Privacy Policy</a>
+            </div>
+            <p class="text-center text-mist text-xs mt-2 opacity-50">Created by <span class="text-lime">Randyblazedev</span> ⚽</p>
+            <div class="relative my-5">
+              <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t border-line"></div>
+              </div>
+              <div class="relative flex justify-center">
+                <span class="bg-turf px-3 text-xs text-mist">OR</span>
+              </div>
+            </div>
+
+            <button onclick="signInWithGoogle()" class="w-full flex items-center justify-center gap-3 border border-line rounded-xl py-3 hover:border-lime transition">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-5 h-5">
+                <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12S17.4 12 24 12c3 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.3-.4-3.5z"/>
+                <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 18.9 12 24 12c3 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.1 29.3 4 24 4c-7.7 0-14.4 4.3-17.7 10.7z"/>
+                <path fill="#4CAF50" d="M24 44c5.2 0 10-2 13.5-5.2l-6.2-5.2C29.3 35.1 26.8 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.5 5C9.5 39.5 16.2 44 24 44z"/>
+                <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-1.1 3.1-3.4 5.5-6.2 6.9l6.2 5.2C39.8 36.4 44 30.8 44 24c0-1.3-.1-2.3-.4-3.5z"/>
+              </svg>
+              <span>Continue with Google</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LOGIN ── -->
+    <div id="page-login" class="page-view hidden">
+      <div class="min-h-screen flex items-center justify-center px-4 py-20">
+        <div class="w-full max-w-md">
+          <div class="auth-card">
+            <h2 class="font-display text-4xl text-lime mb-1">Welcome Back</h2>
+            <p class="text-mist text-sm mb-8">Log in to your DLS Hub account</p>
+            <div id="login-error" class="hidden mb-4 p-3 bg-coral/10 border border-coral/30 rounded-lg text-coral text-sm"></div>
+            <div class="space-y-4">
+              <div>
+                <label class="form-label">Email</label>
+                <input id="li-email" type="email" class="form-input" placeholder="you@example.com" />
+              </div>
+              <div>
+                <label class="form-label">Password</label>
+                <input id="li-password" type="password" class="form-input" placeholder="Your password" />
+              </div>
+              <button onclick="handleLogin()" class="btn-lime w-full py-3 text-base mt-2">Log In</button>
+            </div>
+            <p class="text-center text-mist text-sm mt-6">
+              No account yet?
+              <button onclick="navigate('signup')" class="text-lime hover:underline ml-1">Sign Up</button>
+            </p>
+            <div class="flex items-center justify-center gap-4 text-mist text-xs mt-4 opacity-50">
+              <a href="#" onclick="navigate('terms')" class="hover:text-ice transition">Terms of Service</a>
+              <span>·</span>
+              <a href="#" onclick="navigate('privacy')" class="hover:text-ice transition">Privacy Policy</a>
+            </div>
+            <p class="text-center text-mist text-xs mt-2 opacity-50">Created by <span class="text-lime">Randyblazedev</span> ⚽</p>
+            <div class="relative my-5">
+              <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t border-line"></div>
+              </div>
+              <div class="relative flex justify-center">
+                <span class="bg-turf px-3 text-xs text-mist">OR</span>
+              </div>
+            </div>
+
+            <button onclick="signInWithGoogle()" class="w-full flex items-center justify-center gap-3 border border-line rounded-xl py-3 hover:border-lime transition">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-5 h-5">
+                <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.6 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12S17.4 12 24 12c3 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.3-.4-3.5z"/>
+                <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 18.9 12 24 12c3 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.1 29.3 4 24 4c-7.7 0-14.4 4.3-17.7 10.7z"/>
+                <path fill="#4CAF50" d="M24 44c5.2 0 10-2 13.5-5.2l-6.2-5.2C29.3 35.1 26.8 36 24 36c-5.2 0-9.6-3.3-11.2-8l-6.5 5C9.5 39.5 16.2 44 24 44z"/>
+                <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-1.1 3.1-3.4 5.5-6.2 6.9l6.2 5.2C39.8 36.4 44 30.8 44 24c0-1.3-.1-2.3-.4-3.5z"/>
+              </svg>
+              <span>Continue with Google</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PROFILE ── -->
+    <div id="page-profile" class="page-view hidden">
+      <div class="max-w-3xl mx-auto px-4 py-24">
+        <!-- Profile header -->
+        <div class="bg-turf border border-line rounded-2xl p-6 mb-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
+          <div class="relative group">
+            <img id="profile-avatar" src="" class="w-24 h-24 rounded-full ring-4 ring-lime/40 object-cover" />
+            <label for="avatar-upload" class="absolute inset-0 flex items-center justify-center bg-pitch/60 rounded-full opacity-100 md:opacity-0 md:group-hover:opacity-100 cursor-pointer transition">
+              <i data-lucide="camera" class="w-6 h-6 text-lime"></i>
+            </label>
+            <input id="avatar-upload" type="file" accept="image/*" class="hidden" onchange="handleAvatarUpload(event)" />
+          </div>
+          <div class="flex-1 text-center sm:text-left">
+            <h2 id="profile-username" class="font-display text-3xl text-lime"></h2>
+            <p id="profile-email" class="text-mist text-sm mb-2"></p>
+            <p id="profile-team" class="text-ice text-sm"></p>
+            <p id="profile-points" class="text-lime text-sm font-medium"><i data-lucide="coins" class="w-4 h-4 inline mr-1"></i><span id="profile-points-amount">0</span> points</p>
+            <p id="profile-lastseen" class="text-xs text-mist mt-1"></p>
+          </div>
+          <button onclick="toggleEditProfile()" class="btn-ghost text-sm px-4 py-2">Edit Profile</button>
+        </div>
+
+        <!-- Edit profile form (hidden by default) -->
+        <div id="edit-profile-form" class="hidden bg-turf border border-line rounded-2xl p-6 mb-6">
+          <h3 class="font-display text-xl text-lime mb-4">Edit Profile</h3>
+          <div class="space-y-4">
+            <div>
+              <label class="form-label">Username</label>
+              <input id="edit-username" type="text" class="form-input" />
+            </div>
+            <div>
+              <label class="form-label">Favourite Team</label>
+              <input id="edit-team" type="text" class="form-input" />
+            </div>
+            <div>
+              <label class="form-label">Bio</label>
+              <textarea id="edit-bio" class="form-input" rows="3" placeholder="Tell the community about yourself..."></textarea>
+            </div>
+            <button onclick="saveProfile()" class="btn-lime px-6 py-2">Save Changes</button>
+          </div>
+        </div>
+
+        <!-- User's posts -->
+        <div>
+          <h3 class="font-display text-2xl text-lime mb-4">My Posts</h3>
+          <div id="profile-posts" class="space-y-4">
+            <p class="text-mist text-sm">No posts yet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── COMMUNITY FEED ── -->
+    <div id="page-feed" class="page-view hidden">
+      <div class="max-w-2xl mx-auto px-4 py-20">
+        <h1 class="font-display text-4xl text-lime mb-6">Community Feed</h1>
+
+        <!-- New post composer -->
+        <div class="bg-turf border border-line rounded-2xl p-4 mb-8">
+          <textarea id="post-content" class="w-full bg-transparent text-ice text-sm resize-none outline-none placeholder-mist" rows="3" placeholder="Share your tactics, squad, or thoughts..."></textarea>
+          <div id="post-image-preview" class="hidden mt-2 relative">
+            <img id="post-preview-img" class="max-h-48 rounded-lg object-cover" />
+            <button onclick="removePostImage()" class="absolute top-2 right-2 bg-coral text-white rounded-full w-6 h-6 flex items-center justify-center text-xs">✕</button>
+          </div>
+          <div class="flex items-center justify-between mt-3">
+            <label class="cursor-pointer text-mist hover:text-lime transition flex items-center gap-2 text-sm">
+              <i data-lucide="image" class="w-4 h-4"></i>
+              <span>Photo</span>
+              <input id="post-image-input" type="file" accept="image/*" class="hidden" onchange="previewPostImage(event)" />
+            </label>
+            <button onclick="submitPost()" class="btn-lime text-sm px-5 py-2">Post</button>
+          </div>
+        </div>
+
+        <!-- Feed posts -->
+        <div id="feed-posts" class="space-y-5">
+          <div class="text-center text-mist py-12">
+            <i data-lucide="loader" class="w-6 h-6 mx-auto animate-spin mb-2"></i>
+            Loading feed...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── COMMUNITY CHAT ── -->
+    <div id="page-chat" class="page-view hidden">
+      <div class="chat-container max-w-3xl mx-auto px-4 pt-20 pb-4 flex flex-col">
+        <div class="flex items-center justify-between mb-4">
+        <h1 class="font-display text-4xl text-lime">Community Chat</h1>
+      </div>
+        <div id="chat-messages" class="flex-1 overflow-y-auto space-y-3 mb-4 pr-1 min-h-0">
+          <div class="text-center text-mist py-12">
+            <i data-lucide="loader" class="w-6 h-6 mx-auto animate-spin mb-2"></i>
+            Loading chat...
+          </div>
+        </div>
+        <div id="chat-image-preview" class="hidden mb-2 relative inline-block">
+          <img id="chat-preview-img" class="max-h-32 rounded-lg object-cover" />
+          <button onclick="removeChatImage()" class="absolute top-1 right-1 bg-coral text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">✕</button>
+        </div>
+        <div id="chat-reply-preview" class="hidden mb-2 bg-turf border border-line border-l-2 border-l-lime rounded-lg px-3 py-2 flex items-start justify-between gap-2">
+          <div class="min-w-0">
+            <p class="text-lime text-xs font-medium">Replying to <span id="chat-reply-author"></span></p>
+            <p id="chat-reply-text" class="text-mist text-xs truncate"></p>
+          </div>
+          <button onclick="cancelChatReply()" class="text-mist hover:text-coral text-xs shrink-0">✕</button>
+        </div>
+        <div class="flex gap-2 mt-auto items-end">
+          <label class="cursor-pointer text-mist hover:text-lime transition flex items-center justify-center w-10 h-10 rounded-xl bg-turf border border-line shrink-0">
+            <i data-lucide="image" class="w-4 h-4"></i>
+            <input id="chat-image-input" type="file" accept="image/*" class="hidden" onchange="previewChatImage(event)" />
+          </label>
+          <input id="chat-input" type="text" class="form-input flex-1" placeholder="Type a message..." onkeydown="if(event.key==='Enter')sendChatMessage()" onfocus="setTimeout(()=>this.scrollIntoView({behavior:'smooth',block:'nearest'}),300)" />
+          <button id="chat-send-btn" onclick="sendChatMessage()" class="btn-lime px-5 py-2">
+            <i data-lucide="send" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── DIRECT MESSAGES ── -->
+    <div id="page-dm" class="page-view hidden">
+   <div class="max-w-7xl mx-auto px-3 md:px-4 py-4 md:py-8">
+        <h1 class="font-display text-4xl text-lime mb-6">Messages</h1>
+        <div class="flex flex-col md:flex-row gap-4 bg-turf border border-line rounded-2xl overflow-hidden h-[calc(100vh-8rem)] md:h-[70vh] min-h-0">
+
+          <!-- Conversations list -->
+          <div class="w-full md:w-64 md:border-r border-b md:border-b-0 border-line flex flex-col shrink-0 max-h-[35vh] sm:max-h-[40vh] md:max-h-none">
+            <div class="p-4 border-b border-line">
+              <input id="dm-search" type="text" class="form-input text-sm py-2" placeholder="Search username..." onkeydown="if(event.key==='Enter')startDM()" />
+              <button onclick="startDM()" class="btn-lime w-full mt-2 py-1.5 text-sm">Open Chat</button>
+            </div>
+            <div id="dm-conversations" class="flex-1 overflow-y-auto divide-y divide-line text-sm">
+              <p class="p-4 text-mist">No conversations yet.</p>
+            </div>
+          </div>
+
+          <!-- Chat window -->
+          <div class="flex-1 flex flex-col min-h-0">
+            <div id="dm-header" class="p-4 border-b border-line font-display text-lg text-lime">
+              Select a conversation
+            </div>
+            <div id="dm-messages" class="flex-1 overflow-y-auto p-4 space-y-3 min-h-0">
+            </div>
+            <div id="dm-input-area" class="hidden p-4 border-t border-line">
+              <div id="dm-reply-preview" class="hidden mb-2 bg-turf border border-line border-l-2 border-l-lime rounded-lg px-3 py-2 flex items-start justify-between gap-2">
+                <div class="min-w-0">
+                  <p class="text-lime text-xs font-medium">Replying to <span id="dm-reply-author"></span></p>
+                  <p id="dm-reply-text" class="text-mist text-xs truncate"></p>
+                </div>
+                <button onclick="cancelDMReply()" class="text-mist hover:text-coral text-xs shrink-0">✕</button>
+              </div>
+              <div class="flex gap-3">
+                <input id="dm-input" type="text" class="form-input flex-1 text-base" placeholder="Type a message..." onkeydown="if(event.key==='Enter')sendDM()" onfocus="setTimeout(()=>this.scrollIntoView({behavior:'smooth',block:'nearest'}),300)" />
+                <button onclick="sendDM()" class="btn-lime px-4 py-2">
+                  <i data-lucide="send" class="w-4 h-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── LEADERBOARDS ── -->
+    <div id="page-leaderboards" class="page-view hidden">
+      <div class="max-w-4xl mx-auto px-4 py-20">
+        <h1 class="font-display text-4xl text-lime mb-2">Leaderboards</h1>
+        <p class="text-mist mb-8">Ranked by total post activity and community engagement</p>
+
+        <!-- Tabs -->
+        <div class="flex gap-2 mb-8">
+          <button onclick="switchLeaderboard('posts')"   id="tab-posts"   class="lb-tab lb-tab-active">Most Active</button>
+          <button onclick="switchLeaderboard('joined')"  id="tab-joined"  class="lb-tab">Newest Members</button>
+        </div>
+
+        <!-- Table -->
+        <div class="bg-turf border border-line rounded-2xl overflow-auto max-h-[60vh] md:max-h-[65vh] leaderboard-scroll">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-line text-mist text-left">
+                <th class="py-4 px-6 w-12">#</th>
+                <th class="py-4 px-6">Manager</th>
+                <th class="py-4 px-6">Team</th>
+                <th class="py-4 px-6 text-right" id="lb-score-header">Posts</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body">
+              <tr>
+                <td colspan="4" class="text-center py-12 text-mist">
+                  <i data-lucide="loader" class="w-5 h-5 mx-auto animate-spin mb-2"></i>
+                  Loading leaderboard...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PUBLIC PROFILE ── -->
+    <div id="page-profile-public" class="page-view hidden">
+      <div class="max-w-3xl mx-auto px-4 py-24">
+        <div class="bg-turf border border-line rounded-2xl p-6 mb-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
+          <img id="pub-avatar" src="" class="w-24 h-24 rounded-full ring-4 ring-lime/40 object-cover" />
+          <div class="flex-1 text-center sm:text-left">
+            <h2 id="pub-username" class="font-display text-3xl text-lime"></h2>
+            <p id="pub-team" class="text-ice text-sm mb-1"></p>
+            <p id="pub-bio" class="text-mist text-sm mb-2"></p>
+            <p id="pub-joined" class="text-mist text-xs"></p>
+            <p id="pub-lastseen" class="text-xs text-mist mt-1"></p>
+            <p id="pub-postcount" class="text-mist text-xs mt-1"></p>
+          </div>
+          <button id="pub-dm-btn" onclick="dmFromPublicProfile()" class="btn-ghost text-sm px-4 py-2">
+            <i data-lucide="mail" class="w-4 h-4"></i> DM
+          </button>
+        </div>
+        <div>
+          <h3 class="font-display text-2xl text-lime mb-4">Posts</h3>
+          <div id="pub-posts" class="space-y-4"><p class="text-mist text-sm">Loading...</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── SQUADS ── -->
+    <!-- ═══════ ADMIN ═══════ -->
+    <div id="page-admin" class="page-view hidden">
+      <div id="admin-content" class="max-w-3xl mx-auto px-4 py-20">
+        <h1 class="font-display text-4xl text-lime mb-2">Admin Panel</h1>
+        <p class="text-mist mb-6">Manage reports, content, and users</p>
+
+        <!-- Stats -->
+        <div id="admin-stats" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"></div>
+
+        <!-- Reports -->
+        <div class="mb-10">
+          <h3 class="font-display text-xl text-lime mb-4">📋 Reports</h3>
+          <div id="admin-reports" class="bg-turf border border-line rounded-2xl p-5">
+            <p class="text-mist text-sm">Loading reports...</p>
+          </div>
+        </div>
+
+        <!-- Posts -->
+        <div class="mb-10">
+          <h3 class="font-display text-xl text-lime mb-4">📝 All Posts</h3>
+          <div id="admin-posts" class="bg-turf border border-line rounded-2xl p-5 space-y-3 max-h-96 overflow-y-auto">
+            <p class="text-mist text-sm">Loading posts...</p>
+          </div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="mb-10">
+          <h3 class="font-display text-xl text-lime mb-4">💬 Recent Chat Messages</h3>
+          <div id="admin-messages" class="bg-turf border border-line rounded-2xl p-5 space-y-3 max-h-96 overflow-y-auto">
+            <p class="text-mist text-sm">Loading messages...</p>
+          </div>
+        </div>
+
+        <!-- Users -->
+        <div>
+          <h3 class="font-display text-xl text-lime mb-4">👥 Users</h3>
+          <div id="admin-users" class="bg-turf border border-line rounded-2xl p-5">
+            <p class="text-mist text-sm">Loading users...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ TOURNAMENTS LIST ═══════ -->
+    <div id="page-tournaments" class="page-view hidden">
+      <div class="max-w-4xl mx-auto px-4 py-20">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
+          <div class="min-w-0 flex-1">
+            <h1 class="font-display text-2xl sm:text-4xl text-lime">Tournaments</h1>
+            <p class="text-mist text-sm">Compete in DLS tournaments and prove you're the best</p>
+          </div>
+          <button onclick="openCreateTournamentModal()" class="btn-lime px-5 py-2.5 text-sm shrink-0">+ Create</button>
+        </div>
+
+        <!-- Filters -->
+        <div class="flex flex-wrap justify-center gap-2 mb-2">
+          <button onclick="switchTournamentFilter('all')" id="tfilter-all" class="tournament-filter tournament-filter-active">All</button>
+          <button onclick="switchTournamentFilter('registration')" id="tfilter-registration" class="tournament-filter">Open</button>
+          <button onclick="switchTournamentFilter('in_progress')" id="tfilter-in_progress" class="tournament-filter">In Progress</button>
+          <button onclick="switchTournamentFilter('completed')" id="tfilter-completed" class="tournament-filter">Completed</button>
+        </div>
+
+        <!-- Tournament list -->
+        <div id="tournament-list" class="space-y-4">
+          <div class="text-center text-mist py-12">
+            <i data-lucide="loader" class="w-6 h-6 mx-auto animate-spin mb-2"></i>
+            Loading tournaments...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ TOURNAMENT DETAIL ═══════ -->
+    <div id="page-tournament-detail" class="page-view hidden">
+      <div class="max-w-4xl mx-auto px-4 py-20">
+        <button onclick="navigate('tournaments')" class="flex items-center gap-2 text-mist hover:text-lime mb-4 transition text-sm">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Tournaments
+        </button>
+
+        <!-- Tournament header -->
+        <div id="td-header" class="bg-turf border border-line rounded-2xl p-6 mb-6">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <h2 id="td-name" class="font-display text-3xl text-lime"></h2>
+              <p id="td-game" class="text-mist text-sm mt-1"></p>
+              <p id="td-desc" class="text-ice text-sm mt-2"></p>
+            </div>
+            <div class="flex flex-col items-end gap-2">
+              <span id="td-status-badge" class="inline-block px-3 py-1 rounded-full text-xs font-medium"></span>
+              <p id="td-prize" class="text-lime font-display text-lg"></p>
+              <p id="td-fee" class="text-mist text-xs"></p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 mt-4 text-sm text-mist border-t border-line pt-4">
+            <span id="td-players-count"><i data-lucide="users" class="w-4 h-4 inline mr-1"></i> 0 players</span>
+            <span id="td-created-by"><i data-lucide="user" class="w-4 h-4 inline mr-1"></i> Created by <span class="text-ice"></span></span>
+          </div>
+          <!-- Action buttons -->
+          <div id="td-actions" class="flex flex-wrap justify-center gap-2 mt-4 pt-4 border-t border-line">
+            <button id="td-join-btn" onclick="joinTournament()" class="btn-lime px-5 py-2 text-sm">Join Tournament</button>
+            <button id="td-start-btn" onclick="startTournament()" class="btn-ghost px-5 py-2 text-sm hidden">Start Tournament</button>
+            <button id="td-delete-btn" onclick="deleteTournament()" class="bg-coral/10 text-coral border border-coral/30 px-5 py-2 rounded-xl text-sm font-medium hover:bg-coral/20 transition hidden">Delete Tournament</button>
+          </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="flex gap-2 mb-6 overflow-x-auto pb-2">
+          <button onclick="switchTDTab('bracket')" id="tdtab-bracket" class="td-tab td-tab-active">Bracket</button>
+          <button onclick="switchTDTab('standings')" id="tdtab-standings" class="td-tab">Standings</button>
+          <button onclick="switchTDTab('players')" id="tdtab-players" class="td-tab">Players</button>
+          <button onclick="switchTDTab('matches')" id="tdtab-matches" class="td-tab">Matches</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="td-content" class="bg-turf border border-line rounded-2xl p-6 min-h-[300px]">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ TERMS OF SERVICE ═══════ -->
+    <div id="page-terms" class="page-view hidden">
+      <div class="max-w-3xl mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-lime mb-6">Terms of Service</h1>
+        <div class="space-y-6 text-mist text-sm leading-relaxed">
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">1. Acceptance of Terms</h2>
+            <p>By accessing and using DLS Hub, you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">2. User Conduct</h2>
+            <p>You agree not to post harmful, abusive, or offensive content. Spam, hate speech, and harassment will result in account suspension. You are responsible for all content you post.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">3. Account Security</h2>
+            <p>You are responsible for maintaining the security of your account. Do not share your login credentials. Report any unauthorized access immediately.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">4. Content Ownership</h2>
+            <p>You retain ownership of content you create and post. By posting on DLS Hub, you grant us a non-exclusive license to display your content on the platform.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">5. Prohibited Activities</h2>
+            <p>No cheating, hacking, exploit sharing, or any activity that disrupts the DLS community. Impersonation of other users or DLS officials is strictly prohibited.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">6. Termination</h2>
+            <p>We reserve the right to suspend or terminate accounts that violate these terms. You may also delete your account at any time through your profile settings.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">7. Disclaimer</h2>
+            <p>DLS Hub is an independent community platform and is not affiliated with First Touch Games or Dream League Soccer. Use the platform at your own risk.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">8. Changes to Terms</h2>
+            <p>We may update these terms at any time. Continued use of the platform constitutes acceptance of the updated terms.</p>
+          </div>
+          <p class="text-mist text-xs">Last updated: June 2026</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ PRIVACY POLICY ═══════ -->
+    <div id="page-privacy" class="page-view hidden">
+      <div class="max-w-3xl mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold text-lime mb-6">Privacy Policy</h1>
+        <div class="space-y-6 text-mist text-sm leading-relaxed">
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">1. Information We Collect</h2>
+            <p>We collect your username, email address, team preference, and profile information when you create an account. We also collect content you post, messages you send, and usage data.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">2. How We Use Your Data</h2>
+            <p>Your data is used to provide and improve the DLS Hub experience. We use it to display your profile, enable community features, and send notifications about activity on your posts.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">3. Data Storage</h2>
+            <p>Your data is stored securely on Supabase servers. We use industry-standard encryption and security measures to protect your information.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">4. Data Sharing</h2>
+            <p>We do not sell or share your personal data with third parties. Your profile information is visible to other community members as intended by the platform features.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">5. Cookies & Local Storage</h2>
+            <p>We use local storage to maintain your login session. This data stays on your device and is not shared with third parties.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">6. Your Rights</h2>
+            <p>You can update your profile data, delete your account, and request removal of your content at any time. Contact us through the platform for data requests.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">7. Children's Privacy</h2>
+            <p>DLS Hub is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
+          </div>
+          <div>
+            <h2 class="text-ice font-semibold text-lg mb-2">8. Contact</h2>
+            <p>For privacy concerns, reach out through the DLS Hub community chat or DM the admin.</p>
+          </div>
+          <p class="text-mist text-xs">Last updated: June 2026</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <nav id="bottom-nav" class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-turf/95 backdrop-blur border-t border-line flex items-center justify-around py-1 px-1 safe-area-bottom">
+    <button onclick="navigate('home')" class="flex flex-col items-center gap-0.5 text-mist hover:text-lime transition">
+      <i data-lucide="home" class="w-5 h-5"></i>
+      <span class="text-[10px]">Home</span>
+    </button>
+    <button onclick="navigate('leaderboards')" class="flex flex-col items-center gap-0.5 text-mist hover:text-lime transition">
+      <i data-lucide="trophy" class="w-5 h-5"></i>
+      <span class="text-[10px]">Ranks</span>
+    </button>
+    <button onclick="navigate('tournaments')" class="flex flex-col items-center gap-0.5 text-mist hover:text-lime transition">
+      <i data-lucide="trophy" class="w-5 h-5"></i>
+      <span class="text-[10px]">Tourney</span>
+    </button>
+    <button onclick="document.getElementById('post-content')?.focus(); navigate('feed');" class="flex flex-col items-center gap-0.5 text-mist hover:text-lime transition">
+      <i data-lucide="plus" class="w-5 h-5"></i>
+      <span class="text-[10px]">Post</span>
+    </button>
+    <button onclick="navigate('chat')" class="flex flex-col items-center gap-0.5 text-mist hover:text-lime transition">
+      <i data-lucide="message-circle" class="w-5 h-5"></i>
+      <span class="text-[10px]">Chat</span>
+    </button>
+    <button onclick="navigate('profile')" class="flex flex-col items-center gap-0.5 text-mist hover:text-lime transition">
+      <i data-lucide="user" class="w-5 h-5"></i>
+      <span class="text-[10px]">Profile</span>
+    </button>
+  </nav>
+
+  <!-- Report Modal -->
+  <div id="report-modal" class="hidden fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    <div class="bg-turf border border-line rounded-2xl p-6 w-full max-w-sm mx-4 shadow-2xl">
+      <h3 class="font-display text-xl text-lime mb-4">Report Content</h3>
+      <p id="report-target-label" class="text-mist text-sm mb-4"></p>
+      <div class="space-y-2 mb-6">
+        <label class="flex items-center gap-3 p-3 rounded-xl border border-line cursor-pointer hover:border-lime/30 transition report-reason-label">
+          <input type="radio" name="report-reason" value="Spam" class="accent-yellow-400" /> <span class="text-ice text-sm">Spam</span>
+        </label>
+        <label class="flex items-center gap-3 p-3 rounded-xl border border-line cursor-pointer hover:border-lime/30 transition report-reason-label">
+          <input type="radio" name="report-reason" value="Harassment" class="accent-yellow-400" /> <span class="text-ice text-sm">Harassment</span>
+        </label>
+        <label class="flex items-center gap-3 p-3 rounded-xl border border-line cursor-pointer hover:border-lime/30 transition report-reason-label">
+          <input type="radio" name="report-reason" value="Inappropriate" class="accent-yellow-400" /> <span class="text-ice text-sm">Inappropriate</span>
+        </label>
+        <label class="flex items-center gap-3 p-3 rounded-xl border border-line cursor-pointer hover:border-lime/30 transition report-reason-label">
+          <input type="radio" name="report-reason" value="Other" class="accent-yellow-400" /> <span class="text-ice text-sm">Other</span>
+        </label>
+      </div>
+      <div class="flex gap-3 justify-center">
+        <button onclick="closeReportModal()" class="btn-ghost flex-1 py-2 text-sm">Cancel</button>
+        <button onclick="submitReport()" class="btn-lime flex-1 py-2 text-sm">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Create Tournament Modal -->
+  <div id="create-tournament-modal" class="hidden fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    <div class="bg-turf border border-line rounded-2xl p-6 w-full max-w-md mx-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="font-display text-xl text-lime">Create Tournament</h3>
+        <button onclick="closeCreateTournamentModal()" class="text-mist hover:text-ice"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+      <div id="ct-error" class="hidden mb-4 p-3 bg-coral/10 border border-coral/30 rounded-lg text-coral text-sm"></div>
+      <div class="space-y-4">
+        <div>
+          <label class="form-label">Tournament Name</label>
+          <input id="ct-name" type="text" class="form-input" placeholder="e.g. DLS Champions Cup" />
+        </div>
+        <div>
+          <label class="form-label">Description</label>
+          <textarea id="ct-desc" class="form-input" rows="3" placeholder="Tournament rules and info..."></textarea>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="form-label">Game</label>
+            <input id="ct-game" type="text" class="form-input" value="DLS 25" />
+          </div>
+          <div>
+            <label class="form-label">Max Players</label>
+            <select id="ct-max" class="form-input">
+              <option value="2">2</option>
+              <option value="4" selected>4</option>
+              <option value="8">8</option>
+              <option value="16">16</option>
+              <option value="32">32</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="form-label">Prize</label>
+          <input id="ct-prize" type="text" class="form-input" placeholder="e.g. Bragging rights, $50" />
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="form-label">Points Cost (entry)</label>
+            <input id="ct-fee" type="number" class="form-input" placeholder="0" min="0" step="1" />
+          </div>
+          <div>
+            <label class="form-label">Points Prize (winner)</label>
+            <input id="ct-points-prize" type="number" class="form-input" placeholder="0" min="0" step="1" />
+          </div>
+        </div>
+        <button onclick="handleCreateTournament()" class="btn-lime w-full py-3 text-base">Create Tournament</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Submit Result Modal -->
+  <div id="submit-result-modal" class="hidden fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    <div class="bg-turf border border-line rounded-2xl p-6 w-full max-w-sm mx-4 shadow-2xl">
+      <h3 class="font-display text-xl text-lime mb-4">Submit Match Result</h3>
+      <p id="sr-info" class="text-mist text-sm mb-4"></p>
+      <div class="space-y-4 mb-6">
+        <div>
+          <label id="sr-player1-label" class="form-label">Player 1 Score</label>
+          <input id="sr-score1" type="number" class="form-input" placeholder="0" min="0" />
+        </div>
+        <div>
+          <label id="sr-player2-label" class="form-label">Player 2 Score</label>
+          <input id="sr-score2" type="number" class="form-input" placeholder="0" min="0" />
+        </div>
+        <div>
+          <label class="form-label">Score Screenshot (required)</label>
+          <input id="sr-screenshot" type="file" accept="image/*" class="form-input" onchange="previewResultScreenshot(event)" />
+          <img id="sr-screenshot-preview" class="hidden mt-2 rounded-lg max-h-40 object-cover w-full" alt="Screenshot preview" />
+          <p class="text-mist text-xs mt-2">A screenshot of the final score is required. Your opponent must confirm the result before it counts.</p>
+        </div>
+      </div>
+      <div id="sr-error" class="hidden mb-4 p-3 bg-coral/10 border border-coral/30 rounded-lg text-coral text-sm"></div>
+      <div class="flex gap-3 justify-center">
+        <button onclick="closeSubmitResultModal()" class="btn-ghost flex-1 py-2 text-sm">Cancel</button>
+        <button onclick="handleSubmitResult()" class="btn-lime flex-1 py-2 text-sm">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Themed Confirm Modal -->
+  <div id="confirm-modal" class="hidden fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    <div class="bg-turf border border-line rounded-2xl p-6 max-w-sm w-full mx-4 shadow-2xl">
+      <p id="confirm-msg" class="text-ice text-sm mb-6"></p>
+      <div class="flex justify-end gap-3">
+        <button id="confirm-cancel" class="btn-ghost px-4 py-2 text-sm">Cancel</button>
+        <button id="confirm-ok" class="bg-coral text-white px-4 py-2 rounded-xl text-sm font-medium hover:opacity-80 transition">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="hidden fixed bottom-20 md:bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 z-[60] bg-turf border border-line rounded-xl px-5 py-3 text-sm shadow-2xl flex items-center gap-3 max-w-xs w-auto">
+    <i data-lucide="check-circle" id="toast-icon" class="w-4 h-4 text-lime"></i>
+    <span id="toast-msg"></span>
+  </div>
+
+  <!-- Supabase JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <!-- App scripts in order — plain scripts, no ES modules -->
+  <script src="public/js/supabase-config.js"></script>
+  <script src="public/js/app.js"></script>
+  <script src="public/js/features.js"></script>
+</body>
+</html>

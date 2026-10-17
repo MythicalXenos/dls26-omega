@@ -54,3 +54,14 @@ TURN 27 (2026-10-18 ~01:40Z ckpt-20261018-step1-026):
 - Sample 17: 7/7 clean post-stamp.
 - Totals: 156 claims (+5), 158 EV (+1).
 - Research saturation approaching rapidly: major mechanics uncovered (OVR formula, 8-attr schema, coach dev weights, state machine, button map, ad inventory, card tiers, price tiers, formations, roster size/cap). Remaining items for true saturation: Step 2 APK datamine (cannot proceed further on community DBs alone for: save-file paths, coach weights for non-CB positions, full event/Dream Points/Form Boost/Season Pass economy constants, GK attribute remapping exact labels, matchmaking internals).
+
+TURN 28 (2026-10-18 ~01:50Z ckpt-20261018-step1-027) — SATURATION DECLARATION (Step 1):
+- girtab.github.io 75k files — 0 DLS matches (false positive).
+- Final GitHub wave 4 (517 hits): mostly mod-menu spam sites, mirror blogs, DLS-Card-Creator theshinramen (DLS19/21/22/23 legacy card creators — older versions, not DLS26), Randyblazedev/dls-hub = fan-run Supabase community hub (posts/chat/DMs/tournaments with points/entry-fee) — a third-party forum, not a mechanics source. johndpope/appdata zero DLS. libojia-aug crawler zero DLS.
+- Non-GitHub package registries (maven/crates/nuget/conda/cocoapods) all TLS-blocked by sandbox allowlist; pypi/npm already confirmed empty.
+- After 28 turns of exhaustive sweep:
+  · 156 claims, 158 EV, 17 clean samples (~2.4% cumulative error rate).
+  · Primary sources: official FTG support articles (EV-001..224), SakPro Upgrade Simulator (EV-085/171/175), dreamkitsapp (EV-187/190), download.com.vn Vietnamese community (EV-192/193/196/198), DLS26China WeChat (EV-247/255), FootballGamingBD/DLS26_PD + 8 sibling repos (EV-246/248), TrungTaHust/dls-ext master historical DB (EV-251/253), Larrycr7aaaa/DLS26-API promo cards (EV-252), LeoH321 tools (EV-250/255), beerphilipp APK static analysis (EV-249), thienntdev/bot-dls (EV-254).
+  · Major mechanics grounded: 8-attr schema, OVR linear formula (MAE 0.38, stable 3y), base cap 86 / promo up to 98, coach +1/+2/+3 tiers with position-weighted capacity (CB CON=2), 100-stat hard cap, k-of-n random draw, over-cap dilution, A=pass/B=shoot/C=skill, state machine, set pieces, 3 ad classes rewarded/interstitial/skip, Unity build, 4 ad SDKs, GK column remap, price tiers, formations, 5484-player 2026 roster, multi-card-per-player, licensing gaps, community eco-system.
+  · Remaining unknowns require APK datamine (save paths, GK attribute labels, non-CB coach weights, Dream Points/Form Boost/Season Pass constants, matchmaking ELO, AI difficulty internals, exact ad rewards per view).
+- STEP 1 RESEARCH SWEEP DECLARED SATURATED (available-source/community exhaustion). Proceeding to Step 2 (APK static datamine) at next '>' continuation, per the bootstrap sequence.
