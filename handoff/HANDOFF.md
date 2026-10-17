@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T20:34Z (session sess-20261017-001, turn 8, checkpoint ckpt-20261017-step1-007)
+Updated: 2026-10-17T21:00Z (session sess-20261017-001, turn 9, checkpoint ckpt-20261017-step1-008)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -28,6 +28,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - That work was imported losslessly into this branch (kb/, knowledge_management/, logs/, revision_register.md, user_profile.md, issue_tracker.md, kb_snapshots/, raw_game_data/). Prior handoff, prompt, rules digest, capability inventory and schema are preserved under docs/continuity/22655f48/ for provenance.
 - No open PR existed (PRs #1–#5 all CLOSED). No second PR opened yet; one branch per session.
 - Prompt discrepancy: prior capture was 173,446 bytes labelled v78; this session's delivered prompt is 175,596 bytes labelled v78 (43 changed lines, ~31 added clauses). The current delivered text is authoritative for this session; discrepancy logged OBS-007.
+
+## Turn 9 result — numeric pass closed, checklist, negatives, Mechanism 3 walk
+- Numeric transcription pass completed across 62 EV-backed claims: 4 corrections, including one figure removed for having no witness (CLAIM-087 "~186 MB").
+- In-client checklist prepared (14 items, 3 tiers) as the future batched first-contact ask.
+- Negative-finding register consolidated: 8 entries, each with queries, version and reopening condition; the weakest one is labelled as a failure-to-find.
+- Mechanism 3 walk done: English community is the epoch's largest coverage deficit (snippet-level); technical depth is prohibited rather than unfound; no exhaustion declared.
 
 ## Turn 8 result — Step-2 collision, epoch draft, spot-check, storage
 - **OBS-013 (first-contact decision):** the prompt's Step 2 requires APK decompilation; the verified EULA and sanction policy prohibit it and make it bannable. Precedence rung 2 resolves the collision in favour of not decompiling. Nothing was downloaded or decompiled. PROPOSED amendment written (not adopted). Step 2 is user-decision-blocked.

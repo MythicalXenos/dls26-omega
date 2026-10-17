@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T20:33Z",
+  "updated_at": "2026-10-17T20:46Z",
   "items": [
     {
       "id": "RQ-20261017-001",
@@ -129,10 +129,12 @@
       "id": "RQ-20261017-015",
       "topic": "Complete the numeric transcription spot-check on the remaining 53 claims (claim number vs cited EV record)",
       "tier": "queue-High",
-      "status": "open",
+      "status": "completed",
       "added": "2026-10-17T20:26Z",
       "source": "audit/TRANSCRIPTION_SPOTCHECK_turn8.md",
-      "note": "Two defects in the first 10 sampled; do not assume the rest are clean."
+      "note": "Two defects in the first 10 sampled; do not assume the rest are clean.",
+      "completed_at": "2026-10-17T20:45Z",
+      "progress": "All 62 numeric claims checked; 4 corrections (CLAIM-004 evidence, CLAIM-007 evidence, CLAIM-053 three-way language count, CLAIM-087 unwitnessed size removed). Audit updated."
     },
     {
       "id": "RQ-20261017-016",

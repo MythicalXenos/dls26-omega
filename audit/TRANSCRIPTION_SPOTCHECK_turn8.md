@@ -22,3 +22,21 @@ EV-114 states that player cards show "maximum potential (+10 OVR upgrades)". Tha
 - It proves that, for these ten claims, the number and the cited record agree — after two corrections — which is the specific failure the check was designed to catch (a figure drifting away from its source when a corpus is imported across branches).
 - It does **not** prove that the cited record itself is correct, that the record was fully extracted, or that the claim's interpretation is sound. Those are the Skeptic's and the Devil's Advocate's questions, and both ran in earlier turns.
 - Two corrections out of ten sampled claims (one evidence mis-attribution, one missing witness) is a high enough rate that the remaining 53 numeric claims should get the same pass rather than being assumed clean. Queued as RQ-20261017-015.
+
+## Turn 9 — completion of the pass over all numeric claims
+Method: automated witness test over every claim that cites a preserved EV record and contains a numeric token (62 claims after excluding claim-ID and evidence-ID fragments, years and dates), then manual reading of every unmatched hit.
+
+| Claim | Unmatched number | Verdict |
+| --- | --- | --- |
+| CLAIM-004 | 10+ cups; 15 matches | **fixed** — "10+ cup competitions" is official store text in EV-103/EV-181 (added); "15 matches/season" is VI community text in EV-196 (added). A challenge now records that the two parts do not share a tier. |
+| CLAIM-007 | 86 OVR | **fixed** — the 86 ceiling is in the PT guides EV-186/189/190 (added); the 14,000+ figure is EV-114 (added in turn 8). |
+| CLAIM-053 | 15 languages | **fixed** — EV-185 states 15; EV-181 states 14; the APK metadata says 24. All three are now recorded, and the claim carries the three-way discrepancy as a challenge (conflicts C-001). |
+| CLAIM-087 | 186 MB | **removed** — no preserved record witnesses that size. The figure is deleted from the proposition rather than re-attributed. |
+| CLAIM-087 | 13.350 | no action — the number appears in a cross-claim reconciliation sentence referring to CLAIM-054/EV-177, not as this claim's own datum. |
+| CLAIM-005 | 0.5 | no action — the witness is the imported research note `research/turn1_discovery.md` (line 84), added to that claim in turn 8; EV-103/EV-171 carry the qualitative complaint. |
+| CLAIM-008, CLAIM-050, CLAIM-100 | fragments ("09", "002", "196", article IDs) | no action — ID/date fragments, or article IDs that legitimately cannot appear in a 404 record (CLAIM-100 cites the failure record EVD-0005). |
+
+### Result
+- 4 real corrections across 62 numeric claims (6.5%). Three were missing-witness errors and one was an unwitnessed figure.
+- The pattern is consistent: numbers were right, but their witness lists were incomplete — which is exactly the failure mode that survives a merge undetected, and exactly why this pass was queued rather than assumed.
+- The pass is now **complete** for claims citing preserved EV records. Claims resting on inherited summaries (no EV) cannot be tested this way; their witness is the summary itself and they carry that limitation in their origin history.
