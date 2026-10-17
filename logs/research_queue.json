@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T18:36Z",
+  "updated_at": "2026-10-17T19:31Z",
   "items": [
     {
       "id": "RQ-20261017-001",
@@ -108,6 +108,22 @@
       "status": "open",
       "added": "2026-10-17T18:33Z",
       "source": "EVIDENCE CONFLICT turn 5"
+    },
+    {
+      "id": "RQ-20261017-013",
+      "topic": "Reconcile all three unmerged branches (22655f48, a7e23a6b, b5d5681d) before any completeness claim; build a single provenance map of which claims/evidence came from which branch checkpoint",
+      "tier": "queue-High",
+      "status": "open",
+      "added": "2026-10-17T19:30Z",
+      "source": "OBS-012"
+    },
+    {
+      "id": "RQ-20261017-014",
+      "topic": "Settle conflicts C-001…C-005 (languages, leaderboard cadence, release payout, iCloud toggle, DLL weekly wording) with a capture or datamined check",
+      "tier": "queue-High",
+      "status": "blocked-access-boundary",
+      "added": "2026-10-17T19:30Z",
+      "source": "logs/conflicts.md"
     }
   ]
 }

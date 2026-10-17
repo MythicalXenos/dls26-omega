@@ -73,7 +73,7 @@ Legend: **[C]** Confirmed (official text) · **[H]** High Confidence · **[CC]**
 | Technical envelope | CLAIM-094 **[H]** | APK listing data. |
 
 ## What this map says about readiness
-- **Strong enough to plan around:** controls that exist (auto switch, skill swipes, graphics), the official stat model, the difficulty/fairness model, the economy's source list, the progression structure, the destructive-surface map, the sanction policy.
+- **Strong enough to plan around (corrected after the Devil's Advocate pass):** three specific documented controls (Auto Switch, skill swipes, graphics path) — not "the controls layer"; the official stat model **as semantics only** (magnitudes unverified, article ~4 years old); the difficulty/fairness model; the economy's **source list** (not its rates); the progression **structure** (not thresholds); the destructive surfaces **plus** the release/Recover window (CLAIM-114) and the profile-unlink risk; the sanction policy.
 - **Not strong enough to advise on:** formations and role demands, set pieces, stamina management, exact costs and XP thresholds, any ROI on coaching, and any current card list.
 - **The single most valuable missing artifact** is a controls/settings inventory (camera, assist, control layout), because every execution recommendation depends on it and nothing in the KB covers it.
 - No Step-5 advice can be more precise than these tiers; the map exists so that Step 4 wires each future recommendation to what actually backs it.

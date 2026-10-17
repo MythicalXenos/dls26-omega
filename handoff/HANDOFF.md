@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T18:38Z (session sess-20261017-001, turn 5, checkpoint ckpt-20261017-step1-004)
+Updated: 2026-10-17T19:32Z (session sess-20261017-001, turn 6, checkpoint ckpt-20261017-step1-005)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -28,6 +28,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - That work was imported losslessly into this branch (kb/, knowledge_management/, logs/, revision_register.md, user_profile.md, issue_tracker.md, kb_snapshots/, raw_game_data/). Prior handoff, prompt, rules digest, capability inventory and schema are preserved under docs/continuity/22655f48/ for provenance.
 - No open PR existed (PRs #1–#5 all CLOSED). No second PR opened yet; one branch per session.
 - Prompt discrepancy: prior capture was 173,446 bytes labelled v78; this session's delivered prompt is 175,596 bytes labelled v78 (43 changed lines, ~31 added clauses). The current delivered text is authoritative for this session; discrepancy logged OBS-007.
+
+## Turn 6 result — parallel-branch delta, dispositions, Devil's Advocate
+- OBS-012: branch 22655f48 had advanced to a78595c; its turn-5 block (GS-024…030, L-008, IRREV-002) was imported as CLAIM-113…118 and merged into the derived views. Three unmerged branches now exist; reconciliation queued (RQ-013).
+- 15 UNVISITED refs dispositioned: 6 alias duplicates closed, 1 administrative, 1 scope-excluded, 7 still owed under access boundary (step1_epochs/UNVISITED_DISPOSITIONS.md).
+- Devil's Advocate pass corrected three readiness overstatements in the topic map and the closure tone; one of this turn's own claims was demoted. Ledger: audit/DEVILS_ADVOCATE_step1_turn6.md.
+- logs/conflicts.md consolidates five open and three resolved conflicts with the test that would settle each.
+- Claims now 117.
 
 ## Turn 5 result — Skeptic pass and topic map
 - Mechanism 2 pass over the 22 promoted claims found two provenance-mixing errors (official list carrying community numbers, multi-source finding carrying a single-thread number). Both corrected by splitting; five challenges recorded; nothing promoted. Ledger: audit/SKEPTIC_PASS_step1_turn5.md.

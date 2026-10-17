@@ -6,7 +6,7 @@ Updated 2026-10-17T17:30Z (session sess-20261017-001). Authority: OMEGA-CLOSURE-
 - Snapshot cut: 2026-10-17T16:45Z (this session's start). Later discoveries join next-epoch debt.
 
 ## Condition 1 — coverage of the accounted frontier
-**NOT MET.** Accounted refs and their disposition (from `COVERAGE_ACCOUNTING_PRESEAL.md`, t69): 157 refs — 87 VISITED / 23 IN_PROGRESS / 16 UNVISITED / 9 RETRYABLE_FAILURE / 20 NON_CONNECTED / 1 ACCESS_BOUNDARY / 1 REPRESENTATION_DUPLICATE.
+**NOT MET — but close in volume, blocked in access** (Devil's Advocate correction, turn 6): of 157 accounted refs, the Unvisited disposition pass closes 8 and leaves 7 owed; 6 are closed as alias duplicates of captured articles. The blocker is reachability, not the size of the remaining backlog. Accounted refs and their disposition (from `COVERAGE_ACCOUNTING_PRESEAL.md`, t69): 157 refs — 87 VISITED / 23 IN_PROGRESS / 16 UNVISITED / 9 RETRYABLE_FAILURE / 20 NON_CONNECTED / 1 ACCESS_BOUNDARY / 1 REPRESENTATION_DUPLICATE.
 - This environment cannot reach any non-allowlisted research host (S-055..058); every such target is an ACCESS_BOUNDARY with a named reopening predicate, not a closure.
 - New article-level reconciliation (`ARTICLE_COVERAGE.md`) shows 26/30 section-listed support articles captured across both corpora and 3 genuinely uncaptured bodies (#19, #26, #27), plus 1 retryable update-troubleshooting slug. That narrows the support debt but does not close it.
 - Untouched required dimensions remain: true non-English forums, technical/decompilation layer, unvisited UGC, reddit family.
