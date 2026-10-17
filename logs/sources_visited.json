@@ -2,89 +2,700 @@
   "schema_version": 1,
   "registry_note": "OMEGA-FRONTIER-001 source log. Turn-2/3 entries use turn-window timestamps (per-call clock not captured — deviation recorded in main log).",
   "entries": [
-    {"id": "S-20261017-001", "url_or_query": "web_search: Dream League Soccer 2026 First Touch Games current version", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "App Store (13.430 Sep 16), Google Play (updated Sep 14), APKMirror 13.410/13.420/13.430, APKPure, AppBrain, AppGlint, dlsinside (13430/code 160), cafebazaar.ir, es.wikipedia (launch Dec 1 2025; banner Alverez+Raphinha), fifaworldcupnews, thesoccerera, appmagic 14.8M ratings/4.5", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-002", "url_or_query": "web_search: Dream League Soccer 2026 update release notes", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "fifaworldcupnews (Sept update; Summer Spotlight July claim - corrected B-006), dlskits.mobi update summaries, thesoccerera launch features, APKMirror 13.100 Winter Reload notes, YouTube event video, App Store version-history snippet", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-003", "url_or_query": "web_search: Dream League Soccer 2026 reddit", "tool": "discovery-search", "status": "success", "source_family": "community-english", "payload_summary": "r/DreamLeagueSoccer: community review (Dec 10 2025), midseason megathread (Feb 26 2026), Next-Gen complaints (Dec 4), full review (Dec 8), World Cup 2026 rewards thread (Jun 15: +1 group win, +2 R32/R16/QF/SF, 96 OVR final winner), 'garbage' (Dec 7), 'huge mess' (Dec 24), best new feature (Nov 30), Tier-1 world record (Feb 8: 16 days, 12 games, 110W-10L-1D, 145,296 XP)", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-004", "url_or_query": "web_search (Turkish): Dream League Soccer 2026 gunceleme surum", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "cepde.net (TR), App Store tr listing, APKMirror, APKPure, AppBrain, cafebazaar.ir, mokoweb (mod - screened), softonic", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-005", "url_or_query": "web_search: Dream League Live mode Dream League Soccer", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "FTG support matchmaking article (official), gamingonphone friend guide (DLL unlocks after career matches), liteapks, modyolo (mod - screened), gizmodo (generic), vi.wikipedia (RELEASE PLAYER mechanics), Play Store listing", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-006", "url_or_query": "web_search: Dream League Soccer 2026 best formation meta guide 2026", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "sportsdunia top-5 (4-4-2 first), reddit meta thread, ggbro (4-2-3-1 'fails gracefully'; stamina>formation; width-before-shape), YouTube 4-4-2/4-3-3 videos, gamingonphone (default 4-4-2 and 4-1-2-1-2), playdreamleaguesoccer (unreliable), ezarena + fm26tactics (NON_CONNECTED: FC26/FM26)", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-007", "url_or_query": "web_search: First Touch Games Dream League Soccer 2026 news update October 2026", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "x.com/firsttouchgames official (pinned support pointer), fifaworldcupnews, thesoccerera, dlskits.mobi, soft112 version history, egw.news launch teaser details (redesigned stadium, new camera operator, new commentary languages, dark pink/blue UI, new volley skill move), bluestacks", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-008", "url_or_query": "web_search: DLS 26 OVR overall rating XI lineup meaning", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "sakibpro squad builder (Team OVR = mean of base-or-maxed Overall Ratings of 11 placed players), sportsdunia best teams, thesoccerera ratings table (Dembele/Mbappe/Kane/Haaland 86), dlsmod top-7-per-position, reddit Arsenal rating thread (launch ratings + deltas), gamingonphone (50-60 OVR start), reddit ratings theory (trained = base+1)", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-009", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "DLL matchmaking: LIVE Tier ranking, location, availability pool; usually same-Tier opponents; no overlaid difficulty controls; outcomes governed by individual skill (tactics, gameplay choices, team strength)", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-010", "url_or_query": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 (chunk 0)", "tool": "page-render", "status": "success (HTTP 200, chunk 0 of 6)", "source_family": "official-store", "payload_summary": "Official description: 4,000+ FIFPRO players, 8 divisions, 10+ cups, facilities (Stadium/Medical/Commercial/Training), Clans, Agents and Scouts, Coaches, kit/logo import, Dream League Live, daily scenarios, Dream Draft; 'Legendary Division'; manager customisation; 733K ratings 4.6; size 269.6 MB", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-011", "url_or_query": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 (chunk 1)", "tool": "page-render", "status": "success (HTTP 200, chunk 1 of 6)", "source_family": "official-store", "payload_summary": "User reviews: career cup names Bronze/Silver/Gold/Diamond Cup; pay-to-win and shooting-inconsistency complaints; pressure button misses; 30-second pause in live events; customization praised", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-012", "url_or_query": "https://dlsinside.com/players", "tool": "page-render", "status": "success (HTTP 200, PARTIAL capture)", "source_family": "third-party-database", "payload_summary": "Client-rendered player database; only position filters captured (10, RM, 7, LM, AM, CF, CM, CB). Player rows not extractable this turn - access boundary recorded; site tracks Version 13430 / Code 160 per search snippet", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-013", "url_or_query": "https://support.ftgames.com/hc/en-us", "tool": "page-render", "status": "success (HTTP 200)", "source_family": "official-support", "payload_summary": "Portal section inventory: Dream League Soccer FAQs (203117809), Score Hero FAQs, Ultimate Draft Soccer (newer FTG title), Score Match FAQs", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-014", "url_or_query": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Canonical 30-article DLS FAQ inventory with article IDs (see kb/source-families.md S-001)", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-015", "url_or_query": "web_search: DLS 26 Play Fest event October 2026", "tool": "discovery-search", "status": "success (NEGATIVE FINDING)", "source_family": "mixed", "payload_summary": "Play Fest (Oct 13-19, 2026) is a Google Play store-wide promotion (Play Points boosts, sweepstakes) per Google's editorial page + two coverage sources; the banner on the DLS listing is a store promotion, NOT DLS content. See kb/live-state.md L-004", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-016", "url_or_query": "web_search: firsttouchgames.com Dream League Soccer 2026 news", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "x.com/firsttouchgames official (pinned: 'For all support and queries: support.ftgames.com'); Play Store en-AU listing banner 'Ends on 10/14'; AppBrain review snippet", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-017", "url_or_query": "web_search: Dream League Soccer 2026 Dynamic Stars event OVR upgrade schedule", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "sportsdunia full schedule (Jun 8-Jul 20; base 82 OVR; +1 group win, +2 per round, 96 final winner; Dynamic Agents; Season 1/2 passes; player list), YouTube event videos (May 22, Jun 9, Jun 19, Jul 21 World Cup Winners), player.gg, App Store gh ('LIVE EVENT Dynamic Stars'), Google Play en-SG Summer Spotlight notes, TikTok discover ('World Cup Heroes'), FTG official TikTok confirms mechanic + Jun 8 start", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-018", "url_or_query": "web_search: Dream League Soccer 2026 version 13.300-13.340 update May June 2026", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "APKMirror version list: 13.300 May 27 (code 149), 13.310 May 29 (code 150), 13.320 Jun 8, 13.330 Jun 10, 13.340 Jun 22 (code 153); App Store version history attaches Summer Spotlight notes to 13.300-13.340 - resolves B-006 conflict", "retrieved_at": "2026-10-17T09:45Z"},
-    {"id": "S-20261017-019", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay", "tool": "page-render", "status": "success (HTTP 200, full text, chunk 0 of 4)", "source_family": "official-support", "payload_summary": "Official stat semantics: SPE (top speed; falls with ENERGY; dribbling loss inversely proportional to CON), ACC, STA (depletion rate + half-time boost; position-dependent), CON (dribble speed loss, kick-after-touch speed, touch proximity, skill kicks/controls/shots/moves), STR (collision impact, stumble duration), TAC (tackle success; standing/sliding distances), PAS (all pass accuracy), SHO (accuracy, 'assist' away from keeper, shot height, skill shots with CON, special kicks/headers, free-kick spin), GKH (catch vs deflect, claiming crosses, stability in contact), GKR (reaction time, save chance vs shot speed/distance, anticipate saves), ENERGY (fatigue; below threshold all stats gradually reduce). FTG framing: game not a simulation; unpredictability inherent", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-020", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/23108987826962-What-is-the-Prize-Ladder", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Prize Ladder awards items on progression (like Season Pass): coins, gems, coaches, Dream Point Boosts, special players, more. Dream Points given in matches; more earned = more rewards unlocked. Dream Point Boosts purchasable within the Prize Ladder", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-021", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Season Pass (from v12.200+): FREE and SEASON PASS tiers; Progress Bank pays currency from DLL XP at season end; gold profile elements; not a subscription, repurchased each season; Season Points from matches (amount varies by mode); mid-season purchase unlocks already-reached premium tiers; tier locks correspond to days; premium removes all tier locks", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-022", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/30839289076626-What-are-Clans", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Clan rules: one clan at a time; single leader (succession; empty clan disappears); entry requirements (hidden from search unless met; invite codes work); Clan Points from matches, challenges, season passes; FTG may remove players/clans breaching Terms of Use; disputes not mediated", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-023", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Single-player difficulty starts easy and scales with division movement (up and down); base difficulty Medium/Hard option since DLS25. DLL: always real users, NO bots, NO difficulty control, NO manipulation of any in-game situation including teammate AI, NO influencing of outcomes. Fair-gaming commitment: ftgames.com/core-principles", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-024", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Dream Point Boosts: purchased within the Prize Ladder; temporarily increase Dream Points per match; apply to career, dream draft, scenario and DLL matches ONLY (not exhibition/friend); unusable when the Prize Ladder is complete/inactive; unused boosts carry to the next ladder; live-service subject to change", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-025", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Four recruitment routes: Transfers (new players appear each in-game week = after playing a single-player match), Scouts (selection at discounted rate), Agents (immediately add a player), Prize Ladder (special rare players on criteria)", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-026", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Gems from: league objectives, tournaments, Season Pass, Prize Ladder, Multiplayer (Dream League Live); quantity varies by circumstance; purchasable in shop", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-027", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "FTG provides no release schedules or planned-activity indications; official news via TikTok @dreamleaguesoccer.ftg, Instagram playdls, Facebook dreamleaguesoccer", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-028", "url_or_query": "web_search: Cult Heroes DLS 26 special players released October 2026", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "Cult Heroes LIVE at build 13.430: dlsinside specials page lists 12 players (de Gea, Aubameyang, Dybala, Insigne, Ziyech, Alarcon, Vozinha, Otamendi, David Luiz, Blind, Shaqiri, Herrera); dlskiturl ratings 83-85 and Cult Hero Agent acquisition; sakibpro '100% Official' claim (3 Season Passes x 2 Cult Heroes) self-labeled - screened; TikTok: agents in Events, Drafts, Season Pass; YouTube agent-opening UGC", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-029", "url_or_query": "web_search: Dream League Soccer 2026 version 13.200-13.260 update", "tool": "discovery-search", "status": "success (partial gap fill)", "source_family": "technical-archive", "payload_summary": "APKMirror: 13.020 (Dec 4 2025, code 134), 13.030 (Dec 8), 13.040 (Dec 17); 13.120 (Mar 25 2026, code 147), 13.130 (Mar 27); Winter Reload notes persist at 13.120 ('Dream Stars 26 - Coming soon'). Gap 13.140-13.299 remains", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-030", "url_or_query": "https://dlsinside.com/players/specials/cult-heroes", "tool": "page-render", "status": "success (HTTP 200, PARTIAL capture)", "source_family": "third-party-database", "payload_summary": "Client-rendered specials page; captured 12 shirt numbers (1,17,10,24,22,22,1,30,30,17,23,21) matching the 12-name Cult Heroes roster from the search index; 'Showing 12 of 12 Players'; version stamp 13430/code 160", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-031", "url_or_query": "web_search (Indonesian): Dream League Soccer 2026 Indonesia update 2026 komunitas", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "App Store id (Indonesian) listing with localized version history; kitdls.net (Vietnamese-language kit community, Indonesia kits DLS 26 page); Cafebazaar (Iranian store, 2.2M installs, 4.2); gizmodo download page (specs)", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-032", "url_or_query": "web_search: Dream League Soccer 2026 13.350-13.400 update July August", "tool": "discovery-search", "status": "success (partial gap fill)", "source_family": "mixed", "payload_summary": "13.350 (Jul 14, code 154) = 'Summer Glory' update (FR store copy 'Gloire estivale'), same feature family as Summer Spotlight; Uptodown lists 13.350 Aug 2 and 13.330 Jun 24 (own processing dates - skew noted); relaxmodapk (mod - screened); maliciousa.com (aggregator); gap 13.360-13.400 remains", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-033", "url_or_query": "web_search: Dream League Soccer 2026 coaches coaching staff technical physical abilities", "tool": "discovery-search", "status": "success", "source_family": "mixed", "payload_summary": "FTG article 360003914778 'How do I develop my players?' found (coaches randomly select a player for permanent upgrade; Form Boost = temporary upgrade, duration by Training facilities level); Reddit coaching threads (Fitness = SPE/ACC/STA/STR, Technical = CON/PAS/SHO/TAC; Common +1 / Rare +2 / Legendary +3; GK coaches; Special coaches offer 2 randomized choices; max = base+10, rarely +11); bluestacks; sakibpro simulator (weighted progression energy - Speculative); levelwinner", "retrieved_at": "2026-10-17T11:22Z"},
-    {"id": "S-20261017-034", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Coaches (Team Management screen) randomly select a player for a PERMANENT upgrade; Form Boost = more powerful but TEMPORARY upgrade lasting a set number of matches, duration scaled by Training facilities level (min one match). Related: players missing (213852049), can I sell players (360003945617), how do I sell players (1714655181585)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-035", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Coin sources: winning matches, drawing matches, clean sheets, scoring goals, stadium bonuses, season objectives, Season Pass rewards, Prize Ladder rewards, final league positions, cup wins, watching video clips (where available)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-036", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Free coins: watch short video clips, subject to availability", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-037", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "One DLS account per player. Manage Devices + Link Profile under Options (gear, top left) > Advanced. Transfer via Sign in with Google (Android only) / Sign in with Apple (iOS only); cross-platform via generated code (Generate Code on old device, Link Profile on new; code unusable on the generating device); linked devices listed/removable; signing out of Google/Apple unlinks the profile - loss-susceptible on uninstall/change; codes and details unrecoverable if lost; never share", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-038", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Ban policy: modded APKs, external software hacks on authorised versions, and exploitation of unknown bugs are targeted (inappropriate virtual-currency gain, gameplay-AI interference, circumvention of normal progression, other extraneous activity); particularly crucial in DLL (fair-means expectation); the ONLY authorised versions are from Apple's App Store or Google's Play Store - no other versions supported; extreme-circumstance action on offensive team/manager names; support will NOT remove bans on request unless incorrectly flagged; Terms: ftgames.com/terms-of-use", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-039", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003914998-What-are-Leaderboards", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Leaderboards compare performance against other players in Dream League Live; reset at regular intervals (from 3-30 days); prizes awarded by position at the end time. Corrects the community 'weekly' instance (REVISION R-001)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-040", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match", "tool": "page-render", "status": "success (HTTP 200, full text + comments)", "source_family": "official-support", "payload_summary": "Friend Match: private match via a shared code or word (A-Z, 0-9, hyphen only); found under the Dream League Live (Multiplayer) button; Friend Match stats tracked there. User comments: no rewards when the opponent quits; connect failures after code entry; opponent team name not visible", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-041", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213851909-How-do-I-restart-my-career-from-the-beginning", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Reset Profile button (skull and crossbones) under Settings (gear, top left) > Advanced. IRREVERSIBLE: all progress lost including coins, gems, consumables and in-app purchases; cannot be undone; limited to one reset every 30 days. Registered as IRREV-001", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-042", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004034498-Why-does-the-app-require-a-connection-to-play", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Online required for the majority of features (security; reduces unfair exploits); all progress backed up on FTG servers, restorable across devices; some sections accessible offline; Exhibition matches playable offline", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-043", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214385685-Is-my-device-compatible-with-the-app", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "iOS: compatible with most devices; check App Store for minimum OS version (varies per app). Android: 3,000+ devices supported; availability restricted by device hardware, carrier restrictions, territory legislation; minimum Android OS varies per app - check Google Play", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-044", "url_or_query": "web_search: Dream League Soccer 2026 13.140-13.200 update April", "tool": "discovery-search", "status": "success (partial gap fill)", "source_family": "mixed", "payload_summary": "dlsinside.com homepage carries a canonical 'Latest versions' table (version-code to version to date: 160-13430 2026-09-16, 159-13420 2026-09-05, 158-13410 2026-08-20, 154-13350 2026-07-21, 153-13340 2026-06-23, 152-13330 2026-06-12...) - fetch owed; App Store snippets confirm 13.110 Mar 2 and 13.100 Feb 26 Winter Reload notes; gap 13.140-13.299 remains", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-045", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Update troubleshooting: iOS (close DLS; App Store > Updates; pull to refresh; locate DLS > Update; or search DLS and Update); Android (install via Google Play website; disable Wi-Fi and use mobile data; Settings > Apps > All > Google Play Store > Clear cache and Clear data; remove Google account, restart, re-add)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-046", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Facebook Login removed from DLS several years ago; profiles previously stored via Facebook Login are unrecoverable; secure profiles with Sign in with Apple (iOS 13+) or Sign in with Google", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-047", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25", "tool": "page-render", "status": "success (HTTP 200, full text + comments)", "source_family": "official-support", "payload_summary": "Legacy standalone DLS19-era profiles do NOT work in the modern app; their in-app purchases do not transfer. (Article is legacy - 6-year-old comments; within-app seasonal carry-over is separate, see GS-021)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-048", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004080497-How-do-I-customise-my-kit-logo", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Customise screen: team name, manager name, shirt numbers and boot colours (Players tab, per player); manager name/appearance/outfit (Manager tab); home and away kits - colours, kit types, trim, sliding scales (Kit tab); logo from pre-designed templates (team name displays inside logo, auto-updates); Custom Logo import via pasted URL (max 512x512; section must be unlocked); kit import via .png URL laid out to a specific template; shading and creases added at run-time; deletion via Reset (logos) / Delete (kits)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-049", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945937-How-do-I-change-my-manager", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Change manager name and appearance via the Customise button within My Club, selecting Manager", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-050", "url_or_query": "web_search (Turkish/non-English): Dream League Soccer 2026 forum Turkish Indonesian community tips formations", "tool": "discovery-search", "status": "success", "source_family": "community-non-english", "payload_summary": "sikayetvar.com (Turkish complaint platform: stutter/freeze after latest Android update; Turkish-league clubs/players absence complaint - single-complaint weight); Reddit Turkish-playstyle thread (collision-dominant reputation, DLS24-era, dated); DLS26 megathread day 3 (player switching got worse, pace more realistic, 'scripts seem to be gone or weaker', reserves + fixed eight subs); dlskits.mobi squad/facility guidance (content-farm ceiling); APKMirror 10.0 historical notes (dynamic tactics, Indonesian language added)", "retrieved_at": "2026-10-17T13:30Z"},
-    {"id": "S-20261017-051", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "DLL networking: Wi-Fi or high-quality 5G/4G/3G only; FTG cloud servers; netcode designed so opponent connection quality has NO impact on your experience - lag-switch cheats not effective; opponent never sees your network address (DoS protection); persistent lag = device-to-FTG-server issue, usually last mile; no Facebook-friend invites (local multiplayer same-platform, same Wi-Fi router); IPv6 and 5G supported; ~2MB data per match; Bluetooth off improves Wi-Fi multiplayer", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-052", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Player database constantly updated; players added and removed; some players cannot be included for licensing reasons. Related: different player card colour (214385445), re-sign sold players (214385465)", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-053", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Yes: Manage Players (bottom right of Transfers screen) > select player > release; a coach is received for the release; recently sold players appear in the 'Recover' section of Manage Players for a limited time (applicable from v12.200+)", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-054", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Delete Profile: Main Menu > Settings > Advanced > Delete (trash can) > Delete Profile; removes all profiles saved on the device, wiping entirely; cannot be reversed once the countdown duration has passed; Cancel Request button on the pop-up before processing; per Privacy Policy; DLS path given alongside Score! Hero, Score! Match, Ultimate Clash Soccer paths", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-055", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360017166918-I-am-not-seeing-any-video-clips + 360005680437 data usage + 360004718318 player likeness (3 fetches)", "tool": "page-render", "status": "success (HTTP 200 x3, full text)", "source_family": "official-support", "payload_summary": "Video clips: multiple ad networks manage own content; FTG controls only ad types; no promise/guarantee of clip frequency or reward doublers; LAT reduces ad availability (iOS14+ exacerbated); fixes: latest version, reinstall (BACK UP PROFILE FIRST), disable VPN, Wi-Fi, restart, force-close regularly, wait days. Data usage: online required for majority of features; use Wi-Fi, limit mobile data. Player likeness: database ever-expanding, improvements over time (thin official answer; comments: licensing-limited faces/names, Bundesliga absence examples)", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-056", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360008315158 (auto-switching) + 1714655181585 (sell players) + 360005984437 (graphics settings) (3 fetches)", "tool": "page-render", "status": "404 - pages do not exist (NEGATIVE FINDING)", "source_family": "official-support", "payload_summary": "Three article titles survive in related-article link blobs but return Zendesk 404 'the page you were looking for doesn't exist': auto-switching FAQ, how-do-I-sell-players, graphics settings. The community auto-switching complaint has no captured official answer (GS-030)", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-057", "url_or_query": "https://dlsinside.com/", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "third-party-database", "payload_summary": "Specials taxonomy with counts: Cult Heroes 12, World Cup Champions 8, World Cup Heroes 8, Dynamic Stars 40, Team Of 2025 11, Kickoff Stars 2, Champion 12, Star 23, Classic 32, Hidden 270, Exclusives 7,388. Totals: 14,435 players, 263 teams, 255 stadiums; version 13430/code 160, last update 2026-09-16. Blog: 'DLS 27: All New, Returning, and Removed Teams' (Aug 25 2026), new-stadiums rumors, DLS19 Play Store history article, Mexican players list, exclusive players guides; dreamkitsapp 'DREAM KITS 2027' ad", "retrieved_at": "2026-10-17T16:04Z"},
-    {"id": "S-20261017-058", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360020938198-How-do-I-change-my-emojis-in-Dream-League-Live", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "6 emojis by default; earned/purchased emojis selected via Emoji Selection; only 6 pre-selected usable at once (swap required); access via My Profile (team+manager name, top right of Main Menu) > Emojis; disable chat entirely via gear icon > Game > Multiplayer Chat OFF", "retrieved_at": "2026-10-17T17:10Z"},
-    {"id": "S-20261017-059", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Custom (imported) kits and logos are NOT transferred across multiplayer matches - opponent does not see yours, you do not see theirs; FTG acknowledges the demand but states it is not possible for several reasons", "retrieved_at": "2026-10-17T17:10Z"},
-    {"id": "S-20261017-060", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "User ID: Options (gear, top left) > Advanced > System Info ('i') > Copy Info > paste into support reply. FTG warning: user is responsible for not loaning/exchanging/sharing/selling/buying game profiles (Terms of Use); do not share personal details - unrecoverable if lost that way", "retrieved_at": "2026-10-17T17:10Z"},
-    {"id": "S-20261017-061", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/14369944135058-How-do-I-hide-the-text-on-the-control-buttons", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') removable via Game Settings > Display > Descriptive Button Text OFF; available in-game or Main Menu; re-enable with ON", "retrieved_at": "2026-10-17T17:10Z"},
-    {"id": "S-20261017-062", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Connection required for most game modes; mobile or Wi-Fi both acceptable; stable connection required for multiplayer; exhibition matches playable with no active connection. Related: 'Something happened in the game that's not realistic' (360000842697), backup/restore/transfer save data (214387685)", "retrieved_at": "2026-10-17T17:10Z"},
-    {"id": "S-20261017-063", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "OFFICIAL FAIRNESS STANCE: DLS is a game, not a fully accurate simulation of soccer or physics; FTG balances fun with realism; unpredictable situations occur 'just like in real life' including unrealistic ball/player behaviour and referee decisions the player disagrees with; 'luck forms a part of the experience'; 'Ultimately it's the same for all players and above all else we consider our games fair'; FTG reviews feedback and fixes what harms enjoyment but 'not everything will be addressed'; genuine bugs should be reported", "retrieved_at": "2026-10-17T17:10Z"},
-    {"id": "S-20261017-064", "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data", "tool": "page-render", "status": "success (HTTP 200, full text)", "source_family": "official-support", "payload_summary": "Link the profile to Sign in with Google or Sign in with Apple (iOS 13.0+) - NOT automatic, done via in-game settings. Without it FTG cannot guarantee recovery after uninstall, device reset or device change. Save data is NOT secured on Google Play Games or iCloud - different cloud services not used by FTG games. Legacy DLS19-era games: only iCloud (iOS) / Google Play Saved Games (Android), no cross-platform transfer. 8 Ball Hero alone uses Facebook", "retrieved_at": "2026-10-17T17:10Z"}
+    {
+      "id": "S-20261017-001",
+      "url_or_query": "web_search: Dream League Soccer 2026 First Touch Games current version",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "App Store (13.430 Sep 16), Google Play (updated Sep 14), APKMirror 13.410/13.420/13.430, APKPure, AppBrain, AppGlint, dlsinside (13430/code 160), cafebazaar.ir, es.wikipedia (launch Dec 1 2025; banner Alverez+Raphinha), fifaworldcupnews, thesoccerera, appmagic 14.8M ratings/4.5",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-002",
+      "url_or_query": "web_search: Dream League Soccer 2026 update release notes",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "fifaworldcupnews (Sept update; Summer Spotlight July claim - corrected B-006), dlskits.mobi update summaries, thesoccerera launch features, APKMirror 13.100 Winter Reload notes, YouTube event video, App Store version-history snippet",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-003",
+      "url_or_query": "web_search: Dream League Soccer 2026 reddit",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "community-english",
+      "payload_summary": "r/DreamLeagueSoccer: community review (Dec 10 2025), midseason megathread (Feb 26 2026), Next-Gen complaints (Dec 4), full review (Dec 8), World Cup 2026 rewards thread (Jun 15: +1 group win, +2 R32/R16/QF/SF, 96 OVR final winner), 'garbage' (Dec 7), 'huge mess' (Dec 24), best new feature (Nov 30), Tier-1 world record (Feb 8: 16 days, 12 games, 110W-10L-1D, 145,296 XP)",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-004",
+      "url_or_query": "web_search (Turkish): Dream League Soccer 2026 gunceleme surum",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "cepde.net (TR), App Store tr listing, APKMirror, APKPure, AppBrain, cafebazaar.ir, mokoweb (mod - screened), softonic",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-005",
+      "url_or_query": "web_search: Dream League Live mode Dream League Soccer",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "FTG support matchmaking article (official), gamingonphone friend guide (DLL unlocks after career matches), liteapks, modyolo (mod - screened), gizmodo (generic), vi.wikipedia (RELEASE PLAYER mechanics), Play Store listing",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-006",
+      "url_or_query": "web_search: Dream League Soccer 2026 best formation meta guide 2026",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "sportsdunia top-5 (4-4-2 first), reddit meta thread, ggbro (4-2-3-1 'fails gracefully'; stamina>formation; width-before-shape), YouTube 4-4-2/4-3-3 videos, gamingonphone (default 4-4-2 and 4-1-2-1-2), playdreamleaguesoccer (unreliable), ezarena + fm26tactics (NON_CONNECTED: FC26/FM26)",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-007",
+      "url_or_query": "web_search: First Touch Games Dream League Soccer 2026 news update October 2026",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "x.com/firsttouchgames official (pinned support pointer), fifaworldcupnews, thesoccerera, dlskits.mobi, soft112 version history, egw.news launch teaser details (redesigned stadium, new camera operator, new commentary languages, dark pink/blue UI, new volley skill move), bluestacks",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-008",
+      "url_or_query": "web_search: DLS 26 OVR overall rating XI lineup meaning",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "sakibpro squad builder (Team OVR = mean of base-or-maxed Overall Ratings of 11 placed players), sportsdunia best teams, thesoccerera ratings table (Dembele/Mbappe/Kane/Haaland 86), dlsmod top-7-per-position, reddit Arsenal rating thread (launch ratings + deltas), gamingonphone (50-60 OVR start), reddit ratings theory (trained = base+1)",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-009",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "DLL matchmaking: LIVE Tier ranking, location, availability pool; usually same-Tier opponents; no overlaid difficulty controls; outcomes governed by individual skill (tactics, gameplay choices, team strength)",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-010",
+      "url_or_query": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 (chunk 0)",
+      "tool": "page-render",
+      "status": "success (HTTP 200, chunk 0 of 6)",
+      "source_family": "official-store",
+      "payload_summary": "Official description: 4,000+ FIFPRO players, 8 divisions, 10+ cups, facilities (Stadium/Medical/Commercial/Training), Clans, Agents and Scouts, Coaches, kit/logo import, Dream League Live, daily scenarios, Dream Draft; 'Legendary Division'; manager customisation; 733K ratings 4.6; size 269.6 MB",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-011",
+      "url_or_query": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 (chunk 1)",
+      "tool": "page-render",
+      "status": "success (HTTP 200, chunk 1 of 6)",
+      "source_family": "official-store",
+      "payload_summary": "User reviews: career cup names Bronze/Silver/Gold/Diamond Cup; pay-to-win and shooting-inconsistency complaints; pressure button misses; 30-second pause in live events; customization praised",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-012",
+      "url_or_query": "https://dlsinside.com/players",
+      "tool": "page-render",
+      "status": "success (HTTP 200, PARTIAL capture)",
+      "source_family": "third-party-database",
+      "payload_summary": "Client-rendered player database; only position filters captured (10, RM, 7, LM, AM, CF, CM, CB). Player rows not extractable this turn - access boundary recorded; site tracks Version 13430 / Code 160 per search snippet",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-013",
+      "url_or_query": "https://support.ftgames.com/hc/en-us",
+      "tool": "page-render",
+      "status": "success (HTTP 200)",
+      "source_family": "official-support",
+      "payload_summary": "Portal section inventory: Dream League Soccer FAQs (203117809), Score Hero FAQs, Ultimate Draft Soccer (newer FTG title), Score Match FAQs",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-014",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Canonical 30-article DLS FAQ inventory with article IDs (see kb/source-families.md S-001)",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-015",
+      "url_or_query": "web_search: DLS 26 Play Fest event October 2026",
+      "tool": "discovery-search",
+      "status": "success (NEGATIVE FINDING)",
+      "source_family": "mixed",
+      "payload_summary": "Play Fest (Oct 13-19, 2026) is a Google Play store-wide promotion (Play Points boosts, sweepstakes) per Google's editorial page + two coverage sources; the banner on the DLS listing is a store promotion, NOT DLS content. See kb/live-state.md L-004",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-016",
+      "url_or_query": "web_search: firsttouchgames.com Dream League Soccer 2026 news",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "x.com/firsttouchgames official (pinned: 'For all support and queries: support.ftgames.com'); Play Store en-AU listing banner 'Ends on 10/14'; AppBrain review snippet",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-017",
+      "url_or_query": "web_search: Dream League Soccer 2026 Dynamic Stars event OVR upgrade schedule",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "sportsdunia full schedule (Jun 8-Jul 20; base 82 OVR; +1 group win, +2 per round, 96 final winner; Dynamic Agents; Season 1/2 passes; player list), YouTube event videos (May 22, Jun 9, Jun 19, Jul 21 World Cup Winners), player.gg, App Store gh ('LIVE EVENT Dynamic Stars'), Google Play en-SG Summer Spotlight notes, TikTok discover ('World Cup Heroes'), FTG official TikTok confirms mechanic + Jun 8 start",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-018",
+      "url_or_query": "web_search: Dream League Soccer 2026 version 13.300-13.340 update May June 2026",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "APKMirror version list: 13.300 May 27 (code 149), 13.310 May 29 (code 150), 13.320 Jun 8, 13.330 Jun 10, 13.340 Jun 22 (code 153); App Store version history attaches Summer Spotlight notes to 13.300-13.340 - resolves B-006 conflict",
+      "retrieved_at": "2026-10-17T09:45Z"
+    },
+    {
+      "id": "S-20261017-019",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text, chunk 0 of 4)",
+      "source_family": "official-support",
+      "payload_summary": "Official stat semantics: SPE (top speed; falls with ENERGY; dribbling loss inversely proportional to CON), ACC, STA (depletion rate + half-time boost; position-dependent), CON (dribble speed loss, kick-after-touch speed, touch proximity, skill kicks/controls/shots/moves), STR (collision impact, stumble duration), TAC (tackle success; standing/sliding distances), PAS (all pass accuracy), SHO (accuracy, 'assist' away from keeper, shot height, skill shots with CON, special kicks/headers, free-kick spin), GKH (catch vs deflect, claiming crosses, stability in contact), GKR (reaction time, save chance vs shot speed/distance, anticipate saves), ENERGY (fatigue; below threshold all stats gradually reduce). FTG framing: game not a simulation; unpredictability inherent",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-020",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/23108987826962-What-is-the-Prize-Ladder",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Prize Ladder awards items on progression (like Season Pass): coins, gems, coaches, Dream Point Boosts, special players, more. Dream Points given in matches; more earned = more rewards unlocked. Dream Point Boosts purchasable within the Prize Ladder",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-021",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Season Pass (from v12.200+): FREE and SEASON PASS tiers; Progress Bank pays currency from DLL XP at season end; gold profile elements; not a subscription, repurchased each season; Season Points from matches (amount varies by mode); mid-season purchase unlocks already-reached premium tiers; tier locks correspond to days; premium removes all tier locks",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-022",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/30839289076626-What-are-Clans",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Clan rules: one clan at a time; single leader (succession; empty clan disappears); entry requirements (hidden from search unless met; invite codes work); Clan Points from matches, challenges, season passes; FTG may remove players/clans breaching Terms of Use; disputes not mediated",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-023",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Single-player difficulty starts easy and scales with division movement (up and down); base difficulty Medium/Hard option since DLS25. DLL: always real users, NO bots, NO difficulty control, NO manipulation of any in-game situation including teammate AI, NO influencing of outcomes. Fair-gaming commitment: ftgames.com/core-principles",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-024",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Dream Point Boosts: purchased within the Prize Ladder; temporarily increase Dream Points per match; apply to career, dream draft, scenario and DLL matches ONLY (not exhibition/friend); unusable when the Prize Ladder is complete/inactive; unused boosts carry to the next ladder; live-service subject to change",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-025",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Four recruitment routes: Transfers (new players appear each in-game week = after playing a single-player match), Scouts (selection at discounted rate), Agents (immediately add a player), Prize Ladder (special rare players on criteria)",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-026",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003914938-How-can-I-get-Gems",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Gems from: league objectives, tournaments, Season Pass, Prize Ladder, Multiplayer (Dream League Live); quantity varies by circumstance; purchasable in shop",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-027",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000262229-When-will-the-next-app-update-be",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "FTG provides no release schedules or planned-activity indications; official news via TikTok @dreamleaguesoccer.ftg, Instagram playdls, Facebook dreamleaguesoccer",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-028",
+      "url_or_query": "web_search: Cult Heroes DLS 26 special players released October 2026",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "Cult Heroes LIVE at build 13.430: dlsinside specials page lists 12 players (de Gea, Aubameyang, Dybala, Insigne, Ziyech, Alarcon, Vozinha, Otamendi, David Luiz, Blind, Shaqiri, Herrera); dlskiturl ratings 83-85 and Cult Hero Agent acquisition; sakibpro '100% Official' claim (3 Season Passes x 2 Cult Heroes) self-labeled - screened; TikTok: agents in Events, Drafts, Season Pass; YouTube agent-opening UGC",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-029",
+      "url_or_query": "web_search: Dream League Soccer 2026 version 13.200-13.260 update",
+      "tool": "discovery-search",
+      "status": "success (partial gap fill)",
+      "source_family": "technical-archive",
+      "payload_summary": "APKMirror: 13.020 (Dec 4 2025, code 134), 13.030 (Dec 8), 13.040 (Dec 17); 13.120 (Mar 25 2026, code 147), 13.130 (Mar 27); Winter Reload notes persist at 13.120 ('Dream Stars 26 - Coming soon'). Gap 13.140-13.299 remains",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-030",
+      "url_or_query": "https://dlsinside.com/players/specials/cult-heroes",
+      "tool": "page-render",
+      "status": "success (HTTP 200, PARTIAL capture)",
+      "source_family": "third-party-database",
+      "payload_summary": "Client-rendered specials page; captured 12 shirt numbers (1,17,10,24,22,22,1,30,30,17,23,21) matching the 12-name Cult Heroes roster from the search index; 'Showing 12 of 12 Players'; version stamp 13430/code 160",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-031",
+      "url_or_query": "web_search (Indonesian): Dream League Soccer 2026 Indonesia update 2026 komunitas",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "App Store id (Indonesian) listing with localized version history; kitdls.net (Vietnamese-language kit community, Indonesia kits DLS 26 page); Cafebazaar (Iranian store, 2.2M installs, 4.2); gizmodo download page (specs)",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-032",
+      "url_or_query": "web_search: Dream League Soccer 2026 13.350-13.400 update July August",
+      "tool": "discovery-search",
+      "status": "success (partial gap fill)",
+      "source_family": "mixed",
+      "payload_summary": "13.350 (Jul 14, code 154) = 'Summer Glory' update (FR store copy 'Gloire estivale'), same feature family as Summer Spotlight; Uptodown lists 13.350 Aug 2 and 13.330 Jun 24 (own processing dates - skew noted); relaxmodapk (mod - screened); maliciousa.com (aggregator); gap 13.360-13.400 remains",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-033",
+      "url_or_query": "web_search: Dream League Soccer 2026 coaches coaching staff technical physical abilities",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "mixed",
+      "payload_summary": "FTG article 360003914778 'How do I develop my players?' found (coaches randomly select a player for permanent upgrade; Form Boost = temporary upgrade, duration by Training facilities level); Reddit coaching threads (Fitness = SPE/ACC/STA/STR, Technical = CON/PAS/SHO/TAC; Common +1 / Rare +2 / Legendary +3; GK coaches; Special coaches offer 2 randomized choices; max = base+10, rarely +11); bluestacks; sakibpro simulator (weighted progression energy - Speculative); levelwinner",
+      "retrieved_at": "2026-10-17T11:22Z"
+    },
+    {
+      "id": "S-20261017-034",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003914778-How-do-I-develop-my-players",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Coaches (Team Management screen) randomly select a player for a PERMANENT upgrade; Form Boost = more powerful but TEMPORARY upgrade lasting a set number of matches, duration scaled by Training facilities level (min one match). Related: players missing (213852049), can I sell players (360003945617), how do I sell players (1714655181585)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-035",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Coin sources: winning matches, drawing matches, clean sheets, scoring goals, stadium bonuses, season objectives, Season Pass rewards, Prize Ladder rewards, final league positions, cup wins, watching video clips (where available)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-036",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213851369-Is-it-possible-to-earn-free-coins",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Free coins: watch short video clips, subject to availability",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-037",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/4413273241873-How-is-save-data-stored-and-transferred-in-DLS",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "One DLS account per player. Manage Devices + Link Profile under Options (gear, top left) > Advanced. Transfer via Sign in with Google (Android only) / Sign in with Apple (iOS only); cross-platform via generated code (Generate Code on old device, Link Profile on new; code unusable on the generating device); linked devices listed/removable; signing out of Google/Apple unlinks the profile - loss-susceptible on uninstall/change; codes and details unrecoverable if lost; never share",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-038",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360008904718-Why-have-I-been-blocked-from-playing-DLS",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Ban policy: modded APKs, external software hacks on authorised versions, and exploitation of unknown bugs are targeted (inappropriate virtual-currency gain, gameplay-AI interference, circumvention of normal progression, other extraneous activity); particularly crucial in DLL (fair-means expectation); the ONLY authorised versions are from Apple's App Store or Google's Play Store - no other versions supported; extreme-circumstance action on offensive team/manager names; support will NOT remove bans on request unless incorrectly flagged; Terms: ftgames.com/terms-of-use",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-039",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003914998-What-are-Leaderboards",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Leaderboards compare performance against other players in Dream League Live; reset at regular intervals (from 3-30 days); prizes awarded by position at the end time. Corrects the community 'weekly' instance (REVISION R-001)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-040",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text + comments)",
+      "source_family": "official-support",
+      "payload_summary": "Friend Match: private match via a shared code or word (A-Z, 0-9, hyphen only); found under the Dream League Live (Multiplayer) button; Friend Match stats tracked there. User comments: no rewards when the opponent quits; connect failures after code entry; opponent team name not visible",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-041",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213851909-How-do-I-restart-my-career-from-the-beginning",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Reset Profile button (skull and crossbones) under Settings (gear, top left) > Advanced. IRREVERSIBLE: all progress lost including coins, gems, consumables and in-app purchases; cannot be undone; limited to one reset every 30 days. Registered as IRREV-001",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-042",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004034498-Why-does-the-app-require-a-connection-to-play",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Online required for the majority of features (security; reduces unfair exploits); all progress backed up on FTG servers, restorable across devices; some sections accessible offline; Exhibition matches playable offline",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-043",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214385685-Is-my-device-compatible-with-the-app",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "iOS: compatible with most devices; check App Store for minimum OS version (varies per app). Android: 3,000+ devices supported; availability restricted by device hardware, carrier restrictions, territory legislation; minimum Android OS varies per app - check Google Play",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-044",
+      "url_or_query": "web_search: Dream League Soccer 2026 13.140-13.200 update April",
+      "tool": "discovery-search",
+      "status": "success (partial gap fill)",
+      "source_family": "mixed",
+      "payload_summary": "dlsinside.com homepage carries a canonical 'Latest versions' table (version-code to version to date: 160-13430 2026-09-16, 159-13420 2026-09-05, 158-13410 2026-08-20, 154-13350 2026-07-21, 153-13340 2026-06-23, 152-13330 2026-06-12...) - fetch owed; App Store snippets confirm 13.110 Mar 2 and 13.100 Feb 26 Winter Reload notes; gap 13.140-13.299 remains",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-045",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000220945-Why-can-t-I-update-the-app",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Update troubleshooting: iOS (close DLS; App Store > Updates; pull to refresh; locate DLS > Update; or search DLS and Update); Android (install via Google Play website; disable Wi-Fi and use mobile data; Settings > Apps > All > Google Play Store > Clear cache and Clear data; remove Google account, restart, re-add)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-046",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/9804887423121-Removal-of-Facebook-Login-from-DLS",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Facebook Login removed from DLS several years ago; profiles previously stored via Facebook Login are unrecoverable; secure profiles with Sign in with Apple (iOS 13+) or Sign in with Google",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-047",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004717278-Can-I-use-my-Dream-League-Soccer-formally-DLS19-profile-in-DLS25",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text + comments)",
+      "source_family": "official-support",
+      "payload_summary": "Legacy standalone DLS19-era profiles do NOT work in the modern app; their in-app purchases do not transfer. (Article is legacy - 6-year-old comments; within-app seasonal carry-over is separate, see GS-021)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-048",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004080497-How-do-I-customise-my-kit-logo",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Customise screen: team name, manager name, shirt numbers and boot colours (Players tab, per player); manager name/appearance/outfit (Manager tab); home and away kits - colours, kit types, trim, sliding scales (Kit tab); logo from pre-designed templates (team name displays inside logo, auto-updates); Custom Logo import via pasted URL (max 512x512; section must be unlocked); kit import via .png URL laid out to a specific template; shading and creases added at run-time; deletion via Reset (logos) / Delete (kits)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-049",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945937-How-do-I-change-my-manager",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Change manager name and appearance via the Customise button within My Club, selecting Manager",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-050",
+      "url_or_query": "web_search (Turkish/non-English): Dream League Soccer 2026 forum Turkish Indonesian community tips formations",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "community-non-english",
+      "payload_summary": "sikayetvar.com (Turkish complaint platform: stutter/freeze after latest Android update; Turkish-league clubs/players absence complaint - single-complaint weight); Reddit Turkish-playstyle thread (collision-dominant reputation, DLS24-era, dated); DLS26 megathread day 3 (player switching got worse, pace more realistic, 'scripts seem to be gone or weaker', reserves + fixed eight subs); dlskits.mobi squad/facility guidance (content-farm ceiling); APKMirror 10.0 historical notes (dynamic tactics, Indonesian language added)",
+      "retrieved_at": "2026-10-17T13:30Z"
+    },
+    {
+      "id": "S-20261017-051",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360004222118-Multiplayer-Troubleshooting",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "DLL networking: Wi-Fi or high-quality 5G/4G/3G only; FTG cloud servers; netcode designed so opponent connection quality has NO impact on your experience - lag-switch cheats not effective; opponent never sees your network address (DoS protection); persistent lag = device-to-FTG-server issue, usually last mile; no Facebook-friend invites (local multiplayer same-platform, same Wi-Fi router); IPv6 and 5G supported; ~2MB data per match; Bluetooth off improves Wi-Fi multiplayer",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-052",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/213852049-Why-are-some-players-missing-from-the-app",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Player database constantly updated; players added and removed; some players cannot be included for licensing reasons. Related: different player card colour (214385445), re-sign sold players (214385465)",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-053",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945617-Can-I-sell-my-players",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Yes: Manage Players (bottom right of Transfers screen) > select player > release; a coach is received for the release; recently sold players appear in the 'Recover' section of Manage Players for a limited time (applicable from v12.200+)",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-054",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360017046578-How-do-I-have-my-personal-data-deleted",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Delete Profile: Main Menu > Settings > Advanced > Delete (trash can) > Delete Profile; removes all profiles saved on the device, wiping entirely; cannot be reversed once the countdown duration has passed; Cancel Request button on the pop-up before processing; per Privacy Policy; DLS path given alongside Score! Hero, Score! Match, Ultimate Clash Soccer paths",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-055",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360017166918-I-am-not-seeing-any-video-clips + 360005680437 data usage + 360004718318 player likeness (3 fetches)",
+      "tool": "page-render",
+      "status": "success (HTTP 200 x3, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Video clips: multiple ad networks manage own content; FTG controls only ad types; no promise/guarantee of clip frequency or reward doublers; LAT reduces ad availability (iOS14+ exacerbated); fixes: latest version, reinstall (BACK UP PROFILE FIRST), disable VPN, Wi-Fi, restart, force-close regularly, wait days. Data usage: online required for majority of features; use Wi-Fi, limit mobile data. Player likeness: database ever-expanding, improvements over time (thin official answer; comments: licensing-limited faces/names, Bundesliga absence examples)",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-056",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360008315158 (auto-switching) + 1714655181585 (sell players) + 360005984437 (graphics settings) (3 fetches)",
+      "tool": "page-render",
+      "status": "404 - pages do not exist (NEGATIVE FINDING)",
+      "source_family": "official-support",
+      "payload_summary": "Three article titles survive in related-article link blobs but return Zendesk 404 'the page you were looking for doesn't exist': auto-switching FAQ, how-do-I-sell-players, graphics settings. The community auto-switching complaint has no captured official answer (GS-030)",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-057",
+      "url_or_query": "https://dlsinside.com/",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "third-party-database",
+      "payload_summary": "Specials taxonomy with counts: Cult Heroes 12, World Cup Champions 8, World Cup Heroes 8, Dynamic Stars 40, Team Of 2025 11, Kickoff Stars 2, Champion 12, Star 23, Classic 32, Hidden 270, Exclusives 7,388. Totals: 14,435 players, 263 teams, 255 stadiums; version 13430/code 160, last update 2026-09-16. Blog: 'DLS 27: All New, Returning, and Removed Teams' (Aug 25 2026), new-stadiums rumors, DLS19 Play Store history article, Mexican players list, exclusive players guides; dreamkitsapp 'DREAM KITS 2027' ad",
+      "retrieved_at": "2026-10-17T16:04Z"
+    },
+    {
+      "id": "S-20261017-058",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360020938198-How-do-I-change-my-emojis-in-Dream-League-Live",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "6 emojis by default; earned/purchased emojis selected via Emoji Selection; only 6 pre-selected usable at once (swap required); access via My Profile (team+manager name, top right of Main Menu) > Emojis; disable chat entirely via gear icon > Game > Multiplayer Chat OFF",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-059",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360021064298-Can-my-opponent-see-my-custom-kit-and-logo-in-Dream-League-Live",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Custom (imported) kits and logos are NOT transferred across multiplayer matches - opponent does not see yours, you do not see theirs; FTG acknowledges the demand but states it is not possible for several reasons",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-060",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/37082887837202-How-do-I-find-my-User-ID",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "User ID: Options (gear, top left) > Advanced > System Info ('i') > Copy Info > paste into support reply. FTG warning: user is responsible for not loaning/exchanging/sharing/selling/buying game profiles (Terms of Use); do not share personal details - unrecoverable if lost that way",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-061",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/14369944135058-How-do-I-hide-the-text-on-the-control-buttons",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') removable via Game Settings > Display > Descriptive Button Text OFF; available in-game or Main Menu; re-enable with ON",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-062",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360003945557-I-can-t-connect-to-the-game-what-can-I-do",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Connection required for most game modes; mobile or Wi-Fi both acceptable; stable connection required for multiplayer; exhibition matches playable with no active connection. Related: 'Something happened in the game that's not realistic' (360000842697), backup/restore/transfer save data (214387685)",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-063",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/360000842697-Something-happened-in-the-game-that-s-not-realistic-Why-is-this",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "OFFICIAL FAIRNESS STANCE: DLS is a game, not a fully accurate simulation of soccer or physics; FTG balances fun with realism; unpredictable situations occur 'just like in real life' including unrealistic ball/player behaviour and referee decisions the player disagrees with; 'luck forms a part of the experience'; 'Ultimately it's the same for all players and above all else we consider our games fair'; FTG reviews feedback and fixes what harms enjoyment but 'not everything will be addressed'; genuine bugs should be reported",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-064",
+      "url_or_query": "https://support.ftgames.com/hc/en-us/articles/214387685-How-do-I-backup-restore-transfer-my-save-data",
+      "tool": "page-render",
+      "status": "success (HTTP 200, full text)",
+      "source_family": "official-support",
+      "payload_summary": "Link the profile to Sign in with Google or Sign in with Apple (iOS 13.0+) - NOT automatic, done via in-game settings. Without it FTG cannot guarantee recovery after uninstall, device reset or device change. Save data is NOT secured on Google Play Games or iCloud - different cloud services not used by FTG games. Legacy DLS19-era games: only iCloud (iOS) / Google Play Saved Games (Android), no cross-platform transfer. 8 Ball Hero alone uses Facebook",
+      "retrieved_at": "2026-10-17T17:10Z"
+    },
+    {
+      "id": "S-20261017-065",
+      "url_or_query": "web_search: DLS 2026 version 13.140-13.210",
+      "tool": "discovery-search",
+      "status": "success (GAP RESOLVED)",
+      "source_family": "mixed",
+      "payload_summary": "APKMirror runs 13.130 (Mar 27 2026) directly to 13.300 (May 27) - no 13.140-13.299 build on APKMirror/APKPure/Softonic/appglint; TouchArcade still listed 13.130 as current 'Updated Mar 27 2026'. App Store version history recovered 13.050 (Jan 15) launch notes in full (Clans, TR/AR commentary, updated data, unlimited Special Players, improved venues, match atmosphere, Kick-Off Stars Raphinha+Alvarez, soundtrack, cutscenes, gameplay, hundreds of fixes) and 13.130 (Mar 27, Dream Stars 2026 boosted players + 12th Man vote)",
+      "retrieved_at": "2026-10-17T17:20Z"
+    },
+    {
+      "id": "S-20261017-066",
+      "url_or_query": "web_search: DLS 2026 version 13.360-13.400",
+      "tool": "discovery-search",
+      "status": "success (GAP RESOLVED)",
+      "source_family": "mixed",
+      "payload_summary": "APKMirror runs 13.350 (Jul 14) directly to 13.410 (Aug 20); dlsinside version-code table shows code 154=13.350 then 158=13.410, implying codes 155-157 were internal-only. No public release between mid-July and Aug 20",
+      "retrieved_at": "2026-10-17T17:20Z"
+    },
+    {
+      "id": "S-20261017-067",
+      "url_or_query": "web_search (Indonesian): DLS 2026 forum diskusi komunitas tips formasi",
+      "tool": "discovery-search",
+      "status": "success (NON-ENGLISH LANE)",
+      "source_family": "community-non-english",
+      "payload_summary": "industry.co.id guide (4-4-2 best basic, stadium most important facility, market refreshes each match, coaches 4 categories, physios claim), carakami.com formation guide (Apr 2026), teckknow.com (stamina is everything, rotation), kuybeli.com WhatsApp community-group directory (real Indonesian community locus), Reddit ms/Indonesian translation mirrors, r/DreamLeagueSoccer tips list",
+      "retrieved_at": "2026-10-17T17:20Z"
+    },
+    {
+      "id": "S-20261017-068",
+      "url_or_query": "web_search: DLS 2026 Cult Heroes ratings full list",
+      "tool": "discovery-search",
+      "status": "success",
+      "source_family": "third-party-database",
+      "payload_summary": "COMPLETE 12-card roster with ratings/positions from dreamkitsapp.com/players/type/cult-heroes (de Gea 85 GK, Dybala 85 SS/RW, Aubameyang 85 CF/RW, Alarcon 84 AM/CM, Vozinha 84 GK, Ziyech 84 RW/AM, Otamendi 84 CB, Insigne 84 LW/RW, David Luiz 84 CB/DM, Shaqiri 83 AM/RW, Herrera 83 CM/DM, Blind 83 CB/LB) + dlsinside per-player stat pages (0-1000 scale, dorsals, heights) + sakibpro ratings + dreamkitsapp data page (World Winners Cucurella 85 LB, World Heroes Messi 87 SS, Kick-off Stars Raphinha 85 LW). CONFLICT: Vozinha 84 (dreamkitsapp) vs 83 (dlsinside + dlskiturl) - 83 adopted",
+      "retrieved_at": "2026-10-17T17:20Z"
+    },
+    {
+      "id": "S-20261017-069",
+      "url_or_query": "web_search (Spanish): DLS 2026 foro comunidad tactica guia",
+      "tool": "discovery-search",
+      "status": "success (NON-ENGLISH LANE)",
+      "source_family": "community-non-english",
+      "payload_summary": "MUNDODLS.COM FORO found - 'La comunidad #1 de Dream League Soccer en espanol' (kits/tactics/squads) plus mundodls positions guide (ED/EI/MC/MCO codes); es.kotaku guide (Jan 2026: sprint abuse penalized, patience, containment defending, role-specialised training); tuapppara.com (confirms official stat semantics in Spanish); r/DreamLeagueSoccer Tips/Tricks List (Mar 18 2026) - defensive-control, anti-wing-spam, anti-C-spam, close-control dribbling, free-kick and corner tactics",
+      "retrieved_at": "2026-10-17T17:20Z"
+    }
   ],
   "source_families": {
-    "official-store-listing": ["play.google.com", "apps.apple.com"],
-    "official-support": ["support.ftgames.com (Zendesk)"],
-    "official-social": ["x.com/firsttouchgames", "tiktok.com/@dreamleaguesoccer.ftg", "instagram.com/playdls", "facebook.com/dreamleaguesoccer"],
-    "third-party-database": ["apkmirror.com", "apkcombo.com", "dlsinside.com", "appbrain.com", "appmagic.rocks", "appglint.com", "sakibpro.com", "uptodown.com", "soft112.com", "cepde.net", "cafebazaar.ir", "dlskiturl.com"],
-    "community-english": ["reddit.com/r/DreamLeagueSoccer", "gamingonphone.com", "ggbro.io"],
-    "community-non-english": ["es.wikipedia.org", "vi.wikipedia.org", "tiktok.com (pt/discover)", "youtube.com (hi)", "kitdls.net (vi)"],
-    "technical-archive": ["apkmirror.com (static variant data)"],
-    "user-generated-content": ["youtube.com", "tiktok.com"],
-    "content-farm-screened": ["fifaworldcupnews.com", "thesoccerera.com", "sportsdunia.com", "dlskits.mobi", "playdreamleaguesoccer.com"],
-    "mod-distribution-screened": ["mokoweb.com", "dlsmod.com", "modyolo.com", "liteapks.com", "relaxmodapk.com"],
-    "non-connected-games": ["ezarena.com (FC 26)", "fm26tactics.com (FM 26)", "itemd2r.com (FC 26)"]
+    "official-store-listing": [
+      "play.google.com",
+      "apps.apple.com"
+    ],
+    "official-support": [
+      "support.ftgames.com (Zendesk)"
+    ],
+    "official-social": [
+      "x.com/firsttouchgames",
+      "tiktok.com/@dreamleaguesoccer.ftg",
+      "instagram.com/playdls",
+      "facebook.com/dreamleaguesoccer"
+    ],
+    "third-party-database": [
+      "apkmirror.com",
+      "apkcombo.com",
+      "dlsinside.com",
+      "appbrain.com",
+      "appmagic.rocks",
+      "appglint.com",
+      "sakibpro.com",
+      "uptodown.com",
+      "soft112.com",
+      "cepde.net",
+      "cafebazaar.ir",
+      "dlskiturl.com"
+    ],
+    "community-english": [
+      "reddit.com/r/DreamLeagueSoccer",
+      "gamingonphone.com",
+      "ggbro.io"
+    ],
+    "community-non-english": [
+      "es.wikipedia.org",
+      "vi.wikipedia.org",
+      "tiktok.com (pt/discover)",
+      "youtube.com (hi)",
+      "kitdls.net (vi)"
+    ],
+    "technical-archive": [
+      "apkmirror.com (static variant data)"
+    ],
+    "user-generated-content": [
+      "youtube.com",
+      "tiktok.com"
+    ],
+    "content-farm-screened": [
+      "fifaworldcupnews.com",
+      "thesoccerera.com",
+      "sportsdunia.com",
+      "dlskits.mobi",
+      "playdreamleaguesoccer.com"
+    ],
+    "mod-distribution-screened": [
+      "mokoweb.com",
+      "dlsmod.com",
+      "modyolo.com",
+      "liteapks.com",
+      "relaxmodapk.com"
+    ],
+    "non-connected-games": [
+      "ezarena.com (FC 26)",
+      "fm26tactics.com (FM 26)",
+      "itemd2r.com (FC 26)"
+    ]
   },
   "coverage": {
     "official": "deep (25 FTG support articles captured in full)",
-    "third_party_databases": "covered (dlsinside partial - JS-rendered rows)",
+    "third_party_databases": "covered (dlsinside partial - JS-rendered rows; dreamkitsapp card DB cross-checked)",
     "english_community": "covered",
-    "non_english_community": "extended (ID/VI/FA/FR/PT store copies, kitdls.net, sikayetvar.com, Turkish threads) - true forums still owed",
+    "non_english_community": "covered (Spanish forum mundodls.com; Indonesian guides + WhatsApp group directory; ID/VI/FA/FR/PT store copies; Malay translation mirrors) - Turkish public forum still open",
     "technical": "partial (static APK variant data; no decompilation yet)",
     "user_generated_content": "partial (YouTube, TikTok)"
   },
