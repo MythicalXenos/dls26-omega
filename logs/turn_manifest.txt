@@ -32,3 +32,13 @@ TURN 25 (2026-10-18 ~00:50Z ckpt-20261018-step1-024):
 - Sample 15: 7/7 clean post-stamp.
 - Totals: 147 claims (+4 net), 156 EV (+1).
 - Remaining: nuget/crates/maven/conda-forge registry scans; LeoH321/DLSsuperleague Chinese league manager; FootballGamingBD sibling repos deep scan; com.firsttouchgames.dls7 276-hit launcher/backup app inspection for save paths; girtab.github.io 702-hit triage; web_search of community forums once available.
+
+TURN 26 (2026-10-18 ~01:15Z ckpt-20261018-step1-025):
+- Pulled LeoH321 Chinese DLS tools (quiz/reaction/superleague); LeoH321/DLSsuperleague = WeChat league manager shell (very little mechanic text, community-only).
+- girtab/girtab.github.io: 75064 files, ZERO DLS/dream-league/梦幻足球 matches — the 702 code hits were false-positive substring matches on "Dls" in other contexts. Discard.
+- FootballGamingBD sibling repos enumerated: Dls is empty, dls-player-db is a player→card-art index (Messi 12 cards), DLS26_PlayerData is a 154KB Player.json (card roster), Player-Database has a 1MB Player(21).json (card art DB), PlayerDls is a demo stub, Mahi empty, Main contains a 5MB csvjson.json of 14089 legacy DLS rows (Arsenal Invincibles era Fabianski/Vermaelen/Gallas/Eboue/Fàbregas — a historical/old-schema data dump, not DLS26), Main_repo empty README.
+- MAJOR find: thienntdev/bot-dls (Vietnamese CV/ML auto-bot) — 23 Python source files for BlueStacks/Nox/LDPlayer/GameLoop farming.
+- EV-254: button mapping confirmed A=pass/B=shoot/C=skill; full in-match state machine (MAIN_MENU/CAREER/LIVE + all set pieces + ATTACK/DEFEND/COUNTER); ad inventory (rewarded/interstitial/skip); rewarded ads give coins OR diamonds; 360° joystick confirmed; HUD templates for stamina/boost indicators.
+- CLAIM-150 (button map), CLAIM-151 (state machine), CLAIM-152 (ad types), CLAIM-153 (HUD elements); CLAIM-026 refined.
+- Sample 16: 7/7 clean post-stamp.
+- Totals: 151 claims (+4), 157 EV (+1).

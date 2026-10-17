@@ -1,0 +1,14 @@
+{
+  "default": {
+    "gold": 15000,
+    "diamonds": 400
+  },
+  "emulator_3": {
+    "gold": 123123213,
+    "diamonds": 400
+  },
+  "sdfsadf": {
+    "gold": 15000,
+    "diamonds": 400
+  }
+}

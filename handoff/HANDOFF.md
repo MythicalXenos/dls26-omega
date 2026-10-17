@@ -1,21 +1,30 @@
 # HANDOFF
 
-- Bootstrap phase: **STEP 1 RESEARCH SWEEP — REOPENED (UNBOUNDED)** per user directive turn 22. Prior closure (EPOCH_CONTRACT §2, CLOSURE_STATUS) is SUPERSEDED; saturation is the stopping condition.
-- Latest published commit: `f2eed74` (ckpt-20261017-step1-022). Local == remote verified.
+- Bootstrap phase: **STEP 1 RESEARCH SWEEP — REOPENED (UNBOUNDED).** Saturation not yet reached.
+- Latest published commit: `43d2a00` (ckpt-20261018-step1-024). Local == remote verified.
 - Branch: `arena/b5d5681d-dls26-omega`.
-- Knowledge base: 134 claims, 153 EV, 13 samples (sample 13 7/7 clean post-stamp).
-- Latest EV added: EV-248 (FBGD multi-card resolution, champion-88 corroborated), EV-249 (taptrap static APK analysis: Unity build, target SDK 35, 4 ad SDKs), EV-250 (TrungTaHust DLSStats shell).
-- Latest claims added: CLAIM-135 (multi-card-per-player), CLAIM-136 (Unity build + ad SDK set).
-- Major new findings this checkpoint:
-  - Champion 88 conflict RESOLVED two-source (dreamkitsapp + FBGD); OVR references require card-type annotation.
-  - DLS26 confirmed Unity engine build (Unity Ads activity) with target SDK 35; ad SDKs = AdColony + Unity Ads + MoPub + AdMob.
-  - DLS_Manager_26.apk is a TWA shell, discarded.
-  - pypi/npm confirmed empty for DLS26 tooling (3 scam npm hack packages only).
-  - FBGD repo fully enumerated — Data/*.json only, no formulas/stats.
-- Research budget remaining (Step 1, REOPENED):
-  - NuGet / crates.io / cocoapods / maven-central / conda-forge scans (exhaustive sweep).
-  - GitHub remaining targeted queries (rate-limited): "dls26 squad", DLS26 pack simulator, Discord/Reddit repos, 梦幻足球联盟, FBGD/DLS26China sibling enumeration, TrungTaHust dls_ext_sv tree, iSharaf6/blocky-league check, imsaifbalti/dls-kit-generator, lsproductionmarketing-oss/dls26-kits, alexsuccess2013/success-dls-zone, Larrycr7aaaa/UPDATED-DLS26-data-PF.
-  - com.firsttouchgames.dls7 276-hit sweep for launcher/backup apps that reveal save paths.
-  - English-language fan discord/reddit/wiki aggregation (TLS-blocked from sandbox except api.github.com; will need web_search + fetch_page once available; currently blocked by allowlist).
-- Step 2 (APK static datamine) remains staged after Step 1 saturation.
-- Terminal line machine-ready at end of assistant reply.
+- Knowledge base: 147 claims, 156 EV, 15 samples (sample 15 7/7 clean post-stamp).
+- Major findings this burst (turns 23-25):
+  - TrungTaHust/dls-ext discovered — major Vietnamese DLSStats PWA with full stat schema + master historical DB (26,145 player-rows across 8 updates 20231→20262 + 20263 separate).
+  - 8-attribute schema CONFIRMED: SPE/ACC/STA/STR/CON/PAS/SHO/TAC (outfield); GKR/GKH remap for GKs.
+  - OVR formula reverse-engineered to MAE=0.38 via multi-season OLS (CLAIM-145, High Confidence); stable across all 8 updates over 3 years. CON heaviest, STA lightest.
+  - Base-roster hard cap 86 held every version 20231–20263 (CLAIM-147); promos go 82–98 (Larrycr7aaaa API).
+  - Price tiers: 4 sub-tiers per OVR, 20–2800 coins; prc=0 = locked/untradeable (CLAIM-139/149).
+  - Default formations for 149 clubs + 79 nations (CLAIM-140).
+  - Multilingual EN/ES/PT position-code aliases (CLAIM-146).
+  - Multi-card-per-player structure corroborated across dreamkitsapp + FBGD + TrungTaHust (CLAIM-135).
+  - Unity engine build + ad SDK set (AdColony/Unity Ads/MoPub/AdMob) confirmed from taptrap security corpora (CLAIM-136).
+  - Champion 88/98 ceiling hierarchy resolved (CLAIM-144).
+  - pypi/npm empty for DLS tooling; wasswacosmas/DLS26 etc = scam templates; fathidevs/DreamLeagueKit = kit-creator app only (no stats); Larrycr7aaaa "FTG-API" = static SPA, not real FTG endpoint; DLS_Manager_26.apk = TWA shell.
+- Remaining research avenues (not yet exhausted):
+  - nuget / crates.io / cocoapods / maven-central / conda-forge package scans (exhaustive).
+  - LeoH321/DLSsuperleague Chinese WeChat league manager (92KB HTML, may contain meta/league rules).
+  - FootballGamingBD sibling repos (Dls/DLS26_PlayerData/Player-Database/players/PlayerDls/Mahi/Main/Main_repo/dls-player-db) full fetch for duplicate/overlapping DBs.
+  - com.firsttouchgames.dls7 276-hit triage in launcher/backup/analytics apps (save paths, shared prefs).
+  - girtab/girtab.github.io (702 code hits — likely Chinese blog/mirror site; needs inspection).
+  - LeoH321 DLS26-quiz / dls26-reaction-test (Chinese community UI, may reveal translated mechanic terms).
+  - libojia-aug/bistu_360_game_crawler (4 hits — "game crawler" for 360 market; may list package internals).
+  - Additional web search for Chinese-language 梦幻足球联盟 communities, Discord/Reddit communities, Facebook/Vietnam groups.
+  - DLS subreddit/wiki/discord indexing via GitHub-mirrored Discord bots/archival repos.
+- Step 2 (APK static datamine) staged after saturation; Unity build makes asset-bundle extraction feasible.
+- Terminal line follows.
