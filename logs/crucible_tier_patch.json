@@ -1,0 +1,1034 @@
+[
+  {
+    "claim_id": "CLAIM-001",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "DLS26 ('Dream League Soccer 2026') is the 2025/26-season entry of First Touch Games' Dream",
+    "sources": [
+      "inferred",
+      "official",
+      "reddit",
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-002",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Official FTG support states: Multiplayer leaderboards (Dream League Live) compare performa",
+    "sources": [
+      "inferred",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-003",
+    "old": "Speculative",
+    "new": "Confirmed",
+    "rationale": "The highest verifiable global competitive ranking for the mission is NOT yet established. ",
+    "sources": [
+      "en-blog",
+      "inferred",
+      "official",
+      "reddit"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-004",
+    "old": "Speculative",
+    "new": "Confirmed",
+    "rationale": "Career mode features 8 divisions and 10+ cup competitions (official store text); a VI comm",
+    "sources": [
+      "inferred",
+      "official",
+      "reddit",
+      "store",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-007",
+    "old": "Speculative",
+    "new": "High Confidence",
+    "rationale": "Base card (non-event, non-special legendary) ratings top out around 86 OVR in current list",
+    "sources": [
+      "dreamkitsapp",
+      "fbgd",
+      "inferred",
+      "larry",
+      "store",
+      "trung",
+      "youtube"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-008",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "DLS26 launch resolved by store version history (EV-183, App Store id1462911602, official-s",
+    "sources": [
+      "inferred",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-009",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "FTG official-stated policy: Dream League Live matches are always human-vs-human with no bo",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-010",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "The career ladder is 8 divisions and the official store description names the top division",
+    "sources": [
+      "inferred",
+      "official",
+      "reddit"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-011",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Single-player difficulty scales with division progression, and players can set base diffic",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-012",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "'Tier' is overloaded in official materials: LIVE Tier ranking (matchmaking ladder) vs Seas",
+    "sources": [
+      "botdls",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-013",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Official stat model (DLS): SPE/ACC/STA/CON/STR/TAC/PAS/SHO/GKH/GKR/ENERGY effects as docum",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-014",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Seasons are global bounded periods (shared end date for all users, visible countdown); the",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-015",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Gems sources (official): league objectives, tournaments, Season Pass, Prize Ladder, and pa",
+    "sources": [
+      "inferred",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-016",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Prize Ladder grants progression rewards (coins, gems, coaches, dream point boosts, special",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-017",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "FTG enforcement policy: only App Store/Google Play builds are authorised; modded APKs, ext",
+    "sources": [
+      "botdls",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-018",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Official netcode claims: DLL matches run through FTG cloud servers; opponent connection qu",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-019",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Coin sources (official list): match wins/draws/clean sheets/goals, stadium bonuses, season",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-020",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Player acquisition channels (official, article 360004066417): Transfers (new players appea",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-021",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "A SEASON LEADERBOARD (accessed from the Main Menu) displays players Season Points totals; ",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-022",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "One DLS account per player; profile linking via Google (Android)/Apple (iOS) sign-in or on",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-023",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Account identity rules (official): profile loan/exchange/share/sale/purchase is prohibited",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-024",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Official design statement: DLS is not a full simulation; unpredictable situations, unreali",
+    "sources": [
+      "larry",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-025",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "FTG does not announce update/release schedules on request (news via social channels only);",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-026",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Controls layout (default): left virtual joystick (360\u00b0 movement); right side has three vir",
+    "sources": [
+      "botdls",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-027",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "DLL matchmaking inputs are primarily LIVE Tier ranking, player location and the availabili",
+    "sources": [
+      "inferred",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-028",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Coaches are player-development consumables: a selected coach randomly picks a player to pe",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-029",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Squad churn rules (official): non-Starting-11 players can be discarded for a specified pay",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-030",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "DLS requires online connectivity for the majority of features (Wi-Fi recommended); player ",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-031",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Difficulty model (official): single-player difficulty scales with division progress; DLS25",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-032",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Release economy (version 12200+): releasing a player via Transfers>Manage Players grants a",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-033",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Card rarity taxonomy (official): common=bronze, rare=blue, legendary=gold, max=red, specia",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-034",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Customisation surface (official): team/manager name+appearance, per-player boots/numbers, ",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-035",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Age policy (official): games offered to 13+; first-download age confirmation into bandings",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-037",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Graphics options are ANDROID-ONLY (Options>Advanced>Graphics): FPS cap 30/60 (constant 30 ",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-038",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Pre-match kit selection: on the lineup screen, clicking player models cycles Home/Away kit",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-039",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "IAP restriction (official): purchases can be gated by store-side password/authentication (",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-040",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Season Pass mechanics (official): FREE+PREMIUM tiers; pass unlocks Progress Bank (currency",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-041",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Data deletion (official): \"Delete Profile\" in-game (DLS: Settings>Advanced>Delete) wipes A",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-042",
+    "old": "Disputed",
+    "new": "Confirmed",
+    "rationale": "Save-path guidance conflict preserved: an older official article documents an in-game iClo",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-044",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Fair-gaming charter (official): no pre-determined results, no artificial bias between play",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-045",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "DLS26 store facts (official listing copy): title \"Dream League Soccer 2026\"; 8 divisions t",
+    "sources": [
+      "official",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-046",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "DLS26 roster DB (SakibPro, updated 2026-10-11): 17 newly added players; card types CLASSIC",
+    "sources": [
+      "official",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-047",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "Market pricing model (community DB): transfer price determined by base OVR + exact positio",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-051",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "ID community guide (industry.co.id, Sep 2026) claims Dream League Live pays GEMS by weekly",
+    "sources": [
+      "id-blog",
+      "inferred",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-052",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "DLS26 permanent player development runs through a TRIAD: Players, Coaches, Physio (industr",
+    "sources": [
+      "id-blog",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-053",
+    "old": "Confirmed",
+    "new": "Community Consensus",
+    "rationale": "App Store ID-locale snapshot 2026-10-11: #7 free Sports chart (ID), 42K ratings 4.6, 269.6",
+    "sources": [
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-054",
+    "old": "Confirmed",
+    "new": "Community Consensus",
+    "rationale": "DLS26 official version timeline (App Store ID-locale history): 13.040 LAUNCH 17/12/2025 (s",
+    "sources": [
+      "inferred",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-055",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "Live-upgrading special-player lineage (store version history): 'Dream Stars 26' (announced",
+    "sources": [
+      "inferred",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-056",
+    "old": "Confirmed",
+    "new": "Community Consensus",
+    "rationale": "App Store ID IAP catalog + app metadata (2026-10-11): **Season Pass Rp 35.000 and Promo Se",
+    "sources": [
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-057",
+    "old": "Confirmed",
+    "new": "High Confidence",
+    "rationale": "Franchise distribution model confirmed via version history on ONE listing: DLS26 band = 13",
+    "sources": [
+      "id-blog",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-059",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "DLS26 special-card taxonomy is MULTI-SCHEME (dreamkitsapp catalog, 10 types): Cult Heroes,",
+    "sources": [
+      "fbgd",
+      "inferred",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-060",
+    "old": "Confirmed",
+    "new": "Community Consensus",
+    "rationale": "dreamkitsapp player numbers are self-declared APPROXIMATE CALCULATIONS from stats (site no",
+    "sources": [
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-062",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "DIVISION SEASON STRUCTURE (download.com.vn VI guide): each Division season = 15 MATCHES; p",
+    "sources": [
+      "inferred",
+      "official",
+      "store",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-065",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "CURRENCY FLOW MAP (partial separation, VI source): Career matches -> **Season Points + Coi",
+    "sources": [
+      "inferred",
+      "official",
+      "store",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-066",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "Mode + card-color map: Exhibition = OFFLINE (default 4-4-2; 4-1-2-1-2 unlocked by default)",
+    "sources": [
+      "id-blog",
+      "official",
+      "store",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-068",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "SEASON PASS + PROGRESSION BANK economics (download.com.vn, consistent with EV-162 store no",
+    "sources": [
+      "official",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-069",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "Economy/health tips (download.com.vn): Stadium Commercials L2 +13% / L3 +21% coins per mat",
+    "sources": [
+      "id-blog",
+      "store",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-070",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "Community formation rankings (download.com.vn): 4-3-3 (wing attack/fast counters), 4-2-3-1",
+    "sources": [
+      "id-blog",
+      "official",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-072",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Account/profile policy (VI mirror of official FAQ): DLS25 profiles carry over to DLS26 (ke",
+    "sources": [
+      "apk-static",
+      "official",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-079",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "ROSTER LICENSING GAPS EXIST (official staff comment on 360004718318): 'for licensing reaso",
+    "sources": [
+      "official",
+      "store",
+      "store-mirror"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-084",
+    "old": "Confirmed",
+    "new": "Community Consensus",
+    "rationale": "PUBLIC CHEAT/MOD/AUTOMATION ECOSYSTEM exists around the DLS franchise (incl. DLS26-branded",
+    "sources": [
+      "gh-ugc"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-085",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "COMMUNITY DATA/TOOLING LAGS THE LIVE SEASON: fan datasets and creator tools observed 2026-",
+    "sources": [
+      "gh-ugc",
+      "store-mirror",
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-086",
+    "old": "Speculative",
+    "new": "Community Consensus",
+    "rationale": "COMMUNITY PLAYER-ATTRIBUTE TAXONOMY (v10.20-era dump, planning aid ONLY): 13 positions (GK",
+    "sources": [
+      "store-mirror"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-087",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "DLS26 CURRENT PUBLIC BUILD IS 13.4x: latest observed 13.430 (Google Play, last updated 202",
+    "sources": [
+      "official",
+      "store-mirror"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-088",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "DLS26 PROGRESSION IS MULTI-TRACK (no single global rank): parallel reward/ladder systems d",
+    "sources": [
+      "en-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-089",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "'My Club' is the in-game menu that contains the kit/customisation surface: Main Menu > My ",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-090",
+    "old": "Speculative",
+    "new": "Confirmed",
+    "rationale": "'Scripts' is community slang for perceived momentum or rubber-banding manipulation, not a ",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-092",
+    "old": "Community Consensus",
+    "new": "Speculative",
+    "rationale": "Historical/legend players can appear in multiple versions and multiple copies can exist in",
+    "sources": [
+      "kb-import"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-093",
+    "old": "Confirmed",
+    "new": "Community Consensus",
+    "rationale": "Facilities are five in number: Stadium, Medical, Commercial, Training (store copy) and Fan",
+    "sources": [
+      "kb-import",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-095",
+    "old": "Speculative",
+    "new": "Community Consensus",
+    "rationale": "'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup W",
+    "sources": [
+      "youtube"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-097",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "OVR is community/tool shorthand for Overall (the player's rating). Tool usage: sakibpro de",
+    "sources": [
+      "sakibpro"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-099",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Friend Match is a private match created with a shared code or word (characters A-Z, 0-9 an",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-100",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Device compatibility guidance is NOT published as a minimum-spec list. The official articl",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-101",
+    "old": "Community Consensus",
+    "new": "Speculative",
+    "rationale": "Squad depth: DLS26 carries reserves plus a fixed eight substitutes (community megathread, ",
+    "sources": [
+      "reddit"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-102",
+    "old": "Speculative",
+    "new": "Community Consensus",
+    "rationale": "New-player starting state: a basic lineup around 50-60 OVR; returning players carry progre",
+    "sources": [
+      "sakibpro"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-103",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Live-service cadence: DLS26 receives multiple in-season updates (observed roughly monthly ",
+    "sources": [
+      "inferred",
+      "official",
+      "store",
+      "store-mirror"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-104",
+    "old": "Speculative",
+    "new": "High Confidence",
+    "rationale": "Team OVR formula (sakibpro tool claim): the team rating is the mean of the base-or-maxed O",
+    "sources": [
+      "leo-cb",
+      "sakibpro"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-105",
+    "old": "Speculative",
+    "new": "High Confidence",
+    "rationale": "Community theory: a 'trained' player's rating behaves as base + 1 OVR. Single Reddit threa",
+    "sources": [
+      "leo-cb",
+      "sakibpro"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-111",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "Per-level facility effect values reported by a VI guide (download.com.vn, Community Consen",
+    "sources": [
+      "id-blog",
+      "kb-import",
+      "store",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-116",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "Special-player taxonomy with counts (dlsinside database at build 13.430, single database):",
+    "sources": [
+      "dreamkitsapp"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-119",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "OFFICIAL update-troubleshooting ladder (article 360000220945): iOS \u2014 close DLS, open App S",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-120",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') can be removed: Game Sett",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-121",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Dream League Live emoji system (official 360020938198): six emojis available by default; f",
+    "sources": [
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-122",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Custom imported kits and logos are NOT visible to opponents in Dream League Live (official",
+    "sources": [
+      "official",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-123",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "OFFICIAL FAIRNESS STANCE (article 360000842697): DLS is a game, not an accurate simulation",
+    "sources": [
+      "larry",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-126",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "VERSION-GAP RESOLUTION (B-009, sibling research): the two apparent gaps in the 2026 versio",
+    "sources": [
+      "dlsinside",
+      "official",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-127",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Stat display scale (GS-042 sibling observation): dlsinside publishes raw attribute values ",
+    "sources": [
+      "dreamkitsapp",
+      "official",
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-129",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Cult Heroes 12-card roster, database-corroborated (GS-039/040 sibling): David de Gea GK 85",
+    "sources": [
+      "dreamkitsapp",
+      "fbgd",
+      "inferred",
+      "larry",
+      "official",
+      "store",
+      "trung",
+      "youtube"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-131",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Card-roster distribution from the FootballGamingBD card-creator database (snapshot 2026-10",
+    "sources": [
+      "dreamkitsapp",
+      "fbgd",
+      "inferred",
+      "larry",
+      "official",
+      "store",
+      "trung",
+      "youtube"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-133",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coache",
+    "sources": [
+      "inferred",
+      "kb-import",
+      "leo-cb",
+      "sakibpro",
+      "store"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-135",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "Star players have MULTIPLE cards across collections/rarities with different OVRs and posit",
+    "sources": [
+      "fbgd"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-136",
+    "old": "High Confidence",
+    "new": "Confirmed",
+    "rationale": "Build stack confirmed via static analysis of an APK in academic corpora: DLS26 is a UNITY ",
+    "sources": [
+      "apk-static",
+      "botdls",
+      "kb-import",
+      "official",
+      "store",
+      "trung",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-139",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys \"RR1\"..\"RR4\" ",
+    "sources": [
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-140",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "Default (starting) formations are set per team: 149 clubs + 79 nations are catalogued in f",
+    "sources": [
+      "official",
+      "trung",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-141",
+    "old": "High Confidence",
+    "new": "Community Consensus",
+    "rationale": "DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, ",
+    "sources": [
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-144",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "DLS26 OVR ceiling hierarchy, corrected: base golds cap 86 (EV-251); vintage Champion/Star/",
+    "sources": [
+      "fbgd",
+      "larry",
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-146",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR ",
+    "sources": [
+      "inferred",
+      "larry",
+      "official",
+      "reddit",
+      "trung"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-150",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "On-screen action button mapping in match controls: A = pass (ground pass / through ball co",
+    "sources": [
+      "botdls",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-151",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = ",
+    "sources": [
+      "botdls",
+      "official"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-152",
+    "old": "Community Consensus",
+    "new": "Confirmed",
+    "rationale": "Ad inventory confirmed by bot: (1) rewarded ads (center-screen, no skip, reward is coins O",
+    "sources": [
+      "apk-static",
+      "botdls",
+      "kb-import",
+      "official",
+      "store",
+      "trung",
+      "vi-blog"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-157",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "Stat colors on in-game player cards follow thresholds: attribute \u226590 \u2192 blue, \u226580 \u2192 green, ",
+    "sources": [
+      "fbgd",
+      "leo-cb"
+    ]
+  },
+  {
+    "claim_id": "CLAIM-158",
+    "old": "Community Consensus",
+    "new": "High Confidence",
+    "rationale": "DLS26China optimal-coach decision rule for CB training: pick Gold (+3) when remaining weig",
+    "sources": [
+      "leo-cb",
+      "store"
+    ]
+  }
+]

@@ -1,23 +1,22 @@
-STEP 2 APK ACQUISITION BLOCKED — ATTENTION_REQUIRED
+# ATTENTION_REQUIRED — Post-Crucible Audit Pause (2026-10-17T21:46Z)
 
-Step 1 research sweep is closed (saturated). Step 2 requires the actual DLS26 APK (com.firsttouchgames.dls7) for Unity asset/IL2CPP datamine.
+## Status
+- Step 1 (Exhaustive Research): CLOSED SATURATED — 156 claims / 158 EV
+- Standalone Crucible Audit: COMPLETE — 102 tier reclassifications; OVR formula QR-OLS refit MAE 0.376 (+/-1 99.79%); 0 ungrounded claims; 0 rejected claims
+- Step 2 (Static Datamining): BLOCKED — APK unavailable from sandbox allowlist
 
-Sandbox outbound network is restricted to api.github.com, github.com, codeload.github.com, pypi.org, files.pythonhosted.org, registry.npmjs.org. All APK hosts (Google Play, APKPure, APKMirror, APKMono, Uptodown, Softonic, happymod, mediafire, cdn.jsdelivr.net) and FTG's own servers are TLS-blocked from this environment, as confirmed by repeated probing turns 22–28.
+## Requested user action
+Upload DLS26 APK (`com.firsttouchgames.dls7`, ~31-34 MB base + splits) to `/home/user/dls26-omega/apk/dls26.apk`.
 
-GitHub corpus searched exhaustively: no real DLS26 APK is hosted on any public GitHub repo (releases checked across 7 repos; code search only reveals scanners, false-positive template matches, scam/fan-HTML shells, and one TWA wrapper we already downloaded and discarded as a webview-only shell).
+## Key audit findings (one line each)
+- OVR formula = 1.89 + 0.211 CON + 0.166 STR + 0.148 ACC + 0.142 SPE + 0.112 PAS + 0.111 SHO + 0.106 TAC + 0.037 STA (MAE 0.376 across 23,327 rows, 8 updates 20231-20262).
+- Base cap 86, promo >=96 (Champions Messi/Ronaldo 98 single-source).
+- CB training: CON costs 2, others cost 1; coaches +1/+2/+3; cap 100.
+- Controls: A=pass, B=shoot, C=skill + SPRINT/TACKLE/SWITCH.
+- 4 SDKs (AdMob, Unity, AppLovin, Pangle); 30 CV-detectable in-match states.
 
-To unblock Step 2, please provide ONE of:
-  1. A copy of the com.firsttouchgames.dls7 APK (any current version) uploaded into the workspace, e.g. at /home/user/dls26-omega/apk/dls26.apk;
-  2. An expanded APK directory tree (already unzipped) with assets/bin/Data present;
-  3. A URL from which the sandbox can download the APK (must be a host matching the allowlist above — Google Play does not work, but an S3/GitHub Releases URL would).
+## Final audited tier distribution
+Confirmed 96 / High Confidence 25 / Community Consensus 30 / Speculative 5 / Rejected 0.
 
-Once the APK (or Unity data directory) is available, Step 2 will proceed:
-  - Unzip APK, extract unity builtin data + global-metadata.dat
-  - Use strings/binwalk/assetstudio (pip UnityPy available offline? verify)
-  - Dump asset bundles (sharedassets, resources.assets, data.unity3d)
-  - Extract player-stats tables, OVR constants, coach tables, card definitions, formation data, event tables, matchmaking constants
-  - Cross-validate/refute OVR formula from EV-253; confirm GK attribute labels; enumerate non-CB coach weights; validate Dream Points/Form Boost/Season Pass economy
-  - Extract save/shared_prefs schema
-  - Produce the Step 2 datamine EVs.
-
-No further turns will make progress on Step 2 without an APK. Awaiting user action.
+## Pause line
+OMEGA:STEP1_AUDITED:AWAITING_APK:STEP2_BLOCKED:kb_audited_2026-10-17T2146Z

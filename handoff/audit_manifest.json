@@ -1,0 +1,610 @@
+{
+  "audit_id": "crucible-20261018",
+  "audit_timestamp_utc": "20261017T2146Z",
+  "audit_type": "standalone-epistemic-verification",
+  "pre_audit_snapshot": "kb_snapshots/claims_20261018T0150Z.jsonl",
+  "post_audit_snapshot": "kb_snapshots/claims_20261017T2146Z_postaudit.jsonl",
+  "claims_total": 156,
+  "ev_total": 158,
+  "tier_changes_applied": 102,
+  "skeptic_flags_added": 18,
+  "numeric_spotchecks": {
+    "ovr_formula_qr_ols_combined": {
+      "n": 23327,
+      "const": 1.893,
+      "con": 0.211,
+      "str": 0.166,
+      "spe": 0.142,
+      "acc": 0.148,
+      "pas": 0.112,
+      "sho": 0.111,
+      "tac": 0.106,
+      "sta": 0.037,
+      "mae": 0.376,
+      "rmse": 0.484,
+      "within_pm1_pct": 99.79,
+      "note": "v20251 STA anomaly (0.011 vs ~0.055) flagged as possible scrape issue"
+    },
+    "base_roster_20261": {
+      "n": 2518,
+      "rate_min": 52,
+      "rate_max": 86,
+      "non_gk": 2255,
+      "gk": 263,
+      "ovr86_count": 4,
+      "ovr86_price": 2800
+    },
+    "promo_larry": {
+      "n": 41,
+      "rate_min": 82,
+      "rate_max": 98,
+      "ovr98_players": [
+        "Lionel Messi (Champions)",
+        "Cristiano Ronaldo (Champions)"
+      ]
+    },
+    "cb_trainer_js": {
+      "weights_ctrl": 2,
+      "weights_other": 1,
+      "actions": [
+        1,
+        2,
+        3
+      ],
+      "cap": 100,
+      "capacity_thresholds": [
+        6,
+        12
+      ]
+    },
+    "botdls_buttons": {
+      "A": "pass",
+      "B": "shoot",
+      "C": "skill",
+      "hold": [
+        "sprint",
+        "tackle",
+        "switch"
+      ]
+    },
+    "botdls_states_count": 30
+  },
+  "tier_distribution_post": {
+    "Confirmed": 96,
+    "High Confidence": 25,
+    "Community Consensus": 30,
+    "Speculative": 5,
+    "Disputed": 0,
+    "Rejected": 0
+  },
+  "tier_changes": [
+    {
+      "claim_id": "CLAIM-001",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-002",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-003",
+      "old": "Speculative",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-004",
+      "old": "Speculative",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-007",
+      "old": "Speculative",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-008",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-009",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-010",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-011",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-012",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-013",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-014",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-015",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-016",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-017",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-018",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-019",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-020",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-021",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-022",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-023",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-024",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-025",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-026",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-027",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-028",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-029",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-030",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-031",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-032",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-033",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-034",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-035",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-037",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-038",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-039",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-040",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-041",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-042",
+      "old": "Disputed",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-044",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-045",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-046",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-047",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-051",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-052",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-053",
+      "old": "Confirmed",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-054",
+      "old": "Confirmed",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-055",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-056",
+      "old": "Confirmed",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-057",
+      "old": "Confirmed",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-059",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-060",
+      "old": "Confirmed",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-062",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-065",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-066",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-068",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-069",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-070",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-072",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-079",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-084",
+      "old": "Confirmed",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-085",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-086",
+      "old": "Speculative",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-087",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-088",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-089",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-090",
+      "old": "Speculative",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-092",
+      "old": "Community Consensus",
+      "new": "Speculative"
+    },
+    {
+      "claim_id": "CLAIM-093",
+      "old": "Confirmed",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-095",
+      "old": "Speculative",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-097",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-099",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-100",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-101",
+      "old": "Community Consensus",
+      "new": "Speculative"
+    },
+    {
+      "claim_id": "CLAIM-102",
+      "old": "Speculative",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-103",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-104",
+      "old": "Speculative",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-105",
+      "old": "Speculative",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-111",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-116",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-119",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-120",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-121",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-122",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-123",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-126",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-127",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-129",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-131",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-133",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-135",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-136",
+      "old": "High Confidence",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-139",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-140",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-141",
+      "old": "High Confidence",
+      "new": "Community Consensus"
+    },
+    {
+      "claim_id": "CLAIM-144",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-146",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-150",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-151",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-152",
+      "old": "Community Consensus",
+      "new": "Confirmed"
+    },
+    {
+      "claim_id": "CLAIM-157",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    },
+    {
+      "claim_id": "CLAIM-158",
+      "old": "Community Consensus",
+      "new": "High Confidence"
+    }
+  ],
+  "cross_branch_drift": [
+    "CLAIM-007",
+    "CLAIM-020",
+    "CLAIM-026",
+    "CLAIM-049",
+    "CLAIM-087"
+  ],
+  "outstanding_gaps_require_apk": [
+    "Non-CB coach attribute weights (position-specific matrix beyond CB)",
+    "Dream Points / Form Boost / Season Pass exact numerics",
+    "GKR vs GKH column remap for all GKs (not just 3 promos)",
+    "Matchmaking/ELO algorithm beyond FTG-stated inputs",
+    "Ad reward values, frequency caps, ad classes beyond bot-default configs",
+    "4th/yellow/epic coach tier existence",
+    "Fractional-overflow rounding mode in training-cost DP",
+    "Save/shared_prefs schema on device"
+  ],
+  "blocker_step2": "APK unavailable from sandbox allowlist; user upload requested to /home/user/dls26-omega/apk/dls26.apk (com.firsttouchgames.dls7)"
+}
