@@ -65,3 +65,9 @@ TURN 28 (2026-10-18 ~01:50Z ckpt-20261018-step1-027) — SATURATION DECLARATION 
   · Major mechanics grounded: 8-attr schema, OVR linear formula (MAE 0.38, stable 3y), base cap 86 / promo up to 98, coach +1/+2/+3 tiers with position-weighted capacity (CB CON=2), 100-stat hard cap, k-of-n random draw, over-cap dilution, A=pass/B=shoot/C=skill, state machine, set pieces, 3 ad classes rewarded/interstitial/skip, Unity build, 4 ad SDKs, GK column remap, price tiers, formations, 5484-player 2026 roster, multi-card-per-player, licensing gaps, community eco-system.
   · Remaining unknowns require APK datamine (save paths, GK attribute labels, non-CB coach weights, Dream Points/Form Boost/Season Pass constants, matchmaking ELO, AI difficulty internals, exact ad rewards per view).
 - STEP 1 RESEARCH SWEEP DECLARED SATURATED (available-source/community exhaustion). Proceeding to Step 2 (APK static datamine) at next '>' continuation, per the bootstrap sequence.
+
+TURN 29 (2026-10-18 ~01:55Z — ATTENTION_REQUIRED / STEP 2 BLOCKED):
+- Step 2 APK hunt executed: searched code + releases across all GitHub-hit repos; zero genuine DLS26 APKs (only the TWA wrapper already discarded in turn 23, plus scam mod-menu HTML shells and scanner datasets).
+- APK hosts (Google Play, APKPure, APKMirror, etc.) are all TLS-blocked by sandbox allowlist; no outbound access to non-allowlisted hosts.
+- Wrote handoff/attention_required.md explaining the blocker and requesting the APK (or an extracted data directory) from the user.
+- Bootstrap paused per protocol: no further Step 2 progress possible without APK bytes.
