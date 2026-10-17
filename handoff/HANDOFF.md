@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T19:32Z (session sess-20261017-001, turn 6, checkpoint ckpt-20261017-step1-005)
+Updated: 2026-10-17T20:02Z (session sess-20261017-001, turn 7, checkpoint ckpt-20261017-step1-006)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -28,6 +28,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - That work was imported losslessly into this branch (kb/, knowledge_management/, logs/, revision_register.md, user_profile.md, issue_tracker.md, kb_snapshots/, raw_game_data/). Prior handoff, prompt, rules digest, capability inventory and schema are preserved under docs/continuity/22655f48/ for provenance.
 - No open PR existed (PRs #1–#5 all CLOSED). No second PR opened yet; one branch per session.
 - Prompt discrepancy: prior capture was 173,446 bytes labelled v78; this session's delivered prompt is 175,596 bytes labelled v78 (43 changed lines, ~31 added clauses). The current delivered text is authoritative for this session; discrepancy logged OBS-007.
+
+## Turn 7 result — provenance, IN_PROGRESS accounting, exit readiness
+- Branch provenance map written (docs/continuity/BRANCH_PROVENANCE.md): every artifact attributed; three unmerged branches remain (22655f48 / a7e23a6b / this one) and must be reconciled by any later session.
+- All 23 IN_PROGRESS refs accounted individually; 18 are snippet-only pending access, 4 substantively complete, 1 a tail chunk.
+- Exit readiness memo: STEP_1_RESEARCH_READY is **not met** — sealed contract absent, extraction incomplete, community coverage snippet-level; gap documentation and handoff are met. Recommendation: do not seal while the sandbox blocks the web.
+- Coverage matrix refreshed with this environment's real reachability.
 
 ## Turn 6 result — parallel-branch delta, dispositions, Devil's Advocate
 - OBS-012: branch 22655f48 had advanced to a78595c; its turn-5 block (GS-024…030, L-008, IRREV-002) was imported as CLAIM-113…118 and merged into the derived views. Three unmerged branches now exist; reconciliation queued (RQ-013).
