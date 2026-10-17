@@ -1,4 +1,6 @@
 # KB — BUILD, VERSION & FRANCHISE STATE (DLS26)
+
+> **DERIVED VIEW — not the claim authority.** The live claim authority is `kb/claims.jsonl` (see `kb/claims_index.md`). This file is a topic summary retained for narrative context; where it disagrees with a claim record, the claim record wins.
 Live-state claims. Volatility-Critical items change with every patch; a current public-release check does not refresh them — re-verify before relying on them (OMEGA-EVIDENCE-002). All verified 2026-10-17 unless noted.
 
 - **B-001 Current build: 13.430, version code 160.** Uploaded Sep 16, 2026 (APKMirror; APKCombo "13.430 (160)"; dlsinside "Version 13430, Code 160, last update 2026-09-16"); Google Play "Updated on Sep 14, 2026"; Uptodown still listed 13.430 on Oct 15; AppBrain last update Sep 14. No newer build observed as of 2026-10-17. Confidence: High Confidence. Volatility: Critical. Origin: official store listings + independent APK archive + database. Note: APKPure/AppBrain/AppGlint/AppMagic/Soft112 all derive from Play Store data — not independent of each other.

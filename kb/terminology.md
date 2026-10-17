@@ -1,4 +1,6 @@
 # KB — TERMINOLOGY (DLS26)
+
+> **DERIVED VIEW — not the claim authority.** The live claim authority is `kb/claims.jsonl` (see `kb/claims_index.md`). This file is a topic summary retained for narrative context; where it disagrees with a claim record, the claim record wins.
 Turn-2 Step-1 obligation: resolve prompt shorthand and unnamed game terms to DLS26's exact terminology. Each claim: confidence tier, volatility tier, evidence origin, sources, verified date. Prompt terms are not evidence; where the prompt's shorthand differs from official wording, the official term wins and the correction is recorded.
 
 ## Resolved shorthands

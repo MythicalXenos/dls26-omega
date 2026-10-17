@@ -14,12 +14,21 @@ Updated 2026-10-17T17:30Z (session sess-20261017-001). Authority: OMEGA-CLOSURE-
 ## Condition 2 — extraction closure of reached information
 **NOT MET.** Outstanding: 23 refs IN_PROGRESS from the t69 accounting (community comment chunks, store chunks, app-store locale chunks), 15 named community refs mid-capture, and four articles captured only as GS summaries with no physical EV record (format debt, RQ-20261017-006). A GS summary proves a summary exists; it does not prove the full projection was extracted.
 
+### Evidence-to-claim accounting (turn 4, extracted corpus only)
+Of 123 preserved EV/EVD records in the imported corpus, **101 are cited** by at least one claim (96 before this turn's synthesis pass). The 22 uncited are classified (7 + 5 + 9 + 1 = 22) so none is silently ignored:
+- **Failure records (7):** EVD-0005…0010, EVD-0012 — page-missing/404 records, correctly never cited as support; retry debt sits in RQ-008.
+- **Inventory / scope records (5):** EV-109 (support section inventory), EV-114 (sakibpro DB index), EV-178 (tool comparison), EV-205 and EV-208 (scope decisions) — they support coverage accounting, not propositions.
+- **Revision/duplicate tails (9):** EV-133, EV-158, EV-159, EV-160, EV-161, EV-163, EV-164, EV-165, EV-168 — revision or duplicate captures whose canonical versions are cited; treating them as separate uncited claims would double-count the same projection.
+- **Synthesis gap (1):** EV-173 store review sentiment chunk — no claim yet; queued with the wider sentiment work rather than invented here.
+Conclusion: extraction closure is not the limiting factor for these records — the limiting factors are the t69 IN_PROGRESS material and the blocked web. No closure is claimed.
+
 ## Access limits in force
 - Sandbox allowlist: github.com, codeload.github.com, api.github.com, registry.npmjs.org, pypi.org, files.pythonhosted.org. All game/community/store hosts blocked at TLS (curl 35).
 - No device, ADB, java, APK tooling. Step 2 static analysis and Step 3 device pipeline are not executable here.
 
 ## What this session added toward closure
-- Single claim authority established (87 claims) and 73 markdown summaries aliased to it (56 mapped, 9 review, 7 orphan-owed, 1 negative).
+- Single claim authority established and grown from 87 to **109 claims**; all 73 markdown summaries now alias to a live claim, with 22 new claims promoted from preserved evidence (CLAIM-089…110) at the tier the evidence actually supports — no tier inflation (Confirmed 27 / High Confidence 49 / Community Consensus 20 / Speculative 12 / Disputed 1).
+- Coaching-relevant corroborated mechanics added from already-captured official text: Auto Switch control (CLAIM-106), skill-move swipes (CLAIM-107), connection troubleshooting ladder incl. the DNS fix (CLAIM-108), current Graphics path (CLAIM-109), and market-quality-scales-with-progress (CLAIM-110, community tier).
 - Article-level support coverage reconciled; stale "15 owed bodies" corrected to 3.
 - Negative findings recorded for the technical layer on GitHub/npm (bounded to queries and date).
 

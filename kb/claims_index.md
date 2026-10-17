@@ -1,7 +1,7 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:20Z. Do not edit by hand; regenerate. `kb/claims.jsonl` is the claim authority.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:56Z. Do not edit by hand; regenerate. `kb/claims.jsonl` is the claim authority.
 
-Total claims: **87**
+Total claims: **109**
 
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |
 | --- | --- | --- | --- | --- |
@@ -92,16 +92,43 @@ Total claims: **87**
 | CLAIM-086 | COMMUNITY PLAYER-ATTRIBUTE TAXONOMY (v10.20-era dump, planning aid ONLY): 13 positions (GK/DM/CM/AM/RM/LM/RB/LB/CB/CF/SS | Speculative | volatility-Medium | 2026-11-15 |
 | CLAIM-087 | DLS26 CURRENT PUBLIC BUILD IS 13.4x: latest observed 13.430 (Google Play, last updated 2026-09-14; appbrain store-metada | High Confidence | volatility-High | 2026-10-29 |
 | CLAIM-088 | DLS26 PROGRESSION IS MULTI-TRACK (no single global rank): parallel reward/ladder systems documented by community guides  | High Confidence | volatility-Medium | 2026-11-15 |
+| CLAIM-089 | 'My Club' is the in-game menu that contains the kit/customisation surface: Main Menu > My Club > kit section > edit curr | High Confidence | volatility-Frozen | 2026-11-17 |
+| CLAIM-090 | 'Scripts' is community slang for perceived momentum or rubber-banding manipulation, not a documented game system. A laun | Speculative | volatility-Critical | 2026-11-17 |
+| CLAIM-091 | Launch-era (Dec 2025) gameplay sentiment across multiple independent Reddit threads and App Store reviews (Community Con | Community Consensus | volatility-Critical | 2026-11-17 |
+| CLAIM-092 | Economy friction reports: (a) one challenge was reported to require ~60,000 points to sign one of four players (single R | Community Consensus | volatility-High | 2026-11-17 |
+| CLAIM-093 | Facilities are five in number: Stadium, Medical, Commercial, Training (store copy) and Fanzone (Summer Spotlight release | High Confidence | volatility-High | 2026-11-17 |
+| CLAIM-094 | Technical envelope from static APK listing data (APKMirror, imported capture): Android 10+ (some variants 12L+); ABIs ar | High Confidence | volatility-High | 2026-11-17 |
+| CLAIM-095 | 'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup Winners pack' plus a Dynamic St | Speculative | volatility-Critical | 2026-11-17 |
+| CLAIM-096 | Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; one sourc | Speculative | volatility-Critical | 2026-11-17 |
+| CLAIM-097 | OVR is community/tool shorthand for Overall (the player's rating). Tool usage: sakibpro defines team OVR as the mean of  | High Confidence | volatility-Frozen | 2026-11-17 |
+| CLAIM-098 | Clan system rules (official article 30839289076626, EV-108 full text): one clan at a time; one leader, leadership passes | Confirmed | volatility-High | 2026-11-17 |
+| CLAIM-099 | Friend Match is a private match created with a shared code or word (characters A-Z, 0-9 and hyphen only), accessed from  | High Confidence | volatility-Low | 2026-11-17 |
+| CLAIM-100 | Device compatibility guidance exists as an official article (214385685 / alt slug 360004441177) but the page returned a  | Speculative | volatility-Low | 2026-11-17 |
+| CLAIM-101 | Squad depth: DLS26 carries reserves plus a fixed eight substitutes (community megathread, December 2025, multiple agreei | Community Consensus | volatility-High | 2026-11-17 |
+| CLAIM-102 | New-player starting state: a basic lineup around 50-60 OVR; returning players carry progress over, including 'Academy Di | Speculative | volatility-High | 2026-11-17 |
+| CLAIM-103 | Live-service cadence: DLS26 receives multiple in-season updates (observed roughly monthly version bumps from February to | High Confidence | volatility-Critical | 2026-11-17 |
+| CLAIM-104 | Team OVR formula (sakibpro tool claim): the team rating is the mean of the base-or-maxed Overall Ratings of the 11 playe | Speculative | volatility-Medium | 2026-11-17 |
+| CLAIM-105 | Community theory: a 'trained' player's rating behaves as base + 1 OVR. Single Reddit thread, quarantined as a hypothesis | Speculative | volatility-Medium | 2026-11-17 |
+| CLAIM-106 | Controls setting: with default settings, player control auto-switches between defenders to put you on the closest player | Confirmed | volatility-Medium | 2026-11-17 |
+| CLAIM-107 | Skill moves are performed by swiping the right-hand side of the screen near the controls while in possession: swipe down | Confirmed | volatility-Medium | 2026-11-17 |
+| CLAIM-108 | Official in-match connection troubleshooting ladder (article 7917279109777, EV-150): disable VPN; on mobile data move to | Confirmed | volatility-Frozen | 2026-11-17 |
+| CLAIM-109 | Graphics settings path in the current build: Main Menu hamburger > Profile > Graphics (the older captured path was Optio | Confirmed | volatility-Low | 2026-11-17 |
+| CLAIM-110 | Transfer-market quality scales with club progress, so a new account should not expect top players immediately; events an | Community Consensus | volatility-High | 2026-11-17 |
 
 ## Distribution
-- Confidence: High Confidence 43, Speculative 5, Confirmed 22, Disputed 1, Community Consensus 16
-- Volatility: volatility-High 30, volatility-Critical 3, volatility-Low 27, volatility-Medium 27
+- Confidence: High Confidence 49, Speculative 12, Confirmed 27, Disputed 1, Community Consensus 20
+- Volatility: volatility-High 37, volatility-Critical 8, volatility-Low 30, volatility-Medium 31, volatility-Frozen 3
 
 ## Overdue as of 2026-10-17 (next_due passed) — refresh must be a real check, never a date bump
-- CLAIM-003 (next_due 2026-10-11): The highest verifiable global competitive ranking for the mission is NOT yet established. Candidate surfaces f
-- CLAIM-006 (next_due 2026-10-11): A VI community source claims releasing unused players yields 'fitness coaches' that accelerate injured-player 
+- CLAIM-003 (next_due 2026-10-11)
+- CLAIM-006 (next_due 2026-10-11)
 
 ## Highest-priority (volatility-Critical)
 - CLAIM-003 (Speculative): The highest verifiable global competitive ranking for the mission is NOT yet established. Candidate surfaces found so far: Dream L
 - CLAIM-005 (Confirmed): Community reports in current-build reviews describe competitive-integrity problems: 0.5-2s player-switching input desync, exploita
 - CLAIM-021 (High Confidence): A SEASON LEADERBOARD (accessed from the Main Menu) displays players Season Points totals; Season Points are earned from winning ma
+- CLAIM-090 (Speculative): 'Scripts' is community slang for perceived momentum or rubber-banding manipulation, not a documented game system. A launch-era meg
+- CLAIM-091 (Community Consensus): Launch-era (Dec 2025) gameplay sentiment across multiple independent Reddit threads and App Store reviews (Community Consensus): g
+- CLAIM-095 (Speculative): 'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup Winners pack' plus a Dynamic Stars final 
+- CLAIM-096 (Speculative): Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; one source, and pos
+- CLAIM-103 (High Confidence): Live-service cadence: DLS26 receives multiple in-season updates (observed roughly monthly version bumps from February to September

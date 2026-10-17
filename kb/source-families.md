@@ -1,4 +1,6 @@
 # KB — SOURCE FAMILIES, SUPPORT INVENTORY & INCENTIVE SCREEN
+
+> **DERIVED VIEW — not the claim authority.** The live claim authority is `kb/claims.jsonl` (see `kb/claims_index.md`). This file is a topic summary retained for narrative context; where it disagrees with a claim record, the claim record wins.
 Captured 2026-10-17 (turn 2). Per OMEGA-FRONTIER-001 and the FTG SUPPORT / ZENDESK SOURCE-FAMILY RULE.
 
 ## S-001 FTG official support portal — canonical DLS FAQ inventory (support.ftgames.com, Zendesk)

@@ -1,4 +1,6 @@
 # KB — COMMUNITY STATE & EARLY META (DLS26)
+
+> **DERIVED VIEW — not the claim authority.** The live claim authority is `kb/claims.jsonl` (see `kb/claims_index.md`). This file is a topic summary retained for narrative context; where it disagrees with a claim record, the claim record wins.
 Community-sourced findings. Nothing here is a recommendation; the equal-options rule applies until testing exists. Verified 2026-10-17.
 
 - **M-001 Launch-era gameplay sentiment (Dec 2025, multiple independent Reddit threads + App Store reviews — Community Consensus):** goalkeeper positioning widely criticized; defender auto-switching reported broken at launch (the "Next-Gen" update thread); clear-input vs slide-tackle confusion; reserves/substitutes UX friction (extra menu, non-persisting while swapping); shooting inconsistency and "pressure button" misses (App Store reviews); pay-to-win perception and expensive progression (App Store reviews). Volatility: Critical — these are launch-era reports; patch status unknown (later updates may have fixed them; Mid-Session Monitoring owes a re-check). Not current-state claims.

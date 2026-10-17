@@ -17,17 +17,17 @@ Rules applied:
 | B-005 | 2026 version timeline | CLAIM-008, CLAIM-048, CLAIM-054 | MAPPED |
 | B-006 | Summer Spotlight attribution | CLAIM-048 | MAPPED |
 | B-007 | store metrics | CLAIM-053 | MAPPED |
-| B-008 | technical envelope | CLAIM-053 | REVIEW — size/requirements detail needs its own claim |
+| B-008 | technical envelope | CLAIM-094 | MAPPED (promoted) |
 
 ## community-meta.md
 | MD ID | Topic | Live claim(s) | Status |
 | --- | --- | --- | --- |
-| M-001 | launch-era gameplay sentiment | CLAIM-005 | REVIEW — sentiment is broader than the integrity claim |
+| M-001 | launch-era gameplay sentiment | CLAIM-091 | MAPPED (promoted) |
 | M-002 | formation discourse, no verified meta | CLAIM-070 | MAPPED (community-tier formation list only) |
 | M-003 | DLL structure / leaderboard cadence | CLAIM-002, CLAIM-027 | MAPPED |
-| M-004 | economy/community friction | CLAIM-069 | REVIEW |
+| M-004 | economy/community friction | CLAIM-092 | MAPPED (promoted) |
 | M-005 | dated ratings snapshots | CLAIM-007, CLAIM-058 | MAPPED |
-| M-006 | new-player starting state | — | ORPHAN-OWED |
+| M-006 | new-player starting state | CLAIM-102 | MAPPED (promoted) |
 | M-007 | launch features corroborated | CLAIM-004, CLAIM-045 | MAPPED |
 
 ## game-systems.md
@@ -39,40 +39,40 @@ Rules applied:
 | GS-004 | Season Pass | CLAIM-040 | MAPPED |
 | GS-005 | Prize Ladder | CLAIM-016 | MAPPED |
 | GS-006 | recruitment channels | CLAIM-020 | MAPPED |
-| GS-007 | clans | — | ORPHAN-OWED |
+| GS-007 | clans | CLAIM-098 | MAPPED (promoted) |
 | GS-008 | coaching / player development | CLAIM-028, CLAIM-049, CLAIM-052 | MAPPED |
 | GS-009 | Cult Heroes live in 13.430 | CLAIM-055, CLAIM-059 | MAPPED |
 | GS-010 | update-channel policy | CLAIM-025 | MAPPED |
 | GS-011 | position labels | CLAIM-086 | MAPPED |
 | GS-012 | coin economy | CLAIM-019 | MAPPED |
 | GS-013 | leaderboards | CLAIM-002, CLAIM-071 | MAPPED |
-| GS-014 | Friend Match | — | ORPHAN-OWED |
+| GS-014 | Friend Match | CLAIM-099 | MAPPED (promoted) |
 | GS-015 | save data & accounts | CLAIM-022, CLAIM-083 | MAPPED |
 | GS-016 | Reset Profile (irreversible) | CLAIM-041, CLAIM-082 | MAPPED |
 | GS-017 | connection requirement | CLAIM-030 | MAPPED |
-| GS-018 | device compatibility | — | ORPHAN-OWED (CLAIM-030 partially covers) |
+| GS-018 | device compatibility | CLAIM-100 | MAPPED (promoted) |
 | GS-019 | app updates | CLAIM-025 | MAPPED |
 | GS-020 | customisation | CLAIM-034, CLAIM-074 | MAPPED |
 | GS-021 | account legacy (DLS19/25) | CLAIM-072 | MAPPED |
-| GS-022 | squad depth (reserves + 8 subs) | — | ORPHAN-OWED |
-| GS-023 | facilities (Stadium/Medical/Commercial/Training/Fanzone) | CLAIM-069 | REVIEW — facility list itself has no claim |
+| GS-022 | squad depth (reserves + 8 subs) | CLAIM-101 | MAPPED (promoted) |
+| GS-023 | facilities | CLAIM-093 | MAPPED (promoted) |
 
 ## live-state.md
 | MD ID | Topic | Live claim(s) | Status |
 | --- | --- | --- | --- |
 | L-001 | Dynamic Stars event | CLAIM-048, CLAIM-055 | MAPPED |
-| L-002 | World Cup Winners event | CLAIM-055, CLAIM-059 | REVIEW |
+| L-002 | World Cup Winners event | CLAIM-095 | MAPPED (promoted) |
 | L-003 | Cult Heroes live | CLAIM-055, CLAIM-059 | MAPPED |
 | L-004 | "Play Fest" is not a DLS event | — | NEGATIVE (closure; keep as negative finding) |
-| L-005 | World Heroes event | CLAIM-059 | REVIEW |
-| L-006 | live-service cadence | — | ORPHAN-OWED |
+| L-005 | World Heroes event | CLAIM-096 | MAPPED (promoted) |
+| L-006 | live-service cadence | CLAIM-103 | MAPPED (promoted) |
 | L-007 | current store banner state | CLAIM-045 | MAPPED |
 
 ## terminology.md
 | MD ID | Topic | Live claim(s) | Status |
 | --- | --- | --- | --- |
 | T-001 | DLL = Dream League Live | CLAIM-001, CLAIM-045 | MAPPED |
-| T-002 | OVR = Overall | CLAIM-033 | REVIEW — terminology vs card-rarity claim |
+| T-002 | OVR = Overall | CLAIM-097 | MAPPED (promoted) |
 | T-003 | GK = goalkeeper | CLAIM-013 | MAPPED |
 | T-004 | XI = starting eleven | CLAIM-029 | MAPPED |
 | T-005 | "special card" = Special Players | CLAIM-046 | MAPPED |
@@ -81,8 +81,8 @@ Rules applied:
 | T-008 | special-player collections | CLAIM-055, CLAIM-059 | MAPPED |
 | T-009 | 8 divisions + Legendary Division | CLAIM-010 | MAPPED |
 | T-010 | position labels | CLAIM-086 | MAPPED |
-| T-011 | team OVR formula (tool claim) | — | ORPHAN-OWED |
-| T-012 | trained = base + 1 hypothesis | — | ORPHAN-OWED (Speculative; keep quarantined) |
+| T-011 | team OVR formula (tool claim) | CLAIM-104 | MAPPED (promoted) |
+| T-012 | trained = base + 1 hypothesis | CLAIM-105 | MAPPED (promoted, still Speculative) |
 | T-013 | DLL structure / matching | CLAIM-002, CLAIM-081 | MAPPED |
 | T-014 | Season Points | CLAIM-021, CLAIM-071 | MAPPED |
 | T-015 | Dream Points | CLAIM-016, CLAIM-063 | MAPPED |
@@ -94,13 +94,14 @@ Rules applied:
 | T-021 | ceiling (development cap) | CLAIM-007, CLAIM-058 | MAPPED (card ceiling; development cap separate) |
 | T-022 | position label set | CLAIM-086 | MAPPED |
 | T-023 | Progress Bank | CLAIM-040, CLAIM-068 | MAPPED |
-| T-024 | My Club surface | CLAIM-066 | REVIEW |
+| T-024 | My Club surface | CLAIM-089 | MAPPED (promoted) |
 | T-025 | clean sheet | CLAIM-019 | MAPPED |
 | T-026 | stadium bonus | CLAIM-019, CLAIM-069 | MAPPED |
-| T-027 | "scripts" | CLAIM-044 | REVIEW |
+| T-027 | "scripts" | CLAIM-090 | MAPPED (promoted) |
 | T-028 | reserves / substitutes | CLAIM-029, CLAIM-076 | MAPPED |
 
-## Result
-- 73 topic summaries mapped (counts machine-checked): **56 MAPPED** (52 plain + 4 MAPPED-with-qualifier), **9 REVIEW**, **7 ORPHAN-OWED** (6 plain + 1 partial), **1 NEGATIVE**. REVIEW rows still name a candidate claim, so no topic is left without a destination.
-- ORPHAN-OWED topics: new-player start state (M-006), Clans (GS-007), Friend Match (GS-014), device compatibility (GS-018, partially covered by CLAIM-030), squad depth (GS-022), live-service cadence (L-006), team-OVR formula (T-011), trained-rating hypothesis (T-012). These are queued as RQ-20261017-005 for promotion into claim records from preserved evidence — not invented, not dropped.
+## Result (after promotion pass, 2026-10-17T17:47Z)
+- **All 73 topic summaries now map to a live claim** and the 9 REVIEW rows are resolved. Promotion added 17 claims (CLAIM-089…105), each carrying the inherited-summary origin, the tier the summary itself supported (no tier inflation) and an explicit challenge where the evidence is thin.
+- Newly promoted: My Club surface (089), "scripts" perception (090), launch-era sentiment (091), economy friction (092), facilities (093), APK technical envelope (094), World Cup Winners timing (095), World Heroes timing (096), OVR terminology (097), Clans (098), Friend Match (099), device compatibility (100), squad depth (101), new-player start state (102), live-service cadence (103), team-OVR formula (104), trained-rating hypothesis (105, still Speculative).
+- No orphan remains. The one NEGATIVE (Play Fest) stays a closure, not a positive claim.
 - The reverse gap is larger: claims.jsonl carries many propositions (economy maps, card taxonomies, special-card lineages, sanction policy, destructive surfaces) that the markdown corpus never summarised. The 87-claim corpus remains the richer authority; the markdown files are retained only as topic summaries until the reconciliation pass rewrites them.
