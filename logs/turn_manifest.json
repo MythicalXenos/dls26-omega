@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 20,
-  "checkpoint_id": "ckpt-20261017-step1-019",
-  "previous_checkpoint_id": "ckpt-20261017-step1-018",
+  "turn_seq": 21,
+  "checkpoint_id": "ckpt-20261017-step1-020",
+  "previous_checkpoint_id": "ckpt-20261017-step1-019",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,23 +14,23 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/_sample10_turn20/README.md",
-    "step1_epochs/EPOCH_CONTRACT_DRAFT.md",
-    "step1_epochs/CLOSURE_STATUS.md",
-    "docs/continuity/a7e23a6b/evidence/UNCITED_CLASSIFICATION.md",
-    "kb/claims.jsonl"
+    "step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md",
+    "step3_device_pipeline/PROTOCOL_draft.md",
+    "step2_datamining/STEP2_PLAN_DRAFT.md",
+    "raw_game_data/README.md",
+    "audit/_sample11_turn21/README.md"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STEP 1 CLOSED. Next turn is post-Step-1 preparation: (1) draft first-contact script; (2) refine Step-2 plan against actual sandbox tooling; (3) write Step-3 device-pipeline doc; (4) sample 11; (5) audit OPERATIONAL_RULES for stale Step-1 references. Web ACCESS_BOUNDARY. OBS-013 remains first-contact gate.",
-  "created_at": "2026-10-17T22:35:00Z",
-  "not_before": "2026-10-17T22:35:00Z",
+  "exact_resumption_point": "Post-Step-1 prep turn 22: (1) audit OPERATIONAL_RULES for Step-1-closed invariants; (2) self-audit first-contact script; (3) pre-install open-source APK tooling if apt is reachable; (4) sample 12; (5) draft C-009 decision tree. No contact. OBS-013 gate remains.",
+  "created_at": "2026-10-17T23:00:00Z",
+  "not_before": "2026-10-17T23:00:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/_sample10_turn20/README.md",
-    "step1_epochs/CLOSURE_STATUS.md"
+    "step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md",
+    "step3_device_pipeline/PROTOCOL_draft.md"
   ]
 }

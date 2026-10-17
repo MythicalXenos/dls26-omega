@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T22:35Z (session sess-20261017-001, turn 20, checkpoint ckpt-20261017-step1-019 — STEP 1 CLOSED)
+Updated: 2026-10-17T23:00Z (session sess-20261017-001, turn 21, checkpoint ckpt-20261017-step1-020)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,14 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 21 result — post-Step-1 prep: first-contact script, Step-2/Step-3 drafts, tooling probe, sample 11 clean
+- **Tooling probe**: all APK/datamining tools MISSING (java/aapt/apktool/jadx/adb/sqlite3/smali/d8/dex2jar). python3 stdlib (incl. sqlite3 module, zipfile, hashlib) and node/npm available. `pip install androguard` possible; apt installs of open-source tools are not consent-gated (installing != running against an APK).
+- **First-contact script** drafted (`step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md`): S1 (backup linked) → S2 (System-Info/Copy Info) → P0 C-009 Season Leaderboard question → P1 controls/graphics/camera/stat-labels/build; screenshots preferred; no jargon; no early advice.
+- **Step-3 device-pipeline protocol** drafted (`step3_device_pipeline/PROTOCOL_draft.md`): consent gating (4 files, git-ignored), `raw_game_data/` session layout, sha256+manifest per screenshot, EV-per-observation, conflict-on-contradiction.
+- **`raw_game_data/` scaffold** created with `.gitignore` protecting consent records.
+- **Sample 11**: 7/7 OK post-repair; five consecutive clean samples; ~2.6% cumulative over 77 claims.
+- No contact made; OBS-013 still the gate before any device/APK action.
+
 ## Turn 20 result — STEP 1 CLOSED. Frontier 0 IN_PROGRESS/0 RETRYABLE; extraction complete; four consecutive clean samples
 - **Frontier re-stamp**: 23 IN_PROGRESS → 5 CHUNK-COMPLETE-ENOUGH (VISITED) + 18 ACCESS_BOUNDARY. 163 refs / 0 IN_PROGRESS / 0 RETRYABLE.
 - **Extraction wave 2**: 6 accounting-only EVs classified; EV-220/222 re-stamped to cite corroborating claims; no EV contains an unrecorded mechanic.
@@ -150,14 +158,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — post-Step-1, entering Step 2 plan-execution-prep and Step 3 readiness)
-The bootstrap has left Step 1. Next turns are not "more research" — they are preparation for the user-contact moment and the APK/device phases.
-1. **Draft first-contact script** (`step5_first_contact/`): a short message that leads with S1 (backup check) and S2 (System-Info), then the Priority 0 question (Season Leaderboard scope — C-009), then Priority 1/2/3 items. Keep it batched, short, and sequenced so each answer is useful before the next is asked.
-2. **Step 2 plan refinement**: confirm the forbidden-tools list against the actual sandbox tooling (re-probe `which java aapt apktool jadx adb`); if any are missing, record an install plan that respects the consent gate (tool installation itself is fine; running them against an APK is not).
-3. **Step 3 device-pipeline doc**: turn the IN_CLIENT_CHECKLIST into a step-by-step device protocol (screenshot naming, `raw_game_data/` layout, screenshot/OCR fallback, consent recording).
-4. **Sample 11** (lightweight verification after the closure re-stamp).
-5. **OPERATIONAL_RULES audit**: confirm every rule that cites "Step 1 research in progress" is updated to reflect closure; make sure the rule against making ungrounded game claims is still honoured through Step 2/3.
-6. Web remains ACCESS_BOUNDARY. OBS-013 (first-contact consent) is the gate before Step 2 execution and Step 3 device contact. No new registers (D-06).
+## Exact resumption point (next turn — turn 22)
+1. **OPERATIONAL_RULES audit**: walk OPERATIONAL_RULES.md for any rule that still assumes Step 1 is in progress or that needs updating given the closed corpus (e.g. the "every claim must have a witness" invariant is now met — record it as invariant, not aspiration). Add an invariant noting first-contact is gated on S1/S2/P0 answers.
+2. **First-contact script self-audit** against the no-promises, no-jargon, no-premature-advice rules; trim if needed.
+3. **Step-2 readiness**: decide whether to pre-install java+apktool+jadx via apt (open-source tool install is safe without the APK) so the sandbox is ready when consent arrives; if apt requires network beyond allowlist, note it.
+4. **Sample 12** (lightweight).
+5. Consider drafting the **C-009 decision tree** (what "#1" means under each of the four possible answers to the P0 question) so the response to the player's first answer is pre-planned rather than improvised.
+6. Web remains ACCESS_BOUNDARY. No contact is made this turn; OBS-013 is resolved only when the user sends > signalling readiness for first contact (per the OMEGA vocabulary).
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

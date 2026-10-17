@@ -10,3 +10,4 @@ Rollback procedure: identify the last snapshot before a corruption, diff forward
 | claims_20261017T1746Z.jsonl | 129 | Turn-18 snapshot: retrieval-complete declaration, covers back-stamped, sample 8 clean, pre-connection safety items; sha256 7fc7f550e0bc1d03 |
 | claims_20261017T1754Z.jsonl | 129 | Turn-19 snapshot: extraction wave 1 (13 EV service + 3 derived + 1 UGC added), every claim now EV-backed (except CLAIM-103 cross-ref-only), sample 9 clean, Step-2 plan draft, chunk triage; sha256 43087573185fb74a |
 | claims_20261017T1801Z.jsonl | 129 | STEP 1 CLOSURE snapshot: 129 claims, 148 EV, 0 IN_PROGRESS/RETRYABLE on 163 refs; sha256 43087573185fb74a |
+| claims_20261017T1809Z.jsonl | 129 | Turn-21 snapshot: post-Step-1 prep, first-contact+protocol+step2-plan drafts; sha256 43087573185fb74a |

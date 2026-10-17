@@ -1,0 +1,8 @@
+{
+  "session_id": "session_YYYYMMDD_HHMMZ",
+  "captured_at_utc": "",
+  "device_build": "",
+  "files": [
+    {"filename": "00_main_menu.png", "screen": "main menu", "supports": [], "sha256": ""}
+  ]
+}

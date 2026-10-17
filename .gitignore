@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DLS26 raw game data — consent records contain User IDs and must never commit
+raw_game_data/consent/
+raw_game_data/**/build_and_user_id.txt

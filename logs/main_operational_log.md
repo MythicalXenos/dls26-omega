@@ -263,3 +263,11 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **Extraction wave 2**: uncited EV audit — 6 accounting-only EVs classified (`evidence/UNCITED_CLASSIFICATION.md`); EV-220/222 re-stamped to cite CLAIM-048/057/109/045/001. No EV contained an unrecorded mechanic.
 - **Sample 10** (`audit/_sample10_turn20`): 7/7 OK post-repair (two covers-lag WARNs back-stamped). Four consecutive clean samples; ~2.9% cumulative over 70 tested claims.
 - **Step 1 sealed** (`step1_epochs/CLOSURE_STATUS.md`, `EPOCH_CONTRACT_DRAFT.md` §2 re-stamped). Snapshot `kb_snapshots/claims_20261017T1801Z.jsonl`.
+
+## 2026-10-17T23:00Z — turn 21 — post-Step-1 preparation (first contact / Step 2 / Step 3 drafts)
+- **Tooling probe**: all APK tools MISSING (java/aapt/apktool/jadx/adb/sqlite3 CLI/smali/d8/dex2jar); python 3.11 stdlib (incl. sqlite3 module, zipfile) and node 22/npm present. `pip install androguard` possible; apt install of default-jre/aapt/apktool/jadx deferred to consent gate. Step-2 plan updated with this reality.
+- **First-contact script drafted** (`step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md`): S1/S2 safety lead → P0 C-009 mission-definition question → P1 (controls/graphics/camera/stat-labels/build) batched; screenshots preferred; no jargon; no premature optimisation.
+- **Step 3 device pipeline protocol drafted** (`step3_device_pipeline/PROTOCOL_draft.md`): consent gating (S1/S2/SCREENSHOT/ADB separate files, git-ignored), `raw_game_data/` layout with session subdirectories, manifest+sha256 per screenshot, EV records per observation, conflict-on-contradiction rule.
+- **`raw_game_data/` scaffold created** with `README.md`, `_template_manifest.json`, and `.gitignore` entries protecting `consent/` and build+user-id files.
+- **Sample 11** (`audit/_sample11_turn21/`): 7/7 OK post-repair (four covers-lag WARNs back-stamped). Five consecutive clean samples; ~2.6% cumulative.
+- No contact has been made; all of the above are drafts that will be audited against OPERATIONAL_RULES in turn 22 before transmission is even possible (OBS-013 remains the consent gate).

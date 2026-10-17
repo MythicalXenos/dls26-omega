@@ -29,10 +29,13 @@ Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep bui
 - Witness coverage: **54 of 118 claims** (46%) have had a textual comparison against their cited records across six samples; the rest are structurally verified only. Each sample so far has found at least one defect, so the remainder should not be assumed clean.
 - Topic-file note: the T-/B-/L-/M-/GS- summaries remain derived views and still describe the pre-merge claim set. They are now **older than the claim authority by 31 claims** (CLAIM-089…119 have no summary entry). This is a known, recorded lag, not an error to be fixed by inventing summaries.
 
-## Index state — turn 20 / STEP 1 CLOSURE (2026-10-17T22:35Z)
-- Claim authority: **129 claims** (CLAIM-001…CLAIM-130). Confirmed 34 / High 59 / Community 23 / Speculative 12 / Disputed 1. Closure snapshot `kb_snapshots/claims_20261017T1801Z.jsonl` (sha `43087573…`).
+## Index state — turn 21 / post-Step-1 prep (2026-10-17T23:00Z)
+- Claim authority: **129 claims** (CLAIM-001…CLAIM-130). Confirmed 34 / High 59 / Community 23 / Speculative 12 / Disputed 1. Closure snapshot `kb_snapshots/claims_20261017T1801Z.jsonl`.
 - Evidence registry: **148 EV/EVD records**. Every claim carries a witness; 6 accounting-only EVs classified.
-- Frontier: **163 refs** — 106 VISITED / **0 IN_PROGRESS / 0 RETRYABLE** / 20 ACCESS_BOUNDARY / 8 UNVISITED / 21 NON_CONNECTED / 8 DUPLICATE. File SHA `d014f307…`.
-- Conflicts: C-001…C-009 open (C-009 remains Priority 0).
-- Witness samples 7/8/9/10 all clean post-repair; cumulative substantive-error rate ~2.9% over 70 sampled claims.
-- Step 1 sealed. Next: Step 2 plan refinement (no execution — OBS-013 block) and Step 3 device-pipeline readiness; draft first-contact text against IN_CLIENT_CHECKLIST.md.
+- Frontier: 163 refs / 106 VISITED / 20 ACCESS_BOUNDARY / 8 UNVISITED / 21 NON_CONNECTED / 8 DUPLICATE / **0 IN_PROGRESS / 0 RETRYABLE** (file sha `d014f307…`).
+- Step 1 **sealed** turn 20. Turn 21 deliverables:
+  - `step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md` (S1/S2 safety → P0 mission-definition → P1–P3 tiered).
+  - `step3_device_pipeline/PROTOCOL_draft.md` (consent gating, `raw_game_data/` layout, ingestion procedure, prohibited actions).
+  - `step2_datamining/STEP2_PLAN_DRAFT.md` updated against actual sandbox tooling probe (all APK tooling MISSING; python stdlib sqlite3 and `pip install androguard` available; install plan deferred to consent gate).
+  - `raw_game_data/` scaffold + `.gitignore` for consent records.
+- Sample 11: 7/7 OK post-repair; five consecutive clean samples; ~2.6% cumulative substantive error rate.
