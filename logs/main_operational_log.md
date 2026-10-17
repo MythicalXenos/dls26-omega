@@ -97,4 +97,23 @@ RESEARCH 3 | RECOMMENDATION 0 | OUTCOME 0 | QUESTION 0 | REVISION 0 | CONFLICT 0
 ## Turn 4 — category counts
 RESEARCH 3 | RECOMMENDATION 0 | OUTCOME 0 | QUESTION 0 | REVISION 1 | CONFLICT 0 | DISAGREEMENT 0 | EXHAUSTION DECLARATION 0 | SKEPTIC CHALLENGE 0 | DEVILS ADVOCATE 0 | BLUFF CHECK 0 | SELF-AUDIT 0 | INDEPENDENT VERIFICATION 0 | DEGRADATION EVENT 0 | DECEPTION FINDING 0 | EVIDENCE CONFLICT 0 | CONFIDENCE PROMOTION 1 | SOURCE TYPE COVERAGE 0 | NEGATIVE FINDING 0 | MATCH LOG 0 | SETUP 0 | SESSION 2 | ANOMALY 2 | IRREVERSIBLE ACTION 1
 
+## Turn 5 — 2026-10-17 (UTC) — STATE_1_RESEARCH_SWEEP, Step 1 continued (turn window ~16:04–16:08Z)
+
+[2026-10-17T16:04Z] SESSION — User cue ">" consumed the Turn-4 checkpoint authorization (ckpt-20261017-step1-003, CONTINUE). Turn-start reconciliation: local HEAD d12a84c == origin/arena/22655f48-dls26-omega, working tree clean — OBS-006 has not recurred.
+
+[2026-10-17T16:04Z] RESEARCH — 11 page-render retrievals: 8 FTG support articles captured in full (running total 28 of 30 section-listed) — Multiplayer Troubleshooting, players missing, Can I sell my players, personal data deletion, video clips, mobile data usage, player likeness, plus the dlsinside homepage. Three retrievals returned 404 (see NEGATIVE FINDING).
+
+[2026-10-17T16:04Z] NEGATIVE FINDING — Three FTG support articles are dead links: "Why are my players auto-switching all the time?" (360008315158), "How do I sell players?" (1714655181585), "How can I change my graphics settings?" (360005984437). Titles survive in related-article link blobs; the pages do not resolve. Consequence: the community auto-switching complaint (M-001) has no captured official answer — recorded as an evidence gap, not a resolved question (GS-030).
+
+[2026-10-17T16:04Z] CONFIDENCE PROMOTION — Official-stated promotions to Confirmed: GS-024 multiplayer networking (FTG cloud servers; opponent connection quality has no impact on your experience; lag-switch cheats ineffective; opponent never sees your network address; ~2MB/match; IPv6+5G; local multiplayer same-platform/same-Wi-Fi), GS-025 licensing gaps in the player database, GS-026 release-for-coach + Recover safety window, GS-027 ad-clip policy (no promised frequency; LAT reduces ads), GS-028 data guidance. GS-029 special-player taxonomy (11 collections with counts; 14,435 players / 263 teams / 255 stadiums) → High Confidence (single database, dlsinside).
+
+[2026-10-17T16:04Z] IRREVERSIBLE ACTION — IRREV-002 registered: Delete Profile (Main Menu → Settings → Advanced → Delete → Delete Profile) wipes all profiles saved on the device; irreversible once its countdown passes; Cancel Request window exists pre-processing (FTG article 360017046578). Distinguished from IRREV-001 (Reset Profile = career restart). Both carry warn-before/never-initiate duties.
+
+[2026-10-17T16:04Z] RESEARCH — DLS27 preparation signal: dlsinside blog (Aug 25, 2026) "DLS 27: All New, Returning, and Removed Teams"; dreamkitsapp advertising "DREAM KITS 2027". Annual cycle continues toward DLS 27 (December 2026 per franchise pattern — Speculative inference); FTG policy is no announced schedules. Recorded as L-008; the next edition's launch is a Patch Response trigger.
+
+[2026-10-17T16:04Z] SESSION — Checkpoint ckpt-20261017-step1-004. Step-1 sweep continues autonomously; nothing indispensable owed to the user. Terminal class: CONTINUE.
+
+## Turn 5 — category counts
+RESEARCH 3 | RECOMMENDATION 0 | OUTCOME 0 | QUESTION 0 | REVISION 0 | CONFLICT 0 | DISAGREEMENT 0 | EXHAUSTION DECLARATION 0 | SKEPTIC CHALLENGE 0 | DEVILS ADVOCATE 0 | BLUFF CHECK 0 | SELF-AUDIT 0 | INDEPENDENT VERIFICATION 0 | DEGRADATION EVENT 0 | DECEPTION FINDING 0 | EVIDENCE CONFLICT 0 | CONFIDENCE PROMOTION 1 | SOURCE TYPE COVERAGE 0 | NEGATIVE FINDING 1 | MATCH LOG 0 | SETUP 0 | SESSION 2 | ANOMALY 0 | IRREVERSIBLE ACTION 1
+
 [2026-10-17T13:41Z] ANOMALY — Turn-4 telemetry: this turn's retrieval blocks ran longer than the 360-second later-bootstrap-turn ceiling (15 sequential-parallel page fetches plus artifact writes); the turn closed promptly once the checkpoint was publishable, and the actual limiting condition (page-fetch latency on zendesk support pages plus large append edits) is recorded here per OMEGA-PROGRESS-001. No work product lost; all 17 turn-4 retrievals are logged. Proposal for the user's consideration (PROPOSED, not adopted): none required — the ceiling is a soft budget for pacing, not a hard stop, and the turn-end sequence completed in order.
