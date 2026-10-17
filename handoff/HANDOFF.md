@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T20:02Z (session sess-20261017-001, turn 7, checkpoint ckpt-20261017-step1-006)
+Updated: 2026-10-17T20:34Z (session sess-20261017-001, turn 8, checkpoint ckpt-20261017-step1-007)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -28,6 +28,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - That work was imported losslessly into this branch (kb/, knowledge_management/, logs/, revision_register.md, user_profile.md, issue_tracker.md, kb_snapshots/, raw_game_data/). Prior handoff, prompt, rules digest, capability inventory and schema are preserved under docs/continuity/22655f48/ for provenance.
 - No open PR existed (PRs #1–#5 all CLOSED). No second PR opened yet; one branch per session.
 - Prompt discrepancy: prior capture was 173,446 bytes labelled v78; this session's delivered prompt is 175,596 bytes labelled v78 (43 changed lines, ~31 added clauses). The current delivered text is authoritative for this session; discrepancy logged OBS-007.
+
+## Turn 8 result — Step-2 collision, epoch draft, spot-check, storage
+- **OBS-013 (first-contact decision):** the prompt's Step 2 requires APK decompilation; the verified EULA and sanction policy prohibit it and make it bannable. Precedence rung 2 resolves the collision in favour of not decompiling. Nothing was downloaded or decompiled. PROPOSED amendment written (not adopted). Step 2 is user-decision-blocked.
+- Epoch contract drafted (DRAFT, not a seal) with counts, floors, lanes, projection definition, 7 placeholders and 6 final checks.
+- Transcription spot-check: 10 claims read against their EV records; 2 defects fixed (CLAIM-007 evidence mis-attribution, CLAIM-005 missing witness); 53 more queued.
+- Storage check: 2.3 MB tree, 3 MB .git, 198 files, far under the 250 MB ceiling. First KB snapshot committed.
 
 ## Turn 7 result — provenance, IN_PROGRESS accounting, exit readiness
 - Branch provenance map written (docs/continuity/BRANCH_PROVENANCE.md): every artifact attributed; three unmerged branches remain (22655f48 / a7e23a6b / this one) and must be reconciled by any later session.

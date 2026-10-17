@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T19:31Z",
+  "updated_at": "2026-10-17T20:33Z",
   "items": [
     {
       "id": "RQ-20261017-001",
@@ -124,6 +124,24 @@
       "status": "blocked-access-boundary",
       "added": "2026-10-17T19:30Z",
       "source": "logs/conflicts.md"
+    },
+    {
+      "id": "RQ-20261017-015",
+      "topic": "Complete the numeric transcription spot-check on the remaining 53 claims (claim number vs cited EV record)",
+      "tier": "queue-High",
+      "status": "open",
+      "added": "2026-10-17T20:26Z",
+      "source": "audit/TRANSCRIPTION_SPOTCHECK_turn8.md",
+      "note": "Two defects in the first 10 sampled; do not assume the rest are clean."
+    },
+    {
+      "id": "RQ-20261017-016",
+      "topic": "USER DECISION: Step 2 definition (decompilation vs permitted static analysis) — OBS-013",
+      "tier": "queue-Critical",
+      "status": "awaiting-user-decision",
+      "added": "2026-10-17T20:27Z",
+      "source": "OBS-013",
+      "note": "PROPOSED amendment in changelog; Step 2 unentered until ruled."
     }
   ]
 }
