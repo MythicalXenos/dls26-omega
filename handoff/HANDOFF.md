@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T22:00Z (session sess-20261017-001, turn 18, checkpoint ckpt-20261017-step1-017)
+Updated: 2026-10-17T22:25Z (session sess-20261017-001, turn 19, checkpoint ckpt-20261017-step1-018)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 19 result — extraction wave 1 complete, every claim EV-backed, sample 9 clean, Step-2 plan drafted, chunk triage
+- **Extraction wave 1**: 14 new EV records (EV-232..EV-245): 10 service-record EVs for S-*-witnessed claims (multiplayer networking, release-player, video-ads, version-gap resolution, stat scale, Cult Heroes roster, DLS27 signal, device-compat, sakibpro/community thread, reserves/subs megathread); 3 derived-view EVs (EV-242 launch-sentiment, EV-243 historical-player duplication and World Heroes, EV-244 facilities/envelope); 1 UGC EV for CLAIM-095 (EV-245). EVD-0005 registered in the index (old gap).
+- **Result:** 129 claims, 148 EV records. Every claim has at least one EV/EVD token except CLAIM-103 (documented cross-ref-only synthesis of four EV-backed claims). 0 missing, 0 bad covers.
+- **Sample 9**: 7 OK, 0 BAD (four covers-lag WARNs back-stamped). Three consecutive clean samples; ~3.2% cumulative substantive error rate over 63 sampled claims.
+- **Step 2 plan drafted** (`step2_datamining/STEP2_PLAN_DRAFT.md`) with preconditions, forbidden actions, tool chain, and batched workflow S0–S7. Execution blocked on OBS-013; first contact does NOT wait for Step 2.
+- **Chunk triage** (`step1_epochs/CHUNK_TRIAGE_turn19.md`): 6 CHUNK-COMPLETE-ENOUGH, 2 VISITED re-stamps owed as maintenance, 15 ACCESS-BOUNDED community families. No existing claim depends on unfinished chunks.
+
 ## Turn 18 result — RETRIEVAL-COMPLETE declared, covers back-stamped, sample 8 clean, safety gates added
 - **Covers[] back-stamp**: 19 EV records (turn18a + turn18b) re-stamped so their `covers[]` lists the claims that cite them; closes the five sample-7 WARNs and the six sample-8 WARNs. One sample-8 BAD was a script false-positive (EV-001/EV-002 are `#ds-1/#ds-2` anchors in `evidence/raw/search_digest_turn1.md`); documented in CLAIM-007's challenges.
 - **Sample 8**: 7 OK after repair, 0 substantive errors. Cumulative ~3.6% substantive-error rate over 56 sampled claims, dropping.
@@ -137,12 +144,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 19)
-1. **Extraction pass, wave 1**: take the 24 no-direct-EV claims and for each either (a) point at an existing EV record whose content supports it (most common case — the EV exists but was never cited), or (b) create a new EV-* summary record if the witness is genuinely a service log or community capture that has no extract file. Many of these are CLAIM-113/114/115/116/117/126/127/129/130 which point at S-* service records — acceptable witness but needs an explicit DERIVED/SUMMARY note, same as EV-226..231.
-2. **Chunk-continuation triage** over the 8 mid-capture IN_PROGRESS refs (store chunks 2–5; player-stats comment chunks 1–3): decide whether chunks 1+ contain everything the claims need, and mark them CHUNK-COMPLETE-ENOUGH if so (with a note), rather than running the mechanical chunker for pages whose content won't change a claim.
-3. **Sample 9** of the witness pass.
-4. **Step 2 plan draft** — forbidden-tools list and APK/assets workflow sketch, EXECUTION BLOCKED on OBS-013 first-contact decision. Planning does not require the APK or the device.
-5. Web remains ACCESS_BOUNDARY. OBS-013 still a first-contact decision. No new registers (D-06). JSONL rewrites through scripts/ with byte verification.
+## Exact resumption point (next turn — turn 20)
+1. **Maintenance re-stamps**: two refs (ref-cant-update, ref-support-section-inventory) are actually fully captured (EV-225, EV-114) but still marked IN_PROGRESS in the frontier. Re-stamp them VISITED; CHUNK-COMPLETE-ENOUGH the 6 chunked refs per the triage note.
+2. **Extraction pass, wave 2**: iterate over uncited EV records (the 22 classified uncited at turn 4 plus any new ones added since) to confirm the classification still holds and that no EV is silently supporting an unwritten claim. If any EV contains a meaningful mechanic that is not yet a claim, write it.
+3. **Sample 10** of the witness pass.
+4. **Topic-summary DERIVED view sync**: after chunk re-stamp, update the derived-view kb/*.md files to reflect the final EV-backed claim set (last sync was turn 17).
+5. If all of the above are clean, **call EXTRACTION-COMPLETE** and mark the Step 1 epoch CLOSED (retrieval + extraction both complete under access-bounded conditions). That transitions the bootstrap to Step 2 plan-execution-prep and Step 3 device-pipeline readiness.
+6. Web remains ACCESS_BOUNDARY. OBS-013 remains a first-contact decision. No new registers (D-06). JSONL rewrites through scripts/ with byte verification.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

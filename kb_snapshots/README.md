@@ -8,3 +8,4 @@ Rollback procedure: identify the last snapshot before a corruption, diff forward
 | claims_20261017T1731Z.jsonl | 122 | Turn-16 snapshot: cross-branch merge, CLAIM-120..123 added, 10 witnesses upgraded from summaries to service records, RETRYABLE_FAILURE -> 0; sha256 c613b7fc2f9a46b4 |
 | claims_20261017T1738Z.jsonl | 129 | Turn-17 snapshot: sibling kb sweep, CLAIM-124..130, EV-230/231, EV-105 raw anchor re-validated; sha256 4e2146a0782e78c5 |
 | claims_20261017T1746Z.jsonl | 129 | Turn-18 snapshot: retrieval-complete declaration, covers back-stamped, sample 8 clean, pre-connection safety items; sha256 7fc7f550e0bc1d03 |
+| claims_20261017T1754Z.jsonl | 129 | Turn-19 snapshot: extraction wave 1 (13 EV service + 3 derived + 1 UGC added), every claim now EV-backed (except CLAIM-103 cross-ref-only), sample 9 clean, Step-2 plan draft, chunk triage; sha256 43087573185fb74a |

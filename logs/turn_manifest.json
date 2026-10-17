@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 18,
-  "checkpoint_id": "ckpt-20261017-step1-017",
-  "previous_checkpoint_id": "ckpt-20261017-step1-016",
+  "turn_seq": 19,
+  "checkpoint_id": "ckpt-20261017-step1-018",
+  "previous_checkpoint_id": "ckpt-20261017-step1-017",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,23 +14,23 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/_sample8_turn18/README.md",
-    "step1_epochs/EPOCH_CLOSURE_REVIEW_turn18.md",
-    "step1_epochs/CLOSURE_STATUS.md",
-    "step1_epochs/IN_CLIENT_CHECKLIST.md",
-    "kb/claims.jsonl"
+    "audit/_sample9_turn19/README.md",
+    "step2_datamining/STEP2_PLAN_DRAFT.md",
+    "step1_epochs/CHUNK_TRIAGE_turn19.md",
+    "kb/claims.jsonl",
+    "docs/continuity/a7e23a6b/evidence/index.jsonl"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1 (RETRIEVAL-COMPLETE/EXTRACTION-IN-PROGRESS): (1) extraction wave 1 over the 24 no-direct-EV claims (add EV citations or summary EV records, S-*-witnessed claims marked DERIVED); (2) chunk-continuation triage on 8 IN_PROGRESS refs, mark CHUNK-COMPLETE-ENOUGH where chunks 1+ already support the relevant claims; (3) sample 9; (4) draft Step-2 plan (forbidden tools + workflow) WITHOUT executing Step-2 (OBS-013 block). Web remains ACCESS_BOUNDARY.",
-  "created_at": "2026-10-17T22:00:00Z",
-  "not_before": "2026-10-17T22:00:00Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1 (RETRIEVAL-COMPLETE/EXTRACTION-IN-PROGRESS): (1) two VISITED re-stamps + 6 CHUNK-COMPLETE-ENOUGH markings per the triage note; (2) extraction wave 2 \u2014 audit uncited EVs to ensure no mechanic missed; (3) sample 10; (4) sync derived-view kb/*.md; (5) if clean, declare EXTRACTION-COMPLETE and Step 1 CLOSED. Web ACCESS_BOUNDARY. OBS-013 first-contact decision.",
+  "created_at": "2026-10-17T22:25:00Z",
+  "not_before": "2026-10-17T22:25:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/_sample8_turn18/README.md",
-    "step1_epochs/EPOCH_CLOSURE_REVIEW_turn18.md"
+    "audit/_sample9_turn19/README.md",
+    "step2_datamining/STEP2_PLAN_DRAFT.md"
   ]
 }
