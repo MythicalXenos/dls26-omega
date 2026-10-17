@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T17:31Z",
+  "updated_at": "2026-10-17T18:36Z",
   "items": [
     {
       "id": "RQ-20261017-001",
@@ -33,19 +33,22 @@
       "id": "RQ-20261017-003",
       "topic": "Reconcile kb/claims.jsonl with 22655f48 markdown summaries",
       "tier": "queue-High",
-      "status": "in-progress",
+      "status": "completed",
       "added": "2026-10-17T17:01Z",
-      "progress": "Alias map built: 73/73 summaries mapped (56 mapped, 9 review, 7 orphan-owed, 1 negative). Remaining: verify 9 REVIEW rows against source text; rewrite summaries as derived views or retire them.",
-      "source": "OBS-011 / kb/claim_alias_map.md"
+      "progress": "Alias map complete (73/73), 9 review rows resolved by promotion, derived banners applied, index generated. Remaining cosmetic work: retire or rewrite the six markdown summaries is optional; they now defer to the authority.",
+      "source": "OBS-011 / kb/claim_alias_map.md",
+      "completed_at": "2026-10-17T17:47Z"
     },
     {
       "id": "RQ-20261017-005",
       "topic": "Promote 7 orphan topics to claim records from preserved evidence (Clans, Friend Match, device compatibility, squad depth, new-player start state, live-service cadence, team-OVR formula)",
       "tier": "queue-High",
-      "status": "open",
+      "status": "completed",
       "added": "2026-10-17T17:28Z",
       "source": "kb/claim_alias_map.md",
-      "note": "Each promotion needs evidence reference and tier; no values invented. Trained-rating hypothesis remains Speculative, quarantined."
+      "note": "Each promotion needs evidence reference and tier; no values invented. Trained-rating hypothesis remains Speculative, quarantined.",
+      "completed_at": "2026-10-17T17:47Z",
+      "progress": "All 7 orphan topics promoted plus 10 further summaries (17 claims, CLAIM-089..105); alias map shows no orphan remaining."
     },
     {
       "id": "RQ-20261017-006",
@@ -71,6 +74,40 @@
       "status": "blocked-access-boundary",
       "added": "2026-10-17T17:29Z",
       "source": "step1_epochs/ARTICLE_COVERAGE.md"
+    },
+    {
+      "id": "RQ-20261017-009",
+      "topic": "Controls/settings inventory (camera, assist, control layout, Auto Switch option set) — highest-value missing artifact for execution advice",
+      "tier": "queue-Critical",
+      "status": "needs-device-or-permitted-route",
+      "added": "2026-10-17T18:33Z",
+      "source": "step1_epochs/TOPIC_MAP.md §A",
+      "note": "Requires either in-game observation via the user, or a permitted APK route for datamining. Do not fabricate option names."
+    },
+    {
+      "id": "RQ-20261017-010",
+      "topic": "Formation/role mechanics and set-piece behaviour — no verified claims exist; blocks the formation-specific meta the prompt requires",
+      "tier": "queue-High",
+      "status": "needs-device-or-permitted-route",
+      "added": "2026-10-17T18:33Z",
+      "source": "step1_epochs/TOPIC_MAP.md §B"
+    },
+    {
+      "id": "RQ-20261017-011",
+      "topic": "Exact economy values at current build (coin per match, gem per objective, XP per win/loss, division thresholds, coach ROI)",
+      "tier": "queue-High",
+      "status": "needs-device-or-permitted-route",
+      "added": "2026-10-17T18:33Z",
+      "source": "step1_epochs/TOPIC_MAP.md §C/§D/§E",
+      "note": "Until captured, every cost/ROI answer is approximate and must say so."
+    },
+    {
+      "id": "RQ-20261017-012",
+      "topic": "Verify the 15-vs-24 language-count conflict by datamined resource count or official statement",
+      "tier": "queue-Medium",
+      "status": "open",
+      "added": "2026-10-17T18:33Z",
+      "source": "EVIDENCE CONFLICT turn 5"
     }
   ]
 }

@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T18:00Z (session sess-20261017-001, turn 4, checkpoint ckpt-20261017-step1-003)
+Updated: 2026-10-17T18:38Z (session sess-20261017-001, turn 5, checkpoint ckpt-20261017-step1-004)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -29,6 +29,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - No open PR existed (PRs #1–#5 all CLOSED). No second PR opened yet; one branch per session.
 - Prompt discrepancy: prior capture was 173,446 bytes labelled v78; this session's delivered prompt is 175,596 bytes labelled v78 (43 changed lines, ~31 added clauses). The current delivered text is authoritative for this session; discrepancy logged OBS-007.
 
+## Turn 5 result — Skeptic pass and topic map
+- Mechanism 2 pass over the 22 promoted claims found two provenance-mixing errors (official list carrying community numbers, multi-source finding carrying a single-thread number). Both corrected by splitting; five challenges recorded; nothing promoted. Ledger: audit/SKEPTIC_PASS_step1_turn5.md.
+- EVIDENCE CONFLICT logged: 15 languages (store listing) vs 24 (APK listing data); unresolved, both kept labeled.
+- step1_epochs/TOPIC_MAP.md built — every coaching-relevant topic mapped to claim IDs, with gaps named. It is the input for Step 4's dependency record and delivers no advice.
+- Claim count 111; index regenerated with an open-challenges section; SCHEMA.md records the cross_refs[] addition.
+
 ## Turn 4 result — reconciliation closed, KB grown to 109 claims
 - All 9 REVIEW alias rows resolved by promoting them (no claim covered them), so all 73 topic summaries now map to a live claim and no orphan remains.
 - 22 claims added from already-captured evidence (CLAIM-089…110) at honest tiers; five remain Speculative with recorded challenges. KB tiers: Confirmed 27 / High 49 / Community Consensus 20 / Speculative 12 / Disputed 1.
@@ -44,7 +50,7 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
 ## Exact resumption point (next turn)
-Per the manifest: (1) review the 103 currently uncited/partial claim areas against the preserved corpus and fill genuine synthesis gaps only where evidence exists; (2) build the Step-1 topic map the coaching plan will need — controls/settings, on-pitch mechanics, economy loop, progression ladder, card economy — each pointing at claim IDs, so Step 4's coaching dependency record has its inputs; (3) run an internal Skeptic pass over the 22 newly promoted claims (independence, origin tracing, tier fit) and the claim index; (4) keep the epoch open and update CLOSURE_STATUS.md with the surviving debt. Network re-test only on environment change or a new permitted route.
+Per the manifest: (1) close the remaining synthesis gap EV-173 (store-review sentiment) as its own low-tier claim, or record it as not worth a claim with reasons; (2) Devil's Advocate pass over the Step-1 topic map's readiness conclusions (Mechanism 7 — is the evidence enough for the readiness calls it makes, and does any gap claim overreach?); (3) reconcile the EVIDENCE CONFLICT ledger into a single conflicts file with each pair, its status and its reopening test; (4) refresh the epoch accounting for the 16 UNVISITED t69 refs with a per-ref disposition (owed vs access-boundary). Network re-test only on environment change or a new permitted route.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued).

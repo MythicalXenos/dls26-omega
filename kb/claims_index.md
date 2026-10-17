@@ -1,7 +1,7 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:56Z. Do not edit by hand; regenerate. `kb/claims.jsonl` is the claim authority.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-17T18:35Z. Do not edit by hand; regenerate. `kb/claims.jsonl` is the claim authority.
 
-Total claims: **109**
+Total claims: **111**
 
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |
 | --- | --- | --- | --- | --- |
@@ -95,8 +95,8 @@ Total claims: **109**
 | CLAIM-089 | 'My Club' is the in-game menu that contains the kit/customisation surface: Main Menu > My Club > kit section > edit curr | High Confidence | volatility-Frozen | 2026-11-17 |
 | CLAIM-090 | 'Scripts' is community slang for perceived momentum or rubber-banding manipulation, not a documented game system. A laun | Speculative | volatility-Critical | 2026-11-17 |
 | CLAIM-091 | Launch-era (Dec 2025) gameplay sentiment across multiple independent Reddit threads and App Store reviews (Community Con | Community Consensus | volatility-Critical | 2026-11-17 |
-| CLAIM-092 | Economy friction reports: (a) one challenge was reported to require ~60,000 points to sign one of four players (single R | Community Consensus | volatility-High | 2026-11-17 |
-| CLAIM-093 | Facilities are five in number: Stadium, Medical, Commercial, Training (store copy) and Fanzone (Summer Spotlight release | High Confidence | volatility-High | 2026-11-17 |
+| CLAIM-092 | Historical/legend players can appear in multiple versions and multiple copies can exist in one squad (multiple community | Community Consensus | volatility-High | 2026-11-17 |
+| CLAIM-093 | Facilities are five in number: Stadium, Medical, Commercial, Training (store copy) and Fanzone (Summer Spotlight release | Confirmed | volatility-High | 2026-11-17 |
 | CLAIM-094 | Technical envelope from static APK listing data (APKMirror, imported capture): Android 10+ (some variants 12L+); ABIs ar | High Confidence | volatility-High | 2026-11-17 |
 | CLAIM-095 | 'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup Winners pack' plus a Dynamic St | Speculative | volatility-Critical | 2026-11-17 |
 | CLAIM-096 | Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; one sourc | Speculative | volatility-Critical | 2026-11-17 |
@@ -114,21 +114,130 @@ Total claims: **109**
 | CLAIM-108 | Official in-match connection troubleshooting ladder (article 7917279109777, EV-150): disable VPN; on mobile data move to | Confirmed | volatility-Frozen | 2026-11-17 |
 | CLAIM-109 | Graphics settings path in the current build: Main Menu hamburger > Profile > Graphics (the older captured path was Optio | Confirmed | volatility-Low | 2026-11-17 |
 | CLAIM-110 | Transfer-market quality scales with club progress, so a new account should not expect top players immediately; events an | Community Consensus | volatility-High | 2026-11-17 |
+| CLAIM-111 | Per-level facility effect values reported by a VI guide (download.com.vn, Community Consensus, single family): Stadium C | Community Consensus | volatility-High | 2026-11-17 |
+| CLAIM-112 | One Reddit thread reported a challenge requiring about 60,000 points to sign one of four players. Single-thread report,  | Speculative | volatility-High | 2026-11-17 |
 
 ## Distribution
-- Confidence: High Confidence 49, Speculative 12, Confirmed 27, Disputed 1, Community Consensus 20
-- Volatility: volatility-High 37, volatility-Critical 8, volatility-Low 30, volatility-Medium 31, volatility-Frozen 3
+- Confidence: High Confidence 48, Speculative 13, Confirmed 28, Disputed 1, Community Consensus 21
+- Volatility: volatility-High 39, volatility-Critical 8, volatility-Low 30, volatility-Medium 31, volatility-Frozen 3
 
 ## Overdue as of 2026-10-17 (next_due passed) — refresh must be a real check, never a date bump
 - CLAIM-003 (next_due 2026-10-11)
 - CLAIM-006 (next_due 2026-10-11)
 
+## Claims with open challenges (read before use)
+- CLAIM-001 (High Confidence): launch-date contradiction CLAIM-008
+- CLAIM-002 (High Confidence): full articles now extracted (EV-101/102 verbatim match snippets); community 'weekly' reset vs official '3-30 days' range still unresolved (not necessa
+- CLAIM-003 (Speculative): scoped negative: support search "tier" found no dedicated LIVE-Tier definition article (EV-110)
+- CLAIM-004 (Speculative): 15-match season detail single-origin, untranslated primary; needs corroboration
+- CLAIM-005 (Confirmed): single user review; no controlled tests; 'c spam' semantics unexplained
+- CLAIM-006 (Speculative): MUST verify before any Legendary Fitness coaching; terminology may differ (Fitness Coach vs Legendary Fitness item)
+- CLAIM-007 (Speculative): secondary lists disagree; verify against DB extraction
+- CLAIM-008 (High Confidence): Dec 4 2026 source retained as historical anomaly; if a Dec-2026 date claim reappears, recheck for regional rollout semantics
+- CLAIM-009 (High Confidence): high confidence is for 'FTG states this policy', not proof of runtime behavior (policy claims carry publisher incentive; official origin does not bypa
+- CLAIM-010 (High Confidence): store copy names the division; exact promotion rules not yet extracted
+- CLAIM-011 (High Confidence): two official articles (EV-107 + EV-207) corroborate; tier High Confidence consistent with session convention for multi-article official text; Confirme
+- CLAIM-013 (High Confidence): high confidence for what FTG documents; official disclaimer says stats interact with inherent unpredictability; numeric formulas not published
+- CLAIM-014 (High Confidence): DLL XP definition/measurement not yet documented (open)
+- CLAIM-015 (High Confidence): community guides add Daily Challenges as a gems source — not excluded by official text; amounts unknown
+- CLAIM-016 (High Confidence): 'coaches' named as items — relationship to Legendary Fitness / fitness-coach claims (CLAIM-006) unverified; Dream Point Boosts cost unknown (coin-free
+- CLAIM-017 (High Confidence): policy statement; detection efficacy and enforcement rates unknown (no enforcement reports found does not prove zero risk)
+- CLAIM-018 (High Confidence): official-stated netcode properties, not independently verified
+- CLAIM-019 (High Confidence): amounts/rates unpublished; live-service drift explicitly possible
+- CLAIM-020 (High Confidence): scout/agent pricing, pool composition unpublished
+- CLAIM-021 (High Confidence): earn-rule wording tension (winning vs completing) preserved
+- CLAIM-022 (High Confidence): device limit count unknown; relevant to any device-pipeline plan (Step 3)
+- CLAIM-023 (High Confidence): enforcement of profile-trading ban rates unknown
+- CLAIM-024 (High Confidence): fairness claim is official-stated with publisher incentive; RNG symmetry untested
+- CLAIM-025 (High Confidence): title-boundary policy could change at DLS26 launch
+- CLAIM-026 (High Confidence): practical fill rates by region/device unmeasured
+- CLAIM-027 (High Confidence): no-hidden-difficulty is an official claim (incentive context); algorithm internals untested
+- CLAIM-028 (High Confidence): DLS26 mechanics may have changed (random-target behavior, Form Boost naming)
+- CLAIM-029 (High Confidence): payout formulas unmeasured
+- CLAIM-031 (High Confidence): no-bot/no-manipulation claims carry publisher incentive; independent testing impossible in epoch 1
+- CLAIM-032 (High Confidence): DLS26 economy may differ again (a seasonal title release is expected)
+- CLAIM-033 (High Confidence): example list may not be exhaustive
+- CLAIM-034 (High Confidence): third-party kit URLs are untrusted remote assets (security note for Step 3)
+- CLAIM-035 (High Confidence): whether leaderboards/ranked modes are age-gated is UNVERIFIED (open feature list)
+- CLAIM-037 (High Confidence): DLS26 may expose graphics options on iOS too
+- CLAIM-040 (High Confidence): Progress Bank basis wording conflict: "Season Points" (EV-162) vs "DLL XP" (CLAIM-014 lineage) UNRESOLVED
+- CLAIM-041 (High Confidence): countdown duration unmeasured
+- CLAIM-042 (Disputed): DLS26 save stack unknown until launch
+- CLAIM-043 (Confirmed): chunks 1-3 unread (virtual items/online service terms)
+- CLAIM-044 (High Confidence): fairness claims carry publisher incentive; internals untestable in epoch 1
+- CLAIM-045 (High Confidence): marketing copy; season/leaderboard mechanics still unspecified (CLAIM-003 OPEN)
+- CLAIM-046 (Community Consensus): DB accuracy unverified against client data
+- CLAIM-047 (Community Consensus): formula itself unverified; "private engine matrix" claim is marketing
+- CLAIM-048 (Confirmed): 12200<->13.4x mapping unknown
+- CLAIM-049 (Community Consensus): 'mirrors official internal logic' is the site's own marketing claim — formula unverified against client
+- CLAIM-050 (Confirmed): identity mapping (Dream Points =? Season Points =? DLL XP =? Clan Points =? Cup Coins) OPEN
+- CLAIM-051 (Community Consensus): single community source; 'weekly leaderboard' surface undefined (Dream League Live tier board vs Season board)
+- CLAIM-052 (Community Consensus): single blog origin for market-refresh/physio/stadium-bonus specifics
+- CLAIM-053 (Confirmed): review themes are anecdotal single-region signals
+- CLAIM-054 (Confirmed): 13.2xx versions missing from listing (may exist off-list)
+- CLAIM-055 (High Confidence): exact upgrade formula/trigger windows unverified
+- CLAIM-056 (Confirmed): ID regional pricing; catalog drifts with live offers
+- CLAIM-057 (Confirmed): 12.200 note-text oddity unexplained
+- CLAIM-058 (Community Consensus): DB snapshot; roster updates change the ceiling
+- CLAIM-059 (Community Consensus): community-DB labels may be site-invented groupings
+- CLAIM-060 (Confirmed): base-vs-maxed ambiguity unresolved
+- CLAIM-061 (Community Consensus): approx community numbers, not client-extracted
+- CLAIM-062 (Community Consensus): single VI community source — objectives UI/scope unverified
+- CLAIM-063 (Community Consensus): single source for the exact milestones
+- CLAIM-064 (Community Consensus): single VI portal source for milestone values
+- CLAIM-065 (Community Consensus): single source for earning-loop split
+- CLAIM-066 (Community Consensus): VI portal mixes marketing + guide text
+- CLAIM-067 (Confirmed): surface (Career vs DLL ladder) unspecified
+- CLAIM-068 (Community Consensus): 400 activation and 1095 total are single-source season values (drift per season)
+- CLAIM-069 (Community Consensus): single VI source; exact release->fitness-coach conversion unverified
+- CLAIM-070 (Community Consensus): meta varies by patch/OP-ness
+- CLAIM-071 (Confirmed): tie-breaks/intervals/eligibility unspecified
+- CLAIM-072 (High Confidence): community mirror of official FAQ — re-verify against live support when reachable
+- CLAIM-073 (Confirmed): fix 'known to resolve' is support-side anecdote
+- CLAIM-074 (Confirmed): 'unlock' requirement for Custom Logo unspecified (level/achievement?)
+- CLAIM-075 (Confirmed): 'obvious game bugs' boundary is FTG-judged
+- CLAIM-076 (Confirmed): 'bux' vs 'coins' naming legacy
+- CLAIM-077 (Confirmed): 'limited by season' scope (2 as example, actual count unknown)
+- CLAIM-078 (Confirmed): iOS has no graphics menu (settings path differs)
+- CLAIM-079 (High Confidence): comment vintage (5-6y) — Bundesliga status in DLS26 unverified
+- CLAIM-080 (Confirmed): 'no manipulation' is a publisher claim (unverifiable in epoch 1)
+- CLAIM-081 (Confirmed): 'recent results' matchmaking input not confirmed by this article (source divergence preserved)
+- CLAIM-082 (Confirmed): countdown duration value unstated
+- CLAIM-083 (Confirmed): device limit VALUE unstated
+- CLAIM-084 (Confirmed): listings are volatile (repos/packages appear/disappear); snapshot 2026-10-11
+- CLAIM-085 (High Confidence): 2 independent origins only (DLS-Card-Creator + DLS-Files; shared repo counts once) — gate High Confidence, not Confirmed
+- CLAIM-086 (Speculative): single origin (Speculative below gates)
+- CLAIM-087 (High Confidence): 2-3 independent third-party store trackers (appbrain, fifaworldcupnews, apkgk), NOT FTG-official changelog → High Confidence gate, not Confirmed
+- CLAIM-088 (High Confidence): 2 independent community-guide origins (bluestacks Jun 2026 + gamingonphone Jan 2026), NOT official → High Confidence, community-documented
+- CLAIM-090 (Speculative): Community perception and official statement are not reconciled by evidence; the perception record must not be cited as proof a mechanism exists
+- CLAIM-091 (Community Consensus): Launch-era report; must be re-checked before use as advice
+- CLAIM-092 (Community Consensus): Multi-source community agreement but no official confirmation of copy limits
+- CLAIM-093 (Confirmed): Effect values are not part of this claim (see CLAIM-111)
+- CLAIM-094 (High Confidence): Static listing data only; no runtime verification; sizes change per release
+- CLAIM-095 (Speculative): Single UGC source; naming family ambiguous
+- CLAIM-096 (Speculative): Single source; possible duplicate event naming
+- CLAIM-097 (High Confidence): Not official-sourced yet
+- CLAIM-098 (Confirmed): Deeper clan mechanics (clan matches, reward tables) not captured
+- CLAIM-099 (High Confidence): Mechanic described from an inherited capture with no preserved EV record (RQ-20261017-006)
+- CLAIM-100 (Speculative): No body captured; do not advise on device minimums from this
+- CLAIM-101 (Community Consensus): Community-only; no official text captured
+- CLAIM-102 (Speculative): Single source; Academy Division label unconfirmed
+- CLAIM-103 (High Confidence): Cadence inferred from the store version timeline; no FTG statement of schedule (CLAIM-025)
+- CLAIM-104 (Speculative): Single tool source; formula may be an approximation
+- CLAIM-105 (Speculative): Single Reddit theory; unverified
+- CLAIM-106 (Confirmed): In-game option labels beyond 'Auto Switch' were not captured
+- CLAIM-107 (Confirmed): Whether the same swipe set covers every move available in 13.430 is unverified
+- CLAIM-109 (Confirmed): UI path moved between versions; verify in-game before instructing
+- CLAIM-110 (Community Consensus): Community-tier; the 'scales with club progress' rule is not officially confirmed
+- CLAIM-111 (Community Consensus): Single content family (download.com.vn); values not corroborated by an independent origin
+- CLAIM-112 (Speculative): Single anonymous thread; no screenshot or official confirmation
+
 ## Highest-priority (volatility-Critical)
-- CLAIM-003 (Speculative): The highest verifiable global competitive ranking for the mission is NOT yet established. Candidate surfaces found so far: Dream L
-- CLAIM-005 (Confirmed): Community reports in current-build reviews describe competitive-integrity problems: 0.5-2s player-switching input desync, exploita
-- CLAIM-021 (High Confidence): A SEASON LEADERBOARD (accessed from the Main Menu) displays players Season Points totals; Season Points are earned from winning ma
-- CLAIM-090 (Speculative): 'Scripts' is community slang for perceived momentum or rubber-banding manipulation, not a documented game system. A launch-era meg
-- CLAIM-091 (Community Consensus): Launch-era (Dec 2025) gameplay sentiment across multiple independent Reddit threads and App Store reviews (Community Consensus): g
-- CLAIM-095 (Speculative): 'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup Winners pack' plus a Dynamic Stars final 
-- CLAIM-096 (Speculative): Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; one source, and pos
-- CLAIM-103 (High Confidence): Live-service cadence: DLS26 receives multiple in-season updates (observed roughly monthly version bumps from February to September
+- CLAIM-003 (Speculative): The highest verifiable global competitive ranking for the mission is NOT yet established. Candidate surfaces found so fa
+- CLAIM-005 (Confirmed): Community reports in current-build reviews describe competitive-integrity problems: 0.5-2s player-switching input desync
+- CLAIM-021 (High Confidence): A SEASON LEADERBOARD (accessed from the Main Menu) displays players Season Points totals; Season Points are earned from 
+- CLAIM-090 (Speculative): 'Scripts' is community slang for perceived momentum or rubber-banding manipulation, not a documented game system. A laun
+- CLAIM-091 (Community Consensus): Launch-era (Dec 2025) gameplay sentiment across multiple independent Reddit threads and App Store reviews (Community Con
+- CLAIM-095 (Speculative): 'World Cup Winners' content arrived around 21 July 2026 per pack-opening UGC ('World Cup Winners pack' plus a Dynamic St
+- CLAIM-096 (Speculative): Community reports place a 'World Heroes' event starting ~1 July 2026 and describe 'World Winners' as upcoming; one sourc
+- CLAIM-103 (High Confidence): Live-service cadence: DLS26 receives multiple in-season updates (observed roughly monthly version bumps from February to

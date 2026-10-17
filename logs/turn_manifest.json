@@ -4,24 +4,35 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 4,
-  "checkpoint_id": "ckpt-20261017-step1-003",
-  "previous_checkpoint_id": "ckpt-20261017-step1-002",
+  "turn_seq": 5,
+  "checkpoint_id": "ckpt-20261017-step1-004",
+  "previous_checkpoint_id": "ckpt-20261017-step1-003",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
   "next_state": "STATE_1_RESEARCH_SWEEP",
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
-  "progress_event_refs": ["kb/claims.jsonl","kb/claims_index.md","kb/claim_alias_map.md","step1_epochs/CLOSURE_STATUS.md","logs/main_operational_log.md","handoff/HANDOFF.md"],
+  "progress_event_refs": [
+    "kb/claims.jsonl",
+    "kb/claims_index.md",
+    "audit/SKEPTIC_PASS_step1_turn5.md",
+    "step1_epochs/TOPIC_MAP.md",
+    "step1_epochs/CLOSURE_STATUS.md",
+    "logs/research_queue.json",
+    "SCHEMA.md"
+  ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) internal Skeptic pass over CLAIM-089..110 and the claim index (independence, origin tracing, tier fit; log SKEPTIC CHALLENGE entries and correct any tier that fails); (2) build the Step-1 topic map for the coaching dependency record (controls/settings, on-pitch mechanics, economy loop, progression ladder, card economy) with claim IDs per topic; (3) fill only evidence-backed synthesis gaps (EV-173 sentiment chunk, feedback loops), leaving unsupported areas as named gaps; (4) update CLOSURE_STATUS.md debt. Web families remain ACCESS_BOUNDARY; re-test only on environment-generation change.",
-  "created_at": "2026-10-17T16:59:22Z",
-  "not_before": "2026-10-17T16:59:22Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1, offline-capable: (1) settle the EV-173 store-review sentiment item as a low-tier claim or a documented no-claim decision with reasons; (2) Devil's Advocate pass (Mechanism 7) over the readiness conclusions in step1_epochs/TOPIC_MAP.md, logging DEVILS ADVOCATE entries and correcting any overreach; (3) consolidate EVIDENCE CONFLICT records into logs/conflicts.md with each pair, status and reopening test; (4) give all 16 UNVISITED t69 refs a per-ref disposition (owed vs access-boundary with reopening predicate). Web families remain ACCESS_BOUNDARY; re-test only on environment-generation change.",
+  "created_at": "2026-10-17T17:01:20Z",
+  "not_before": "2026-10-17T17:01:20Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
-  "diagnostic_refs": ["step1_epochs/CLOSURE_STATUS.md","kb/claim_alias_map.md"]
+  "diagnostic_refs": [
+    "audit/SKEPTIC_PASS_step1_turn5.md",
+    "step1_epochs/TOPIC_MAP.md"
+  ]
 }

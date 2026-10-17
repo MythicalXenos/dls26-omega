@@ -26,11 +26,23 @@ Conclusion: extraction closure is not the limiting factor for these records — 
 - Sandbox allowlist: github.com, codeload.github.com, api.github.com, registry.npmjs.org, pypi.org, files.pythonhosted.org. All game/community/store hosts blocked at TLS (curl 35).
 - No device, ADB, java, APK tooling. Step 2 static analysis and Step 3 device pipeline are not executable here.
 
+### Turn 5 additions
+- Skeptic pass completed over the promoted claims: two provenance-mixing errors corrected by splitting (CLAIM-093/111, CLAIM-092/112), five challenges recorded, two cross-references added. Ledger: `audit/SKEPTIC_PASS_step1_turn5.md`.
+- Topic map built (`step1_epochs/TOPIC_MAP.md`) naming six knowledge areas and, explicitly, the coaching-critical gaps: controls/settings inventory, formations/roles, set pieces, stamina curve, exact economy/XP values, coaching ROI.
+- Claim count 111 (Confirmed 28 / High Confidence 48 / Community Consensus 21 / Speculative 13 / Disputed 1). These additions do not move either closure condition: they make existing evidence auditable, not more complete.
+
 ## What this session added toward closure
 - Single claim authority established and grown from 87 to **109 claims**; all 73 markdown summaries now alias to a live claim, with 22 new claims promoted from preserved evidence (CLAIM-089…110) at the tier the evidence actually supports — no tier inflation (Confirmed 27 / High Confidence 49 / Community Consensus 20 / Speculative 12 / Disputed 1).
 - Coaching-relevant corroborated mechanics added from already-captured official text: Auto Switch control (CLAIM-106), skill-move swipes (CLAIM-107), connection troubleshooting ladder incl. the DNS fix (CLAIM-108), current Graphics path (CLAIM-109), and market-quality-scales-with-progress (CLAIM-110, community tier).
 - Article-level support coverage reconciled; stale "15 owed bodies" corrected to 3.
 - Negative findings recorded for the technical layer on GitHub/npm (bounded to queries and date).
+
+## Coaching-critical gaps carried into next epoch (from TOPIC_MAP.md)
+1. Controls/settings inventory — no claim exists (RQ-009).
+2. Formation/role demands and set-piece behaviour — no claim exists (RQ-010).
+3. Exact economy values and XP thresholds — no captured table (RQ-011).
+4. Measured coaching ROI / stat-gain per coach rarity — blocks any honest cost model.
+5. Goalkeeper behaviour beyond GKH/GKR semantics; in-match stamina curve.
 
 ## Next-epoch debt (carried explicitly, not silently dropped)
 1. Retry articles #19/#26/#27 and the moved update-troubleshooting slug (needs a permitted route).

@@ -33,6 +33,11 @@ Required: run_id, operation_id, conversation_id, session_id, turn_seq (positive,
 ## 4. KB claim schema
 Claim ID, proposition, build/platform/mode context, confidence tier, volatility tier (named with its system), evidence-origin tags, source URLs/IDs, last verified (date + method), first-publication dates where independence matters, datamining flag, deception-screen outcome, checkable origin or explicit none-found, challenge/replacement history.
 
+## 4a. Claim field additions (2026-10-17)
+- `cross_refs[]` added to the claim schema: a list of other claim IDs that cover a complementary or overlapping proposition (used where splitting or complementing would otherwise look like duplication). It never changes a tier and is not evidence.
+- `challenges[]` continues to hold open Skeptic/DA challenges as plain sentences; a challenged claim may not be quoted without its challenge where the challenge bears on the intended use.
+- Additions are recorded here rather than renaming fields, so existing records stay valid without migration (old schema kept).
+
 ## 5. Migration and rollback
 - Version is explicit and integer; unknown versions are rejected, not guessed.
 - Any schema change: write the reason and migration steps here, keep the old shape readable, migrate losslessly, verify counts/digests, commit a KB snapshot before and after.
