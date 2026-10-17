@@ -21,4 +21,15 @@ Turn-2 Step-1 obligation: resolve prompt shorthand and unnamed game terms to DLS
 - **T-013 DLL structure**: ranked Tiers (Tier 1 = top per community world-record post); FTG-official matchmaking factors are LIVE Tier ranking, location, availability pool; usually same-Tier opponents; no overlaid difficulty controls; outcomes governed by skill/tactics/team strength (Confirmed — official support article). Exact tier names/counts and XP totals (e.g., 145,299 XP reports): Speculative, single community source.
 
 ## Prompt terms still unresolved (owed)
-rotation, coaching state, reset cycles, breakpoints, matchup matrix, gameplans, touch patterns, ceiling, bonus development, season points (partially: XP appears in DLL per community report).
+rotation, coaching state (partially resolved — see T-018), reset cycles (partially resolved — see T-020), breakpoints, matchup matrix, gameplans, ceiling (partially resolved — see T-021), bonus development (partially resolved — see T-017).
+
+## Turn-3 additions (verified 2026-10-17)
+- **T-014 Season Points** — the Season Pass progression currency, earned by completing matches; amount varies by game mode (FTG article 4404070913169). Confidence: Confirmed (official-stated). Volatility: High (per-season values). Resolves the prompt's "season points".
+- **T-015 Dream Points** — currency awarded in matches; drives Prize Ladder progression (FTG article 23108987826962). Confirmed. Volatility: High.
+- **T-016 In-game week** — the transfer-market clock: new transfer listings appear after each single-player match (FTG article 360004066417). High Confidence (official-stated). Volatility: Frozen (mechanic).
+- **T-017 Form Boost** — a temporary player upgrade lasting a set number of matches; duration scales with the Training facilities level, minimum one match (FTG article 360003914778). Confirmed. → the prompt's "bonus development" partially maps to this (temporary bonus layer); permanent development is coach-driven (GS-008).
+- **T-018 Coaches** — permanent, randomly-targeted player upgrades; categories Technical, Fitness, Goalkeeping, Special; rarities Common/Rare/Legendary (official existence + community detail, GS-008). High Confidence. → the prompt's "coaching state".
+- **T-019 Cult Hero Agents** — the acquisition currency/route for Cult Heroes (Events, Drafts, Season Pass). High Confidence (community + UGC; official confirmation pending). Volatility: Critical.
+- **T-020 Reset cycles** — partially resolved: transfer refresh advances per single-player match (in-game week, T-016); Season Pass and Prize Ladder run on seasonal cycles with countdown timers (official); DLL leaderboards reset weekly (community, gamingonphone). Full reset semantics still owed (datamining, Step 2).
+- **T-021 Ceiling** — community/tool usage: a developed player's maximum rating = base OVR +10 (rarely +11) (Community Consensus, long-standing across versions); DLS26 weighted-progression variant per sakibpro simulator (Speculative, tool-derived, single source). Not yet official-stated.
+- **T-022 Position label set** — GK, CB, LB, RB, CM, CDM, AM ("Aggressive Midfielder"), SS ("Secondary Striker"), CF, ST, LW, RW, LM, RM (community/tool rendering; GS-011). High Confidence.
