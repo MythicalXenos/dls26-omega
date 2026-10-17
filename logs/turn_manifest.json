@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 17,
-  "checkpoint_id": "ckpt-20261017-step1-016",
-  "previous_checkpoint_id": "ckpt-20261017-step1-015",
+  "turn_seq": 18,
+  "checkpoint_id": "ckpt-20261017-step1-017",
+  "previous_checkpoint_id": "ckpt-20261017-step1-016",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,22 +14,23 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "audit/_sample7_turn17/README.md",
-    "kb/claims.jsonl",
-    "kb_snapshots/claims_20261017T1738Z.jsonl",
-    "docs/continuity/a7e23a6b/evidence/extract/EV-230_support_cant_connect.md",
-    "docs/continuity/a7e23a6b/evidence/extract/EV-231_support_find_user_id.md"
+    "audit/_sample8_turn18/README.md",
+    "step1_epochs/EPOCH_CLOSURE_REVIEW_turn18.md",
+    "step1_epochs/CLOSURE_STATUS.md",
+    "step1_epochs/IN_CLIENT_CHECKLIST.md",
+    "kb/claims.jsonl"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1: (1) back-stamp covers[] on EV-150/162/180/185/192/213/167/130 for the five sample-7 WARN claims; (2) sample 8; (3) refresh step1_epochs/IN_CLIENT_CHECKLIST.md with CLAIM-125 User-ID path and CLAIM-128 save-backup prerequisite; (4) closure review against epoch \u00a75 conditions 3-7 \u2014 decide if Step 1 is RETRIEVAL-COMPLETE (access-bounded, 0 retryable, 163 refs, remaining IN_PROGRESS are chunk-parsing or access-limited). No new registers. Web remains ACCESS_BOUNDARY. OBS-013 remains a first-contact decision.",
-  "created_at": "2026-10-17T21:40:00Z",
-  "not_before": "2026-10-17T21:40:00Z",
+  "exact_resumption_point": "STATE_1_RESEARCH_SWEEP Step 1 (RETRIEVAL-COMPLETE/EXTRACTION-IN-PROGRESS): (1) extraction wave 1 over the 24 no-direct-EV claims (add EV citations or summary EV records, S-*-witnessed claims marked DERIVED); (2) chunk-continuation triage on 8 IN_PROGRESS refs, mark CHUNK-COMPLETE-ENOUGH where chunks 1+ already support the relevant claims; (3) sample 9; (4) draft Step-2 plan (forbidden tools + workflow) WITHOUT executing Step-2 (OBS-013 block). Web remains ACCESS_BOUNDARY.",
+  "created_at": "2026-10-17T22:00:00Z",
+  "not_before": "2026-10-17T22:00:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "audit/_sample7_turn17/README.md"
+    "audit/_sample8_turn18/README.md",
+    "step1_epochs/EPOCH_CLOSURE_REVIEW_turn18.md"
   ]
 }

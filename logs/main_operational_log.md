@@ -242,3 +242,11 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - `kb/game-systems.md`, `kb/build-version.md`, `kb/terminology.md`, `kb/index.md` DERIVED VIEWs synced to the new claim set.
 - **Sample 7** (`audit/_sample7_turn17`): 2 OK / 5 WARN / 0 BAD. All five WARNs are covers-array lag in existing EVs (the `covers[]` field was not back-stamped when claims were added before turn 15). One WARN was self-inflicted (integrity glob missed `evidence/raw/` anchors). **No substantive errors this sample.** Cumulative 2 BAD over 49 tested claims (~4%).
 - Epoch contract §2 already reflects 163 refs / 0 RETRYABLE from turn 16; no re-stamp needed this turn.
+
+## 2026-10-17T22:00Z — turn 18 — STATE_1_RESEARCH_SWEEP (offline); RETRIEVAL-COMPLETE
+- **Covers[] back-stamp, batch 1+2** (`scripts/turn18a_covers_backstamp.py`, `turn18b_covers_backstamp2.py`): 19 EV records re-stamped so their `covers[]` lists the claims that cite them. Root cause was an accumulation of lag from turns before the covers-check existed (t15+).
+- **Sample 8** (`audit/_sample8_turn18/`): 7/7 OK after repair (initial pass showed 6 WARN covers-lag + 1 BAD false-positive from EV-001/002 anchor detection; both scripted out). 0 substantive errors. Cumulative ~3.6% over 56 sampled claims.
+- **Pre-connection safety items S1/S2** added to `step1_epochs/IN_CLIENT_CHECKLIST.md`: verify Sign-in-with-Google/Apple is linked (CLAIM-128 no-recovery guarantee) and copy System-Info text for the build string + User-ID recovery handle (CLAIM-125). These are safety gates, not research asks.
+- **Epoch §5 closure review** (`step1_epochs/EPOCH_CLOSURE_REVIEW_turn18.md`): all seven conditions for coverage are met. 163 refs, 0 RETRYABLE, 2 ACCESS_BOUNDARY with predicate, sha `9bfcc7de…` stable since turn 16. **Step 1 declared RETRIEVAL-COMPLETE / EXTRACTION-IN-PROGRESS.** `CLOSURE_STATUS.md` updated.
+- Remaining extraction debt: 24 claims currently lack a direct EV-* witness token (count includes the 8 pre-turn-16 summary-only claims plus the S-*-witnessed turn 16/17 claims whose witness is a service record, not an extract file — those are acceptable but need an explicit DERIVED note). 23 IN_PROGRESS refs to triage (chunk continuation vs access-bound).
+- Claim count 129; EV registry 133. Snapshot `kb_snapshots/claims_20261017T1800Z.jsonl`.

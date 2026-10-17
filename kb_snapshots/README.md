@@ -7,3 +7,4 @@ Rollback procedure: identify the last snapshot before a corruption, diff forward
 | claims_20261017T1728Z.jsonl | 118 | Turn-15 snapshot: CLAIM-119 added; CLAIM-020 corrected; frontier re-stamped; sha256 f8dea58ff1293b74 |
 | claims_20261017T1731Z.jsonl | 122 | Turn-16 snapshot: cross-branch merge, CLAIM-120..123 added, 10 witnesses upgraded from summaries to service records, RETRYABLE_FAILURE -> 0; sha256 c613b7fc2f9a46b4 |
 | claims_20261017T1738Z.jsonl | 129 | Turn-17 snapshot: sibling kb sweep, CLAIM-124..130, EV-230/231, EV-105 raw anchor re-validated; sha256 4e2146a0782e78c5 |
+| claims_20261017T1746Z.jsonl | 129 | Turn-18 snapshot: retrieval-complete declaration, covers back-stamped, sample 8 clean, pre-connection safety items; sha256 7fc7f550e0bc1d03 |

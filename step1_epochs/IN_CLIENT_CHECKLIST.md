@@ -1,7 +1,15 @@
 # IN-CLIENT OBSERVATION CHECKLIST — the batched ask
-Prepared 2026-10-17T20:48Z (session sess-20261017-001). This file holds the observations only the player can make, written now so that when the bootstrap reaches first contact the ask is specific, batched and short — not a vague "tell me about your team". Nothing here is asked yet; it is prepared.
+Prepared 2026-10-17T20:48Z (session sess-20261017-001). Updated turn 18 (2026-10-17T21:55Z) with pre-connection safety items. This file holds the observations only the player can make, written now so that when the bootstrap reaches first contact the ask is specific, batched and short — not a vague "tell me about your team". Nothing here is asked yet; it is prepared.
 
 **Why these and not others:** each item fills a gap that currently blocks a coaching decision (`step1_epochs/TOPIC_MAP.md`). Anything already answered by official text is excluded on purpose — the ask is only for what the KB cannot supply.
+
+## Pre-connection safety (turn 18 addition — ask BEFORE any execution advice is followed)
+These two items must be confirmed on the player's device the very first time contact happens, and before any experimentation. Both derive from claims added turn 17 (CLAIM-125, CLAIM-128).
+
+| # | Where to look | What to report | Why it matters |
+| --- | --- | --- | --- |
+| **S1** | Options (gear, top-left) > **Game Settings / account settings screen** | Is **Sign in with Google** (or Sign in with Apple on iOS) shown as **LINKED / CONNECTED**? If not, stop here and link it before making any change. | CLAIM-128: unlinked profiles carry a no-recovery guarantee after uninstall/reset. We do not want to be the cause of a lost account. |
+| **S2** | Options > Advanced > **System Info** (the "i" button) > **Copy Info** | Paste the copied text somewhere (it contains User ID, build, device). We only need the build string and User ID prefix — the ID itself goes to support, not to chat. | CLAIM-125: confirms the build the player is actually on (13.430? newer?) and gives a recovery handle in case anything goes wrong. This also settles freshness for B-001 on the actual device. |
 
 ## Priority 0 — one question that defines the mission (moved here turn 15)
 | # | Where to look | What to report | Why it matters |

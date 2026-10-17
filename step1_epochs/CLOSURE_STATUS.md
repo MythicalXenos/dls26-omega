@@ -51,3 +51,20 @@ Conclusion: extraction closure is not the limiting factor for these records — 
 4. Complete the 23 IN_PROGRESS extractions and the 16 UNVISITED refs listed in the t69 accounting.
 5. Resolve the reddit 403 family (ISS-0006) or record a family classification with the attempt matrix.
 6. Refresh the 2 overdue claims (CLAIM-003, CLAIM-006) with a real check when a permitted route exists.
+
+---
+
+## Turn 18 update — RETRIEVAL-COMPLETE declared; extraction still open
+Updated 2026-10-17T21:58Z. Full review: `step1_epochs/EPOCH_CLOSURE_REVIEW_turn18.md`.
+
+**Condition 1 (coverage) — MET as of turn 16, verified again turn 18.**
+163 refs: 101 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 2 ACCESS_BOUNDARY / 8 DUP / 0 RETRYABLE. Every *named* article has been retrieved at least once (on this branch or on `arena/22655f48-dls26-omega`). The 23 IN_PROGRESS are chunk-pagination continuation (8) or community-family enumeration blocked by the access boundary (15); the 8 UNVISITED are all owed behind ACCESS_BOUNDARY with a named predicate. RETRYABLE_FAILURE = 0.
+
+**Condition 2 (extraction) — NOT YET MET.**
+133 EV records exist; 129 claims. Witness coverage samples 3–8 show that every sampled claim cites a real file, and the two substantive errors found (C-009, CLAIM-020) have been fixed. The remaining debt is:
+1. ~8 summary-only claims (final count to verify) whose only witness is a kb/*.md derived line or a megathread summary — these need either a service-record witness upgrade (like the 10 done turn 16) or an explicit "no higher-tier witness exists" note.
+2. 23 IN_PROGRESS chunk continuations — whether to resume chunking (which is manual parsing work, not new fetches) or to mark them as CHUNK-COMPLETE-ENOUGH given the claim set already covers their content.
+3. Citation of failure records (EVD-*) and scope records (EV-109/114/178/205/208) as accounting anchors rather than proposition witnesses — already classified.
+
+**Step 1 epoch is therefore RETRIEVAL-COMPLETE / EXTRACTION-IN-PROGRESS.**
+No seal is claimed. The epoch remains OPEN until condition 2 is met. Subsequent turns continue the extraction pass; new web retrieval only fires if the ACCESS_BOUNDARY predicate changes (host allowlist / proxy / user-supplied captures in `raw_game_data/`). Step 2 planning may proceed in parallel (draft only; execution blocked on OBS-013 first-contact EULA decision).
