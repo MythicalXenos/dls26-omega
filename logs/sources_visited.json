@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "authority": "OMEGA-FRONTIER-001 — this log owns retrievals, discovered references, source families, admission order, content projections, extraction cursors, classification proofs, retry eligibility, coverage and successful service events. Physical source of truth for all exhaustion declarations and evidence tracing (SOURCES VISITED LOG rule). Append-only.",
+  "created_utc": "2026-10-16T23:45:02Z",
+  "entries": [],
+  "source_families": {},
+  "coverage": {},
+  "digests": {}
+}
