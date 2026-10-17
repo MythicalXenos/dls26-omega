@@ -68,3 +68,17 @@ Updated 2026-10-17T21:58Z. Full review: `step1_epochs/EPOCH_CLOSURE_REVIEW_turn1
 
 **Step 1 epoch is therefore RETRIEVAL-COMPLETE / EXTRACTION-IN-PROGRESS.**
 No seal is claimed. The epoch remains OPEN until condition 2 is met. Subsequent turns continue the extraction pass; new web retrieval only fires if the ACCESS_BOUNDARY predicate changes (host allowlist / proxy / user-supplied captures in `raw_game_data/`). Step 2 planning may proceed in parallel (draft only; execution blocked on OBS-013 first-contact EULA decision).
+
+---
+
+## Turn 20 update — STEP 1 CLOSED
+Updated 2026-10-17T22:35Z.
+
+**Both conditions met.**
+- **Condition 1 (coverage):** 163 refs, zero IN_PROGRESS, zero RETRYABLE: 106 VISITED (5 new CHUNK-COMPLETE-ENOUGH), 20 ACCESS_BOUNDARY (18 re-stamped this turn — non-allowlisted community/web/reddit/UGC hosts), 8 UNVISITED, 21 NON_CONNECTED, 8 REPRESENTATION_DUPLICATE. Every non-VISITED ref carries a named predicate or proof.
+- **Condition 2 (extraction):** 148 EV records covering 129 claims. Every claim has at least one EV/EVD witness (CLAIM-103 cross-ref-only, documented). 6 accounting-only EVs classified in `evidence/UNCITED_CLASSIFICATION.md`; none contains an unrecorded mechanic. Chunk-continuation triage recorded in `CHUNK_TRIAGE_turn19.md`.
+- Witness-integrity samples 7/8/9/10 are all clean post-repair (four consecutive clean samples; ~2.9% cumulative substantive-error rate over 70 sampled claims).
+- `step2_datamining/STEP2_PLAN_DRAFT.md` ready (preconditions, forbidden actions, tool chain, workflow S0–S7; execution BLOCKED on OBS-013).
+- `step1_epochs/IN_CLIENT_CHECKLIST.md` leads with pre-connection safety items S1/S2 (backup, User-ID).
+
+**Step 1 epoch is sealed.** A snapshot `kb_snapshots/claims_20261017T1810Z.jsonl` is taken at closure. Subsequent work proceeds under Step 2 plan-preparation (still no execution) and Step 3 readiness; Step 5 first-contact text can be drafted because the safety gates and checklist are complete.

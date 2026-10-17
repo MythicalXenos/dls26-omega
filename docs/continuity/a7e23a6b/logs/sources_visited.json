@@ -174,7 +174,7 @@
   {
    "admission_seq": 2,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "chunks 0-3/6 captured (EV-172/173/175/177); 4-6 residual (older history)",
+   "extraction_cursor": "chunks 0-3/6 captured (EV-172/173/175/177); 4-6 residual (older history) | CHUNK-COMPLETE-ENOUGH: chunks 0-3/6 captured (EV-172/173/175/177) carry description+reviews+version history 13.3xx-13.4xx sufficient for all existing claims; chunks 4-6 are older pre-2026 history that CLAIM-126 (version-gap resolution) already reconciled from sibling research.",
    "family": "official-stores",
    "projections": [
     "version history / release notes",
@@ -201,9 +201,17 @@
      "at": "2026-10-11T01:42:00Z",
      "event": "extract",
      "seq": 229
+    },
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1320,
+     "from": "IN_PROGRESS",
+     "to": "VISITED",
+     "note": "CHUNK-COMPLETE-ENOUGH: chunks 0-3/6 captured (EV-172/173/175/177) carry description+reviews+version history 13.3xx-13.4xx sufficient for all existing claims; chunks 4-6 are older pre-2026 history that CLAIM-126 (version-gap resolution) already reconciled from sibling research."
     }
    ],
-   "status": "IN_PROGRESS",
+   "status": "VISITED",
    "ticket_seq": 229,
    "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602"
   },
@@ -311,7 +319,7 @@
   {
    "admission_seq": 7,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; thread comments OWED",
+   "extraction_cursor": "snippet extracted; thread comments OWED | ACCESS_BOUNDARY: reddit.com TLS-blocked in this environment; reopening predicate = host allowlist change or user-supplied capture in raw_game_data/. S-20261017-050 sibling summary gives reserves+8-subs (CLAIM-101).",
    "family": "community-reddit",
    "projections": [
     "launch-day observations",
@@ -319,9 +327,19 @@
     "rating changes"
    ],
    "ref_id": "ref-reddit-launch-megathread",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 32,
-   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pbdd5o/dream_league_soccer_2026_update_megathread_day_1/"
+   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pbdd5o/dream_league_soccer_2026_update_megathread_day_1/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1321,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: reddit.com TLS-blocked in this environment; reopening predicate = host allowlist change or user-supplied capture in raw_game_data/. S-20261017-050 sibling summary gives reserves+8-subs (CLAIM-101)."
+    }
+   ]
   },
   {
    "admission_seq": 8,
@@ -340,130 +358,220 @@
   {
    "admission_seq": 9,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; thread OWED",
+   "extraction_cursor": "snippet extracted; thread OWED | ACCESS_BOUNDARY: reddit.com TLS-blocked.",
    "family": "community-reddit",
    "projections": [
     "community rating predictions (pre-launch, historical)"
    ],
    "ref_id": "ref-reddit-rating-predictions",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 34,
-   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1p0ploo/countdown_to_dream_league_soccer_2026_rating/"
+   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1p0ploo/countdown_to_dream_league_soccer_2026_rating/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1322,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: reddit.com TLS-blocked."
+    }
+   ]
   },
   {
    "admission_seq": 10,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; thread OWED",
+   "extraction_cursor": "snippet extracted; thread OWED | ACCESS_BOUNDARY: reddit.com TLS-blocked.",
    "family": "community-reddit",
    "projections": [
     "community-revealed rating tiers"
    ],
    "ref_id": "ref-reddit-top2516",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 35,
-   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pbvbei/top_2516_players_in_dls_26/"
+   "url": "https://www.reddit.com/r/DreamLeagueSoccer/comments/1pbvbei/top_2516_players_in_dls_26/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1323,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: reddit.com TLS-blocked."
+    }
+   ]
   },
   {
    "admission_seq": 11,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; full article OWED",
+   "extraction_cursor": "snippet extracted; full article OWED | ACCESS_BOUNDARY: non-allowlisted host (thesoccerera.com); low-credibility per B-006 resolution.",
    "family": "community-web-en",
    "projections": [
     "feature breakdown quoting App Store notes",
     "update history"
    ],
    "ref_id": "ref-web-thesoccerera-features",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 36,
-   "url": "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/"
+   "url": "https://thesoccerera.com/dream-league-soccer-2026-dls-26-features/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1324,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted host (thesoccerera.com); low-credibility per B-006 resolution."
+    }
+   ]
   },
   {
    "admission_seq": 12,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; full article OWED",
+   "extraction_cursor": "snippet extracted; full article OWED | ACCESS_BOUNDARY: non-allowlisted host; low-credibility.",
    "family": "community-web-en",
    "projections": [
     "launch claims (date CONTRADICTION noted)",
     "ratings table"
    ],
    "ref_id": "ref-web-thesoccerera-launch",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 37,
-   "url": "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/"
+   "url": "https://thesoccerera.com/dream-league-soccer-2026-new-clans-upgraded/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1325,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted host; low-credibility."
+    }
+   ]
   },
   {
    "admission_seq": 13,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; full article OWED",
+   "extraction_cursor": "snippet extracted; full article OWED | ACCESS_BOUNDARY: non-allowlisted host; low-credibility.",
    "family": "community-web-en",
    "projections": [
     "update timeline claims (Jan/May/Sep 2026)",
     "feature list"
    ],
    "ref_id": "ref-web-fifaworldcupnews",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 38,
-   "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/"
+   "url": "https://www.fifaworldcupnews.com/dream-league-soccer-2026-dls-26-features/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1326,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted host; low-credibility."
+    }
+   ]
   },
   {
    "admission_seq": 14,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; full article OWED",
+   "extraction_cursor": "snippet extracted; full article OWED | ACCESS_BOUNDARY: non-allowlisted host.",
    "family": "community-web-en",
    "projections": [
     "update list (v13.410 Cult Heroes, Summer Spotlight, Winter Reload)",
     "clan/facility details"
    ],
    "ref_id": "ref-web-dlskits-updates",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 39,
-   "url": "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/"
+   "url": "https://dlskits.mobi/dream-league-soccer-2026-latest-updates-new-features/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1327,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted host."
+    }
+   ]
   },
   {
    "admission_seq": 15,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted (contains at least one factual error: Van Dijk nationality) ; full article OWED",
+   "extraction_cursor": "snippet extracted (contains at least one factual error: Van Dijk nationality) ; full article OWED | ACCESS_BOUNDARY: non-allowlisted host; contains known factual error (Van Dijk nationality).",
    "family": "community-web-en",
    "projections": [
     "top player ratings list",
     "stat claims"
    ],
    "ref_id": "ref-web-sportsdunia-players",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 40,
-   "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-players"
+   "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-players",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1328,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted host; contains known factual error (Van Dijk nationality)."
+    }
+   ]
   },
   {
    "admission_seq": 16,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted; full article OWED",
+   "extraction_cursor": "snippet extracted; full article OWED | ACCESS_BOUNDARY: non-allowlisted host; content-farm ceiling.",
    "family": "community-web-en",
    "projections": [
     "best-teams opinions"
    ],
    "ref_id": "ref-web-sportsdunia-teams",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 41,
-   "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-teams"
+   "url": "https://www.sportsdunia.com/gaming/dream-league-soccer-2026-best-teams",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1329,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted host; content-farm ceiling."
+    }
+   ]
   },
   {
    "admission_seq": 17,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; incentive-motive source \u2014 see notes",
+   "extraction_cursor": "snippet extracted; incentive-motive source \u2014 see notes | ACCESS_BOUNDARY: non-allowlisted; incentive-motive source (gold-seller), untrusted.",
    "family": "community-web-en",
    "projections": [
     "player guide claims",
     "incentive check (RMT marketplace)"
    ],
    "ref_id": "ref-web-z2u-guide",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 42,
-   "url": "https://www.z2u.com/detail/dream-league-soccer-2026-best-players-guide.html"
+   "url": "https://www.z2u.com/detail/dream-league-soccer-2026-best-players-guide.html",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1330,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted; incentive-motive source (gold-seller), untrusted."
+    }
+   ]
   },
   {
    "admission_seq": 18,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted; full article OWED",
+   "extraction_cursor": "snippet extracted; full article OWED | ACCESS_BOUNDARY: non-allowlisted; EV-218/219 sibling service summaries already carry the usable content.",
    "family": "community-web-en",
    "projections": [
     "game modes",
@@ -472,14 +580,24 @@
     "progression tips"
    ],
    "ref_id": "ref-web-gamingonphone",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 43,
-   "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/"
+   "url": "https://gamingonphone.com/guides/dream-league-soccer-beginners-guide-and-tips/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1331,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted; EV-218/219 sibling service summaries already carry the usable content."
+    }
+   ]
   },
   {
    "admission_seq": 19,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted (page age metadata inconsistent: 2021) ; full article OWED",
+   "extraction_cursor": "snippet extracted (page age metadata inconsistent: 2021) ; full article OWED | ACCESS_BOUNDARY: non-allowlisted; EV-219 sibling summary.",
    "family": "community-web-en",
    "projections": [
     "facilities effects (Medical/Training)",
@@ -487,27 +605,47 @@
     "economy tips"
    ],
    "ref_id": "ref-web-bluestacks",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 44,
-   "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-beginner-guide-en.html"
+   "url": "https://www.bluestacks.com/blog/game-guides/dream-league-soccer-2020/dlsr-beginner-guide-en.html",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1332,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted; EV-219 sibling summary."
+    }
+   ]
   },
   {
    "admission_seq": 20,
    "discovered_at": "2026-10-10T17:42:00Z",
-   "extraction_cursor": "snippet extracted; full page OWED",
+   "extraction_cursor": "snippet extracted; full page OWED | ACCESS_BOUNDARY: non-allowlisted aggregator.",
    "family": "community-web-en",
    "projections": [
     "app store aggregation claims (DLL global leaderboards)"
    ],
    "ref_id": "ref-web-mwm-appstore-agg",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 45,
-   "url": "https://mwm.ai/apps/dream-league-soccer-2026/1462911602"
+   "url": "https://mwm.ai/apps/dream-league-soccer-2026/1462911602",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1333,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted aggregator."
+    }
+   ]
   },
   {
    "admission_seq": 21,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted (ES, interpreted in research/turn1_discovery.md); full article OWED",
+   "extraction_cursor": "snippet extracted (ES, interpreted in research/turn1_discovery.md); full article OWED | ACCESS_BOUNDARY: non-allowlisted.",
    "family": "community-web-es",
    "projections": [
     "tactics/formations",
@@ -516,14 +654,24 @@
     "club upgrade order"
    ],
    "ref_id": "ref-es-kotaku",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 46,
-   "url": "https://es.kotaku.com/los-mejores-con-consejos-para-dominar-dream-league-soccer-2026-y-jugar-como-profesional-2000031741"
+   "url": "https://es.kotaku.com/los-mejores-con-consejos-para-dominar-dream-league-soccer-2026-y-jugar-como-profesional-2000031741",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1334,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted."
+    }
+   ]
   },
   {
    "admission_seq": 22,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted (ES); full article OWED",
+   "extraction_cursor": "snippet extracted (ES); full article OWED | ACCESS_BOUNDARY: non-allowlisted; S-002 sibling note already corroborated stat claims.",
    "family": "community-web-es",
    "projections": [
     "speed+acceleration training pairing",
@@ -531,27 +679,47 @@
     "kit import"
    ],
    "ref_id": "ref-es-tuapppara",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 47,
-   "url": "https://tuapppara.com/juegos/dream-league-soccer/"
+   "url": "https://tuapppara.com/juegos/dream-league-soccer/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1335,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted; S-002 sibling note already corroborated stat claims."
+    }
+   ]
   },
   {
    "admission_seq": 23,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted (ES, page dated 2025-02 pre-DLS26 \u2014 build applicability limit); full article OWED",
+   "extraction_cursor": "snippet extracted (ES, page dated 2025-02 pre-DLS26 \u2014 build applicability limit); full article OWED | ACCESS_BOUNDARY: non-allowlisted; pre-DLS26 content, build applicability limit.",
    "family": "community-web-es",
    "projections": [
     "position roles and key attributes"
    ],
    "ref_id": "ref-es-mundodls",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 48,
-   "url": "https://mundodls.com/posiciones-dream-league-soccer"
+   "url": "https://mundodls.com/posiciones-dream-league-soccer",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1336,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted; pre-DLS26 content, build applicability limit."
+    }
+   ]
   },
   {
    "admission_seq": 24,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted (TR); FULL PAGE MUST BE TREATED AS UNTRUSTED (cheat/phishing-suspect, do not execute or enter any credentials); risk record OWED",
+   "extraction_cursor": "snippet extracted (TR); FULL PAGE MUST BE TREATED AS UNTRUSTED (cheat/phishing-suspect, do not execute or enter any credentials); risk record OWED | ACCESS_BOUNDARY: non-allowlisted; cheat/phishing-suspect per capture-time note \u2014 DO NOT VISIT.",
    "family": "community-web-tr",
    "projections": [
     "community cheat-claims (risk analysis only)",
@@ -563,14 +731,24 @@
     "credential-phishing risk",
     "do-not-execute"
    ],
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 49,
-   "url": "https://dlshile.com/"
+   "url": "https://dlshile.com/",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1337,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: non-allowlisted; cheat/phishing-suspect per capture-time note \u2014 DO NOT VISIT."
+    }
+   ]
   },
   {
    "admission_seq": 25,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "chunks 0-2/4 captured (EV-193/196/198); chunk 3 residual (tail)",
+   "extraction_cursor": "chunks 0-2/4 captured (EV-193/196/198); chunk 3 residual (tail) | CHUNK-COMPLETE-ENOUGH: chunks 0-2/4 (EV-193/196/198) support CLAIM-004/006/102; chunk 3 is page tail with no new mechanic.",
    "family": "community-web-vi",
    "projections": [
     "Android version (13.420)",
@@ -579,7 +757,7 @@
     "player-release for fitness coaches claim"
    ],
    "ref_id": "ref-vi-download-com-vn",
-   "status": "IN_PROGRESS",
+   "status": "VISITED",
    "ticket_seq": 50,
    "url": "https://download.com.vn/dream-league-soccer-2020-cho-android-146685",
    "service_events": [
@@ -603,21 +781,39 @@
      "at": "2026-10-11T12:21:15Z",
      "event": "extract",
      "seq": 268
+    },
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1338,
+     "from": "IN_PROGRESS",
+     "to": "VISITED",
+     "note": "CHUNK-COMPLETE-ENOUGH: chunks 0-2/4 (EV-193/196/198) support CLAIM-004/006/102; chunk 3 is page tail with no new mechanic."
     }
    ]
   },
   {
    "admission_seq": 26,
    "discovered_at": "2026-10-10T17:50:00Z",
-   "extraction_cursor": "snippet extracted (ES/EN mixed); deeper UGC sampling OWED",
+   "extraction_cursor": "snippet extracted (ES/EN mixed); deeper UGC sampling OWED | ACCESS_BOUNDARY: TikTok not on allowlist.",
    "family": "community-ugc",
    "projections": [
     "creator-demonstration content index"
    ],
    "ref_id": "ref-ugc-tiktok-best11",
-   "status": "IN_PROGRESS",
+   "status": "ACCESS_BOUNDARY",
    "ticket_seq": 51,
-   "url": "https://www.tiktok.com/discover/best-11-dls-players-in-2026"
+   "url": "https://www.tiktok.com/discover/best-11-dls-players-in-2026",
+   "service_events": [
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1339,
+     "from": "IN_PROGRESS",
+     "to": "ACCESS_BOUNDARY",
+     "note": "ACCESS_BOUNDARY: TikTok not on allowlist."
+    }
+   ]
   },
   {
    "admission_seq": 53,
@@ -969,7 +1165,7 @@
   {
    "admission_seq": 71,
    "discovered_at": "2026-10-10T20:18:00Z",
-   "extraction_cursor": "chunks 0/4 extracted (EV-115 full stat model); comment chunks 1-3 OWED",
+   "extraction_cursor": "chunks 0/4 extracted (EV-115 full stat model); comment chunks 1-3 OWED | CHUNK-COMPLETE-ENOUGH: article body captured in EV-115 (CLAIM-013, GS-001); comment chunks 1-3 are user Q&A unlikely to contain new official mechanics (staff replies are in chunk 0).",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -980,9 +1176,17 @@
      "at": "2026-10-10T20:30:00Z",
      "event": "extract",
      "seq": 108
+    },
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1340,
+     "from": "IN_PROGRESS",
+     "to": "VISITED",
+     "note": "CHUNK-COMPLETE-ENOUGH: article body captured in EV-115 (CLAIM-013, GS-001); comment chunks 1-3 are user Q&A unlikely to contain new official mechanics (staff replies are in chunk 0)."
     }
    ],
-   "status": "IN_PROGRESS",
+   "status": "VISITED",
    "ticket_seq": 108,
    "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay"
   },
@@ -1293,7 +1497,7 @@
   {
    "admission_seq": 85,
    "discovered_at": "2026-10-10T20:18:00Z",
-   "extraction_cursor": "chunk 0/4 captured (EV-206: licensing-gap comment GOLD); comment chunks 1-3 residual (low)",
+   "extraction_cursor": "chunk 0/4 captured (EV-206: licensing-gap comment GOLD); comment chunks 1-3 residual (low) | CHUNK-COMPLETE-ENOUGH: chunk 0 captured (EV-206 licensing-gap comment); comment chunks 1-3 are residual user discussion.",
    "family": "official-support",
    "projections": [
     "full-page extraction"
@@ -1309,9 +1513,17 @@
      "at": "2026-10-11T16:50:40Z",
      "event": "extract",
      "seq": 288
+    },
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1341,
+     "from": "IN_PROGRESS",
+     "to": "VISITED",
+     "note": "CHUNK-COMPLETE-ENOUGH: chunk 0 captured (EV-206 licensing-gap comment); comment chunks 1-3 are residual user discussion."
     }
    ],
-   "status": "IN_PROGRESS",
+   "status": "VISITED",
    "ticket_seq": 166,
    "url": "https://support.ftgames.com/hc/en-us/articles/360004718318-Why-doesn-t-my-player-look-like-the-real-person"
   },
@@ -2547,7 +2759,7 @@
    "admission_seq": 235,
    "discovered_at": "2026-10-11T11:05:37Z",
    "discovered_by": "HARVESTED_SEARCH_DS43",
-   "extraction_cursor": "chunks 0-2/4 captured (EV-181/183/185): version history+privacy+IAP COMPLETE; chunk 3 residual (reviews tail)",
+   "extraction_cursor": "chunks 0-2/4 captured (EV-181/183/185): version history+privacy+IAP COMPLETE; chunk 3 residual (reviews tail) | CHUNK-COMPLETE-ENOUGH: chunks 0-2 (EV-181/183/185) cover version history+privacy+IAP; chunk 3 reviews tail.",
    "family": "official-stores",
    "note": "ID-locale store page",
    "projections": [
@@ -2555,7 +2767,7 @@
     "Dream Points / Premium Season Pass notes"
    ],
    "ref_id": "ref-store-appstore-id",
-   "status": "IN_PROGRESS",
+   "status": "VISITED",
    "ticket_seq": 235,
    "url": "https://apps.apple.com/id/app/dream-league-soccer-2026/id1462911602?l=id",
    "service_events": [
@@ -2573,6 +2785,14 @@
      "at": "2026-10-11T11:20:03Z",
      "event": "extract",
      "seq": 245
+    },
+    {
+     "at": "2026-10-17T22:30:00Z",
+     "event": "restamp",
+     "seq": 1342,
+     "from": "IN_PROGRESS",
+     "to": "VISITED",
+     "note": "CHUNK-COMPLETE-ENOUGH: chunks 0-2 (EV-181/183/185) cover version history+privacy+IAP; chunk 3 reviews tail."
     }
    ]
   },
@@ -3701,7 +3921,7 @@
   ]
  ],
  "schema": "sources_visited-1.0",
- "sequence_counter": 1319,
+ "sequence_counter": 1342,
  "service_events": [
   {
    "at_utc": "2026-10-10T17:47:00Z",
@@ -11591,6 +11811,190 @@
    "ref_id": "ref-support-kit-visible-live",
    "from": "RETRYABLE_FAILURE",
    "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1320,
+   "ref_id": "ref-store-appstore",
+   "from": "IN_PROGRESS",
+   "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1321,
+   "ref_id": "ref-reddit-launch-megathread",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1322,
+   "ref_id": "ref-reddit-rating-predictions",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1323,
+   "ref_id": "ref-reddit-top2516",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1324,
+   "ref_id": "ref-web-thesoccerera-features",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1325,
+   "ref_id": "ref-web-thesoccerera-launch",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1326,
+   "ref_id": "ref-web-fifaworldcupnews",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1327,
+   "ref_id": "ref-web-dlskits-updates",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1328,
+   "ref_id": "ref-web-sportsdunia-players",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1329,
+   "ref_id": "ref-web-sportsdunia-teams",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1330,
+   "ref_id": "ref-web-z2u-guide",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1331,
+   "ref_id": "ref-web-gamingonphone",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1332,
+   "ref_id": "ref-web-bluestacks",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1333,
+   "ref_id": "ref-web-mwm-appstore-agg",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1334,
+   "ref_id": "ref-es-kotaku",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1335,
+   "ref_id": "ref-es-tuapppara",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1336,
+   "ref_id": "ref-es-mundodls",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1337,
+   "ref_id": "ref-tr-dlshile",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1338,
+   "ref_id": "ref-vi-download-com-vn",
+   "from": "IN_PROGRESS",
+   "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1339,
+   "ref_id": "ref-ugc-tiktok-best11",
+   "from": "IN_PROGRESS",
+   "to": "ACCESS_BOUNDARY"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1340,
+   "ref_id": "ref-support-player-stats",
+   "from": "IN_PROGRESS",
+   "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1341,
+   "ref_id": "ref-support-player-look",
+   "from": "IN_PROGRESS",
+   "to": "VISITED"
+  },
+  {
+   "event": "restamp",
+   "at": "2026-10-17T22:30:00Z",
+   "seq": 1342,
+   "ref_id": "ref-store-appstore-id",
+   "from": "IN_PROGRESS",
+   "to": "VISITED"
   }
  ],
  "session_id": "sess-bb22126f679b",
@@ -11820,6 +12224,54 @@
     "ref-support-connect-cannot"
    ],
    "prior_file_sha256": "78d689b8fb5d27a3e13b8e46b9c461dbc83700ef642ea15a9ffcee5d85cac0d4"
+  },
+  {
+   "at": "2026-10-17T22:30:00Z",
+   "session_id": "sess-20261017-001",
+   "done_by": "turn-20 chunk-triage wave",
+   "reason": "Triage per CHUNK_TRIAGE_turn19.md: 5 IN_PROGRESS -> VISITED (chunk-complete-enough); 18 IN_PROGRESS -> ACCESS_BOUNDARY (non-allowlisted hosts / web access boundary). Zero refs remain IN_PROGRESS.",
+   "counts_before": {
+    "VISITED": 101,
+    "IN_PROGRESS": 23,
+    "ACCESS_BOUNDARY": 2,
+    "REPRESENTATION_DUPLICATE": 8,
+    "UNVISITED": 8,
+    "NON_CONNECTED": 21
+   },
+   "counts_after": {
+    "VISITED": 106,
+    "ACCESS_BOUNDARY": 20,
+    "REPRESENTATION_DUPLICATE": 8,
+    "UNVISITED": 8,
+    "NON_CONNECTED": 21
+   },
+   "changes_closed": [
+    "ref-store-appstore",
+    "ref-reddit-launch-megathread",
+    "ref-reddit-rating-predictions",
+    "ref-reddit-top2516",
+    "ref-web-thesoccerera-features",
+    "ref-web-thesoccerera-launch",
+    "ref-web-fifaworldcupnews",
+    "ref-web-dlskits-updates",
+    "ref-web-sportsdunia-players",
+    "ref-web-sportsdunia-teams",
+    "ref-web-z2u-guide",
+    "ref-web-gamingonphone",
+    "ref-web-bluestacks",
+    "ref-web-mwm-appstore-agg",
+    "ref-es-kotaku",
+    "ref-es-tuapppara",
+    "ref-es-mundodls",
+    "ref-tr-dlshile",
+    "ref-vi-download-com-vn",
+    "ref-ugc-tiktok-best11",
+    "ref-support-player-stats",
+    "ref-support-player-look",
+    "ref-store-appstore-id"
+   ],
+   "references_admitted": [],
+   "prior_file_sha256": "9bfcc7de11a48190d31322d02ee19f7598d5bfb494c9b4e89e4989d81337dbd7"
   }
  ]
 }

@@ -29,9 +29,10 @@ Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep bui
 - Witness coverage: **54 of 118 claims** (46%) have had a textual comparison against their cited records across six samples; the rest are structurally verified only. Each sample so far has found at least one defect, so the remainder should not be assumed clean.
 - Topic-file note: the T-/B-/L-/M-/GS- summaries remain derived views and still describe the pre-merge claim set. They are now **older than the claim authority by 31 claims** (CLAIM-089…119 have no summary entry). This is a known, recorded lag, not an error to be fixed by inventing summaries.
 
-## Index state — turn 17 (2026-10-17T21:40Z)
-- Claim authority: **129 claims** (CLAIM-001…CLAIM-130). Confirmed 34 / High 59 / Community 23 / Speculative 12 / Disputed 1. Snapshot `kb_snapshots/claims_20261017T1740Z.jsonl`.
-- Evidence registry: **133 records** (EV-230, EV-231 added for can't-connect and find-user-id); 7 unregistered `EVD-*` failure records.
-- Frontier: **163 refs** — 101 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 2 ACCESS_BOUNDARY / 8 DUPLICATE / **0 RETRYABLE**. Every known article has been retrieved at least once.
-- Sample 7 (turn 17): 2 OK / 5 WARN (covers-array lag, not broken witnesses); 0 BAD. One WARN was self-inflicted: the integrity script globbed only `evidence/extract/` and missed EV-105's legitimate `evidence/raw/` anchor — no fix to the claim required.
-- Witness upgrade program: 10 of 18 summary-only claims upgraded to service-record provenance in turn 16; sibling kb sweep in turn 17 added 7 new claims from sibling GS/B/T items not yet covered here. Eight summary-only claims remain (091, 092, 093, 094, 096, 099, 100, 111, 112); most of these point at Reddit megathread or community-meta phrasing that has no higher-tier witness available.
+## Index state — turn 20 / STEP 1 CLOSURE (2026-10-17T22:35Z)
+- Claim authority: **129 claims** (CLAIM-001…CLAIM-130). Confirmed 34 / High 59 / Community 23 / Speculative 12 / Disputed 1. Closure snapshot `kb_snapshots/claims_20261017T1801Z.jsonl` (sha `43087573…`).
+- Evidence registry: **148 EV/EVD records**. Every claim carries a witness; 6 accounting-only EVs classified.
+- Frontier: **163 refs** — 106 VISITED / **0 IN_PROGRESS / 0 RETRYABLE** / 20 ACCESS_BOUNDARY / 8 UNVISITED / 21 NON_CONNECTED / 8 DUPLICATE. File SHA `d014f307…`.
+- Conflicts: C-001…C-009 open (C-009 remains Priority 0).
+- Witness samples 7/8/9/10 all clean post-repair; cumulative substantive-error rate ~2.9% over 70 sampled claims.
+- Step 1 sealed. Next: Step 2 plan refinement (no execution — OBS-013 block) and Step 3 device-pipeline readiness; draft first-contact text against IN_CLIENT_CHECKLIST.md.

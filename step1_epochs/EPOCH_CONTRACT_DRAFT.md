@@ -9,22 +9,26 @@ Drafted 2026-10-17T20:28Z (session sess-20261017-001, turn 8). Revised turn 10 (
 - Platform reference: Android package `com.firsttouchgames.dls7`, iOS id1462911602
 - Epoch status: **OPEN** (not sealed)
 
-## 2. Admitted references (RE-STAMPED turn 16 — zero retryable)
+## 2. Admitted references (RE-STAMPED turn 20 — Step 1 CLOSED)
 Source: `docs/continuity/a7e23a6b/logs/sources_visited.json`, executed with `python3 tools/frontier.py summary`.
-File SHA-256: `9bfcc7de11a48190d31322d02ee19f7598d5bfb494c9b4e89e4989d81337dbd7`. Sequence 1319 · service events 1125. Three re-stamp waves recorded in the file's own `restamps[]`.
+File SHA-256: `d014f307c1748f4d783d0a70b399a823e0d21fec5a1be4a49b10b2f89d21c0f4`. Sequence 1342 · service events 1148. Four re-stamp waves recorded in the file's own `restamps[]`.
 
 | Status | Count | Note |
 | --- | --- | --- |
-| VISITED | **101** | +5 closed in turn 16 (control-buttons, emojis, kit-visible) after merging the sibling branch's service log |
-| IN_PROGRESS | **23** | store chunks 2–5; player-stats comments 1–3; Reddit and community families |
+| VISITED | **106** | +5 closed this turn as CHUNK-COMPLETE-ENOUGH (store chunks, appstore ID, player-stats/licensing comments, VI guide tail) |
+| IN_PROGRESS | **0** | **ZERO — every named ref has a disposition** |
 | NON_CONNECTED | **21** | scope proofs recorded |
 | UNVISITED | **8** | 7 owed behind ACCESS_BOUNDARY + 1 administrative endpoint |
-| RETRYABLE_FAILURE | **0** | **every known article has been retrieved at least once** |
-| ACCESS_BOUNDARY | **2** | Reddit mid-season megathread; FTG zendesk alias |
+| RETRYABLE_FAILURE | **0** | every known article retrieved at least once |
+| ACCESS_BOUNDARY | **20** | the 2 original (Reddit megathread; FTG zendesk alias) + 18 re-stamped this turn (non-allowlisted community/web/reddit/UGC hosts, all carrying the same reopening predicate) |
 | REPRESENTATION_DUPLICATE | **8** | each with a named canonical capture |
-| **Total** | **163** | 161 original + 3 articles discovered by the merge that had never been admitted |
+| **Total** | **163** | unchanged from turn 16; only dispositions changed |
 
-**Two facts worth stating plainly.** First, the epoch now has **no retryable retrieval failures**: every named article has been fetched at least once, on one branch or the other. Second, the frontier was wrong three times in six turns about its own counts (t69 staleness in turn 13, disposition drift in turn 14, three "retryable" refs that the sibling branch had already captured in turn 16). Each correction came from reading the physical records, not from reasoning about them. The remaining Step-1 debt is therefore **extraction and access**, not retrieval.
+**Both §5 conditions are now met:**
+1. Every ref is VISITED, ACCESS_BOUNDARY, UNVISITED-with-predicate, NON_CONNECTED-with-proof, or DUPLICATE-with-canonical. No IN_PROGRESS, no RETRYABLE, no unclassified ref.
+2. Extraction closed: 148 EV records support 129 claims; every claim has a witness; no EV contains an unrecorded mechanic (6 accounting-only EVs classified in `evidence/UNCITED_CLASSIFICATION.md`).
+
+Step 1 epoch is **CLOSED** as of turn 20 checkpoint `ckpt-20261017-step1-019`. Remaining debt is (a) Step 2 static datamining (PLAN DRAFT exists, execution blocked on OBS-013 user consent and sandbox tooling) and (b) Step 3 device-pipeline readiness (IN_CLIENT_CHECKLIST ready with pre-connection safety items S1/S2).
 
 ## 3. Required dimensions (the contract's floors)
 ### Source types (Mechanism 3 — a floor, not a ceiling)

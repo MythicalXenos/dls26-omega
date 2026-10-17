@@ -1,5 +1,5 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-17T17:54Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-17T18:02Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
 Total claims: **129**
 Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Speculative 12 / Disputed 1. Volatility: High 40 / Medium 31 / Low 33 / Critical 11 / Frozen 3.
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |

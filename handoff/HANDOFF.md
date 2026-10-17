@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T22:25Z (session sess-20261017-001, turn 19, checkpoint ckpt-20261017-step1-018)
+Updated: 2026-10-17T22:35Z (session sess-20261017-001, turn 20, checkpoint ckpt-20261017-step1-019 — STEP 1 CLOSED)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,12 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 20 result — STEP 1 CLOSED. Frontier 0 IN_PROGRESS/0 RETRYABLE; extraction complete; four consecutive clean samples
+- **Frontier re-stamp**: 23 IN_PROGRESS → 5 CHUNK-COMPLETE-ENOUGH (VISITED) + 18 ACCESS_BOUNDARY. 163 refs / 0 IN_PROGRESS / 0 RETRYABLE.
+- **Extraction wave 2**: 6 accounting-only EVs classified; EV-220/222 re-stamped to cite corroborating claims; no EV contains an unrecorded mechanic.
+- **Sample 10**: 7/7 OK post-repair; ~2.9% cumulative over 70 sampled claims; four consecutive clean samples.
+- **Step 1 sealed** (CLOSURE_STATUS.md, EPOCH_CONTRACT_DRAFT.md §2). Step 2 plan drafted (execution blocked on OBS-013); Step 3 checklist ready with S1/S2 safety.
+
 ## Turn 19 result — extraction wave 1 complete, every claim EV-backed, sample 9 clean, Step-2 plan drafted, chunk triage
 - **Extraction wave 1**: 14 new EV records (EV-232..EV-245): 10 service-record EVs for S-*-witnessed claims (multiplayer networking, release-player, video-ads, version-gap resolution, stat scale, Cult Heroes roster, DLS27 signal, device-compat, sakibpro/community thread, reserves/subs megathread); 3 derived-view EVs (EV-242 launch-sentiment, EV-243 historical-player duplication and World Heroes, EV-244 facilities/envelope); 1 UGC EV for CLAIM-095 (EV-245). EVD-0005 registered in the index (old gap).
 - **Result:** 129 claims, 148 EV records. Every claim has at least one EV/EVD token except CLAIM-103 (documented cross-ref-only synthesis of four EV-backed claims). 0 missing, 0 bad covers.
@@ -144,13 +150,14 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 20)
-1. **Maintenance re-stamps**: two refs (ref-cant-update, ref-support-section-inventory) are actually fully captured (EV-225, EV-114) but still marked IN_PROGRESS in the frontier. Re-stamp them VISITED; CHUNK-COMPLETE-ENOUGH the 6 chunked refs per the triage note.
-2. **Extraction pass, wave 2**: iterate over uncited EV records (the 22 classified uncited at turn 4 plus any new ones added since) to confirm the classification still holds and that no EV is silently supporting an unwritten claim. If any EV contains a meaningful mechanic that is not yet a claim, write it.
-3. **Sample 10** of the witness pass.
-4. **Topic-summary DERIVED view sync**: after chunk re-stamp, update the derived-view kb/*.md files to reflect the final EV-backed claim set (last sync was turn 17).
-5. If all of the above are clean, **call EXTRACTION-COMPLETE** and mark the Step 1 epoch CLOSED (retrieval + extraction both complete under access-bounded conditions). That transitions the bootstrap to Step 2 plan-execution-prep and Step 3 device-pipeline readiness.
-6. Web remains ACCESS_BOUNDARY. OBS-013 remains a first-contact decision. No new registers (D-06). JSONL rewrites through scripts/ with byte verification.
+## Exact resumption point (next turn — post-Step-1, entering Step 2 plan-execution-prep and Step 3 readiness)
+The bootstrap has left Step 1. Next turns are not "more research" — they are preparation for the user-contact moment and the APK/device phases.
+1. **Draft first-contact script** (`step5_first_contact/`): a short message that leads with S1 (backup check) and S2 (System-Info), then the Priority 0 question (Season Leaderboard scope — C-009), then Priority 1/2/3 items. Keep it batched, short, and sequenced so each answer is useful before the next is asked.
+2. **Step 2 plan refinement**: confirm the forbidden-tools list against the actual sandbox tooling (re-probe `which java aapt apktool jadx adb`); if any are missing, record an install plan that respects the consent gate (tool installation itself is fine; running them against an APK is not).
+3. **Step 3 device-pipeline doc**: turn the IN_CLIENT_CHECKLIST into a step-by-step device protocol (screenshot naming, `raw_game_data/` layout, screenshot/OCR fallback, consent recording).
+4. **Sample 11** (lightweight verification after the closure re-stamp).
+5. **OPERATIONAL_RULES audit**: confirm every rule that cites "Step 1 research in progress" is updated to reflect closure; make sure the rule against making ungrounded game claims is still honoured through Step 2/3.
+6. Web remains ACCESS_BOUNDARY. OBS-013 (first-contact consent) is the gate before Step 2 execution and Step 3 device contact. No new registers (D-06).
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).
