@@ -19,8 +19,8 @@ Written: 2026-10-16T23:45Z (Turn 1, STATE_0_SETUP). Method: direct environment p
 
 ## 3. Network access
 - **Outbound shell network allowlist (verified by host policy statement):** github.com, codeload.github.com, api.github.com, registry.npmjs.org, pypi.org, files.pythonhosted.org ONLY.
-- Verified this turn: `curl -sI https://github.com` → HTTP/2 200. `gh auth status` → logged in to github.com as MythicalXenos (GH_TOKEN), git operations configured for https.
-- **Open question owed to Step 1:** whether the host-side `web_search` / `fetch_page` tools reach the broader web (Reddit, YouTube, Fandom/wikis, atf5/FTG endpoints, non-English sites) despite the shell allowlist — they are host tools, not sandbox shell, and may route differently. Test at the first Step-1 retrieval and record the result here (OMEGA-HEALTH-001 capability observation). Until tested, no web source is assumed reachable.
+- Verified turn 1: `curl -sI https://github.com` → HTTP/2 200. `gh auth status` → logged in to github.com as MythicalXenos (GH_TOKEN), git operations configured for https.
+- **OMEGA-HEALTH-001 result (tested turn 2, 2026-10-17 — question CLOSED):** host-side `web_search` and `fetch_page` DO reach beyond the shell allowlist. web_search returned results from apps.apple.com, play.google.com, apkmirror.com, reddit.com, support.ftgames.com, es.wikipedia.org, tiktok.com, youtube.com, x.com and more; fetch_page retrieved full text from support.ftgames.com (Zendesk), apps.apple.com (6-chunk page), support.ftgames.com section inventory, and partial content from dlsinside.com (client-rendered player rows not extractable — access boundary recorded). Both tools recorded as DEMONSTRATED usable capabilities for the stated scopes (web search + page rendering). Remaining boundary: no raw-HTML/JS execution, no authenticated/account-gated content, no device access.
 
 ## 4. Shell environment (probed 2026-10-16T23:12Z)
 - OS: Linux (Debian-based). Shell tools present: git, gh (2.23.0), curl, wget, unzip, sha256sum, jq.

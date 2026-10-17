@@ -1,43 +1,28 @@
 # SESSION HANDOFF — DLS26 OMEGA
+Updated: 2026-10-17T09:45Z (turn 2). The handoff is the first file read on resumption; the main operational log is the exhaustive ground truth behind it.
 
-## Session
-- session_id: sess-20261016-001 (first session — FIRST SESSION BOOTSTRAP initialized on receipt of the v78 prompt in a fresh workspace with no completed bootstrap handoff)
-- Date: 2026-10-16 (UTC). Turn: 1. turn_seq: 1.
-- Repository: https://github.com/MythicalXenos/dls26-omega — branch `arena/22655f48-dls26-omega` (fixed for this session; never rename/switch/push elsewhere). Base commit: fb9a2c025ec267f6b787382766ce44c7e373d091 ("Initial commit", main). Open PRs at start: none.
-- Prompt version in force: **Version 78**, capture status **MECHANICAL** — DLS26_OMEGA_PROMPT.md, 173,446 bytes, SHA-256 `6cae03e3143a20797e83a248ac1e7447f2c54962433db399c31cc5249cfa356a`; byte-identical archive at docs/prompt_archive/OMEGA_PROMPT_v76.md (same SHA-256). Changelog: docs/prompt_changelog.md.
+## Session state
+- State in force: STATE_1_RESEARCH_SWEEP (bootstrap Step 1, Research Sweep)
+- Turn sequence: 2 (turn 1 = Setup, complete and published as ckpt-20261016-setup-001 / commit a62e4c2)
+- Latest checkpoint: ckpt-20261017-step1-001 (this turn's commit; hash read from repository HEAD at push time, never stored in the manifest)
+- Manifest: logs/turn_manifest.json — status READY_TO_YIELD, expected_terminal_class CONTINUE, continuation_allowed true, needs_user false
 
-## State
-- active_state: **STATE_0_SETUP — COMPLETED on disk this turn.** All setup obligations written: complete prompt persistence (both mandated paths), rules digest (OPERATIONAL_RULES.md, with the mandated shell name-check run against the prompt file — result recorded in the main operational log), capability inventory (CAPABILITY_INVENTORY.md), repository access verification (git identity configured; commit and push to origin verified this turn), schema documentation (docs/FILE_SCHEMA.md), liveness manifest (logs/turn_manifest.json).
-- checkpoint: ckpt-20261016-setup-001 (genesis; previous_checkpoint_id null). Manifest: logs/turn_manifest.json, status READY_TO_YIELD, continuation_allowed=true, needs_user=false, expected_terminal_class=BOOTSTRAP_START.
-- next_state: **STATE_1_RESEARCH_SWEEP** — entered at the next turn boundary when the user sends `>`.
-- consecutive_no_progress: 0.
+## Progress signal (Initialization Directive; carried here because OMEGA-OUTPUT-001 suppresses the in-chat short message during silent bootstrap — collision logged in the main operational log)
+Step 1 of 5, first pass underway. Completed this turn: prompt-shorthand terminology resolved and recorded (DLL = Dream League Live [Confirmed], OVR = Overall rating, GK = goalkeeper, XI = starting eleven, plus mode/system/collection names — kb/terminology.md); current build and franchise state established with rebrand check (kb/build-version.md — build 13.430 code 160, Sep 16 2026; NO rebrand; launch Dec 2025); host-tool reachability test done (web_search and fetch_page both demonstrated reaching beyond the shell allowlist — CAPABILITY_INVENTORY.md §3); first source-type coverage across all six required types (official / third-party databases / English community COVERED; non-English community, technical, user-generated content PARTIAL); 18 retrievals logged to logs/sources_visited.json; first KB claims written with tiers (5 topic files). In progress: FTG support-article deep-fetch (canonical 30-article inventory captured; article bodies owed), 2026 version-gap enumeration, Dynamic Stars official detail, Cult Heroes live status, non-English community forums, datamining feasibility (Step 2).
 
 ## Exact resumption point
-Enter STATE_1_RESEARCH_SWEEP and begin the exhaustive Step-1 sweep, organized **source by source** (SCOPE AND ORGANIZATION ARE DIFFERENT THINGS) with Competitive Coverage Scheduler lane tagging (OMEGA-SCHEDULER-001). First owed obligations, in order:
-1. Resolve the prompt's shorthand to DLS26's exact terminology and record expansions in the KB: DLL, OVR, GK, XI, plus every unnamed game term listed in the prompt (prize ladder, special card, base OVR, rotation, coaching state, reset cycles, breakpoints, matchup matrix, gameplans, touch patterns, facilities, ceiling, bonus development, division, season points, and anything else found).
-2. Establish the current DLS26 build/version and whether First Touch Games has rebranded the franchise (franchise-continuity rule: a rebrand announcement is itself a Patch Response trigger).
-3. Test and record whether host tools web_search/fetch_page reach non-allowlisted web hosts (the sandbox shell allowlist is github.com, codeload.github.com, api.github.com, registry.npmjs.org, pypi.org, files.pythonhosted.org only) — record the OMEGA-HEALTH-001 capability observation in CAPABILITY_INVENTORY.md §3.
-4. Begin coverage-deficit service: no scheduler lane and no required source type has first coverage yet; LIVE STATE & ENVIRONMENT first for immediate applicability, then the other five lanes; all six required source types (official; third-party databases and tools; English-language community; non-English community; technical; user-generated content) plus any further types found.
-5. Log every fetch to logs/sources_visited.json; every claim to kb/ with confidence tier + volatility tier + evidence origin.
+STATE_1_RESEARCH_SWEEP, Step 1, immediately after logging turn-2 retrievals S-20261017-001…018. Immediate queue, in order: (1) fetch the six highest-value FTG FAQ articles — 360019166777 (player stats in gameplay), 23108987826962 (Prize Ladder), 4404070913169 (Season Pass), 24081168829330 (Dream Point Boosts), 30839289076626 (Clans), 360018360418 (game difficulty); (2) enumerate versions 13.110→13.300 and capture 13.350 contents; (3) verify Cult Heroes live status (FTG socials / in-game news); (4) first true non-English community forum coverage (Turkish, Indonesian, Spanish); (5) dlsinside player-database extraction path (client-rendered boundary); (6) Step-2 datamining feasibility prep (sandbox has no adb/java — device access is the anticipated Step-3 ask).
 
-## User information
-- Received this session: none beyond the bootstrap prompt itself. User Profile (user_profile.md) created with all fields "not yet stated". Strategic objective default (win rate and dominance) applies until the user states otherwise — recorded in the User Profile per SQUAD BUILDING.
+## User information still awaited
+Everything in user_profile.md remains "not yet stated": skill level, club/game state (squad, OVR, coins/gems, facilities, division, coaching state), formation/playstyle preferences, spending stance, strategic objective (default in force: win rate and dominance per SQUAD BUILDING). No user ask is due inside Steps 1–4 beyond what the NO OUTPUT DURING BOOTSTRAP Yes list licenses; the Step-5 first-contact ask is anticipated in handoff/attention_required.md.
 
-## Awaited outcomes
-- None. (No recommendation has been acted on; no outcome question is pending.)
+## Asks
+None due this turn. Anticipated: Step-3 device-access request (adb/java absent in sandbox — live datamining needs host device access); Step-5 first contact.
 
-## Consolidated ask to the user
-- **NONE required inside Steps 1–4** (per RULES DIGEST §C — nothing is asked of the user except what the Yes list of NO OUTPUT DURING BOOTSTRAP licenses). The only expected user input is the `>` continuation cue.
-- Anticipated (NOT yet due, no action needed now): a Step-3 device-access request will be recorded in handoff/attention_required.md when STATE_3_DEVICE_PIPELINE begins (ADB and Java are absent in this sandbox — see CAPABILITY_INVENTORY.md §4); first-contact delivery of the irreversible/consequential action list at STATE_5.
+## Anomalies this session
+OBS-001…OBS-006 (issue_tracker.md), including OBS-006: local git HEAD reset to base commit between turns while origin retained the checkpoint — re-synced with `git reset --soft` to origin; no data lost.
 
-## Anomalies and new categories (announced per WHERE AN UNNAMED RECORD GOES)
-- New main-log categories created this turn: SETUP, SESSION, ANOMALY.
-- OBS-001 (Issue Tracker): prompt header declares VERSION 78, but the PROMPT PERSISTENCE MANDATE explicitly names the archive path docs/prompt_archive/OMEGA_PROMPT_v76.md. The mandate was followed literally (byte-identical copy at the mandated path). Surfaced for the user at first contact; not "fixed" — the mandate is an explicit instruction.
-- OBS-002 (Issue Tracker): the captured v78 prompt references many named systems whose full bodies are not present in the captured text (list in OPERATIONAL_RULES.md §B entry 101). They are applied per their ordinary-English meaning per the prompt's own unnamed-term rule and tracked here so they are never silently treated as defects or silently dropped.
-- OBS-003 (Issue Tracker): the manifest-spec block's four-value expected_terminal_class enum (BOOTSTRAP_START | CONTINUE | HARD_STOP_STEP3 | HARD_STOP_COMPLETE) is a subset of the six-class MACHINE-READ LINES vocabulary; the six-class table is treated as the terminal vocabulary authority, with HARD_STOP_STEP3/HARD_STOP_COMPLETE mapping through the pause table. Recorded, not amended (amendment is the user's alone).
-
-## Progress signal (bootstrap session boundary — status only, never advice)
-- Step: Setup (Step 0) complete on disk. Established: full mechanical prompt capture + digest + capability inventory + schemas + initial artifacts + verified repo publication. Remaining: the entirety of Steps 1–5. Frontier shape: the entire DLS26 knowledge base is unresearched (zero verified game facts in KB). Session estimate: none — no unmeasured projection is offered yet.
-
-## Storage
-- Repo currently tiny (prompt ~173 KB + small artifacts). Rotation/archiving not yet needed; STORAGE MANAGEMENT monitoring begins now.
+## Process notes
+- Turn-2 sources use turn-window timestamps (per-call clock not captured — telemetry gap logged).
+- Search-engine snippets mis-associate App Store version-history text with wrong versions; version-attribution claims now require page-render confirmation.
+- Mod-distribution sites (mokoweb, dlsmod, modyolo, liteapks) are incentive-screened; their data is used only where corroborated, and mods themselves are a ToS/ban-risk surface (FTG hosts "Why have I been blocked from playing DLS?").
