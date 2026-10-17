@@ -44,6 +44,11 @@ Claim ID, proposition, build/platform/mode context, confidence tier, volatility 
 - `supporting_evidence[]` is a free-text list; each entry may be a bare `EV-###` or a descriptive witness (kb-file reference, claim reference, failure record). A resolver must extract every `EV-###`/`EVD-###` token and check it against `evidence/index.jsonl` **plus** the `evidence/extract/` filenames, because page-missing `EVD-*` records exist as files but are not registered in the index.
 - `covers[]` in `evidence/index.jsonl` normally holds claim IDs; five inherited records (EV-218…EV-222) hold topic tags instead. Treat it as navigation metadata, never as evidence of coverage.
 
+## 4c. Claim granularity (recorded turn 15)
+- **New claims carry one mechanism each.** A claim may state a rule and its documented exception; it may not bundle two unrelated propositions (e.g. an update-schedule policy and a profile-transfer rule) under one ID, because one confidence tier and one volatility tier cannot then be honest for both halves.
+- Three legacy claims are **compound** and are flagged in place rather than split (CLAIM-020, CLAIM-025, CLAIM-033): splitting would renumber evidence links and invalidate the witness records in `audit/`. Readers must treat the flagged halves as separately tiered.
+- A claim whose basis is **other claims** rather than evidence records must say so in `challenges[]` with the word DERIVED (e.g. CLAIM-103). Synthesis is allowed; presenting synthesis as observation is not.
+
 ## 5. Migration and rollback
 - Version is explicit and integer; unknown versions are rejected, not guessed.
 - Any schema change: write the reason and migration steps here, keep the old shape readable, migrate losslessly, verify counts/digests, commit a KB snapshot before and after.

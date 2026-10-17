@@ -16,6 +16,7 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Side A:** official FTG text says multiplayer leaderboards reset at regular intervals of 3–30 days (CLAIM-002, Confirmed).
 - **Side B:** an Indonesian community guide says Dream League Live pays gems weekly by leaderboard position (CLAIM-051, Community Consensus), and CLAIM-066 repeats "weekly-leaderboard gems".
 - **Status:** UNRESOLVED but narrowed — the official 3–30 day window does not forbid a weekly *reward* cycle; the conflict is about whether the words describe the same clock.
+- **Added turn 15 (EV-117):** the official gem article says gems come from "completing league objectives, completing tournaments, through the Season Pass and Prize Ladder and by participating in Multiplayer (Dream League Live) mode… quantity depends on the circumstance". It does **not** mention leaderboard position. That neither confirms nor refutes the community claim; it means the community wording describes a *mechanism* the official text does not describe, which is a second, separate gap.
 - **Settles it:** an in-game leaderboard screen capture showing both the reset timer and the reward statement.
 - **May say meanwhile:** "resets are officially 3–30 days; weekly gem payouts are a community report and are not confirmed."
 

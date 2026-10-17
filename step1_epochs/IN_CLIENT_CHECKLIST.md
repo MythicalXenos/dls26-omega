@@ -3,6 +3,11 @@ Prepared 2026-10-17T20:48Z (session sess-20261017-001). This file holds the obse
 
 **Why these and not others:** each item fills a gap that currently blocks a coaching decision (`step1_epochs/TOPIC_MAP.md`). Anything already answered by official text is excluded on purpose — the ask is only for what the KB cannot supply.
 
+## Priority 0 — one question that defines the mission (moved here turn 15)
+| # | Where to look | What to report | Why it matters |
+| --- | --- | --- | --- |
+| **0** | Main Menu > **Season Leaderboard** | (a) Does it list **other players**, or only your own total? (b) Is a **rank/position number** shown? (c) Any **reset timer or season label**? (d) Is there an option to change scope (global/friends/division)? | **This single screen decides whether "#1" can be measured at all.** C-009: the official Leaderboards article scopes boards to Multiplayer (3–30 day resets, EV-101), while the Season Leaderboard is a Main Menu board by Season Points (EV-197) — no text links them and nothing states whether Season Points ranking is public. If it is not public, the mission target must be redefined on the DLL leaderboards or LIVE Tier. |
+
 ## Priority 1 — unblocks execution advice (five minutes, one sitting)
 | # | Where to look | What to report | Why it matters |
 | --- | --- | --- | --- |
@@ -16,7 +21,7 @@ Prepared 2026-10-17T20:48Z (session sess-20261017-001). This file holds the obse
 | # | Where to look | What to report | Why it matters |
 | --- | --- | --- | --- |
 | 6 | Your current division and Season Points | Division name, points, matches played this season | Every progression projection needs a starting point |
-| 7 | Season Leaderboard (Main Menu) | The exact label, the metric shown, the scope (global/friends/division) and any reset text | The mission's "#1" target has no verified surface yet (CLAIM-003) |
+| 7 | Season Leaderboard (Main Menu) | The exact **label** and the metric wording — the scope question moved to item 0 | Label precision only; scope is Priority 0 now |
 | 8 | One completed career match | Coins earned, Season Points earned, XP shown (if any), clean-sheet/goal bonuses listed | The KB has source lists but no rates |
 | 9 | Transfers > Manage Players > select one reserve | Whether a release preview shows a coach, coins, or both | Settles conflict C-003 on current build |
 | 10 | Prize Ladder screen | Current event name and the reward milestones visible | Confirms the live event against the last capture (Oct 2026) |

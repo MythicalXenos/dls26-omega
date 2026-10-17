@@ -217,3 +217,12 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **RQ-018 closed**: frontier re-stamped in two waves (13 status changes total), `restamps[]` audit array added, sequence 1301 → 1314. Verified by `frontier.py summary`: 96/23/21/8/3/2/8 = 161. SHA-256 `78d689b8…`; prior artifact untouched in git.
 - **Sample 5 (pairs)** `audit/WITNESS_SPOTCHECK_sample5_turn14.md`: three clean pairs, one scope gap → **C-009** (are DLL leaderboards and the Main Season Leaderboard the same surface, and is it public?). CLAIM-003 amended; RQ-019 queued. Witness coverage 46/118.
 - Claims file hygiene: the JSONL was rewritten with one record per line (no blank lines); 118 records, all parse.
+
+## 2026-10-17T20:30Z — turn 15 — STATE_1_RESEARCH_SWEEP (offline)
+- **Sample 6** (`audit/WITNESS_SPOTCHECK_sample6_turn15.md`): four pairs (gems/coins, acquisition/churn, schedule/cadence, rarity/tier). One substantive error corrected: CLAIM-020's "free coins only via video clips" is not in any source and contradicts the official coin list. Three compound-claim flags (020, 025, 033) recorded; CLAIM-103 marked DERIVED.
+- **Schema**: §4c added — one mechanism per claim for new claims; derived claims must announce themselves.
+- **C-009 promoted to Priority 0** in `IN_CLIENT_CHECKLIST.md`; P2 item 7 narrowed to the label question only.
+- **C-002** gains EV-117: the official gem article never mentions leaderboard position.
+- **Snapshot**: kb_snapshots/claims_20261017T1728Z.jsonl (118 claims, sha f8dea58f…); kb/index.md refreshed with live counts and the topic-summary lag note.
+- Integrity re-verified after edits: 0 unresolved EV tokens, 0 bad covers, 118 claims / 127 index records.
+- File-write hazard recorded: Python heredocs in this shell can turn `\n` separators into literal backslash-n, corrupting JSONL. Turn-15 edits were applied with `scripts/turn15_claim_edits.py` and verified byte-wise (118 real newlines, 0 literal `\n`, 0 blank-line pairs).

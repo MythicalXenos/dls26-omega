@@ -20,3 +20,11 @@ Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep bui
 - The markdown topic files above (T-/B-/L-/M-/GS- IDs) are retained as **topic summaries and derived views** from branch 22655f48. They are not a second claim authority; where a summary and claims.jsonl disagree, claims.jsonl wins and the summary is corrected in the next reconciliation pass (queue item RQ-20261017-003).
 - Epoch coverage accounting imported to step1_epochs/coverage_accounting/ (pre-seal dry run, t69, 157 refs, epoch OPEN — no seal claimed).
 - Imported evidence corpus (118 evidence extracts) and tools/schemas preserved at docs/continuity/a7e23a6b/ and schema/imported_a7e23a6b/.
+
+## Index state — turn 15 (2026-10-17T17:28Z)
+- Claim authority: **118 claims** (CLAIM-001…CLAIM-119; CLAIM-036 is a documented gap, OBS-014a). Tier spread: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Speculative 12 / Disputed 1. Snapshot: `kb_snapshots/claims_20261017T1728Z.jsonl` (sha256 `f8dea58f…`).
+- Evidence registry: **127 records** in `docs/continuity/a7e23a6b/evidence/index.jsonl` (124 inherited + EV-223/224/225 written turn 14), plus 7 unregistered `EVD-*` failure records that exist only as files.
+- Frontier: **161 refs**, re-stamped turn 14 — 96 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 3 RETRYABLE / 2 ACCESS_BOUNDARY / 8 DUPLICATE. Reproduce with `cd docs/continuity/a7e23a6b && python3 tools/frontier.py summary`.
+- Conflicts: **9 open** (C-001…C-009), 3 resolved (C-R01…C-R03). The most consequential open question is **C-009** — whether the Season Leaderboard is a public ranking at all, which decides whether "#1" can be measured on it.
+- Witness coverage: **54 of 118 claims** (46%) have had a textual comparison against their cited records across six samples; the rest are structurally verified only. Each sample so far has found at least one defect, so the remainder should not be assumed clean.
+- Topic-file note: the T-/B-/L-/M-/GS- summaries remain derived views and still describe the pre-merge claim set. They are now **older than the claim authority by 31 claims** (CLAIM-089…119 have no summary entry). This is a known, recorded lag, not an error to be fixed by inventing summaries.

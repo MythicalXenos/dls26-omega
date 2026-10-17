@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T19:55Z (session sess-20261017-001, turn 14, checkpoint ckpt-20261017-step1-013)
+Updated: 2026-10-17T20:30Z (session sess-20261017-001, turn 15, checkpoint ckpt-20261017-step1-014)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,16 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 15 result — a real error found and fixed, C-009 promoted to Priority 0, snapshot taken
+- **Sample 6 (four mechanism pairs, economy and cadence):** one substantive error, three structural flags.
+  - **CLAIM-020 was wrong**: it said "Free coins only via short video clips". EV-123 says *you can* watch clips to earn free coins (subject to availability) — no exclusivity — and the official coin list credits match wins, draws, clean sheets and goals. Rewritten; the acquisition channels and the ad-dependent clause are now separated because they carry different volatility.
+  - **Three compound claims** (020, 025, 033) bundle two mechanisms under one tier. Flagged in place, not split (splitting would renumber evidence and invalidate the witness record). New rule: one mechanism per claim (`SCHEMA.md` §4c).
+  - **CLAIM-103 is derived-only** (cites claims, not evidence) and now says so. No rate data exists anywhere in the corpus, which is why in-client item 8 matters.
+- **C-009 promoted to Priority 0** of the in-client checklist: the Season Leaderboard screen decides whether "#1" is measurable at all.
+- **C-002 strengthened** with EV-117: the official gem article lists five sources and never mentions leaderboard position.
+- **Snapshot taken**: `kb_snapshots/claims_20261017T1728Z.jsonl` (118 claims, sha256 `f8dea58f…`); `kb/index.md` now carries the live index state, including the honest note that the topic summaries lag the claim authority by 31 claims.
+- **Witness coverage 54/118 (46%).** Six samples, six findings, none empty.
+
 ## Turn 14 result — extraction debt paid, frontier re-stamped, pair sample found C-009
 - **Three EV records written** (EV-223/224/225) for the captured-but-unpreserved support bodies (friend match, connection requirement, can't update). Each states **summary-only provenance** in its first lines — no body text was invented. A new claim, **CLAIM-119**, carries the official update-troubleshooting ladder, which had no claim before.
 - **Frontier re-stamped** (RQ-018) in two waves: 8 status changes for refs actually served on 2026-10-17, then 5 alignments with the turn-6 disposition document. Final, tool-verified distribution: **96 VISITED / 23 IN_PROGRESS / 21 NON_CONNECTED / 8 UNVISITED / 3 RETRYABLE / 2 ACCESS_BOUNDARY / 8 DUPLICATE = 161**. File SHA-256 `78d689b8…`; the pre-stamp artifact stays unmodified in git history. Contract §2 rewritten from the tool output.
@@ -108,11 +118,11 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 15)
-1. **Sample 6**: the remaining never-tested High Confidence claims (about 34), again in pairs around a single mechanism, prioritising anything that could affect advice about spending currency or match volume.
-2. **Consolidate the C-009 question into the in-client checklist** (P1, not P2) — it gates the mission definition, not a detail.
-3. **Write `kb/index.md` refresh and a claims snapshot** (`kb_snapshots/`) since the claim set changed (118 claims, CLAIM-119 added) — the snapshot rule requires one after a claim change.
-4. Do not create new registers (D-06). Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 is still a first-contact decision.
+## Exact resumption point (next turn — turn 16)
+1. **Sample 7**: the last untouched block — the 64 claims never witness-tested, prioritising (a) anything a coaching sentence would rest on and (b) claims whose sources are `kb/*.md` summaries rather than EV records.
+2. **Read the 22655f48 corpus directly** for the High-tier claims whose only witness is a derived summary (CLAIM-101, 102, 091, 113, 114, 115, 117): if raw capture text exists there, replace the summary witness with it; if not, record that the corpus itself only holds summaries.
+3. **Contract §3 floors re-check**: official sources currently claim "26/30 support articles" — verify that number against the frontier rather than repeating it.
+4. No new registers (D-06). Web remains ACCESS_BOUNDARY; no re-probe without an environment-generation change. OBS-013 is still a first-contact decision.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).
