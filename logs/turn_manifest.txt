@@ -22,3 +22,13 @@ TURN 24 (2026-10-18 ~00:25Z ckpt-20261018-step1-023):
 - Sample 14: 7/7 clean post-stamp.
 - Totals: 143 claims (+9 net), 155 EV (+4 net this commit — EV-249/250 were added at ckpt-022 actually; EV-251/252 here).
 - Remaining research (OPEN): pull 20262/20263 from TrungTaHust for post-update promos; pull Larrycr7aaaa DLS-FIFA-FC-PES-UCS--FTG-API large repo (88MB may have "FTG API" reverse-engineered endpoints); inspect fathidevs/DreamLeagueKit for shared-preferences/save paths; pull LeoH321/DLSsuperleague (Chinese WeChat league manager) for meta/league structure; scan nuget/crates/conda-forge/maven (exhaustive); deeper girtab/girtab.github.io (702 hits, need to triage); web_search for DLS26 communities once allowed.
+
+TURN 25 (2026-10-18 ~00:50Z ckpt-20261018-step1-024):
+- Pulled TrungTaHust master data.json (11.5MB, 26,145 rows across 20231-20262) + 20262/20263/20252/20253 seasonal updates.
+- EV-253: multi-season formula stability analysis: OVR formula unchanged 3 years (20231→20263); weights const≈1.89, CON=0.21, STR=0.17, ACC=0.15, SPE=0.14, PAS=0.11, SHO=0.11, TAC=0.11, STA=0.04; MAE 0.38, 99.8% within ±1; 32 likely scrape typos.
+- Larrycr7aaaa/FTG-API inspected: not an actual reverse-engineered FTG endpoint, just a static cards SPA (script.js fetches ./dls26-cards.json, no remote calls).
+- CLAIM-145 upgraded to High Confidence with 26k-row multi-validation.
+- CLAIM-146: multilingual position codes (EN+ES/PT aliases); CLAIM-147: base cap 86 held across all 8 updates, promos >86 are separate; CLAIM-148: roster grew 1.2k→5.5k; CLAIM-149: prc=0 = locked/untradeable (~14%).
+- Sample 15: 7/7 clean post-stamp.
+- Totals: 147 claims (+4 net), 156 EV (+1).
+- Remaining: nuget/crates/maven/conda-forge registry scans; LeoH321/DLSsuperleague Chinese league manager; FootballGamingBD sibling repos deep scan; com.firsttouchgames.dls7 276-hit launcher/backup app inspection for save paths; girtab.github.io 702-hit triage; web_search of community forums once available.
