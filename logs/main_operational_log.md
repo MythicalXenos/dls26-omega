@@ -271,3 +271,12 @@ M	logs/research_queue.json. No content lost; no published history rewritten. Thi
 - **`raw_game_data/` scaffold created** with `README.md`, `_template_manifest.json`, and `.gitignore` entries protecting `consent/` and build+user-id files.
 - **Sample 11** (`audit/_sample11_turn21/`): 7/7 OK post-repair (four covers-lag WARNs back-stamped). Five consecutive clean samples; ~2.6% cumulative.
 - No contact has been made; all of the above are drafts that will be audited against OPERATIONAL_RULES in turn 22 before transmission is even possible (OBS-013 remains the consent gate).
+
+## 2026-10-17T23:30Z — turn 22 — STEP 1 REOPENED, GitHub-exhaustive sweep under ACCESS_BOUNDARY
+- Outbound probe of 30 non-allowlisted hosts re-confirms TLS-block (curl 35). `api.github.com` 200; `raw.githubusercontent.com` also TLS-fails. Web is still ACCESS_BOUNDARY — only GitHub search is newly reachable as a research surface.
+- `scripts/turn22_github_sweep.py`: 21 queries across code/repos/issues paginated to rate-limit; 733 hits captured. Junk filtered (spam/fan-templates/phishing/clones/scrapers); two material non-spam repositories:
+  1. FootballGamingBD/DLS26_PD — card-creator PWA with 1024-card Player.json DB, rating ranges, position labels, 212 teams, Vozinha 83 confirmed, two champion Messi/Ronaldo at 88 OVR (new ceiling candidate).
+  2. LeoH321/dls26-tool-CB — Chinese-community coach DP: +1/+2/+3 per rarity, CON weight 2 / PAS-SHO-TKL weight 1 for technical coaches, capacity = sum(weight)×rarity, stat cap 100, fractional over-cap, random k-combinations.
+- EV-246/247 written; CLAIM-131/132/133 added; CLAIM-104/105/091/007/059/129/130 wired to new EVs; covers back-stamped.
+- Sample 12 (`audit/_sample12_turn22`): 7/7 OK post-repair (three covers-lag WARNs fixed). Cumulative ~2.4% over 84 claims; six consecutive clean samples.
+- Note: Step-1 REOPEN is per explicit user instruction; the closure of turn 20 is superseded. The corpus has now absorbed the first new external research since the initial sibling import, from GitHub (allowlisted).

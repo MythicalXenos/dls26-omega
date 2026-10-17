@@ -4,9 +4,9 @@
   "operation_id": "op-first-session-bootstrap",
   "conversation_id": "not-exposed-by-host-environment",
   "session_id": "sess-20261017-001",
-  "turn_seq": 21,
-  "checkpoint_id": "ckpt-20261017-step1-020",
-  "previous_checkpoint_id": "ckpt-20261017-step1-019",
+  "turn_seq": 22,
+  "checkpoint_id": "ckpt-20261017-step1-021",
+  "previous_checkpoint_id": "ckpt-20261017-step1-020",
   "environment_generation": "arena-sandbox-2026-10-17",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -14,23 +14,22 @@
   "contract_id": "STATE_1_RESEARCH_SWEEP",
   "contract_digest": "epoch-initial-open-t69-imported",
   "progress_event_refs": [
-    "step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md",
-    "step3_device_pipeline/PROTOCOL_draft.md",
-    "step2_datamining/STEP2_PLAN_DRAFT.md",
-    "raw_game_data/README.md",
-    "audit/_sample11_turn21/README.md"
+    "scripts/turn22_github_sweep.py",
+    "logs/research/github_sweep_turn22.jsonl",
+    "docs/continuity/a7e23a6b/evidence/extract/EV-246_footballgamingbd_player_db.md",
+    "docs/continuity/a7e23a6b/evidence/extract/EV-247_dls26_china_cb_coach_dp.md",
+    "audit/_sample12_turn22/README.md"
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": true,
   "needs_user": false,
   "expected_terminal_class": "CONTINUE",
-  "exact_resumption_point": "Post-Step-1 prep turn 22: (1) audit OPERATIONAL_RULES for Step-1-closed invariants; (2) self-audit first-contact script; (3) pre-install open-source APK tooling if apt is reachable; (4) sample 12; (5) draft C-009 decision tree. No contact. OBS-013 gate remains.",
-  "created_at": "2026-10-17T23:00:00Z",
-  "not_before": "2026-10-17T23:00:00Z",
+  "exact_resumption_point": "STEP 1 REOPENED turn 23: (1) pull deeper FBGD files and dls26-CB full JS via api.github.com; (2) continue GitHub code-search pagination (19 search calls remaining in window); (3) pypi/npm sweep; (4) cross-check champion-88; (5) sample 13. Web ACCESS_BOUNDARY persistent.",
+  "created_at": "2026-10-17T23:30:00Z",
+  "not_before": "2026-10-17T23:30:00Z",
   "expires_at": null,
   "status": "READY_TO_YIELD",
   "diagnostic_refs": [
-    "step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md",
-    "step3_device_pipeline/PROTOCOL_draft.md"
+    "audit/_sample12_turn22/README.md"
   ]
 }

@@ -1,5 +1,5 @@
 # HANDOFF — DLS26 OMEGA
-Updated: 2026-10-17T23:00Z (session sess-20261017-001, turn 21, checkpoint ckpt-20261017-step1-020)
+Updated: 2026-10-17T23:30Z (session sess-20261017-001, turn 22, checkpoint ckpt-20261017-step1-021 — STEP 1 REOPENED by user instruction)
 Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push here.
 
 ## Active state
@@ -89,6 +89,13 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - Closure test documented in step1_epochs/CLOSURE_STATUS.md: Condition 1 NOT MET, Condition 2 NOT MET, epoch stays OPEN. No seal claimed.
 - Queue now carries the promotion (RQ-005), EV backfill (RQ-006), overdue-claim refresh (RQ-007, no date bump under access boundary) and retries (RQ-008).
 
+## Turn 22 result — Step 1 REOPENED per explicit user instruction; GitHub-exhaustive sweep under persistent ACCESS_BOUNDARY
+- 30-host outbound probe re-confirms TLS-block on every non-allowlisted research host. `api.github.com` reachable; `raw.githubusercontent.com` TLS-fails; no new web surface opened.
+- GitHub search sweep (733 hits across code/repos) yields two primary-data repos: FootballGamingBD card DB (EV-246, CLAIM-131 roster distribution / CLAIM-132 champion-88 conflict) and DLS26China coach DP tool (EV-247, CLAIM-133 coach-action mechanic — +1/+2/+3, weighted capacity, k-combinations — revises CLAIM-105).
+- Other hits are spam/fan templates/phishing/generic scrapers (documented in sample 12 README).
+- Sample 12: 7/7 OK; six consecutive clean samples.
+- Step-1 closure of turn 20 SUPERSEDED by reopen instruction. Research continues as long as new findings emerge.
+
 ## Turn 21 result — post-Step-1 prep: first-contact script, Step-2/Step-3 drafts, tooling probe, sample 11 clean
 - **Tooling probe**: all APK/datamining tools MISSING (java/aapt/apktool/jadx/adb/sqlite3/smali/d8/dex2jar). python3 stdlib (incl. sqlite3 module, zipfile, hashlib) and node/npm available. `pip install androguard` possible; apt installs of open-source tools are not consent-gated (installing != running against an APK).
 - **First-contact script** drafted (`step5_first_contact/FIRST_CONTACT_SCRIPT_draft.md`): S1 (backup linked) → S2 (System-Info/Copy Info) → P0 C-009 Season Leaderboard question → P1 controls/graphics/camera/stat-labels/build; screenshots preferred; no jargon; no early advice.
@@ -158,13 +165,14 @@ Branch: arena/b5d5681d-dls26-omega (from main fb9a2c0). One branch only; push he
 - **Frontier is now executable**: recovered the missing 161-ref frontier log from branch a7e23a6b (`5ab3ec6`) into `docs/continuity/a7e23a6b/logs/`; `frontier.py summary` reproduces the contract's §2 distribution exactly (91/23/2/9/15/20/1). The epoch count is no longer an inherited number.
 - **Contract §5a** is now a seven-step freeze procedure ending in a digest; epoch still DRAFT and unsealed.
 
-## Exact resumption point (next turn — turn 22)
-1. **OPERATIONAL_RULES audit**: walk OPERATIONAL_RULES.md for any rule that still assumes Step 1 is in progress or that needs updating given the closed corpus (e.g. the "every claim must have a witness" invariant is now met — record it as invariant, not aspiration). Add an invariant noting first-contact is gated on S1/S2/P0 answers.
-2. **First-contact script self-audit** against the no-promises, no-jargon, no-premature-advice rules; trim if needed.
-3. **Step-2 readiness**: decide whether to pre-install java+apktool+jadx via apt (open-source tool install is safe without the APK) so the sandbox is ready when consent arrives; if apt requires network beyond allowlist, note it.
-4. **Sample 12** (lightweight).
-5. Consider drafting the **C-009 decision tree** (what "#1" means under each of the four possible answers to the P0 question) so the response to the player's first answer is pre-planned rather than improvised.
-6. Web remains ACCESS_BOUNDARY. No contact is made this turn; OBS-013 is resolved only when the user sends > signalling readiness for first contact (per the OMEGA vocabulary).
+## Exact resumption point (next turn — turn 23, Step 1 research sweep continues)
+1. **Deeper extraction of the two new repos**: pull the FootballGamingBD assets index (any per-stat attributes? per-position caps?) and the full JS of dls26-tool-CB (the remaining ~4 KB of script covers fitness-coach logic or only defender?). Both are api.github.com-fetchable.
+2. **Continue GitHub/code search**: paginate the DLS26 code query to 1122 hits (rate-limit: 19 search calls/min left in the 30/min window; paginate with 2s delays next turn).
+3. **pypi.org and npm sweep** (both allowlisted): search for dls/dream-league-soccer packages — tooling, squad calculators, scrapers.
+4. **Investigate the iSharaf6/blocky-league repo** (looks like a football game) — confirm it's unrelated or mine for design insight only.
+5. **Cross-check champion-88** against what's already in EV-187/EV-190/dreamkitsapp (already in corpus via S-057/EV-239 summaries). If a second community DB corroborates 88, upgrade CLAIM-132 from Speculative to High Confidence and reopen CLAIM-007's cap.
+6. **Sample 13**.
+7. All rules still apply: zero ungrounded claims, every new number must trace to a physical tool result; web remains ACCESS_BOUNDARY.
 
 ## Owed debt / open items
 - OBS-001, OBS-002, OBS-003, OBS-007 (same-version byte drift), OBS-008 (continuity import), OBS-009 (repaired), OBS-010 (Setup wall-clock), OBS-011 (two claim systems, reconciliation queued), OBS-014 (claim-schema hygiene, documented non-propositional).

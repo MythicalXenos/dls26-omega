@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "id": "coins",
+      "name": "Coins",
+      "match": ["legendary", "rare", "common"],
+      "files": ["coin.png"]
+    },
+    {
+      "id": "star_agent",
+      "name": "Star Agent",
+      "match": ["ds25", "ds26", "dream star", "dreamstar"],
+      "files": ["star-agent.png"]
+    },
+    {
+      "id": "cult",
+      "name": "Cult Season Pass",
+      "match": ["cult"],
+      "files": ["cult-heroes-season-pass.png"]
+    },
+    {
+      "id": "classic",
+      "name": "Dream Points",
+      "match": ["classic"],
+      "files": ["dreampoints.png"]
+    },
+    {
+      "id": "dynamic",
+      "name": "Dynamic Agent",
+      "match": ["dynamic"],
+      "files": ["dynamic-agent.png"]
+    },
+    {
+      "id": "kick_off",
+      "name": "Kick Off Stars Season Pass",
+      "match": ["kick off", "kick-off", "kickoff", "kickof"],
+      "files": ["kick-off-stars-season-pass.png"]
+    },
+    {
+      "id": "legendary_agent",
+      "name": "Legendary Agent",
+      "match": ["champion26", "champion25", "champion", "t26", "world hero", "world-hero", "world cup hero", "world winner", "world cup winner"],
+      "files": ["legendary-agent.png"]
+    }
+  ]
+}

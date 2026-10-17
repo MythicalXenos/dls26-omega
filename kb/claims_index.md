@@ -1,6 +1,6 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-17T18:09Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **129**
+Generated mechanically from `kb/claims.jsonl` at 2026-10-17T18:29Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **132**
 Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Speculative 12 / Disputed 1. Volatility: High 40 / Medium 31 / Low 33 / Critical 11 / Frozen 3.
 | Claim | Proposition (truncated) | Confidence | Volatility | Next due |
 | --- | --- | --- | --- | --- |
@@ -248,3 +248,6 @@ Distribution: Confirmed 31 / High Confidence 51 / Community Consensus 23 / Specu
 | CLAIM-128 | Save-data backup surface (official 214387685, restated in GS-037 by sibling): FTG's current recommendation is to link the profile to **Sign in with Google** ... | Confirmed | volatility-Low | 2027-01-17 |
 | CLAIM-129 | Cult Heroes 12-card roster, database-corroborated (GS-039/040 sibling): David de Gea GK 85 (ESP, #1); Paulo Dybala SS/RW 85 (ARG, #10); Pierre-Emerick Aubame... | High Confidence | volatility-Critical | 2026-10-22 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041, single database): World Winners — Marc Cucurella LB 85 (ESP); World Heroes ... | High Confidence | volatility-Critical | 2026-10-22 |
+| CLAIM-131 | Card-roster distribution from the FootballGamingBD card-creator database (snapshot 2026-10-12): visible/special cards total 1024 — Rare 695 (70-79), legendar... | High Confidence | volatility-Critical | 2026-10-20 |
+| CLAIM-132 | POTENTIAL CONFLICT — champion card ceiling: FootballGamingBD lists two champion cards (RONALDO Lw, MESSI Cf) at OVR 88, which is one point higher than the Me... | Speculative | volatility-Critical | 2026-10-20 |
+| CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/White/Rare... | Community Consensus | volatility-High | 2026-10-20 |
