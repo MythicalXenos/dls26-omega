@@ -1,26 +1,26 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:25:15Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1583**
-Distribution: Confirmed 365 / High Confidence 679 / Community Consensus 504 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **427**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:28:57Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1600**
+Distribution: Confirmed 365 / High Confidence 680 / Community Consensus 520 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **429**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 114 |
-| facilities | 77 |
+| economy | 115 |
+| facilities | 82 |
 | dll | 51 |
 | cards | 49 |
 | clans | 49 |
 | career | 47 |
+| gameplay | 46 |
 | transfers | 43 |
 | training | 38 |
 | coaches | 37 |
 | cups | 37 |
 | prizeladder | 36 |
 | controls | 35 |
-| gameplay | 35 |
 | patching | 35 |
 | attributes | 34 |
 | platform | 30 |
@@ -988,6 +988,7 @@ Distinct evidence records cited: **427**.
 | CLAIM-1580 | THE GLOBAL CHALLENGE CUP FORMAT: 128 teams, four per group played home and away (three opponents twice, six group matches), the top two qualify, th... | High Confidence | cups/gcc-format | EV-463 |
 | CLAIM-1581 | The Global Challenge Cup is available in EVERY division, from the Academy Division up to the Legendary Division, and works 'like the FA Cup and The... | High Confidence | cups/gcc-every-division | EV-463 |
 | CLAIM-1582 | THE 12TH MAN MECHANIC IS CLOSED: the App Store version history for v13.120 (25 Mar 2026) states '12th Man - The DLS community has voted, and we've ... | High Confidence | cards/12th-man-mechanic-closed | EV-463 |
+| CLAIM-1598 | 4-1-2-1-2 remains the classic DLS shape and one of only two formations unlocked by default (with 4-4-2); further formations are unlocked by upgradi... | High Confidence | gameplay/default-formations | EV-464 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1541,6 +1542,22 @@ Distinct evidence records cited: **427**.
 | CLAIM-1585 | CARD COLOURS ARE PERMANENT by type: TOTY cards are forever green, Dream Stars forever purple, Champions forever blue. | Community Consensus | cards/colour-permanence | EV-463 |
 | CLAIM-1586 | Mid-season rating changes (26 Feb 2026 megathread): Raya 83 to 84, Gabriel 84 to 85, Merino 79 to 80, Zubimendi 81 to 82, Trossard 79 to 80, Baena ... | Community Consensus | patching/mid-season-feb-2026-changes | EV-463 |
 | CLAIM-1587 | Card-type sample ratings (dreamkitsapp): World Winners Cucurella 85 LB, World Heroes Messi 87 SS, Team of 2025 Donnarumma 86 GK, Champion players M... | Community Consensus | cards/card-type-sample-ratings | EV-463 |
+| CLAIM-1588 | THERE IS NO SINGLE BEST FORMATION - the strongest analysis in the corpus argues the game 'doesn't have a strongest shape' and that what matters is ... | Community Consensus | gameplay/no-single-best-formation | EV-464 |
+| CLAIM-1589 | STAMINA DEPTH BEATS FORMATION, EVERY TIME: 'a 4-3-3 with fresh legs at minute 70 beats a perfect 4-2-3-1 with three players at low stamina. I lost ... | Community Consensus | gameplay/stamina-beats-formation | EV-464 |
+| CLAIM-1590 | 4-4-2 is the recommended shape for new and losing players: 'two banks of four, two up top, no clever ideas. nothing brilliant happens. nothing cata... | Community Consensus | gameplay/442-for-beginners | EV-464 |
+| CLAIM-1591 | TIER-1 PLAYERS SWITCH SHAPE AS THEY CLIMB: 'I use 4-1-3-2 when I'm in career and also in lower DLL tiers... however, when I get to tier 1 I tend to... | Community Consensus | gameplay/tier-dependent-formation | EV-464 |
+| CLAIM-1592 | 4-2-2-2 is rising because DLS25 nerfed the two wide midfielders of 4-1-2-1-2: 'they nerfed the two wide mids like halfway through dls 25 so they do... | Community Consensus | gameplay/4222-rising | EV-464 |
+| CLAIM-1593 | 4-3-3 scores the most but concedes more: 'great going forward, and I scored more with it than anything else. also conceded more, and the wide forwa... | Community Consensus | gameplay/433-tradeoff | EV-464 |
+| CLAIM-1594 | 3-2-3-2 has a persistent advocate base built on closing the middle: 'you have 3 players on the forward to make tiki-taka... and 2 CDM which means y... | Community Consensus | gameplay/3232-advocates | EV-464 |
+| CLAIM-1595 | 4-1-3-2 has a dedicated Tier-1 guide: 'four defenders, a midfield diamond with one defensive midfielder, and two strikers gives a good balance, hel... | Community Consensus | gameplay/4132-tier1-guide | EV-464 |
+| CLAIM-1596 | The agreed constraint across the formation debate: FIVE AT THE BACK is usually not a good idea in online matches. | Community Consensus | gameplay/five-at-back-bad-online | EV-464 |
+| CLAIM-1597 | The formation conflict in miniature: two YouTube videos in the same spring assert opposite conclusions - 'DLS 26 Best Formation 4-3-3' (11 Mar 2026... | Community Consensus | gameplay/formation-youtube-contradiction | EV-464 |
+| CLAIM-1599 | A THIRD COMMERCIAL CURVE APPEARS AND IS DISMISSED: sportsdunia (30 Dec 2025) lists L1 2% / L2 4% / L3 6% / L4 8% / L5 10% match-winning bonus with ... | Community Consensus | facilities/commercial-third-curve-rejected | EV-465 |
+| CLAIM-1600 | THE COMMERCIAL FACILITY'S REAL MAGNITUDE: a player with a MAXED Commercial facility reports 'it doesn't give much extra coins ~6-20 coins per game'... | Community Consensus | facilities/commercial-magnitude-6-20-coins | EV-465 |
+| CLAIM-1601 | THE STRONGEST PRO-COMMERCIAL POSITION: a player who has run the game twice puts Commercial FIRST ('max commercial asap'), arguing the bonus is negl... | Community Consensus | facilities/commercial-high-division-payout | EV-465 |
+| CLAIM-1602 | FACILITY-PRIORITY CONSENSUS (three independent threads): Abe-Pizza's order is Training, Commercial, Accommodation, Medical, Recruitment; a Jan 2026... | Community Consensus | facilities/priority-consensus | EV-465 |
+| CLAIM-1603 | The squad space limit after a maxed Accommodation facility is 40 players, independently corroborated. | Community Consensus | facilities/40-player-limit-corroborated | EV-465 |
+| CLAIM-1604 | Season Pass coin totals conflict: sportsdunia claims 'upto 4750 coins' while Bluestacks puts the FREE track alone at 1,095 coins. Both unverified; ... | Community Consensus | economy/season-pass-coins-conflict | EV-465 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

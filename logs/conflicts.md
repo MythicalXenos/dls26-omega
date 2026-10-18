@@ -116,11 +116,13 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Sources:** dls-wiki ("competed with 4 teams in your group, 2 teams with the most points will be qualified"), the dream-league-soccer fandom wiki, r/DLS 1ib3c2g ("the GCC right now is made of 128 teams"; "basically, you play 3 teams twice just as last year ucl format") and n623r2 (a 2021 run surviving the group stage, a 3-goal win in the round of 16 and a one-goal win in extra time in the quarter-final).
 - **Residual:** the reward scale is still contested ("the GCC rewards are pathetic") and no source gives the exact coin/gem payout per round. **Impact on strategy: none of consequence** — the cup is a coin and trophy surface, and the plan already treats cups as secondary to the DLL climb.
 
-## C-014 — Is 4-2-3-1 a good formation?
+## C-014 — Is 4-2-3-1 a good formation? — **EXPLAINED ckpt-129, EV-464 (stays open as a trade-off, not an error)**
+
 - **Side A:** sportsdunia ranks 4-2-3-1 second of its top five DLS26 formations (EV-414).
 - **Side B:** r/DLS advises never using 4-2-3-1 because the lone striker gets no support and the team is punished by long balls (EV-414).
-- **Status:** UNRESOLVED and playstyle-dependent; both recorded.
-- **May say meanwhile:** "4-2-3-1 suits midfield control; players who concede long balls are advised against it."
+- **Resolution:** the two sides are describing **different failure modes of different shapes**, not disagreeing about facts. The strongest analysis in the corpus argues the game *"doesn't have a strongest shape"* and that **4-2-3-1 "fails gracefully"** — *"when you're outplayed in a 4-2-3-1, you get overrun slowly and you can see it happening"* — whereas 3-4-3 *"concedes two in ninety seconds and you're rebuilding your whole game plan while the AI is still celebrating."* So Side B's lone-striker and long-ball complaints are real properties of 4-2-3-1 that matter **more against strong opponents**, while Side A's ranking is a general-purpose judgement. The Tier-1 evidence fits exactly: *"when I get to tier 1 I tend to meet a lot of people who attack better than I do so I change to a 4-2-3-1. 1 extra defensive mid helps me a lot."*
+- **The variable that outranks the shape:** *"stamina depth beats formation, every time — a 4-3-3 with fresh legs at minute 70 beats a 'perfect' 4-2-3-1 with three players at low stamina."* This is the official STA model (EV-456) arriving in the formation debate.
+- **Status:** **EXPLAINED — no single shape is correct.** The masterplan's formation line is rewritten to the trade-off framing, and the open-gaps table now records C-014 as *explained, not an error*. Recorded in EV-414 and EV-464.
 
 ### C-015 — International Cup / All-Star Cup availability
 - **Side A:** older wiki and long-term players report 18+ International Cup and All-Star Cup wins after winning the Legendary Division (EV-416).
@@ -175,7 +177,9 @@ So Source A was showing post-boost/in-game OVR, Source B was showing the event-b
 ## C-019: Commercial facility bonus (13%/21% vs "10% at L5, biggest FTG scam")
 - **Source A:** gamingonphone DLS25/DLS26 coin guides — Commercial Level II gives a **13%** in-game coin bonus and Level III a **21%** bonus, with the first upgrade at 75 gems.
 - **Source B:** r/DreamLeagueSoccer 176ntor (Oct 2023) — "Commercial facility is the biggest FTG scam, it was good in DLS20, but don't put your gems there", with a comment claiming **10% for level 5** costing a total of **1,000+ gems**.
-- **Status:** OPEN. The two sources disagree on both the magnitude and the shape of the curve, and Source B is a DLS23-era complaint. Recorded in EV-437. The masterplan's facility-priority table should be re-checked once resolved.
+- **A THIRD CURVE has appeared and been dismissed:** sportsdunia (30 Dec 2025) lists L1 2% / L2 4% / L3 6% / L4 8% / L5 10% with kit/logo discounts of 5/10/1/20/25%. It is rejected on the same grounds as its earlier Commercial table, and the row is internally inconsistent (the 1% is a typo for 15% at best). Recorded in EV-465.
+- **The decisive new data is the MAGNITUDE, not the curve:** a player with a **maxed** Commercial facility reports *"it doesn't give much extra coins ~6-20 coins per game."* At 1,125 gems to max, the payback runs to hundreds of matches. The one quantified high-division counter-datapoint is a two-run player arguing the bonus rises to **30-50 coins per game** in higher divisions.
+- **Status:** **EXPLAINED — the disagreement is about magnitude, and the magnitude is small.** All three curves now coexist in the corpus (13%/21%, 10%-at-L5, 2/4/6/8/10%-rejected); the community priority consensus (Training and Accommodation first; Commercial low) is consistent with a 6-20 coin payoff. **Planning rule: do not spend gems on Commercial until Training and Accommodation are done.** Recorded in EV-437 and EV-465.
 
 ## C-020: Special Player max cost (2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835) — **RESOLVED 2026-10-18, ckpt-118**
 - **Source A:** r/DreamLeagueSoccer 1hnll1u (Dec 2024) — 90 upgrade points / 12 points per Legendary Special Coach = **7.5 coaches**, at 280 gems each = **2,100 gems**; Rares would be 15 x 168 = 2,520 gems.

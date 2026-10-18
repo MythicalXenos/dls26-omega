@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-128 — 1,583 claims / 365 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-129 — 1,600 claims / 367 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,17 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**THE FORMATION RULE** [EV-464, C3] — there is no best shape, only failure modes:
+
+| Rule | Detail |
+|---|---|
+| **Learn 4-4-2 first** | *"Two banks of four, two up top, no clever ideas. Nothing brilliant happens. Nothing catastrophic happens either"* — put it on and don't touch it for twenty matches |
+| **Switch to 4-2-3-1 at Tier 1** | Tier-1 players report the change: *"when I get to tier 1 I tend to meet a lot of people who attack better than I do so I change to a 4-2-3-1. 1 extra defensive mid helps me a lot"* |
+| **4-2-2-2 for online** | Two strikers, two CAMs wide, two CDMs, back four — rising because DLS25 **nerfed 4-1-2-1-2's wide mids** so they no longer defend |
+| **Avoid 4-3-3 in close games** | Scores the most but concedes the most — wide forwards don't track back |
+| **Never five at the back online** | *"Usually not a good idea"* |
+| **STAMINA BEATS SHAPE** | *"A 4-3-3 with fresh legs at minute 70 beats a 'perfect' 4-2-3-1 with three players at low stamina."* **Rotation is a tactical decision** |
 
 **ACCOUNT GUARDS — the rules that protect the whole mission** [EV-462, **C1 — OFFICIAL**]:
 
@@ -404,4 +415,6 @@ The game is volatile; these are the only events that justify breaking the routin
 
 **THE 12TH MAN** [EV-463, C2]: the community vote concluded and the extra superstar **was added in v13.120 (25 Mar 2026)**. FTG never names the player, so treat the mechanic as closed and the identity as unknown.
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,583 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (365 records) at ckpt-128.*
+**COMMERCIAL FACILITY — spend here LAST** [EV-465, C3]: a **maxed** Commercial facility gives only about **6–20 extra coins per game**, so at 1,125 gems to max the payback runs to hundreds of matches. Three mutually exclusive curves are on record (13%/21%, 10%-at-L5, and sportsdunia's rejected 2/4/6/8/10%), but the magnitude is what matters. **Community priority: Training and Accommodation first, Commercial last.** The one dissenting voice argues the bonus rises to 30–50 coins per game in higher divisions.
+
+*End of operational rules. Authority: `kb/claims.jsonl` (1,600 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (367 records) at ckpt-129.*

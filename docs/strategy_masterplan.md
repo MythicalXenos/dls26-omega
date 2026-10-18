@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-128 — 1,583 claims / 365 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-129 — 1,600 claims / 367 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -110,7 +110,7 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 | Order | Facility | Why | Numbers |
 |---|---|---|---|
 | 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | 1,125 gems per facility; **5,625 gems total** for all five; optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [C2/C3]. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
-| 2 | **Commercial** | +13% coins at L2, **+21% at L3**; L3 also removes stadium rust | First tier 75 gems [C2/C3] |
+| 2 | **Commercial** | +13% coins at L2, **+21% at L3** (one source curve, contested — C-019) | First tier 75 gems. **Real magnitude at max: only ~6–20 extra coins per game** [EV-465, C3] — the payback runs to hundreds of matches, so **spend here last** |
 | 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations | See full ladder below |
 | 4 | **Medical** | Injury reduction and cheaper recovery | L1 gives −5% injury / −10% heal cost; L2–L5 **never published** [C2] |
 | 5 | **Fanzone** (new in Summer Spotlight) | **Clan bonuses + stadium discounts** | Per-level costs **never published** [EV-428/App Store, C1 on function, C5 on cost] |
@@ -552,7 +552,21 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 - **Scenarios:** you are already **losing** and must beat **Hard AI**. 50 coins daily, resets each day. DLS26 Summer Spotlight officially added *more bonus objectives and rewards*. The community calls scenarios **the hardest content in the game** — "way harder than Live Games", and even "easy" scenarios reportedly play at medium difficulty. Budget time accordingly.
 - **Exhibition:** offline friendlies via a **room code**, no rewards. This is your **free training ground** — the right place to drill corners, free kicks and new formations before taking them into Live.
 
-**Formation meta is genuinely unsettled** (C-014 stays open by design): 4-4-2 for balance (LM/RM as wingers, full-backs supporting both phases); 4-1-2-1-2 and 4-1-3-2 favoured by the tier-1 guides; 4-3-3 and 3-4-1-2 pushed by sportsdunia. **Pick one and learn it deeply rather than chasing the meta** — the record run used a mostly common/rare squad.
+**Formation meta is genuinely unsettled — and the best analysis says it cannot be settled** [EV-464, C3]. The strongest piece of formation writing in the corpus argues the game *"doesn't have a strongest shape"* and that what differs is each shape's **failure mode**: 4-2-3-1 **"fails gracefully"** (you get overrun slowly and can see it happening), while 3-4-3 concedes two in ninety seconds and forces a full rebuild.
+
+| Shape | Use it for | Its failure mode |
+|---|---|---|
+| **4-4-2** | **Learning, balance, and the default.** *"Two banks of four, two up top, no clever ideas. Nothing brilliant happens. Nothing catastrophic happens either"* — the recommendation for anyone losing right now: put it on and don't touch it for twenty matches | Least upside; relies on LM/RM tracking back |
+| **4-2-3-1** | **Tier 1**, where opponents attack better — one extra defensive mid. Tier-1 players report switching to it on the climb | Lone striker gets no support; punished by long balls |
+| **4-2-2-2** | **Live/online** — two strikers, two CAMs wide, two CDMs and a back four. Rising because DLS25 **nerfed 4-1-2-1-2's two wide mids** so they no longer defend and now play centrally | Thin in midfield if both CAMs push on |
+| **4-1-3-2** | A dedicated Tier-1 guide: four defenders, a midfield diamond with one DM, two strikers — *"doesn't even require all the best players"* | Diamond is narrow; wide areas exposed |
+| **3-2-3-2 / 3-2-3-3** | Closing the middle (two CDMs) and tiki-taka; the C-spam counters | Concedes fast when broken; no full-backs |
+| **4-3-3** | **Most goals scored** per the shape-testing evidence | **Concedes the most** — wide forwards don't track back |
+| **Five at the back** | — | *"Usually not a good idea"* online |
+
+**THE VARIABLE THAT OUTRANKS THE SHAPE** [EV-464, C3 — and it is the official STA model from §4.2 arriving here]: *"Stamina depth beats formation, every time — a 4-3-3 with fresh legs at minute 70 beats a 'perfect' 4-2-3-1 with three players at low stamina."* **Rotation and fitness are tactical decisions, not chores.**
+
+**Pick one and learn it deeply rather than chasing the meta** — the record run to Tier 1 used a mostly common/rare squad. The conflict in miniature: two YouTube videos in the same spring assert opposite conclusions (4-3-3 in March, 4-4-2 in May).
 
 ## 4. What NOT to do (dead ends, do not retry)
 
@@ -632,7 +646,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | 8 | **12th Man winner identity** | A mechanic to watch each season | MECHANIC CLOSED (community-voted final Dream Star, EV-438 C1); FTG never names the winner |
 | 9 | **Cult Heroes OVR conflict** (C-018) | 92 vs 95 on the four 85-rated heroes | OPEN |
 | 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | **RE-OPENED (ckpt-126)** — now one community source each side; the "leans 100" note is withdrawn. Plan on neither |
-| 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 vs 4-4-2 | OPEN — a genuine live disagreement, not an error |
+| 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 vs 4-4-2 | **EXPLAINED (ckpt-129)** — the disagreement is real and not an error: shapes differ by *failure mode*, stamina depth beats shape, and Tier-1 players switch shape as they climb. No single answer exists |
 | 12 | **Commercial bonus curve** (C-019) | 13%/21% vs "10% at L5, biggest FTG scam" | OPEN |
 | ~~13~~ | ~~**Special player max cost** (C-020)~~ | ~~2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835~~ | **RESOLVED at ckpt-118** — ~2,000–2,100 gems, 6–7 Legendary Special Coaches, ~420 gems saved by cancelling |
 
