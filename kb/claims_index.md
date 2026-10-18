@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:09:59Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1742**
-Distribution: Confirmed 382 / High Confidence 755 / Community Consensus 569 / Speculative 35 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **446**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:12:02Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1760**
+Distribution: Confirmed 382 / High Confidence 764 / Community Consensus 577 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **447**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,9 +10,9 @@ Distinct evidence records cited: **446**.
 | unscoped | 424 |
 | economy | 121 |
 | facilities | 93 |
-| dll | 63 |
+| dll | 65 |
+| gameplay | 65 |
 | clans | 56 |
-| gameplay | 56 |
 | cards | 55 |
 | transfers | 49 |
 | career | 48 |
@@ -26,12 +26,12 @@ Distinct evidence records cited: **446**.
 | attributes | 34 |
 | platform | 30 |
 | customization | 29 |
-| events | 25 |
+| events | 26 |
 | errata | 24 |
+| presentation | 21 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
-| presentation | 16 |
 | tactics | 16 |
 | achievements | 15 |
 | stadium | 15 |
@@ -63,12 +63,12 @@ Distinct evidence records cited: **446**.
 | weather | 5 |
 | ai | 4 |
 | ratings | 4 |
+| settings | 4 |
 | features | 3 |
 | injuries | 3 |
 | medical | 3 |
 | multiplayer | 3 |
 | scenarios | 3 |
-| settings | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
@@ -1089,8 +1089,17 @@ Distinct evidence records cited: **446**.
 | CLAIM-1743 | LICENSED CLUB KITS UPDATE WITH THE REAL SEASON: the August 2026 update brought official 2026/27 home, away and third kit designs plus updated sleev... | High Confidence | customisation/licensed-kits-update-with-season | EV-482 |
 | CLAIM-1744 | The 2026 update chronology: July (Summer Spotlight) introduced Dynamic Stars, the Fanzone, the World Tournament event type, manager accessories and... | High Confidence | events/2026-update-chronology | EV-482 |
 | CLAIM-1745 | DOCUMENTED NEGATIVE - **DLS26 HAS NO WAGE SYSTEM.** A targeted search for wages returned nothing: no source documents wages, salaries, a wage bill,... | High Confidence | negatives/no-wage-system | EV-482 |
+| CLAIM-1747 | THE DLL SEASON FORMAT ALTERNATES: seasons run 10 days and switch between a DRAW-ALLOWED format and an EXTRA-TIME-MANDATORY format - 'DLS switches b... | High Confidence | dll/season-format-alternates | EV-483 |
+| CLAIM-1748 | Some DLL tiers have extra time and some do not, and the game announces at the start of the match whether a tie will go to extra time. | High Confidence | dll/extra-time-announced-at-kickoff | EV-483 |
+| CLAIM-1749 | FIVE RED CARDS ENDS THE MATCH with an automatic loss: 'If you get 5 red cards, the match usually automatically ends and you lose.' | High Confidence | gameplay/five-red-cards-ends-match | EV-483 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
+| CLAIM-1751 | Fewer than the required number of players for a penalty shootout is an automatic loss, awarded before the shootout starts. | High Confidence | gameplay/insufficient-players-for-shootout | EV-483 |
+| CLAIM-1757 | DLS26 PRESENTATION: 'New broadcast-style camera angles and improved cinematics', and a new pre-match presentation in which 'players now walk out we... | High Confidence | presentation/broadcast-cameras-and-walkout | EV-483 |
+| CLAIM-1758 | Commentary is now available in TURKISH AND ARABIC for the 25/26 season, alongside 'improved commentary - now more accurate with added phrases'. Com... | High Confidence | presentation/turkish-arabic-commentary | EV-483 |
+| CLAIM-1759 | DLS26 presentation upgrades: 'Enhanced Match Atmosphere - More props, banners, flags, and more', 'Brand new soundtrack and SFX', 'New cutscenes - F... | High Confidence | presentation/atmosphere-cutscenes-dressing-room | EV-483 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
+| CLAIM-1763 | Matches run in real time with a 3-MINUTE HALF-LENGTH by default, and can be sped up or paused. | High Confidence | gameplay/three-minute-halves | EV-483 |
+| CLAIM-1764 | v13.040 (17 Dec 2025) shipped 'Increased squad size - Now with unlimited special players in your club', improved venues, and the launch event 'Kick... | High Confidence | events/kick-off-stars-launch-event | EV-483 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
@@ -1708,6 +1717,14 @@ Distinct evidence records cited: **446**.
 | CLAIM-1737 | THE PRACTICAL IMPORT WORKFLOW: take a kit from the internet, paste the logo on with an image app (picsart, ibispaint), upload the PNG to any image ... | Community Consensus | customisation/import-workflow | EV-482 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-1741 | The legacy text-format kit spec names the pattern vocabulary: Pattern Type = **none, sides, halves, stripes, hoops**, with 3-30 stripes or hoops, p... | Community Consensus | customisation/pattern-vocabulary | EV-482 |
+| CLAIM-1750 | The five-red-card check fires only when play is interrupted by the foul - a card given retroactively after the referee plays advantage bypasses the... | Community Consensus | gameplay/advantage-play-card-exploit | EV-483 |
+| CLAIM-1752 | PENALTY TECHNIQUE: 'low C press on any side and A slightly left,right with medium press also worked great for me against AI' - reported at 85-90% c... | Community Consensus | gameplay/penalty-technique | EV-483 |
+| CLAIM-1754 | Penalty run-ups were a READABLE TELL in DLS23 - 'they had 6 different animations that would tell you which way they would shoot' - but 'now the ani... | Community Consensus | gameplay/run-up-animations-mostly-random | EV-483 |
+| CLAIM-1755 | The pause-and-read penalty trick works in CAREER ONLY: pause while the ball is in flight, note the direction, close and reopen, and the kick repeat... | Community Consensus | gameplay/pause-read-penalty-career-only | EV-483 |
+| CLAIM-1756 | EXTRA TIME IS WIDELY SUSPECTED OF RUNNING ASYMMETRICALLY: 'extra time running for almost as long as the half when you're in front, and for WAY less... | Community Consensus | gameplay/extra-time-asymmetry-suspected | EV-483 |
+| CLAIM-1760 | Crowd noise is dynamic - 'swelling when your team attacks and quieting during defensive phases' - so the audio is a genuine possession cue. | Community Consensus | presentation/dynamic-crowd-noise | EV-483 |
+| CLAIM-1761 | DLS26 has 'improved dynamic lighting for day and night matches' and 'environmental effects: weather conditions like rain and wind affecting gamepla... | Community Consensus | presentation/weather-affects-gameplay | EV-483 |
+| CLAIM-1762 | THE COMPETITIVE SETTINGS PROFILE: 'Sideline camera, 30% zoom, game directional arrows OFF, radar map ON, names ON, scoreboard ON, kick assist OFF, ... | Community Consensus | settings/competitive-profile | EV-483 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
 | CLAIM-180 | Daily Scenarios mode places player in a comeback situation vs Hard AI; completion rewards 50 coins per day; scenario resets daily. | Community Consensus | unscoped | EV-270 |
@@ -1833,6 +1850,7 @@ Distinct evidence records cited: **446**.
 | CLAIM-1290 | The named LIVE ranks most plausibly map onto the lowest six tiers of the 20-to-1 numeric ladder, with tiers above Veteran identified only by number. | Speculative | dll/rank-name-mapping-hypothesis | EV-435 |
 | CLAIM-1375 | SPECULATIVE: a community method claims that renaming your manager to the target player's name and matching your manager nationality to theirs (or r... | Speculative | errata/manager-name-method-speculative | EV-442 |
 | CLAIM-1746 | Champion Cards are reported at 88 (Messi) and 89 (Ronaldo), and one player's card 'got maxed at just 94 instead of the usual 95' - suggesting speci... | Speculative | cards/champion-card-figures | EV-482 |
+| CLAIM-1753 | Career-mode penalties may be PREDETERMINED: 'career mode pens are fixed. Whether the keeper saves it or not is kinda decided before you kick the ba... | Speculative | gameplay/career-pens-predetermined | EV-483 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

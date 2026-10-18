@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-144 — 1,742 claims / 384 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-145 — 1,760 claims / 385 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -306,6 +306,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 **Scoring: 3/1/0. Gem rewards: 100/100/100/40/30.** DLL pays gems for a season finish with a **minimum of 14 points**. [EV-437, C2]
 
 > **R-7.1 — THE GEM ENGINE.** When gems are the priority, **tier camp between Tier 5 and Tier 2 and aim for SURVIVAL, NOT PROMOTION**: win only 4–5 matches (12–15 points), quit the rest, and accept that losing en route keeps you in the camping tier. ~48 matches over 4–4.8 hours = 150–208 gems (~35–43/hour) against 5–11 gems/day from challenges. **Do not forfeit while camping.** Tier 1 cannot be camped. **[EV-448, C2/C3]**
+>
+> **R-7.1b — CHECK THE SEASON FORMAT FIRST** [EV-483, C2]. DLL seasons run 10 days and the format **alternates between draw-allowed and extra-time-mandatory**, announced at kick-off. **In an extra-time season a draw is not a bankable point** — bank the 4–5 wins first, then treat any remaining match as a real extra-time match. **[EV-483, C2]**
 
 > **R-7.2 — THE SQUAD RULE (C-024).** Keep the DLL squad **competitive but NOT maxed**; pursue full maxing as a *separate* club-value objective. Team strength is an official matchmaking input, so a stronger squad faces stronger opponents. The record Tier 1 run used a mostly common/rare squad. **[EV-447, C1 / EV-448, C2]**
 
@@ -453,6 +455,20 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Four kits:** home, away, third, goalkeeper. **Pattern vocabulary:** none, sides, halves, stripes, hoops (3–30).
 - **Manager customisation** is cosmetic — hairstyles, outfits, accessories (the North American themed Manager Accessories arrived in Summer Spotlight). **Licensed club kits update with the real season** (August 2026 = 2026/27 designs).
 - **⚠️ DLS26 HAS NO WAGE SYSTEM** [C2 — documented negative]. No source documents wages, salaries, a wage bill, or contract renewal costs. **A FIFA arrival will look for a wage bill that does not exist.**
+
+### 3.12 Match rules, penalties and presentation [EV-483, C2/C3/C4]
+
+**Match rules:**
+- **Five red cards ends the match** with an automatic loss. The check fires only when play is interrupted by the foul, so a card given after the referee plays advantage bypasses it — recorded as a curiosity, **never as advice**.
+- **Too few players for a shootout = automatic loss** before it starts.
+- **Default half-length is 3 minutes**, real time, pausable.
+- **Extra time is widely suspected of running longer when you lead and shorter when you trail**, and DLS26 no longer displays the extra-time clock. This sits against FTG's official *"there are no additional overlaid controls"* — treat as a suspicion to watch, not a finding.
+
+**Penalties** [C3]: **low C press on any side plus A slightly left/right with medium press** — reported at 85–90% in DLL and 70–80% in shootouts (one dissenter reports the opposite). The run-up animations were a readable tell in DLS23 and are **mostly random now**, though some remain consistent — track them. **The pause-and-read trick works in Career only**; you cannot pause in DLL. Career-mode pens may be predetermined (C4).
+
+**Presentation** [C2]: broadcast cameras, a **pre-match walk-out in warm-up tracksuits**, **Turkish and Arabic commentary** (dynamically generated, not pre-recorded), more props/banners/flags, a new soundtrack and SFX, new cutscenes, a **dressing-room camera**, dynamic crowd noise that swells when you attack, dynamic day/night lighting, and **rain and wind that affect gameplay**.
+
+**The competitive settings profile** [C3]: sideline camera, 30% zoom, directional arrows **OFF**, radar map **ON**, names ON, scoreboard ON, and **kick assist, cross assist and pass assist all OFF**. A guide's alternative is TV camera at 80% distance, auto replay off, commentary 20%, music off, SFX 10%, haptics off.
 
 ---
 

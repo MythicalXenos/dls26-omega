@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-144 — 1,742 claims / 384 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-145 — 1,760 claims / 385 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -57,6 +57,8 @@ This matters because it changes the optimisation target: **the leaderboard rewar
 > The record run optimised for **speed to Tier 1**. If your priority is **gems per hour**, the optimal tactic is the opposite:
 >
 > **Camp between Tier 5 and Tier 2** (Tier 1 cannot be camped — it is the ceiling) and **aim for SURVIVAL, NOT PROMOTION.** Win only **4–5 matches** (12–15 points), then **quit the rest** — and *losing en route is even better*, because it keeps you in the camping tier instead of promoting you into a harder one.
+
+> **⚠️ CHECK THE SEASON FORMAT BEFORE YOU CAMP** [EV-483, C2]. DLL seasons run 10 days and the format **alternates between draw-allowed and extra-time-mandatory** — *"DLS switches between Extra Time and Draw after every season, so this season is Extra Time and next season… the match format will again be draws and it will repeat like this"* — and the game tells you which at kick-off. **In a draw-allowed season the arithmetic above holds. In an extra-time season a draw is not a result, it is a coin-flip you must play out** — so bank the 4–5 wins first and treat any remaining match as a genuine extra-time match, not a free point.
 >
 > | Metric | Value |
 > |---|---|
