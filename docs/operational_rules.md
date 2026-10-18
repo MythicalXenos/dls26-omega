@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-134 — 1,640 claims / 374 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-136 — 1,652 claims / 376 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,20 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**THE MATCHCRAFT RULES** [EV-474, C3] — the execution layer:
+
+| Rule | Detail |
+|---|---|
+| **DLL unlocks after SIX Career matches** | Which also unlocks Friend Match. Play six regardless — they pay coins and Season Points (C-025 substantially resolved) |
+| **Defending: no joystick while holding B** | Your player moves toward the ball automatically; steering fights it |
+| **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
+| **Slide tackles sparingly, never on the counter** | Block shots; press C for the keeper; aerial ball = press B at the nearest midfielder |
+| **Tactic switching is a rhythm** | Defensive the moment they have it, attacking the moment you win it, balanced to reset |
+| **Anti-C-spam escalation** | Head diagonally backwards toward the second striker, then escalate the back line 3 → 4 → 5 |
+| **Footedness placement** | Left-footed at LB/LCB, right-footed at RB/RCB; strikers inverted |
+| **One-on-one: hold C, then release** | Lowers their scoring chance and prevents chip shots |
+| **Verify the secondary press** | The DLS26 update nerfed it — the secondary-press model above is the pre-nerf version, so re-check in Exhibition |
 
 **THE SEASON PASS RULES** [EV-472, C2]:
 
@@ -455,4 +469,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,640 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (374 records) at ckpt-134.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,652 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (376 records) at ckpt-136.*

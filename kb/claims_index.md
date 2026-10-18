@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:44:33Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1641**
-Distribution: Confirmed 374 / High Confidence 702 / Community Consensus 530 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **437**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:45:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1652**
+Distribution: Confirmed 374 / High Confidence 703 / Community Consensus 540 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **438**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,11 +10,11 @@ Distinct evidence records cited: **437**.
 | unscoped | 424 |
 | economy | 115 |
 | facilities | 87 |
-| dll | 61 |
+| dll | 62 |
+| gameplay | 56 |
 | cards | 50 |
 | clans | 50 |
 | career | 48 |
-| gameplay | 46 |
 | transfers | 43 |
 | training | 38 |
 | coaches | 37 |
@@ -1023,6 +1023,7 @@ Distinct evidence records cited: **437**.
 | CLAIM-1641 | THE FANZONE PER-LEVEL COSTS ARE EXHAUSTED ON THE OPEN WEB: three targeted searches returned only the official function copy ('Clan bonuses and Stad... | High Confidence | facilities/fanzone-gap-exhausted | EV-472 |
 | CLAIM-1642 | THE DYNAMIC STARS EVENT PATH: every base card starts at 82 OVR and only one is upgraded to 96 OVR, via +1 OVR per Group Stage win then +2 OVR for e... | High Confidence | events/dynamic-stars-path | EV-472 |
 | CLAIM-1643 | SEASON PASS PLAYERS are a new card type announced alongside Cult Heroes, with special agents and players on BOTH the free and premium tracks, and 6... | High Confidence | cards/season-pass-players | EV-472 |
+| CLAIM-1646 | C-025 SUBSTANTIALLY RESOLVED: the most explicit guide on record states that 'to unlock the Dream League Live tab and Friend Match... you first need... | High Confidence | dll/unlock-six-career-matches | EV-474 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1602,6 +1603,16 @@ Distinct evidence records cited: **437**.
 | CLAIM-1624 | The Fanzone has five levels according to a mod-site feature list ('instantly level up your Commercial, Medical, Training, and the brand-new Fanzone... | Community Consensus | facilities/fanzone-five-levels | EV-468 |
 | CLAIM-1625 | DLL RELEGATION EXISTS: a player reports needing only 2 points to stay in tier 2 or be relegated to tier 3, so tier survival - not just promotion - ... | Community Consensus | dll/relegation-exists | EV-468 |
 | CLAIM-1644 | New stadium designs were added for 950 gems in the December 2025 build, alongside a 'p2w stadium', and DP boosts became a guaranteed gem purchase r... | Community Consensus | stadium/new-designs-and-boost-change | EV-472 |
+| CLAIM-1647 | THE ANTI-C-SPAM ESCALATION LADDER: head the ball diagonally - backwards and slightly in the same direction as the second striker - so you either wi... | Community Consensus | gameplay/anti-c-spam-escalation | EV-474 |
+| CLAIM-1648 | THE DEFENDING MODEL (four independent sources agree): when holding B do NOT use the joystick (your player moves toward the ball automatically); nev... | Community Consensus | gameplay/defending-model | EV-474 |
+| CLAIM-1649 | THE SECONDARY PRESS IS THE CORE DEFENSIVE TOOL: 'use the secondary press to have a teammate apply pressure while you position your player to block ... | Community Consensus | gameplay/secondary-press-core | EV-474 |
+| CLAIM-1650 | TACTIC SWITCHING IS A RHYTHM, NOT A SETTING: switch to defensive whenever the opponent is in possession so you are not caught by a high line, switc... | Community Consensus | gameplay/tactic-switching-rhythm | EV-474 |
+| CLAIM-1651 | FOOTEDNESS PLACEMENT (the strongest evidence in the corpus, and it bears on C-022): 'playing a left footed player at LB/LCB and a right footed play... | Community Consensus | gameplay/footedness-placement | EV-474 |
+| CLAIM-1652 | THE ONE-ON-ONE TECHNIQUE: 'when you're up against the goalie, hold the C button for a few seconds before releasing. This move lowers the chance of ... | Community Consensus | gameplay/one-on-one-technique | EV-474 |
+| CLAIM-1653 | A THROUGH-BALL CONFLICT: a May 2026 DLS26 beginner guide states 'through balls are extremely effective against slow defenders', which conflicts wit... | Community Consensus | gameplay/through-ball-conflict | EV-474 |
+| CLAIM-1654 | STRENGTH MATTERS BEFORE CONTACT: 'the effects of STR start upon applying pressure defense (holding the B button) even if the defender is yet behind... | Community Consensus | gameplay/str-at-distance | EV-474 |
+| CLAIM-1655 | Position-weighted attributes for recruitment: speed and acceleration for attacking runs and closing down, strength for defenders who tackle, and st... | Community Consensus | gameplay/position-weighted-attributes | EV-474 |
+| CLAIM-1656 | Every skill move is practisable in My Club > Training > Free Practice, and the passing drill in the Corner training mode is the recommended way to ... | Community Consensus | gameplay/practice-locations | EV-474 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

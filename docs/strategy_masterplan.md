@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-134 — 1,640 claims / 374 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-136 — 1,652 claims / 376 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -561,6 +561,24 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 - **Scenarios:** you are already **losing** and must beat **Hard AI**. 50 coins daily, resets each day. DLS26 Summer Spotlight officially added *more bonus objectives and rewards*. The community calls scenarios **the hardest content in the game** — "way harder than Live Games", and even "easy" scenarios reportedly play at medium difficulty. Budget time accordingly.
 - **Exhibition:** offline friendlies via a **room code**, no rewards. This is your **free training ground** — the right place to drill corners, free kicks and new formations before taking them into Live.
+
+**The defending model — four independent sources agree** [EV-474, C3]:
+
+| Rule | Detail |
+|---|---|
+| **Do not use the joystick while holding B** | Your player moves toward the ball automatically; steering fights the mechanic |
+| **Never push defenders forward** | Hold the line; a DM does the pressing in midfield |
+| **Zonal out of possession** | Cover lanes, do not chase the ball |
+| **Slide tackles sparingly** | *"A slide tackle can do wonders but don't do it too much especially when an attacker is pushing your defence in a counter"* |
+| **Press C for the keeper** | And block shots rather than diving in |
+| **Switch to defensive tactics the moment they have the ball** | Then attacking the moment you win it, balanced to reset — **a rhythm, not a setting** |
+| **Aerial ball: press B at the nearest midfielder** | Not at the striker |
+
+**The anti-C-spam escalation ladder** [EV-474, C3] — the one situation where a big back line is correct. Two strikers running at you: **head diagonally, backwards and slightly toward the second striker** — you either win it back to a defender or neither of you gets it (switch fast and collect). Still losing? **Escalate the back line: 3 → 4 → 5 defenders.** Against a dedicated C-spammer, five at the back is the answer; as a default it is not.
+
+**Footedness placement** [EV-474, C3]: **left-footed at LB/LCB, right-footed at RB/RCB** to get balls down the wing; **strikers inverted** (left foot on the right, right foot on the left). Place your squad by foot before you spend a single coach.
+
+**The one-on-one** [EV-474, C3]: **hold C for a few seconds before releasing** — it lowers the chance of them scoring and helps prevent chip shots. Always take the half-time boost, and never drag a defender out of position.
 
 **Formation meta is genuinely unsettled — and the best analysis says it cannot be settled** [EV-464, C3]. The strongest piece of formation writing in the corpus argues the game *"doesn't have a strongest shape"* and that what differs is each shape's **failure mode**: 4-2-3-1 **"fails gracefully"** (you get overrun slowly and can see it happening), while 3-4-3 concedes two in ninety seconds and forces a full rebuild.
 
