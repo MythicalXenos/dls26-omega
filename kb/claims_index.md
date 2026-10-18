@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T14:20:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2326**
-Distribution: Confirmed 391 / High Confidence 849 / Community Consensus 989 / Speculative 96 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **494**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T14:22:42Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2329**
+Distribution: Confirmed 391 / High Confidence 850 / Community Consensus 991 / Speculative 96 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **495**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -15,9 +15,9 @@ Distinct evidence records cited: **494**.
 | transfers | 82 |
 | cards | 74 |
 | career | 70 |
-| clans | 67 |
+| clans | 68 |
 | errata | 64 |
-| setpieces | 61 |
+| setpieces | 63 |
 | controls | 60 |
 | coaching | 50 |
 | prizeladder | 48 |
@@ -1218,6 +1218,7 @@ Distinct evidence records cited: **494**.
 | CLAIM-229 | Coach rarity boost magnitudes (DLS26): Common = +1 to 1 random stat; Rare = +2 to 2 random stats; Legendary = +3 to 3 random stats. Breakthrough/bo... | High Confidence | unscoped | EV-285 |
 | CLAIM-231 | Player development cap: strict +10 OVR above base card (via any combination of coaches). DLS26 uses weighted attribute costs: high-impact stats (CO... | High Confidence | unscoped | EV-285,EV-256,EV-262 |
 | CLAIM-2328 | DLS26 TRANSFER MARKET 86 OVR PRICING: Following the DLS25-to-DLS26 transfer price inflation, base 86 OVR legendary players cost up to 2,725 coins (... | High Confidence | transfers/dls26-86-ovr-price-2725 | EV-530 |
+| CLAIM-2333 | CLAN VICE-CAPTAIN APPOINTMENT AND SCOPE: Introduced in Winter Reload (v13.100), the Vice-Captain role is appointed directly by the Clan Leader to a... | High Confidence | clans/vice-captain-administrative-scope | EV-531 |
 | CLAIM-236 | Controller support (added DLS25 Dec 2024, retained DLS26): Bluetooth pairing for PS5/Xbox/generic gamepads (PS5: Share+PS to enter Bluetooth pair, ... | High Confidence | unscoped | EV-287,EV-280 |
 | CLAIM-237 | Form Boost mechanic: temporary stat boost for N matches (minimum 1 match), duration scales with Training Centre facility level (official support). ... | High Confidence | unscoped | EV-285,EV-256 |
 | CLAIM-238 | Official App Store IAP pricing tiers (DLS26 iOS, Jun 2026 snapshot): Season Pass $3.99; Bundle of Coins $1.99; Stack of Coins $3.99; Cup of Coins $... | High Confidence | unscoped | EV-288 |
@@ -2265,6 +2266,8 @@ Distinct evidence records cited: **494**.
 | CLAIM-2327 | ENDGAME PROGRESSION PATHS AFTER TIER 1: Once a player reaches Tier 1 Champion and has a competitive squad, community veterans pursue five distinct ... | Community Consensus | endgame/post-tier-1-progression | EV-530 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
 | CLAIM-2330 | PLAYER RATING RECYLCING CYCLE: Because seasonal winter/summer updates periodically increase base ratings of breakout real-world players, long-term ... | Community Consensus | coaching/player-recycling-cycle | EV-530 |
+| CLAIM-2331 | UNDER-THE-WALL FREE KICK TECHNIQUE: On free kicks right at the edge of the 18-yard box, defending walls frequently jump automatically; striking a l... | Community Consensus | setpieces/under-the-wall-free-kick | EV-531 |
+| CLAIM-2332 | EXPLOITING MANUAL GOAL-LINE DEFENDER PLACEMENT: In Live matches when opponents manually drag an outfield defender onto the goal line to contest the... | Community Consensus | setpieces/unmarked-box-runner-counter | EV-531 |
 | CLAIM-234 | Transfer Market community-reported prices DLS26 (post-DLS25 price hike): 86 OVR (Rodri) ~2,725 coins; 82 OVR forward ~2,555 (pre-discount ~2,355); ... | Community Consensus | unscoped | EV-286 |
 | CLAIM-239 | New player starting balance: ~1,200 coins + 40 gems (community-reported). Limitations acknowledged: one elite player can cost 10x starter coins. | Community Consensus | unscoped | EV-288 |
 | CLAIM-245 | DLS26 gameplay tuning evolution (post-launch, community timeline): Launch Dec 2025 — slower pace, momentum/inertia-based passing (more realistic), ... | Community Consensus | unscoped | EV-290 |

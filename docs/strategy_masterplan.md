@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-193 — 2,326 claims / 432 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-194 — 2,329 claims / 433 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -817,6 +817,8 @@ Power recipes that work (pick one and drill it): A to 60% · A to 80–90% with 
 - **Set the header up BEFORE the ball arrives, not after.** Switch to your tallest defender, drag him outside the box, and hold **B** while he moves — do not wait for the ball to be in the air.
 - **Point the aim marker AWAY from the ball's trajectory** — toward the sideline of the *opposite* corner — then hold B. One source reports it *"works 4/5 especially if you have tall center backs."*
 - **Free kicks:** put a player on the goal line before the kick; he is auto-switched to quickly, and the **double-tap "trick shot"** produces an immediate goal-line header (CLAIM-1295).
+- **Counter to goal-line defender drag [EV-531, C3]:** When an opponent pulls an outfielder onto the goal line, an attacker in the box is left completely unmarked. Instead of forcing the direct shot, play a short B-pass or C-lob to that free runner for an uncontested tap-in.
+- **Under-the-wall free kicks [EV-531, C3]:** Right at the 18-yard edge, walls often jump in unison; a low driven strike aimed between their feet slips cleanly underneath into the bottom corner.
 
 > **⚠️ THE FOOTEDNESS QUESTION IS CONFUSED EVEN INSIDE SINGLE SOURCES** [EV-507, C2]. One commenter writes *"your right footed players should always take right corners... **the mistake yall do with corners is making your left footed players take right corners**"* — and then, a few lines later in the same comment, *"**use a right footed player when taking the left corner and vice-versa.**"* Both arrangements, one source, no acknowledgement. **That is the clearest evidence yet for C-022's resolution: the two camps were never describing two opinions, they were describing two deliveries** — and even individual players hold both without noticing. Do not let a single confident source settle it for you.
 

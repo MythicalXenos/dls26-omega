@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-193 — 2,326 claims / 432 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-194 — 2,329 claims / 433 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -201,6 +201,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Penalties: break the keeper's pattern** | Go middle 4-5 times, then change side once - the keeper's read is pattern-based [EV-508, C3] |
 | **Headers are the reported way through a p2w squad** | Corner at 2/3-3/4 C power with the arrow slightly inside; ~50% conversion [EV-508, C3] |
 | **Set pieces: avoid turnovers by default** | Goal kick - loft to the far defender at near-full power. Free kick - take it only if the keeper is an option, else pass. Corner - do not adjust the arrow, 2/3 power [EV-510, C3] |
+| **Exploit manual goal-line pulls** | Opponent pulling defender to line leaves a box runner unmarked — pass B/C to him for free finish [EV-531, C3] |
+| **Under-the-wall FK at box edge** | Low driven ball under jumping wall defenders [EV-531, C3] |
 | **Their kick-off is the most dangerous moment** | Play defensive on their kick-off; man-mark their target with your forward while a second finger holds the secondary press [EV-510, C3] |
 | **Scenarios: passes under 40% power** | Anything above gets stolen regardless of accuracy; a limited-time scenario replaces the daily one [EV-510, C3] |
 | **Tactic switching is a rhythm** | Defensive the moment they have it, attacking the moment you win it, balanced to reset |
