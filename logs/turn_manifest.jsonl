@@ -89,3 +89,4 @@
 {"turn":35,"wave":49,"claims_added":"CLAIM-1495..CLAIM-1511","ev_added":"EV-455","checkpoint":"ckpt-123"}
 {"turn": 35, "wave": 50, "claims_added": "CLAIM-1512..CLAIM-1546", "ev_added": "EV-456, EV-457, EV-458", "checkpoint": "ckpt-126"}
 {"turn": 35, "wave": 51, "claims_added": "CLAIM-1547..CLAIM-1565", "ev_added": "EV-459, EV-460, EV-461", "checkpoint": "ckpt-127"}
+{"turn": 35, "wave": 52, "claims_added": "CLAIM-1566..CLAIM-1583", "ev_added": "EV-462, EV-463", "checkpoint": "ckpt-128"}

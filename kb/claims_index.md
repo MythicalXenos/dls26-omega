@@ -1,28 +1,28 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:20:55Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1565**
-Distribution: Confirmed 355 / High Confidence 676 / Community Consensus 499 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **425**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:25:15Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1583**
+Distribution: Confirmed 365 / High Confidence 679 / Community Consensus 504 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **427**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 112 |
+| economy | 114 |
 | facilities | 77 |
-| dll | 50 |
+| dll | 51 |
+| cards | 49 |
 | clans | 49 |
 | career | 47 |
-| cards | 44 |
-| transfers | 41 |
+| transfers | 43 |
 | training | 38 |
 | coaches | 37 |
+| cups | 37 |
 | prizeladder | 36 |
 | controls | 35 |
-| cups | 35 |
 | gameplay | 35 |
+| patching | 35 |
 | attributes | 34 |
-| patching | 34 |
 | platform | 30 |
 | customization | 29 |
 | setpieces | 29 |
@@ -49,6 +49,7 @@ Distinct evidence records cited: **425**.
 | monetization | 6 |
 | save | 6 |
 | 12thman | 5 |
+| accounts | 5 |
 | discipline | 5 |
 | endgame | 5 |
 | gacha | 5 |
@@ -423,6 +424,16 @@ Distinct evidence records cited: **425**.
 | CLAIM-1532 | OFFICIAL: releasing a player is done via 'Manage Players' (bottom right of the Transfers screen) and 'you will receive a coach for the release of t... | Confirmed | transfers/release-yields-coach-official | EV-456 |
 | CLAIM-1533 | OFFICIAL: gems are obtained by completing league objectives, completing tournaments, through the Season Pass and Prize Ladder, and by participating... | Confirmed | economy/gem-sources-official | EV-456 |
 | CLAIM-1547 | OFFICIAL STORE COPY: 'New Facility - Upgrade your Fanzone for Clan bonuses and Stadium discounts' (App Store and Google Play version history for 13... | Confirmed | facilities/fanzone-official-effects | EV-458 |
+| CLAIM-1570 | OFFICIAL: ONE DLS ACCOUNT PER PLAYER - 'to provide a fair, secure and more robust playing environment to our players we have limited each player to... | Confirmed | accounts/one-account-rule | EV-462 |
+| CLAIM-1571 | OFFICIAL: cross-platform profile transfer requires a code - click 'Manage Devices' on the old device, press 'Generate Code', then type it into 'Lin... | Confirmed | accounts/cross-platform-transfer | EV-462 |
+| CLAIM-1572 | OFFICIAL WARNING: 'if you sign out of Sign in with Google / Sign in with Apple at any point whilst playing, your account will no longer be linked w... | Confirmed | accounts/signout-unlink-risk | EV-462 |
+| CLAIM-1573 | OFFICIAL: 'Reset Profile' (Settings > Advanced, skull-and-crossbones button) starts a new career but is IRREVERSIBLE - no previous profile can be r... | Confirmed | accounts/reset-profile-cost | EV-462 |
+| CLAIM-1574 | OFFICIAL: PROFILE RESETS ARE LIMITED TO ONE EVERY 30 DAYS - 'once your game profile has been reset, you will need to wait 30 days before you can st... | Confirmed | accounts/reset-30-day-limit | EV-462 |
+| CLAIM-1575 | OFFICIAL COIN SOURCES (11): winning matches, drawing matches, clean sheets, scoring goals, stadium bonuses, season objectives, Season Pass rewards,... | Confirmed | economy/official-coin-sources | EV-462 |
+| CLAIM-1576 | OFFICIAL: free coins are earned by watching short video clips, 'subject to availability'. | Confirmed | economy/free-coins-ads | EV-462 |
+| CLAIM-1577 | OFFICIAL PLAYER-ACQUISITION ROUTES (4): Transfers ('new players appear each in-game week i.e. after playing a single player match'), Scouts ('a sel... | Confirmed | transfers/official-acquisition-routes | EV-462 |
+| CLAIM-1578 | OFFICIAL CONFIRMATION OF THE PER-MATCH MARKET REFRESH: 'New players appear each in-game week i.e. after playing a single player match.' This is an ... | Confirmed | transfers/per-match-refresh-official | EV-462 |
+| CLAIM-1579 | OFFICIAL LEADERBOARDS: leaderboards compare your performance against other players in Dream League Live, 'reset at regular intervals (from 3-30 day... | Confirmed | dll/official-leaderboard-cadence | EV-462 |
 | CLAIM-159 | OFFICIAL per-stat gameplay semantics confirmed by FTG: SPE = top speed (decreases with ENERGY and when dribbling inversely with CON); ACC = acceler... | Confirmed | unscoped | EV-256 |
 | CLAIM-160 | Form Boost provides TEMPORARY attribute boosts to a player, lasting a set number of matches determined by the Training facility level (minimum 1 ma... | Confirmed | unscoped | EV-257 |
 | CLAIM-161 | Coaches (accessed Team Management > Coaches) select a player RANDOMLY to receive a PERMANENT attribute upgrade when applied. Contrary to some commu... | Confirmed | unscoped | EV-257 |
@@ -974,6 +985,9 @@ Distinct evidence records cited: **425**.
 | CLAIM-1569 | The World Cup Heroes collection lists 8 players: Cristiano Ronaldo, Lionel Messi, Kevin De Bruyne, James Rodriguez, Keylor Navas, Ivan Perisic, Kyl... | High Confidence | cards/world-cup-heroes-list | EV-461 |
 | CLAIM-157 | Stat colors on in-game player cards follow thresholds: attribute ≥90 → blue, ≥80 → green, ≥70 → yellow, <70 → red (per applyDlsColor in LeoH321/DLS... | High Confidence | unscoped | EV-255,EV-246 |
 | CLAIM-158 | DLS26China optimal-coach decision rule for CB training: pick Gold (+3) when remaining weighted capacity ≥12 (safe for burst); Blue (+2) around 6–12... | High Confidence | unscoped | EV-255,CLAIM-049 |
+| CLAIM-1580 | THE GLOBAL CHALLENGE CUP FORMAT: 128 teams, four per group played home and away (three opponents twice, six group matches), the top two qualify, th... | High Confidence | cups/gcc-format | EV-463 |
+| CLAIM-1581 | The Global Challenge Cup is available in EVERY division, from the Academy Division up to the Legendary Division, and works 'like the FA Cup and The... | High Confidence | cups/gcc-every-division | EV-463 |
+| CLAIM-1582 | THE 12TH MAN MECHANIC IS CLOSED: the App Store version history for v13.120 (25 Mar 2026) states '12th Man - The DLS community has voted, and we've ... | High Confidence | cards/12th-man-mechanic-closed | EV-463 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1522,6 +1536,11 @@ Distinct evidence records cited: **425**.
 | CLAIM-1562 | STADIUM DOWNGRADING HAS BEEN REMOVED: in DLS16-DLS23 players could drop capacity below a division requirement (one downgraded from 85,000 to 35,000... | Community Consensus | stadium/downgrade-removed | EV-460 |
 | CLAIM-1563 | STADIUM CAPACITY CONFLICT: an older fandom wiki lists Division 3 at 35,000 and Division 2 at 45,000, and a 2021 thread cites 85,000 for the top div... | Community Consensus | stadium/capacity-ladder-conflict | EV-460 |
 | CLAIM-1566 | July 2026 rating changes (Tier 3 source): upgrades for Joao Pedro, Fermin Lopez and Jordan Pickford; downgrades for Marc-Andre ter Stegen, Pedro Go... | Community Consensus | patching/july-2026-rating-changes | EV-461 |
+| CLAIM-1583 | NICO WILLIAMS is the reported WORLD DYNAMIC STAR winner of the summer 2026 Dynamic Stars event (a video dated 21 Jul 2026 titles him the winner; th... | Community Consensus | cards/dynamic-star-winner-nico-williams | EV-463 |
+| CLAIM-1584 | Dream Stars 2026 candidate BASE ratings (community pattern list): Wood 77, Paz 79, Huijsen 79, Stejn 74, Vivian 79 (80 after update), McTominay 80 ... | Community Consensus | cards/dream-stars-2026-candidates | EV-463 |
+| CLAIM-1585 | CARD COLOURS ARE PERMANENT by type: TOTY cards are forever green, Dream Stars forever purple, Champions forever blue. | Community Consensus | cards/colour-permanence | EV-463 |
+| CLAIM-1586 | Mid-season rating changes (26 Feb 2026 megathread): Raya 83 to 84, Gabriel 84 to 85, Merino 79 to 80, Zubimendi 81 to 82, Trossard 79 to 80, Baena ... | Community Consensus | patching/mid-season-feb-2026-changes | EV-463 |
+| CLAIM-1587 | Card-type sample ratings (dreamkitsapp): World Winners Cucurella 85 LB, World Heroes Messi 87 SS, Team of 2025 Donnarumma 86 GK, Champion players M... | Community Consensus | cards/card-type-sample-ratings | EV-463 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

@@ -109,7 +109,14 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Settles it:** an in-game GCC group-table capture.
 - **May say meanwhile:** "the GCC is best documented as groups of four with two qualifiers, then a knockout; it pays 10 gems per round cleared and 25 for winning it."
 
-### C-014 — Is 4-2-3-1 a good formation?
+### C-013: Global Challenge Cup format — **SUBSTANTIALLY RESOLVED ckpt-128, EV-463**
+
+- **Adopted format:** **128 teams**, **four per group** played **home and away** (three opponents twice, six group matches), the **top two qualify**, then a **straight knockout** — round of 32, round of 16, quarter-finals, semi-finals, final — with **extra time**. A loss after qualifying eliminates you.
+- **Availability:** every division, from Academy to Legendary; the cup *"works like the FA Cup and The Carabao cup where its target is to not lose any matches at it or your team gets eliminated."*
+- **Sources:** dls-wiki ("competed with 4 teams in your group, 2 teams with the most points will be qualified"), the dream-league-soccer fandom wiki, r/DLS 1ib3c2g ("the GCC right now is made of 128 teams"; "basically, you play 3 teams twice just as last year ucl format") and n623r2 (a 2021 run surviving the group stage, a 3-goal win in the round of 16 and a one-goal win in extra time in the quarter-final).
+- **Residual:** the reward scale is still contested ("the GCC rewards are pathetic") and no source gives the exact coin/gem payout per round. **Impact on strategy: none of consequence** — the cup is a coin and trophy surface, and the plan already treats cups as secondary to the DLL climb.
+
+## C-014 — Is 4-2-3-1 a good formation?
 - **Side A:** sportsdunia ranks 4-2-3-1 second of its top five DLS26 formations (EV-414).
 - **Side B:** r/DLS advises never using 4-2-3-1 because the lone striker gets no support and the team is punished by long balls (EV-414).
 - **Status:** UNRESOLVED and playstyle-dependent; both recorded.
@@ -179,7 +186,7 @@ So Source A was showing post-boost/in-game OVR, Source B was showing the event-b
 ## C-021: Transfer market refresh cadence (per-match vs every 7 hours)
 - **Source A:** Bluestacks + gamingonphone DLS26 guides — the Live Transfer Market **refreshes after every match you play**.
 - **Source B:** r/DreamLeagueSoccer 18gl9ob (Dec 2023) — a commenter states the market "**refreshes every 7 hours**".
-- **Status:** OPEN, low impact. Most likely Source B refers to a different surface (the shop) or an older build. Operationally, treat per-match refresh as the rule and note that forfeits, scenarios, exhibition matches and ads do NOT trigger it. Recorded in EV-442.
+- **Status:** **ADVANCED at ckpt-128 — the per-match side now has OFFICIAL backing.** FTG's own player-acquisition article (360004066417) states: *"Transfers – purchase your player here. **New players appear each in-game week i.e. after playing a single player match.**"* That is the per-match refresh stated by the developer, which makes Source B's "every 7 hours" a different surface or an older build. **Operational rule: treat per-match refresh as the rule**, and note that forfeits, scenarios, exhibition matches and ads do NOT trigger it. Recorded in EV-442 and EV-462. Remaining work: none of consequence — Source B is discredited for this figure.
 
 ## C-017 UPDATE (2026-10-18, ckpt-098): clan top-contributor gem reward — now leans 100
 - A detailed community calculation post itemises the clan component of a season as **275 gems = 25 + 150 (10M Clan Points ladder) + 100 for being number one in-clan**, which supports the **100-gem** figure from sportsdunia.

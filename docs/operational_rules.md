@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-127 — 1,565 claims / 363 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-128 — 1,583 claims / 365 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,16 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**ACCOUNT GUARDS — the rules that protect the whole mission** [EV-462, **C1 — OFFICIAL**]:
+
+| Rule | Detail |
+|---|---|
+| **One account per player** | *"We have limited each player to one DLS account."* The profile is bound to **Sign in with Google (Android)** or **Sign in with Apple (iOS)** — pick the platform you will keep |
+| **NEVER sign out** | Signing out of Google/Apple *"at any point whilst playing"* unlinks the account from the profile and exposes it to **total loss** on uninstall or device change. A lost profile **cannot be recovered** |
+| **Cross-platform transfer** | Only via a code: **Manage Devices → Generate Code** on the old device, typed into **Link Profile** on the new one (both under Options → gear → **Advanced**). A code cannot be used on the device that generated it |
+| **No cheap re-roll** | **Reset Profile** (Settings → Advanced, skull icon) is irreversible, destroys all coins, gems, consumables **and in-app purchases**, and is limited to **ONE RESET EVERY 30 DAYS** |
+| **The region seed is permanent** | The account decides the matchmaker pool and the leaderboard surface. Set it up deliberately and **play through early mistakes — do not reset** |
 
 **The stadium capacity gate** [EV-460, C2] — the rule that can silently stall a Career season:
 
@@ -382,4 +392,16 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,565 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (363 records) at ckpt-127.*
+---
+
+## Economy and competition reference [EV-462/463]
+
+**THE OFFICIAL COIN LIST** [EV-462, **C1**]: coins come from winning matches, drawing matches, clean sheets, scoring goals, stadium bonuses, season objectives, Season Pass rewards, Prize Ladder rewards, final league positions, cup wins and video clips — **DLL wins are not on the list**. **Coins = Career and cups. Gems = DLL.** Free coins come from watching short video clips, subject to availability.
+
+**OFFICIAL LEADERBOARD CADENCE** [EV-462, **C1**]: leaderboards compare DLL performance, *"reset at regular intervals (from 3-30 days)"* and pay by final position — the 10-day Progression Bank season sits inside that range.
+
+**GLOBAL CHALLENGE CUP** [EV-463, C2]: **128 teams, 4 per group home-and-away, top 2 qualify, then a straight knockout** (R32 → R16 → QF → SF → final) with extra time. Available in every division from Academy up; a loss after qualifying eliminates you. A coin-and-trophy surface only — never let it displace the DLL climb.
+
+**THE 12TH MAN** [EV-463, C2]: the community vote concluded and the extra superstar **was added in v13.120 (25 Mar 2026)**. FTG never names the player, so treat the mechanic as closed and the identity as unknown.
+
+*End of operational rules. Authority: `kb/claims.jsonl` (1,583 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (365 records) at ckpt-128.*

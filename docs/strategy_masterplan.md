@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-127 — 1,565 claims / 363 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-128 — 1,583 claims / 365 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -95,7 +95,12 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 2. **Controls.** Preset **A = Hard Kick/Shoot, B = Low Kick/Pass, C = Lofted/Chip/Curl/Cross** [prior waves, C2]. Set pieces require the joystick; the B auto-press needs stick input [C2].
 3. **Camera:** Tele, H75 / Z35 [C3]. **Graphics:** Medium / 60 FPS / Semi-auto [C3].
 4. **Commentary:** English (Gary Bloom) is the default; DLS26 added Turkish and Arabic [EV-427, C1].
-5. **Create the account on one platform only.** Google/Apple cloud is same-platform; cross-platform transfer uses a code; DLS25 data does **not** carry over; Facebook Login was removed [prior waves, C1].
+5. **Create the account on one platform only — and understand that this is a ONE-WAY DOOR** [EV-462, **C1 — OFFICIAL**]:
+   - **"We have limited each player to one DLS account."** The profile is permanently bound to a **Sign in with Google (Android only)** or **Sign in with Apple (iOS only)** login.
+   - **NEVER sign out** of that login. *"If you sign out … at any point whilst playing, your account will no longer be linked with your game profile and is susceptible to loss if you uninstall or change devices."* A lost profile **cannot be recovered**.
+   - Cross-platform transfer (Android to iOS or back) is possible but needs a **code from Manage Devices → Generate Code** typed into **Link Profile** on the new device — both under Options (gear) → **Advanced** — and a code cannot be used on the device that generated it.
+   - **Reset Profile** (Settings → Advanced, skull icon) is irreversible, **destroys all coins, gems, consumables and in-app purchases**, and is limited to **ONE RESET EVERY 30 DAYS**.
+   - **Consequence for this mission:** the account — and with it the **region seed that decides your matchmaker pool and leaderboard surface** — is permanent. **There is no cheap re-roll.** Set it up deliberately, on the platform you will keep, linked and never signed out, and treat every early mistake as something to play through rather than reset.
 6. **Join a clan immediately** (rank 20 unlocks full clan features; minimum 50 members; 150 gems to create) [EV-429, C2/C3]. Clan points are earned from regular matches, Live events, Dream Draft, real-life scenarios and Season Pass tiers [EV-429, C2].
 
 ### PHASE 1 — First 48 hours (economy bootstrap)
@@ -148,13 +153,15 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 
 **Gem rule (hard):** gems go to **agents and facilities**, never to Form Boosts on low-rated players. The Form Boost baseline is 5g/+1, 8g/+2, 10g/+3 for **one match** [EV-428, C2] — that is a terrible rate at any stage.
 
+**The official coin list** [EV-462, **C1**] — eleven sources, and **DLL wins are not among them**: winning matches, drawing matches, clean sheets, scoring goals, **stadium bonuses**, season objectives, Season Pass rewards, Prize Ladder rewards, final league positions, cup wins, and watching video clips. **Coins are a Career-and-cups economy; gems are the DLL economy.** That is the official mirror of the split the whole plan is built on, and it is why the stadium (a coin sink that pays coins) and the DLL climb (a gem source) are separate loops. Free coins officially come from **watching short video clips, subject to availability**.
+
 **Free-to-play income stack (do all of these daily):**
 - Daily challenges: **5–11 gems/day** [EV-433, C3]
 - Scenarios: **50 coins daily**; 75–100 coins per 8-hour cycle [C2/C3]
 - Ads: 30 coins per ad, up to ~600 coins in 15 minutes [EV-426, C3]
 - Season Pass: **400 SP**, **40 SP/day login**, 10-day season; the **free track alone gives 1,095 coins + an Epic agent** [EV-399, C2]
 - Progression Bank: accumulates coins and gems from DLL XP over a **10-day season**, paid out in full at season end [EV-431, C2]
-- Weekly DLL leaderboard: gems for **placement** *and* gems for playing a set number of DLL matches that week [EV-431, C2]
+- Weekly DLL leaderboard: gems for **placement** *and* gems for playing a set number of DLL matches that week [EV-431, C2]. **Official cadence:** leaderboards *"reset at regular intervals (from 3-30 days)"* and pay by final position [EV-462, **C1**] — the 10-day Progression Bank season sits inside that range
 
 ### PHASE 2 — Weeks 1–3: the ranked climb
 
@@ -577,7 +584,8 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 | **World Tournament** | A brand-new **International Football event type** with high-tier reward tracking | Fresh reward surface; watch for its return |
 | **World Heroes** | Live-service event from 1 Jul 2026; Special Players obtainable via **Legendary Agents** | The **second route to Special Players** outside the Prize Ladder — every Legendary Agent is a free roll |
 | **Cult Heroes** | 12-player collection, live in v13.430 | Marquee targets: de Gea, Aubameyang, Dybala |
-| **Dream Stars / 12th Man** | Dream Stars from real-world season performances; the 12th Man is the **community-voted extra slot** | FTG never names the winner — treat as an event to watch, not a card to plan around |
+| **Dream Stars / 12th Man** | Dream Stars from real-world season performances; the 12th Man is the **community-voted extra slot** | The vote **concluded and the winner shipped in v13.120 (25 Mar 2026)** — *"the DLS community has voted, and we've added this extra superstar to the collection"* — but FTG never names them. **Mechanic closed; identity unknown** [EV-463, C2] |
+| **Global Challenge Cup** | **128 teams, 4 per group home-and-away, top 2 qualify, then a straight knockout** (R32 to R16 to QF to SF to final) with extra time. Available in **every division**, Academy to Legendary; a loss after qualifying eliminates you | A pure coin-and-trophy surface. C-013 substantially resolved [EV-463, C2] |
 
 > **Practical takeaway:** because Legendary Agents can yield World Heroes, and Dynamic Star Agents come from event draws and Season Passes, **agents are a second acquisition lane parallel to the Prize Ladder.** Do not spend gems on agents you don't need, but do not ignore the free ones either.
 
