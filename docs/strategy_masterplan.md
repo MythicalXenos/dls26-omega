@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-172 — 2,125 claims / 411 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-173 — 2,139 claims / 412 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -686,6 +686,7 @@ Every item below is community-consensus [EV-436, C2] and costs nothing to adopt.
 | **Block shots, and press C to bring the keeper out** | When the ball is in the air (lob or C-spam), press B and aim at the nearest midfielder/winger/fullback |
 | **Slide-tackle sparingly** | Yellow-card risk; a ban costs you matches |
 | **Switch tactics constantly** | DEFENSIVE when you cannot reach the ball in your own half (forwards track back, creating 2v1s), then ATTACKING the instant you win it |
+| **⚠️ THEIR KICK-OFF IS THE MOST DANGEROUS MOMENT** | *"play defensive when they have kick-off. Kick-off is the most dangerous time."* The routine: **run at the player they are targeting and man-mark him with your forward**, while a second finger holds the secondary press on the receiver. Two fingers, two jobs, from the first second [EV-510, C3] |
 
 **The C-spam escalation ladder** — the highest-value single finding:
 
@@ -835,6 +836,8 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 ### 3.4 Scenarios and Exhibition [EV-445, C2/C3]
 
 - **Scenarios:** you are already **losing** and must beat **Hard AI**. 50 coins daily, resets each day. DLS26 Summer Spotlight officially added *more bonus objectives and rewards*. The community calls scenarios **the hardest content in the game** — "way harder than Live Games", and even "easy" scenarios reportedly play at medium difficulty. Budget time accordingly. **DLS26 raised the difficulty further** — "have you also noticed how ridiculously hard scenarios has become?" [EV-495, C3] — so price the 50 coins against several attempts, not one.
+- **⚠️ A LIMITED-TIME SCENARIO REPLACES THE DAILY ONE** [EV-510, C3]: *"you don't get normal scenario until limited time scenario is over or you use your all 3 chances."* So the 50-coin routine is **not guaranteed** — an event can take it away, and the event can demand *"4 goals in 45 minutes with half tired team with rare players."* Some scenarios also require **winning by a 3- or 4-goal margin** — one player was asked to turn 2-2 at the 57th minute into a four-goal win.
+- **The scenario levers** [EV-510, C3]: **keep passes under 40% power** (*"any pass above 40% power no matter how accurate, will get stolen"*), expect the AI to collect loose balls from metres away, and use the shape that works — *"pass around the halfway line to your wingers, it opens up so much space."*
 
 > **⚠️ DLS DOES NOT DOCUMENT ITS REFEREE MODEL** [EV-495, C2 — a methodology finding]. A search for DLS referee, card and penalty rules returns **only** real-world football law — IFAB Laws 5 and 12, the 2026/27 VAR protocol, Premier League VAR guidance, MLS and ASL disciplinary codes. Not one DLS-specific source. So the corpus's two referee rules (**five reds ends the match · five accumulated yellows = a one-match ban**) are the best available, and **any DLS "rule" that reads like the Laws of the Game has been imported from real football and is not evidence.** Recorded so no future research wave repeats the search and mistakes football law for game documentation.
 

@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:14:33Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2125**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 833 / Speculative 53 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **473**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:18:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2139**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 846 / Speculative 54 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **474**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,15 +10,15 @@ Distinct evidence records cited: **473**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 113 |
-| dll | 78 |
+| dll | 79 |
 | transfers | 78 |
 | gameplay | 76 |
+| clans | 65 |
 | cards | 64 |
-| clans | 62 |
-| setpieces | 59 |
-| career | 58 |
+| setpieces | 60 |
+| career | 59 |
 | controls | 51 |
-| errata | 50 |
+| errata | 51 |
 | patching | 42 |
 | training | 40 |
 | coaching | 39 |
@@ -40,10 +40,10 @@ Distinct evidence records cited: **473**.
 | account | 17 |
 | meta | 16 |
 | onboarding | 15 |
+| matchcraft | 14 |
 | negatives | 13 |
 | formboost | 12 |
 | ui | 12 |
-| matchcraft | 11 |
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
@@ -53,6 +53,7 @@ Distinct evidence records cited: **473**.
 | squad | 10 |
 | positions | 9 |
 | 12thman | 8 |
+| scenarios | 8 |
 | multiplayer | 7 |
 | physio | 7 |
 | seasonpass | 7 |
@@ -69,7 +70,6 @@ Distinct evidence records cited: **473**.
 | ratings | 5 |
 | settings | 5 |
 | ai | 4 |
-| scenarios | 4 |
 | shooting | 4 |
 | sources | 4 |
 | acquisition | 3 |
@@ -2096,6 +2096,19 @@ Distinct evidence records cited: **473**.
 | CLAIM-2128 | THE 4-1-2-3 CASE, from a player who tried most formations: 'it reinforced my defence with the addition of a DM. The 2 CMs in the front can act both... | Community Consensus | tactics/4-1-2-3-case | EV-509 |
 | CLAIM-2129 | A SEVENTH CONTAMINATION: both searches returned EA FC trading methods (sniping filters, SBC demand cycles, the 5% EA tax, FUTBIN, FUT Chief) and ge... | Community Consensus | errata/seventh-contamination | EV-509 |
 | CLAIM-213 | Daily login = 40 Season Points/day (per BlueStacks); baseline match rewards provide Season Points. DLS26 also has a Daily Bonus (added Summer Spotl... | Community Consensus | unscoped | EV-270,EV-276 |
+| CLAIM-2130 | THE LIMITED-TIME SCENARIO BLOCKS THE DAILY ONE, and there are only three attempts: 'they think we can score 4 goals in 45 minutes with half tired t... | Community Consensus | scenarios/limited-time-blocks-the-daily | EV-510 |
+| CLAIM-2131 | THE WIN-BY-N SCENARIO VARIANT: 'Recently, **they added an option to some scenarios where you would have to win with a 3 or 4 goals difference**, wh... | Community Consensus | scenarios/win-by-n-goals-variant | EV-510 |
+| CLAIM-2132 | THE SCENARIO AI OBSERVATIONS, with two practical rules: 'Capable to do 3 sliding tackles in less than 1.5 second, the 3rd player will come pickup t... | Community Consensus | scenarios/ai-loose-ball-and-pass-theft | EV-510 |
+| CLAIM-2133 | THE SCENARIO EXPLOIT, from the other direction: 'i noticed scenarios are also way too easy in dls23 i literally never won a scenario now i easily w... | Community Consensus | scenarios/halfway-line-to-wingers-exploit | EV-510 |
+| CLAIM-2134 | KICK-OFF IS THE MOST DANGEROUS MOMENT IN A MATCH: 'If they are C spammers, **hold possession most of the game, and play defensive as soon as they g... | Community Consensus | matchcraft/kickoff-is-the-most-dangerous-moment | EV-510 |
+| CLAIM-2135 | THE KICK-OFF MAN-MARK: '**during the kickoff immediately run towards the player they want to target and man mark him with your forward while you ho... | Community Consensus | matchcraft/kickoff-man-mark | EV-510 |
+| CLAIM-2136 | THE SET-PIECE ANTI-TURNOVER RULES: 'For set pieces, **always avoid turnovers. On goal kicks, loft pass to the defender on the opposite side of the ... | Community Consensus | setpieces/anti-turnover-defaults | EV-510 |
+| CLAIM-2137 | THE CROSS-FIELD LOFTED BALL CONFUSES THE AI: '**Cross field lofted balls also confuse the defensive ai**' - and 'most skill moves like a rainbow ar... | Community Consensus | matchcraft/cross-field-lofted-ball-confuses-ai | EV-510 |
+| CLAIM-2138 | A SUB-TIMING CONFLICT, OPENED AS C-031: the corpus's CLAIM-378 and CLAIM-1807 (both C2) say throw-ins and corners ALLOW substitutions. Two independ... | Community Consensus | errata/c-031-sub-timing-conflict | EV-510 |
+| CLAIM-2139 | THE CLAN RELEGATION ZONE: 'Only need 10 People I got 3 regulations... **The bottom 10 is the relegation zone. I always remove the bottom 10 but if ... | Community Consensus | clans/relegation-zone-management | EV-510 |
+| CLAIM-2140 | THE SCREENSHOT-VERIFIED RECRUITMENT: 'Looking for **One more person willing to get a minimum of 50 wins** within the remaining time limit (5 days).... | Community Consensus | clans/screenshot-verified-recruitment | EV-510 |
+| CLAIM-2141 | THE CLAN-TAG REQUIREMENT AND DISCORD INTEGRATION: 'the first 5 players to join will get an **OG title role on the Discord server** and a direct say... | Community Consensus | clans/clan-tag-and-discord-requirements | EV-510 |
+| CLAIM-2142 | THE RECORD RUN'S SELF-IMPOSED RULES, and the cleanest evidence that DLL alone is sufficient: '**No career mode matches, scenarios, dream draft, or ... | Community Consensus | dll/record-run-dll-only-rules | EV-510 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
 | CLAIM-218 | Removed legacy modes (NOT in DLS26): Ultimate Challenge (mirror match vs your own team) and FTG Challenge (vs FTG developer team ~89-90 OVR), both ... | Community Consensus | unscoped | EV-284 |
@@ -2219,6 +2232,7 @@ Distinct evidence records cited: **473**.
 | CLAIM-2085 | THE SECONDARY PRESS WAS REMOVED AND RE-IMPLEMENTED BADLY, per one account: 'People complain about the new DLS 26 style of play so they brought back... | Speculative | controls/secondary-press-rollback | EV-506 |
 | CLAIM-2115 | A FLAGGED SOURCE CONTRADICTING DOCUMENTED NEGATIVES - a sixth concrete reason for the existing flag: eslamgaming's 'honest review' claims '**player... | Speculative | errata/eslamgaming-contradicts-documented-negatives | EV-508 |
 | CLAIM-2119 | THE DON'T-BUY-SCOUTS RULE: '**Don't. buy. scouts.** I know how tempting it may seem to buy a scout for that small chance that maybe you may just ge... | Speculative | transfers/dont-buy-scouts-dissent | EV-509 |
+| CLAIM-2143 | THE CAREER DIFFICULTY PATCH: 'The previous patch made Career mode harder by **absolutely disabling your players and turning 70 rated AI players int... | Speculative | career/difficulty-patch-disables-your-players | EV-510 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
