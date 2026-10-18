@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-162 — 1,981 claims / 401 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-163 — 2,001 claims / 402 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -630,6 +630,11 @@ These are the cheap, permanent wins that separate tier 2 from tier 1.
 
 Every item below is community-consensus [EV-436, C2] and costs nothing to adopt.
 
+**Attack — the two reading tricks a Tier 1 player actually uses** [EV-500, C3]:
+- **Pass into the GAP, not to the man.** *"I visualize the defenders as moving cones, and see the correct passing lane, as the gap present between two defenders. Passes of this manner are difficult for my opponents to intercept, **because they don't know which of the two defenders to switch to.**"* So the pass is placed to defeat the switch — the attacking twin of the corpus's switching-delay findings.
+- **Dribble at the PLANTED FOOT.** *"If a player has planted his right foot, his left foot is rendered near-useless, making his left side the weak side. So, if a defender is running towards me, I pass or dribble to the opposite side of his planted foot. He now has to turn around first... **As a result, I have gained maybe 0.5 to 1 seconds of extra time, and a yard of space.**"*
+- **Build composure deliberately.** *"Actively seek guys who react faster than you, and play them"* — it forces care with every touch. The self-test: in the seconds before a free kick in the opponent's half, can you plan dead ball to a good shot in under five passes?
+
 **Defence — the non-negotiable rules**
 
 | Rule | Why |
@@ -637,6 +642,10 @@ Every item below is community-consensus [EV-436, C2] and costs nothing to adopt.
 | **Hold B and do NOT touch the joystick** | While holding B the player auto-moves to the ball; joystick input fights it |
 | **Run players BACKWARDS** | The core fix for both wing-spam and C-spam. Do **not** tackle the outermost player as the ball is switched — that strands your players upfield. Switch to defensive mode and run backwards at every opportunity to concentrate the team in your own third |
 | **Anti-C-spam: backwards-running central midfielders** | You will intercept the lofted passes; on intercept switch to attacking mode and counter |
+| **Anti-C-spam, the LINE count as well as the defender count** [EV-500, C3] | After escalating 3 → 4 → 5 defenders, *"if your 4- or 5-defender formation had three vertical lines (e.g. 4-4-2 or 5-3-2), switch to one with four or five vertical lines, such as 4-1-2-1-2 or 5-2-1-2. This will utterly negate 95% of C spamming."* So the escalation is not only a number of defenders but a number of LINES |
+| **Anti-cross-spam** [EV-500, C3] | *"Switch to 4-1-2-1-2 defensive. Once they get to the crossing stage, the only thing stopping them from scoring is poor composure or finishing - so cut them off before they get there."* |
+| **Anti-central-play** [EV-500, C3] | *"Avoid vertically shallow formations like 3-5-2 or 4-4-2, as they will utterly slice up your midfield."* Central players *"excel at through balls"* — use 4-1-2-1-2, 3-4-1-2 or 3-2-3-2, which cover the middle vertically |
+| **AUTO-SWITCH OFF is a top-of-the-ladder setting** [EV-500, C3] | *"You're gonna lose a little bit if you go straight away to Live Mode, especially Tiers <14."* So manual switching is right at Tier 1 and costly below it |
 | **Secondary press > main press** | Use the secondary press so a *teammate* applies pressure while you position your player to block the pass or shot. The same applies in aerial duels — against C-spammers never hold the main press |
 | **Turn AUTO-SWITCH OFF** | The standard anti-C-spam setting. Practise in Career Mode first; it feels wrong for a while. **Official location:** Settings (gear icon, top-left) > Controls > *Auto Switch* — with default settings the game auto-switches control when defending to bring your closest player to the ball [EV-456, C1]. Given the DLS26 switching nerf, setting this deliberately is now a first-order decision, not a preference |
 | **Never push defenders forward** | Use a DM to press in midfield; play zonal defending out of possession |
@@ -736,6 +745,12 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 Power recipes that work (pick one and drill it): A to 60% · A to 80–90% with in-then-out curve · C at 2/3–3/4 · C at 80% on a 50–60° angle · or leave the arrow alone and play a strong lob to a defender, then a short header to the nearest open man.
 
 **Two caveats:** DLS25 **nerfed corner headers**, so the fallback is to aim middle and press **B to pass** to someone better placed rather than heading immediately. And the **short corner** is a real option when crossing into the crowd fails — hold **B** to the nearest player outside the box and set up a long shot.
+
+**Free kicks — the three mechanics the corpus was missing** [EV-500, C3]:
+- **THE AIM-OFFSET PRINCIPLE, which explains every other instruction:** *"The effects will start after you don't aim on the line from your player to the center of the goal. Whatever direction."* **A straight-on free kick is a straight shot; all curl comes from aiming off that line.** A right-footer aiming right gets an out-swinger, a left-footer gets a transverse — and the mapping flips when the angle changes.
+- **THE 70% POWER FLOOR:** *"Use at least 70% of power... now anything below 70% isn't guaranteed to go over the wall."* (One dissenting voice prefers 50–60% and calls them luck-based; the 70% figure is the more recent and specific.)
+- **POWER BY DISTANCE:** *"3/4s at 30 yards or 2/3s at 20, 25 yards."*
+- **TWO DEDICATED TAKERS**, one left-foot and one right-foot, kept permanently — and **learn each one's curl**, because it is a per-player property: Ødegaard and Trent Alexander-Arnold curve heavily, Vinícius and Modric shoot straighter. **A left-footer is worth a slot on his own** because he can take from both sides without trouble.
 
 **✅ C-022 RESOLVED (ckpt-137, EV-475) — the footedness conflict was two camps describing two different deliveries:**
 

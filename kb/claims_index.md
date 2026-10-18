@@ -1,31 +1,31 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:35:57Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1981**
-Distribution: Confirmed 391 / High Confidence 838 / Community Consensus 703 / Speculative 48 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **463**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:39:23Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2001**
+Distribution: Confirmed 391 / High Confidence 838 / Community Consensus 723 / Speculative 48 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **464**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 135 |
+| economy | 136 |
 | facilities | 112 |
+| dll | 72 |
 | gameplay | 72 |
-| dll | 69 |
 | transfers | 68 |
 | cards | 64 |
 | clans | 57 |
-| career | 48 |
-| controls | 43 |
+| career | 49 |
+| setpieces | 46 |
+| controls | 44 |
 | patching | 40 |
 | training | 40 |
-| setpieces | 39 |
 | cups | 38 |
 | coaches | 37 |
 | errata | 37 |
 | prizeladder | 37 |
 | attributes | 34 |
-| coaching | 33 |
+| coaching | 34 |
 | platform | 31 |
 | tactics | 30 |
 | customization | 29 |
@@ -49,6 +49,7 @@ Distinct evidence records cited: **463**.
 | medical | 10 |
 | social | 10 |
 | 12thman | 8 |
+| matchcraft | 8 |
 | skillmoves | 8 |
 | squad | 8 |
 | multiplayer | 7 |
@@ -77,7 +78,6 @@ Distinct evidence records cited: **463**.
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
-| matchcraft | 2 |
 | anticheat | 1 |
 | benchmark | 1 |
 | bugs | 1 |
@@ -1951,6 +1951,26 @@ Distinct evidence records cited: **463**.
 | CLAIM-1981 | THE RANK-NAMES RETRY: the search for LIVE rank names above Veteran was re-run with 'soccer' in the query, per the wave-85 contamination rule. **It ... | Community Consensus | dll/rank-names-retry-negative | EV-499 |
 | CLAIM-1983 | A NEW PLAYER-RATING INDEX: dlsgame.net publishes a full DLS26 player index with ratings and positions - Kvaratskhelia 84 LW, Saliba 84 CB, Bruno Fe... | Community Consensus | transfers/dlsgame-player-index | EV-499 |
 | CLAIM-1985 | Marcel Desailly is confirmed as a **Classic at 85 CB**, consistent with the Italian League Classics on the current Prize Ladder - and Desailly was ... | Community Consensus | cards/desailly-classic-85 | EV-499 |
+| CLAIM-1986 | THE GAP-PASSING PRINCIPLE, from a Tier 1 player: 'I visualize the defenders as moving cones, and see the correct passing lane, as **the gap present... | Community Consensus | matchcraft/gap-passing-principle | EV-500 |
+| CLAIM-1987 | THE PLANTED-FOOT READ: 'to attack with, or strike the ball towards, the **weak side**. If a player has planted his right foot, his left foot is ren... | Community Consensus | matchcraft/planted-foot-read | EV-500 |
+| CLAIM-1988 | THE C-SPAM ESCALATION REFINED - the piece the corpus's number ladder was missing: after escalating 3 -> 4 -> 5 defenders, '**If your 4- or 5-defend... | Community Consensus | matchcraft/anti-cspam-vertical-lines | EV-500 |
+| CLAIM-1989 | THE ANTI-CROSS-SPAM COUNTER: 'Do they A spam (crossing from side to side, then finally cutting it back to a striker in the box to shoot)? **Switch ... | Community Consensus | matchcraft/anti-cross-spam-counter | EV-500 |
+| CLAIM-1990 | THE ANTI-CENTRAL-PLAY COUNTER: 'Do they play through the middle? **Avoid vertically shallow formations like 3-5-2 or 4-4-2, as they will utterly sl... | Community Consensus | matchcraft/anti-central-play-counter | EV-500 |
+| CLAIM-1991 | THE COMPOSURE TRAINING METHOD: '**Actively seek guys who react faster than you, and play them.** You build up composure by playing people who react... | Community Consensus | matchcraft/composure-training-method | EV-500 |
+| CLAIM-1992 | THE TIER 1 WIN CADENCE, from a DLS26-dated source (Feb 2026): 'you will easily maintain tier 1, and probably **win tier 1 every 3-4 seasons**. Just... | Community Consensus | dll/tier-1-win-cadence-and-stop-coaching | EV-500 |
+| CLAIM-1993 | THE DP TABLE, RESOLVED TO PER-RESULT FIGURES: **115 DP per DLL win · 65 per Career win · 45 per DLL draw · 15 per DLL loss · 10 DP per goal capped ... | Community Consensus | economy/dp-per-result-table | EV-500 |
+| CLAIM-1994 | THE CHAMPION AND PROMOTION THRESHOLDS: 'You can reach Champion status by scoring at least **12 points** before the end of the season, and scoring *... | Community Consensus | dll/champion-12-points-promotion-7 | EV-500 |
+| CLAIM-1995 | TIER 1 COSTS 8 WINS: 'Division 1 needed **8 wins** to become champion and the others required gradually less.' So winning the top tier is roughly d... | Community Consensus | dll/tier-1-costs-8-wins | EV-500 |
+| CLAIM-1996 | AUTO-SWITCH OFF CARRIES A TIER CAVEAT: 'turn off auto-switch. It's gonna feel really weird at first but please please please practice in career mod... | Community Consensus | controls/auto-switch-off-tier-caveat | EV-500 |
+| CLAIM-1997 | THE HOME-ONLY FARMING RULE: 'if you don't care about losses in career mode, **skip away games and only play home matches** for maximum amount of co... | Community Consensus | career/home-only-farming-rule | EV-500 |
+| CLAIM-1998 | THE FREE-KICK AIM-OFFSET PRINCIPLE, the wave's most useful mechanic: 'you have to carefully watch your moving button. If your player is right in fr... | Community Consensus | setpieces/aim-offset-principle | EV-500 |
+| CLAIM-1999 | THE 70% POWER FLOOR: 'Use at least 70% of power. I'm pretty sure in previous DLS u could use a lot less power and it would still go over the wall b... | Community Consensus | setpieces/70-percent-power-floor | EV-500 |
+| CLAIM-2000 | THE POWER-BY-DISTANCE RULE: 'shoot at 2/3s or 3/4s power. **3/4s at 30 yards or 2/3s at 20, 25 yards.**' So the power scales with distance in third... | Community Consensus | setpieces/power-by-distance-rule | EV-500 |
+| CLAIM-2001 | THE LEFT-FOOTED TAKER ADVANTAGE: 'left footed players are just the best to score free kicks, because its the angle of the free kick that matters. W... | Community Consensus | setpieces/left-footed-taker-both-sides | EV-500 |
+| CLAIM-2002 | TWO DEDICATED TAKERS: '**Pick 2 takers one left foot one right foot and stick to them.** Makes technique a lot more consistent' and 'Learn how much... | Community Consensus | setpieces/two-dedicated-takers | EV-500 |
+| CLAIM-2003 | PER-PLAYER CURL ARCHETYPES: 'my Odegaard shoots with more curl and Vini shoots more straight' and 'Alexander-Arnold curves A LOT. Modric way less' ... | Community Consensus | setpieces/per-player-curl-archetypes | EV-500 |
+| CLAIM-2004 | THE SWIPE SHAPES AND AIMING RULES: 'Swipe with a curve - like you're drawing a banana shape... **If you're aiming for the right corner, swipe in a ... | Community Consensus | setpieces/swipe-shapes-and-aiming | EV-500 |
+| CLAIM-2005 | NEVER REDO A PLAYER WHILE MAXING THE TEAM: 'never redo anyone while maxing your team. Some redo's are unavoidable but **don't redo players until af... | Community Consensus | coaching/never-redo-while-maxing | EV-500 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |

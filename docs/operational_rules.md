@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-162 — 1,981 claims / 401 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-163 — 2,001 claims / 402 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -168,6 +168,12 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Defending: no joystick while holding B** | Your player moves toward the ball automatically; steering fights it |
 | **Tackle from in front, never from behind at an angle** | In front or just off at an angle wins the ball clean; behind at an angle fouls [EV-493, C3] |
 | **Shepherd outwards, do not engage frontally** | Push the opponent wide rather than pressing permanently; patience concedes fewer goals [EV-493, C3] |
+| **Anti-C-spam: escalate the LINE count too** | After 3 → 4 → 5 defenders, move from three vertical lines to four or five (4-4-2 or 5-3-2 → 4-1-2-1-2 or 5-2-1-2) — "utterly negates 95% of C spamming" [EV-500, C3] |
+| **Anti-cross-spam** | 4-1-2-1-2 defensive; cut the cross off before it is delivered [EV-500, C3] |
+| **Anti-central-play** | Avoid shallow shapes (3-5-2, 4-4-2); use 4-1-2-1-2, 3-4-1-2 or 3-2-3-2 [EV-500, C3] |
+| **Pass into the gap between two defenders** | The opponent does not know whom to switch to, so the pass is harder to intercept [EV-500, C3] |
+| **Dribble at the defender's planted foot** | The far side is his weak side; worth ~0.5–1s and a yard of space [EV-500, C3] |
+| **Auto-switch off is a top-of-the-ladder setting** | Manual switching is right at Tier 1 and costly below Tier 14 — practise in Career first [EV-500, C3] |
 | **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
 | **Referee rules are undocumented** | Only two exist on the open web: five reds ends the match, five accumulated yellows = a one-match ban. Do not import real-football law [EV-495, C2] |
 | **Slide tackles sparingly, never on the counter** | Block shots; press C for the keeper; aerial ball = press B at the nearest midfielder |
