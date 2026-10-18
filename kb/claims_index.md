@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:18:30Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1802**
-Distribution: Confirmed 383 / High Confidence 787 / Community Consensus 595 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **450**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:20:39Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1810**
+Distribution: Confirmed 385 / High Confidence 791 / Community Consensus 597 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **451**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -29,14 +29,15 @@ Distinct evidence records cited: **450**.
 | events | 27 |
 | errata | 24 |
 | presentation | 23 |
+| tactics | 20 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
-| tactics | 16 |
 | achievements | 15 |
 | stadium | 15 |
 | customisation | 13 |
 | formboost | 12 |
+| negatives | 12 |
 | coaching | 11 |
 | goalkeeping | 11 |
 | onboarding | 11 |
@@ -46,7 +47,6 @@ Distinct evidence records cited: **450**.
 | match | 10 |
 | social | 10 |
 | medical | 9 |
-| negatives | 9 |
 | skillmoves | 8 |
 | squad | 8 |
 | physio | 7 |
@@ -66,11 +66,11 @@ Distinct evidence records cited: **450**.
 | ai | 4 |
 | ratings | 4 |
 | settings | 4 |
+| sources | 4 |
 | features | 3 |
 | injuries | 3 |
 | multiplayer | 3 |
 | scenarios | 3 |
-| sources | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
@@ -475,6 +475,8 @@ Distinct evidence records cited: **450**.
 | CLAIM-1733 | THE OFFICIAL 11-LAYER KIT TEMPLATE MAP: 1 = shirt body, 2 = shirt sleeves short, 3 = shirt sleeves long, 4 = socks, 5 = shorts, 6 = club badge, 7 =... | Confirmed | customisation/official-11-layer-template-map | EV-482 |
 | CLAIM-1734 | CRITICAL KIT RULE: 'The logos are added to the shirt from the .png, and if none are specified then none will display' - a kit whose badge region is... | Confirmed | customisation/empty-badge-region-shows-nothing | EV-482 |
 | CLAIM-1806 | playdreamleaguesoccer.com is REJECTED FOR THE FIFTH TIME: it publishes fabricated statistics - '12.5% average pull rate for a Special Player from a... | Confirmed | sources/playdreamleaguesoccer-rejected-fifth-time | EV-486 |
+| CLAIM-1813 | The claim that 'The A.I. in DLS 2026 learns from your playstyle... expect the opposing manager to switch to a compact 4-4-2 mid-game' is CONTRADICT... | Confirmed | negatives/adaptive-ai-claim-contradicted | EV-487 |
+| CLAIM-1814 | playdreamleaguesoccer.com is REJECTED FOR THE SIXTH TIME - it invents a Tactical Presets system, shareable custom tactics, a '3-5-2 Fluid' formatio... | Confirmed | sources/playdreamleagesoccer-rejected-sixth-time | EV-487 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
 | CLAIM-202 | Squad size evolution: DLS25 increased squad from 40→64 players (Dec 2024 press release). DLS26 launches with 64-player base; Summer Spotlight remov... | Confirmed | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-204 | DLS25 major features (5 Dec 2024 launch): Classic Players returning (opening set World Cup 1998 Classics); Portuguese commentary (third language; S... | Confirmed | unscoped | EV-280 |
@@ -1125,6 +1127,10 @@ Distinct evidence records cited: **450**.
 | CLAIM-1800 | THE DREAM POINTS ECONOMY: 75 to 250 DP per match depending on performance, with boost items at +50%, +70% and +150% and post-match ads for more. Th... | High Confidence | economy/dream-points-per-match | EV-486 |
 | CLAIM-1802 | DOCUMENTED NEGATIVE - **THERE ARE NO DERBIES.** No source describes a rivalry, derby or local-opponent system; fixtures are generated without rival... | High Confidence | negatives/no-derbies | EV-486 |
 | CLAIM-1803 | DOCUMENTED NEGATIVE - **THERE ARE NO FREE AGENTS.** 'Free transfers' are only your own released players reappearing in the release area; there is n... | High Confidence | negatives/no-free-agents | EV-486 |
+| CLAIM-1807 | FORMATION CHANGES TAKE EFFECT ONLY AT KICK-OFF: 'each change will only take effect on resets during kickoffs. Goal kicks, free kick pauses, or send... | High Confidence | tactics/formation-change-timing | EV-487 |
+| CLAIM-1808 | The starting formation unlocks are 4-4-2 by default, with 4-1-2-1-2 the only other formation available from the start; every other shape is gated b... | High Confidence | tactics/starting-formation-unlocks | EV-487 |
+| CLAIM-1811 | DOCUMENTED NEGATIVE - **DLS HAS NO TEAM-INSTRUCTION SYSTEM.** No source documents team instructions, a mentality slider, width or depth controls, t... | High Confidence | negatives/no-team-instructions | EV-487 |
+| CLAIM-1812 | DOCUMENTED NEGATIVE - **THERE IS NO IN-MATCH FORMATION FLUIDITY.** The claims of 'Tactical Presets' switching between 4-3-3 Tiki-Taka, 4-4-2 Counte... | High Confidence | negatives/no-formation-fluidty | EV-487 |
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
@@ -1770,7 +1776,9 @@ Distinct evidence records cited: **450**.
 | CLAIM-1801 | OWN GOALS EXIST IN DLS26 - a player made a video specifically about scoring as many as possible and asks 'is there a limit?', confirming the mechan... | Community Consensus | gameplay/own-goals-exist | EV-486 |
 | CLAIM-1804 | A POSSIBLE SIXTH FACILITY: bluestacks lists a 'Recruitment Centre' that 'provides discounts when you hire scouts and agents', alongside Stadium, Me... | Community Consensus | facilities/possible-recruitment-centre | EV-486 |
 | CLAIM-1805 | THE F2P SPECIAL-PLAYER PATH: 'they always give you a free one then the next one, they charge us, so our best hope as PLAY to WIN players is the sea... | Community Consensus | economy/f2p-special-player-path | EV-486 |
+| CLAIM-1809 | SIX LIVE STRATEGIES from a DLS22-26 player: no blind C passes · dribbling while stopped · long B passes (the meta) · backwards running for defensiv... | Community Consensus | tactics/six-live-strategies | EV-487 |
 | CLAIM-181 | Global Challenge Cup (online round-robin under Career section) awards 10 Gems per round cleared; resets on a regular schedule. | Community Consensus | unscoped | EV-270 |
+| CLAIM-1810 | THE ANTI-WING TACTIC, REFINED: 'the trick is to NOT try and tackle their outermost players as they switch the ball. This will leave your players st... | Community Consensus | tactics/anti-wing-run-backwards | EV-487 |
 | CLAIM-183 | Dream Points per match are capped at a 5-0 win margin; goals beyond the 5th do not increase DP awarded. | Community Consensus | unscoped | EV-275 |
 | CLAIM-184 | DP Boost gem costs and durations (community reports): Common +50% = 25 gems / 3 matches; Rare +75% = 35 gems / 5 matches; Legendary +150% = 125 gem... | Community Consensus | unscoped | EV-275,EV-274 |
 | CLAIM-185 | Premium Season Pass grants DOUBLE Season Points AND double Live XP (faster tier progression + faster Progression Bank fill). | Community Consensus | unscoped | EV-275 |

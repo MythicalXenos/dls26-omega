@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-148 — 1,802 claims / 388 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-149 — 1,810 claims / 389 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -683,6 +683,20 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 | **Five at the back** | — | *"Usually not a good idea"* online |
 
 **THE VARIABLE THAT OUTRANKS THE SHAPE** [EV-464, C3 — and it is the official STA model from §4.2 arriving here]: *"Stamina depth beats formation, every time — a 4-3-3 with fresh legs at minute 70 beats a 'perfect' 4-2-3-1 with three players at low stamina."* **Rotation and fitness are tactical decisions, not chores.**
+
+### 3.5 The in-match tactics surface [EV-487, C2/C3]
+
+**⚠️ A FORMATION CHANGE TAKES EFFECT ONLY AT KICK-OFF.** *"Each change will only take effect on resets during kickoffs. Goal kicks, free kick pauses, or sending the ball out of bounds will welcome substitutions but not formation changes."* So you can sub at any stoppage but you **cannot** change shape mid-flow — set it, then wait for the restart. Confusing the two wastes the change.
+
+**You start with two shapes:** **4-4-2** by default and **4-1-2-1-2**; everything else is gated behind progression (the Training Centre's formation unlocks). So the "4-4-2 for twenty matches" advice is also the only thing available to you early.
+
+**Six Live strategies** [C3], from a player who climbed DLS22–26: **no blind C passes · dribble while stopped · long B passes (the meta) · backwards running for defensive play · call out the GK when necessary · no blind shots.**
+
+**The anti-wing tactic, refined** [C3]: *"the trick is to NOT try and tackle their outermost players as they switch the ball. This will leave your players stuck up the field. Instead, switch to defensive mode, and run your players backwards at every opportunity."* **Retreat; do not chase** — which is the same conclusion the escalation ladder reaches from the other direction.
+
+> **⚠️ THERE IS NO TEAM-INSTRUCTION SYSTEM IN DLS** [EV-487, C2 — documented negative]. No source documents team instructions, a mentality slider, width or depth controls, tempo, pressing intensity or marking styles. Every guide describing them is Football Manager or EA FC. **DLS gives you a formation and an attacking/balanced/defensive switch, and that is the entire tactical surface.** A player arriving from FIFA or FM will look for sliders that do not exist.
+
+> **⚠️ NO IN-MATCH FORMATION FLUIDITY** [EV-487, C2]. The claims of "Tactical Presets" switching between shapes *"on the fly"*, custom tactics you can save and share, and a "3-5-2 Fluid" formation are uncorroborated — and *"on the fly"* switching directly contradicts the kick-off rule above. The related claim that *"the A.I. learns from your playstyle"* and *"the opposing manager switches to a compact 4-4-2 mid-game"* is **refuted by FTG's own article**: *"there are no additional overlaid controls to manage the difficulty experience."*
 
 **Pick one and learn it deeply rather than chasing the meta** — the record run to Tier 1 used a mostly common/rare squad. The conflict in miniature: two YouTube videos in the same spring assert opposite conclusions (4-3-3 in March, 4-4-2 in May).
 

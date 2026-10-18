@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-148 — 1,802 claims / 388 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-149 — 1,810 claims / 389 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -506,6 +506,15 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Coach farming:** buy under **180–210 coins**, release for Common coaches, **7:3 fitness-to-technical** for unmazed squads. Release an 80+ player for a Rare coach.
 - **Gems:** facilities and special-player training only. **Do not buy Legendary Agents.**
 - **⚠️ No derbies, no free agents.** A possible sixth facility (Recruitment Centre) is unverified.
+
+### 3.16 The in-match tactics surface [EV-487, C2/C3]
+
+- **⚠️ A formation change takes effect ONLY AT KICK-OFF.** Substitutions work at any stoppage; formation changes do not. Set the shape, then wait for the restart.
+- **Starting unlocks:** 4-4-2 by default, 4-1-2-1-2 as the only other starting shape.
+- **Six Live strategies:** no blind C passes · dribble while stopped · long B passes (meta) · backwards running for defence · call out the GK when necessary · no blind shots.
+- **Anti-wing:** do **not** tackle the outermost players as they switch — switch to defensive mode and **run backwards** at every opportunity.
+- **⚠️ NO TEAM-INSTRUCTION SYSTEM:** no mentality slider, no width/depth/tempo, no pressing intensity, no marking styles. A formation plus an attacking/balanced/defensive switch is the whole surface.
+- **⚠️ NO FORMATION FLUIDITY:** "Tactical Presets", shareable custom tactics and a "3-5-2 Fluid" are fabricated, and the adaptive-AI claim is refuted by FTG's own *"no additional overlaid controls"* line.
 
 ---
 
