@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:56:45Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1204**
-Distribution: Confirmed 297 / High Confidence 568 / Community Consensus 308 / Speculative 30 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **389**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:58:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1221**
+Distribution: Confirmed 300 / High Confidence 573 / Community Consensus 317 / Speculative 30 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **391**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,33 +10,33 @@ Distinct evidence records cited: **389**.
 | unscoped | 424 |
 | facilities | 72 |
 | economy | 65 |
-| career | 39 |
+| career | 40 |
 | coaches | 36 |
 | controls | 34 |
-| patching | 32 |
+| patching | 33 |
 | platform | 30 |
+| prizeladder | 29 |
 | clans | 28 |
 | customization | 27 |
-| prizeladder | 26 |
 | cups | 25 |
-| transfers | 23 |
-| attributes | 22 |
+| transfers | 24 |
+| attributes | 23 |
+| cards | 22 |
 | modes | 19 |
-| cards | 17 |
-| events | 17 |
+| events | 18 |
+| dll | 17 |
 | stamina | 17 |
-| dll | 16 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
-| errata | 14 |
+| errata | 15 |
 | training | 13 |
 | goalkeeping | 11 |
 | ui | 11 |
 | account | 10 |
 | match | 10 |
+| onboarding | 10 |
 | setpieces | 10 |
-| onboarding | 9 |
 | squad | 8 |
 | physio | 7 |
 | difficulty | 6 |
@@ -49,9 +49,9 @@ Distinct evidence records cited: **389**.
 | weather | 5 |
 | ai | 4 |
 | chemistry | 4 |
+| ratings | 4 |
 | injuries | 3 |
 | multiplayer | 3 |
-| ratings | 3 |
 | settings | 3 |
 | challenges | 2 |
 | licensing | 2 |
@@ -336,7 +336,10 @@ Distinct evidence records cited: **389**.
 | CLAIM-119 | OFFICIAL update-troubleshooting ladder (article 360000220945): iOS — close DLS, open App Store > Updates, pull to refresh, locate DLS and Update (o... | Confirmed | unscoped | EV-225 (capture record, summary-only provenance),CLAIM-02... |
 | CLAIM-120 | Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') can be removed: Game Settings > Display > Descriptive Button Text OFF, from in-gam... | Confirmed | unscoped | EV-226 (cross-branch capture record, summary-only provena... |
 | CLAIM-121 | Dream League Live emoji system (official 360020938198): six emojis available by default; further emojis are earned or purchased and chosen in Emoji... | Confirmed | unscoped | EV-227 (cross-branch capture record, summary-only provena... |
+| CLAIM-1213 | DLS26 World Heroes are obtainable through LEGENDARY AGENTS - official FTG states every Legendary Agent use gives a chance of a World Hero Special P... | Confirmed | cards/special-via-legendary-agent | EV-426 |
 | CLAIM-122 | Custom imported kits and logos are NOT visible to opponents in Dream League Live (official 360021064298): the opponent does not see yours and you d... | Confirmed | unscoped | EV-228 (cross-branch capture record, summary-only provena... |
+| CLAIM-1220 | DLS26 official launch features (App Store version history): Dynamic Stars, the Fanzone facility, Turkish and Arabic commentary, updated 2025/26 pla... | Confirmed | patching/dls26-launch-features-official | EV-427 |
+| CLAIM-1221 | Kick-Off Stars are special-edition Raphinha and Julian Alvarez cards available at DLS26 launch. | Confirmed | cards/kick-off-stars | EV-427 |
 | CLAIM-123 | OFFICIAL FAIRNESS STANCE (article 360000842697): DLS is a game, not an accurate simulation of football or physics; FTG balances fun against realism... | Confirmed | unscoped | EV-229 (cross-branch capture record, summary-only provena... |
 | CLAIM-124 | Offline modes (official 360003945557): most game modes require an internet connection, mobile or Wi-Fi both work, but Dream League Live (multiplaye... | Confirmed | unscoped | EV-230 (summary-only),CLAIM-019,CLAIM-023,CLAIM-072 |
 | CLAIM-125 | User ID retrieval path (official 37082887837202): open DLS → Options (gear, top left) → Advanced → System Info (the "i" button) → Copy Info, then p... | Confirmed | unscoped | EV-231 (summary-only),CLAIM-023,CLAIM-035 |
@@ -780,6 +783,11 @@ Distinct evidence records cited: **389**.
 | CLAIM-1203 | Manual keeper control: holding the C button while out of possession makes the goalkeeper run toward the ball - the only direct keeper control in th... | High Confidence | goalkeeping/manual-control | EV-425 |
 | CLAIM-1205 | Defensive card discipline: the B button is the reliable way to dispossess opponents and avoid conceding penalties and free kicks, whereas frequent ... | High Confidence | goalkeeping/b-vs-a-cards | EV-425 |
 | CLAIM-1206 | There is NO positional penalty: assigning a natural defender as an attacker causes no form or performance penalty, unlike management-heavy football... | High Confidence | attributes/no-positional-penalty | EV-425 |
+| CLAIM-1209 | Special Players cannot be purchased with coins - they are earned exclusively through in-game events, challenges and the Prize Ladder. | High Confidence | cards/special-players-not-purchasable | EV-426 |
+| CLAIM-1212 | The four World Cup '98 Special Players are Emmanuel Petit, Davor Suker, Dennis Bergkamp and Gabriel Batistuta. | High Confidence | cards/wc98-special-players | EV-426 |
+| CLAIM-1216 | Card colour follows BASE rarity: players rated 70-79 finish blue when maxed and 80+ finish black, only legendary players change colour (turning bla... | High Confidence | cards/colour-rules | EV-426 |
+| CLAIM-1222 | The Dream League Live leaderboard is BY REGION and is based on performances rather than team rating - worldwide ranking was only directly visible t... | High Confidence | dll/leaderboard-regional | EV-427 |
+| CLAIM-1224 | VERSION DRIFT on captain selection: the DLS21-era build showed 9 random Legendary Cards to choose from, whereas the current build offers roughly 80... | High Confidence | onboarding/captain-selection-version-drift | EV-427 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1144,6 +1152,15 @@ Distinct evidence records cited: **389**.
 | CLAIM-1204 | Penalty shootout tactic: a full-powered B-kick aimed dead-centre while appearing to take time aiming sideways makes the AI keeper dive sideways, le... | Community Consensus | goalkeeping/shootout-tactic | EV-425 |
 | CLAIM-1207 | Community keeper complaints: keepers concede identical goal types from outside the box while saving point-blank headers, positioning sometimes leav... | Community Consensus | goalkeeping/community-complaints | EV-425 |
 | CLAIM-1208 | VERSION DRIFT: the legacy player-development model listed a THIRD goalkeeper attribute, GK Positioning, alongside Handling and Reflexes; the curren... | Community Consensus | goalkeeping/legacy-third-attribute | EV-425 |
+| CLAIM-1210 | The first Prize Ladder Special Player unlocks at roughly 50,000 Dream Points and WHICH one you receive is random, behaving like a Legendary Agent d... | Community Consensus | prizeladder/first-special-50k | EV-426 |
+| CLAIM-1211 | Grind to the first Special Player takes about 300-305 games with free boosters (one calculation says exactly 324 matches), and unlocking all four W... | Community Consensus | prizeladder/special-grind-games | EV-426 |
+| CLAIM-1214 | Dynamic Stars require Dynamic Star Agents, earned from event draws and Season Passes; the World 26 Season 1 pass offered 3 Dynamic Agents on the pr... | Community Consensus | events/dynamic-star-agents | EV-426 |
+| CLAIM-1215 | Dream Point boost items increase DP by 50%, 70% or 150%, and watching ads after each match adds further points; one guide describes total per-match... | Community Consensus | prizeladder/dp-boost-values | EV-426 |
+| CLAIM-1217 | Secret players appear in the shop at a 200-300 coin discount, so any secret player costing 2,000+ coins is usually 83+ rated; scenarios pay 75-100 ... | Community Consensus | transfers/secret-players | EV-426 |
+| CLAIM-1218 | Best players per position (r/DLS Jun 2024): GK Alisson/Courtois; LB Robertson/Theo Hernandez (Grimaldo is marked LWB); CB Rudiger/Saliba (83) and V... | Community Consensus | attributes/best-per-position | EV-426 |
+| CLAIM-1219 | CONFLICT on the DLS26 top base rating: thesoccerera/z2u/sportsdunia put Dembele, Mbappe, Kane and Haaland at 86, while some databases list Yamal at... | Community Consensus | ratings/top-base-conflict | EV-426 |
+| CLAIM-1223 | Serious-player benchmarks from a 3-month review: 13 times Tier 1 Champion, 1,472,836 online XP, a 57% online win rate, 987 career and 1,086 live ga... | Community Consensus | career/player-benchmarks | EV-427 |
+| CLAIM-1225 | G2G marketplace listings advertise account tiers named 'GRAND LEGENDARY X' and 'GRAND LEGENDARY VII' - these are seller/marketplace labels and are ... | Community Consensus | errata/g2g-grand-legendary-marketplace | EV-427 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
