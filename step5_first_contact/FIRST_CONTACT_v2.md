@@ -2,9 +2,10 @@
 
 > **Status: READY TO SEND.** Supersedes `FIRST_CONTACT_SCRIPT_draft.md` (turn 21).
 > **Why superseded:** the turn-21 draft was built around one blocking unknown — C-009, whether the Season Leaderboard is a public ranking at all, which decided whether "#1" was measurable. **That question is now closed.** The masterplan fixes the target as **Tier 1 Champion in the player's own region**, sustained across seasons, because DLS26 exposes no global #1 surface. The draft's Priority-0 intake question is therefore obsolete and has been replaced by the settled definition below.
-> **Grounded in:** `docs/strategy_masterplan.md` (8,143 words) + `docs/operational_rules.md` (3,505 words) + `docs/dll_tier_playbook.md` (2,421 words) at ckpt-116. Every instruction below traces to a claim or evidence record; nothing here is invented.
+> **Grounded in:** `docs/strategy_masterplan.md` (12,630 words) + `docs/operational_rules.md` (5,642 words) + `docs/dll_tier_playbook.md` (2,421 words) at ckpt-135. Every instruction below traces to a claim or evidence record; nothing here is invented.
 >
 > **v3 changes (ckpt-116):** folded in the nine checkpoints of sweep findings that postdate v2 — the seed matchmaking system, the DLL unlock threshold, the tier-camping gem engine, the maxed-squad handicap, the gacha probability lever, the card taxonomy, and the never-release-Classics rule.
+> **v4 changes (ckpt-135):** folded in the nineteen checkpoints since, and three of them change what you should *do* rather than just what you know. **The account is a one-way door** — FTG limits every player to one account, and a profile reset wipes everything including purchases and is allowed only once every 30 days, so there is no cheap re-roll and the region seed that decides your matchmaking pool is permanent. **The official stat model is now known** — speed is conditional, control/passing/tackling each govern a possession action, and strength decides collisions, which is why the build is a fast spine with a technical core rather than "buy the fastest players". **The facility costs follow a 75 × level pattern** — five levels cost 1,125 gems and a fully maxed facility costs 4,125, so the first five levels are the cheap half and the community's "Training and Accommodation only" advice now has a price attached. Also folded in: the stadium capacity gates that block promotion, the coaching method that avoids wasting breakthroughs, the formation guidance, and the Season Pass purchase decision.
 > **Design rules carried forward from v1:** safety first, no jargon, no premature optimisation, screenshots over transcription, and no request to spend, install, or mod anything.
 
 ---
@@ -18,6 +19,8 @@ Two checks. They come first because the consequences of getting them wrong are i
 > **A2.** Still in Options → **Advanced** → **System Info** (the "i" button) → tap **Copy Info**, and paste it here. That gives me your exact build number and a User ID recovery handle. You do not need to share anything else from that screen.
 
 **If A1 fails:** do not play, trade, or spend until the profile is linked. Send me a screenshot of the account screen and I will walk you through it.
+
+> **A3 — the one-way door, so you know it before you start.** First Touch limits every player to **one DLS account**, and your profile is permanently bound to that Google or Apple login. **Never sign out of it** — signing out unlinks the profile and exposes it to total loss if you reinstall or change device, and a lost profile cannot be recovered. And **there is no cheap restart**: the Reset Profile button (Settings → Advanced, the skull icon) destroys every coin, gem and purchase you have ever made, and FTG allows it only **once every 30 days**. Your account also fixes your **region**, which decides who you are matched against and which leaderboard you appear on. So set this up deliberately, on the device and platform you will keep, and plan to play through your early mistakes rather than reset them. [EV-462, **official**]
 
 ---
 
@@ -73,6 +76,8 @@ This is the part most players skip, and it is worth more than any match you will
 > Buying a legendary raises your team rating. A higher rating makes the **cheap players disappear from the transfer market**. Those cheap players are the raw material for the coach-farming loop that actually builds your squad. Buy legendaries too early and you break your own engine. [EV-441, C2]
 
 16. **Spend nothing else.** Keep the coins.
+17. **Gems go to facilities, and the pattern is simple: level N costs 75 × N gems.** The first five levels of any facility cost **1,125 gems**; a fully maxed facility costs **4,125**. So **spend the first five levels widely and be deliberate about the second five** — Training to Level 5 and Accommodation to Level 5 are the two the community rates, and both are affordable early. **Training Level 4 is the single best gem you will ever spend**: it drops legendary coaches below 200 coins each and turns the whole coach economy cheap. [EV-468, C2]
+18. **The Season Pass: buy it LATE in the season, or not at all.** There is a basic pass at about **$4** and a premium one at about **$13–15**. Unplayed levels are **stored, not lost**, and buying late **backfills every premium tier you already unlocked for free** — so waiting costs nothing and buying early gains nothing. The free track alone is worth claiming regardless: **1,095 coins and an epic agent**. If you do buy, the premium tier's real value is double Season Points and double Live XP, which speeds the Progress Bank and the leaderboard. [EV-472, C2]
 
 ### C5 — Before you close the app (10 min)
 
@@ -110,6 +115,8 @@ The economics: about **48 matches over 4 to 4.8 hours yields 150–208 gems** �
 ---
 
 ## PART E — The gem decision you will face soon
+
+> **v4 addition (ckpt-135) — the coaching method, because it saves more gems than any purchase decision.** Two rules that most players get wrong. **First: a "breakthrough" is a risk, not only a bonus** — you cannot control where it lands, and *"if you get it to tackling when you're maxing a striker it can reduce total points available to the good stats."* A breakthrough on a stat you did not want **eats development capacity**. **Second: train one player at a time**, chaining Common coaches by category — all Technical until the technical stats max, then all Fitness — and save the single Rare for the stat that stalls. With Rare or Legendary coaches you have no control over which stats are picked, and a disappointing result costs thousands of gems to redo. Budget by **weight**, not by points: Control and Speed consume more development capacity than Stamina, and the +10 overall cap is a 100% cumulative weight. [EV-467, C3]
 
 You will reach a point with a few hundred gems and a long list of things to buy. Here is the order.
 

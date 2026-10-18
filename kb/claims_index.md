@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:42:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1640**
-Distribution: Confirmed 373 / High Confidence 702 / Community Consensus 530 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **436**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:44:33Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1641**
+Distribution: Confirmed 374 / High Confidence 702 / Community Consensus 530 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **437**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -58,9 +58,9 @@ Distinct evidence records cited: **436**.
 | referee | 5 |
 | weather | 5 |
 | ai | 4 |
+| audit | 4 |
 | chemistry | 4 |
 | ratings | 4 |
-| audit | 3 |
 | features | 3 |
 | injuries | 3 |
 | medical | 3 |
@@ -451,6 +451,7 @@ Distinct evidence records cited: **436**.
 | CLAIM-1632 | The masterplan's separate '5,625 gems and 10,000 coins' stadium figure is a single player's completed-stadium report and is NOT the facility budget... | Confirmed | audit/stadium-vs-facility-figure-disambiguation | EV-470 |
 | CLAIM-1633 | The DLL tier playbook was refreshed from a ckpt-109 basis to ckpt-133 - it had carried the withdrawn C-024 claim and was missing the official stat ... | Confirmed | audit/tier-playbook-refreshed | EV-471 |
 | CLAIM-164 | Dream Point Boosts apply ONLY to career, dream draft, scenario, and DLL (multiplayer) matches; they do NOT apply to exhibition or friend matches. U... | Confirmed | unscoped | EV-259 |
+| CLAIM-1645 | The First Contact script was refreshed from a ckpt-116 basis to ckpt-135, adding the one-way-door account check, the facility cost rule, the Season... | Confirmed | audit/first-contact-refreshed | EV-473 |
 | CLAIM-165 | Season Pass mechanics (v12200+): FREE + SEASON PASS (paid) tiers; buying paid Pass unlocks Progress Bank (DLL XP → coins+gems paid at season end) a... | Confirmed | unscoped | EV-260,EV-270 |
 | CLAIM-166 | Season Pass activation threshold: 400 Season Points; daily login provides 40 Season Points/day for free (10-day season = 400 SP from logins alone).... | Confirmed | unscoped | EV-270 |
 | CLAIM-167 | Formation unlock is a two-step process: (1) collect enough of the same formation cards; (2) pay Bux (gems) to unlock at squad > formation screen. D... | Confirmed | unscoped | EV-262 |
