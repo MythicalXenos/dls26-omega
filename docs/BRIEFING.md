@@ -1,7 +1,7 @@
 # DLS26 OMEGA — STATE OF THE PLAN
 
 > **Read this first.** It is the one-page version of everything the sweep has established. The detail lives in `docs/strategy_masterplan.md` (the plan), `docs/operational_rules.md` (the rules), `docs/dll_tier_playbook.md` (the tier tactics) and `step5_first_contact/FIRST_CONTACT_v2.md` (the coaching script). This file says what matters, in order, and what is still unknown.
-> **Basis:** ckpt-139 — **1,672 claims / 379 evidence records**, all five build steps complete, every claim traceable to an evidence record. Confidence ladder: **374 Confirmed · 711 High · 551 Community · 34 Speculative · 1 Disputed**.
+> **Basis:** ckpt-139 — **1,673 claims / 379 evidence records**, all five build steps complete, every claim traceable to an evidence record. Confidence ladder: **374 Confirmed · 711 High · 551 Community · 34 Speculative · 1 Disputed**.
 
 ---
 
