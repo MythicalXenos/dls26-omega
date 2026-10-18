@@ -1,14 +1,14 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:18:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1379**
-Distribution: Confirmed 309 / High Confidence 634 / Community Consensus 401 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **407**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:22:39Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1405**
+Distribution: Confirmed 310 / High Confidence 640 / Community Consensus 420 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **409**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 82 |
+| economy | 85 |
 | facilities | 72 |
 | career | 43 |
 | clans | 40 |
@@ -22,6 +22,7 @@ Distinct evidence records cited: **407**.
 | dll | 31 |
 | platform | 30 |
 | cards | 29 |
+| setpieces | 29 |
 | customization | 28 |
 | attributes | 23 |
 | errata | 20 |
@@ -38,7 +39,6 @@ Distinct evidence records cited: **407**.
 | ui | 11 |
 | account | 10 |
 | match | 10 |
-| setpieces | 10 |
 | draft | 9 |
 | squad | 8 |
 | physio | 7 |
@@ -56,6 +56,7 @@ Distinct evidence records cited: **407**.
 | injuries | 3 |
 | medical | 3 |
 | multiplayer | 3 |
+| scenarios | 3 |
 | settings | 3 |
 | challenges | 2 |
 | formations | 2 |
@@ -69,6 +70,7 @@ Distinct evidence records cited: **407**.
 | complaints | 1 |
 | defending | 1 |
 | design | 1 |
+| exhibition | 1 |
 | features | 1 |
 | recruitment | 1 |
 | roster | 1 |
@@ -366,6 +368,7 @@ Distinct evidence records cited: **407**.
 | CLAIM-1357 | OFFICIAL FTG POSITION: infinite coins or gems do not exist, modified versions of the game end in account blocking, and coin/gem generators are a scam. | Confirmed | errata/no-infinite-currency-official | EV-441 |
 | CLAIM-136 | Build stack confirmed via static analysis of an APK in academic corpora: DLS26 is a UNITY ENGINE build (Unity Ads activities present, namespace `co... | Confirmed | unscoped | EV-249,CLAIM-115,CLAIM-072,CLAIM-094 |
 | CLAIM-140 | Default (starting) formations are set per team: 149 clubs + 79 nations are catalogued in formations.json. Examples: Man City 4-1-4-1; Man Utd/Liver... | Confirmed | unscoped | EV-251,CLAIM-077 |
+| CLAIM-1404 | DLS26 Summer Spotlight officially added a Scenario update with more bonus objectives and rewards in the mode, beyond the base 50 coins. | Confirmed | scenarios/summer-spotlight-update | EV-445 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
@@ -870,6 +873,12 @@ Distinct evidence records cited: **407**.
 | CLAIM-1373 | RELEASE yields no coins - it yields coaches - which is the foundation of the coach-farming loop; one player needed about 300 matches after maxing t... | High Confidence | economy/release-yields-coaches-not-coins | EV-442 |
 | CLAIM-1374 | LEGACY: free transfers existed only up to DLS2016h, after which players are sold for half their purchase value; in DLS Classic a red-card suspended... | High Confidence | errata/free-transfers-legacy | EV-442 |
 | CLAIM-138 | Goalkeepers use the same 8-column stat grid but two columns are semantically re-mapped: GK Reflexes (GKR) and GK Handling (GKH) replace STA and SHO... | High Confidence | unscoped | EV-251,EV-252 |
+| CLAIM-1398 | LIVE-MODE FREE-KICK TIMING TRICK: an opponent can manually move a player onto the goal line and head your free kick away, so wait for them to step ... | High Confidence | setpieces/free-kick-switch-taker-trick | EV-444 |
+| CLAIM-1402 | Penalty execution rule: make the button taps as GENTLE AND QUICK AS POSSIBLE, because holding a split-second too long produces a wild, overpowered ... | High Confidence | setpieces/penalty-tap-gentle | EV-444 |
+| CLAIM-1403 | Scenarios drop you into a match where your team is already LOSING and you must beat the Hard AI to win; completing the Daily Scenario rewards 50 co... | High Confidence | scenarios/losing-position-hard-ai | EV-445 |
+| CLAIM-1406 | Exhibition Mode is the offline friendly space: you generate a ROOM CODE to invite friends and family, it is the best place to test formations and t... | High Confidence | exhibition/room-code-no-rewards | EV-445 |
+| CLAIM-1407 | Daily challenges can be rerolled twice per day and weekly objectives twice per week, by watching an ad or paying. | High Confidence | economy/challenge-rerolling | EV-445 |
+| CLAIM-1409 | Daily login rewards run on a 20-day cycle that restarts from Day 1 if you miss a day, so unbroken daily logins are essential to reach the later rew... | High Confidence | economy/login-20-day-cycle | EV-445 |
 | CLAIM-142 | Vintage/historical "special" cards (special.json) cover Champion (12, vintage years 2004–2018), Classic (24, 1984–2018), Star (23, 2025/2026 rising... | High Confidence | unscoped | EV-251,EV-248,CLAIM-132 |
 | CLAIM-144 | DLS26 OVR ceiling hierarchy, corrected: base golds cap 86 (EV-251); vintage Champion/Star/Team-of-Year special cards cap 88 (EV-251); current-event... | High Confidence | unscoped | EV-252,EV-251,EV-248 |
 | CLAIM-145 | DLS26 OVR is computed as a weighted linear sum of the 8 attributes plus a constant, STABLE across all updates 20231→20263. Best-fit across 23,327 n... | High Confidence | unscoped | EV-251,EV-252,CLAIM-137,CLAIM-138,EV-253 |
@@ -1323,7 +1332,26 @@ Distinct evidence records cited: **407**.
 | CLAIM-1381 | Dream League Live pays gems for finishing a season with a minimum of 14 points, and the DLL season runs about a week. | Community Consensus | dll/minimum-14-points-for-gems | EV-443 |
 | CLAIM-1382 | Elite clan recruitment norms: the [AAA] clan at 11.7 million points requires members to guarantee 350K+ every season or be removed, and leaders rep... | Community Consensus | clans/elite-recruitment-norms | EV-443 |
 | CLAIM-1383 | Clan season targets of 7.5 million, 8 million and 10 million Clan Points are the common benchmarks players recruit against. | Community Consensus | clans/target-benchmarks | EV-443 |
+| CLAIM-1384 | Corners are the most reliable goal source in DLS26 - a December 2025 post states that if an opponent in Dream League Live gets a corner it is almos... | Community Consensus | setpieces/corners-most-reliable | EV-444 |
+| CLAIM-1385 | CONFLICT on corner footedness: the majority view is that a right-footed player takes the right corner and a left-footed player the left corner for ... | Community Consensus | setpieces/corner-footedness-conflict | EV-444 |
+| CLAIM-1386 | Use A to cross from corners because A passes are fast, produce faster headers and make it easy to pinpoint players. | Community Consensus | setpieces/corner-use-a-cross | EV-444 |
+| CLAIM-1387 | Corner headers require TALL players in the box - Konate, Haaland and Van Dijk are named, and one source states you need 190+ players for the header... | Community Consensus | setpieces/corner-tall-targets | EV-444 |
+| CLAIM-1388 | Take corners from BEHIND the goal line rather than next to the sideline, and use the SHORTEST players on corner duty so the players in the box are ... | Community Consensus | setpieces/corner-position-and-height | EV-444 |
+| CLAIM-1389 | Corner aim technique: adjust the arrow so roughly 90% sits inside the pitch and 10% outside, or set the aim line at about 30 degrees to the goal li... | Community Consensus | setpieces/corner-aim-and-timing | EV-444 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
+| CLAIM-1390 | Reported corner power recipes: A to 60%, A to 80-90% with inwards-then-outwards curve, C at 2/3-3/4, C at 80% on a 50-60 degree angle, or leaving t... | Community Consensus | setpieces/corner-power-recipes | EV-444 |
+| CLAIM-1391 | DLS25 nerfed corner headers, so the fallback is to aim for the middle and press B to pass to a better-positioned team-mate rather than heading imme... | Community Consensus | setpieces/corner-header-nerf | EV-444 |
+| CLAIM-1392 | Defending corners: switch to a tall player and B-pass the ball 90 degrees away from the direction the opponent wants to head it, or charge the A bu... | Community Consensus | setpieces/corner-defence | EV-444 |
+| CLAIM-1393 | Free-kick rule: pick TWO dedicated takers, one left-footed and one right-footed, and stick to them because technique becomes consistent. | Community Consensus | setpieces/free-kick-two-takers | EV-444 |
+| CLAIM-1394 | Every player has DIFFERENT free-kick settings - Ronaldo and Messi take them differently and the same technique will not work for both, with curl va... | Community Consensus | setpieces/free-kick-per-player | EV-444 |
+| CLAIM-1395 | Use AT LEAST 70% power on free kicks, because anything below that is not guaranteed to clear the wall; THE WALL is the reference for learning how m... | Community Consensus | setpieces/free-kick-power-floor | EV-444 |
+| CLAIM-1396 | Free-kick aiming: go over the SHORTEST player in the wall and target the TOP corners rather than the centre, using a diagonal swipe rather than a s... | Community Consensus | setpieces/free-kick-aiming | EV-444 |
+| CLAIM-1397 | Free-kick distance bands: 18-22 yards = curl shot with the inside foot; 23-28 yards = power shot or curled top-corner; 30+ yards = long-shot techni... | Community Consensus | setpieces/free-kick-distance-bands | EV-444 |
+| CLAIM-1399 | If direct free kicks are unreliable, do not take them: pass to a player near the wall with C and shoot the resulting long shot, or cross into the box. | Community Consensus | setpieces/free-kick-short-pass-alternative | EV-444 |
+| CLAIM-1400 | Penalty conversion is reported at 85-90% in Dream League Live and 70-80% in shootouts, and multiple players describe shootout penalties as rigged w... | Community Consensus | setpieces/penalty-conversion | EV-444 |
+| CLAIM-1401 | Penalty techniques: slightly left or right of the middle with moderate power; low C press on either side with a medium A; a light A tap or full-pow... | Community Consensus | setpieces/penalty-techniques | EV-444 |
+| CLAIM-1405 | Scenarios are widely considered the hardest content in the game - 'way harder than Live Games' - with some players finding them nearly impossible e... | Community Consensus | scenarios/difficulty-complaint | EV-445 |
+| CLAIM-1408 | Daily challenge rewards run from 5 to 11 gems per day and 70-100 coins, which one guide equates to winning a Division 1 match; career objectives pa... | Community Consensus | economy/daily-challenge-values | EV-445 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
 | CLAIM-143 | Unlicensed teams/players are present in DLS26 (e.g. Kane listed under "Unlicensed" team at Bayern due to missing Bundesliga license; 367 players in... | Community Consensus | unscoped | EV-251 |
 | CLAIM-148 | Base roster size has grown ~4.5× across updates: 20231=1,224, 20241=1,681, 20242=4,126, 20251=3,828, 20252=3,602, 20253=3,798, 20261=2,518, 20262=5... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-143 |

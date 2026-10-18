@@ -170,3 +170,8 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - The **50-gem** figure comes from a single Spanish-language clan-leader thread (r/DLS 1pk9dae).
 - **Status:** still formally OPEN, but the weight of evidence now favours **100 gems**. No official FTG figure has been found.
 
+## C-022: Corner footedness (same-foot vs opposite-foot corner)
+- **Source A (majority):** r/DreamLeagueSoccer 1lyxfag (Jul 2025), 1pp7fzd (Dec 2025) — a RIGHT-footed player takes the RIGHT corner and a LEFT-footed player the LEFT corner, which makes corners "more accurate" and is described as the mistake most players make in reverse.
+- **Source B (minority):** r/DreamLeagueSoccer 1lyxfag (same thread, different commenter) — "Use a right footed player when taking the left corner and vice-versa."
+- **Status:** OPEN, low impact. Both are community reports with no official basis. The outswinger routine in CLAIM (EV-444) uses the SAME-foot pairing. Recorded in EV-444. **Resolution path: test both in the free training ground before committing.**
+
