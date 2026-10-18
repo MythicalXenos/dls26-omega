@@ -1,30 +1,30 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:43:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2013**
-Distribution: Confirmed 391 / High Confidence 840 / Community Consensus 733 / Speculative 48 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **465**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:46:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2034**
+Distribution: Confirmed 391 / High Confidence 842 / Community Consensus 751 / Speculative 49 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **466**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 136 |
-| facilities | 112 |
-| dll | 72 |
+| economy | 138 |
+| facilities | 113 |
+| dll | 73 |
 | gameplay | 72 |
-| transfers | 70 |
+| transfers | 71 |
 | cards | 64 |
-| clans | 57 |
-| career | 49 |
+| clans | 62 |
+| career | 58 |
 | setpieces | 46 |
 | controls | 44 |
 | patching | 40 |
 | training | 40 |
 | errata | 39 |
 | cups | 38 |
+| prizeladder | 38 |
 | coaches | 37 |
-| prizeladder | 37 |
-| coaching | 36 |
+| coaching | 37 |
 | attributes | 34 |
 | platform | 31 |
 | tactics | 30 |
@@ -1196,6 +1196,8 @@ Distinct evidence records cited: **465**.
 | CLAIM-2006 | THE 50% RESALE RULE, which the corpus did not carry and which prices every transfer decision: 'Since Dream League Soccer 2016h, **free transfers do... | High Confidence | transfers/50-percent-resale-rule | EV-501 |
 | CLAIM-201 | Facilities (six types, corrected from prior 5): Stadium (match coin bonus ∝ capacity, home-match income), Medical Centre (reduces injury chance, lo... | High Confidence | unscoped | EV-278,EV-256,EV-270,EV-272 |
 | CLAIM-2017 | A FOURTH CONTAMINATION, and the general rule that falls out of it: searches on the transfer market and on Dream Draft returned **FIFA Ultimate Team... | High Confidence | errata/fourth-contamination-general-rule | EV-501 |
+| CLAIM-2018 | THE CAREER GEM-PER-MATCH RULE, the wave's most useful number: '**do your own calculations and if you are getting 4+ gems on each match then it's wo... | High Confidence | career/gem-per-match-rule | EV-502 |
+| CLAIM-2024 | THE PROMOTION MECHANICS: promotion requires the **Division Objectives**, found in **My Club**, completed within **15 Division Games** - 'failing wh... | High Confidence | career/promotion-objectives-mechanics | EV-502 |
 | CLAIM-203 | Scouts (hired with COINS, three tiers Common/Rare/Legendary) find players at DISCOUNTED prices (position/rating-range filters, safe for beginners).... | High Confidence | unscoped | EV-278,EV-274 |
 | CLAIM-206 | Commentary languages progression: English (original); Spanish added DLS24; Portuguese added DLS25; Turkish and Arabic added in DLS26 July 2026 Summ... | High Confidence | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-211 | FTG studio portfolio (four active/supported franchises as of 2026): Dream League Soccer (flagship, annual, 2011-now, com.firsttouchgames.dls7); Sco... | High Confidence | unscoped | EV-277,EV-280 |
@@ -1983,6 +1985,24 @@ Distinct evidence records cited: **465**.
 | CLAIM-2014 | THE GK TARGET, more precise than the corpus's GKR>=GKH rule: 'Preferred: **90+ GKR with 0-10 difference to GKH**' - so the two stats should be CLOS... | Community Consensus | goalkeeping/target-90-gkr-with-0-10-gap | EV-501 |
 | CLAIM-2015 | THE TWO-STRIKER INVERSION: 'For 2-striker systems, **left foot on right and right foot on left** I find pretty good too' - which extends the corpus... | Community Consensus | matchcraft/two-striker-inversion | EV-501 |
 | CLAIM-2016 | THE COACH-FARMING BAND CORROBORATED: 'buy/release players around **200-300** for common coaches. You might find some good legendary players in that... | Community Consensus | coaching/farming-band-200-300-corroborated | EV-501 |
+| CLAIM-2019 | THE SELECTIVE CAREER SET, spelled out: 'Win Legendary division **Home matches only**... **Do not play Global challenge cup** (nor home nor away) - ... | Community Consensus | career/selective-match-set | EV-502 |
+| CLAIM-2020 | THE LEGENDARY DIVISION COSTS 10-12 WINS to win, and the selective set depends on it: 'normally you need to win **10-12 matches to win the legendary... | Community Consensus | career/legendary-division-10-12-wins | EV-502 |
+| CLAIM-2021 | THE INTERACTION THAT MAKES THE SELECTIVE SET WORK: playing the International and Allstar cups means 'you have to win 11 or 13 matches in legendary ... | Community Consensus | career/cups-buy-the-league-skip | EV-502 |
+| CLAIM-2022 | THE CONCEDE-WITHOUT-PLAYING TACTIC, which is what makes the selective set fast: 'After winning 9-10 games or making sure we're gonna win the legend... | Community Consensus | career/concede-without-playing | EV-502 |
+| CLAIM-2023 | THE PER-COMPETITION GEM BREAKDOWN: **30 gems for the Legendary Division · 25 for the Diamond Cup · 15 for the Global Challenge Cup · 5 for the alls... | Community Consensus | career/per-competition-gem-breakdown | EV-502 |
+| CLAIM-2025 | THE CUP-DIVISION LOCK: 'U can only win Elite Division cup in Elite Division, Gold cup as well. **Once u're promoted to another league, Gold cup bec... | Community Consensus | career/cup-division-lock | EV-502 |
+| CLAIM-2026 | THE 80-OVR DEFENDER ROUTE, a higher-yield alternative to the Common-coach loop: 'you should buy **gold 80 overall rated defenders**. Afterward, **s... | Community Consensus | coaching/80-ovr-defender-to-rare-coach | EV-502 |
+| CLAIM-2027 | THE F2P GEM FLOOR: 'If you find yourself struggling to acquire gems, complete the daily challenge tasks for **8 gems a day**' - about 240 gems a mo... | Community Consensus | economy/daily-challenges-8-gems | EV-502 |
+| CLAIM-2028 | SCOUT COSTS: a **Common scout is 75 coins**, a **Legendary scout 500 coins** - which is the arithmetic behind the corpus's recommendation to hire C... | Community Consensus | transfers/scout-costs-75-and-500 | EV-502 |
+| CLAIM-2029 | THE CLAN REWARD LADDER, with thresholds: **25,000 clan points to unlock anything at all**, then **25 gems at 1,000,000**, a Legendary XP boost at 2... | Community Consensus | clans/reward-ladder-thresholds | EV-502 |
+| CLAIM-2030 | THE PER-MATCH CLAN RATE: 'Recibes aproximadamente **3.5k Puntos de Clan por ganar un partido online**' - about 3,500 clan points per online win. So... | Community Consensus | clans/3500-points-per-online-win | EV-502 |
+| CLAIM-2031 | THE 50-GEM IN-CLAN PRIZE, and what the cap actually does: 'Cualquier otra cosa que ganes te va a ayudar a ser el primero en tu clan y a obtener las... | Community Consensus | clans/past-the-cap-you-race-your-clanmates | EV-502 |
+| CLAIM-2032 | THE CLAN RECRUITMENT MARKET'S EXPECTATIONS, which is what makes clan choice competitive: members advertise '**200k minimum each season**', '350k cl... | Community Consensus | clans/recruitment-market-expectations | EV-502 |
+| CLAIM-2034 | THE FULL GEM-SOURCE BUDGET, from a community accounting: **DLL 6,000 · Progress Bank 1,640 · daily + weekly challenges 897 · Season Pass 300 · clan... | Community Consensus | economy/full-gem-source-budget | EV-502 |
+| CLAIM-2035 | THE DP LADDER'S FINAL REWARD needs **145,000 DP**, at roughly 300 DP for a 3-0 Tier 1 win with a Legendary boost - about 480 wins. So the DP ladder... | Community Consensus | prizeladder/dp-ladder-145000-dp | EV-502 |
+| CLAIM-2036 | THE STAGED-STADIUM STRATEGY: 'I upgraded my stadiums to **just enough for each division** and stopped playing career after three promotions until I... | Community Consensus | career/staged-stadium-strategy | EV-502 |
+| CLAIM-2037 | THE COMMERCIAL UPGRADE PAYS BACK WITHIN A SEASON: 'Spend 75 gems to upgrade your commercial facility... **You'll get the gems back by the end of th... | Community Consensus | facilities/commercial-l1-pays-back-in-a-season | EV-502 |
+| CLAIM-2038 | A SECOND RECOMMENDATION TO CAMP HIGH TIERS FOR EVENTS: 'For online, **stay in tiers 18-20, and play events** (this gets you easier event matches)' ... | Community Consensus | dll/camp-high-tiers-for-easier-events | EV-502 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
@@ -2106,6 +2126,7 @@ Distinct evidence records cited: **465**.
 | CLAIM-1973 | A FOURTH REJECTED SPORTSDUNIA TABLE - a best-players list. Recorded so the rejection count is accurate, while noting that its figures happen to cor... | Speculative | errata/sportsdunia-fourth-table-rejected | EV-498 |
 | CLAIM-1982 | A SECOND CORRUPTED FANDOM PAGE: dream-league-soccer.fandom.com/wiki/Classic_Players lists Lev Yashin at '**0 Overall**' and Paolo Maldini and Franz... | Speculative | errata/fandom-classic-players-page-corrupted | EV-499 |
 | CLAIM-1984 | A MINOR RATING CONFLICT: z2u.com puts Lamine Yamal at **86**, where every other source has him at 85. z2u is a marketplace site with no editorial s... | Speculative | errata/yamal-86-outlier | EV-499 |
+| CLAIM-2033 | A DISSENTING VIEW ON CLAN VALUE, recorded so the corpus does not overstate the system: '**Clans are useless.** I thought we'd be able to compete ag... | Speculative | clans/useless-dissent | EV-502 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

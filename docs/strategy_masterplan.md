@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-164 — 2,013 claims / 403 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-165 — 2,034 claims / 404 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -175,6 +175,10 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 
 | Order | Facility | Why | Numbers |
 |---|---|---|---|
+> **💰 THE CAREER GEM-PER-MATCH RULE — the most useful number in the Career economy** [EV-502, C2, two independent sources]: *"do your own calculations and if you are getting **4+ gems on each match** then it's worth it otherwise it's not."* **Play everything and you average 3.5 gems a match (145 gems across 41 games); play the selective set and you average 4.3 (100 across 23).** Same total, nearly half the matches. The selective set is: **Legendary Division home matches only · skip the Global Challenge Cup entirely ("the matches are way too many") · play every International and Allstar cup match · the Diamond Cup only when a Division Objective demands reaching its final.** The Legendary Division needs only **10–12 wins** to win, and playing the cups is what buys you the skip — with the cups, the league objective drops to 11–13 wins and you can miss two away games; without them the third objective becomes *"win all legendary games"* and you must play all 15. **And once the division is won, concede the rest:** *"I just matches finish without playing and lose as even after losing we get around 150 75+75 coins from home games and this is without investing any time."* You lose only the win-all objective, not the income.
+
+> **The per-competition gem table behind that rule** [EV-502, C3]: **30** Legendary Division · **25** Diamond Cup · **20** International Cup · **15** Global Challenge Cup · **15** International Allstars · **5** allstar match. And promotion itself requires the **Division Objectives** (My Club) completed inside **15 Division Games** — a finishing position *and* a **goal count**, with 10 wins enough to top the table but the goals the harder half.
+
 | 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | A **coin** project, not a gem one: sector levels cost 0–650 coins each, optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [EV-460, C2]. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
 | 2 | **Commercial** | +13% coins at L2, **+21% at L3** (one source curve, contested — C-019) | First tier 75 gems. **Real magnitude at max: only ~6–20 extra coins per game** [EV-465, C3] — the payback runs to hundreds of matches, so **spend here last** |
 | 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations — **the highest-value gem facility** | **10 levels at 75×N gems** (see the uniform-cost rule below); L4 is the coach-farming unlock |
@@ -546,6 +550,9 @@ Release yields coaches, not coins — but for Classics specifically, the opportu
 | Points per online win | **~3,500 Clan Points** |
 | Individual contribution cap | **350,000** (= ~100 online wins/season) |
 | Above the cap | Only ranks you first in-clan for the top-contributor gem reward — **does not help the clan total** |
+| Reward ladder | **25,000 points** to unlock anything · **25 gems at 1M** · Legendary XP boost 2M · Legendary Scout 3M · 500 coins 5M · Rare Special Coach 7.5M · **150 gems at 10M** [EV-502, C3 — endpoints two-source, middle tiers single-source from a source rejected for tables] |
+| The in-clan prize | **50 gems** for finishing first among your own clanmates — which is all the cap leaves you competing for |
+| Clan value, weighed | About **275 gems a season** out of a total budget where DLL is **6,000** — so the clan is a rounding error against a 1,125-gem facility decision, and it is **competitive, not social**: members advertise "200k minimum each season" and clans target 7.5–8M, with leaders expelling anyone under 20,000 points in their first hour |
 | Creation cost | **150 gems**; barely breaks even in season one |
 | Active clan season total | **13–15M CP** (350k+ members); others target 8M; second-tier 10–11M |
 | Reward ladder | 25k first reward → 25g @1M → Leg XP @2M → Leg Scout @3M → 500c @5M → Rare Special Coach @7.5M → **150g @10M** |
