@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-150 — 1,823 claims / 390 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-151 — 1,840 claims / 391 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -77,6 +77,45 @@ This matters because it changes the optimisation target: **the leaderboard rewar
 > **Maxing your squad can make you worse in Live.** A Tier 1 player: *"maxxed squads perform TERRIBLY in high tiers due to handicap… just try not to coach your players anymore."* The **official** FTG matchmaking article names **team strength** as an explicit matching input, and players with maxxed squads report being stuck at tiers 4 and 10.
 >
 > **Run two separate optimisation targets:** *competitive but NOT maxed* for DLL Tier 1; *maxed* for club value and the Prize Ladder. The record Tier 1 run used a **mostly common/rare squad** [EV-432] — maxing is not a prerequisite for the top tier.
+
+### 4.1 The complete coaching economy [EV-489, C2/C3]
+
+**THE EFFICIENCY LADDER AT A MAXED TRAINING FACILITY** — the arithmetic behind every gem you spend on a coach:
+
+| Tier | Development points | Gem cost | **Gems per point** |
+|---|---|---|---|
+| **Common** | 2 | 63 | **31.5** |
+| **Rare** | 6 | 168 | **28** |
+| **Legendary** | 12 | 280 | **23.33** |
+
+**Legendary is the most gem-efficient coach per point** — which is why the Training facility's 75 × N ladder pays for itself, and why the corpus's Training-first rule is not just convenience.
+
+**THE COST TO MAX ONE PLAYER** (~90 development points):
+
+| Route | Coaches | Total gems |
+|---|---|---|
+| Common | 45 | **2,835** |
+| Rare | 15 | **2,520** |
+| Legendary (special players) | 7.5 | **2,100** |
+| **Legendary (normal players)** | **9** | **~2,520** |
+
+> **Normal players need 9 Legendaries, not 7.5** — the 7.5 figure applies to special players. Plan on 9.
+
+**COACH COUNTS TO MAX:** outfield **80 Common / 20 Rare / 9 Legendary**; goalkeepers **20 / 10 / 4**. A full 16-player squad needs roughly **142 Legendary / 320 Rare / 1,280 Common**.
+
+**EFFECT SIZES:** Legendary boosts **3 random stats by +3** · Rare **2 by +2** · Common **1 by +1**. This reconciles the 12-point and 9-point figures once the Strength/Control double-weighting is applied.
+
+> **🎯 THE GOALKEEPER RULE:** *"Legendary coaches increase GKR and GKH by +3, but only use if GKR > GKH."* A Legendary raises **both**, so using it when GKH is already the higher stat wastes half the value. For GKs, run **1 Rare + 4 Commons and repeat**.
+
+**THE CLUB MINIMUM IS 16 PLAYERS** — *"Make sure you have 16 players before using coaches, that's the club minimum size and it helps speed up the process."*
+
+**THE COACH-FARMING THRESHOLD IS 192 COINS** — two independent derivations of the same number. Releasing a legendary player yields 2 Rare coaches, so *"1535:8=192… only buy common players that are 192 coins or less."* That brackets the *"buy under 180-210 coins"* band from §3.6 exactly.
+
+**THE RELEASE-TO-COACH MAPPING, three sources agreeing:** Common release = **1 Common coach** · Rare release = **2 Common coaches** · Legendary (80+) release = **1 Rare coach**. This is the product of the DLS21 nerf, which also cut Legendary coaches from +5 to +3 per stat.
+
+**THE SCOUT LADDERS:** discounts of **2–4% (Common) / 3–5% (Rare) / 4–8% (Legendary)** per recruit, and — because each scout yields **two candidates** — P(at least one legendary) is **3.96% for a Common scout and 27.75% for a Legendary**, a 7.01× ratio against a 6.67× price ratio. **Legendary scouts are good value; the 2% Common figure is the correct one.**
+
+**THE DP BOOST MAXIMA:** Rare Boost **+75%** (245 DP max in Career, 324 in DLL/Dream Draft) · Legendary Boost **+150%** (350 Career, 463 DLL/Dream Draft).
 
 ### 1.2 Career Mode (the economy and the rating engine)
 

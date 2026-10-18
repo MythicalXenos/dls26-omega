@@ -1,19 +1,19 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:23:03Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1823**
-Distribution: Confirmed 386 / High Confidence 795 / Community Consensus 604 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **452**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:26:24Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1840**
+Distribution: Confirmed 386 / High Confidence 802 / Community Consensus 614 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **453**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 125 |
-| facilities | 96 |
+| economy | 126 |
+| facilities | 97 |
 | gameplay | 68 |
-| dll | 65 |
-| transfers | 63 |
-| cards | 56 |
+| dll | 66 |
+| transfers | 66 |
+| cards | 58 |
 | clans | 56 |
 | career | 48 |
 | controls | 41 |
@@ -30,6 +30,7 @@ Distinct evidence records cited: **452**.
 | presentation | 25 |
 | errata | 24 |
 | tactics | 20 |
+| coaching | 19 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
@@ -38,15 +39,14 @@ Distinct evidence records cited: **452**.
 | customisation | 13 |
 | negatives | 13 |
 | formboost | 12 |
-| coaching | 11 |
 | goalkeeping | 11 |
 | onboarding | 11 |
 | ui | 11 |
 | account | 10 |
 | draft | 10 |
 | match | 10 |
+| medical | 10 |
 | social | 10 |
-| medical | 9 |
 | skillmoves | 8 |
 | squad | 8 |
 | physio | 7 |
@@ -1137,6 +1137,13 @@ Distinct evidence records cited: **452**.
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
 | CLAIM-1820 | THE DLS26 PRICE BAND IS FAR HIGHER THAN THE CORPUS RECORDED: a December 2025 thread shows a secret player at 2,355 coins after a discount from 2,55... | High Confidence | transfers/dls26-price-band-is-thousands | EV-488 |
 | CLAIM-1826 | Celebrations are NOT player-controllable - a wish-list asking to 'allow players to choose or control celebrations for each player' confirms you can... | High Confidence | negatives/no-controllable-celebrations | EV-488 |
+| CLAIM-1831 | THE COACH EFFECT SIZES: Legendary boosts 3 random stats by +3 · Rare boosts 2 by +2 · Common boosts 1 by +1. This reconciles the 12-point and 9-poi... | High Confidence | coaching/effect-sizes | EV-489 |
+| CLAIM-1833 | THE CLUB MINIMUM IS 16 PLAYERS: 'Make sure you have 16 players before using coaches, that's the club minimum size and it helps speed up the process.' | High Confidence | facilities/16-player-club-minimum | EV-489 |
+| CLAIM-1834 | THE RELEASE-TO-COACH MAPPING, corroborated by three sources: Common release = 1 Common coach · Rare release = 2 Common coaches · Legendary (80+) re... | High Confidence | coaching/release-to-coach-three-sources | EV-489 |
+| CLAIM-1836 | THE COACH-FARMING THRESHOLD IS 192 COINS: releasing a legendary player yields 2 Rare coaches, so '1535:8=192... only buy common players that are 19... | High Confidence | coaching/192-coin-threshold | EV-489 |
+| CLAIM-1840 | THE DP BOOST MAXIMA: Rare Boost = +75% (max 245 DP in Career, 324 in DLL/Dream Draft) · Legendary Boost = +150% (max 350 Career, 463 DLL/Dream Draf... | High Confidence | economy/dp-boost-maxima | EV-489 |
+| CLAIM-1841 | THE PHYSIO LADDER CORROBORATED A SECOND TIME: Common +10% energy, Rare +20%, Legendary +50% energy and heals all active injuries. | High Confidence | medical/physio-ladder-second-source | EV-489 |
+| CLAIM-1844 | THE LIVE RANK-NAME GAP REMAINS OPEN: a fresh search returned only Rocket League's ladder (Rookie, Semi-Pro, Pro, Veteran, Expert, Master, Legend, R... | High Confidence | dll/rank-names-gap-remains-open | EV-489 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
@@ -1791,8 +1798,18 @@ Distinct evidence records cited: **452**.
 | CLAIM-1823 | THE SUSPENSION WORKAROUND (era-stale): 'If a player has a red card suspension, release him and buy him back from the Free Transfers Page' - this cl... | Community Consensus | gameplay/suspension-workaround | EV-488 |
 | CLAIM-1824 | Release value has drifted across builds: an older-era source states a released player sells 'for half its purchase value' and goes to the market, a... | Community Consensus | transfers/release-value-version-drift | EV-488 |
 | CLAIM-1825 | NEW PLAYER-SPECIFIC CELEBRATIONS ARE ARRIVING: a player reports 'My Mbappe just did a totally new celebration I've never seen before... he scored, ... | Community Consensus | presentation/new-player-specific-celebrations | EV-488 |
+| CLAIM-1828 | THE COACH EFFICIENCY LADDER AT A MAXED TRAINING FACILITY: Common = 2 points for 63 gems (31.5 gems/point) · Rare = 6 points for 168 gems (28/point)... | Community Consensus | coaching/cost-point-efficiency-ladder | EV-489 |
+| CLAIM-1829 | THE COST TO MAX A PLAYER: ~90 development points, so 45 Common coaches (2,835 gems) · 15 Rare (2,520 gems) · 7.5 Legendary (2,100 gems). BUT normal... | Community Consensus | coaching/cost-to-max | EV-489 |
 | CLAIM-183 | Dream Points per match are capped at a 5-0 win margin; goals beyond the 5th do not increase DP awarded. | Community Consensus | unscoped | EV-275 |
+| CLAIM-1830 | THE COACH COUNTS TO MAX: outfield 80 Common / 20 Rare / 9 Legendary; goalkeepers 20 Common / 10 Rare / 4 Legendary. A full 16-player squad needs ab... | Community Consensus | coaching/counts-to-max | EV-489 |
+| CLAIM-1832 | THE GOALKEEPER RULE: 'Legendary coaches increase GKR and GKH by +3, but only use if GKR > GKH' - a Legendary raises both, so using it when GKH is a... | Community Consensus | coaching/goalkeeper-coach-rule | EV-489 |
+| CLAIM-1835 | The nerf history explains the mapping: the DLS21 update changed it so 'selling a legendary player only gives you a rare coach now', and Legendary c... | Community Consensus | coaching/nerf-history | EV-489 |
+| CLAIM-1837 | THE SCOUT DISCOUNT LADDER: Common 2-4% · Rare 3-5% · Legendary 4-8% per recruit - the concrete value of the Recruitment Centre. | Community Consensus | transfers/scout-discount-ladder | EV-489 |
+| CLAIM-1838 | THE SCOUT PROBABILITY MATH settles the Common-vs-Legendary debate: a scout yields TWO candidates, so P(at least one legendary) = 1-(1-p)². Common =... | Community Consensus | transfers/scout-two-candidate-probability | EV-489 |
+| CLAIM-1839 | A SECOND SOURCE for the scout drop rates, with a discrepancy: Common 93/5/2 (identical) · Rare 80/15/5 (vs 75/20/5) · Legendary 55/30/15 (vs 40/45/... | Community Consensus | transfers/scout-drop-rates-second-source | EV-489 |
 | CLAIM-184 | DP Boost gem costs and durations (community reports): Common +50% = 25 gems / 3 matches; Rare +75% = 35 gems / 5 matches; Legendary +150% = 125 gem... | Community Consensus | unscoped | EV-275,EV-274 |
+| CLAIM-1842 | THE BEST-IN-GAME ROSTER BY POSITION (July 2026): CF 86 Haaland/Kane/Dembélé/Mbappé · RW 86 Yamal and Olise · LW 85 Vinícius and Raphinha (or the 96... | Community Consensus | cards/best-in-game-roster-by-position | EV-489 |
+| CLAIM-1843 | Special-offer cards appear to be pre-trained to base+1: 'Raphinha was trained to 87, Dembélé to 87, Gabriel to 85, Yamal to 86. If you subtract 1 f... | Community Consensus | cards/special-offers-pre-trained-plus-one | EV-489 |
 | CLAIM-185 | Premium Season Pass grants DOUBLE Season Points AND double Live XP (faster tier progression + faster Progression Bank fill). | Community Consensus | unscoped | EV-275 |
 | CLAIM-186 | DLS26 post-launch update timeline confirmed: Dec 2025 launch with Clans/Kick-Off Stars/Raphinha-Alvarez new UI/broadcast angles; Jan 2026 winter tr... | Community Consensus | unscoped | EV-272,EV-276 |
 | CLAIM-188 | Dynamic Stars (Summer Spotlight event, 13.410) are Special Players that upgrade LIVE based on real-world national team tournament performance: base... | Community Consensus | unscoped | EV-273,EV-272 |

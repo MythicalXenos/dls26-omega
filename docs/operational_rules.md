@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-150 — 1,823 claims / 390 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-151 — 1,840 claims / 391 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -526,6 +526,18 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **TRAINING-FIRST GEM RULE, second source:** *"all gems you earn should go to upgrading training center ONLY, unless you NEED to lock a player."*
 - **SUSPENSION WORKAROUND** (era-stale, last resort): release a suspended player and buy them back to clear the ban — it erases their season records.
 - **Celebrations are not player-controllable**, though new player-specific ones are arriving.
+
+### 3.18 The coaching economy [EV-489, C2/C3]
+
+- **Efficiency at a maxed facility:** Common 2 pts/63g (**31.5 g/pt**) · Rare 6/168 (**28**) · **Legendary 12/280 (23.33)** — Legendary is the most gem-efficient.
+- **Cost to max (~90 points):** 45 Commons (2,835g) · 15 Rares (2,520g) · **7.5 Legendaries for special players, 9 for normal players** (~2,520g).
+- **Counts to max:** outfield 80/20/9 · GK 20/10/4 · a 16-player squad ≈142/320/1,280.
+- **Effects:** Legendary 3 stats ×+3 · Rare 2 ×+2 · Common 1 ×+1.
+- **🎯 GK RULE: only use a Legendary when GKR > GKH** — it raises both. Otherwise run **1 Rare + 4 Commons**.
+- **Club minimum is 16 players** — reach it before coaching.
+- **Coach farming: buy at or below 192 coins.** Release mapping: Common → 1 Common coach · Rare → 2 Commons · 80+ → 1 Rare.
+- **Scouts:** discounts 2–4% / 3–5% / 4–8%; two candidates each, so P(≥1 legendary) is 3.96% Common vs 27.75% Legendary — **Legendary scouts are good value.**
+- **DP boosts:** Rare +75% (245 Career / 324 DLL max) · Legendary +150% (350 / 463).
 
 ---
 
