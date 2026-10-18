@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T08:49:55Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2232**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 921 / Speculative 72 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **482**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T09:25:59Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2240**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 928 / Speculative 73 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **483**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,19 +10,19 @@ Distinct evidence records cited: **482**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 114 |
-| dll | 90 |
+| dll | 91 |
 | gameplay | 81 |
 | transfers | 80 |
 | cards | 71 |
-| career | 65 |
-| clans | 65 |
+| clans | 67 |
+| career | 66 |
 | setpieces | 60 |
 | errata | 58 |
 | controls | 56 |
 | prizeladder | 48 |
 | coaching | 43 |
 | patching | 42 |
-| training | 40 |
+| training | 41 |
 | cups | 39 |
 | attributes | 37 |
 | coaches | 37 |
@@ -36,9 +36,9 @@ Distinct evidence records cited: **482**.
 | modes | 25 |
 | goalkeeping | 23 |
 | stadium | 23 |
-| account | 19 |
+| account | 20 |
 | customisation | 19 |
-| matchcraft | 16 |
+| matchcraft | 18 |
 | meta | 16 |
 | onboarding | 15 |
 | formboost | 13 |
@@ -2190,7 +2190,14 @@ Distinct evidence records cited: **482**.
 | CLAIM-2232 | KICK ASSIST IS VERSION-DEPENDENT: 'With the current version it is **best to turn kick assist off**. Although previous versions it was better to set... | Community Consensus | controls/kick-assist-version-dependent | EV-518 |
 | CLAIM-2233 | TWO MORE SETTINGS the corpus lacked: **Switching Sensitivity** (Medium recommended) and **Cursor Indicator** (ON recommended) - both in the control... | Community Consensus | settings/switching-sensitivity-and-cursor-indicator | EV-518 |
 | CLAIM-2235 | THE COMMENTARY INVENTORY - five languages with named commentators: **Christian Martinoli & Luis Garcia (Mexican Spanish) · Mariano Closs & Diego La... | Community Consensus | presentation/five-language-commentary-inventory | EV-518 |
+| CLAIM-2237 | THE RAGE-QUIT RESUME, a THIRD save-based undo and the only one that works mid-attack: 'we've gotten good results by **rage-quitting when the oppone... | Community Consensus | career/rage-quit-resume-undo | EV-519 |
+| CLAIM-2238 | ⚠️ NEVER RAGE-QUIT AGAINST A HUMAN OPPONENT: 'you should definitely NOT rage-quit when playing against human opponents – **game makers temporarily ... | Community Consensus | account/never-rage-quit-against-humans | EV-519 |
+| CLAIM-2239 | THE CLAN MARKET IS TIERED BY OUTPUT, and the tiers are now named: '**The clan makes around 13M~15M per season, requirement is 350K+, if you get bet... | Community Consensus | clans/market-tiered-by-output | EV-519 |
 | CLAIM-224 | Set-piece attacking meta (DLS24-26 community): FREE KICKS by distance — 18-22yd curl with inside foot; 23-28yd power or curled top-corner; 30+yd lo... | Community Consensus | unscoped | EV-283 |
+| CLAIM-2241 | THE SELF-HANDICAP METHOD, the only sanctioned way to raise the difficulty in Live: 'You can't, this isn't Fts 15. However **if you want to challeng... | Community Consensus | dll/self-handicap-method | EV-519 |
+| CLAIM-2242 | THE SECONDARY PRESS IS THE LONG-BALL DEFENCE, a second source for the corpus's secondary-beats-main rule with the aerial case specified: 'To counte... | Community Consensus | matchcraft/secondary-press-is-the-long-ball-defence | EV-519 |
+| CLAIM-2243 | THE PLAYER-RUNS TIMING ADVICE: 'Players make multiple runs during the game. **Watch these movements and time your passes** to take advantage of ope... | Community Consensus | matchcraft/player-runs-timing | EV-519 |
+| CLAIM-2244 | THE PASSING DRILL: 'Improve your passing in the **Corner training mode**. Start by passing back to let the other team reset, then focus on keeping ... | Community Consensus | training/corner-mode-passing-drill | EV-519 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
@@ -2326,6 +2333,7 @@ Distinct evidence records cited: **482**.
 | CLAIM-2218 | A RODRI RATING OUTLIER: thesoccerera puts Rodri at **86** DM where every other source has him at 85 - a minor rating conflict in the same family as... | Speculative | errata/rodri-86-outlier | EV-516 |
 | CLAIM-2234 | THE COMPLETE SETTINGS INVENTORY, from a seventh sportsdunia table: **Gameplay** (Language, Difficulty, Power Save, Camera Type, Camera Distance, Au... | Speculative | settings/complete-inventory | EV-518 |
 | CLAIM-2236 | THE ACTUAL COMMENTARY PHRASES, from the wiki: '**Shihab crack from distance!**' · 'Optimistic effort' · 'XXX with the shot' · "Let's see how this s... | Speculative | presentation/commentary-phrase-list | EV-518 |
+| CLAIM-2240 | THE RECRUITMENT NEGOTIATION IS TIME-BOXED and based on current-season contribution: a member negotiating in real time reports 'i do 200k points min... | Speculative | clans/recruitment-is-time-boxed | EV-519 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-181 — 2,232 claims / 420 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-182 — 2,240 claims / 421 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -416,6 +416,8 @@ Hard thresholds: **DLL pays gems only with ≥14 points**; the final DP ladder g
 - Ladder pays up to **150 gems at 10M CP**.
 - Elite clans demand **350K+ every season or removal**; leaders kick sub-20k first-hour contributors. **Read the clan's requirements before joining, not after.**
 - **The 350k cap's semantics** [EV-478, C2]: it caps your contribution to the **clan's total**. Beyond it, points count only toward your **personal in-clan ranking** and the top-contributor reward — *"it won't help your clan's total points."* After 350k, clan points are a by-product, never a goal.
+- **⚠️ THE RAGE-QUIT RESUME is a THIRD undo — and it is banned in Live.** Quit while the opponent is in your box on offense and play resumes from the last out-of-play moment. **Career and events only: FTG bans for rage-quitting against real players** [EV-519, C3].
+- **The clan market is tiered by output** [EV-519, C3]: 13–15M clans require 350K+ per member; 10–11M clans accept 200–350K.
 - **The clan reward ladder** [EV-502, C3]: **25,000 points** to unlock anything · **25 gems at 1M** · **150 gems at 10M**, with XP boost, scout, coins and a Rare Special Coach in between. The **50-gem** in-clan first prize is all the cap leaves you competing for.
 - **Career gem efficiency: 4+ gems per match or skip it** [EV-502, C2]. Play everything and you average 3.5/match; play the selective set (Legendary Division home only, no Global Challenge Cup, all International and Allstar cups, Diamond Cup only on objective) and you average 4.3. **Once the division is won, concede the remaining fixtures without playing them** — the 75+75 home coins survive, only the win-all objective does not.
 - **Clan-internal matches pay clan points** [EV-478, C2] — playing members of your own clan is a legitimate source alongside matches, challenges and Season Pass tiers.
