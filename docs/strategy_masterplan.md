@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-094 (`ab32028`) — 1,333 claims / 341 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-096 (`9438d3b`) — 1,355 claims / 343 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -115,6 +115,25 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 **Best players per position** [EV-426, C3]: GK Alisson/Courtois · LB Robertson/Theo Hernández (Grimaldo is marked LWB) · CB Rudiger/Saliba (83) and Van Dijk/Dias (84) · RB Hakimi/Trent · DM Rodri · AM De Bruyne · CM Valverde · LW Vinícius Jr.
 
 **Base rating ceiling is 86** (Dembélé/Mbappé/Kane/Haaland cluster) — special cards sit above it [EV-426, C3, conflict noted].
+
+**The counter-intuitive early rule** [EV-441, C2]: **do NOT buy legendary players early.** Buying them raises your team rating, and a higher rating makes the *cheap* players disappear from the market — which kills the coach-farming loop that actually builds your squad. Buy one or two fast common or rare players to win games, and only start buy-sell cycling once the stadium is maxed. Also pick the **best attacker as captain**: it boosts team rating, which improves who appears in the market.
+
+### PHASE 3.5 — Dream Draft (a gem engine, not a squad builder) [EV-440, C3]
+
+| Mechanic | Detail |
+|---|---|
+| Draft size | **18 players**, every option **75+ rated** |
+| Requirement | **At least one Star Player is mandatory** |
+| Structure | Limited-time tournament, **up to 7 rounds max**, a different opponent each round |
+| Formations | **Limited** selection |
+| Opponents | **CPU** in the standard version (online variants exist) |
+| DP | **185 max** for a clean sheet plus 5+ goals — easier than Live because of the CPU |
+| Rewards | Gems for winning the **semi-finals and finals**, plus leaderboard medals/gems/coins for 1st, 2nd and 3rd |
+| **The catch** | **The players are NOT kept.** Gems only — never treat this as squad building |
+| Entry | Paid in DLS24, free in DLS25, may be paywalled again; ~40 gems or 500 coins, win pays 50 |
+| Cadence | Roughly **every two weeks** |
+
+**Verdict:** worth entering when free, because it is the cheapest 185 DP in the game and it feeds the Prize Ladder. Do not pay for it — the community calls the opposition scripted and notes that losing yields nothing.
 
 ### PHASE 4 — Player development (the actual rating engine)
 
@@ -282,6 +301,8 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 
 **Avoid:** blind C passes, blind shots, and rushing passes. Do dribble while stopped, and call out the keeper when necessary.
 
+**Skill moves are swipe gestures, not buttons** — and whether the move executes depends on the player's **Ball Control** stat plus the engine's decision [EV-441, C2]. A high-CON player is worth more for this alone.
+
 **Formation meta is genuinely unsettled** (C-014 stays open by design): 4-4-2 for balance (LM/RM as wingers, full-backs supporting both phases); 4-1-2-1-2 and 4-1-3-2 favoured by the tier-1 guides; 4-3-3 and 3-4-1-2 pushed by sportsdunia. **Pick one and learn it deeply rather than chasing the meta** — the record run used a mostly common/rare squad.
 
 ### 3.2 Injury and healing economics [EV-437, C2/C3]
@@ -309,6 +330,7 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 | Spending coaches early | Community consensus: **stack coaches, don't use them too early** [EV-433, C3] |
 | Form Boosting low-rated players | 5g/+1 for one match is the worst gem rate in the game |
 | Building your own clan from zero | 150 gems and you "barely break even in the first season" [EV-429, C3] |
+| Mods, hacks or coin/gem generators | **OFFICIAL FTG:** infinite coins/gems do not exist, modified versions end in **account blocking**, and generators are a scam [EV-441, C1] |
 | Half-upgrading a stadium stand | "If you build a side only partially, the next time you would have to pay the full price to complete it" [C3] |
 | Upgrading a stand **with a roof** | "On the highest number you're paying for the roof and no extra seats" [C3] |
 
@@ -350,9 +372,20 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 **Weekly:**
 1. Push the DLL weekly leaderboard before the reset (placement gems + participation gems)
 2. Clan contribution toward the 350k cap
-3. Dream Draft (18 players, 75+ OVR, 7 rounds, free since DLS24)
+3. Dream Draft when free (up to 7 rounds, 185 DP ceiling, gems only)
 4. Facility upgrade — **stadium first, always**
 5. Reassess: are you lingering in a tier you can win? Promote.
+
+### The time-efficiency unlock [EV-441, C3]
+
+Once a division is **mathematically secure** — typically after 9–10 wins in the Legendary Division — **stop playing the matches and let them auto-finish as losses.**
+
+- A Legendary Division home match pays **~150 coins even in defeat** (about 75 base + 75 stadium bonus).
+- Goal coins are **capped at 30 per match** (6 coins × 5 goals — the same limit as the DP cap), so scoring more than 5 buys nothing.
+- The only cost is a **10-gem "win all games" objective**.
+- A whole Career Season still yields **~110 gems** (35 + 75), and 10 matches produce **~2,000 coins in about an hour**.
+
+This converts Career Mode from a time sink into a background coin farm and is the single biggest quality-of-life gain available.
 
 **Every 90 days:**
 1. Prize Ladder cycle closes — first special at ~50,000 DP, all four at ~200,000
