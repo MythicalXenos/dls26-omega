@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-151 — 1,840 claims / 391 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-152 — 1,856 claims / 392 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -236,6 +236,29 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 **Base rating ceiling is 86** (Dembélé/Mbappé/Kane/Haaland cluster) — special cards sit above it [EV-426, C3, conflict noted].
 
 **The counter-intuitive early rule** [EV-441, C2]: **do NOT buy legendary players early.** Buying them raises your team rating, and a higher rating makes the *cheap* players disappear from the market — which kills the coach-farming loop that actually builds your squad. Buy one or two fast common or rare players to win games, and only start buy-sell cycling once the stadium is maxed. Also pick the **best attacker as captain**: it boosts team rating, which improves who appears in the market.
+
+### PHASE 3.0 — The facility ladder, confirmed and ranked [EV-490, C2/C3]
+
+**The uniform cost ladder, now confirmed by a second independent source:** **75 / 150 / 225 / 300 / 375 gems** for levels 1–5, so **1,125 gems per facility**. Two sources quote the identical numbers.
+
+**Accommodation is the only facility with more than five levels — it has ten** (75, 150, 225, 300, 375, 450, 525, 600, 675, 750 = **4,125 gems**), because squad size is the one benefit that keeps scaling.
+
+**The ranked priority order** [C3], and the arithmetic that justifies it:
+
+| # | Facility | Why |
+|---|---|---|
+| 1 | **Stadium** | Capacity is a **hard promotion gate**; maxed it pays **48–52 coins a home match** |
+| 2 | **Training** | Cheapens every coach — **23.33 gems/point at max vs 31.5 at L1** |
+| 3 | **Accommodation** | Rotation, depth, and the 64-player cap |
+| 4 | **Commercial** | +6% at L1, **kit/logo/scout discounts**, **rust removal at L3** — but only **10–20 coins a match at max** |
+| 5 | **Medical** | −10% healing / −5% injuries at L1; maxed makes physio trips "super cheap" |
+| 6 | **Recruitment** | Discounts agents **and** scouts (gem **or** coin cost) |
+
+> **The comparison that settles it:** *"1125 Diamonds being used on the commercial facility for a bonus of 10 to 20 coins/match is not worth it knowing you can max 2.5 players with the same amount of diamonds."* **So 1,125 gems ≈ 2.5 maxed players ≈ 450 gems per maxed player.** Every facility decision is comparable to a coaching decision.
+
+**The Fanzone has five levels** (two mod-site sources agree) — its **per-level cost remains unpublished**, which is one of the corpus's eight surviving gaps.
+
+> **💰 THE F2P COIN COST OF A MAXED PLAYER:** **~32,000 coins via Common coaches** (80 releases at ~400 coins each) or **~30,000 via Rare** (20 at ~1,500), with an 80-rated defender available at about **1,460 coins**. This is the number that decides whether a free-to-play account maxes one star or keeps farming facilities — and it is why the **coin** engine matters more than the gem engine for squad building.
 
 ### PHASE 3.1 — Transfer market mechanics [EV-442, C2/C3]
 

@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-151 — 1,840 claims / 391 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-152 — 1,856 claims / 392 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -538,6 +538,17 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Coach farming: buy at or below 192 coins.** Release mapping: Common → 1 Common coach · Rare → 2 Commons · 80+ → 1 Rare.
 - **Scouts:** discounts 2–4% / 3–5% / 4–8%; two candidates each, so P(≥1 legendary) is 3.96% Common vs 27.75% Legendary — **Legendary scouts are good value.**
 - **DP boosts:** Rare +75% (245 Career / 324 DLL max) · Legendary +150% (350 / 463).
+
+### 3.19 The facility ladder, confirmed and ranked [EV-490, C2/C3]
+
+- **Uniform cost ladder, second source:** **75 / 150 / 225 / 300 / 375 gems** = 1,125 per facility. **Accommodation alone has TEN levels** (75–750 = 4,125 gems).
+- **Priority order:** Stadium → Training → Accommodation → Commercial → Medical → Recruitment.
+- **Why:** 1,125 gems ≈ **2.5 maxed players** (~450 gems each). Commercial at max pays only **10–20 coins a match** (it gave ~50% in DLS20/21).
+- **Medical L1:** −10% healing cost, −5% injury chance; maxed makes physio trips *"super cheap."*
+- **Commercial L1:** +6% match winnings; it also discounts **kits, logos AND scouts**; **L3 removes stadium rust**.
+- **Recruitment** discounts agents **and** scouts (gem or coin cost).
+- **Fanzone:** five levels, per-level cost unpublished.
+- **💰 F2P max cost:** ~32,000 coins via Common coaches or ~30,000 via Rare; an 80-rated defender runs ~1,460 coins.
 
 ---
 

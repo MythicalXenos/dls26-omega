@@ -1,15 +1,15 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:26:24Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1840**
-Distribution: Confirmed 386 / High Confidence 802 / Community Consensus 614 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **453**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:29:10Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1856**
+Distribution: Confirmed 386 / High Confidence 806 / Community Consensus 626 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **454**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 126 |
-| facilities | 97 |
+| economy | 128 |
+| facilities | 107 |
 | gameplay | 68 |
 | dll | 66 |
 | transfers | 66 |
@@ -29,12 +29,12 @@ Distinct evidence records cited: **453**.
 | events | 27 |
 | presentation | 25 |
 | errata | 24 |
+| coaching | 22 |
 | tactics | 20 |
-| coaching | 19 |
 | modes | 19 |
+| stadium | 17 |
 | stamina | 17 |
 | meta | 16 |
-| stadium | 16 |
 | achievements | 15 |
 | customisation | 13 |
 | negatives | 13 |
@@ -1144,6 +1144,10 @@ Distinct evidence records cited: **453**.
 | CLAIM-1840 | THE DP BOOST MAXIMA: Rare Boost = +75% (max 245 DP in Career, 324 in DLL/Dream Draft) · Legendary Boost = +150% (max 350 Career, 463 DLL/Dream Draf... | High Confidence | economy/dp-boost-maxima | EV-489 |
 | CLAIM-1841 | THE PHYSIO LADDER CORROBORATED A SECOND TIME: Common +10% energy, Rare +20%, Legendary +50% energy and heals all active injuries. | High Confidence | medical/physio-ladder-second-source | EV-489 |
 | CLAIM-1844 | THE LIVE RANK-NAME GAP REMAINS OPEN: a fresh search returned only Rocket League's ladder (Rookie, Semi-Pro, Pro, Veteran, Expert, Master, Legend, R... | High Confidence | dll/rank-names-gap-remains-open | EV-489 |
+| CLAIM-1846 | Accommodation is the only facility with more than five levels - ten in total (75, 150, 225, 300, 375, 450, 525, 600, 675, 750 = 4,125 gems). | High Confidence | facilities/accommodation-only-ten-levels | EV-490 |
+| CLAIM-1847 | MEDICAL L1 EFFECTS, corroborated: healing cost down 10% and injury chance down 5%, with further reductions at each level. 'Maxing the Medical Centr... | High Confidence | facilities/medical-l1-effects | EV-490 |
+| CLAIM-1855 | THE F2P COIN COST OF A MAXED PLAYER: ~32,000 coins via Common coaches (an average of 400 coins per player released, 80 coaches) or ~30,000 via Rare... | High Confidence | economy/coin-cost-to-max-a-player | EV-490 |
+| CLAIM-1860 | THE FACILITIES EMPIRE: the stadium can be viewed inside and outside, and stands can be toggled covered or uncovered. | High Confidence | stadium/view-inside-outside-covered-toggle | EV-490 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
@@ -1810,7 +1814,19 @@ Distinct evidence records cited: **453**.
 | CLAIM-184 | DP Boost gem costs and durations (community reports): Common +50% = 25 gems / 3 matches; Rare +75% = 35 gems / 5 matches; Legendary +150% = 125 gem... | Community Consensus | unscoped | EV-275,EV-274 |
 | CLAIM-1842 | THE BEST-IN-GAME ROSTER BY POSITION (July 2026): CF 86 Haaland/Kane/Dembélé/Mbappé · RW 86 Yamal and Olise · LW 85 Vinícius and Raphinha (or the 96... | Community Consensus | cards/best-in-game-roster-by-position | EV-489 |
 | CLAIM-1843 | Special-offer cards appear to be pre-trained to base+1: 'Raphinha was trained to 87, Dembélé to 87, Gabriel to 85, Yamal to 86. If you subtract 1 f... | Community Consensus | cards/special-offers-pre-trained-plus-one | EV-489 |
+| CLAIM-1845 | THE UNIFORM FACILITY COST LADDER, CONFIRMED BY A SECOND INDEPENDENT SOURCE: 75 / 150 / 225 / 300 / 375 gems for levels 1-5, so 1,125 gems per facil... | Community Consensus | facilities/cost-ladder-second-source | EV-490 |
+| CLAIM-1848 | COMMERCIAL L1 gives +6% bonus match winnings on top of normal match coins, for the standard 75-gem first upgrade. | Community Consensus | facilities/commercial-l1-plus-six-percent | EV-490 |
+| CLAIM-1849 | THE COMMERCIAL CENTRE ALSO GIVES SCOUT DISCOUNTS: 'You can also get progressively higher kit and logo discounts, as well as SCOUT DISCOUNTS, by lev... | Community Consensus | facilities/commercial-also-discounts-scouts | EV-490 |
 | CLAIM-185 | Premium Season Pass grants DOUBLE Season Points AND double Live XP (faster tier progression + faster Progression Bank fill). | Community Consensus | unscoped | EV-275 |
+| CLAIM-1850 | THE COMMERCIAL NERF HISTORY: 'In DLS20, DLS21 Commercials gived ~ 50% bonus coins per match if max it, now bonus is 10%, on maxed commercial' - and... | Community Consensus | facilities/commercial-nerf-history | EV-490 |
+| CLAIM-1851 | COMMERCIAL L3 REMOVES STADIUM RUST: 'Commercial is also good because the last level will remove all the rust from the stadium... To level 3 is enou... | Community Consensus | facilities/commercial-l3-removes-rust | EV-490 |
+| CLAIM-1852 | THE SIX-FACILITY PRIORITY ORDER: 1 Stadium capacity, 2 Training, 3 Accommodation, 4 Commercial, 5 Medical, 6 Recruitment - on the arithmetic that '... | Community Consensus | facilities/six-facility-priority-order | EV-490 |
+| CLAIM-1853 | THE GEM-TO-PLAYER CONVERSION: 1,125 gems maxes about 2.5 players, i.e. roughly 450 gems per fully maxed player - the number that makes every facili... | Community Consensus | economy/1125-gems-equals-2.5-players | EV-490 |
+| CLAIM-1854 | THE FANZONE HAS FIVE LEVELS - a second mod-site source ('Instantly level up your Commercial, Medical, Training, and the brand-new Fanzone facilitie... | Community Consensus | facilities/fanzone-five-levels-second-source | EV-490 |
+| CLAIM-1856 | LEGENDARY COACHES DO NOT RAISE THE UPGRADE CAP: 'Legendary coaches DO NOT increase the cap of upgrades at the end, I maxed my Son card with a legen... | Community Consensus | coaching/legendary-does-not-raise-cap | EV-490 |
+| CLAIM-1857 | Breakthroughs may not add extra stats once a card is ready to max: 'I have seen a few people that claim breakthroughs do add extra stats to players... | Community Consensus | coaching/breakthroughs-at-max | EV-490 |
+| CLAIM-1858 | CONFLICT - the special-vs-normal coach efficiency: one source claims '26.25 gems/upgrade point for legendary special coach vs 5.8 gems/upgrade poin... | Community Consensus | coaching/special-vs-normal-efficiency-conflict | EV-490 |
+| CLAIM-1859 | THE RECRUITMENT CENTRE'S FUNCTION, from a second source: it reduces the GEM OR COIN cost of agents and scouts. | Community Consensus | facilities/recruitment-reduces-gem-or-coin-cost | EV-490 |
 | CLAIM-186 | DLS26 post-launch update timeline confirmed: Dec 2025 launch with Clans/Kick-Off Stars/Raphinha-Alvarez new UI/broadcast angles; Jan 2026 winter tr... | Community Consensus | unscoped | EV-272,EV-276 |
 | CLAIM-188 | Dynamic Stars (Summer Spotlight event, 13.410) are Special Players that upgrade LIVE based on real-world national team tournament performance: base... | Community Consensus | unscoped | EV-273,EV-272 |
 | CLAIM-189 | World Tournament is a new event type introduced in Summer Spotlight (13.410): an international football event structure with high-tier reward track... | Community Consensus | unscoped | EV-272,EV-276 |
