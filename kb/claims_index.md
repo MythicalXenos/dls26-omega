@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:07:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2111**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 820 / Speculative 52 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **472**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:14:33Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2125**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 833 / Speculative 53 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **473**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,25 +10,25 @@ Distinct evidence records cited: **472**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 113 |
-| dll | 77 |
+| dll | 78 |
+| transfers | 78 |
 | gameplay | 76 |
-| transfers | 71 |
 | cards | 64 |
 | clans | 62 |
 | setpieces | 59 |
 | career | 58 |
 | controls | 51 |
-| errata | 49 |
+| errata | 50 |
 | patching | 42 |
 | training | 40 |
+| coaching | 39 |
 | cups | 39 |
 | prizeladder | 38 |
 | coaches | 37 |
-| coaching | 37 |
 | attributes | 35 |
+| tactics | 34 |
 | events | 31 |
 | platform | 31 |
-| tactics | 31 |
 | customization | 29 |
 | achievements | 25 |
 | presentation | 25 |
@@ -2082,6 +2082,19 @@ Distinct evidence records cited: **472**.
 | CLAIM-2112 | A SECOND TIER 1 TIMELINE: '**I got to tier 1 after 3 weeks on a new account you just need some skills, with an average non maxed team**' - so three... | Community Consensus | dll/tier-1-in-three-weeks | EV-508 |
 | CLAIM-2113 | THE RECORD HOLDER'S DISCIPLINE, and the clearest statement yet that the 50% resale rule makes selling a loss rather than a strategy: '**Not once di... | Community Consensus | dll/never-sold-a-player | EV-508 |
 | CLAIM-2114 | A DLS25 TIER 1 CHAMPION STRUGGLING IN DLS26: 'I went from **winning Tier 1 for fun on DLS 25 to now being on the border between T2 and T1, going up... | Community Consensus | dll/dls25-champion-struggling-in-dls26 | EV-508 |
+| CLAIM-2116 | THE 84+ PURCHASE RULE, from two independent voices: '**save money and wait for those 84-86 players** unless you are big fan of someone/some team, a... | Community Consensus | transfers/84-plus-purchase-rule | EV-509 |
+| CLAIM-2117 | THE BLUE-CARD TRAP: '**Be careful with secret player and rare player appearances in your transfers. Often the rare players that'll appear will be e... | Community Consensus | transfers/blue-card-trap | EV-509 |
+| CLAIM-2118 | THE SECRET-PLAYER THRESHOLD, the exception to the trap: '**secret player offers will be of great benefit if they're >1.2k in cost.**' So a discount... | Community Consensus | transfers/secret-player-1200-threshold | EV-509 |
+| CLAIM-2120 | THE GREY-GOALKEEPER ROUTE, which closes a gap in the corpus's coaching economy: '**Don't use gems for goalkeeper coaches.** It comes as no surprise... | Community Consensus | coaching/grey-goalkeeper-to-gk-coach | EV-509 |
+| CLAIM-2121 | THE TEAM-RATING MARKET THRESHOLD: '**You can get good players after like 75 but you'll definitely get the best players once you hit 80**' and 'good... | Community Consensus | transfers/team-rating-80-market-threshold | EV-509 |
+| CLAIM-2122 | THE BUY-HIGHEST-RATED LOOP: '**buy the highest rated players every time the market refreshes, this will increase your team strength and accordingly... | Community Consensus | transfers/buy-highest-rated-loop | EV-509 |
+| CLAIM-2123 | THE 1,400-COIN LEGENDARY-TO-RARE-COACH ROUTE, a second rung on the coin-only coaching ladder: 'I've maxed my stadium, and I've been using coins to ... | Community Consensus | coaching/1400-coin-legendary-to-rare-coach | EV-509 |
+| CLAIM-2124 | THE PATIENCE REQUIREMENT for the wanted-player search: 'It takes time, **I've played like 36 matches and still haven't gotten the player I wanted**... | Community Consensus | transfers/patience-36-matches | EV-509 |
+| CLAIM-2125 | THE MINUTE-70 FORFEIT: 'If you want to face easy competition in live, **play until minute 70 that way you can forfeit.**' A way to lose on purpose ... | Community Consensus | dll/minute-70-forfeit | EV-509 |
+| CLAIM-2126 | A DISSENT AGAINST 4-2-3-1, the corpus's most-recommended formation: '**Never use 4-2-3-1, if you can. Striker has zero support all the time, and st... | Community Consensus | tactics/never-use-4-2-3-1-dissent | EV-509 |
+| CLAIM-2127 | THE 4-5-1 FINDING: '**It can work even if your lineup still has a lot of white/common players.** Verdict: 4-5-1 is best used as a reactionary tacti... | Community Consensus | tactics/4-5-1-works-with-commons | EV-509 |
+| CLAIM-2128 | THE 4-1-2-3 CASE, from a player who tried most formations: 'it reinforced my defence with the addition of a DM. The 2 CMs in the front can act both... | Community Consensus | tactics/4-1-2-3-case | EV-509 |
+| CLAIM-2129 | A SEVENTH CONTAMINATION: both searches returned EA FC trading methods (sniping filters, SBC demand cycles, the 5% EA tax, FUTBIN, FUT Chief) and ge... | Community Consensus | errata/seventh-contamination | EV-509 |
 | CLAIM-213 | Daily login = 40 Season Points/day (per BlueStacks); baseline match rewards provide Season Points. DLS26 also has a Daily Bonus (added Summer Spotl... | Community Consensus | unscoped | EV-270,EV-276 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
@@ -2205,6 +2218,7 @@ Distinct evidence records cited: **472**.
 | CLAIM-2074 | REJECTED AN EIGHTH TIME, and the most elaborate fabrication yet: playdreamleaguesoccer.com publishes a complete 'DLS 2026 Schedule' - a month-by-mo... | Speculative | errata/playdream-eighth-rejection-fake-calendar | EV-505 |
 | CLAIM-2085 | THE SECONDARY PRESS WAS REMOVED AND RE-IMPLEMENTED BADLY, per one account: 'People complain about the new DLS 26 style of play so they brought back... | Speculative | controls/secondary-press-rollback | EV-506 |
 | CLAIM-2115 | A FLAGGED SOURCE CONTRADICTING DOCUMENTED NEGATIVES - a sixth concrete reason for the existing flag: eslamgaming's 'honest review' claims '**player... | Speculative | errata/eslamgaming-contradicts-documented-negatives | EV-508 |
+| CLAIM-2119 | THE DON'T-BUY-SCOUTS RULE: '**Don't. buy. scouts.** I know how tempting it may seem to buy a scout for that small chance that maybe you may just ge... | Speculative | transfers/dont-buy-scouts-dissent | EV-509 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

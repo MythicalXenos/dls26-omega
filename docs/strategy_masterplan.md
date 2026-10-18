@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-171 — 2,111 claims / 410 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-172 — 2,125 claims / 411 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -363,6 +363,8 @@ This is the most operationally important layer in the game, and almost every gui
 
 > **The efficiency case, as arithmetic:** *"12 Common scouts would involve an investment of 900 coins while on the other hand, 6 legendary scouts would eat up 3000 coins"* for the same legendary player.
 
+**The grey-goalkeeper route** [EV-509, C3] — the coin alternative to the corpus's no-gems-on-GK-coaches rule: *"**Don't use gems for goalkeeper coaches... You'll find that it is much cheaper to spend coins on gray goalkeepers and then immediately selling them for goalkeeper coaches**"*, because goalkeepers are the cheapest players in the game. And a second rung for Rares: *"buy the cheapest legendary player in the transfer market (usually around **1400**) and then immediately release them for a rare coach."* **So the coin-only coaching ladder runs grey goalkeeper → 80-rated defender → 1,400-coin legendary**, with gems reserved for the facility ladder.
+
 **THE COACH-FARMING LOOP, with its price band** [EV-486, C2]: *"Buy players under 180-210 coins and release for common coaches."* For unmazed squads, use **a 7:3 fitness-to-technical ratio**, then redo the players that end up badly after maxing. **What you get back is set by what you release:** an 80+ player yields a **Rare** coach, a sub-80 yields a **Common**, and a special player yields a **Special** coach. Goalkeeping coaches touch **only GKR and GKH**; Special coaches work **only on special players**.
 
 **THE GEM RULE** [EV-486, C3]: *"Avoid spending gems on anything other than upgrading facilities or training special players."* As a starter, *"aim to buy players rated 68 or above."*
@@ -382,6 +384,10 @@ This is the most operationally important layer in the game, and almost every gui
 > **And against long-ball spammers, play a LOW fullback at CB** to chase the forwards down — a personnel answer to the long-ball problem, sitting alongside the C-spam and wing-spam counters. **Strength also slows forwards** on pressure, which is why it outranks shooting on any defender's build.
 
 **THE CARD COLOUR TAXONOMY** [EV-486, C3] — worth knowing before you read any guide: **gold** = standard (better odds as you sign better players) · **black** = legends (Prize Ladder, a set window, usually ~80 days) · **purple** = Dream Stars (summer event) · **blue** = Champions (*"the most luck/p2w ones"*) · **orange** = maxed gold players.
+
+> **⚠️ THE BLUE-CARD TRAP** [EV-509, C3] — colour is a **price** signal, not a quality one: *"Often the rare players that'll appear will be expensive and <75 OVR. **The blue cards may look appealing but they'll be at double the expense of 65-70 OVR common (silver) players and the attribute differences aren't that significant performance wise in matches so treat them as a trap.**"* The exception: *"**secret player offers will be of great benefit if they're >1.2k in cost.**"* So the market has a two-line rule — **take a discounted secret offer above ~1,200 coins, refuse an expensive blue card below 75 OVR.**
+
+**THE 84+ PURCHASE RULE** [EV-509, C3], from two independent voices: *"**save money and wait for those 84-86 players**"* and *"**I advise you to buy only 84 and above players rating as they give the best chance of winning.**"* With the fan-buy caution: even a die-hard Messi or Ronaldo card is not worth buying now if *"their performance is not good as compared to other better players"* — buy it for the collection, not the win. **The market threshold behind it: good players appear around team rating 75, and the best ones once you hit 80** — so each purchase is a bid for a better market (*"buy the highest rated players every time the market refreshes, this will increase your team strength and accordingly you'll attract more better players"*). The cost of waiting is real: one player reports *"36 matches and still haven't gotten the player I wanted."*
 
 **THE DREAM POINTS ECONOMY** [EV-486, C2]: **75–250 DP per match** depending on performance, with boost items at **+50%, +70% and +150%** and post-match ads for more. The **first Prize Ladder special player costs ~50,000 DP**.
 
@@ -894,7 +900,7 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 > **⚠️ NO IN-MATCH FORMATION FLUIDITY** [EV-487, C2]. The claims of "Tactical Presets" switching between shapes *"on the fly"*, custom tactics you can save and share, and a "3-5-2 Fluid" formation are uncorroborated — and *"on the fly"* switching directly contradicts the kick-off rule above. The related claim that *"the A.I. learns from your playstyle"* and *"the opposing manager switches to a compact 4-4-2 mid-game"* is **refuted by FTG's own article**: *"there are no additional overlaid controls to manage the difficulty experience."*
 
-**Pick one and learn it deeply rather than chasing the meta** — the record run to Tier 1 used a mostly common/rare squad. The conflict in miniature: two YouTube videos in the same spring assert opposite conclusions (4-3-3 in March, 4-4-2 in May).
+**Pick one and learn it deeply rather than chasing the meta** — the record run to Tier 1 used a mostly common/rare squad. **And carry the dissent:** one experienced player says *"**Never use 4-2-3-1, if you can. Striker has zero support all the time, and still punished by long balls**"* — a genuine disagreement with a Tier 1 player's own preferred shape, recorded as a dissent rather than smoothed into consensus. The corpus's own C-014 explains it: shapes differ by failure mode, and 4-2-3-1's failure mode is an isolated striker. **The shape that works with a weak squad is 4-5-1** — *"It can work even if your lineup still has a lot of white/common players"* — best used reactively to preserve a score. The conflict in miniature: two YouTube videos in the same spring assert opposite conclusions (4-3-3 in March, 4-4-2 in May).
 
 ### 3.5 The control model and the complete skill catalogue [EV-480, C2]
 
