@@ -169,10 +169,12 @@
    "id": "RQ-20261017-019",
    "topic": "Resolve C-009 with an in-client look: does Main Menu > Season Leaderboard show other players and a position number?",
    "tier": "queue-Critical",
-   "status": "open",
+   "status": "completed",
    "added": "2026-10-17T19:50Z",
    "source": "logs/conflicts.md C-009",
-   "note": "This single observation decides whether the mission's '#1' can be measured on the Season Leaderboard at all. Fold into the P2 in-client checklist."
+   "note": "This single observation decides whether the mission's '#1' can be measured on the Season Leaderboard at all. Fold into the P2 in-client checklist.",
+   "resolution": "C-009 closed during the turn-35 sweep without an in-client look. The App Store version history plus r/DLS 1e42njg and 1qz14ir establish that DLS26 exposes no global #1 surface: the DLL leaderboard is BY REGION and performance-based, and the tier ladder is numeric 20->1 with Tier 1 Champion as the ceiling. The masterplan therefore fixes the operational target as Tier 1 Champion in the player's own region, sustained across seasons. The in-client Season Leaderboard check is retained only as a Part G intake item in FIRST_CONTACT_v2.md, and is no longer blocking.",
+   "completed_at": "2026-10-18T02:39:56Z"
   },
   {
    "id": "RQ-20261018-020",
@@ -197,10 +199,20 @@
    "id": "RQ-20261018-022",
    "topic": "Source-reliability register - five sources now flagged unreliable or rejected",
    "tier": "queue-Medium",
-   "status": "open",
+   "status": "completed",
    "added": "2026-10-18T02:10Z",
    "source": "turn35 waves 20, 22, 25, 26",
-   "debt": "sportsdunia (Commercial table rejected as internally inconsistent; INR season-pass figures unverified; Dynamic Stars numbers unverified); eslamgaming (ray-tracing/Frostbite/open-world/'Junior and Global divisions' fabrications, wrong control map, sole source for weather gameplay effects); playdreamleaguesoccer.com (chemistry, Tactical Presets, Adaptive Dribble, Neural Match Engine, fake player testimonials); Baiduwiki (non-existent auction-house market, outdated 2,000-player figure); footballeffect/gamingonphone 1,200-coin/40-gem starter outlier noted as a regional/beta variant"
+   "debt": "sportsdunia (Commercial table rejected as internally inconsistent; INR season-pass figures unverified; Dynamic Stars numbers unverified); eslamgaming (ray-tracing/Frostbite/open-world/'Junior and Global divisions' fabrications, wrong control map, sole source for weather gameplay effects); playdreamleaguesoccer.com (chemistry, Tactical Presets, Adaptive Dribble, Neural Match Engine, fake player testimonials); Baiduwiki (non-existent auction-house market, outdated 2,000-player figure); footballeffect/gamingonphone 1,200-coin/40-gem starter outlier noted as a regional/beta variant",
+   "resolution": "Register written to logs/source_reliability.md at ckpt-108: 5 rejected/unreliable sources with specific fabrication evidence, 4 downgraded sources, 4 approved high-reliability sources, and the rule that mirror dates are never authoritative (C-023).",
+   "completed_at": "2026-10-18T02:39:56Z"
+  },
+  {
+   "id": "RQ-20261018-023",
+   "status": "completed",
+   "topic": "Per-tier DLL playbook - translate the tier ladder into state-specific tactics for tiers 20->1",
+   "resolution": "Delivered as docs/dll_tier_playbook.md at ckpt-109.",
+   "completed_at": "2026-10-18T02:39:56Z",
+   "added_at": "2026-10-18T02:39:56Z"
   }
  ]
 }
