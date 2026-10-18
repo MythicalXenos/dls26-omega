@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-089 (`ef6e9d3`) — 1,273 claims / 335 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-092 (`6f8e239`) — 1,311 claims / 339 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -68,9 +68,21 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 |---|---|---|---|
 | 1 | **Stadium** | Home-match coin bonus is the only compounding income source | 1,125 gems per facility; **5,625 gems total** for all five; optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [C2/C3] |
 | 2 | **Commercial** | +13% coins at L2, **+21% at L3**; L3 also removes stadium rust | First tier 75 gems [C2/C3] |
-| 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations | L1 5% / 75g, L2 10% / 150g, L3 15% [C2/C3] |
-| 4 | **Medical** | Injury reduction and cheaper recovery | L1 gives −5% / −10% [C2] |
+| 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations | See full ladder below |
+| 4 | **Medical** | Injury reduction and cheaper recovery | L1 gives −5% injury / −10% heal cost; L2–L5 **never published** [C2] |
 | 5 | **Fanzone** (new in Summer Spotlight) | **Clan bonuses + stadium discounts** | Per-level costs **never published** [EV-428/App Store, C1 on function, C5 on cost] |
+
+**Full Training ladder with prices** [EV-437, C2]:
+
+| Level | Cost | Discount | Bonus |
+|---|---|---|---|
+| L1 | 75 gems | 5% off coaches | — |
+| L2 | 150 gems | 10% | + a group of formations |
+| L3 | 225 gems | 15% | + a group of formations |
+| **L4** | **300 gems** | — | **LEGENDARY COACHES DROP BELOW 200 GEMS EACH — the coach-farming unlock** |
+| L5 | 375 gems | — | Full discount ladder |
+
+Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). Community advice: **stop at Level 2** unless you intend to spend 3,000+ gems on legendary coaches [EV-437, C2].
 
 > **DLS26 CHANGE:** the first facility tier now costs **375 COINS**, not 75 gems as in every prior version [EV-411, C2]. This is the single biggest early-game change — spend coins, save gems.
 
@@ -187,6 +199,62 @@ These are the cheap, permanent wins that separate tier 2 from tier 1.
 
 **Form Boost usage** [EV-428, C1/C2]: duration is a **set number of matches gated by your Training facility level, minimum one match**. Because the exact per-level table has never been published, treat Form Boosts as a **one-match** tool and spend them only on a player who needs a specific rating threshold crossed *now* — never as a routine.
 
+### 3.1 The tier-1 control model (the single highest-value section)
+
+Every item below is community-consensus [EV-436, C2] and costs nothing to adopt.
+
+**Defence — the non-negotiable rules**
+
+| Rule | Why |
+|---|---|
+| **Hold B and do NOT touch the joystick** | While holding B the player auto-moves to the ball; joystick input fights it |
+| **Run players BACKWARDS** | The core fix for both wing-spam and C-spam. Do **not** tackle the outermost player as the ball is switched — that strands your players upfield. Switch to defensive mode and run backwards at every opportunity to concentrate the team in your own third |
+| **Anti-C-spam: backwards-running central midfielders** | You will intercept the lofted passes; on intercept switch to attacking mode and counter |
+| **Secondary press > main press** | Use the secondary press so a *teammate* applies pressure while you position your player to block the pass or shot. The same applies in aerial duels — against C-spammers never hold the main press |
+| **Turn AUTO-SWITCH OFF** | The standard anti-C-spam setting. Practise in Career Mode first; it feels wrong for a while |
+| **Never push defenders forward** | Use a DM to press in midfield; play zonal defending out of possession |
+| **Block shots, and press C to bring the keeper out** | When the ball is in the air (lob or C-spam), press B and aim at the nearest midfielder/winger/fullback |
+| **Slide-tackle sparingly** | Yellow-card risk; a ban costs you matches |
+| **Switch tactics constantly** | DEFENSIVE when you cannot reach the ball in your own half (forwards track back, creating 2v1s), then ATTACKING the instant you win it |
+
+**The C-spam escalation ladder** — the highest-value single finding:
+
+1. When two strikers run at you, **head the ball diagonally: backwards AND slightly toward the second striker**. You either win it back to a defender or neither of you gets it — then switch quickly to another defender and collect.
+2. Still C-spammed? **3 at the back → 4.**
+3. Still? **4 → 5.**
+4. Still? If your formation had **three vertical lines** (4-4-2, 5-3-2), switch to one with **four or five vertical lines** — **4-1-2-1-2 or 5-2-1-2**.
+
+Reported to negate **~95% of C-spamming** [EV-436, C2].
+
+**A-spam defence** (crossing side to side, then cutting back to a striker in the box): switch to **4-1-2-1-2 DEFENSIVE**. Once they reach the crossing stage only poor composure stops them — the key is cutting them off *before* that.
+
+**Free-kick defence:** there is no time to press A for a defensive header. Move a player onto the **goal line** before the kick; that player is auto-switched to quickly, and the **double-tap "trick shot"** control produces an immediate header and goal-line clearance.
+
+**Dribbling — the close-control touch fix:** dribbling at pace then switching direction produces an extra unwanted touch in the original direction. **Just before** switching direction, **hold the screen** for close control — this kills the extra touch. Release immediately to resume normal dribbling.
+
+**Attack**
+
+| Tactic | Execution |
+|---|---|
+| **Counter-attack** | 3 attackers up front; fast wingers (Salah right, Vinícius/Dembélé left) and a clinical striker. Win the ball → pass to the free winger → sprint. If closed down, hold C or A and pass to the **opposite** winger, who is always free in a counterattack → shoot or lob over the CBs → press A in the 1v1 |
+| **Long B pass (the meta)** | Diagonal grounded B passes to wingers, best when you dispossess the opponent in your own half. **Press the Heatmap button and switch to ATTACKING mode before pressing and holding B** |
+| **C-spam offence** | Tall, fast forwards; C button at a power bar **slightly over half** beats the defensive line for a 1v1 |
+| **Possession** | Hold the ball and build slowly — *when you have it, your opponent can't score*. Short accurate midfield passes, wait for the right moment. Practise in the **Corner** training mode |
+| **Long shots** | >75% accuracy with correct power — a way to score without breaking the line |
+| **After you score** | Drop back, pass to GK/CBs, and defend the lead |
+
+**Avoid:** blind C passes, blind shots, and rushing passes. Do dribble while stopped, and call out the keeper when necessary.
+
+**Formation meta is genuinely unsettled** (C-014 stays open by design): 4-4-2 for balance (LM/RM as wingers, full-backs supporting both phases); 4-1-2-1-2 and 4-1-3-2 favoured by the tier-1 guides; 4-3-3 and 3-4-1-2 pushed by sportsdunia. **Pick one and learn it deeply rather than chasing the meta** — the record run used a mostly common/rare squad.
+
+### 3.2 Injury and healing economics [EV-437, C2/C3]
+
+- **Gem-to-games conversion:** 35 gems = 7 games out · 25 gems = 5 · 10 gems = 2 · 5 gems = 1.
+- **Physio tiers:** Common +10% energy / ~50 coins · Rare +20% / ~100 coins · **Legendary +50% and heals ALL injuries / 150 coins with maxed facilities, 250 otherwise**.
+- A **mid-game Team Boost** and a **post-match Team Physio** both restore 10% stamina; individual healing costs ~2–4 coins per player.
+- **Maxed Medical Centre** makes physio trips "super cheap" — effectively endless playtime.
+- Injuries last **3–10 games**; a **Fitness coach** can also help heal an injured player [C3].
+
 ---
 
 ## 4. What NOT to do (dead ends, do not retry)
@@ -217,7 +285,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 |---|---|---|---|
 | 1 | **Fanzone per-level costs** | Unknown gem commitment for the newest facility | Never published. Function confirmed (clan bonuses + stadium discounts) [C1] |
 | 2 | **Form Boost duration per Training level** | Cannot price the Training facility's real value | Mechanic officially confirmed; **numbers never published** [EV-428, C1] |
-| 3 | **Medical per-tier % beyond L1** | Cannot optimise the injury economy | Only L1 (−5%/−10%) sourced [C2] |
+| 3 | **Medical per-tier % beyond L1** | Cannot optimise the injury economy | Only L1 (−5% injury / −10% heal cost) sourced; later tiers described qualitatively only [C2] |
 | 4 | **Post-DLS25 coach breakthrough %** | Coach packs priced off a DLS20 baseline (5/10/20) | Baseline only [C2] |
 | 5 | **Fan Approval mechanics** | Blocks the last stretch to 100% club value | Only the 75%/100% milestones known |
 | 6 | **GCC format** (C-013) | One cup's structure unclear | OPEN conflict |
@@ -225,7 +293,8 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | 8 | **12th Man winner identity** | A named card (Vozinha) is now a strong lead | Vozinha flagged 12th Man in the v13.430 datamine [EV-430, C3] |
 | 9 | **Cult Heroes OVR conflict** (C-018) | 92 vs 95 on the four 85-rated heroes | OPEN |
 | 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | OPEN |
-| 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 | OPEN |
+| 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 vs 4-4-2 | OPEN — a genuine live disagreement, not an error |
+| 12 | **Commercial bonus curve** (C-019) | 13%/21% vs "10% at L5, biggest FTG scam" | OPEN |
 
 **Step 2 (static APK datamining)** remains postponed pending user direction. It is the only route that would close gaps 1, 2, 3, 4 and 5 definitively, because all five are numeric tables inside the game data.
 
