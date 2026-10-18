@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:58:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1221**
-Distribution: Confirmed 300 / High Confidence 573 / Community Consensus 317 / Speculative 30 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **391**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:59:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1236**
+Distribution: Confirmed 303 / High Confidence 576 / Community Consensus 324 / Speculative 32 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **393**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -11,12 +11,12 @@ Distinct evidence records cited: **391**.
 | facilities | 72 |
 | economy | 65 |
 | career | 40 |
+| clans | 36 |
 | coaches | 36 |
 | controls | 34 |
 | patching | 33 |
 | platform | 30 |
-| prizeladder | 29 |
-| clans | 28 |
+| prizeladder | 30 |
 | customization | 27 |
 | cups | 25 |
 | transfers | 24 |
@@ -30,17 +30,17 @@ Distinct evidence records cited: **391**.
 | presentation | 16 |
 | tactics | 16 |
 | errata | 15 |
-| training | 13 |
+| training | 15 |
 | goalkeeping | 11 |
 | ui | 11 |
 | account | 10 |
+| formboost | 10 |
 | match | 10 |
 | onboarding | 10 |
 | setpieces | 10 |
 | squad | 8 |
 | physio | 7 |
 | difficulty | 6 |
-| formboost | 6 |
 | monetization | 6 |
 | save | 6 |
 | discipline | 5 |
@@ -340,7 +340,10 @@ Distinct evidence records cited: **391**.
 | CLAIM-122 | Custom imported kits and logos are NOT visible to opponents in Dream League Live (official 360021064298): the opponent does not see yours and you d... | Confirmed | unscoped | EV-228 (cross-branch capture record, summary-only provena... |
 | CLAIM-1220 | DLS26 official launch features (App Store version history): Dynamic Stars, the Fanzone facility, Turkish and Arabic commentary, updated 2025/26 pla... | Confirmed | patching/dls26-launch-features-official | EV-427 |
 | CLAIM-1221 | Kick-Off Stars are special-edition Raphinha and Julian Alvarez cards available at DLS26 launch. | Confirmed | cards/kick-off-stars | EV-427 |
+| CLAIM-1226 | OFFICIAL (FTG support): a Form Boost increases a player's attributes for a set number of matches as detailed by the Training facility level, with a... | Confirmed | formboost/duration-gated-by-training | EV-428 |
+| CLAIM-1227 | OFFICIAL (FTG support): coaches randomly select which player to permanently upgrade - the manager does not choose the recipient of a coach card. | Confirmed | training/coach-random-selection | EV-428 |
 | CLAIM-123 | OFFICIAL FAIRNESS STANCE (article 360000842697): DLS is a game, not an accurate simulation of football or physics; FTG balances fun against realism... | Confirmed | unscoped | EV-229 (cross-branch capture record, summary-only provena... |
+| CLAIM-1238 | Clan join conditions set by a leader hide that clan from search results, but an invite code still allows entry regardless of requirements. | Confirmed | clans/invite-code-bypass | EV-429 |
 | CLAIM-124 | Offline modes (official 360003945557): most game modes require an internet connection, mobile or Wi-Fi both work, but Dream League Live (multiplaye... | Confirmed | unscoped | EV-230 (summary-only),CLAIM-019,CLAIM-023,CLAIM-072 |
 | CLAIM-125 | User ID retrieval path (official 37082887837202): open DLS → Options (gear, top left) → Advanced → System Info (the "i" button) → Copy Info, then p... | Confirmed | unscoped | EV-231 (summary-only),CLAIM-023,CLAIM-035 |
 | CLAIM-126 | VERSION-GAP RESOLUTION (B-009, sibling research): the two apparent gaps in the 2026 version timeline are real periods without a public release, not... | Confirmed | unscoped | EV-237,CLAIM-048,S-20261017-057 (sibling service record, ... |
@@ -788,6 +791,9 @@ Distinct evidence records cited: **391**.
 | CLAIM-1216 | Card colour follows BASE rarity: players rated 70-79 finish blue when maxed and 80+ finish black, only legendary players change colour (turning bla... | High Confidence | cards/colour-rules | EV-426 |
 | CLAIM-1222 | The Dream League Live leaderboard is BY REGION and is based on performances rather than team rating - worldwide ranking was only directly visible t... | High Confidence | dll/leaderboard-regional | EV-427 |
 | CLAIM-1224 | VERSION DRIFT on captain selection: the DLS21-era build showed 9 random Legendary Cards to choose from, whereas the current build offers roughly 80... | High Confidence | onboarding/captain-selection-version-drift | EV-427 |
+| CLAIM-1228 | DLS20/DLS21 baseline: a Form Boost lasted exactly one match and cost 5 gems for +1 OVR, 8 gems for +2 and 10 gems for +3, with the price identical ... | High Confidence | formboost/cost-oot-baseline | EV-428 |
+| CLAIM-1230 | The Training facility gates access to FORMATIONS as well as Form Boost duration and coach discounts, which the community criticises as arbitrary ga... | High Confidence | training/gates-formations | EV-428 |
+| CLAIM-1233 | A single clan member can contribute at most 350,000 points to the clan total; points earned beyond that only rank that member first inside the clan... | High Confidence | clans/contribution-cap-meaning | EV-429 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1161,6 +1167,13 @@ Distinct evidence records cited: **391**.
 | CLAIM-1219 | CONFLICT on the DLS26 top base rating: thesoccerera/z2u/sportsdunia put Dembele, Mbappe, Kane and Haaland at 86, while some databases list Yamal at... | Community Consensus | ratings/top-base-conflict | EV-426 |
 | CLAIM-1223 | Serious-player benchmarks from a 3-month review: 13 times Tier 1 Champion, 1,472,836 online XP, a 57% online win rate, 987 career and 1,086 live ga... | Community Consensus | career/player-benchmarks | EV-427 |
 | CLAIM-1225 | G2G marketplace listings advertise account tiers named 'GRAND LEGENDARY X' and 'GRAND LEGENDARY VII' - these are seller/marketplace labels and are ... | Community Consensus | errata/g2g-grand-legendary-marketplace | EV-427 |
+| CLAIM-1229 | Form Boosts are random in which attributes they raise - a player can receive only +2 strength or +4/+5, and a +4 OVR jump occurs when the boosted c... | Community Consensus | formboost/attribute-variance | EV-428 |
+| CLAIM-1232 | Roughly 3,500 Clan Points are earned per online match win, so the 350,000 individual contribution cap corresponds to about 100 online wins in a sea... | Community Consensus | clans/points-per-online-win | EV-429 |
+| CLAIM-1234 | CONFLICT on the clan top-contributor reward: a Spanish-language clan leader thread states 50 gems at season end for the clan's number-one contribut... | Community Consensus | clans/top-contributor-reward-conflict | EV-429 |
+| CLAIM-1235 | Creating a clan costs 150 gems and barely breaks even in the first season unless the clan is highly active. | Community Consensus | clans/creation-cost | EV-429 |
+| CLAIM-1236 | Active clans report roughly 13-15 million Clan Points per season with a 350,000+ member contribution requirement, while some target an 8 million se... | Community Consensus | clans/season-totals | EV-429 |
+| CLAIM-1237 | Clan reward ladder: first reward at 25,000 Clan Points, then 25 gems at 1M, a Legendary XP boost at 2M, a Legendary Scout at 3M, 500 coins at 5M, a... | Community Consensus | clans/reward-ladder | EV-429 |
+| CLAIM-1239 | Clan creation customisation covers badge (style, background, icon, frame colour, dressing), clan name, clan country, entry requirements by minimum ... | Community Consensus | clans/creation-options | EV-429 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
@@ -1289,6 +1302,8 @@ Distinct evidence records cited: **391**.
 | CLAIM-1134 | Claims that the AI learns your playstyle, adapts defensively to repeated wing play, or uses a 'Neural Match Engine' appear only on eslamgaming and ... | Speculative | ai/adaptation-unconfirmed | EV-418 |
 | CLAIM-1191 | OPEN GAP: no source names the LIVE ranks above 'Veteran' in the current build, so the top of the DLL ladder is unknown. | Speculative | dll/rank-names-above-veteran | EV-423 |
 | CLAIM-1197 | A Fan Approval Rating exists with a 'Fan Favourite' achievement for reaching 100%; its mechanics are undocumented in every source found - OPEN GAP. | Speculative | squad/fan-approval | EV-424 |
+| CLAIM-1231 | OPEN GAP: the exact Form Boost duration in matches for each Training facility level (2 through 5) has never been published by FTG or any community ... | Speculative | formboost/per-level-duration-open | EV-428 |
+| CLAIM-1240 | LEAD: upcoming Prize Ladder players reportedly include Roy Keane (rating and year unrevealed), Irvin at 85 (year unrevealed), Conor Gallagher and P... | Speculative | prizeladder/cult-heroes-lead | EV-429 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

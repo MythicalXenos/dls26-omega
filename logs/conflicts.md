@@ -136,3 +136,9 @@ Each entry: the two sides with origin and date, the status, what would settle it
 
 ## Standing rule for this ledger
 A conflict is closed only with evidence that settles the proposition, never because a later claim simply repeated one side. Where a conflict depends on the current build and cannot be checked in this environment, it stays open and its advice states the dependency.
+
+## C-017: Clan top-contributor gem reward (50 vs 100)
+- **Source A:** r/DreamLeagueSoccer 1pk9dae (Dec 2025, Spanish-language clan-leader thread) — the clan's number-one contributor receives **50 gems** at season end; a comment adds that contributions above 350k only help you become first in-clan, not the clan total.
+- **Source B:** sportsdunia DLS26 Clans guide — "having the highest clan points gives you the reward of **100 gems**".
+- **Status:** OPEN. Both are community sources; no official FTG figure found. Recorded in EV-429 / CLAIM on clan reward. Needs an in-game screenshot or FTG support confirmation.
+
