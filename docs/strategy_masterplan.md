@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-169 — 2,087 claims / 408 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-170 — 2,100 claims / 409 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -773,6 +773,15 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 Power recipes that work (pick one and drill it): A to 60% · A to 80–90% with in-then-out curve · C at 2/3–3/4 · C at 80% on a 50–60° angle · or leave the arrow alone and play a strong lob to a defender, then a short header to the nearest open man.
 
 **Two caveats:** DLS25 **nerfed corner headers**, so the fallback is to aim middle and press **B to pass** to someone better placed rather than heading immediately. And the **short corner** is a real option when crossing into the crowd fails — hold **B** to the nearest player outside the box and set up a long shot.
+
+**The near-post post-to-post routine** [EV-507, C3] — for the corner hit too deep to head directly: *"C pass it lightly to the other side of the post to another player who can head it in with an A shot. **This makes the keeper have to run post-to-post twice** and you can easily score near-post."*
+
+**Defending them** [EV-507, C3]:
+- **Set the header up BEFORE the ball arrives, not after.** Switch to your tallest defender, drag him outside the box, and hold **B** while he moves — do not wait for the ball to be in the air.
+- **Point the aim marker AWAY from the ball's trajectory** — toward the sideline of the *opposite* corner — then hold B. One source reports it *"works 4/5 especially if you have tall center backs."*
+- **Free kicks:** put a player on the goal line before the kick; he is auto-switched to quickly, and the **double-tap "trick shot"** produces an immediate goal-line header (CLAIM-1295).
+
+> **⚠️ THE FOOTEDNESS QUESTION IS CONFUSED EVEN INSIDE SINGLE SOURCES** [EV-507, C2]. One commenter writes *"your right footed players should always take right corners... **the mistake yall do with corners is making your left footed players take right corners**"* — and then, a few lines later in the same comment, *"**use a right footed player when taking the left corner and vice-versa.**"* Both arrangements, one source, no acknowledgement. **That is the clearest evidence yet for C-022's resolution: the two camps were never describing two opinions, they were describing two deliveries** — and even individual players hold both without noticing. Do not let a single confident source settle it for you.
 
 **Free kicks — the three mechanics the corpus was missing** [EV-500, C3]:
 - **THE AIM-OFFSET PRINCIPLE, which explains every other instruction:** *"The effects will start after you don't aim on the line from your player to the center of the goal. Whatever direction."* **A straight-on free kick is a straight shot; all curl comes from aiming off that line.** A right-footer aiming right gets an out-swinger, a left-footer gets a transverse — and the mapping flips when the angle changes.

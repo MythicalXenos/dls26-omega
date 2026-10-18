@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:01:36Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2087**
-Distribution: Confirmed 391 / High Confidence 846 / Community Consensus 798 / Speculative 51 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **470**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:04:35Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2100**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 810 / Speculative 51 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **471**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -16,9 +16,9 @@ Distinct evidence records cited: **470**.
 | cards | 64 |
 | clans | 62 |
 | career | 58 |
+| setpieces | 52 |
 | controls | 51 |
-| setpieces | 46 |
-| errata | 45 |
+| errata | 48 |
 | patching | 42 |
 | training | 40 |
 | cups | 39 |
@@ -43,16 +43,16 @@ Distinct evidence records cited: **470**.
 | negatives | 13 |
 | formboost | 12 |
 | ui | 12 |
+| matchcraft | 11 |
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
-| matchcraft | 10 |
 | medical | 10 |
+| skillmoves | 10 |
 | social | 10 |
+| squad | 10 |
 | positions | 9 |
-| squad | 9 |
 | 12thman | 8 |
-| skillmoves | 8 |
 | multiplayer | 7 |
 | physio | 7 |
 | seasonpass | 7 |
@@ -1205,6 +1205,7 @@ Distinct evidence records cited: **470**.
 | CLAIM-206 | Commentary languages progression: English (original); Spanish added DLS24; Portuguese added DLS25; Turkish and Arabic added in DLS26 July 2026 Summ... | High Confidence | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-2062 | THE ACHIEVEMENT-COUNT CONFLICT IS NOW EXPLAINED: the 87-achievement / 100,000-XP list is **DLS Classic**, a separate game with its own 87 achieveme... | High Confidence | achievements/other-lists-are-other-games | EV-504 |
 | CLAIM-2079 | DOUBLE-TAP CLEARING - a defensive control the corpus did not have at all: 'as long as the system detects your defender is within range of the ball,... | High Confidence | gameplay/double-tap-clearing | EV-506 |
+| CLAIM-2092 | A SINGLE COMMENT THAT ARGUES BOTH SIDES OF THE CORNER-FOOTEDNESS QUESTION - the clearest evidence yet for the corpus's C-022 resolution. One commen... | High Confidence | errata/corner-footedness-self-contradiction | EV-507 |
 | CLAIM-211 | FTG studio portfolio (four active/supported franchises as of 2026): Dream League Soccer (flagship, annual, 2011-now, com.firsttouchgames.dls7); Sco... | High Confidence | unscoped | EV-277,EV-280 |
 | CLAIM-212 | DLS25 press release confirms 20M+ monthly active users (MAU) as of Dec 2024; over 1 billion cumulative downloads since 2011; Sheffield United (2020... | High Confidence | unscoped | EV-277,EV-280 |
 | CLAIM-214 | Career division ladder (DLS26, 8 divisions, bottom→top): Academy Division → Amateur Division → Division 4 → Division 3 → Division 2 → Division 1 → ... | High Confidence | unscoped | EV-284 |
@@ -2058,7 +2059,19 @@ Distinct evidence records cited: **470**.
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
 | CLAIM-2090 | THE EXACT SECONDARY-PRESS INPUT, restated because the corpus's descriptions vary: 'hold down on an **empty part of your display** while defending a... | Community Consensus | controls/secondary-press-exact-input | EV-506 |
 | CLAIM-2091 | A DLS25 BASELINE FOR THE SECONDARY PRESS, useful for a device test: 'Holding the screen while running towards an attacker brings another defender w... | Community Consensus | controls/secondary-press-80-percent-baseline | EV-506 |
+| CLAIM-2093 | THE DEFENSIVE CORNER PROCEDURE, with a number attached: 'before the ball arrives, **point the marker in the direction away from the balls trajector... | Community Consensus | setpieces/defensive-corner-marker-away-from-trajectory | EV-507 |
+| CLAIM-2094 | THE FULL CORNER-DEFENCE PROCEDURE, and the timing is the part most players get wrong: '**Switch to your tallest defender first** then start moving ... | Community Consensus | setpieces/corner-defence-procedure-and-timing | EV-507 |
+| CLAIM-2095 | THE NEAR-POST POST-TO-POST ROUTINE, for the corner hit too deep to head directly: 'If you end up hitting a corner too deep that a header is probabl... | Community Consensus | setpieces/near-post-post-to-post-routine | EV-507 |
+| CLAIM-2096 | THE HEIGHT REQUIREMENT for the squad: '**Have at least 3-4 players that are taller than 185** so you can win corners. **Almost always have a tall S... | Community Consensus | squad/three-to-four-players-above-185 | EV-507 |
+| CLAIM-2097 | THE NAMED HEADER TARGETS: '**Get Konate he's the same size as haaland and almost always wins headers**' - with Van Dijk and Haaland named in the sa... | Community Consensus | setpieces/named-header-targets | EV-507 |
+| CLAIM-2098 | THE CONVERSION CLAIM: '**Corner kicks are easy 8/10 always go in.**' Consistent with the corpus's December 2025 finding that corners are now the mo... | Community Consensus | setpieces/corners-8-of-10-conversion | EV-507 |
+| CLAIM-2099 | THE TRAINING-GROUND CORNER ROUTINE, corroborated a second time: 'The easiest way to score on corners is **do not move the arrow, strong power lob t... | Community Consensus | setpieces/training-ground-corner-routine | EV-507 |
 | CLAIM-210 | DLS franchise lineage (with release dates): First Touch Soccer (iOS, 8 Dec 2011) → FTS 14 (2014) → FTS 15 (2015, last FTS branded release) → Dream ... | Community Consensus | unscoped | EV-277,EV-280 |
+| CLAIM-2100 | THE PER-MOVE BEST-USE TABLE, consolidated: **Rainbow Flick = lift the ball over a defender** (use when an opponent is close) · **Feint = change dir... | Community Consensus | skillmoves/per-move-best-use-table | EV-507 |
+| CLAIM-2101 | THE COMBINATION TIP: '**Combine Close Control + Knock Ahead for tight-then-fast movement.**' So the two DLS25/26 additions are a PAIR - close contr... | Community Consensus | skillmoves/close-control-plus-knock-ahead | EV-507 |
+| CLAIM-2102 | THE HOLD-THE-BALL TACTIC, a third voice on the dribbling-while-stopped strategy: 'dribbling/holding the ball a little bit when you are on an attack... | Community Consensus | matchcraft/hold-the-ball-when-no-pass | EV-507 |
+| CLAIM-2103 | A CROSS-DOMAIN CORROBORATION of the corpus's planted-foot read, from real-football coaching rather than DLS: '**Attack the Defender's Front Foot.**... | Community Consensus | errata/planted-foot-cross-domain-corroboration | EV-507 |
+| CLAIM-2104 | A SIXTH CONTAMINATION: the skill-move search returned levelup.soccer, hoopsking, expertfootball, progressivesoccertraining, wikihow, villarrealhous... | Community Consensus | errata/sixth-contamination | EV-507 |
 | CLAIM-213 | Daily login = 40 Season Points/day (per BlueStacks); baseline match rewards provide Season Points. DLS26 also has a Daily Bonus (added Summer Spotl... | Community Consensus | unscoped | EV-270,EV-276 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
