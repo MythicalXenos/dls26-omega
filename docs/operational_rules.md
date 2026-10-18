@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-145 — 1,760 claims / 385 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-146 — 1,772 claims / 386 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -469,6 +469,14 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 **Presentation** [C2]: broadcast cameras, a **pre-match walk-out in warm-up tracksuits**, **Turkish and Arabic commentary** (dynamically generated, not pre-recorded), more props/banners/flags, a new soundtrack and SFX, new cutscenes, a **dressing-room camera**, dynamic crowd noise that swells when you attack, dynamic day/night lighting, and **rain and wind that affect gameplay**.
 
 **The competitive settings profile** [C3]: sideline camera, 30% zoom, directional arrows **OFF**, radar map **ON**, names ON, scoreboard ON, and **kick assist, cross assist and pass assist all OFF**. A guide's alternative is TV camera at 80% distance, auto replay off, commentary 20%, music off, SFX 10%, haptics off.
+
+### 3.13 Injuries, recovery and the lifecycle negatives [EV-484, C2/C3]
+
+- **⚠️ THE INJURY REPORT IS EPHEMERAL.** DLS names the injury and the games out, but *"it's only visible after you exit the match where the injury happened. It's gone if you close the app or play another match."* **Read it the instant the match ends.**
+- **Rest is a real recovery channel:** resting a tired player for one match fully restores them, and the half-time team boost accelerates it. **Idle recovery: 3–4 hours for a weak squad, ~20 minutes for a maxed one.**
+- **Physios are hired with COINS** (the counterpart to gem-funded coaches): Common restores a small amount of energy, **Legendary fully restores energy and heals all active injuries**.
+- **⚠️ FOUR LIFECYCLE NEGATIVES:** **no morale system**, **no player growth or potential curve and no aging**, **no retirement**, **no surgery or rehab timeline**. A DLS player is a static card that moves only when you spend coaches — which is why §5's coaching method is the only development lever in the game.
+- **Mid-season refreshes re-rate players** (January 2026 moved Raya 83→84, Gabriel 84→85, Merino 79→80, Zubimendi 81→82, Trossard 79→80), so a card you hold can change value without you touching it.
 
 ---
 

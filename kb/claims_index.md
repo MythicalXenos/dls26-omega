@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:12:02Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1760**
-Distribution: Confirmed 382 / High Confidence 764 / Community Consensus 577 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **447**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:13:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1772**
+Distribution: Confirmed 382 / High Confidence 772 / Community Consensus 581 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **448**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -14,14 +14,14 @@ Distinct evidence records cited: **447**.
 | gameplay | 65 |
 | clans | 56 |
 | cards | 55 |
-| transfers | 49 |
+| transfers | 50 |
 | career | 48 |
 | training | 40 |
 | controls | 39 |
 | setpieces | 39 |
 | cups | 38 |
+| patching | 38 |
 | coaches | 37 |
-| patching | 37 |
 | prizeladder | 37 |
 | attributes | 34 |
 | platform | 30 |
@@ -44,12 +44,14 @@ Distinct evidence records cited: **447**.
 | draft | 10 |
 | match | 10 |
 | social | 10 |
+| medical | 9 |
 | coaching | 8 |
 | squad | 8 |
 | physio | 7 |
 | skillmoves | 7 |
 | difficulty | 6 |
 | monetization | 6 |
+| negatives | 6 |
 | save | 6 |
 | seasonpass | 6 |
 | 12thman | 5 |
@@ -66,14 +68,12 @@ Distinct evidence records cited: **447**.
 | settings | 4 |
 | features | 3 |
 | injuries | 3 |
-| medical | 3 |
 | multiplayer | 3 |
 | scenarios | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
 | matchcraft | 2 |
-| negatives | 2 |
 | shooting | 2 |
 | sources | 2 |
 | anticheat | 1 |
@@ -1100,6 +1100,14 @@ Distinct evidence records cited: **447**.
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-1763 | Matches run in real time with a 3-MINUTE HALF-LENGTH by default, and can be sped up or paused. | High Confidence | gameplay/three-minute-halves | EV-483 |
 | CLAIM-1764 | v13.040 (17 Dec 2025) shipped 'Increased squad size - Now with unlimited special players in your club', improved venues, and the launch event 'Kick... | High Confidence | events/kick-off-stars-launch-event | EV-483 |
+| CLAIM-1765 | PHYSIOS ARE HIRED WITH COINS - the coin-funded counterpart to gem-funded coaches. 'Common Physios restore a small amount of energy, while Legendary... | High Confidence | medical/physio-tier-ladder | EV-484 |
+| CLAIM-1767 | THE INJURY REPORT IS EPHEMERAL: it names the injury and the number of games out, but 'it's only visible after you exit the match where the injury h... | High Confidence | medical/injury-report-is-ephemeral | EV-484 |
+| CLAIM-1771 | DOCUMENTED NEGATIVE - **DLS26 HAS NO MORALE OR DRESSING-ROOM SYSTEM.** A targeted search returned only FIFA/EA and real-football content. There is ... | High Confidence | negatives/no-morale-system | EV-484 |
+| CLAIM-1772 | DOCUMENTED NEGATIVE - **DLS26 HAS NO PLAYER GROWTH OR POTENTIAL CURVE AND NO AGING.** Players do not develop with minutes and do not decline with a... | High Confidence | negatives/no-growth-or-aging | EV-484 |
+| CLAIM-1773 | DOCUMENTED NEGATIVE - **DLS26 HAS NO RETIREMENT.** The only retirement rules found belong to other games; the only lifecycle event in the DLS datab... | High Confidence | negatives/no-retirement | EV-484 |
+| CLAIM-1774 | DOCUMENTED NEGATIVE - **DLS26 HAS NO SURGERY MECHANIC.** Injuries are healed by physios, rest or gems; there is no surgical repair, no rehabilitati... | High Confidence | negatives/no-surgery | EV-484 |
+| CLAIM-1775 | MID-SEASON RATING REFRESHES RE-RATE PLAYERS: the January 2026 update applied 'January transfer movements and updated player ratings', with the mega... | High Confidence | transfers/mid-season-rating-refresh | EV-484 |
+| CLAIM-1776 | The 2025/26 database refresh brought current team data plus 'more classic players, special players, and national team players'. | High Confidence | patching/database-refresh-contents | EV-484 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
@@ -1725,7 +1733,11 @@ Distinct evidence records cited: **447**.
 | CLAIM-1760 | Crowd noise is dynamic - 'swelling when your team attacks and quieting during defensive phases' - so the audio is a genuine possession cue. | Community Consensus | presentation/dynamic-crowd-noise | EV-483 |
 | CLAIM-1761 | DLS26 has 'improved dynamic lighting for day and night matches' and 'environmental effects: weather conditions like rain and wind affecting gamepla... | Community Consensus | presentation/weather-affects-gameplay | EV-483 |
 | CLAIM-1762 | THE COMPETITIVE SETTINGS PROFILE: 'Sideline camera, 30% zoom, game directional arrows OFF, radar map ON, names ON, scoreboard ON, kick assist OFF, ... | Community Consensus | settings/competitive-profile | EV-483 |
+| CLAIM-1766 | THE GEM-TO-GAMES HEALING CONVERSION: 5 gems = 1 game out, 10 = 2, 25 = 5, 35 = 7. A legendary physio runs about 250 (coins). | Community Consensus | medical/gem-to-games-healing-conversion | EV-484 |
+| CLAIM-1768 | Resting a tired player for one match fully restores them - 'play one division match and sit out the most tired players. And they'll be fully fit th... | Community Consensus | medical/rest-one-match-restores | EV-484 |
+| CLAIM-1769 | Passive (idle) recovery depends on squad stamina: 'With not a good team it can take 3-4 hours, but with fully maxed out team it takes 20 min.' | Community Consensus | medical/passive-recovery-times | EV-484 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
+| CLAIM-1770 | EXPLOIT - USING ALL FIVE SUBS BEFORE KICK-OFF PREVENTS INJURIES: 'Players can't get injured if you don't have players to sub them off for. Therefor... | Community Consensus | medical/all-subs-prevents-injury-exploit | EV-484 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
 | CLAIM-180 | Daily Scenarios mode places player in a comeback situation vs Hard AI; completion rewards 50 coins per day; scenario resets daily. | Community Consensus | unscoped | EV-270 |
 | CLAIM-181 | Global Challenge Cup (online round-robin under Career section) awards 10 Gems per round cleared; resets on a regular schedule. | Community Consensus | unscoped | EV-270 |

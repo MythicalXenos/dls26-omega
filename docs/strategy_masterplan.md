@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-145 — 1,760 claims / 385 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-146 — 1,772 claims / 386 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -558,6 +558,20 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 - **Maxed Medical Centre** makes physio trips "super cheap" — effectively endless playtime.
 - Injuries last **3–10 games**; a **Fitness coach** can also help heal an injured player [C3].
 - **THE INJURY-PROOF SUBSTITUTION EXPLOIT** [EV-457, C3]: *"players can't get injured if you don't have players to sub them off for."* Put 5 bench players in the first team, enter the match, then use all 5 subs before kick-off to bring the real XI on — no injuries can occur. **Cost: every substitution for that match.** Use it in Career when a fixture cannot afford an injury; never in DLL, where the subs are worth more than the injury risk.
+
+> **⚠️ THE INJURY REPORT IS EPHEMERAL — READ IT FIRST** [EV-484, C2]. DLS *does* tell you the injury and the games out, but only in the moment: *"it's only visible after you exit the match where the injury happened. It's gone if you close the app or play another match."* The same text sits behind the gem-recovery button. **The instant a match ends with an injury, read the report before you touch anything else** — by your next match it is gone and you are guessing.
+
+**Rest is a genuine recovery channel** [EV-484, C3]: resting a tired player for one match fully restores them — *"play one division match and sit out the most tired players. And they'll be fully fit the next match"* — and the half-time team boost accelerates it. Idle recovery scales with the squad: **3–4 hours for a weak team, about 20 minutes for a maxed one**. So a thin squad recovers slowly in real time, which is another argument for the Accommodation ladder.
+
+**⚠️ FOUR CAREER-LIFECYCLE NEGATIVES** [EV-484, C2 — documented negatives]. A targeted search for player growth, aging, morale and retirement returned **only real-football research and other games' systems**:
+- **No morale or dressing-room system** — nothing to manage, nothing to keep happy.
+- **No player growth or potential curve, and no aging** — players do not develop with minutes and do not decline with age. **A DLS player is a static card that moves only when you spend coaches on it.** There is no career-mode development arc.
+- **No retirement** — the only lifecycle event in the database is real-world.
+- **No surgery or rehabilitation timeline** — injuries are healed by physios, rest or gems, full stop.
+
+> A player arriving from FIFA will look for all four. **None of them exists here**, which is precisely why the coaching method in §4.2 is the only development lever in the game.
+
+**Mid-season refreshes re-rate players** [EV-484, C2]: the January 2026 update applied *"January transfer movements and updated player ratings"*, moving for example *"Raya 83 > 84, Gabriel 84 > 85, Merino 79 > 80, Zubimendi 81 > 82, Trossard 79 > 80."* **A card you hold can be re-rated mid-season** — relevant if you are holding players as assets rather than playing them.
 
 ---
 
