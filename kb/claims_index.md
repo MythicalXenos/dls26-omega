@@ -1,18 +1,18 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:20:39Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1810**
-Distribution: Confirmed 385 / High Confidence 791 / Community Consensus 597 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **451**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:23:03Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1823**
+Distribution: Confirmed 386 / High Confidence 795 / Community Consensus 604 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **452**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 124 |
-| facilities | 95 |
-| gameplay | 67 |
+| economy | 125 |
+| facilities | 96 |
+| gameplay | 68 |
 | dll | 65 |
-| transfers | 57 |
+| transfers | 63 |
 | cards | 56 |
 | clans | 56 |
 | career | 48 |
@@ -27,17 +27,17 @@ Distinct evidence records cited: **451**.
 | platform | 31 |
 | customization | 29 |
 | events | 27 |
+| presentation | 25 |
 | errata | 24 |
-| presentation | 23 |
 | tactics | 20 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
+| stadium | 16 |
 | achievements | 15 |
-| stadium | 15 |
 | customisation | 13 |
+| negatives | 13 |
 | formboost | 12 |
-| negatives | 12 |
 | coaching | 11 |
 | goalkeeping | 11 |
 | onboarding | 11 |
@@ -477,6 +477,7 @@ Distinct evidence records cited: **451**.
 | CLAIM-1806 | playdreamleaguesoccer.com is REJECTED FOR THE FIFTH TIME: it publishes fabricated statistics - '12.5% average pull rate for a Special Player from a... | Confirmed | sources/playdreamleaguesoccer-rejected-fifth-time | EV-486 |
 | CLAIM-1813 | The claim that 'The A.I. in DLS 2026 learns from your playstyle... expect the opposing manager to switch to a compact 4-4-2 mid-game' is CONTRADICT... | Confirmed | negatives/adaptive-ai-claim-contradicted | EV-487 |
 | CLAIM-1814 | playdreamleaguesoccer.com is REJECTED FOR THE SIXTH TIME - it invents a Tactical Presets system, shareable custom tactics, a '3-5-2 Fluid' formatio... | Confirmed | sources/playdreamleagesoccer-rejected-sixth-time | EV-487 |
+| CLAIM-1815 | PLAYER RECOVERY IS OFFICIAL: 'buy a sold player back within a limited time', via the Recover section of Manage Players (FTG support: 'Players who w... | Confirmed | transfers/player-recovery-official | EV-488 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
 | CLAIM-202 | Squad size evolution: DLS25 increased squad from 40→64 players (Dec 2024 press release). DLS26 launches with 64-player base; Summer Spotlight remov... | Confirmed | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-204 | DLS25 major features (5 Dec 2024 launch): Classic Players returning (opening set World Cup 1998 Classics); Portuguese commentary (third language; S... | Confirmed | unscoped | EV-280 |
@@ -1131,7 +1132,11 @@ Distinct evidence records cited: **451**.
 | CLAIM-1808 | The starting formation unlocks are 4-4-2 by default, with 4-1-2-1-2 the only other formation available from the start; every other shape is gated b... | High Confidence | tactics/starting-formation-unlocks | EV-487 |
 | CLAIM-1811 | DOCUMENTED NEGATIVE - **DLS HAS NO TEAM-INSTRUCTION SYSTEM.** No source documents team instructions, a mentality slider, width or depth controls, t... | High Confidence | negatives/no-team-instructions | EV-487 |
 | CLAIM-1812 | DOCUMENTED NEGATIVE - **THERE IS NO IN-MATCH FORMATION FLUIDITY.** The claims of 'Tactical Presets' switching between 4-3-3 Tiki-Taka, 4-4-2 Counte... | High Confidence | negatives/no-formation-fluidty | EV-487 |
+| CLAIM-1818 | THE RECRUITMENT CENTRE IS REAL AND OFFICIAL - a SIXTH FACILITY: 'New facility - Upgrade your recruitment centre for Scout and Agent discounts' (v9.... | High Confidence | facilities/recruitment-centre-is-real | EV-488 |
+| CLAIM-1819 | Summer Spotlight expanded the Lock Player system: 'Transfer upgrades - manage lock players in more ways than before', on top of the existing 20-or-... | High Confidence | transfers/lock-player-expanded | EV-488 |
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
+| CLAIM-1820 | THE DLS26 PRICE BAND IS FAR HIGHER THAN THE CORPUS RECORDED: a December 2025 thread shows a secret player at 2,355 coins after a discount from 2,55... | High Confidence | transfers/dls26-price-band-is-thousands | EV-488 |
+| CLAIM-1826 | Celebrations are NOT player-controllable - a wish-list asking to 'allow players to choose or control celebrations for each player' confirms you can... | High Confidence | negatives/no-controllable-celebrations | EV-488 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
@@ -1779,6 +1784,13 @@ Distinct evidence records cited: **451**.
 | CLAIM-1809 | SIX LIVE STRATEGIES from a DLS22-26 player: no blind C passes · dribbling while stopped · long B passes (the meta) · backwards running for defensiv... | Community Consensus | tactics/six-live-strategies | EV-487 |
 | CLAIM-181 | Global Challenge Cup (online round-robin under Career section) awards 10 Gems per round cleared; resets on a regular schedule. | Community Consensus | unscoped | EV-270 |
 | CLAIM-1810 | THE ANTI-WING TACTIC, REFINED: 'the trick is to NOT try and tackle their outermost players as they switch the ball. This will leave your players st... | Community Consensus | tactics/anti-wing-run-backwards | EV-487 |
+| CLAIM-1816 | Recovery costs 5 GEMS to buy a sold player back. | Community Consensus | transfers/recovery-costs-5-gems | EV-488 |
+| CLAIM-1817 | A player sitting in Recovery does NOT re-enter the market rotation - the basis of a community request for a 'sell definitely' option so the card 'c... | Community Consensus | transfers/recovery-blocks-market-rotation | EV-488 |
+| CLAIM-1821 | THE MAXED-STADIUM BONUS: 'stadium bonus rises to 48-52 coins per home match for 85k+ stadiums', averaging ~250 coins per match after watching the p... | Community Consensus | stadium/maxed-bonus-48-52-coins | EV-488 |
+| CLAIM-1822 | A SECOND INDEPENDENT SOURCE FOR THE TRAINING-FIRST GEM RULE, with the exception stated: 'all gems you earn should go to upgrading training center O... | Community Consensus | economy/training-first-gem-rule-second-source | EV-488 |
+| CLAIM-1823 | THE SUSPENSION WORKAROUND (era-stale): 'If a player has a red card suspension, release him and buy him back from the Free Transfers Page' - this cl... | Community Consensus | gameplay/suspension-workaround | EV-488 |
+| CLAIM-1824 | Release value has drifted across builds: an older-era source states a released player sells 'for half its purchase value' and goes to the market, a... | Community Consensus | transfers/release-value-version-drift | EV-488 |
+| CLAIM-1825 | NEW PLAYER-SPECIFIC CELEBRATIONS ARE ARRIVING: a player reports 'My Mbappe just did a totally new celebration I've never seen before... he scored, ... | Community Consensus | presentation/new-player-specific-celebrations | EV-488 |
 | CLAIM-183 | Dream Points per match are capped at a 5-0 win margin; goals beyond the 5th do not increase DP awarded. | Community Consensus | unscoped | EV-275 |
 | CLAIM-184 | DP Boost gem costs and durations (community reports): Common +50% = 25 gems / 3 matches; Rare +75% = 35 gems / 5 matches; Legendary +150% = 125 gem... | Community Consensus | unscoped | EV-275,EV-274 |
 | CLAIM-185 | Premium Season Pass grants DOUBLE Season Points AND double Live XP (faster tier progression + faster Progression Bank fill). | Community Consensus | unscoped | EV-275 |
@@ -1901,6 +1913,7 @@ Distinct evidence records cited: **451**.
 | CLAIM-1375 | SPECULATIVE: a community method claims that renaming your manager to the target player's name and matching your manager nationality to theirs (or r... | Speculative | errata/manager-name-method-speculative | EV-442 |
 | CLAIM-1746 | Champion Cards are reported at 88 (Messi) and 89 (Ronaldo), and one player's card 'got maxed at just 94 instead of the usual 95' - suggesting speci... | Speculative | cards/champion-card-figures | EV-482 |
 | CLAIM-1753 | Career-mode penalties may be PREDETERMINED: 'career mode pens are fixed. Whether the keeper saves it or not is kinda decided before you kick the ba... | Speculative | gameplay/career-pens-predetermined | EV-483 |
+| CLAIM-1827 | Time-of-day and floodlights are reported to affect play: 'Matches played during sunset or under floodlights have distinct lighting conditions that ... | Speculative | presentation/floodlight-visibility-effects | EV-488 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

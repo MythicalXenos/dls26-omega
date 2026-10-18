@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-149 — 1,810 claims / 389 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-150 — 1,823 claims / 390 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -227,7 +227,23 @@ This is the most operationally important layer in the game, and almost every gui
 
 **The filters include contract length** [EV-479, C2]: the market's search axes are **position, rating and contract length**. Contract length is therefore a *searchable* axis, not merely a display field — the corpus had nothing on wages or contracts before this wave, and this is the whole of what is documented.
 
-**Starting out** [EV-479, C2]: new players begin with a **50–60 OVR** lineup, and returning players carry over **their squad and Academy Division status** from DLS25. Free transfers are *"usually players with low stats or players that you've released"*, while paid general transfers are *"normally better"* and run **10 to about 900 coins**.
+**Starting out** [EV-479, C2]: new players begin with a **50–60 OVR** lineup, and returning players carry over **their squad and Academy Division status** from DLS25. Free transfers are *"usually players with low stats or players that you've released"*, while paid general transfers are *"normally better"*.
+
+> **⚠️ THE PRICE BAND CORRECTED (ckpt-150, EV-488, C2).** The *"10 to about 900 coins"* figure came from an old fandom page and is **stale**. A December 2025 DLS26 thread shows a **secret player at 2,355 coins** after a discount from 2,555, and concludes *"we need at least 10,000 coins if we want to buy a player and still save money."* **DLS26 transfers run into the thousands. Budget accordingly, and do not plan a signing around a three-figure price.**
+
+**PLAYER RECOVERY** [EV-488, C1 — official]: *"buy a sold player back within a limited time"*, via the **Recover** section of **Manage Players** — FTG's own wording is *"Players who were recently sold, appear in the 'Recover' section of 'Manage Players' for a limited time."* **It costs 5 gems.** A player sitting in Recovery does **not** re-enter the market rotation, which is why the community asks for a *"sell definitely"* option — and which is the mechanism behind the corpus's *"collection pieces never come back"* rule.
+
+> **✅ THE RECRUITMENT CENTRE IS REAL — a SIXTH FACILITY (ckpt-150, EV-488, C2).** The v9.00 release notes read *"New facility - Upgrade your recruitment centre for Scout and Agent discounts"*, and DLS26 content still lists it. **The corpus's five-facility list was incomplete.** It discounts both recruitment tools, which makes it a genuine candidate in the facility ladder rather than a cosmetic extra.
+
+**LOCKING WAS EXPANDED IN SUMMER SPOTLIGHT** [EV-488, C2]: *"Transfer upgrades - manage lock players in more ways than before"*, on top of the existing **20-or-40-gem 24-hour lock** that leaves *"a small lock sign on their card."*
+
+**THE MAXED-STADIUM BONUS** [EV-488, C3]: *"stadium bonus rises to 48-52 coins per home match for 85k+ stadiums"*, averaging **~250 coins per match** after the post-match ad. That is the number the whole coin economy is built on.
+
+**A SECOND SOURCE FOR THE TRAINING-FIRST GEM RULE, with its exception** [EV-488, C3]: *"all gems you earn should go to upgrading training center ONLY, unless you NEED to lock a player."* The same thread confirms the DLL gate — *"if you wanna... need gems (tier 10 and above only)... play live."*
+
+**THE SUSPENSION WORKAROUND** [EV-488, C3 — era-stale]: *"If a player has a red card suspension, release him and buy him back from the Free Transfers Page."* It clears the ban but *"will erase your players records (goals, games played, etc) for the season"* — upgraded stats survive. **A last resort, not a habit.**
+
+**New player-specific celebrations are arriving** [EV-488, C3] — a Mbappe corner-LED celebration after a hat-trick — but **celebrations are not player-controllable**, as a wish-list asking for exactly that confirms.
 
 **Other rules that catch people out:**
 - **Released players do reappear** — after a grace period during which you can buy them back from the release area. But **collection pieces never come back**, and rare/common cards may take a long wait.

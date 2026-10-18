@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-149 — 1,810 claims / 389 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-150 — 1,823 claims / 390 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -515,6 +515,17 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Anti-wing:** do **not** tackle the outermost players as they switch — switch to defensive mode and **run backwards** at every opportunity.
 - **⚠️ NO TEAM-INSTRUCTION SYSTEM:** no mentality slider, no width/depth/tempo, no pressing intensity, no marking styles. A formation plus an attacking/balanced/defensive switch is the whole surface.
 - **⚠️ NO FORMATION FLUIDITY:** "Tactical Presets", shareable custom tactics and a "3-5-2 Fluid" are fabricated, and the adaptive-AI claim is refuted by FTG's own *"no additional overlaid controls"* line.
+
+### 3.17 Recovery, locking and the Recruitment Centre [EV-488, C1/C2]
+
+- **PLAYER RECOVERY** [C1 — official]: buy a sold player back **within a limited time**, via **Manage Players → Recover**, for **5 gems**. A player in Recovery does **not** re-enter the market rotation.
+- **✅ THE RECRUITMENT CENTRE IS A REAL SIXTH FACILITY** [C2] — *"Upgrade your recruitment centre for Scout and Agent discounts."* **The five-facility list was incomplete**; this one discounts both recruitment tools.
+- **LOCKING** was expanded in Summer Spotlight (*"manage lock players in more ways than before"*) on top of the **20/40-gem 24-hour lock**.
+- **⚠️ THE PRICE BAND IS STALE:** DLS26 transfers run into the **thousands** of coins (a secret player at 2,355 after discount); you need **~10,000 coins** to buy a player and still save. The old 10–900 band is an artefact.
+- **MAXED STADIUM:** 48–52 coins per home match at 85k+ capacity, **~250 per match** with the ad.
+- **TRAINING-FIRST GEM RULE, second source:** *"all gems you earn should go to upgrading training center ONLY, unless you NEED to lock a player."*
+- **SUSPENSION WORKAROUND** (era-stale, last resort): release a suspended player and buy them back to clear the ban — it erases their season records.
+- **Celebrations are not player-controllable**, though new player-specific ones are arriving.
 
 ---
 
