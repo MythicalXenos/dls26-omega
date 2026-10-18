@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:18:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2139**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 846 / Speculative 54 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **474**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:22:52Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2152**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 857 / Speculative 56 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **475**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -11,38 +11,38 @@ Distinct evidence records cited: **474**.
 | economy | 138 |
 | facilities | 113 |
 | dll | 79 |
-| transfers | 78 |
+| transfers | 79 |
 | gameplay | 76 |
 | clans | 65 |
 | cards | 64 |
+| career | 62 |
 | setpieces | 60 |
-| career | 59 |
+| errata | 52 |
 | controls | 51 |
-| errata | 51 |
+| coaching | 42 |
 | patching | 42 |
 | training | 40 |
-| coaching | 39 |
 | cups | 39 |
-| prizeladder | 38 |
+| prizeladder | 39 |
 | coaches | 37 |
 | attributes | 35 |
 | tactics | 34 |
 | events | 31 |
 | platform | 31 |
 | customization | 29 |
+| stamina | 26 |
 | achievements | 25 |
 | presentation | 25 |
 | modes | 24 |
-| stamina | 24 |
 | goalkeeping | 23 |
-| stadium | 20 |
+| stadium | 21 |
 | customisation | 19 |
 | account | 17 |
 | meta | 16 |
 | onboarding | 15 |
 | matchcraft | 14 |
+| formboost | 13 |
 | negatives | 13 |
-| formboost | 12 |
 | ui | 12 |
 | difficulty | 10 |
 | draft | 10 |
@@ -2109,6 +2109,17 @@ Distinct evidence records cited: **474**.
 | CLAIM-2140 | THE SCREENSHOT-VERIFIED RECRUITMENT: 'Looking for **One more person willing to get a minimum of 50 wins** within the remaining time limit (5 days).... | Community Consensus | clans/screenshot-verified-recruitment | EV-510 |
 | CLAIM-2141 | THE CLAN-TAG REQUIREMENT AND DISCORD INTEGRATION: 'the first 5 players to join will get an **OG title role on the Discord server** and a direct say... | Community Consensus | clans/clan-tag-and-discord-requirements | EV-510 |
 | CLAIM-2142 | THE RECORD RUN'S SELF-IMPOSED RULES, and the cleanest evidence that DLL alone is sufficient: '**No career mode matches, scenarios, dream draft, or ... | Community Consensus | dll/record-run-dll-only-rules | EV-510 |
+| CLAIM-2144 | THE 130-COIN CEILING, DLS26-dated (May 2026) and a sharpening of the corpus's 192-coin threshold into a filter: '**Buy a common scout for 75 coins*... | Community Consensus | coaching/130-coin-ceiling-common-boost | EV-511 |
+| CLAIM-2145 | FORM BOOSTS AND PHYSIOS ARE A WASTE OF CURRENCY: 'Gradually, you'll start earning coaches, **form boosts and physios. Form boosts and physios are m... | Community Consensus | formboost/form-boosts-are-a-waste-of-currency | EV-511 |
+| CLAIM-2146 | SAVE AND STORE ALL YOUR COACHES UNTIL THE XI IS FINAL: '**coaches shouldn't be applied to your common team. Save and store ALL your coaches until y... | Community Consensus | coaching/save-all-coaches-until-the-xi-is-final | EV-511 |
+| CLAIM-2147 | THE 30-COIN TEAM BOOST PAYS FOR ITSELF: 'after halftime the players regain a small amount of stamina and you'll be offered a team form boost when t... | Community Consensus | stamina/30-coin-boost-pays-for-itself | EV-511 |
+| CLAIM-2148 | THE ACADEMY DIVISION COIN CONSTRAINT: 'In the Academy Division, **you cannot earn that many coins even in a 4-0 win** (without the help of the x2 m... | Community Consensus | career/academy-division-coin-constraint | EV-511 |
+| CLAIM-2149 | THE USE-ALL-SUBS COIN SAVER, with a different timing from the corpus's recovery sweet spot: '**Always use all of your subs with at least 25-30 mins... | Community Consensus | stamina/use-all-subs-25-30-minutes-left | EV-511 |
+| CLAIM-2151 | THE WEEKLY-CHALLENGE DP YIELD: '**Each objective rewards you with 80 Dream Points (DP)** upon completion which means a total of **320 Dream Points*... | Community Consensus | prizeladder/weekly-challenge-dp-yield | EV-511 |
+| CLAIM-2152 | THE PER-DIVISION GEM INCOME, which the Career gem-per-match model was missing: 'by upgrading your stadium will give you a next two gems and at lege... | Community Consensus | career/per-division-gem-income | EV-511 |
+| CLAIM-2153 | A SECOND CAREER GEM ROUTINE, tighter than wave 89's selective set: '**Just play career mode. do simple career task like score or goal assist (easy ... | Community Consensus | career/second-gem-routine-40-per-8-9-games | EV-511 |
+| CLAIM-2154 | THE ONE-SIDE-AT-A-TIME STADIUM RULE, corroborated a third time: 'for upgrading stadium, **only upgrade one side at a time and upgrade it to the max... | Community Consensus | stadium/one-side-at-a-time-third-source | EV-511 |
+| CLAIM-2155 | DON'T TRAIN PLAYERS IN EXCHANGE FOR DIAMONDS: '**Don't train players in exchange for diamonds, rather buy someone at least 80+ rating overall for 1... | Community Consensus | coaching/dont-train-in-exchange-for-diamonds | EV-511 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
 | CLAIM-218 | Removed legacy modes (NOT in DLS26): Ultimate Challenge (mirror match vs your own team) and FTG Challenge (vs FTG developer team ~89-90 OVR), both ... | Community Consensus | unscoped | EV-284 |
@@ -2233,6 +2244,8 @@ Distinct evidence records cited: **474**.
 | CLAIM-2115 | A FLAGGED SOURCE CONTRADICTING DOCUMENTED NEGATIVES - a sixth concrete reason for the existing flag: eslamgaming's 'honest review' claims '**player... | Speculative | errata/eslamgaming-contradicts-documented-negatives | EV-508 |
 | CLAIM-2119 | THE DON'T-BUY-SCOUTS RULE: '**Don't. buy. scouts.** I know how tempting it may seem to buy a scout for that small chance that maybe you may just ge... | Speculative | transfers/dont-buy-scouts-dissent | EV-509 |
 | CLAIM-2143 | THE CAREER DIFFICULTY PATCH: 'The previous patch made Career mode harder by **absolutely disabling your players and turning 70 rated AI players int... | Speculative | career/difficulty-patch-disables-your-players | EV-510 |
+| CLAIM-2150 | THE SCOUT DELETE-AND-RETRY EXPLOIT: 'use a legendary scout one time (500) coins, until you get a high rated player, **if unsuccessfully delete the ... | Speculative | transfers/scout-delete-and-retry | EV-511 |
+| CLAIM-2156 | LFBB.NET CLAIMS AT SPECULATIVE, FLAGGED: the 4 PM softer-competition claim ('most players are at work or school at 4 PM... **600 bonus gems just fr... | Speculative | errata/lfbb-claims-at-speculative | EV-511 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

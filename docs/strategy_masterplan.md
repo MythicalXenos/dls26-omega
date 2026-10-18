@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-173 — 2,139 claims / 412 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-174 — 2,152 claims / 413 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -132,6 +132,10 @@ This is why chaining by category works: the category is the only control you hav
 **RARE GOALKEEPERS YIELD ONLY ONE COMMON COACH** [EV-491, C3] — *"Don't buy rare goalies as they also only get 1 common coach after release, same as any common goalie."* An explicit exception to the release mapping and a direct instruction for coach farming.
 
 **THE COACH-FARMING THRESHOLD IS 192 COINS** — two independent derivations of the same number. Releasing a legendary player yields 2 Rare coaches, so *"1535:8=192… only buy common players that are 192 coins or less."* That brackets the *"buy under 180-210 coins"* band from §3.6 exactly.
+
+**And the sharper, DLS26-dated filter** [EV-511, C3]: *"**Buy a common scout for 75 coins** (~63 if you max out the recruitment facilities), and **target only players who cost 130 coins or less.** After buying them, **immediately sell them and repeat.**"* The reporter saw players as low as **42 coins** appear. So the farm has a ceiling (130, tighter than 192) and a floor, and the Recruitment facility discounts the scout as well as the coach — which is a second reason the facility outranks its gem cost.
+
+> **🎯 NEVER COACH THE INTERIM SQUAD** [EV-511, C3]: *"**coaches shouldn't be applied to your common team. Save and store ALL your coaches until you have the starting 11 you are satisfied with.** This is even more important for those who are aiming for a full gold team."* So the coaching economy is banked, not spent, until the XI is final — and **form boosts and physios are a waste of currency unless you earned them free from an event.** Gems go to facilities and coaching; never to temporary OVR.
 
 **THE RELEASE-TO-COACH MAPPING, three sources agreeing:** Common release = **1 Common coach** · Rare release = **2 Common coaches** · Legendary (80+) release = **1 Rare coach**. This is the product of the DLS21 nerf, which also cut Legendary coaches from +5 to +3 per stat.
 

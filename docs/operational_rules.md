@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-173 — 2,139 claims / 412 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-174 — 2,152 claims / 413 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -581,7 +581,8 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **🎯 LOOK-AHEAD TRICK:** a Legendary Special coach previews the **next four stats** and can be **cancelled without being consumed**. Keep one in reserve at all times; worth **~420 gems per special player** [EV-491, C2].
 - **🎯 GK RULE: only use a Legendary when GKR > GKH** — it raises both. Otherwise run **1 Rare + 4 Commons**.
 - **Club minimum is 16 players** — reach it before coaching.
-- **Coach farming: buy at or below 192 coins.** Release mapping: Common → 1 Common coach · Rare → 2 Commons · 80+ → 1 Rare.
+- **Coach farming: buy at or below 192 coins** — and the sharper DLS26 filter is **130 coins or less**, using a 75-coin Common scout (~63 with a maxed Recruitment facility), released immediately. Players as low as 42 coins appear. Release mapping: Common → 1 Common coach · Rare → 2 Commons · 80+ → 1 Rare.
+- **Never coach the interim squad.** Bank ALL coaches until the starting XI is final; form boosts and physios are a waste unless earned free.
 - **Scouts:** discounts 2–4% / 3–5% / 4–8%; two candidates each, so P(≥1 legendary) is 3.96% Common vs 27.75% Legendary — **Legendary scouts are good value.**
 - **Coach prices:** Common 17g · Rare 52g (maxed) / 67g · Legendary 157g (maxed) / 202g — so Training saves 15g per Rare and 45g per Legendary [EV-491, C2].
 - **Commercial breakeven:** max it only if you will grind past **~108,000 coins** [EV-491, C3].
