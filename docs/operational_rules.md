@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-176 — 2,177 claims / 415 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-177 — 2,195 claims / 416 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -174,6 +174,10 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Anti-cross-spam** | 4-1-2-1-2 defensive; cut the cross off before it is delivered [EV-500, C3] |
 | **Anti-central-play** | Avoid shallow shapes (3-5-2, 4-4-2); use 4-1-2-1-2, 3-4-1-2 or 3-2-3-2 [EV-500, C3] |
 | **Pass into the gap between two defenders** | The opponent does not know whom to switch to, so the pass is harder to intercept [EV-500, C3] |
+| **Pass into SPACE, not to feet** | A pass to a standing receiver makes him slow down to take it; a pass into space keeps him moving [EV-514, C3] |
+| **When chased from behind: Close Control and stand still** | His player trips forward into where you were going - a free, repeatable way to beat a press [EV-514, C3] |
+| **Two CBs split against aerial balls** | One attacks the header or tackle, the other waits behind with DM support [EV-514, C3] |
+| **PAS governs charge time** | A low-PAS player must STOP to make a clean B-pass; ~90% of defenders are poor passers [EV-514, C3] |
 | **Dribble at the defender's planted foot** | The far side is his weak side; worth ~0.5–1s and a yard of space [EV-500, C3] |
 | **Auto-switch off is a top-of-the-ladder setting** | Manual switching is right at Tier 1 and costly below Tier 14 — practise in Career first [EV-500, C3] |
 | **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
@@ -259,6 +263,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Cross-platform transfer** | Only via a code: **Manage Devices → Generate Code** on the old device, typed into **Link Profile** on the new one (both under Options → gear → **Advanced**). A code cannot be used on the device that generated it |
 | **No cheap re-roll** | **Reset Profile** (Settings → Advanced, skull icon) is irreversible, destroys all coins, gems, consumables **and in-app purchases**, and is limited to **ONE RESET EVERY 30 DAYS** |
 | **The region seed is permanent** | The account decides the matchmaker pool and the leaderboard surface. Set it up deliberately and **play through early mistakes — do not reset** |
+| **Save Mode makes a Career loss undoable** | Delete Save Match, then Exit Save Mode, and replay from the beginning - the game's own feature, not an exploit [EV-514, C3] |
 | **The six LIVE ranks are named** [EV-504, C2, primary source] | **Rookie → Amateur → Semi-Pro → Intermediate → Pro → Veteran**, each a 500-XP achievement. Nothing above Veteran is published; above Veteran is device-only |
 
 **The stadium capacity gate** [EV-460, C2] — the rule that can silently stall a Career season:

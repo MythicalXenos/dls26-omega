@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:31:25Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2177**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 877 / Speculative 61 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **477**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:35:13Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2195**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 889 / Speculative 67 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **478**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,37 +10,37 @@ Distinct evidence records cited: **477**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 114 |
-| dll | 89 |
+| dll | 90 |
+| gameplay | 80 |
 | transfers | 79 |
-| gameplay | 76 |
 | cards | 65 |
 | clans | 65 |
-| career | 62 |
+| career | 64 |
 | setpieces | 60 |
-| errata | 53 |
-| controls | 51 |
+| errata | 55 |
+| controls | 52 |
 | prizeladder | 46 |
 | coaching | 42 |
 | patching | 42 |
 | training | 40 |
 | cups | 39 |
+| attributes | 37 |
 | coaches | 37 |
-| attributes | 35 |
-| tactics | 34 |
+| tactics | 36 |
 | events | 31 |
 | platform | 31 |
 | customization | 29 |
 | stamina | 26 |
 | achievements | 25 |
+| modes | 25 |
 | presentation | 25 |
-| modes | 24 |
 | goalkeeping | 23 |
 | stadium | 22 |
 | customisation | 19 |
 | account | 17 |
+| matchcraft | 16 |
 | meta | 16 |
 | onboarding | 15 |
-| matchcraft | 14 |
 | formboost | 13 |
 | negatives | 13 |
 | ui | 12 |
@@ -69,8 +69,8 @@ Distinct evidence records cited: **477**.
 | endgame | 5 |
 | gacha | 5 |
 | ratings | 5 |
+| shooting | 5 |
 | ai | 4 |
-| shooting | 4 |
 | sources | 4 |
 | acquisition | 3 |
 | features | 3 |
@@ -2143,6 +2143,18 @@ Distinct evidence records cited: **477**.
 | CLAIM-218 | Removed legacy modes (NOT in DLS26): Ultimate Challenge (mirror match vs your own team) and FTG Challenge (vs FTG developer team ~89-90 OVR), both ... | Community Consensus | unscoped | EV-284 |
 | CLAIM-2180 | THE NAMED STADIUMS, which the corpus's capacity ladder was missing: the dlsinside DLS26 stadium table (build 13.420, code 159, last update 2026-09-... | Community Consensus | stadium/named-real-world-grounds | EV-513 |
 | CLAIM-2181 | THE FANZONE'S REAL BENEFIT, phrased precisely at last: it grants '**structural discounts on Stadium expansions**' - not a general gem discount, a d... | Community Consensus | facilities/fanzone-structural-stadium-discount | EV-513 |
+| CLAIM-2182 | THE SAVE-MODE MATCH-DELETION TRICK, the most consequential finding of the sweep: '**We can use Save Mode in Dream League Soccer to delete saved mat... | Community Consensus | career/save-mode-match-deletion | EV-514 |
+| CLAIM-2184 | PAS GOVERNS CHARGE TIME, not just accuracy: '**this tells how accurately a player can pass and the time needed to charge or hold a pass button to s... | Community Consensus | attributes/pas-governs-charge-time | EV-514 |
+| CLAIM-2185 | ABOUT 90% OF DEFENDERS ARE POOR PASSERS, which makes build-up from the back slow by design: '**Note that about 90% of the defenders are poor passer... | Community Consensus | attributes/90-percent-defenders-poor-passers | EV-514 |
+| CLAIM-2186 | THE DLS26 PASSING SHIFT - THE 'B BUTTON ERA': '**Players are actually being forced to use the B button for once. You can no longer rely on A to do ... | Community Consensus | gameplay/dls26-b-button-era | EV-514 |
+| CLAIM-2187 | THE DEFENDER TURNING-SPEED COMPLAINT, a second voice on the DLS26 problem: '**Defenders have completely lost their speed though**, and it's really ... | Community Consensus | gameplay/defender-turning-speed-complaint | EV-514 |
+| CLAIM-2188 | THE LONG-B DIAGONAL PASS, with its prerequisite: 'These passes are done in a **diagonal direction towards the wingers**. Make sure to use a fast Wi... | Community Consensus | gameplay/long-b-diagonal-pass-prerequisite | EV-514 |
+| CLAIM-2189 | THE CLOSE-CONTROL STAND-STILL TRICK: '**When the opponent is chasing you from behind hold close control and stand still as the opponent's player wi... | Community Consensus | matchcraft/close-control-stand-still-trick | EV-514 |
+| CLAIM-2190 | THE ANGLED 1v1: '**when you're 1v1 against a keeper run at an angle then shoot.**' So the angle narrows the keeper's covering arc before the shot, ... | Community Consensus | shooting/angled-1v1 | EV-514 |
+| CLAIM-2191 | THE TWO-CB SPLIT ROLE against aerial balls: 'You'll need players like Pique (79 control, 94 speed) and Varane (77 control, 100 speed) Van Dijk (77 ... | Community Consensus | tactics/two-cb-split-role | EV-514 |
+| CLAIM-2192 | THE PASSING DISCIPLINE, in one place: '**try passing a bit more instead of dribbling so much... tiki taka style to progress up the pitch. Also dont... | Community Consensus | matchcraft/passing-discipline-into-space | EV-514 |
+| CLAIM-2193 | THE ROUTE ONE DETAIL: 'let the long ball C-pass come from either CB with a pass strength of around **75% to 90%**... diagonally aimed near the edge... | Community Consensus | gameplay/route-one-optimal-distance | EV-514 |
+| CLAIM-2195 | THE DEFENSIVE 4-3-1-2 FOR TIKI-TAKA: '**i use a defensive 4-3-1-2 formation in live games for slow build up play and tiki taka as well as making su... | Community Consensus | tactics/defensive-4-3-1-2-tiki-taka | EV-514 |
 | CLAIM-220 | Division season structure (DLS24-era, presumed similar in DLS26): ~16 teams per mid division, ~30-35 matches per season, 6-8 minutes per match (spe... | Community Consensus | unscoped | EV-284 |
 | CLAIM-221 | Stadium capacity scales by division (DLS24-era community data, approximate): Academy ~5-12k; Amateur 15k; Div4 25k; Div3 35k; Div2 45k; Div1 55k; E... | Community Consensus | unscoped | EV-284 |
 | CLAIM-222 | Licensed leagues visible in DLS26 (community-enumerated): La Liga (Spain), Premier League (England), Ligue 1 (France, 'League 1 Paris'), Serie A (I... | Community Consensus | unscoped | EV-284 |
@@ -2271,6 +2283,12 @@ Distinct evidence records cited: **477**.
 | CLAIM-2175 | THE RETENTION-HANDICAP THEORY, stated as a theory by a believer: 'When you buy a base card from the market and use him in a career match without up... | Speculative | dll/retention-handicap-theory | EV-513 |
 | CLAIM-2176 | THE LUCK-OVER-SKILL SENTIMENT, recorded so the corpus does not oversell skill: 'Scoring is harder for me since day one... Most of the time the winn... | Speculative | dll/luck-over-skill-sentiment | EV-513 |
 | CLAIM-2177 | THE COUNTER-DISSENT, which the corpus must carry beside the rigging claims: 'dont you think smth harder should be added to online playing? i mean, ... | Speculative | dll/tier-1-is-simple-counter-dissent | EV-513 |
+| CLAIM-2183 | THE SAVE-MODE TRICK'S CLAIMED SCALE, and its caveat: the source claims **2,000 matches without a loss** built this way, and adds 'it's better to **... | Speculative | career/save-mode-2000-matches-claim | EV-514 |
+| CLAIM-2194 | THE DREAM DRAFT SCRIPTING COMPLAINT: '**The opposition team is heavily weighted against you, good luck stringing passes together as the game is scr... | Speculative | modes/dream-draft-weighted-opponents | EV-514 |
+| CLAIM-2196 | A THIRD POSITION ON AUTO-SWITCH, and a direct contradiction the corpus must carry: '**Auto switch: Low. Never turn it off.** Sometimes you expect a... | Speculative | controls/auto-switch-third-position | EV-514 |
+| CLAIM-2197 | A DIRECT CONTRADICTION ON SQUAD STRENGTH: '**Make sure ur team is at least full legendary to avoid unfair matching**' - against the corpus's maxed-... | Speculative | dll/full-legendary-vs-handicap-contradiction | EV-514 |
+| CLAIM-2198 | REJECTED A NINTH TIME, and the first to contradict a Confirmed-tier rule: playdreamleaguesoccer.com claims 'Use 4-3-3 against weaker teams, 5-3-2 a... | Speculative | errata/playdream-ninth-rejection-formation-switch | EV-514 |
+| CLAIM-2199 | A CONTRADICTED YOUTH-POTENTIAL CLAIM: a Russian DLS26 guide advises looking for **under-21 players with 80+ potential** in lower divisions and deve... | Speculative | errata/youth-potential-claim-contradicted | EV-514 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
