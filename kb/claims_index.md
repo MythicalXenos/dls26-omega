@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:03:15Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1494**
-Distribution: Confirmed 336 / High Confidence 656 / Community Consensus 467 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **418**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:08:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1511**
+Distribution: Confirmed 336 / High Confidence 657 / Community Consensus 483 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **419**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -18,6 +18,7 @@ Distinct evidence records cited: **418**.
 | training | 38 |
 | coaches | 36 |
 | cups | 35 |
+| gameplay | 35 |
 | controls | 34 |
 | prizeladder | 34 |
 | patching | 33 |
@@ -28,7 +29,6 @@ Distinct evidence records cited: **418**.
 | errata | 23 |
 | events | 21 |
 | modes | 19 |
-| gameplay | 18 |
 | stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
@@ -928,6 +928,7 @@ Distinct evidence records cited: **418**.
 | CLAIM-1463 | DLS26 has NO co-operative multiplayer. | High Confidence | social/no-coop | EV-451 |
 | CLAIM-147 | Base/purchasable roster OVR hard cap is 86 in EVERY version 20231–20263 (3 years of updates). OVRs 87–98 exist ONLY on special/promo/legend/event c... | High Confidence | unscoped | EV-253,EV-251,CLAIM-141,CLAIM-142,CLAIM-144 |
 | CLAIM-1498 | playdreamleaguesoccer.com fabricated further non-existent content: a Youth Academy Cup, a Global Super League, a Champions Cup with group stage and... | High Confidence | errata/pdls-more-fabrications | EV-454 |
+| CLAIM-1509 | OFFICIAL: the May 2026 update refined ball physics and noticeably improved goalkeeper AI 'specifically during 1-on-1 situations and corner kicks'; ... | High Confidence | gameplay/gk-and-collision-updates | EV-455 |
 | CLAIM-154 | Coach rarities confirmed: FOUR categories (Fitness/SPE+ACC+STA+STR; Technical/CON+PAS+SHO+TAC; Goalkeeping/GKR+GKH; Special/ALL stats) each with th... | High Confidence | unscoped | EV-255,CLAIM-049,EV-271,EV-274 |
 | CLAIM-155 | Per-attribute weights in training-capacity cost are POSITION-SPECIFIC. For CB (defender) tackle-polarized builds, Control (CON/控制) carries weight 2... | High Confidence | unscoped | EV-255,CLAIM-049,EV-256 (official stat semantics confirm ... |
 | CLAIM-156 | Coach application mechanic in detail: when a coach of boost level k is used, k DISTINCT attributes are drawn uniformly at random from the pool of t... | High Confidence | unscoped | EV-255,CLAIM-049,CLAIM-052 |
@@ -1448,6 +1449,22 @@ Distinct evidence records cited: **418**.
 | CLAIM-1495 | A DLS26 one-week review independently confirms that the first tier of facility upgrades costs 375 COINS rather than 75 gems, and that DP boosts can... | Community Consensus | errata/dls26-review-confirmations | EV-454 |
 | CLAIM-1496 | THERE IS NO CLAN-VS-CLAN MODE: a reviewer who expected inter-clan competition reports receiving 'a legendary scout and some coins' instead. | Community Consensus | clans/no-clan-vs-clan | EV-454 |
 | CLAIM-1497 | THREE-MONTH BENCHMARK from an experienced player: a fully maxed starting 11 plus 9 maxed subs, 1,472,836 online XP, a 57% online win rate, 13 Tier ... | Community Consensus | benchmark/three-month-progress | EV-454 |
+| CLAIM-1499 | DLS26 NERFED THE C-SPAM META: the efficacy of the 'float to Haaland, head to Mbappe and repeat' loop has been vastly reduced, which partially obsol... | Community Consensus | gameplay/c-spam-nerfed | EV-455 |
+| CLAIM-1500 | DLS26 NERFED THE DIAGONAL 'A' PASS: the previously broken laser-accurate diagonal shot-pass is about 60-80% less effective than it used to be. | Community Consensus | gameplay/diagonal-a-nerfed | EV-455 |
+| CLAIM-1501 | THE DLS26 STAT REVALUATION: the game plays slower, so 'control, passing and tackling stats have more value than ever before' and there is less ince... | Community Consensus | gameplay/stat-revaluation | EV-455 |
+| CLAIM-1502 | COUNTER-REPORT: knock-ahead/sprinting is 'so overpowered now that it can outrun even maxed defenders in a glimpse, so unmaxed defenders stand no ch... | Community Consensus | gameplay/speed-still-dominant | EV-455 |
+| CLAIM-1503 | SECONDARY PRESS HAS BEEN NERFED in DLS26 - it was 'even too op' in DLS25 - which qualifies the long-standing rule that the secondary press beats th... | Community Consensus | gameplay/secondary-press-nerfed | EV-455 |
+| CLAIM-1504 | THROUGH BALLS EFFECTIVELY DO NOT EXIST in DLS26 - 'through balls don't exist in this game' and 'line splitting passes are rare' - and they were exp... | Community Consensus | gameplay/through-balls-absent | EV-455 |
+| CLAIM-1505 | PLAYER SWITCHING HAS BEEN NERFED: players report switching 3-4 times to find the right defender where DLS25 needed two, and switching gets confused... | Community Consensus | gameplay/switching-nerfed | EV-455 |
+| CLAIM-1506 | PASSING AND SHOOTING POWER ARE INCONSISTENT in DLS26 - 'you never know if you will be passing to the keeper or skying a shot', with strikers launch... | Community Consensus | gameplay/power-inconsistent | EV-455 |
+| CLAIM-1507 | THE PASSING TIMELINE: at DLS26 launch passing was 'utter crap' with 'a 100-rated passer felt like a 42-rated bronze player'; two mini-updates later... | Community Consensus | gameplay/passing-timeline | EV-455 |
+| CLAIM-1508 | THE 'LOOSE' FEEL in DLS26: players no longer 'snap' or 'lock' onto the ball, passes that used to be 'close enough' are no longer collected, defende... | Community Consensus | gameplay/loose-feel | EV-455 |
+| CLAIM-1510 | FOUR TECH UPDATES were published for DLS26: improve player switching; make player stats more relevant and impactful; improve goalkeeper logic and c... | Community Consensus | gameplay/tech-updates | EV-455 |
+| CLAIM-1511 | RESPONSIVENESS is the most-cited DLS26 mechanical complaint: 'you can tap the screen and quickly change direction to chop the ball but 6-7/10 times... | Community Consensus | gameplay/responsiveness-complaint | EV-455 |
+| CLAIM-1512 | UNVERIFIED COMMUNITY ACCUSATION: several players report that against Turkish opponents their own players 'slowed down, reacted late, and stopped mi... | Community Consensus | gameplay/lag-accusation-unverified | EV-455 |
+| CLAIM-1513 | A single-source complaint reports that bicycle kicks and skill-based speed bursts (flicking the ball over an opponent's head and accelerating past)... | Community Consensus | gameplay/skill-moves-removed-claim | EV-455 |
+| CLAIM-1514 | The three named skill mechanics in DLS26 are CLOSE CONTROL, KNOCK AHEAD and SECONDARY PRESS. | Community Consensus | gameplay/named-skill-mechanics | EV-455 |
+| CLAIM-1515 | Match scripting is reported reduced in DLS26, and an unfixed energy-bar bug is reported where the bar 'still remains green'. | Community Consensus | gameplay/scripting-and-energy-bug | EV-455 |
 | CLAIM-153 | DLS26 exposes a player-controllable HUD with two stamina/boost indicator icons ("filled" and "hollow" circle templates used by the bot for HUD dete... | Community Consensus | unscoped | EV-254 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
