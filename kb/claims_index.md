@@ -1,29 +1,29 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:47:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1139**
-Distribution: Confirmed 294 / High Confidence 532 / Community Consensus 284 / Speculative 28 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **383**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:48:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1153**
+Distribution: Confirmed 297 / High Confidence 537 / Community Consensus 290 / Speculative 28 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **384**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| facilities | 69 |
+| facilities | 70 |
 | economy | 65 |
 | coaches | 35 |
 | controls | 34 |
 | patching | 32 |
-| platform | 29 |
+| platform | 30 |
+| career | 29 |
 | clans | 28 |
-| career | 27 |
 | customization | 27 |
+| prizeladder | 26 |
 | cups | 23 |
 | attributes | 21 |
-| transfers | 20 |
+| transfers | 21 |
 | modes | 18 |
 | cards | 17 |
 | events | 17 |
-| prizeladder | 17 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
@@ -330,6 +330,9 @@ Distinct evidence records cited: **383**.
 | CLAIM-1142 | Coach categories are officially scoped: Fitness covers SPE/ACC/STA/STR, Technical covers CON/PAS/SHO/TAC, Goalkeeping covers GKR/GKH, and Special o... | Confirmed | coaches/official-categories | EV-419 |
 | CLAIM-1143 | Coach rarities are officially scoped as Common (+1 random stat), Rare (+2 stats by +2) and Legendary (+3 stats by +3), with the development ceiling... | Confirmed | coaches/official-rarity-scale | EV-419 |
 | CLAIM-115 | Rewarded-video policy (article 360017166918): ad networks manage their own inventory; FTG controls only ad types (e.g. blocking explicit content) a... | Confirmed | unscoped | EV-236,CLAIM-026,S-20261017-055 (sibling branch service r... |
+| CLAIM-1150 | OFFICIAL (FTG support): Dream Point Boosts are purchased within the Prize Ladder and temporarily increase the Dream Points awarded in matches. | Confirmed | prizeladder/dp-boosts-official | EV-420 |
+| CLAIM-1151 | OFFICIAL (FTG support): Dream Point Boosts apply ONLY to career matches, Dream Draft matches, scenario matches and DLL multiplayer matches - they d... | Confirmed | prizeladder/dp-boost-eligibility | EV-420 |
+| CLAIM-1152 | OFFICIAL (FTG support): Dream Point Boosts cannot be used when the Prize Ladder is complete or no longer active, and any unused boosts remain in yo... | Confirmed | prizeladder/dp-boost-carryover | EV-420 |
 | CLAIM-119 | OFFICIAL update-troubleshooting ladder (article 360000220945): iOS — close DLS, open App Store > Updates, pull to refresh, locate DLS and Update (o... | Confirmed | unscoped | EV-225 (capture record, summary-only provenance),CLAIM-02... |
 | CLAIM-120 | Control-button captions ('Low Kick', 'Hard Kick', 'Lofted Kick') can be removed: Game Settings > Display > Descriptive Button Text OFF, from in-gam... | Confirmed | unscoped | EV-226 (cross-branch capture record, summary-only provena... |
 | CLAIM-121 | Dream League Live emoji system (official 360020938198): six emojis available by default; further emojis are earned or purchased and chosen in Emoji... | Confirmed | unscoped | EV-227 (cross-branch capture record, summary-only provena... |
@@ -741,6 +744,11 @@ Distinct evidence records cited: **383**.
 | CLAIM-1133 | Challenge rerolling: daily objectives can be rerolled twice per day and weekly objectives twice per week via the video icon beside a hard objective... | High Confidence | challenges/rerolling | EV-418 |
 | CLAIM-1135 | CORRECTION: the official store copy names only FIVE facilities - Stadium, Medical, Commercial, Training and the new Fanzone. Recruitment Centre and... | High Confidence | facilities/roster-correction | EV-419 |
 | CLAIM-1141 | Season Points are earned by completing matches, with the amount varying by game mode (official-stated) - the 40-points-per-login figure is a commun... | High Confidence | economy/season-points-official | EV-419 |
+| CLAIM-1144 | Career Mode Dream Points: 75 DP for a win, 10 DP per goal up to 5 goals (50 max) and 15 DP for a clean sheet, for a 140 DP maximum per match. | High Confidence | prizeladder/dp-career-per-match | EV-420 |
+| CLAIM-1145 | Dream League Live and Dream Draft Dream Points: 120 DP for a win, 10 DP per goal up to 5 goals and 15 DP for a clean sheet, for a 185 DP maximum pe... | High Confidence | prizeladder/dp-live-per-match | EV-420 |
+| CLAIM-1146 | Goals beyond the fifth in a single match earn no additional Dream Points, so there is no benefit to score padding past five. | High Confidence | prizeladder/dp-five-goal-cap | EV-420 |
+| CLAIM-1147 | Dream League Live Tier does not affect the Dream Points earned - the mode pays more per match than career (185 vs 140) but is harder, so offline wi... | High Confidence | prizeladder/dp-tier-independent | EV-420 |
+| CLAIM-1154 | 'Junior Elite Division' is confirmed as a real historical DLS division name via the 'Time To Step Up' achievement, validating dlspedia's legacy sta... | High Confidence | facilities/junior-elite-division | EV-420 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1078,6 +1086,12 @@ Distinct evidence records cited: **383**.
 | CLAIM-1128 | The dominant online approach criticised by players is passing back to the keeper and lofting a long ball for a pacey striker to chase, and Dream Po... | Community Consensus | ai/long-ball-meta-dp-goals | EV-417 |
 | CLAIM-1131 | Transfer market rating thresholds: above 65 team rating Rare players begin appearing; above 68.7, Legendary players rated 80-82 appear and become w... | Community Consensus | transfers/market-rating-thresholds | EV-418 |
 | CLAIM-1132 | Timed events run roughly every 4 days and offer a chance at a Legendary player plus 600+ coins. | Community Consensus | events/four-day-events | EV-418 |
+| CLAIM-1148 | Prize Ladder completion is quoted at roughly 200,000 DP in some community threads and 145,000 DP to reach the final gem reward in others; a boosted... | Community Consensus | prizeladder/total-dp-required | EV-420 |
+| CLAIM-1149 | Prize Ladder grind pace: roughly 2,800 DP per day is needed to finish in time, which is about 20 matches a day at 140 DP; matches average 8-10 minu... | Community Consensus | prizeladder/grind-pace | EV-420 |
+| CLAIM-1153 | Achievement list (Exophase, both platforms): Rise To The Top (develop a player to 100 - 1,500 XP), Golden Boy (Gold status - 1,000 XP), Cat Like Re... | Community Consensus | career/achievements | EV-420 |
+| CLAIM-1155 | Club goals (LevelWinner DLS20): the first four club goals pay 10 gems each and require finishing 8th or higher in the Academy Division, reaching Gl... | Community Consensus | career/club-goals-gems | EV-420 |
+| CLAIM-1156 | Live Transfers list players closely track your club's overall rating, so Academy-level clubs are offered commons rated 67 or below. | Community Consensus | transfers/market-tracks-club-ovr | EV-420 |
+| CLAIM-1157 | APK download size varies by build and region: AppBrain reports 185.97 MB for the current DLS26 Android build against the App Store's 269.6 MB figure. | Community Consensus | platform/apk-size-variance | EV-420 |
 | CLAIM-116 | Special-player taxonomy with counts (dlsinside database at build 13.430, single database): Cult Heroes 12, World Cup Champions 8, World Cup Heroes ... | Community Consensus | unscoped | EV-238,S-20261017-057 (sibling branch service record, dls... |
 | CLAIM-117 | A DLS 27 cycle is being prepared: a dlsinside blog post (25 Aug 2026) covers 'DLS 27: All New, Returning, and Removed Teams' and a kit app advertis... | Community Consensus | unscoped | EV-240,S-20261017-057 (sibling branch service record, dls... |
 | CLAIM-118 | App Store review sentiment on the DLS26 listing (chunk captured 2026-10-11): wish-list items include managing other teams and choosing a league at ... | Community Consensus | unscoped | EV-173 |
