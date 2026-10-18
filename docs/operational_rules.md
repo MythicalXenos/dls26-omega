@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-105 (`858dfec`) — 1,412 claims / 348 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-109 (`300157b`) — 1,429 claims / 350 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -192,6 +192,12 @@ Any state → **any** state on a Patch Response trigger (see §6).
 
 **Scoring: 3/1/0. Gem rewards: 100/100/100/40/30.** DLL pays gems for a season finish with a **minimum of 14 points**. [EV-437, C2]
 
+> **R-7.1 — THE GEM ENGINE.** When gems are the priority, **tier camp between Tier 5 and Tier 2 and aim for SURVIVAL, NOT PROMOTION**: win only 4–5 matches (12–15 points), quit the rest, and accept that losing en route keeps you in the camping tier. ~48 matches over 4–4.8 hours = 150–208 gems (~35–43/hour) against 5–11 gems/day from challenges. **Do not forfeit while camping.** Tier 1 cannot be camped. **[EV-448, C2/C3]**
+
+> **R-7.2 — THE SQUAD RULE (C-024).** Keep the DLL squad **competitive but NOT maxed**; pursue full maxing as a *separate* club-value objective. Team strength is an official matchmaking input, so a stronger squad faces stronger opponents. The record Tier 1 run used a mostly common/rare squad. **[EV-447, C1 / EV-448, C2]**
+
+> **R-7.3 — TACKLING IS WORTHLESS IN LIVE.** Defend with **95+ speed and acceleration** players; put your fastest attackers at centre-back; keep real centre-backs for corner height; full-backs slide rather than chase. **[EV-448, C2/C3]**
+
 **Matchcraft — the mechanical edge** (full detail in masterplan §3.1):
 
 | Rule | Detail |
@@ -337,10 +343,12 @@ The game is volatile; these are the only events that justify breaking the routin
 4. **Market refresh cadence** (C-021) — "refreshes after every match" is the community consensus; a minority claims every 7 hours. The rule set uses the per-match model because it is the more conservative assumption for the farming loop.
 5. **The special-player max cost** (C-020) — planned at 2,100 gems from the coach model, not from a datamine.
 6. **~300 matches to a dream squad** and **~16 days to Tier 1** are single-source community figures, useful for planning but not guarantees.
+7. **The tier-camping gem rate** (~35–43/hour) is a single well-detailed community report. The *method* is corroborated by several posters describing the same survival-not-promotion approach; the *exact numbers* are not.
+8. **The maxed-squad handicap (C-024)** is Community Consensus with an official mechanism behind it, not a datamined fact. The direction is reliable; the threshold (how much coaching is too much) is unknown.
 
 ### 7.3 Audit verdict
 
-**PASS with stated limits.** The rule set is internally consistent, fully referenced, and safe to execute. The open gaps are all *numeric refinements* that change an optimum at the margin, not the direction of the plan. None of them blocks starting.
+**PASS with stated limits.** The rule set is internally consistent, fully referenced, and safe to execute. Rules R-7.1 to R-7.3 were added at ckpt-109 and are the highest-value rules in the file. The open gaps are all *numeric refinements* that change an optimum at the margin, not the direction of the plan. None of them blocks starting.
 
 ---
 

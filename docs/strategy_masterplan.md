@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-104 (`3ad2ccf`) — 1,412 claims / 348 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-109 (`300157b`) — 1,429 claims / 350 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -517,4 +517,4 @@ Two hard thresholds: **DLL pays gems for a season finish with a minimum of 14 po
 
 ---
 
-> **COMPANION FILE — `docs/operational_rules.md`.** The masterplan says *what* to aim for; the operational rules say *what to do in each game state*, as a nine-state machine (S0 Bootstrap -> S1 Economy -> S2 Promotion Push -> S3 Secure Division -> S4 Coin Farming -> S5 Coach Farming -> S6 Squad Assembly -> S7 DLL Climb -> S8 Cultivation -> S9 Maintenance) with the guards that move you between them. Every rule carries its evidence reference, every numeric figure traces to a claim, and the file ends with an explicit audit listing the six known weaknesses and a PASS-with-stated-limits verdict.*
+> **COMPANION FILE — `docs/operational_rules.md`.** The masterplan says *what* to aim for; the operational rules say *what to do in each game state*, as a nine-state machine (S0 Bootstrap -> S1 Economy -> S2 Promotion Push -> S3 Secure Division -> S4 Coin Farming -> S5 Coach Farming -> S6 Squad Assembly -> S7 DLL Climb -> S8 Cultivation -> S9 Maintenance) with the guards that move you between them. Every rule carries its evidence reference, every numeric figure traces to a claim, and the file ends with an explicit audit listing the six known weaknesses and a PASS-with-stated-limits verdict. A third companion, `docs/dll_tier_playbook.md`, gives band-by-band DLL tactics for tiers 20 to 1 including the tier-camping gem engine and the maxed-squad handicap.*
