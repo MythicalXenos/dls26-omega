@@ -1,178 +1,206 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-10-17T19:50:00Z",
-  "items": [
-    {
-      "id": "RQ-20261017-001",
-      "topic": "WALL SOURCE: all non-allowlisted research hosts (support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com, community/Reddit/YouTube/TikTok)",
-      "tier": "queue-Critical",
-      "status": "blocked-access-boundary",
-      "added": "2026-10-17T17:00Z",
-      "source": "S-055..058",
-      "reopen_predicate": "host allowlist change, permitted proxy route, or user-supplied capture pushed to raw_game_data/",
-      "debt": "15 FTG article bodies listed in ckpt-20261017-setup-002 resumption point; version gaps 13.140-13.299, 13.360-13.400; true non-English forums; Dynamic Stars official detail"
-    },
-    {
-      "id": "RQ-20261017-002",
-      "topic": "Technical/datamining corpus via GitHub and package registries",
-      "tier": "queue-High",
-      "status": "open-negative",
-      "added": "2026-10-17T17:00Z",
-      "source": "S-059..062",
-      "note": "Negative for APK/save/stat data on these families as of 2026-10-17; do not repeat identical queries; new query shapes only if a new lead appears."
-    },
-    {
-      "id": "RQ-20261017-004",
-      "topic": "Refresh over-due claims in claims.jsonl (next_due dates) where verification is possible without the blocked web",
-      "tier": "queue-Medium",
-      "status": "open",
-      "added": "2026-10-17T17:01Z",
-      "source": "coverage accounting t69"
-    },
-    {
-      "id": "RQ-20261017-003",
-      "topic": "Reconcile kb/claims.jsonl with 22655f48 markdown summaries",
-      "tier": "queue-High",
-      "status": "completed",
-      "added": "2026-10-17T17:01Z",
-      "progress": "Alias map complete (73/73), 9 review rows resolved by promotion, derived banners applied, index generated. Remaining cosmetic work: retire or rewrite the six markdown summaries is optional; they now defer to the authority.",
-      "source": "OBS-011 / kb/claim_alias_map.md",
-      "completed_at": "2026-10-17T17:47Z"
-    },
-    {
-      "id": "RQ-20261017-005",
-      "topic": "Promote 7 orphan topics to claim records from preserved evidence (Clans, Friend Match, device compatibility, squad depth, new-player start state, live-service cadence, team-OVR formula)",
-      "tier": "queue-High",
-      "status": "completed",
-      "added": "2026-10-17T17:28Z",
-      "source": "kb/claim_alias_map.md",
-      "note": "Each promotion needs evidence reference and tier; no values invented. Trained-rating hypothesis remains Speculative, quarantined.",
-      "completed_at": "2026-10-17T17:47Z",
-      "progress": "All 7 orphan topics promoted plus 10 further summaries (17 claims, CLAIM-089..105); alias map shows no orphan remaining."
-    },
-    {
-      "id": "RQ-20261017-006",
-      "topic": "Backfill EV extraction records for FTG articles captured only as GS summaries (connection requirement, device compatibility, Friend Match) and canonical URLs for EV-167 iCloud and EV-194 player roles",
-      "tier": "queue-Medium",
-      "status": "open",
-      "added": "2026-10-17T17:28Z",
-      "source": "step1_epochs/ARTICLE_COVERAGE.md",
-      "note": "Record-format debt; knowledge is captured but the physical extraction record is missing."
-    },
-    {
-      "id": "RQ-20261017-007",
-      "topic": "Refresh overdue claims CLAIM-003 (global ranking surface) and CLAIM-006 (VI fitness-coach release claim) with a real check; if the web is blocked, record ACCESS_BOUNDARY without advancing next_due",
-      "tier": "queue-Critical",
-      "status": "open",
-      "added": "2026-10-17T17:29Z",
-      "source": "kb/claims_index.md"
-    },
-    {
-      "id": "RQ-20261017-008",
-      "topic": "Retry FTG articles 14369944135058 (control buttons), 360020938198 (DLL emojis), 360021064298 (opponent kit visibility) and the moved update-troubleshooting slug when a permitted route exists",
-      "tier": "queue-High",
-      "status": "blocked-access-boundary",
-      "added": "2026-10-17T17:29Z",
-      "source": "step1_epochs/ARTICLE_COVERAGE.md"
-    },
-    {
-      "id": "RQ-20261017-009",
-      "topic": "Controls/settings inventory (camera, assist, control layout, Auto Switch option set) \u2014 highest-value missing artifact for execution advice",
-      "tier": "queue-Critical",
-      "status": "needs-device-or-permitted-route",
-      "added": "2026-10-17T18:33Z",
-      "source": "step1_epochs/TOPIC_MAP.md \u00a7A",
-      "note": "Requires either in-game observation via the user, or a permitted APK route for datamining. Do not fabricate option names."
-    },
-    {
-      "id": "RQ-20261017-010",
-      "topic": "Formation/role mechanics and set-piece behaviour \u2014 no verified claims exist; blocks the formation-specific meta the prompt requires",
-      "tier": "queue-High",
-      "status": "needs-device-or-permitted-route",
-      "added": "2026-10-17T18:33Z",
-      "source": "step1_epochs/TOPIC_MAP.md \u00a7B"
-    },
-    {
-      "id": "RQ-20261017-011",
-      "topic": "Exact economy values at current build (coin per match, gem per objective, XP per win/loss, division thresholds, coach ROI)",
-      "tier": "queue-High",
-      "status": "needs-device-or-permitted-route",
-      "added": "2026-10-17T18:33Z",
-      "source": "step1_epochs/TOPIC_MAP.md \u00a7C/\u00a7D/\u00a7E",
-      "note": "Until captured, every cost/ROI answer is approximate and must say so."
-    },
-    {
-      "id": "RQ-20261017-012",
-      "topic": "Verify the 15-vs-24 language-count conflict by datamined resource count or official statement",
-      "tier": "queue-Medium",
-      "status": "open",
-      "added": "2026-10-17T18:33Z",
-      "source": "EVIDENCE CONFLICT turn 5"
-    },
-    {
-      "id": "RQ-20261017-013",
-      "topic": "Reconcile all three unmerged branches (22655f48, a7e23a6b, b5d5681d) before any completeness claim; build a single provenance map of which claims/evidence came from which branch checkpoint",
-      "tier": "queue-High",
-      "status": "open",
-      "added": "2026-10-17T19:30Z",
-      "source": "OBS-012"
-    },
-    {
-      "id": "RQ-20261017-014",
-      "topic": "Settle conflicts C-001\u2026C-005 (languages, leaderboard cadence, release payout, iCloud toggle, DLL weekly wording) with a capture or datamined check",
-      "tier": "queue-High",
-      "status": "blocked-access-boundary",
-      "added": "2026-10-17T19:30Z",
-      "source": "logs/conflicts.md"
-    },
-    {
-      "id": "RQ-20261017-015",
-      "topic": "Complete the numeric transcription spot-check on the remaining 53 claims (claim number vs cited EV record)",
-      "tier": "queue-High",
-      "status": "completed",
-      "added": "2026-10-17T20:26Z",
-      "source": "audit/TRANSCRIPTION_SPOTCHECK_turn8.md",
-      "note": "Two defects in the first 10 sampled; do not assume the rest are clean.",
-      "completed_at": "2026-10-17T20:45Z",
-      "progress": "All 62 numeric claims checked; 4 corrections (CLAIM-004 evidence, CLAIM-007 evidence, CLAIM-053 three-way language count, CLAIM-087 unwitnessed size removed). Audit updated."
-    },
-    {
-      "id": "RQ-20261017-016",
-      "topic": "USER DECISION: Step 2 definition (decompilation vs permitted static analysis) \u2014 OBS-013",
-      "tier": "queue-Critical",
-      "status": "awaiting-user-decision",
-      "added": "2026-10-17T20:27Z",
-      "source": "OBS-013",
-      "note": "PROPOSED amendment in changelog; Step 2 unentered until ruled."
-    },
-    {
-      "id": "RQ-20261017-017",
-      "topic": "Promote three captured-but-unpreserved support bodies into EV records (friend match 360019064438, connection requirement 360004034498, can't update 360000220945); reconcile two more whose content lives under other IDs (restart career 213851909 ~ EV-211; device compat 214385685 ~ GS-018 + service summary)",
-      "tier": "queue-High",
-      "status": "completed",
-      "added": "2026-10-17T18:58Z",
-      "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a73",
-      "note": "EV-223/224/225 written with summary-only provenance; CLAIM-119 added for the update ladder; CLAIM-030/099 gained witnesses. No body text was invented.",
-      "completed_at": "2026-10-17T19:35Z"
-    },
-    {
-      "id": "RQ-20261017-018",
-      "topic": "Re-stamp the frontier (t69 -> current) with the eleven status changes and a migration note",
-      "tier": "queue-Medium",
-      "status": "completed",
-      "added": "2026-10-17T18:58Z",
-      "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a77",
-      "note": "Frontier re-stamped in two waves (8 status changes + 5 disposition alignments), restamps[] array added, digests recorded, contract \u00a72 rewritten from the tool output.",
-      "completed_at": "2026-10-17T19:45Z"
-    },
-    {
-      "id": "RQ-20261017-019",
-      "topic": "Resolve C-009 with an in-client look: does Main Menu > Season Leaderboard show other players and a position number?",
-      "tier": "queue-Critical",
-      "status": "open",
-      "added": "2026-10-17T19:50Z",
-      "source": "logs/conflicts.md C-009",
-      "note": "This single observation decides whether the mission's '#1' can be measured on the Season Leaderboard at all. Fold into the P2 in-client checklist."
-    }
-  ]
+ "schema_version": 1,
+ "updated_at": "2026-10-18T02:10:00Z",
+ "items": [
+  {
+   "id": "RQ-20261017-001",
+   "topic": "WALL SOURCE: all non-allowlisted research hosts (support.ftgames.com, firsttouchgames.zendesk.com, dlsinside.com, community/Reddit/YouTube/TikTok)",
+   "tier": "queue-Critical",
+   "status": "blocked-access-boundary",
+   "added": "2026-10-17T17:00Z",
+   "source": "S-055..058",
+   "reopen_predicate": "host allowlist change, permitted proxy route, or user-supplied capture pushed to raw_game_data/",
+   "debt": "15 FTG article bodies listed in ckpt-20261017-setup-002 resumption point; version gaps 13.140-13.299, 13.360-13.400; true non-English forums; Dynamic Stars official detail"
+  },
+  {
+   "id": "RQ-20261017-002",
+   "topic": "Technical/datamining corpus via GitHub and package registries",
+   "tier": "queue-High",
+   "status": "open-negative",
+   "added": "2026-10-17T17:00Z",
+   "source": "S-059..062",
+   "note": "Negative for APK/save/stat data on these families as of 2026-10-17; do not repeat identical queries; new query shapes only if a new lead appears."
+  },
+  {
+   "id": "RQ-20261017-004",
+   "topic": "Refresh over-due claims in claims.jsonl (next_due dates) where verification is possible without the blocked web",
+   "tier": "queue-Medium",
+   "status": "open",
+   "added": "2026-10-17T17:01Z",
+   "source": "coverage accounting t69"
+  },
+  {
+   "id": "RQ-20261017-003",
+   "topic": "Reconcile kb/claims.jsonl with 22655f48 markdown summaries",
+   "tier": "queue-High",
+   "status": "completed",
+   "added": "2026-10-17T17:01Z",
+   "progress": "Alias map complete (73/73), 9 review rows resolved by promotion, derived banners applied, index generated. Remaining cosmetic work: retire or rewrite the six markdown summaries is optional; they now defer to the authority.",
+   "source": "OBS-011 / kb/claim_alias_map.md",
+   "completed_at": "2026-10-17T17:47Z"
+  },
+  {
+   "id": "RQ-20261017-005",
+   "topic": "Promote 7 orphan topics to claim records from preserved evidence (Clans, Friend Match, device compatibility, squad depth, new-player start state, live-service cadence, team-OVR formula)",
+   "tier": "queue-High",
+   "status": "completed",
+   "added": "2026-10-17T17:28Z",
+   "source": "kb/claim_alias_map.md",
+   "note": "Each promotion needs evidence reference and tier; no values invented. Trained-rating hypothesis remains Speculative, quarantined.",
+   "completed_at": "2026-10-17T17:47Z",
+   "progress": "All 7 orphan topics promoted plus 10 further summaries (17 claims, CLAIM-089..105); alias map shows no orphan remaining."
+  },
+  {
+   "id": "RQ-20261017-006",
+   "topic": "Backfill EV extraction records for FTG articles captured only as GS summaries (connection requirement, device compatibility, Friend Match) and canonical URLs for EV-167 iCloud and EV-194 player roles",
+   "tier": "queue-Medium",
+   "status": "open",
+   "added": "2026-10-17T17:28Z",
+   "source": "step1_epochs/ARTICLE_COVERAGE.md",
+   "note": "Record-format debt; knowledge is captured but the physical extraction record is missing."
+  },
+  {
+   "id": "RQ-20261017-007",
+   "topic": "Refresh overdue claims CLAIM-003 (global ranking surface) and CLAIM-006 (VI fitness-coach release claim) with a real check; if the web is blocked, record ACCESS_BOUNDARY without advancing next_due",
+   "tier": "queue-Critical",
+   "status": "open",
+   "added": "2026-10-17T17:29Z",
+   "source": "kb/claims_index.md"
+  },
+  {
+   "id": "RQ-20261017-008",
+   "topic": "Retry FTG articles 14369944135058 (control buttons), 360020938198 (DLL emojis), 360021064298 (opponent kit visibility) and the moved update-troubleshooting slug when a permitted route exists",
+   "tier": "queue-High",
+   "status": "blocked-access-boundary",
+   "added": "2026-10-17T17:29Z",
+   "source": "step1_epochs/ARTICLE_COVERAGE.md"
+  },
+  {
+   "id": "RQ-20261017-009",
+   "topic": "Controls/settings inventory (camera, assist, control layout, Auto Switch option set) \u2014 highest-value missing artifact for execution advice",
+   "tier": "queue-Critical",
+   "status": "needs-device-or-permitted-route",
+   "added": "2026-10-17T18:33Z",
+   "source": "step1_epochs/TOPIC_MAP.md \u00a7A",
+   "note": "Requires either in-game observation via the user, or a permitted APK route for datamining. Do not fabricate option names."
+  },
+  {
+   "id": "RQ-20261017-010",
+   "topic": "Formation/role mechanics and set-piece behaviour \u2014 no verified claims exist; blocks the formation-specific meta the prompt requires",
+   "tier": "queue-High",
+   "status": "needs-device-or-permitted-route",
+   "added": "2026-10-17T18:33Z",
+   "source": "step1_epochs/TOPIC_MAP.md \u00a7B"
+  },
+  {
+   "id": "RQ-20261017-011",
+   "topic": "Exact economy values at current build (coin per match, gem per objective, XP per win/loss, division thresholds, coach ROI)",
+   "tier": "queue-High",
+   "status": "needs-device-or-permitted-route",
+   "added": "2026-10-17T18:33Z",
+   "source": "step1_epochs/TOPIC_MAP.md \u00a7C/\u00a7D/\u00a7E",
+   "note": "Until captured, every cost/ROI answer is approximate and must say so."
+  },
+  {
+   "id": "RQ-20261017-012",
+   "topic": "Verify the 15-vs-24 language-count conflict by datamined resource count or official statement",
+   "tier": "queue-Medium",
+   "status": "open",
+   "added": "2026-10-17T18:33Z",
+   "source": "EVIDENCE CONFLICT turn 5"
+  },
+  {
+   "id": "RQ-20261017-013",
+   "topic": "Reconcile all three unmerged branches (22655f48, a7e23a6b, b5d5681d) before any completeness claim; build a single provenance map of which claims/evidence came from which branch checkpoint",
+   "tier": "queue-High",
+   "status": "open",
+   "added": "2026-10-17T19:30Z",
+   "source": "OBS-012"
+  },
+  {
+   "id": "RQ-20261017-014",
+   "topic": "Settle conflicts C-001\u2026C-005 (languages, leaderboard cadence, release payout, iCloud toggle, DLL weekly wording) with a capture or datamined check",
+   "tier": "queue-High",
+   "status": "blocked-access-boundary",
+   "added": "2026-10-17T19:30Z",
+   "source": "logs/conflicts.md"
+  },
+  {
+   "id": "RQ-20261017-015",
+   "topic": "Complete the numeric transcription spot-check on the remaining 53 claims (claim number vs cited EV record)",
+   "tier": "queue-High",
+   "status": "completed",
+   "added": "2026-10-17T20:26Z",
+   "source": "audit/TRANSCRIPTION_SPOTCHECK_turn8.md",
+   "note": "Two defects in the first 10 sampled; do not assume the rest are clean.",
+   "completed_at": "2026-10-17T20:45Z",
+   "progress": "All 62 numeric claims checked; 4 corrections (CLAIM-004 evidence, CLAIM-007 evidence, CLAIM-053 three-way language count, CLAIM-087 unwitnessed size removed). Audit updated."
+  },
+  {
+   "id": "RQ-20261017-016",
+   "topic": "USER DECISION: Step 2 definition (decompilation vs permitted static analysis) \u2014 OBS-013",
+   "tier": "queue-Critical",
+   "status": "awaiting-user-decision",
+   "added": "2026-10-17T20:27Z",
+   "source": "OBS-013",
+   "note": "PROPOSED amendment in changelog; Step 2 unentered until ruled."
+  },
+  {
+   "id": "RQ-20261017-017",
+   "topic": "Promote three captured-but-unpreserved support bodies into EV records (friend match 360019064438, connection requirement 360004034498, can't update 360000220945); reconcile two more whose content lives under other IDs (restart career 213851909 ~ EV-211; device compat 214385685 ~ GS-018 + service summary)",
+   "tier": "queue-High",
+   "status": "completed",
+   "added": "2026-10-17T18:58Z",
+   "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a73",
+   "note": "EV-223/224/225 written with summary-only provenance; CLAIM-119 added for the update ladder; CLAIM-030/099 gained witnesses. No body text was invented.",
+   "completed_at": "2026-10-17T19:35Z"
+  },
+  {
+   "id": "RQ-20261017-018",
+   "topic": "Re-stamp the frontier (t69 -> current) with the eleven status changes and a migration note",
+   "tier": "queue-Medium",
+   "status": "completed",
+   "added": "2026-10-17T18:58Z",
+   "source": "step1_epochs/FRONTIER_DELTA_turn13.md \u00a77",
+   "note": "Frontier re-stamped in two waves (8 status changes + 5 disposition alignments), restamps[] array added, digests recorded, contract \u00a72 rewritten from the tool output.",
+   "completed_at": "2026-10-17T19:45Z"
+  },
+  {
+   "id": "RQ-20261017-019",
+   "topic": "Resolve C-009 with an in-client look: does Main Menu > Season Leaderboard show other players and a position number?",
+   "tier": "queue-Critical",
+   "status": "open",
+   "added": "2026-10-17T19:50Z",
+   "source": "logs/conflicts.md C-009",
+   "note": "This single observation decides whether the mission's '#1' can be measured on the Season Leaderboard at all. Fold into the P2 in-client checklist."
+  },
+  {
+   "id": "RQ-20261018-020",
+   "topic": "Turn-35 Step-1 sweep (waves 18-29): Season Pass mechanics, Fanzone, 12th Man, update timeline, Dream Draft, kit import, Classic Players rosters, Clan mechanics, DLL tier matchmaking, cup formats, controls/skill moves, formations, Scenarios, Dream Point economy",
+   "tier": "queue-High",
+   "status": "completed",
+   "added": "2026-10-18T01:20Z",
+   "progress": "208 new claims (CLAIM-0967..CLAIM-1158) and 22 new EVs (EV-399..EV-420) committed and pushed across ckpt-071..ckpt-080. Domain taxonomy normalised (8 variant prefixes collapsed); kb/claims_index.md regenerated (was stale at 132 claims, now 1153).",
+   "completed_at": "2026-10-18T02:10Z",
+   "source": "turn35 waves 18-29"
+  },
+  {
+   "id": "RQ-20261018-021",
+   "topic": "OPEN GAPS remaining after the turn-35 sweep - all require device or permitted-route verification",
+   "tier": "queue-High",
+   "status": "open",
+   "added": "2026-10-18T02:10Z",
+   "source": "turn35 waves 19-29",
+   "debt": "Fanzone per-level gem costs; Form Boost duration per Training level (minimum of 1 match is official, table is not); Medical Centre per-tier injury/heal percentages beyond Level 1; post-DLS25 coach breakthrough percentages (5/10/20 is the DLS20 baseline); Dream Stars 12th Man winner identity; stadium capacity per-division ladder (C-010); GCC format (C-013); Cult Heroes official card list and ratings; exact Season Pass per-tier reward contents for the current season"
+  },
+  {
+   "id": "RQ-20261018-022",
+   "topic": "Source-reliability register - five sources now flagged unreliable or rejected",
+   "tier": "queue-Medium",
+   "status": "open",
+   "added": "2026-10-18T02:10Z",
+   "source": "turn35 waves 20, 22, 25, 26",
+   "debt": "sportsdunia (Commercial table rejected as internally inconsistent; INR season-pass figures unverified; Dynamic Stars numbers unverified); eslamgaming (ray-tracing/Frostbite/open-world/'Junior and Global divisions' fabrications, wrong control map, sole source for weather gameplay effects); playdreamleaguesoccer.com (chemistry, Tactical Presets, Adaptive Dribble, Neural Match Engine, fake player testimonials); Baiduwiki (non-existent auction-house market, outdated 2,000-player figure); footballeffect/gamingonphone 1,200-coin/40-gem starter outlier noted as a regional/beta variant"
+  }
+ ]
 }

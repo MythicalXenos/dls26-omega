@@ -1,5 +1,5 @@
 # CONFLICTS LEDGER — DLS26 OMEGA
-Consolidated 2026-10-17T19:15Z (session sess-20261017-001, turn 6). Authority: CONFLICT PROTOCOL (Core Identity) and the EVIDENCE CONFLICT log category.
+Consolidated 2026-10-17T19:15Z (session sess-20261017-001, turn 6); extended 2026-10-18 (turn 35, waves 18-29) with C-010..C-016. Authority: CONFLICT PROTOCOL (Core Identity) and the EVIDENCE CONFLICT log category.
 Each entry: the two sides with origin and date, the status, what would settle it, and what the system may say meanwhile. An unresolved conflict is never resolved by picking the more convenient side; where advice depends on one, both are presented with the cost of being wrong.
 
 ## OPEN
@@ -71,6 +71,55 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Why it matters:** the mission target is "#1". CLAIM-003 lists the Season Leaderboard as a candidate surface. If it is not a public, cross-player ranking, it cannot define "#1", and the only public surfaces left are the DLL leaderboards (3–30 day resets) and LIVE Tier.
 - **Settles it:** a Main Menu → Season Leaderboard capture showing whether other players appear and whether a rank/position is displayed, or an official sentence linking the two.
 - **May say meanwhile:** "there are two official boards with different names and no documented relationship; neither has been shown to display a global position."
+
+### C-010 — Stadium capacity per division: three incompatible tables
+- **Side A:** r/DLS DLS24 beginner guide (Mar 2024, EV-403) — Academy 5,000 / Amateur 15,000 / Div 4 25,000 / Div 3 35,000 / Div 2 45,000 / Div 1 55,000 / Elite 70,000 / Legendary 85,000; max capacity 92,000; ~1,400 coins per promotion.
+- **Side B:** dlspedia.fandom (EV-403/EV-408) — Academy 6,462 (starting) / Div 3 15,000 / Div 2 30,000 / Div 1 45,000 / Junior Elite 60,000 / Elite 80,000; max seats 90,456; max autobuild 80,000.
+- **Side C:** mundodls (Spanish, EV-403) — Amateur 4,000 / Primera 20,000 / Legendary 45,000.
+- **Partial corroboration:** dream-league-soccer.fandom's Division 3 page (entry 35,000; progression to Division 2 at 45,000) matches Side A exactly, and the Exophase achievements (40,000 and 80,000 thresholds) are consistent with both A and B.
+- **Status:** UNRESOLVED. Side A is best-supported but all three are community-derived; "Junior Elite Division" in Side B is a confirmed historical division name (Exophase "Time To Step Up" achievement), so Side B may describe an older ladder.
+- **Settles it:** an in-game Stadium & Facilities capture showing the next division's seat requirement.
+- **May say meanwhile:** "the promotion seat requirement is in the 35,000-45,000 band around Division 3/2; the exact per-division ladder is not settled, and the cheapest first capacity upgrade costs about 446 coins."
+
+### C-011 — Commercial Centre bonus scale: 13%/21% vs 2-10% vs DLS21 +6%
+- **Side A:** 13% at Level II and 21% at Level III — Bluestacks 2026, gamingonphone (three separate guides) and gamedls.net, three independent sources (EV-404).
+- **Side B:** sportsdunia's table 2% / 4% / 6% / 8% / 10% by level (EV-404) — internally inconsistent (its Level 3 kit discount is listed as 1%, breaking monotonicity) and contradicted by three sources.
+- **Side C:** DLS21-era first upgrade gave +6% match winnings (LevelWinner, EV-404) and rajatips says Level 1 = 6%.
+- **Status:** RESOLVED in favour of Side A on multi-source grounds; Side B REJECTED; Side C recorded as version drift showing the scale was re-tuned between DLS21 and DLS24+.
+- **May say meanwhile:** "Commercial Level II = +13% and Level III = +21% post-match coins."
+
+### C-012 — Custom kit import gem cost: 150 vs 300
+- **Side A:** 150 gems one-time unlock — dlskiturl.com, dlsgame.net and mundodls.com, three independent kit sites (EV-402).
+- **Side B:** 300 diamonds one-time unlock — Bluestacks custom-kit guide (EV-402).
+- **Status:** RESOLVED in favour of Side A on multi-source grounds (three specialist kit sites against one general guide). Note mundodls additionally prices the custom crest at 75 gems (225 total) and one site reports the iOS unlock is cheaper than Android.
+- **May say meanwhile:** "budget 150 gems for the custom kit unlock (225 with the crest); 300 is a single-source outlier."
+
+### C-013 — Global Challenge Cup format
+- **Side A:** any single loss eliminates you (dream-league-soccer.fandom, EV-416).
+- **Side B:** round-robin groups of 4 with the top 2 qualifying, then a single-legged knockout — Bluestacks, dls-wiki.fandom, and r/DLS quantifying 32 groups of 4 = 128 teams feeding a 64-team Round 1 (EV-416).
+- **Side C:** you play three group opponents twice, Champions-League style (r/DLS, EV-416).
+- **Status:** UNRESOLVED. Side B has the most support and the most internal consistency (32 x 4 = 128 reconciles the "128 teams" report), but the two-legged and any-loss-eliminates variants are not refuted.
+- **Settles it:** an in-game GCC group-table capture.
+- **May say meanwhile:** "the GCC is best documented as groups of four with two qualifiers, then a knockout; it pays 10 gems per round cleared and 25 for winning it."
+
+### C-014 — Is 4-2-3-1 a good formation?
+- **Side A:** sportsdunia ranks 4-2-3-1 second of its top five DLS26 formations (EV-414).
+- **Side B:** r/DLS advises never using 4-2-3-1 because the lone striker gets no support and the team is punished by long balls (EV-414).
+- **Status:** UNRESOLVED and playstyle-dependent; both recorded.
+- **May say meanwhile:** "4-2-3-1 suits midfield control; players who concede long balls are advised against it."
+
+### C-015 — International Cup / All-Star Cup availability
+- **Side A:** older wiki and long-term players report 18+ International Cup and All-Star Cup wins after winning the Legendary Division (EV-416).
+- **Side B:** an Aug 2025 r/DLS thread reports the International Cup appearing only in the trophies list and not being playable in DLS25 (EV-416).
+- **Status:** UNRESOLVED, version-dependent.
+- **Settles it:** a current-build main-menu competition list.
+- **May say meanwhile:** "the International and All-Star Cups are documented but their current-build availability is unconfirmed."
+
+### C-016 — Facility roster: five official vs seven in-game
+- **Side A:** official store copy names five facilities — Stadium, Medical, Commercial, Training, Fanzone (GS-023, official-stated).
+- **Side B:** community guides (ldplayer, chaptercheats) place Recruitment Centre and Accommodation in the in-game Stadium & Facilities screen as well (EV-419).
+- **Status:** RESOLVED as a scope difference, not a contradiction: five facilities are official-stated; Recruitment and Accommodation are in-game surfaces reported only by community sources. The earlier "seven confirmed facilities" claim is corrected.
+- **May say meanwhile:** "five facilities are officially named; Recruitment and Accommodation also appear in the facility screen."
 
 ## RESOLVED (kept for history, with the evidence that resolved them)
 
