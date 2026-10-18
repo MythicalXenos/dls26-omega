@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T11:52:43Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2284**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 963 / Speculative 81 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **488**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T12:31:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2290**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 969 / Speculative 81 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **489**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -11,22 +11,22 @@ Distinct evidence records cited: **488**.
 | economy | 142 |
 | facilities | 114 |
 | dll | 92 |
-| gameplay | 81 |
+| gameplay | 83 |
 | transfers | 80 |
 | cards | 71 |
 | career | 70 |
 | clans | 67 |
 | errata | 62 |
-| setpieces | 60 |
-| controls | 56 |
+| setpieces | 61 |
+| controls | 57 |
 | prizeladder | 48 |
 | coaching | 45 |
 | patching | 44 |
 | cups | 41 |
 | training | 41 |
+| tactics | 38 |
 | attributes | 37 |
 | coaches | 37 |
-| tactics | 37 |
 | events | 35 |
 | platform | 32 |
 | account | 29 |
@@ -45,12 +45,12 @@ Distinct evidence records cited: **488**.
 | negatives | 13 |
 | ui | 12 |
 | settings | 11 |
+| skillmoves | 11 |
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
 | medical | 10 |
 | positions | 10 |
-| skillmoves | 10 |
 | social | 10 |
 | squad | 10 |
 | 12thman | 8 |
@@ -2235,6 +2235,12 @@ Distinct evidence records cited: **488**.
 | CLAIM-2286 | THE 110-GEM CAREER SEASON TOTAL, the sum of the corpus's per-competition breakdown (30 + 25 + 15 + 5 + 20 + 15 = 110), now stated explicitly - plus... | Community Consensus | career/110-gem-season-total | EV-524 |
 | CLAIM-2287 | THE PER-CLUB RATING CHANGE TABLE, a concrete example of the Winter Reload reshuffle: 'Man City: **Guehi, Foden +1** · Haaland, Donna, Doku, Gvardio... | Community Consensus | patching/per-club-rating-change-table | EV-524 |
 | CLAIM-2288 | THE DAILY-REWARD STREAK ARITHMETIC: 'For Regular Daily Main Reward - it is **5-11, with a +1 Increment per every day** you complete them, in a stre... | Community Consensus | economy/daily-reward-streak-arithmetic | EV-524 |
+| CLAIM-2289 | ⚠️ THERE IS NO FAKE SHOT IN DLS — a documented negative the corpus did not carry. Raised in a celebrations request thread, where the top reply name... | Community Consensus | skillmoves/no-fake-shot | EV-525 |
+| CLAIM-2290 | THE SET-PIECE RANDOMISATION COMPLAINT: '**Many times you point your joystick exactly where you want it and it seems some RnG kicks in where it kind... | Community Consensus | setpieces/randomisation-complaint | EV-525 |
+| CLAIM-2291 | THE RESPONSIVENESS COMPLAINT, a third source for the corpus's input-delay finding: 'You can tap the screen and quickly change direction to chop the... | Community Consensus | controls/responsiveness-complaint-third-source | EV-525 |
+| CLAIM-2292 | THE BOTH-FOOTED WINGER is a SHAPE asset, not merely a finishing one: '**Both-footed wingers is great as-well because they can put sweeping passes f... | Community Consensus | tactics/both-footed-winger-shape-asset | EV-525 |
+| CLAIM-2293 | THE THROUGH-BALL INPUT, from a flagged source and recorded at C3 with the flag: '**Master the Through Ball - Instead of passing directly to a playe... | Community Consensus | gameplay/through-ball-input | EV-525 |
+| CLAIM-2294 | THE DIAGONAL A PASS NERF, with the specific quote: 'The Unstoppable Diagonal A Pass: That broken, laser-accurate diagonal shot-pass is now about **... | Community Consensus | gameplay/diagonal-a-pass-and-cspam-nerfs | EV-525 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |

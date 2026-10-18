@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-187 — 2,284 claims / 426 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-188 — 2,290 claims / 427 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -478,6 +478,9 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **The three action buttons are context-dependent:** in possession they pass, shoot and cross; out of possession the same three become **press, tackle, change-player**. The layout is customisable and **the shooting assistant can be disabled**.
 - **Kicks:** Low Kick = low/short precise passes · Hard Kick = shots and long through balls · Lofted Kick = long passes and chips.
 - **Skills:** Rainbow Flick = swipe **UP** (Control > 80) · Feint = swipe **L/R** · Roulette = swipe **DOWN** (Control > 70) · Bicycle/Scorpion Kick = double-tap **in the air** · Heading = double-tap **under the ball** · Rabona = Rainbow Flick then **B/C** · **Close Control = tap and hold** in empty space while in possession (official: *"more controlled dribbling"*) · **Knock Ahead = tap** while in possession · **Secondary Press = tap and hold** while defending.
+- **⚠️ There is NO fake shot** [EV-525, C3] - the dedicated strike-feint does not exist, so do not look for it. The Feint is a direction change, not a fake shot.
+- **Set pieces carry unseen variance** [EV-525, C3] - three identical corners can produce three different outcomes. Drill ONE routine rather than improvising.
+- **A both-footed winger is a shape asset** [EV-525, C3] - it creates the in-swinger from either flank, not merely a finishing option.
 - **Skill moves are gated by Control** — below the threshold the player *"will just lose the ball."*
 - **Learn them at My Club → Training → Free Practice**; the **Advanced Tutorial** teaching every skill is inside the training mode. Six modules: Free Training, Free Kick, Left Corner, Right Corner, Penalty, Penalty Save.
 - **Technique:** combine the swipe with a joystick direction change; skill moves pay most **in a 1v1 with the keeper** (a speed boost plus distance from recovering defenders).
