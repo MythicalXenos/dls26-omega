@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-132 — 1,628 claims / 372 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-134 — 1,640 claims / 374 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,17 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**THE SEASON PASS RULES** [EV-472, C2]:
+
+| Rule | Detail |
+|---|---|
+| **Two paid tiers** | Basic ~**$4** (INR 399) · Premium ~**$13–15** (INR 1,199 / $14.60). Not a subscription — **repurchase every 10-day season** |
+| **The free track is worth claiming regardless** | **1,095 coins + an Epic agent**, with no purchase |
+| **Levels are STORED, not lost** | *"If you don't play every 10 hours, the game will store the level so that you can advance multiple levels at once"* — inactivity costs nothing |
+| **Buy LATE or not at all** | A late purchase **backfills every premium tier already unlocked for free**, so early buying gains nothing |
+| **Premium's real value is double XP** | Double Season Points *and* double Live XP (faster Progress Bank and leaderboard), tiers to Tier 8 up front, gold trim, better packs |
+| **Verdict** | *"Most suitable for a new player but not so much for a veteran"* — if the squad and facilities are maxed, the rewards stop mattering |
 
 **THE FACILITY COST LADDER** [EV-468, C2] — the budget rule that replaces "1,125 per facility":
 
@@ -444,4 +455,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,628 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (372 records) at ckpt-132.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,640 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (374 records) at ckpt-134.*

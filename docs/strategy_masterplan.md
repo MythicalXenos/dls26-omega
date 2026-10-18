@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-132 — 1,628 claims / 372 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-134 — 1,640 claims / 374 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -166,6 +166,10 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 - Scenarios: **50 coins daily**; 75–100 coins per 8-hour cycle [C2/C3]
 - Ads: 30 coins per ad, up to ~600 coins in 15 minutes [EV-426, C3]
 - Season Pass: **400 SP**, **40 SP/day login**, 10-day season; the **free track alone gives 1,095 coins + an Epic agent** [EV-399, C2]
+
+**The Season Pass purchase decision, priced** [EV-472, C2]. Two paid tiers exist: a **basic pass at about $4** (INR 399) and a **Premium pass at about $13–15** (INR 1,199 / $14.60). The original pass's full reward list was **4,000 coins, 150 crystals, 5 legendary form boosts, 3 legendary coaches (technical, fitness and GK), 1 legendary physio, 1 legendary scout and 1 legendary agent** — shop-equivalent about **£21.95**. The Premium tier adds: tiers unlocked to **Tier 8** immediately, **double Season Points and double Live XP**, a gold profile trim, a head start on the tier ladder, and better packs (a legendary agent plus 3 legendary scouts). Reviewers' verdict: *"almost the exact same"* as basic apart from the XP, and *"most suitable for a new player but not so much for a veteran."*
+
+> **The mechanic that makes timing free:** *"you get to advance a SP level every 10 hours. If you don't play every 10 hours, the game will **store** the level so that you can advance multiple levels at once on a later time."* The free track's drip-feed is a **storage system, not a penalty** — and because a late purchase backfills every premium tier you already unlocked for free, **waiting costs nothing and buying early buys nothing extra.** **Buy the pass LATE in the season, or not at all.**
 - Progression Bank: accumulates coins and gems from DLL XP over a **10-day season**, paid out in full at season end [EV-431, C2]
 - Weekly DLL leaderboard: gems for **placement** *and* gems for playing a set number of DLL matches that week [EV-431, C2]. **Official cadence:** leaderboards *"reset at regular intervals (from 3-30 days)"* and pay by final position [EV-462, **C1**] — the 10-day Progression Bank season sits inside that range
 

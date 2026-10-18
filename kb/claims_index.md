@@ -1,18 +1,18 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:40:38Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1630**
-Distribution: Confirmed 373 / High Confidence 693 / Community Consensus 529 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **435**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:42:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1640**
+Distribution: Confirmed 373 / High Confidence 702 / Community Consensus 530 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **436**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 115 |
-| facilities | 86 |
+| facilities | 87 |
 | dll | 61 |
+| cards | 50 |
 | clans | 50 |
-| cards | 49 |
 | career | 48 |
 | gameplay | 46 |
 | transfers | 43 |
@@ -27,7 +27,7 @@ Distinct evidence records cited: **435**.
 | customization | 29 |
 | setpieces | 29 |
 | errata | 24 |
-| events | 21 |
+| events | 22 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
@@ -42,13 +42,14 @@ Distinct evidence records cited: **435**.
 | match | 10 |
 | social | 10 |
 | draft | 9 |
+| stadium | 9 |
 | squad | 8 |
-| stadium | 8 |
 | physio | 7 |
 | coaching | 6 |
 | difficulty | 6 |
 | monetization | 6 |
 | save | 6 |
+| seasonpass | 6 |
 | 12thman | 5 |
 | accounts | 5 |
 | discipline | 5 |
@@ -1012,6 +1013,15 @@ Distinct evidence records cited: **435**.
 | CLAIM-1622 | The DLL champion cap is 125 championships per 10-day season at 48 gems each = 6,000 gems, matching the corpus's DLL gem figure. A Legendary DP Poin... | High Confidence | dll/champion-cap-and-booster-cost | EV-468 |
 | CLAIM-1623 | A SECOND SOURCE NAMES 100 GEMS for the clan top contributor: 'in a clan there is a leaderboard where having the highest clan points give you the re... | High Confidence | clans/top-contributor-100-second-source | EV-468 |
 | CLAIM-1634 | Every failed DLL promotion wastes the accumulated points of that tier, so a promotion streak is worth protecting above individual match results - t... | High Confidence | dll/promotion-streak-priority | EV-471 |
+| CLAIM-1635 | THE SEASON PASS HAS TWO PAID TIERS: a basic pass at about $4 (INR 399) and a Premium pass at about $13-15 (INR 1,199, or $14.60 on a Peruvian store... | High Confidence | seasonpass/two-paid-tiers-priced | EV-472 |
+| CLAIM-1636 | THE ORIGINAL SEASON PASS REWARD LIST (first season): 4,000 coins, 150 crystals, 5 legendary form boosts, 3 legendary coaches (one technical, one fi... | High Confidence | seasonpass/original-reward-list | EV-472 |
+| CLAIM-1637 | THE FREE TRACK'S DRIP-FEED IS A STORAGE SYSTEM: 'you get to advance a SP level every 10 hours. If you don't play every 10 hours, the game will stor... | High Confidence | seasonpass/level-storage-mechanic | EV-472 |
+| CLAIM-1638 | WHAT THE PREMIUM TIER ADDS: tiers unlocked and completed up to Tier 8 immediately, DOUBLE Season Points and DOUBLE Live XP, a gold profile trim, a ... | High Confidence | seasonpass/premium-benefits | EV-472 |
+| CLAIM-1639 | Reviewers' verdict on the Premium pass: 'the premium season pass and the lower tier one are almost the exact same. The only difference is that the ... | High Confidence | seasonpass/premium-value-verdict | EV-472 |
+| CLAIM-1640 | Free players still get 1,095 coins and an epic agent from the Season Pass without paying, and the pass must be repurchased every 10-day season beca... | High Confidence | seasonpass/free-track-value | EV-472 |
+| CLAIM-1641 | THE FANZONE PER-LEVEL COSTS ARE EXHAUSTED ON THE OPEN WEB: three targeted searches returned only the official function copy ('Clan bonuses and Stad... | High Confidence | facilities/fanzone-gap-exhausted | EV-472 |
+| CLAIM-1642 | THE DYNAMIC STARS EVENT PATH: every base card starts at 82 OVR and only one is upgraded to 96 OVR, via +1 OVR per Group Stage win then +2 OVR for e... | High Confidence | events/dynamic-stars-path | EV-472 |
+| CLAIM-1643 | SEASON PASS PLAYERS are a new card type announced alongside Cult Heroes, with special agents and players on BOTH the free and premium tracks, and 6... | High Confidence | cards/season-pass-players | EV-472 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1590,6 +1600,7 @@ Distinct evidence records cited: **435**.
 | CLAIM-1615 | Career league seasons are 15 games and can be forfeited once the points are secure: 'you can forfeit league games when you've got enough points to ... | Community Consensus | career/15-game-season-forfeit | EV-467 |
 | CLAIM-1624 | The Fanzone has five levels according to a mod-site feature list ('instantly level up your Commercial, Medical, Training, and the brand-new Fanzone... | Community Consensus | facilities/fanzone-five-levels | EV-468 |
 | CLAIM-1625 | DLL RELEGATION EXISTS: a player reports needing only 2 points to stay in tier 2 or be relegated to tier 3, so tier survival - not just promotion - ... | Community Consensus | dll/relegation-exists | EV-468 |
+| CLAIM-1644 | New stadium designs were added for 950 gems in the December 2025 build, alongside a 'p2w stadium', and DP boosts became a guaranteed gem purchase r... | Community Consensus | stadium/new-designs-and-boost-change | EV-472 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
