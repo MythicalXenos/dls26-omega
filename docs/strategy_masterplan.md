@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-165 — 2,034 claims / 404 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-166 — 2,048 claims / 405 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -366,6 +366,20 @@ This is the most operationally important layer in the game, and almost every gui
 **THE COACH-FARMING LOOP, with its price band** [EV-486, C2]: *"Buy players under 180-210 coins and release for common coaches."* For unmazed squads, use **a 7:3 fitness-to-technical ratio**, then redo the players that end up badly after maxing. **What you get back is set by what you release:** an 80+ player yields a **Rare** coach, a sub-80 yields a **Common**, and a special player yields a **Special** coach. Goalkeeping coaches touch **only GKR and GKH**; Special coaches work **only on special players**.
 
 **THE GEM RULE** [EV-486, C3]: *"Avoid spending gems on anything other than upgrading facilities or training special players."* As a starter, *"aim to buy players rated 68 or above."*
+
+**THE PER-TIER POSITION BUILDS** [EV-503, C3] — the corpus had *ideal blueprints* for a **maxed** player; these are the recruitment targets you actually use when buying a Common, a Rare or a Legendary:
+
+| Position | Common | Rare | Legendary |
+|---|---|---|---|
+| **Centre back** | 70+ SPE/ACC · 65+ STR/TAC | 75+ SPE/ACC · 70+ STR · 80+ TAC | 80+ SPE/ACC · 80+ STR · 90+ TAC |
+| **Fullback** | 70+ SPE/ACC · 65+ TAC/CON | 75+ SPE/ACC · 80+ TAC/CON | 80+ SPE/ACC · 85+ TAC/CON |
+| **Centre mid** | 75+ CON/PAS/SHO · 70+ TAC/STR · 65+ SPE/ACC | 80+ · 75+ · 75+ | 90+ · 80+ · 75+ |
+| **Defensive mid** | 60+ SPE/ACC · 65+ STR/TAC · 60+ CON/PAS | 60+ SPE/ACC · 80+ STR/TAC · 70+ CON/PAS | — |
+| **Second striker** | 65+ SPE/ACC/CON/PAS/SHO | 70+ · 75+ · 75+ · 75+ | 80+ · 85+ · 85+ · 85+ |
+
+> **🎯 CB PACE IS THE TOP CENTRE-BACK STAT — and the reason is mechanical, not aesthetic:** *"Good pace is the most important stat for a CB, you can't chase forwards with a slow CB. And it is the most recurring occasion in DLS where a CB chases a forward."* So the centre-back is a **recovery position**, and a slow CB is a liability no matter how good his tackling or strength is. That single line should decide most CB purchases.
+>
+> **And against long-ball spammers, play a LOW fullback at CB** to chase the forwards down — a personnel answer to the long-ball problem, sitting alongside the C-spam and wing-spam counters. **Strength also slows forwards** on pressure, which is why it outranks shooting on any defender's build.
 
 **THE CARD COLOUR TAXONOMY** [EV-486, C3] — worth knowing before you read any guide: **gold** = standard (better odds as you sign better players) · **black** = legends (Prize Ladder, a set window, usually ~80 days) · **purple** = Dream Stars (summer event) · **blue** = Champions (*"the most luck/p2w ones"*) · **orange** = maxed gold players.
 

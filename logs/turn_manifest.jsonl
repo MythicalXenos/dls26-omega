@@ -127,3 +127,4 @@
 {"turn": 35, "wave": 87, "claims_added": "CLAIM-1986..CLAIM-2005", "ev_added": "EV-500", "checkpoint": "ckpt-163"}
 {"turn": 35, "wave": 88, "claims_added": "CLAIM-2006..CLAIM-2017", "ev_added": "EV-501", "checkpoint": "ckpt-164"}
 {"turn": 35, "wave": 89, "claims_added": "CLAIM-2018..CLAIM-2038", "ev_added": "EV-502", "checkpoint": "ckpt-165"}
+{"turn": 35, "wave": 90, "claims_added": "CLAIM-2039..CLAIM-2052", "ev_added": "EV-503", "checkpoint": "ckpt-166"}

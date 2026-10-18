@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:46:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2034**
-Distribution: Confirmed 391 / High Confidence 842 / Community Consensus 751 / Speculative 49 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **466**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:50:10Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2048**
+Distribution: Confirmed 391 / High Confidence 842 / Community Consensus 765 / Speculative 49 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **467**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -18,16 +18,16 @@ Distinct evidence records cited: **466**.
 | career | 58 |
 | setpieces | 46 |
 | controls | 44 |
-| patching | 40 |
+| patching | 42 |
+| errata | 40 |
 | training | 40 |
-| errata | 39 |
 | cups | 38 |
 | prizeladder | 38 |
 | coaches | 37 |
 | coaching | 37 |
-| attributes | 34 |
+| attributes | 35 |
 | platform | 31 |
-| tactics | 30 |
+| tactics | 31 |
 | customization | 29 |
 | events | 28 |
 | presentation | 25 |
@@ -49,6 +49,7 @@ Distinct evidence records cited: **466**.
 | medical | 10 |
 | social | 10 |
 | matchcraft | 9 |
+| positions | 9 |
 | 12thman | 8 |
 | skillmoves | 8 |
 | squad | 8 |
@@ -2003,6 +2004,20 @@ Distinct evidence records cited: **466**.
 | CLAIM-2036 | THE STAGED-STADIUM STRATEGY: 'I upgraded my stadiums to **just enough for each division** and stopped playing career after three promotions until I... | Community Consensus | career/staged-stadium-strategy | EV-502 |
 | CLAIM-2037 | THE COMMERCIAL UPGRADE PAYS BACK WITHIN A SEASON: 'Spend 75 gems to upgrade your commercial facility... **You'll get the gems back by the end of th... | Community Consensus | facilities/commercial-l1-pays-back-in-a-season | EV-502 |
 | CLAIM-2038 | A SECOND RECOMMENDATION TO CAMP HIGH TIERS FOR EVENTS: 'For online, **stay in tiers 18-20, and play events** (this gets you easier event matches)' ... | Community Consensus | dll/camp-high-tiers-for-easier-events | EV-502 |
+| CLAIM-2039 | THE PER-TIER CENTRE-BACK BUILD, which the corpus lacked because it only carried blueprints for MAXED legends: **Common 70+ speed and acceleration, ... | Community Consensus | positions/cb-per-tier-build | EV-503 |
+| CLAIM-2040 | CB PACE IS THE TOP CENTRE-BACK STAT, and the reason is mechanical rather than aesthetic: '**Good pace is the most important stat for a CB, you can'... | Community Consensus | positions/cb-pace-is-the-top-stat | EV-503 |
+| CLAIM-2041 | THE LOW-CB COUNTER TO LONG-BALL SPAM: '**When facing long ball spammers, try to keep a low height fullback at CB to chase down forwards.**' A secon... | Community Consensus | tactics/low-cb-counter-to-long-ball-spam | EV-503 |
+| CLAIM-2042 | STRENGTH SLOWS FORWARDS, not just wins collisions: 'Strength plays an important role in not only tackles, but also **slowing forwards**. High stren... | Community Consensus | attributes/strength-slows-forwards | EV-503 |
+| CLAIM-2043 | THE PER-TIER FULLBACK BUILD: **Common 70+ speed and acceleration, 65+ tackling and control · Rare 75+ speed and acceleration, 80+ tackling and cont... | Community Consensus | positions/fullback-per-tier-build | EV-503 |
+| CLAIM-2044 | THE PER-TIER CENTRE-MIDFIELDER BUILD: **Common - control, passing, shooting 75+, tackling and strength 70+, speed and acceleration 65+ · Rare - 80+... | Community Consensus | positions/cm-per-tier-build | EV-503 |
+| CLAIM-2045 | THE PER-TIER DEFENSIVE-MIDFIELDER BUILD: **Common - 60+ speed and acceleration, 65+ strength and tackle, 60+ control and passing · Rare - 60+ speed... | Community Consensus | positions/dm-per-tier-build | EV-503 |
+| CLAIM-2046 | THE PER-TIER SECOND-STRIKER BUILD: **Common - 65+ speed and acceleration, control, passing and shooting · Rare - 70+ / 75+ / 75+ / 75+ · Legendary ... | Community Consensus | positions/second-striker-per-tier-build | EV-503 |
+| CLAIM-2047 | THE CONCISE PER-POSITION TARGETS, from a second independent thread: '**Any winger** should have at least **90+ in acc, speed, shooting, passing, co... | Community Consensus | positions/concise-per-position-targets | EV-503 |
+| CLAIM-2048 | THE TOP-3 STATS PER POSITION, from a third thread: '**Defenders** - 1) Strength, 2) Tackle, 3) Pass/Speed (same importance) · **Midfielders** - 1) ... | Community Consensus | positions/top-3-per-position-ranking | EV-503 |
+| CLAIM-2049 | THE NAMED BESTS BY POSITION: **CB** - Van Dijk, Kim, Militão (Rúben Dias 'less preferred for his low height') · **LB** - Cancelo, Grimaldo · **RB**... | Community Consensus | positions/named-best-players | EV-503 |
+| CLAIM-2050 | A THREE-WAY VERSION-ATTRIBUTION CONFLICT on when 'unlimited special players' arrived. The corpus currently carries three answers: CLAIM-054 attribu... | Community Consensus | errata/unlimited-specials-three-way-attribution-conflict | EV-503 |
+| CLAIM-2051 | THE EXACT LATE-SUMMER VERSION DATES, from the official store and APKMirror together: **13.340 Jun 22 · 13.350 Jul 14 · 13.410 Aug 20 · 13.420 Sep 1... | Community Consensus | patching/late-summer-version-dates | EV-503 |
+| CLAIM-2052 | THE MAY 2026 GAMEPLAY CHANGE, corroborating the corpus's GK finding from a second angle: 'Refined ball physics and noticeable **improvements to goa... | Community Consensus | patching/may-2026-gk-ai-improvement | EV-503 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |

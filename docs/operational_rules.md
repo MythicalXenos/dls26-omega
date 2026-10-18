@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-165 — 2,034 claims / 404 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-166 — 2,048 claims / 405 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -175,6 +175,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Dribble at the defender's planted foot** | The far side is his weak side; worth ~0.5–1s and a yard of space [EV-500, C3] |
 | **Auto-switch off is a top-of-the-ladder setting** | Manual switching is right at Tier 1 and costly below Tier 14 — practise in Career first [EV-500, C3] |
 | **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
+| **CB pace outranks CB tackling** | "The most recurring occasion in DLS where a CB chases a forward" - a slow CB is a liability regardless of his tackling [EV-503, C3] |
+| **Against long-ball spam, play a low fullback at CB** | The personnel counter to the long ball, alongside the C-spam and wing-spam shape counters [EV-503, C3] |
 | **Referee rules are undocumented** | Only two exist on the open web: five reds ends the match, five accumulated yellows = a one-match ban. Do not import real-football law [EV-495, C2] |
 | **Slide tackles sparingly, never on the counter** | Block shots; press C for the keeper; aerial ball = press B at the nearest midfielder |
 | **Tactic switching is a rhythm** | Defensive the moment they have it, attacking the moment you win it, balanced to reset |
