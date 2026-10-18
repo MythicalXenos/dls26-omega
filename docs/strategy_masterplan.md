@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-153 — 1,856 claims / 392 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-154 — 1,872 claims / 393 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -105,9 +105,31 @@ This matters because it changes the optimisation target: **the leaderboard rewar
 
 **EFFECT SIZES:** Legendary boosts **3 random stats by +3** · Rare **2 by +2** · Common **1 by +1**. This reconciles the 12-point and 9-point figures once the Strength/Control double-weighting is applied.
 
+**THE BREAKTHROUGH LADDER — now known** [EV-491, C2]: **Common 5% · Rare 10% · Legendary 20%**, corroborated by three sources spanning DLS20 to DLS24 (*"with a 5 percent Breakout Rating… 10 percent… 20 percent"*; *"6x9 = 54 single point upgrades, with 20% breakthrough chance"*; *"Legendary coaches… 10% more chance of breakthrough"*). **The Legendary 20% is the new figure** — the corpus previously had only the 5% and 10% baseline. So the tier that costs the most is also the tier most likely to hand you a free development point.
+
+**THE COACH CATEGORY POOLS** [EV-491, C2] — the coaching system mapped onto the official stat model:
+
+| Coach category | Draws from |
+|---|---|
+| **Fitness** | SPE · ACC · STA · STR |
+| **Technical** | CON · PAS · SHO · TAC |
+| **Goalkeeping** | GKR · GKH |
+
+This is why chaining by category works: the category is the only control you have over *which* stat moves.
+
+> **🎯 THE LOOK-AHEAD TRICK — the most valuable mechanic in the game** [EV-491, C2]. *"You want to always keep at least 1 Legendary Special coach because it will allow you to look at the next 4 upgradable stats (you can cancel it and use any other coach without losing the legendary special coach). Always use a common coach if at least 1 of the stats isn't what you want."* Confirmed independently: *"You never lose the coach no matter what, whether you close the app or simply click on the 'x' to cancel the coaching."*
+>
+> **So the most expensive item in DLS doubles as a free information tool.** Open a Legendary Special coach, read the next four stats, cancel, and spend a Common coach if the preview is bad. The saving is quantified at **~70 gems × 6–7 = ~420 gems per maxed special player**. **Keep at least one Legendary Special coach in reserve at all times for this purpose.**
+
 > **🎯 THE GOALKEEPER RULE:** *"Legendary coaches increase GKR and GKH by +3, but only use if GKR > GKH."* A Legendary raises **both**, so using it when GKH is already the higher stat wastes half the value. For GKs, run **1 Rare + 4 Commons and repeat**.
 
 **THE CLUB MINIMUM IS 16 PLAYERS** — *"Make sure you have 16 players before using coaches, that's the club minimum size and it helps speed up the process."*
+
+**THE COACH GEM PRICE LADDER** [EV-491, C2]: Common **17 gems** · Rare **52 (maxed) / 67 (unmaxed)** · Legendary **157 (maxed) / 202 (unmaxed)**. So the Training facility saves **15 gems per Rare and 45 per Legendary** — and a **third** source confirms it *"will pay itself after 20 or so legendary coaches."*
+
+**THE COMMERCIAL-vs-COACHES BREAKEVEN** [EV-491, C3]: a Common coach bought efficiently costs ~200 gems for 54 upgrade points = 10,800, which at a 10% Commercial bonus needs **~108,000 coins** to match. **So max Commercial only if you will grind past ~108,000 coins; otherwise keep the gems for facilities.** That is the cleanest decision rule the corpus has for the Commercial question.
+
+**RARE GOALKEEPERS YIELD ONLY ONE COMMON COACH** [EV-491, C3] — *"Don't buy rare goalies as they also only get 1 common coach after release, same as any common goalie."* An explicit exception to the release mapping and a direct instruction for coach farming.
 
 **THE COACH-FARMING THRESHOLD IS 192 COINS** — two independent derivations of the same number. Releasing a legendary player yields 2 Rare coaches, so *"1535:8=192… only buy common players that are 192 coins or less."* That brackets the *"buy under 180-210 coins"* band from §3.6 exactly.
 

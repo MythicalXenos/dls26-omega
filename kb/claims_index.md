@@ -1,18 +1,18 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:29:10Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1856**
-Distribution: Confirmed 386 / High Confidence 806 / Community Consensus 626 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **454**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:07:04Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1872**
+Distribution: Confirmed 386 / High Confidence 815 / Community Consensus 633 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **455**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 128 |
-| facilities | 107 |
+| economy | 131 |
+| facilities | 108 |
 | gameplay | 68 |
+| transfers | 67 |
 | dll | 66 |
-| transfers | 66 |
 | cards | 58 |
 | clans | 56 |
 | career | 48 |
@@ -24,12 +24,12 @@ Distinct evidence records cited: **454**.
 | coaches | 37 |
 | prizeladder | 37 |
 | attributes | 34 |
+| coaching | 33 |
 | platform | 31 |
 | customization | 29 |
 | events | 27 |
 | presentation | 25 |
 | errata | 24 |
-| coaching | 22 |
 | tactics | 20 |
 | modes | 19 |
 | stadium | 17 |
@@ -1148,7 +1148,16 @@ Distinct evidence records cited: **454**.
 | CLAIM-1847 | MEDICAL L1 EFFECTS, corroborated: healing cost down 10% and injury chance down 5%, with further reductions at each level. 'Maxing the Medical Centr... | High Confidence | facilities/medical-l1-effects | EV-490 |
 | CLAIM-1855 | THE F2P COIN COST OF A MAXED PLAYER: ~32,000 coins via Common coaches (an average of 400 coins per player released, 80 coaches) or ~30,000 via Rare... | High Confidence | economy/coin-cost-to-max-a-player | EV-490 |
 | CLAIM-1860 | THE FACILITIES EMPIRE: the stadium can be viewed inside and outside, and stands can be toggled covered or uncovered. | High Confidence | stadium/view-inside-outside-covered-toggle | EV-490 |
+| CLAIM-1861 | THE BREAKTHROUGH LADDER: Common 5% · Rare 10% · Legendary 20%. The 5% and 10% were already recorded as a DLS20 baseline; **the Legendary 20% is new... | High Confidence | coaching/breakthrough-ladder | EV-491 |
+| CLAIM-1862 | A second source for the 20% Legendary breakthrough chance: '1000 gems gives you 6 legendary coaches, (a.k.a 6x9=54 single point upgrades, with 20% ... | High Confidence | coaching/legendary-20-percent-breakthrough | EV-491 |
+| CLAIM-1863 | THE COACH CATEGORY POOLS: **Fitness coaches draw from SPE, ACC, STA and STR** · **Technical coaches draw from CON, PAS, SHO and TAC**. This maps th... | High Confidence | coaching/category-pools | EV-491 |
+| CLAIM-1864 | THE LOOK-AHEAD TRICK: a Legendary Special coach reveals the next FOUR upgradable stats and can be cancelled WITHOUT being consumed - 'you can cance... | High Confidence | coaching/look-ahead-trick | EV-491 |
+| CLAIM-1865 | The look-ahead trick is worth about 420 gems per special player: 'it takes 6-7 Legendary Special Coaches to max a special player, that would mean y... | High Confidence | coaching/look-ahead-value-420-gems | EV-491 |
+| CLAIM-1866 | THE COACH GEM PRICE LADDER: Common 17 gems · Rare 52 (maxed facility) / 67 (unmaxed) · Legendary 157 (maxed) / 202 (unmaxed). So the Training facil... | High Confidence | coaching/gem-price-ladder | EV-491 |
+| CLAIM-1867 | THE TRAINING FACILITY PAYS FOR ITSELF AFTER ~20 LEGENDARY COACHES - a third independent source: 'Max your training facility, never use gems on coac... | High Confidence | facilities/training-pays-back-after-20-third-source | EV-491 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
+| CLAIM-1873 | A card's max rating is the +10 of its base overall, 'but in some very rare cases it could go upto +11.' | High Confidence | coaching/max-rating-plus-10-rarely-11 | EV-491 |
+| CLAIM-1876 | When a coach is applied the system randomly determines WHICH player in the squad receives the upgrade, then randomly determines the attribute - so ... | High Confidence | coaching/random-player-targeting | EV-491 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
@@ -1828,6 +1837,13 @@ Distinct evidence records cited: **454**.
 | CLAIM-1858 | CONFLICT - the special-vs-normal coach efficiency: one source claims '26.25 gems/upgrade point for legendary special coach vs 5.8 gems/upgrade poin... | Community Consensus | coaching/special-vs-normal-efficiency-conflict | EV-490 |
 | CLAIM-1859 | THE RECRUITMENT CENTRE'S FUNCTION, from a second source: it reduces the GEM OR COIN cost of agents and scouts. | Community Consensus | facilities/recruitment-reduces-gem-or-coin-cost | EV-490 |
 | CLAIM-186 | DLS26 post-launch update timeline confirmed: Dec 2025 launch with Clans/Kick-Off Stars/Raphinha-Alvarez new UI/broadcast angles; Jan 2026 winter tr... | Community Consensus | unscoped | EV-272,EV-276 |
+| CLAIM-1868 | THE COMMERCIAL-vs-COACHES BREAKEVEN: a Common coach bought efficiently costs ~200 gems for 54 upgrade points = 10,800, which at a 10% Commercial bo... | Community Consensus | economy/commercial-breakeven-108k-coins | EV-491 |
+| CLAIM-1869 | RARE GOALKEEPERS YIELD ONLY ONE COMMON COACH on release - 'Don't buy rare goalies as they also only get 1 common coach after release, same as any c... | Community Consensus | coaching/rare-goalkeepers-one-common-coach | EV-491 |
+| CLAIM-1870 | THE CAPTAIN SELECTION IS RE-ROLLABLE: 'you can find them in the captain selection when you start the game. If you don't get the specific card you c... | Community Consensus | economy/captain-selection-reroll | EV-491 |
+| CLAIM-1871 | Legendary agents have about a 1% chance per card, and with 12 Champion cards in a pool of 120-130 that is 'roughly a 10% chance' of pulling one. Th... | Community Consensus | economy/agent-odds-and-recovery-lever | EV-491 |
+| CLAIM-1872 | SCOUTED PRICES at a high scout level: 'you can get legendaries for as little as 1400 gold. And common players for ~60 gold' - the concrete value of... | Community Consensus | transfers/scouted-prices | EV-491 |
+| CLAIM-1874 | CONFLICT - Rare coaches per player: most sources say about 20 ('18-22 overall'), one says 9.25 ('148 rare coaches to max a 16 player team'). The 90... | Community Consensus | coaching/rare-coaches-per-player-conflict | EV-491 |
+| CLAIM-1875 | Goalkeepers can end badly unbalanced even with Common coaches - 'i trained courtois and he got like 97 gkh and just 85 gkr but my donnarumma was mo... | Community Consensus | coaching/gk-unbalance-observed | EV-491 |
 | CLAIM-188 | Dynamic Stars (Summer Spotlight event, 13.410) are Special Players that upgrade LIVE based on real-world national team tournament performance: base... | Community Consensus | unscoped | EV-273,EV-272 |
 | CLAIM-189 | World Tournament is a new event type introduced in Summer Spotlight (13.410): an international football event structure with high-tier reward track... | Community Consensus | unscoped | EV-272,EV-276 |
 | CLAIM-190 | Clans require minimum 50 members; clan points earned from matches/events; clan leaderboards, vice-captains, clan point boosts, emoji reactions/inte... | Community Consensus | unscoped | EV-272 |

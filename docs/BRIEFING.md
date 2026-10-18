@@ -1,7 +1,7 @@
 # DLS26 OMEGA — STATE OF THE PLAN
 
 > **Read this first.** It is the one-page version of everything the sweep has established. The detail lives in `docs/strategy_masterplan.md` (the plan), `docs/operational_rules.md` (the rules), `docs/dll_tier_playbook.md` (the tier tactics) and `step5_first_contact/FIRST_CONTACT_v2.md` (the coaching script). This file says what matters, in order, and what is still unknown.
-> **Basis:** ckpt-153 — **1,856 claims / 392 evidence records**, all five build steps complete, every claim traceable to an evidence record. Confidence ladder: **386 Confirmed · 806 High · 626 Community · 37 Speculative · 1 Disputed**.
+> **Basis:** ckpt-154 — **1,872 claims / 393 evidence records**, all five build steps complete, every claim traceable to an evidence record. Confidence ladder: **386 Confirmed · 806 High · 626 Community · 37 Speculative · 1 Disputed**.
 
 ---
 
@@ -21,7 +21,7 @@
 | **4** | **Stadium capacity gates promotion** — Academy 6,462 → Div 3 **15,000** → Div 2 30,000 → Div 1 45,000 → Junior Elite 60,000 → Elite 80,000. Build **corners first** (the cheap seats), one stand at a time, and **downgrading was removed** so it is permanent. Maxed it pays **48–52 coins a home match**. | A silent season-killer |
 | **5** | **Gems: level N costs 75 × N.** Five levels = 1,125 gems per facility; Accommodation alone has **ten** levels (4,125 gems). Priority: **Stadium → Training → Accommodation → Commercial → Medical → Recruitment**. **1,125 gems ≈ 2.5 maxed players (~450 gems each)**, which is the number that makes every facility choice comparable to a coaching choice. | The whole facility budget |
 | **6** | **A fast spine with a technical core** — from the official stat model. Speed is *conditional* (it falls with energy, and falls while dribbling **inversely to Control**), while Control, Passing and Tackling each govern a possession action and Strength decides collisions. **Stamina is weighted by position**: high on midfielders, low on centre-backs. | The correct recruitment rule |
-| **7** | **Coach deliberately, and treat breakthroughs as a risk.** A breakthrough on an unwanted stat **consumes development capacity**, and Legendary coaches **do not raise the upgrade cap**. At a maxed Training facility the efficiency ladder is **23.33 gems/point (Legendary) vs 31.5 (Common)** — which is why Training L4 is the best gem in the game. A full max costs ~**32,000 coins** via Common coaches or ~**30,000** via Rare. | Saves the most gems |
+| **7** | **Coach deliberately, and treat breakthroughs as a risk.** A breakthrough on an unwanted stat **consumes development capacity**, and Legendary coaches **do not raise the upgrade cap**. Breakthrough odds are **5% / 10% / 20%** by tier. **Keep one Legendary Special coach in reserve: it previews the next four stats and can be cancelled without being spent** — worth ~420 gems per special player. At a maxed Training facility the efficiency ladder is **23.33 gems/point (Legendary) vs 31.5 (Common)** — which is why Training L4 is the best gem in the game. A full max costs ~**32,000 coins** via Common coaches or ~**30,000** via Rare. | Saves the most gems |
 | **8** | **There is no best formation — only failure modes.** Learn 4-4-2 first (it and 4-1-2-1-2 are the only starting unlocks); switch to 4-2-3-1 at Tier 1 for an extra defensive mid. **Stamina depth beats formation every time**, so rotation is a tactical decision. A formation change only lands **at kick-off**, not at other stoppages. | The meta trap |
 | **9** | **Buy the Season Pass LATE, or not at all.** Unplayed levels are **stored**, and a late purchase **backfills every premium tier already unlocked for free**. Free track alone = 1,095 coins + an epic agent. | The one purchase decision |
 | **10** | **Never release a Classic Player, and never release a player you might want back.** Future Prize Ladders randomise rewards; releasing yields a **coach**, not coins (official); a released player goes to **Recovery for 5 gems** and does **not** re-enter the market rotation. | An irreversible mistake |
@@ -30,7 +30,7 @@
 
 ## 3. What the sweep closed, and how
 
-More than thirty of the corpus's open gaps were closed during the turn-35 sweep, and **the single most productive discovery was that the official FTG support portal is fully readable** — it produced the stat model, the coin list, the account rules, the Season Pass rules, the player-acquisition routes and the leaderboard cadence, several of which are the only Confirmed-tier sources in the corpus.
+Thirty-five of the corpus's open gaps were closed during the turn-35 sweep, and **the single most productive discovery was that the official FTG support portal is fully readable** — it produced the stat model, the coin list, the account rules, the Season Pass rules, the player-acquisition routes and the leaderboard cadence, several of which are the only Confirmed-tier sources in the corpus.
 
 **Resolved outright:** Cult Heroes ratings (C-018 — the 92-vs-95 conflict was *three states of one card*: 85 base, 92 event-boosted, 95 maxed) · stadium capacity per division (C-010) · the achievement count (C-026 — a *source conflation*: Android 40/20,000 XP, iOS 63/13,483 EXP) · corner footedness (C-022 — *two deliveries, not two opinions*: same-foot out-swinger versus opposite-foot in-swinger) · the DLL unlock (C-025 — six Career matches).
 
@@ -67,7 +67,7 @@ Everything below requires **device inspection** or a decision only First Touch c
 | Gap | Status |
 |---|---|
 | Fanzone per-level gem costs | Exhausted on the open web; **two mod-site sources agree it has five levels**, but no per-level cost is published |
-| Post-DLS25 coach breakthrough percentages | The DLS20 baseline (Common 5% / Rare 10%) is confirmed; DLS26 figures are unpublished. The **efficiency ladder is now known** (23.33 gems/point at max), only the breakthrough rate is not |
+| ~~Post-DLS25 coach breakthrough percentages~~ | **CLOSED at ckpt-154: Common 5% · Rare 10% · Legendary 20%**, corroborated by three sources spanning DLS20–DLS24. The Legendary 20% is the figure that was missing |
 | Exact Season Pass per-tier contents for the current season | The original pass's full reward list is known; the current one is not |
 | LIVE rank names above "Veteran" | Exhausted on the open web — a fresh search returned only Rocket League's ladder, which contaminates results because DLS shares the Intermediate/Pro/Veteran vocabulary |
 | The 12th Man winner's identity | The vote closed in v13.120 (25 Mar 2026); FTG never named the player |

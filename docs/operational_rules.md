@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-153 — 1,856 claims / 392 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-154 — 1,872 claims / 393 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -135,6 +135,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.3 | **Release** them — release yields **coaches, not coins** | the point | EV-442 |
 | 5.4 | **Train** with the coaches: **7:3 or 90:10 fitness:technical** | ratio | EV-437 |
 | 5.5 | Coach prices: **Common +1 stat / 17g · Rare +2 / 52g · Legendary +3 / 157g** — all land at **~5.8 gems per point** | price | EV-439 |
+| 5.5b | **Two efficiency figures coexist and they measure different things** [EV-439, EV-491]: **~5.8 gems per point** counts the points a coach delivers **across every player it can train**, while **23.33 gems per point** counts the points delivered **to one player** (280g / 12). Both are correct; use 5.8 when training several players at once and 23.33 when focusing one. **This resolves the wave-76 conflict flag** | accounting | EV-439 / EV-491 |
 | 5.6 | One full max costs **~32,000 coins (Commons)** or **~30,000 coins (Rares)** | budget | EV-439 |
 | 5.7 | **~80–81 upgrade points per player**, ~8 stat points per OVR point | budget | EV-439 |
 | 5.8 | **STR and CON count ×2** toward the total — **except wingers** | weighting | EV-439 |
@@ -533,10 +534,16 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Cost to max (~90 points):** 45 Commons (2,835g) · 15 Rares (2,520g) · **7.5 Legendaries for special players, 9 for normal players** (~2,520g).
 - **Counts to max:** outfield 80/20/9 · GK 20/10/4 · a 16-player squad ≈142/320/1,280.
 - **Effects:** Legendary 3 stats ×+3 · Rare 2 ×+2 · Common 1 ×+1.
+- **BREAKTHROUGH LADDER:** Common **5%** · Rare **10%** · Legendary **20%** — three sources, DLS20–DLS24 [EV-491, C2].
+- **CATEGORY POOLS:** Fitness = SPE/ACC/STA/STR · Technical = CON/PAS/SHO/TAC · Goalkeeping = GKR/GKH [EV-491, C2].
+- **🎯 LOOK-AHEAD TRICK:** a Legendary Special coach previews the **next four stats** and can be **cancelled without being consumed**. Keep one in reserve at all times; worth **~420 gems per special player** [EV-491, C2].
 - **🎯 GK RULE: only use a Legendary when GKR > GKH** — it raises both. Otherwise run **1 Rare + 4 Commons**.
 - **Club minimum is 16 players** — reach it before coaching.
 - **Coach farming: buy at or below 192 coins.** Release mapping: Common → 1 Common coach · Rare → 2 Commons · 80+ → 1 Rare.
 - **Scouts:** discounts 2–4% / 3–5% / 4–8%; two candidates each, so P(≥1 legendary) is 3.96% Common vs 27.75% Legendary — **Legendary scouts are good value.**
+- **Coach prices:** Common 17g · Rare 52g (maxed) / 67g · Legendary 157g (maxed) / 202g — so Training saves 15g per Rare and 45g per Legendary [EV-491, C2].
+- **Commercial breakeven:** max it only if you will grind past **~108,000 coins** [EV-491, C3].
+- **Rare goalkeepers yield only ONE Common coach** on release — do not buy them for farming [EV-491, C3].
 - **DP boosts:** Rare +75% (245 Career / 324 DLL max) · Legendary +150% (350 / 463).
 
 ### 3.19 The facility ladder, confirmed and ranked [EV-490, C2/C3]
