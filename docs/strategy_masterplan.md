@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-194 — 2,329 claims / 433 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-195 — 2,332 claims / 434 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -1085,6 +1085,7 @@ Beyond the capacity ladder in §2, the stadium is a cosmetic sandbox:
 **Friend Match** (official): enter any code, share it, your opponent enters the same code, both tap OK. Two things to know:
 - Codes may only contain **A-Z, 0-9 and the hyphen**, and FTG warns to pick a unique one — *a code already in use can see you joining the wrong match.*
 - **If either side disconnects, the game awards a 3-0 win to the player with the more stable connection.** A weak connection hands your opponent a win rather than merely failing the match.
+- **Stop queueing after 2 consecutive disconnects [EV-532, C2]:** FTG servers do not differentiate between network failure and intentional rage-quits; suffering 2–3 dropped matches in a session triggers an automatic temporary multiplayer ban.
 
 **Adding friends** uses a **closed internal system** — no username search, no social-media linking. You generate a code from your profile, and it **expires after 5 minutes**.
 

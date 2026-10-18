@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-194 — 2,329 claims / 433 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-195 — 2,332 claims / 434 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -114,6 +114,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 4.1 | **Forfeit Career matches** — earns coins, **does NOT refresh the transfer market** | EV-442 |
 | 4.1b | **Never play the Global Challenge Cup** — it is an away-only competition, so the stadium bonus never applies and each match pays only 30-40 coins [EV-524, C3] | coins | EV-524, C3 |
 | **Play DLL during the day, not at night** — night opponents report as faster and more accurate; WiFi off if it helps [EV-529, C3] | timing | EV-529, C3 |
+| **Stop Live queue after 2 disconnects** | FTG automatically bans for 2–3 dropped matches regardless of network vs intentional quit [EV-532, C2] | safety | EV-532, C2 |
+| **Season Pass dual-choice stages** | Evaluate each choice tier carefully; awards differ by playstyle needs [EV-532, C3] | pass | EV-532, C3 |
 | **Re-calibrate power recipes on the device** — the A button's charge curve changed between DLS25 and DLS26, so written percentages are a starting point only [EV-529, C3] | controls | EV-529, C3 |
 | 4.1c | **Play the Diamond Cup, not the GCC** — fewer matches, 15 gems for the win plus 10 more in challenges [EV-524, C3] | gems | EV-524, C3 |
 | 4.1d | **The DLL gem ceiling is 576/day** — 100 games / 8 per championship x 48 gems. The 6,000-gem season is a maximum [EV-524, C3] | expectation | EV-524, C3 |
