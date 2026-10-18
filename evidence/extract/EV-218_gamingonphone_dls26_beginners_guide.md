@@ -1,0 +1,7 @@
+# EV-218 — raw capture placeholder
+
+Origin: community-web-en (gamingonphone.com beginners guide via fetch_page; tools RESTORED t1035)
+
+Raw HTML could not be persisted in this environment due to TLS egress restrictions to non-GitHub hosts.
+The structured summary is in docs/continuity/a7e23a6b/evidence/index.jsonl and the EV extract markdown file in docs/continuity/a7e23a6b/evidence/extract/.
+To backfill this file, refetch from the source URL once TLS is available.
