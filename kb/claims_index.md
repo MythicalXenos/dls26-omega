@@ -1,39 +1,39 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:08:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1511**
-Distribution: Confirmed 336 / High Confidence 657 / Community Consensus 483 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **419**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:15:11Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1546**
+Distribution: Confirmed 355 / High Confidence 662 / Community Consensus 494 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **422**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 107 |
-| facilities | 72 |
+| economy | 112 |
+| facilities | 77 |
+| clans | 49 |
 | dll | 49 |
-| career | 45 |
-| clans | 42 |
-| transfers | 40 |
+| career | 46 |
+| transfers | 41 |
 | cards | 38 |
 | training | 38 |
-| coaches | 36 |
+| coaches | 37 |
+| controls | 35 |
 | cups | 35 |
 | gameplay | 35 |
-| controls | 34 |
-| prizeladder | 34 |
+| prizeladder | 35 |
+| attributes | 34 |
 | patching | 33 |
 | platform | 30 |
 | customization | 29 |
 | setpieces | 29 |
-| attributes | 23 |
-| errata | 23 |
+| errata | 24 |
 | events | 21 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
-| formboost | 11 |
+| formboost | 12 |
 | goalkeeping | 11 |
 | onboarding | 11 |
 | ui | 11 |
@@ -401,7 +401,26 @@ Distinct evidence records cited: **419**.
 | CLAIM-1470 | OFFICIAL: the Progression Bank accumulates coins and gems based on your Dream League Live XP earned during a 10-day season, and the full amount is ... | Confirmed | economy/progression-bank-confirmed | EV-452 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
+| CLAIM-1516 | OFFICIAL SPE MODEL: Speed affects top-speed running; top speed decreases as ENERGY reduces, and also decreases when dribbling INVERSELY PROPORTIONA... | Confirmed | attributes/official-spe | EV-456 |
+| CLAIM-1517 | OFFICIAL ACC MODEL: Acceleration controls how quickly a player reaches their top speed - a higher stat means they reach it faster. ACC, not SPE, go... | Confirmed | attributes/official-acc | EV-456 |
+| CLAIM-1518 | OFFICIAL STA MODEL: Stamina affects how quickly energy depletes when running, and how much energy is restored at half time. It 'impacts more on som... | Confirmed | attributes/official-sta | EV-456 |
+| CLAIM-1519 | OFFICIAL CON MODEL: Ball Control reduces the speed lost when dribbling, allows a quicker kick after a first touch, allows more touches closer toget... | Confirmed | attributes/official-con | EV-456 |
 | CLAIM-152 | Ad inventory confirmed by bot: (1) rewarded ads (center-screen, no skip, reward is coins OR diamonds/gems), (2) interstitial ads (full-screen, no s... | Confirmed | unscoped | EV-254,CLAIM-115,CLAIM-136 |
+| CLAIM-1520 | OFFICIAL STR MODEL: Strength controls the impact when two players collide - a higher stat means the player is less impacted by a collision and more... | Confirmed | attributes/official-str | EV-456 |
+| CLAIM-1521 | OFFICIAL TAC MODEL: Tackling affects the likelihood of a successful tackle by setting THE DISTANCE FROM WHICH a player can perform a standing tackl... | Confirmed | attributes/official-tac | EV-456 |
+| CLAIM-1522 | OFFICIAL PAS MODEL: Passing affects the accuracy of passes - players with a higher stat are more accurate with ALL types of pass. | Confirmed | attributes/official-pas | EV-456 |
+| CLAIM-1523 | OFFICIAL SHO MODEL: Shooting affects accuracy for all shot types, controls how much 'assist' moves a shot away from the keeper, keeps shots down/lo... | Confirmed | attributes/official-sho | EV-456 |
+| CLAIM-1524 | OFFICIAL GK MODEL: GKH (Handling) increases the likelihood of CATCHING a shot rather than deflecting it, the chance of coming to claim a cross, and... | Confirmed | attributes/official-gk | EV-456 |
+| CLAIM-1525 | OFFICIAL ENERGY MODEL: below a certain energy level the other stats are reduced gradually as energy drops - most noticeable for speed, but 'a tired... | Confirmed | attributes/official-energy | EV-456 |
+| CLAIM-1526 | THE OFFICIAL RESOLUTION OF C-027: FTG's own stat model makes both competing community positions true simultaneously. Speed's effect is explicitly C... | Confirmed | attributes/c-027-official-resolution | EV-456 |
+| CLAIM-1527 | OFFICIAL: with default settings, control automatically switches between players when defending 'to aid in getting your closest player to the ball t... | Confirmed | controls/auto-switch-official | EV-456 |
+| CLAIM-1528 | OFFICIAL SEASON PASS: the pass has a FREE track and a premium SEASON PASS track; purchasing unlocks the PROGRESS BANK, which rewards currency based... | Confirmed | economy/season-pass-official | EV-456 |
+| CLAIM-1529 | OFFICIAL SEASON PASS RETROACTIVITY: 'even purchases made after day one will allow all content to be unlocked regardless of time locks between tiers... | Confirmed | economy/season-pass-retroactive | EV-456 |
+| CLAIM-1530 | OFFICIAL: Season Points are earned by completing matches, and the amount earned varies by game mode. | Confirmed | economy/season-points-source | EV-456 |
+| CLAIM-1531 | OFFICIAL CLAN RULES: you can belong to only ONE clan at a time (leaving may allow a rejoin or a new clan); each clan has one leader and leadership ... | Confirmed | clans/official-rules | EV-456 |
+| CLAIM-1532 | OFFICIAL: releasing a player is done via 'Manage Players' (bottom right of the Transfers screen) and 'you will receive a coach for the release of t... | Confirmed | transfers/release-yields-coach-official | EV-456 |
+| CLAIM-1533 | OFFICIAL: gems are obtained by completing league objectives, completing tournaments, through the Season Pass and Prize Ladder, and by participating... | Confirmed | economy/gem-sources-official | EV-456 |
+| CLAIM-1547 | OFFICIAL STORE COPY: 'New Facility - Upgrade your Fanzone for Clan bonuses and Stadium discounts' (App Store and Google Play version history for 13... | Confirmed | facilities/fanzone-official-effects | EV-458 |
 | CLAIM-159 | OFFICIAL per-stat gameplay semantics confirmed by FTG: SPE = top speed (decreases with ENERGY and when dribbling inversely with CON); ACC = acceler... | Confirmed | unscoped | EV-256 |
 | CLAIM-160 | Form Boost provides TEMPORARY attribute boosts to a player, lasting a set number of matches determined by the Training facility level (minimum 1 ma... | Confirmed | unscoped | EV-257 |
 | CLAIM-161 | Coaches (accessed Team Management > Coaches) select a player RANDOMLY to receive a PERMANENT attribute upgrade when applied. Contrary to some commu... | Confirmed | unscoped | EV-257 |
@@ -929,7 +948,12 @@ Distinct evidence records cited: **419**.
 | CLAIM-147 | Base/purchasable roster OVR hard cap is 86 in EVERY version 20231–20263 (3 years of updates). OVRs 87–98 exist ONLY on special/promo/legend/event c... | High Confidence | unscoped | EV-253,EV-251,CLAIM-141,CLAIM-142,CLAIM-144 |
 | CLAIM-1498 | playdreamleaguesoccer.com fabricated further non-existent content: a Youth Academy Cup, a Global Super League, a Champions Cup with group stage and... | High Confidence | errata/pdls-more-fabrications | EV-454 |
 | CLAIM-1509 | OFFICIAL: the May 2026 update refined ball physics and noticeably improved goalkeeper AI 'specifically during 1-on-1 situations and corner kicks'; ... | High Confidence | gameplay/gk-and-collision-updates | EV-455 |
+| CLAIM-1534 | FORM BOOST DURATION PER TRAINING LEVEL IS UNPUBLISHED: the official article states only the rule (a set number of matches 'as detailed by your Trai... | High Confidence | formboost/duration-per-level-gap | EV-457 |
+| CLAIM-1536 | MEDICAL CENTRE L1 IS DOUBLE-CORROBORATED: the first upgrade cuts healing cost by 10% and injury chance by 5%, confirmed independently by the Level ... | High Confidence | facilities/medical-l1-double-corroborated | EV-457 |
+| CLAIM-1537 | MEDICAL PER-TIER PERCENTAGES BEYOND LEVEL 1 REMAIN UNPUBLISHED - a second documented negative. No source found gives L2-L5 injury or healing number... | High Confidence | facilities/medical-per-tier-gap | EV-457 |
+| CLAIM-1538 | NO 'FAN APPROVAL' MECHANIC EXISTS in any documented DLS26 source. Two depth-3 searches returned zero mechanic results; every 'fan' hit was crowd-gr... | High Confidence | errata/no-fan-approval-mechanic | EV-457 |
 | CLAIM-154 | Coach rarities confirmed: FOUR categories (Fitness/SPE+ACC+STA+STR; Technical/CON+PAS+SHO+TAC; Goalkeeping/GKR+GKH; Special/ALL stats) each with th... | High Confidence | unscoped | EV-255,CLAIM-049,EV-271,EV-274 |
+| CLAIM-1548 | Clans unlock behind progression: 'once you have progressed far enough through the Ranks, you'll gain the ability to join and create Clans' (officia... | High Confidence | clans/unlock-gate | EV-458 |
 | CLAIM-155 | Per-attribute weights in training-capacity cost are POSITION-SPECIFIC. For CB (defender) tackle-polarized builds, Control (CON/控制) carries weight 2... | High Confidence | unscoped | EV-255,CLAIM-049,EV-256 (official stat semantics confirm ... |
 | CLAIM-156 | Coach application mechanic in detail: when a coach of boost level k is used, k DISTINCT attributes are drawn uniformly at random from the pool of t... | High Confidence | unscoped | EV-255,CLAIM-049,CLAIM-052 |
 | CLAIM-157 | Stat colors on in-game player cards follow thresholds: attribute ≥90 → blue, ≥80 → green, ≥70 → yellow, <70 → red (per applyDlsColor in LeoH321/DLS... | High Confidence | unscoped | EV-255,EV-246 |
@@ -1466,6 +1490,17 @@ Distinct evidence records cited: **419**.
 | CLAIM-1514 | The three named skill mechanics in DLS26 are CLOSE CONTROL, KNOCK AHEAD and SECONDARY PRESS. | Community Consensus | gameplay/named-skill-mechanics | EV-455 |
 | CLAIM-1515 | Match scripting is reported reduced in DLS26, and an unfixed energy-bar bug is reported where the bar 'still remains green'. | Community Consensus | gameplay/scripting-and-energy-bug | EV-455 |
 | CLAIM-153 | DLS26 exposes a player-controllable HUD with two stamina/boost indicator icons ("filled" and "hollow" circle templates used by the bot for HUD dete... | Community Consensus | unscoped | EV-254 |
+| CLAIM-1535 | The Training Centre's three benefits per level are: additional Form Boost matches, an extra percentage discount on coach hire, and new formations -... | Community Consensus | facilities/training-three-benefits | EV-457 |
+| CLAIM-1539 | THE INJURY-PROOF SUBSTITUTION EXPLOIT: 'players can't get injured if you don't have players to sub them off for' - put 5 bench players in the first... | Community Consensus | career/injury-proof-sub-exploit | EV-457 |
+| CLAIM-1540 | TRAINING CENTRE L5 costs about 1,175 gems in total (r/DLS guide), corroborating the KB's 1,125-gem ladder (75/150/225/300/375), with the coach disc... | Community Consensus | facilities/training-l5-cost-and-discounts | EV-457 |
+| CLAIM-1541 | Coach coin costs per player: about 32,000 coins via Common coaches (about 400 coins each, roughly 80 coaches per player) or about 30,000 via Rare c... | Community Consensus | coaches/coin-cost-per-player | EV-457 |
+| CLAIM-1542 | CLAN POINTS PAY ABOUT 3,500 PER ONLINE WIN: a clan leader reports 'you receive approximately 3.5k Puntos de Clan por ganar un partido online', so r... | Community Consensus | clans/points-per-online-win | EV-458 |
+| CLAIM-1543 | THE PERSONAL CLAN CONTRIBUTION CAP IS 350,000 POINTS PER SEASON, confirmed by two independent sources. Anything contributed beyond the cap does not... | Community Consensus | clans/personal-cap-350k | EV-458 |
+| CLAIM-1544 | Top clans accumulate roughly 13-15 million clan points per season (requiring 350K+ contributors), while clans drawing 200-350K contributors reach 1... | Community Consensus | clans/season-totals-and-headcount | EV-458 |
+| CLAIM-1545 | Clan reward ladder (Tier 3 source - sportsdunia, treat as planning hint): 25 gems at 1,000,000 clan points, a Legendary XP boost at 2,000,000, a Le... | Community Consensus | clans/reward-ladder-thresholds | EV-458 |
+| CLAIM-1546 | C-017 RE-OPENED: a second independent community source names the clan top-contributor reward as 50 GEMS - contributions beyond the 350,000 cap 'wil... | Community Consensus | clans/top-contributor-50-gems | EV-458 |
+| CLAIM-1549 | A launch-era complaint states 'to complete the prize ladder, one has to play 24 matches per day, which is unacceptable, even GTA doesn't make you g... | Community Consensus | prizeladder/24-matches-per-day-complaint | EV-458 |
+| CLAIM-1550 | Season Pass activation requires 400 Season Points, daily login alone supplies 40 Season Points per day on the free track, and all free tiers togeth... | Community Consensus | economy/season-pass-activation-400sp | EV-458 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

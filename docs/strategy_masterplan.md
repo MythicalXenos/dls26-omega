@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-123 (`610468f`) — 1,511 claims / 357 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-126 — 1,546 claims / 360 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -241,7 +241,7 @@ This is the most operationally important layer in the game, and almost every gui
 - **Rare coaches in coins:** +8 points for **1,535 coins = 192 coins per point** — the exact maths behind "buy 80-rated defenders at 1,535 coins".
 - **Legendary vs Rare trade-off:** for 225 gems, Legendary gives +27 points and Rares give +24. Legendary wins on raw points; **Rare wins on controllability**.
 - **Capacity:** each player has ~**80–81 upgrade points** (~90 Common coaches to max), each OVR point ≈ **8 stat points**, and **STR and CON count ×2** for most positions except wingers.
-- **⚠️ C-027 — speed vs control/tackling in Live is UNRESOLVED.** DLS26 plays slower, so *"control, passing and tackling stats have more value than ever before"* [EV-455, C3]; but knock-ahead/sprinting reportedly *"can outrun even maxed defenders."* **Recruit for both — a fast spine with a technical core — and do not let the ×2 weighting talk you out of a genuinely fast defender. Verify in Exhibition before committing a coaching plan.**
+- **✅ C-027 — RESOLVED ON AN OFFICIAL BASIS (ckpt-126).** FTG's own support article *"How do the various player stats in DLS affect gameplay?"* publishes the full per-stat model, and it makes both community positions true at once: SPE's effect is **conditional** (it falls with energy, and falls when dribbling *inversely to CON*, so a lower-SPE player can outrun a higher-SPE one), while **CON, PAS and TAC each govern a possession action** (dribbling speed and touch quality, pass accuracy, tackle *distance*) and **STR** decides who keeps the ball in a collision. See **§4.2**. The community split — *"control, passing and tackling stats have more value than ever before"* [EV-455, C3] versus *"knock-ahead can outrun even maxed defenders"* — is the same model seen from two ends, so **recruit for both — a fast spine with a technical core** — and do not let the ×2 weighting talk you out of a genuinely fast defender. **Verify in Exhibition before committing a coaching plan** remains in force, because the community reports describe the current build's *tuning*, which the official article does not quantify.
 - **Build time:** a 23-man squad took one player **about half a year**.
 - **Breakthrough:** 5% / 10% / 20% (Common/Rare/Legendary, DLS20 baseline). Rarity affects **only** the breakthrough chance, never the cap.
 
@@ -268,10 +268,31 @@ The game offers **2 randomised options (one fitness, one technical)** and you pi
 
 **Cards go silver → gold → black at 100 OVR**, and **upgraded players appear in the market as silver/gold cards** — an efficient way to buy an already-developed player instead of grinding one [EV-433, C2].
 
+### 4.2 The official stat model — what every attribute actually does [EV-456, C1 — OFFICIAL]
+
+FTG opens the article by stating that DLS *"is a 'game' and is not intended to be a full and accurate simulation"* and that part of the game is discovering how stats affect it yourself — **but** that *"it is intended that the stats have a meaningful bearing on gameplay in line with real life strengths and attributes."* This is the closest thing to a design document in the entire corpus, and it is the reason §4.1's heuristics can now be replaced with mechanics.
+
+| Stat | What it officially does | Coaching consequence |
+|---|---|---|
+| **SPE** (Speed) | Top-speed running. **Falls as energy reduces**, and **falls when dribbling, inversely proportional to CON** — *"it is entirely possible for a player with a lower SPE stat to run faster than a player with higher SPE stat, whether they are dribbling or not"* | Speed alone does not win chases. **SPE without CON is wasted pace** — this is the mechanism behind "100-paced players get locked up by 87 legendaries" |
+| **ACC** (Acceleration) | How quickly a player **reaches** top speed | The catch-up stat. The "tackling is worthless if you can catch up" complaint is an **ACC** question, not a TAC question |
+| **STA** (Stamina) | How quickly energy depletes when running, **and how much energy is restored at half time**. *"Impacts more on some positions than others"* — *"a centre-back will typically cover far less distance than a midfielder"* | **Weight STA by position**: high on midfielders and wingers, lower on centre-backs. Refines the flat STR/CON ×2 heuristic |
+| **CON** (Ball Control) | Less speed lost when dribbling; **quicker kick after a first touch**; more touches closer together to change direction quicker; touches keep the ball closer; greater chance of **Rabonas, Overhead Kicks, heel-chops, skill shots and skill moves** (Step-over, Marseilles turn, Heel-Flick) | The technical multiplier **and** a speed stat in disguise. Gates every skill move — the "skill moves are swipes dependent on Ball Control" rule is now official |
+| **STR** (Strength) | Collision impact: a higher stat means **less impact from a collision**, so better ability to gain/maintain control of the ball or complete a kick; also **shortens the stumble after being tackled** | Decides who keeps the ball in contact. The ×2 weighting is justified: STR is scored twice — once on the tackle and once on the recovery |
+| **TAC** (Tackling) | Sets **the distance from which** a standing tackle and a sliding tackle can be performed | A **reach** stat, not a binary success stat. High TAC = you can tackle from further out; low TAC = you must be on top of the man |
+| **PAS** (Passing) | Accuracy of passes — *"more accurate with all types of pass"* | Directly governs the possession game, and therefore the Tier-1 space model in §3.1 |
+| **SHO** (Shooting) | Accuracy for all shot types; controls how much **'assist'** moves a shot away from the keeper; **keeps shots down/low** (low SHO kicks shots higher and potentially over the bar); raises skill-shot chance (with CON); raises special kick/header chance (Overhead kick, Diving header); **increases the spin/curl on a free kick** | Low SHO skies shots — pair a finisher with a set-piece taker. **SHO also sets free-kick curl**, which refines §3.3's free-kick rules |
+| **GKH** (Keeper Handling) | Handling and 'presence': more likely to **catch** a shot than deflect it; more likely to **claim a cross**; more **stable** when saving while players collide with the keeper | GKH is the claiming/crosses stat |
+| **GKR** (Keeper Reactions) | Faster reaction time; better save chance relative to shot speed and save distance; chance of an **'anticipate' save** made without time to react | GKR is the shot-stopping stat — confirms the **GKR ≥ GKH** rule |
+| **ENERGY** | Below a certain level the other stats **reduce gradually** as energy drops — *"most noticeable for player speed, but a tired player will perform worse in all areas"* | **Rotation and physios are stat protection.** A tired player is a nerfed player in every attribute, not just speed |
+
+**Why this settles the coaching argument:** the model says speed is *conditional* (energy-gated, and CON-gated while dribbling) while the technical stats are *unconditional* possession actions. That is exactly the both/and build — **a fast spine with a technical core** — and it means the ×2 STR/CON weighting survives, the "speed is everything" rule does not survive as stated, and **STA should now be weighted by position** rather than flatly.
+
 ### PHASE 5 — Club value and Fan Approval
 
 - **100% Dream Team/club value requires EVERY player maxed, including bench and reserves — about 23 players** [EV-433, C3; corroborated by EV-424/425]. A starting eleven of 99s with 100% fan approval was still stuck at 58.52%.
-- **Fan Approval milestones:** *Mr Popular* at **75%** (500 XP) and *Fan Favourite* at **100%** (2,000 XP in DLS2018 / 1,000 XP in DLS Classic) [EV-433, C2]. **The mechanics that drive the percentage are NOT documented** — this remains an open gap.
+- **Fan Approval milestones:** *Mr Popular* at **75%** (500 XP) and *Fan Favourite* at **100%** (2,000 XP in DLS2018 / 1,000 XP in DLS Classic) [EV-433, C2].
+- **✅ DOCUMENTED NEGATIVE (ckpt-126, EV-457):** a dedicated two-search sweep for any fan-approval mechanic returned **nothing**. Every "fan" result was one of four unrelated things — crowd **graphics/movement settings** (TikTok "secret settings to make your fans move", graphics-quality tweaks), **bugs** where fans do not celebrate goals (the sound plays, the visuals do not), the **Fan Favourite achievement**, and the **Fanzone facility**. **No source documents how to raise Fan Approval, and no plan may depend on one.** The only evidenced lever remains the one in the bullet above: 100% club value requires *every* player maxed including bench and reserves, so **Fan Approval almost certainly tracks total squad development** — treat maxing the full ~23-man squad as the strategy and the percentage as the readout, not the target.
 
 ### PHASE 6 — Special and Classic players (the 90-day engine)
 
@@ -343,9 +364,16 @@ Release yields coaches, not coins — but for Classics specifically, the opportu
 | Active clan season total | **13–15M CP** (350k+ members); others target 8M; second-tier 10–11M |
 | Reward ladder | 25k first reward → 25g @1M → Leg XP @2M → Leg Scout @3M → 500c @5M → Rare Special Coach @7.5M → **150g @10M** |
 | Entry requirements | Hide a clan from search, **but an invite code still bypasses them** |
-| Fanzone | Gives **clan bonuses + stadium discounts** |
+| Fanzone | Gives **clan bonuses + stadium discounts** — the official store copy reads *"Upgrade your Fanzone for Clan bonuses and Stadium discounts"* [EV-458, C1]; no per-level values published |
+| Membership | **One clan at a time**; leadership passes on if the leader leaves, and the clan disappears if nobody is left [EV-456, C1] |
+| Unlock | Clans open **once you have progressed far enough through the Ranks** [EV-458, C2] |
+| Points sources | Matches, challenges **and Season Pass tiers** [EV-456, C1] |
 
 **Strategic read:** the 350k cap means the *clan* is the multiplier and *you* are the input. Joining a clan already running 13–15M is strictly better than building one, because the reward ladder is a clan-total goal.
+
+**Corroboration (ckpt-126, EV-458):** the ~3,500-points-per-online-win figure and the 350,000 cap each now have a **second independent source** — a clan leader reports *"approximately 3.5k Puntos de Clan per online win"*, and a second thread confirms the 350k ceiling, adding that anything beyond it *"is not going to help your clan's total points"* but still ranks you first in-clan. At 3,500 points a win, **~100 online wins maxes a personal season** — so a player who grinds DLL for the tier climb banks the clan cap as a by-product, at no extra cost.
+
+**⚠️ C-017 RE-OPENED (ckpt-126):** that same leader states the end-of-season top-contributor reward is **50 gems** — a **second community source on the 50 side**, against the earlier lean toward 100. The conflict is now **one source each side, neither official**. **Do not plan on either figure**; treat the 275-gem Clans line in the ledger as a mid-point estimate, not a commitment. It is resolved only by an in-client screenshot or an FTG support reply.
 
 ---
 
@@ -386,7 +414,7 @@ Every item below is community-consensus [EV-436, C2] and costs nothing to adopt.
 | **Run players BACKWARDS** | The core fix for both wing-spam and C-spam. Do **not** tackle the outermost player as the ball is switched — that strands your players upfield. Switch to defensive mode and run backwards at every opportunity to concentrate the team in your own third |
 | **Anti-C-spam: backwards-running central midfielders** | You will intercept the lofted passes; on intercept switch to attacking mode and counter |
 | **Secondary press > main press** | Use the secondary press so a *teammate* applies pressure while you position your player to block the pass or shot. The same applies in aerial duels — against C-spammers never hold the main press |
-| **Turn AUTO-SWITCH OFF** | The standard anti-C-spam setting. Practise in Career Mode first; it feels wrong for a while |
+| **Turn AUTO-SWITCH OFF** | The standard anti-C-spam setting. Practise in Career Mode first; it feels wrong for a while. **Official location:** Settings (gear icon, top-left) > Controls > *Auto Switch* — with default settings the game auto-switches control when defending to bring your closest player to the ball [EV-456, C1]. Given the DLS26 switching nerf, setting this deliberately is now a first-order decision, not a preference |
 | **Never push defenders forward** | Use a DM to press in midfield; play zonal defending out of possession |
 | **Block shots, and press C to bring the keeper out** | When the ball is in the air (lob or C-spam), press B and aim at the nearest midfielder/winger/fullback |
 | **Slide-tackle sparingly** | Yellow-card risk; a ban costs you matches |
@@ -448,6 +476,7 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 - A **mid-game Team Boost** and a **post-match Team Physio** both restore 10% stamina; individual healing costs ~2–4 coins per player.
 - **Maxed Medical Centre** makes physio trips "super cheap" — effectively endless playtime.
 - Injuries last **3–10 games**; a **Fitness coach** can also help heal an injured player [C3].
+- **THE INJURY-PROOF SUBSTITUTION EXPLOIT** [EV-457, C3]: *"players can't get injured if you don't have players to sub them off for."* Put 5 bench players in the first team, enter the match, then use all 5 subs before kick-off to bring the real XI on — no injuries can occur. **Cost: every substitution for that match.** Use it in Career when a fixture cannot afford an injury; never in DLL, where the subs are worth more than the injury risk.
 
 ---
 
@@ -551,6 +580,7 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 - **There is no clan-versus-clan mode.** A reviewer who expected inter-clan competition reports receiving *"a legendary scout and some coins"* instead.
 - **Secret players exist** — the achievement SSSHHH pays 500 XP for purchasing one. Not previously in the KB.
 - **Season Pass rewards unlock one per 12 hours** at 12:00 GMT+1 (AM and PM), so the track drip-feeds rather than opening all at once.
+- **✅ THE 12-HOUR CLOCK CAN BE BYPASSED (ckpt-126, EV-456, OFFICIAL):** FTG states that *"even purchases made after day one will allow all content to be unlocked regardless of time locks between tiers, provided you earn the necessary Season Points to progress"* — a day-four buyer works towards tier five immediately. Buying the pass also **instantly unlocks the Premium content for every tier already unlocked on the free track** (reach tier 15, then buy, and 15 tiers of Premium rewards unlock at once). **So the 12-hour drip-feed is a free-track constraint, not a paid one: if the pass is going to be bought at all, buy it LATE in the season** — the same rewards, none of the waiting. The pass is **not a subscription** and must be repurchased each season.
 
 ---
 
@@ -561,15 +591,15 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | # | Gap | Impact | Status |
 |---|---|---|---|
 | 1 | **Fanzone per-level costs** | Unknown gem commitment for the newest facility | Never published. Function confirmed (clan bonuses + stadium discounts) [C1] |
-| 2 | **Form Boost duration per Training level** | Cannot price the Training facility's real value | Mechanic officially confirmed; **numbers never published** [EV-428, C1] |
-| 3 | **Medical per-tier % beyond L1** | Cannot optimise the injury economy | Only L1 (−5% injury / −10% heal cost) sourced; later tiers described qualitatively only [C2] |
+| 2 | **Form Boost duration per Training level** | Cannot price the Training facility's real value | ✅ **DOCUMENTED NEGATIVE (ckpt-126, EV-457)** — the official article gives only the rule (a set number of matches, **minimum one**); six guide families confirm the mechanic without numbers. **Plan on ONE match**; treat longer as a bonus |
+| 3 | **Medical per-tier % beyond L1** | Cannot optimise the injury economy | ✅ **DOCUMENTED NEGATIVE (ckpt-126, EV-457)** — L1 is now **double-corroborated** (−10% heal / −5% injury, two independent Level Winner editions); L2–L5 are described only as *"progressively"* better. Higher player **STRENGTH** also lowers injury chance |
 | 4 | **Post-DLS25 coach breakthrough %** | Coach packs priced off a DLS20 baseline | 5/10/20 confirmed as the DLS20 baseline; post-DLS25 figures unconfirmed [C2] |
-| 5 | **Fan Approval mechanics** | Blocks the last stretch to 100% club value | Only the 75%/100% milestones known |
+| 5 | **Fan Approval mechanics** | Blocks the last stretch to 100% club value | ✅ **DOCUMENTED NEGATIVE (ckpt-126, EV-457)** — a dedicated two-search sweep found **no such mechanic in any documented source**; only crowd-graphics settings, fans-not-celebrating bugs, the Fan Favourite achievement and the Fanzone. **Strategy: max the full ~23-man squad and read the percentage as the output** |
 | 6 | **GCC format** (C-013) | One cup's structure unclear | OPEN conflict |
 | 7 | **LIVE rank names above "Veteran"** | Cannot name the top rank | Names known to Veteran only [C2] |
 | 8 | **12th Man winner identity** | A mechanic to watch each season | MECHANIC CLOSED (community-voted final Dream Star, EV-438 C1); FTG never names the winner |
 | 9 | **Cult Heroes OVR conflict** (C-018) | 92 vs 95 on the four 85-rated heroes | OPEN |
-| 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | OPEN |
+| 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | **RE-OPENED (ckpt-126)** — now one community source each side; the "leans 100" note is withdrawn. Plan on neither |
 | 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 vs 4-4-2 | OPEN — a genuine live disagreement, not an error |
 | 12 | **Commercial bonus curve** (C-019) | 13%/21% vs "10% at L5, biggest FTG scam" | OPEN |
 | ~~13~~ | ~~**Special player max cost** (C-020)~~ | ~~2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835~~ | **RESOLVED at ckpt-118** — ~2,000–2,100 gems, 6–7 Legendary Special Coaches, ~420 gems saved by cancelling |

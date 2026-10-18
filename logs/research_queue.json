@@ -190,10 +190,11 @@
    "id": "RQ-20261018-021",
    "topic": "OPEN GAPS remaining after the turn-35 sweep - all require device or permitted-route verification",
    "tier": "queue-High",
-   "status": "open",
+   "status": "partially-closed",
    "added": "2026-10-18T02:10Z",
    "source": "turn35 waves 19-29",
-   "debt": "Fanzone per-level gem costs; Form Boost duration per Training level (minimum of 1 match is official, table is not); Medical Centre per-tier injury/heal percentages beyond Level 1; post-DLS25 coach breakthrough percentages (5/10/20 is the DLS20 baseline); Dream Stars 12th Man winner identity; stadium capacity per-division ladder (C-010); GCC format (C-013); Cult Heroes official card list and ratings; exact Season Pass per-tier reward contents for the current season"
+   "debt": "REMAINING (device/permitted-route only): Fanzone per-level gem costs; post-DLS25 coach breakthrough percentages (5/10/20 is the DLS20 baseline); stadium capacity per-division ladder (C-010); GCC format (C-013); Cult Heroes official card list and ratings; exact Season Pass per-tier reward contents for the current season. CLOSED AS DOCUMENTED NEGATIVES AT ckpt-126 (wave 50): (a) Form Boost duration per Training level - official article gives only the rule (set number of matches, minimum one); six guide families confirm the mechanic without numbers; plan on ONE match. (b) Medical Centre per-tier percentages beyond L1 - L1 (-10% heal / -5% injury) now double-corroborated by two independent Level Winner editions; L2-L5 described only as 'progressively' better; higher player STRENGTH also lowers injury chance. (c) 'Fan Approval' mechanics - a dedicated two-search sweep found NO such system in any documented DLS26 source (only crowd-graphics settings, fans-not-celebrating bugs, the Fan Favourite achievement and the Fanzone); treat it as a readout of total squad development, not a lever.",
+   "closed_note": "ckpt-126 wave 50: three of the nine listed gaps closed as documented negatives; the rest still need device or permitted-route verification."
   },
   {
    "id": "RQ-20261018-022",

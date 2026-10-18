@@ -190,6 +190,12 @@ A conflict is closed only with evidence that settles the proposition, never beca
 
 **RESOLUTION (ckpt-118, EV-453):** a World Cup Winners thread states plainly that "each special player costs around 2000 gems to max out", independently corroborating the coach-model estimate of 2,100 gems. A related thread puts the requirement at 6-7 Legendary Special Coaches per maxed special player and calculates a 420-gem saving from the cancel-without-consumption technique, consistent with the Legendary Scout trick. **Plan on 2,000-2,100 gems per maxed special player.**
 
+## C-017 UPDATE 2 (ckpt-126, EV-458): a second community source names 50 gems - the conflict is genuinely open
+
+- **New source:** r/DLS 1pk9dae (Dec 11 2025, clan-leader management thread) states that contributions beyond the 350,000 cap "te va a ayudar a ser el primero en tu clan y a obtener los 50 gemas al final de la temporada" - i.e. **50 gems** for finishing first in the clan.
+- **Weight of evidence:** now **one community source each side** (50 vs 100), both describing the same end-of-season top-contributor reward. Neither is official.
+- **Status:** **genuinely OPEN.** The earlier "leans 100" note is withdrawn. **Do not plan on either figure**; treat clan top-contributor gems as 50-100 with no basis for choosing. The clan gem ledger's 275-gem Clans line should be read as a mid-point estimate, not a commitment. Resolved only by an in-client screenshot or an FTG support reply.
+
 ## C-026: Achievement count and total XP (63/98,000 vs 40/20,000 vs 87/100,000)
 - **Nerdburglars** (Google Play list): **63 achievements, 98,000 XP total.**
 - **Exophase** (DLS26, Android): **40 achievements, 20,000 XP.**
@@ -201,4 +207,13 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Position B (control/passing/tackling dominate):** r/DLS 1pf9yxw (Dec 5 2025) - DLS26 plays slower, so "control, passing and tackling stats have more value than ever before" and there is "less incentive to focus on speed"; corroborated by r/DLS 1phcvdv (Dec 8 2025) - "100 paced players can get locked up by slight upgraded 87 legendaries".
 - **Status:** OPEN and CONSEQUENTIAL. It changes the coaching priority (fitness vs technical) and the defensive recruitment rule. Position B is corroborated by an official design direction (Tech Update 2: "make player stats more relevant and impactful") and by the STR/CON x2 weighting being a *general* rule rather than a Live-specific one. Position A is more recent (Jan 2026 vs Dec 2025) and is the more specific claim about Live.
 - **Provisional resolution adopted in the masterplan:** recruit for **both** - a fast spine with a technical core - and do not let the x2 weighting talk you out of a genuinely fast defender. **Verify in Exhibition before committing a coaching plan.** Logged EV-455.
+**OFFICIAL RESOLUTION (ckpt-126, EV-456):** FTG's own support article "How do the various player stats in DLS affect gameplay?" (360019166777) publishes the full per-stat model, and it makes BOTH community positions true at the same time - which is why the community split is not a contradiction:
+
+- **Speed is conditional, not absolute.** SPE sets top speed, but top speed *decreases as energy reduces* and *decreases when dribbling, inversely proportional to CON* - so "a player with a high CON stat will dribble faster than a player who has a lower CON stat, but shares the same SPE stat", and "it is entirely possible for a player with a lower SPE stat to run faster than a player with higher SPE stat, whether they are dribbling or not". Position A's "knock-ahead outruns maxed defenders" is a *dribbling-speed* claim, and the official model says dribbling speed is CON-gated, not SPE-gated.
+- **Position B's three stats each govern a possession action.** PAS sets the accuracy of *all* pass types; TAC sets *the distance from which* a standing or sliding tackle can be made (a reach stat, not a binary success stat - which explains "tackling is worthless" being about *catching up*, a SPE/ACC question); CON sets dribbling speed loss, touch quality, and the chance of every skill move and skill shot.
+- **STR is the collision stat** - it decides who keeps the ball when two players meet and how long the tackled player stumbles, which is the mechanism behind "100-paced players get locked up by 87 legendaries".
+- **ACC, not SPE, governs the first metres** of a chase, and **STA matters more on high-running positions** ("a centre-back will typically cover far less distance than a midfielder").
+
+**Consequence:** the provisional both/and resolution is now grounded in the official model rather than in community opinion. Coaching implication: a fast spine with a technical core is the *correct* build under the official model - SPE/ACC for the chase, CON to keep the speed while dribbling, PAS/TAC/STR to win the possession actions that decide the game. The x2 STR/CON weighting survives; the "speed is everything, tackling is worthless" rule does not survive as stated, because TAC sets tackle *reach* and the catch-up problem is ACC. **Verify in Exhibition before committing a coaching plan** remains in force because the community reports describe the *current build's tuning*, which the official article does not quantify.
+
 

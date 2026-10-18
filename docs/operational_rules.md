@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-123 (`610468f`) — 1,511 claims / 357 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-126 — 1,546 claims / 360 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -137,8 +137,14 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.6 | One full max costs **~32,000 coins (Commons)** or **~30,000 coins (Rares)** | budget | EV-439 |
 | 5.7 | **~80–81 upgrade points per player**, ~8 stat points per OVR point | budget | EV-439 |
 | 5.8 | **STR and CON count ×2** toward the total — **except wingers** | weighting | EV-439 |
-| 5.8b | **⚠️ C-027 — speed vs control/tackling in Live is UNRESOLVED.** DLS26 plays slower, so control/passing/tackling have more value; but knock-ahead/sprinting reportedly outruns even maxed defenders. **Recruit for both.** | weighting | EV-455 |
+| 5.8b | **✅ C-027 RESOLVED ON AN OFFICIAL BASIS (ckpt-126).** FTG's own stat model makes both community positions true at once: SPE's effect is **conditional** (falls with energy, and falls when dribbling *inversely to CON*, so a lower-SPE player can outrun a higher-SPE one), while **CON/PAS/TAC each govern a possession action** and **STR** decides who keeps the ball in a collision. **Recruit for both — a fast spine with a technical core** — and weight **STA by position** (high on midfielders/wingers, low on centre-backs). **Verify in Exhibition before committing a coaching plan** remains in force: the community reports describe the current build's *tuning*, which the official article does not quantify. | weighting | EV-455, EV-456 |
 | 5.9 | **GK coaches touch only GKR + GKH.** A Legendary GK coach is usable **only if GKR > GKH** | constraint | EV-439 |
+| 5.10 | **THE OFFICIAL STAT MODEL is the coaching bible** [EV-456, C1]: **SPE** top speed, energy-gated and CON-gated while dribbling · **ACC** time to top speed · **STA** energy drain + half-time restore, position-weighted · **CON** dribbling speed loss, touch quality, and the gate on every skill move · **STR** collisions and stumble time · **TAC** the *distance* a tackle can be made from · **PAS** accuracy of all passes · **SHO** accuracy, 'assist', keeping shots low, and free-kick curl · **GKH** catching/claiming/stability · **GKR** reactions and anticipate saves · **ENERGY** below a threshold every stat decays | weighting | EV-456 |
+| 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
+| 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
+| 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**The Season Pass retroactivity rule** [EV-456, C1 — OFFICIAL]: rewards unlock one per 12 hours on the free track, **but a pass purchased late in the season unlocks all content regardless of those time locks** provided the Season Points are earned — and buying **instantly backfills the Premium rewards for every free tier already unlocked**. The pass is **not a subscription**. **If the pass is going to be bought at all, buy it LATE in the season:** same rewards, none of the waiting.
 
 **The training-facility ladder** [EV-437, C2] — the unlock that makes 5.1–5.4 cheap:
 
@@ -362,4 +368,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,511 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (357 records) at ckpt-123.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,546 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (360 records) at ckpt-126.*
