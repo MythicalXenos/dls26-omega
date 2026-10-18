@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-192 — 2,322 claims / 431 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-193 — 2,326 claims / 432 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -398,6 +398,12 @@ Any state → **any** state on a Patch Response trigger (see §6).
 - **The Legendary Scout trick:** one Legendary Special Coach reveals the next 4 upgradable stats and **can be cancelled without consumption**; clear unwanted stats legendary → rare → common. [EV-439, C2]
 
 ### S9 — Maintenance (the goal)
+
+**Endgame objectives once Tier 1 Champion is sustained [EV-530, C3]:**
+- **Player recycling:** Re-sign and re-coach breakout stars when seasonal updates increase their base rating.
+- **Facility completion:** Max remaining levels of 10-tier Accommodation (4,125g total) and Fanzone.
+- **Themed & rare card cultivation:** Max unique rare cards or build single-club collection rosters.
+- **F2P alt challenges:** Starting fresh account runs to test speed-to-Tier 1 records.
 
 Hold **Tier 1 Champion in your own region** across consecutive seasons against 10M+ XP opponents. [EV-437, C2]
 

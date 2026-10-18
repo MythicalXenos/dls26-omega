@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-192 — 2,322 claims / 431 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-193 — 2,326 claims / 432 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -311,6 +311,8 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 > **💰 THE F2P COIN COST OF A MAXED PLAYER:** **~32,000 coins via Common coaches** (80 releases at ~400 coins each) or **~30,000 via Rare** (20 at ~1,500), with an 80-rated defender available at about **1,460 coins**. This is the number that decides whether a free-to-play account maxes one star or keeps farming facilities — and it is why the **coin** engine matters more than the gem engine for squad building.
 
 ### PHASE 3.1 — Transfer market mechanics [EV-442, C2/C3]
+
+**DLS26 transfer price inflation verified [EV-530, C2]:** Top base 86 OVR players now cost up to **2,725 coins** (verified with Rodri 86 OVR at 2,725c). Secret Player offers for this tier appear around **2,555 coins** discounted to **2,355 coins**. Plan budget reserves accordingly.
 
 This is the most operationally important layer in the game, and almost every guide gets it wrong.
 

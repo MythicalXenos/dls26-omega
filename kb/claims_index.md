@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T13:56:00Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2322**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 987 / Speculative 95 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **493**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T14:20:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2326**
+Distribution: Confirmed 391 / High Confidence 849 / Community Consensus 989 / Speculative 96 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **494**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -12,14 +12,14 @@ Distinct evidence records cited: **493**.
 | facilities | 115 |
 | dll | 96 |
 | gameplay | 83 |
-| transfers | 81 |
+| transfers | 82 |
 | cards | 74 |
 | career | 70 |
 | clans | 67 |
 | errata | 64 |
 | setpieces | 61 |
 | controls | 60 |
-| coaching | 49 |
+| coaching | 50 |
 | prizeladder | 48 |
 | patching | 47 |
 | cups | 41 |
@@ -35,7 +35,7 @@ Distinct evidence records cited: **493**.
 | stamina | 26 |
 | achievements | 25 |
 | modes | 25 |
-| goalkeeping | 23 |
+| goalkeeping | 24 |
 | stadium | 23 |
 | customisation | 19 |
 | matchcraft | 18 |
@@ -60,6 +60,7 @@ Distinct evidence records cited: **493**.
 | seasonpass | 8 |
 | multiplayer | 7 |
 | physio | 7 |
+| endgame | 6 |
 | monetization | 6 |
 | referee | 6 |
 | save | 6 |
@@ -69,7 +70,6 @@ Distinct evidence records cited: **493**.
 | audit | 5 |
 | chemistry | 5 |
 | discipline | 5 |
-| endgame | 5 |
 | gacha | 5 |
 | licensing | 5 |
 | ratings | 5 |
@@ -1217,6 +1217,7 @@ Distinct evidence records cited: **493**.
 | CLAIM-228 | Coach categories (4): Technical (boosts CON/TAC/PASS/SHOT — outfield), Fitness (boosts STA/STR/ACC/SPE — outfield), Goalkeeping (boosts GKH/GKR — G... | High Confidence | unscoped | EV-285,EV-256 |
 | CLAIM-229 | Coach rarity boost magnitudes (DLS26): Common = +1 to 1 random stat; Rare = +2 to 2 random stats; Legendary = +3 to 3 random stats. Breakthrough/bo... | High Confidence | unscoped | EV-285 |
 | CLAIM-231 | Player development cap: strict +10 OVR above base card (via any combination of coaches). DLS26 uses weighted attribute costs: high-impact stats (CO... | High Confidence | unscoped | EV-285,EV-256,EV-262 |
+| CLAIM-2328 | DLS26 TRANSFER MARKET 86 OVR PRICING: Following the DLS25-to-DLS26 transfer price inflation, base 86 OVR legendary players cost up to 2,725 coins (... | High Confidence | transfers/dls26-86-ovr-price-2725 | EV-530 |
 | CLAIM-236 | Controller support (added DLS25 Dec 2024, retained DLS26): Bluetooth pairing for PS5/Xbox/generic gamepads (PS5: Share+PS to enter Bluetooth pair, ... | High Confidence | unscoped | EV-287,EV-280 |
 | CLAIM-237 | Form Boost mechanic: temporary stat boost for N matches (minimum 1 match), duration scales with Training Centre facility level (official support). ... | High Confidence | unscoped | EV-285,EV-256 |
 | CLAIM-238 | Official App Store IAP pricing tiers (DLS26 iOS, Jun 2026 snapshot): Season Pass $3.99; Bundle of Coins $1.99; Stack of Coins $3.99; Cup of Coins $... | High Confidence | unscoped | EV-288 |
@@ -2261,7 +2262,9 @@ Distinct evidence records cited: **493**.
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-2321 | THE TIME-OF-DAY EFFECT: 'I have found I have more success in live **during the day with WiFi turned off**. The game is unplayable at night as every... | Community Consensus | dll/time-of-day-effect | EV-529 |
 | CLAIM-2322 | THE DLS25-TO-26 TRANSITION OBSERVATIONS, a first-hand account of what changed between builds: '**Just Hold C is now dead (hooray!)** · **It's harde... | Community Consensus | controls/a-button-charge-curve-changed | EV-529 |
+| CLAIM-2327 | ENDGAME PROGRESSION PATHS AFTER TIER 1: Once a player reaches Tier 1 Champion and has a competitive squad, community veterans pursue five distinct ... | Community Consensus | endgame/post-tier-1-progression | EV-530 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
+| CLAIM-2330 | PLAYER RATING RECYLCING CYCLE: Because seasonal winter/summer updates periodically increase base ratings of breakout real-world players, long-term ... | Community Consensus | coaching/player-recycling-cycle | EV-530 |
 | CLAIM-234 | Transfer Market community-reported prices DLS26 (post-DLS25 price hike): 86 OVR (Rodri) ~2,725 coins; 82 OVR forward ~2,555 (pre-discount ~2,355); ... | Community Consensus | unscoped | EV-286 |
 | CLAIM-239 | New player starting balance: ~1,200 coins + 40 gems (community-reported). Limitations acknowledged: one elite player can cost 10x starter coins. | Community Consensus | unscoped | EV-288 |
 | CLAIM-245 | DLS26 gameplay tuning evolution (post-launch, community timeline): Launch Dec 2025 — slower pace, momentum/inertia-based passing (more realistic), ... | Community Consensus | unscoped | EV-290 |
@@ -2417,6 +2420,7 @@ Distinct evidence records cited: **493**.
 | CLAIM-2324 | A NAVIGATION DISCREPANCY on the Daily Challenges: one source places them behind a **Calendar icon in the main menu**, while others place them at th... | Speculative | ui/daily-challenges-location-discrepancy | EV-529 |
 | CLAIM-2325 | THE SEASONAL OBJECTIVES RENAME: '**Seasonal Objectives has been renamed and is now merged in a convenient interface with other Challenges**' — a UI... | Speculative | ui/seasonal-objectives-merged | EV-529 |
 | CLAIM-2326 | A SECOND DATA POINT on the Career DP breakdown: **75 DP per win · 10 per goal up to 5 · 15 for a clean sheet** — against the corpus's 65-per-Career... | Speculative | economy/career-dp-breakdown-second-source | EV-529 |
+| CLAIM-2329 | OUTFIELD GK REPLACEMENT EXTREME: High-level players frustrated by GK inconsistency have reported successfully fielding fast outfielders (e.g. Rafae... | Speculative | goalkeeping/outfield-player-in-net-sentiment | EV-530 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |
