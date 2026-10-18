@@ -189,3 +189,10 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Status:** OPEN, low impact. The self-contradiction inside one article discredits the source for this figure, and the six-match number is the only one that appears independently. **Provisional resolution: plan for six.** Impact is trivial — a new player will clear either threshold in their first session. Logged EV-451.
 
 **RESOLUTION (ckpt-118, EV-453):** a World Cup Winners thread states plainly that "each special player costs around 2000 gems to max out", independently corroborating the coach-model estimate of 2,100 gems. A related thread puts the requirement at 6-7 Legendary Special Coaches per maxed special player and calculates a 420-gem saving from the cancel-without-consumption technique, consistent with the Legendary Scout trick. **Plan on 2,000-2,100 gems per maxed special player.**
+
+## C-026: Achievement count and total XP (63/98,000 vs 40/20,000 vs 87/100,000)
+- **Nerdburglars** (Google Play list): **63 achievements, 98,000 XP total.**
+- **Exophase** (DLS26, Android): **40 achievements, 20,000 XP.**
+- **Exophase** (DLS Classic): **87 achievements, 100,000 XP.**
+- **Status:** OPEN, low impact. The 63-achievement list is adopted as the working set because it is the most detailed, lists per-achievement XP values, and matches the DLS26 structure (8 divisions, tiers 1-10, Elite/Allstar/Global Challenge Cups). Exophase's 40-entry DLS26 list appears to be a partial or differently-scoped capture. Logged EV-454. **Impact: none on strategy — the tier-promotion XP ladder and the 5,000-XP Tier 1 Champions achievement appear in the adopted set regardless.**
+

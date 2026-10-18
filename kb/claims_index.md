@@ -1,31 +1,31 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:59:10Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1479**
-Distribution: Confirmed 336 / High Confidence 655 / Community Consensus 453 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **417**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:03:15Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1494**
+Distribution: Confirmed 336 / High Confidence 656 / Community Consensus 467 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **418**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 106 |
+| economy | 107 |
 | facilities | 72 |
 | dll | 49 |
 | career | 45 |
-| clans | 41 |
+| clans | 42 |
 | transfers | 40 |
 | cards | 38 |
 | training | 38 |
 | coaches | 36 |
+| cups | 35 |
 | controls | 34 |
-| cups | 34 |
 | prizeladder | 34 |
 | patching | 33 |
 | platform | 30 |
 | customization | 29 |
 | setpieces | 29 |
 | attributes | 23 |
-| errata | 21 |
+| errata | 23 |
 | events | 21 |
 | modes | 19 |
 | gameplay | 18 |
@@ -38,6 +38,7 @@ Distinct evidence records cited: **417**.
 | onboarding | 11 |
 | ui | 11 |
 | account | 10 |
+| achievements | 10 |
 | match | 10 |
 | social | 10 |
 | draft | 9 |
@@ -65,8 +66,8 @@ Distinct evidence records cited: **417**.
 | formations | 2 |
 | licensing | 2 |
 | shooting | 2 |
-| achievements | 1 |
 | anticheat | 1 |
+| benchmark | 1 |
 | bugs | 1 |
 | classics | 1 |
 | commercial | 1 |
@@ -926,6 +927,7 @@ Distinct evidence records cited: **417**.
 | CLAIM-1461 | Within a seed the matchmaker tries your own tier first and only rarely crosses tiers when nobody is available in your tier; internet connection qua... | High Confidence | dll/tier-first-then-cross | EV-451 |
 | CLAIM-1463 | DLS26 has NO co-operative multiplayer. | High Confidence | social/no-coop | EV-451 |
 | CLAIM-147 | Base/purchasable roster OVR hard cap is 86 in EVERY version 20231–20263 (3 years of updates). OVRs 87–98 exist ONLY on special/promo/legend/event c... | High Confidence | unscoped | EV-253,EV-251,CLAIM-141,CLAIM-142,CLAIM-144 |
+| CLAIM-1498 | playdreamleaguesoccer.com fabricated further non-existent content: a Youth Academy Cup, a Global Super League, a Champions Cup with group stage and... | High Confidence | errata/pdls-more-fabrications | EV-454 |
 | CLAIM-154 | Coach rarities confirmed: FOUR categories (Fitness/SPE+ACC+STA+STR; Technical/CON+PAS+SHO+TAC; Goalkeeping/GKR+GKH; Special/ALL stats) each with th... | High Confidence | unscoped | EV-255,CLAIM-049,EV-271,EV-274 |
 | CLAIM-155 | Per-attribute weights in training-capacity cost are POSITION-SPECIFIC. For CB (defender) tackle-polarized builds, Control (CON/控制) carries weight 2... | High Confidence | unscoped | EV-255,CLAIM-049,EV-256 (official stat semantics confirm ... |
 | CLAIM-156 | Coach application mechanic in detail: when a coach of boost level k is used, k DISTINCT attributes are drawn uniformly at random from the pool of t... | High Confidence | unscoped | EV-255,CLAIM-049,CLAIM-052 |
@@ -1431,7 +1433,21 @@ Distinct evidence records cited: **417**.
 | CLAIM-1481 | The cancel-without-consumption special-coach technique is calculated to save about 70 gems per coach, or roughly 420 gems per maxed special player ... | Community Consensus | economy/special-coach-cancel-saving | EV-453 |
 | CLAIM-1482 | DLL Quests, located in the Quest area, pay gems for DLL win counts - 5 gems for 5 DLL wins and 175 gems for 175 DLL wins. | Community Consensus | dll/quests-gem-milestones | EV-453 |
 | CLAIM-1483 | DLL event rewards: winning 5 games in a DLL event pays 280 coins, and winning 7 games pays a further 720 coins on top. | Community Consensus | dll/event-rewards | EV-453 |
+| CLAIM-1484 | The Google Play achievement set contains 63 achievements totalling 98,000 XP, including cup achievements for the Elite Cup (1,000 XP), Allstar Cup ... | Community Consensus | achievements/count-and-total | EV-454 |
+| CLAIM-1485 | THE TIER-PROMOTION XP LADDER: DLL promotion achievements escalate - Tier 10 500 XP, Tier 9 1,000, Tier 8 1,500, Tier 7 2,000, Tier 6 2,500, Tier 5 ... | Community Consensus | achievements/tier-promotion-xp-ladder | EV-454 |
+| CLAIM-1486 | Bragging Rights pays 2,000 XP for becoming champion of ANY tier in Dream League Online, so every tier championship is worth banking. | Community Consensus | achievements/bragging-rights | EV-454 |
+| CLAIM-1487 | Tier 1 Champions is the single largest achievement at 5,000 XP. | Community Consensus | achievements/tier1-champions | EV-454 |
+| CLAIM-1488 | High-value non-tier achievements: Goal Machine 3,000 XP (10,000 career goals), Unstoppable 3,000 XP (1,000 wins), Scoring For Fun 2,500 XP (+100 go... | Community Consensus | achievements/high-value-list | EV-454 |
+| CLAIM-1489 | Lower-value achievements confirm mechanics already in the KB: Golden Boy 1,000 XP for developing a player to Gold status, Ooh Shiny 500 XP for Silv... | Community Consensus | achievements/mechanic-confirmations | EV-454 |
 | CLAIM-149 | Transfer price `prc=0` in roster data marks players that are NOT on the open transfer market in that update (loaned, not yet released, untradeable ... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-139 |
+| CLAIM-1490 | SECRET PLAYERS EXIST: the achievement SSSHHH pays 500 XP for purchasing a secret player. | Community Consensus | achievements/secret-players | EV-454 |
+| CLAIM-1491 | Fashion Victim pays 1,500 XP for unlocking every kit type. | Community Consensus | achievements/fashion-victim | EV-454 |
+| CLAIM-1492 | ACHIEVEMENT-COUNT CONFLICT: Nerdburglars lists 63 achievements totalling 98,000 XP, Exophase lists 40 achievements and 20,000 XP for DLS26 on Andro... | Community Consensus | achievements/count-conflict | EV-454 |
+| CLAIM-1493 | THE INTERNATIONAL CUP EXISTS: the Exophase Apple achievement list includes 'International Cup Winners! - Win the International Cup', and a trophy-c... | Community Consensus | cups/international-cup-exists | EV-454 |
+| CLAIM-1494 | Season Pass rewards unlock one at a time on a 12-hour cycle at 12:00 GMT+1, AM and PM, so a player must either wait 12 hours per reward or wait unt... | Community Consensus | economy/season-pass-unlock-rate | EV-454 |
+| CLAIM-1495 | A DLS26 one-week review independently confirms that the first tier of facility upgrades costs 375 COINS rather than 75 gems, and that DP boosts can... | Community Consensus | errata/dls26-review-confirmations | EV-454 |
+| CLAIM-1496 | THERE IS NO CLAN-VS-CLAN MODE: a reviewer who expected inter-clan competition reports receiving 'a legendary scout and some coins' instead. | Community Consensus | clans/no-clan-vs-clan | EV-454 |
+| CLAIM-1497 | THREE-MONTH BENCHMARK from an experienced player: a fully maxed starting 11 plus 9 maxed subs, 1,472,836 online XP, a 57% online win rate, 13 Tier ... | Community Consensus | benchmark/three-month-progress | EV-454 |
 | CLAIM-153 | DLS26 exposes a player-controllable HUD with two stamina/boost indicator icons ("filled" and "hollow" circle templates used by the bot for HUD dete... | Community Consensus | unscoped | EV-254 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
