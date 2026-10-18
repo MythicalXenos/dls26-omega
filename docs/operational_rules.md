@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-136 — 1,652 claims / 376 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-137 — 1,663 claims / 377 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,20 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**THE SET-PIECE RULES** [EV-475, C3]:
+
+| Rule | Detail |
+|---|---|
+| **Corners are the most reliable goal source** | *"Corners are way too easy to score now. If your opponent in DLL gets one, its almost guaranteed that you concede"* |
+| **C-022 RESOLVED — two deliveries, not two opinions** | **SAME foot = out-swinger** (curves away from goal; header back toward goal with pace; keeper cannot claim) · **OPPOSITE foot = in-swinger** (curves toward goal; suits near/far-post headers but brings the ball to the keeper) |
+| **Adopt the out-swinger for the near-post routine** | Right-footed on the right corner, left-footed on the left; aim near the goal post |
+| **The out-swinger technique** | Call a second player first (drags a defender out, opens space for your striker), set out-swinger, then **max B** and shoot |
+| **Shortest players take the corners** | So the players in the box are on average taller |
+| **Take from behind the goal line** | Not from beside the sideline; arrow ~90% inside the pitch, or ~30° to the goal line |
+| **Press A right before arrival** | And if the header is not on, press **B to pass** to someone better placed (DLS25 nerfed headers) |
+| **Free-kick footedness inverts** | A **left-footed** taker is the more versatile option — it works from both sides |
+| **Short corner is a real option** | Hold B to the nearest player outside the box and set up a long shot |
 
 **THE MATCHCRAFT RULES** [EV-474, C3] — the execution layer:
 
@@ -469,4 +483,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,652 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (376 records) at ckpt-136.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,663 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (377 records) at ckpt-137.*

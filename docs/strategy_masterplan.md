@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-136 — 1,652 claims / 376 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-137 — 1,663 claims / 377 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -537,7 +537,18 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 
 Power recipes that work (pick one and drill it): A to 60% · A to 80–90% with in-then-out curve · C at 2/3–3/4 · C at 80% on a 50–60° angle · or leave the arrow alone and play a strong lob to a defender, then a short header to the nearest open man.
 
-**Two caveats:** DLS25 **nerfed corner headers**, so the fallback is to aim middle and press **B to pass** to someone better placed rather than heading immediately. And **corner footedness is contested (C-022)** — the majority say same-foot corner, a minority say opposite-foot. Test both in the free training ground before committing.
+**Two caveats:** DLS25 **nerfed corner headers**, so the fallback is to aim middle and press **B to pass** to someone better placed rather than heading immediately. And the **short corner** is a real option when crossing into the crowd fails — hold **B** to the nearest player outside the box and set up a long shot.
+
+**✅ C-022 RESOLVED (ckpt-137, EV-475) — the footedness conflict was two camps describing two different deliveries:**
+
+| Delivery | Foot | What it does | Use it for |
+|---|---|---|---|
+| **Out-swinger** | **SAME foot** — right-footed on the right corner, left-footed on the left | Curves **away** from goal, so the header is played back toward goal with pace and the keeper **cannot claim it** | **The DLS26 near-post routine** — *"aim it near the goal post and it's money from there"* |
+| **In-swinger** | **OPPOSITE foot** — left-footed on the right corner | Curves **toward** goal, suiting near- and far-post headers, but the spin brings the ball **to the keeper** | Real-football default; the professional game runs 2,643 inswingers to 541 outswingers |
+
+**One r/DLS thread contains both positions side by side**, which is the conflict in miniature — and neither is wrong. **Adopt the out-swinger (same foot) for the near-post routine the table above describes**, and keep an in-swinger taker as the alternative when the near post is blocked. **The out-swinger technique:** call a second player first (it drags a defender out and opens space for your striker), set the taker to out-swinger, then **max B** and shoot.
+
+**Free-kick footedness inverts the corner logic:** a **left-footed taker is the more versatile free-kick option** — *"on the field's right side, the right footed player will have a little turbulence to shoot. The left footed player can do both sides with no trouble at all."* A **both-footed striker** is structurally better because foot affects curve, power and accuracy from every angle.
 
 **Defending corners:** switch to a tall player and **B-pass 90° away from the direction** the opponent wants to head it. Alternative: charge A and point up-field the moment the corner is taken.
 

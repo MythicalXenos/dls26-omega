@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:45:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1652**
-Distribution: Confirmed 374 / High Confidence 703 / Community Consensus 540 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **438**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:47:45Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1663**
+Distribution: Confirmed 374 / High Confidence 704 / Community Consensus 550 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **439**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,12 +10,13 @@ Distinct evidence records cited: **438**.
 | unscoped | 424 |
 | economy | 115 |
 | facilities | 87 |
-| dll | 62 |
+| dll | 63 |
 | gameplay | 56 |
 | cards | 50 |
 | clans | 50 |
 | career | 48 |
 | transfers | 43 |
+| setpieces | 39 |
 | training | 38 |
 | coaches | 37 |
 | cups | 37 |
@@ -25,7 +26,6 @@ Distinct evidence records cited: **438**.
 | attributes | 34 |
 | platform | 30 |
 | customization | 29 |
-| setpieces | 29 |
 | errata | 24 |
 | events | 22 |
 | modes | 19 |
@@ -1024,6 +1024,7 @@ Distinct evidence records cited: **438**.
 | CLAIM-1642 | THE DYNAMIC STARS EVENT PATH: every base card starts at 82 OVR and only one is upgraded to 96 OVR, via +1 OVR per Group Stage win then +2 OVR for e... | High Confidence | events/dynamic-stars-path | EV-472 |
 | CLAIM-1643 | SEASON PASS PLAYERS are a new card type announced alongside Cult Heroes, with special agents and players on BOTH the free and premium tracks, and 6... | High Confidence | cards/season-pass-players | EV-472 |
 | CLAIM-1646 | C-025 SUBSTANTIALLY RESOLVED: the most explicit guide on record states that 'to unlock the Dream League Live tab and Friend Match... you first need... | High Confidence | dll/unlock-six-career-matches | EV-474 |
+| CLAIM-1667 | The LIVE rank names above Veteran remain unpublished after a further targeted search - the only ladder on record is Intermediate, Pro, Veteran (Exo... | High Confidence | dll/rank-names-gap-survives | EV-475 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1613,6 +1614,16 @@ Distinct evidence records cited: **438**.
 | CLAIM-1654 | STRENGTH MATTERS BEFORE CONTACT: 'the effects of STR start upon applying pressure defense (holding the B button) even if the defender is yet behind... | Community Consensus | gameplay/str-at-distance | EV-474 |
 | CLAIM-1655 | Position-weighted attributes for recruitment: speed and acceleration for attacking runs and closing down, strength for defenders who tackle, and st... | Community Consensus | gameplay/position-weighted-attributes | EV-474 |
 | CLAIM-1656 | Every skill move is practisable in My Club > Training > Free Practice, and the passing drill in the Corner training mode is the recommended way to ... | Community Consensus | gameplay/practice-locations | EV-474 |
+| CLAIM-1657 | C-022 RESOLVED: the corner-footedness conflict was two camps describing two different deliveries. SAME foot (right-footed on the right corner) prod... | Community Consensus | setpieces/c-022-resolved-two-deliveries | EV-475 |
+| CLAIM-1658 | The DLS26-specific evidence favours the OUT-SWINGER (same foot) for the near-post routine: 'simply use a right footed player on the right corner or... | Community Consensus | setpieces/out-swinger-favoured-dls26 | EV-475 |
+| CLAIM-1659 | The out-swinger corner technique: call a second player first (it drags a defender out and opens space for your striker), set the taker to out-swing... | Community Consensus | setpieces/out-swinger-technique | EV-475 |
+| CLAIM-1660 | The corpus's arrow rule is independently corroborated: 'there is this little arrow that every player always have. Adjust it so that 90% of the arro... | Community Consensus | setpieces/arrow-rule-corroborated | EV-475 |
+| CLAIM-1661 | The placement rule is corroborated: 'for corners don't take them from next to the sideline, take them from behind the goalline.' And the shortest-p... | Community Consensus | setpieces/placement-and-height-corroborated | EV-475 |
+| CLAIM-1662 | The DLS25 header nerf and its fallback are corroborated: 'they were 100% nerfed in Dls 25 as I've noticed it's a lot harder now, however id recomme... | Community Consensus | setpieces/header-nerf-corroborated | EV-475 |
+| CLAIM-1663 | The training-ground corner routine: 'do not move the arrow, strong power lob to your defender, short header to nearest open man for tap in.' The an... | Community Consensus | setpieces/corner-routine-variants | EV-475 |
+| CLAIM-1664 | The short corner is a real option: 'hold B to nearest player outside the box usually a winger... and set up a long shot' - useful when crossing int... | Community Consensus | setpieces/short-corner-option | EV-475 |
+| CLAIM-1665 | FREE-KICK FOOTEDNESS INVERTS THE CORNER LOGIC: 'left footed players are just the best to score free kicks, because its the angle of the free kick t... | Community Consensus | setpieces/free-kick-left-foot-versatile | EV-475 |
+| CLAIM-1666 | A both-footed striker has a structural advantage: 'it enables the forward to shoot from any angle but still hit the goal, as foot plays an importan... | Community Consensus | setpieces/both-footed-advantage | EV-475 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
