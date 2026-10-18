@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-189 — 2,301 claims / 428 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-190 — 2,310 claims / 429 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -20,6 +20,8 @@ The mission target is **#1 in Dream League Live**. Two facts fix the definition:
 **A third fact, discovered later in the sweep, confirms this from the matchmaking side** [EV-451, C2]: your Live **seed** is set by your **region and the time you started your account**. Seeds divide the player base into small packets so the matchmaker never scans the world — which is why accounts created years apart still meet in Live, and why your realistic competition is always your own regional pool.
 
 This matters because it changes the optimisation target: **the leaderboard rewards performance (XP and results), not squad value.** A world-record run reached Tier 1 Champion with a *mostly common/rare team* — 16 days, 12 games, 110 wins, 10 losses, 1 draw, 145,296 XP, starting deliberately from tier 20 [EV-432, C3].
+
+> ⚠️ **THE XP PARADOX — the strongest evidence that this is a skill ladder, not a squad ladder** [EV-527, C3]. In one thread a player reports winning Tier 1 at **2 million** live XP, while another reports **5 million** and never having won Tier 2, and a third at **5.5 million** has won Tier 1 twice. **So accumulated XP does not determine tier success** — a player with a quarter of the XP reached the top, and a player with two and a half times the XP never cleared tier 2. That is the evidence behind the common/rare record run, behind the stop-coaching advice, and behind the maxed-squad handicap finding: **the top of the ladder is decided by player skill, not by squad value or hours played.** It is also the answer to the objection that the plan under-invests in cards.
 
 ---
 

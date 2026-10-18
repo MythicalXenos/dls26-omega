@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-189 — 2,301 claims / 428 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-190 — 2,310 claims / 429 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -617,6 +617,8 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Club minimum is 16 players** — reach it before coaching.
 - **Coach farming: buy at or below 192 coins** — and the sharper DLS26 filter is **130 coins or less**, using a 75-coin Common scout (~63 with a maxed Recruitment facility), released immediately. Players as low as 42 coins appear. Release mapping: Common → 1 Common coach · Rare → 2 Commons · 80+ → 1 Rare.
 - **Never coach the interim squad.** Bank ALL coaches until the starting XI is final; form boosts and physios are a waste unless earned free.
+- ⚠️ **XP does not buy the top tier** [EV-527, C3] — a 2M-XP player has won Tier 1 while a 5M-XP player never won Tier 2. Spend on technique, not on hours.
+- **The tier-5 wall is a squad-quality wall** [EV-527, C3] — opponents there hold multiple 90+ players, which is the practical argument for buying 84+.
 - **⚠️ Coached progress is not guaranteed to survive a season boundary** [EV-521, C3] - maxed players reverted to base ratings in the Dec 2025 update, and releasing a maxed player downgraded them to the new official rating. Keep a record of what you spend.
 - **⚠️ Random forfeits happen** [EV-521, C3] - matches can end as forfeits when you never left; the mechanism is a connection-lost warning that closes the game.
 - **⚠️ Expect random player movement** [EV-521, C3] - players making meaningless movements and failing to hold positions is a documented DLS26 complaint, reported by spenders.

@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T12:58:13Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2301**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 975 / Speculative 86 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **490**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T13:08:02Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2310**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 980 / Speculative 90 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **491**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,18 +10,18 @@ Distinct evidence records cited: **490**.
 | unscoped | 424 |
 | economy | 143 |
 | facilities | 114 |
-| dll | 92 |
+| dll | 95 |
 | gameplay | 83 |
-| transfers | 80 |
-| cards | 72 |
+| transfers | 81 |
+| cards | 74 |
 | career | 70 |
 | clans | 67 |
-| errata | 62 |
+| errata | 63 |
 | setpieces | 61 |
 | controls | 59 |
 | prizeladder | 48 |
+| patching | 47 |
 | coaching | 45 |
-| patching | 45 |
 | cups | 41 |
 | training | 41 |
 | tactics | 38 |
@@ -2248,6 +2248,11 @@ Distinct evidence records cited: **490**.
 | CLAIM-2299 | CUSTOMISATION COSTS GEMS ACROSS THE WHOLE SURFACE, not just the kit import: 'you can customize your **Team Kit, Logo, Player Kit Number, Boot Color... | Community Consensus | customization/costs-gems-throughout | EV-526 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-2303 | THE CROSS-ASSIST DEFINITION: 'it's to have a cross go to the nearest player if you chipped inside the box instead of needing to aim yourself.' So C... | Community Consensus | controls/cross-assist-definition | EV-526 |
+| CLAIM-2306 | ⚠️ THE XP PARADOX — the strongest single piece of evidence for the corpus's core claim. In one thread: 'How do these young guys in dls manage I won... | Community Consensus | dll/xp-paradox | EV-527 |
+| CLAIM-2307 | THE TIER-5 WALL IS A SQUAD-QUALITY WALL: 'I've been able to get up to Level 5 but can't seem to get past it. Extremely frustrating. **My highest ra... | Community Consensus | dll/tier-5-wall-is-squad-quality | EV-527 |
+| CLAIM-2308 | THE FOUR-DAY CLIMB: '**Grinded from tier 7 to 1 in only 4 days, championed every tier.**' A third benchmark against the 16-day world record and the... | Community Consensus | dll/four-day-climb-benchmark | EV-527 |
+| CLAIM-2309 | THE RETURNING-PLAYER MECHANIC in the rating refresh: the Arsenal rating table carries '**Giroud: 76 (RETURNING PLAYER)**' and '**Aubameyang: 78 (RE... | Community Consensus | patching/returning-player-mechanic | EV-527 |
+| CLAIM-2312 | THE MIDFIELD CLASSICS WITH POSITIONS AND YEARS: **Rivaldo 1999 86 LW · Matthaus 1991 86 AM · Pires 2002 84 LM · Valderrama 1993 83 AM.** So each Cl... | Community Consensus | cards/midfield-classics-with-years | EV-527 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
 | CLAIM-234 | Transfer Market community-reported prices DLS26 (post-DLS25 price hike): 86 OVR (Rodri) ~2,725 coins; 82 OVR forward ~2,555 (pre-discount ~2,355); ... | Community Consensus | unscoped | EV-286 |
@@ -2396,6 +2401,10 @@ Distinct evidence records cited: **490**.
 | CLAIM-2302 | THE CONTROLLER SETTINGS PATH, the only documented route to the controller profile: game, then controls, then '**game pad control**'. Pairs with the... | Speculative | settings/controller-settings-path | EV-526 |
 | CLAIM-2304 | A NEW LINKAGE between the assist settings and the handicap perception: 'If set to **low or off, you have a better chance at playing in rigged/handi... | Speculative | controls/assists-and-handicap-linkage | EV-526 |
 | CLAIM-2305 | THE VERSION CODE SEQUENCE (dlsinside): **160-13430** (16 Sep 2026) · 159-13420 (5 Sep) · 158-13410 (20 Aug) · 154-13350 (21 Jul) · 153-13340 (23 Ju... | Speculative | patching/version-code-sequence | EV-526 |
+| CLAIM-2310 | THE 'ROBBERY' SLANG: a community rating thread marks two players '+0, **ROBBERY** btw' — community vocabulary for a rating the players consider wro... | Speculative | patching/robbery-slang | EV-527 |
+| CLAIM-2311 | A NEW PLAYER-SEARCH TOOL: 'https://dls-ext.vercel.app/ — you can search players by rating, nationality, and it has the stats and gives you complete... | Speculative | transfers/dls-ext-player-search-tool | EV-527 |
+| CLAIM-2313 | THE 'TIER 1 CHAMPION' SUBREDDIT FLAIR is a community artifact, not an in-game rank name — recorded so it is not mistaken for a seventh LIVE rank ab... | Speculative | errata/tier-1-champion-flair-not-a-rank | EV-527 |
+| CLAIM-2314 | CLASSICS ARE POSITIONALLY FLEXIBLE: 'Petit played as a LB through his career as well so therefore he counts. Valverde is also currently playing as ... | Speculative | cards/classics-positionally-flexible | EV-527 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |
