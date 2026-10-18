@@ -1,0 +1,22 @@
+{
+  "contract_id": "setup-0001",
+  "schema_version": 1,
+  "state": "STATE_0_SETUP",
+  "created_at": "2026-10-18T15:32:51Z",
+  "input_boundary": "DLS26_OMEGA_PROMPT.md (sha256 35eb78178fac8f03e970e4a81c720d59d7709470667d50529865aaf408492cac) at repo base fb9a2c025ec267f6b787382766ce44c7e373d091",
+  "obligations": [
+    {"id": "S0-01", "name": "prompt persistence (verbatim, capture MECHANICAL)", "artifact": "DLS26_OMEGA_PROMPT.md", "status": "complete"},
+    {"id": "S0-02", "name": "prompt archive copy (byte-identical)", "artifact": "docs/prompt_archive/OMEGA_PROMPT_v76.md", "status": "complete"},
+    {"id": "S0-03", "name": "rules digest with named-rule check", "artifact": "OPERATIONAL_RULES.md", "status": "complete"},
+    {"id": "S0-04", "name": "capability inventory", "artifact": "docs/CAPABILITY_INVENTORY.md", "status": "complete"},
+    {"id": "S0-05", "name": "repository access verification", "artifact": "docs/REPO_ACCESS_VERIFICATION.md", "status": "complete"},
+    {"id": "S0-06", "name": "schema documentation", "artifact": "docs/SCHEMA.md", "status": "complete"},
+    {"id": "S0-07", "name": "prompt changelog with PROPOSED gap entries", "artifact": "docs/PROMPT_CHANGELOG.md", "status": "complete"},
+    {"id": "S0-08", "name": "research queue, KB skeleton, source log, registers", "artifact": "logs/*, kb/*", "status": "complete"},
+    {"id": "S0-09", "name": "liveness manifest (OMEGA-LIVENESS-001)", "artifact": "logs/turn_manifest.json", "status": "complete_at_publication"},
+    {"id": "S0-10", "name": "atomic handoff", "artifact": "handoff/handoff.md", "status": "complete"}
+  ],
+  "completion_predicate": "every obligation complete on disk, committed and pushed to arena/357aaddf-dls26-omega, with ls-remote HEAD equal to local HEAD",
+  "successor": "STATE_1_RESEARCH_SWEEP (entered at the next turn boundary)",
+  "owed_later": ["Step 1 epoch contract (OMEGA-EPOCH-001)", "all research, static analysis, device pipeline, operational rules"]
+}

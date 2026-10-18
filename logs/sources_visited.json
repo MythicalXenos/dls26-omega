@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "note": "Physical source log (OMEGA-FRONTIER-001). Empty at Setup: no retrieval performed yet.",
+  "retrievals": [],
+  "discovered_references": [],
+  "service_events": [],
+  "coverage": [],
+  "digest": null
+}
