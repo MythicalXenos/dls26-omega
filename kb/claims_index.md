@@ -1,18 +1,18 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:47:45Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1663**
-Distribution: Confirmed 374 / High Confidence 704 / Community Consensus 550 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **439**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:50:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1671**
+Distribution: Confirmed 374 / High Confidence 711 / Community Consensus 551 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **440**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 115 |
-| facilities | 87 |
+| facilities | 89 |
 | dll | 63 |
 | gameplay | 56 |
-| cards | 50 |
+| cards | 54 |
 | clans | 50 |
 | career | 48 |
 | transfers | 43 |
@@ -20,9 +20,9 @@ Distinct evidence records cited: **439**.
 | training | 38 |
 | coaches | 37 |
 | cups | 37 |
+| patching | 37 |
 | prizeladder | 36 |
 | controls | 35 |
-| patching | 35 |
 | attributes | 34 |
 | platform | 30 |
 | customization | 29 |
@@ -1025,6 +1025,13 @@ Distinct evidence records cited: **439**.
 | CLAIM-1643 | SEASON PASS PLAYERS are a new card type announced alongside Cult Heroes, with special agents and players on BOTH the free and premium tracks, and 6... | High Confidence | cards/season-pass-players | EV-472 |
 | CLAIM-1646 | C-025 SUBSTANTIALLY RESOLVED: the most explicit guide on record states that 'to unlock the Dream League Live tab and Friend Match... you first need... | High Confidence | dll/unlock-six-career-matches | EV-474 |
 | CLAIM-1667 | The LIVE rank names above Veteran remain unpublished after a further targeted search - the only ladder on record is Intermediate, Pro, Veteran (Exo... | High Confidence | dll/rank-names-gap-survives | EV-475 |
+| CLAIM-1668 | THE SQUAD CAP IS 64 PLAYERS, NOT 40: the DLS25 update extended the Accommodation facility by five levels at +4 squad space each, taking a legacy 44... | High Confidence | facilities/squad-cap-64 | EV-476 |
+| CLAIM-1669 | THE OUTDATED 5,625-GEM FACILITY FIGURE IS SOURCED: a DLS23-era post (Dec 2022) states 'each facility takes 1125 gems to reach max level, so to max ... | High Confidence | facilities/5625-figure-sourced-to-dls23 | EV-476 |
+| CLAIM-1670 | THE DYNAMIC STARS ROSTER (dlsinside v13.430): 8 players, all from Dynamic Agents - Konrad Laimer 20, Eberechi Eze 10, Nico Williams 10, Bradley Bar... | High Confidence | cards/dynamic-stars-roster | EV-476 |
+| CLAIM-1671 | THE DLS26 RATING CEILING IS 86, held by a cluster of about six players: Ousmane Dembele, Kylian Mbappe, Erling Haaland, Harry Kane and Lamine Yamal... | High Confidence | patching/rating-ceiling-86 | EV-476 |
+| CLAIM-1672 | Classic and legend cards sit above the roster ceiling: Rivaldo 1999 and Matthaus 1991 are listed at 86, and Classic Marcel Desailly at 85 - consist... | High Confidence | cards/classic-above-roster | EV-476 |
+| CLAIM-1673 | Secret players are a listed card category in the player database, corroborating the corpus's note that secret players exist. | High Confidence | cards/secret-players-exist | EV-476 |
+| CLAIM-1675 | The 12th Man's identity remains unnamed: the vote was announced in v13.100 (26 Feb 2026) and the winner added in v13.120 (25 Mar 2026), but no sour... | High Confidence | cards/12th-man-identity-still-unknown | EV-476 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1624,6 +1631,7 @@ Distinct evidence records cited: **439**.
 | CLAIM-1664 | The short corner is a real option: 'hold B to nearest player outside the box usually a winger... and set up a long shot' - useful when crossing int... | Community Consensus | setpieces/short-corner-option | EV-475 |
 | CLAIM-1665 | FREE-KICK FOOTEDNESS INVERTS THE CORNER LOGIC: 'left footed players are just the best to score free kicks, because its the angle of the free kick t... | Community Consensus | setpieces/free-kick-left-foot-versatile | EV-475 |
 | CLAIM-1666 | A both-footed striker has a structural advantage: 'it enables the forward to shoot from any angle but still hit the goal, as foot plays an importan... | Community Consensus | setpieces/both-footed-advantage | EV-475 |
+| CLAIM-1674 | Arsenal's DLS26 ratings (Dec 2025) as a worked rating snapshot: Saliba 84, Rice 84, Saka 84, Gabriel 84 (+1), Gyokeres 83, Raya 83, Timber 82 (+2),... | Community Consensus | patching/arsenal-ratings-example | EV-476 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
