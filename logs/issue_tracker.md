@@ -35,3 +35,9 @@ Each entry: ID, opened (UTC), status, severity, description, action, owner.
 
 ## ISSUE-010 — tier words named by system — opened 2026-10-18T15:32:51Z — CLOSED — severity Low
 - TIER RULE applied from the start: every tier is written with its system name in all files (volatility, queue priority, confidence, risk, special-card).
+
+## ISSUE-011 — source conflicts from turn 2 — opened 2026-10-18T15:41:35Z — OPEN — severity Medium
+- CONF-001 (launch date): Wikipedia lead says 1 Dec 2025; a news article dated Feb 2026 says global availability 4 Dec 2026. The live store listings show a September 2026 update. Status: Disputed (CLM-0012). Owed: fetch the Wikipedia page (language version to be recorded) and the news article, then the official launch announcement if one exists.
+- CONF-002 (Summer Spotlight): App Store snippet attributes Summer Spotlight to 13.120 (Mar 25); third-party sites place it in May and July 2026. Status: Disputed (CLM-0011). Owed: App Store version-history chunks 1-4.
+- Not a conflict: Google Play 'Updated Sep 14, 2026' vs App Store 13.430 'Sep 16' (platform dates may differ).
+- Action: no claim is promoted until resolved against a fetched official page.
