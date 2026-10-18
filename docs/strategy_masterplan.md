@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-100 (`e4fee63`) — 1,405 claims / 347 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-103 (`19b0605`) — 1,412 claims / 348 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -407,6 +407,20 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 | Mods, hacks or coin/gem generators | **OFFICIAL FTG:** infinite coins/gems do not exist, modified versions end in **account blocking**, and generators are a scam [EV-441, C1] |
 | Half-upgrading a stadium stand | "If you build a side only partially, the next time you would have to pay the full price to complete it" [C3] |
 | Upgrading a stand **with a roof** | "On the highest number you're paying for the roof and no extra seats" [C3] |
+
+---
+
+## 4.9 DLS26-specific modes worth watching [EV-446, C1]
+
+| Mode | What it is | Why it matters |
+|---|---|---|
+| **Dynamic Stars** | Special Players whose cards **upgrade live** with real-world national team tournament performance — DLS's analogue of EA's "Path to Glory" | The only cards whose rating moves without you spending coaches. Collection opened 8 Jun 2026; obtained via **Dynamic Star Agents** |
+| **World Tournament** | A brand-new **International Football event type** with high-tier reward tracking | Fresh reward surface; watch for its return |
+| **World Heroes** | Live-service event from 1 Jul 2026; Special Players obtainable via **Legendary Agents** | The **second route to Special Players** outside the Prize Ladder — every Legendary Agent is a free roll |
+| **Cult Heroes** | 12-player collection, live in v13.430 | Marquee targets: de Gea, Aubameyang, Dybala |
+| **Dream Stars / 12th Man** | Dream Stars from real-world season performances; the 12th Man is the **community-voted extra slot** | FTG never names the winner — treat as an event to watch, not a card to plan around |
+
+> **Practical takeaway:** because Legendary Agents can yield World Heroes, and Dynamic Star Agents come from event draws and Season Passes, **agents are a second acquisition lane parallel to the Prize Ladder.** Do not spend gems on agents you don't need, but do not ignore the free ones either.
 
 ---
 
