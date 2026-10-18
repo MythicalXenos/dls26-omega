@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-195 — 2,332 claims / 434 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-196 — 2,335 claims / 435 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -301,7 +301,7 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 | 2 | **Training** | Cheapens every coach — **23.33 gems/point at max vs 31.5 at L1** |
 | 3 | **Accommodation** | Rotation, depth, and the 64-player cap |
 | 4 | **Commercial** | +6% at L1, **kit/logo/scout discounts**, **rust removal at L3** — but only **10–20 coins a match at max** |
-| 5 | **Medical** | −10% healing / −5% injuries at L1; maxed makes physio trips "super cheap" |
+| 5 | **Medical** | −10% healing / −5% injuries at L1; maxed makes physio trips "super cheap" (Legendary Physio drops 250c -> ~150c) [EV-533, C2] |
 | 6 | **Recruitment** | Discounts agents **and** scouts (gem **or** coin cost) |
 
 > **The comparison that settles it:** *"1125 Diamonds being used on the commercial facility for a bonus of 10 to 20 coins/match is not worth it knowing you can max 2.5 players with the same amount of diamonds."* **So 1,125 gems ≈ 2.5 maxed players ≈ 450 gems per maxed player.** Every facility decision is comparable to a coaching decision.

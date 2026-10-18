@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-195 — 2,332 claims / 434 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-196 — 2,335 claims / 435 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -648,7 +648,9 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Training's priced decision** [EV-499, C2]: each level unlocks a **group of formations**, and the gem discount is **5% / 10% / 15% at levels 1 / 2 / 3**. **Stay at level 1 if maxing with coins** — which is the F2P case — and reach level 5 only if maxing with gems. A corpus conflict is recorded: a six-level 0/5/10/15/20/30% ladder cannot coexist with the confirmed five-level price ladder.
 - **Stadium build order** [EV-499, C2]: build each stand **directly to its optimal level in one purchase** — a partial stand costs full price to complete. Skip roofs (costly optics). Optimal: N20 / NE49 / E26 / SE45 / S20 / SW49 / W26 / NW49 for ~10,000 coins and the 52-coin maximum.
 - **Why:** 1,125 gems ≈ **2.5 maxed players** (~450 gems each). Commercial at max pays only **10–20 coins a match** (it gave ~50% in DLS20/21).
-- **Medical L1:** −10% healing cost, −5% injury chance; maxed makes physio trips *"super cheap."*
+- **Medical L1:** −10% healing cost, −5% injury chance; maxed makes physio trips *"super cheap"* (Legendary Physio 250c -> ~150c) [EV-533, C2].
+- **Fitness coach heals injury [EV-533, C3]:** Applying a Fitness coach directly accelerates active injury recovery time when reserves are thin.
+- **Strength reduces injury chance [EV-533, C3]:** Higher STR cards have passive resistance to collision injuries.
 - **Commercial L1:** +6% match winnings; it also discounts **kits, logos AND scouts**; **L3 removes stadium rust**.
 - **Recruitment** discounts agents **and** scouts (gem or coin cost).
 - **⚠️ World Heroes and World Winners are LEGENDARY-AGENT-EXCLUSIVE** [EV-526, C3] - Common and Rare agents cannot pull them, so for those collections a low-tier agent is a guaranteed waste of gems.
