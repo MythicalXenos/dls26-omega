@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-141 — 1,693 claims / 381 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-142 — 1,713 claims / 382 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -407,6 +407,25 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Coaches can be hired by RELEASING PLAYERS from your squad** — a gem-free coach route. Four categories (Technical, Fitness, Goalkeeping, Special) × three tiers (Common, Rare, Legendary); Common boosts one random stat, Legendary is largest with the highest breakthrough chance.
 
 **⚠️ DLS26 HAS NO DOCUMENTED SQUAD-CHEMISTRY SYSTEM** [EV-479, C2 — documented negative]. Every explained chemistry model on the open web is EA FC / FIFA; no DLS source documents a threshold, UI, link rule or attribute effect. **Do not spend gems or squad slots chasing one.**
+
+### 3.7 The control model and the complete skill catalogue [EV-480, C2]
+
+- **The three action buttons are context-dependent:** in possession they pass, shoot and cross; out of possession the same three become **press, tackle, change-player**. The layout is customisable and **the shooting assistant can be disabled**.
+- **Kicks:** Low Kick = low/short precise passes · Hard Kick = shots and long through balls · Lofted Kick = long passes and chips.
+- **Skills:** Rainbow Flick = swipe **UP** (Control > 80) · Feint = swipe **L/R** · Roulette = swipe **DOWN** (Control > 70) · Bicycle/Scorpion Kick = double-tap **in the air** · Heading = double-tap **under the ball** · Rabona = Rainbow Flick then **B/C** · **Close Control = tap and hold** in empty space while in possession (official: *"more controlled dribbling"*) · **Knock Ahead = tap** while in possession · **Secondary Press = tap and hold** while defending.
+- **Skill moves are gated by Control** — below the threshold the player *"will just lose the ball."*
+- **Learn them at My Club → Training → Free Practice**; the **Advanced Tutorial** teaching every skill is inside the training mode. Six modules: Free Training, Free Kick, Left Corner, Right Corner, Penalty, Penalty Save.
+- **Technique:** combine the swipe with a joystick direction change; skill moves pay most **in a 1v1 with the keeper** (a speed boost plus distance from recovering defenders).
+- **⚠️ DLS's skill set is deliberately smaller than FIFA's.** No elastico, no trivela. Learn these ten and stop looking.
+
+### 3.8 The stadium's design surface [EV-480, C2]
+
+- **Seven named pitch patterns:** Horizontal stripe, Vertical stripe, Check, Diagonal A, Diagonal B, Diamond, Circles — **all cosmetic**.
+- **Eight named sectors:** North, North East, East, South East, South, South West, West, North West Stand. **Seat colour follows the home kit.**
+- Advertising boards appear in every sector except the corners and the players' entrance; **some structures carry zero seats**.
+- **Auto Build Capacity** sets an exact seat target (ceiling 80,000 of 90,456 max).
+- **Build order:** *"Don't build the roofs, just until you reach max spectators"*; upgrade **one stand at a time** — levelling every stand together costs more.
+- **Negatives:** no controller support on mobile; no gem-based injury healing (*"wait it out or use medical staff"*).
 
 ---
 

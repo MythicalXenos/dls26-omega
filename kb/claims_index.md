@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:02:00Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1693**
-Distribution: Confirmed 378 / High Confidence 727 / Community Consensus 553 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **443**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:04:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1713**
+Distribution: Confirmed 379 / High Confidence 739 / Community Consensus 560 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **444**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -16,13 +16,13 @@ Distinct evidence records cited: **443**.
 | cards | 54 |
 | transfers | 49 |
 | career | 48 |
+| training | 40 |
 | setpieces | 39 |
+| controls | 38 |
 | cups | 38 |
-| training | 38 |
 | coaches | 37 |
 | patching | 37 |
 | prizeladder | 37 |
-| controls | 35 |
 | attributes | 34 |
 | platform | 30 |
 | customization | 29 |
@@ -34,6 +34,7 @@ Distinct evidence records cited: **443**.
 | presentation | 16 |
 | tactics | 16 |
 | achievements | 15 |
+| stadium | 15 |
 | formboost | 12 |
 | goalkeeping | 11 |
 | onboarding | 11 |
@@ -42,10 +43,10 @@ Distinct evidence records cited: **443**.
 | match | 10 |
 | social | 10 |
 | draft | 9 |
-| stadium | 9 |
 | coaching | 8 |
 | squad | 8 |
 | physio | 7 |
+| skillmoves | 7 |
 | difficulty | 6 |
 | monetization | 6 |
 | save | 6 |
@@ -71,6 +72,7 @@ Distinct evidence records cited: **443**.
 | formations | 2 |
 | licensing | 2 |
 | shooting | 2 |
+| sources | 2 |
 | anticheat | 1 |
 | benchmark | 1 |
 | bugs | 1 |
@@ -81,10 +83,10 @@ Distinct evidence records cited: **443**.
 | design | 1 |
 | docs | 1 |
 | exhibition | 1 |
+| negatives | 1 |
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
-| sources | 1 |
 | support | 1 |
 | tackling | 1 |
 | team | 1 |
@@ -464,6 +466,7 @@ Distinct evidence records cited: **443**.
 | CLAIM-169 | Single-player difficulty scales automatically with division progression; DLS25 introduced a manual base difficulty toggle (Easy/Medium/Hard). In DL... | Confirmed | unscoped | EV-264 |
 | CLAIM-170 | Official gems sources: league objectives, tournaments, Season Pass, Prize Ladder, Dream League Live participation + leaderboard placement; also pur... | Confirmed | unscoped | EV-265 |
 | CLAIM-171 | 'Super Players' are enhanced player types won in Events and occasionally in rarer packages; they have a low appearance frequency and display a grey... | Confirmed | unscoped | EV-266 |
+| CLAIM-1717 | playdreamleaguesoccer.com is REJECTED for the FOURTH time: it publishes 'Version 9.4.0 - May 2, 2026' for a game at v13.420, claims training raises... | Confirmed | sources/playdreamleaguesoccer-rejected-fourth-time | EV-480 |
 | CLAIM-172 | Save backup/restore/transfer is achieved by linking profile to 'Sign in with Google' or 'Sign in with Apple' (iOS 13+) via in-game Settings; this i... | Confirmed | unscoped | EV-268 |
 | CLAIM-173 | Coaches are divided into FOUR categories: Fitness (boosts SPE/ACC/STA/STR), Technical (boosts CON/PAS/SHO/TAC), Goalkeeping (boosts GKR/GKH), Speci... | Confirmed | unscoped | EV-274,EV-271 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
@@ -1053,6 +1056,18 @@ Distinct evidence records cited: **443**.
 | CLAIM-1695 | Coaches come in four categories (Technical, Fitness, Goalkeeping, Special) across three tiers (Common, Rare, Legendary); Common coaches boost a sin... | High Confidence | coaching/four-categories-and-tiers | EV-479 |
 | CLAIM-1696 | COACHES CAN BE HIRED BY RELEASING PLAYERS from your current squad - a gem-free route to coaches, on top of hiring them with gems. | High Confidence | coaching/hire-by-releasing-players | EV-479 |
 | CLAIM-1697 | DOCUMENTED NEGATIVE - DLS26 HAS NO DOCUMENTED SQUAD-CHEMISTRY SYSTEM. A targeted search returned only EA FC / FIFA chemistry models (the 33-point c... | High Confidence | chemistry/no-system-documented-negative | EV-479 |
+| CLAIM-1698 | THE COMPLETE DLS26 SKILL CATALOGUE WITH INPUTS: Rainbow Flick = swipe UP while running (lifts over a defender); Feint = swipe LEFT/RIGHT; Roulette ... | High Confidence | skillmoves/catalogue-basic-and-advanced | EV-480 |
+| CLAIM-1699 | THE THREE DLS25/26 SKILL ADDITIONS: CLOSE CONTROL = 'Tap and hold in empty space whilst in possession to activate CLOSE CONTROL for more controlled... | High Confidence | skillmoves/dls25-26-additions | EV-480 |
+| CLAIM-1700 | Skill moves are gated by the Control stat: the rainbow flick needs ball control ABOVE 80 and the roulette ABOVE 70, and a player without the requir... | High Confidence | skillmoves/control-stat-gates | EV-480 |
+| CLAIM-1702 | THE TRAINING PATHS ARE NAMED: Free Practice is at **My Club > Training > Free Practice**, and the **Advanced Tutorial** that 'tells you how to exec... | High Confidence | training/free-practice-and-advanced-tutorial | EV-480 |
+| CLAIM-1707 | THE THREE-KICK MAPPING (stated independently in two guides): LOW KICK = low, short, precise passes; HARD KICK = shots and long-range through balls;... | High Confidence | controls/three-kick-mapping | EV-480 |
+| CLAIM-1708 | The three action buttons are CONTEXT-DEPENDENT: in possession they pass, shoot and cross; out of possession the same three become press, tackle and... | High Confidence | controls/context-dependent-buttons-and-customisation | EV-480 |
+| CLAIM-1709 | Defending is 'timing and positioning rather than button spamming': hold the pressure button to apply pressure, switch players to stay tight, slide ... | High Confidence | controls/defensive-controls | EV-480 |
+| CLAIM-1710 | THE STADIUM'S SEVEN NAMED PITCH PATTERNS: Horizontal stripe, Vertical stripe, Check, Diagonal A, Diagonal B, Diamond, Circles. The pattern is expli... | High Confidence | stadium/seven-named-pitch-patterns | EV-480 |
+| CLAIM-1711 | THE STADIUM'S EIGHT NAMED SECTORS: North Stand, North East Stand, East Stand, South East Stand, South Stand, South West Stand, West Stand, North We... | High Confidence | stadium/eight-named-sectors | EV-480 |
+| CLAIM-1712 | Advertising boards run in every stadium sector except the corners and the players' entrance, and some stadium structures carry ZERO seats - they ad... | High Confidence | stadium/ad-boards-and-zero-seat-structures | EV-480 |
+| CLAIM-1713 | The Auto Build Capacity button lets you set an exact seat target and shapes the stadium automatically - the autobuild ceiling is 80,000 against a 9... | High Confidence | stadium/auto-build-capacity | EV-480 |
+| CLAIM-1716 | DOCUMENTED NEGATIVES: DLS26 has NO controller support on mobile, and there is NO gem-based injury healing - 'No gem healing - either wait it out or... | High Confidence | negatives/no-controller-no-gem-healing | EV-480 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1655,6 +1670,13 @@ Distinct evidence records cited: **443**.
 | CLAIM-1674 | Arsenal's DLS26 ratings (Dec 2025) as a worked rating snapshot: Saliba 84, Rice 84, Saka 84, Gabriel 84 (+1), Gyokeres 83, Raya 83, Timber 82 (+2),... | Community Consensus | patching/arsenal-ratings-example | EV-476 |
 | CLAIM-1681 | A working clan leader's method: fill the roster to cap quickly, adopt 'you get what you give', and prune hard - 'I'm actively kicking out anyone wh... | Community Consensus | clans/leader-pruning-method | EV-478 |
 | CLAIM-1687 | The Dynamic Stars upgrade path is corroborated a third time from the World Cup discussion thread: +1 OVR per Group Stage win, +2 for Round of 32 qu... | Community Consensus | events/dynamic-stars-path-third-source | EV-478 |
+| CLAIM-1701 | Further skill inputs: Lane Change = swipe left/right anywhere; the Volley = rainbow flick then, with the ball in the air, swipe toward goal; Stepov... | Community Consensus | skillmoves/further-inputs | EV-480 |
+| CLAIM-1703 | The training mode offers six modules: Free Training, Free Kick, Left Corner, Right Corner, Penalty and Penalty Save. | Community Consensus | training/six-modules | EV-480 |
+| CLAIM-1704 | SKILL-MOVE TECHNIQUE: 'Combine your swipe with your joystick... time it so that you flick your joystick and change the direction of the run WITH th... | Community Consensus | skillmoves/joystick-combination-technique | EV-480 |
+| CLAIM-1705 | Skill moves are most valuable 'when im actually past the defenders and 1 on 1 with the goalkeeper' - they give 'a bit of a speed boost' and more di... | Community Consensus | skillmoves/one-on-one-speed-boost | EV-480 |
+| CLAIM-1706 | DLS's skill-move set is deliberately SMALLER than FIFA's - a player arriving from FIFA notes 'Shame DLS doesn't have such options'. Do not expect F... | Community Consensus | skillmoves/smaller-than-fifa | EV-480 |
+| CLAIM-1714 | THE STADIUM IS MODULAR: FTG classifies stadium components in internally animal-codenamed asset folders, each an independent file of modular constru... | Community Consensus | stadium/modular-asset-architecture | EV-480 |
+| CLAIM-1715 | STADIUM BUILD ORDER: 'Don't build the roofs, just until you reach max spectators', and upgrade ONE stand at a time - 'if your whole stadium lvl is ... | Community Consensus | stadium/build-order-roofs-and-one-stand | EV-480 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

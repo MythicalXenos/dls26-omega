@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-141 — 1,693 claims / 381 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-142 — 1,713 claims / 382 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -645,6 +645,55 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 **THE VARIABLE THAT OUTRANKS THE SHAPE** [EV-464, C3 — and it is the official STA model from §4.2 arriving here]: *"Stamina depth beats formation, every time — a 4-3-3 with fresh legs at minute 70 beats a 'perfect' 4-2-3-1 with three players at low stamina."* **Rotation and fitness are tactical decisions, not chores.**
 
 **Pick one and learn it deeply rather than chasing the meta** — the record run to Tier 1 used a mostly common/rare squad. The conflict in miniature: two YouTube videos in the same spring assert opposite conclusions (4-3-3 in March, 4-4-2 in May).
+
+### 3.5 The control model and the complete skill catalogue [EV-480, C2]
+
+**The three action buttons are context-dependent** — in possession they **pass, shoot and cross**; out of possession the same three become **press, tackle and change-player**. The layout is customisable from the options menu (button size, movement-stick position), and **the shooting assistant can be disabled**.
+
+**The three kicks** (two independent sources agree):
+
+| Kick | Use |
+|---|---|
+| **Low Kick** | Low, short, precise passes |
+| **Hard Kick** | Shots and long-range through balls |
+| **Lofted Kick** | Long-ball passes and chipped goals |
+
+**The complete skill catalogue** — the corpus's first full input list:
+
+| Skill | Input | Use |
+|---|---|---|
+| **Rainbow Flick** | Swipe **UP** while running | Lift over a defender — needs **Control above 80** |
+| **Feint** | Swipe **LEFT/RIGHT** while running | Change direction |
+| **Roulette** | Swipe **DOWN** while running | Shield and turn — needs **Control above 70** |
+| **Bicycle Kick** | Double-tap **in the air** | Finish crosses |
+| **Scorpion Kick** | Double-tap in the air | Rare finish |
+| **Heading** | Double-tap **under the ball** | Headers and clears |
+| **Rabona** | Rainbow Flick → **B/C** | Fancy cross |
+| **Close Control** *(DLS25/26)* | **Tap and hold** in empty space while in possession | Tight dribbling — *"for more controlled dribbling"* (official) |
+| **Knock Ahead** *(DLS25/26)* | **Tap** while in possession | Fast breaks |
+| **Secondary Press** *(DLS25/26)* | **Tap and hold** while defending | Double press — corroborates §3.1's defending model |
+
+**Skill moves are gated by the Control stat** — below the threshold the player *"will just lose the ball."*
+
+**Where to learn them:** **My Club → Training → Free Practice**, and the **Advanced Tutorial** that teaches every skill sits inside the training mode from the club screen. The training mode offers six modules: **Free Training, Free Kick, Left Corner, Right Corner, Penalty, Penalty Save** (an era-stale source, but corroborated by the corner drill in §3.3).
+
+**Technique:** *"Combine your swipe with your joystick… time it so that you flick your joystick and change the direction of the run WITH the skill move"* — it raises the chance of losing the ball, but beats the defender outright when it lands. Skill moves pay most **in a one-on-one with the keeper**, where they give *"a bit of a speed boost"* and distance from recovering defenders.
+
+> **⚠️ DLS's skill set is deliberately SMALLER than FIFA's.** A player arriving from FIFA will look for elastico, trivela and the rest; they are not in this game. **Learn these ten and stop looking.**
+
+### 3.6 The stadium's design surface [EV-480, C2]
+
+Beyond the capacity ladder in §2, the stadium is a cosmetic sandbox:
+
+- **Seven named pitch patterns:** Horizontal stripe, Vertical stripe, Check, Diagonal A, Diagonal B, Diamond, Circles. **All cosmetic** — *"only a cosmetic upgrade."*
+- **Eight named sectors:** North, North East, East, South East, South, South West, West, North West Stand (2 Ends, 2 Sides, 4 Corners). **Seat colour follows the home kit.**
+- **Advertising boards** run in every sector except the corners and the players' entrance, and **some structures carry zero seats** — they add appearance, not capacity.
+- **Auto Build Capacity** sets an exact seat target and shapes the stadium automatically (ceiling 80,000 of a 90,456 maximum).
+- **The stadium is modular** — FTG's asset folders classify sides, corners and ends as independent packages, which is why the sector ladder behaves as it does.
+
+**Build order:** *"Don't build the roofs, just until you reach max spectators"*, and upgrade **one stand at a time** — levelling every stand together is more expensive.
+
+> **Documented negatives:** DLS26 has **no controller support** on mobile and **no gem-based injury healing** — *"wait it out or use medical staff."*
 
 ## 4. What NOT to do (dead ends, do not retry)
 
