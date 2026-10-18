@@ -1,24 +1,24 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T13:32:20Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2316**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 985 / Speculative 91 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **492**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T13:56:00Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2322**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 987 / Speculative 95 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **493**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 144 |
+| economy | 145 |
 | facilities | 115 |
-| dll | 95 |
+| dll | 96 |
 | gameplay | 83 |
 | transfers | 81 |
 | cards | 74 |
 | career | 70 |
 | clans | 67 |
-| errata | 63 |
+| errata | 64 |
 | setpieces | 61 |
-| controls | 59 |
+| controls | 60 |
 | coaching | 49 |
 | prizeladder | 48 |
 | patching | 47 |
@@ -41,10 +41,10 @@ Distinct evidence records cited: **492**.
 | matchcraft | 18 |
 | meta | 16 |
 | onboarding | 15 |
+| ui | 15 |
 | formboost | 13 |
 | negatives | 13 |
 | settings | 13 |
-| ui | 13 |
 | skillmoves | 11 |
 | difficulty | 10 |
 | draft | 10 |
@@ -2259,6 +2259,8 @@ Distinct evidence records cited: **492**.
 | CLAIM-2318 | THE SPECIAL-COACH COST, with the arithmetic: 'you'd have to finish career mode twice (excluding Weekly and Daily Challenge rewards) to get enough g... | Community Consensus | coaching/special-coach-cost-and-season-pass-route | EV-528 |
 | CLAIM-2319 | THE ACCOMMODATION 64-PLAYER FIGURE corroborated a third time, with a 5,000-gem estimate against the corpus's 4,125: 'Accommodation goes up to 64 pl... | Community Consensus | facilities/accommodation-64-third-source | EV-528 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
+| CLAIM-2321 | THE TIME-OF-DAY EFFECT: 'I have found I have more success in live **during the day with WiFi turned off**. The game is unplayable at night as every... | Community Consensus | dll/time-of-day-effect | EV-529 |
+| CLAIM-2322 | THE DLS25-TO-26 TRANSITION OBSERVATIONS, a first-hand account of what changed between builds: '**Just Hold C is now dead (hooray!)** · **It's harde... | Community Consensus | controls/a-button-charge-curve-changed | EV-529 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
 | CLAIM-234 | Transfer Market community-reported prices DLS26 (post-DLS25 price hike): 86 OVR (Rodri) ~2,725 coins; 82 OVR forward ~2,555 (pre-discount ~2,355); ... | Community Consensus | unscoped | EV-286 |
 | CLAIM-239 | New player starting balance: ~1,200 coins + 40 gems (community-reported). Limitations acknowledged: one elite player can cost 10x starter coins. | Community Consensus | unscoped | EV-288 |
@@ -2411,6 +2413,10 @@ Distinct evidence records cited: **492**.
 | CLAIM-2313 | THE 'TIER 1 CHAMPION' SUBREDDIT FLAIR is a community artifact, not an in-game rank name — recorded so it is not mistaken for a seventh LIVE rank ab... | Speculative | errata/tier-1-champion-flair-not-a-rank | EV-527 |
 | CLAIM-2314 | CLASSICS ARE POSITIONALLY FLEXIBLE: 'Petit played as a LB through his career as well so therefore he counts. Valverde is also currently playing as ... | Speculative | cards/classics-positionally-flexible | EV-527 |
 | CLAIM-2320 | THE 2,100-2,835 GEM SPECIAL-PLAYER MAX corroborated from a 2022 thread - 'It takes roughly 2100-2835 gems to max a special player, so please don't ... | Speculative | coaching/special-max-cost-four-year-stable | EV-528 |
+| CLAIM-2323 | A NEW REJECTION ITEM for playdreamleaguesoccer.com: it instructs players to '**Adjust in-game using the tactics menu**' to switch between 4-3-3 and... | Speculative | errata/playdream-in-game-formation-switch | EV-529 |
+| CLAIM-2324 | A NAVIGATION DISCREPANCY on the Daily Challenges: one source places them behind a **Calendar icon in the main menu**, while others place them at th... | Speculative | ui/daily-challenges-location-discrepancy | EV-529 |
+| CLAIM-2325 | THE SEASONAL OBJECTIVES RENAME: '**Seasonal Objectives has been renamed and is now merged in a convenient interface with other Challenges**' — a UI... | Speculative | ui/seasonal-objectives-merged | EV-529 |
+| CLAIM-2326 | A SECOND DATA POINT on the Career DP breakdown: **75 DP per win · 10 per goal up to 5 · 15 for a clean sheet** — against the corpus's 65-per-Career... | Speculative | economy/career-dp-breakdown-second-source | EV-529 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |
