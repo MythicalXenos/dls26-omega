@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-143 — 1,727 claims / 383 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-144 — 1,742 claims / 384 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -703,7 +703,32 @@ FTG's own wording adds *"(please seek the bill payer's permission)"* before the 
 
 **Bank Common coaches.** Community advice is explicit: *"do not waste gems on agents and coins on scouts"*, and *"save coaches even commons because the next promo will probably be good."* The Training facility *"will save gems after 20 uses"* — the same conclusion the corpus reached from the cost ladder.
 
-### 3.7 The stadium's design surface [EV-480, C2]
+### 3.7 The customisation layer, and the wages negative [EV-482, C1/C2]
+
+Everything cosmetic sits at **My Club → Customise**, across five tabs — **Kit, Logo, Team Name, Players, Manager** — with the buttons named **CUSTOM LOGO** and **CUSTOM KIT**.
+
+**The official 11-layer kit template map** [EV-482, C1] — the fact that makes custom kits work:
+
+| Layer | Region | Layer | Region |
+|---|---|---|---|
+| 1 | Shirt body | 7 | League badge |
+| 2 | Sleeves (short) | 8 | Kit logo |
+| 3 | Sleeves (long) | 9 | Shirt number colour |
+| 4 | Socks | 10 | Short number colour |
+| 5 | Shorts | 11 | Shirt collar |
+| 6 | Club badge | | |
+
+> **⚠️ "The logos are added to the shirt from the .png, and if none are specified then none will display."** A kit whose badge region is empty shows **no badge** — this is the single most common custom-kit failure, and it is why a downloaded kit can look wrong even when the colours are right.
+
+**The import rules:** PNG only, **512×512**, **transparent background** (a JPEG loses the alpha channel and the badge edges and sleeve cutouts break), and **layers stay separate** — front, back, sleeves, shorts and socks are discrete assets, so a merged full-body PNG *"will misalign or crop unpredictably."* The image must follow the official template layout; smaller looks pixelated, larger may be auto-resized and blurred.
+
+**The workflow** [C3]: take a kit, paste the logo on with any image app, host the PNG anywhere public, and paste the **direct URL** into the game. DLS fetches by URL and wants a direct PNG link, not a download page.
+
+**Four kits** — home, away, third, goalkeeper — with a pattern vocabulary of **none, sides, halves, stripes, hoops** (3–30 stripes). **Manager customisation** is cosmetic: hairstyles, outfits and accessories, with the North American themed **Manager Accessories** arriving in Summer Spotlight. **Licensed club kits update with the real season** — August 2026 brought the official 2026/27 designs.
+
+> **⚠️ DLS26 HAS NO WAGE SYSTEM** [EV-482, C2 — documented negative]. No source documents wages, salaries, a wage bill, or contract renewal costs; the only wage-adjacent hit on the open web is a rant about the game's own price. **A player arriving from FIFA will hunt for a wage bill that does not exist — there is nothing to balance.**
+
+### 3.8 The stadium's design surface [EV-480, C2]
 
 Beyond the capacity ladder in §2, the stadium is a cosmetic sandbox:
 

@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-143 — 1,727 claims / 383 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-144 — 1,742 claims / 384 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -47,6 +47,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 |---|---|---|---|
 | 0.1 | Claim the starter grant | **1,500 coins + 75 gems** | EV-441 |
 | 0.2 | Set the manager name, club name, kit and logo (kit import is **150 gems** and **512×512 px** max — do it only if you have a real kit) | cosmetic | EV-437 |
+| 0.2b | **Customisation lives at My Club → Customise**, with five tabs: **Kit, Logo, Team Name, Players, Manager** [EV-482, C2] | cosmetic | EV-482 |
 | 0.3 | **Pick your best attacker as captain** — it boosts team rating, which improves who appears in the market | rating | EV-441 |
 | 0.4 | Confirm you are NOT connected to Facebook (save-tampering does not work when cloud-linked) | — | EV-439 |
 
@@ -442,6 +443,16 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Side B (DLS26, Aug 2026):** *"where are the offside traps, high lines, attacking shape...?"* and *"defenders refuse to hold their line."*
 - **Status: OPEN (C-029), version-drift likely.** Until tested, **defend with a controlled line, not a high one** — the §3.1 rule "never push defenders forward" already assumes the trap is unreliable.
 - **New control detail:** double-tap clears the ball while defending; **C** is the player-switch button.
+
+### 3.11 The customisation layer, and the wages negative [EV-482, C1/C2]
+
+- **All customisation is at My Club → Customise** — five tabs: **Kit, Logo, Team Name, Players, Manager**. The buttons are **CUSTOM LOGO** and **CUSTOM KIT**.
+- **THE OFFICIAL 11-LAYER KIT TEMPLATE MAP** [C1]: 1 shirt body · 2 sleeves short · 3 sleeves long · 4 socks · 5 shorts · 6 club badge · 7 league badge · 8 kit logo · 9 shirt number colour · 10 short number colour · 11 shirt collar. **A logo absent from the PNG displays nothing** — the most common custom-kit failure.
+- **Import rules** [C2]: PNG only, **512×512**, **transparent background** (JPEGs lose the alpha channel), and **layers stay separate** — front, back, sleeves, shorts and socks are discrete assets, so a merged full-body PNG misaligns. Must follow the official template layout; smaller looks pixelated, larger may be blurred.
+- **Workflow** [C3]: take a kit, paste the logo on with an image app, host the PNG, paste the **direct public URL** into the game.
+- **Four kits:** home, away, third, goalkeeper. **Pattern vocabulary:** none, sides, halves, stripes, hoops (3–30).
+- **Manager customisation** is cosmetic — hairstyles, outfits, accessories (the North American themed Manager Accessories arrived in Summer Spotlight). **Licensed club kits update with the real season** (August 2026 = 2026/27 designs).
+- **⚠️ DLS26 HAS NO WAGE SYSTEM** [C2 — documented negative]. No source documents wages, salaries, a wage bill, or contract renewal costs. **A FIFA arrival will look for a wage bill that does not exist.**
 
 ---
 

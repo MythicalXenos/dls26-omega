@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:07:21Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1727**
-Distribution: Confirmed 380 / High Confidence 745 / Community Consensus 567 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **445**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:09:59Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1742**
+Distribution: Confirmed 382 / High Confidence 755 / Community Consensus 569 / Speculative 35 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **446**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -13,7 +13,7 @@ Distinct evidence records cited: **445**.
 | dll | 63 |
 | clans | 56 |
 | gameplay | 56 |
-| cards | 54 |
+| cards | 55 |
 | transfers | 49 |
 | career | 48 |
 | training | 40 |
@@ -26,8 +26,8 @@ Distinct evidence records cited: **445**.
 | attributes | 34 |
 | platform | 30 |
 | customization | 29 |
+| events | 25 |
 | errata | 24 |
-| events | 24 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
@@ -35,6 +35,7 @@ Distinct evidence records cited: **445**.
 | tactics | 16 |
 | achievements | 15 |
 | stadium | 15 |
+| customisation | 13 |
 | formboost | 12 |
 | goalkeeping | 11 |
 | onboarding | 11 |
@@ -72,6 +73,7 @@ Distinct evidence records cited: **445**.
 | formations | 2 |
 | licensing | 2 |
 | matchcraft | 2 |
+| negatives | 2 |
 | shooting | 2 |
 | sources | 2 |
 | anticheat | 1 |
@@ -80,12 +82,10 @@ Distinct evidence records cited: **445**.
 | classics | 1 |
 | commercial | 1 |
 | complaints | 1 |
-| customisation | 1 |
 | defending | 1 |
 | design | 1 |
 | docs | 1 |
 | exhibition | 1 |
-| negatives | 1 |
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
@@ -472,6 +472,8 @@ Distinct evidence records cited: **445**.
 | CLAIM-1718 | OFFICIAL GEM-SOURCE LIST: gems come from completing league objectives, completing tournaments, the Season Pass, the Prize Ladder, and participating... | Confirmed | economy/official-gem-sources | EV-481 |
 | CLAIM-172 | Save backup/restore/transfer is achieved by linking profile to 'Sign in with Google' or 'Sign in with Apple' (iOS 13+) via in-game Settings; this i... | Confirmed | unscoped | EV-268 |
 | CLAIM-173 | Coaches are divided into FOUR categories: Fitness (boosts SPE/ACC/STA/STR), Technical (boosts CON/PAS/SHO/TAC), Goalkeeping (boosts GKR/GKH), Speci... | Confirmed | unscoped | EV-274,EV-271 |
+| CLAIM-1733 | THE OFFICIAL 11-LAYER KIT TEMPLATE MAP: 1 = shirt body, 2 = shirt sleeves short, 3 = shirt sleeves long, 4 = socks, 5 = shorts, 6 = club badge, 7 =... | Confirmed | customisation/official-11-layer-template-map | EV-482 |
+| CLAIM-1734 | CRITICAL KIT RULE: 'The logos are added to the shirt from the .png, and if none are specified then none will display' - a kit whose badge region is... | Confirmed | customisation/empty-badge-region-shows-nothing | EV-482 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
 | CLAIM-202 | Squad size evolution: DLS25 increased squad from 40→64 players (Dec 2024 press release). DLS26 launches with 64-player base; Summer Spotlight remov... | Confirmed | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-204 | DLS25 major features (5 Dec 2024 launch): Classic Players returning (opening set World Cup 1998 Classics); Portuguese commentary (third language; S... | Confirmed | unscoped | EV-280 |
@@ -1077,6 +1079,16 @@ Distinct evidence records cited: **445**.
 | CLAIM-1726 | DREAM DRAFT COSTS COINS: 'For Dream Points... do Dream Drafts. But NEVER for coins. Dream Drafts make you lose coins but gain gems and Dream Points.' | High Confidence | draft/draft-costs-coins | EV-481 |
 | CLAIM-1729 | THE KIT-IMPORT SPEC: community kits are optimised at 512x512 PNG, supplied as shirt, shorts and socks in Home, Away and Third versions, plus Goalke... | High Confidence | customisation/kit-import-spec | EV-481 |
 | CLAIM-1731 | Daily login bonuses refresh every 20 days - miss a day inside the cycle and the reward cycle restarts from day one. | High Confidence | economy/login-bonus-20-day-cycle | EV-481 |
+| CLAIM-1732 | All club customisation sits at **My Club > Customise**, with five navigation tabs: **Kit, Logo, Team Name, Players and Manager**. The buttons are n... | High Confidence | customisation/screen-structure | EV-482 |
+| CLAIM-1735 | KIT IMPORT TECHNICAL RULES: PNG only, 512x512 pixels, transparent background required ('JPEGs lose alpha channels needed for clean badge edges and ... | High Confidence | customisation/import-technical-rules | EV-482 |
+| CLAIM-1736 | The kit image must follow the official template layout to map correctly; anything smaller than 512x512 looks pixelated and larger files may be auto... | High Confidence | customisation/template-layout-and-scaling | EV-482 |
+| CLAIM-1738 | The in-game kit editor controls shirt, shorts and socks separately, with colour tabs **Primary, Secondary, Sponsor, Trim and Shirt Number**, each i... | High Confidence | customisation/kit-editor-colour-tabs | EV-482 |
+| CLAIM-1739 | The logo import follows the SAME unlock as custom kits and can alternatively use pre-designed templates; custom logos are supported up to 512x512. | High Confidence | customisation/logo-import-same-unlock | EV-482 |
+| CLAIM-1740 | DLS26 supports FOUR kits: home, away, third and goalkeeper. | High Confidence | customisation/four-kits | EV-482 |
+| CLAIM-1742 | MANAGER CUSTOMISATION is cosmetic: hairstyles, outfits and accessories, with a manager avatar built from physical features, outfits and accessories... | High Confidence | customisation/manager-customisation | EV-482 |
+| CLAIM-1743 | LICENSED CLUB KITS UPDATE WITH THE REAL SEASON: the August 2026 update brought official 2026/27 home, away and third kit designs plus updated sleev... | High Confidence | customisation/licensed-kits-update-with-season | EV-482 |
+| CLAIM-1744 | The 2026 update chronology: July (Summer Spotlight) introduced Dynamic Stars, the Fanzone, the World Tournament event type, manager accessories and... | High Confidence | events/2026-update-chronology | EV-482 |
+| CLAIM-1745 | DOCUMENTED NEGATIVE - **DLS26 HAS NO WAGE SYSTEM.** A targeted search for wages returned nothing: no source documents wages, salaries, a wage bill,... | High Confidence | negatives/no-wage-system | EV-482 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1693,7 +1705,9 @@ Distinct evidence records cited: **445**.
 | CLAIM-1727 | GEM-EFFICIENCY: bank agents and scouts earned from events rather than buying them - 'do not waste gems on agents and coins on scouts' - and SAVE CO... | Community Consensus | economy/bank-common-coaches | EV-481 |
 | CLAIM-1728 | The Training facility 'will save gems after 20 uses' - corroborating Training L4 as the best gem in the game. | Community Consensus | facilities/training-pays-back-after-20-uses | EV-481 |
 | CLAIM-1730 | The starter grant is reported as 'around 1200 coins and 40 gems' by two sources and as '75 Free Gems' by a third. The 1,200c/40g pair was previousl... | Community Consensus | economy/starter-grant-conflicting | EV-481 |
+| CLAIM-1737 | THE PRACTICAL IMPORT WORKFLOW: take a kit from the internet, paste the logo on with an image app (picsart, ibispaint), upload the PNG to any image ... | Community Consensus | customisation/import-workflow | EV-482 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
+| CLAIM-1741 | The legacy text-format kit spec names the pattern vocabulary: Pattern Type = **none, sides, halves, stripes, hoops**, with 3-30 stripes or hoops, p... | Community Consensus | customisation/pattern-vocabulary | EV-482 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
 | CLAIM-180 | Daily Scenarios mode places player in a comeback situation vs Hard AI; completion rewards 50 coins per day; scenario resets daily. | Community Consensus | unscoped | EV-270 |
@@ -1818,6 +1832,7 @@ Distinct evidence records cited: **445**.
 | CLAIM-1240 | LEAD: upcoming Prize Ladder players reportedly include Roy Keane (rating and year unrevealed), Irvin at 85 (year unrevealed), Conor Gallagher and P... | Speculative | prizeladder/cult-heroes-lead | EV-429 |
 | CLAIM-1290 | The named LIVE ranks most plausibly map onto the lowest six tiers of the 20-to-1 numeric ladder, with tiers above Veteran identified only by number. | Speculative | dll/rank-name-mapping-hypothesis | EV-435 |
 | CLAIM-1375 | SPECULATIVE: a community method claims that renaming your manager to the target player's name and matching your manager nationality to theirs (or r... | Speculative | errata/manager-name-method-speculative | EV-442 |
+| CLAIM-1746 | Champion Cards are reported at 88 (Messi) and 89 (Ronaldo), and one player's card 'got maxed at just 94 instead of the usual 95' - suggesting speci... | Speculative | cards/champion-card-figures | EV-482 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
