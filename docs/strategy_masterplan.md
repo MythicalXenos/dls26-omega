@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-103 (`19b0605`) — 1,412 claims / 348 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-104 (`3ad2ccf`) — 1,412 claims / 348 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -118,7 +118,7 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 
 **The counter-intuitive early rule** [EV-441, C2]: **do NOT buy legendary players early.** Buying them raises your team rating, and a higher rating makes the *cheap* players disappear from the market — which kills the coach-farming loop that actually builds your squad. Buy one or two fast common or rare players to win games, and only start buy-sell cycling once the stadium is maxed. Also pick the **best attacker as captain**: it boosts team rating, which improves who appears in the market.
 
-### PHASE 3.5 — Transfer market mechanics [EV-442, C2/C3]
+### PHASE 3.1 — Transfer market mechanics [EV-442, C2/C3]
 
 This is the most operationally important layer in the game, and almost every guide gets it wrong.
 
@@ -150,7 +150,7 @@ This is the most operationally important layer in the game, and almost every gui
 - **Release yields coaches, not coins** — this *is* the coach-farming loop.
 - **Ignore the "rename your manager" trick.** One thread claims renaming your manager and nationality to a target player's makes them appear in 20–40 matches; the poster themselves states some say it works and others that it doesn't. **Speculative (C4) — do not plan around it.**
 
-### PHASE 3.5 — Dream Draft (a gem engine, not a squad builder) [EV-440, C3]
+### PHASE 3.2 — Dream Draft (a gem engine, not a squad builder) [EV-440, C3]
 
 | Mechanic | Detail |
 |---|---|
@@ -335,6 +335,16 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 
 **Skill moves are swipe gestures, not buttons** — and whether the move executes depends on the player's **Ball Control** stat plus the engine's decision [EV-441, C2]. A high-CON player is worth more for this alone.
 
+### 3.2 Injury and healing economics [EV-437, C2/C3]
+
+- **Gem-to-games conversion:** 35 gems = 7 games out · 25 gems = 5 · 10 gems = 2 · 5 gems = 1.
+- **Physio tiers:** Common +10% energy / ~50 coins · Rare +20% / ~100 coins · **Legendary +50% and heals ALL injuries / 150 coins with maxed facilities, 250 otherwise**.
+- A **mid-game Team Boost** and a **post-match Team Physio** both restore 10% stamina; individual healing costs ~2–4 coins per player.
+- **Maxed Medical Centre** makes physio trips "super cheap" — effectively endless playtime.
+- Injuries last **3–10 games**; a **Fitness coach** can also help heal an injured player [C3].
+
+---
+
 ### 3.3 Set pieces — the highest-percentage scoring in the game [EV-444, C2/C3]
 
 > **Corners are the most reliable goal source in DLS26.** A December 2025 post: *"Corners are way too easy to score now. If your opponent in DLL gets one, it's almost guaranteed that you concede."* Penalties, by contrast, are described as rigged.
@@ -379,16 +389,6 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 **Formation meta is genuinely unsettled** (C-014 stays open by design): 4-4-2 for balance (LM/RM as wingers, full-backs supporting both phases); 4-1-2-1-2 and 4-1-3-2 favoured by the tier-1 guides; 4-3-3 and 3-4-1-2 pushed by sportsdunia. **Pick one and learn it deeply rather than chasing the meta** — the record run used a mostly common/rare squad.
 
-### 3.2 Injury and healing economics [EV-437, C2/C3]
-
-- **Gem-to-games conversion:** 35 gems = 7 games out · 25 gems = 5 · 10 gems = 2 · 5 gems = 1.
-- **Physio tiers:** Common +10% energy / ~50 coins · Rare +20% / ~100 coins · **Legendary +50% and heals ALL injuries / 150 coins with maxed facilities, 250 otherwise**.
-- A **mid-game Team Boost** and a **post-match Team Physio** both restore 10% stamina; individual healing costs ~2–4 coins per player.
-- **Maxed Medical Centre** makes physio trips "super cheap" — effectively endless playtime.
-- Injuries last **3–10 games**; a **Fitness coach** can also help heal an injured player [C3].
-
----
-
 ## 4. What NOT to do (dead ends, do not retry)
 
 | Trap | Why |
@@ -410,7 +410,7 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 ---
 
-## 4.9 DLS26-specific modes worth watching [EV-446, C1]
+## 5. DLS26-specific modes worth watching [EV-446, C1]
 
 | Mode | What it is | Why it matters |
 |---|---|---|
@@ -424,7 +424,7 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 ---
 
-## 5. Open gaps that still bound the plan
+## 6. Open gaps that still bound the plan
 
 These are unresolved and each one caps precision. They are ranked by impact on the mission.
 
@@ -448,7 +448,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 
 ---
 
-## 6. The one-page routine
+## 7. The one-page routine
 
 **Daily (≈45–60 min):**
 1. Season Pass login (+40 SP) and daily challenges (5–11 gems)
@@ -497,7 +497,7 @@ Two hard thresholds: **DLL pays gems for a season finish with a minimum of 14 po
 
 ---
 
-## 7. Success criteria
+## 8. Success criteria
 
 | Milestone | Metric | Evidence-based expectation |
 |---|---|---|
@@ -513,4 +513,4 @@ Two hard thresholds: **DLL pays gems for a season finish with a minimum of 14 po
 
 ---
 
-*End of masterplan. All figures traceable to `kb/claims.jsonl` and `docs/continuity/a7e23a6b/evidence/index.jsonl` at ckpt-089.*
+*End of masterplan. All figures traceable to `kb/claims.jsonl` and `docs/continuity/a7e23a6b/evidence/index.jsonl` at ckpt-104.*
