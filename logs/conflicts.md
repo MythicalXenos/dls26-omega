@@ -247,3 +247,20 @@ So Source A was showing post-boost/in-game OVR, Source B was showing the event-b
 **Consequence:** the provisional both/and resolution is now grounded in the official model rather than in community opinion. Coaching implication: a fast spine with a technical core is the *correct* build under the official model - SPE/ACC for the chase, CON to keep the speed while dribbling, PAS/TAC/STR to win the possession actions that decide the game. The x2 STR/CON weighting survives; the "speed is everything, tackling is worthless" rule does not survive as stated, because TAC sets tackle *reach* and the catch-up problem is ACC. **Verify in Exhibition before committing a coaching plan** remains in force because the community reports describe the *current build's tuning*, which the official article does not quantify.
 
 
+
+---
+
+## C-028 — The premium currency's name: gems vs "diamonds" vs "crystals"
+
+- **Side A — two currencies only, COINS and GEMS:** the official FTG support portal names exactly these two. *"Gems can be obtained by completing league objectives, completing tournaments, through the Season Pass and Prize Ladder and by participating in Multiplayer (Dream League Live) mode."* [EV-481, C1]. The official coin list (EV-462) likewise names coins and gems only.
+- **Side B — "diamonds":** a Bluestacks custom-kit guide states the kit unlock is *"a one-time purchase costing 300 Diamonds, which is the premium currency in Dream League Soccer 2026."* This is the **same source as Side B of C-012** (the rejected 300 figure). Every other "diamonds" source is a scam, hack or generator site (appspatched, tophackjeux, gtrmod) — none of which is a legitimate research route.
+- **Side C — "crystals":** appears exactly once, as *"150 crystals"* in the original Season Pass reward list (EV-472). No other source uses the word.
+- **Status:** **substantially RESOLVED in favour of Side A.** FTG names two currencies; "diamonds" is a third-party misnomer for gems, and its only non-scam source is the one already rejected in C-012. **"Crystals" remains OPEN** — it is either an informal name for gems in that one Reddit post, or a separate rarer currency. **Do not plan on a third currency.**
+- **May say meanwhile:** *"There are two currencies: coins and gems. Ignore any guide that mentions diamonds — those are scam sites or one discredited guide. Crystals appear once in a Season Pass reward list and are unverified."*
+
+## C-029 — Does the offside trap still work in DLS26?
+
+- **Side A — it works (DLS24, Dec 2023):** *"with the new team press move you are able to do offside traps when opposing players cross the ball from side to side... if you control the CB you can use team press to move the defensive line up to force an Offside"*, with the added tactic of switching to a wing-back so it rises with the line [EV-481, C3].
+- **Side B — it is missing (DLS26, Aug 2026):** a suggestion thread asks *"where are the offside traps, high lines, attacking shape, and any kind of tactical transition when you lose possession?"* and complains *"defenders refuse to hold their line"* [EV-481, C3].
+- **Status:** **OPEN, and version-drift is the likely explanation.** Side A describes DLS24 behaviour; Side B is a DLS26 complaint. **Testable in Exhibition in ten minutes** — set a high line, force a through ball, and see whether the flag comes.
+- **May say meanwhile:** *"The offside trap is documented in DLS24 and reported broken in DLS26. Until you have tested it, defend with a controlled line rather than a high one — the corpus's 'never push defenders forward' rule already assumes the trap is unreliable."*

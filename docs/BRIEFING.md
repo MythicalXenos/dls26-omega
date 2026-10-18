@@ -30,7 +30,7 @@
 
 ## 3. What the sweep closed, and how
 
-Twenty-four of the corpus's open gaps were closed during the turn-35 sweep, and **the single most productive discovery was that the official FTG support portal is fully readable** — it produced the stat model, the coin list, the account rules, the Season Pass rules, the player-acquisition routes and the leaderboard cadence, several of which are the only Confirmed-tier sources in the corpus.
+Twenty-six of the corpus's open gaps were closed during the turn-35 sweep, and **the single most productive discovery was that the official FTG support portal is fully readable** — it produced the stat model, the coin list, the account rules, the Season Pass rules, the player-acquisition routes and the leaderboard cadence, several of which are the only Confirmed-tier sources in the corpus.
 
 **Late additions:** the clan system's operational picture (the 350k cap's precise semantics — it caps your contribution to the clan total, so beyond it points only rank you in-clan; clan-internal matches pay points; the leader appoints a vice-captain; an active clan supplies level-appropriate opponents, so **clan choice is a competitive decision**), the Career cup ladder (Legendary Division → International Cup → Allstar Cup → Diamond Cup), the new **World Tournament** event type, and the Prize Ladder's named current Classic roster (the Italian League Classics: Trezeguet, Batistuta, Crespo, Desailly). Special cards never count against the 64-player squad cap.
 
@@ -58,6 +58,8 @@ Everything below requires **device inspection** or a decision only First Touch c
 | Medical and Commercial level counts | The 75 × N pattern is inferred from Training and Accommodation |
 | Whether through balls still work in the current build | A May 2026 guide conflicts with the DLS26 gameplay-shift finding — **testable in Exhibition** |
 | Whether the secondary press is still usable | The DLS26 update nerfed it — **testable in Exhibition** |
+| Whether the offside trap still works | Documented in DLS24, reported missing in DLS26 — **testable in Exhibition** (C-029) |
+| Whether "crystals" are a third currency | They appear once, in a Season Pass reward list. Only **coins and gems** are official — plan on two (C-028) |
 
 ---
 

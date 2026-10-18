@@ -1,15 +1,15 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:04:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1713**
-Distribution: Confirmed 379 / High Confidence 739 / Community Consensus 560 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **444**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:07:21Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1727**
+Distribution: Confirmed 380 / High Confidence 745 / Community Consensus 567 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **445**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 115 |
-| facilities | 90 |
+| economy | 121 |
+| facilities | 93 |
 | dll | 63 |
 | clans | 56 |
 | gameplay | 56 |
@@ -17,8 +17,8 @@ Distinct evidence records cited: **444**.
 | transfers | 49 |
 | career | 48 |
 | training | 40 |
+| controls | 39 |
 | setpieces | 39 |
-| controls | 38 |
 | cups | 38 |
 | coaches | 37 |
 | patching | 37 |
@@ -40,9 +40,9 @@ Distinct evidence records cited: **444**.
 | onboarding | 11 |
 | ui | 11 |
 | account | 10 |
+| draft | 10 |
 | match | 10 |
 | social | 10 |
-| draft | 9 |
 | coaching | 8 |
 | squad | 8 |
 | physio | 7 |
@@ -71,6 +71,7 @@ Distinct evidence records cited: **444**.
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
+| matchcraft | 2 |
 | shooting | 2 |
 | sources | 2 |
 | anticheat | 1 |
@@ -79,6 +80,7 @@ Distinct evidence records cited: **444**.
 | classics | 1 |
 | commercial | 1 |
 | complaints | 1 |
+| customisation | 1 |
 | defending | 1 |
 | design | 1 |
 | docs | 1 |
@@ -467,6 +469,7 @@ Distinct evidence records cited: **444**.
 | CLAIM-170 | Official gems sources: league objectives, tournaments, Season Pass, Prize Ladder, Dream League Live participation + leaderboard placement; also pur... | Confirmed | unscoped | EV-265 |
 | CLAIM-171 | 'Super Players' are enhanced player types won in Events and occasionally in rarer packages; they have a low appearance frequency and display a grey... | Confirmed | unscoped | EV-266 |
 | CLAIM-1717 | playdreamleaguesoccer.com is REJECTED for the FOURTH time: it publishes 'Version 9.4.0 - May 2, 2026' for a game at v13.420, claims training raises... | Confirmed | sources/playdreamleaguesoccer-rejected-fourth-time | EV-480 |
+| CLAIM-1718 | OFFICIAL GEM-SOURCE LIST: gems come from completing league objectives, completing tournaments, the Season Pass, the Prize Ladder, and participating... | Confirmed | economy/official-gem-sources | EV-481 |
 | CLAIM-172 | Save backup/restore/transfer is achieved by linking profile to 'Sign in with Google' or 'Sign in with Apple' (iOS 13+) via in-game Settings; this i... | Confirmed | unscoped | EV-268 |
 | CLAIM-173 | Coaches are divided into FOUR categories: Fitness (boosts SPE/ACC/STA/STR), Technical (boosts CON/PAS/SHO/TAC), Goalkeeping (boosts GKR/GKH), Speci... | Confirmed | unscoped | EV-274,EV-271 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
@@ -1068,6 +1071,12 @@ Distinct evidence records cited: **444**.
 | CLAIM-1712 | Advertising boards run in every stadium sector except the corners and the players' entrance, and some stadium structures carry ZERO seats - they ad... | High Confidence | stadium/ad-boards-and-zero-seat-structures | EV-480 |
 | CLAIM-1713 | The Auto Build Capacity button lets you set an exact seat target and shapes the stadium automatically - the autobuild ceiling is 80,000 against a 9... | High Confidence | stadium/auto-build-capacity | EV-480 |
 | CLAIM-1716 | DOCUMENTED NEGATIVES: DLS26 has NO controller support on mobile, and there is NO gem-based injury healing - 'No gem healing - either wait it out or... | High Confidence | negatives/no-controller-no-gem-healing | EV-480 |
+| CLAIM-1719 | C-028 OPENED - THE CURRENCY NAMES CONFLICT. FTG names exactly two currencies, COINS and GEMS. A kit guide claims the custom-kit unlock costs '300 D... | High Confidence | economy/currency-naming-conflict | EV-481 |
+| CLAIM-1720 | THE COMMERCIAL FACILITY'S REAL BENEFIT: a 5-star Commercial upgrade earns match-winning bonuses plus KIT DISCOUNTS and LOGO DISCOUNTS - Commercial ... | High Confidence | facilities/commercial-kit-and-logo-discounts | EV-481 |
+| CLAIM-1722 | THE MATCH-OBJECTIVE SYSTEM: three objectives arrive before each match (for example 'score in the first half' or 'receive a limited number of goals'... | High Confidence | economy/three-pre-match-objectives | EV-481 |
+| CLAIM-1726 | DREAM DRAFT COSTS COINS: 'For Dream Points... do Dream Drafts. But NEVER for coins. Dream Drafts make you lose coins but gain gems and Dream Points.' | High Confidence | draft/draft-costs-coins | EV-481 |
+| CLAIM-1729 | THE KIT-IMPORT SPEC: community kits are optimised at 512x512 PNG, supplied as shirt, shorts and socks in Home, Away and Third versions, plus Goalke... | High Confidence | customisation/kit-import-spec | EV-481 |
+| CLAIM-1731 | Daily login bonuses refresh every 20 days - miss a day inside the cycle and the reward cycle restarts from day one. | High Confidence | economy/login-bonus-20-day-cycle | EV-481 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1677,6 +1686,13 @@ Distinct evidence records cited: **444**.
 | CLAIM-1706 | DLS's skill-move set is deliberately SMALLER than FIFA's - a player arriving from FIFA notes 'Shame DLS doesn't have such options'. Do not expect F... | Community Consensus | skillmoves/smaller-than-fifa | EV-480 |
 | CLAIM-1714 | THE STADIUM IS MODULAR: FTG classifies stadium components in internally animal-codenamed asset folders, each an independent file of modular constru... | Community Consensus | stadium/modular-asset-architecture | EV-480 |
 | CLAIM-1715 | STADIUM BUILD ORDER: 'Don't build the roofs, just until you reach max spectators', and upgrade ONE stand at a time - 'if your whole stadium lvl is ... | Community Consensus | stadium/build-order-roofs-and-one-stand | EV-480 |
+| CLAIM-1721 | One guide advises spending 'your first 75 Gems' on the Commercial centre's second tier - which conflicts with the corpus's community priority of Tr... | Community Consensus | facilities/commercial-first-advice-conflicts | EV-481 |
+| CLAIM-1723 | THE OFFSIDE TRAP IS DOCUMENTED AS WORKING IN DLS24: 'with the new team press move you are able to do offside traps when opposing players cross the ... | Community Consensus | matchcraft/offside-trap-via-team-press | EV-481 |
+| CLAIM-1724 | CONFLICT - THE OFFSIDE TRAP MAY BE GONE IN DLS26: an August 2026 thread asks 'where are the offside traps, high lines, attacking shape, and any kin... | Community Consensus | matchcraft/offside-trap-reported-missing | EV-481 |
+| CLAIM-1725 | NEW CONTROL DETAIL: double-tapping clears the ball while defending, and C remains the player-switch button ('you have to keep tapping C just to get... | Community Consensus | controls/double-tap-clear-and-c-switch | EV-481 |
+| CLAIM-1727 | GEM-EFFICIENCY: bank agents and scouts earned from events rather than buying them - 'do not waste gems on agents and coins on scouts' - and SAVE CO... | Community Consensus | economy/bank-common-coaches | EV-481 |
+| CLAIM-1728 | The Training facility 'will save gems after 20 uses' - corroborating Training L4 as the best gem in the game. | Community Consensus | facilities/training-pays-back-after-20-uses | EV-481 |
+| CLAIM-1730 | The starter grant is reported as 'around 1200 coins and 40 gems' by two sources and as '75 Free Gems' by a third. The 1,200c/40g pair was previousl... | Community Consensus | economy/starter-grant-conflicting | EV-481 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

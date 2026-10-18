@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-142 — 1,713 claims / 382 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-143 — 1,727 claims / 383 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -426,6 +426,22 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Auto Build Capacity** sets an exact seat target (ceiling 80,000 of 90,456 max).
 - **Build order:** *"Don't build the roofs, just until you reach max spectators"*; upgrade **one stand at a time** — levelling every stand together costs more.
 - **Negatives:** no controller support on mobile; no gem-based injury healing (*"wait it out or use medical staff"*).
+
+### 3.9 Economy mechanics [EV-481, C1/C2/C3]
+
+- **OFFICIAL gem sources** [C1]: league objectives · tournaments · Season Pass · Prize Ladder · Dream League Live. FTG adds *"(please seek the bill payer's permission)"* — **if someone else pays for the account, ask before buying.**
+- **⚠️ TWO CURRENCIES ONLY: coins and gems** [C1/C2]. "Diamonds" appears only on scam sites and one discredited guide (the same one rejected in C-012); "crystals" appears once and is unverified. **Do not plan on a third currency.** (C-028)
+- **Three objectives arrive before every match** and each pays coins — read them before kick-off.
+- **Commercial is the kit-and-logo facility**: a 5-star upgrade earns kit discounts and logo discounts, not just coins.
+- **Bank Common coaches**; do not waste gems on agents or coins on scouts. Training pays back after ~20 uses.
+- **Dream Draft costs coins** and returns gems plus Dream Points — never run it for coins.
+
+### 3.10 The offside trap — unresolved, test in Exhibition [EV-481, C3]
+
+- **Side A (DLS24, Dec 2023):** team press moves the defensive line up to force an offside; switch to a wing-back so it rises with the line.
+- **Side B (DLS26, Aug 2026):** *"where are the offside traps, high lines, attacking shape...?"* and *"defenders refuse to hold their line."*
+- **Status: OPEN (C-029), version-drift likely.** Until tested, **defend with a controlled line, not a high one** — the §3.1 rule "never push defenders forward" already assumes the trap is unreliable.
+- **New control detail:** double-tap clears the ball while defending; **C** is the player-switch button.
 
 ---
 

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-142 — 1,713 claims / 382 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-143 — 1,727 claims / 383 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -681,7 +681,29 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 > **⚠️ DLS's skill set is deliberately SMALLER than FIFA's.** A player arriving from FIFA will look for elastico, trivela and the rest; they are not in this game. **Learn these ten and stop looking.**
 
-### 3.6 The stadium's design surface [EV-480, C2]
+### 3.6 Economy mechanics the corpus had missed [EV-481, C1/C2/C3]
+
+**The official gem sources** — the only Confirmed-tier list in the corpus:
+
+| Source | Note |
+|---|---|
+| **League objectives** | Per-league goals |
+| **Tournaments** | Cup runs |
+| **Season Pass** | Free track included |
+| **Prize Ladder** | The 90-day cycle |
+| **Dream League Live** | Participation, not just placement |
+
+FTG's own wording adds *"(please seek the bill payer's permission)"* before the shop — a parental-control note worth repeating: **if someone else pays for the account, ask before buying.**
+
+> **⚠️ THERE ARE EXACTLY TWO CURRENCIES: COINS AND GEMS.** A kit guide claims the custom-kit unlock costs *"300 Diamonds, which is the premium currency"*, and one Season Pass reward list mentions *"150 crystals"*. **Every source that says "diamonds" is a scam site or that one discredited guide** — the same source already rejected in C-012. **Crystals appear exactly once and are unverified. Do not plan on a third currency.** (C-028)
+
+**Three objectives arrive before every match** and each pays coins — *"score in the first half"*, *"receive a limited number of goals"*, and similar, with more across the season. **Read them before kick-off; they are free money attached to matches you are playing anyway.**
+
+**Commercial is the kit-and-logo facility.** Beyond the coin bonus, a 5-star Commercial upgrade earns **kit discounts and logo discounts**. That is the real argument for levelling it — one guide's advice to spend *"your first 75 Gems"* there conflicts with the Training-first priority below and is recorded, not adopted.
+
+**Bank Common coaches.** Community advice is explicit: *"do not waste gems on agents and coins on scouts"*, and *"save coaches even commons because the next promo will probably be good."* The Training facility *"will save gems after 20 uses"* — the same conclusion the corpus reached from the cost ladder.
+
+### 3.7 The stadium's design surface [EV-480, C2]
 
 Beyond the capacity ladder in §2, the stadium is a cosmetic sandbox:
 
