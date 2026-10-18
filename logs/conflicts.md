@@ -122,6 +122,8 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Status:** RESOLVED as a scope difference, not a contradiction: five facilities are official-stated; Recruitment and Accommodation are in-game surfaces reported only by community sources. The earlier "seven confirmed facilities" claim is corrected.
 - **May say meanwhile:** "five facilities are officially named; Recruitment and Accommodation also appear in the facility screen."
 
+**UPDATE 2026-10-18 (ckpt-091):** SUBSTANTIALLY RESOLVED. GCC is a Champions-League-style ONLINE competition open to every division: **128 teams in 32 groups of 4, top 2 per group qualify -> 64-team knockout from R64**, group stage played as 3 opponents twice (6 matches), about 7 rounds to the trophy. Rewards: **10 gems per round cleared + ~25 gems for winning** (full season run ~30 league + 25 GCC + 15 Diamond Cup + 5 All-Star). Difficulty scales with DIVISION not club stars, and players call it the easiest competition to win. The residual conflict is only the group-stage match count (6 double round-robin vs an unspecified single pass) — see EV-434.
+
 ## RESOLVED (kept for history, with the evidence that resolved them)
 
 ### C-R01 — Launch date: Dec 4 2026 vs Dec 17 2025

@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:02:27Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1273**
-Distribution: Confirmed 303 / High Confidence 589 / Community Consensus 348 / Speculative 32 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **397**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:05:55Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1286**
+Distribution: Confirmed 303 / High Confidence 593 / Community Consensus 356 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **399**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -14,23 +14,23 @@ Distinct evidence records cited: **397**.
 | clans | 36 |
 | coaches | 36 |
 | controls | 34 |
+| cups | 34 |
 | patching | 33 |
 | prizeladder | 32 |
 | platform | 30 |
 | cards | 28 |
+| dll | 28 |
 | customization | 27 |
-| cups | 26 |
-| dll | 26 |
 | transfers | 26 |
 | attributes | 23 |
 | training | 22 |
 | modes | 19 |
 | events | 18 |
+| errata | 17 |
 | stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
-| errata | 15 |
 | goalkeeping | 11 |
 | ui | 11 |
 | account | 10 |
@@ -57,6 +57,7 @@ Distinct evidence records cited: **397**.
 | licensing | 2 |
 | shooting | 2 |
 | 12thman | 1 |
+| achievements | 1 |
 | anticheat | 1 |
 | bugs | 1 |
 | classics | 1 |
@@ -809,6 +810,10 @@ Distinct evidence records cited: **397**.
 | CLAIM-1270 | Coach-farming economics: buy players under 180-210 coins and release them for Common coaches, and buy 80-rated DEFENDERS (the cheapest legendary cl... | High Confidence | economy/coach-farming-prices | EV-433 |
 | CLAIM-1274 | A player's card becomes silver then gold once overall rises by a rating-dependent amount and turns black at 100 overall; upgraded players also appe... | High Confidence | cards/colour-progression-market | EV-433 |
 | CLAIM-1276 | Fan Approval has two published milestones: 'Mr Popular' at 75% (500 XP) and 'Fan Favourite' at 100% (2,000 XP in DLS2018, 1,000 XP in DLS Classic). | High Confidence | economy/fan-approval-milestones | EV-433 |
+| CLAIM-1286 | LEGACY: the main fandom wiki still describes the GCC as a 64-team single-legged playoff, which is a pre-DLS20 structure superseded by the current 1... | High Confidence | errata/gcc-legacy-64-description | EV-434 |
+| CLAIM-1287 | LIVE rank names are confirmed to exactly six - Rookie, Amateur, Semi-Pro, Intermediate, Pro and Veteran - each a 500 XP achievement, with nothing p... | High Confidence | dll/rank-names-six | EV-435 |
+| CLAIM-1288 | DLL win-count achievements: Kick Off (5 wins), First Steps (25), Finding Form (50) and In the Flow (100), each worth 500 XP. | High Confidence | achievements/dll-win-counts | EV-435 |
+| CLAIM-1289 | SOURCE RELIABILITY CONFIRMED: playdreamleaguesoccer.com is an AI-generated content farm. Beyond the already-flagged chemistry and Fluid Formations ... | High Confidence | errata/playdreamleaguesoccer-content-farm | EV-435 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1213,6 +1218,14 @@ Distinct evidence records cited: **397**.
 | CLAIM-1273 | Daily challenges pay 5-11 gems per day, and the community advice is to stack coaches and not use them too early. | Community Consensus | economy/daily-challenge-gems | EV-433 |
 | CLAIM-1275 | Legendary players do not appear in the transfer market until team rating rises, gold-carded players become regular above 80 team rating, and even a... | Community Consensus | transfers/rating-gating-86s | EV-433 |
 | CLAIM-1277 | 100% club (Dream Team) value requires EVERY player including bench and reserves to be maxed - about 23 players - not merely a high-rated starting e... | Community Consensus | economy/club-value-23-players | EV-433 |
+| CLAIM-1278 | The Global Challenge Cup is a Champions-League-style competition open to every division from Academy to Legendary and is played ONLINE against othe... | Community Consensus | cups/gcc-online-all-divisions | EV-434 |
+| CLAIM-1279 | GCC structure: 128 teams drawn into 32 groups of 4, with the top 2 from each group qualifying to produce a 64-team knockout beginning at the Round ... | Community Consensus | cups/gcc-128-32-groups | EV-434 |
+| CLAIM-1280 | GCC group stage: one account describes playing the 3 group opponents twice (6 matches, double round robin, like the new UEFA Champions League format). | Community Consensus | cups/gcc-group-stage-6-matches | EV-434 |
+| CLAIM-1281 | The GCC takes about 7 rounds to win, consistent with a group stage plus R64, R32, R16, quarter-final, semi-final and final. | Community Consensus | cups/gcc-7-rounds | EV-434 |
+| CLAIM-1282 | GCC rewards: 10 gems per round cleared, with the winning prize about 25 gems; a full end-of-season gem run is roughly 30 gems from league matches, ... | Community Consensus | cups/gcc-rewards | EV-434 |
+| CLAIM-1283 | GCC difficulty scales with the DIVISION you are in, not with the opponent club's star rating - multiple players report the GCC is the EASIEST compe... | Community Consensus | cups/gcc-difficulty-division-scaled | EV-434 |
+| CLAIM-1284 | The GCC team pool is about 25 named clubs (Arsenal, As Monaco, Barcelona, BC Nice, Chelsea, Crystal Palace, Everton, I Milan, J Turin, Leicester, B... | Community Consensus | cups/gcc-team-pool | EV-434 |
+| CLAIM-1285 | The GCC is the only cup competition open to ALL teams in the game, whereas the Diamond Cup is restricted to Elite and Legendary Division clubs. | Community Consensus | cups/gcc-universal-vs-diamond | EV-434 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
@@ -1343,6 +1356,7 @@ Distinct evidence records cited: **397**.
 | CLAIM-1197 | A Fan Approval Rating exists with a 'Fan Favourite' achievement for reaching 100%; its mechanics are undocumented in every source found - OPEN GAP. | Speculative | squad/fan-approval | EV-424 |
 | CLAIM-1231 | OPEN GAP: the exact Form Boost duration in matches for each Training facility level (2 through 5) has never been published by FTG or any community ... | Speculative | formboost/per-level-duration-open | EV-428 |
 | CLAIM-1240 | LEAD: upcoming Prize Ladder players reportedly include Roy Keane (rating and year unrevealed), Irvin at 85 (year unrevealed), Conor Gallagher and P... | Speculative | prizeladder/cult-heroes-lead | EV-429 |
+| CLAIM-1290 | The named LIVE ranks most plausibly map onto the lowest six tiers of the 20-to-1 numeric ladder, with tiers above Veteran identified only by number. | Speculative | dll/rank-name-mapping-hypothesis | EV-435 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
