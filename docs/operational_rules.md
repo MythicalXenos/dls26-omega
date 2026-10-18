@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-190 — 2,310 claims / 429 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-191 — 2,316 claims / 430 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -624,6 +624,7 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **⚠️ Expect random player movement** [EV-521, C3] - players making meaningless movements and failing to hold positions is a documented DLS26 complaint, reported by spenders.
 - **Scouts:** discounts 2–4% / 3–5% / 4–8%; two candidates each, so P(≥1 legendary) is 3.96% Common vs 27.75% Legendary — **Legendary scouts are good value.**
 - **Coach prices:** Common 17g · Rare 52g (maxed) / 67g · Legendary 157g (maxed) / 202g — so Training saves 15g per Rare and 45g per Legendary [EV-491, C2].
+- **THE DOUBLE FEE** [EV-528, C3] — you buy the coach AND then pay to have them train, so every gems-per-point figure in this file is a FLOOR, not a total. Budget above it.
 - **Commercial breakeven:** max it only if you will grind past **~108,000 coins** [EV-491, C3].
 - **Rare goalkeepers yield only ONE Common coach** on release — do not buy them for farming [EV-491, C3].
 - **DP boosts:** Rare +75% (245 Career / 324 DLL max) · Legendary +150% (350 / 463).

@@ -1,15 +1,15 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T13:08:02Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2310**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 980 / Speculative 90 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **491**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T13:32:20Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2316**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 985 / Speculative 91 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **492**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 143 |
-| facilities | 114 |
+| economy | 144 |
+| facilities | 115 |
 | dll | 95 |
 | gameplay | 83 |
 | transfers | 81 |
@@ -19,9 +19,9 @@ Distinct evidence records cited: **491**.
 | errata | 63 |
 | setpieces | 61 |
 | controls | 59 |
+| coaching | 49 |
 | prizeladder | 48 |
 | patching | 47 |
-| coaching | 45 |
 | cups | 41 |
 | training | 41 |
 | tactics | 38 |
@@ -2253,6 +2253,11 @@ Distinct evidence records cited: **491**.
 | CLAIM-2308 | THE FOUR-DAY CLIMB: '**Grinded from tier 7 to 1 in only 4 days, championed every tier.**' A third benchmark against the 16-day world record and the... | Community Consensus | dll/four-day-climb-benchmark | EV-527 |
 | CLAIM-2309 | THE RETURNING-PLAYER MECHANIC in the rating refresh: the Arsenal rating table carries '**Giroud: 76 (RETURNING PLAYER)**' and '**Aubameyang: 78 (RE... | Community Consensus | patching/returning-player-mechanic | EV-527 |
 | CLAIM-2312 | THE MIDFIELD CLASSICS WITH POSITIONS AND YEARS: **Rivaldo 1999 86 LW · Matthaus 1991 86 AM · Pires 2002 84 LM · Valderrama 1993 83 AM.** So each Cl... | Community Consensus | cards/midfield-classics-with-years | EV-527 |
+| CLAIM-2315 | THE DOUBLE FEE, which the corpus did not carry and which changes the coaching arithmetic: '**Get rid off the double fees for coaches; First you buy... | Community Consensus | coaching/double-fee | EV-528 |
+| CLAIM-2316 | THE COACHING SIMULATOR AS A PLANNING TOOL: a source publishes a simulator that models the weighted system directly - 'Unlike older versions of the ... | Community Consensus | coaching/simulator-and-weighting | EV-528 |
+| CLAIM-2317 | SAVE EVERYTHING BEFORE A PROMO: '**save agents and scouts but only from events, do not waste gems on agents and coins on scouts... save coaches eve... | Community Consensus | economy/save-inventory-before-a-promo | EV-528 |
+| CLAIM-2318 | THE SPECIAL-COACH COST, with the arithmetic: 'you'd have to finish career mode twice (excluding Weekly and Daily Challenge rewards) to get enough g... | Community Consensus | coaching/special-coach-cost-and-season-pass-route | EV-528 |
+| CLAIM-2319 | THE ACCOMMODATION 64-PLAYER FIGURE corroborated a third time, with a 5,000-gem estimate against the corpus's 4,125: 'Accommodation goes up to 64 pl... | Community Consensus | facilities/accommodation-64-third-source | EV-528 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
 | CLAIM-234 | Transfer Market community-reported prices DLS26 (post-DLS25 price hike): 86 OVR (Rodri) ~2,725 coins; 82 OVR forward ~2,555 (pre-discount ~2,355); ... | Community Consensus | unscoped | EV-286 |
@@ -2405,6 +2410,7 @@ Distinct evidence records cited: **491**.
 | CLAIM-2311 | A NEW PLAYER-SEARCH TOOL: 'https://dls-ext.vercel.app/ — you can search players by rating, nationality, and it has the stats and gives you complete... | Speculative | transfers/dls-ext-player-search-tool | EV-527 |
 | CLAIM-2313 | THE 'TIER 1 CHAMPION' SUBREDDIT FLAIR is a community artifact, not an in-game rank name — recorded so it is not mistaken for a seventh LIVE rank ab... | Speculative | errata/tier-1-champion-flair-not-a-rank | EV-527 |
 | CLAIM-2314 | CLASSICS ARE POSITIONALLY FLEXIBLE: 'Petit played as a LB through his career as well so therefore he counts. Valverde is also currently playing as ... | Speculative | cards/classics-positionally-flexible | EV-527 |
+| CLAIM-2320 | THE 2,100-2,835 GEM SPECIAL-PLAYER MAX corroborated from a 2022 thread - 'It takes roughly 2100-2835 gems to max a special player, so please don't ... | Speculative | coaching/special-max-cost-four-year-stable | EV-528 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |
