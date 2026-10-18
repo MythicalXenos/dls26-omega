@@ -78,8 +78,9 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Side C:** mundodls (Spanish, EV-403) — Amateur 4,000 / Primera 20,000 / Legendary 45,000.
 - **Partial corroboration:** dream-league-soccer.fandom's Division 3 page (entry 35,000; progression to Division 2 at 45,000) matches Side A exactly, and the Exophase achievements (40,000 and 80,000 thresholds) are consistent with both A and B.
 - **Status:** UNRESOLVED. Side A is best-supported but all three are community-derived; "Junior Elite Division" in Side B is a confirmed historical division name (Exophase "Time To Step Up" achievement), so Side B may describe an older ladder.
-- **Settles it:** an in-game Stadium & Facilities capture showing the next division's seat requirement.
-- **May say meanwhile:** "the promotion seat requirement is in the 35,000-45,000 band around Division 3/2; the exact per-division ladder is not settled, and the cheapest first capacity upgrade costs about 446 coins."
+- **Status:** SUBSTANTIALLY RESOLVED 2026-10-18 (EV-423). Vietnamese Wikipedia records that the 2016-2019 era had only SIX divisions - Academy, Division 3, Division 2, Division 1, Junior Elite and Elite, across 96 teams - and the Exophase "Time To Step Up" achievement confirms Junior Elite as a real historical division. Side B is therefore the LEGACY six-division ladder, not the current one, so Side A (eight divisions) is the only table describing the current structure. Side C (Spanish, 4,000/20,000/45,000) remains an unexplained outlier.
+- **Settles it fully:** an in-game Stadium & Facilities capture showing the next division seat requirement for the current eight-division ladder.
+- **May say meanwhile:** "Side A describes the current eight-division ladder and is the only table that fits it; the dlspedia figures are a legacy six-division table. The promotion seat requirement sits in the 35,000-45,000 band around Division 3/2, and the cheapest first capacity upgrade costs about 446 coins."
 
 ### C-011 — Commercial Centre bonus scale: 13%/21% vs 2-10% vs DLS21 +6%
 - **Side A:** 13% at Level II and 21% at Level III — Bluestacks 2026, gamingonphone (three separate guides) and gamedls.net, three independent sources (EV-404).
