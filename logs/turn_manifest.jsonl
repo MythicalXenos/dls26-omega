@@ -55,3 +55,5 @@
 {"turn":35,"wave":18,"claims_added":"CLAIM-0967..CLAIM-0981","ev_added":"EV-399","checkpoint":"ckpt-071"}
 {"turn":35,"wave":19,"claims_added":"CLAIM-0982..CLAIM-1008","ev_added":"EV-400,EV-401,EV-402","checkpoint":"ckpt-071"}
 {"turn":35,"wave":"norm","claims_added":"0 (22 domain values normalised: customisation->customization, patches->patching, refereeing->referee, prize-ladder->prizeladder, form-boost->formboost, license->licensing, seasonpass->economy/season-pass, iap->economy/iap)","ev_added":"0","checkpoint":"ckpt-071"}
+{"turn":35,"wave":20,"claims_added":"CLAIM-1009..CLAIM-1027","ev_added":"EV-403,EV-404","checkpoint":"ckpt-072"}
+{"turn":35,"wave":21,"claims_added":"CLAIM-1028..CLAIM-1042","ev_added":"EV-405,EV-406","checkpoint":"ckpt-072"}
