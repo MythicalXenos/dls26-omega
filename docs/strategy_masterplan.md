@@ -513,4 +513,8 @@ Two hard thresholds: **DLL pays gems for a season finish with a minimum of 14 po
 
 ---
 
-*End of masterplan. All figures traceable to `kb/claims.jsonl` and `docs/continuity/a7e23a6b/evidence/index.jsonl` at ckpt-104.*
+*End of masterplan. All figures traceable to `kb/claims.jsonl` and `docs/continuity/a7e23a6b/evidence/index.jsonl` at ckpt-105.*
+
+---
+
+> **COMPANION FILE — `docs/operational_rules.md`.** The masterplan says *what* to aim for; the operational rules say *what to do in each game state*, as a nine-state machine (S0 Bootstrap -> S1 Economy -> S2 Promotion Push -> S3 Secure Division -> S4 Coin Farming -> S5 Coach Farming -> S6 Squad Assembly -> S7 DLL Climb -> S8 Cultivation -> S9 Maintenance) with the guards that move you between them. Every rule carries its evidence reference, every numeric figure traces to a claim, and the file ends with an explicit audit listing the six known weaknesses and a PASS-with-stated-limits verdict.*
