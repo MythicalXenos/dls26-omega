@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-140 — 1,684 claims / 380 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-141 — 1,693 claims / 381 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -396,6 +396,17 @@ Hard thresholds: **DLL pays gems only with ≥14 points**; the final DP ladder g
 Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory**; up to **7 rounds**; limited formations; CPU opponents; **gems only — players are NOT kept**; 185 DP ceiling; entry ~40 gems or 500 coins, win pays 50 gems; runs **every ~2 weeks**.
 
 **Verdict: worth entering only when the entry is free.** It is a gem engine, not a squad builder.
+
+### 3.6 Transfer-market operating rules [EV-479, C2]
+
+- **The market's filters include CONTRACT LENGTH** — the search axes are position, rating and contract length, so contract length is searchable, not just displayed.
+- **Buying and selling churns the market** and raises the chance of higher-rated players appearing [C2]. The match-refresh rule in §3.1 remains the better-evidenced rule: **play matches to refresh, churn when actively hunting.**
+- **Market quality scales with the squad** — as team rating improves, higher-quality players appear more often.
+- **Starting out:** new accounts begin at **50–60 OVR**; DLS25 progress carries over, including the squad and Academy Division status.
+- **Free transfers** are usually low-stat players or ones you released; paid general transfers run **10 to about 900 coins**.
+- **Coaches can be hired by RELEASING PLAYERS from your squad** — a gem-free coach route. Four categories (Technical, Fitness, Goalkeeping, Special) × three tiers (Common, Rare, Legendary); Common boosts one random stat, Legendary is largest with the highest breakthrough chance.
+
+**⚠️ DLS26 HAS NO DOCUMENTED SQUAD-CHEMISTRY SYSTEM** [EV-479, C2 — documented negative]. Every explained chemistry model on the open web is EA FC / FIFA; no DLS source documents a threshold, UI, link rule or attribute effect. **Do not spend gems or squad slots chasing one.**
 
 ---
 

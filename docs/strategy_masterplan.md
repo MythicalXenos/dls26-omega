@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-140 — 1,684 claims / 380 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-141 — 1,693 claims / 381 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -215,9 +215,17 @@ This is the most operationally important layer in the game, and almost every gui
 
 > **Why this matters:** you can farm coins for a specific target player **without burning the market slot they are sitting in.** This is the correct answer to "I can't afford the player I want."
 
+> **⚠️ THERE IS NO CHEMISTRY SYSTEM IN DLS26** [EV-479, C2 — documented negative]. A targeted search for a DLS26 chemistry system returned **only EA FC / FIFA chemistry models** (the 33-point club-league-nation link system) plus two AI-written DLS descriptions that use *"squad chemistry"* as filler. No DLS source documents a chemistry threshold, a chemistry UI, a link rule, or any attribute effect — in DLS the word appears **only** as an input to market quality (*"as your team rating and chemistry improve, higher-quality players will appear"*). **A player arriving from FIFA will hunt for a chemistry system that does not exist. Do not spend a single gem or squad slot chasing one.**
+
 **Fastest refresh:** quit a **LIVE** match at half-time (or play the first half and forfeit).
 
 **Lock Player — the paid answer to waiting:** spend **20 or 40 gems** to lock any player on the live transfer market for **24 hours**. They survive the next match refresh, a small lock sign appears on their card, and they vanish as normal when the period ends.
+
+**Churning the market works too** [EV-479, C2]: a January 2026 guide advises *"regularly buying and selling players helps refresh the market, increasing the chances of higher-rated players appearing"* — the same idea as the match-refresh rule above, from an independent source, and the reason its tip 7 is *"Stay Attentive in the Live Transfer Market."* Note this is a **community** claim while the match-refresh table above is the corpus's better-evidenced rule: **play matches to refresh, and churn when you are actively hunting.**
+
+**The filters include contract length** [EV-479, C2]: the market's search axes are **position, rating and contract length**. Contract length is therefore a *searchable* axis, not merely a display field — the corpus had nothing on wages or contracts before this wave, and this is the whole of what is documented.
+
+**Starting out** [EV-479, C2]: new players begin with a **50–60 OVR** lineup, and returning players carry over **their squad and Academy Division status** from DLS25. Free transfers are *"usually players with low stats or players that you've released"*, while paid general transfers are *"normally better"* and run **10 to about 900 coins**.
 
 **Other rules that catch people out:**
 - **Released players do reappear** — after a grace period during which you can buy them back from the release area. But **collection pieces never come back**, and rare/common cards may take a long wait.

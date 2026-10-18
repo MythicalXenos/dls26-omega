@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:58:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1684**
-Distribution: Confirmed 378 / High Confidence 718 / Community Consensus 553 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **442**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:02:00Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1693**
+Distribution: Confirmed 378 / High Confidence 727 / Community Consensus 553 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **443**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -14,8 +14,8 @@ Distinct evidence records cited: **442**.
 | clans | 56 |
 | gameplay | 56 |
 | cards | 54 |
+| transfers | 49 |
 | career | 48 |
-| transfers | 43 |
 | setpieces | 39 |
 | cups | 38 |
 | training | 38 |
@@ -43,9 +43,9 @@ Distinct evidence records cited: **442**.
 | social | 10 |
 | draft | 9 |
 | stadium | 9 |
+| coaching | 8 |
 | squad | 8 |
 | physio | 7 |
-| coaching | 6 |
 | difficulty | 6 |
 | monetization | 6 |
 | save | 6 |
@@ -53,13 +53,13 @@ Distinct evidence records cited: **442**.
 | 12thman | 5 |
 | accounts | 5 |
 | audit | 5 |
+| chemistry | 5 |
 | discipline | 5 |
 | endgame | 5 |
 | gacha | 5 |
 | referee | 5 |
 | weather | 5 |
 | ai | 4 |
-| chemistry | 4 |
 | ratings | 4 |
 | features | 3 |
 | injuries | 3 |
@@ -1044,6 +1044,15 @@ Distinct evidence records cited: **442**.
 | CLAIM-1684 | THE CAREER CUP LADDER: winning the Legendary Division qualifies you for the INTERNATIONAL CUP (national teams - England, Sweden, Portugal, Argentin... | High Confidence | cups/career-cup-ladder | EV-478 |
 | CLAIM-1685 | THE WORLD TOURNAMENT is the new international-football event type shipped in Summer Spotlight (v13.330, 10 Jun 2026; 13.350 on 14 Jul) - distinct f... | High Confidence | events/world-tournament | EV-478 |
 | CLAIM-1686 | THE PRIZE LADDER'S CURRENT CLASSIC ROSTER IS NAMED: the Italian League Classics - Trezeguet, Batistuta, Crespo and Desailly - obtained by earning D... | High Confidence | prizeladder/italian-league-classics | EV-478 |
+| CLAIM-1689 | The transfer market's filters include POSITION, RATING AND CONTRACT LENGTH - contract length is a searchable axis, not merely a display field. | High Confidence | transfers/filters-include-contract-length | EV-479 |
+| CLAIM-1690 | The Live Transfer Market's player list refreshes after every match you play, so playing more matches creates more signing opportunities. | High Confidence | transfers/refresh-after-every-match | EV-479 |
+| CLAIM-1691 | BUYING AND SELLING PLAYERS REFRESHES THE MARKET: regularly churning the market increases the chance that higher-rated players appear - the guide's ... | High Confidence | transfers/buy-sell-churn-refreshes-market | EV-479 |
+| CLAIM-1692 | Market quality rises with the squad: as team rating improves, higher-quality players appear in the market more frequently (stated independently in ... | High Confidence | transfers/market-quality-scales-with-rating | EV-479 |
+| CLAIM-1693 | New players begin with a basic lineup rated around 50-60 OVR, and returning players carry over their squad and Academy Division status from DLS25. | High Confidence | transfers/starter-squad-and-carryover | EV-479 |
+| CLAIM-1694 | Free transfers are usually low-stat players or players you have released yourself; paid general transfers are normally better and run from 10 to ab... | High Confidence | transfers/free-transfers-and-price-band | EV-479 |
+| CLAIM-1695 | Coaches come in four categories (Technical, Fitness, Goalkeeping, Special) across three tiers (Common, Rare, Legendary); Common coaches boost a sin... | High Confidence | coaching/four-categories-and-tiers | EV-479 |
+| CLAIM-1696 | COACHES CAN BE HIRED BY RELEASING PLAYERS from your current squad - a gem-free route to coaches, on top of hiring them with gems. | High Confidence | coaching/hire-by-releasing-players | EV-479 |
+| CLAIM-1697 | DOCUMENTED NEGATIVE - DLS26 HAS NO DOCUMENTED SQUAD-CHEMISTRY SYSTEM. A targeted search returned only EA FC / FIFA chemistry models (the 33-point c... | High Confidence | chemistry/no-system-documented-negative | EV-479 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
