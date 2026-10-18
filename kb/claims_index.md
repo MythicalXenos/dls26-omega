@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:55:05Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2060**
-Distribution: Confirmed 391 / High Confidence 845 / Community Consensus 774 / Speculative 49 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **468**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:57:57Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2074**
+Distribution: Confirmed 391 / High Confidence 845 / Community Consensus 787 / Speculative 50 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **469**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -18,26 +18,26 @@ Distinct evidence records cited: **468**.
 | career | 58 |
 | setpieces | 46 |
 | controls | 44 |
-| errata | 42 |
+| errata | 43 |
 | patching | 42 |
 | training | 40 |
-| cups | 38 |
+| cups | 39 |
 | prizeladder | 38 |
 | coaches | 37 |
 | coaching | 37 |
 | attributes | 35 |
+| events | 31 |
 | platform | 31 |
 | tactics | 31 |
 | customization | 29 |
-| events | 28 |
 | achievements | 25 |
 | presentation | 25 |
 | modes | 24 |
+| stamina | 24 |
 | goalkeeping | 23 |
 | stadium | 20 |
 | customisation | 19 |
 | account | 17 |
-| stamina | 17 |
 | meta | 16 |
 | onboarding | 15 |
 | negatives | 13 |
@@ -46,13 +46,13 @@ Distinct evidence records cited: **468**.
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
+| matchcraft | 10 |
 | medical | 10 |
 | social | 10 |
-| matchcraft | 9 |
 | positions | 9 |
+| squad | 9 |
 | 12thman | 8 |
 | skillmoves | 8 |
-| squad | 8 |
 | multiplayer | 7 |
 | physio | 7 |
 | seasonpass | 7 |
@@ -2030,7 +2030,20 @@ Distinct evidence records cited: **468**.
 | CLAIM-2061 | AN ACHIEVEMENT-COUNT CONFLICT THAT WILL NOT RESOLVE CLEANLY. The snapshot retrieved today shows **40 total achievements, 20,000 Points (XP), 40,351... | Community Consensus | errata/achievement-count-conflict-unresolved | EV-504 |
 | CLAIM-2063 | THE XP REQUIREMENT WAS RAISED: 'They have now increased the total XP points required to **250,000 XP**, adding 50k more XP points on top of what wa... | Community Consensus | achievements/xp-requirement-raised-to-250000 | EV-504 |
 | CLAIM-2064 | A FIFTH CONTAMINATION: both of this wave's searches returned ESL's **DreamLeague Dota 2** tournament (Seasons 26, 27, 28 and 29 - formats, prize po... | Community Consensus | errata/fifth-contamination | EV-504 |
+| CLAIM-2065 | THE AUTOMATIC CHASE-DOWN WASTES STAMINA, and there is a control for it: 'Another useful trick in conserving stamina can be done multiple times in a... | Community Consensus | stamina/automatic-chase-down-stop-chase | EV-505 |
+| CLAIM-2066 | THE STAMINA-CONSERVATION TRICK, which links two corpus findings that had not been connected - the 5:0 Dream Points cap and the stamina economy: '**... | Community Consensus | stamina/conservation-trick-after-five-goals | EV-505 |
+| CLAIM-2067 | TURNING BACK IS THE EASIEST WAY TO AVOID AI TACKLES: 'There is a technique to get minimum AI tackles and keep them from a distance. **Turning back ... | Community Consensus | matchcraft/turning-back-avoids-ai-tackles | EV-505 |
+| CLAIM-2068 | THE SECOND-HALF PACE-SUB STRATEGY: 'high stamina players do better in the second half. One strategy I use is to **sub in high stamina + speed playe... | Community Consensus | stamina/second-half-pace-sub | EV-505 |
+| CLAIM-2069 | TEAM BOOSTS AND TEAM PHYSIOS ARE THE SAME 10%: 'Team Boosts and Team Physios have literally the same effect. **They will both restore 10% stamina t... | Community Consensus | stamina/team-boost-equals-team-physio | EV-505 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
+| CLAIM-2070 | PHYSIOS ARE A SCAM - REPAIR INDIVIDUALLY: 'it's okay to pay for individual Physios if you must field the same players for consecutive matches, but ... | Community Consensus | stamina/physios-are-a-scam-repair-individually | EV-505 |
+| CLAIM-2071 | THE SUB-100% PENALTY, which is why the substitution sweet spot matters: 'Each time you finish a match your players will regenerate 30% of their max... | Community Consensus | stamina/sub-100-start-compounds | EV-505 |
+| CLAIM-2072 | MIDFIELD IS THE HIGHEST-DRAIN AREA: '**Your midfield will be the most energy consumed area on the pitch** and the vast majority of players here wil... | Community Consensus | stamina/midfield-highest-drain | EV-505 |
+| CLAIM-2073 | SQUAD-SIZE GUIDANCE, sitting between the corpus's 16-player minimum and the 64-player cap: wingers and fullbacks tire fastest 'because they move li... | Community Consensus | squad/19-22-player-target | EV-505 |
+| CLAIM-2075 | THE DYNAMIC STARS EVENT CALENDAR, from a real dated source: **World 26 Season 1 Pass 8 Jun · Dynamic Agent Special Draft 9 Jun · Dynamic Stars Tour... | Community Consensus | events/dynamic-stars-calendar | EV-505 |
+| CLAIM-2076 | THE REAL DLS26 EVENT NAMES, consolidated from creator coverage: **Summer Special Event (an online Dream Draft) · World Cup Tournament · World Cup C... | Community Consensus | events/dls26-real-event-names | EV-505 |
+| CLAIM-2077 | TOTY IS EXPECTED IN DLS26: 'DLS 25 has the champions players, and now DLS 26 is about to see the **TOTY event** debut into the game' - a forward-lo... | Community Consensus | events/toty-expected | EV-505 |
+| CLAIM-2078 | THE GLOBAL CHALLENGE CUP STRUCTURE: 'some teams from other divisions will have to play against each other. **It works like the FA Cup... where its ... | Community Consensus | cups/global-challenge-cup-knockout-structure | EV-505 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
 | CLAIM-210 | DLS franchise lineage (with release dates): First Touch Soccer (iOS, 8 Dec 2011) → FTS 14 (2014) → FTS 15 (2015, last FTS branded release) → Dream ... | Community Consensus | unscoped | EV-277,EV-280 |
@@ -2154,6 +2167,7 @@ Distinct evidence records cited: **468**.
 | CLAIM-1982 | A SECOND CORRUPTED FANDOM PAGE: dream-league-soccer.fandom.com/wiki/Classic_Players lists Lev Yashin at '**0 Overall**' and Paolo Maldini and Franz... | Speculative | errata/fandom-classic-players-page-corrupted | EV-499 |
 | CLAIM-1984 | A MINOR RATING CONFLICT: z2u.com puts Lamine Yamal at **86**, where every other source has him at 85. z2u is a marketplace site with no editorial s... | Speculative | errata/yamal-86-outlier | EV-499 |
 | CLAIM-2033 | A DISSENTING VIEW ON CLAN VALUE, recorded so the corpus does not overstate the system: '**Clans are useless.** I thought we'd be able to compete ag... | Speculative | clans/useless-dissent | EV-502 |
+| CLAIM-2074 | REJECTED AN EIGHTH TIME, and the most elaborate fabrication yet: playdreamleaguesoccer.com publishes a complete 'DLS 2026 Schedule' - a month-by-mo... | Speculative | errata/playdream-eighth-rejection-fake-calendar | EV-505 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

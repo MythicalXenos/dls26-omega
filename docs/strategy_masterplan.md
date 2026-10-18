@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-167 — 2,060 claims / 406 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-168 — 2,074 claims / 407 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -619,6 +619,12 @@ These are the cheap, permanent wins that separate tier 2 from tier 1.
 **Stamina management** [EV-422, C2]:
 - **30% stamina regenerates post-match**; a **benched player fully regenerates**.
 - The **60–70 minute substitution sweet spot** — bring subs on there.
+- **⚠️ CANCEL THE AUTOMATIC CHASE-DOWNS** [EV-505, C3]: the game auto-chases *"when a goalie sweeps the ball in desperation or similar defensive efforts when players dish out under pressure"* — and each one burns stamina you did not choose to spend. **Cancelling it is a repeatable, free in-match stamina lever.**
+- **⚡ THE STAMINA-CONSERVATION TRICK** [EV-505, C3] — it links the DP cap to the stamina economy: *"After scoring 5 goals, use a player with highest control stats to get ball. Keep the ball under your possession by dribbling the ball in a small area."* **Once you are five up there is no DP left to win**, so the correct play is possession with your best-CON player in a small area near the touchline. The match is already won; burn nothing.
+- **Turning back is the easiest way to avoid AI tackles** [EV-505, C3] — the same principle as the planted-foot read, arriving from the defensive side.
+- **A pace sub is for their defenders, not just yours** [EV-505, C3]: *"sub in high stamina + speed players in the second half to maintain the threat of a long ball all second half when the opponents defenders are tired."*
+- **Physios are a scam — repair stamina individually** [EV-505, C3]: *"It's so much cheaper to just repair your players' stamina one by one"*, capped at **two players and 6–8 coins per match**. And **Team Boosts and Team Physios are the same 10%** — one is mid-game, one post-game, so the choice is timing, not value.
+- **A tired start compounds** [EV-505, C3]: a player who starts below 100% *"will naturally become fatigued quicker."* So the sweet spot matters more than it looks — it is not just energy, it is the rate you lose it at.
 - **3-sub limit** per match.
 - Hidden daily fatigue was reported in an April 2026 review — if the squad feels heavy, that is why.
 

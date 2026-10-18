@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-167 — 2,060 claims / 406 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-168 — 2,074 claims / 407 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -500,6 +500,10 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 
 - **⚠️ THE INJURY REPORT IS EPHEMERAL.** DLS names the injury and the games out, but *"it's only visible after you exit the match where the injury happened. It's gone if you close the app or play another match."* **Read it the instant the match ends.**
 - **Rest is a real recovery channel:** resting a tired player for one match fully restores them, and the half-time team boost accelerates it. **Idle recovery: 3–4 hours for a weak squad, ~20 minutes for a maxed one.**
+- **Cancel the automatic chase-downs** [EV-505, C3] — the game auto-chases on keeper sweeps and pressed defensive efforts, and each one burns stamina you did not choose to spend.
+- **The five-goal conservation trick** [EV-505, C3] — once you are 5-0 up the DP is capped, so give the ball to your highest-CON player and dribble in a small area near the touchline.
+- **Physios are a scam** [EV-505, C3] — repair stamina individually, capped at two players and 6-8 coins per match. Team Boosts and Team Physios are the same 10%.
+- **A tired start compounds** [EV-505, C3] — a player who starts below 100% fatigues quicker, so the 60-70 minute sweet spot is a rate lever, not just an energy one.
 - **Physios are hired with COINS** (the counterpart to gem-funded coaches): Common restores a small amount of energy, **Legendary fully restores energy and heals all active injuries**.
 - **⚠️ FOUR LIFECYCLE NEGATIVES:** **no morale system**, **no player growth or potential curve and no aging**, **no retirement**, **no surgery or rehab timeline**. A DLS player is a static card that moves only when you spend coaches — which is why §5's coaching method is the only development lever in the game.
 - **Mid-season refreshes re-rate players** (January 2026 moved Raya 83→84, Gabriel 84→85, Merino 79→80, Zubimendi 81→82, Trossard 79→80), so a card you hold can change value without you touching it.
