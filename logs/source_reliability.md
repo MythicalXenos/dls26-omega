@@ -2,7 +2,7 @@
 
 > **Purpose (RQ-20261018-022).** Every source used in the turn-35 sweep is classified here with the specific reason. A source's status is a property of the *source*, not of the individual article — a rejected source is rejected for all future use unless the underlying defect is fixed.
 > **Authority note:** this register records *why* a source is trusted or distrusted. The claim authority remains `kb/claims.jsonl`. Where a claim cites a source listed here as REJECTED or DOWNGRADED, the claim's confidence tier must reflect that.
-> Basis: ckpt-108 (`739385a`) — 1,412 claims / 348 evidence records.
+> Basis: ckpt-127 — 1,565 claims / 363 evidence records.
 
 ---
 
@@ -29,6 +29,8 @@ Useful, but never load-bearing alone. A claim resting only on one of these is ca
 | **r/DreamLeagueSoccer** | Player reports, not measurements. Excellent for *mechanics that many players independently describe* (market refresh, corner technique, tier ladder); poor for *numbers*. Multi-commenter agreement within one thread is not independence. | Set pieces, transfer market, DLL tier ladder, clan economy, matchcraft, penalty/free-kick technique |
 | **Bluestacks** | Generally accurate mode summaries; republishes across regional sites, so its "independence" is illusory. Frequently carries DLS24/DLS25 text under a DLS26 heading. | Mode descriptions, Scenarios, Exhibition, challenge structure, login cycle |
 | **gamingonphone** | Same editorial family as Bluestacks; carries a **known outlier** — a 1,200c/40g starter pack that contradicts every other source (1,500c/75g). Treat its economy figures as suspect. | Mode descriptions, challenge cadence |
+| **dlspedia.fandom.com** | Community wiki. Published the only complete **stadium sector-seat and division-gate ladders** in the corpus. Caveat: pages carry old "Great Page" dates (2018), so its tables may reflect an earlier build — its Division 3 figure (15,000) conflicts with an older wiki's 35,000, and the top-division gate has moved between 80,000 and 85,000 across builds. **Cite for structure and shape; verify the final gate in-client.** | Stadium seat ladders, division gates, sector names, pitch types |
+| **sakibpro.com · dreamkitsapp.com** | Community player databases. Independently reproduced the **complete 12-player Cult Heroes roster and its ratings**, matching dlsinside — which is what makes the C-018 resolution two-source rather than one. | Cult Heroes roster and ratings, player positions/ages/heights |
 | **mokoweb.com** | **Mod site.** Its "709MB" bundle figure and mod claims are screened out; its *descriptive* text about base-game mechanics is sometimes the only source and is used at Community Consensus with the mod material stripped. | Free-kick distance bands, general tips |
 
 **Corroboration rule:** two Tier-2 sources that agree only because both derive from the same upstream text (e.g. Bluestacks and its regional mirrors) count as **one** source, not two.

@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-126 — 1,546 claims / 360 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-127 — 1,565 claims / 363 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -144,7 +144,21 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
 
+**The stadium capacity gate** [EV-460, C2] — the rule that can silently stall a Career season:
+
+| Rule | Detail |
+|---|---|
+| **Capacity gates promotion** | Win the league without the seats and you **stay in the division**: Academy 6,462 → Div 3 15,000 → Div 2 30,000 → Div 1 45,000 → Junior Elite 60,000 → Elite 80,000 (max 90,456) |
+| **Build corners first** | Corners are the cheap seats — Corner 7 is about **100 coins for 722 seats**. Corner stands give the most seats per coin |
+| **Never half-upgrade a stand** | A partial side must later be paid for **at full price** to complete |
+| **One stand at a time, lowest to highest** | Max one stand before starting the next; **leave one corner stand un-upgraded** — 7 maxed stands hit the top gate, 8 overshoot it |
+| **Never roof the top level** | *"on the highest number you're paying for the roof and no extra seats"* |
+| **Capacity is permanent** | **Downgrading was removed around DLS24** — build to the gate, not to a design, because it cannot be undone |
+| **It is a COIN project** | Every sector level costs coins (roughly 0–650), not gems — the facilities are the gem project, the stadium is the coin project |
+
 **The Season Pass retroactivity rule** [EV-456, C1 — OFFICIAL]: rewards unlock one per 12 hours on the free track, **but a pass purchased late in the season unlocks all content regardless of those time locks** provided the Season Points are earned — and buying **instantly backfills the Premium rewards for every free tier already unlocked**. The pass is **not a subscription**. **If the pass is going to be bought at all, buy it LATE in the season:** same rewards, none of the waiting.
+
+**Cult Heroes** [EV-459, C2] — 12 players, base ratings **85/85/85/84/84/84/84/84/83/83/83/83**, from **Cult Hero Agents in Events, Drafts and the Season Pass** (3 passes × 2 heroes, one free + one premium = 6 of 12). **The 92-vs-95 conflict is resolved: 85 = base, 92 = live-event boosted, 95 = fully maxed.** They are the **weakest special set by ceiling** — collect for the card, not the rating.
 
 **The training-facility ladder** [EV-437, C2] — the unlock that makes 5.1–5.4 cheap:
 
@@ -368,4 +382,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,546 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (360 records) at ckpt-126.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,565 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (363 records) at ckpt-127.*

@@ -82,7 +82,13 @@ Each entry: the two sides with origin and date, the status, what would settle it
 - **Settles it fully:** an in-game Stadium & Facilities capture showing the next division seat requirement for the current eight-division ladder.
 - **May say meanwhile:** "Side A describes the current eight-division ladder and is the only table that fits it; the dlspedia figures are a legacy six-division table. The promotion seat requirement sits in the 35,000-45,000 band around Division 3/2, and the cheapest first capacity upgrade costs about 446 coins."
 
-### C-011 — Commercial Centre bonus scale: 13%/21% vs 2-10% vs DLS21 +6%
+### C-010: Stadium capacity per-division ladder — **RESOLVED ckpt-127, EV-460**
+
+- **Adopted ladder (dlspedia, corroborated by r/DLS threads across 2021–2024):** Academy Division **6,462** (the starting capacity) → Division 3 **15,000** → Division 2 **30,000** → Division 1 **45,000** → Junior Elite **60,000** → Elite Division **80,000**. Maximum capacity **90,456**, Auto Build ceiling **80,000**.
+- **The rule is a hard promotion gate:** *"if you finish your championship and automatically you are promoted to next division. But if you haven't a precise number (per each league) of seats you will not be promoted to next division."*
+- **Residual uncertainty:** an older fandom wiki lists Division 3 at 35,000 / Division 2 at 45,000, and a 2021 thread cites 85,000 for the top division — both earlier builds. The top-division figure has moved between 80,000 and 85,000 across builds, so **verify the final gate in-client before building the last stand**. Also note **stadium downgrading was removed around DLS24**, so capacity, once built, is permanent.
+
+## C-011 — Commercial Centre bonus scale: 13%/21% vs 2-10% vs DLS21 +6%
 - **Side A:** 13% at Level II and 21% at Level III — Bluestacks 2026, gamingonphone (three separate guides) and gamedls.net, three independent sources (EV-404).
 - **Side B:** sportsdunia's table 2% / 4% / 6% / 8% / 10% by level (EV-404) — internally inconsistent (its Level 3 kit discount is listed as 1%, breaking monotonicity) and contradicted by three sources.
 - **Side C:** DLS21-era first upgrade gave +6% match winnings (LevelWinner, EV-404) and rajatips says Level 1 = 6%.
@@ -145,9 +151,19 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Status:** OPEN. Both are community sources; no official FTG figure found. Recorded in EV-429 / CLAIM on clan reward. Needs an in-game screenshot or FTG support confirmation.
 
 ## C-018: Cult Heroes OVR (92 vs 95 max)
-- **Source A:** r/DreamLeagueSoccer 1wele5q (17 Sep 2026) — shows Insigne, Aubameyang, Dybala and De Gea all at **92**.
-- **Source B:** dlsinside.com / sakibpro.com datamine (build 13430, 2026-09-16) — max rating **95** for de Gea, Aubameyang and Dybala; **94** for Insigne. dreamkitsapp lists Vozinha at 84 while dlsinside lists 83.
-- **Status:** OPEN. Most likely Source A is showing post-boost/in-game OVR or an earlier build. Recorded in EV-430.
+
+- **Source A:** Cult Heroes cap at **OVR 95**.
+- **Source B:** Cult Heroes cap at **OVR 92**.
+
+**RESOLVED (ckpt-127, EV-459) — all three numbers are correct readings of three different states of the same card:**
+
+| Figure | What it actually is |
+|---|---|
+| **85** | The **BASE** rating. The complete official 12-player collection tops out at 85 (de Gea, Aubameyang, Dybala), with nine more at 83–84 |
+| **92** | The **LIVE-EVENT BOOSTED** rating. The App Store event copy reads *"LIVE EVENT Cult Heroes — Sign these top stars … Now available with boosted attributes"*, and the 92 reports (Insigne, Aubameyang, Dybala, De Gea) are dated 17 Sep 2026, the day after the 16 Sep launch |
+| **95** | A **FULLY MAXED** card — 85 base + the +10 coach cap |
+
+So Source A was showing post-boost/in-game OVR, Source B was showing the event-boost figure, and neither was wrong about the game. The KB's earlier note is now confirmed precisely. **The planning number is 85 base, and the collection is the weakest special set in the game by ceiling** — a community member predicted exactly this a month before launch: *"the highest stat is only 85, which is not strong enough to attract people paying."* The complete collection (dlsinside v13.430, corroborated by sakibpro and dreamkitsapp): David de Gea GK 85 · Aubameyang CF 85 · Dybala SS 85 · Insigne LW 84 · Ziyech RW 84 · Alarcón AM/CM 84 · Otamendi CB 84 · David Luiz CB/DM 84 · Blind CB/LB 83 · Shaqiri AM 83 · Herrera CM/DM 83 · Vozinha GK 83. Acquired from **Cult Hero Agents in Events, Drafts and the Season Pass** — three Season Passes are planned, each offering 2 Cult Heroes (one free, one premium), so **6 of the 12 are obtainable through season passes alone**.
 
 ## C-019: Commercial facility bonus (13%/21% vs "10% at L5, biggest FTG scam")
 - **Source A:** gamingonphone DLS25/DLS26 coin guides — Commercial Level II gives a **13%** in-game coin bonus and Level III a **21%** bonus, with the first upgrade at 75 gems.

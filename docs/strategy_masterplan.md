@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-126 — 1,546 claims / 360 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-127 — 1,565 claims / 363 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -104,11 +104,33 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 
 | Order | Facility | Why | Numbers |
 |---|---|---|---|
-| 1 | **Stadium** | Home-match coin bonus is the only compounding income source | 1,125 gems per facility; **5,625 gems total** for all five; optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [C2/C3] |
+| 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | 1,125 gems per facility; **5,625 gems total** for all five; optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [C2/C3]. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
 | 2 | **Commercial** | +13% coins at L2, **+21% at L3**; L3 also removes stadium rust | First tier 75 gems [C2/C3] |
 | 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations | See full ladder below |
 | 4 | **Medical** | Injury reduction and cheaper recovery | L1 gives −5% injury / −10% heal cost; L2–L5 **never published** [C2] |
 | 5 | **Fanzone** (new in Summer Spotlight) | **Clan bonuses + stadium discounts** | Per-level costs **never published** [EV-428/App Store, C1 on function, C5 on cost] |
+
+**The stadium ladder — the numbers behind row 1** [EV-460, C2]:
+
+| Division | Minimum seats | |
+|---|---|---|
+| Academy (start) | **6,462** | already built when the game begins |
+| Division 3 | **15,000** | |
+| Division 2 | **30,000** | |
+| Division 1 | **45,000** | |
+| Junior Elite | **60,000** | |
+| **Elite (top)** | **80,000** | Auto Build ceiling is also 80,000; absolute max 90,456 |
+
+> **Capacity is a hard promotion gate, not a bonus:** *"if you finish your championship and automatically you are promoted to next division. But if you haven't a precise number (per each league) of seats you will not be promoted to next division."* Win the league without the seats and you stay where you are.
+
+**The build order is arithmetic, not folklore** [EV-460, C2/C3]. The stadium is **8 sectors** — 2 Ends, 2 Sides, 4 Corners — each upgraded independently, and each has its own seat ladder: **Ends** 22 levels (1,323 → 9,722 seats) · **Sides** 29 levels (1,908 → 14,128) · **Corners** 43 levels (0 → 10,692). All costs are in **coins**, not gems — which is why the stadium is a *coin* project while the facilities are a *gem* project.
+
+- **Corners are the cheap seats.** Corner 7 costs about **100 coins for 722 seats**; Corner 11 adds 1,264 for about 130. Corner stands deliver the most seats per coin by a wide margin.
+- **Never upgrade the same stand twice** — *"if you build a side only partially, the next time you would have to pay the full price to complete it."*
+- **Max one stand at a time**, from the **lowest capacity stand to the highest**, and **leave one corner stand un-upgraded** — 7 maxed stands reach the top-division requirement; 8 overshoot it.
+- **Never buy a roof on the highest level** — *"on the highest number you're paying for the roof and no extra seats."*
+- **Downgrading was removed around DLS24.** Capacity, once built, is permanent — so build to the *division gate*, not to a design you like, because you cannot undo it.
+- A fully completed stadium cost one player **5,625 gems and 10,000 coins**.
 
 **Full Training ladder with prices** [EV-437, C2]:
 
@@ -300,7 +322,8 @@ FTG opens the article by stating that DLS *"is a 'game' and is not intended to b
 - **Two routes:** (a) the **Prize Ladder** — first special at **~50,000 DP**, draw is **random**, first icon ~**300–324 games** with boosters, all four WC'98 icons ~**1,370–1,428 games** against a ~200,000 DP ladder; (b) **Legendary Agents** — every use has a chance of a **World Hero** Special Player [EV-426, C1 for the agent route].
 - **WC'98 four:** Petit, Šuker, Bergkamp, Batistuta [C2].
 - **Dynamic Stars** need Dynamic Star Agents from event draws and Season Passes (3 premium + 2 free) [C3].
-- **Cult Heroes** (v13.430, 16 Sep 2026) — 12 players, signed randomly from Cult Hero Agents: **de Gea 85, Aubameyang 85, Dybala 85** (max 95); **Isco, Insigne, Ziyech, Otamendi, David Luiz 84** (max 94); **Blind, Herrera, Shaqiri, Vozinha 83** (max 93) [EV-430, C2].
+- **Cult Heroes** (v13.430, live 16 Sep 2026) — the complete 12-player collection from **Cult Hero Agents**, available in **Events, Drafts and the Season Pass**: **de Gea 85, Aubameyang 85, Dybala 85** · **Insigne 84, Ziyech 84, Alarcón 84, Otamendi 84, David Luiz 84** · **Blind 83, Shaqiri 83, Herrera 83, Vozinha 83** [EV-459, C2]. **Three Season Passes are planned, each offering 2 Cult Heroes (one free, one premium) — so 6 of the 12 are obtainable through season passes alone.**
+- **✅ C-018 RESOLVED (ckpt-127):** the 92-vs-95 conflict was **three states of the same card**. **85 = base** · **92 = the LIVE-EVENT BOOSTED rating** (App Store: *"now available with boosted attributes"*; the 92 reports are dated the day after launch) · **95 = fully maxed** (85 + the +10 coach cap). *Correction to the earlier roster:* **Isco was never in the collection** — it was a fan wish-list mention; **Francisco Alarcón** is the missing 12th player. **Planning read: Cult Heroes are the weakest special set in the game by ceiling (max 85 base)** — a community member predicted exactly that a month before launch: *"the highest stat is only 85, which is not strong enough to attract people paying."* Spend on them only if you want the card, not the rating. Sample stats: Luiz TAC 89 / STR 85 · de Gea GKR 85 / GKH 80 · Herrera STA 91 / PAS 86 / CON 86.
 - **Classic Players:** unlock to sign with **500 coins**, or by completing the game (beating your own team after First Touch United); ratings 85–97 [C2].
 - **Prize Ladder cycle = 90 days** and it unlocks coins, gems **and Classic Players** [EV-431, C2].
 - **DP economics:** career max **140 DP/match**, DLL+Draft **185 DP**; **5-goal cap**; ~**2,800 DP/day**; ~**200,000 DP** total [prior waves, C2/C3]. Per-match DP is **75–250 depending on performance** [EV-450, C3].
@@ -541,6 +564,7 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 | Building your own clan from zero | 150 gems and you "barely break even in the first season" [EV-429, C3] |
 | Mods, hacks or coin/gem generators | **OFFICIAL FTG:** infinite coins/gems do not exist, modified versions end in **account blocking**, and generators are a scam [EV-441, C1] |
 | Half-upgrading a stadium stand | "If you build a side only partially, the next time you would have to pay the full price to complete it" [C3] |
+| Building a stadium design you like before the division gate | **Downgrading was removed around DLS24** — capacity is permanent, so a 34,000-capacity ground built for looks will block promotion until you pay to raise it [EV-460, C3] |
 | Upgrading a stand **with a roof** | "On the highest number you're paying for the roof and no extra seats" [C3] |
 
 ---
@@ -596,7 +620,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | 4 | **Post-DLS25 coach breakthrough %** | Coach packs priced off a DLS20 baseline | 5/10/20 confirmed as the DLS20 baseline; post-DLS25 figures unconfirmed [C2] |
 | 5 | **Fan Approval mechanics** | Blocks the last stretch to 100% club value | ✅ **DOCUMENTED NEGATIVE (ckpt-126, EV-457)** — a dedicated two-search sweep found **no such mechanic in any documented source**; only crowd-graphics settings, fans-not-celebrating bugs, the Fan Favourite achievement and the Fanzone. **Strategy: max the full ~23-man squad and read the percentage as the output** |
 | 6 | **GCC format** (C-013) | One cup's structure unclear | OPEN conflict |
-| 7 | **LIVE rank names above "Veteran"** | Cannot name the top rank | Names known to Veteran only [C2] |
+| 7 | **LIVE rank names above "Veteran"** | Cannot name the top rank | **PARTIAL (ckpt-127):** the ladder *below* Veteran is now named — **Intermediate → Pro → Veteran**, 500 XP each [EV-461, C2]. No rank above Veteran appears in any source, so the top names stay open |
 | 8 | **12th Man winner identity** | A mechanic to watch each season | MECHANIC CLOSED (community-voted final Dream Star, EV-438 C1); FTG never names the winner |
 | 9 | **Cult Heroes OVR conflict** (C-018) | 92 vs 95 on the four 85-rated heroes | OPEN |
 | 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | **RE-OPENED (ckpt-126)** — now one community source each side; the "leans 100" note is withdrawn. Plan on neither |

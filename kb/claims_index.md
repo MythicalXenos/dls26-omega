@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:15:11Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1546**
-Distribution: Confirmed 355 / High Confidence 662 / Community Consensus 494 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **422**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:20:55Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1565**
+Distribution: Confirmed 355 / High Confidence 676 / Community Consensus 499 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **425**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,19 +10,19 @@ Distinct evidence records cited: **422**.
 | unscoped | 424 |
 | economy | 112 |
 | facilities | 77 |
+| dll | 50 |
 | clans | 49 |
-| dll | 49 |
-| career | 46 |
+| career | 47 |
+| cards | 44 |
 | transfers | 41 |
-| cards | 38 |
 | training | 38 |
 | coaches | 37 |
+| prizeladder | 36 |
 | controls | 35 |
 | cups | 35 |
 | gameplay | 35 |
-| prizeladder | 35 |
 | attributes | 34 |
-| patching | 33 |
+| patching | 34 |
 | platform | 30 |
 | customization | 29 |
 | setpieces | 29 |
@@ -43,6 +43,7 @@ Distinct evidence records cited: **422**.
 | social | 10 |
 | draft | 9 |
 | squad | 8 |
+| stadium | 8 |
 | physio | 7 |
 | difficulty | 6 |
 | monetization | 6 |
@@ -78,6 +79,7 @@ Distinct evidence records cited: **422**.
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
+| sources | 1 |
 | support | 1 |
 | tackling | 1 |
 | team | 1 |
@@ -955,7 +957,21 @@ Distinct evidence records cited: **422**.
 | CLAIM-154 | Coach rarities confirmed: FOUR categories (Fitness/SPE+ACC+STA+STR; Technical/CON+PAS+SHO+TAC; Goalkeeping/GKR+GKH; Special/ALL stats) each with th... | High Confidence | unscoped | EV-255,CLAIM-049,EV-271,EV-274 |
 | CLAIM-1548 | Clans unlock behind progression: 'once you have progressed far enough through the Ranks, you'll gain the ability to join and create Clans' (officia... | High Confidence | clans/unlock-gate | EV-458 |
 | CLAIM-155 | Per-attribute weights in training-capacity cost are POSITION-SPECIFIC. For CB (defender) tackle-polarized builds, Control (CON/控制) carries weight 2... | High Confidence | unscoped | EV-255,CLAIM-049,EV-256 (official stat semantics confirm ... |
+| CLAIM-1551 | THE COMPLETE CULT HEROES COLLECTION (12 players, DLS26 v13.430): David de Gea GK 85, Pierre-Emerick Aubameyang CF 85, Paulo Dybala SS 85, Lorenzo I... | High Confidence | cards/cult-heroes-complete-list | EV-459 |
+| CLAIM-1552 | C-018 RESOLVED: the 92-vs-95 Cult Heroes conflict is three states of the same card. 85 = the BASE rating; 92 = the LIVE-EVENT BOOSTED rating (the A... | High Confidence | cards/c-018-resolved | EV-459 |
+| CLAIM-1553 | Cult Hero Agents are the acquisition route and are available in Events, Drafts and the Season Pass (official TikTok). Three Season Passes are plann... | High Confidence | cards/cult-heroes-acquisition | EV-459 |
+| CLAIM-1555 | Sample Cult Heroes stats (dlsinside): David Luiz 84 CB/DM - TAC 89, STR 85, CON 80, STA 82, SPE 78, SHO 67; David de Gea 85 GK - GKR 85, GKH 80, PA... | High Confidence | cards/cult-heroes-sample-stats | EV-459 |
+| CLAIM-1556 | THE DIVISION SEAT LADDER: Academy Division 6,462 (the starting capacity), Division 3 15,000, Division 2 30,000, Division 1 45,000, Junior Elite 60,... | High Confidence | stadium/division-seat-ladder | EV-460 |
+| CLAIM-1557 | STADIUM CAPACITY IS A HARD PROMOTION GATE, not a bonus: 'if you finish your championship and automatically you are promoted to next division. But i... | High Confidence | stadium/capacity-promotion-gate | EV-460 |
+| CLAIM-1558 | The stadium has 8 sectors - two Ends, two Sides and four Corners - named North, North East, East, South East, South, South West, West and North Wes... | High Confidence | stadium/sectors-and-pitches | EV-460 |
+| CLAIM-1559 | THE THREE SEAT LADDERS: Ends run 22 levels from 1,323 to 9,722 seats; Sides run 29 levels from 1,908 to 14,128; Corners run 43 levels from 0 to 10,... | High Confidence | stadium/sector-seat-ladders | EV-460 |
 | CLAIM-156 | Coach application mechanic in detail: when a coach of boost level k is used, k DISTINCT attributes are drawn uniformly at random from the pool of t... | High Confidence | unscoped | EV-255,CLAIM-049,CLAIM-052 |
+| CLAIM-1560 | Sector upgrade costs run from 0 coins for the first level to roughly 300 coins at the top of the corner ladder and about 650 for the final End leve... | High Confidence | stadium/sector-costs-in-coins | EV-460 |
+| CLAIM-1564 | THE DLL RANK LADDER BELOW VETERAN IS NAMED: Intermediate -> Pro -> Veteran, with achievements worth 500 XP each ('Making Progress - Reach rank Inte... | High Confidence | dll/rank-ladder-below-veteran | EV-461 |
+| CLAIM-1565 | THE DIVISION CLIMB IS AN XP LADDER: achievements for reaching the Amateur division, Div 4, Div 3, Div 2 and the Elite division are each worth 500 X... | High Confidence | career/division-achievement-xp | EV-461 |
+| CLAIM-1567 | The Prize Ladder continues to add Classic players with partial reveals: per the official TikTok, Roy Keane's rating and year 'have not been reveale... | High Confidence | prizeladder/classic-players-partial-reveals | EV-461 |
+| CLAIM-1568 | dlsinside.com is the most comprehensive permitted-route data source in the corpus: 14,435 players, 263 teams and 255 real-club stadiums for DLS26 v... | High Confidence | sources/dlsinside-database | EV-461 |
+| CLAIM-1569 | The World Cup Heroes collection lists 8 players: Cristiano Ronaldo, Lionel Messi, Kevin De Bruyne, James Rodriguez, Keylor Navas, Ivan Perisic, Kyl... | High Confidence | cards/world-cup-heroes-list | EV-461 |
 | CLAIM-157 | Stat colors on in-game player cards follow thresholds: attribute ≥90 → blue, ≥80 → green, ≥70 → yellow, <70 → red (per applyDlsColor in LeoH321/DLS... | High Confidence | unscoped | EV-255,EV-246 |
 | CLAIM-158 | DLS26China optimal-coach decision rule for CB training: pick Gold (+3) when remaining weighted capacity ≥12 (safe for burst); Blue (+2) around 6–12... | High Confidence | unscoped | EV-255,CLAIM-049 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
@@ -1501,6 +1517,11 @@ Distinct evidence records cited: **422**.
 | CLAIM-1546 | C-017 RE-OPENED: a second independent community source names the clan top-contributor reward as 50 GEMS - contributions beyond the 350,000 cap 'wil... | Community Consensus | clans/top-contributor-50-gems | EV-458 |
 | CLAIM-1549 | A launch-era complaint states 'to complete the prize ladder, one has to play 24 matches per day, which is unacceptable, even GTA doesn't make you g... | Community Consensus | prizeladder/24-matches-per-day-complaint | EV-458 |
 | CLAIM-1550 | Season Pass activation requires 400 Season Points, daily login alone supplies 40 Season Points per day on the free track, and all free tiers togeth... | Community Consensus | economy/season-pass-activation-400sp | EV-458 |
+| CLAIM-1554 | The community predicted the Cult Heroes shape correctly before launch: '12 players, using special agent to get them, and 3 season pass with the sam... | Community Consensus | cards/cult-heroes-prediction-confirmed | EV-459 |
+| CLAIM-1561 | THE CHEAPEST STADIUM BUILD ORDER (community, now backed by the ladders): never upgrade the same stand twice; save up and upgrade one stand at a tim... | Community Consensus | stadium/cheapest-build-order | EV-460 |
+| CLAIM-1562 | STADIUM DOWNGRADING HAS BEEN REMOVED: in DLS16-DLS23 players could drop capacity below a division requirement (one downgraded from 85,000 to 35,000... | Community Consensus | stadium/downgrade-removed | EV-460 |
+| CLAIM-1563 | STADIUM CAPACITY CONFLICT: an older fandom wiki lists Division 3 at 35,000 and Division 2 at 45,000, and a 2021 thread cites 85,000 for the top div... | Community Consensus | stadium/capacity-ladder-conflict | EV-460 |
+| CLAIM-1566 | July 2026 rating changes (Tier 3 source): upgrades for Joao Pedro, Fermin Lopez and Jordan Pickford; downgrades for Marc-Andre ter Stegen, Pedro Go... | Community Consensus | patching/july-2026-rating-changes | EV-461 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
