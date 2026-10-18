@@ -1,14 +1,14 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:12:25Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1333**
-Distribution: Confirmed 308 / High Confidence 621 / Community Consensus 370 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **403**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:14:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1355**
+Distribution: Confirmed 309 / High Confidence 628 / Community Consensus 384 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **405**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 72 |
+| economy | 79 |
 | facilities | 72 |
 | career | 43 |
 | training | 38 |
@@ -18,27 +18,28 @@ Distinct evidence records cited: **403**.
 | cups | 34 |
 | patching | 33 |
 | prizeladder | 33 |
+| dll | 30 |
 | platform | 30 |
 | cards | 29 |
-| dll | 29 |
-| customization | 27 |
-| transfers | 26 |
+| customization | 28 |
+| transfers | 27 |
 | attributes | 23 |
 | modes | 19 |
+| errata | 18 |
 | events | 18 |
-| errata | 17 |
+| gameplay | 17 |
 | stamina | 17 |
-| gameplay | 16 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
 | formboost | 11 |
 | goalkeeping | 11 |
+| onboarding | 11 |
 | ui | 11 |
 | account | 10 |
 | match | 10 |
-| onboarding | 10 |
 | setpieces | 10 |
+| draft | 9 |
 | squad | 8 |
 | physio | 7 |
 | difficulty | 6 |
@@ -362,6 +363,7 @@ Distinct evidence records cited: **403**.
 | CLAIM-1318 | Dream Stars are obtained through Dream Star Agents, per the official FTG TikTok countdown. | Confirmed | cards/dream-star-agents | EV-438 |
 | CLAIM-1321 | iOS Game Centre support was added in the Winter Reload update, giving achievements and FRIEND LEADERBOARDS on iOS - the closest thing to a wider ra... | Confirmed | dll/ios-game-centre-leaderboards | EV-438 |
 | CLAIM-1322 | English League Classics are four top English-game stars available in the Prize Ladder, per the official FTG TikTok. | Confirmed | prizeladder/english-league-classics | EV-438 |
+| CLAIM-1357 | OFFICIAL FTG POSITION: infinite coins or gems do not exist, modified versions of the game end in account blocking, and coin/gem generators are a scam. | Confirmed | errata/no-infinite-currency-official | EV-441 |
 | CLAIM-136 | Build stack confirmed via static analysis of an APK in academic corpora: DLS26 is a UNITY ENGINE build (Unity Ads activities present, namespace `co... | Confirmed | unscoped | EV-249,CLAIM-115,CLAIM-072,CLAIM-094 |
 | CLAIM-140 | Default (starting) formations are set per team: 149 clubs + 79 nations are catalogued in formations.json. Examples: Man City 4-1-4-1; Man Utd/Liver... | Confirmed | unscoped | EV-251,CLAIM-077 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
@@ -853,6 +855,13 @@ Distinct evidence records cited: **403**.
 | CLAIM-1333 | Special Coach prices and value: Common 63 gems / 2 points (31.5 gems per point), Rare 168 gems / 6 points (28 gems per point), Legendary 280 gems /... | High Confidence | training/special-coach-prices | EV-439 |
 | CLAIM-1335 | LEGENDARY SCOUT TRICK: keep at least one Legendary Special coach because it reveals the next FOUR upgradable stats, and you can cancel and use a di... | High Confidence | training/legendary-scout-trick | EV-439 |
 | CLAIM-1336 | Special Coach clearing method: use Legendary Special coaches first and inspect the first three stats; if all are desirable follow with Rares; if un... | High Confidence | training/special-coach-clearing-method | EV-439 |
+| CLAIM-1342 | Dream Draft players are NOT kept - the only reward is gems at the end, so the mode is a gem engine rather than a squad-building tool. | High Confidence | draft/players-not-kept | EV-440 |
+| CLAIM-1350 | THE KEY EARLY RULE: do NOT buy legendary players early, because buying them raises team rating and makes cheap players disappear from the market; b... | High Confidence | transfers/no-early-legendaries | EV-441 |
+| CLAIM-1352 | Pick the best ATTACKER as captain because it boosts team rating, which in turn improves the players that appear in the transfer market. | High Confidence | onboarding/captain-attacker | EV-441 |
+| CLAIM-1353 | Starter rewards are 1,500 coins and 75 gems. | High Confidence | economy/starter-rewards | EV-441 |
+| CLAIM-1355 | Skill moves are swipe gestures rather than buttons, and whether the move executes depends on the player's Ball Control stat and the game engine's d... | High Confidence | gameplay/skill-moves-swipe-con | EV-441 |
+| CLAIM-1356 | Kit and crest import uses an image of at most 512x512 pixels, pasted as a URL into the importer on the Customise screen. | High Confidence | customization/kit-512-import | EV-441 |
+| CLAIM-1358 | Final league position and cups won pay SEPARATELY from the per-match prize, so always play the league and cups through to the end. | High Confidence | economy/position-and-cups-pay-separately | EV-441 |
 | CLAIM-137 | Outfield players have exactly 8 core integer attributes, each 0–100, in this fixed schema: SPE (Speed), ACC (Acceleration), STA (Stamina), STR (Str... | High Confidence | unscoped | EV-251,EV-252 |
 | CLAIM-138 | Goalkeepers use the same 8-column stat grid but two columns are semantically re-mapped: GK Reflexes (GKR) and GK Handling (GKH) replace STA and SHO... | High Confidence | unscoped | EV-251,EV-252 |
 | CLAIM-142 | Vintage/historical "special" cards (special.json) cover Champion (12, vintage years 2004–2018), Classic (24, 1984–2018), Star (23, 2025/2026 rising... | High Confidence | unscoped | EV-251,EV-248,CLAIM-132 |
@@ -1276,7 +1285,21 @@ Distinct evidence records cited: **403**.
 | CLAIM-1331 | Building a full 23-man squad (21 outfield plus GK plus a special player) took one player about half a year of play. | Community Consensus | career/squad-build-time | EV-439 |
 | CLAIM-1334 | Maxing one special player needs about 7.5 Legendary Special Coaches, roughly 2,100 gems (or 15 Rares at 2,520 gems); one source claims 2,100-2,835 ... | Community Consensus | training/special-player-max-cost | EV-439 |
 | CLAIM-1337 | Alternative Special Coach rule: always use a Common coach if at least one of the two offered stats is not what you want. | Community Consensus | training/special-coach-common-if-unwanted | EV-439 |
+| CLAIM-1338 | Dream Draft: you draft a team of 18 players from 75+ rated options for each position, and at least one Star Player is mandatory. | Community Consensus | draft/18-players-75-plus | EV-440 |
+| CLAIM-1339 | Dream Draft is a limited-time tournament of up to 7 rounds maximum, with a different opponent each round and a LIMITED selection of formations. | Community Consensus | draft/7-rounds-limited-formations | EV-440 |
+| CLAIM-1340 | In the standard Dream Draft you play against the CPU, which is why maxing Dream Points (185 for a clean sheet plus 5+ goals) is easier than in Drea... | Community Consensus | draft/cpu-opponents | EV-440 |
+| CLAIM-1341 | Dream Draft rewards are gems for winning the semi-finals and finals, plus leaderboard medals, gems and coins for winners, runners-up and third place. | Community Consensus | draft/rewards | EV-440 |
+| CLAIM-1343 | Dream Draft entry was paid in DLS24, made free-to-play for the first time in DLS25, and the community warns FTG may put it back behind a paywall; r... | Community Consensus | draft/entry-cost-history | EV-440 |
+| CLAIM-1344 | Dream Draft events run roughly every two weeks, and winning one is worth about 10-15 gems net profit. | Community Consensus | draft/frequency | EV-440 |
+| CLAIM-1345 | In themed Dream Drafts you do NOT get to choose a second Player Card if you skip the first one offered. | Community Consensus | draft/skip-penalty | EV-440 |
+| CLAIM-1346 | Community verdict on Dream Draft: the opposition is heavily weighted against you and the game feels scripted, and because losing yields nothing it ... | Community Consensus | draft/community-criticism | EV-440 |
+| CLAIM-1347 | Goal coins are capped at 30 per match (6 coins per goal for a maximum of 5 goals) - the same underlying limit as the 5-goal Dream Point cap. | Community Consensus | economy/goal-coin-cap-30 | EV-441 |
+| CLAIM-1348 | A Legendary Division home match pays roughly 150 coins even when you LOSE (about 75 base plus 75 stadium bonus), so once the division is secure you... | Community Consensus | economy/loss-floor-150-coins | EV-441 |
+| CLAIM-1349 | A whole Career Season yields about 110 gems (35 plus 75), and 10 matches yield about 2,000 coins in roughly an hour. | Community Consensus | economy/season-gem-yield | EV-441 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
+| CLAIM-1351 | Only start buy-sell cycling of cheap common players once the stadium is maxed; before that, buy them really cheap and keep selling to accumulate co... | Community Consensus | economy/common-buy-sell-timing | EV-441 |
+| CLAIM-1354 | Early in Dream League Live, play only Live EVENTS for rewards and avoid regular Live matches until the squad is ready. | Community Consensus | dll/events-only-early | EV-441 |
+| CLAIM-1359 | Season objectives are the most commonly unclaimed rewards and are the primary free gem source. | Community Consensus | economy/season-objectives-unclaimed | EV-441 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
 | CLAIM-143 | Unlicensed teams/players are present in DLS26 (e.g. Kane listed under "Unlicensed" team at Bayern due to missing Bundesliga license; 367 players in... | Community Consensus | unscoped | EV-251 |
