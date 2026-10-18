@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-112 (`ad38d20`) — 1,448 claims / 352 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-118 (`94bb636`) — 1,479 claims / 355 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -157,6 +157,10 @@ Any state → **any** state on a Patch Response trigger (see §6).
 
 **Guard to S6:** the XI each carry ~80 upgrade points.
 
+> **R-5.1 — THE LADDER FEASIBILITY RULE.** Reaching 200,000 DP inside the 90-day Prize Ladder needs **at least 15 games a day** — roughly **54 career seasons in 90 days**, ~137 hours for all four icons. **A DLL win pays ~115 DP against a Career win's ~65 DP, so run the ladder on DLL.** Buy DP boosts **early** in a ladder: unused boosts carry over, and they do nothing on a dead ladder. **[EV-453, C3 / EV-452, C1]**
+
+> **R-5.2 — BOOST EXCLUSIONS.** DP boosts apply to Career, Dream Draft, Scenario and DLL matches only. **Exhibition and Friend Matches earn no boosted DP** — practice there, farm DP elsewhere. **[EV-452, C1]**
+
 ---
 
 ### S6 — Squad assembly (the market layer)
@@ -228,7 +232,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 - **Dream Points:** ~2,800/day, ~200,000 total; **career 140 / DLL + Draft 185**; 5-goal cap. [EV-437, C2]
 - **Prize Ladder: 90 days**, first special player at **~50,000 DP** ≈ **300–324 matches**. [EV-437, C2]
 - **Special coaches are the ONLY choose-your-stat coaches** — 2 randomised options, one fitness one technical: Common 63g/2pts · Rare 168g/6pts · Legendary 280g/12pts = **23.3 gems/point**. [EV-439, C2]
-- **Maxing a special player ≈ 7.5 Legendary Special Coaches ≈ 2,100 gems.** Plan on 2,100. **[EV-439, C2]** (C-020 open)
+- **Maxing a special player ≈ 6–7 Legendary Special Coaches ≈ 2,000–2,100 gems.** **C-020 RESOLVED** [EV-453, C3]
 - **The Legendary Scout trick:** one Legendary Special Coach reveals the next 4 upgradable stats and **can be cancelled without consumption**; clear unwanted stats legendary → rare → common. [EV-439, C2]
 
 ### S9 — Maintenance (the goal)
@@ -353,8 +357,8 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ### 7.3 Audit verdict
 
-**PASS with stated limits.** The rule set is internally consistent, fully referenced, and safe to execute. Rules R-7.1 to R-7.3 were added at ckpt-109 and rules 6.9 to 6.12 at ckpt-112; the gacha lever (6.9) is the single highest-value collection rule in the file. The open gaps are all *numeric refinements* that change an optimum at the margin, not the direction of the plan. None of them blocks starting.
+**PASS with stated limits.** The rule set is internally consistent, fully referenced, and safe to execute. Rules R-7.1 to R-7.3 were added at ckpt-109, rules 6.9 to 6.12 at ckpt-112, and rules R-5.1 and R-5.2 at ckpt-119; the gacha lever (6.9) is the single highest-value collection rule and the ladder feasibility rule (R-5.1) the single most important planning rule. The open gaps are all *numeric refinements* that change an optimum at the margin, not the direction of the plan. None of them blocks starting.
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,448 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (352 records) at ckpt-112.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,479 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (355 records) at ckpt-118.*
