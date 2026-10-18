@@ -149,3 +149,8 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Source B:** dlsinside.com / sakibpro.com datamine (build 13430, 2026-09-16) — max rating **95** for de Gea, Aubameyang and Dybala; **94** for Insigne. dreamkitsapp lists Vozinha at 84 while dlsinside lists 83.
 - **Status:** OPEN. Most likely Source A is showing post-boost/in-game OVR or an earlier build. Recorded in EV-430.
 
+## C-019: Commercial facility bonus (13%/21% vs "10% at L5, biggest FTG scam")
+- **Source A:** gamingonphone DLS25/DLS26 coin guides — Commercial Level II gives a **13%** in-game coin bonus and Level III a **21%** bonus, with the first upgrade at 75 gems.
+- **Source B:** r/DreamLeagueSoccer 176ntor (Oct 2023) — "Commercial facility is the biggest FTG scam, it was good in DLS20, but don't put your gems there", with a comment claiming **10% for level 5** costing a total of **1,000+ gems**.
+- **Status:** OPEN. The two sources disagree on both the magnitude and the shape of the curve, and Source B is a DLS23-era complaint. Recorded in EV-437. The masterplan's facility-priority table should be re-checked once resolved.
+

@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:05:55Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1286**
-Distribution: Confirmed 303 / High Confidence 593 / Community Consensus 356 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **399**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:07:38Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1311**
+Distribution: Confirmed 303 / High Confidence 612 / Community Consensus 362 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **401**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -22,19 +22,20 @@ Distinct evidence records cited: **399**.
 | dll | 28 |
 | customization | 27 |
 | transfers | 26 |
+| training | 25 |
 | attributes | 23 |
-| training | 22 |
 | modes | 19 |
 | events | 18 |
 | errata | 17 |
 | stamina | 17 |
+| gameplay | 16 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
+| formboost | 11 |
 | goalkeeping | 11 |
 | ui | 11 |
 | account | 10 |
-| formboost | 10 |
 | match | 10 |
 | onboarding | 10 |
 | setpieces | 10 |
@@ -51,9 +52,11 @@ Distinct evidence records cited: **399**.
 | chemistry | 4 |
 | ratings | 4 |
 | injuries | 3 |
+| medical | 3 |
 | multiplayer | 3 |
 | settings | 3 |
 | challenges | 2 |
+| formations | 2 |
 | licensing | 2 |
 | shooting | 2 |
 | 12thman | 1 |
@@ -61,11 +64,11 @@ Distinct evidence records cited: **399**.
 | anticheat | 1 |
 | bugs | 1 |
 | classics | 1 |
+| commercial | 1 |
 | complaints | 1 |
 | defending | 1 |
 | design | 1 |
 | features | 1 |
-| formations | 1 |
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
@@ -814,7 +817,26 @@ Distinct evidence records cited: **399**.
 | CLAIM-1287 | LIVE rank names are confirmed to exactly six - Rookie, Amateur, Semi-Pro, Intermediate, Pro and Veteran - each a 500 XP achievement, with nothing p... | High Confidence | dll/rank-names-six | EV-435 |
 | CLAIM-1288 | DLL win-count achievements: Kick Off (5 wins), First Steps (25), Finding Form (50) and In the Flow (100), each worth 500 XP. | High Confidence | achievements/dll-win-counts | EV-435 |
 | CLAIM-1289 | SOURCE RELIABILITY CONFIRMED: playdreamleaguesoccer.com is an AI-generated content farm. Beyond the already-flagged chemistry and Fluid Formations ... | High Confidence | errata/playdreamleaguesoccer-content-farm | EV-435 |
+| CLAIM-1291 | When defending and holding the B button, do NOT use the joystick - the player automatically moves toward the ball. | High Confidence | gameplay/b-defence-no-joystick | EV-436 |
+| CLAIM-1292 | ANTI-WING SPAM: do not tackle the outermost player as the opponent switches the ball; instead switch to defensive mode and run your players BACKWAR... | High Confidence | gameplay/anti-wing-spam | EV-436 |
+| CLAIM-1293 | ANTI-C SPAM: run central midfielders backwards to intercept lofted passes, then switch to attacking mode and counter immediately. | High Confidence | gameplay/anti-c-spam-backwards | EV-436 |
+| CLAIM-1294 | CLOSE-CONTROL TOUCH FIX: just before switching direction while dribbling at pace, hold the screen for close control to stop the extra unwanted touc... | High Confidence | gameplay/close-control-touch-fix | EV-436 |
+| CLAIM-1295 | FREE-KICK DEFENCE: move a player onto the goal line before the kick is taken; that player is auto-switched to quickly and the double-tap 'trick sho... | High Confidence | gameplay/free-kick-goal-line-trick | EV-436 |
+| CLAIM-1296 | C-SPAM DEFENCE ESCALATION LADDER: head the ball diagonally backwards and slightly toward the second striker; if the opponent still C-spams, escalat... | High Confidence | gameplay/c-spam-escalation-ladder | EV-436 |
+| CLAIM-1297 | A-SPAM DEFENCE (crossing side to side then cutting back to a striker in the box): switch to 4-1-2-1-2 DEFENSIVE, because once the opponent reaches ... | High Confidence | gameplay/a-spam-defence | EV-436 |
+| CLAIM-1298 | SECONDARY PRESS beats the main press button: use the secondary press so a teammate applies pressure while you position your player to block the pas... | High Confidence | gameplay/secondary-press | EV-436 |
+| CLAIM-1299 | TURN AUTO-SWITCH OFF to counter C-spam, practising in Career Mode first because it feels wrong initially. | High Confidence | gameplay/auto-switch-off | EV-436 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
+| CLAIM-1300 | COUNTER-ATTACK RECIPE: 3 attackers up front with fast wingers (Salah right, Vinicius or Dembele left) and a clinical striker; win the ball, pass to... | High Confidence | gameplay/counter-attack-recipe | EV-436 |
+| CLAIM-1301 | C-SPAM OFFENSIVE: tall, fast forwards using the C button at a power bar slightly over half beats the defensive line and produces a 1v1. | High Confidence | gameplay/c-spam-offence | EV-436 |
+| CLAIM-1302 | LONG B PASS META: diagonal grounded B passes to wingers work best when you dispossess the opponent in your own half - press the Heatmap button and ... | High Confidence | gameplay/long-b-pass-meta | EV-436 |
+| CLAIM-1303 | General defensive rules: never push forward with your defenders, use a DM to press in midfield, play zonal defending out of possession, slide-tackl... | High Confidence | gameplay/defensive-rules | EV-436 |
+| CLAIM-1304 | Tier-1 possession model: hold the ball and build slowly because the opponent cannot score while you have it, using short accurate midfield passes a... | High Confidence | gameplay/possession-model | EV-436 |
+| CLAIM-1305 | Avoid blind C passes and blind shots; dribble while stopped, and call out the goalkeeper when necessary. | High Confidence | gameplay/no-blind-passes | EV-436 |
+| CLAIM-1308 | Training facility ladder with prices: L1 75 gems / 5% coach discount; L2 150 gems / 10% discount + more formations; L3 225 gems / 15% discount + mo... | High Confidence | training/ladder-with-prices | EV-437 |
+| CLAIM-1309 | Each Training facility upgrade unlocks up to three new formations, giving about 15 formations by Level 2; the community advice is to stop at Level ... | High Confidence | training/formations-per-level | EV-437 |
+| CLAIM-1310 | Training Level 4 is the coach-farming unlock: below it, legendary coaches cost 200+ gems each; at Level 4 and above they fall under 200 gems. | High Confidence | training/level4-coach-farming-unlock | EV-437 |
+| CLAIM-1311 | Medical facility Level 1 is the only numerically documented tier: healing cost down 10% and injury chance down 5%; later tiers are described only q... | High Confidence | formboost/medical-level1-only | EV-437 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
 | CLAIM-137 | Outfield players have exactly 8 core integer attributes, each 0–100, in this fixed schema: SPE (Speed), ACC (Acceleration), STA (Stamina), STR (Str... | High Confidence | unscoped | EV-251,EV-252 |
@@ -1226,6 +1248,12 @@ Distinct evidence records cited: **399**.
 | CLAIM-1283 | GCC difficulty scales with the DIVISION you are in, not with the opponent club's star rating - multiple players report the GCC is the EASIEST compe... | Community Consensus | cups/gcc-difficulty-division-scaled | EV-434 |
 | CLAIM-1284 | The GCC team pool is about 25 named clubs (Arsenal, As Monaco, Barcelona, BC Nice, Chelsea, Crystal Palace, Everton, I Milan, J Turin, Leicester, B... | Community Consensus | cups/gcc-team-pool | EV-434 |
 | CLAIM-1285 | The GCC is the only cup competition open to ALL teams in the game, whereas the Diamond Cup is restricted to Elite and Legendary Division clubs. | Community Consensus | cups/gcc-universal-vs-diamond | EV-434 |
+| CLAIM-1306 | Long shots have more than 75% accuracy in DLS with the correct power and player, making them a viable attack without breaking the defensive line. | Community Consensus | gameplay/long-shot-accuracy | EV-436 |
+| CLAIM-1307 | FORMATION META IS UNSETTLED: 4-4-2 is advocated for balance (LM/RM as wingers with full-backs supporting both phases), tier-1 guides favour 4-1-2-1... | Community Consensus | formations/meta-unsettled | EV-436 |
+| CLAIM-1312 | GEM-TO-GAMES healing conversion: 35 gems = 7 games out, 25 gems = 5 games, 10 gems = 2 games, 5 gems = 1 game. | Community Consensus | medical/gem-to-games-conversion | EV-437 |
+| CLAIM-1313 | Legendary Physio costs 150 coins with maxed facilities (250 coins otherwise), restores 50% energy and heals ALL active injuries; Rare restores 20% ... | Community Consensus | medical/physio-tiers-cost | EV-437 |
+| CLAIM-1314 | A mid-game Team Boost and a post-match Team Physio both restore 10% stamina, and individual healing costs about 2-4 coins per player. | Community Consensus | medical/team-boost-10-percent | EV-437 |
+| CLAIM-1315 | CONFLICT on the Commercial facility: gamingonphone states Level 2 gives a 13% coin bonus and Level 3 a 21% bonus, while a Reddit summary calls it '... | Community Consensus | commercial/bonus-conflict | EV-437 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
