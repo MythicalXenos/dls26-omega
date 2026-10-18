@@ -1,53 +1,53 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:48:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1153**
-Distribution: Confirmed 297 / High Confidence 537 / Community Consensus 290 / Speculative 28 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **384**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:54:17Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1175**
+Distribution: Confirmed 297 / High Confidence 556 / Community Consensus 293 / Speculative 28 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **386**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| facilities | 70 |
+| facilities | 71 |
 | economy | 65 |
 | coaches | 35 |
+| career | 34 |
 | controls | 34 |
 | patching | 32 |
 | platform | 30 |
-| career | 29 |
 | clans | 28 |
 | customization | 27 |
 | prizeladder | 26 |
 | cups | 23 |
+| transfers | 22 |
 | attributes | 21 |
-| transfers | 21 |
-| modes | 18 |
+| modes | 19 |
 | cards | 17 |
 | events | 17 |
+| stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
-| errata | 13 |
+| errata | 14 |
+| dll | 13 |
 | training | 13 |
-| dll | 11 |
 | ui | 11 |
 | account | 10 |
 | match | 10 |
 | setpieces | 10 |
 | onboarding | 9 |
-| stamina | 9 |
+| physio | 7 |
 | formboost | 6 |
 | monetization | 6 |
 | save | 6 |
 | difficulty | 5 |
 | discipline | 5 |
 | endgame | 5 |
-| physio | 5 |
 | referee | 5 |
 | weather | 5 |
 | ai | 4 |
+| chemistry | 4 |
 | squad | 4 |
-| chemistry | 3 |
 | injuries | 3 |
 | multiplayer | 3 |
 | ratings | 3 |
@@ -749,6 +749,25 @@ Distinct evidence records cited: **384**.
 | CLAIM-1146 | Goals beyond the fifth in a single match earn no additional Dream Points, so there is no benefit to score padding past five. | High Confidence | prizeladder/dp-five-goal-cap | EV-420 |
 | CLAIM-1147 | Dream League Live Tier does not affect the Dream Points earned - the mode pays more per match than career (185 vs 140) but is harder, so offline wi... | High Confidence | prizeladder/dp-tier-independent | EV-420 |
 | CLAIM-1154 | 'Junior Elite Division' is confirmed as a real historical DLS division name via the 'Time To Step Up' achievement, validating dlspedia's legacy sta... | High Confidence | facilities/junior-elite-division | EV-420 |
+| CLAIM-1158 | DLS26 has exactly 42 Google Play achievements worth 500 XP each (21,000 obtainable XP); as of capture 912 players were tracked with 13,727 achievem... | High Confidence | career/achievement-set-dls26 | EV-421 |
+| CLAIM-1159 | Dream League Live win achievements: Kick Off (5 wins), First Steps (25), Finding Form (50), In the Flow (100) and Full Stride (150). | High Confidence | dll/win-achievements | EV-421 |
+| CLAIM-1160 | Scenario achievements: Scenario Starter (1), Finding Your Feet (5), Tactical Thinker (10), Matchday Mastery (25) and Scenario Specialist (50) - Sce... | High Confidence | modes/scenario-achievements | EV-421 |
+| CLAIM-1161 | Team-rating achievement milestones: Building Blocks (65), Rising the Ranks (68), Team Chemistry (72), Top Squad (75) and Ultimate XI (80) - indepen... | High Confidence | transfers/rating-achievements | EV-421 |
+| CLAIM-1162 | Gold-medal achievements: Taste of Victory (1), Golden Start (5), Trophy Room (10), Decorated Club (25) and Legendary (50). | High Confidence | career/gold-medal-achievements | EV-421 |
+| CLAIM-1163 | Stadium-capacity achievements use a round-number ladder: Local Grounds (15,000), Growing Crowd (20,000), Fortress Forming (30,000), World-Class Sta... | High Confidence | facilities/capacity-achievements-dls26 | EV-421 |
+| CLAIM-1164 | DREAM LEAGUE LIVE RANK NAMES confirmed for the current build: Rookie, Amateur, Semi-Pro, Intermediate, Pro and Veteran, with achievements awarded f... | High Confidence | dll/rank-names | EV-421 |
+| CLAIM-1165 | Career-division achievements: First Whistle (Amateur), Rising Contender (Div 4), League Challenger (Div 3), Promotion Push (Div 2), Top Flight (Div... | High Confidence | career/division-achievements | EV-421 |
+| CLAIM-1166 | Remaining DLS26 achievements: Stronger Together (join a clan), Hattrick Hero (score a hattrick with any player), First Signing (sign a player in th... | High Confidence | career/misc-achievements | EV-421 |
+| CLAIM-1167 | 'Team Chemistry' is only the ACHIEVEMENT NAME for reaching a 72 team rating - the word 'chemistry' has no mechanical meaning in DLS26, which explai... | High Confidence | chemistry/achievement-name-only | EV-421 |
+| CLAIM-1169 | After each match players regenerate 30% of maximum stamina, and any player left on the bench for a whole match regains FULL stamina - a two-squad r... | High Confidence | stamina/post-match-regen | EV-422 |
+| CLAIM-1170 | A full squad needs roughly 2 hours of real time to return to full stamina, which is why filling every roster slot early is a priority. | High Confidence | stamina/full-recovery-time | EV-422 |
+| CLAIM-1171 | Only three substitutions are allowed within regulation time, and 5-6 players may reach orange stamina after a full game. | High Confidence | stamina/substitution-limit | EV-422 |
+| CLAIM-1172 | The five-man substitution sweet spot is the 60th-70th minute, targeting players with an orange stamina bar or teardrop marker: players subbed in du... | High Confidence | stamina/substitution-timing | EV-422 |
+| CLAIM-1173 | Never substitute in the first half unless a player is injured - half-time restores a small amount of stamina and the game offers a 30-coin team for... | High Confidence | stamina/no-first-half-subs | EV-422 |
+| CLAIM-1174 | A post-match Team Recovery button, a mid-game Team Boost and a post-game Team Physio all restore exactly 10% stamina and are functionally equivalent. | High Confidence | stamina/recovery-tools-10pct | EV-422 |
+| CLAIM-1175 | Physio costs are corroborated by two independent sources: Common 50 coins for +10% team energy, Rare 100 coins for +20%, and Legendary 250 coins fo... | High Confidence | physio/costs-corroborated | EV-422 |
+| CLAIM-1177 | Tired players are slower, tackle less effectively and are more prone to injury, so key players should be substituted before the final 20 minutes. | High Confidence | stamina/tired-injury-risk | EV-422 |
+| CLAIM-1179 | TERMINOLOGY RESOLVED: CON means Control (ball control/dribbling), not Condition - official FTG stat semantics tie CON to dribbling, and injury pron... | High Confidence | errata/con-terminology | EV-422 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1093,7 +1112,10 @@ Distinct evidence records cited: **384**.
 | CLAIM-1156 | Live Transfers list players closely track your club's overall rating, so Academy-level clubs are offered commons rated 67 or below. | Community Consensus | transfers/market-tracks-club-ovr | EV-420 |
 | CLAIM-1157 | APK download size varies by build and region: AppBrain reports 185.97 MB for the current DLS26 Android build against the App Store's 269.6 MB figure. | Community Consensus | platform/apk-size-variance | EV-420 |
 | CLAIM-116 | Special-player taxonomy with counts (dlsinside database at build 13.430, single database): Cult Heroes 12, World Cup Champions 8, World Cup Heroes ... | Community Consensus | unscoped | EV-238,S-20261017-057 (sibling branch service record, dls... |
+| CLAIM-1168 | Achievement rarity shows the DLS26 progression curve: First Signing 83.22%, Back Of The Net 43.53%, Debut 42.87%, Elite Status 27.08%, Iconic Arena... | Community Consensus | career/achievement-rarity-curve | EV-421 |
 | CLAIM-117 | A DLS 27 cycle is being prepared: a dlsinside blog post (25 Aug 2026) covers 'DLS 27: All New, Returning, and Removed Teams' and a kit app advertis... | Community Consensus | unscoped | EV-240,S-20261017-057 (sibling branch service record, dls... |
+| CLAIM-1176 | Individual physio use should be capped at two players per match and 6-8 coins, and community consensus is that team physios are poor value compared... | Community Consensus | physio/individual-vs-team-value | EV-422 |
+| CLAIM-1178 | A single App Store review (Apr 2026) reports hidden daily fatigue - after roughly 10 matches in a day the team plays slower and less organised even... | Community Consensus | stamina/hidden-daily-fatigue | EV-422 |
 | CLAIM-118 | App Store review sentiment on the DLS26 listing (chunk captured 2026-10-11): wish-list items include managing other teams and choosing a league at ... | Community Consensus | unscoped | EV-173 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
