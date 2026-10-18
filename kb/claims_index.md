@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T11:01:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2271**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 953 / Speculative 78 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **486**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T11:20:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2278**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 957 / Speculative 81 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **487**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -14,10 +14,10 @@ Distinct evidence records cited: **486**.
 | gameplay | 81 |
 | transfers | 80 |
 | cards | 71 |
+| career | 69 |
 | clans | 67 |
-| career | 66 |
+| errata | 62 |
 | setpieces | 60 |
-| errata | 59 |
 | controls | 56 |
 | prizeladder | 48 |
 | coaching | 45 |
@@ -63,6 +63,7 @@ Distinct evidence records cited: **486**.
 | monetization | 6 |
 | referee | 6 |
 | save | 6 |
+| shooting | 6 |
 | weather | 6 |
 | accounts | 5 |
 | audit | 5 |
@@ -72,7 +73,6 @@ Distinct evidence records cited: **486**.
 | gacha | 5 |
 | licensing | 5 |
 | ratings | 5 |
-| shooting | 5 |
 | ai | 4 |
 | exhibition | 4 |
 | sources | 4 |
@@ -2225,6 +2225,10 @@ Distinct evidence records cited: **486**.
 | CLAIM-2272 | THE $1 CONVERSION: 'That $1 purchase actually got me a few extra coins enough to buy Messi after finding him through a common card in transfers... ... | Community Consensus | economy/small-purchase-converted-to-coins | EV-522 |
 | CLAIM-2273 | THE DEEP-442 TO BALANCED-442 SHIFT: 'I used to play a deep 442 formation the previous seasons of the game to counter the guys who keep spamming lon... | Community Consensus | tactics/deep-442-to-balanced-442 | EV-522 |
 | CLAIM-2274 | THE GEM RULE, restated by a DLS26 player: 'Avoid spending gems on anything other than upgrading facilities or training special players. Play and tr... | Community Consensus | economy/gem-rule-restated | EV-522 |
+| CLAIM-2276 | THE COMPLETE CAREER SEASON MATCH COUNT: '**15 (league) + 9 (GC cup) + 5 (diamond cup) + 1 (allstar match) + 7 (international cup) + 3 (allstar cup)... | Community Consensus | career/full-season-match-count-40 | EV-523 |
+| CLAIM-2277 | ⚠️ THE RED ZONE'S REAL CONSEQUENCE, which the corpus understated: the corpus records the red zone as a Legendary Division relegation trigger (CLAIM... | Community Consensus | career/red-zone-forces-restart | EV-523 |
+| CLAIM-2278 | THE FRIENDLY OFFER AFTER A CUP LOSS: 'If you lose at any stage of the competition... **you are asked if you want to play a friendly against a rando... | Community Consensus | career/friendly-offer-after-cup-loss | EV-523 |
+| CLAIM-2279 | A CONFLICT ON THE GLOBAL CHALLENGE CUP TEAM COUNT: the wiki describes the GC Cup as matching 'all **64 teams** against one another in a single-legg... | Community Consensus | errata/gc-cup-team-count-conflict | EV-523 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
@@ -2366,6 +2370,9 @@ Distinct evidence records cited: **486**.
 | CLAIM-2266 | THE FULL DLS26 TEAM ROSTER with per-club player counts (dlsinside, 16 Sep 2026): A Bergamo 29, A Bilbao 36, A Madrid 34, A Milan 30, Aberdeen 28, A... | Speculative | licensing/team-roster-player-counts | EV-521 |
 | CLAIM-2267 | THE DLS26 LAUNCH COMPLAINT SET, recorded so the corpus carries the negative case as well as the positive: 'the goal does not feel they're in the ga... | Speculative | bugs/dls26-launch-complaint-set | EV-521 |
 | CLAIM-2275 | ⚠️ A CONFLICT WITH A REJECTED SOURCE: lfbb.net claims that linking Facebook to DLS gave 150 gems (plus 200 for Twitter and 50 for a shared result).... | Speculative | errata/facebook-linking-claim-contradicted | EV-522 |
+| CLAIM-2280 | AN ERRATUM: dontruko's list of the eight divisions omits Division 1 entirely - academic, amateur, division 4, division 3, division 2, elite and leg... | Speculative | errata/dontruko-division-list-omits-d1 | EV-523 |
+| CLAIM-2281 | THE 70% SHOT POWER CEILING: 'the ideal power range to score a goal is filling the bar to a maximum of 70%.' **Recorded at Speculative** - it confli... | Speculative | shooting/70-percent-power-ceiling | EV-523 |
+| CLAIM-2282 | TWO NEW AI CONTENT FARMS: archon.progressiveparts.com and eliselegrow.com publish an identical '22 Tips To Dominate Dream League Soccer' article wi... | Speculative | errata/two-new-ai-content-farms | EV-523 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |

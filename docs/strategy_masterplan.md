@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-185 — 2,271 claims / 424 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-186 — 2,278 claims / 425 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -256,6 +256,10 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 > **The mechanic that makes timing free:** *"you get to advance a SP level every 10 hours. If you don't play every 10 hours, the game will **store** the level so that you can advance multiple levels at once on a later time."* The free track's drip-feed is a **storage system, not a penalty** — and because a late purchase backfills every premium tier you already unlocked for free, **waiting costs nothing and buying early buys nothing extra.** **Buy the pass LATE in the season, or not at all.**
 - Progression Bank: accumulates coins and gems from DLL XP over a **10-day season**, paid out in full at season end [EV-431, C2]
 - Weekly DLL leaderboard: gems for **placement** *and* gems for playing a set number of DLL matches that week [EV-431, C2]. **Official cadence:** leaderboards *"reset at regular intervals (from 3-30 days)"* and pay by final position [EV-462, **C1**] — the 10-day Progression Bank season sits inside that range
+
+**A full Career season at the top is 40 matches** [EV-523, C3]: *"15 (league) + 9 (GC cup) + 5 (diamond cup) + 1 (allstar match) + 7 (international cup) + 3 (allstar cup) = 40 (total)."* **That is the denominator the time-efficiency unlock below is measured against** — the auto-finish-and-lose tactic collapses the league portion to about ten played matches, which is where the ~2,000-coins-an-hour figure comes from. It also fixes the per-division gem income: forty matches is the base, not fifteen.
+
+> **⚠️ AND THE RED ZONE IS HARSHER THAN THE CORPUS RECORDED** [EV-523, C3]. The corpus had the red zone as a Legendary Division **relegation** trigger. The wiki's account is stronger and applies lower down: *"if you concede until your team gets in the red zone in the fixtures, **you have to restart**."* **Not a relegation — a restart.** So a bad run in a lower division risks the whole season, which raises the weight of the corpus's never-concede advice early on.
 
 ### PHASE 2 — Weeks 1–3: the ranked climb
 

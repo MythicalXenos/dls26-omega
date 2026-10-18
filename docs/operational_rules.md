@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-185 — 2,271 claims / 424 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-186 — 2,278 claims / 425 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -81,6 +81,9 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 2.2 | Win Career matches by **4+ goals** to maximise Season Points (40 SP/day target) | SP | EV-437 |
 | 2.3 | Rotate for stamina: **30% regen** per match played, **full regen** on the bench, sub at **60–70 min**, **3-sub limit** | stamina | EV-437 |
 | 2.4 | The **cup follows your current division** — you get one shot per division per season | cup | EV-437 |
+| 2.4b | **A full top season is 40 matches** (15 league + 9 GC + 5 diamond + 1 allstar + 7 international + 3 allstar cup) - the denominator the time-efficiency unlock is measured against [EV-523, C3] | budget | EV-523, C3 |
+| 2.4c | **⚠️ The red zone forces a RESTART** - not merely a relegation, and it applies in the lower divisions too [EV-523, C3] | risk | EV-523, C3 |
+| 2.4d | **A friendly is offered after a cup loss** - take it, a free extra match before the next league season [EV-523, C3] | coins | EV-523, C3 |
 | 2.5 | Check the stadium class requirement **before** the final rounds, not after | promotion | EV-437 |
 
 ---
