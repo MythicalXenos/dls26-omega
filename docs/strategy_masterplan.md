@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-096 (`9438d3b`) — 1,355 claims / 343 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-098 (`4720b91`) — 1,379 claims / 345 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -117,6 +117,38 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 **Base rating ceiling is 86** (Dembélé/Mbappé/Kane/Haaland cluster) — special cards sit above it [EV-426, C3, conflict noted].
 
 **The counter-intuitive early rule** [EV-441, C2]: **do NOT buy legendary players early.** Buying them raises your team rating, and a higher rating makes the *cheap* players disappear from the market — which kills the coach-farming loop that actually builds your squad. Buy one or two fast common or rare players to win games, and only start buy-sell cycling once the stadium is maxed. Also pick the **best attacker as captain**: it boosts team rating, which improves who appears in the market.
+
+### PHASE 3.4 — Transfer market mechanics [EV-442, C2/C3]
+
+This is the most operationally important layer in the game, and almost every guide gets it wrong.
+
+**The refresh rule:** the Live Transfer Market refreshes **after every match you play**.
+
+**What does NOT refresh it** — and this is the key insight:
+
+| Action | Earns coins? | Refreshes the market? |
+|---|---|---|
+| Play a match | Yes | **Yes** |
+| **Forfeit a Career match** | Yes | **No** |
+| **Play scenarios** | Yes (50/day) | **No** |
+| **Exhibition matches** | Yes | **No** |
+| **Watch free ads** | Yes (30 each) | **No** |
+| **Dream Draft** | — | **No** |
+
+> **Why this matters:** you can farm coins for a specific target player **without burning the market slot they are sitting in.** This is the correct answer to "I can't afford the player I want."
+
+**Fastest refresh:** quit a **LIVE** match at half-time (or play the first half and forfeit).
+
+**Lock Player — the paid answer to waiting:** spend **20 or 40 gems** to lock any player on the live transfer market for **24 hours**. They survive the next match refresh, a small lock sign appears on their card, and they vanish as normal when the period ends.
+
+**Other rules that catch people out:**
+- **Released players do reappear** — after a grace period during which you can buy them back from the release area. But **collection pieces never come back**, and rare/common cards may take a long wait.
+- **No duplicates:** you cannot buy a player you already own. To get a new version of a card you must first sell the one you have.
+- **Buy the highest-rated player at each refresh** — it raises team strength and attracts better players.
+- **Legendary players** appear individually or as **Top Picks**, and land in the **~1,500–2,800 coin** band once your rating attracts interest.
+- **Scouts:** Common 75 coins, Legendary 500 coins. The Common's 5% legendary chance is good early value.
+- **Release yields coaches, not coins** — this *is* the coach-farming loop.
+- **Ignore the "rename your manager" trick.** One thread claims renaming your manager and nationality to a target player's makes them appear in 20–40 matches; the poster themselves states some say it works and others that it doesn't. **Speculative (C4) — do not plan around it.**
 
 ### PHASE 3.5 — Dream Draft (a gem engine, not a squad builder) [EV-440, C3]
 
@@ -386,6 +418,21 @@ Once a division is **mathematically secure** — typically after 9–10 wins in 
 - A whole Career Season still yields **~110 gems** (35 + 75), and 10 matches produce **~2,000 coins in about an hour**.
 
 This converts Career Mode from a time sink into a background coin farm and is the single biggest quality-of-life gain available.
+
+**Gem ledger for a full season** [EV-443, C3] — where the free gems actually come from:
+
+| Source | Gems |
+|---|---|
+| Dream League Live (Progression Bank) | ~6,000 |
+| Progression Bank | 1,640 |
+| DLL leaderboard (most DLL XP) | 100 |
+| DLL challenges | 180 |
+| Season Pass ladder (20+25+10+30+40+125+50) | 300 |
+| Daily + weekly challenges | 897 |
+| **Clans** (25 + 150 at 10M CP + 100 in-clan #1) | **275** |
+| DP Points Ladder | 215 |
+
+Two hard thresholds: **DLL pays gems for a season finish with a minimum of 14 points**, and the **final DP ladder gem reward needs ~145,000 DP**.
 
 **Every 90 days:**
 1. Prize Ladder cycle closes — first special at ~50,000 DP, all four at ~200,000
