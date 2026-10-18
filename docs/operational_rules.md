@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-158 — 1,927 claims / 397 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-159 — 1,945 claims / 398 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -398,7 +398,10 @@ Hard thresholds: **DLL pays gems only with ≥14 points**; the final DP ladder g
 
 - **GCC:** online, **128 teams / 32 groups of 4** → R64, ~7 rounds, **10 gems/round + ~25 to win**. **Difficulty scales with DIVISION, not club stars** — you cannot out-star it. [EV-437, C2]
 - **Diamond Cup:** ~32 teams. [EV-437, C2]
-- **Scenarios:** 50 coins daily, 4 tiers, offline, and **the hardest content in the game**. [EV-445, C2]
+- **Scenarios:** 50 coins daily, 4 tiers, offline, and **the hardest content in the game**. [EV-445, C2] **DLS26 raised the difficulty further** [EV-495, C3] - price the 50 coins against several attempts, not one.
+- **Goalkeeping is a luck factor, not a system** [EV-496, C3]: *"All Goalkeepers like to play dodge ball"* and *"never depend on GKs."* So coach the back line, not the keeper - and remember the keeper **auto-clears** the ball away when it is in range and an opponent is about to win it.
+- **Rush the keeper late** [EV-496, C3]: hold C only once the attacker is *"almost to the box"*. The yield is about one goal saved every two matches, so the downside of rushing early is worse than the upside.
+- **Dream Draft is a second test surface** [EV-496, C3] - fresh lineups and balanced pools that **do not touch the main save**, so it can answer the device-testable questions and, unlike Exhibition, it can pay. Enter at **500 coins** rather than 40 gems where both are offered.
 
 ### 3.5 Dream Draft [EV-440, C3]
 

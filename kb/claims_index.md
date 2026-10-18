@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:24:42Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1927**
-Distribution: Confirmed 391 / High Confidence 824 / Community Consensus 669 / Speculative 42 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **459**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:27:29Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1945**
+Distribution: Confirmed 391 / High Confidence 826 / Community Consensus 685 / Speculative 42 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **460**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -14,7 +14,7 @@ Distinct evidence records cited: **459**.
 | transfers | 67 |
 | dll | 66 |
 | cards | 58 |
-| clans | 56 |
+| clans | 57 |
 | career | 48 |
 | controls | 43 |
 | patching | 40 |
@@ -26,12 +26,13 @@ Distinct evidence records cited: **459**.
 | attributes | 34 |
 | coaching | 33 |
 | platform | 31 |
+| errata | 30 |
 | tactics | 30 |
 | customization | 29 |
-| errata | 29 |
 | events | 27 |
 | presentation | 25 |
-| modes | 20 |
+| modes | 24 |
+| goalkeeping | 22 |
 | customisation | 19 |
 | stadium | 18 |
 | stamina | 17 |
@@ -40,7 +41,6 @@ Distinct evidence records cited: **459**.
 | negatives | 13 |
 | formboost | 12 |
 | ui | 12 |
-| goalkeeping | 11 |
 | onboarding | 11 |
 | account | 10 |
 | difficulty | 10 |
@@ -68,12 +68,12 @@ Distinct evidence records cited: **459**.
 | ai | 4 |
 | ratings | 4 |
 | scenarios | 4 |
+| shooting | 4 |
 | sources | 4 |
 | acquisition | 3 |
 | features | 3 |
 | injuries | 3 |
 | season-pass | 3 |
-| shooting | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
@@ -1176,6 +1176,8 @@ Distinct evidence records cited: **459**.
 | CLAIM-1913 | The post-match ad, corroborated in full: a 30-second optional video at the end of each match that **doubles** the post-match coin earnings, with a ... | High Confidence | economy/post-match-ad-doubles-coins | EV-494 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
 | CLAIM-1921 | METHODOLOGY FINDING - REAL-WORLD-FOOTBALL CONTAMINATION: a search for DLS26 referee, card and penalty rules returns **only** IFAB Laws 5 and 12, th... | High Confidence | errata/real-football-law-contamination | EV-495 |
+| CLAIM-1932 | GKR = Goalkeeper Reactions, and it governs the DIVE: 'useful for the goalkeeper when diving to save a shot. The higher the stat, the lower the rigi... | High Confidence | goalkeeping/gkr-dive-rigidity | EV-496 |
+| CLAIM-1933 | GKH = Goalkeeper Handling, and it governs far more than catching: 'useful for the goalkeeper when trying to catch a ball or knock the ball away. Al... | High Confidence | goalkeeping/gkh-handling-positioning-aerial | EV-496 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
 | CLAIM-199 | Watching a 30-second ad after a match DOUBLES coin earnings for that match; available once per match (BlueStacks says once per match, FAQ suggests ... | High Confidence | unscoped | EV-270 |
 | CLAIM-200 | Physios are a third permanent development/resourcing item (alongside Coaches and Players), hired with COINS (not gems), used to restore player ener... | High Confidence | unscoped | EV-278 |
@@ -1899,7 +1901,23 @@ Distinct evidence records cited: **459**.
 | CLAIM-1928 | THE SETTINGS INVENTORY, consolidated from two independent third-party settings guides. Gameplay: Language, Difficulty, Power Save, Camera Type, Cam... | Community Consensus | settings/consolidated-inventory | EV-495 |
 | CLAIM-1929 | VERSION-HISTORY NOTE: DLS2023 carried four difficulties - easy, medium, hard and very hard - paying 25/50/75/100 coins, before DLS25 cut the list t... | Community Consensus | difficulty/dls23-four-tiers-coin-scale | EV-495 |
 | CLAIM-1930 | THE WISH-LIST CORROBORATION: a DLS26 wish-list asks for 'new weather conditions - fog, cloudy, light rain' and 'VAR animations (even if the decisio... | Community Consensus | weather/wishlist-confirms-absence | EV-495 |
+| CLAIM-1934 | The corpus's GKR>GKH rule now has a reason: 'GKR stat is preferable to be higher than GKH stat, but too low GKH is not appreciable' and 'It is wide... | Community Consensus | goalkeeping/gkr-over-gkh-with-the-floor | EV-496 |
+| CLAIM-1935 | THE GK AUTO-CLEARANCE BEHAVIOUR, entirely new: 'Use the C button to summon the goalkeeper manually while opponent in possession. **GK automatically... | Community Consensus | goalkeeping/auto-kick-away-behaviour | EV-496 |
+| CLAIM-1936 | THE SWEEPER-KEEPER ROLE IS MANUAL, and AI rushing is partly a per-player trait: 'As for Sweeper keeper that has to be done manually by the player m... | Community Consensus | goalkeeping/manual-sweeper-and-per-keeper-rush-trait | EV-496 |
+| CLAIM-1937 | 60+ STRENGTH IS A GOALKEEPER CONSTRAINT: 'If your goalkeeper has at least 60+ strength, they should most of the time win the ball in the air easier... | Community Consensus | goalkeeping/strength-60-anti-fall | EV-496 |
+| CLAIM-1938 | THE GK DOCTRINE: '**All Goalkeepers like to play dodge ball, just for your information**' and '**Never depend on GKs, keep them as a luck factor.**... | Community Consensus | goalkeeping/keeper-is-a-luck-factor | EV-496 |
+| CLAIM-1939 | THE GK RUSH TIMING RULE: 'if the striker or whoever gets behind the defense, you can hold C to have your goalie run out of the box. **I generally w... | Community Consensus | goalkeeping/rush-late-yield | EV-496 |
 | CLAIM-194 | Commentary languages in DLS26 include English plus Turkish and Arabic (added in the Feb 2026 / Summer Spotlight updates), per App Store changelog. | Community Consensus | unscoped | EV-276,EV-272 |
+| CLAIM-1940 | The summon and release controls, corroborated across three years of sources: **hold C to call the keeper out**, and **double-tap on the keeper to d... | Community Consensus | goalkeeping/summon-and-release-controls | EV-496 |
+| CLAIM-1941 | THE PENALTY-SAVE READ, the defensive counterpart to the corpus's offensive penalty technique: read the kicker's **foot, movement speed and head dir... | Community Consensus | goalkeeping/penalty-save-read | EV-496 |
+| CLAIM-1942 | GK RECRUITMENT PRIORITY: 'the best goalkeepers are the ones who combine **rating, reflexes, positioning, and height**' - which maps to OVR, GKR, GK... | Community Consensus | goalkeeping/recruitment-priority | EV-496 |
+| CLAIM-1943 | THE OUTER-FOOT SHOOTING TECHNIQUE, new to the corpus: 'When shooting with the B button, charge it to 100% for maximum power and speed. **Aim for th... | Community Consensus | shooting/outer-foot-technique | EV-496 |
+| CLAIM-1944 | DREAM DRAFT IS A SECOND TEST SURFACE: 'Dream Draft provides fresh lineups and balanced pools, which is useful for testing formations **without affe... | Community Consensus | modes/dream-draft-as-test-surface | EV-496 |
+| CLAIM-1945 | THE DREAM DRAFT STRUCTURE: a limited-time tournament mode where you draft a team of 18 players and **every option is 75+ rated, plus a Star Player*... | Community Consensus | modes/dream-draft-structure-and-rewards | EV-496 |
+| CLAIM-1946 | THE DREAM DRAFT ECONOMICS, now three-source: entry is about **40 gems or 500 coins**, a win pays about **50 gems**, so the net is often only ~10 ge... | Community Consensus | modes/dream-draft-economics-three-source | EV-496 |
+| CLAIM-1947 | DLS26 DREAM DRAFTS ARE THEMED to the live events - World Cup Heroes drafts (Ronaldo, Haaland) and a Summer Trophy draft (Ronaldo, Messi) - and the ... | Community Consensus | modes/dream-draft-themed-and-rated | EV-496 |
+| CLAIM-1948 | DRAFT EVENTS PAY CLAN POINTS: 'win live and draft events to earn the most points for your group' - a third point source alongside matches, challeng... | Community Consensus | clans/draft-events-pay-clan-points | EV-496 |
+| CLAIM-1949 | CONTAMINATION, the second instance of the wave-82 pattern: a goalkeeper search returns soccer-zero.wiki, footymeta.com, levelup.soccer, topgoalkeep... | Community Consensus | errata/gk-guide-contamination | EV-496 |
 | CLAIM-195 | New pre-match presentation: players walk out wearing warm-up/training tracksuits before kickoff (introduced at DLS26 launch). | Community Consensus | unscoped | EV-272 |
 | CLAIM-197 | Cult Heroes is an upcoming Special Player collection announced in v13.420/v13.430 (Sep 2026) but not yet released as of 13.430 (16 Sep 2026). | Community Consensus | unscoped | EV-276,EV-272 |
 | CLAIM-198 | 120Hz display frame-rate stabilization/polish added in August 2026 update. | Community Consensus | unscoped | EV-272 |

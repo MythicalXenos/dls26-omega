@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-158 — 1,927 claims / 397 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-159 — 1,945 claims / 398 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -599,6 +599,16 @@ These are the cheap, permanent wins that separate tier 2 from tier 1.
 - Target **~190cm** height.
 - Manual control: **hold C** to hold the ball; **double-tap** to drop it.
 - In shootouts, the **dead-centre** tactic is the reliable save.
+
+**The goalkeeper's actual model** [EV-496, C2/C3] — the corpus had the two-stat rule and not the model behind it:
+- **GKR is the dive stat** — *"the higher the stat, the lower the rigidity of the keeper."* **GKH is the positioning, aerial and cross-clearing stat**, not just handling: *"GK catching the ball in the air, goalkeeper positioning all falls under GKH... GK with higher Handling also clears those Crosses and Corners from air better."* So GKR ≥ GKH is a *weighting* preference, and starving GKH costs you positioning and aerials — *"too low GKH is not appreciable."*
+- **60+ Strength is a keeper constraint**: below it he *"fall[s] randomly whenever the opponent has the ball."* Above it he wins aerial balls. Treat it as a recruitment filter alongside the ~190cm height target.
+- **The keeper auto-clears.** *"GK automatically kicks the ball away when it is between kicking range and opponent is in cue to win possession ahead of your defender."* So he can give the ball away on his own, and the manual sweeper-keeper role exists because of it.
+- **Rushing is partly a per-player AI trait** — *"Some GKs have better rush system in built in game than others. Like Donnarumma rushes forward very quickly."* So the sweeper-keeper has to be driven by hand (hold C), and **rush late**: *"wait until they're almost to the box before holding it."* The yield is about **one goal saved every two matches**.
+
+> **🎯 THE GK DOCTRINE: *"All Goalkeepers like to play dodge ball"* and *"never depend on GKs, keep them as a luck factor."*** So the keeper is **not a system you can invest your way out of** — which is the whole argument for spending on the defence and the facility ladder rather than on an elite keeper. Coach the back line; accept the dives.
+
+**The outer-foot shooting technique** [EV-496, C3] — new to the corpus and the direct counter to the keeper's positioning: charge **B to 100%** for power, then **aim at the outer foot of the imaginary goalkeeper on the side you are shooting at**. He will dive sideways and your dead-centre shot goes in uncontested. This is the technique that exploits exactly the positioning stat GKH governs.
 
 **Discipline** [prior waves, C2]:
 - Yellow cards **accumulate**; **5 = ban**, with a warning at 4. A red card is an automatic ban.
