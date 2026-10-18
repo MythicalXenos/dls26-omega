@@ -1,28 +1,28 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:07:38Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1311**
-Distribution: Confirmed 303 / High Confidence 612 / Community Consensus 362 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **401**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:12:25Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1333**
+Distribution: Confirmed 308 / High Confidence 621 / Community Consensus 370 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **403**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
+| economy | 72 |
 | facilities | 72 |
-| economy | 71 |
-| career | 42 |
+| career | 43 |
+| training | 38 |
 | clans | 36 |
 | coaches | 36 |
 | controls | 34 |
 | cups | 34 |
 | patching | 33 |
-| prizeladder | 32 |
+| prizeladder | 33 |
 | platform | 30 |
-| cards | 28 |
-| dll | 28 |
+| cards | 29 |
+| dll | 29 |
 | customization | 27 |
 | transfers | 26 |
-| training | 25 |
 | attributes | 23 |
 | modes | 19 |
 | events | 18 |
@@ -44,6 +44,7 @@ Distinct evidence records cited: **401**.
 | difficulty | 6 |
 | monetization | 6 |
 | save | 6 |
+| 12thman | 5 |
 | discipline | 5 |
 | endgame | 5 |
 | referee | 5 |
@@ -59,7 +60,6 @@ Distinct evidence records cited: **401**.
 | formations | 2 |
 | licensing | 2 |
 | shooting | 2 |
-| 12thman | 1 |
 | achievements | 1 |
 | anticheat | 1 |
 | bugs | 1 |
@@ -357,6 +357,11 @@ Distinct evidence records cited: **401**.
 | CLAIM-128 | Save-data backup surface (official 214387685, restated in GS-037 by sibling): FTG's current recommendation is to link the profile to **Sign in with... | Confirmed | unscoped | CLAIM-042,CLAIM-072,EV-213,EV-167,EV-130 |
 | CLAIM-129 | Cult Heroes 12-card roster, database-corroborated (GS-039/040 sibling): David de Gea GK 85 (ESP, #1); Paulo Dybala SS/RW 85 (ARG, #10); Pierre-Emer... | Confirmed | unscoped | EV-239,CLAIM-007,CLAIM-045,CLAIM-046,CLAIM-059,S-20261017... |
 | CLAIM-131 | Card-roster distribution from the FootballGamingBD card-creator database (snapshot 2026-10-12): visible/special cards total 1024 — Rare 695 (70-79)... | Confirmed | unscoped | EV-246,CLAIM-059,CLAIM-007,CLAIM-129 |
+| CLAIM-1316 | The 12th Man is the community-voted final Dream Star: FTG publishes the Dream Stars squad from real-world season performances and opens a community... | Confirmed | 12thman/mechanic-dream-star-vote | EV-438 |
+| CLAIM-1317 | Official timeline: the 12th Man Vote shipped in v13.100 (26 Feb 2026) and v13.110 (2 Mar 2026), the voted winner was added in v13.120 (25 Mar 2026)... | Confirmed | 12thman/version-timeline | EV-438 |
+| CLAIM-1318 | Dream Stars are obtained through Dream Star Agents, per the official FTG TikTok countdown. | Confirmed | cards/dream-star-agents | EV-438 |
+| CLAIM-1321 | iOS Game Centre support was added in the Winter Reload update, giving achievements and FRIEND LEADERBOARDS on iOS - the closest thing to a wider ra... | Confirmed | dll/ios-game-centre-leaderboards | EV-438 |
+| CLAIM-1322 | English League Classics are four top English-game stars available in the Prize Ladder, per the official FTG TikTok. | Confirmed | prizeladder/english-league-classics | EV-438 |
 | CLAIM-136 | Build stack confirmed via static analysis of an APK in academic corpora: DLS26 is a UNITY ENGINE build (Unity Ads activities present, namespace `co... | Confirmed | unscoped | EV-249,CLAIM-115,CLAIM-072,CLAIM-094 |
 | CLAIM-140 | Default (starting) formations are set per team: 149 clubs + 79 nations are catalogued in formations.json. Examples: Man City 4-1-4-1; Man Utd/Liver... | Confirmed | unscoped | EV-251,CLAIM-077 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
@@ -837,8 +842,17 @@ Distinct evidence records cited: **401**.
 | CLAIM-1309 | Each Training facility upgrade unlocks up to three new formations, giving about 15 formations by Level 2; the community advice is to stop at Level ... | High Confidence | training/formations-per-level | EV-437 |
 | CLAIM-1310 | Training Level 4 is the coach-farming unlock: below it, legendary coaches cost 200+ gems each; at Level 4 and above they fall under 200 gems. | High Confidence | training/level4-coach-farming-unlock | EV-437 |
 | CLAIM-1311 | Medical facility Level 1 is the only numerically documented tier: healing cost down 10% and injury chance down 5%; later tiers are described only q... | High Confidence | formboost/medical-level1-only | EV-437 |
+| CLAIM-1319 | FTG has never named the winning 12th Man in any store note, TikTok caption or community source - the IDENTITY gap persists even though the mechanic... | High Confidence | 12thman/identity-never-published | EV-438 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
+| CLAIM-1323 | Coach point delivery: a Common coach boosts 1 random stat by +1, a Rare coach boosts 2 random stats by +2 each, and a Legendary coach boosts 3 rand... | High Confidence | training/coach-point-delivery | EV-439 |
+| CLAIM-1324 | Goalkeeping coaches affect ONLY GKR and GKH - Legendary +3 to both, Rare +2 to one, Common +1 to one - and a Legendary GK coach should be used only... | High Confidence | training/gk-coach-rules | EV-439 |
+| CLAIM-1326 | Per-point economics: a Legendary fitness coach gives 27 points for 157 gems (5.8 gems per point) versus 26.25 gems per point for a Legendary Specia... | High Confidence | training/gems-per-point | EV-439 |
+| CLAIM-1327 | A Rare coach gives +8 points for 1,535 coins, about 192 coins per point, which is why 80-rated defenders at 1,535 coins are the cheapest Rare-coach... | High Confidence | training/rare-coach-coin-economics | EV-439 |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
+| CLAIM-1332 | Special Coaches are the ONLY coaches where the manager chooses the upgraded stat: the game presents 2 randomised options (one fitness, one technica... | High Confidence | training/special-coach-choice | EV-439 |
+| CLAIM-1333 | Special Coach prices and value: Common 63 gems / 2 points (31.5 gems per point), Rare 168 gems / 6 points (28 gems per point), Legendary 280 gems /... | High Confidence | training/special-coach-prices | EV-439 |
+| CLAIM-1335 | LEGENDARY SCOUT TRICK: keep at least one Legendary Special coach because it reveals the next FOUR upgradable stats, and you can cancel and use a di... | High Confidence | training/legendary-scout-trick | EV-439 |
+| CLAIM-1336 | Special Coach clearing method: use Legendary Special coaches first and inspect the first three stats; if all are desirable follow with Rares; if un... | High Confidence | training/special-coach-clearing-method | EV-439 |
 | CLAIM-137 | Outfield players have exactly 8 core integer attributes, each 0–100, in this fixed schema: SPE (Speed), ACC (Acceleration), STA (Stamina), STR (Str... | High Confidence | unscoped | EV-251,EV-252 |
 | CLAIM-138 | Goalkeepers use the same 8-column stat grid but two columns are semantically re-mapped: GK Reflexes (GKR) and GK Handling (GKH) replace STA and SHO... | High Confidence | unscoped | EV-251,EV-252 |
 | CLAIM-142 | Vintage/historical "special" cards (special.json) cover Champion (12, vintage years 2004–2018), Classic (24, 1984–2018), Star (23, 2025/2026 rising... | High Confidence | unscoped | EV-251,EV-248,CLAIM-132 |
@@ -1254,6 +1268,14 @@ Distinct evidence records cited: **401**.
 | CLAIM-1313 | Legendary Physio costs 150 coins with maxed facilities (250 coins otherwise), restores 50% energy and heals ALL active injuries; Rare restores 20% ... | Community Consensus | medical/physio-tiers-cost | EV-437 |
 | CLAIM-1314 | A mid-game Team Boost and a post-match Team Physio both restore 10% stamina, and individual healing costs about 2-4 coins per player. | Community Consensus | medical/team-boost-10-percent | EV-437 |
 | CLAIM-1315 | CONFLICT on the Commercial facility: gamingonphone states Level 2 gives a 13% coin bonus and Level 3 a 21% bonus, while a Reddit summary calls it '... | Community Consensus | commercial/bonus-conflict | EV-437 |
+| CLAIM-1320 | Vozinha (GK, 83, Cape Verde) carries a '(12th Man)' annotation in the v13.430 Cult Heroes datamine; this is most likely a CARD TYPE label on the we... | Community Consensus | 12thman/vozinha-label-ambiguity | EV-438 |
+| CLAIM-1325 | Coach gem prices at a maxed Training facility: Common 17 gems, Rare 52 gems, Legendary 157 gems. | Community Consensus | training/coach-gem-prices | EV-439 |
+| CLAIM-1328 | Head-to-head for 225 gems: a Legendary coach gives +27 points while Rare coaches give +24, so Legendary wins on raw points but Rare wins on control... | Community Consensus | training/legendary-vs-rare-tradeoff | EV-439 |
+| CLAIM-1329 | Each player has roughly 80-81 upgrade points before maxing (about 90 Common coaches for a fully maxed card), each Overall point corresponds to abou... | Community Consensus | training/player-upgrade-capacity | EV-439 |
+| CLAIM-1330 | Releasing a legendary player yields 2 Rare coaches worth about 16 attribute points, giving the 1,535 / 8 = 192 coins-per-point maths that drives th... | Community Consensus | economy/release-yield-maths | EV-439 |
+| CLAIM-1331 | Building a full 23-man squad (21 outfield plus GK plus a special player) took one player about half a year of play. | Community Consensus | career/squad-build-time | EV-439 |
+| CLAIM-1334 | Maxing one special player needs about 7.5 Legendary Special Coaches, roughly 2,100 gems (or 15 Rares at 2,520 gems); one source claims 2,100-2,835 ... | Community Consensus | training/special-player-max-cost | EV-439 |
+| CLAIM-1337 | Alternative Special Coach rule: always use a Common coach if at least one of the two offered stats is not what you want. | Community Consensus | training/special-coach-common-if-unwanted | EV-439 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |

@@ -154,3 +154,9 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Source B:** r/DreamLeagueSoccer 176ntor (Oct 2023) — "Commercial facility is the biggest FTG scam, it was good in DLS20, but don't put your gems there", with a comment claiming **10% for level 5** costing a total of **1,000+ gems**.
 - **Status:** OPEN. The two sources disagree on both the magnitude and the shape of the curve, and Source B is a DLS23-era complaint. Recorded in EV-437. The masterplan's facility-priority table should be re-checked once resolved.
 
+## C-020: Special Player max cost (2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835)
+- **Source A:** r/DreamLeagueSoccer 1hnll1u (Dec 2024) — 90 upgrade points / 12 points per Legendary Special Coach = **7.5 coaches**, at 280 gems each = **2,100 gems**; Rares would be 15 x 168 = 2,520 gems.
+- **Source B:** r/DreamLeagueSoccer 1b4ovuj (Mar 2024) — "roughly **2100-2835 gems** to max a special player".
+- **Source C:** r/DreamLeagueSoccer 1pp07c2 (Dec 2025) — "it takes **6-7 Legendary Special Coaches** to max a special player".
+- **Status:** OPEN, low impact. The spread is explained by breakthroughs and by the choice mechanic letting you land points more efficiently. Recorded in EV-439. Use 2,100 gems as the planning figure.
+
