@@ -80,3 +80,4 @@
 {"turn":35,"wave":42,"claims_added":"CLAIM-1380..CLAIM-1404","ev_added":"EV-444,EV-445","checkpoint":"ckpt-100"}
 {"turn":35,"wave":43,"claims_added":"CLAIM-1406..CLAIM-1412","ev_added":"EV-446","checkpoint":"ckpt-102"}
 {"turn":35,"wave":44,"step":"Step 4 Operational Rules + audit","artifact":"docs/operational_rules.md","checkpoint":"ckpt-106"}
+{"turn": 35, "step": "Step 5 First Contact coaching", "artifact": "step5_first_contact/FIRST_CONTACT_v2.md", "supersedes": "FIRST_CONTACT_SCRIPT_draft.md (turn 21)", "checkpoint": "ckpt-107"}
