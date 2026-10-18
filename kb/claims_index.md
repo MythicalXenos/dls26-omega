@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:27:29Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1945**
-Distribution: Confirmed 391 / High Confidence 826 / Community Consensus 685 / Speculative 42 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **460**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:30:39Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1959**
+Distribution: Confirmed 391 / High Confidence 831 / Community Consensus 692 / Speculative 44 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **461**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -13,7 +13,7 @@ Distinct evidence records cited: **460**.
 | gameplay | 72 |
 | transfers | 67 |
 | dll | 66 |
-| cards | 58 |
+| cards | 60 |
 | clans | 57 |
 | career | 48 |
 | controls | 43 |
@@ -25,16 +25,17 @@ Distinct evidence records cited: **460**.
 | prizeladder | 37 |
 | attributes | 34 |
 | coaching | 33 |
+| errata | 32 |
 | platform | 31 |
-| errata | 30 |
 | tactics | 30 |
 | customization | 29 |
-| events | 27 |
+| events | 28 |
 | presentation | 25 |
 | modes | 24 |
 | goalkeeping | 22 |
 | customisation | 19 |
 | stadium | 18 |
+| account | 17 |
 | stamina | 17 |
 | achievements | 16 |
 | meta | 16 |
@@ -42,7 +43,6 @@ Distinct evidence records cited: **460**.
 | formboost | 12 |
 | ui | 12 |
 | onboarding | 11 |
-| account | 10 |
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
@@ -52,12 +52,12 @@ Distinct evidence records cited: **460**.
 | squad | 8 |
 | multiplayer | 7 |
 | physio | 7 |
+| seasonpass | 7 |
+| 12thman | 6 |
 | monetization | 6 |
 | referee | 6 |
 | save | 6 |
-| seasonpass | 6 |
 | weather | 6 |
-| 12thman | 5 |
 | accounts | 5 |
 | audit | 5 |
 | chemistry | 5 |
@@ -1178,7 +1178,12 @@ Distinct evidence records cited: **460**.
 | CLAIM-1921 | METHODOLOGY FINDING - REAL-WORLD-FOOTBALL CONTAMINATION: a search for DLS26 referee, card and penalty rules returns **only** IFAB Laws 5 and 12, th... | High Confidence | errata/real-football-law-contamination | EV-495 |
 | CLAIM-1932 | GKR = Goalkeeper Reactions, and it governs the DIVE: 'useful for the goalkeeper when diving to save a shot. The higher the stat, the lower the rigi... | High Confidence | goalkeeping/gkr-dive-rigidity | EV-496 |
 | CLAIM-1933 | GKH = Goalkeeper Handling, and it governs far more than catching: 'useful for the goalkeeper when trying to catch a ball or knock the ball away. Al... | High Confidence | goalkeeping/gkh-handling-positioning-aerial | EV-496 |
+| CLAIM-1950 | THE OVERWRITE HAZARD, the corpus's most important missing account fact: a fresh profile created after a reinstall **overwrites** the old one. 'I ma... | High Confidence | account/overwrite-hazard-fresh-profile | EV-497 |
+| CLAIM-1951 | THE OVERWRITE RUNS THE OTHER WAY TOO: '**Current progress will be deleted if the Google account you connect has the old data saved**' - and '**Make... | High Confidence | account/overwrite-hazard-connecting-account | EV-497 |
+| CLAIM-1952 | THE LINK CAN SILENTLY DROP: a player who lost years of progress reports checking 'the Google sign-in was disabled in the settings (**which happened... | High Confidence | account/link-drops-silently | EV-497 |
+| CLAIM-1953 | THE PRE-TRANSFER CHECK PROCEDURE: on iOS, go to Apple ID settings > 'Sign-in & Security' > 'sign in with Apple' and confirm no previous profile is ... | High Confidence | account/pre-transfer-check-procedure | EV-497 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
+| CLAIM-1961 | THE 12TH MAN WAS ADDED TO THE COLLECTION, per the official version history: 'The DLS community has voted, and we've added this extra superstar to t... | High Confidence | 12thman/added-to-collection-confirmed | EV-497 |
 | CLAIM-199 | Watching a 30-second ad after a match DOUBLES coin earnings for that match; available once per match (BlueStacks says once per match, FAQ suggests ... | High Confidence | unscoped | EV-270 |
 | CLAIM-200 | Physios are a third permanent development/resourcing item (alongside Coaches and Players), hired with COINS (not gems), used to restore player ener... | High Confidence | unscoped | EV-278 |
 | CLAIM-201 | Facilities (six types, corrected from prior 5): Stadium (match coin bonus ∝ capacity, home-match income), Medical Centre (reduces injury chance, lo... | High Confidence | unscoped | EV-278,EV-256,EV-270,EV-272 |
@@ -1919,6 +1924,13 @@ Distinct evidence records cited: **460**.
 | CLAIM-1948 | DRAFT EVENTS PAY CLAN POINTS: 'win live and draft events to earn the most points for your group' - a third point source alongside matches, challeng... | Community Consensus | clans/draft-events-pay-clan-points | EV-496 |
 | CLAIM-1949 | CONTAMINATION, the second instance of the wave-82 pattern: a goalkeeper search returns soccer-zero.wiki, footymeta.com, levelup.soccer, topgoalkeep... | Community Consensus | errata/gk-guide-contamination | EV-496 |
 | CLAIM-195 | New pre-match presentation: players walk out wearing warm-up/training tracksuits before kickoff (introduced at DLS26 launch). | Community Consensus | unscoped | EV-272 |
+| CLAIM-1954 | THE RECOVERY ROUTE: the account ID persists server-side - 'unless you don't delete your account, the id is always stays on FTG server' - so support... | Community Consensus | account/ftg-support-recovery-route | EV-497 |
+| CLAIM-1956 | A METHOD-VALIDITY TABLE corroborating the official position from an independent source: **Sign in with Google = valid, Android only** · **Sign in w... | Community Consensus | account/method-validity-table | EV-497 |
+| CLAIM-1957 | MANUAL BACKUP NO LONGER WORKS: 'Old manual backup tricks - copying the com.firsttouchgames.dls7 folder or using file explorers - no longer work. **... | Community Consensus | account/manual-backup-no-longer-works | EV-497 |
+| CLAIM-1958 | THE KICK-OFF STARS SEASON PASS FORCES A CHOICE: 'Kick off stars Raphinha and Alvarez are here in season pass, **but you can only choose one of them... | Community Consensus | seasonpass/kick-off-stars-forced-choice | EV-497 |
+| CLAIM-1959 | THE EVENT-CARD ACQUISITION ROUTES, consolidated from the DLS25 Dream Stars precedent: 'we were able to gain these dream stars by **dream agents; vi... | Community Consensus | cards/event-card-acquisition-routes | EV-497 |
+| CLAIM-1960 | KICK-OFF STARS ARE A STARTING 11, not a pair: 'full starting 11 potential for Seasons 1 & 2' - so the collection spans two seasons rather than one ... | Community Consensus | cards/kick-off-stars-starting-11-two-seasons | EV-497 |
+| CLAIM-1962 | THE DLS26 EVENT CALENDAR, from creator coverage: a **Win Streak Event** (free coins plus Dream Star player rewards), a **Festival Vase Event**, and... | Community Consensus | events/dls26-event-calendar-names | EV-497 |
 | CLAIM-197 | Cult Heroes is an upcoming Special Player collection announced in v13.420/v13.430 (Sep 2026) but not yet released as of 13.430 (16 Sep 2026). | Community Consensus | unscoped | EV-276,EV-272 |
 | CLAIM-198 | 120Hz display frame-rate stabilization/polish added in August 2026 update. | Community Consensus | unscoped | EV-272 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
@@ -2038,6 +2050,8 @@ Distinct evidence records cited: **460**.
 | CLAIM-1919 | REJECTED SOURCE: dream-league-soccer.fandom.com/wiki/Coins. The page carries impossible economy figures - '1000.000 coins per goal', '10000 00000 c... | Speculative | errata/fandom-coins-page-rejected | EV-494 |
 | CLAIM-1920 | REJECTED SOURCE: lfbb.net. Its DLS26 gems-and-coins guide publishes a fabricated daily routine - '600 bonus gems just from finishing in the top 50'... | Speculative | errata/lfbb-net-rejected | EV-494 |
 | CLAIM-1931 | A Google Play review (21 May 2026) reports 'career mode is way too easy and developers need to add extra difficulty to it' - which sits against the... | Speculative | difficulty/sentiment-split-by-mode | EV-495 |
+| CLAIM-1955 | REJECTED A SEVENTH TIME, and this is the most dangerous fabrication in the register: playdreamleaguesoccer.com instructs players to 'Use the Cloud ... | Speculative | errata/playdream-seventh-rejection-fake-backup-path | EV-497 |
+| CLAIM-1963 | VERSION-ATTRIBUTION NOTE: the App Store's 13.110 block carries 'Increased squad size - Now with unlimited special players in your club', while the ... | Speculative | errata/unlimited-specials-version-attribution | EV-497 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
