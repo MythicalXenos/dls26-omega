@@ -41,5 +41,8 @@ Enter STATE_1_RESEARCH_SWEEP: create the sealed initial epoch contract under doc
 ## Deviations and open issues
 - ISSUE-004 (digest append size) closed with notice. ISSUE-001 (missing sections), ISSUE-003 (two manifest vocabularies, followed OMEGA-LIVENESS-001), ISSUE-005 (conversation identity), ISSUE-006 (device/tool absence), ISSUE-007 (Irreversible Action List empty), ISSUE-008 (no Yes list), ISSUE-009 (confidence tier definitions missing) are open. See logs/issue_tracker.md.
 
+## Pull request
+- Draft PR #6 (https://github.com/MythicalXenos/dls26-omega/pull/6) from arena/357aaddf-dls26-omega. One active PR at a time. Not merged.
+
 ## Storage and publication
 - Repo tracks all artifacts above. Empty directories carry .gitkeep. KB snapshot: none yet (first snapshot at end of session or at a significant push).
