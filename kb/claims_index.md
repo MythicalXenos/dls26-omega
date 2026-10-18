@@ -1,29 +1,29 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T11:20:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2278**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 957 / Speculative 81 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **487**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T11:52:43Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2284**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 963 / Speculative 81 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **488**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 140 |
+| economy | 142 |
 | facilities | 114 |
 | dll | 92 |
 | gameplay | 81 |
 | transfers | 80 |
 | cards | 71 |
-| career | 69 |
+| career | 70 |
 | clans | 67 |
 | errata | 62 |
 | setpieces | 60 |
 | controls | 56 |
 | prizeladder | 48 |
 | coaching | 45 |
-| patching | 43 |
+| patching | 44 |
+| cups | 41 |
 | training | 41 |
-| cups | 39 |
 | attributes | 37 |
 | coaches | 37 |
 | tactics | 37 |
@@ -2229,6 +2229,12 @@ Distinct evidence records cited: **487**.
 | CLAIM-2277 | ⚠️ THE RED ZONE'S REAL CONSEQUENCE, which the corpus understated: the corpus records the red zone as a Legendary Division relegation trigger (CLAIM... | Community Consensus | career/red-zone-forces-restart | EV-523 |
 | CLAIM-2278 | THE FRIENDLY OFFER AFTER A CUP LOSS: 'If you lose at any stage of the competition... **you are asked if you want to play a friendly against a rando... | Community Consensus | career/friendly-offer-after-cup-loss | EV-523 |
 | CLAIM-2279 | A CONFLICT ON THE GLOBAL CHALLENGE CUP TEAM COUNT: the wiki describes the GC Cup as matching 'all **64 teams** against one another in a single-legg... | Community Consensus | errata/gc-cup-team-count-conflict | EV-523 |
+| CLAIM-2283 | THE DAILY GEM CEILING: 'Lets assume you play the highest possible (**100 games**), and you are in Tier 1 and you win all games, because it takes **... | Community Consensus | economy/daily-gem-ceiling-576 | EV-524 |
+| CLAIM-2284 | WHY THE GLOBAL CHALLENGE CUP IS NOT WORTH IT, with the mechanism at last: '**never play Global challenger cup it has shit ton of rounds and none of... | Community Consensus | cups/gcc-away-only-no-stadium-bonus | EV-524 |
+| CLAIM-2285 | THE DIAMOND CUP IS THE EFFICIENT CUP: 'Play diamond cup as it has **less matches to play** and gives **15 gems and 10 more in challenge**.' So when... | Community Consensus | cups/diamond-cup-is-the-efficient-cup | EV-524 |
+| CLAIM-2286 | THE 110-GEM CAREER SEASON TOTAL, the sum of the corpus's per-competition breakdown (30 + 25 + 15 + 5 + 20 + 15 = 110), now stated explicitly - plus... | Community Consensus | career/110-gem-season-total | EV-524 |
+| CLAIM-2287 | THE PER-CLUB RATING CHANGE TABLE, a concrete example of the Winter Reload reshuffle: 'Man City: **Guehi, Foden +1** · Haaland, Donna, Doku, Gvardio... | Community Consensus | patching/per-club-rating-change-table | EV-524 |
+| CLAIM-2288 | THE DAILY-REWARD STREAK ARITHMETIC: 'For Regular Daily Main Reward - it is **5-11, with a +1 Increment per every day** you complete them, in a stre... | Community Consensus | economy/daily-reward-streak-arithmetic | EV-524 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |

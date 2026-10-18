@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-186 — 2,278 claims / 425 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-187 — 2,284 claims / 426 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -1155,7 +1155,7 @@ This converts Career Mode from a time sink into a background coin farm and is th
 
 | Source | Gems |
 |---|---|
-| Dream League Live (Progression Bank) | ~6,000 |
+| Dream League Live (Progression Bank) | ~6,000 | **a ceiling, not an expectation: at 100 games a day, 8 games per championship and 48 gems each, the DLL engine tops out at 576 gems a day** [EV-524, C3] |
 | Progression Bank | 1,640 |
 | DLL leaderboard (most DLL XP) | 100 |
 | DLL challenges | 180 |
