@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:34:36Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1621**
-Distribution: Confirmed 365 / High Confidence 692 / Community Consensus 529 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **432**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:36:50Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1628**
+Distribution: Confirmed 372 / High Confidence 692 / Community Consensus 529 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **434**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,7 +10,7 @@ Distinct evidence records cited: **432**.
 | unscoped | 424 |
 | economy | 115 |
 | facilities | 86 |
-| dll | 55 |
+| dll | 60 |
 | clans | 50 |
 | cards | 49 |
 | career | 48 |
@@ -65,6 +65,7 @@ Distinct evidence records cited: **432**.
 | multiplayer | 3 |
 | scenarios | 3 |
 | settings | 3 |
+| audit | 2 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
@@ -439,7 +440,14 @@ Distinct evidence records cited: **432**.
 | CLAIM-160 | Form Boost provides TEMPORARY attribute boosts to a player, lasting a set number of matches determined by the Training facility level (minimum 1 ma... | Confirmed | unscoped | EV-257 |
 | CLAIM-161 | Coaches (accessed Team Management > Coaches) select a player RANDOMLY to receive a PERMANENT attribute upgrade when applied. Contrary to some commu... | Confirmed | unscoped | EV-257 |
 | CLAIM-162 | Releasing a player (Transfers > Manage Players) yields a COACH as reward (not coins), from v12200 onwards. Recently released players appear in a 'R... | Confirmed | unscoped | EV-261 |
+| CLAIM-1626 | THE OFFICIAL MATCHMAKING INPUTS ARE EXACTLY THREE: 'their LIVE Tier ranking, their location and the availability pool of other players at the time ... | Confirmed | dll/official-matching-inputs | EV-469 |
+| CLAIM-1627 | CORRECTION TO C-024: the claim that 'the OFFICIAL FTG matchmaking article states that team strength is an explicit matching input' is an OVERSTATEM... | Confirmed | dll/c-024-official-corroboration-corrected | EV-469 |
+| CLAIM-1628 | OFFICIAL: 'There are no additional overlaid controls to manage the difficulty experience.' FTG explicitly denies hidden difficulty adjustment, whic... | Confirmed | dll/no-overlaid-difficulty-controls | EV-469 |
+| CLAIM-1629 | The official matchmaking objective is 'an opponent of similar standing & skill as much as is possible', which 'should generally result in players p... | Confirmed | dll/mismatch-is-availability | EV-469 |
 | CLAIM-163 | Prize Ladder (90-day cycle per BlueStacks; official says 'based on progression') awards coins, gems, coaches, Dream Point boosts, and special playe... | Confirmed | unscoped | EV-258,EV-270 |
+| CLAIM-1630 | Opponents 'naturally become more challenging' as players progress through the Tiers - a pool-composition effect as stronger players concentrate in ... | Confirmed | dll/opponents-harden-by-tier | EV-469 |
+| CLAIM-1631 | The nine-state machine S0 through S9 is intact in the operational rules as a flow diagram of S0 -> S1 transitions, not a table - so a table-format ... | Confirmed | audit/state-machine-intact | EV-470 |
+| CLAIM-1632 | The masterplan's separate '5,625 gems and 10,000 coins' stadium figure is a single player's completed-stadium report and is NOT the facility budget... | Confirmed | audit/stadium-vs-facility-figure-disambiguation | EV-470 |
 | CLAIM-164 | Dream Point Boosts apply ONLY to career, dream draft, scenario, and DLL (multiplayer) matches; they do NOT apply to exhibition or friend matches. U... | Confirmed | unscoped | EV-259 |
 | CLAIM-165 | Season Pass mechanics (v12200+): FREE + SEASON PASS (paid) tiers; buying paid Pass unlocks Progress Bank (DLL XP → coins+gems paid at season end) a... | Confirmed | unscoped | EV-260,EV-270 |
 | CLAIM-166 | Season Pass activation threshold: 400 Season Points; daily login provides 40 Season Points/day for free (10-day season = 400 SP from logins alone).... | Confirmed | unscoped | EV-270 |

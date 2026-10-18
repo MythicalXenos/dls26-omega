@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-131 — 1,621 claims / 370 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-132 — 1,628 claims / 372 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -214,7 +214,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | L4 | 300 gems | **Legendary coaches drop below 200 coins — THE FARMING UNLOCK** |
 | L5 | 375 gems | +25% |
 
-> **Buy L4 before anything else in the facility list.** It converts the entire coach economy from expensive to cheap. Per-facility total is 1,125 gems; all five facilities is 5,625 gems. The first tier of every facility costs **375 coins** in DLS26. **[EV-437, C2]**
+> **Buy L4 before anything else in the facility list.** It converts the entire coach economy from expensive to cheap. **Corrected at ckpt-132:** the old line here read "per-facility total is 1,125 gems; all five facilities is 5,625 gems" as though those were maxed costs. Under the **75 × level** pattern [EV-468, C2], **1,125 gems is the first FIVE levels** and a fully maxed facility is **4,125 gems**; level counts are published for Training and Accommodation and unpublished for Medical, Commercial and Fanzone. The first tier of every facility costs **375 coins** in DLS26. **[EV-437, EV-468, C2]**
 
 **Facility priority order:** Training (L4 first) → Stadium → Medical → Commercial → Fanzone. **[EV-437, C2]**
 
@@ -292,7 +292,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 ### S8 — Cultivation
 
 - **100% club value ≈ 23 players fully maxed.** [EV-437, C2]
-- **Fan Approval: 75% = 500 XP, 100% = 2,000 XP.** Mechanics above the first tier are an open gap. [EV-437, C2]
+- **Fan Approval: 75% = 500 XP, 100% = 2,000 XP.** **⚠️ The mechanics are a DOCUMENTED NEGATIVE (ckpt-126, EV-457):** a dedicated two-search sweep found **no fan-approval system in any documented DLS26 source** — only crowd-graphics settings, fans-not-celebrating bugs, the Fan Favourite achievement and the Fanzone. **No plan may depend on raising Fan Approval**; treat the percentage as a *readout* of total squad development (100% club value needs every player maxed, ~23 men) and max the squad as the strategy. [EV-437, C2 / EV-457, C2]
 - **42 achievements × 500 XP.** [EV-437, C2]
 - **Dream Points:** ~2,800/day, ~200,000 total; **career 140 / DLL + Draft 185**; 5-goal cap. [EV-437, C2]
 - **Prize Ladder: 90 days**, first special player at **~50,000 DP** ≈ **300–324 matches**. [EV-437, C2]
@@ -410,7 +410,7 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ### 7.2 Known weaknesses (stated, not hidden)
 
-1. **Five numeric tables remain open** — Fanzone per-level gem costs, Form Boost per-level match counts, Medical percentages above L1, post-DLS25 coach breakthrough %, Fan Approval mechanics above the first tier. These can only be closed by APK datamining (Step 2, postponed).
+1. **The open-gaps list has moved substantially and the old note here was wrong on both the list and the method.** The old text claimed five numeric tables remained open and that they "can only be closed by APK datamining (Step 2, postponed)" — but **three of those five were closed by OFFICIAL SUPPORT ARTICLES**, not datamining. Current status: **Form Boost per-level match counts** — closed as a documented negative (official wording gives only "a set number of matches, minimum one"; assume ONE match) · **Medical percentages above L1** — L1 double-corroborated, L2–L5 unpublished · **Fan Approval mechanics** — closed as a documented negative (no such system exists) · **post-DLS25 coach breakthrough %** — still open, the DLS20 5/10/20 baseline confirmed · **Fanzone per-level gem costs** — still open (one mod-site source says five levels) · **plus** the Medical/Commercial level counts (the 75×N pattern is inferred), the exact Season Pass per-tier contents, the LIVE rank names above Veteran, the identity of the 12th Man winner, and the DLL-unlock Career-match count (C-025). **Web research is not exhausted — the FTG support portal is a live route and has produced the last several official findings.**
 2. **Formation meta is genuinely unsettled** (C-014) — the rule is "pick one and learn it deeply", which is advice about process, not a claim about a best formation.
 3. **Corner footedness is contested** (C-022) — the rule instructs testing both in training rather than asserting one.
 4. **Market refresh cadence** (C-021) — "refreshes after every match" is the community consensus; a minority claims every 7 hours. The rule set uses the per-match model because it is the more conservative assumption for the farming loop.
@@ -444,4 +444,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,621 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (370 records) at ckpt-131.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,628 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (372 records) at ckpt-132.*
