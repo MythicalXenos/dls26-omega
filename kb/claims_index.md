@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:50:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1671**
-Distribution: Confirmed 374 / High Confidence 711 / Community Consensus 551 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **440**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:52:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1673**
+Distribution: Confirmed 376 / High Confidence 711 / Community Consensus 551 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **441**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -52,13 +52,13 @@ Distinct evidence records cited: **440**.
 | seasonpass | 6 |
 | 12thman | 5 |
 | accounts | 5 |
+| audit | 5 |
 | discipline | 5 |
 | endgame | 5 |
 | gacha | 5 |
 | referee | 5 |
 | weather | 5 |
 | ai | 4 |
-| audit | 4 |
 | chemistry | 4 |
 | ratings | 4 |
 | features | 3 |
@@ -79,6 +79,7 @@ Distinct evidence records cited: **440**.
 | complaints | 1 |
 | defending | 1 |
 | design | 1 |
+| docs | 1 |
 | exhibition | 1 |
 | recruitment | 1 |
 | roster | 1 |
@@ -455,6 +456,8 @@ Distinct evidence records cited: **440**.
 | CLAIM-165 | Season Pass mechanics (v12200+): FREE + SEASON PASS (paid) tiers; buying paid Pass unlocks Progress Bank (DLL XP → coins+gems paid at season end) a... | Confirmed | unscoped | EV-260,EV-270 |
 | CLAIM-166 | Season Pass activation threshold: 400 Season Points; daily login provides 40 Season Points/day for free (10-day season = 400 SP from logins alone).... | Confirmed | unscoped | EV-270 |
 | CLAIM-167 | Formation unlock is a two-step process: (1) collect enough of the same formation cards; (2) pay Bux (gems) to unlock at squad > formation screen. D... | Confirmed | unscoped | EV-262 |
+| CLAIM-1676 | The corpus passed final verification: 1,671 unique claims with only the four known legacy ID gaps (36, 134, 425, 426), 378 unique evidence records ... | Confirmed | audit/final-verification-passed | EV-477 |
+| CLAIM-1677 | docs/BRIEFING.md is the one-page capstone and intended entry point: the mission definition, the ten ranked rules, what the sweep closed and how, th... | Confirmed | docs/briefing-capstone | EV-477 |
 | CLAIM-168 | Dream League Live leaderboards reset at regular intervals ranging 3-30 days (different leaderboards have different cadences); prizes awarded based ... | Confirmed | unscoped | EV-263 |
 | CLAIM-169 | Single-player difficulty scales automatically with division progression; DLS25 introduced a manual base difficulty toggle (Easy/Medium/Hard). In DL... | Confirmed | unscoped | EV-264 |
 | CLAIM-170 | Official gems sources: league objectives, tournaments, Season Pass, Prize Ladder, Dream League Live participation + leaderboard placement; also pur... | Confirmed | unscoped | EV-265 |
