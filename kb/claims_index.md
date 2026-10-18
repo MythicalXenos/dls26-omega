@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T09:25:59Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2240**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 928 / Speculative 73 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **483**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T09:57:04Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2252**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 938 / Speculative 75 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **484**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -29,6 +29,7 @@ Distinct evidence records cited: **483**.
 | tactics | 36 |
 | events | 34 |
 | platform | 32 |
+| account | 29 |
 | customization | 29 |
 | presentation | 27 |
 | stamina | 26 |
@@ -36,7 +37,6 @@ Distinct evidence records cited: **483**.
 | modes | 25 |
 | goalkeeping | 23 |
 | stadium | 23 |
-| account | 20 |
 | customisation | 19 |
 | matchcraft | 18 |
 | meta | 16 |
@@ -72,6 +72,7 @@ Distinct evidence records cited: **483**.
 | ratings | 5 |
 | shooting | 5 |
 | ai | 4 |
+| exhibition | 4 |
 | sources | 4 |
 | acquisition | 3 |
 | features | 3 |
@@ -88,7 +89,6 @@ Distinct evidence records cited: **483**.
 | defending | 1 |
 | design | 1 |
 | docs | 1 |
-| exhibition | 1 |
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
@@ -2198,6 +2198,16 @@ Distinct evidence records cited: **483**.
 | CLAIM-2242 | THE SECONDARY PRESS IS THE LONG-BALL DEFENCE, a second source for the corpus's secondary-beats-main rule with the aerial case specified: 'To counte... | Community Consensus | matchcraft/secondary-press-is-the-long-ball-defence | EV-519 |
 | CLAIM-2243 | THE PLAYER-RUNS TIMING ADVICE: 'Players make multiple runs during the game. **Watch these movements and time your passes** to take advantage of ope... | Community Consensus | matchcraft/player-runs-timing | EV-519 |
 | CLAIM-2244 | THE PASSING DRILL: 'Improve your passing in the **Corner training mode**. Start by passing back to let the other team reset, then focus on keeping ... | Community Consensus | training/corner-mode-passing-drill | EV-519 |
+| CLAIM-2245 | EXHIBITION PAYS 5 COINS A WIN, correcting a claim the corpus carries at three confidence levels: three sources said 'no rewards'; one player report... | Community Consensus | exhibition/pays-5-coins-per-win | EV-520 |
+| CLAIM-2246 | THE POST-MATCH AD IS SOMETIMES UNAVAILABLE AFTER EXHIBITION: '**Video will always be available after the game, except in exhibition matches sometim... | Community Consensus | exhibition/post-match-ad-sometimes-unavailable | EV-520 |
+| CLAIM-2247 | THE BAN LADDER: 'FTG have been cracking down on cheaters... from **temporary Live bans to permanent Live bans to even permanent account bans**.' So... | Community Consensus | account/ban-ladder | EV-520 |
+| CLAIM-2248 | FTG ARE CAUTIOUS AND RARELY BAN BY MISTAKE, and they can see everything: '**FTG are cautious with these bans, they'll rarely ban anyone by mistake*... | Community Consensus | account/ftg-tracks-all-activity | EV-520 |
+| CLAIM-2249 | MULTIPLAYER BANS ARE USUALLY NOT LIFTED: '**FTG apparently do not lift multiplayer bans. If you get one, you're permanently banned**' - later softe... | Community Consensus | account/multiplayer-bans-rarely-lifted | EV-520 |
+| CLAIM-2250 | ⚠️ THE TWO AUTOMATIC BAN TRIGGERS, NEITHER OF WHICH REQUIRES ANY CHEATING: '**1. You have multiple accounts on the same device through illegitimate... | Community Consensus | account/two-automatic-ban-triggers | EV-520 |
+| CLAIM-2251 | THE CHEAT-VERSUS-EXPLOIT DEFINITION, from a subreddit moderator: '**Cheats are intentional tools or built in codes used to alter game rules** and g... | Community Consensus | account/cheat-versus-exploit-definition | EV-520 |
+| CLAIM-2252 | ⚠️ THE PENALTY FOR EXPLOITS IS NAMED, AND IT IS NOT A BAN: 'I don't promote the use of exploits, especially game breaking ones, **it's very bannabl... | Community Consensus | account/exploit-penalty-is-reversion | EV-520 |
+| CLAIM-2253 | FTG TRACKS CURRENCY BALANCES AND INSTA-BANS SUSPICIOUS AMOUNTS: 'the game has changed and now **it requires internet to even play career and they t... | Community Consensus | account/currency-balances-monitored | EV-520 |
+| CLAIM-2254 | WHY MODS DO NOT LAST: '**It's server side.** Meaning when developer rolls update, each update will close loops, hacks have to keep updating patch. ... | Community Consensus | account/server-side-enforcement | EV-520 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
@@ -2335,6 +2345,8 @@ Distinct evidence records cited: **483**.
 | CLAIM-2236 | THE ACTUAL COMMENTARY PHRASES, from the wiki: '**Shihab crack from distance!**' · 'Optimistic effort' · 'XXX with the shot' · "Let's see how this s... | Speculative | presentation/commentary-phrase-list | EV-518 |
 | CLAIM-2240 | THE RECRUITMENT NEGOTIATION IS TIME-BOXED and based on current-season contribution: a member negotiating in real time reports 'i do 200k points min... | Speculative | clans/recruitment-is-time-boxed | EV-519 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
+| CLAIM-2255 | EXHIBITION HAS TWO SUB-MODES - **offline** and **friendly matchmaking** - and the offline one 'offers very little to exploit', which is the same ne... | Speculative | exhibition/two-sub-modes | EV-520 |
+| CLAIM-2256 | ⚠️ OFFENSIVE TEAM AND MANAGER NAMES CAN BE ACTIONED: the official sanction article states that 'in extreme circumstances, action may be taken in re... | Speculative | account/offensive-or-trademarked-names-actionable | EV-520 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |

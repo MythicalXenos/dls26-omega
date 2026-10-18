@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-182 — 2,240 claims / 421 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-183 — 2,252 claims / 422 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -268,6 +268,9 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Never buy an account** | Marketplaces sell them from $37-$40; FTG prohibits profile sale/purchase and bans for it [EV-516, C3] |
 | **The 30-day reset cooldown may not be policed** | A player reports a third reset without waiting — the official rule stands; ignore the loophole [EV-516, C4] |
 | **Save Mode makes a Career loss undoable** | Delete Save Match, then Exit Save Mode, and replay from the beginning - the game's own feature, not an exploit [EV-514, C3] |
+| **⚠️ THE THREE UNDOS ARE EXPLOITS** | By FTG's own cheat-vs-exploit definition they bypass normal game limits, and the named penalty is **account reverting or player downgrading** - not a ban. Use knowingly [EV-520, C3] |
+| **Exhibition pays 5 coins a win** | Negligible, not zero - no gems, no SP, no DP [EV-520, C3] |
+| **Never log the same account on multiple devices quickly** | An automatic ban trigger, no cheating required [EV-520, C3] |
 | **The six LIVE ranks are named** [EV-504, C2, primary source] | **Rookie → Amateur → Semi-Pro → Intermediate → Pro → Veteran**, each a 500-XP achievement. Nothing above Veteran is published; above Veteran is device-only |
 
 **The stadium capacity gate** [EV-460, C2] — the rule that can silently stall a Career season:
