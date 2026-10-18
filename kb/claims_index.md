@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T09:57:04Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2252**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 938 / Speculative 75 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **484**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T10:30:19Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2263**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 946 / Speculative 77 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **485**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -21,7 +21,7 @@ Distinct evidence records cited: **484**.
 | controls | 56 |
 | prizeladder | 48 |
 | coaching | 43 |
-| patching | 42 |
+| patching | 43 |
 | training | 41 |
 | cups | 39 |
 | attributes | 37 |
@@ -54,6 +54,7 @@ Distinct evidence records cited: **484**.
 | social | 10 |
 | squad | 10 |
 | 12thman | 8 |
+| bugs | 8 |
 | injuries | 8 |
 | scenarios | 8 |
 | seasonpass | 8 |
@@ -69,6 +70,7 @@ Distinct evidence records cited: **484**.
 | discipline | 5 |
 | endgame | 5 |
 | gacha | 5 |
+| licensing | 5 |
 | ratings | 5 |
 | shooting | 5 |
 | ai | 4 |
@@ -79,10 +81,8 @@ Distinct evidence records cited: **484**.
 | season-pass | 3 |
 | challenges | 2 |
 | formations | 2 |
-| licensing | 2 |
 | anticheat | 1 |
 | benchmark | 1 |
-| bugs | 1 |
 | classics | 1 |
 | commercial | 1 |
 | complaints | 1 |
@@ -1213,6 +1213,7 @@ Distinct evidence records cited: **484**.
 | CLAIM-219 | Default unlocked formations at game start: 4-4-2 and 4-1-2-1-2. Additional formations are unlocked via Training Centre upgrades (community referenc... | High Confidence | unscoped | EV-284 |
 | CLAIM-223 | Defensive control meta (DLS26 community): (1) Hold B to auto-pressure ball — DO NOT move joystick while holding B (player auto-tracks carrier); (2)... | High Confidence | unscoped | EV-282 |
 | CLAIM-226 | Play Store listing for DLS26 (com.firsttouchgames.dls7) confirms: FIFPRO 4,000+ players, full 3D motion-captured kicks/tackles/celebrations/GK save... | High Confidence | unscoped | EV-284 |
+| CLAIM-2265 | FTG's own account confirms the licensing gap: '@AIMASHSOBAAN Unfortunately **due to licensing reasons we cannot include all Bundesliga players**' -... | High Confidence | licensing/ftg-bundesliga-statement | EV-521 |
 | CLAIM-228 | Coach categories (4): Technical (boosts CON/TAC/PASS/SHOT — outfield), Fitness (boosts STA/STR/ACC/SPE — outfield), Goalkeeping (boosts GKH/GKR — G... | High Confidence | unscoped | EV-285,EV-256 |
 | CLAIM-229 | Coach rarity boost magnitudes (DLS26): Common = +1 to 1 random stat; Rare = +2 to 2 random stats; Legendary = +3 to 3 random stats. Breakthrough/bo... | High Confidence | unscoped | EV-285 |
 | CLAIM-231 | Player development cap: strict +10 OVR above base card (via any combination of coaches). DLS26 uses weighted attribute costs: high-impact stats (CO... | High Confidence | unscoped | EV-285,EV-256,EV-262 |
@@ -2208,6 +2209,14 @@ Distinct evidence records cited: **484**.
 | CLAIM-2252 | ⚠️ THE PENALTY FOR EXPLOITS IS NAMED, AND IT IS NOT A BAN: 'I don't promote the use of exploits, especially game breaking ones, **it's very bannabl... | Community Consensus | account/exploit-penalty-is-reversion | EV-520 |
 | CLAIM-2253 | FTG TRACKS CURRENCY BALANCES AND INSTA-BANS SUSPICIOUS AMOUNTS: 'the game has changed and now **it requires internet to even play career and they t... | Community Consensus | account/currency-balances-monitored | EV-520 |
 | CLAIM-2254 | WHY MODS DO NOT LAST: '**It's server side.** Meaning when developer rolls update, each update will close loops, hacks have to keep updating patch. ... | Community Consensus | account/server-side-enforcement | EV-520 |
+| CLAIM-2257 | ⚠️ THE MAXED-PLAYER REVERSION BUG: '**maxed players lost all their upgraded stats and reverted to their base ratings after the update**' - reported... | Community Consensus | bugs/maxed-player-stat-reversion | EV-521 |
+| CLAIM-2258 | ⚠️ THE LOCKED-PLAYER RATING BUG, and its consequence: '**releasing a maxed player caused their rating to downgrade to the new official rating, defe... | Community Consensus | bugs/locked-player-ratings-unchanged | EV-521 |
+| CLAIM-2259 | ⚠️ THE RANDOM-FORFEIT BUG: 'I keep getting kicked out of Dream League Soccer matches for no reason. **The game says I forfeited even when I never l... | Community Consensus | bugs/random-forfeit | EV-521 |
+| CLAIM-2260 | ⚠️ THE RANDOM-MOVEMENT BUG: 'my players are making **meaningless movements** on the field, **failing to hold their positions**, and cannot even cat... | Community Consensus | bugs/random-player-movement | EV-521 |
+| CLAIM-2261 | THE SERVER ERROR DESPITE STABLE INTERNET is a documented complaint category: 'For the past two days, I have been consistently receiving a DLS serve... | Community Consensus | bugs/server-error-stable-connection | EV-521 |
+| CLAIM-2262 | THE DLS26 BUG-FIX HISTORY, which tells you which faults are already closed: **January 2026** crash fixes and performance tweaks · **May 2026** 'Res... | Community Consensus | patching/dls26-bug-fix-history | EV-521 |
+| CLAIM-2263 | THE USER-SENTIMENT SUMMARY, the corpus's first aggregate view of what DLS players actually complain about: lost accounts and difficulty restoring p... | Community Consensus | bugs/user-sentiment-summary | EV-521 |
+| CLAIM-2264 | THE LICENSING MECHANISM: DLS licenses **players** through FIFPRO, not league packages - 'FTG operates primarily under a FIFPRO license, they licens... | Community Consensus | licensing/players-not-leagues | EV-521 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
@@ -2347,6 +2356,8 @@ Distinct evidence records cited: **484**.
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-2255 | EXHIBITION HAS TWO SUB-MODES - **offline** and **friendly matchmaking** - and the offline one 'offers very little to exploit', which is the same ne... | Speculative | exhibition/two-sub-modes | EV-520 |
 | CLAIM-2256 | ⚠️ OFFENSIVE TEAM AND MANAGER NAMES CAN BE ACTIONED: the official sanction article states that 'in extreme circumstances, action may be taken in re... | Speculative | account/offensive-or-trademarked-names-actionable | EV-520 |
+| CLAIM-2266 | THE FULL DLS26 TEAM ROSTER with per-club player counts (dlsinside, 16 Sep 2026): A Bergamo 29, A Bilbao 36, A Madrid 34, A Milan 30, Aberdeen 28, A... | Speculative | licensing/team-roster-player-counts | EV-521 |
+| CLAIM-2267 | THE DLS26 LAUNCH COMPLAINT SET, recorded so the corpus carries the negative case as well as the positive: 'the goal does not feel they're in the ga... | Speculative | bugs/dls26-launch-complaint-set | EV-521 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |

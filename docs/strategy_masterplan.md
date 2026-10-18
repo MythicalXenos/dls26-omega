@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-183 — 2,252 claims / 422 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-184 — 2,263 claims / 423 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -420,6 +420,8 @@ This is the most operationally important layer in the game, and almost every gui
 | Cadence | Roughly **every two weeks** |
 
 **Verdict:** worth entering when free, because it is the cheapest 185 DP in the game and it feeds the Prize Ladder. Do not pay for it — the community calls the opposition scripted and notes that losing yields nothing.
+
+> **⚠️ BEFORE YOU COACH: THE MAXED-PLAYER REVERSION BUG** [EV-521, C3]. A player who locked players to observe what the December 2025 update would do to their ratings reports that *"**maxed players lost all their upgraded stats and reverted to their base ratings after the update**"*, and that *"**releasing a maxed player caused their rating to downgrade to the new official rating, defeating the purpose of the recovery tab.**"* Locked players' ratings did not change at all across the update. **So coached progress is not guaranteed to survive a season boundary** — which is an unexpected argument for the corpus's stop-coaching advice, and a reason to keep a record of what you have spent. It also means the **Lock** feature did not protect ratings in DLS26.
 
 ### PHASE 4 — Player development (the actual rating engine)
 
