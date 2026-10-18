@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-152 — 1,856 claims / 392 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-153 — 1,856 claims / 392 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 

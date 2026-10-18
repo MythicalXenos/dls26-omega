@@ -2,7 +2,7 @@
 
 > **Purpose (RQ-20261018-022).** Every source used in the turn-35 sweep is classified here with the specific reason. A source's status is a property of the *source*, not of the individual article — a rejected source is rejected for all future use unless the underlying defect is fixed.
 > **Authority note:** this register records *why* a source is trusted or distrusted. The claim authority remains `kb/claims.jsonl`. Where a claim cites a source listed here as REJECTED or DOWNGRADED, the claim's confidence tier must reflect that.
-> Basis: ckpt-152 — 1,856 claims / 392 evidence records.
+> Basis: ckpt-153 — 1,856 claims / 392 evidence records.
 
 ---
 
