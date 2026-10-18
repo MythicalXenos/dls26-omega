@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:46:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2215**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 906 / Speculative 70 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **480**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T08:36:15Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2224**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 915 / Speculative 70 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **481**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -11,11 +11,11 @@ Distinct evidence records cited: **480**.
 | economy | 138 |
 | facilities | 114 |
 | dll | 90 |
-| gameplay | 80 |
+| gameplay | 81 |
 | transfers | 80 |
-| cards | 69 |
+| cards | 71 |
+| career | 65 |
 | clans | 65 |
-| career | 64 |
 | setpieces | 60 |
 | errata | 58 |
 | controls | 52 |
@@ -27,15 +27,15 @@ Distinct evidence records cited: **480**.
 | attributes | 37 |
 | coaches | 37 |
 | tactics | 36 |
-| events | 31 |
-| platform | 31 |
+| events | 34 |
+| platform | 32 |
 | customization | 29 |
 | stamina | 26 |
 | achievements | 25 |
 | modes | 25 |
 | presentation | 25 |
 | goalkeeping | 23 |
-| stadium | 22 |
+| stadium | 23 |
 | account | 19 |
 | customisation | 19 |
 | matchcraft | 16 |
@@ -2175,6 +2175,15 @@ Distinct evidence records cited: **480**.
 | CLAIM-2216 | THE PER-POSITION TOP-7, corroborating the corpus's best-in-game roster (CLAIM-1842): **defenders** Van Dijk 85, Gabriel Magalhaes 85, Hakimi 85, Ba... | Community Consensus | positions/per-position-top-7 | EV-516 |
 | CLAIM-2219 | AN EIGHTH CONTAMINATION: both searches returned ESL **DreamLeague Dota 2** (Seasons 26-31 with formats, prize pools and EPT points), ManageFC's sea... | Community Consensus | errata/eighth-contamination | EV-516 |
 | CLAIM-222 | Licensed leagues visible in DLS26 (community-enumerated): La Liga (Spain), Premier League (England), Ligue 1 (France, 'League 1 Paris'), Serie A (I... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2220 | THE EVENT SELECTION RULE, a priority order the corpus did not have: '**Try to play the events. ONLY THE EVENTS (for now)** · **The endurance ones w... | Community Consensus | events/event-selection-rule | EV-517 |
+| CLAIM-2221 | THE EVENTS SIT ON THE RIGHT SIDE of the Dream League Live screen: '**Go to Dream League Live and look at the right side. If there's an event, join ... | Community Consensus | events/events-on-the-right-side | EV-517 |
+| CLAIM-2222 | THE 30-SECOND PAUSE, callable at almost any time: 'Dream League Soccer also hosts live events where you can play one against one against real playe... | Community Consensus | gameplay/30-second-pause-general-tool | EV-517 |
+| CLAIM-2223 | THE 7-OF-8 STANDS RULE, which sharpens the corpus's stadium build order: 'There are **8 stands, you'll need to upgrade 7 to the max to get 85,000 c... | Community Consensus | stadium/seven-of-eight-stands | EV-517 |
+| CLAIM-2224 | THE DYNAMIC AGENT VASE REWARD THRESHOLD: '**My goal is to hit the 36 points mark to secure the rewards**' - a concrete point target for one event t... | Community Consensus | events/dynamic-agent-vase-36-points | EV-517 |
+| CLAIM-2225 | THE DYNAMIC STARS PER-ROUND BOOST TABLE: Group Stage Qualifiers 29 June **+1 OVR per Group Stage Win** · Round of 32 Winners 6 July **+2** · Round ... | Community Consensus | cards/dynamic-stars-per-round-boosts | EV-517 |
+| CLAIM-2226 | THE SEASON 1 PASS AGENT SPLIT for Dynamic Stars: '**3x DLS Dynamic Agents in the premium path, and 2 will be free**' - so the collection is reachab... | Community Consensus | cards/dynamic-stars-pass-agent-split | EV-517 |
+| CLAIM-2227 | THE CONNECTION TIMING ADVICE, official: if matches consistently fail on connection quality, '**you might have to try a different type of internet c... | Community Consensus | platform/connection-time-of-day-advice | EV-517 |
+| CLAIM-2228 | THE DIVISION PAYOUT SCALING, a second source: '**The higher the division, the bigger the payout. Winning matters more than just playing**; the coin... | Community Consensus | career/division-payout-scaling-second-source | EV-517 |
 | CLAIM-224 | Set-piece attacking meta (DLS24-26 community): FREE KICKS by distance — 18-22yd curl with inside foot; 23-28yd power or curled top-corner; 30+yd lo... | Community Consensus | unscoped | EV-283 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-179 — 2,215 claims / 418 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-180 — 2,224 claims / 419 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -186,7 +186,7 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 
 > **The per-competition gem table behind that rule** [EV-502, C3]: **30** Legendary Division · **25** Diamond Cup · **20** International Cup · **15** Global Challenge Cup · **15** International Allstars · **5** allstar match. And promotion itself requires the **Division Objectives** (My Club) completed inside **15 Division Games** — a finishing position *and* a **goal count**, with 10 wins enough to top the table but the goals the harder half.
 
-| 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | A **coin** project, not a gem one: sector levels cost 0–650 coins each, optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [EV-460, C2]. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
+| 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | A **coin** project, not a gem one: sector levels cost 0–650 coins each, optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [EV-460, C2] — and **only seven of the eight stands need maxing**: *"you'll need to upgrade 7 to the max to get 85,000 capacity. The last stand un-upgraded must be a corner stand"* [EV-517, C3], so the corner is the one to leave. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
 | 2 | **Commercial** | +13% coins at L2, **+21% at L3** (one source curve, contested — C-019) | First tier 75 gems. **Real magnitude at max: only ~6–20 extra coins per game** [EV-465, C3] — the payback runs to hundreds of matches, so **spend here last** |
 | 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations — **the highest-value gem facility** | **10 levels at 75×N gems** (see the uniform-cost rule below); L4 is the coach-farming unlock |
 | 4 | **Medical** | Injury reduction and cheaper recovery | L1 gives −5% injury / −10% heal cost; L2–L5 **never published** [C2] |
