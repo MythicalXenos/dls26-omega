@@ -41,3 +41,6 @@
 {"turn":35,"wave":4,"claims_added":"CLAIM-0746..CLAIM-0763","ev_added":"EV-385","checkpoint":"ckpt-062"}
 {"turn":35,"wave":5,"claims_added":"CLAIM-0764..CLAIM-0779","ev_added":"EV-386","checkpoint":"post-ckpt-062"}
 {"turn":35,"wave":6,"claims_added":"CLAIM-0780..CLAIM-0797","ev_added":"EV-387","checkpoint":"post-ckpt-062"}
+{"turn":35,"wave":7,"claims_added":"CLAIM-0798..CLAIM-0817","ev_added":"EV-388","checkpoint":"pre-ckpt-064"}
+{"turn":35,"wave":8,"claims_added":"CLAIM-0818..CLAIM-0839","ev_added":"EV-389","checkpoint":"pre-ckpt-064"}
+{"turn":35,"wave":9,"claims_added":"CLAIM-0840..CLAIM-0855","ev_added":"EV-390","checkpoint":"ckpt-064"}
