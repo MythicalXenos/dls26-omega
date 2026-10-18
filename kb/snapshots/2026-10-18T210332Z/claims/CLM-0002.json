@@ -1,0 +1,28 @@
+{
+  "claim_id": "CLM-0002",
+  "proposition": "DLS26 is free to download and contains in-app purchases and advertising; App Store tags it with Loot Boxes.",
+  "build_context": "App Store (US) listing and Google Play listing, fetched 2026-10-18",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "Critical",
+  "trigger_dimensions": {
+    "patch_triggered": "no observed history",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "DR-0001 (R-0005 App Store)",
+    "DR-0002 (R-0006 Google Play)"
+  ],
+  "origin_tags": [
+    "publisher-stated (store listing)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "publisher page (fetched)",
+  "notes": "App Store Contains: Loot Boxes, Advertising, In-App Purchases Yes. Google Play: 'Includes random-item purchases'. Consequential for spend decisions (see kb/irreversible_actions.md).",
+  "epoch": "epoch-0001"
+}

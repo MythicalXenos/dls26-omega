@@ -43,3 +43,26 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 
 ## 2026-10-18T15:41:35Z — BUDGET
 - Turn budget: unknown (not measured; not provided). Recorded as unknown per the handoff rule.
+
+## 2026-10-18T21:03:32Z — TURN-START RECONCILIATION (turn 3)
+- Compared workspace and repository before changing files. Writable branch is `arena/1e90cb90-dls26-omega`; remote tip before this turn was `37160a8f8e3d01e7fa1e32718cef0c2cd5c31b33`, local was 3 commits ahead and 0 behind. `origin/main` remained `fb9a2c025ec267f6b787382766ce44c7e373d091`; configured fetch refspecs were inspected. PR #6 is the sole OPEN PR, on `arena/357aaddf-dls26-omega` at `7f198081f90f429de561edeb066fcf72af0815a2`; it was not altered or merged. Workspace-only v80 prompt/archive/diff files were preserved.
+- Capability revalidation matched Debian 12/x86_64 and prior absence list. Git fetch, `gh pr list` and `gh pr view` succeeded. No browser/controller runtime or acknowledgement receipt was available.
+
+## 2026-10-18T21:03:32Z — PROMPT INTEGRITY
+- Repaired the three known v80 capture differences (Condition 1 duplication, Scope word order, omitted REPRESENTATION_DUPLICATE paragraph). Live prompt and `OMEGA_PROMPT_v80.md` match at 184,126 bytes, SHA-256 `495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a`; v78→v80 draft diff regenerated. This verifies the mirror only, not the original user message.
+- Mechanical audit: 25 unique OMEGA rule IDs; mechanisms 1–9 occur once; one general precedence heading. Audit FAIL: original v80 source bytes/hash unavailable, unresolved named references, `Community Consensus` confidence-tier inconsistency, and missing Step-2/Step-3 state exit predicates. See `docs/prompt_integrity/v80.json`, ISSUE-012/013/017. No prompt policy edit by agent.
+
+## 2026-10-18T21:03:32Z — IMPORT AUDIT / EPISTEMIC STATUS
+- Ran the v80 five-pass import audit over PR #6 claims CLM-0001–CLM-0012. Repository custody/claim blob integrity is preserved, but witness payload verification and skeptic assessment fail or are blocked because immutable primary payloads, hashes and extraction spans are missing. All 12 records remain unchanged and quarantined; no tier assigned; no claim is used as verified knowledge. See `docs/audits/2026-10-18-v80-import-audit.md` and ISSUE-016.
+- No game-source retrieval or new game claim occurred. Epoch-0001 remains OPEN. Saved cursor remains Q-008 through Q-013, then CONNECTED/UNCERTAIN classification. Q-002 remains linked to Q-008; Q-003–Q-007 remain owed or blocked.
+
+## 2026-10-18T21:03:32Z — PROGRESS / CHECKPOINT
+- Completed finite v80 migration and import-audit/quarantine obligations: archive and draft diff, changelog, operational digest/schema, integrity ledger, issue updates, capability alias, KB index, and snapshot `kb/snapshots/2026-10-18T210332Z/` (16 files; manifest SHA-256 `5482b9f1369ad9cb7aae7f57cbd2a84ede0a11039d686b861fa227b0efe0c93d`). Progress event ref: `OP-20261018T210332-PROMPT-MIGRATION-AND-IMPORT-AUDIT`.
+- The current checkpoint is paused ATTENTION_REQUIRED with `continuation_allowed=false`, `needs_user=true`; user request is in `handoff/attention_required.md`. Controller validation remains unverified; no automatic continuation is authorized.
+
+## 2026-10-18T21:03:32Z — DEGRADATION EVENT (audit tooling)
+- A first read-only Python audit command failed at parse time due to a quoting SyntaxError; it performed no checks and changed no files. The corrected parser ran successfully. The import-audit report was also written twice identically because of a duplicated parallel tool request; no content diverged. Both were disclosed in ISSUE-015; no evidence was lost.
+- The resumed turn exceeded the later-turn 360-second wall-clock ceiling: the first same-turn clock observation was 20:56:38Z and checkpoint preparation continued through 21:12:50Z, a span of 16m12s; the turn itself began earlier, so the ceiling was exceeded by at least 10m12s. Exact start time was not instrumented. Record as budget degradation/ISSUE-018; no further game research, stop at this attention checkpoint.
+
+## 2026-10-18T21:03:32Z — QUESTION / ATTENTION
+- No in-chat question was sent during bootstrap. The batched indispensable request is recorded in `handoff/attention_required.md`: provide/confirm exact v80 source text/hash, user-only repair or acceptance of the integrity findings, and controller validation or explicit manual-only continuation.

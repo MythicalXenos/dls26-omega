@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-0007",
+  "proposition": "DLS player stats are SPE, ACC, STA, CON, STR, TAC, PAS, SHO, GKH, GKR and ENERGY, each with a stated gameplay effect (e.g., ACC: time to reach top speed; GKR: shot-stopping reaction).",
+  "build_context": "FTG support article 'How do the various player stats in DLS affect gameplay?' (undated); chunk 0 of 4 only",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "Critical",
+  "trigger_dimensions": {
+    "patch_triggered": "no observed history",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "DR-0007 (R-0010 stats article, chunk 0 of 4)"
+  ],
+  "origin_tags": [
+    "publisher-stated (support article, undated)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "publisher page (fetched)",
+  "notes": "PARTIAL: only chunk 0 read. A page comment is dated '4 years ago', so this text may predate DLS26; applicability to DLS26 is unverified.",
+  "epoch": "epoch-0001"
+}

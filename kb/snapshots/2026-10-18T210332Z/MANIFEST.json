@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "2026-10-18T210332Z",
+  "created_at": "2026-10-18T21:03:32Z",
+  "scope": "Full KB state at v80 migration checkpoint; quarantined imported claims preserved unchanged.",
+  "files": {
+    "claims/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "claims/CLM-0001.json": "d9a54890b8986fd5b651443904ce77d12855983ef0e85293f99931fa51fca5c7",
+    "claims/CLM-0002.json": "c7c07d722ce1f6e5a175133faa0c072b79f26898996c10a66a9d0de67767afb1",
+    "claims/CLM-0003.json": "6d42f1e4e92c50e52209040df7dd58bb1864ae7198172a5262c72843d8860bd3",
+    "claims/CLM-0004.json": "dfb99d72b619bf7e2761682404626dc0e9fd6dae0eaf437286cb2b3f8cdc50ec",
+    "claims/CLM-0005.json": "80197a67f7d6a505796d7eb5c288b4b709741bce256f5208fe0b66276072f2e4",
+    "claims/CLM-0006.json": "39a957ea934b5aa434e3f23f37937e40d7452c91241cf98fdf191527b769b9e8",
+    "claims/CLM-0007.json": "d2d8bbf5af50282e462315dfa1629059944af6b4fbbf9fd7f7b9484d259ea05d",
+    "claims/CLM-0008.json": "b2bcdeb910a6fee18ead738a571aaf94ef84b73788277e7f0e755ae3c99e342c",
+    "claims/CLM-0009.json": "588e1070cddc265ba27c0af41591f049a4e83faae847bd20bc7db22222d72de9",
+    "claims/CLM-0010.json": "94b542ab5662166e8da50697e91af835b7fff78c4a12eaab654fb84ec6822be7",
+    "claims/CLM-0011.json": "e9b65f6716e31527f5f24dbbd940db3634979b8430bb1be0e45c3f407ecb5046",
+    "claims/CLM-0012.json": "f05c3a76b6c4970d1c0f103eec7cbbd1b3e5a77bb9e6716ae431f215c5872256",
+    "irreversible_actions.md": "d0866ccc8e00bc9a422c96382e4a341393b3366fbb6b4398c41c509be8c364dd",
+    "knowledge_base.md": "a1f8e1815a52df819cc0a4c3933796db31ef5098f4e7f9d20b073d9e405341d8",
+    "user_profile.md": "ba11927f63467474793b769d54b2becb7206f6cb12279a9df753b12a8ccf2a84"
+  }
+}

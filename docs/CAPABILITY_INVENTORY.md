@@ -26,7 +26,7 @@ Observed: 2026-10-18T15:32:51Z (UTC), by direct command execution in the session
 ## Resources and limits
 - Host call-count limit: unknown (not exposed to the agent). Recorded as unknown per OMEGA-BUDGET-002.
 - Turn wall-clock deadline: the prompt's 420 s (Setup) and 360 s (later turns). Host-enforced limit: unknown.
-- Repository: /home/user/dls26-omega; branch arena/357aaddf-dls26-omega; remote origin https://github.com/MythicalXenos/dls26-omega.git. Git LFS absent: large artifacts stay out of Git unless required (see docs/SCHEMA.md storage section).
+- Historical Setup branch: `arena/357aaddf-dls26-omega` (PR #6 source). Current session-bound writable branch: `arena/1e90cb90-dls26-omega`; origin is https://github.com/MythicalXenos/dls26-omega.git. Git LFS absent: large artifacts stay out of Git unless required (see docs/SCHEMA.md storage section).
 
 ## Constraints re-verified against Datamining hard constraints
 - No device, no emulator, no APK tooling installed. Static APK decompilation (STATE_2) would need an install step (java + jadx or apktool). Installing from pypi/npm only is possible if an equivalent exists on those registries; that is a later step, not Setup work.
@@ -36,3 +36,12 @@ Observed: 2026-10-18T15:32:51Z (UTC), by direct command execution in the session
 - No device access (no ADB device, no emulator).
 - No Java runtime (blocks standard Android decompilers).
 - No SQLite CLI (python sqlite3 module is available via the python stdlib — not separately verified here).
+
+## Revalidation during session resume — 2026-10-18T20:56:38Z (UTC)
+
+- Rechecked host: Debian GNU/Linux 12 (bookworm), Linux 6.1.158+, x86_64; 2 CPUs; 3,939 MiB RAM total / 3,675 MiB available; 21 GiB root volume with 20 GiB free. These observations match Setup.
+- Rechecked tool versions: bash 5.2.15; Python 3.11.2 / pip 23.0.1; Node v22.22.3 / npm 10.9.8; Git 2.39.5; gh 2.23.0; curl 7.88.1; jq, wget, unzip, zip, tar and OpenSSL present.
+- Rechecked absences by `command -v`: adb, Java/Javac/keytool, apktool, jadx, aapt/aapt2, 7z, sqlite3 CLI, file, xxd, ffmpeg and git-lfs absent. No device/emulator capability is claimed. `/dev/kvm` was absent in the original Setup inventory; no new device probe was performed in this revalidation.
+- Repository tools were exercised successfully: `git fetch --prune origin`, `git ls-remote` for the session branch, `gh pr list` and `gh pr view 6`. Current bound branch is `arena/1e90cb90-dls26-omega`; PR #6 remains the sole open PR on its separate source branch. No browser-controller runtime was exposed or tested.
+- Network scope remains the host-policy allowlist recorded above. This revalidation made no requests to disallowed destinations. GitHub transport success does not verify game-source access or controller acknowledgement.
+- No capability change from the original Setup inventory was observed; environment-specific claims remain scoped to the tested shell tools and GitHub operations.

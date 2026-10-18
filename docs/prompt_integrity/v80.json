@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "ledger_id": "PROMPT-INTEGRITY-v80",
+  "prompt_version": 80,
+  "overall_status": "FAIL_NOT_PRODUCTION_READY",
+  "production_ready": false,
+  "prompt_capture": {
+    "classification": "RECONSTRUCTED_UNVERIFIED",
+    "live_path": "DLS26_OMEGA_PROMPT.md",
+    "live_bytes": 184126,
+    "live_sha256": "495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a",
+    "archive_path": "docs/prompt_archive/OMEGA_PROMPT_v80.md",
+    "archive_bytes": 184126,
+    "archive_sha256": "495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a",
+    "live_archive_byte_equal": true,
+    "original_user_text_sha256": null,
+    "fidelity_note": "The full user-supplied v80 text is not available as a byte-addressable source in this resumed context. The live/archive pair is identical, but that does not prove identity to the original user message. Three known transcription defects were repaired; additional differences cannot be excluded."
+  },
+  "outgoing_prompt": {
+    "version": 78,
+    "path": "docs/prompt_archive/OMEGA_PROMPT_v78.md",
+    "bytes": 175594,
+    "sha256": "35eb78178fac8f03e970e4a81c720d59d7709470667d50529865aaf408492cac"
+  },
+  "audit_attempts": [
+    {
+      "attempt_id": "v80-audit-2026-10-18T210332Z",
+      "evaluated_at": "2026-10-18T21:03:32Z",
+      "assertions": [
+        {
+          "id": "source_fidelity_to_user_supplied_v80",
+          "result": "FAIL",
+          "evidence": "No original user-text file or source digest is present in the resumed workspace. `cmp` proves only live/archive equality. Known transcription repairs were made, so full identity remains unverified."
+        },
+        {
+          "id": "all_new_rule_ids_unique",
+          "result": "PASS",
+          "evidence": "Mechanical parse found 25 OMEGA-RULE IDs and 25 unique values; no duplicate IDs."
+        },
+        {
+          "id": "all_named_rule_pointers_resolve",
+          "result": "FAIL",
+          "evidence": "Mechanical parse found `OMEGA-SQUAD-001` references `MY SQUAD — MY GROUND TRUTH`, but that canonical heading/definition is absent from the prompt body. Other legacy named pointers remain unresolved, including `PROMPT VERSIONING`, `Knowledge Management`, `Notification Threshold`, `Special Card Tracking`, and `Datamining hard constraints`; see ISSUE-001/ISSUE-012."
+        },
+        {
+          "id": "no_unresolved_superseded_or_positional_pointers",
+          "result": "FAIL",
+          "evidence": "The full pointer audit cannot pass while named pointers above remain unresolved; the full user-source comparison is also unavailable."
+        },
+        {
+          "id": "single_general_precedence_ladder",
+          "result": "PASS",
+          "evidence": "One `PRECEDENCE WHEN TWO RULES IN THIS PROMPT CONFLICT` heading is present. OMEGA-AMENDMENT-001 explicitly retains it as the sole general precedence authority."
+        },
+        {
+          "id": "single_confidence_tier_system",
+          "result": "FAIL",
+          "evidence": "MECHANISM 5 lists five gate labels, while MECHANISM 2 calls `Community Consensus` a confidence tier; that label is not among the five gates and conflicts with OMEGA-EVIDENCE-001's separation of community method tags from confidence."
+        },
+        {
+          "id": "single_mechanical_exhaustion_definition",
+          "result": "PASS",
+          "evidence": "The `WHAT EXHAUSTIVE MEANS` section supplies the exhaustion standard; OMEGA-CLOSURE-001/OMEGA-EPOCH-001 operationalize its conditions rather than establishing a competing stopping rule."
+        },
+        {
+          "id": "single_bootstrap_state_machine_authority",
+          "result": "PASS",
+          "evidence": "OMEGA-TRANSITION-001 declares the fixed sequential engine; the canonical setup write-order section restates the same six states and expressly forbids collapse or inferred exits."
+        },
+        {
+          "id": "single_machine_read_authority_and_deferred_restatements",
+          "result": "PASS",
+          "evidence": "MACHINE-READ LINES is the canonical display vocabulary; OMEGA-LIVENESS-001 preserves the six classes and declares itself the sole checkpoint contract. Legacy manifest values are explicitly superseded."
+        },
+        {
+          "id": "fixed_machinery_and_open_list_integrity",
+          "result": "FAIL",
+          "evidence": "Mechanisms 1–9 occur once each and the six terminal classes are retained, but the unlisted `Community Consensus` confidence-tier reference creates an accidental additional tier/label. Open lists are explicitly marked open."
+        },
+        {
+          "id": "every_state_has_entry_completion_and_successor",
+          "result": "FAIL",
+          "evidence": "The canonical state list names STATE_2_STATIC_ANALYSIS and STATE_3_DEVICE_PIPELINE but supplies no state-specific entry, completion/exit predicate, or validated successor evidence for them. General transition language does not provide those predicates."
+        },
+        {
+          "id": "no_unauthorized_multistate_collapse",
+          "result": "PASS",
+          "evidence": "The prompt explicitly forbids single-turn multi-state collapse and requires physical predecessor-exit evidence."
+        },
+        {
+          "id": "hard_stop_paths_and_resumption_points",
+          "result": "PASS",
+          "evidence": "The six-class mapping prevents automatic continuation on pause classes; OMEGA-LIVENESS-001 requires a concrete exact_resumption_point. The imported checkpoint cursor remains recorded."
+        },
+        {
+          "id": "idempotent_recovery",
+          "result": "PASS",
+          "evidence": "OMEGA-RECOVERY-001 and OMEGA-DISPATCH-001 require scoped durable state, single-use consumption, replay/reconciliation and no timing-only continuation."
+        },
+        {
+          "id": "new_artifact_owner_schema_recovery_documented",
+          "result": "PASS",
+          "evidence": "The v80 integrity ledger and five-pass import audit are listed with owners, schemas and recovery procedures in docs/SCHEMA.md."
+        },
+        {
+          "id": "derived_capability_path_has_single_source",
+          "result": "PASS",
+          "evidence": "docs/capabilities.md is a symlink to docs/CAPABILITY_INVENTORY.md; the canonical content is not duplicated."
+        },
+        {
+          "id": "session_start_artifacts_covered_by_growth_rule",
+          "result": "FAIL",
+          "evidence": "The prompt refers to the growing artifact list under `Knowledge Management`, but no canonical Knowledge Management rule/section resolves that name."
+        },
+        {
+          "id": "epistemic_controls_and_empirical_integration",
+          "result": "FAIL",
+          "evidence": "The core evidence hierarchy, Skeptic, Devil's Advocate and claim gates are present and no game fact was added by this audit, but the unresolved Community Consensus confidence-tier use prevents a clean single-system assurance."
+        },
+        {
+          "id": "turn_budget_and_batching_bounds",
+          "result": "PASS",
+          "evidence": "OMEGA-BUDGET-002 retains 420-second Setup and 360-second later-turn ceilings, 90-second initial reserve baseline and the two-dedicated-diagnostic default; batching defers to the same cumulative envelope."
+        },
+        {
+          "id": "liveness_cannot_continue_on_timing_alone",
+          "result": "PASS",
+          "evidence": "OMEGA-LIVENESS-001, OMEGA-RECOVERY-001 and OMEGA-DISPATCH-001 require a valid published, unconsumed checkpoint and explicitly reject timing-only continuation."
+        },
+        {
+          "id": "performance_does_not_close_owed_connected_work",
+          "result": "PASS",
+          "evidence": "OMEGA-PROGRESS-001 and frontier rules preserve owed connected/uncertain work; throughput rules do not redefine scope."
+        },
+        {
+          "id": "actual_external_controller_validation",
+          "result": "FAIL",
+          "evidence": "No installed browser/controller runtime was exposed to the agent, so the required multi-tab, acknowledgement, stall, pause, reload, reset, and publication-failure tests were not run. Repository/controller consumption remains unverified."
+        },
+        {
+          "id": "legacy_claims_pass_five_pass_import_audit",
+          "result": "FAIL",
+          "evidence": "The five-pass audit found no immutable primary payload/hash and extraction span for the 12 imported claim records. They remain quarantined; see docs/audits/2026-10-18-v80-import-audit.md."
+        },
+        {
+          "id": "assertion_ledger_schema_and_mirror_check",
+          "result": "PASS",
+          "evidence": "This JSON conforms to the schema documented in docs/SCHEMA.md; live/archive size and SHA-256 match."
+        }
+      ],
+      "unresolved_limitations": [
+        "Original user-supplied v80 text/hash needed to prove full source fidelity.",
+        "Unresolved named references and absent definitions; user-only prompt repair required.",
+        "Community Consensus tier conflicts with the five confidence gates.",
+        "Step 2 and Step 3 state-specific entry/exit/successor predicates are absent.",
+        "External controller exact-once consumption and runtime behavior were not tested.",
+        "Imported primary payloads are absent for CLM-0001 through CLM-0012; no claim is admitted."
+      ],
+      "deployment_verdict": "Do not declare v80 production-ready. Do not authorize unattended continuation. Await the user's source-fidelity confirmation/repair and controller decision; preserve the Step-1 cursor."
+    }
+  ]
+}

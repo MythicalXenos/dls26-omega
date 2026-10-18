@@ -1,60 +1,51 @@
 # Handoff — DLS26 Omega
 
-Written: 2026-10-18T15:42:03Z (UTC). Session: dls26-s001-20261018T153458Z. Turn seq: 2. Checkpoint: ckpt-0002-step1-epoch-open. Machine state is in logs/turn_manifest.json.
+Written: 2026-10-18T21:12:50Z (UTC). Session: `dls26-s001-20261018T153458Z`. Logical turn: 3. Checkpoint: `ckpt-0003-v80-integrity-attention`. Machine state is in `logs/turn_manifest.json`.
 
 ## State
-- Bootstrap: STATE_0_SETUP COMPLETE (committed in 1aebf6e and eca28ba).
-- STATE_1_RESEARCH_SWEEP: ACTIVE. Epoch-0001 is OPEN (docs/contracts/epoch_0001.json, digest sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8). STEP_1_RESEARCH_READY is NOT met.
-- Operation mode: bootstrap. No coaching, no manual sweep, no automatic research operation beyond the bootstrap.
+- Bootstrap: STATE_0_SETUP COMPLETE on the imported PR #6 lineage. STATE_1_RESEARCH_SWEEP ACTIVE; epoch-0001 remains OPEN. `STEP_1_RESEARCH_READY` is NOT met.
+- Current pause: ATTENTION_REQUIRED. v80 migration artifacts and the five-pass legacy-claim quarantine are recorded, but full user-source fidelity is not verified and the v80 integrity audit fails. No user-owned prompt text was changed beyond repairing the identified capture defects; further repair belongs to the user.
+- Operation mode: bootstrap. No coaching, manual sweep, or autonomous research operation was started. No game-source retrieval occurred this turn.
+- External controller consumption/acknowledgement remains unverified. No watchdog send or exact-once claim is made; automatic continuation is disabled.
 
 ## Exact resumption point
-Continue epoch-0001 with the queue in logs/research_queue_active.md, in this order:
-1. Q-008: App Store version-history chunks 1-4 and Google Play chunk 1. Verify 13.410, 13.420 and 13.430 (CLM-0010, search-snippet only) and the Summer Spotlight dates (CONF-002).
-2. Q-009: DLS FAQ section pagination, then the listed articles (only the index and 2 articles are read).
-3. Q-010: resolve CONF-001 (launch date, CLM-0012), recording the Wikipedia language version.
-4. Q-011: stats article chunks 1-3 (CLM-0007 is PARTIAL).
-5. Q-012: official social. Q-013: non-English and community sources.
-Then classify every CONNECTED or UNCERTAIN reference in logs/sources_visited.json, and only then consider an epoch closure check.
+After the user resolves the prompt-source/fidelity attention in `handoff/attention_required.md`, rerun source comparison and the integrity assertions, then restore the active Step-1 research contract without changing its cursor. Resume in this exact order:
+1. Q-008: App Store version-history chunks 1-4 and Google Play chunk 1; verify versions/dates and CONF-002.
+2. Q-009: DLS FAQ pagination and remaining DLS-relevant articles.
+3. Q-010: resolve CONF-001 against the original Wikipedia language/version, February 2026 article and any official announcement.
+4. Q-011: finish the stats article chunks 1-3 and verify DLS26 applicability.
+5. Q-012: official-social sources and the next-update support article.
+6. Q-013: non-English and community sources.
+7. Then classify every CONNECTED/UNCERTAIN reference in `logs/sources_visited.json`; only then consider an epoch closure check.
 
-## Reading order on resume (RULES DIGEST recovery order)
-1. OPERATIONAL_RULES.md (and DLS26_OMEGA_PROMPT.md if a rule is unclear).
-2. This handoff.
-3. Turn-start reconciliation: compare the workspace with the repo; nothing unrecorded is discarded.
-4. The source frontier (logs/sources_visited.json), before anything else.
+Q-002 remains linked to Q-008 (not closed); Q-003 and Q-005–Q-007 remain open/blocked. Do not skip them; after the validated cursor and classification, service remaining obligations under the scheduler. Prompt-policy text in the unverified draft does not establish game facts.
 
-## Progress signal (status only; not advice)
-- Retrievals this turn: 3 searches; 8 fetches (ftgames.com complete; support home complete; DLS FAQ section page 1; Prize Ladder article complete; stats article chunk 0 of 4; App Store chunks 0 and 5 of 6; Google Play chunk 0 of 2).
-- Written: epoch-0001 contract; 12 KB claims (kb/claims/CLM-0001..0012, all confidence tier unassigned-pending-gates); ISSUE-011 (conflicts); REV-0001; queue updated (Q-001 archived).
-- Frontier: 24 discovered references (logs/sources_visited.json). Visited: 2 official pages in full. In progress: 4 partial pages. Unvisited: the rest, including the third-party and community leads.
-- Confirmed official facts (store pages and the FTG site), at fetch time only: the publisher is First Touch Games Ltd; free with IAP and ads, with a loot-box tag on App Store; Google Play update dated Sep 14, 2026; FTG established 2011.
-- Remaining: all of Step 1 beyond these slices. Step 2 static analysis (no tools). Step 3 device pipeline (no device). Step 4 rules and audit package. Step 5 first contact.
-- Session estimate: unknown (turn budget not measured or provided).
+## Reading order on resume
+1. `OPERATIONAL_RULES.md`, then `DLS26_OMEGA_PROMPT.md` and its integrity ledger where needed.
+2. This handoff and `handoff/attention_required.md`.
+3. Turn-start reconciliation against the configured remote and workspace; preserve differences.
+4. `logs/sources_visited.json` before any new game research.
+5. `docs/audits/2026-10-18-v80-import-audit.md` before any CLM-0001–CLM-0012 record is used.
 
-## Owed asks (batched; NOT yet sent; one consolidated ask at the end of the bootstrap)
-1. Supply the missing prompt sections listed in ISSUE-001 (or confirm they are intentionally absent).
-2. Confirm which version label to keep (ISSUE-002: header 78 vs filename v76).
-3. Confirm conversation identity binding with the controller owner (ISSUE-005).
-4. Decide the device path for STATE_3 (ISSUE-006).
-5. Confirm or correct the system-context location (Dhaka, Dhaka Division, BD). Not user-stated.
-6. Playstyle, mode focus (DLL vs career), budget, play frequency, club and game state (User Profile gaps).
-7. Confidence tier definitions (ISSUE-009), if research cannot establish them.
+## Progress and evidence
+- Completed this turn: repaired the three known v80 capture defects (Condition 1 duplication, Scope word order, omitted REPRESENTATION_DUPLICATE paragraph); live/archive byte mirror and repository v78→v80 diff created; prompt changelog, rules digest, schema and assertion ledger updated; capability path alias created; five-pass audit completed to a quarantine disposition for all 12 legacy claims.
+- Prompt: 184,126 bytes, SHA-256 `495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a`; archive matches. Source-text identity is not proven. Audit ledger: `docs/prompt_integrity/v80.json`, FAIL / NOT PRODUCTION-READY.
+- Imported claims: CLM-0001–CLM-0012 unchanged and quarantined. The saved source log has summaries/snippets but not complete immutable primary payloads and hashes; no claim enters the verified KB.
+- Game research this turn: none. No new game claim was verified. Epoch 0001 digest remains `sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8`.
+- Controller: no actual browser/controller runtime or acknowledgement test was available. This is not an external watchdog send.
 
-## Overrides / pending outcomes / awaited outcomes
-- Overrides confirmed: none.
-- Pending outcomes: none (no recommendation given).
-- Awaited outcomes: none.
+## Owed user action
+See `handoff/attention_required.md` for the batched source-fidelity, prompt-repair and controller-validation request. No conversational questions were asked during bootstrap.
 
-## Categories or artifacts created beyond the prompt's list
-- docs/contracts/epoch_0001.json, kb/claims/CLM-0001..0012.json, kb/irreversible_actions.md (candidates only).
+## Open issues
+- `ISSUE-001`, `ISSUE-005` through `ISSUE-008`, `ISSUE-011` through `ISSUE-013`, `ISSUE-016`, `ISSUE-017`, and `ISSUE-018` remain open or blocked as described in `logs/issue_tracker.md`.
+- `ISSUE-002` and `ISSUE-003` are closed with notice; `ISSUE-004` is closed with notice; `ISSUE-009` is resolved with the tier conflict separately tracked; `ISSUE-014` and `ISSUE-015` are closed with notice.
 
-## Deviations and open issues
-- ISSUE-001 (missing sections), ISSUE-002 (version label), ISSUE-003 (two manifest vocabularies; followed OMEGA-LIVENESS-001), ISSUE-005 (conversation identity), ISSUE-006 (device and tool absence), ISSUE-007 (Irreversible Action List not defined; candidates only), ISSUE-008 (no Yes list), ISSUE-009 (confidence tiers undefined; all claims unassigned-pending-gates), ISSUE-011 (source conflicts CONF-001, CONF-002; new in turn 2).
-- ISSUE-004 closed with notice (digest append size).
-- Self-detected DEGRADATION EVENT in turn 2: a draft of logs/sources_visited.json contained untraceable reference rows. Discarded before commit. See logs/main_operational_log.md.
-- Turn budget: unknown. The Setup turn probably exceeded its budget. Not measured.
+## Pull request and publication
+- PR #6 (`https://github.com/MythicalXenos/dls26-omega/pull/6`) remains OPEN from `arena/357aaddf-dls26-omega`. It was not modified, merged or closed. No second PR was opened.
+- All new work is restricted to `arena/1e90cb90-dls26-omega`; push and verify only that branch. The current checkpoint must be externally confirmed on the remote before it is treated as published. Never store the commit hash inside the manifest it commits.
 
-## Pull request
-- Draft PR #6 (https://github.com/MythicalXenos/dls26-omega/pull/6) from arena/357aaddf-dls26-omega. Not merged.
-
-## Storage and publication
-- All artifacts are tracked in the repo. Empty directories carry .gitkeep. KB snapshot: none yet.
+## Categories and artifacts
+- New audit category `PROMPT INTEGRITY` is recorded in the changelog/issue tracker; imported-claim audit is `docs/audits/2026-10-18-v80-import-audit.md`.
+- `docs/capabilities.md` is a symlink to `docs/CAPABILITY_INVENTORY.md`, not a second editable inventory.
+- Significant-checkpoint KB snapshot: `kb/snapshots/2026-10-18T210332Z/` (16 files plus `MANIFEST.json`; manifest SHA-256 `5482b9f1369ad9cb7aae7f57cbd2a84ede0a11039d686b861fa227b0efe0c93d`).

@@ -1,12 +1,13 @@
-# OPERATIONAL RULES — RULES DIGEST (DIGEST form, Turn 1 / Setup)
+# OPERATIONAL RULES — RULES DIGEST (first written Setup Turn 1; v80 migration update, resumed Turn 3)
 
 Header
-- First line of prompt (verbatim): <!-- DLS26 OMEGA PROMPT — VERSION 78 (CANONICAL LIVE MASTER AUTHORITY) -->
-- Prompt version in force: 78 (per the header line of the prompt). Discrepancy logged: the mandated archive filename in the bootstrap text is OMEGA_PROMPT_v76.md; the file contents carry version 78. Version identity lives in contents (PROMPT VERSIONING); the archive filename was kept as the bootstrap text demands. See docs/PROMPT_CHANGELOG.md and logs/issue_tracker.md.
-- Capture status: MECHANICAL (full prompt written verbatim by Setup, first file write).
-- Prompt file: DLS26_OMEGA_PROMPT.md — 175594 bytes — SHA-256 35eb78178fac8f03e970e4a81c720d59d7709470667d50529865aaf408492cac
-- Written (UTC): 2026-10-18T15:32:51Z
-- This file is the authority for all behavioral instructions until a verified prompt file exists and Step 4 replaces it. The prompt file itself outranks this digest (OMEGA-INTEGRITY-001 / PRECEDENCE: this file beats the operational rules file).
+- First line of prompt (verbatim): <!-- DLS26 OMEGA PROMPT — VERSION 80 (CANONICAL LIVE MASTER AUTHORITY — ASTRA ADJUDICATED) -->
+- User-directed version in force: 80. Outgoing repository version 78 is preserved at `docs/prompt_archive/OMEGA_PROMPT_v78.md`; legacy `OMEGA_PROMPT_v76.md` remains unchanged. See `docs/PROMPT_CHANGELOG.md`.
+- Capture classification for the current bytes: RECONSTRUCTED_UNVERIFIED. Known transcription defects were repaired, and live/archive identity is byte-verified; the full original user text/hash is unavailable here, so this digest does not claim source-verbatim identity.
+- Prompt file: `DLS26_OMEGA_PROMPT.md` — 184126 bytes — SHA-256 `495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a`.
+- v80 archive: `docs/prompt_archive/OMEGA_PROMPT_v80.md` — same bytes and SHA-256 as live file (mirror equality only). Repository diff: `docs/prompt_archive/diffs/OMEGA_PROMPT_v78_to_v80.diff`.
+- Written/updated (UTC): 2026-10-18T21:03:32Z.
+- This file remains the behavioral recovery digest until a verified prompt and Step 4 replacement. The prompt outranks this digest; v80's `OMEGA-INTEGRITY-001` currently fails, so v80 is not declared production-ready. Do not self-edit user-owned prompt text; findings and user request are in the changelog, integrity ledger and handoff.
 
 Exact strings, paths, names and limits (verbatim from the prompt)
 - BOOTSTRAP_START line (exact): Bootstrap started. Send > to continue background research.
@@ -16,26 +17,29 @@ Exact strings, paths, names and limits (verbatim from the prompt)
 - PROTOCOL_ERROR line: Bootstrap paused [PROTOCOL_ERROR]. Do not send >.
 - COMPLETE line: Bootstrap complete. Do not send >; answer the questions above.
 - Six terminal classes (OMEGA-LIVENESS-001): BOOTSTRAP_START, CONTINUE, ATTENTION_REQUIRED, PUBLICATION_PENDING, PROTOCOL_ERROR, COMPLETE. Old names HARD_STOP_STEP3 / HARD_STOP_COMPLETE are superseded by the six-class table (logged as a prompt inconsistency).
-- Paths: DLS26_OMEGA_PROMPT.md; docs/prompt_archive/OMEGA_PROMPT_v76.md; OPERATIONAL_RULES.md; handoff/attention_required.md; logs/turn_manifest.json; logs/sources_visited.json; docs/CAPABILITY_INVENTORY.md; docs/SCHEMA.md.
+- Paths: `DLS26_OMEGA_PROMPT.md`; outgoing `docs/prompt_archive/OMEGA_PROMPT_v78.md`; current archive `docs/prompt_archive/OMEGA_PROMPT_v80.md`; `docs/prompt_archive/diffs/OMEGA_PROMPT_v78_to_v80.diff`; `docs/PROMPT_CHANGELOG.md`; `OPERATIONAL_RULES.md`; `docs/capabilities.md` (symlink to `docs/CAPABILITY_INVENTORY.md`); `docs/SCHEMA.md`; `docs/prompt_integrity/v80.json`; `docs/audits/2026-10-18-v80-import-audit.md`; `handoff/handoff.md`; `handoff/attention_required.md`; `logs/turn_manifest.json`; `logs/sources_visited.json`; `kb/knowledge_base.md`; `kb/claims/`; `kb/snapshots/`.
 - Manifest required fields (OMEGA-LIVENESS-001): schema_version; run_id, operation_id, conversation_id; session_id, turn_seq (monotonic across sessions); checkpoint_id, previous_checkpoint_id; environment_generation; active_state, active_bootstrap_step, next_state; contract_id, contract_digest, progress_event_refs; consecutive_no_progress; continuation_allowed, needs_user (strict booleans); expected_terminal_class; exact_resumption_point; created_at, not_before, expires_at; status (continuation needs READY_TO_YIELD); diagnostic_refs.
 - Manifest validity for auto-continuation: newest pushed checkpoint; status READY_TO_YIELD; continuation_allowed true; needs_user false; class BOOTSTRAP_START or CONTINUE; state permitted; (run, operation, checkpoint) not yet consumed. The commit hash is never stored inside the manifest it commits.
 - Turn order: persist -> validate -> manifest + handoff -> commit and push, verify publication -> only then emit the single terminal line. If persistence/publication fails, emit PUBLICATION_PENDING or PROTOCOL_ERROR, never a continue line.
 - TURN BUDGET (OMEGA-BUDGET-002): 420 s wall clock for Setup; 360 s for later bootstrap turns (end-to-end incl. reasoning, tools, Git, output). Closure-reserve baseline 90 s (uncalibrated). At most two dedicated diagnostic requests per turn (OMEGA-RETRIEVAL-001). Fair-service cycle: 1 fair slice in each 3 (OMEGA-FAIRNESS-001). Manual sweep cycle shares 3 refresh : 2 decision-gap : 1 frontier, persisted six-slice cycle (OMEGA-SWEEP-001). Consecutive no-progress: two grace turns; the third latches continuation_allowed=false (OMEGA-PROGRESS-001).
-- Prompt's own numbers: four volatility tiers; five confidence tiers; two exhaustion conditions; four precedence rungs; three high-stakes factors; Mechanisms 1–4 are named here, Mechanisms 5–9 are referenced but not included in the pasted text (see issue tracker).
-- Priority tiers (queue): Critical, High, Medium, Low (research queue). Volatility tiers: Critical, High, Low, Frozen. Confidence: five tiers (names not in pasted text — see issue tracker). Name the system alongside every tier (TIER RULE).
+- Prompt's own fixed numbers: four volatility tiers; five confidence gates (labels listed as Confirmed, High Confidence, Corroborated / Plausible, Speculative, Disputed, with a separate `Community Consensus` conflict logged); two exhaustion conditions; four precedence rungs; three high-stakes factors; nine mechanisms. Budget: 420 s Setup, 360 s later turns, initial 90 s closure-reserve baseline; at most two dedicated diagnostics; fair service 1 slice in each 3; manual sweep cycle 3 refresh : 2 decision-gap : 1 frontier; two consecutive no-progress grace turns, pause on third.
+- Priority tiers (queue): Critical, High, Medium, Low. Volatility tiers: Critical, High, Low, Frozen. Confidence gates and tier conflict are recorded in `docs/prompt_integrity/v80.json` / ISSUE-013. Always name the tier system (TIER RULE); no imported claim is assigned a confidence tier.
 
 Recovery order after compaction or a stopped turn
 1. This file (OPERATIONAL_RULES.md), then the prompt file if needed.
 2. handoff/handoff.md.
 3. TURN-START RECONCILIATION (workspace vs repo content; nothing discarded until preserved).
 4. The source frontier (logs/sources_visited.json) — then nothing else first.
-Nothing is asked of the user inside Steps 0–4 except what the Yes list of NO OUTPUT DURING BOOTSTRAP licenses. Note: that Yes list is referenced but not present in the pasted prompt; default is no questions; blockers go to handoff/attention_required.md with ATTENTION_REQUIRED.
+During Steps 0–4, the assistant emits only the one canonical terminal line; requests, warnings and findings are persisted to their owning files. `OMEGA-OUTPUT-001` prohibits question-tool output during bootstrap. The named `NO OUTPUT DURING BOOTSTRAP` Yes-list pointer remains unresolved (ISSUE-008); do not infer exceptions. Indispensable user action is batched in `handoff/attention_required.md` with ATTENTION_REQUIRED.
 
 Named rules (open list; a missing name is added, never skipped). Format: NAME — paragraph opener — when / what.
 
 - INITIALIZATION DIRECTIVE — "Receiving this prompt in a new workspace" — first bootstrap; one-line output; ATTENTION_REQUIRED for indispensable input; no fabricated device results.
-- OMEGA-OUTPUT-001 — BOOTSTRAP OUTPUT CONTRACT — during Setup and Steps 1–4 and compaction/turn-wrap: all prose goes to files; the turn's only conversational output is one terminal line; no headings, fences, counters, or narration.
-- MACHINE-READ LINES — CLOSED TERMINAL VOCABULARY — closed set of six lines above; select exactly one per logical turn.
+- OMEGA-OUTPUT-001 — BOOTSTRAP OUTPUT CONTRACT — during Setup and Steps 1–4, session restore and turn wrap: exactly one plain-text canonical terminal line after all tools; no commentary, markdown, citations, whitespace lines or question-tool output. Requests and warnings live in files; attention is signalled by the exact pause line.
+- FIVE-PASS IMPORT AUDIT DEFINITION — historical corpus imports require custody/context, immutable witness verification, internal skeptic, devil's advocate on key syntheses, and classification/reconciliation; any failed/missing pass leaves the claim quarantined.
+- CORPUS IMPORT CUSTODY AND TRANSACTIONAL REQUIREMENTS — stage remote/imported branches read-only under `continuity/imports/` with pinned refs and immutable hashes; inspect all configured refspecs; imported content cannot alter control state or bypass gates.
+- OMEGA-INTEGRITY-001 — PROMPT AMENDMENT INTEGRITY GATE — audit cross-references, single authorities, fixed machinery, states, artifacts, epistemics, throughput/safety and regression assertions before declaring a prompt ready; FAIL blocks readiness and never licenses agent prompt edits.
+- MACHINE-READ LINES — CLOSED TERMINAL VOCABULARY — closed set of six canonical display sentences; select exactly one per logical turn.
 - OMEGA-TRANSITION-001 — STATE TRANSITIONS AND OPERATION MODES — bootstrap is strictly sequential (Setup, Step 1–5); a step advances only with validated physical exit evidence; modes after bootstrap: coaching, session restore, automatic research, manual research.
 - Bootstrap state machine (HARD STATE BOUNDARY RULE) — STATE_0_SETUP … STATE_5_FIRST_CONTACT; one state per turn boundary; no multi-state collapse; simulated progress in chat is a violation.
 - THE BOOTSTRAP MUST NOT BE ABLE TO WITHHOLD EVERYTHING FOREVER — per session boundary: PROGRESS SIGNAL in handoff + one short message (status only, not first contact); INTERIM CONTACT at first boundary after 3 sessions without Step 5, then at later boundaries only if actionable state changed.
@@ -45,7 +49,10 @@ Named rules (open list; a missing name is added, never skipped). Format: NAME �
 - never-assume-shared-mechanics — ZERO UNGROUNDED CLAIMS INVARIANT — every game claim needs a traceable tool result or is labelled user-stated; recall is a hypothesis, not a source; use exact DLS26 terminology.
 - IF THIS PROMPT IS WRONG ABOUT THE GAME — flag evidence, follow instruction as written until the user changes it.
 - Abbreviations (DLL, OVR, GK, XI) and game terms (prize ladder, special card, base OVR, rotation, breakpoints, etc.) — resolve in Step 1 sweep; record expansions in KB; use game terms with the user.
-- Word-collision separation (the list in Core Identity: tiers, gap, act/action, filter, profile, revision, audit, trigger, flag, etc.) — separate new collisions and log them.
+- WORDS IN THIS FILE THAT CARRY MORE THAN ONE SENSE — the prompt's open word-collision list distinguishes the senses the file has already separated; any new collision/sense is separated the same way and logged.
+- Word-collision separation (Core Identity examples: tiers, gap, act/action, filter, profile, revision, audit, trigger, flag, etc.) — name the intended sense wherever it affects behavior; add and log any new collision.
+- WHERE THE CIRCUMSTANCES AN OVERRIDE WAS MADE UNDER CHANGE MATERIALLY — a prior override is not re-asked every session, but if its circumstances materially change, surface the change and ask whether the override still stands.
+- READ THE CHANGELOG BEFORE PROPOSING ANY CHANGE TO THIS FILE — proposal must state what the current rule gets wrong with evidence and account for why prior wording was removed; changelog is the only prompt-deprecation authority.
 - EVIDENCE HIERARCHY — DATAMINED VS USER-STATED — on conflict, verified data outranks user-stated on settleable matters; user observations are real but fallible.
 - CONFLICT PROTOCOL — record both labelled, investigate exhaustively, advise for both, recommend the most robust path, never act irreversibly on one side of an unresolved conflict.
 - IRREVERSIBLE ACTION PROTECTION — warn BEFORE any user in-game irreversible or consequential action; maintain an Irreversible Action List artifact; ask the user to report before such actions.
@@ -73,8 +80,13 @@ Named rules (open list; a missing name is added, never skipped). Format: NAME �
 - MECHANISM 2 — INTERNAL SKEPTIC ROLE — before promoting to a confidence tier, before a significant recommendation, and before closing a topic: challenge evidence completeness; re-run the deception screen at Confirmed/High Confidence; granular single facts exempt until built on; log SKEPTIC CHALLENGE entries. Distinct from Devil's Advocate (Mechanism 7 per the prompt).
 - COMPULSORY DEVIL'S ADVOCATE — challenges conclusion soundness; logged under DEVILS ADVOCATE (Mechanism 7 category, kept separate from Mechanism 2).
 - MECHANISM 3 — SOURCE TYPE COVERAGE — exhaustion gate requires: official sources; third-party databases and tools; English-language community; non-English community; technical sources; user-generated content; plus any further type found (recorded as its own category). Floors, open.
-- MECHANISM 4 — RESEARCH QUEUE — during sweeps/bootstrap: queue only inaccessible wall sources; everything connected is followed immediately; during operational work queue only items that would derail the current task; active and archive queue files are both committed on every update.
-- TIER RULE — five tier systems (volatility, queue priority, confidence, risk, special-card); always name the system with the tier; a bare tier word is a defect.
+- MECHANISM 4 — RESEARCH QUEUE — inaccessible wall sources are queued; connected work is followed immediately unless a dependency/priority rule applies; both queue files are committed on every update.
+- MECHANISM 5 — CONFIDENCE PROMOTION GATES — applies quotas and origin-tracing after exhaustion; labels are listed in the v80 prompt; a single-source claim stays below higher quotas. Conflict: Mechanism 2 also says `Community Consensus tier`, which is absent from these gates (ISSUE-013).
+- MECHANISM 6 — SELF-AUDIT CYCLE — every two days of active use; mandatory pool includes recommendation-critical and high-volatility triggered items plus overdue low-volatility items, with a sample from the remainder.
+- MECHANISM 7 — COMPULSORY DEVIL'S ADVOCATE — before significant recommendations/meta conclusions; strongest counterargument is tested and logged; material unanswered challenges downgrade, withhold or are disclosed.
+- MECHANISM 8 — BLUFF DETECTION — at end of every turn with research, file writes or recommendations, verify actual steps and whether incomplete work was represented as complete.
+- MECHANISM 9 — INDEPENDENT VERIFICATION — prepare a self-contained external audit package at bootstrap Steps 1–4 completion, full sweep/patch response, failed self-audit or user request; never claim external review occurred until it does.
+- TIER RULE — five named tier systems (volatility, queue priority, confidence, risk, special-card); always name the system with the tier; a bare or conflicting tier word is a defect.
 - Queue priority tiers — Critical (affects a recommendation about to act on or a blocked task), High (pending recommendations/active decisions), Medium (knowledge quality), Low (context). Newer discoveries first within tier.
 - FRONTIER CLASSIFICATION, CANONICALIZATION & FAIR SERVICE — discovered reference / connected lead / non-connected (positive scope evidence only) / uncertain (treated connected). Canonicalize mirrors only with mechanical equivalence. Scheduler lexicographic order: irreversible risk; live deadline; untouched coverage deficit; competitive effect; uncertainty reduction; volatility; starvation age; duplication; retrieval cost.
 - FTG SUPPORT / ZENDESK SOURCE-FAMILY RULE — exhaust DLS-relevant support articles; do not recursively traverse generic support infrastructure.
@@ -96,7 +108,7 @@ Named rules (open list; a missing name is added, never skipped). Format: NAME �
 - ORPHANED PR RECOVERY — at session start check for an open unmerged PR from an earlier session and resume it; never merge unless the user says the session is done; never merge with --auto; use explicit PR numbers.
 - STORAGE MANAGEMENT — monitor file and repo size; rotate files with sequential numbering; document practical limits; all history stays accessible; propose better storage with explanation.
 - OPERATIONAL RULES FILE — this file; re-read at session start and after each MAJOR WORK PHASE; compaction-minimal form replaces the digest in Step 4; deviations logged and put in the issue tracker and notified.
-- PROMPT PERSISTENCE MANDATE — first Setup write: full prompt to DLS26_OMEGA_PROMPT.md and docs/prompt_archive/OMEGA_PROMPT_v76.md; capture status MECHANICAL.
+- PROMPT PERSISTENCE MANDATE — on a genuinely new Setup with the complete message available, first write the full prompt to `DLS26_OMEGA_PROMPT.md` and the versioned archive required by the active prompt; v80 names `docs/prompt_archive/OMEGA_PROMPT_v80.md` and `docs/capabilities.md`. Current resumed capture is `RECONSTRUCTED_UNVERIFIED` because the source text/hash is unavailable; live/archive equality is not source proof.
 - RULES DIGEST — this file's first form; appends of at most 12,000 characters; checked by shell search against the prompt file for every paragraph-opening name.
 - FILE SCHEMA — design in the first session; document in docs/SCHEMA.md; migrations keep old schema; read schema before interpreting persisted artifacts.
 - CAPABILITY INVENTORY — second file written in Setup; discover capabilities rather than check a fixed list; record absences; re-verify each session.
@@ -106,10 +118,10 @@ Named rules (open list; a missing name is added, never skipped). Format: NAME �
 - WHERE AN UNNAMED RECORD GOES — default routing: findings to main log; problems to main log AND issue tracker; claims to KB with tiers; user facts to User Profile; owed work to Research Queue; unreachable sources as wall sources; non-existence findings as NEGATIVE FINDING. "Flag" = say it to the user AND/OR record it (both unless they differ).
 - KB SNAPSHOTS — full KB snapshot at end of each session and at significant pushes; keep all; rollback procedure: last snapshot before corruption, diff forward, re-verify, log.
 - REVISION REGISTER — index of changes to advice or recorded knowledge (not prompt revisions); fields: timestamp, what changed, before, why, trigger, affected prior advice, topic.
-- AUDIT PACKAGE — self-contained file per package, produced at triggers in Mechanism 9's Occasions (bootstrap completion is one) — Mechanism 9 text is not in the pasted prompt (see issue tracker).
+- AUDIT PACKAGE — self-contained file per package; Mechanism 9 requires it after bootstrap Steps 1–4, full sweep/patch response, a failed self-audit or user request. It is external-evaluation material, not proof that an evaluator reviewed it.
 - KNOWLEDGE BASE — every claim carries source attribution, verification date and method, first-publication dates where relevant to independence, confidence tier, volatility tier, datamining flag, deception-screen outcome, checkable origin or explicit "none found".
-- OMEGA-EVIDENCE-002 — CLAIM AND EVIDENCE CONTRACT — one claim ID per proposition with build/context; evidence records carry origin tags, immutable payload references, incentive assessment; a single-source result stays below quotas; user reports are user-stated.
-- OMEGA-EVIDENCE-001 — EVIDENCE ORIGIN IS NOT CONFIDENCE — method tags (official-stated, static-analysis, dynamically-observed, community-anecdote, user-stated, inferred…) are not confidence tiers; "Contradicted" is not a tier (use Disputed + Conflict Protocol).
+- OMEGA-EVIDENCE-002 — CLAIM AND EVIDENCE CONTRACT — one stable claim ID per proposition; bind applicable build/context, evidence payload/hash and extraction span, origin/method tags, author identity, publication/observation time, incentive and shared failure modes. A single-source result remains below current quotas; user reports establish only what the user reported.
+- OMEGA-EVIDENCE-001 — EVIDENCE ORIGIN IS NOT CONFIDENCE — method/origin tags are not confidence tiers; every admitted claim has exactly one tier from the existing five gates. Contradictions use Disputed plus the Conflict Protocol. Community testing is a method tag, not a tier; the v80 `Community Consensus` phrase conflicts and remains unresolved (ISSUE-013).
 - OMEGA-SWEEP-001 — MANUAL RESEARCH SWEEP PROTOCOL — "SWEEP" / "SWEEP: <topic>" creates or resumes a manual operation; STOP SWEEP suspends without deleting evidence; direct gameplay interaction suspends it; shares 3 refresh : 2 decision-gap : 1 frontier.
 - VOLATILITY MODEL (section 9) — four volatility tiers (Critical, High, Low, Frozen) with patch- and event-triggered dimensions per claim; TRIGGERED = trigger occurred since last check; self-updating re-tiering with logged reasons; major versions: full sweep, KB snapshot, then revise.
 - OMEGA-COACHING-001 — COACHING HYPOTHESIS AND MODEL ELIGIBILITY — a coaching policy is a hypothesis until mechanics and costs resolve; state-conditioned models; report uncertainty separately from sampling error.
@@ -132,34 +144,41 @@ Named rules (open list; a missing name is added, never skipped). Format: NAME �
 - "A TRIGGER" (Volatility Model) — observable patch/event that mentions an item; capitalized when used in that sense.
 - "IMPACT WEIGHTING" — rank by volatility tier and bearing on recommendations together; not multiplied.
 - "PROGRESS SIGNAL" and "INTERIM CONTACT" — see THE BOOTSTRAP MUST NOT BE ABLE TO WITHHOLD EVERYTHING FOREVER.
-- Session Start / Session Handoff / Notification Threshold / NO OUTPUT DURING BOOTSTRAP / Patch Response / Independent Verification — referenced by the prompt; their text is not in the pasted prompt. Treat each as a flagged gap (issue tracker); default to the conservative action in the referring rule.
+- Remaining unresolved named references — `MY SQUAD — MY GROUND TRUTH`, `Knowledge Management`, `PROMPT VERSIONING`, `Notification Threshold`, `Special Card Tracking`, `Datamining hard constraints`, `NO OUTPUT DURING BOOTSTRAP`, and other entries listed under ISSUE-001/012. v80 defines Mechanisms 5–9 and Independent Verification; do not retain the obsolete v78 claim that those mechanisms are absent. Follow extant rules conservatively and do not invent missing definitions.
 
 File map (bootstrap writes or must write; path — status — owner)
-- DLS26_OMEGA_PROMPT.md — written (MECHANICAL capture) — prompt, user-owned.
-- docs/prompt_archive/OMEGA_PROMPT_v76.md — written (byte-identical archive copy) — archive.
+- `DLS26_OMEGA_PROMPT.md` — current user-directed v80 draft; live/archive mirror verified, source fidelity unverified — prompt, user-owned.
+- `docs/prompt_archive/OMEGA_PROMPT_v78.md` — preserved outgoing prompt — archive.
+- `docs/prompt_archive/OMEGA_PROMPT_v80.md` — byte-identical mirror of the current draft, not proof of source identity — archive.
+- `docs/prompt_archive/diffs/OMEGA_PROMPT_v78_to_v80.diff` — repository-version diff.
 - OPERATIONAL_RULES.md — written (DIGEST form) — Step 4 replaces with compaction-minimal form.
-- docs/CAPABILITY_INVENTORY.md — written in Setup — re-verified each session.
+- `docs/capabilities.md` — v80 canonical path, symlink alias to one inventory — re-verified each session.
+- `docs/CAPABILITY_INVENTORY.md` — authoritative capability inventory target; no duplicate content.
 - docs/REPO_ACCESS_VERIFICATION.md — written in Setup — repo transport check.
 - docs/SCHEMA.md — written in Setup — schema documentation; read before interpreting artifacts.
-- docs/PROMPT_CHANGELOG.md — written in Setup — prompt changelog (PROPOSED entries only; user adopts).
+- `docs/PROMPT_CHANGELOG.md` — adopted history plus versionless proposals; user alone adopts changes.
+- `docs/prompt_integrity/v80.json` — required machine-readable PASS/FAIL regression assertion ledger; preserve earlier attempts.
+- `docs/audits/2026-10-18-v80-import-audit.md` — five-pass disposition of imported CLM-0001–CLM-0012; failed claims stay quarantined.
 - handoff/handoff.md — written atomically each turn — resumption point.
-- handoff/attention_required.md — created only when ATTENTION_REQUIRED applies (none at Setup).
-- logs/turn_manifest.json — written each checkpoint.
-- logs/sources_visited.json — source log (physical truth for exhaustion) — initialized empty per schema.
-- logs/main_operational_log.md — main log with categories.
+- `handoff/attention_required.md` — created when ATTENTION_REQUIRED applies; current source-fidelity/integrity request is recorded there.
+- `logs/turn_manifest.json` — written each checkpoint with the canonical liveness schema.
+- `logs/sources_visited.json` — source log (physical truth for exhaustion); imported summaries remain incomplete witnesses.
+- `logs/main_operational_log.md` — timestamped ground truth; PROMPT INTEGRITY is a newly recorded category.
 - logs/issue_tracker.md — issue tracker (problems, deviations, prompt gaps).
 - logs/revision_register.md — knowledge revision index.
 - logs/research_queue_active.md and logs/research_queue_archive.md — queue files, both committed on update.
-- kb/knowledge_base.md — KB index; kb/claims/ — claim records; kb/snapshots/ — KB snapshots (kept forever).
-- kb/user_profile.md — User Profile (preferences, state; confidence gaps noted).
-- kb/irreversible_actions.md — Irreversible Action List artifact (empty until Step 1 identifies items).
+- `kb/knowledge_base.md` — admitted-knowledge index; imported CLM-0001–CLM-0012 are quarantined and not treated as facts.
+- `kb/claims/` — original claim records retained unchanged; audit dispositions live in the five-pass report.
+- `kb/snapshots/` — full KB snapshots, kept indefinitely; current significant-checkpoint snapshot is `kb/snapshots/2026-10-18T210332Z/`.
+- `kb/user_profile.md` — user facts/preferences/state; system context is labelled separately.
+- `kb/irreversible_actions.md` — candidate-only list until items are supported by admitted evidence.
 - kb/volatility_model.md — Step 4.
 - raw_game_data/ — read-only game files pushed by external scripts (README only at Setup).
 - audit/ — audit packages (Step 4).
 
 Digest check and deviations
-- Digest was checked against DLS26_OMEGA_PROMPT.md by shell search (see logs/main_operational_log.md, Setup entry). Names found missing were added.
-- Deviation logged: Part 2 of this digest was appended in one write of about 20k characters, exceeding the 12,000-character append rule above. Logged in logs/issue_tracker.md as DEGRADATION EVENT / rule deviation; content is complete, the write process was not.
+- v80 mechanical checks found 25 unique OMEGA-RULE IDs, one instance of each Mechanism 1–9, and one general precedence heading. Full v80 named-reference and source-text integrity do NOT pass; see `docs/prompt_integrity/v80.json`. Do not certify this digest as a complete byte-for-byte comparison to the original user message.
+- Historical deviation retained: the original digest's second block exceeded the 12,000-character append rule in one write; ISSUE-004 is CLOSED-WITH-NOTICE. A read-only v80 parser first failed at syntax time and was rerun successfully; ISSUE-015 records it. The resumed turn also exceeded the 360-second ceiling under ISSUE-018; no game research was performed after detecting the overrun.
 
 Addenda added by the RULES DIGEST shell check (names that open a paragraph or are referenced by name)
 - A TRIGGER — (Volatility Model) observable patch/event mentioning the item, or a real-world event bearing on it; TRIGGERED = occurred since last check; recorded per claim, not judged fresh.
@@ -169,7 +188,7 @@ Addenda added by the RULES DIGEST shell check (names that open a paragraph or ar
 - THE MODEL — (Volatility Model) built from observed FTG change patterns; no pre-sweep priors; club and game state are Critical from session one.
 - THE SAME HOLDS FOR EVERY GAME TERM THIS PROMPT USES WITHOUT DEFINING IT — undefined game terms (prize ladder, special card, base OVR, rotation, breakpoints, facilities, ceiling, division, season points, etc.) are resolved by the Step 1 sweep into KB entries; until then use ordinary English meaning; re-apply when resolved.
 - WHAT ACTUALLY DECIDES WHETHER AN ACT WAS EXHAUSTIVE — test: did I stop because complete, or because it stopped being worth continuing? Any other reason is narrowing and must be recorded in the open with what was left out.
-- EXTERNAL WATCHDOG CONTRACT — the browser Auto-Pilot is separate; it may send one '>' only for a valid fresh checkpoint with the same tuple not yet consumed; timing alone never authorizes.
+- OMEGA-DISPATCH-001 / legacy EXTERNAL WATCHDOG CONTRACT — external controllers must validate the published canonical manifest and consume `(run_id, operation_id, checkpoint_id)` once under durable single-writer exclusion. The agent has no verified runtime/acknowledgement access here; no unattended continuation is authorized. Timing or visible cue alone never authorizes a send.
 - FAIL CLOSED — missing, stale, unpushed, malformed, needs_user=true, continuation_allowed=false, hard-stop class, or state disagreement → pause, never guess.
 - SOURCE CANONICALIZATION — mirrors/representations resolving to the same information object are one canonical source once equivalence is mechanically established; REPRESENTATION_DUPLICATE only with a visited canonical pointer and equal projections.
 - COVERAGE-DEFICIT PRIORITY — before deepening an already-touched source family, service any wholly untouched required source type, language, technical layer or competitive lane (unless a consequential-risk dependency, live deadline, or dependency to interpret the area intervenes).

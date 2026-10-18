@@ -1,0 +1,29 @@
+{
+  "claim_id": "CLM-0010",
+  "proposition": "App Store version history (search-snippet level, NOT verified on a fetched page): 13.410 (Aug 20), 13.420 (Sep 1), 13.430 (Sep 16, 2026) with the Cult Heroes text; third-party sites also report 13.430 as latest.",
+  "build_context": "Version label and date from search snippets only; App Store version-history chunks 1-4 NOT fetched",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "High",
+  "trigger_dimensions": {
+    "patch_triggered": "yes",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "R-0002 (search snippet, not fetched)",
+    "DR-0019 (appbrain.com lead)"
+  ],
+  "origin_tags": [
+    "third-party-reported (search snippet)",
+    "publisher-listing (unconfirmed)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "none found (search-snippet only)",
+  "notes": "Not promoted. Verify on fetched App Store chunks (Q-008). Google Play 'Updated Sep 14' differs from App Store 'Sep 16' for 13.430; platform dates are not assumed to match.",
+  "epoch": "epoch-0001"
+}
