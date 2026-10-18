@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-118 (`94bb636`) — 1,479 claims / 355 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-123 (`610468f`) — 1,511 claims / 357 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -137,6 +137,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.6 | One full max costs **~32,000 coins (Commons)** or **~30,000 coins (Rares)** | budget | EV-439 |
 | 5.7 | **~80–81 upgrade points per player**, ~8 stat points per OVR point | budget | EV-439 |
 | 5.8 | **STR and CON count ×2** toward the total — **except wingers** | weighting | EV-439 |
+| 5.8b | **⚠️ C-027 — speed vs control/tackling in Live is UNRESOLVED.** DLS26 plays slower, so control/passing/tackling have more value; but knock-ahead/sprinting reportedly outruns even maxed defenders. **Recruit for both.** | weighting | EV-455 |
 | 5.9 | **GK coaches touch only GKR + GKH.** A Legendary GK coach is usable **only if GKR > GKH** | constraint | EV-439 |
 
 **The training-facility ladder** [EV-437, C2] — the unlock that makes 5.1–5.4 cheap:
@@ -361,4 +362,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,479 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (355 records) at ckpt-118.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,511 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (357 records) at ckpt-123.*

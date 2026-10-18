@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-121 (`6537bb0`) — 1,494 claims / 356 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-123 (`610468f`) — 1,511 claims / 357 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -241,6 +241,7 @@ This is the most operationally important layer in the game, and almost every gui
 - **Rare coaches in coins:** +8 points for **1,535 coins = 192 coins per point** — the exact maths behind "buy 80-rated defenders at 1,535 coins".
 - **Legendary vs Rare trade-off:** for 225 gems, Legendary gives +27 points and Rares give +24. Legendary wins on raw points; **Rare wins on controllability**.
 - **Capacity:** each player has ~**80–81 upgrade points** (~90 Common coaches to max), each OVR point ≈ **8 stat points**, and **STR and CON count ×2** for most positions except wingers.
+- **⚠️ C-027 — speed vs control/tackling in Live is UNRESOLVED.** DLS26 plays slower, so *"control, passing and tackling stats have more value than ever before"* [EV-455, C3]; but knock-ahead/sprinting reportedly *"can outrun even maxed defenders."* **Recruit for both — a fast spine with a technical core — and do not let the ×2 weighting talk you out of a genuinely fast defender. Verify in Exhibition before committing a coaching plan.**
 - **Build time:** a 23-man squad took one player **about half a year**.
 - **Breakthrough:** 5% / 10% / 20% (Common/Rare/Legendary, DLS20 baseline). Rarity affects **only** the breakthrough chance, never the cap.
 
@@ -419,7 +420,26 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 
 **Avoid:** blind C passes, blind shots, and rushing passes. Do dribble while stopped, and call out the keeper when necessary.
 
-**Skill moves are swipe gestures, not buttons** — and whether the move executes depends on the player's **Ball Control** stat plus the engine's decision [EV-441, C2]. A high-CON player is worth more for this alone.
+**Skill moves are swipe gestures, not buttons** — and whether the move executes depends on the player's **Ball Control** stat plus the engine's decision [EV-441, C2]. A high-CON player is worth more for this alone. The three named skill mechanics in DLS26 are **Close Control, Knock Ahead and Secondary Press** [EV-455, C3].
+
+> ### ⚠️ DLS26 CORRECTIONS TO THIS SECTION [EV-455, C3]
+>
+> Several rules above were built on DLS24/DLS25 behaviour and are **partly obsolete in DLS26**. Read them with these qualifiers:
+>
+> | Rule above | DLS26 status |
+> |---|---|
+> | **C-spam escalation ladder** | **Nerfed.** The "float to Haaland, head to Mbappe and repeat" loop has been *vastly reduced* in efficacy. Keep the ladder as a fallback, but do not expect ~95% negation. |
+> | **Long B pass (the meta)** | **Qualified.** The diagonal "A" pass is **60–80% less effective**. Grounded diagonal B passes still work but are less dominant. |
+> | **Secondary press > main press** | **Nerfed.** Secondary press was *"even too op"* in DLS25 and has been tuned down in DLS26. |
+> | **Long shots >75% accuracy** | **Qualified.** Long-range effectiveness was reduced, though one review still finds long shots "very easy". |
+> | **Through balls** | **Effectively do not exist** — *"line splitting passes are rare."* Do not build a tactic on them. |
+> | **Player switching** | **Nerfed.** Expect 3–4 switches to find the right defender where DLS25 needed two. Switching also gets confused on loose balls. |
+>
+> **Two more DLS26 realities to internalise:**
+> - **The game plays "loose."** Players no longer *snap* onto the ball; passes that used to be "close enough" are no longer collected; defenders watch the ball go past them; and **charging the keeper to cut the angle "does nothing now."**
+> - **Responsiveness is the top mechanical complaint** — a direction change registers a touch late roughly 6–7 times in 10. Budget for it rather than fighting it.
+>
+> **Source-dating warning:** at DLS26 **launch**, passing was *"utter crap"* with a 100-rated passer feeling like a 42-rated bronze; two mini-updates later it reverted to the DLS25 feel. **Any DLS26 review dated December 2025 describes the launch build, not the current one.**
 
 ### 3.2 Injury and healing economics [EV-437, C2/C3]
 
