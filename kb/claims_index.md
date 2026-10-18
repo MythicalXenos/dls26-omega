@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:13:05Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1885**
-Distribution: Confirmed 388 / High Confidence 819 / Community Consensus 640 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **456**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:18:34Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1902**
+Distribution: Confirmed 388 / High Confidence 820 / Community Consensus 655 / Speculative 38 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **457**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,13 +10,13 @@ Distinct evidence records cited: **456**.
 | unscoped | 424 |
 | economy | 131 |
 | facilities | 108 |
-| gameplay | 68 |
+| gameplay | 72 |
 | transfers | 67 |
 | dll | 66 |
 | cards | 58 |
 | clans | 56 |
 | career | 48 |
-| controls | 41 |
+| controls | 42 |
 | training | 40 |
 | patching | 39 |
 | setpieces | 39 |
@@ -26,11 +26,11 @@ Distinct evidence records cited: **456**.
 | attributes | 34 |
 | coaching | 33 |
 | platform | 31 |
+| tactics | 30 |
 | customization | 29 |
 | events | 27 |
+| errata | 25 |
 | presentation | 25 |
-| errata | 24 |
-| tactics | 20 |
 | customisation | 19 |
 | modes | 19 |
 | stadium | 18 |
@@ -39,9 +39,9 @@ Distinct evidence records cited: **456**.
 | achievements | 15 |
 | negatives | 13 |
 | formboost | 12 |
+| ui | 12 |
 | goalkeeping | 11 |
 | onboarding | 11 |
-| ui | 11 |
 | account | 10 |
 | draft | 10 |
 | match | 10 |
@@ -1166,6 +1166,7 @@ Distinct evidence records cited: **456**.
 | CLAIM-1886 | The stadium's default name is 'Dream F.C. Stadium' and it is editable; two community answers place the stadium surface at My Club > Stadium & Facil... | High Confidence | stadium/default-name-and-path | EV-492 |
 | CLAIM-1887 | DLS HAS NO CLUB ANTHEM, CROWD-CHANT SELECTOR OR GOAL SONG. A targeted search for a DLS anthem returned only FIFA 22 FUT analogues (Club Anthem, Cro... | High Confidence | customisation/no-club-anthem | EV-492 |
 | CLAIM-1888 | The Season Pass per-tier reward list is not published by FTG and rotates every season, so the surviving part of that gap is device-only. What IS do... | High Confidence | season-pass/per-tier-list-unpublished | EV-492 |
+| CLAIM-1890 | A THIRD independent source for the width slider, and it contradicts the corpus's documented negative: 'Width settings quietly change everything. Na... | High Confidence | tactics/width-slider-conflict | EV-493 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
@@ -1861,7 +1862,22 @@ Distinct evidence records cited: **456**.
 | CLAIM-1884 | THE SHIRT-NUMBER COLOUR SWATCH: template layers 9 (shirt number colour) and 10 (short number colour) are NOT garment pieces - 'They work as colour ... | Community Consensus | customisation/number-colour-swatch | EV-492 |
 | CLAIM-1889 | Team name is editable at any time and for free - 'You can edit your team name anytime for free' - from the Team Name tab in Customise, which is als... | Community Consensus | customisation/team-name-free-editable | EV-492 |
 | CLAIM-189 | World Tournament is a new event type introduced in Summer Spotlight (13.410): an international football event structure with high-tier reward track... | Community Consensus | unscoped | EV-272,EV-276 |
+| CLAIM-1891 | C-030 RESOLUTION (provisional): the width option belongs to the FORMATION EDITOR - a pre-match property of the shape - and is not part of an in-mat... | Community Consensus | tactics/width-slider-reconciliation | EV-493 |
+| CLAIM-1892 | THE FORMATION EVALUATION RULE: pick one shape and run it for **thirty matches**, not five. 'You cannot evaluate a formation across five games becau... | Community Consensus | tactics/thirty-match-evaluation-rule | EV-493 |
+| CLAIM-1893 | THE CHANGE-ORDER RULE: **change width before you change shape, and change personnel before you change width.** So a formation that is not working i... | Community Consensus | tactics/change-order-rule | EV-493 |
+| CLAIM-1894 | WHY 4-4-2 IS THE RECOMMENDATION FOR A NEW PLAYER, with the reason rather than the ranking: 'Two banks of four, two up top, no clever ideas. Nothing... | Community Consensus | tactics/why-4-4-2-for-beginners | EV-493 |
+| CLAIM-1895 | THE HIGH-PRESS STAMINA CAVEAT: '4-1-2-3 with a high press. This is the shape everyone posts about. It's excellent if your squad has the stamina for... | Community Consensus | tactics/high-press-stamina-caveat | EV-493 |
+| CLAIM-1896 | THE DLS26 4-4-2 AS ACTUALLY RUN (Dec 2025): 'since my LM and RM are wingers, they are fast and can perform quick runs down the flanks as well as mi... | Community Consensus | tactics/dls26-4-4-2-dual-role-wide-mids | EV-493 |
+| CLAIM-1897 | THE WINGER-AS-FULL-WING-BACK REQUIREMENT, a concrete personnel rule: the wide players must have 'decent physical and defensive stats (tackling)', O... | Community Consensus | tactics/winger-as-full-wing-back | EV-493 |
+| CLAIM-1898 | Named player recommendations by role, from a community formation thread: ST - Son, Salah, Mbappe, Vini, Saka, Batistuta; holding DM (strong, tall, ... | Community Consensus | tactics/named-player-recommendations | EV-493 |
+| CLAIM-1899 | Formation unlocks come from upgrading the Training Centre, not from play time - a second source, which ties the tactical surface back to the facili... | Community Consensus | tactics/formation-unlocks-from-training-centre | EV-493 |
 | CLAIM-190 | Clans require minimum 50 members; clan points earned from matches/events; clan leaderboards, vice-captains, clan point boosts, emoji reactions/inte... | Community Consensus | unscoped | EV-272 |
+| CLAIM-1900 | The role-assignment surface: clicking a player shows his attributes and the roles - captain, free kicks and penalties - are set on that same screen... | Community Consensus | ui/role-assignment-screen | EV-493 |
+| CLAIM-1901 | THE TACKLE-ANGLE RULE in full: tap next to the attacker, and 'if you're on the in-front of them or just off at an angle, you should generally get a... | Community Consensus | gameplay/tackle-angle-rule | EV-493 |
+| CLAIM-1902 | THE DLS26 GAMEPLAY REVIEW (first week, 8 Dec 2025), the best written account of the current build's feel: 'Even charging the goalie to cut off the ... | Community Consensus | gameplay/dls26-feel-review | EV-493 |
+| CLAIM-1903 | THE DEFENDING DOCTRINE, from a DLS26-dated source: defend patiently, **do not press permanently**, **push the opponent outwards instead of engaging... | Community Consensus | gameplay/defending-doctrine-shepherd-outwards | EV-493 |
+| CLAIM-1904 | THE SLIDE-TACKLE TIMING RULE: 'The correct way to use it is always from the front. Press A right on time once the ball handler is about to make con... | Community Consensus | gameplay/slide-tackle-timing | EV-493 |
+| CLAIM-1905 | CONFLICT on which button carries the through ball: bluestacks states 'the hard kick is your primary tool for shooting and long range through balls'... | Community Consensus | controls/through-ball-button-conflict | EV-493 |
 | CLAIM-194 | Commentary languages in DLS26 include English plus Turkish and Arabic (added in the Feb 2026 / Summer Spotlight updates), per App Store changelog. | Community Consensus | unscoped | EV-276,EV-272 |
 | CLAIM-195 | New pre-match presentation: players walk out wearing warm-up/training tracksuits before kickoff (introduced at DLS26 launch). | Community Consensus | unscoped | EV-272 |
 | CLAIM-197 | Cult Heroes is an upcoming Special Player collection announced in v13.420/v13.430 (Sep 2026) but not yet released as of 13.430 (16 Sep 2026). | Community Consensus | unscoped | EV-276,EV-272 |
@@ -1978,6 +1994,7 @@ Distinct evidence records cited: **456**.
 | CLAIM-1746 | Champion Cards are reported at 88 (Messi) and 89 (Ronaldo), and one player's card 'got maxed at just 94 instead of the usual 95' - suggesting speci... | Speculative | cards/champion-card-figures | EV-482 |
 | CLAIM-1753 | Career-mode penalties may be PREDETERMINED: 'career mode pens are fixed. Whether the keeper saves it or not is kinda decided before you kick the ba... | Speculative | gameplay/career-pens-predetermined | EV-483 |
 | CLAIM-1827 | Time-of-day and floodlights are reported to affect play: 'Matches played during sunset or under floodlights have distinct lighting conditions that ... | Speculative | presentation/floodlight-visibility-effects | EV-488 |
+| CLAIM-1906 | sportsdunia's DLS26 'best formations' table (4-4-2, 4-2-3-1, 4-2-2-2, 3-4-1-2, 4-3-3) is a THIRD rejected sportsdunia table. It is recorded only so... | Speculative | errata/sportsdunia-formation-table-rejected | EV-493 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-155 — 1,885 claims / 394 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-156 — 1,902 claims / 395 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -794,9 +794,22 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 **Six Live strategies** [C3], from a player who climbed DLS22–26: **no blind C passes · dribble while stopped · long B passes (the meta) · backwards running for defensive play · call out the GK when necessary · no blind shots.**
 
+**THE FORMATION DECISION RULES** [EV-493, C3] — the corpus had a catalogue and not rules, and these are the missing half:
+
+| Rule | Detail |
+|---|---|
+| **Run it for thirty matches** | "Pick one shape... Run it for **thirty matches**. Not five. You cannot evaluate a formation across five games because the variance in this game is enormous and you'll conclude whatever the last result told you to conclude." |
+| **Change width before you change shape** | The cheapest diagnostic. Narrow and wide are different games with the same eleven players. |
+| **Change personnel before you change width** | So the diagnosis order is personnel → width → shape, and the shape is the last thing to move. |
+| **Stamina depth beats shape, every time** | The high press (4-1-2-3) is "excellent if your squad has the stamina for it and miserable if it doesn't, which is the part the videos skip." |
+
+**Why 4-4-2 for a new player, with the reason rather than the ranking** [EV-493, C3]: *"Two banks of four, two up top, no clever ideas. Nothing brilliant happens. Nothing catastrophic happens either, and when you're learning, the second one matters far more than the first. You get a defensive shape that holds itself together without you thinking about it, which frees you up to learn passing weight and when to press — the two things that actually decide games at every level of this game."*
+
 **The anti-wing tactic, refined** [C3]: *"the trick is to NOT try and tackle their outermost players as they switch the ball. This will leave your players stuck up the field. Instead, switch to defensive mode, and run your players backwards at every opportunity."* **Retreat; do not chase** — which is the same conclusion the escalation ladder reaches from the other direction.
 
-> **⚠️ THERE IS NO TEAM-INSTRUCTION SYSTEM IN DLS** [EV-487, C2 — documented negative]. No source documents team instructions, a mentality slider, width or depth controls, tempo, pressing intensity or marking styles. Every guide describing them is Football Manager or EA FC. **DLS gives you a formation and an attacking/balanced/defensive switch, and that is the entire tactical surface.** A player arriving from FIFA or FM will look for sliders that do not exist.
+> **⚠️ THERE IS NO IN-MATCH TEAM-INSTRUCTION SYSTEM IN DLS** [EV-487, C2 — documented negative, **narrowed at ckpt-156**]. No source documents in-match team instructions, a mentality slider, tempo, pressing intensity or marking styles. Every guide describing those is Football Manager or EA FC. **DLS gives you a formation and an attacking/balanced/defensive switch, and in-match that is the entire tactical surface.** A player arriving from FIFA or FM will look for sliders that do not exist.
+
+> **⚠️ BUT THE FORMATION EDITOR DOES HAVE A WIDTH SETTING** [EV-493, C2 — **C-030 opened at ckpt-156**]. Two corpus claims already said so (CLAIM-0454, C2), and wave 80 supplies a **third independent source**: *"Width settings quietly change everything. Narrow your shape and the same eleven players play a completely different game... If a shape isn't working for you, change the width before you change the shape."* So the negative above was **over-broad** — it listed "width or depth controls" among the things that do not exist. **The reconciliation is a surface distinction: width is a pre-match property of the shape, not an in-match instruction.** Device-verifiable in one minute: open the formation editor and look for the option. Until verified, **change width before you change shape** — it is the cheapest diagnostic available.
 
 > **⚠️ NO IN-MATCH FORMATION FLUIDITY** [EV-487, C2]. The claims of "Tactical Presets" switching between shapes *"on the fly"*, custom tactics you can save and share, and a "3-5-2 Fluid" formation are uncorroborated — and *"on the fly"* switching directly contradicts the kick-off rule above. The related claim that *"the A.I. learns from your playstyle"* and *"the opposing manager switches to a compact 4-4-2 mid-game"* is **refuted by FTG's own article**: *"there are no additional overlaid controls to manage the difficulty experience."*
 

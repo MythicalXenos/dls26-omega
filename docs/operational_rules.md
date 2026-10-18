@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-155 — 1,885 claims / 394 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-156 — 1,902 claims / 395 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -166,6 +166,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 |---|---|
 | **DLL unlocks after SIX Career matches** | Which also unlocks Friend Match. Play six regardless — they pay coins and Season Points (C-025 substantially resolved) |
 | **Defending: no joystick while holding B** | Your player moves toward the ball automatically; steering fights it |
+| **Tackle from in front, never from behind at an angle** | In front or just off at an angle wins the ball clean; behind at an angle fouls [EV-493, C3] |
+| **Shepherd outwards, do not engage frontally** | Push the opponent wide rather than pressing permanently; patience concedes fewer goals [EV-493, C3] |
 | **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
 | **Slide tackles sparingly, never on the counter** | Block shots; press C for the keeper; aerial ball = press B at the nearest midfielder |
 | **Tactic switching is a rhythm** | Defensive the moment they have it, attacking the moment you win it, balanced to reset |
@@ -516,7 +518,7 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Starting unlocks:** 4-4-2 by default, 4-1-2-1-2 as the only other starting shape.
 - **Six Live strategies:** no blind C passes · dribble while stopped · long B passes (meta) · backwards running for defence · call out the GK when necessary · no blind shots.
 - **Anti-wing:** do **not** tackle the outermost players as they switch — switch to defensive mode and **run backwards** at every opportunity.
-- **⚠️ NO TEAM-INSTRUCTION SYSTEM:** no mentality slider, no width/depth/tempo, no pressing intensity, no marking styles. A formation plus an attacking/balanced/defensive switch is the whole surface.
+- **⚠️ NO IN-MATCH TEAM-INSTRUCTION SYSTEM:** no mentality slider, no tempo, no pressing intensity, no marking styles. A formation plus an attacking/balanced/defensive switch is the whole in-match surface. **Narrowed at ckpt-156 — see C-030: the formation editor DOES carry a width setting, so "no width" was wrong.**
 - **⚠️ NO FORMATION FLUIDITY:** "Tactical Presets", shareable custom tactics and a "3-5-2 Fluid" are fabricated, and the adaptive-AI claim is refuted by FTG's own *"no additional overlaid controls"* line.
 
 ### 3.17 Recovery, locking and the Recruitment Centre [EV-488, C1/C2]
