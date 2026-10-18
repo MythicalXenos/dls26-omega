@@ -38,6 +38,30 @@ This matters because it changes the optimisation target: **the leaderboard rewar
 1. **Promote at every tier.** "Not once did I not get promoted to the next tier (crucial to saving XP)." Every season spent in a tier you have already cleared is wasted XP.
 2. **Restart from the bottom deliberately.** The run began at tier 20 with a fully common team — low tiers are cheap XP, not a punishment.
 
+> ### THE GEM ENGINE — tier camping [EV-448, C2/C3]
+>
+> The record run optimised for **speed to Tier 1**. If your priority is **gems per hour**, the optimal tactic is the opposite:
+>
+> **Camp between Tier 5 and Tier 2** (Tier 1 cannot be camped — it is the ceiling) and **aim for SURVIVAL, NOT PROMOTION.** Win only **4–5 matches** (12–15 points), then **quit the rest** — and *losing en route is even better*, because it keeps you in the camping tier instead of promoting you into a harder one.
+>
+> | Metric | Value |
+> |---|---|
+> | Matches | ~48 |
+> | Time | 4 – 4.8 hours |
+> | Gems from DLL | ~150 |
+> | 4-hour minimum | 160 – 208 gems |
+> | **Rate** | **~35–43 gems/hour** |
+>
+> The full daily challenge set pays **5–11 gems per day**. Camping is roughly **30× more efficient per hour.** Do **not** forfeit while camping — forfeiting may cost you the maximum gems.
+>
+> **These two tactics are not in conflict — they answer different questions.** *Promote at every tier* is the fastest route to Tier 1. *Tier camping* is the cheapest route to gems. Decide which you are optimising before each block of matches; never mix them in one session, because camping punishes promotion and climbing punishes deliberate loss. Band-by-band detail: **`docs/dll_tier_playbook.md`**.
+
+> ### THE COUNTER-INTUITIVE SQUAD RULE (C-024) [EV-447, C1 / EV-448, C2]
+>
+> **Maxing your squad can make you worse in Live.** A Tier 1 player: *"maxxed squads perform TERRIBLY in high tiers due to handicap… just try not to coach your players anymore."* The **official** FTG matchmaking article names **team strength** as an explicit matching input, and players with maxxed squads report being stuck at tiers 4 and 10.
+>
+> **Run two separate optimisation targets:** *competitive but NOT maxed* for DLL Tier 1; *maxed* for club value and the Prize Ladder. The record Tier 1 run used a **mostly common/rare squad** [EV-432] — maxing is not a prerequisite for the top tier.
+
 ### 1.2 Career Mode (the economy and the rating engine)
 
 Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Division 2 → Division 1 → Elite → Legendary** [EV-423, C2].
