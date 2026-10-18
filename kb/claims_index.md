@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:57:57Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2074**
-Distribution: Confirmed 391 / High Confidence 845 / Community Consensus 787 / Speculative 50 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **469**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:01:36Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2087**
+Distribution: Confirmed 391 / High Confidence 846 / Community Consensus 798 / Speculative 51 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **470**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,15 +10,15 @@ Distinct evidence records cited: **469**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 113 |
+| gameplay | 76 |
 | dll | 74 |
-| gameplay | 72 |
 | transfers | 71 |
 | cards | 64 |
 | clans | 62 |
 | career | 58 |
+| controls | 51 |
 | setpieces | 46 |
-| controls | 44 |
-| errata | 43 |
+| errata | 45 |
 | patching | 42 |
 | training | 40 |
 | cups | 39 |
@@ -1204,6 +1204,7 @@ Distinct evidence records cited: **469**.
 | CLAIM-2054 | EVERY ACHIEVEMENT IS WORTH EXACTLY 500 XP, which is the arithmetic behind the corpus's 20,000-XP figure: **40 x 500 = 20,000.** So the achievement ... | High Confidence | achievements/every-achievement-500-xp | EV-504 |
 | CLAIM-206 | Commentary languages progression: English (original); Spanish added DLS24; Portuguese added DLS25; Turkish and Arabic added in DLS26 July 2026 Summ... | High Confidence | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-2062 | THE ACHIEVEMENT-COUNT CONFLICT IS NOW EXPLAINED: the 87-achievement / 100,000-XP list is **DLS Classic**, a separate game with its own 87 achieveme... | High Confidence | achievements/other-lists-are-other-games | EV-504 |
+| CLAIM-2079 | DOUBLE-TAP CLEARING - a defensive control the corpus did not have at all: 'as long as the system detects your defender is within range of the ball,... | High Confidence | gameplay/double-tap-clearing | EV-506 |
 | CLAIM-211 | FTG studio portfolio (four active/supported franchises as of 2026): Dream League Soccer (flagship, annual, 2011-now, com.firsttouchgames.dls7); Sco... | High Confidence | unscoped | EV-277,EV-280 |
 | CLAIM-212 | DLS25 press release confirms 20M+ monthly active users (MAU) as of Dec 2024; over 1 billion cumulative downloads since 2011; Sheffield United (2020... | High Confidence | unscoped | EV-277,EV-280 |
 | CLAIM-214 | Career division ladder (DLS26, 8 divisions, bottom→top): Academy Division → Amateur Division → Division 4 → Division 3 → Division 2 → Division 1 → ... | High Confidence | unscoped | EV-284 |
@@ -2045,7 +2046,18 @@ Distinct evidence records cited: **469**.
 | CLAIM-2077 | TOTY IS EXPECTED IN DLS26: 'DLS 25 has the champions players, and now DLS 26 is about to see the **TOTY event** debut into the game' - a forward-lo... | Community Consensus | events/toty-expected | EV-505 |
 | CLAIM-2078 | THE GLOBAL CHALLENGE CUP STRUCTURE: 'some teams from other divisions will have to play against each other. **It works like the FA Cup... where its ... | Community Consensus | cups/global-challenge-cup-knockout-structure | EV-505 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
+| CLAIM-2080 | WHY DOUBLE-TAP CLEARING BEATS B, and where to use it: '**When tackling from the side, the game often requires physical contact to complete before t... | Community Consensus | gameplay/double-tap-clear-beats-b | EV-506 |
+| CLAIM-2081 | KEEP THE TWO DOUBLE-TAPS STRAIGHT: double-tap **CLEARING** works and is foul-free; double-tap **SHOOTING** does not - 'The double tap shooting dire... | Community Consensus | errata/double-tap-clear-vs-shoot | EV-506 |
+| CLAIM-2082 | THE SECONDARY PRESS'S FAILURE MODE, named for the first time: 'they need to fix double press so that it actually works. Like for example sometimes ... | Community Consensus | controls/secondary-press-freeze-failure-mode | EV-506 |
+| CLAIM-2083 | THE SECONDARY PRESS COMMITS ONLY TWO PLAYERS: 'my problem is let's say you're controlling those 2 players **the others aren't passively trying to g... | Community Consensus | controls/secondary-press-two-players-only | EV-506 |
+| CLAIM-2084 | THE SECONDARY PRESS'S VERSION HISTORY, which explains why the corpus's sources disagree: in **DLS25 (December 2024)** players had been 'BEGGING for... | Community Consensus | controls/secondary-press-version-history | EV-506 |
+| CLAIM-2086 | THE OFFISDE TRAP, ANSWERED FROM THE ATTACKING SIDE: 'What needs improving is that **CBs/defenders still try to play offside ineffectively when ball... | Community Consensus | gameplay/offside-trap-attempted-ineffectively | EV-506 |
+| CLAIM-2087 | C-029's Side B is CORROBORATED A SECOND TIME by a DLS26-dated source (August 2026): 'auto-switch is broken, **defenders refuse to hold their line**... | Community Consensus | errata/c-029-side-b-second-corroboration | EV-506 |
+| CLAIM-2088 | A GENUINE SPLIT VERDICT ON AUTO-SWITCH, recorded as a disagreement rather than an answer: 'The new auto-switch is way better. It doesn't just switc... | Community Consensus | controls/auto-switch-split-verdict | EV-506 |
+| CLAIM-2089 | A DLS26 DEFENDING SENTIMENT worth carrying: 'defending is way harder now, which makes the game fairer and makes you actually think instead of just ... | Community Consensus | gameplay/dls26-defending-harder-sentiment | EV-506 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
+| CLAIM-2090 | THE EXACT SECONDARY-PRESS INPUT, restated because the corpus's descriptions vary: 'hold down on an **empty part of your display** while defending a... | Community Consensus | controls/secondary-press-exact-input | EV-506 |
+| CLAIM-2091 | A DLS25 BASELINE FOR THE SECONDARY PRESS, useful for a device test: 'Holding the screen while running towards an attacker brings another defender w... | Community Consensus | controls/secondary-press-80-percent-baseline | EV-506 |
 | CLAIM-210 | DLS franchise lineage (with release dates): First Touch Soccer (iOS, 8 Dec 2011) → FTS 14 (2014) → FTS 15 (2015, last FTS branded release) → Dream ... | Community Consensus | unscoped | EV-277,EV-280 |
 | CLAIM-213 | Daily login = 40 Season Points/day (per BlueStacks); baseline match rewards provide Season Points. DLS26 also has a Daily Bonus (added Summer Spotl... | Community Consensus | unscoped | EV-270,EV-276 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
@@ -2168,6 +2180,7 @@ Distinct evidence records cited: **469**.
 | CLAIM-1984 | A MINOR RATING CONFLICT: z2u.com puts Lamine Yamal at **86**, where every other source has him at 85. z2u is a marketplace site with no editorial s... | Speculative | errata/yamal-86-outlier | EV-499 |
 | CLAIM-2033 | A DISSENTING VIEW ON CLAN VALUE, recorded so the corpus does not overstate the system: '**Clans are useless.** I thought we'd be able to compete ag... | Speculative | clans/useless-dissent | EV-502 |
 | CLAIM-2074 | REJECTED AN EIGHTH TIME, and the most elaborate fabrication yet: playdreamleaguesoccer.com publishes a complete 'DLS 2026 Schedule' - a month-by-mo... | Speculative | errata/playdream-eighth-rejection-fake-calendar | EV-505 |
+| CLAIM-2085 | THE SECONDARY PRESS WAS REMOVED AND RE-IMPLEMENTED BADLY, per one account: 'People complain about the new DLS 26 style of play so they brought back... | Speculative | controls/secondary-press-rollback | EV-506 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

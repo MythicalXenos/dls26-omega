@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-168 — 2,074 claims / 407 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-169 — 2,087 claims / 408 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -167,6 +167,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **DLL unlocks after SIX Career matches** | Which also unlocks Friend Match. Play six regardless — they pay coins and Season Points (C-025 substantially resolved) |
 | **Defending: no joystick while holding B** | Your player moves toward the ball automatically; steering fights it |
 | **Tackle from in front, never from behind at an angle** | In front or just off at an angle wins the ball clean; behind at an angle fouls [EV-493, C3] |
+| **Double-tap to clear** | If your defender is in range, he SNAPS to the ball and kicks it away instantly with no foul risk. Beats B in traffic; strongest in box scrambles [EV-506, C2/C3] |
+| **Secondary press is a bonus, not a system** | Nerfed in DLS26: it froze on ball-win in DLS25 and is reported degraded since. It commits only two players and disengages the rest [EV-506, C3] |
 | **Shepherd outwards, do not engage frontally** | Push the opponent wide rather than pressing permanently; patience concedes fewer goals [EV-493, C3] |
 | **Anti-C-spam: escalate the LINE count too** | After 3 → 4 → 5 defenders, move from three vertical lines to four or five (4-4-2 or 5-3-2 → 4-1-2-1-2 or 5-2-1-2) — "utterly negates 95% of C spamming" [EV-500, C3] |
 | **Anti-cross-spam** | 4-1-2-1-2 defensive; cut the cross off before it is delivered [EV-500, C3] |
@@ -469,7 +471,7 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 
 - **Side A (DLS24, Dec 2023):** team press moves the defensive line up to force an offside; switch to a wing-back so it rises with the line.
 - **Side B (DLS26, Aug 2026):** *"where are the offside traps, high lines, attacking shape...?"* and *"defenders refuse to hold their line."*
-- **Status: OPEN (C-029), version-drift likely.** Until tested, **defend with a controlled line, not a high one** — the §3.1 rule "never push defenders forward" already assumes the trap is unreliable.
+- **Status: OPEN (C-029), version-drift likely — but substantially ANSWERED from the attacking side (ckpt-169, EV-506):** *"CBs/defenders still try to play offside ineffectively when balls are played to the forwards which ends up meaning the striker is through on goal."* So the AI **does** attempt the line, and it does it **badly** — the cost of the failed attempt is a through ball. **The problem is not that the trap is absent; it is that it is attempted ineffectively by defenders you do not control.** Until tested, **defend with a controlled line, not a high one** — the §3.1 rule "never push defenders forward" already assumes the trap is unreliable, and this finding explains why.
 - **New control detail:** double-tap clears the ball while defending; **C** is the player-switch button.
 
 ### 3.11 The customisation layer, and the wages negative [EV-482, C1/C2]

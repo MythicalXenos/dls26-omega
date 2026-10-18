@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-168 — 2,074 claims / 407 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-169 — 2,087 claims / 408 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -673,7 +673,8 @@ Every item below is community-consensus [EV-436, C2] and costs nothing to adopt.
 | **Anti-cross-spam** [EV-500, C3] | *"Switch to 4-1-2-1-2 defensive. Once they get to the crossing stage, the only thing stopping them from scoring is poor composure or finishing - so cut them off before they get there."* |
 | **Anti-central-play** [EV-500, C3] | *"Avoid vertically shallow formations like 3-5-2 or 4-4-2, as they will utterly slice up your midfield."* Central players *"excel at through balls"* — use 4-1-2-1-2, 3-4-1-2 or 3-2-3-2, which cover the middle vertically |
 | **AUTO-SWITCH OFF is a top-of-the-ladder setting** [EV-500, C3] | *"You're gonna lose a little bit if you go straight away to Live Mode, especially Tiers <14."* So manual switching is right at Tier 1 and costly below it |
-| **Secondary press > main press** | Use the secondary press so a *teammate* applies pressure while you position your player to block the pass or shot. The same applies in aerial duels — against C-spammers never hold the main press |
+| **Secondary press > main press** | Use the secondary press so a *teammate* applies pressure while you position your player to block the pass or shot. The same applies in aerial duels — against C-spammers never hold the main press. **But it was nerfed in DLS26** — it won the ball ~80% of the time in DLS25 and is reported degraded or broken as late as January 2026. The specific failure: **the second presser freezes for a second on winning the ball and gives it back**, and the press commits only two players while the rest disengage. **Treat it as a bonus, not a system** [EV-506, C3] |
+| **⚠️ DOUBLE-TAP TO CLEAR — the third defensive control** | Distinct from B (pressure) and A (slide): if your defender is in range of the ball, he **snaps to it and kicks it away instantly, with no possibility of a foul**. It beats B in traffic because B requires physical contact before the ball is won. **Strongest in box scrambles.** And keep it straight: double-tap *clearing* works, double-tap *shooting* does not [EV-506, C2/C3] |
 | **Turn AUTO-SWITCH OFF** | The standard anti-C-spam setting. Practise in Career Mode first; it feels wrong for a while. **Official location:** Settings (gear icon, top-left) > Controls > *Auto Switch* — with default settings the game auto-switches control when defending to bring your closest player to the ball [EV-456, C1]. Given the DLS26 switching nerf, setting this deliberately is now a first-order decision, not a preference |
 | **Never push defenders forward** | Use a DM to press in midfield; play zonal defending out of possession |
 | **Block shots, and press C to bring the keeper out** | When the ball is in the air (lob or C-spam), press B and aim at the nearest midfielder/winger/fullback |
