@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-188 — 2,290 claims / 427 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-189 — 2,301 claims / 428 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -636,6 +636,9 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Medical L1:** −10% healing cost, −5% injury chance; maxed makes physio trips *"super cheap."*
 - **Commercial L1:** +6% match winnings; it also discounts **kits, logos AND scouts**; **L3 removes stadium rust**.
 - **Recruitment** discounts agents **and** scouts (gem or coin cost).
+- **⚠️ World Heroes and World Winners are LEGENDARY-AGENT-EXCLUSIVE** [EV-526, C3] - Common and Rare agents cannot pull them, so for those collections a low-tier agent is a guaranteed waste of gems.
+- **⚠️ Check the LIVE event listing before any event spend** [EV-526, C3] - the calendar rotates faster than any checkpoint cadence. Play Fest started 13 October 2026 and is live as of 18 October 2026.
+- **Customisation costs gems throughout** [EV-526, C3] - kit, logo, player kit number, boot colour and sock colour all take gems, so make each cosmetic decision once.
 - **Fanzone:** five levels, per-level cost unpublished.
 - **💰 F2P max cost:** ~32,000 coins via Common coaches or ~30,000 via Rare; an 80-rated defender runs ~1,460 coins.
 

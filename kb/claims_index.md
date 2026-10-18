@@ -1,36 +1,36 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T12:31:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2290**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 969 / Speculative 81 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **489**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T12:58:13Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2301**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 975 / Speculative 86 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **490**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 142 |
+| economy | 143 |
 | facilities | 114 |
 | dll | 92 |
 | gameplay | 83 |
 | transfers | 80 |
-| cards | 71 |
+| cards | 72 |
 | career | 70 |
 | clans | 67 |
 | errata | 62 |
 | setpieces | 61 |
-| controls | 57 |
+| controls | 59 |
 | prizeladder | 48 |
 | coaching | 45 |
-| patching | 44 |
+| patching | 45 |
 | cups | 41 |
 | training | 41 |
 | tactics | 38 |
 | attributes | 37 |
 | coaches | 37 |
-| events | 35 |
+| events | 37 |
 | platform | 32 |
+| customization | 30 |
 | account | 29 |
-| customization | 29 |
 | presentation | 27 |
 | stamina | 26 |
 | achievements | 25 |
@@ -43,8 +43,8 @@ Distinct evidence records cited: **489**.
 | onboarding | 15 |
 | formboost | 13 |
 | negatives | 13 |
-| ui | 12 |
-| settings | 11 |
+| settings | 13 |
+| ui | 13 |
 | skillmoves | 11 |
 | difficulty | 10 |
 | draft | 10 |
@@ -2241,7 +2241,13 @@ Distinct evidence records cited: **489**.
 | CLAIM-2292 | THE BOTH-FOOTED WINGER is a SHAPE asset, not merely a finishing one: '**Both-footed wingers is great as-well because they can put sweeping passes f... | Community Consensus | tactics/both-footed-winger-shape-asset | EV-525 |
 | CLAIM-2293 | THE THROUGH-BALL INPUT, from a flagged source and recorded at C3 with the flag: '**Master the Through Ball - Instead of passing directly to a playe... | Community Consensus | gameplay/through-ball-input | EV-525 |
 | CLAIM-2294 | THE DIAGONAL A PASS NERF, with the specific quote: 'The Unstoppable Diagonal A Pass: That broken, laser-accurate diagonal shot-pass is now about **... | Community Consensus | gameplay/diagonal-a-pass-and-cspam-nerfs | EV-525 |
+| CLAIM-2295 | ⚠️ WORLD HEROES AND WORLD WINNERS ARE LEGENDARY-AGENT-EXCLUSIVE: '**Just like the World Cup Heroes promo, World Winners cards will sit exclusively ... | Community Consensus | cards/world-heroes-agent-exclusive | EV-526 |
+| CLAIM-2296 | WORLD WINNERS IS THE SECOND PHASE OF THE CHAMPION EVENT: 'the big **second phase of the Champion event** we saw last year.' So the DLS25 Champion e... | Community Consensus | events/world-winners-second-phase-of-champion | EV-526 |
+| CLAIM-2297 | THE SUMMER UPDATE CARRIED AN 'ECONOMY RESET': a source headline reads '**DLS Summer Update Officially Confirmed: Dynamic Stars, Classic Icons, and ... | Community Consensus | economy/summer-economy-reset | EV-526 |
+| CLAIM-2298 | ⚠️ PLAY FEST STARTED 13 OCTOBER 2026 AND IS LIVE NOW. The Google Play listing carries '**Special event - Play Fest starts on 13 October**' against ... | Community Consensus | events/play-fest-live-october-2026 | EV-526 |
+| CLAIM-2299 | CUSTOMISATION COSTS GEMS ACROSS THE WHOLE SURFACE, not just the kit import: 'you can customize your **Team Kit, Logo, Player Kit Number, Boot Color... | Community Consensus | customization/costs-gems-throughout | EV-526 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
+| CLAIM-2303 | THE CROSS-ASSIST DEFINITION: 'it's to have a cross go to the nearest player if you chipped inside the box instead of needing to aim yourself.' So C... | Community Consensus | controls/cross-assist-definition | EV-526 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
 | CLAIM-234 | Transfer Market community-reported prices DLS26 (post-DLS25 price hike): 86 OVR (Rodri) ~2,725 coins; 82 OVR forward ~2,555 (pre-discount ~2,355); ... | Community Consensus | unscoped | EV-286 |
@@ -2385,6 +2391,11 @@ Distinct evidence records cited: **489**.
 | CLAIM-2280 | AN ERRATUM: dontruko's list of the eight divisions omits Division 1 entirely - academic, amateur, division 4, division 3, division 2, elite and leg... | Speculative | errata/dontruko-division-list-omits-d1 | EV-523 |
 | CLAIM-2281 | THE 70% SHOT POWER CEILING: 'the ideal power range to score a goal is filling the bar to a maximum of 70%.' **Recorded at Speculative** - it confli... | Speculative | shooting/70-percent-power-ceiling | EV-523 |
 | CLAIM-2282 | TWO NEW AI CONTENT FARMS: archon.progressiveparts.com and eliselegrow.com publish an identical '22 Tips To Dominate Dream League Soccer' article wi... | Speculative | errata/two-new-ai-content-farms | EV-523 |
+| CLAIM-2300 | THE AUDIO SETTINGS INVENTORY, the only one in the corpus: **commentary 40-60, crowd 70, music 20-30**. Commentary low or off is the competitive rec... | Speculative | settings/audio-inventory | EV-526 |
+| CLAIM-2301 | THE NAVIGATION SURFACE, from four independent sources: **My Club is at the bottom right of the screen**, and **Customise sits in the club menu alon... | Speculative | ui/navigation-my-club-and-customise | EV-526 |
+| CLAIM-2302 | THE CONTROLLER SETTINGS PATH, the only documented route to the controller profile: game, then controls, then '**game pad control**'. Pairs with the... | Speculative | settings/controller-settings-path | EV-526 |
+| CLAIM-2304 | A NEW LINKAGE between the assist settings and the handicap perception: 'If set to **low or off, you have a better chance at playing in rigged/handi... | Speculative | controls/assists-and-handicap-linkage | EV-526 |
+| CLAIM-2305 | THE VERSION CODE SEQUENCE (dlsinside): **160-13430** (16 Sep 2026) · 159-13420 (5 Sep) · 158-13410 (20 Aug) · 154-13350 (21 Jul) · 153-13340 (23 Ju... | Speculative | patching/version-code-sequence | EV-526 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |
