@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-098 (`4720b91`) — 1,379 claims / 345 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-100 (`e4fee63`) — 1,405 claims / 347 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -118,7 +118,7 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 
 **The counter-intuitive early rule** [EV-441, C2]: **do NOT buy legendary players early.** Buying them raises your team rating, and a higher rating makes the *cheap* players disappear from the market — which kills the coach-farming loop that actually builds your squad. Buy one or two fast common or rare players to win games, and only start buy-sell cycling once the stadium is maxed. Also pick the **best attacker as captain**: it boosts team rating, which improves who appears in the market.
 
-### PHASE 3.4 — Transfer market mechanics [EV-442, C2/C3]
+### PHASE 3.5 — Transfer market mechanics [EV-442, C2/C3]
 
 This is the most operationally important layer in the game, and almost every guide gets it wrong.
 
@@ -335,6 +335,48 @@ Reported to negate **~95% of C-spamming** [EV-436, C2].
 
 **Skill moves are swipe gestures, not buttons** — and whether the move executes depends on the player's **Ball Control** stat plus the engine's decision [EV-441, C2]. A high-CON player is worth more for this alone.
 
+### 3.3 Set pieces — the highest-percentage scoring in the game [EV-444, C2/C3]
+
+> **Corners are the most reliable goal source in DLS26.** A December 2025 post: *"Corners are way too easy to score now. If your opponent in DLL gets one, it's almost guaranteed that you concede."* Penalties, by contrast, are described as rigged.
+
+**Corners — the agreed mechanics:**
+
+| Rule | Detail |
+|---|---|
+| **Cross with A** | A passes are fast, produce faster headers, and make it easy to pinpoint players |
+| **Tall targets** | Konaté, Haaland, Van Dijk named; one source says **190+ is required** for the header routine |
+| **Take from behind the goal line** | Not from next to the sideline |
+| **Shortest players on corner duty** | So the players in the box are on average taller |
+| **Aim arrow ~90% inside the pitch** | Or set the aim line at ~30° to the goal line |
+| **TIMING is critical** | Press A **right before** the ball reaches the target player |
+
+Power recipes that work (pick one and drill it): A to 60% · A to 80–90% with in-then-out curve · C at 2/3–3/4 · C at 80% on a 50–60° angle · or leave the arrow alone and play a strong lob to a defender, then a short header to the nearest open man.
+
+**Two caveats:** DLS25 **nerfed corner headers**, so the fallback is to aim middle and press **B to pass** to someone better placed rather than heading immediately. And **corner footedness is contested (C-022)** — the majority say same-foot corner, a minority say opposite-foot. Test both in the free training ground before committing.
+
+**Defending corners:** switch to a tall player and **B-pass 90° away from the direction** the opponent wants to head it. Alternative: charge A and point up-field the moment the corner is taken.
+
+**Free kicks — five rules that matter:**
+
+1. **Two dedicated takers**, one left-footed and one right-footed. Technique becomes consistent.
+2. **Every player has different free-kick settings.** Ronaldo and Messi take them differently; Alexander-Arnold "curves A LOT", Modrić far less. Do not assume one technique transfers.
+3. **70% power floor.** Below that, the ball is not guaranteed to clear the wall.
+4. **The wall is your reference.** Learn how much your taker curls by watching *which player in the wall* the arrow points at. Aim over the **shortest** player, at the **top corners**, with a **diagonal** swipe.
+5. **Distance bands:** 18–22 yd = curl with the inside foot · 23–28 yd = power or curled top-corner · 30+ yd = long-shot technique or pass.
+
+**The Live-mode timing trick:** an opponent can manually move a player onto the goal line and head your free kick away. So: **wait** for them to step onto the line → **switch the taker** (this resets where their player is) → **shoot immediately**.
+
+If direct free kicks are unreliable, don't take them: C-pass to a player beside the wall and shoot the rebound, or cross into the box.
+
+**Penalties** — reported conversion is **85–90% in DLL** and **70–80% in shootouts**, and players call shootouts rigged with predictable run-ups. Working techniques: slightly off-centre with moderate power · low C with a medium A · a light A tap or full-power B to the bottom corners · against the AI, the middle with a slightly powered A · or one-third off the keeper toward the post with the pass button at half to two-thirds power.
+
+**The one universal rule:** make the taps **gentle and quick**. Holding a split-second too long produces a wild, overpowered shot. Always aim top or bottom corner — the top of the goal gives an illusion of width that a wasted penalty will not honour.
+
+### 3.4 Scenarios and Exhibition [EV-445, C2/C3]
+
+- **Scenarios:** you are already **losing** and must beat **Hard AI**. 50 coins daily, resets each day. DLS26 Summer Spotlight officially added *more bonus objectives and rewards*. The community calls scenarios **the hardest content in the game** — "way harder than Live Games", and even "easy" scenarios reportedly play at medium difficulty. Budget time accordingly.
+- **Exhibition:** offline friendlies via a **room code**, no rewards. This is your **free training ground** — the right place to drill corners, free kicks and new formations before taking them into Live.
+
 **Formation meta is genuinely unsettled** (C-014 stays open by design): 4-4-2 for balance (LM/RM as wingers, full-backs supporting both phases); 4-1-2-1-2 and 4-1-3-2 favoured by the tier-1 guides; 4-3-3 and 3-4-1-2 pushed by sportsdunia. **Pick one and learn it deeply rather than chasing the meta** — the record run used a mostly common/rare squad.
 
 ### 3.2 Injury and healing economics [EV-437, C2/C3]
@@ -396,10 +438,11 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 
 **Daily (≈45–60 min):**
 1. Season Pass login (+40 SP) and daily challenges (5–11 gems)
-2. Scenarios (50 coins; 75–100 per 8h cycle)
+2. Daily Scenario (50 coins) — budget real time, it is the hardest content in the game
 3. 3–5 DLL matches **at tier 10 or above**
 4. Buy 3–5 players under 210 coins → release → coaches
 5. One 8-hour ad cycle (up to 600 coins)
+6. **Two free-kick or corner attempts in Exhibition** — the training ground, and the highest-percentage scoring route in the game
 
 **Weekly:**
 1. Push the DLL weekly leaderboard before the reset (placement gems + participation gems)
