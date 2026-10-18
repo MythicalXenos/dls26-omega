@@ -52,3 +52,6 @@
 {"turn":35,"wave":15,"claims_added":"CLAIM-0941..CLAIM-0949","ev_added":"EV-396","checkpoint":"ckpt-069"}
 {"turn":35,"wave":16,"claims_added":"CLAIM-0950..CLAIM-0962","ev_added":"EV-397","checkpoint":"ckpt-070"}
 {"turn":35,"wave":17,"claims_added":"CLAIM-0963..CLAIM-0966","ev_added":"EV-398","checkpoint":"ckpt-070"}
+{"turn":35,"wave":18,"claims_added":"CLAIM-0967..CLAIM-0981","ev_added":"EV-399","checkpoint":"ckpt-071"}
+{"turn":35,"wave":19,"claims_added":"CLAIM-0982..CLAIM-1008","ev_added":"EV-400,EV-401,EV-402","checkpoint":"ckpt-071"}
+{"turn":35,"wave":"norm","claims_added":"0 (22 domain values normalised: customisation->customization, patches->patching, refereeing->referee, prize-ladder->prizeladder, form-boost->formboost, license->licensing, seasonpass->economy/season-pass, iap->economy/iap)","ev_added":"0","checkpoint":"ckpt-071"}
