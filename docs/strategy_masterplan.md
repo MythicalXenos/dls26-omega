@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-184 — 2,263 claims / 423 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-185 — 2,271 claims / 424 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -587,6 +587,8 @@ Release yields coaches, not coins — but for Classics specifically, the opportu
 | Points per online win | **~3,500 Clan Points** |
 | Individual contribution cap | **350,000** (= ~100 online wins/season) |
 | Above the cap | Only ranks you first in-clan for the top-contributor gem reward — **does not help the clan total** |
+| **Event priority: team events, then cups, never endurance** | Team events first (choose GOOD teams, not supported ones); cups second (short, one life); endurance events avoided [EV-517, C3] |
+| **Which event team, and from which tier** | **Relegate to tier 8+ and pick City or Liverpool as the event side for ~3k in total** [EV-522, C3] |
 | **Which clan to join** | Social vs competitive | **THE MARKET IS TIERED BY OUTPUT** [EV-519, C3]: clans making **13–15M** points a season require **350K+** per member; clans making **10–11M** accept **200–350K**. So the recruitment numbers are a price list, not bragging — a 250K contributor has a defined place. **Clan choice is competitive, not social** |
 | Reward ladder | **25,000 points** to unlock anything · **25 gems at 1M** · Legendary XP boost 2M · Legendary Scout 3M · 500 coins 5M · Rare Special Coach 7.5M · **150 gems at 10M** [EV-502, C3 — endpoints two-source, middle tiers single-source from a source rejected for tables] |
 | The in-clan prize | **50 gems** for finishing first among your own clanmates — which is all the cap leaves you competing for |

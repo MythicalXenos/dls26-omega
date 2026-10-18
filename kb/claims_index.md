@@ -1,33 +1,33 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T10:30:19Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2263**
-Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 946 / Speculative 77 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **485**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T11:01:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2271**
+Distribution: Confirmed 391 / High Confidence 848 / Community Consensus 953 / Speculative 78 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **486**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 138 |
+| economy | 140 |
 | facilities | 114 |
-| dll | 91 |
+| dll | 92 |
 | gameplay | 81 |
 | transfers | 80 |
 | cards | 71 |
 | clans | 67 |
 | career | 66 |
 | setpieces | 60 |
-| errata | 58 |
+| errata | 59 |
 | controls | 56 |
 | prizeladder | 48 |
-| coaching | 43 |
+| coaching | 45 |
 | patching | 43 |
 | training | 41 |
 | cups | 39 |
 | attributes | 37 |
 | coaches | 37 |
-| tactics | 36 |
-| events | 34 |
+| tactics | 37 |
+| events | 35 |
 | platform | 32 |
 | account | 29 |
 | customization | 29 |
@@ -2217,7 +2217,14 @@ Distinct evidence records cited: **485**.
 | CLAIM-2262 | THE DLS26 BUG-FIX HISTORY, which tells you which faults are already closed: **January 2026** crash fixes and performance tweaks · **May 2026** 'Res... | Community Consensus | patching/dls26-bug-fix-history | EV-521 |
 | CLAIM-2263 | THE USER-SENTIMENT SUMMARY, the corpus's first aggregate view of what DLS players actually complain about: lost accounts and difficulty restoring p... | Community Consensus | bugs/user-sentiment-summary | EV-521 |
 | CLAIM-2264 | THE LICENSING MECHANISM: DLS licenses **players** through FIFPRO, not league packages - 'FTG operates primarily under a FIFPRO license, they licens... | Community Consensus | licensing/players-not-leagues | EV-521 |
+| CLAIM-2268 | THE EVENT TEAM-CHOICE ADVICE, the operational half the corpus's event-selection rule was missing: '**Also always play events which are very crucial... | Community Consensus | events/team-choice-and-tier | EV-522 |
+| CLAIM-2269 | ⚠️ THE DLS26 SKILL-COMPRESSION COMPLAINT, the sharpest version of the maxed-squad handicap argument in the corpus: '**I noticed that the people lov... | Community Consensus | dll/skill-compression-complaint | EV-522 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2270 | GOALKEEPERS ARE THE EASIEST POSITION TO MAX, with two named routes: '**Goalies are easiest to max**, you can focus on one goalie like Donnarumma or... | Community Consensus | coaching/goalkeepers-easiest-to-max | EV-522 |
+| CLAIM-2271 | THE CHAINING METHOD IN PRACTICE, with the collateral cost named: 'for VVD, I simply used loads of rare and legendary fitness to get it to nearly 10... | Community Consensus | coaching/chaining-method-in-practice | EV-522 |
+| CLAIM-2272 | THE $1 CONVERSION: 'That $1 purchase actually got me a few extra coins enough to buy Messi after finding him through a common card in transfers... ... | Community Consensus | economy/small-purchase-converted-to-coins | EV-522 |
+| CLAIM-2273 | THE DEEP-442 TO BALANCED-442 SHIFT: 'I used to play a deep 442 formation the previous seasons of the game to counter the guys who keep spamming lon... | Community Consensus | tactics/deep-442-to-balanced-442 | EV-522 |
+| CLAIM-2274 | THE GEM RULE, restated by a DLS26 player: 'Avoid spending gems on anything other than upgrading facilities or training special players. Play and tr... | Community Consensus | economy/gem-rule-restated | EV-522 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
 | CLAIM-232 | 'Breakthrough' / 'bonus development' mechanic: adds extra stat points on top of normal coach boost, but stat targeted is random — can dump value in... | Community Consensus | unscoped | EV-285 |
 | CLAIM-233 | Efficient progression rule of thumb from community: max Training Centre BEFORE spending gems on Legendary coaches (pays back after ~20 legendary co... | Community Consensus | unscoped | EV-285 |
@@ -2358,6 +2365,7 @@ Distinct evidence records cited: **485**.
 | CLAIM-2256 | ⚠️ OFFENSIVE TEAM AND MANAGER NAMES CAN BE ACTIONED: the official sanction article states that 'in extreme circumstances, action may be taken in re... | Speculative | account/offensive-or-trademarked-names-actionable | EV-520 |
 | CLAIM-2266 | THE FULL DLS26 TEAM ROSTER with per-club player counts (dlsinside, 16 Sep 2026): A Bergamo 29, A Bilbao 36, A Madrid 34, A Milan 30, Aberdeen 28, A... | Speculative | licensing/team-roster-player-counts | EV-521 |
 | CLAIM-2267 | THE DLS26 LAUNCH COMPLAINT SET, recorded so the corpus carries the negative case as well as the positive: 'the goal does not feel they're in the ga... | Speculative | bugs/dls26-launch-complaint-set | EV-521 |
+| CLAIM-2275 | ⚠️ A CONFLICT WITH A REJECTED SOURCE: lfbb.net claims that linking Facebook to DLS gave 150 gems (plus 200 for Twitter and 50 for a shared result).... | Speculative | errata/facebook-linking-claim-contradicted | EV-522 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
 | CLAIM-272 | Graphics/engine/weather (SPECULATIVE, community-blog-only claims): Blogs claim proprietary FTG engine with PBR lighting; ray-traced shadows on PC/c... | Speculative | unscoped | EV-299 |

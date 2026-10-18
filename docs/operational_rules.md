@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-184 — 2,263 claims / 423 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-185 — 2,271 claims / 424 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -563,6 +563,8 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 | **Prize Ladder** | DP | First special player ≈ **50,000 DP**; 75–250 DP per match |
 | **Events / Season Pass** | Play or money | The main F2P special-player route |
 | **Event priority: team events, then cups, never endurance** | Team events first (choose GOOD teams, not supported ones); cups second (short, one life); endurance events avoided [EV-517, C3] |
+| **Event team and tier** | Relegate to tier 8+ and pick City or Liverpool as the event side for ~3k in total [EV-522, C3] |
+| **Goalkeepers are the easiest position to max** | 80-rated keepers to upgrade at once, or 50s at ~100 coins for a Common coach [EV-522, C3] |
 | **The 30-second pause is a general tool** | Callable at almost all times - stop, read the pitch, restart with a plan [EV-517, C3] |
 | **The stadium needs only 7 of 8 stands** | Leave the last CORNER un-upgraded to reach 85,000 capacity [EV-517, C3] |
 | **A Classic is a maxing play, not a rating play** | None are 86; the value is 5 stats at 100, and Desailly is the named best first pick (a defender) [EV-512, C3] |
