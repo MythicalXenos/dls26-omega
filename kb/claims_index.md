@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:55:21Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1187**
-Distribution: Confirmed 297 / High Confidence 561 / Community Consensus 299 / Speculative 29 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **387**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:56:45Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1204**
+Distribution: Confirmed 297 / High Confidence 568 / Community Consensus 308 / Speculative 30 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **389**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,7 +10,7 @@ Distinct evidence records cited: **387**.
 | unscoped | 424 |
 | facilities | 72 |
 | economy | 65 |
-| career | 37 |
+| career | 39 |
 | coaches | 36 |
 | controls | 34 |
 | patching | 32 |
@@ -20,7 +20,7 @@ Distinct evidence records cited: **387**.
 | prizeladder | 26 |
 | cups | 25 |
 | transfers | 23 |
-| attributes | 21 |
+| attributes | 22 |
 | modes | 19 |
 | cards | 17 |
 | events | 17 |
@@ -31,11 +31,13 @@ Distinct evidence records cited: **387**.
 | tactics | 16 |
 | errata | 14 |
 | training | 13 |
+| goalkeeping | 11 |
 | ui | 11 |
 | account | 10 |
 | match | 10 |
 | setpieces | 10 |
 | onboarding | 9 |
+| squad | 8 |
 | physio | 7 |
 | difficulty | 6 |
 | formboost | 6 |
@@ -47,7 +49,6 @@ Distinct evidence records cited: **387**.
 | weather | 5 |
 | ai | 4 |
 | chemistry | 4 |
-| squad | 4 |
 | injuries | 3 |
 | multiplayer | 3 |
 | ratings | 3 |
@@ -62,7 +63,6 @@ Distinct evidence records cited: **387**.
 | design | 1 |
 | features | 1 |
 | formations | 1 |
-| goalkeeping | 1 |
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
@@ -773,6 +773,13 @@ Distinct evidence records cited: **387**.
 | CLAIM-1183 | The legacy Dream League Live tier ladder was numeric with Tier 1 at the top and Tier 10 at the bottom, replaced in the current build by named ranks... | High Confidence | dll/legacy-numeric-tiers | EV-423 |
 | CLAIM-1186 | DLS26 achievements grew from 40 to 42 between Exophase snapshots: the two additions ('Back Of The Net' and 'Debut') carry far higher achievement ID... | High Confidence | career/achievement-growth | EV-423 |
 | CLAIM-1188 | Transfer market quality tracks team OVR directly: if team OVR falls, the market shows lower-rated legendary players. | High Confidence | transfers/market-tracks-ovr-confirmed | EV-423 |
+| CLAIM-1192 | Dream Team Value is a percentage-based squad-quality measure with achievement milestones at 50% ('Getting Stronger') and 80% ('Ultimate Dream Team'... | High Confidence | squad/dream-team-value | EV-424 |
+| CLAIM-1193 | Reaching 100% Dream Team Value is associated with roughly 23 fully developed players in the squad. | High Confidence | squad/dream-team-value-100 | EV-424 |
+| CLAIM-1198 | GKH (Goalkeeper Handling) covers catching with the hands, throw accuracy, POSITIONING, clearing crosses and corners from the air, and knocking the ... | High Confidence | goalkeeping/gkh-semantics | EV-425 |
+| CLAIM-1199 | GKR (Goalkeeper Reflexes) covers preempting and reacting to shots and diving to save, and in newer versions slightly governs the keeper's tendency ... | High Confidence | goalkeeping/gkr-semantics | EV-425 |
+| CLAIM-1203 | Manual keeper control: holding the C button while out of possession makes the goalkeeper run toward the ball - the only direct keeper control in th... | High Confidence | goalkeeping/manual-control | EV-425 |
+| CLAIM-1205 | Defensive card discipline: the B button is the reliable way to dispossess opponents and avoid conceding penalties and free kicks, whereas frequent ... | High Confidence | goalkeeping/b-vs-a-cards | EV-425 |
+| CLAIM-1206 | There is NO positional penalty: assigning a natural defender as an attacker causes no form or performance penalty, unlike management-heavy football... | High Confidence | attributes/no-positional-penalty | EV-425 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1128,6 +1135,15 @@ Distinct evidence records cited: **387**.
 | CLAIM-1187 | DEVELOPMENT CEILING VERSION DRIFT: in DLS2020 goalkeepers were not capped at +10 and reached +11 to +14 (producing 97 Buffon and 99 De Gea cards), ... | Community Consensus | coaches/ceiling-version-drift | EV-423 |
 | CLAIM-1189 | Scoring difficulty is described as uniform across divisions - it does not get harder to score in Legendary than in Academy - even though overall di... | Community Consensus | difficulty/scoring-uniform | EV-423 |
 | CLAIM-1190 | DLS Classic champion coin rewards: Division 3 champions 20 coins, Division 1 champions 40 coins and Elite champions 50 coins. | Community Consensus | cups/classic-champion-coins | EV-423 |
+| CLAIM-1194 | The 80% Dream Team Value achievement is among the rarest in the game - 0.00% of tracked players on the legacy iOS list and 5.05% on DLS Classic. | Community Consensus | squad/dtv-80-rarity | EV-424 |
+| CLAIM-1195 | Legacy signing achievements: 'Sign On The Dotted Line' (5 players signed), 'Catalogue Of Players' (10), 'Transfers!' (20) and 'Revolving Door' (100... | Community Consensus | career/legacy-signing-achievements | EV-424 |
+| CLAIM-1196 | Legacy spending achievements require cumulative player spend of 1,250 / 2,500 / 5,000 / 10,000 coins. | Community Consensus | career/legacy-spend-achievements | EV-424 |
+| CLAIM-1200 | Consensus keeper build rule: GKR should be greater than or equal to GKH; if GKH exceeds GKR it should be by no more than 3 points with 6 as the out... | Community Consensus | goalkeeping/gkr-gkh-ratio | EV-425 |
+| CLAIM-1201 | Keeper height matters: 190cm+ is preferred and Courtois is valued partly for his height, while low-height defenders such as Ruben Dias are less pre... | Community Consensus | goalkeeping/height | EV-425 |
+| CLAIM-1202 | Best keepers named by the community: Alisson and Courtois, with Donnarumma a good option that rushes out of goal quickly. | Community Consensus | goalkeeping/best-keepers | EV-425 |
+| CLAIM-1204 | Penalty shootout tactic: a full-powered B-kick aimed dead-centre while appearing to take time aiming sideways makes the AI keeper dive sideways, le... | Community Consensus | goalkeeping/shootout-tactic | EV-425 |
+| CLAIM-1207 | Community keeper complaints: keepers concede identical goal types from outside the box while saving point-blank headers, positioning sometimes leav... | Community Consensus | goalkeeping/community-complaints | EV-425 |
+| CLAIM-1208 | VERSION DRIFT: the legacy player-development model listed a THIRD goalkeeper attribute, GK Positioning, alongside Handling and Reflexes; the curren... | Community Consensus | goalkeeping/legacy-third-attribute | EV-425 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
@@ -1255,6 +1271,7 @@ Distinct evidence records cited: **387**.
 | CLAIM-112 | One Reddit thread reported a challenge requiring about 60,000 points to sign one of four players. Single-thread report, Speculative; consistent wit... | Speculative | unscoped | EV-242,kb/community-meta.md M-004 (imported; single Reddi... |
 | CLAIM-1134 | Claims that the AI learns your playstyle, adapts defensively to repeated wing play, or uses a 'Neural Match Engine' appear only on eslamgaming and ... | Speculative | ai/adaptation-unconfirmed | EV-418 |
 | CLAIM-1191 | OPEN GAP: no source names the LIVE ranks above 'Veteran' in the current build, so the top of the DLL ladder is unknown. | Speculative | dll/rank-names-above-veteran | EV-423 |
+| CLAIM-1197 | A Fan Approval Rating exists with a 'Fan Favourite' achievement for reaching 100%; its mechanics are undocumented in every source found - OPEN GAP. | Speculative | squad/fan-approval | EV-424 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
