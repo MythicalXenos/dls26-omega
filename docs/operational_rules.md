@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-109 (`300157b`) — 1,429 claims / 350 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-112 (`ad38d20`) — 1,448 claims / 352 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -171,6 +171,10 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 6.6 | Scouts: **Common 75 coins / Legendary 500 coins**; the Common's 5% legendary chance is good early value | market | EV-442 |
 | 6.7 | Now, and only now, start buying legendaries | rating | EV-441 |
 | 6.8 | Cards go **silver → gold → black at 100 OVR** | cards | EV-437 |
+| 6.9 | **THE GACHA LEVER** — buy and sell every 80+ player you see so they sit in the recovery tab for two days, removing them from the Legendary Agent pool. Reported to take Champion odds to **100%** for ~275,000 coins across ~145 players and 70+ refreshes | agent odds | EV-450, C2 |
+| 6.10 | Stack gold players in the market (they cannot be pulled while there) and **Lock** targets (costs gems). Pity ceiling ~15 Legendary Agents per target | agent odds | EV-450, C2/C3 |
+| 6.11 | **NEVER release a Classic Player** — future Prize Ladders randomise rewards, so you may get them next time and miss the new ones | collection | EV-450, C2 |
+| 6.12 | **DLS26: special players do NOT count toward squad size** — the club holds **unlimited** specials, so there is no collection cap | cards | EV-449, C1 |
 
 **[UNVERIFIED]** The manager-name/nationality "refresh trick" — one poster states some say it works and some that it doesn't. **Do not plan around it.** [EV-442, C4]
 
@@ -343,13 +347,14 @@ The game is volatile; these are the only events that justify breaking the routin
 4. **Market refresh cadence** (C-021) — "refreshes after every match" is the community consensus; a minority claims every 7 hours. The rule set uses the per-match model because it is the more conservative assumption for the farming loop.
 5. **The special-player max cost** (C-020) — planned at 2,100 gems from the coach model, not from a datamine.
 6. **~300 matches to a dream squad** and **~16 days to Tier 1** are single-source community figures, useful for planning but not guarantees.
+7. **The gacha probability mechanic** (EV-450) is a well-corroborated community report with a plausible mechanism behind it, but the exact 100%-odds claim and the 275,000-coin cost are unverified. Treat the *direction* — fewer legendaries in the pool means better odds — as reliable and the numbers as planning figures.
 7. **The tier-camping gem rate** (~35–43/hour) is a single well-detailed community report. The *method* is corroborated by several posters describing the same survival-not-promotion approach; the *exact numbers* are not.
 8. **The maxed-squad handicap (C-024)** is Community Consensus with an official mechanism behind it, not a datamined fact. The direction is reliable; the threshold (how much coaching is too much) is unknown.
 
 ### 7.3 Audit verdict
 
-**PASS with stated limits.** The rule set is internally consistent, fully referenced, and safe to execute. Rules R-7.1 to R-7.3 were added at ckpt-109 and are the highest-value rules in the file. The open gaps are all *numeric refinements* that change an optimum at the margin, not the direction of the plan. None of them blocks starting.
+**PASS with stated limits.** The rule set is internally consistent, fully referenced, and safe to execute. Rules R-7.1 to R-7.3 were added at ckpt-109 and rules 6.9 to 6.12 at ckpt-112; the gacha lever (6.9) is the single highest-value collection rule in the file. The open gaps are all *numeric refinements* that change an optimum at the margin, not the direction of the plan. None of them blocks starting.
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,412 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (348 records) at ckpt-105.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,448 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (352 records) at ckpt-112.*
