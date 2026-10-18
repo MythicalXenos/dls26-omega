@@ -160,3 +160,13 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Source C:** r/DreamLeagueSoccer 1pp07c2 (Dec 2025) — "it takes **6-7 Legendary Special Coaches** to max a special player".
 - **Status:** OPEN, low impact. The spread is explained by breakthroughs and by the choice mechanic letting you land points more efficiently. Recorded in EV-439. Use 2,100 gems as the planning figure.
 
+## C-021: Transfer market refresh cadence (per-match vs every 7 hours)
+- **Source A:** Bluestacks + gamingonphone DLS26 guides — the Live Transfer Market **refreshes after every match you play**.
+- **Source B:** r/DreamLeagueSoccer 18gl9ob (Dec 2023) — a commenter states the market "**refreshes every 7 hours**".
+- **Status:** OPEN, low impact. Most likely Source B refers to a different surface (the shop) or an older build. Operationally, treat per-match refresh as the rule and note that forfeits, scenarios, exhibition matches and ads do NOT trigger it. Recorded in EV-442.
+
+## C-017 UPDATE (2026-10-18, ckpt-098): clan top-contributor gem reward — now leans 100
+- A detailed community calculation post itemises the clan component of a season as **275 gems = 25 + 150 (10M Clan Points ladder) + 100 for being number one in-clan**, which supports the **100-gem** figure from sportsdunia.
+- The **50-gem** figure comes from a single Spanish-language clan-leader thread (r/DLS 1pk9dae).
+- **Status:** still formally OPEN, but the weight of evidence now favours **100 gems**. No official FTG figure has been found.
+

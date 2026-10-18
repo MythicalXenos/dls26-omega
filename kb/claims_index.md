@@ -1,31 +1,31 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:14:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1355**
-Distribution: Confirmed 309 / High Confidence 628 / Community Consensus 384 / Speculative 33 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **405**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:18:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1379**
+Distribution: Confirmed 309 / High Confidence 634 / Community Consensus 401 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **407**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 79 |
+| economy | 82 |
 | facilities | 72 |
 | career | 43 |
+| clans | 40 |
+| transfers | 40 |
 | training | 38 |
-| clans | 36 |
 | coaches | 36 |
 | controls | 34 |
 | cups | 34 |
+| prizeladder | 34 |
 | patching | 33 |
-| prizeladder | 33 |
-| dll | 30 |
+| dll | 31 |
 | platform | 30 |
 | cards | 29 |
 | customization | 28 |
-| transfers | 27 |
 | attributes | 23 |
+| errata | 20 |
 | modes | 19 |
-| errata | 18 |
 | events | 18 |
 | gameplay | 17 |
 | stamina | 17 |
@@ -862,7 +862,13 @@ Distinct evidence records cited: **405**.
 | CLAIM-1355 | Skill moves are swipe gestures rather than buttons, and whether the move executes depends on the player's Ball Control stat and the game engine's d... | High Confidence | gameplay/skill-moves-swipe-con | EV-441 |
 | CLAIM-1356 | Kit and crest import uses an image of at most 512x512 pixels, pasted as a URL into the importer on the Customise screen. | High Confidence | customization/kit-512-import | EV-441 |
 | CLAIM-1358 | Final league position and cups won pay SEPARATELY from the per-match prize, so always play the league and cups through to the end. | High Confidence | economy/position-and-cups-pay-separately | EV-441 |
+| CLAIM-1360 | The Live Transfer Market refreshes after every MATCH played, so the more games completed the more opportunities to find better players. | High Confidence | transfers/refresh-per-match | EV-442 |
+| CLAIM-1361 | CRITICAL: forfeiting a Career match does NOT refresh the transfer market, and scenarios, exhibition matches and free ads all earn coins WITHOUT upd... | High Confidence | transfers/what-does-not-refresh | EV-442 |
+| CLAIM-1364 | LOCK PLAYER: spending 20 or 40 gems locks any player on the live transfer market for 24 hours, so they survive the next match refresh; a small lock... | High Confidence | transfers/lock-player-24h | EV-442 |
+| CLAIM-1368 | NO DUPLICATES: you cannot buy a player you already own - to obtain a new version of a card you must first sell the one you have. | High Confidence | transfers/no-duplicates | EV-442 |
 | CLAIM-137 | Outfield players have exactly 8 core integer attributes, each 0–100, in this fixed schema: SPE (Speed), ACC (Acceleration), STA (Stamina), STR (Str... | High Confidence | unscoped | EV-251,EV-252 |
+| CLAIM-1373 | RELEASE yields no coins - it yields coaches - which is the foundation of the coach-farming loop; one player needed about 300 matches after maxing t... | High Confidence | economy/release-yields-coaches-not-coins | EV-442 |
+| CLAIM-1374 | LEGACY: free transfers existed only up to DLS2016h, after which players are sold for half their purchase value; in DLS Classic a red-card suspended... | High Confidence | errata/free-transfers-legacy | EV-442 |
 | CLAIM-138 | Goalkeepers use the same 8-column stat grid but two columns are semantically re-mapped: GK Reflexes (GKR) and GK Handling (GKH) replace STA and SHO... | High Confidence | unscoped | EV-251,EV-252 |
 | CLAIM-142 | Vintage/historical "special" cards (special.json) cover Champion (12, vintage years 2004–2018), Classic (24, 1984–2018), Star (23, 2025/2026 rising... | High Confidence | unscoped | EV-251,EV-248,CLAIM-132 |
 | CLAIM-144 | DLS26 OVR ceiling hierarchy, corrected: base golds cap 86 (EV-251); vintage Champion/Star/Team-of-Year special cards cap 88 (EV-251); current-event... | High Confidence | unscoped | EV-252,EV-251,EV-248 |
@@ -1300,6 +1306,23 @@ Distinct evidence records cited: **405**.
 | CLAIM-1351 | Only start buy-sell cycling of cheap common players once the stadium is maxed; before that, buy them really cheap and keep selling to accumulate co... | Community Consensus | economy/common-buy-sell-timing | EV-441 |
 | CLAIM-1354 | Early in Dream League Live, play only Live EVENTS for rewards and avoid regular Live matches until the squad is ready. | Community Consensus | dll/events-only-early | EV-441 |
 | CLAIM-1359 | Season objectives are the most commonly unclaimed rewards and are the primary free gem source. | Community Consensus | economy/season-objectives-unclaimed | EV-441 |
+| CLAIM-1362 | Dream Draft is also reported not to reset the transfer shop. | Community Consensus | transfers/draft-does-not-refresh | EV-442 |
+| CLAIM-1363 | The fastest way to refresh the transfer market is to quit a LIVE match at half-time; playing the first half of a live game and then forfeiting also... | Community Consensus | transfers/fastest-refresh | EV-442 |
+| CLAIM-1365 | CONFLICT on refresh cadence: the dominant account is per-match refresh, while one source claims the market refreshes every 7 hours. | Community Consensus | transfers/refresh-cadence-conflict | EV-442 |
+| CLAIM-1366 | After releasing a player there is a grace period during which you can buy them back from the release area; once it closes they enter the general tr... | Community Consensus | transfers/repurchase-window | EV-442 |
+| CLAIM-1367 | Released players do reappear in the transfer market, but collection pieces never come back and rare or common cards may require a long wait. | Community Consensus | transfers/released-players-reappear | EV-442 |
+| CLAIM-1369 | Buy the highest-rated player available at each market refresh: this raises team strength and attracts better players, and higher-rated teams see be... | Community Consensus | transfers/buy-highest-to-raise-rating | EV-442 |
+| CLAIM-1370 | Legendary players can appear in the transfer window individually or as 'Top Picks'. | Community Consensus | transfers/top-picks | EV-442 |
+| CLAIM-1371 | Scout prices: Common Scout 75 coins and Legendary Scout 500 coins, with the Common Scout's 5% legendary chance considered good value for early prog... | Community Consensus | transfers/scout-prices | EV-442 |
+| CLAIM-1372 | A guaranteed 80+ legendary player raises team rating and attracts interest, after which legendary players appear in the transfer market for roughly... | Community Consensus | transfers/legendary-price-band | EV-442 |
+| CLAIM-1376 | A detailed community calculation itemises a full season's gem economy: DLL 6,000, Progression Bank 1,640, DLL Leaderboard 100, DLL Challenges 180, ... | Community Consensus | economy/full-season-gem-ledger | EV-443 |
+| CLAIM-1377 | The clan component of the season gem ledger is 275 gems: 25 plus 150 for reaching 10,000,000 Clan Points on the reward ladder (175 total) PLUS 100 ... | Community Consensus | clans/gem-ledger-breakdown | EV-443 |
+| CLAIM-1378 | Season Pass gem rewards are itemised as 20+25+10+30+40+125+50 = 300 gems across the ladder. | Community Consensus | economy/season-pass-gem-items | EV-443 |
+| CLAIM-1379 | The final DP ladder gem reward needs about 145,000 Dream Points, with a Tier 1 win worth roughly 300 DP under a Legendary points boost. | Community Consensus | prizeladder/final-gem-reward-145k | EV-443 |
+| CLAIM-1380 | The clan season lasts 10 days, consistent with the Progression Bank season length. | Community Consensus | clans/season-10-days | EV-443 |
+| CLAIM-1381 | Dream League Live pays gems for finishing a season with a minimum of 14 points, and the DLL season runs about a week. | Community Consensus | dll/minimum-14-points-for-gems | EV-443 |
+| CLAIM-1382 | Elite clan recruitment norms: the [AAA] clan at 11.7 million points requires members to guarantee 350K+ every season or be removed, and leaders rep... | Community Consensus | clans/elite-recruitment-norms | EV-443 |
+| CLAIM-1383 | Clan season targets of 7.5 million, 8 million and 10 million Clan Points are the common benchmarks players recruit against. | Community Consensus | clans/target-benchmarks | EV-443 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
 | CLAIM-143 | Unlicensed teams/players are present in DLS26 (e.g. Kane listed under "Unlicensed" team at Bayern due to missing Bundesliga license; 367 players in... | Community Consensus | unscoped | EV-251 |
@@ -1430,6 +1453,7 @@ Distinct evidence records cited: **405**.
 | CLAIM-1231 | OPEN GAP: the exact Form Boost duration in matches for each Training facility level (2 through 5) has never been published by FTG or any community ... | Speculative | formboost/per-level-duration-open | EV-428 |
 | CLAIM-1240 | LEAD: upcoming Prize Ladder players reportedly include Roy Keane (rating and year unrevealed), Irvin at 85 (year unrevealed), Conor Gallagher and P... | Speculative | prizeladder/cult-heroes-lead | EV-429 |
 | CLAIM-1290 | The named LIVE ranks most plausibly map onto the lowest six tiers of the 20-to-1 numeric ladder, with tiers above Veteran identified only by number. | Speculative | dll/rank-name-mapping-hypothesis | EV-435 |
+| CLAIM-1375 | SPECULATIVE: a community method claims that renaming your manager to the target player's name and matching your manager nationality to theirs (or r... | Speculative | errata/manager-name-method-speculative | EV-442 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
