@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-156 — 1,902 claims / 395 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-157 — 1,916 claims / 396 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -1010,7 +1010,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 ## 7. The one-page routine
 
 **Daily (≈45–60 min):**
-1. Season Pass login (+40 SP) and daily challenges (5–11 gems)
+1. Season Pass login (+40 SP) and the full daily challenge set (5–11 gems) — and **win Career matches by 4+ goals**, because goal count feeds Season Points as well as coins [EV-494, C3]
 2. Daily Scenario (50 coins) — budget real time, it is the hardest content in the game
 3. 3–5 DLL matches **at tier 10 or above**
 4. Buy 3–5 players under 210 coins → release → coaches

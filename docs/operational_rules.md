@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-156 — 1,902 claims / 395 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-157 — 1,916 claims / 396 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -583,7 +583,7 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 ## 5. The one-page routine
 
 **Daily (≈45–60 min):**
-1. Season Pass login (+40 SP) and the full daily challenge set (5–11 gems)
+1. Season Pass login (+40 SP) and the full daily challenge set (5–11 gems) — **and win Career matches by 4+ goals**, because goal count feeds Season Points as well as coins [EV-494, C3]
 2. Daily Scenario (50 coins) — budget real time, it is the hardest content in the game
 3. 3–5 DLL matches **at tier 10 or above**
 4. Buy 3–5 players under 210 coins → release → coaches
