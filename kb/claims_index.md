@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:07:04Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1872**
-Distribution: Confirmed 386 / High Confidence 815 / Community Consensus 633 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **455**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:13:05Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1885**
+Distribution: Confirmed 388 / High Confidence 819 / Community Consensus 640 / Speculative 37 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **456**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -31,12 +31,12 @@ Distinct evidence records cited: **455**.
 | presentation | 25 |
 | errata | 24 |
 | tactics | 20 |
+| customisation | 19 |
 | modes | 19 |
-| stadium | 17 |
+| stadium | 18 |
 | stamina | 17 |
 | meta | 16 |
 | achievements | 15 |
-| customisation | 13 |
 | negatives | 13 |
 | formboost | 12 |
 | goalkeeping | 11 |
@@ -67,10 +67,12 @@ Distinct evidence records cited: **455**.
 | ratings | 4 |
 | settings | 4 |
 | sources | 4 |
+| acquisition | 3 |
 | features | 3 |
 | injuries | 3 |
 | multiplayer | 3 |
 | scenarios | 3 |
+| season-pass | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
@@ -478,6 +480,8 @@ Distinct evidence records cited: **455**.
 | CLAIM-1813 | The claim that 'The A.I. in DLS 2026 learns from your playstyle... expect the opposing manager to switch to a compact 4-4-2 mid-game' is CONTRADICT... | Confirmed | negatives/adaptive-ai-claim-contradicted | EV-487 |
 | CLAIM-1814 | playdreamleaguesoccer.com is REJECTED FOR THE SIXTH TIME - it invents a Tactical Presets system, shareable custom tactics, a '3-5-2 Fluid' formatio... | Confirmed | sources/playdreamleagesoccer-rejected-sixth-time | EV-487 |
 | CLAIM-1815 | PLAYER RECOVERY IS OFFICIAL: 'buy a sold player back within a limited time', via the Recover section of Manage Players (FTG support: 'Players who w... | Confirmed | transfers/player-recovery-official | EV-488 |
+| CLAIM-1880 | OFFICIAL SEASON PASS STRUCTURE, second FTG article (4404070913169), stamped 'applicable from our latest DLS release (version 12200 onwards)' - i.e.... | Confirmed | season-pass/official-structure-second-source | EV-492 |
+| CLAIM-1885 | Kit import generates shirt creases automatically at runtime, and imported logos are removed with 'a reset button in the top left of the Edit Logo s... | Confirmed | customisation/creases-and-logo-reset | EV-492 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
 | CLAIM-202 | Squad size evolution: DLS25 increased squad from 40→64 players (Dec 2024 press release). DLS26 launches with 64-player base; Summer Spotlight remov... | Confirmed | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-204 | DLS25 major features (5 Dec 2024 launch): Classic Players returning (opening set World Cup 1998 Classics); Portuguese commentary (third language; S... | Confirmed | unscoped | EV-280 |
@@ -1158,6 +1162,10 @@ Distinct evidence records cited: **455**.
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-1873 | A card's max rating is the +10 of its base overall, 'but in some very rare cases it could go upto +11.' | High Confidence | coaching/max-rating-plus-10-rarely-11 | EV-491 |
 | CLAIM-1876 | When a coach is applied the system randomly determines WHICH player in the squad receives the upgrade, then randomly determines the attribute - so ... | High Confidence | coaching/random-player-targeting | EV-491 |
+| CLAIM-1882 | THE CUSTOMISATION SURFACE HAS FIVE TABS - Kit, Logo, Team Name, Players, Manager - not the three the corpus recorded at CLAIM-074 (Players / Manage... | High Confidence | customisation/five-tabs | EV-492 |
+| CLAIM-1886 | The stadium's default name is 'Dream F.C. Stadium' and it is editable; two community answers place the stadium surface at My Club > Stadium & Facil... | High Confidence | stadium/default-name-and-path | EV-492 |
+| CLAIM-1887 | DLS HAS NO CLUB ANTHEM, CROWD-CHANT SELECTOR OR GOAL SONG. A targeted search for a DLS anthem returned only FIFA 22 FUT analogues (Club Anthem, Cro... | High Confidence | customisation/no-club-anthem | EV-492 |
+| CLAIM-1888 | The Season Pass per-tier reward list is not published by FTG and rotates every season, so the surviving part of that gap is device-only. What IS do... | High Confidence | season-pass/per-tier-list-unpublished | EV-492 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
@@ -1844,7 +1852,14 @@ Distinct evidence records cited: **455**.
 | CLAIM-1872 | SCOUTED PRICES at a high scout level: 'you can get legendaries for as little as 1400 gold. And common players for ~60 gold' - the concrete value of... | Community Consensus | transfers/scouted-prices | EV-491 |
 | CLAIM-1874 | CONFLICT - Rare coaches per player: most sources say about 20 ('18-22 overall'), one says 9.25 ('148 rare coaches to max a 16 player team'). The 90... | Community Consensus | coaching/rare-coaches-per-player-conflict | EV-491 |
 | CLAIM-1875 | Goalkeepers can end badly unbalanced even with Common coaches - 'i trained courtois and he got like 97 gkh and just 85 gkr but my donnarumma was mo... | Community Consensus | coaching/gk-unbalance-observed | EV-491 |
+| CLAIM-1877 | THE CLUB-NAME LEVER, USED FIRST: rename your club to the target player's real club, set your manager name and nationality to theirs, and the target... | Community Consensus | acquisition/club-name-lever-first | EV-492 |
+| CLAIM-1878 | The club-name lever has a named data point: 'changed name to PSV and Manager to Xavi Simons, got him in 5 matches.' Two further community recipes a... | Community Consensus | acquisition/club-name-lever-recipes | EV-492 |
+| CLAIM-1879 | A NATION variant of the name lever exists: name the club after a country and set the manager name and nationality to a player from that nation. So ... | Community Consensus | acquisition/name-lever-nation-variant | EV-492 |
 | CLAIM-188 | Dynamic Stars (Summer Spotlight event, 13.410) are Special Players that upgrade LIVE based on real-world national team tournament performance: base... | Community Consensus | unscoped | EV-273,EV-272 |
+| CLAIM-1881 | The official page states the PURPOSE of the gold profile trim: 'Purchasing the Premium Season Pass will turn some elements of your game profile gol... | Community Consensus | season-pass/gold-profile-purpose | EV-492 |
+| CLAIM-1883 | Inside the Kit tab the editor offers five INDEPENDENT colour slots - Primary, Secondary, Sponsor, Trim and Shirt Number - each of which can be set ... | Community Consensus | customisation/five-colour-slots | EV-492 |
+| CLAIM-1884 | THE SHIRT-NUMBER COLOUR SWATCH: template layers 9 (shirt number colour) and 10 (short number colour) are NOT garment pieces - 'They work as colour ... | Community Consensus | customisation/number-colour-swatch | EV-492 |
+| CLAIM-1889 | Team name is editable at any time and for free - 'You can edit your team name anytime for free' - from the Team Name tab in Customise, which is als... | Community Consensus | customisation/team-name-free-editable | EV-492 |
 | CLAIM-189 | World Tournament is a new event type introduced in Summer Spotlight (13.410): an international football event structure with high-tier reward track... | Community Consensus | unscoped | EV-272,EV-276 |
 | CLAIM-190 | Clans require minimum 50 members; clan points earned from matches/events; clan leaderboards, vice-captains, clan point boosts, emoji reactions/inte... | Community Consensus | unscoped | EV-272 |
 | CLAIM-194 | Commentary languages in DLS26 include English plus Turkish and Arabic (added in the Feb 2026 / Summer Spotlight updates), per App Store changelog. | Community Consensus | unscoped | EV-276,EV-272 |

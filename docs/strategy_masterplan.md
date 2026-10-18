@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-154 — 1,872 claims / 393 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-155 — 1,885 claims / 394 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -231,6 +231,8 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 - Ads: 30 coins per ad, up to ~600 coins in 15 minutes [EV-426, C3]
 - Season Pass: **400 SP**, **40 SP/day login**, 10-day season; the **free track alone gives 1,095 coins + an Epic agent** [EV-399, C2]
 
+**The structure is official, twice** [EV-492, **C1**]: a second FTG article (4404070913169), stamped *"applicable from our latest DLS release (version 12200 onwards)"* — i.e. DLS26 — confirms the split in FTG's own words, *"The FREE section is accessible to all users and the SEASON PASS section contains premium rewards which can only be accessed when purchasing the Season Pass,"* and confirms that purchasing *"unlocks the Progress Bank, which rewards currency based on your DLL (multiplayer) XP"* with the reward *"given at the end of the season."* It also states the purpose of the gold trim: *"to show off to other players."* **The per-tier reward list itself is not published by FTG and rotates every season**, so the only reliable read of the current track is the device at season start.
+
 **The Season Pass purchase decision, priced** [EV-472, C2]. Two paid tiers exist: a **basic pass at about $4** (INR 399) and a **Premium pass at about $13–15** (INR 1,199 / $14.60). The original pass's full reward list was **4,000 coins, 150 crystals, 5 legendary form boosts, 3 legendary coaches (technical, fitness and GK), 1 legendary physio, 1 legendary scout and 1 legendary agent** — shop-equivalent about **£21.95**. The Premium tier adds: tiers unlocked to **Tier 8** immediately, **double Season Points and double Live XP**, a gold profile trim, a head start on the tier ladder, and better packs (a legendary agent plus 3 legendary scouts). Reviewers' verdict: *"almost the exact same"* as basic apart from the XP, and *"most suitable for a new player but not so much for a veteran."*
 
 > **The mechanic that makes timing free:** *"you get to advance a SP level every 10 hours. If you don't play every 10 hours, the game will **store** the level so that you can advance multiple levels at once on a later time."* The free track's drip-feed is a **storage system, not a penalty** — and because a late purchase backfills every premium tier you already unlocked for free, **waiting costs nothing and buying early buys nothing extra.** **Buy the pass LATE in the season, or not at all.**
@@ -360,7 +362,7 @@ This is the most operationally important layer in the game, and almost every gui
 
 > **⚠️ NO DERBIES AND NO FREE AGENTS** [EV-486, C2 — documented negatives]. Fixtures carry no rivalry weighting, and *"free transfers"* are only your own released players reappearing — there is no unattached-player pool. **A possible sixth facility (a Recruitment Centre that discounts scouts and agents) is flagged for device verification, not adopted.**
 - **Release yields coaches, not coins** — this *is* the coach-farming loop.
-- **Ignore the "rename your manager" trick.** One thread claims renaming your manager and nationality to a target player's makes them appear in 20–40 matches; the poster themselves states some say it works and others that it doesn't. **Speculative (C4) — do not plan around it.**
+- **The name lever [EV-492, C3].** The corpus carries a full method (CLAIM-1799): reach a team rating of **75+** (preferably 82+), set the manager **name and nationality** to the target player's, play 20–40 matches; if that fails, change the **club name** to the target's club. Wave 79 adds the ordering correction — **try the club name first, because it is free to change and costs nothing to test** — with a positive data point ("changed name to PSV and Manager to Xavi Simons, got him in 5 matches"), a nation variant, and two named community recipes ("exclusives", Lyon + the current Lyon manager or Dejan Lovren). Evidence is genuinely mixed and the corpus holds it at **Community Consensus**, so the posture is unchanged: **try it, do not plan around it.** It is a free option, not a dependency.
 
 ### PHASE 3.2 — Dream Draft (a gem engine, not a squad builder) [EV-440, C3]
 
@@ -873,6 +875,8 @@ Everything cosmetic sits at **My Club → Customise**, across five tabs — **Ki
 | 6 | Club badge | | |
 
 > **⚠️ "The logos are added to the shirt from the .png, and if none are specified then none will display."** A kit whose badge region is empty shows **no badge** — this is the single most common custom-kit failure, and it is why a downloaded kit can look wrong even when the colours are right.
+
+**Layers 9 and 10 are not artwork** [EV-492, C3] — the shirt-number and shorts-number regions are **colour swatches the game reads** to render the squad numbers, so the colour chosen there decides whether your own players' numbers can be read on the pitch. Inside the Kit tab the editor exposes five independent colour slots — **Primary, Secondary, Sponsor, Trim, Shirt Number**. **Shirt creases are generated automatically at import**, and imported logos are deleted with **the reset button at the top left of the Edit Logo screen**.
 
 **The import rules:** PNG only, **512×512**, **transparent background** (a JPEG loses the alpha channel and the badge edges and sleeve cutouts break), and **layers stay separate** — front, back, sleeves, shorts and socks are discrete assets, so a merged full-body PNG *"will misalign or crop unpredictably."* The image must follow the official template layout; smaller looks pixelated, larger may be auto-resized and blurred.
 

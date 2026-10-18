@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-154 — 1,872 claims / 393 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-155 — 1,885 claims / 394 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -382,6 +382,8 @@ Hard thresholds: **DLL pays gems only with ≥14 points**; the final DP ladder g
 
 - **400 SP total, 40 SP/day**, 10-day season. Free track pays **1,095 coins + an Epic agent**.
 - **Progression Bank is 10 days** — it only pays if you keep playing daily. Missing days loses the accumulated reward.
+- **Official, second source, version-stamped for DLS26** [EV-492, **C1**]: *"The FREE section is accessible to all users and the SEASON PASS section contains premium rewards which can only be accessed when purchasing."* Purchase *"unlocks the Progress Bank, which rewards currency based on your DLL (multiplayer) XP"* with the reward *"given at the end of the season,"* and turns profile elements gold *"to show off to other players."*
+- **The per-tier reward list is unpublished and rotates.** Read the current track on the device at season start; do not import a previous season's list.
 
 ### 3.4 Cups
 
@@ -620,7 +622,7 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ### 7.2 Known weaknesses (stated, not hidden)
 
-1. **The open-gaps list has moved substantially and the old note here was wrong on both the list and the method.** The old text claimed five numeric tables remained open and that they "can only be closed by APK datamining (Step 2, postponed)" — but **three of those five were closed by OFFICIAL SUPPORT ARTICLES**, not datamining. Current status: **Form Boost per-level match counts** — closed as a documented negative (official wording gives only "a set number of matches, minimum one"; assume ONE match) · **Medical percentages above L1** — L1 double-corroborated, L2–L5 unpublished · **Fan Approval mechanics** — closed as a documented negative (no such system exists) · **post-DLS25 coach breakthrough %** — still open, the DLS20 5/10/20 baseline confirmed · **Fanzone per-level gem costs** — still open (one mod-site source says five levels) · **plus** the Medical/Commercial level counts (the 75×N pattern is inferred), the exact Season Pass per-tier contents, the LIVE rank names above Veteran, the identity of the 12th Man winner, and the DLL-unlock Career-match count (C-025). **Web research is not exhausted — the FTG support portal is a live route and has produced the last several official findings.**
+1. **The open-gaps list has moved substantially and the old note here was wrong on both the list and the method.** The old text claimed five numeric tables remained open and that they "can only be closed by APK datamining (Step 2, postponed)" — but **three of those five were closed by OFFICIAL SUPPORT ARTICLES**, not datamining. Current status: **Form Boost per-level match counts** — closed as a documented negative (official wording gives only "a set number of matches, minimum one"; assume ONE match) · **Medical percentages above L1** — L1 double-corroborated, L2–L5 unpublished · **Fan Approval mechanics** — closed as a documented negative (no such system exists) · **post-DLS25 coach breakthrough %** — still open, the DLS20 5/10/20 baseline confirmed · **Fanzone per-level gem costs** — still open (one mod-site source says five levels) · **plus** the **Season Pass per-tier reward list** (now narrowed: the structure is official and version-stamped for DLS26, but the list itself rotates and is unpublished), the LIVE rank names above Veteran, the identity of the 12th Man winner, and the DLL-unlock Career-match count (C-025). **Web research is not exhausted — the FTG support portal is a live route and has produced the last several official findings.**
 2. **Formation meta is genuinely unsettled** (C-014) — the rule is "pick one and learn it deeply", which is advice about process, not a claim about a best formation.
 3. **Corner footedness is contested** (C-022) — the rule instructs testing both in training rather than asserting one.
 4. **Market refresh cadence** (C-021) — "refreshes after every match" is the community consensus; a minority claims every 7 hours. The rule set uses the per-match model because it is the more conservative assumption for the farming loop.

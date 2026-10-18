@@ -1,7 +1,7 @@
 # DLS26 OMEGA — STATE OF THE PLAN
 
 > **Read this first.** It is the one-page version of everything the sweep has established. The detail lives in `docs/strategy_masterplan.md` (the plan), `docs/operational_rules.md` (the rules), `docs/dll_tier_playbook.md` (the tier tactics) and `step5_first_contact/FIRST_CONTACT_v2.md` (the coaching script). This file says what matters, in order, and what is still unknown.
-> **Basis:** ckpt-154 — **1,872 claims / 393 evidence records**, all five build steps complete, every claim traceable to an evidence record. Confidence ladder: **386 Confirmed · 806 High · 626 Community · 37 Speculative · 1 Disputed**.
+> **Basis:** ckpt-155 — **1,885 claims / 394 evidence records**, all five build steps complete, every claim traceable to an evidence record. Confidence ladder: **386 Confirmed · 806 High · 626 Community · 37 Speculative · 1 Disputed**.
 
 ---
 
@@ -36,11 +36,11 @@ Thirty-five of the corpus's open gaps were closed during the turn-35 sweep, and 
 
 **Explained rather than merely closed:** the formation meta (C-014 — shapes differ by failure mode; stamina beats shape) · the Commercial curve (C-019 — it gave ~50% at max in DLS20/21 and **10% now**, i.e. 10–20 coins a match, so spend there last) · the maxed-squad handicap (C-024 — **its official corroboration was withdrawn**: team strength is an *outcome* determinant, not a matching input, so it is community-only).
 
-**Closed as documented negatives:** Form Boost per-level duration (assume **one match**) · Fan Approval mechanics (**no such system exists**) · **squad chemistry** (no DLS source documents one — every explained model is EA FC/FIFA) · **wages, salary and any wage bill** · **morale** · **player growth, potential curves and aging** · **retirement** · **surgery** · **derbies** · **free agents** · **team instructions** (no mentality, width, depth, tempo, pressing or marking sliders) · **controllable celebrations** · **controller support** · **gem-based healing**.
+**Closed as documented negatives:** Form Boost per-level duration (assume **one match**) · Fan Approval mechanics (**no such system exists**) · **squad chemistry** (no DLS source documents one — every explained model is EA FC/FIFA) · **wages, salary and any wage bill** · **morale** · **player growth, potential curves and aging** · **retirement** · **surgery** · **derbies** · **free agents** · **team instructions** (no mentality, width, depth, tempo, pressing or marking sliders) · **controllable celebrations** · **controller support** · **gem-based healing** · **club anthem** (DLS has no anthem, crowd-chant selector or goal song; the v12.110 crowd-audio upgrade is build-level, not per-club).
 
 **Corrected during the sweep:** the squad cap is **64 players** (not 40) · the "5,625 gems for all five facilities" figure is a **DLS23-era** value · the roster rating ceiling is **86** · the transfer **price band runs into the thousands of coins** (a secret player at 2,355 after discount; you need ~10,000 coins to buy and still save — the old "10–900" band is an artefact) · **there is a sixth facility** (the Recruitment Centre, discounting scouts and agents) and a seventh (the Fanzone).
 
-**The last thirteen waves added the operational detail the plan was missing:**
+**The last sixteen waves added the operational detail the plan was missing:**
 
 | Wave | What it delivered |
 |---|---|
@@ -57,6 +57,9 @@ Thirty-five of the corpus's open gaps were closed during the turn-35 sweep, and 
 | 74 | **Player Recovery** (5 gems, official), the **Recruitment Centre** (a real sixth facility), the corrected price band, and the maxed-stadium bonus. |
 | 75 | **The complete coaching economy**: the efficiency ladder, the cost-to-max totals, the goalkeeper rule, the club minimum of 16, the scout probability math, and the DP boost maxima. |
 | 76 | **The facility ladder confirmed and ranked**, the Fanzone's five levels, and the **F2P coin cost of a maxed player**. |
+| 77 | The BRIEFING capstone itself, rebuilt as the entry point: ten ranked rules, the wave table, and the surviving gaps. |
+| 78 | **The breakthrough ladder closed: Common 5% · Rare 10% · Legendary 20%** — the missing Legendary figure, three sources across DLS20–DLS24. Plus the coach category pools, the **look-ahead trick** (a Legendary Special coach previews the next four stats and can be cancelled unspent, ~420 gems per special player), the coach price ladder, and the Commercial breakeven at ~108,000 coins. |
+| 79 | **The club-name half of the name lever, and the ordering correction** — rename the club first, because it is free. The **official Season Pass page, version-stamped for DLS26**. The customisation surface's real shape: **five tabs, five colour slots, and the shirt-number colour swatch** (layers 9 and 10 are inputs, not artwork). And **no club anthem exists** — that gap closes as a documented negative. |
 
 ---
 
@@ -68,7 +71,7 @@ Everything below requires **device inspection** or a decision only First Touch c
 |---|---|
 | Fanzone per-level gem costs | Exhausted on the open web; **two mod-site sources agree it has five levels**, but no per-level cost is published |
 | ~~Post-DLS25 coach breakthrough percentages~~ | **CLOSED at ckpt-154: Common 5% · Rare 10% · Legendary 20%**, corroborated by three sources spanning DLS20–DLS24. The Legendary 20% is the figure that was missing |
-| Exact Season Pass per-tier contents for the current season | The original pass's full reward list is known; the current one is not |
+| ~~Exact Season Pass per-tier contents~~ | **Narrowed at ckpt-155: the structure is now official and version-stamped for DLS26** (two FTG articles), but the per-tier reward list itself rotates and is unpublished — **read the current track on the device at season start** |
 | LIVE rank names above "Veteran" | Exhausted on the open web — a fresh search returned only Rocket League's ladder, which contaminates results because DLS shares the Intermediate/Pro/Veteran vocabulary |
 | The 12th Man winner's identity | The vote closed in v13.120 (25 Mar 2026); FTG never named the player |
 | Medical and Commercial level counts | **Now known: five levels each** (the 75 × N ladder, confirmed twice) — only **Accommodation has ten** |
