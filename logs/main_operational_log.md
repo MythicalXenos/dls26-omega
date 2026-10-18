@@ -28,3 +28,18 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 
 ## 2026-10-18T15:35:51Z — RECOMMENDATION
 - None (no research or advice yet). PR logged instead: draft PR #6 (https://github.com/MythicalXenos/dls26-omega/pull/6) from arena/357aaddf-dls26-omega, opened for review of the Setup checkpoint. Not merged; merge only when the user says the session is done.
+
+## 2026-10-18T15:41:35Z — RESEARCH (turn 2, Step 1 slice 1)
+- Discovery: 3 web searches (official, update/patch, support). 8 page fetches: ftgames.com (complete), support.ftgames.com home (complete), DLS FAQ section (page 1), Prize Ladder article (complete), stats article (chunk 0 of 4), App Store (chunks 0 and 5 of 6), Google Play (chunk 0 of 2).
+- Source-log events SV-0001..SV-0007 recorded in logs/sources_visited.json; partial pages are IN_PROGRESS, not VISITED.
+- Epoch contract docs/contracts/epoch_0001.json sealed (OPEN; not closed). Digest sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8.
+- KB claims CLM-0001..CLM-0012 written under kb/claims/. Confidence for all: unassigned-pending-gates (ISSUE-009).
+
+## 2026-10-18T15:41:35Z — CONFLICT
+- CONF-001 (launch date) and CONF-002 (Summer Spotlight dates) are recorded in logs/issue_tracker.md as ISSUE-011. Neither is resolved.
+
+## 2026-10-18T15:41:35Z — DEGRADATION EVENT (self-detected, minor)
+- The first sources_visited draft included discovered references and result counts that I could not trace to tool output in this session. I discarded them before writing. The file now has only traceable entries. No claim depends on the discarded entries.
+
+## 2026-10-18T15:41:35Z — BUDGET
+- Turn budget: unknown (not measured; not provided). Recorded as unknown per the handoff rule.

@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-0011",
+  "proposition": "Earlier 2026 DLS26 updates per App Store snippet: 13.110 (Mar 2, Winter Reload) and 13.120 (Mar 25, Summer Spotlight).",
+  "build_context": "Search-snippet level only; NOT verified on a fetched page",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "High",
+  "trigger_dimensions": {
+    "patch_triggered": "yes",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "R-0002 (search snippet, not fetched)"
+  ],
+  "origin_tags": [
+    "third-party-reported (search snippet)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "none found (search-snippet only)",
+  "notes": "CONFLICTS with third-party claims that Summer Spotlight shipped in May or July 2026 (CONF-002). Not promoted.",
+  "epoch": "epoch-0001"
+}

@@ -1,0 +1,58 @@
+{
+  "epoch_id": "epoch-0001",
+  "state": "STATE_1_RESEARCH_SWEEP",
+  "opened_at": "2026-10-18T15:41:35Z",
+  "status": "OPEN (not closed; STEP_1_RESEARCH_READY not met)",
+  "snapshot_boundary": "web retrievals dated 2026-10-18 (UTC), as recorded in logs/sources_visited.json; store prices, ratings and counts are time-of-fetch projections only",
+  "required_dimensions": [
+    "official-company",
+    "official-store (Apple App Store, Google Play)",
+    "official-support (support.ftgames.com)",
+    "official-social",
+    "third-party databases and tools",
+    "English community",
+    "non-English community",
+    "technical (APK distribution; never used as a claim source)",
+    "user-generated content",
+    "version/build and FTG official channels (Q-002)",
+    "game terminology (Q-003)",
+    "confidence tier definitions (Q-004)",
+    "device pipeline feasibility (Q-005)",
+    "storage limits (Q-006)",
+    "additional source types (Q-007)"
+  ],
+  "source_families_admitted": [
+    "official-company",
+    "official-store",
+    "official-support",
+    "official-social",
+    "third-party-news",
+    "third-party-database",
+    "technical-apk-distribution",
+    "technical-apk-distribution-mod (UNCERTAIN)",
+    "non-english-third-party",
+    "reference-encyclopedia",
+    "user-generated",
+    "community-third-party"
+  ],
+  "languages": [
+    "en (only language encountered so far)",
+    "non-English sources admitted when discovered; none fetched yet"
+  ],
+  "competitive_lanes": [
+    "Dream League Live (DLL) online",
+    "Career mode",
+    "Clans",
+    "Friend Match",
+    "Dream Draft"
+  ],
+  "admitted_references": "logs/sources_visited.json discovered_references DR-0001..DR-0024 (turn 2)",
+  "coverage_declaration": "NOT declared. No exhaustion claim. Admitted set is incomplete; official-social untouched; community, UGC and non-English discovered-only.",
+  "required_final_checks": [
+    "finish IN_PROGRESS official pages (store pages chunks, FAQ pagination, stats article chunks)",
+    "resolve CONF-001 (launch date) and CONF-002 (Summer Spotlight dates)",
+    "verify CLM-0010 version history on a fetched official page",
+    "classify all CONNECTED/UNCERTAIN references owed"
+  ],
+  "successor_debt": "discoveries after this epoch's admission cut go to epoch-0002 debt"
+}

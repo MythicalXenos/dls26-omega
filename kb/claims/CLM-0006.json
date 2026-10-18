@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-0006",
+  "proposition": "The Prize Ladder awards items (coins, gems, coaches, Dream Point Boosts, special players) based on progression; Dream Points are earned in matches; Dream Point Boosts temporarily raise Dream Point earnings.",
+  "build_context": "FTG support article 'What is the Prize Ladder?' (undated), fetched 2026-10-18",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "Critical",
+  "trigger_dimensions": {
+    "patch_triggered": "no observed history",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "DR-0006 (R-0009 Prize Ladder article)"
+  ],
+  "origin_tags": [
+    "publisher-stated (support article, undated)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "publisher page (fetched)",
+  "notes": "Mechanic description only; no version stamp on the article; applicability to the current build not verified.",
+  "epoch": "epoch-0001"
+}

@@ -1,0 +1,28 @@
+{
+  "claim_id": "CLM-0012",
+  "proposition": "DLS 2026 release date is disputed: one encyclopedia-level source says 1 Dec 2025; one news article dated Feb 2026 says global availability is 4 Dec 2026.",
+  "build_context": "Search-result claims only; no fetched verification",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "Critical",
+  "trigger_dimensions": {
+    "patch_triggered": "no observed history",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "DR-0024 (Wikipedia lead)",
+    "DR-0016 (thesoccerera.com lead)"
+  ],
+  "origin_tags": [
+    "third-party-reported (conflicting)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "none found (search-snippet only)",
+  "notes": "Status: Disputed. The store listings are live with a September 2026 update, which argues against the 4 Dec 2026 'global availability' claim; not resolved. See CONF-001.",
+  "epoch": "epoch-0001"
+}

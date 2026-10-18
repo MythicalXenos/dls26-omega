@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-0004",
+  "proposition": "App Store (US) in-app purchase list at fetch time includes Season Pass $3.99, Bundle of Coins $1.99, Stack of Gems $7.99, Locker of Gems $16.99 (among others).",
+  "build_context": "App Store (US storefront) at 2026-10-18; price in USD for that storefront only",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "Critical",
+  "trigger_dimensions": {
+    "patch_triggered": "no observed history",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "DR-0001 (R-0005 App Store)"
+  ],
+  "origin_tags": [
+    "publisher-stated (store listing, time-of-fetch)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "publisher page (fetched)",
+  "notes": "Price is storefront-specific and volatile; other countries not checked.",
+  "epoch": "epoch-0001"
+}
