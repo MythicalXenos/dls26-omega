@@ -1,32 +1,32 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:42:11Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1429**
-Distribution: Confirmed 320 / High Confidence 646 / Community Consensus 428 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **412**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:47:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1448**
+Distribution: Confirmed 324 / High Confidence 649 / Community Consensus 440 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **414**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 85 |
+| economy | 90 |
 | facilities | 72 |
 | career | 45 |
 | dll | 45 |
 | clans | 41 |
 | transfers | 40 |
 | training | 38 |
+| cards | 37 |
 | coaches | 36 |
 | controls | 34 |
 | cups | 34 |
 | prizeladder | 34 |
 | patching | 33 |
-| cards | 31 |
 | platform | 30 |
 | customization | 29 |
 | setpieces | 29 |
 | attributes | 23 |
 | errata | 21 |
-| events | 20 |
+| events | 21 |
 | modes | 19 |
 | gameplay | 18 |
 | stamina | 17 |
@@ -48,11 +48,13 @@ Distinct evidence records cited: **412**.
 | 12thman | 5 |
 | discipline | 5 |
 | endgame | 5 |
+| gacha | 5 |
 | referee | 5 |
 | weather | 5 |
 | ai | 4 |
 | chemistry | 4 |
 | ratings | 4 |
+| features | 3 |
 | injuries | 3 |
 | medical | 3 |
 | multiplayer | 3 |
@@ -71,7 +73,6 @@ Distinct evidence records cited: **412**.
 | defending | 1 |
 | design | 1 |
 | exhibition | 1 |
-| features | 1 |
 | recruitment | 1 |
 | roster | 1 |
 | rules | 1 |
@@ -379,6 +380,10 @@ Distinct evidence records cited: **412**.
 | CLAIM-1418 | OFFICIAL: there are NO additional overlaid controls to manage the difficulty experience in DLL - no rubber-banding or hidden difficulty scaling. Ou... | Confirmed | dll/no-hidden-difficulty | EV-447 |
 | CLAIM-1419 | OFFICIAL: because team strength is an explicit DLL matchmaking input, a stronger squad is matched against stronger opponents. This is the official ... | Confirmed | dll/team-strength-matching | EV-447 |
 | CLAIM-1420 | OFFICIAL: same-tier DLL matching occasionally fails due to reduced player availability, so you will sometimes face opponents well above or below yo... | Confirmed | dll/availability-mismatch | EV-447 |
+| CLAIM-1434 | OFFICIAL DLS26: special players no longer count toward the main squad size - the club can hold UNLIMITED special players. | Confirmed | cards/unlimited-special-players | EV-449 |
+| CLAIM-1435 | OFFICIAL DLS26: new commentary languages Turkish and Arabic; updated 2025/26 player data with more classic, special and national team players; impr... | Confirmed | features/dls26-launch-set | EV-449 |
+| CLAIM-1436 | Kick-Off Stars are a new DLS26 special card type - special edition Raphinha and Alvarez cards available at launch, highlighting players with explos... | Confirmed | cards/kick-off-stars | EV-449 |
+| CLAIM-1437 | The DLS26 trailer confirms a referee camera for goals, Raphinha and Julian Alvarez as cover stars, a blue and pink colour scheme, a new ball design... | Confirmed | features/dls26-trailer | EV-449 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
@@ -897,6 +902,9 @@ Distinct evidence records cited: **412**.
 | CLAIM-1429 | In DLL, TACKLING IS WORTHLESS and SPEED IS EVERYTHING - use players with 95+ speed and acceleration as defenders, play the fastest attackers at cen... | High Confidence | dll/speed-over-tackling | EV-448 |
 | CLAIM-1431 | CAREER COIN SHORTCUT: set difficulty to Easy, let the first half play out unattended (the AI scores 2-4), then score exactly 5 goals and finish - r... | High Confidence | career/easy-difficulty-shortcut | EV-448 |
 | CLAIM-144 | DLS26 OVR ceiling hierarchy, corrected: base golds cap 86 (EV-251); vintage Champion/Star/Team-of-Year special cards cap 88 (EV-251); current-event... | High Confidence | unscoped | EV-252,EV-251,EV-248 |
+| CLAIM-1442 | GACHA PROBABILITY MECHANIC: the chance of pulling a special player from a Legendary Agent depends on how many legendary players you currently own p... | High Confidence | gacha/agent-probability-mechanic | EV-450 |
+| CLAIM-1443 | The community method to raise agent pull odds: buy and sell every 80+ player you see so they sit in the recovery tab for two days, removing them fr... | High Confidence | gacha/recovery-tab-method | EV-450 |
+| CLAIM-1449 | DO NOT RELEASE Classic Players even if you do not max them - future Prize Ladders randomise their rewards, so failing to collect a full set in one ... | High Confidence | economy/dont-release-classics | EV-450 |
 | CLAIM-145 | DLS26 OVR is computed as a weighted linear sum of the 8 attributes plus a constant, STABLE across all updates 20231→20263. Best-fit across 23,327 n... | High Confidence | unscoped | EV-251,EV-252,CLAIM-137,CLAIM-138,EV-253 |
 | CLAIM-147 | Base/purchasable roster OVR hard cap is 86 in EVERY version 20231–20263 (3 years of updates). OVRs 87–98 exist ONLY on special/promo/legend/event c... | High Confidence | unscoped | EV-253,EV-251,CLAIM-141,CLAIM-142,CLAIM-144 |
 | CLAIM-154 | Coach rarities confirmed: FOUR categories (Fitness/SPE+ACC+STA+STR; Technical/CON+PAS+SHO+TAC; Goalkeeping/GKR+GKH; Special/ALL stats) each with th... | High Confidence | unscoped | EV-255,CLAIM-049,EV-271,EV-274 |
@@ -1378,6 +1386,18 @@ Distinct evidence records cited: **412**.
 | CLAIM-1430 | Defending against C-spammers in DLL: use a defensive 4-3-1-2 for slow build-up play, which both limits concessions and beats the C-spam meta. | Community Consensus | dll/defensive-4312-vs-cspam | EV-448 |
 | CLAIM-1432 | STADIUM PACING: upgrade the stadium only to the minimum required for each division, then stop playing Career until you like your team, because stad... | Community Consensus | career/stadium-pacing | EV-448 |
 | CLAIM-1433 | DLS25 GAMEPLAY SHIFTS: foot dominance now affects turning and passing fluency, narrow-space passes are harder, and long-range shots have a lower su... | Community Consensus | gameplay/dls25-shifts | EV-448 |
+| CLAIM-1438 | Card colour taxonomy: GOLD = ordinary players; ORANGE = a MAXED gold player, not a separate card type; PURPLE = Dream Stars; BLACK = Classic Player... | Community Consensus | cards/colour-taxonomy | EV-450 |
+| CLAIM-1439 | Classic Players are DLS's analogue of FIFA Icons - black cards on their own tab, unlocked by playing the game a lot, rated from 85 up to 97, and si... | Community Consensus | cards/classic-players | EV-450 |
+| CLAIM-1440 | Champions cards are players in their prime with high stats, obtainable only through a limited-time event consisting of opening Legendary Agents and... | Community Consensus | cards/champions | EV-450 |
+| CLAIM-1441 | Dream Stars come from a month-long event where you earn special Dream Agents through playing events and completing the pass; the 12th Man Vote lets... | Community Consensus | cards/dream-stars | EV-450 |
+| CLAIM-1444 | Stacking gold players in the transfer market also blocks them from being pulled from agents, and LOCKING players helps raise the odds but costs gems. | Community Consensus | gacha/market-stacking | EV-450 |
+| CLAIM-1445 | There is a PITY/GUARANTEE ceiling of about 15 Legendary Agents per target special player, with a TOTY-style system guaranteeing the card after 15. | Community Consensus | gacha/pity-system | EV-450 |
+| CLAIM-1446 | Super Agents give 83+ players and cost about 550 gems; the community judges them poor value because there are too many 83+ players in the pool. | Community Consensus | gacha/super-agents | EV-450 |
+| CLAIM-1447 | Classic Players unlock at Prize Ladder milestones from about 62,500 DP up to 250,000 DP, and once a milestone is hit the player can be signed freel... | Community Consensus | economy/classic-prize-ladder-milestones | EV-450 |
+| CLAIM-1448 | The English League Classics Prize Ladder delivered Berbatov, Essien, Andy Cole and Petit, with Petit specifically requiring the final 200,000 DP mi... | Community Consensus | economy/english-league-classics | EV-450 |
+| CLAIM-1450 | Dream Points: roughly 75 to 250 per match depending on performance, with BOOST items adding 50%, 70% or 150%, plus a post-match ad for additional p... | Community Consensus | economy/dp-per-match-and-boosts | EV-450 |
+| CLAIM-1451 | Community DP-method ranking: 5-0 Career wins for casual players, Scenarios for skilled players, Live matches if you win 90% of online games, and ge... | Community Consensus | economy/dp-method-ranking | EV-450 |
+| CLAIM-1452 | A TOTY (Team of the Year) event is expected to debut in DLS26, following the DLS25 Champions event. | Community Consensus | events/toty-expected | EV-450 |
 | CLAIM-148 | Base roster size has grown ~4.5× across updates: 20231=1,224, 20241=1,681, 20242=4,126, 20251=3,828, 20252=3,602, 20253=3,798, 20261=2,518, 20262=5... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-143 |
 | CLAIM-149 | Transfer price `prc=0` in roster data marks players that are NOT on the open transfer market in that update (loaned, not yet released, untradeable ... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-139 |
 | CLAIM-153 | DLS26 exposes a player-controllable HUD with two stamina/boost indicator icons ("filled" and "hollow" circle templates used by the bot for HUD dete... | Community Consensus | unscoped | EV-254 |
