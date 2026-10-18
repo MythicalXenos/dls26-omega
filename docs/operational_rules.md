@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-166 — 2,048 claims / 405 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-167 — 2,060 claims / 406 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -245,6 +245,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Cross-platform transfer** | Only via a code: **Manage Devices → Generate Code** on the old device, typed into **Link Profile** on the new one (both under Options → gear → **Advanced**). A code cannot be used on the device that generated it |
 | **No cheap re-roll** | **Reset Profile** (Settings → Advanced, skull icon) is irreversible, destroys all coins, gems, consumables **and in-app purchases**, and is limited to **ONE RESET EVERY 30 DAYS** |
 | **The region seed is permanent** | The account decides the matchmaker pool and the leaderboard surface. Set it up deliberately and **play through early mistakes — do not reset** |
+| **The six LIVE ranks are named** [EV-504, C2, primary source] | **Rookie → Amateur → Semi-Pro → Intermediate → Pro → Veteran**, each a 500-XP achievement. Nothing above Veteran is published; above Veteran is device-only |
 
 **The stadium capacity gate** [EV-460, C2] — the rule that can silently stall a Career season:
 

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-166 — 2,048 claims / 405 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-167 — 2,060 claims / 406 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -1052,7 +1052,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | 4 | **Post-DLS25 coach breakthrough %** | Coach packs priced off a DLS20 baseline | 5/10/20 confirmed as the DLS20 baseline; post-DLS25 figures unconfirmed [C2] |
 | 5 | **Fan Approval mechanics** | Blocks the last stretch to 100% club value | ✅ **DOCUMENTED NEGATIVE (ckpt-126, EV-457)** — a dedicated two-search sweep found **no such mechanic in any documented source**; only crowd-graphics settings, fans-not-celebrating bugs, the Fan Favourite achievement and the Fanzone. **Strategy: max the full ~23-man squad and read the percentage as the output** |
 | 6 | **GCC format** (C-013) | One cup's structure unclear | OPEN conflict |
-| 7 | **LIVE rank names above "Veteran"** | Cannot name the top rank | **PARTIAL (ckpt-127):** the ladder *below* Veteran is now named — **Intermediate → Pro → Veteran**, 500 XP each [EV-461, C2]. No rank above Veteran appears in any source, so the top names stay open |
+| 7 | **LIVE rank names above "Veteran"** | Cannot name the top rank | **CLOSED BELOW VETERAN AT PRIMARY-SOURCE CONFIDENCE (ckpt-167, EV-504):** Google Play's own achievement data names all six ranks — **Rookie → Amateur → Semi-Pro → Intermediate → Pro → Veteran**, each a 500-XP achievement, and the list stops there. Above Veteran remains device-only |
 | 8 | **12th Man winner identity** | A mechanic to watch each season | MECHANIC CLOSED (community-voted final Dream Star, EV-438 C1); FTG never names the winner |
 | 9 | **Cult Heroes OVR conflict** (C-018) | 92 vs 95 on the four 85-rated heroes | OPEN |
 | 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | **RE-OPENED (ckpt-126)** — now one community source each side; the "leans 100" note is withdrawn. Plan on neither |

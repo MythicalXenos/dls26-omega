@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:50:10Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2048**
-Distribution: Confirmed 391 / High Confidence 842 / Community Consensus 765 / Speculative 49 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **467**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:55:05Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2060**
+Distribution: Confirmed 391 / High Confidence 845 / Community Consensus 774 / Speculative 49 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **468**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,7 +10,7 @@ Distinct evidence records cited: **467**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 113 |
-| dll | 73 |
+| dll | 74 |
 | gameplay | 72 |
 | transfers | 71 |
 | cards | 64 |
@@ -18,8 +18,8 @@ Distinct evidence records cited: **467**.
 | career | 58 |
 | setpieces | 46 |
 | controls | 44 |
+| errata | 42 |
 | patching | 42 |
-| errata | 40 |
 | training | 40 |
 | cups | 38 |
 | prizeladder | 38 |
@@ -30,6 +30,7 @@ Distinct evidence records cited: **467**.
 | tactics | 31 |
 | customization | 29 |
 | events | 28 |
+| achievements | 25 |
 | presentation | 25 |
 | modes | 24 |
 | goalkeeping | 23 |
@@ -37,7 +38,6 @@ Distinct evidence records cited: **467**.
 | customisation | 19 |
 | account | 17 |
 | stamina | 17 |
-| achievements | 16 |
 | meta | 16 |
 | onboarding | 15 |
 | negatives | 13 |
@@ -1200,7 +1200,10 @@ Distinct evidence records cited: **467**.
 | CLAIM-2018 | THE CAREER GEM-PER-MATCH RULE, the wave's most useful number: '**do your own calculations and if you are getting 4+ gems on each match then it's wo... | High Confidence | career/gem-per-match-rule | EV-502 |
 | CLAIM-2024 | THE PROMOTION MECHANICS: promotion requires the **Division Objectives**, found in **My Club**, completed within **15 Division Games** - 'failing wh... | High Confidence | career/promotion-objectives-mechanics | EV-502 |
 | CLAIM-203 | Scouts (hired with COINS, three tiers Common/Rare/Legendary) find players at DISCOUNTED prices (position/rating-range filters, safe for beginners).... | High Confidence | unscoped | EV-278,EV-274 |
+| CLAIM-2053 | THE SIX LIVE RANKS, PRIMARY-SOURCE CONFIRMED by Google Play's own achievement data: **Rookie, Amateur, Semi-Pro, Intermediate, Pro, Veteran** - via... | High Confidence | dll/six-rank-ladder-primary-source | EV-504 |
+| CLAIM-2054 | EVERY ACHIEVEMENT IS WORTH EXACTLY 500 XP, which is the arithmetic behind the corpus's 20,000-XP figure: **40 x 500 = 20,000.** So the achievement ... | High Confidence | achievements/every-achievement-500-xp | EV-504 |
 | CLAIM-206 | Commentary languages progression: English (original); Spanish added DLS24; Portuguese added DLS25; Turkish and Arabic added in DLS26 July 2026 Summ... | High Confidence | unscoped | EV-280,EV-272,EV-276 |
+| CLAIM-2062 | THE ACHIEVEMENT-COUNT CONFLICT IS NOW EXPLAINED: the 87-achievement / 100,000-XP list is **DLS Classic**, a separate game with its own 87 achieveme... | High Confidence | achievements/other-lists-are-other-games | EV-504 |
 | CLAIM-211 | FTG studio portfolio (four active/supported franchises as of 2026): Dream League Soccer (flagship, annual, 2011-now, com.firsttouchgames.dls7); Sco... | High Confidence | unscoped | EV-277,EV-280 |
 | CLAIM-212 | DLS25 press release confirms 20M+ monthly active users (MAU) as of Dec 2024; over 1 billion cumulative downloads since 2011; Sheffield United (2020... | High Confidence | unscoped | EV-277,EV-280 |
 | CLAIM-214 | Career division ladder (DLS26, 8 divisions, bottom→top): Academy Division → Amateur Division → Division 4 → Division 3 → Division 2 → Division 1 → ... | High Confidence | unscoped | EV-284 |
@@ -2018,6 +2021,15 @@ Distinct evidence records cited: **467**.
 | CLAIM-2050 | A THREE-WAY VERSION-ATTRIBUTION CONFLICT on when 'unlimited special players' arrived. The corpus currently carries three answers: CLAIM-054 attribu... | Community Consensus | errata/unlimited-specials-three-way-attribution-conflict | EV-503 |
 | CLAIM-2051 | THE EXACT LATE-SUMMER VERSION DATES, from the official store and APKMirror together: **13.340 Jun 22 · 13.350 Jul 14 · 13.410 Aug 20 · 13.420 Sep 1... | Community Consensus | patching/late-summer-version-dates | EV-503 |
 | CLAIM-2052 | THE MAY 2026 GAMEPLAY CHANGE, corroborating the corpus's GK finding from a second angle: 'Refined ball physics and noticeable **improvements to goa... | Community Consensus | patching/may-2026-gk-ai-improvement | EV-503 |
+| CLAIM-2055 | THE DLL WIN LADDER, from the achievement names: 'Kick Off - Win **5** DLL matches', 'First Steps - **25**', 'Finding Form - **50**', 'In the Flow -... | Community Consensus | achievements/dll-win-ladder-5-25-50-100-150 | EV-504 |
+| CLAIM-2056 | THE TEAM-RATING LADDER: 'Building Blocks - reach a team rating of **65**', 'Rising the Ranks - **68**', 'Team Chemistry - **72**', 'Top Squad - **7... | Community Consensus | achievements/team-rating-ladder-65-68-72-75-80 | EV-504 |
+| CLAIM-2057 | THE STADIUM-CAPACITY LADDER: 'Local Grounds - **15,000**', 'Growing Crowd - **20,000**', 'Fortress Forming - **30,000**', 'World-Class Stadium - **... | Community Consensus | achievements/stadium-capacity-ladder-independent-of-gates | EV-504 |
+| CLAIM-2058 | THE CAREER DIVISION ACHIEVEMENTS name the climb exactly: 'First Whistle - Amateur division', 'Rising Contender - Div 4', 'League Challenger - Div 3... | Community Consensus | achievements/career-division-achievement-names | EV-504 |
+| CLAIM-2059 | THE SCENARIO LADDER runs 1, 5, 10, 25 and **50** completed scenarios, and the GOLD-MEDAL LADDER runs 1, 5, 10, 25 and **50** - so both systems have... | Community Consensus | achievements/scenario-and-medal-ladders | EV-504 |
+| CLAIM-2060 | '**Stronger Together - Join a clan**' is itself a 500-XP achievement, so the clan system carries a one-time reward on top of its season ladder. | Community Consensus | achievements/join-a-clan-achievement | EV-504 |
+| CLAIM-2061 | AN ACHIEVEMENT-COUNT CONFLICT THAT WILL NOT RESOLVE CLEANLY. The snapshot retrieved today shows **40 total achievements, 20,000 Points (XP), 40,351... | Community Consensus | errata/achievement-count-conflict-unresolved | EV-504 |
+| CLAIM-2063 | THE XP REQUIREMENT WAS RAISED: 'They have now increased the total XP points required to **250,000 XP**, adding 50k more XP points on top of what wa... | Community Consensus | achievements/xp-requirement-raised-to-250000 | EV-504 |
+| CLAIM-2064 | A FIFTH CONTAMINATION: both of this wave's searches returned ESL's **DreamLeague Dota 2** tournament (Seasons 26, 27, 28 and 29 - formats, prize po... | Community Consensus | errata/fifth-contamination | EV-504 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
