@@ -1,35 +1,35 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:01:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1253**
-Distribution: Confirmed 303 / High Confidence 582 / Community Consensus 335 / Speculative 32 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **395**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:02:27Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1273**
+Distribution: Confirmed 303 / High Confidence 589 / Community Consensus 348 / Speculative 32 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **397**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | facilities | 72 |
-| economy | 66 |
-| career | 41 |
+| economy | 71 |
+| career | 42 |
 | clans | 36 |
 | coaches | 36 |
 | controls | 34 |
 | patching | 33 |
 | prizeladder | 32 |
 | platform | 30 |
-| cards | 27 |
+| cards | 28 |
 | customization | 27 |
 | cups | 26 |
-| transfers | 25 |
+| dll | 26 |
+| transfers | 26 |
 | attributes | 23 |
-| dll | 20 |
+| training | 22 |
 | modes | 19 |
 | events | 18 |
 | stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
-| training | 16 |
 | errata | 15 |
 | goalkeeping | 11 |
 | ui | 11 |
@@ -802,6 +802,13 @@ Distinct evidence records cited: **395**.
 | CLAIM-1253 | The Prize Ladder cycle lasts 90 days and unlocks coins, gems AND Classic Players as tiers are climbed. | High Confidence | prizeladder/90-day-cycle-classics | EV-431 |
 | CLAIM-1254 | The Dream League Live weekly leaderboard resets weekly and awards gems both for leaderboard placement and for playing a set number of DLL matches w... | High Confidence | dll/weekly-leaderboard-gems | EV-431 |
 | CLAIM-1255 | Coaches come in four categories (Technical, Fitness, Goalkeeping, Special) and three tiers (Common, Rare, Legendary); a Common coach boosts a singl... | High Confidence | training/coach-categories-tiers | EV-431 |
+| CLAIM-1265 | OFFICIAL-ADJACENT COACH MODEL: coaches are obtained from the Season Pass, Prize Ladder, Live events, gems and real money, and BOTH the recipient pl... | High Confidence | training/coach-sources-random | EV-433 |
+| CLAIM-1266 | A card's maximum rating is its base overall +10, with very rare +11 cases. | High Confidence | training/max-plus-10 | EV-433 |
+| CLAIM-1267 | There are exactly two outfield coach types: FITNESS upgrades SPE, ACC, STA and STR, while TECH upgrades CON, PAS, SHO and TAC. | High Confidence | training/coach-stat-pools | EV-433 |
+| CLAIM-1268 | Releasing players you do not want to train narrows the coach pool and increases the chance that coaches upgrade the players you do want. | High Confidence | training/pool-narrowing | EV-433 |
+| CLAIM-1270 | Coach-farming economics: buy players under 180-210 coins and release them for Common coaches, and buy 80-rated DEFENDERS (the cheapest legendary cl... | High Confidence | economy/coach-farming-prices | EV-433 |
+| CLAIM-1274 | A player's card becomes silver then gold once overall rises by a rating-dependent amount and turns black at 100 overall; upgraded players also appe... | High Confidence | cards/colour-progression-market | EV-433 |
+| CLAIM-1276 | Fan Approval has two published milestones: 'Mr Popular' at 75% (500 XP) and 'Fan Favourite' at 100% (2,000 XP in DLS2018, 1,000 XP in DLS Classic). | High Confidence | economy/fan-approval-milestones | EV-433 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1193,6 +1200,19 @@ Distinct evidence records cited: **395**.
 | CLAIM-1251 | Dropping divisions reduces the coins and gems awarded but does not affect the transfer market. | Community Consensus | career/relegation-economy-effect | EV-431 |
 | CLAIM-1256 | The cheapest coach-farming route is buying cheap legendary DEFENDERS and releasing them, since Attacker > Midfield > Defender in gold cost. | Community Consensus | economy/coach-farming-defenders | EV-431 |
 | CLAIM-1257 | Legendary players will not appear in the transfer market until you buy lower-rated players, even with a maxed stadium and a top-division team; drop... | Community Consensus | transfers/legendary-gating | EV-431 |
+| CLAIM-1258 | Dream League Live tiers run 20 to 1; the world-record Tier 1 run promoted at every tier deliberately, because promotion is the cheapest way to save... | Community Consensus | dll/tier-ladder-detail | EV-432 |
+| CLAIM-1259 | Tier 3 is the first wall of fully maxed opposition (the record-holder clinched promotion only on the final game), and Tier 2 opponents commonly hol... | Community Consensus | dll/tier-3-wall | EV-432 |
+| CLAIM-1260 | A documented strategy is to deliberately RELEGATE to tier 10 to farm gems and win events, then grind from tier 7 to 1 in as little as 4 days, champ... | Community Consensus | dll/tier-10-farming-strategy | EV-432 |
+| CLAIM-1261 | Live gems are available at TIER 10 AND ABOVE ONLY - below tier 10 Live does not pay gems, which sets a hard floor on where the ranked grind must ha... | Community Consensus | dll/gem-gating-tier-10 | EV-432 |
+| CLAIM-1262 | Tier 5-6 is a common sticking point for players, while a DLS23 player found tier 3+ easier because lower points were required for promotion. | Community Consensus | dll/tier-5-6-wall | EV-432 |
+| CLAIM-1263 | In the DLS21 era Dream League Live tiers were called 'Levels' (players reported fluctuating between Levels 12-10), and a SEA-region player confirms... | Community Consensus | dll/level-to-tier-terminology-drift | EV-432 |
+| CLAIM-1264 | A 70-rated team can win the Legendary Division in Career Mode, though it is very hard. | Community Consensus | career/low-rated-legendary-win | EV-432 |
+| CLAIM-1269 | RE-TRAIN: after a coach lands on the player you want, tapping re-train spends gems to gain additional points on that player. | Community Consensus | training/re-train-gems | EV-433 |
+| CLAIM-1271 | A full player max costs roughly 32,000 coins with Common coaches (about 400 coins per player across ~80 coaches, each player having ~80 upgrade poi... | Community Consensus | economy/max-cost-estimate | EV-433 |
+| CLAIM-1272 | Recommended fitness-to-tech coach ratios are 7:3 for non-maxed teams and 90:10 when targeting speed first; isolating a single player requires a ful... | Community Consensus | training/coach-ratios | EV-433 |
+| CLAIM-1273 | Daily challenges pay 5-11 gems per day, and the community advice is to stack coaches and not use them too early. | Community Consensus | economy/daily-challenge-gems | EV-433 |
+| CLAIM-1275 | Legendary players do not appear in the transfer market until team rating rises, gold-carded players become regular above 80 team rating, and even a... | Community Consensus | transfers/rating-gating-86s | EV-433 |
+| CLAIM-1277 | 100% club (Dream Team) value requires EVERY player including bench and reserves to be maxed - about 23 players - not merely a high-rated starting e... | Community Consensus | economy/club-value-23-players | EV-433 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
