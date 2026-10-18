@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-175 — 2,165 claims / 414 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-176 — 2,177 claims / 415 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -216,6 +216,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Spend the first five widely** | Training to L5 (1,125) and Accommodation to L5 (1,125) are affordable early and are the two facilities the community rates |
 | **Be deliberate about the second five** | Another 3,000 gems each — only for a facility you will actually use |
 | **Level counts for Medical, Commercial and Fanzone are unpublished** | The 75 × N pattern is inferred, not confirmed, for those three |
+| **The Fanzone discounts Stadium EXPANSIONS** | Structural discounts on sector builds, not a general gem discount - so it is priced against the ~10,000-coin stadium project [EV-513, C3] |
 | **The stadium is a COIN project** | Sector levels cost 0–650 coins, so it never competes with facilities for gems |
 
 **THE COACHING METHOD** [EV-467, C3] — how to spend coaches without wasting capacity:

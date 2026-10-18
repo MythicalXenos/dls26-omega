@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-175 — 2,165 claims / 414 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-176 — 2,177 claims / 415 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -295,7 +295,7 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 
 > **The comparison that settles it:** *"1125 Diamonds being used on the commercial facility for a bonus of 10 to 20 coins/match is not worth it knowing you can max 2.5 players with the same amount of diamonds."* **So 1,125 gems ≈ 2.5 maxed players ≈ 450 gems per maxed player.** Every facility decision is comparable to a coaching decision.
 
-**The Fanzone has five levels** (two mod-site sources agree) — its **per-level cost remains unpublished**, which is one of the corpus's eight surviving gaps.
+**The Fanzone has five levels** (two mod-site sources agree) — its **per-level cost remains unpublished**, which is one of the corpus's eight surviving gaps. **But its benefit is now precise** [EV-513, C3]: it grants **structural discounts on Stadium expansions** — not a general gem discount, a discount on the **sector builds that make up the capacity ladder**. So the Fanzone is priced directly against the ~10,000-coin stadium project, which is the comparison the corpus needed: **if it discounts sectors, it is a coin facility that happens to cost gems, and it belongs in the stadium conversation rather than the gem one.**
 
 > **💰 THE F2P COIN COST OF A MAXED PLAYER:** **~32,000 coins via Common coaches** (80 releases at ~400 coins each) or **~30,000 via Rare** (20 at ~1,500), with an 80-rated defender available at about **1,460 coins**. This is the number that decides whether a free-to-play account maxes one star or keeps farming facilities — and it is why the **coin** engine matters more than the gem engine for squad building.
 

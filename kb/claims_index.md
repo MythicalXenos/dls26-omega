@@ -1,16 +1,16 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:27:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2165**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 868 / Speculative 58 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **476**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:31:25Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2177**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 877 / Speculative 61 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **477**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 138 |
-| facilities | 113 |
-| dll | 79 |
+| facilities | 114 |
+| dll | 89 |
 | transfers | 79 |
 | gameplay | 76 |
 | cards | 65 |
@@ -35,7 +35,7 @@ Distinct evidence records cited: **476**.
 | presentation | 25 |
 | modes | 24 |
 | goalkeeping | 23 |
-| stadium | 21 |
+| stadium | 22 |
 | customisation | 19 |
 | account | 17 |
 | meta | 16 |
@@ -2133,7 +2133,16 @@ Distinct evidence records cited: **476**.
 | CLAIM-2167 | THE GOAL-TO-GOAL DIRECTION PROBLEM: 'I like it when the direction of attacking is ahead. The angle makes it very easy to build up attack, pass, and... | Community Consensus | settings/goal-to-goal-direction-problem | EV-512 |
 | CLAIM-2168 | THE 100% DISTANCE RULE, from two independent sources: 'since precision passing and shooting are prerequisites for success... it will be best to use... | Community Consensus | settings/100-percent-distance-rule | EV-512 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2170 | THE TIER 1 COMPLAINT, ENUMERATED - which turns the corpus's scripting discussion from a theory into a list of recognisable behaviours: '**Tier 1 is... | Community Consensus | dll/tier-1-complaints-enumerated | EV-513 |
+| CLAIM-2171 | THE SAME THREAD'S COUNTERWEIGHT: '**Rigging is quite uniform in tier 1 and 2. The skill level increases significantly in tier 1. It took me three a... | Community Consensus | dll/tier-1-three-attempts-normal | EV-513 |
+| CLAIM-2172 | THE SHARPEST VERSION OF THE HANDICAP CLAIM - THE FORMATION OVERRIDE: '**S** - The AI will mess up positioning, leaving massive wide open gaps in yo... | Community Consensus | dll/formation-override-claim | EV-513 |
+| CLAIM-2173 | THE TIER 1 CADENCE, CORROBORATED A THIRD TIME: 'I get there probably **once every 4 seasons from tier 2**' - matching the corpus's every-3-4-season... | Community Consensus | dll/tier-1-cadence-third-source | EV-513 |
+| CLAIM-2174 | THE NON-MAXED ADVANTAGE, corroborating the corpus's handicap finding from the other side: 'I regularly play with a **full rare team (all maxed to 8... | Community Consensus | dll/non-maxed-advantage-third-source | EV-513 |
+| CLAIM-2178 | THE DELIBERATE RELEGATION TO A FARMING TIER, a recognised player practice: 'it had come out DLS 24, the game was totally changed and **I relegated ... | Community Consensus | dll/deliberate-relegation-for-farming | EV-513 |
+| CLAIM-2179 | THE TIER RANGE AND ITS NON-MONOTONIC DIFFICULTY: '**Tier 1 is the highest while 20 being the lowest**... You match with players in your own tier to... | Community Consensus | dll/tier-range-and-non-monotonic-difficulty | EV-513 |
 | CLAIM-218 | Removed legacy modes (NOT in DLS26): Ultimate Challenge (mirror match vs your own team) and FTG Challenge (vs FTG developer team ~89-90 OVR), both ... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2180 | THE NAMED STADIUMS, which the corpus's capacity ladder was missing: the dlsinside DLS26 stadium table (build 13.420, code 159, last update 2026-09-... | Community Consensus | stadium/named-real-world-grounds | EV-513 |
+| CLAIM-2181 | THE FANZONE'S REAL BENEFIT, phrased precisely at last: it grants '**structural discounts on Stadium expansions**' - not a general gem discount, a d... | Community Consensus | facilities/fanzone-structural-stadium-discount | EV-513 |
 | CLAIM-220 | Division season structure (DLS24-era, presumed similar in DLS26): ~16 teams per mid division, ~30-35 matches per season, 6-8 minutes per match (spe... | Community Consensus | unscoped | EV-284 |
 | CLAIM-221 | Stadium capacity scales by division (DLS24-era community data, approximate): Academy ~5-12k; Amateur 15k; Div4 25k; Div3 35k; Div2 45k; Div1 55k; E... | Community Consensus | unscoped | EV-284 |
 | CLAIM-222 | Licensed leagues visible in DLS26 (community-enumerated): La Liga (Spain), Premier League (England), Ligue 1 (France, 'League 1 Paris'), Serie A (I... | Community Consensus | unscoped | EV-284 |
@@ -2259,6 +2268,9 @@ Distinct evidence records cited: **476**.
 | CLAIM-2156 | LFBB.NET CLAIMS AT SPECULATIVE, FLAGGED: the 4 PM softer-competition claim ('most players are at work or school at 4 PM... **600 bonus gems just fr... | Speculative | errata/lfbb-claims-at-speculative | EV-511 |
 | CLAIM-2160 | A GENUINE DISSENT ON THE WHOLE SYSTEM: 'To get to lower tiers you'll have to spend time getting relegated, considering that you can't just enter a ... | Speculative | prizeladder/dont-care-about-classics-dissent | EV-512 |
 | CLAIM-2169 | A FIFTH SPORTSDUNIA TABLE - the best-settings list - recorded so the rejection count is accurate, while noting that its display-settings inventory ... | Speculative | errata/sportsdunia-fifth-table | EV-512 |
+| CLAIM-2175 | THE RETENTION-HANDICAP THEORY, stated as a theory by a believer: 'When you buy a base card from the market and use him in a career match without up... | Speculative | dll/retention-handicap-theory | EV-513 |
+| CLAIM-2176 | THE LUCK-OVER-SKILL SENTIMENT, recorded so the corpus does not oversell skill: 'Scoring is harder for me since day one... Most of the time the winn... | Speculative | dll/luck-over-skill-sentiment | EV-513 |
+| CLAIM-2177 | THE COUNTER-DISSENT, which the corpus must carry beside the rigging claims: 'dont you think smth harder should be added to online playing? i mean, ... | Speculative | dll/tier-1-is-simple-counter-dissent | EV-513 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
