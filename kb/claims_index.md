@@ -1,35 +1,35 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:54:17Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1175**
-Distribution: Confirmed 297 / High Confidence 556 / Community Consensus 293 / Speculative 28 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **386**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:55:21Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1187**
+Distribution: Confirmed 297 / High Confidence 561 / Community Consensus 299 / Speculative 29 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **387**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| facilities | 71 |
+| facilities | 72 |
 | economy | 65 |
-| coaches | 35 |
-| career | 34 |
+| career | 37 |
+| coaches | 36 |
 | controls | 34 |
 | patching | 32 |
 | platform | 30 |
 | clans | 28 |
 | customization | 27 |
 | prizeladder | 26 |
-| cups | 23 |
-| transfers | 22 |
+| cups | 25 |
+| transfers | 23 |
 | attributes | 21 |
 | modes | 19 |
 | cards | 17 |
 | events | 17 |
 | stamina | 17 |
+| dll | 16 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
 | errata | 14 |
-| dll | 13 |
 | training | 13 |
 | ui | 11 |
 | account | 10 |
@@ -37,10 +37,10 @@ Distinct evidence records cited: **386**.
 | setpieces | 10 |
 | onboarding | 9 |
 | physio | 7 |
+| difficulty | 6 |
 | formboost | 6 |
 | monetization | 6 |
 | save | 6 |
-| difficulty | 5 |
 | discipline | 5 |
 | endgame | 5 |
 | referee | 5 |
@@ -768,6 +768,11 @@ Distinct evidence records cited: **386**.
 | CLAIM-1175 | Physio costs are corroborated by two independent sources: Common 50 coins for +10% team energy, Rare 100 coins for +20%, and Legendary 250 coins fo... | High Confidence | physio/costs-corroborated | EV-422 |
 | CLAIM-1177 | Tired players are slower, tackle less effectively and are more prone to injury, so key players should be substituted before the final 20 minutes. | High Confidence | stamina/tired-injury-risk | EV-422 |
 | CLAIM-1179 | TERMINOLOGY RESOLVED: CON means Control (ball control/dribbling), not Condition - official FTG stat semantics tie CON to dribbling, and injury pron... | High Confidence | errata/con-terminology | EV-422 |
+| CLAIM-1180 | The dlspedia stadium table is dated as the LEGACY 2016-2019 six-division structure - Academy, Division 3, Division 2, Division 1, Junior Elite and ... | High Confidence | facilities/dlspedia-table-legacy | EV-423 |
+| CLAIM-1182 | After winning a division the club must play that division's ALLSTARS XI, and in versions before DLS21 a further Ultimate Challenge pitted you again... | High Confidence | career/allstars-ultimate-challenge | EV-423 |
+| CLAIM-1183 | The legacy Dream League Live tier ladder was numeric with Tier 1 at the top and Tier 10 at the bottom, replaced in the current build by named ranks... | High Confidence | dll/legacy-numeric-tiers | EV-423 |
+| CLAIM-1186 | DLS26 achievements grew from 40 to 42 between Exophase snapshots: the two additions ('Back Of The Net' and 'Debut') carry far higher achievement ID... | High Confidence | career/achievement-growth | EV-423 |
+| CLAIM-1188 | Transfer market quality tracks team OVR directly: if team OVR falls, the market shows lower-rated legendary players. | High Confidence | transfers/market-tracks-ovr-confirmed | EV-423 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1117,6 +1122,12 @@ Distinct evidence records cited: **386**.
 | CLAIM-1176 | Individual physio use should be capped at two players per match and 6-8 coins, and community consensus is that team physios are poor value compared... | Community Consensus | physio/individual-vs-team-value | EV-422 |
 | CLAIM-1178 | A single App Store review (Apr 2026) reports hidden daily fatigue - after roughly 10 matches in a day the team plays slower and less organised even... | Community Consensus | stamina/hidden-daily-fatigue | EV-422 |
 | CLAIM-118 | App Store review sentiment on the DLS26 listing (chunk captured 2026-10-11): wish-list items include managing other teams and choosing a league at ... | Community Consensus | unscoped | EV-173 |
+| CLAIM-1181 | In the 2016-2019 era the Elite Cup was restricted to Junior Elite Division and above, while the Global Challenge Cup was open in every division. | Community Consensus | cups/legacy-elite-cup-eligibility | EV-423 |
+| CLAIM-1184 | Legacy tier-promotion achievements paid escalating XP: Tier 10 promotion 500 XP, Tier 9 1,000, Tier 8 1,500, Tier 7 2,000, Tier 6 2,500, Tier 5 3,0... | Community Consensus | dll/legacy-tier-promotion-xp | EV-423 |
+| CLAIM-1185 | Promotion mechanics (legacy-era fandom): the top two teams are promoted directly and third through sixth contest a promotion playoff, and promotion... | Community Consensus | career/promotion-mechanics | EV-423 |
+| CLAIM-1187 | DEVELOPMENT CEILING VERSION DRIFT: in DLS2020 goalkeepers were not capped at +10 and reached +11 to +14 (producing 97 Buffon and 99 De Gea cards), ... | Community Consensus | coaches/ceiling-version-drift | EV-423 |
+| CLAIM-1189 | Scoring difficulty is described as uniform across divisions - it does not get harder to score in Legendary than in Academy - even though overall di... | Community Consensus | difficulty/scoring-uniform | EV-423 |
+| CLAIM-1190 | DLS Classic champion coin rewards: Division 3 champions 20 coins, Division 1 champions 40 coins and Elite champions 50 coins. | Community Consensus | cups/classic-champion-coins | EV-423 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
@@ -1243,6 +1254,7 @@ Distinct evidence records cited: **386**.
 | CLAIM-1083 | 'Fluid Formations' and the '3-5-2 Fluid' formation trace to the same fabricated source and are UNCONFIRMED. | Speculative | tactics/fluid-formations-unconfirmed | EV-413 |
 | CLAIM-112 | One Reddit thread reported a challenge requiring about 60,000 points to sign one of four players. Single-thread report, Speculative; consistent wit... | Speculative | unscoped | EV-242,kb/community-meta.md M-004 (imported; single Reddi... |
 | CLAIM-1134 | Claims that the AI learns your playstyle, adapts defensively to repeated wing play, or uses a 'Neural Match Engine' appear only on eslamgaming and ... | Speculative | ai/adaptation-unconfirmed | EV-418 |
+| CLAIM-1191 | OPEN GAP: no source names the LIVE ranks above 'Veteran' in the current build, so the top of the DLL ladder is unknown. | Speculative | dll/rank-names-above-veteran | EV-423 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
