@@ -2,7 +2,9 @@
 
 > **Status: READY TO SEND.** Supersedes `FIRST_CONTACT_SCRIPT_draft.md` (turn 21).
 > **Why superseded:** the turn-21 draft was built around one blocking unknown — C-009, whether the Season Leaderboard is a public ranking at all, which decided whether "#1" was measurable. **That question is now closed.** The masterplan fixes the target as **Tier 1 Champion in the player's own region**, sustained across seasons, because DLS26 exposes no global #1 surface. The draft's Priority-0 intake question is therefore obsolete and has been replaced by the settled definition below.
-> **Grounded in:** `docs/strategy_masterplan.md` (6,901 words) + `docs/operational_rules.md` (3,273 words) at ckpt-106. Every instruction below traces to a claim or evidence record; nothing here is invented.
+> **Grounded in:** `docs/strategy_masterplan.md` (8,143 words) + `docs/operational_rules.md` (3,505 words) + `docs/dll_tier_playbook.md` (2,421 words) at ckpt-116. Every instruction below traces to a claim or evidence record; nothing here is invented.
+>
+> **v3 changes (ckpt-116):** folded in the nine checkpoints of sweep findings that postdate v2 — the seed matchmaking system, the DLL unlock threshold, the tier-camping gem engine, the maxed-squad handicap, the gacha probability lever, the card taxonomy, and the never-release-Classics rule.
 > **Design rules carried forward from v1:** safety first, no jargon, no premature optimisation, screenshots over transcription, and no request to spend, install, or mod anything.
 
 ---
@@ -29,6 +31,8 @@ I need you to know the target, because it changes what you optimise for.
 
 So the plan does not begin with buying players. It begins with playing correctly, and with protecting your coin income. If you remember one sentence from this document, make it that one.
 
+**One more thing worth knowing, because it explains who you will actually be playing:** Dream League Live groups players into **seeds** set by your **region and the date you created your account**. The matchmaker only looks inside your seed, then tries to find someone at your tier. That is why your realistic competition is always your own regional pool, and why you will occasionally meet accounts that are years older than yours. [EV-451, C2]
+
 ---
 
 ## PART C — Tonight: your first 60 minutes
@@ -43,6 +47,8 @@ Do these in order. Do not skip ahead.
 4. **Do not import a kit tonight.** Kit import costs 150 gems and needs a 512×512 image. You have 75 gems. It can wait. [EV-437, C2]
 
 ### C2 — First matches (20 min)
+
+> **Note:** the Dream League Live tab and Friend Match **do not exist yet** on a new account. They unlock after **six Career matches** [EV-451, C2]. If you cannot find the multiplayer button, this is why — keep playing Career.
 
 5. Play Career matches and **win them**. Do not chase a seventh goal — goal coins are **capped at 30 per match** (6 goals × 5). [EV-441, C2]
 6. Win by **4 or more goals** where you can. This is what maximises Season Points, and Season Points drive the Season Pass.
@@ -95,6 +101,12 @@ That means when you are saving for a specific player, farm coins via scenarios a
 
 And when you *do* want a refresh fast: **quit a Live match at half-time.**
 
+**The single most valuable thing I can tell you about gems:** the best gem tactic in the game is *not* to climb. It is to **tier camp**. Once you are comfortably surviving between **Tier 5 and Tier 2**, stop trying to get promoted — win only **4 or 5 matches** to secure survival, then quit the rest. Losing on the way is fine; it keeps you in the camping tier instead of pushing you somewhere harder.
+
+The economics: about **48 matches over 4 to 4.8 hours yields 150–208 gems** — roughly **35–43 gems per hour**, against **5–11 gems per day** from daily challenges. Do **not** forfeit while camping, as forfeiting may cost you the maximum gems. [EV-448, C2/C3]
+
+**And the counter-intuitive squad rule:** do **not** fully max your team for Live. A Tier 1 player reports that *maxxed squads perform terribly in high tiers* — because team strength is an official matchmaking input, a stronger squad is matched against stronger opponents. Keep the Live squad **competitive but not maxed**, and treat full maxing as a separate club-value project. The record Tier 1 run used a **mostly common/rare team**. [EV-447, C1 / EV-448, C2]
+
 ---
 
 ## PART E — The gem decision you will face soon
@@ -115,6 +127,14 @@ L4 costs 750 gems cumulative, and it **inverts your entire coach economy**. Ever
 
 **Facility priority after that:** Stadium → Medical → Commercial → Fanzone. Note that the *first tier* of every facility costs only **375 coins** in DLS26 — take those cheap entry tiers early with coins, and save gems for the ladder. [EV-437, C2]
 
+### E2 — The gacha lever (this one is not obvious)
+
+When you spend a **Legendary Agent** on a special player, your odds are **not fixed**. They depend on **how many legendary players you currently own plus how many are sitting in the transfer market** — and **the odds improve the fewer legendary players are left to pull.**
+
+The method: **buy and sell every 80+ player you see**, so they sit in the **recovery tab for two days** and drop out of the agent pool. Reported to take the odds to **100%**, at a cost of roughly **275,000 coins across ~145 players and 70+ market refreshes**. Stacking gold players in the market also blocks them from being pulled. [EV-450, C2]
+
+This reframes the market entirely: it is not just where you buy players, it is **the lever that controls your agent odds.** There is also a **pity ceiling of about 15 Legendary Agents per target** — the card is guaranteed by then. [EV-450, C2/C3]
+
 ---
 
 ## PART F — Five things to do, five things not to
@@ -134,6 +154,8 @@ L4 costs 750 gems cumulative, and it **inverts your entire coach economy**. Ever
 3. **Do not look for a youth academy.** It does not exist in DLS26. [GS-023]
 4. **Do not trust mods, generators, or "unlimited coins."** They get your account blocked or steal from you. Official FTG position: infinite coins and gems do not exist, mods mean account blocking, generators are scams. [OFFICIAL, GS-020]
 5. **Do not chase the formation meta.** It is genuinely unsettled. Pick one formation and learn it deeply — the record Tier 1 run used a mostly common/rare squad, so formation-chasing is not what separates you from the field. [C-014, EV-432]
+6. **Do not release a Classic Player, even an unmaxed one.** Future Prize Ladders randomise their rewards — miss a set in one ladder and you may get those players next time while missing the newly released ones. [EV-450, C2]
+7. **Do not panic when card colours confuse you.** **Orange is just a maxed gold player**, not a special type. **Black = Classic**, **purple = Dream Star**, **blue = Champion**. [EV-450, C3]
 
 ---
 
@@ -144,6 +166,7 @@ Short, screenshot-friendly, and none of it is personal data. Each answer becomes
 1. **Your build number** (from A2 above) and **platform** — Android or iOS.
 2. **Controls screen:** Options → Controls — a screenshot of the full toggle list, especially **auto-switch** and any assist switches. I need to confirm auto-switch is OFF before I give you the defensive model. [EV-441, C2]
 3. **Current division and tier** in Career and DLL. This tells me which state of the operational plan you are actually in.
+4. **Your region** (country only is fine). It sets your Live seed, which determines who you will realistically be competing against.
 4. **Squad screen:** one starter's attribute panel — the exact stat labels as they appear (do they read SPE / ACC / STA / CON, or are they renamed?). The labels differ by build and I do not want to guess.
 5. **A screenshot of your facilities screen** with the current levels and costs. Five of my open questions are facility cost curves, and your screen may close them outright.
 
@@ -159,4 +182,4 @@ Short, screenshot-friendly, and none of it is personal data. Each answer becomes
 
 ---
 
-*First Contact v2 — prepared 2026-10-18 at ckpt-106 (`7b683a0`). Authority: `kb/claims.jsonl` (1,412 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (348 records). No instruction in this document rests on a rejected source.*
+*First Contact v3 — prepared 2026-10-18 at ckpt-116 (`2085581`), superseding v2 (ckpt-106). Authority: `kb/claims.jsonl` (1,460 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (353 records). No instruction in this document rests on a rejected source.*
