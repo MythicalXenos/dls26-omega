@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:28:57Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1600**
-Distribution: Confirmed 365 / High Confidence 680 / Community Consensus 520 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **429**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:31:58Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1611**
+Distribution: Confirmed 365 / High Confidence 684 / Community Consensus 527 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **431**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -13,7 +13,7 @@ Distinct evidence records cited: **429**.
 | dll | 51 |
 | cards | 49 |
 | clans | 49 |
-| career | 47 |
+| career | 48 |
 | gameplay | 46 |
 | transfers | 43 |
 | training | 38 |
@@ -33,18 +33,19 @@ Distinct evidence records cited: **429**.
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
+| achievements | 14 |
 | formboost | 12 |
 | goalkeeping | 11 |
 | onboarding | 11 |
 | ui | 11 |
 | account | 10 |
-| achievements | 10 |
 | match | 10 |
 | social | 10 |
 | draft | 9 |
 | squad | 8 |
 | stadium | 8 |
 | physio | 7 |
+| coaching | 6 |
 | difficulty | 6 |
 | monetization | 6 |
 | save | 6 |
@@ -989,6 +990,10 @@ Distinct evidence records cited: **429**.
 | CLAIM-1581 | The Global Challenge Cup is available in EVERY division, from the Academy Division up to the Legendary Division, and works 'like the FA Cup and The... | High Confidence | cups/gcc-every-division | EV-463 |
 | CLAIM-1582 | THE 12TH MAN MECHANIC IS CLOSED: the App Store version history for v13.120 (25 Mar 2026) states '12th Man - The DLS community has voted, and we've ... | High Confidence | cards/12th-man-mechanic-closed | EV-463 |
 | CLAIM-1598 | 4-1-2-1-2 remains the classic DLS shape and one of only two formations unlocked by default (with 4-4-2); further formations are unlocked by upgradi... | High Confidence | gameplay/default-formations | EV-464 |
+| CLAIM-1605 | C-026 RESOLVED AS A SOURCE CONFLATION: the corpus's '63 achievements / 98,000 XP' stitched together two platforms. DLS26 on ANDROID (Google Play) i... | High Confidence | achievements/count-resolved-platform-split | EV-466 |
+| CLAIM-1606 | The DLS26 Android achievement set is 40 achievements at 500 XP each = 20,000 XP total, covering the DLL win ladder (5/25/50/100/150 wins), the scen... | High Confidence | achievements/full-android-list | EV-466 |
+| CLAIM-1607 | Achievement completion rates give the difficulty curve: First Whistle (reach Amateur division) is 62.84% complete, Ultimate XI (team rating 80) 38.... | High Confidence | achievements/completion-curve | EV-466 |
+| CLAIM-1608 | 'Local Grounds' requires reaching 15,000 stadium capacity - exactly the Division 3 seat gate, confirming the two systems are linked. | High Confidence | achievements/stadium-gate-link | EV-466 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1558,6 +1563,13 @@ Distinct evidence records cited: **429**.
 | CLAIM-1602 | FACILITY-PRIORITY CONSENSUS (three independent threads): Abe-Pizza's order is Training, Commercial, Accommodation, Medical, Recruitment; a Jan 2026... | Community Consensus | facilities/priority-consensus | EV-465 |
 | CLAIM-1603 | The squad space limit after a maxed Accommodation facility is 40 players, independently corroborated. | Community Consensus | facilities/40-player-limit-corroborated | EV-465 |
 | CLAIM-1604 | Season Pass coin totals conflict: sportsdunia claims 'upto 4750 coins' while Bluestacks puts the FREE track alone at 1,095 coins. Both unverified; ... | Community Consensus | economy/season-pass-coins-conflict | EV-465 |
+| CLAIM-1609 | A BREAKTHROUGH IS A RISK, NOT ONLY A BONUS: 'it is when a coach applies bonus development. It is helpful but you can't control when or where it app... | Community Consensus | coaching/breakthrough-is-a-risk | EV-467 |
+| CLAIM-1610 | THE 'COMMON BOOST' COACHING METHOD: with rare or legendary coaches 'you basically don't have any influence on what stats get picked for the upgrade... | Community Consensus | coaching/common-boost-method | EV-467 |
+| CLAIM-1611 | TRAIN A PLAYER ALONE: a DLS26 maxing report describes training a single player alone and chaining Common coaches by category - 'I used full common ... | Community Consensus | coaching/train-alone | EV-467 |
+| CLAIM-1612 | THE WEIGHTED-CAPACITY MODEL IS CORROBORATED BY A SECOND SOURCE: 'upgrading crucial attributes like Control (CON) or Speed (SPE) consumes significan... | Community Consensus | coaching/weighted-capacity-corroborated | EV-467 |
+| CLAIM-1613 | THE DLS20 BREAKTHROUGH BASELINE IS CONFIRMED: Common coaches carry a 5% Breakout Rating and Rare coaches 10% (25 gems for two random stats +2; 50 g... | Community Consensus | coaching/breakthrough-dls20-baseline-confirmed | EV-467 |
+| CLAIM-1614 | Midfielders are the hardest cards to build: 'I genuinely hate maxing midfielders in DLS because they always come out weirdly built. One minute you'... | Community Consensus | coaching/midfielders-hardest | EV-467 |
+| CLAIM-1615 | Career league seasons are 15 games and can be forfeited once the points are secure: 'you can forfeit league games when you've got enough points to ... | Community Consensus | career/15-game-season-forfeit | EV-467 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

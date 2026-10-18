@@ -223,11 +223,13 @@ So Source A was showing post-boost/in-game OVR, Source B was showing the event-b
 - **Weight of evidence:** now **one community source each side** (50 vs 100), both describing the same end-of-season top-contributor reward. Neither is official.
 - **Status:** **genuinely OPEN.** The earlier "leans 100" note is withdrawn. **Do not plan on either figure**; treat clan top-contributor gems as 50-100 with no basis for choosing. The clan gem ledger's 275-gem Clans line should be read as a mid-point estimate, not a commitment. Resolved only by an in-client screenshot or an FTG support reply.
 
-## C-026: Achievement count and total XP (63/98,000 vs 40/20,000 vs 87/100,000)
+## C-026: Achievement count and total XP (63/98,000 vs 40/20,000 vs 87/100,000) — **RESOLVED ckpt-130, EV-466 (source conflation)**
+
 - **Nerdburglars** (Google Play list): **63 achievements, 98,000 XP total.**
 - **Exophase** (DLS26, Android): **40 achievements, 20,000 XP.**
 - **Exophase** (DLS Classic): **87 achievements, 100,000 XP.**
-- **Status:** OPEN, low impact. The 63-achievement list is adopted as the working set because it is the most detailed, lists per-achievement XP values, and matches the DLS26 structure (8 divisions, tiers 1-10, Elite/Allstar/Global Challenge Cups). Exophase's 40-entry DLS26 list appears to be a partial or differently-scoped capture. Logged EV-454. **Impact: none on strategy — the tier-promotion XP ladder and the 5,000-XP Tier 1 Champions achievement appear in the adopted set regardless.**
+- **Resolution:** the corpus's adopted figure of *"63 achievements, 98,000 XP"* **stitched together two different surfaces**. Exophase lists DLS26 on **Apple Game Centre at 63 achievements / 13,483 EXP**, while the **98,000 XP** figure belongs to a **generic, unversioned "Dream League Soccer" Google Play listing from the Classic era** — not to DLS26. The DLS26 **Android** count is a third number entirely: **40 achievements, 20,000 XP** (Exophase, 40,351 obtainable EXP tracked), with a full per-achievement list at **500 XP each** covering DLL wins (5/25/50/100/150), scenarios (1/5/10/25/50), team ratings 68 and 80, gold medals (1/5/10/25/50), 15,000 stadium capacity, the division ladder and the rank ladder.
+- **Status:** **RESOLVED — all three figures are real; they measure different platforms.** Use **40 achievements / 20,000 XP on Android** and **63 / 13,483 EXP on iOS**. The classic-era 98,000 XP must not be quoted as a DLS26 figure. The tier-promotion XP ladder and the 5,000-XP Tier 1 Champions achievement are unaffected: those come from the DLL tier structure, not the achievement set. Logged EV-454 and EV-466.
 
 ## C-027: In DLS26 Live, does speed dominate or do control/passing/tackling dominate?
 - **Position A (speed dominates):** r/DLS 1qbzi64 (Jan 13 2026) - "in live matches stats like tackling are worthless if you can catch up to opponent", with 95+ speed and acceleration defenders named; plus r/DLS 1pgcovy (Dec 7 2025) - knock-ahead/sprinting is "so overpowered now that it can outrun even maxed defenders in a glimpse, so unmaxed defenders stand no chance".

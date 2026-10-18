@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-129 — 1,600 claims / 367 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-130 — 1,611 claims / 369 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -48,7 +48,7 @@ This matters because it changes the optimisation target: **the leaderboard rewar
 >
 > Promoting from tier 10 to Tier 1 Champion therefore pays **27,500 XP in achievements alone** — and **Bragging Rights** adds **2,000 XP for champion of any tier**, so every tier title is worth banking. Each tier cleared pays more than the last, while a season spent in a tier you have already cleared pays nothing extra. That is the arithmetic behind *"not once did I not get promoted to the next tier (crucial to saving XP)."*
 >
-> **Full achievement set: 63 achievements, 98,000 XP** [EV-454, C3 / C-026 on the count]. Biggest non-tier targets: **Goal Machine 3,000** (10,000 goals) · **Unstoppable 3,000** (1,000 wins) · **Elite Champions 3,000** · **Scoring For Fun 2,500** (+100 GD in a season) · **Revolving Door 2,500** (100 signings) · **Ultimate Dream Team 2,000** (80% club value) · **Fan Favourite 2,000** (100% approval) · **Golden Boot 2,000** (40 goals, one player) · **A Place Called Home 2,000** (80,000 capacity) · **Rise To The Top 1,500** (develop a player to 100).
+> **Full achievement set: 40 achievements / 20,000 XP on Android, 63 achievements / 13,483 EXP on iOS** [EV-466, C2 — C-026 RESOLVED: the earlier "63 / 98,000 XP" figure stitched the iOS count to a Classic-era Google Play XP total; the classic-era number must not be quoted as a DLS26 figure]. Every achievement in the DLS26 Android set is worth **500 XP**, and the set is front-loaded — completion runs 62.8% for reaching the Amateur division down to **8.45% for 150 DLL wins**. Biggest non-tier targets: **Goal Machine 3,000** (10,000 goals) · **Unstoppable 3,000** (1,000 wins) · **Elite Champions 3,000** · **Scoring For Fun 2,500** (+100 GD in a season) · **Revolving Door 2,500** (100 signings) · **Ultimate Dream Team 2,000** (80% club value) · **Fan Favourite 2,000** (100% approval) · **Golden Boot 2,000** (40 goals, one player) · **A Place Called Home 2,000** (80,000 capacity) · **Rise To The Top 1,500** (develop a player to 100).
 >
 > **A realistic three-month benchmark** [EV-454, C3]: maxed XI + 9 maxed subs, **1,472,836 online XP**, 57% win rate, **13 Tier 1 championships**, 149 gold medals, 987 Career + 1,086 Live games, 19 Legendary premierships.
 

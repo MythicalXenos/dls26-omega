@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-129 — 1,600 claims / 367 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-130 — 1,611 claims / 369 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,17 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**THE COACHING METHOD** [EV-467, C3] — how to spend coaches without wasting capacity:
+
+| Rule | Detail |
+|---|---|
+| **A breakthrough is a RISK** | *"You can't control when or where it applies, so if you get it to tackling when you're maxing a striker it can reduce total points available to the good stats."* A breakthrough on an unwanted stat **consumes development capacity** |
+| **Train ONE player at a time** | Chain Common coaches by category — all Technical to max the tech stats, then all Fitness — and save the single Rare for the stat that stalls |
+| **Prefer Common coaches for control** | With Rare/Legendary coaches *"you basically don't have any influence on what stats get picked"*, and a disappointing result costs thousands of gems to redo |
+| **Budget by weight, not by points** | **CON and SPE consume more development capacity than STA**, and the **+10 OVR cap is a 100% cumulative weight** — so a CON-heavy player eats the budget faster |
+| **Midfielders are the hardest build** | They *"always come out weirdly built"* — expect to compromise on one of CON / PAS / STA |
+| **Breakthrough percentages are unpublished** | The DLS20 baseline is Common 5% / Rare 10%; no DLS26 figures exist, only that Legendary has *"higher Breakthrough chances"* |
 
 **THE FORMATION RULE** [EV-464, C3] — there is no best shape, only failure modes:
 
@@ -417,4 +428,8 @@ The game is volatile; these are the only events that justify breaking the routin
 
 **COMMERCIAL FACILITY — spend here LAST** [EV-465, C3]: a **maxed** Commercial facility gives only about **6–20 extra coins per game**, so at 1,125 gems to max the payback runs to hundreds of matches. Three mutually exclusive curves are on record (13%/21%, 10%-at-L5, and sportsdunia's rejected 2/4/6/8/10%), but the magnitude is what matters. **Community priority: Training and Accommodation first, Commercial last.** The one dissenting voice argues the bonus rises to 30–50 coins per game in higher divisions.
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,600 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (367 records) at ckpt-129.*
+**ACHIEVEMENT COUNT (corrected, ckpt-130)** [EV-466, C2]: DLS26 is **40 achievements / 20,000 XP on Android** and **63 achievements / 13,483 EXP on iOS**. The 98,000 XP figure belongs to a Classic-era listing and must not be quoted as a DLS26 number. Every Android achievement is worth **500 XP**.
+
+---
+
+*End of operational rules. Authority: `kb/claims.jsonl` (1,611 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (369 records) at ckpt-130.*
