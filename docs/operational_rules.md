@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-147 — 1,784 claims / 387 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-148 — 1,802 claims / 388 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -486,6 +486,26 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **⚠️ THE SWITCHING DELAY:** *"a .5 to 2 second delay when switching,"* exploitable by sideways dribbling and C-spamming, and worse than DLS25 — against the December 2025 claim that auto-switch was fixed. **Switch early, not late.**
 - **Game Centre on iOS** surfaces achievements and friend leaderboards outside the game.
 - **Absent by public request** (documented negatives): home-and-away legs, player accessories, a home-and-away league format, Bundesliga/Ajax licences, a Player of the Season award, a DLS22-style news feed, fog/cloudy weather, post-match interviews, VAR, stand-decoration customisation, and animated training drills.
+
+### 3.15 The acquisition-route map [EV-486, C2/C3]
+
+| Route | Currency | Odds / guarantee |
+|---|---|---|
+| **Transfer market** | Coins | Refreshes every match; quality scales with rating |
+| **Common scout** (75c) | Coins ×2 | 93/5/2 — ordinary/talented/legendary |
+| **Rare scout** | Coins ×2 | 75/20/5 |
+| **Legendary scout** (500c) | Coins ×2 | 40/45/15 |
+| **Common agent** | Gems | **Guarantees** below 70 |
+| **Rare agent** | Gems | **Guarantees** 71–79 |
+| **Legendary agent** | Gems | **Guarantees** above 80 |
+| **Classic players** | Coins | On the transfer market, *besides the prize ladder* |
+| **Prize Ladder** | DP | First special player ≈ **50,000 DP**; 75–250 DP per match |
+| **Events / Season Pass** | Play or money | The main F2P special-player route |
+
+- **Scouts cost twice** (scout, then buy); **agents do not.**
+- **Coach farming:** buy under **180–210 coins**, release for Common coaches, **7:3 fitness-to-technical** for unmazed squads. Release an 80+ player for a Rare coach.
+- **Gems:** facilities and special-player training only. **Do not buy Legendary Agents.**
+- **⚠️ No derbies, no free agents.** A possible sixth facility (Recruitment Centre) is unverified.
 
 ---
 

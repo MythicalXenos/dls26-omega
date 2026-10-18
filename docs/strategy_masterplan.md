@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-147 — 1,784 claims / 387 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-148 — 1,802 claims / 388 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -236,7 +236,29 @@ This is the most operationally important layer in the game, and almost every gui
 - **Legendary players** appear individually or as **Top Picks**, and land in the **~1,500–2,800 coin** band once your rating attracts interest.
 - **CLASSIC PLAYERS ARE ON THE TRANSFER MARKET TOO** [EV-485, C2]: *"besides the prize ladder, Classic Players will also be available on the Regular Transfer Market"*, bought with **coins**. The corpus previously treated the Prize Ladder as the only Classic route — **it is not.** If a Classic you want is not on the current ladder, check the market before spending gems on agents.
 - **The squad cap does not count special or classic players** [EV-485, C2] — three independent sources confirm *"all the new classic and star players will not be counted towards the main squad size."* Collect them freely.
-- **Scouts:** Common 75 coins, Legendary 500 coins. The Common's 5% legendary chance is good early value.
+- **Scouts:** Common 75 coins, Legendary 500 coins. The Common's legendary chance is **2% per one source and 5% per another** — unresolved, and the difference decides whether Common scouts are worth 75 coins.
+
+**THE PROBABILITY LADDERS** [EV-486, C3] — the only complete figures on record:
+
+| Tier | Ordinary | Talented | Legendary (80+) |
+|---|---|---|---|
+| **Common scout** | 93% | 5% | **2%** |
+| **Rare scout** | 75% | 20% | **5%** |
+| **Legendary scout** | 40% | 45% | **15%** |
+
+**Agents guarantee their band instead of rolling for it:** Common = one ordinary player (below 70) · Rare = one talented player (71–79) · Legendary = one legendary player (above 80). **And agents skip the second purchase** — *"agents allow you to get players directly without having to buy them again"*, whereas a scout costs twice (once to scout, once to buy).
+
+> **The efficiency case, as arithmetic:** *"12 Common scouts would involve an investment of 900 coins while on the other hand, 6 legendary scouts would eat up 3000 coins"* for the same legendary player.
+
+**THE COACH-FARMING LOOP, with its price band** [EV-486, C2]: *"Buy players under 180-210 coins and release for common coaches."* For unmazed squads, use **a 7:3 fitness-to-technical ratio**, then redo the players that end up badly after maxing. **What you get back is set by what you release:** an 80+ player yields a **Rare** coach, a sub-80 yields a **Common**, and a special player yields a **Special** coach. Goalkeeping coaches touch **only GKR and GKH**; Special coaches work **only on special players**.
+
+**THE GEM RULE** [EV-486, C3]: *"Avoid spending gems on anything other than upgrading facilities or training special players."* As a starter, *"aim to buy players rated 68 or above."*
+
+**THE CARD COLOUR TAXONOMY** [EV-486, C3] — worth knowing before you read any guide: **gold** = standard (better odds as you sign better players) · **black** = legends (Prize Ladder, a set window, usually ~80 days) · **purple** = Dream Stars (summer event) · **blue** = Champions (*"the most luck/p2w ones"*) · **orange** = maxed gold players.
+
+**THE DREAM POINTS ECONOMY** [EV-486, C2]: **75–250 DP per match** depending on performance, with boost items at **+50%, +70% and +150%** and post-match ads for more. The **first Prize Ladder special player costs ~50,000 DP**.
+
+> **⚠️ NO DERBIES AND NO FREE AGENTS** [EV-486, C2 — documented negatives]. Fixtures carry no rivalry weighting, and *"free transfers"* are only your own released players reappearing — there is no unattached-player pool. **A possible sixth facility (a Recruitment Centre that discounts scouts and agents) is flagged for device verification, not adopted.**
 - **Release yields coaches, not coins** — this *is* the coach-farming loop.
 - **Ignore the "rename your manager" trick.** One thread claims renaming your manager and nationality to a target player's makes them appear in 20–40 matches; the poster themselves states some say it works and others that it doesn't. **Speculative (C4) — do not plan around it.**
 

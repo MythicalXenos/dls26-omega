@@ -1,20 +1,20 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:15:46Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1784**
-Distribution: Confirmed 382 / High Confidence 779 / Community Consensus 586 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **449**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:18:30Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1802**
+Distribution: Confirmed 383 / High Confidence 787 / Community Consensus 595 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **450**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 121 |
-| facilities | 94 |
-| gameplay | 66 |
+| economy | 124 |
+| facilities | 95 |
+| gameplay | 67 |
 | dll | 65 |
+| transfers | 57 |
+| cards | 56 |
 | clans | 56 |
-| cards | 55 |
-| transfers | 51 |
 | career | 48 |
 | controls | 41 |
 | training | 40 |
@@ -37,6 +37,7 @@ Distinct evidence records cited: **449**.
 | stadium | 15 |
 | customisation | 13 |
 | formboost | 12 |
+| coaching | 11 |
 | goalkeeping | 11 |
 | onboarding | 11 |
 | ui | 11 |
@@ -45,10 +46,9 @@ Distinct evidence records cited: **449**.
 | match | 10 |
 | social | 10 |
 | medical | 9 |
-| coaching | 8 |
+| negatives | 9 |
 | skillmoves | 8 |
 | squad | 8 |
-| negatives | 7 |
 | physio | 7 |
 | difficulty | 6 |
 | monetization | 6 |
@@ -70,12 +70,12 @@ Distinct evidence records cited: **449**.
 | injuries | 3 |
 | multiplayer | 3 |
 | scenarios | 3 |
+| sources | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
 | matchcraft | 2 |
 | shooting | 2 |
-| sources | 2 |
 | anticheat | 1 |
 | benchmark | 1 |
 | bugs | 1 |
@@ -474,6 +474,7 @@ Distinct evidence records cited: **449**.
 | CLAIM-173 | Coaches are divided into FOUR categories: Fitness (boosts SPE/ACC/STA/STR), Technical (boosts CON/PAS/SHO/TAC), Goalkeeping (boosts GKR/GKH), Speci... | Confirmed | unscoped | EV-274,EV-271 |
 | CLAIM-1733 | THE OFFICIAL 11-LAYER KIT TEMPLATE MAP: 1 = shirt body, 2 = shirt sleeves short, 3 = shirt sleeves long, 4 = socks, 5 = shorts, 6 = club badge, 7 =... | Confirmed | customisation/official-11-layer-template-map | EV-482 |
 | CLAIM-1734 | CRITICAL KIT RULE: 'The logos are added to the shirt from the .png, and if none are specified then none will display' - a kit whose badge region is... | Confirmed | customisation/empty-badge-region-shows-nothing | EV-482 |
+| CLAIM-1806 | playdreamleaguesoccer.com is REJECTED FOR THE FIFTH TIME: it publishes fabricated statistics - '12.5% average pull rate for a Special Player from a... | Confirmed | sources/playdreamleaguesoccer-rejected-fifth-time | EV-486 |
 | CLAIM-193 | DLS26 is FIFPRO-licensed with over 4,000 real players + legendary Classic greats (store description and APKMirror listing both confirm '4,000+ FIFP... | Confirmed | unscoped | EV-276,EV-272 |
 | CLAIM-202 | Squad size evolution: DLS25 increased squad from 40→64 players (Dec 2024 press release). DLS26 launches with 64-player base; Summer Spotlight remov... | Confirmed | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-204 | DLS25 major features (5 Dec 2024 launch): Classic Players returning (opening set World Cup 1998 Classics); Portuguese commentary (third language; S... | Confirmed | unscoped | EV-280 |
@@ -1116,6 +1117,14 @@ Distinct evidence records cited: **449**.
 | CLAIM-1785 | Special and classic players do NOT count toward the squad cap, corroborated by three sources: v13.040's 'unlimited special players in your club', '... | High Confidence | facilities/special-players-excluded-from-cap | EV-485 |
 | CLAIM-1786 | DOCUMENTED NEGATIVES FROM THE PUBLIC WISH-LIST - features players are asking FTG to add, and therefore DLS26 does not have: home-and-away legs in t... | High Confidence | negatives/wish-list-absent-features | EV-485 |
 | CLAIM-1787 | DLS26's player models include new faces for stars such as Florian Wirtz, with 'improved 3D motion capture, hyper-realistic player models, dynamic l... | High Confidence | presentation/new-player-models | EV-485 |
+| CLAIM-1790 | Scouts cost twice - 'By scouting, we find two chosen players and spend coins twice' (once to scout, once to buy) - whereas agents 'allow you to get... | High Confidence | transfers/scouts-cost-twice-agents-dont | EV-486 |
+| CLAIM-1792 | Scout costs: Common 75 coins, Legendary 500 coins. The efficiency case: '12 Common scouts would involve an investment of 900 coins while on the oth... | High Confidence | transfers/scout-cost-efficiency | EV-486 |
+| CLAIM-1794 | THE COACH-FARMING LOOP: 'Buy players under 180-210 coins and release for common coaches.' For unmazed squads use 'a 7:3 ratio fitness to techs', th... | High Confidence | coaching/coach-farming-loop | EV-486 |
+| CLAIM-1795 | THE RELEASE-TO-COACH MAPPING: releasing an 80+ player yields a Rare coach, a sub-80 player yields a Common coach, and a special player yields a Spe... | High Confidence | coaching/release-to-coach-mapping | EV-486 |
+| CLAIM-1796 | Goalkeeping coaches only upgrade GKR and GKH - they touch nothing else. Special coaches work only on special players (Prize Ladder players such as ... | High Confidence | coaching/goalkeeping-and-special-coach-scope | EV-486 |
+| CLAIM-1800 | THE DREAM POINTS ECONOMY: 75 to 250 DP per match depending on performance, with boost items at +50%, +70% and +150% and post-match ads for more. Th... | High Confidence | economy/dream-points-per-match | EV-486 |
+| CLAIM-1802 | DOCUMENTED NEGATIVE - **THERE ARE NO DERBIES.** No source describes a rivalry, derby or local-opponent system; fixtures are generated without rival... | High Confidence | negatives/no-derbies | EV-486 |
+| CLAIM-1803 | DOCUMENTED NEGATIVE - **THERE ARE NO FREE AGENTS.** 'Free transfers' are only your own released players reappearing in the release area; there is n... | High Confidence | negatives/no-free-agents | EV-486 |
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
@@ -1750,8 +1759,17 @@ Distinct evidence records cited: **449**.
 | CLAIM-1781 | CONFLICT - the auto-switch delay: dlsmod reported in December 2025 that the auto-switch bugs 'have been solved as of now', while a September 2026 r... | Community Consensus | controls/auto-switch-fix-conflict | EV-485 |
 | CLAIM-1784 | A brand-new VOLLEY SKILL MOVE was teased for DLS26 pre-launch, alongside a redesigned stadium with enhanced lighting, a new camera operator hinting... | Community Consensus | skillmoves/new-volley-teased | EV-485 |
 | CLAIM-1788 | Kick-Off Stars 'are available during special periods, giving early access to headline players for starting matches' - a timed early-access card win... | Community Consensus | events/kick-off-stars-early-access | EV-485 |
+| CLAIM-1789 | THE SCOUT PROBABILITY LADDER: Common = 93% ordinary / 5% talented / 2% legendary (above 80) · Rare = 75% / 20% / 5% · Legendary = 40% / 45% / 15%. | Community Consensus | transfers/scout-probability-ladder | EV-486 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
+| CLAIM-1791 | THE AGENT TIER LADDER: Common = one chosen ordinary player (below 70) · Rare = one chosen talented player (71-79) · Legendary = one chosen legendar... | Community Consensus | transfers/agent-tier-ladder | EV-486 |
+| CLAIM-1793 | CONFLICT - the Common scout's legendary chance is 2% (rajatips) against 5% (gamingonphone, and the corpus's earlier note). Unresolved; the differen... | Community Consensus | transfers/common-scout-legendary-chance-conflict | EV-486 |
+| CLAIM-1797 | THE GEM-SPENDING RULE: 'Avoid spending gems on anything other than upgrading facilities or training special players.' As a starter, 'aim to buy pla... | Community Consensus | economy/gem-spending-rule | EV-486 |
+| CLAIM-1798 | THE CARD COLOUR TAXONOMY: gold = standard players (obtainable by everyone, better odds as you sign better players) · black = legends (Prize Ladder,... | Community Consensus | cards/colour-taxonomy | EV-486 |
+| CLAIM-1799 | THE MANAGER-NAME METHOD IN FULL: reach a team rating of 75+ (preferably 82+), set your manager name to the target player's name, set your manager n... | Community Consensus | transfers/manager-name-method-full | EV-486 |
 | CLAIM-180 | Daily Scenarios mode places player in a comeback situation vs Hard AI; completion rewards 50 coins per day; scenario resets daily. | Community Consensus | unscoped | EV-270 |
+| CLAIM-1801 | OWN GOALS EXIST IN DLS26 - a player made a video specifically about scoring as many as possible and asks 'is there a limit?', confirming the mechan... | Community Consensus | gameplay/own-goals-exist | EV-486 |
+| CLAIM-1804 | A POSSIBLE SIXTH FACILITY: bluestacks lists a 'Recruitment Centre' that 'provides discounts when you hire scouts and agents', alongside Stadium, Me... | Community Consensus | facilities/possible-recruitment-centre | EV-486 |
+| CLAIM-1805 | THE F2P SPECIAL-PLAYER PATH: 'they always give you a free one then the next one, they charge us, so our best hope as PLAY to WIN players is the sea... | Community Consensus | economy/f2p-special-player-path | EV-486 |
 | CLAIM-181 | Global Challenge Cup (online round-robin under Career section) awards 10 Gems per round cleared; resets on a regular schedule. | Community Consensus | unscoped | EV-270 |
 | CLAIM-183 | Dream Points per match are capped at a 5-0 win margin; goals beyond the 5th do not increase DP awarded. | Community Consensus | unscoped | EV-275 |
 | CLAIM-184 | DP Boost gem costs and durations (community reports): Common +50% = 25 gems / 3 matches; Rare +75% = 35 gems / 5 matches; Legendary +150% = 125 gem... | Community Consensus | unscoped | EV-275,EV-274 |
