@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-092 (`6f8e239`) — 1,311 claims / 339 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-094 (`ab32028`) — 1,333 claims / 341 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -136,6 +136,43 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 - A full max costs roughly **32,000 coins with Commons** (~400 coins × ~80 coaches; each player has ~80 upgrade points) or **~30,000 coins with Rares** (~1,500 coins × ~20 coaches); 80-rated defenders are available from ~1,460 coins [EV-433, C3]
 
 **Ratios:** **7:3 fitness-to-tech** for non-maxed teams; **90:10** when chasing speed first [EV-433, C3].
+
+### 4.1 The complete coach model [EV-439, C2]
+
+**Point delivery** — this is the table that decides everything:
+
+| Coach | Effect | Gem cost (maxed Training) | Points | Gems/point |
+|---|---|---|---|---|
+| **Common** | 1 random stat **+1** | 17 | +1 | 17 |
+| **Rare** | 2 random stats **+2 each** | 52 | +8 | 6.5 |
+| **Legendary (fitness)** | 3 random stats **+3 each** | 157 | **+27** | **5.8** |
+| **Legendary (Special)** | you **choose** the stat | 280 | +12 | 26.25 |
+
+- **Goalkeeping coaches touch only GKR and GKH**: Legendary +3 to both, Rare +2 to one, Common +1 to one. **Use a Legendary GK coach only if GKR > GKH** — this independently confirms the GKR ≥ GKH rule.
+- **Rare coaches in coins:** +8 points for **1,535 coins = 192 coins per point** — the exact maths behind "buy 80-rated defenders at 1,535 coins".
+- **Legendary vs Rare trade-off:** for 225 gems, Legendary gives +27 points and Rares give +24. Legendary wins on raw points; **Rare wins on controllability**.
+- **Capacity:** each player has ~**80–81 upgrade points** (~90 Common coaches to max), each OVR point ≈ **8 stat points**, and **STR and CON count ×2** for most positions except wingers.
+- **Build time:** a 23-man squad took one player **about half a year**.
+- **Breakthrough:** 5% / 10% / 20% (Common/Rare/Legendary, DLS20 baseline). Rarity affects **only** the breakthrough chance, never the cap.
+
+**Special Coaches — the only coaches where you choose the stat:**
+
+| | Price | Points | Gems/point |
+|---|---|---|---|
+| Common | 63 gems | 2 | 31.5 |
+| Rare | 168 gems | 6 | 28 |
+| Legendary | 280 gems | 12 | **23.33** |
+
+The game offers **2 randomised options (one fitness, one technical)** and you pick one.
+
+**Two techniques worth memorising:**
+
+1. **The Legendary Scout trick** — keep at least one Legendary Special coach. It **reveals the next four upgradable stats**, and you can **cancel and use a different coach without consuming it**. This turns your most expensive coach into a free scouting tool.
+2. **The clearing method** — open with a Legendary Special coach and inspect the first three stats. If all are desirable, follow with Rares. If unwanted stats appear (tackling for strikers, strength for wingers), use **Common** Special coaches to clear them, because commons add fewer points — then switch back to Rare/Legendary and repeat. Simpler variant: *always* use a Common if either offered stat is wrong.
+
+**Cost to max one special player:** ~7.5 Legendary Special Coaches ≈ **2,100 gems** (15 Rares = 2,520). Conflict C-020 records a 6–7 coach and a 2,100–2,835 gem alternative.
+
+**Where the 12th Man fits:** it is the **community-voted final Dream Star** [EV-438, C1]. FTG publishes the Dream Stars squad from real-world season performances (vote in v13.100/13.110, winner added v13.120 on 25 Mar 2026, Dream Stars 2026 in v13.130), and Dream Stars come from **Dream Star Agents**. FTG has never named the winner, so treat it as an event to watch rather than a card to plan around. Vozinha's "(12th Man)" label in the Cult Heroes datamine is most likely a **card type**, not the vote winner — do not conflate the two.
 
 **To isolate one player:** you need a fully maxed team, or a squad of goalkeepers plus that single outfield player [EV-433, C3].
 
@@ -286,15 +323,16 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | 1 | **Fanzone per-level costs** | Unknown gem commitment for the newest facility | Never published. Function confirmed (clan bonuses + stadium discounts) [C1] |
 | 2 | **Form Boost duration per Training level** | Cannot price the Training facility's real value | Mechanic officially confirmed; **numbers never published** [EV-428, C1] |
 | 3 | **Medical per-tier % beyond L1** | Cannot optimise the injury economy | Only L1 (−5% injury / −10% heal cost) sourced; later tiers described qualitatively only [C2] |
-| 4 | **Post-DLS25 coach breakthrough %** | Coach packs priced off a DLS20 baseline (5/10/20) | Baseline only [C2] |
+| 4 | **Post-DLS25 coach breakthrough %** | Coach packs priced off a DLS20 baseline | 5/10/20 confirmed as the DLS20 baseline; post-DLS25 figures unconfirmed [C2] |
 | 5 | **Fan Approval mechanics** | Blocks the last stretch to 100% club value | Only the 75%/100% milestones known |
 | 6 | **GCC format** (C-013) | One cup's structure unclear | OPEN conflict |
 | 7 | **LIVE rank names above "Veteran"** | Cannot name the top rank | Names known to Veteran only [C2] |
-| 8 | **12th Man winner identity** | A named card (Vozinha) is now a strong lead | Vozinha flagged 12th Man in the v13.430 datamine [EV-430, C3] |
+| 8 | **12th Man winner identity** | A mechanic to watch each season | MECHANIC CLOSED (community-voted final Dream Star, EV-438 C1); FTG never names the winner |
 | 9 | **Cult Heroes OVR conflict** (C-018) | 92 vs 95 on the four 85-rated heroes | OPEN |
 | 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | OPEN |
 | 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 vs 4-4-2 | OPEN — a genuine live disagreement, not an error |
 | 12 | **Commercial bonus curve** (C-019) | 13%/21% vs "10% at L5, biggest FTG scam" | OPEN |
+| 13 | **Special player max cost** (C-020) | 2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835 | OPEN — plan on 2,100 gems |
 
 **Step 2 (static APK datamining)** remains postponed pending user direction. It is the only route that would close gaps 1, 2, 3, 4 and 5 definitively, because all five are numeric tables inside the game data.
 
