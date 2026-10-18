@@ -1,19 +1,19 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:32:59Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1969**
-Distribution: Confirmed 391 / High Confidence 833 / Community Consensus 698 / Speculative 46 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **462**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:35:57Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1981**
+Distribution: Confirmed 391 / High Confidence 838 / Community Consensus 703 / Speculative 48 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **463**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 135 |
-| facilities | 108 |
+| facilities | 112 |
 | gameplay | 72 |
-| dll | 68 |
-| transfers | 67 |
-| cards | 63 |
+| dll | 69 |
+| transfers | 68 |
+| cards | 64 |
 | clans | 57 |
 | career | 48 |
 | controls | 43 |
@@ -22,9 +22,9 @@ Distinct evidence records cited: **462**.
 | setpieces | 39 |
 | cups | 38 |
 | coaches | 37 |
+| errata | 37 |
 | prizeladder | 37 |
 | attributes | 34 |
-| errata | 34 |
 | coaching | 33 |
 | platform | 31 |
 | tactics | 30 |
@@ -33,8 +33,8 @@ Distinct evidence records cited: **462**.
 | presentation | 25 |
 | modes | 24 |
 | goalkeeping | 22 |
+| stadium | 20 |
 | customisation | 19 |
-| stadium | 18 |
 | account | 17 |
 | stamina | 17 |
 | achievements | 16 |
@@ -1186,6 +1186,11 @@ Distinct evidence records cited: **462**.
 | CLAIM-1961 | THE 12TH MAN WAS ADDED TO THE COLLECTION, per the official version history: 'The DLS community has voted, and we've added this extra superstar to t... | High Confidence | 12thman/added-to-collection-confirmed | EV-497 |
 | CLAIM-1964 | METHODOLOGY FINDING - THE 'DREAM LEAGUE' NAME IS CONTAMINATED BY ANOTHER GAME. Searching 'Dream League' does not search Dream League Soccer: it sea... | High Confidence | errata/dream-league-name-contamination | EV-498 |
 | CLAIM-1967 | THE RANK LADDER BELOW VETERAN IS CORROBORATED A SECOND TIME, and independently: Exophase's achievement list is Google Play's own achievement data r... | High Confidence | dll/rank-ladder-below-veteran-second-source | EV-498 |
+| CLAIM-1974 | THE STADIUM BUILD-ORDER RULE, new to the corpus: '**If you cannot afford to build it at once, build each time one (or more) of the 8 side directly ... | High Confidence | stadium/build-order-partial-stand-penalty | EV-499 |
+| CLAIM-1975 | THE NAMED OPTIMAL STADIUM BUILD, reaching the 52-coin maximum at minimum cost: **North 20 · North East 49 · East 26 · South East 45 · South 20 · So... | High Confidence | stadium/named-optimal-build | EV-499 |
+| CLAIM-1976 | THE TRAINING FACILITY'S PER-LEVEL GEM DISCOUNT: **level 1 = 5% off gems, level 2 = 10%, level 3 = 15%** - and 'not much of a difference from gems b... | High Confidence | facilities/training-discount-ladder | EV-499 |
+| CLAIM-1977 | THE TRAINING FACILITY UNLOCKS FORMATIONS IN GROUPS: 'LEVEL 1... gives you **a group of formations** you can choose from' - 'LEVEL 2... gives you **... | High Confidence | facilities/training-formation-groups | EV-499 |
+| CLAIM-1978 | THE PRICED TRAINING DECISION, which converts the corpus's 'Training is the priority facility' into a rule: '**this is also a great level to stay at... | High Confidence | facilities/training-priced-decision | EV-499 |
 | CLAIM-199 | Watching a 30-second ad after a match DOUBLES coin earnings for that match; available once per match (BlueStacks says once per match, FAQ suggests ... | High Confidence | unscoped | EV-270 |
 | CLAIM-200 | Physios are a third permanent development/resourcing item (alongside Coaches and Players), hired with COINS (not gems), used to restore player ener... | High Confidence | unscoped | EV-278 |
 | CLAIM-201 | Facilities (six types, corrected from prior 5): Stadium (match coin bonus ∝ capacity, home-match income), Medical Centre (reduces injury chance, lo... | High Confidence | unscoped | EV-278,EV-256,EV-270,EV-272 |
@@ -1940,7 +1945,12 @@ Distinct evidence records cited: **462**.
 | CLAIM-197 | Cult Heroes is an upcoming Special Player collection announced in v13.420/v13.430 (Sep 2026) but not yet released as of 13.430 (16 Sep 2026). | Community Consensus | unscoped | EV-276,EV-272 |
 | CLAIM-1970 | CARD-INFLATION COMPLAINT, useful for recruitment: '**Dembele's 86 rated card is no different from his 85 rated card**, just a +3 overall increase i... | Community Consensus | cards/plus-one-ovr-near-identical | EV-498 |
 | CLAIM-1972 | THE NAMED SPECIAL CARDS, corroborated from the player database: **World Winners** Marc Cucurella 85 LB · **World Heroes** Lionel Messi 87 SS · **Te... | Community Consensus | cards/named-special-cards-corroborated | EV-498 |
+| CLAIM-1979 | CONFLICT ON THE DISCOUNT LADDER: the corpus carries CLAIM-177 - 'Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5%... | Community Consensus | errata/training-discount-ladder-conflict | EV-499 |
 | CLAIM-198 | 120Hz display frame-rate stabilization/polish added in August 2026 update. | Community Consensus | unscoped | EV-272 |
+| CLAIM-1980 | A MINORITY FACILITY POSITION worth holding: 'the **only facilities worth your gems are the Accommodation and Training facilities**. You should only... | Community Consensus | facilities/minority-position-accommodation-and-training-only | EV-499 |
+| CLAIM-1981 | THE RANK-NAMES RETRY: the search for LIVE rank names above Veteran was re-run with 'soccer' in the query, per the wave-85 contamination rule. **It ... | Community Consensus | dll/rank-names-retry-negative | EV-499 |
+| CLAIM-1983 | A NEW PLAYER-RATING INDEX: dlsgame.net publishes a full DLS26 player index with ratings and positions - Kvaratskhelia 84 LW, Saliba 84 CB, Bruno Fe... | Community Consensus | transfers/dlsgame-player-index | EV-499 |
+| CLAIM-1985 | Marcel Desailly is confirmed as a **Classic at 85 CB**, consistent with the Italian League Classics on the current Prize Ladder - and Desailly was ... | Community Consensus | cards/desailly-classic-85 | EV-499 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
@@ -2062,6 +2072,8 @@ Distinct evidence records cited: **462**.
 | CLAIM-1963 | VERSION-ATTRIBUTION NOTE: the App Store's 13.110 block carries 'Increased squad size - Now with unlimited special players in your club', while the ... | Speculative | errata/unlimited-specials-version-attribution | EV-497 |
 | CLAIM-1971 | A second recruitment caution from the same thread: 'Pedri played a grand total of 5 games as an AM in the 24/25 season... what is FTG smoking??' - ... | Speculative | cards/ftg-position-assignments-wrong | EV-498 |
 | CLAIM-1973 | A FOURTH REJECTED SPORTSDUNIA TABLE - a best-players list. Recorded so the rejection count is accurate, while noting that its figures happen to cor... | Speculative | errata/sportsdunia-fourth-table-rejected | EV-498 |
+| CLAIM-1982 | A SECOND CORRUPTED FANDOM PAGE: dream-league-soccer.fandom.com/wiki/Classic_Players lists Lev Yashin at '**0 Overall**' and Paolo Maldini and Franz... | Speculative | errata/fandom-classic-players-page-corrupted | EV-499 |
+| CLAIM-1984 | A MINOR RATING CONFLICT: z2u.com puts Lamine Yamal at **86**, where every other source has him at 85. z2u is a marketplace site with no editorial s... | Speculative | errata/yamal-86-outlier | EV-499 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

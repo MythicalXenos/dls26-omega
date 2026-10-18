@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-161 — 1,969 claims / 400 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-162 — 1,981 claims / 401 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -562,6 +562,8 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 
 - **Uniform cost ladder, second source:** **75 / 150 / 225 / 300 / 375 gems** = 1,125 per facility. **Accommodation alone has TEN levels** (75–750 = 4,125 gems).
 - **Priority order:** Stadium → Training → Accommodation → Commercial → Medical → Recruitment.
+- **Training's priced decision** [EV-499, C2]: each level unlocks a **group of formations**, and the gem discount is **5% / 10% / 15% at levels 1 / 2 / 3**. **Stay at level 1 if maxing with coins** — which is the F2P case — and reach level 5 only if maxing with gems. A corpus conflict is recorded: a six-level 0/5/10/15/20/30% ladder cannot coexist with the confirmed five-level price ladder.
+- **Stadium build order** [EV-499, C2]: build each stand **directly to its optimal level in one purchase** — a partial stand costs full price to complete. Skip roofs (costly optics). Optimal: N20 / NE49 / E26 / SE45 / S20 / SW49 / W26 / NW49 for ~10,000 coins and the 52-coin maximum.
 - **Why:** 1,125 gems ≈ **2.5 maxed players** (~450 gems each). Commercial at max pays only **10–20 coins a match** (it gave ~50% in DLS20/21).
 - **Medical L1:** −10% healing cost, −5% injury chance; maxed makes physio trips *"super cheap."*
 - **Commercial L1:** +6% match winnings; it also discounts **kits, logos AND scouts**; **L3 removes stadium rust**.

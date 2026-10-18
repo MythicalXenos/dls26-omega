@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-161 — 1,969 claims / 400 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-162 — 1,981 claims / 401 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -197,6 +197,8 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 **The build order is arithmetic, not folklore** [EV-460, C2/C3]. The stadium is **8 sectors** — 2 Ends, 2 Sides, 4 Corners — each upgraded independently, and each has its own seat ladder: **Ends** 22 levels (1,323 → 9,722 seats) · **Sides** 29 levels (1,908 → 14,128) · **Corners** 43 levels (0 → 10,692). All costs are in **coins**, not gems — which is why the stadium is a *coin* project while the facilities are a *gem* project.
 
 - **Corners are the cheap seats.** Corner 7 costs about **100 coins for 722 seats**; Corner 11 adds 1,264 for about 130. Corner stands deliver the most seats per coin by a wide margin.
+- **⚠️ BUILD EACH STAND TO ITS OPTIMAL LEVEL IN ONE PURCHASE** [EV-499, C2]: *"If you cannot afford to build it at once, build each time one (or more) of the 8 side directly to its optimal level (eg North directly to 20)... **If you build a side only partially, the next time you will have to pay the full price to complete it.**"* A half-built stand is a trap — it must be finished in one go or you pay twice. And **skip the roofs**: *"No need to have roofs, it's only costly optics."*
+- **The named optimal build** [EV-499, C2] — a concrete order for the whole project: **North 20 · North East 49 · East 26 · South East 45 · South 20 · South West 49 · West 26 · North West 49**, which reaches the 52-coin maximum *"at minimum cost (slightly more than 10000 coins)."* Each stand costs 900–1,300 coins when built straight to its target.
 - **Never upgrade the same stand twice** — *"if you build a side only partially, the next time you would have to pay the full price to complete it."*
 - **Max one stand at a time**, from the **lowest capacity stand to the highest**, and **leave one corner stand un-upgraded** — 7 maxed stands reach the top-division requirement; 8 overshoot it.
 - **Never buy a roof on the highest level** — *"on the highest number you're paying for the roof and no extra seats."*
@@ -269,6 +271,8 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 **The uniform cost ladder, now confirmed by a second independent source:** **75 / 150 / 225 / 300 / 375 gems** for levels 1–5, so **1,125 gems per facility**. Two sources quote the identical numbers.
 
 **Accommodation is the only facility with more than five levels — it has ten** (75, 150, 225, 300, 375, 450, 525, 600, 675, 750 = **4,125 gems**), because squad size is the one benefit that keeps scaling.
+
+**The Training facility's real ladder** [EV-499, C2] — and it converts the "Training is the priority" claim into a priced decision. **Each level unlocks a GROUP of formations** (level 1 gives one group, level 5 gives *"every group of formations in the game"*), and the gem discount is **5% at level 1, 10% at level 2, 15% at level 3**, flattening after that. The guidance that follows from it: *"this is also a great level to stay at if you're deciding to **use coins and coaches** to max players instead of gems"*, while level 5 *"is only ideal if you plan on maxing your team with **only gems**."* **So on the F2P route — where a max costs ~32,000 coins — Training level 1 is enough, and level 5 is a gem-spender's purchase.** There is also a **conflict to note**: the corpus carries a six-level 0/5/10/15/20/30% discount ladder, which cannot coexist with the twice-confirmed five-level 75 × N price ladder; the level attribution above matches the price ladder and is the one to plan on.
 
 **The ranked priority order** [C3], and the arithmetic that justifies it:
 
