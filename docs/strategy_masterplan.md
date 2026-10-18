@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-112 (`ad38d20`) — 1,448 claims / 352 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-115 (`5e075f4`) — 1,460 claims / 353 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -16,6 +16,8 @@ The mission target is **#1 in Dream League Live**. Two facts fix the definition:
 | The DLL tier ladder is **numeric 20 (bottom) → 1 (top)**, with "Tier 1 Champion" the ceiling. | EV-431/432 / r/DLS 1qz14ir | 3 |
 
 > **DECISION:** The operational target is **Tier 1 Champion in the player's own region** (Asia/Dhaka → the SEA/Asia pool), sustained across multiple seasons. A true global #1 surface is not exposed in DLS26; treating "global #1" as the goal would be chasing a metric the game does not publish.
+
+**A third fact, discovered later in the sweep, confirms this from the matchmaking side** [EV-451, C2]: your Live **seed** is set by your **region and the time you started your account**. Seeds divide the player base into small packets so the matchmaker never scans the world — which is why accounts created years apart still meet in Live, and why your realistic competition is always your own regional pool.
 
 This matters because it changes the optimisation target: **the leaderboard rewards performance (XP and results), not squad value.** A world-record run reached Tier 1 Champion with a *mostly common/rare team* — 16 days, 12 games, 110 wins, 10 losses, 1 draw, 145,296 XP, starting deliberately from tier 20 [EV-432, C3].
 
@@ -482,6 +484,24 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 | **Dream Stars / 12th Man** | Dream Stars from real-world season performances; the 12th Man is the **community-voted extra slot** | FTG never names the winner — treat as an event to watch, not a card to plan around |
 
 > **Practical takeaway:** because Legendary Agents can yield World Heroes, and Dynamic Star Agents come from event draws and Season Passes, **agents are a second acquisition lane parallel to the Prize Ladder.** Do not spend gems on agents you don't need, but do not ignore the free ones either.
+
+---
+
+### 5.1 The social and matchmaking layer [EV-451, C1/C2]
+
+**Friend Match** (official): enter any code, share it, your opponent enters the same code, both tap OK. Two things to know:
+- Codes may only contain **A-Z, 0-9 and the hyphen**, and FTG warns to pick a unique one — *a code already in use can see you joining the wrong match.*
+- **If either side disconnects, the game awards a 3-0 win to the player with the more stable connection.** A weak connection hands your opponent a win rather than merely failing the match.
+
+**Adding friends** uses a **closed internal system** — no username search, no social-media linking. You generate a code from your profile, and it **expires after 5 minutes**.
+
+> **Practical warning:** a popular code like `12345` will match you against a **random** player, not your friend. The code is a shared lobby key, not a private invitation.
+
+**Clan 1v1** requires both players in the **same clan**: DLL → Clan → select the member.
+
+**The unlock:** Dream League Live and Friend Match open after **six Career matches** [C-025 — one guide self-contradicts with three; plan for six].
+
+**Connection requirements** (official): DLS has low bandwidth needs but is **sensitive to high latency and packet loss**, so cellular and satellite connections can fail despite good bandwidth. **No co-op exists.** Summer Spotlight added a **Player Recovery** feature — officially confirming the recovery tab behind the gacha method in §6.2.
 
 ---
 
