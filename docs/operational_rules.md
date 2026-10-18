@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-180 — 2,224 claims / 419 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-181 — 2,232 claims / 420 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -180,6 +180,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **PAS governs charge time** | A low-PAS player must STOP to make a clean B-pass; ~90% of defenders are poor passers [EV-514, C3] |
 | **Dribble at the defender's planted foot** | The far side is his weak side; worth ~0.5–1s and a yard of space [EV-500, C3] |
 | **Auto-switch off is a top-of-the-ladder setting** | Manual switching is right at Tier 1 and costly below Tier 14 — practise in Career first [EV-500, C3] |
+| **⚠️ Auto-switch is BLOCKED while you hold B** | Release B and it switches; hold B and switching is manual. That reconciles the three auto-switch positions [EV-518, C3] |
+| **Auto-switch mode trade-off** | High = collects deflections but runs your defender the wrong way · Low = best compromise, sometimes late · Off = deflections unrecoverable [EV-518, C3] |
 | **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
 | **CB pace outranks CB tackling** | "The most recurring occasion in DLS where a CB chases a forward" - a slow CB is a liability regardless of his tackling [EV-503, C3] |
 | **Against long-ball spam, play a low fullback at CB** | The personnel counter to the long ball, alongside the C-spam and wing-spam shape counters [EV-503, C3] |

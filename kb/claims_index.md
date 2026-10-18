@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T08:36:15Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2224**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 915 / Speculative 70 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **481**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T08:49:55Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2232**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 921 / Speculative 72 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **482**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -18,7 +18,7 @@ Distinct evidence records cited: **481**.
 | clans | 65 |
 | setpieces | 60 |
 | errata | 58 |
-| controls | 52 |
+| controls | 56 |
 | prizeladder | 48 |
 | coaching | 43 |
 | patching | 42 |
@@ -30,10 +30,10 @@ Distinct evidence records cited: **481**.
 | events | 34 |
 | platform | 32 |
 | customization | 29 |
+| presentation | 27 |
 | stamina | 26 |
 | achievements | 25 |
 | modes | 25 |
-| presentation | 25 |
 | goalkeeping | 23 |
 | stadium | 23 |
 | account | 19 |
@@ -44,6 +44,7 @@ Distinct evidence records cited: **481**.
 | formboost | 13 |
 | negatives | 13 |
 | ui | 12 |
+| settings | 11 |
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
@@ -52,7 +53,6 @@ Distinct evidence records cited: **481**.
 | skillmoves | 10 |
 | social | 10 |
 | squad | 10 |
-| settings | 9 |
 | 12thman | 8 |
 | injuries | 8 |
 | scenarios | 8 |
@@ -2184,6 +2184,12 @@ Distinct evidence records cited: **481**.
 | CLAIM-2226 | THE SEASON 1 PASS AGENT SPLIT for Dynamic Stars: '**3x DLS Dynamic Agents in the premium path, and 2 will be free**' - so the collection is reachab... | Community Consensus | cards/dynamic-stars-pass-agent-split | EV-517 |
 | CLAIM-2227 | THE CONNECTION TIMING ADVICE, official: if matches consistently fail on connection quality, '**you might have to try a different type of internet c... | Community Consensus | platform/connection-time-of-day-advice | EV-517 |
 | CLAIM-2228 | THE DIVISION PAYOUT SCALING, a second source: '**The higher the division, the bigger the payout. Winning matters more than just playing**; the coin... | Community Consensus | career/division-payout-scaling-second-source | EV-517 |
+| CLAIM-2229 | AUTO-SWITCH DOES NOT FIRE WHILE YOU ARE HOLDING B: '**You have to let go of B for autoswitch to work.**' **So the players who report auto-switch as... | Community Consensus | controls/auto-switch-blocked-by-holding-b | EV-518 |
+| CLAIM-2230 | THE COMPLETE AUTO-SWITCH MODE COMPARISON, with each mode's failure mode named: '**High** - way too frequent. when the opponent makes a pass, your d... | Community Consensus | controls/auto-switch-mode-comparison-complete | EV-518 |
+| CLAIM-2231 | THE THREE CORE CONTROL SETTINGS, with definitions: 'When you go to the controls setting in DLS, you will find **3 settings**. They are; Auto Switch... | Community Consensus | controls/three-core-control-settings | EV-518 |
+| CLAIM-2232 | KICK ASSIST IS VERSION-DEPENDENT: 'With the current version it is **best to turn kick assist off**. Although previous versions it was better to set... | Community Consensus | controls/kick-assist-version-dependent | EV-518 |
+| CLAIM-2233 | TWO MORE SETTINGS the corpus lacked: **Switching Sensitivity** (Medium recommended) and **Cursor Indicator** (ON recommended) - both in the control... | Community Consensus | settings/switching-sensitivity-and-cursor-indicator | EV-518 |
+| CLAIM-2235 | THE COMMENTARY INVENTORY - five languages with named commentators: **Christian Martinoli & Luis Garcia (Mexican Spanish) · Mariano Closs & Diego La... | Community Consensus | presentation/five-language-commentary-inventory | EV-518 |
 | CLAIM-224 | Set-piece attacking meta (DLS24-26 community): FREE KICKS by distance — 18-22yd curl with inside foot; 23-28yd power or curled top-corner; 30+yd lo... | Community Consensus | unscoped | EV-283 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
 | CLAIM-230 | Coach gem prices DLS26 (with max Training Facility 5% discount): Common ~23-25 gems; Rare ~71-75 gems; Legendary ~213-225 gems. Special coaches pri... | Community Consensus | unscoped | EV-285 |
@@ -2318,6 +2324,8 @@ Distinct evidence records cited: **481**.
 | CLAIM-2213 | THE 30-DAY RESET COOLDOWN MAY NOT BE ENFORCED: a community member on their **third** reset reports '**I'm not sure it's that long because this was ... | Speculative | account/30-day-reset-may-not-be-enforced | EV-516 |
 | CLAIM-2217 | A SIXTH SPORTSDUNIA TABLE - a top-10 midfielders list (Bellingham 85, Pedri 85, Valverde 85, Rodri 85, Vitinha 85, Bruno Fernandes 84, De Bruyne 83... | Speculative | errata/sportsdunia-sixth-table | EV-516 |
 | CLAIM-2218 | A RODRI RATING OUTLIER: thesoccerera puts Rodri at **86** DM where every other source has him at 85 - a minor rating conflict in the same family as... | Speculative | errata/rodri-86-outlier | EV-516 |
+| CLAIM-2234 | THE COMPLETE SETTINGS INVENTORY, from a seventh sportsdunia table: **Gameplay** (Language, Difficulty, Power Save, Camera Type, Camera Distance, Au... | Speculative | settings/complete-inventory | EV-518 |
+| CLAIM-2236 | THE ACTUAL COMMENTARY PHRASES, from the wiki: '**Shihab crack from distance!**' · 'Optimistic effort' · 'XXX with the shot' · "Let's see how this s... | Speculative | presentation/commentary-phrase-list | EV-518 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
