@@ -1,21 +1,21 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:52:22Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1460**
-Distribution: Confirmed 330 / High Confidence 655 / Community Consensus 440 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **415**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:59:10Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1479**
+Distribution: Confirmed 336 / High Confidence 655 / Community Consensus 453 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **417**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
-| economy | 90 |
+| economy | 106 |
 | facilities | 72 |
-| dll | 47 |
+| dll | 49 |
 | career | 45 |
 | clans | 41 |
 | transfers | 40 |
+| cards | 38 |
 | training | 38 |
-| cards | 37 |
 | coaches | 36 |
 | controls | 34 |
 | cups | 34 |
@@ -392,6 +392,12 @@ Distinct evidence records cited: **415**.
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
 | CLAIM-1462 | OFFICIAL: DLS has low multiplayer bandwidth demands but is SENSITIVE TO HIGH LATENCY AND PACKET LOSS, so cellular and satellite connections can fai... | Confirmed | social/connection-requirements | EV-451 |
 | CLAIM-1464 | Summer Spotlight added a PLAYER RECOVERY feature ('Changed your mind?') - the official name for the recovery tab that underpins the gacha probabili... | Confirmed | social/player-recovery-official | EV-451 |
+| CLAIM-1465 | OFFICIAL: Dream Point Boosts apply ONLY to career matches, dream draft matches, scenario matches and DLL (multiplayer) matches. They do NOT apply t... | Confirmed | economy/dp-boost-exclusions | EV-452 |
+| CLAIM-1466 | OFFICIAL: unused Dream Point Boosts remain in your inventory for the next Prize Ladder, and boosts cannot be used if the Prize Ladder is complete o... | Confirmed | economy/dp-boost-carryover | EV-452 |
+| CLAIM-1467 | OFFICIAL: the Prize Ladder is a passive system that runs in the background as you play - no specific action is needed beyond playing matches - but ... | Confirmed | economy/prize-ladder-passive | EV-452 |
+| CLAIM-1468 | OFFICIAL: the Prize Ladder awards coins, gems, coaches, dream point boosts, special players and more, and each cycle lasts 90 days before resetting... | Confirmed | economy/prize-ladder-contents | EV-452 |
+| CLAIM-1469 | OFFICIAL: Italian League Classics are coming to DLS26 - Trezeguet, Batistuta, Crespo and Desailly as special Classic Player cards, earned by accumu... | Confirmed | cards/italian-league-classics | EV-452 |
+| CLAIM-1470 | OFFICIAL: the Progression Bank accumulates coins and gems based on your Dream League Live XP earned during a 10-day season, and the full amount is ... | Confirmed | economy/progression-bank-confirmed | EV-452 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
 | CLAIM-152 | Ad inventory confirmed by bot: (1) rewarded ads (center-screen, no skip, reward is coins OR diamonds/gems), (2) interstitial ads (full-screen, no s... | Confirmed | unscoped | EV-254,CLAIM-115,CLAIM-136 |
@@ -1411,7 +1417,20 @@ Distinct evidence records cited: **415**.
 | CLAIM-1450 | Dream Points: roughly 75 to 250 per match depending on performance, with BOOST items adding 50%, 70% or 150%, plus a post-match ad for additional p... | Community Consensus | economy/dp-per-match-and-boosts | EV-450 |
 | CLAIM-1451 | Community DP-method ranking: 5-0 Career wins for casual players, Scenarios for skilled players, Live matches if you win 90% of online games, and ge... | Community Consensus | economy/dp-method-ranking | EV-450 |
 | CLAIM-1452 | A TOTY (Team of the Year) event is expected to debut in DLS26, following the DLS25 Champions event. | Community Consensus | events/toty-expected | EV-450 |
+| CLAIM-1471 | Per-match Dream Points: 115 for a DLL win, 65 for a Career win, 10 per goal up to 5 goals (50 max), and a clean-sheet bonus reported as 10 or 15 DP... | Community Consensus | economy/dp-per-match-breakdown | EV-453 |
+| CLAIM-1472 | Post-match ads add a further 50 DP for a DLL win and 35 DP for a Career win; non-win results still pay - 45 DP for a DLL draw, 15 DP for a DLL loss... | Community Consensus | economy/dp-ad-and-nonwin | EV-453 |
+| CLAIM-1473 | A DLL win pays about 115 DP against a Career win's 65 DP, making DLL roughly 77% more DP-efficient per match - which is why experienced players com... | Community Consensus | economy/dll-more-dp-efficient | EV-453 |
+| CLAIM-1474 | DP boost pricing: Common 50% for 25 gems covering 3 matches, Rare 75% for 35 gems covering 5 matches, Legendary 150% for 125 gems covering 8 matche... | Community Consensus | economy/dp-boost-pricing | EV-453 |
+| CLAIM-1475 | Prize Ladder milestones: the first special player arrives at roughly 50,000 DP and is RANDOM, drawn like a Legendary Agent; further milestones sit ... | Community Consensus | economy/prize-ladder-milestones | EV-453 |
+| CLAIM-1476 | Matches required: 300-305 games for the first icon using free boosters, 324 games with boosters factored in, and 1,370-1,428 games for all four spe... | Community Consensus | economy/prize-ladder-matches-required | EV-453 |
+| CLAIM-1477 | You need AT LEAST 15 games a day to reach 200,000 DP within the 90-day Prize Ladder window - described as '60% of a career season' and equivalent t... | Community Consensus | economy/prize-ladder-daily-load | EV-453 |
+| CLAIM-1478 | A completed Prize Ladder report lists the draw order as Souness, Adams, Andy Cole then Gascoigne, confirming that the special-player order within a... | Community Consensus | economy/ladder-draw-order-random | EV-453 |
+| CLAIM-1479 | FILLER-REWARD CRITICISM: the Prize Ladder's coin and gem rewards are described as 'very mediocre, unfulfilling, boring and quite frankly useless - ... | Community Consensus | economy/prize-ladder-filler-criticism | EV-453 |
 | CLAIM-148 | Base roster size has grown ~4.5× across updates: 20231=1,224, 20241=1,681, 20242=4,126, 20251=3,828, 20252=3,602, 20253=3,798, 20261=2,518, 20262=5... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-143 |
+| CLAIM-1480 | C-020 RESOLVED TOWARD 2,000-2,100 GEMS: a World Cup Winners thread states plainly that 'each special player costs around 2000 gems to max out', ind... | Community Consensus | economy/special-player-max-cost-resolved | EV-453 |
+| CLAIM-1481 | The cancel-without-consumption special-coach technique is calculated to save about 70 gems per coach, or roughly 420 gems per maxed special player ... | Community Consensus | economy/special-coach-cancel-saving | EV-453 |
+| CLAIM-1482 | DLL Quests, located in the Quest area, pay gems for DLL win counts - 5 gems for 5 DLL wins and 175 gems for 175 DLL wins. | Community Consensus | dll/quests-gem-milestones | EV-453 |
+| CLAIM-1483 | DLL event rewards: winning 5 games in a DLL event pays 280 coins, and winning 7 games pays a further 720 coins on top. | Community Consensus | dll/event-rewards | EV-453 |
 | CLAIM-149 | Transfer price `prc=0` in roster data marks players that are NOT on the open transfer market in that update (loaned, not yet released, untradeable ... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-139 |
 | CLAIM-153 | DLS26 exposes a player-controllable HUD with two stamina/boost indicator icons ("filled" and "hollow" circle templates used by the bot for HUD dete... | Community Consensus | unscoped | EV-254 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
