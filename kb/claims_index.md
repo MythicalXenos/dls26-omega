@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:04:35Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2100**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 810 / Speculative 51 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **471**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:07:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2111**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 820 / Speculative 52 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **472**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,15 +10,15 @@ Distinct evidence records cited: **471**.
 | unscoped | 424 |
 | economy | 138 |
 | facilities | 113 |
+| dll | 77 |
 | gameplay | 76 |
-| dll | 74 |
 | transfers | 71 |
 | cards | 64 |
 | clans | 62 |
+| setpieces | 59 |
 | career | 58 |
-| setpieces | 52 |
 | controls | 51 |
-| errata | 48 |
+| errata | 49 |
 | patching | 42 |
 | training | 40 |
 | cups | 39 |
@@ -2072,6 +2072,16 @@ Distinct evidence records cited: **471**.
 | CLAIM-2102 | THE HOLD-THE-BALL TACTIC, a third voice on the dribbling-while-stopped strategy: 'dribbling/holding the ball a little bit when you are on an attack... | Community Consensus | matchcraft/hold-the-ball-when-no-pass | EV-507 |
 | CLAIM-2103 | A CROSS-DOMAIN CORROBORATION of the corpus's planted-foot read, from real-football coaching rather than DLS: '**Attack the Defender's Front Foot.**... | Community Consensus | errata/planted-foot-cross-domain-corroboration | EV-507 |
 | CLAIM-2104 | A SIXTH CONTAMINATION: the skill-move search returned levelup.soccer, hoopsking, expertfootball, progressivesoccertraining, wikihow, villarrealhous... | Community Consensus | errata/sixth-contamination | EV-507 |
+| CLAIM-2105 | THE AIM-LEFT-THEN-SWITCH-RIGHT PENALTY, DLS26-dated (March 2026): 'for sometime scoring penalties was impossible for me, no exaggerating I missed e... | Community Consensus | setpieces/aim-left-then-switch-right-penalty | EV-508 |
+| CLAIM-2106 | THE SEQUENCE-BREAKING PENALTY, a genuinely different idea: 'just **go middle for 4-5 straight games and then change side once in the sequence** the... | Community Consensus | setpieces/sequence-breaking-penalty | EV-508 |
+| CLAIM-2107 | THE DOWN-THE-MIDDLE PENALTY: 'Im DLS live always **Hit first right down middle. Works 10/10 times.**' A second voice: 'For penalties against the AI... | Community Consensus | setpieces/down-the-middle-penalty | EV-508 |
+| CLAIM-2108 | THE CONVERSION BENCHMARK, corroborated a third time: '**Penalties in DLL are not that hard, I score 85-90% of penalties in DLL and 70-80% in shooto... | Community Consensus | setpieces/penalty-conversion-third-source | EV-508 |
+| CLAIM-2109 | THE SHO-DEPENDENT PENALTY AIMING: 'Aim for the **outer foot of the imaginary goalkeeper at the side you're shooting at**. **If your penalty kicker ... | Community Consensus | setpieces/sho-dependent-penalty-aiming | EV-508 |
+| CLAIM-2110 | THE ET-SEASON PENALTY TECHNIQUE - which matters directly because the corpus's camping rule warns that DLL seasons alternate between draw-allowed an... | Community Consensus | setpieces/et-season-penalty-technique | EV-508 |
+| CLAIM-2111 | HEADERS BEAT P2W: 'Place the arrow on your corners slightly inside the default direction and hold C to 2/3-3/4 power and **50% of the time its a fr... | Community Consensus | setpieces/headers-beat-p2w | EV-508 |
+| CLAIM-2112 | A SECOND TIER 1 TIMELINE: '**I got to tier 1 after 3 weeks on a new account you just need some skills, with an average non maxed team**' - so three... | Community Consensus | dll/tier-1-in-three-weeks | EV-508 |
+| CLAIM-2113 | THE RECORD HOLDER'S DISCIPLINE, and the clearest statement yet that the 50% resale rule makes selling a loss rather than a strategy: '**Not once di... | Community Consensus | dll/never-sold-a-player | EV-508 |
+| CLAIM-2114 | A DLS25 TIER 1 CHAMPION STRUGGLING IN DLS26: 'I went from **winning Tier 1 for fun on DLS 25 to now being on the border between T2 and T1, going up... | Community Consensus | dll/dls25-champion-struggling-in-dls26 | EV-508 |
 | CLAIM-213 | Daily login = 40 Season Points/day (per BlueStacks); baseline match rewards provide Season Points. DLS26 also has a Daily Bonus (added Summer Spotl... | Community Consensus | unscoped | EV-270,EV-276 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
@@ -2194,6 +2204,7 @@ Distinct evidence records cited: **471**.
 | CLAIM-2033 | A DISSENTING VIEW ON CLAN VALUE, recorded so the corpus does not overstate the system: '**Clans are useless.** I thought we'd be able to compete ag... | Speculative | clans/useless-dissent | EV-502 |
 | CLAIM-2074 | REJECTED AN EIGHTH TIME, and the most elaborate fabrication yet: playdreamleaguesoccer.com publishes a complete 'DLS 2026 Schedule' - a month-by-mo... | Speculative | errata/playdream-eighth-rejection-fake-calendar | EV-505 |
 | CLAIM-2085 | THE SECONDARY PRESS WAS REMOVED AND RE-IMPLEMENTED BADLY, per one account: 'People complain about the new DLS 26 style of play so they brought back... | Speculative | controls/secondary-press-rollback | EV-506 |
+| CLAIM-2115 | A FLAGGED SOURCE CONTRADICTING DOCUMENTED NEGATIVES - a sixth concrete reason for the existing flag: eslamgaming's 'honest review' claims '**player... | Speculative | errata/eslamgaming-contradicts-documented-negatives | EV-508 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-170 — 2,100 claims / 409 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-171 — 2,111 claims / 410 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -817,6 +817,14 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 **Penalties** — reported conversion is **85–90% in DLL** and **70–80% in shootouts**, and players call shootouts rigged with predictable run-ups. Working techniques: slightly off-centre with moderate power · low C with a medium A · a light A tap or full-power B to the bottom corners · against the AI, the middle with a slightly powered A · or one-third off the keeper toward the post with the pass button at half to two-thirds power.
 
 **The one universal rule:** make the taps **gentle and quick**. Holding a split-second too long produces a wild, overpowered shot. Always aim top or bottom corner — the top of the goal gives an illusion of width that a wasted penalty will not honour.
+
+**The two newest techniques** [EV-508, C3]:
+- **Aim is set by where you FINISH, not where you start.** A player who went from missing every penalty to scoring 8/10: *"I would aim to the left and hold for a second then I switch to the right and tap A."* So the stick movement during the tap is the aim — which is the mechanism behind the corpus's hold-the-joystick rule.
+- **Break the keeper's pattern, not just his dive.** *"Go middle for 4-5 straight games and then change side once in the sequence — then the penalty is less likely to get saved."* One player reports not missing a penalty for four months after adopting it. **This is the only penalty advice in the corpus that is about the opponent's memory rather than your own input.**
+- **The taker's SHO changes the target:** a low-SHO kicker should aim at the keeper's **body**, a natural shooter at his **outer leg**, with a **40% A-kick power load** for maximum trajectory.
+- **And down the middle is a scoring shot, not a safe one:** *"In DLS live always hit right down the middle. Works 10/10 times"* — because the keeper dives.
+
+> **🎯 HEADERS ARE THE REPORTED WAY THROUGH A P2W SQUAD** [EV-508, C3]: *"Place the arrow on your corners slightly inside the default direction and hold C to 2/3-3/4 power and **50% of the time it's a free goal. Headers are one of the easiest ways to score against p2w players on dream league live.**"* **That is a direct answer to the corpus's maxed-squad-handicap concern: if the handicap is real, the corner header is the reported way through it** — which makes the corner routine a competitive tool, not just a scoring one.
 
 ### 3.4 Scenarios and Exhibition [EV-445, C2/C3]
 

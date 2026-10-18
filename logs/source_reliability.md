@@ -2,7 +2,7 @@
 
 > **Purpose (RQ-20261018-022).** Every source used in the turn-35 sweep is classified here with the specific reason. A source's status is a property of the *source*, not of the individual article — a rejected source is rejected for all future use unless the underlying defect is fixed.
 > **Authority note:** this register records *why* a source is trusted or distrusted. The claim authority remains `kb/claims.jsonl`. Where a claim cites a source listed here as REJECTED or DOWNGRADED, the claim's confidence tier must reflect that.
-> Basis: ckpt-170 — 2,100 claims / 409 evidence records.
+> Basis: ckpt-171 — 2,111 claims / 410 evidence records.
 
 ---
 
@@ -59,7 +59,7 @@ Useful, but never load-bearing alone. A claim resting only on one of these is ca
 | **sportsdunia** | **Four rejected tables**: a Commercial facility bonus table, a formation table, and a gems/coins guide carrying a fabricated daily routine. All contradicted official/other sources. Formation recommendations (4-3-3, 3-4-1-2) are retained in the conflict log **as a minority position only**, never as guidance. |
 | **dream-league-soccer.fandom.com — the Coins page AND the Classic Players page** | **Corrupted figures.** The page states "1000.000 coins per goal", "10000 00000 coins if you keep a clean sheet", and "a stadium bonus, which is between 9999999990 coins" - impossible values that match no other source. **The first fandom-wiki rejection.** The Classic Players page carries the same disease — Lev Yashin at "0 Overall" and Maldini and Beckenbauer at "100 Overall", both impossible against the confirmed 86 ceiling. The wiki's Stadium page remains usable for *structure* (sector names, seat ladders) but not for any figure. |
 | **lfbb.net** | AI content farm. Publishes a fabricated daily routine - "600 bonus gems just from finishing in the top 50" in week one and "each win gives 500 coins" - neither of which matches any other source. Reject the whole domain. |
-| **eslamgaming** | Fabrications plus a **wrong control map** — a control mapping that does not match the game. Its **floodlight/sunset visibility claims are recorded at Speculative (C4)** and flagged for device verification, not adopted. |
+| **eslamgaming** | Fabrications plus a **wrong control map** — a control mapping that does not match the game. Its **floodlight/sunset visibility claims are recorded at Speculative (C4)** and flagged for device verification, not adopted. **A sixth concrete defect (ckpt-171): its "honest review" claims player morale is tracked and that younger prospects have higher potential — both of which the corpus carries as DOCUMENTED NEGATIVES.** |
 | **Baiduwiki** | Described a non-existent **auction-house** transfer market. DLS has no auction house. |
 | **chaptercheats** | Wrong definition of CON (Construction). CON = **Construction** in DLS; chaptercheats defined it otherwise. |
 | **footballeffect / gamingonphone starter-pack figures** | 1,200 coins / 40 gems starter, contradicting the 1,500c / 75g figure from every other source including the DLS24 baseline. Treated as an outlier, not evidence. |

@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-170 — 2,100 claims / 409 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-171 — 2,111 claims / 410 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -183,6 +183,9 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Slide tackles sparingly, never on the counter** | Block shots; press C for the keeper; aerial ball = press B at the nearest midfielder |
 | **Corners: set the header up BEFORE the ball arrives** | Tallest defender, drag outside the box, hold B while moving - do not wait for the ball to be in the air [EV-507, C3] |
 | **Corners: aim the marker AWAY from the ball's trajectory** | Toward the opposite sideline, then hold B - "works 4/5" with tall centre backs [EV-507, C3] |
+| **Penalties: the aim is set where you FINISH** | Aim one way, hold, switch, then tap - the stick movement during the tap is the aim [EV-508, C3] |
+| **Penalties: break the keeper's pattern** | Go middle 4-5 times, then change side once - the keeper's read is pattern-based [EV-508, C3] |
+| **Headers are the reported way through a p2w squad** | Corner at 2/3-3/4 C power with the arrow slightly inside; ~50% conversion [EV-508, C3] |
 | **Tactic switching is a rhythm** | Defensive the moment they have it, attacking the moment you win it, balanced to reset |
 | **Anti-C-spam escalation** | Head diagonally backwards toward the second striker, then escalate the back line 3 → 4 → 5 |
 | **Footedness placement** | Left-footed at LB/LCB, right-footed at RB/RCB; strikers inverted |

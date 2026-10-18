@@ -1,7 +1,7 @@
 # DLL TIER PLAYBOOK — 20 → 1
 
 > **Companion to `docs/strategy_masterplan.md` and `docs/operational_rules.md`.** This file translates the tier ladder into *state-specific tactics*. The masterplan says where you are going; this says what changes as you get there.
-> **Basis:** ckpt-170 — 2,100 claims / 409 evidence records.
+> **Basis:** ckpt-171 — 2,111 claims / 410 evidence records.
 > **Evidence note:** the tier-cliff and tier-camping figures are Community Consensus (well-corroborated across multiple independent posters over 2021–2026). The matchmaking rules are **Confirmed, from the official FTG support article**. The maxed-squad handicap is Community Consensus with an official corroborating mechanism, and is logged as **C-024**.
 
 ---
