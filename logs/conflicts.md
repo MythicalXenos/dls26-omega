@@ -142,3 +142,8 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Source B:** sportsdunia DLS26 Clans guide — "having the highest clan points gives you the reward of **100 gems**".
 - **Status:** OPEN. Both are community sources; no official FTG figure found. Recorded in EV-429 / CLAIM on clan reward. Needs an in-game screenshot or FTG support confirmation.
 
+## C-018: Cult Heroes OVR (92 vs 95 max)
+- **Source A:** r/DreamLeagueSoccer 1wele5q (17 Sep 2026) — shows Insigne, Aubameyang, Dybala and De Gea all at **92**.
+- **Source B:** dlsinside.com / sakibpro.com datamine (build 13430, 2026-09-16) — max rating **95** for de Gea, Aubameyang and Dybala; **94** for Insigne. dreamkitsapp lists Vozinha at 84 while dlsinside lists 83.
+- **Status:** OPEN. Most likely Source A is showing post-boost/in-game OVR or an earlier build. Recorded in EV-430.
+

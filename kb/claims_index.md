@@ -1,36 +1,36 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T01:59:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1236**
-Distribution: Confirmed 303 / High Confidence 576 / Community Consensus 324 / Speculative 32 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **393**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:01:06Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1253**
+Distribution: Confirmed 303 / High Confidence 582 / Community Consensus 335 / Speculative 32 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **395**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | facilities | 72 |
-| economy | 65 |
-| career | 40 |
+| economy | 66 |
+| career | 41 |
 | clans | 36 |
 | coaches | 36 |
 | controls | 34 |
 | patching | 33 |
+| prizeladder | 32 |
 | platform | 30 |
-| prizeladder | 30 |
+| cards | 27 |
 | customization | 27 |
-| cups | 25 |
-| transfers | 24 |
+| cups | 26 |
+| transfers | 25 |
 | attributes | 23 |
-| cards | 22 |
+| dll | 20 |
 | modes | 19 |
 | events | 18 |
-| dll | 17 |
 | stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
+| training | 16 |
 | errata | 15 |
-| training | 15 |
 | goalkeeping | 11 |
 | ui | 11 |
 | account | 10 |
@@ -56,8 +56,10 @@ Distinct evidence records cited: **393**.
 | challenges | 2 |
 | licensing | 2 |
 | shooting | 2 |
+| 12thman | 1 |
 | anticheat | 1 |
 | bugs | 1 |
+| classics | 1 |
 | complaints | 1 |
 | defending | 1 |
 | design | 1 |
@@ -794,6 +796,12 @@ Distinct evidence records cited: **393**.
 | CLAIM-1228 | DLS20/DLS21 baseline: a Form Boost lasted exactly one match and cost 5 gems for +1 OVR, 8 gems for +2 and 10 gems for +3, with the price identical ... | High Confidence | formboost/cost-oot-baseline | EV-428 |
 | CLAIM-1230 | The Training facility gates access to FORMATIONS as well as Form Boost duration and coach discounts, which the community criticises as arbitrary ga... | High Confidence | training/gates-formations | EV-428 |
 | CLAIM-1233 | A single clan member can contribute at most 350,000 points to the clan total; points earned beyond that only rank that member first inside the clan... | High Confidence | clans/contribution-cap-meaning | EV-429 |
+| CLAIM-1241 | Cult Heroes is a 12-player Special Player collection shipped in DLS26 v13.430 on 16 September 2026, signed RANDOMLY by opening Cult Hero Agents. | High Confidence | cards/cult-heroes-collection | EV-430 |
+| CLAIM-1242 | Cult Heroes base ratings: 85 for David de Gea (GK, 192cm, Spain), Pierre-Emerick Aubameyang (CF, 187cm, Gabon) and Paulo Dybala (SS, 177cm, Argenti... | High Confidence | cards/cult-heroes-ratings | EV-430 |
+| CLAIM-1252 | The Progression Bank accumulates coins and gems from Dream League Live XP across a 10-day season and pays the full amount out when the season ends. | High Confidence | prizeladder/progression-bank-10-day | EV-431 |
+| CLAIM-1253 | The Prize Ladder cycle lasts 90 days and unlocks coins, gems AND Classic Players as tiers are climbed. | High Confidence | prizeladder/90-day-cycle-classics | EV-431 |
+| CLAIM-1254 | The Dream League Live weekly leaderboard resets weekly and awards gems both for leaderboard placement and for playing a set number of DLL matches w... | High Confidence | dll/weekly-leaderboard-gems | EV-431 |
+| CLAIM-1255 | Coaches come in four categories (Technical, Fitness, Goalkeeping, Special) and three tiers (Common, Rare, Legendary); a Common coach boosts a singl... | High Confidence | training/coach-categories-tiers | EV-431 |
 | CLAIM-130 | Adjacent special cards observed in build 13.430 (dreamkitsapp via sibling GS-041 + FBGD cross-check, EV-239+EV-248): World Winners — Marc Cucurella... | High Confidence | unscoped | EV-239,EV-248,CLAIM-007,CLAIM-059,CLAIM-095,EV-251 |
 | CLAIM-132 | SPECIAL-CARD OVR CEILING: current visible special cards reach 88 OVR (Champion cards for Cristiano Ronaldo LW 88 PT and Lionel Messi Cf 88 AR), cor... | High Confidence | unscoped | EV-248,EV-187,EV-190,EV-246,CLAIM-007,CLAIM-130,CLAIM-095... |
 | CLAIM-133 | Coach-application mechanic model (Chinese-community DP tool, DLS26China): technical coaches grant +1/+2/+3 stat points depending on rarity (Common/... | High Confidence | unscoped | EV-247,CLAIM-008,CLAIM-104,CLAIM-105,CLAIM-091 |
@@ -1174,6 +1182,17 @@ Distinct evidence records cited: **393**.
 | CLAIM-1236 | Active clans report roughly 13-15 million Clan Points per season with a 350,000+ member contribution requirement, while some target an 8 million se... | Community Consensus | clans/season-totals | EV-429 |
 | CLAIM-1237 | Clan reward ladder: first reward at 25,000 Clan Points, then 25 gems at 1M, a Legendary XP boost at 2M, a Legendary Scout at 3M, 500 coins at 5M, a... | Community Consensus | clans/reward-ladder | EV-429 |
 | CLAIM-1239 | Clan creation customisation covers badge (style, background, icon, frame colour, dressing), clan name, clan country, entry requirements by minimum ... | Community Consensus | clans/creation-options | EV-429 |
+| CLAIM-1243 | Cult Heroes max ratings: 95 for de Gea, Aubameyang and Dybala; 94 for Insigne, Ziyech, Isco, Otamendi and David Luiz; 93 for Blind, Herrera, Shaqir... | Community Consensus | cards/cult-heroes-max | EV-430 |
+| CLAIM-1244 | Vozinha (Josimar Jose Evora Dias, Cape Verde, GK, 83, 189cm) is the Cult Heroes card flagged as the 12th Man in the v13.430 datamine. | Community Consensus | 12thman/vozinha-cult-hero | EV-430 |
+| CLAIM-1245 | Best Cult Heroes attributes: de Gea GK Reactions 85.0 / Handling 80.0; Aubameyang Shooting 94.0 / Speed 93.0 / Acceleration 92.0; Dybala Control 92... | Community Consensus | cards/cult-heroes-stats | EV-430 |
+| CLAIM-1246 | CONFLICT on Cult Heroes OVR: a Reddit post of 17 September 2026 shows Insigne, Aubameyang, Dybala and De Gea all at 92, while the datamined max rat... | Community Consensus | cards/cult-heroes-ovr-conflict | EV-430 |
+| CLAIM-1247 | The same DLS26 update wave added CLASSIC cards Michael Essien (DM, 85, 178cm, Ghana), Andy Cole (CF, 84, 178cm, England), Emmanuel Petit (DM, 84, 1... | Community Consensus | classics/new-classics-2026 | EV-430 |
+| CLAIM-1248 | Dream League Live tiers are numbered from 20 (bottom) to 1 (top), with Tier 1 the ceiling; a documented world-record run reached Tier 1 Champion in... | Community Consensus | dll/tier-ladder-20-to-1 | EV-431 |
+| CLAIM-1249 | The world-record Tier 1 run deliberately restarted from tier 20 with a fully COMMON team, proving Tier 1 Championship is reachable in roughly two w... | Community Consensus | dll/tier1-reachable-with-commons | EV-431 |
+| CLAIM-1250 | CUP ELIGIBITY follows your current division: once promoted, Gold Cup becomes Diamond Cup, so you must drop back to Division 1 to win the Gold Cup a... | Community Consensus | cups/cup-follows-current-division | EV-431 |
+| CLAIM-1251 | Dropping divisions reduces the coins and gems awarded but does not affect the transfer market. | Community Consensus | career/relegation-economy-effect | EV-431 |
+| CLAIM-1256 | The cheapest coach-farming route is buying cheap legendary DEFENDERS and releasing them, since Attacker > Midfield > Defender in gold cost. | Community Consensus | economy/coach-farming-defenders | EV-431 |
+| CLAIM-1257 | Legendary players will not appear in the transfer market until you buy lower-rated players, even with a maxed stadium and a top-division team; drop... | Community Consensus | transfers/legendary-gating | EV-431 |
 | CLAIM-135 | Star players have MULTIPLE cards across collections/rarities with different OVRs and positions. Example concrete roster from FBGD: Cristiano Ronald... | Community Consensus | unscoped | EV-248,EV-246,EV-187,EV-190 |
 | CLAIM-139 | Transfer-market coin prices follow a tier table of 4 sub-tiers per OVR (keys "RR1".."RR4" in price_map.json, RR=OVR). Tier-4 is the max price at th... | Community Consensus | unscoped | EV-251 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
