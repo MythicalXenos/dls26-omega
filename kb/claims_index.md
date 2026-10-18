@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:30:39Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1959**
-Distribution: Confirmed 391 / High Confidence 831 / Community Consensus 692 / Speculative 44 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **461**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:32:59Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1969**
+Distribution: Confirmed 391 / High Confidence 833 / Community Consensus 698 / Speculative 46 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **462**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -11,9 +11,9 @@ Distinct evidence records cited: **461**.
 | economy | 135 |
 | facilities | 108 |
 | gameplay | 72 |
+| dll | 68 |
 | transfers | 67 |
-| dll | 66 |
-| cards | 60 |
+| cards | 63 |
 | clans | 57 |
 | career | 48 |
 | controls | 43 |
@@ -24,8 +24,8 @@ Distinct evidence records cited: **461**.
 | coaches | 37 |
 | prizeladder | 37 |
 | attributes | 34 |
+| errata | 34 |
 | coaching | 33 |
-| errata | 32 |
 | platform | 31 |
 | tactics | 30 |
 | customization | 29 |
@@ -48,12 +48,12 @@ Distinct evidence records cited: **461**.
 | match | 10 |
 | medical | 10 |
 | social | 10 |
+| 12thman | 8 |
 | skillmoves | 8 |
 | squad | 8 |
 | multiplayer | 7 |
 | physio | 7 |
 | seasonpass | 7 |
-| 12thman | 6 |
 | monetization | 6 |
 | referee | 6 |
 | save | 6 |
@@ -64,9 +64,9 @@ Distinct evidence records cited: **461**.
 | discipline | 5 |
 | endgame | 5 |
 | gacha | 5 |
+| ratings | 5 |
 | settings | 5 |
 | ai | 4 |
-| ratings | 4 |
 | scenarios | 4 |
 | shooting | 4 |
 | sources | 4 |
@@ -1184,6 +1184,8 @@ Distinct evidence records cited: **461**.
 | CLAIM-1953 | THE PRE-TRANSFER CHECK PROCEDURE: on iOS, go to Apple ID settings > 'Sign-in & Security' > 'sign in with Apple' and confirm no previous profile is ... | High Confidence | account/pre-transfer-check-procedure | EV-497 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
 | CLAIM-1961 | THE 12TH MAN WAS ADDED TO THE COLLECTION, per the official version history: 'The DLS community has voted, and we've added this extra superstar to t... | High Confidence | 12thman/added-to-collection-confirmed | EV-497 |
+| CLAIM-1964 | METHODOLOGY FINDING - THE 'DREAM LEAGUE' NAME IS CONTAMINATED BY ANOTHER GAME. Searching 'Dream League' does not search Dream League Soccer: it sea... | High Confidence | errata/dream-league-name-contamination | EV-498 |
+| CLAIM-1967 | THE RANK LADDER BELOW VETERAN IS CORROBORATED A SECOND TIME, and independently: Exophase's achievement list is Google Play's own achievement data r... | High Confidence | dll/rank-ladder-below-veteran-second-source | EV-498 |
 | CLAIM-199 | Watching a 30-second ad after a match DOUBLES coin earnings for that match; available once per match (BlueStacks says once per match, FAQ suggests ... | High Confidence | unscoped | EV-270 |
 | CLAIM-200 | Physios are a third permanent development/resourcing item (alongside Coaches and Players), hired with COINS (not gems), used to restore player ener... | High Confidence | unscoped | EV-278 |
 | CLAIM-201 | Facilities (six types, corrected from prior 5): Stadium (match coin bonus ∝ capacity, home-match income), Medical Centre (reduces injury chance, lo... | High Confidence | unscoped | EV-278,EV-256,EV-270,EV-272 |
@@ -1931,7 +1933,13 @@ Distinct evidence records cited: **461**.
 | CLAIM-1959 | THE EVENT-CARD ACQUISITION ROUTES, consolidated from the DLS25 Dream Stars precedent: 'we were able to gain these dream stars by **dream agents; vi... | Community Consensus | cards/event-card-acquisition-routes | EV-497 |
 | CLAIM-1960 | KICK-OFF STARS ARE A STARTING 11, not a pair: 'full starting 11 potential for Seasons 1 & 2' - so the collection spans two seasons rather than one ... | Community Consensus | cards/kick-off-stars-starting-11-two-seasons | EV-497 |
 | CLAIM-1962 | THE DLS26 EVENT CALENDAR, from creator coverage: a **Win Streak Event** (free coins plus Dream Star player rewards), a **Festival Vase Event**, and... | Community Consensus | events/dls26-event-calendar-names | EV-497 |
+| CLAIM-1965 | THE DREAM STARS 2026 ROSTER IS NAMED by the community, twelve players, ranked by performance by the players themselves: **TIER S - Yildiz, Ryerson,... | Community Consensus | 12thman/dream-stars-2026-roster-named | EV-498 |
+| CLAIM-1966 | This NARROWS the 12th Man gap rather than closing it: the voted player is one of the twelve named Dream Stars, but no source marks which one was th... | Community Consensus | 12thman/gap-narrowed-to-twelve-unmarked | EV-498 |
+| CLAIM-1968 | THE WORLD-RECORD RUN'S FULL MATCH RECORD: '16 days, 12 games, **110 wins, 10 losses, one draw**, and most importantly 145,296 XP' - 'Set the record... | Community Consensus | dll/world-record-full-match-record | EV-498 |
+| CLAIM-1969 | THE 86 CEILING CORROBORATED WITH NAMES: Dembele 86, Mbappe 86, Kane 86 and Haaland 86 at the top, with Van Dijk, Raphinha, Yamal, Salah, Pedri and ... | Community Consensus | ratings/86-ceiling-with-names | EV-498 |
 | CLAIM-197 | Cult Heroes is an upcoming Special Player collection announced in v13.420/v13.430 (Sep 2026) but not yet released as of 13.430 (16 Sep 2026). | Community Consensus | unscoped | EV-276,EV-272 |
+| CLAIM-1970 | CARD-INFLATION COMPLAINT, useful for recruitment: '**Dembele's 86 rated card is no different from his 85 rated card**, just a +3 overall increase i... | Community Consensus | cards/plus-one-ovr-near-identical | EV-498 |
+| CLAIM-1972 | THE NAMED SPECIAL CARDS, corroborated from the player database: **World Winners** Marc Cucurella 85 LB · **World Heroes** Lionel Messi 87 SS · **Te... | Community Consensus | cards/named-special-cards-corroborated | EV-498 |
 | CLAIM-198 | 120Hz display frame-rate stabilization/polish added in August 2026 update. | Community Consensus | unscoped | EV-272 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
@@ -2052,6 +2060,8 @@ Distinct evidence records cited: **461**.
 | CLAIM-1931 | A Google Play review (21 May 2026) reports 'career mode is way too easy and developers need to add extra difficulty to it' - which sits against the... | Speculative | difficulty/sentiment-split-by-mode | EV-495 |
 | CLAIM-1955 | REJECTED A SEVENTH TIME, and this is the most dangerous fabrication in the register: playdreamleaguesoccer.com instructs players to 'Use the Cloud ... | Speculative | errata/playdream-seventh-rejection-fake-backup-path | EV-497 |
 | CLAIM-1963 | VERSION-ATTRIBUTION NOTE: the App Store's 13.110 block carries 'Increased squad size - Now with unlimited special players in your club', while the ... | Speculative | errata/unlimited-specials-version-attribution | EV-497 |
+| CLAIM-1971 | A second recruitment caution from the same thread: 'Pedri played a grand total of 5 games as an AM in the 24/25 season... what is FTG smoking??' - ... | Speculative | cards/ftg-position-assignments-wrong | EV-498 |
+| CLAIM-1973 | A FOURTH REJECTED SPORTSDUNIA TABLE - a best-players list. Recorded so the rejection count is accurate, while noting that its figures happen to cor... | Speculative | errata/sportsdunia-fourth-table-rejected | EV-498 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
