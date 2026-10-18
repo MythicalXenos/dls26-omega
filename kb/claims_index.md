@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:22:07Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1916**
-Distribution: Confirmed 391 / High Confidence 823 / Community Consensus 660 / Speculative 41 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **458**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:24:42Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1927**
+Distribution: Confirmed 391 / High Confidence 824 / Community Consensus 669 / Speculative 42 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **459**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -16,7 +16,7 @@ Distinct evidence records cited: **458**.
 | cards | 58 |
 | clans | 56 |
 | career | 48 |
-| controls | 42 |
+| controls | 43 |
 | patching | 40 |
 | training | 40 |
 | setpieces | 39 |
@@ -28,7 +28,7 @@ Distinct evidence records cited: **458**.
 | platform | 31 |
 | tactics | 30 |
 | customization | 29 |
-| errata | 28 |
+| errata | 29 |
 | events | 27 |
 | presentation | 25 |
 | modes | 20 |
@@ -43,6 +43,7 @@ Distinct evidence records cited: **458**.
 | goalkeeping | 11 |
 | onboarding | 11 |
 | account | 10 |
+| difficulty | 10 |
 | draft | 10 |
 | match | 10 |
 | medical | 10 |
@@ -51,10 +52,11 @@ Distinct evidence records cited: **458**.
 | squad | 8 |
 | multiplayer | 7 |
 | physio | 7 |
-| difficulty | 6 |
 | monetization | 6 |
+| referee | 6 |
 | save | 6 |
 | seasonpass | 6 |
+| weather | 6 |
 | 12thman | 5 |
 | accounts | 5 |
 | audit | 5 |
@@ -62,22 +64,20 @@ Distinct evidence records cited: **458**.
 | discipline | 5 |
 | endgame | 5 |
 | gacha | 5 |
-| referee | 5 |
-| weather | 5 |
+| settings | 5 |
 | ai | 4 |
 | ratings | 4 |
-| settings | 4 |
+| scenarios | 4 |
 | sources | 4 |
 | acquisition | 3 |
 | features | 3 |
 | injuries | 3 |
-| scenarios | 3 |
 | season-pass | 3 |
+| shooting | 3 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
 | matchcraft | 2 |
-| shooting | 2 |
 | anticheat | 1 |
 | benchmark | 1 |
 | bugs | 1 |
@@ -1175,6 +1175,7 @@ Distinct evidence records cited: **458**.
 | CLAIM-1910 | THE CHALLENGE STRUCTURE IN FULL: the Challenges section sits at the **bottom left of the home screen** and has three tracks - **Daily, Weekly and C... | High Confidence | economy/challenge-structure-three-tracks | EV-494 |
 | CLAIM-1913 | The post-match ad, corroborated in full: a 30-second optional video at the end of each match that **doubles** the post-match coin earnings, with a ... | High Confidence | economy/post-match-ad-doubles-coins | EV-494 |
 | CLAIM-192 | First Touch Games Ltd (FTG): founded 2011 (spun out of Exient Entertainment, where Charles Chapman was co-founder/CTO); independent studio headquar... | High Confidence | unscoped | EV-277 |
+| CLAIM-1921 | METHODOLOGY FINDING - REAL-WORLD-FOOTBALL CONTAMINATION: a search for DLS26 referee, card and penalty rules returns **only** IFAB Laws 5 and 12, th... | High Confidence | errata/real-football-law-contamination | EV-495 |
 | CLAIM-196 | DLS26 allows UNLIMITED Special Players in a single club (no accommodation/squad cap on specials); Summer Spotlight 13.410 removed prior special-pla... | High Confidence | unscoped | EV-276,EV-272 |
 | CLAIM-199 | Watching a 30-second ad after a match DOUBLES coin earnings for that match; available once per match (BlueStacks says once per match, FAQ suggests ... | High Confidence | unscoped | EV-270 |
 | CLAIM-200 | Physios are a third permanent development/resourcing item (alongside Coaches and Players), hired with COINS (not gems), used to restore player ener... | High Confidence | unscoped | EV-278 |
@@ -1889,6 +1890,15 @@ Distinct evidence records cited: **458**.
 | CLAIM-1915 | EXHIBITION is the offline friendly space with a room code, **no rewards and no risk** - 'Keine Punkte, kein Risiko - aber jede Menge Lerneffekt.' T... | Community Consensus | modes/exhibition-as-the-test-surface | EV-494 |
 | CLAIM-1916 | A SECOND ROUTE TO PLAY A FRIEND, separate from Friend Match: through the clan. 'You and your friend must be in the same clan to play matches agains... | Community Consensus | multiplayer/clan-route-to-friend-match | EV-494 |
 | CLAIM-1917 | EXOPHASE corroborates the Android achievement figures exactly - **40 achievements, 20,000 XP** - and adds a figure the corpus did not have: **40,35... | Community Consensus | achievements/exophase-40351-exp | EV-494 |
+| CLAIM-1922 | The corpus's referee claims therefore stand as the best available and must not be extended from football law: **five reds ends the match** and **fi... | Community Consensus | referee/corpus-position-stands | EV-495 |
+| CLAIM-1923 | WHAT HARD MODE IS, the positive characterisation the corpus lacked: '**Hard mode is basically DLS without all the random and stupid gameplay. In ha... | Community Consensus | difficulty/what-hard-mode-is | EV-495 |
+| CLAIM-1924 | THE HARD-MODE HANDICAP, with a new detail: 'The AI starts stealing balls artificially, while our players miss extremely simple passes, of a few met... | Community Consensus | difficulty/handicap-intensifies-in-larger-stadiums | EV-495 |
+| CLAIM-1925 | THE DLS26 SHOOTING REVERSAL: 'now it's easier to score in 1v1 than from long range, unlike in DLS25. It's still very easy to score from long range ... | Community Consensus | shooting/dls26-1v1-easier-than-long-range | EV-495 |
+| CLAIM-1926 | THE SCENARIO DIFFICULTY ROSE IN DLS26: 'Have you also noticed how ridiculously hard scenarios has become?' A first-month observation on the mode th... | Community Consensus | scenarios/difficulty-rose-in-dls26 | EV-495 |
+| CLAIM-1927 | THE ASSISTS POSITION, corroborated by a DLS26-dated voice (Mar 2026): 'Cross assist is horrible, everyone should turn it off if you want actual acc... | Community Consensus | controls/assists-off-with-the-cost | EV-495 |
+| CLAIM-1928 | THE SETTINGS INVENTORY, consolidated from two independent third-party settings guides. Gameplay: Language, Difficulty, Power Save, Camera Type, Cam... | Community Consensus | settings/consolidated-inventory | EV-495 |
+| CLAIM-1929 | VERSION-HISTORY NOTE: DLS2023 carried four difficulties - easy, medium, hard and very hard - paying 25/50/75/100 coins, before DLS25 cut the list t... | Community Consensus | difficulty/dls23-four-tiers-coin-scale | EV-495 |
+| CLAIM-1930 | THE WISH-LIST CORROBORATION: a DLS26 wish-list asks for 'new weather conditions - fog, cloudy, light rain' and 'VAR animations (even if the decisio... | Community Consensus | weather/wishlist-confirms-absence | EV-495 |
 | CLAIM-194 | Commentary languages in DLS26 include English plus Turkish and Arabic (added in the Feb 2026 / Summer Spotlight updates), per App Store changelog. | Community Consensus | unscoped | EV-276,EV-272 |
 | CLAIM-195 | New pre-match presentation: players walk out wearing warm-up/training tracksuits before kickoff (introduced at DLS26 launch). | Community Consensus | unscoped | EV-272 |
 | CLAIM-197 | Cult Heroes is an upcoming Special Player collection announced in v13.420/v13.430 (Sep 2026) but not yet released as of 13.430 (16 Sep 2026). | Community Consensus | unscoped | EV-276,EV-272 |
@@ -2009,6 +2019,7 @@ Distinct evidence records cited: **458**.
 | CLAIM-1918 | NAVIGATION ERRATUM: gamingonphone's DLS25 friend guide is internally inconsistent on the DLL unlock, saying first 'complete six Career mode matches... | Speculative | errata/dll-unlock-six-vs-three | EV-494 |
 | CLAIM-1919 | REJECTED SOURCE: dream-league-soccer.fandom.com/wiki/Coins. The page carries impossible economy figures - '1000.000 coins per goal', '10000 00000 c... | Speculative | errata/fandom-coins-page-rejected | EV-494 |
 | CLAIM-1920 | REJECTED SOURCE: lfbb.net. Its DLS26 gems-and-coins guide publishes a fabricated daily routine - '600 bonus gems just from finishing in the top 50'... | Speculative | errata/lfbb-net-rejected | EV-494 |
+| CLAIM-1931 | A Google Play review (21 May 2026) reports 'career mode is way too easy and developers need to add extra difficulty to it' - which sits against the... | Speculative | difficulty/sentiment-split-by-mode | EV-495 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

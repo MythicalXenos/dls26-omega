@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-157 — 1,916 claims / 396 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-158 — 1,927 claims / 397 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -751,7 +751,11 @@ If direct free kicks are unreliable, don't take them: C-pass to a player beside 
 
 ### 3.4 Scenarios and Exhibition [EV-445, C2/C3]
 
-- **Scenarios:** you are already **losing** and must beat **Hard AI**. 50 coins daily, resets each day. DLS26 Summer Spotlight officially added *more bonus objectives and rewards*. The community calls scenarios **the hardest content in the game** — "way harder than Live Games", and even "easy" scenarios reportedly play at medium difficulty. Budget time accordingly.
+- **Scenarios:** you are already **losing** and must beat **Hard AI**. 50 coins daily, resets each day. DLS26 Summer Spotlight officially added *more bonus objectives and rewards*. The community calls scenarios **the hardest content in the game** — "way harder than Live Games", and even "easy" scenarios reportedly play at medium difficulty. Budget time accordingly. **DLS26 raised the difficulty further** — "have you also noticed how ridiculously hard scenarios has become?" [EV-495, C3] — so price the 50 coins against several attempts, not one.
+
+> **⚠️ DLS DOES NOT DOCUMENT ITS REFEREE MODEL** [EV-495, C2 — a methodology finding]. A search for DLS referee, card and penalty rules returns **only** real-world football law — IFAB Laws 5 and 12, the 2026/27 VAR protocol, Premier League VAR guidance, MLS and ASL disciplinary codes. Not one DLS-specific source. So the corpus's two referee rules (**five reds ends the match · five accumulated yellows = a one-match ban**) are the best available, and **any DLS "rule" that reads like the Laws of the Game has been imported from real football and is not evidence.** Recorded so no future research wave repeats the search and mistakes football law for game documentation.
+
+**What Hard mode actually is** [EV-495, C3] — the corpus had the official selector and the handicap perception but not the characterisation: *"Hard mode is basically DLS without all the random and stupid gameplay. In hard mode teams play like actual teams to an extent."* Only **Medium and Hard** exist since DLS25 cut Easy and Very Hard (DLS23 had four, paying 25/50/75/100 coins). The reported handicap **intensifies in larger stadiums** as well as on Hard — which couples the difficulty question to the capacity gate, so test it before maxing the stadium.
 - **Exhibition:** offline friendlies via a **room code**, no rewards. This is your **free training ground** — the right place to drill corners, free kicks and new formations before taking them into Live.
 
 **The defending model — four independent sources agree** [EV-474, C3]:

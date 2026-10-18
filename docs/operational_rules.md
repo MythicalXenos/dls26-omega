@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-157 — 1,916 claims / 396 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-158 — 1,927 claims / 397 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -169,6 +169,7 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Tackle from in front, never from behind at an angle** | In front or just off at an angle wins the ball clean; behind at an angle fouls [EV-493, C3] |
 | **Shepherd outwards, do not engage frontally** | Push the opponent wide rather than pressing permanently; patience concedes fewer goals [EV-493, C3] |
 | **Never push defenders forward** | A DM presses in midfield; zonal out of possession |
+| **Referee rules are undocumented** | Only two exist on the open web: five reds ends the match, five accumulated yellows = a one-match ban. Do not import real-football law [EV-495, C2] |
 | **Slide tackles sparingly, never on the counter** | Block shots; press C for the keeper; aerial ball = press B at the nearest midfielder |
 | **Tactic switching is a rhythm** | Defensive the moment they have it, attacking the moment you win it, balanced to reset |
 | **Anti-C-spam escalation** | Head diagonally backwards toward the second striker, then escalate the back line 3 → 4 → 5 |
