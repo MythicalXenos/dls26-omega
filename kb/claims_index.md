@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:25:43Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1412**
-Distribution: Confirmed 316 / High Confidence 641 / Community Consensus 420 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **410**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:42:11Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1429**
+Distribution: Confirmed 320 / High Confidence 646 / Community Consensus 428 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **412**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,7 +10,8 @@ Distinct evidence records cited: **410**.
 | unscoped | 424 |
 | economy | 85 |
 | facilities | 72 |
-| career | 43 |
+| career | 45 |
+| dll | 45 |
 | clans | 41 |
 | transfers | 40 |
 | training | 38 |
@@ -20,7 +21,6 @@ Distinct evidence records cited: **410**.
 | prizeladder | 34 |
 | patching | 33 |
 | cards | 31 |
-| dll | 31 |
 | platform | 30 |
 | customization | 29 |
 | setpieces | 29 |
@@ -28,7 +28,7 @@ Distinct evidence records cited: **410**.
 | errata | 21 |
 | events | 20 |
 | modes | 19 |
-| gameplay | 17 |
+| gameplay | 18 |
 | stamina | 17 |
 | meta | 16 |
 | presentation | 16 |
@@ -375,6 +375,10 @@ Distinct evidence records cited: **410**.
 | CLAIM-1413 | World Heroes is a large live-service event that began 1 July 2026, followed by a World Winners event; World Heroes are Special Players obtainable t... | Confirmed | events/world-heroes | EV-446 |
 | CLAIM-1414 | Manager Accessories are North American themed cosmetic manager appearance items added in Summer Spotlight. | Confirmed | customization/manager-accessories | EV-446 |
 | CLAIM-1415 | Summer Spotlight's clan improvements add interactions and emoji reactions on top of the earlier leaderboards, vice-captains and clan point boosts. | Confirmed | clans/emoji-interactions | EV-446 |
+| CLAIM-1417 | OFFICIAL: DLL matchmaking is based primarily on LIVE Tier ranking, location, and the availability pool of other players at match time. | Confirmed | dll/matchmaking-factors | EV-447 |
+| CLAIM-1418 | OFFICIAL: there are NO additional overlaid controls to manage the difficulty experience in DLL - no rubber-banding or hidden difficulty scaling. Ou... | Confirmed | dll/no-hidden-difficulty | EV-447 |
+| CLAIM-1419 | OFFICIAL: because team strength is an explicit DLL matchmaking input, a stronger squad is matched against stronger opponents. This is the official ... | Confirmed | dll/team-strength-matching | EV-447 |
+| CLAIM-1420 | OFFICIAL: same-tier DLL matching occasionally fails due to reduced player availability, so you will sometimes face opponents well above or below yo... | Confirmed | dll/availability-mismatch | EV-447 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
@@ -887,6 +891,11 @@ Distinct evidence records cited: **410**.
 | CLAIM-1409 | Daily login rewards run on a 20-day cycle that restarts from Day 1 if you miss a day, so unbroken daily logins are essential to reach the later rew... | High Confidence | economy/login-20-day-cycle | EV-445 |
 | CLAIM-1416 | VERSION-DATE NOISE: mirror sites disagree on the release dates of the Summer Spotlight builds (13.310 through 13.430) while the App Store and the d... | High Confidence | errata/version-date-noise | EV-446 |
 | CLAIM-142 | Vintage/historical "special" cards (special.json) cover Champion (12, vintage years 2004–2018), Classic (24, 1984–2018), Star (23, 2025/2026 rising... | High Confidence | unscoped | EV-251,EV-248,CLAIM-132 |
+| CLAIM-1421 | TIER CAMPING is the highest gem-efficiency tactic in DLL: camp between Tier 5 and Tier 2, and AIM FOR SURVIVAL NOT PROMOTION - win only 4-5 matches... | High Confidence | dll/tier-camping-survival | EV-448 |
+| CLAIM-1424 | MAXED-SQUAD HANDICAP: a Tier 1 player reports that 'maxxed squads perform TERRIBLY in high tiers due to handicap' and advises against further coach... | High Confidence | dll/maxed-squad-handicap | EV-447,EV-448 |
+| CLAIM-1428 | TIER 1 PLAY: open with 3-4-1-2 attacking so six players run at goal on kickoff with four viable passing options, keep it simple, and read the SPACE... | High Confidence | dll/tier1-space-reading | EV-448 |
+| CLAIM-1429 | In DLL, TACKLING IS WORTHLESS and SPEED IS EVERYTHING - use players with 95+ speed and acceleration as defenders, play the fastest attackers at cen... | High Confidence | dll/speed-over-tackling | EV-448 |
+| CLAIM-1431 | CAREER COIN SHORTCUT: set difficulty to Easy, let the first half play out unattended (the AI scores 2-4), then score exactly 5 goals and finish - r... | High Confidence | career/easy-difficulty-shortcut | EV-448 |
 | CLAIM-144 | DLS26 OVR ceiling hierarchy, corrected: base golds cap 86 (EV-251); vintage Champion/Star/Team-of-Year special cards cap 88 (EV-251); current-event... | High Confidence | unscoped | EV-252,EV-251,EV-248 |
 | CLAIM-145 | DLS26 OVR is computed as a weighted linear sum of the 8 attributes plus a constant, STABLE across all updates 20231→20263. Best-fit across 23,327 n... | High Confidence | unscoped | EV-251,EV-252,CLAIM-137,CLAIM-138,EV-253 |
 | CLAIM-147 | Base/purchasable roster OVR hard cap is 86 in EVERY version 20231–20263 (3 years of updates). OVRs 87–98 exist ONLY on special/promo/legend/event c... | High Confidence | unscoped | EV-253,EV-251,CLAIM-141,CLAIM-142,CLAIM-144 |
@@ -1360,7 +1369,15 @@ Distinct evidence records cited: **410**.
 | CLAIM-1405 | Scenarios are widely considered the hardest content in the game - 'way harder than Live Games' - with some players finding them nearly impossible e... | Community Consensus | scenarios/difficulty-complaint | EV-445 |
 | CLAIM-1408 | Daily challenge rewards run from 5 to 11 gems per day and 70-100 coins, which one guide equates to winning a Division 1 match; career objectives pa... | Community Consensus | economy/daily-challenge-values | EV-445 |
 | CLAIM-141 | DLS26 Season 2026 Update 1 ships at least 2,518 base roster players (regular/purchasable, non-promo), OVR 52–86, across 124 club teams + national s... | Community Consensus | unscoped | EV-251,EV-253 |
+| CLAIM-1422 | Tier camping economics: 48 matches over 4 to 4.8 hours yields about 150 gems from DLL, with a 4-hour minimum of 160-208 gems - roughly 35-43 gems p... | Community Consensus | dll/tier-camping-economics | EV-448 |
+| CLAIM-1423 | Do NOT forfeit matches while tier camping - forfeiting may prevent you from receiving the maximum gems. | Community Consensus | dll/no-forfeit-while-camping | EV-448 |
+| CLAIM-1425 | Tier 11 to Tier 10 is the most consistently reported difficulty cliff - 'players are getting much stronger after passing tier 11'. Tier 4 is a seco... | Community Consensus | dll/tier-cliffs | EV-448 |
+| CLAIM-1426 | DELIBERATE DEMOTION is a widespread tactic: players deliberately lose to drop to Tier 12 or below, then farm XP, diamonds and legendary players aga... | Community Consensus | dll/deliberate-demotion | EV-448 |
+| CLAIM-1427 | TIER OSCILLATION: the game reportedly makes your current tier harder if you do not advance, so the intended path is to advance tier by tier rather ... | Community Consensus | dll/tier-oscillation | EV-448 |
 | CLAIM-143 | Unlicensed teams/players are present in DLS26 (e.g. Kane listed under "Unlicensed" team at Bayern due to missing Bundesliga license; 367 players in... | Community Consensus | unscoped | EV-251 |
+| CLAIM-1430 | Defending against C-spammers in DLL: use a defensive 4-3-1-2 for slow build-up play, which both limits concessions and beats the C-spam meta. | Community Consensus | dll/defensive-4312-vs-cspam | EV-448 |
+| CLAIM-1432 | STADIUM PACING: upgrade the stadium only to the minimum required for each division, then stop playing Career until you like your team, because stad... | Community Consensus | career/stadium-pacing | EV-448 |
+| CLAIM-1433 | DLS25 GAMEPLAY SHIFTS: foot dominance now affects turning and passing fluency, narrow-space passes are harder, and long-range shots have a lower su... | Community Consensus | gameplay/dls25-shifts | EV-448 |
 | CLAIM-148 | Base roster size has grown ~4.5× across updates: 20231=1,224, 20241=1,681, 20242=4,126, 20251=3,828, 20252=3,602, 20253=3,798, 20261=2,518, 20262=5... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-143 |
 | CLAIM-149 | Transfer price `prc=0` in roster data marks players that are NOT on the open transfer market in that update (loaned, not yet released, untradeable ... | Community Consensus | unscoped | EV-253,EV-251,CLAIM-139 |
 | CLAIM-153 | DLS26 exposes a player-controllable HUD with two stamina/boost indicator icons ("filled" and "hollow" circle templates used by the bot for HUD dete... | Community Consensus | unscoped | EV-254 |

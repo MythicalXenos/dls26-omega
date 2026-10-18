@@ -175,3 +175,11 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Source B (minority):** r/DreamLeagueSoccer 1lyxfag (same thread, different commenter) — "Use a right footed player when taking the left corner and vice-versa."
 - **Status:** OPEN, low impact. Both are community reports with no official basis. The outswinger routine in CLAIM (EV-444) uses the SAME-foot pairing. Recorded in EV-444. **Resolution path: test both in the free training ground before committing.**
 
+## C-024: Maxed-squad handicap in high DLL tiers (coach everything vs coach deliberately)
+- **Position A:** the coach-everything strategy (masterplan Phase 4, EV-439). Every player carries ~80 upgrade points; STR and CON count x2; a maxed squad is the definition of 100% club value.
+- **Position B:** a Tier 1 player states "maxxed squads perform TERRIBLY in high tiers due to handicap... Just try not to coach your players anymore, trust me, it just ruins you long term (unless winning tier 1 regularly isn't a priority)" [r/DLS 1qu9lt3, Feb 2026].
+- **Corroboration for B:** the OFFICIAL FTG matchmaking article states that team strength is an explicit matching input [EV-447, C1], and multiple players report being stuck at tiers 4 and 10 with part-maxxed and fully-maxxed squads [r/DLS 1gf89h3, rsrzfa].
+- **Corroboration for A:** club value and the Prize Ladder both reward maxed players, and a world-record Tier 1 run was achieved with a mostly common/rare squad [EV-432].
+- **Status:** OPEN and CONSEQUENTIAL. The two positions are not mutually exclusive if the mechanism is matchmaking: maxing raises club value and Prize Ladder progress while raising DLL opponent strength.
+- **Provisional resolution adopted in the playbook:** coach the squad to a **competitive but not maxed** level for DLL purposes, and pursue full maxing as a separate, parallel club-value objective rather than a prerequisite for Tier 1. Logged EV-447/EV-448.
+
