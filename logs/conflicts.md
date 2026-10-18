@@ -203,6 +203,13 @@ So Source A was showing post-boost/in-game OVR, Source B was showing the event-b
 - **Source B (minority):** r/DreamLeagueSoccer 1lyxfag (same thread, different commenter) — "Use a right footed player when taking the left corner and vice-versa."
 - **Status:** OPEN, low impact. Both are community reports with no official basis. The outswinger routine in CLAIM (EV-444) uses the SAME-foot pairing. Recorded in EV-444. **Resolution path: test both in the free training ground before committing.**
 
+## C-023 — Version-date noise across mirrors (logged ckpt-102, EV-446; full record at `kb/build-version.md` B-010)
+
+- **Side A — the App Store version history and the dlsinside datamine build/date pair:** 13.320 (8 Jun 2026) and 13.330 (10 Jun 2026); dlsinside labels build 13430 as updated 2026-09-16.
+- **Side B — mirror dates:** soft112 lists 13.310 (29 May), 13.320 (8 Jun), 13.330 (10 Jun), 13.340 (22 Jun), 13.350 (14 Jul), 13.410 (20 Aug), 13.420 (10 Sep), 13.430 (1 Oct); Google Play said "Updated on Sep 14, 2026". Several mirrors (APKPure, AppBrain, AppGlint, AppMagic, Soft112) derive from Play Store data and are therefore **not independent of each other** (B-001).
+- **Status:** **RESOLVED as a scope rule rather than a factual question (ckpt-102).** The version-to-**content** mapping is reliable and internally consistent; the version-to-**date** mapping across mirrors is not. **Rule: cite the App Store version history or the datamine build/date pair, never a mirror date.** Registered here so the ledger is complete — the full record lives at `kb/build-version.md` B-010.
+- **May say meanwhile:** *"Mirror dates are never authoritative. When dating a claim, use the App Store version history or the datamine build/date pair; mirrors disagree on dates while agreeing on content."*
+
 ## C-024: Maxed-squad handicap in high DLL tiers (coach everything vs coach deliberately)
 - **Position A:** the coach-everything strategy (masterplan Phase 4, EV-439). Every player carries ~80 upgrade points; STR and CON count x2; a maxed squad is the definition of 100% club value.
 - **Position B:** a Tier 1 player states "maxxed squads perform TERRIBLY in high tiers due to handicap... Just try not to coach your players anymore, trust me, it just ruins you long term (unless winning tier 1 regularly isn't a priority)" [r/DLS 1qu9lt3, Feb 2026].
