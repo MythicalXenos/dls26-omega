@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:36:50Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1628**
-Distribution: Confirmed 372 / High Confidence 692 / Community Consensus 529 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **434**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:40:38Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1630**
+Distribution: Confirmed 373 / High Confidence 693 / Community Consensus 529 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **435**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,7 +10,7 @@ Distinct evidence records cited: **434**.
 | unscoped | 424 |
 | economy | 115 |
 | facilities | 86 |
-| dll | 60 |
+| dll | 61 |
 | clans | 50 |
 | cards | 49 |
 | career | 48 |
@@ -59,13 +59,13 @@ Distinct evidence records cited: **434**.
 | ai | 4 |
 | chemistry | 4 |
 | ratings | 4 |
+| audit | 3 |
 | features | 3 |
 | injuries | 3 |
 | medical | 3 |
 | multiplayer | 3 |
 | scenarios | 3 |
 | settings | 3 |
-| audit | 2 |
 | challenges | 2 |
 | formations | 2 |
 | licensing | 2 |
@@ -448,6 +448,7 @@ Distinct evidence records cited: **434**.
 | CLAIM-1630 | Opponents 'naturally become more challenging' as players progress through the Tiers - a pool-composition effect as stronger players concentrate in ... | Confirmed | dll/opponents-harden-by-tier | EV-469 |
 | CLAIM-1631 | The nine-state machine S0 through S9 is intact in the operational rules as a flow diagram of S0 -> S1 transitions, not a table - so a table-format ... | Confirmed | audit/state-machine-intact | EV-470 |
 | CLAIM-1632 | The masterplan's separate '5,625 gems and 10,000 coins' stadium figure is a single player's completed-stadium report and is NOT the facility budget... | Confirmed | audit/stadium-vs-facility-figure-disambiguation | EV-470 |
+| CLAIM-1633 | The DLL tier playbook was refreshed from a ckpt-109 basis to ckpt-133 - it had carried the withdrawn C-024 claim and was missing the official stat ... | Confirmed | audit/tier-playbook-refreshed | EV-471 |
 | CLAIM-164 | Dream Point Boosts apply ONLY to career, dream draft, scenario, and DLL (multiplayer) matches; they do NOT apply to exhibition or friend matches. U... | Confirmed | unscoped | EV-259 |
 | CLAIM-165 | Season Pass mechanics (v12200+): FREE + SEASON PASS (paid) tiers; buying paid Pass unlocks Progress Bank (DLL XP → coins+gems paid at season end) a... | Confirmed | unscoped | EV-260,EV-270 |
 | CLAIM-166 | Season Pass activation threshold: 400 Season Points; daily login provides 40 Season Points/day for free (10-day season = 400 SP from logins alone).... | Confirmed | unscoped | EV-270 |
@@ -1010,6 +1011,7 @@ Distinct evidence records cited: **434**.
 | CLAIM-1621 | THE PROGRESSION BANK FORMULA: 1,000 DLL XP converts to 1 gem, and a Tier-1 3-0 win with Season Pass Premium and about 50% home advantage yields rou... | High Confidence | dll/progression-bank-formula | EV-468 |
 | CLAIM-1622 | The DLL champion cap is 125 championships per 10-day season at 48 gems each = 6,000 gems, matching the corpus's DLL gem figure. A Legendary DP Poin... | High Confidence | dll/champion-cap-and-booster-cost | EV-468 |
 | CLAIM-1623 | A SECOND SOURCE NAMES 100 GEMS for the clan top contributor: 'in a clan there is a leaderboard where having the highest clan points give you the re... | High Confidence | clans/top-contributor-100-second-source | EV-468 |
+| CLAIM-1634 | Every failed DLL promotion wastes the accumulated points of that tier, so a promotion streak is worth protecting above individual match results - t... | High Confidence | dll/promotion-streak-priority | EV-471 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |

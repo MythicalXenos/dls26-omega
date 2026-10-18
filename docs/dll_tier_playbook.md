@@ -1,7 +1,7 @@
 # DLL TIER PLAYBOOK — 20 → 1
 
 > **Companion to `docs/strategy_masterplan.md` and `docs/operational_rules.md`.** This file translates the tier ladder into *state-specific tactics*. The masterplan says where you are going; this says what changes as you get there.
-> **Basis:** ckpt-109 (`300157b`) — 1,429 claims / 350 evidence records.
+> **Basis:** ckpt-133 — 1,628 claims / 372 evidence records.
 > **Evidence note:** the tier-cliff and tier-camping figures are Community Consensus (well-corroborated across multiple independent posters over 2021–2026). The matchmaking rules are **Confirmed, from the official FTG support article**. The maxed-squad handicap is Community Consensus with an official corroborating mechanism, and is logged as **C-024**.
 
 ---
@@ -14,11 +14,12 @@ Official FTG matchmaking statement [EV-447, **Confirmed**]:
 
 > LIVE mode matches players in real time based on a number of player-related attributes and elements, **primarily their LIVE Tier ranking, their location and the availability pool** of other players at the time of matching. […] **There are no additional overlaid controls to manage the difficulty experience.** Outcomes are governed by individual skill levels as reflected in their tactics, gameplay choices and **team strength**. […] As players progress through the Tiers, opponents will naturally become more challenging.
 
-Three consequences:
+Four consequences:
 
-1. **No rubber-banding.** If you lose, it is because of tactics, execution, or squad — not a hidden handicap. That is good news: everything is fixable.
-2. **Team strength is a matching input.** This is the official basis for the maxed-squad handicap below.
+1. **No rubber-banding.** If you lose, it is because of tactics, execution, or squad — not a hidden handicap. That is good news: everything is fixable. FTG explicitly denies overlaid difficulty controls, which also retires the *"Turkish opponents get micro-delay"* accusation: there is no opponent-specific adjustment to perceive.
+2. **⚠️ CORRECTED at ckpt-133 (EV-469): team strength is NOT a matching input.** An earlier version of this playbook claimed it was, and that claim has been withdrawn. The enumerated inputs are exactly **tier, location and availability pool**; team strength appears only in the **outcomes** sentence — it decides how a match plays out, not who you face. **The maxed-squad handicap below therefore has no official basis and rests on community reports alone.**
 3. **Same-tier matching sometimes fails.** On low player availability you will face opponents well outside your tier. A "mismatch" is not a bug; budget for it.
+4. **The tiers harden as a pool, not as a handicap.** Opponents "naturally become more challenging" because stronger players concentrate upward — which is why the climb gets real at 11→10 and again at tier 4.
 
 ### 0.2 Maxing your squad can hurt you in Live (C-024)
 
@@ -26,7 +27,7 @@ A Tier 1 player [EV-448, C2]:
 
 > A squad like yours is perfect, slightly coached players but not close to being maxxed (**maxxed squads perform TERRIBLY in high tiers due to handicap**). […] Just try not to coach your players anymore, trust me, it just ruins you long term.
 
-Corroborated by the official matchmaking input above, and by multiple reports of players stuck at tiers 4 and 10 with part-maxxed and fully-maxxed squads.
+**Corroboration corrected at ckpt-133:** the official matchmaking article does **not** support this — team strength is an outcome determinant, not a matching input, so **this is a community hypothesis only**. What remains is multiple independent reports of players stuck at tiers 4 and 10 with part-maxxed and fully-maxxed squads [r/DLS 1gf89h3, rsrzfa], plus the counter-evidence of a world-record Tier 1 run on a mostly common/rare squad.
 
 **What this means in practice — and it is not "never coach":**
 
@@ -37,7 +38,7 @@ Corroborated by the official matchmaking input above, and by multiple reports of
 
 These are **two separate optimisation targets that pull in opposite directions.** The plan is to run them in parallel, not to let one gate the other: coach to competitive for Live, and pursue full maxing as an independent club-value project. The record Tier 1 run used a **mostly common/rare squad** [EV-432], which is the strongest single piece of evidence that maxing is not a prerequisite for the top tier.
 
-**Confidence note:** this is the most consequential open conflict in the KB. It is Community Consensus with an official mechanism behind it, not a datamined fact. Treat the *direction* as reliable and the *threshold* (how much coaching is too much) as unknown.
+**Confidence note (corrected ckpt-133):** this is the most consequential open conflict in the KB, and it is **Community Consensus only — the official mechanism was withdrawn**. Treat the *direction* as plausible and the *threshold* (how much coaching is too much) as **unknown and untested**. The parallel-targets strategy is the correct hedge: it costs nothing if the handicap is imaginary and saves the climb if it is real.
 
 ---
 
@@ -148,6 +149,14 @@ For comparison, the daily challenge set pays **5–11 gems per day**. Tier campi
 
 **Tier 2 note:** opponents at tier 2 are at **10M+ XP**. Expect them to know all of the above.
 
+**Tier 1 squad shape — from the OFFICIAL stat model** [EV-456, **C1**]. The official per-stat article settles what to recruit for at the top: **SPE is conditional** (it falls with energy, and falls while dribbling *inversely to CON* — so a lower-SPE player can outrun a higher-SPE one), while **CON, PAS and TAC each govern a possession action** and **STR decides who keeps the ball in a collision**. The Tier-1 build is therefore a **fast spine with a technical core**, with **STA weighted by position** — high on midfielders and wingers, low on centre-backs, because *"a centre-back will typically cover far less distance than a midfielder"*. Verify any coaching plan in Exhibition before committing it.
+
+**Formation at the top — and the variable that beats it** [EV-464, C3]. There is no best shape; there are failure modes. Tier-1 players report **switching to 4-2-3-1 on the climb** for one extra defensive mid when opponents attack better, and the 4-2-3-1 *"fails gracefully"* — you get overrun slowly and can see it happening. **But stamina depth beats formation every time: a 4-3-3 with fresh legs at minute 70 beats a perfect 4-2-3-1 with three players at low stamina. Rotation is a tactical decision, not a chore.**
+
+**The XP bill and the benchmark** [EV-468, C2]: promoting from tier 10 to tier 1 costs **27,500 XP** (500 for tier 10 promotion, rising by 500 per tier to 4,500 for tier 2, plus 5,000 for the Tier 1 Champions achievement). The world record is **145,296 XP in 16 days** on a mostly common/rare squad, with the runner noting *"not once did I not get promoted to the next tier (crucial to saving XP)"* — **every failed promotion wastes a tier of accumulated points, so protect promotion streaks above everything.**
+
+**Relegation is real** [EV-468, C3]: 2 points was the difference between staying in tier 2 and dropping to tier 3. This is the direct risk in the camping strategy — quitting matches saves time but spends the points you need to survive.
+
 ---
 
 ## 3. Deliberate demotion — when and why
@@ -233,4 +242,4 @@ DLS25 changed the physics in ways that partly **contradict the older advice stil
 
 ---
 
-*End of DLL tier playbook. Authority: `kb/claims.jsonl` (1,429 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (350 records) at ckpt-109.*
+*End of DLL tier playbook. Authority: `kb/claims.jsonl` (1,628 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (372 records) at ckpt-133.*
