@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-109 (`300157b`) — 1,429 claims / 350 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-112 (`ad38d20`) — 1,448 claims / 352 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -267,7 +267,44 @@ The game offers **2 randomised options (one fitness, one technical)** and you pi
 - **Cult Heroes** (v13.430, 16 Sep 2026) — 12 players, signed randomly from Cult Hero Agents: **de Gea 85, Aubameyang 85, Dybala 85** (max 95); **Isco, Insigne, Ziyech, Otamendi, David Luiz 84** (max 94); **Blind, Herrera, Shaqiri, Vozinha 83** (max 93) [EV-430, C2].
 - **Classic Players:** unlock to sign with **500 coins**, or by completing the game (beating your own team after First Touch United); ratings 85–97 [C2].
 - **Prize Ladder cycle = 90 days** and it unlocks coins, gems **and Classic Players** [EV-431, C2].
-- **DP economics:** career max **140 DP/match**, DLL+Draft **185 DP**; **5-goal cap**; ~**2,800 DP/day**; ~**200,000 DP** total; boosts **+50% / +70% / +150%** plus ad boosts [prior waves, C2/C3].
+- **DP economics:** career max **140 DP/match**, DLL+Draft **185 DP**; **5-goal cap**; ~**2,800 DP/day**; ~**200,000 DP** total; boosts **+50% / +70% / +150%** plus ad boosts [prior waves, C2/C3]. Per-match DP is **75–250 depending on performance**, plus a post-match ad [EV-450, C3].
+- **DP method ranking** [EV-450, C3]: 5-0 Career wins for casual play · **Scenarios if you are skilled** · Live matches if you win 90% online · gems and boosts if paying. Explicit community warning: **do not grind Classic Players at the cost of your enjoyment** — for most maxed teams they are useless, though basic-squad players call Batistuta and Petit uniquely strong.
+
+#### 6.1 The complete card taxonomy [EV-450, C3 / EV-449, C1]
+
+| Card | What it is | How you get it |
+|---|---|---|
+| **Gold** | Ordinary players. Odds improve as you sign better-rated players. | Market, Agents, Scouts |
+| **Orange** | **A maxed gold player — NOT a separate card type** | Coach a gold player to max |
+| **Black** | **Classic Players** — DLS's analogue of FIFA Icons. Rated **85–97**. Own tab at the top of the screen. | **Prize Ladder** milestones (62,500–250,000 DP), or 500 coins / completing the game |
+| **Purple** | **Dream Stars** — the season's top performers with enhanced attributes; the 12th Man Vote picks the final one | Month-long event; **Dream Agents** from events and the Season Pass |
+| **Blue** | **Champions** — players in their prime, high stats | Limited-time **Legendary Agent** events only |
+| **Kick-Off Stars** | New DLS26 type; special edition Raphinha and Alvarez at launch | Agents, events, passes |
+| **Cult Heroes** | 12-player collection, live in v13.430 | **Cult Hero Agents** |
+| **Dynamic Stars** | Cards that **upgrade live** with real-world national team results | **Dynamic Star Agents** |
+| **World Heroes** | Special Players from Legendary Agents | **Legendary Agents** (300+ gems each) |
+
+> **THE DLS26 CORRECTION — OFFICIAL:** special players **no longer count toward the main squad size**. A club can hold **unlimited** special players [EV-449, C1]. There is no longer a collection cap.
+
+#### 6.2 The gacha probability mechanic — the highest-value collection finding [EV-450, C2]
+
+> The chance of pulling a special player from a Legendary Agent depends on **how many legendary players you currently own** plus **how many are sitting in the transfer market** — and **the probability increases the fewer legendary players are left to pull.**
+
+**The method:** buy and sell **every 80+ player you see**, so they sit in the **recovery tab for two days** and are removed from the agent pool. Reported to take Champion odds to **100%**, at a cost of **~275,000 coins across ~145 players and 70+ market refreshes**.
+
+**Supporting moves:**
+- **Stack gold players in the market** — they cannot be pulled from agents while they are there.
+- **Lock players** — helps, but costs gems.
+- **Pity ceiling:** about **15 Legendary Agents per target**, TOTY-style guarantee after 15.
+- **Super Agents** give 83+ players for ~550 gems — poor value, too large a pool.
+
+> **This mechanic is the reason the transfer-market section matters.** The market is not just where you buy players; it is the **lever that controls your agent odds**. Farming the market *is* farming your gacha chances.
+
+#### 6.3 The counter-intuitive rule: do NOT release Classic Players [EV-450, C2]
+
+Future Prize Ladders **randomise** their rewards. If you fail to collect a full Classic set in one ladder, you may get those players in the next — and **miss the newly released ones**. So: **keep every Classic you pull, even unmaxed.**
+
+Release yields coaches, not coins — but for Classics specifically, the opportunity cost of releasing is a possible permanent miss.
 
 ### PHASE 7 — Clans (the compounding social layer)
 
