@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:22:39Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1405**
-Distribution: Confirmed 310 / High Confidence 640 / Community Consensus 420 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **409**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:25:43Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1412**
+Distribution: Confirmed 316 / High Confidence 641 / Community Consensus 420 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **410**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -11,7 +11,7 @@ Distinct evidence records cited: **409**.
 | economy | 85 |
 | facilities | 72 |
 | career | 43 |
-| clans | 40 |
+| clans | 41 |
 | transfers | 40 |
 | training | 38 |
 | coaches | 36 |
@@ -19,15 +19,15 @@ Distinct evidence records cited: **409**.
 | cups | 34 |
 | prizeladder | 34 |
 | patching | 33 |
+| cards | 31 |
 | dll | 31 |
 | platform | 30 |
-| cards | 29 |
+| customization | 29 |
 | setpieces | 29 |
-| customization | 28 |
 | attributes | 23 |
-| errata | 20 |
+| errata | 21 |
+| events | 20 |
 | modes | 19 |
-| events | 18 |
 | gameplay | 17 |
 | stamina | 17 |
 | meta | 16 |
@@ -369,6 +369,12 @@ Distinct evidence records cited: **409**.
 | CLAIM-136 | Build stack confirmed via static analysis of an APK in academic corpora: DLS26 is a UNITY ENGINE build (Unity Ads activities present, namespace `co... | Confirmed | unscoped | EV-249,CLAIM-115,CLAIM-072,CLAIM-094 |
 | CLAIM-140 | Default (starting) formations are set per team: 149 clubs + 79 nations are catalogued in formations.json. Examples: Man City 4-1-4-1; Man Utd/Liver... | Confirmed | unscoped | EV-251,CLAIM-077 |
 | CLAIM-1404 | DLS26 Summer Spotlight officially added a Scenario update with more bonus objectives and rewards in the mode, beyond the base 50 coins. | Confirmed | scenarios/summer-spotlight-update | EV-445 |
+| CLAIM-1410 | Dynamic Stars are Special Players whose cards UPGRADE LIVE based on real-world national team tournament performance - DLS26's structural analogue o... | Confirmed | cards/dynamic-stars-live-upgrade | EV-446 |
+| CLAIM-1411 | The Dynamic Stars collection opened on 8 June 2026 with the Summer Spotlight update, tied to the World's tournament. | Confirmed | cards/dynamic-stars-launch | EV-446 |
+| CLAIM-1412 | World Tournament is a brand-new International Football EVENT TYPE introduced in Summer Spotlight, described as a completely fresh international foo... | Confirmed | events/world-tournament | EV-446 |
+| CLAIM-1413 | World Heroes is a large live-service event that began 1 July 2026, followed by a World Winners event; World Heroes are Special Players obtainable t... | Confirmed | events/world-heroes | EV-446 |
+| CLAIM-1414 | Manager Accessories are North American themed cosmetic manager appearance items added in Summer Spotlight. | Confirmed | customization/manager-accessories | EV-446 |
+| CLAIM-1415 | Summer Spotlight's clan improvements add interactions and emoji reactions on top of the earlier leaderboards, vice-captains and clan point boosts. | Confirmed | clans/emoji-interactions | EV-446 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
@@ -879,6 +885,7 @@ Distinct evidence records cited: **409**.
 | CLAIM-1406 | Exhibition Mode is the offline friendly space: you generate a ROOM CODE to invite friends and family, it is the best place to test formations and t... | High Confidence | exhibition/room-code-no-rewards | EV-445 |
 | CLAIM-1407 | Daily challenges can be rerolled twice per day and weekly objectives twice per week, by watching an ad or paying. | High Confidence | economy/challenge-rerolling | EV-445 |
 | CLAIM-1409 | Daily login rewards run on a 20-day cycle that restarts from Day 1 if you miss a day, so unbroken daily logins are essential to reach the later rew... | High Confidence | economy/login-20-day-cycle | EV-445 |
+| CLAIM-1416 | VERSION-DATE NOISE: mirror sites disagree on the release dates of the Summer Spotlight builds (13.310 through 13.430) while the App Store and the d... | High Confidence | errata/version-date-noise | EV-446 |
 | CLAIM-142 | Vintage/historical "special" cards (special.json) cover Champion (12, vintage years 2004–2018), Classic (24, 1984–2018), Star (23, 2025/2026 rising... | High Confidence | unscoped | EV-251,EV-248,CLAIM-132 |
 | CLAIM-144 | DLS26 OVR ceiling hierarchy, corrected: base golds cap 86 (EV-251); vintage Champion/Star/Team-of-Year special cards cap 88 (EV-251); current-event... | High Confidence | unscoped | EV-252,EV-251,EV-248 |
 | CLAIM-145 | DLS26 OVR is computed as a weighted linear sum of the 8 attributes plus a constant, STABLE across all updates 20231→20263. Best-fit across 23,327 n... | High Confidence | unscoped | EV-251,EV-252,CLAIM-137,CLAIM-138,EV-253 |
