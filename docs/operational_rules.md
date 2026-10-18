@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-174 — 2,152 claims / 413 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-175 — 2,165 claims / 414 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -544,6 +544,8 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 | **Classic players** | Coins | On the transfer market, *besides the prize ladder* |
 | **Prize Ladder** | DP | First special player ≈ **50,000 DP**; 75–250 DP per match |
 | **Events / Season Pass** | Play or money | The main F2P special-player route |
+| **A Classic is a maxing play, not a rating play** | None are 86; the value is 5 stats at 100, and Desailly is the named best first pick (a defender) [EV-512, C3] |
+| **The ladder costs ~40 hours** | 9-10 min per match with ads, and the extra-DP ads stop after a while - ~250 matches for 145,000 DP [EV-512, C3] |
 
 - **Scouts cost twice** (scout, then buy); **agents do not.**
 - **Coach farming:** buy under **180–210 coins**, release for Common coaches, **7:3 fitness-to-technical** for unmazed squads. Release an 80+ player for a Rare coach.

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-174 — 2,152 claims / 413 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-175 — 2,165 claims / 414 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -538,6 +538,10 @@ FTG opens the article by stating that DLS *"is a 'game' and is not intended to b
 | **Gold** | Ordinary players. Odds improve as you sign better-rated players. | Market, Agents, Scouts |
 | **Orange** | **A maxed gold player — NOT a separate card type** | Coach a gold player to max |
 | **Black** | **Classic Players** — DLS's analogue of FIFA Icons. Rated **85–97**. Own tab at the top of the screen. | **Prize Ladder** milestones (62,500–250,000 DP), or 500 coins / completing the game |
+
+**🎯 A CLASSIC IS A MAXING PLAY, NOT A RATING PLAY** [EV-512, C3]: *"**none of them are 86 so none of them are gonna knock your socks off** or revolutionise the game, but they're nice enough."* The value is in what a Classic can be coached **to**: *"**You could probably make Desailly a 5x 100 defender**"* — five stats at 100 — and the named best first pick is a **defender, not a striker**: *"If you already are stacked with great strikers, I'd say your main man will be **Desailly**... potentially **5x 1000 with full fitness and full tackling**."* **So the Prize Ladder is the cheapest route to a genuinely maxed defender**, which is a different proposition from collecting cards. Each Classic also carries a **year** (Matthäus 1991, Rivaldo 1999, Pires 2002), so a card is a specific season's player. The current ladder is the **English League Classics** — Berbatov, Essien, Andy Cole, Petit — and the previous one was the **Midfield Classics** (Matthäus 86, Valderrama 83, Rivaldo 86, Pires 84), with one player reporting *"my Matthäus is kinda useless now"* after the rotation. **Most ladder players are recycled from older events.**
+
+**The ladder's real time cost** [EV-512, C3]: a match plus its ads is **9–10 minutes**, and the extra-DP ads **stop appearing after a while** — so the ~145,000-DP final reward is roughly **250 matches, about 40 hours**. Set against the camping route's 35–43 gems an hour, that is the honest price, and it is why the corpus's tier-camping route outranks the ladder for gems. A genuine dissent sits beside it: *"**The real tip is: just don't care about classic players.** Play some matches for fun, just like you all used to do before prize ladder was a thing."*
 | **Purple** | **Dream Stars** — the season's top performers with enhanced attributes; the 12th Man Vote picks the final one | Month-long event; **Dream Agents** from events and the Season Pass |
 | **Blue** | **Champions** — players in their prime, high stats | Limited-time **Legendary Agent** events only |
 | **Kick-Off Stars** | New DLS26 type; special edition Raphinha and Alvarez at launch | Agents, events, passes |

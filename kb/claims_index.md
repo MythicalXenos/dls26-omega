@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T06:22:52Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2152**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 857 / Speculative 56 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **475**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:27:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2165**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 868 / Speculative 58 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **476**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -13,17 +13,17 @@ Distinct evidence records cited: **475**.
 | dll | 79 |
 | transfers | 79 |
 | gameplay | 76 |
+| cards | 65 |
 | clans | 65 |
-| cards | 64 |
 | career | 62 |
 | setpieces | 60 |
-| errata | 52 |
+| errata | 53 |
 | controls | 51 |
+| prizeladder | 46 |
 | coaching | 42 |
 | patching | 42 |
 | training | 40 |
 | cups | 39 |
-| prizeladder | 39 |
 | coaches | 37 |
 | attributes | 35 |
 | tactics | 34 |
@@ -52,6 +52,7 @@ Distinct evidence records cited: **475**.
 | social | 10 |
 | squad | 10 |
 | positions | 9 |
+| settings | 9 |
 | 12thman | 8 |
 | scenarios | 8 |
 | multiplayer | 7 |
@@ -68,7 +69,6 @@ Distinct evidence records cited: **475**.
 | endgame | 5 |
 | gacha | 5 |
 | ratings | 5 |
-| settings | 5 |
 | ai | 4 |
 | shooting | 4 |
 | sources | 4 |
@@ -2120,7 +2120,18 @@ Distinct evidence records cited: **475**.
 | CLAIM-2153 | A SECOND CAREER GEM ROUTINE, tighter than wave 89's selective set: '**Just play career mode. do simple career task like score or goal assist (easy ... | Community Consensus | career/second-gem-routine-40-per-8-9-games | EV-511 |
 | CLAIM-2154 | THE ONE-SIDE-AT-A-TIME STADIUM RULE, corroborated a third time: 'for upgrading stadium, **only upgrade one side at a time and upgrade it to the max... | Community Consensus | stadium/one-side-at-a-time-third-source | EV-511 |
 | CLAIM-2155 | DON'T TRAIN PLAYERS IN EXCHANGE FOR DIAMONDS: '**Don't train players in exchange for diamonds, rather buy someone at least 80+ rating overall for 1... | Community Consensus | coaching/dont-train-in-exchange-for-diamonds | EV-511 |
+| CLAIM-2157 | THE 5x100 CLASSIC, the endgame asset the corpus had not priced: '**You could probably make Desailly a 5x 100 defender** which is cool' and 'If you ... | Community Consensus | prizeladder/5x100-classic-desailly-first | EV-512 |
+| CLAIM-2158 | THE CLASSICS ARE NOT RATING PLAYS: '**none of them are 86 so none of them are gonna knock your socks off or revolutionise the game, but they're nic... | Community Consensus | prizeladder/classics-are-not-rating-plays | EV-512 |
+| CLAIM-2159 | THE PRIZE LADDER'S REAL TIME COST, which the corpus's DP arithmetic was missing: 'avg time for 1 match is 8 mins... you also have to watch ads in b... | Community Consensus | prizeladder/real-time-cost-9-10-minutes | EV-512 |
 | CLAIM-216 | Global Challenge Cup (GCC): cross-division knockout available throughout career (older versions: 64-team bracket with group stage then single-leg e... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2161 | THE 500-COIN CLASSIC UNLOCK, and the two routes that conflict with it: the wiki and two Q&A threads (2012 and 2021) say 'Classic Players can be unl... | Community Consensus | prizeladder/500-coin-classic-unlock-legacy-route | EV-512 |
+| CLAIM-2162 | THE CURRENT PRIZE LADDER IS THE ENGLISH LEAGUE CLASSICS, confirmed by the official App Store listing ('LIVE EVENT English League Classics - Relive ... | Community Consensus | prizeladder/english-league-classics-current | EV-512 |
+| CLAIM-2163 | THE PREVIOUS CYCLE WAS THE MIDFIELD CLASSICS: **Matthaus 1991 (86) · Valderrama 1993 (83) · Rivaldo 1999 (86) · Pires 2002 (84)** - with one player... | Community Consensus | prizeladder/midfield-classics-previous-cycle | EV-512 |
+| CLAIM-2164 | EACH CLASSIC CARRIES A YEAR AND A RATING, per the official DLS TikTok: Roy Keane's rating and year are unrevealed, Irvin's is 85 - so a Classic is ... | Community Consensus | cards/classics-carry-a-year-and-rating | EV-512 |
+| CLAIM-2165 | A COMPLETE COMPETITIVE SETTINGS PROFILE, DLS26-dated (January 2026): '**Sideline camera, 30% zoom, game directional arrows OFF, radar map ON, names... | Community Consensus | settings/complete-competitive-profile | EV-512 |
+| CLAIM-2166 | THE GOAL-TO-GOAL LIMITATION: 'Saving a c spam outside penalty box or anywhere within 30 yards from your own goal, **camera follow your CB with ball... | Community Consensus | settings/goal-to-goal-defensive-view-limit | EV-512 |
+| CLAIM-2167 | THE GOAL-TO-GOAL DIRECTION PROBLEM: 'I like it when the direction of attacking is ahead. The angle makes it very easy to build up attack, pass, and... | Community Consensus | settings/goal-to-goal-direction-problem | EV-512 |
+| CLAIM-2168 | THE 100% DISTANCE RULE, from two independent sources: 'since precision passing and shooting are prerequisites for success... it will be best to use... | Community Consensus | settings/100-percent-distance-rule | EV-512 |
 | CLAIM-217 | Post-Legendary endgame cups (unlocked sequentially after winning Legendary Division): International Cup (vs national teams e.g. Brazil/Argentina/Ge... | Community Consensus | unscoped | EV-284 |
 | CLAIM-218 | Removed legacy modes (NOT in DLS26): Ultimate Challenge (mirror match vs your own team) and FTG Challenge (vs FTG developer team ~89-90 OVR), both ... | Community Consensus | unscoped | EV-284 |
 | CLAIM-220 | Division season structure (DLS24-era, presumed similar in DLS26): ~16 teams per mid division, ~30-35 matches per season, 6-8 minutes per match (spe... | Community Consensus | unscoped | EV-284 |
@@ -2246,6 +2257,8 @@ Distinct evidence records cited: **475**.
 | CLAIM-2143 | THE CAREER DIFFICULTY PATCH: 'The previous patch made Career mode harder by **absolutely disabling your players and turning 70 rated AI players int... | Speculative | career/difficulty-patch-disables-your-players | EV-510 |
 | CLAIM-2150 | THE SCOUT DELETE-AND-RETRY EXPLOIT: 'use a legendary scout one time (500) coins, until you get a high rated player, **if unsuccessfully delete the ... | Speculative | transfers/scout-delete-and-retry | EV-511 |
 | CLAIM-2156 | LFBB.NET CLAIMS AT SPECULATIVE, FLAGGED: the 4 PM softer-competition claim ('most players are at work or school at 4 PM... **600 bonus gems just fr... | Speculative | errata/lfbb-claims-at-speculative | EV-511 |
+| CLAIM-2160 | A GENUINE DISSENT ON THE WHOLE SYSTEM: 'To get to lower tiers you'll have to spend time getting relegated, considering that you can't just enter a ... | Speculative | prizeladder/dont-care-about-classics-dissent | EV-512 |
+| CLAIM-2169 | A FIFTH SPORTSDUNIA TABLE - the best-settings list - recorded so the rejection count is accurate, while noting that its display-settings inventory ... | Speculative | errata/sportsdunia-fifth-table | EV-512 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |
