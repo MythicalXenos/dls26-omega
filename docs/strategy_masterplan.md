@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-146 — 1,772 claims / 386 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-147 — 1,784 claims / 387 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -234,6 +234,8 @@ This is the most operationally important layer in the game, and almost every gui
 - **No duplicates:** you cannot buy a player you already own. To get a new version of a card you must first sell the one you have.
 - **Buy the highest-rated player at each refresh** — it raises team strength and attracts better players.
 - **Legendary players** appear individually or as **Top Picks**, and land in the **~1,500–2,800 coin** band once your rating attracts interest.
+- **CLASSIC PLAYERS ARE ON THE TRANSFER MARKET TOO** [EV-485, C2]: *"besides the prize ladder, Classic Players will also be available on the Regular Transfer Market"*, bought with **coins**. The corpus previously treated the Prize Ladder as the only Classic route — **it is not.** If a Classic you want is not on the current ladder, check the market before spending gems on agents.
+- **The squad cap does not count special or classic players** [EV-485, C2] — three independent sources confirm *"all the new classic and star players will not be counted towards the main squad size."* Collect them freely.
 - **Scouts:** Common 75 coins, Legendary 500 coins. The Common's 5% legendary chance is good early value.
 - **Release yields coaches, not coins** — this *is* the coach-farming loop.
 - **Ignore the "rename your manager" trick.** One thread claims renaming your manager and nationality to a target player's makes them appear in 20–40 matches; the poster themselves states some say it works and others that it doesn't. **Speculative (C4) — do not plan around it.**
@@ -743,6 +745,14 @@ Everything cosmetic sits at **My Club → Customise**, across five tabs — **Ki
 **Four kits** — home, away, third, goalkeeper — with a pattern vocabulary of **none, sides, halves, stripes, hoops** (3–30 stripes). **Manager customisation** is cosmetic: hairstyles, outfits and accessories, with the North American themed **Manager Accessories** arriving in Summer Spotlight. **Licensed club kits update with the real season** — August 2026 brought the official 2026/27 designs.
 
 > **⚠️ DLS26 HAS NO WAGE SYSTEM** [EV-482, C2 — documented negative]. No source documents wages, salaries, a wage bill, or contract renewal costs; the only wage-adjacent hit on the open web is a rant about the game's own price. **A player arriving from FIFA will hunt for a wage bill that does not exist — there is nothing to balance.**
+
+**Discipline** [EV-485, C3]: **five accumulated yellow cards earns a one-match suspension**, with a warning icon on the player at four. There is no cross-competition accumulation to track and no appeal.
+
+**The News System is FTG's info hub, not a news feed** [EV-485, C2]: *"Get the latest DLS info, all in one place."* A community wish-list asking to *"bring back news system like in DLS 22 (transfers, injuries, debuts, retirements)"* confirms the two are different things — **do not expect simulated transfer or injury news.**
+
+> **⚠️ THE SWITCHING DELAY** [EV-485, C3]: a September 2026 review reports *"a .5 to 2 second delay when switching… Offense can take advantage usually by dribbling sideways or c spamming,"* and that DLS25 had better input responsiveness. dlsmod claimed in December 2025 that the auto-switch bugs were solved — **either it regressed or the fix was partial.** This matters directly to the defending model in §3.1: switch early, not late.
+
+**Absent by public request** [EV-485, C2 — documented negatives]: players are actively asking FTG for home-and-away legs in tournaments, player accessories, a home-and-away league format, Bundesliga and Ajax licences, a Player of the Season award, a DLS22-style news feed, fog and cloudy weather, post-match interviews, VAR animations, stand-decoration customisation, and animated training drills. **Each is a feature DLS26 does not have.**
 
 ### 3.8 The stadium's design surface [EV-480, C2]
 

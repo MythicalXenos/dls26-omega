@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-146 — 1,772 claims / 386 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-147 — 1,784 claims / 387 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -477,6 +477,15 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 - **Physios are hired with COINS** (the counterpart to gem-funded coaches): Common restores a small amount of energy, **Legendary fully restores energy and heals all active injuries**.
 - **⚠️ FOUR LIFECYCLE NEGATIVES:** **no morale system**, **no player growth or potential curve and no aging**, **no retirement**, **no surgery or rehab timeline**. A DLS player is a static card that moves only when you spend coaches — which is why §5's coaching method is the only development lever in the game.
 - **Mid-season refreshes re-rate players** (January 2026 moved Raya 83→84, Gabriel 84→85, Merino 79→80, Zubimendi 81→82, Trossard 79→80), so a card you hold can change value without you touching it.
+
+### 3.14 Discipline, the News System, and the switching delay [EV-485, C2/C3]
+
+- **Five accumulated yellow cards = a one-match suspension**, with a warning icon at four. No cross-competition accumulation, no appeal.
+- **CLASSIC PLAYERS ARE ON THE TRANSFER MARKET**, bought with coins, *"besides the prize ladder."* **Special and classic players do not count toward the 64-player cap** (three sources).
+- **The News System is FTG's info hub, not a news feed** — no simulated transfers, injuries, debuts or retirements.
+- **⚠️ THE SWITCHING DELAY:** *"a .5 to 2 second delay when switching,"* exploitable by sideways dribbling and C-spamming, and worse than DLS25 — against the December 2025 claim that auto-switch was fixed. **Switch early, not late.**
+- **Game Centre on iOS** surfaces achievements and friend leaderboards outside the game.
+- **Absent by public request** (documented negatives): home-and-away legs, player accessories, a home-and-away league format, Bundesliga/Ajax licences, a Player of the Season award, a DLS22-style news feed, fog/cloudy weather, post-match interviews, VAR, stand-decoration customisation, and animated training drills.
 
 ---
 

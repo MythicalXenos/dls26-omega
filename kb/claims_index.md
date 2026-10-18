@@ -1,34 +1,34 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:13:51Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1772**
-Distribution: Confirmed 382 / High Confidence 772 / Community Consensus 581 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **448**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T04:15:46Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1784**
+Distribution: Confirmed 382 / High Confidence 779 / Community Consensus 586 / Speculative 36 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **449**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 121 |
-| facilities | 93 |
+| facilities | 94 |
+| gameplay | 66 |
 | dll | 65 |
-| gameplay | 65 |
 | clans | 56 |
 | cards | 55 |
-| transfers | 50 |
+| transfers | 51 |
 | career | 48 |
+| controls | 41 |
 | training | 40 |
-| controls | 39 |
+| patching | 39 |
 | setpieces | 39 |
 | cups | 38 |
-| patching | 38 |
 | coaches | 37 |
 | prizeladder | 37 |
 | attributes | 34 |
-| platform | 30 |
+| platform | 31 |
 | customization | 29 |
-| events | 26 |
+| events | 27 |
 | errata | 24 |
-| presentation | 21 |
+| presentation | 23 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
@@ -46,12 +46,12 @@ Distinct evidence records cited: **448**.
 | social | 10 |
 | medical | 9 |
 | coaching | 8 |
+| skillmoves | 8 |
 | squad | 8 |
+| negatives | 7 |
 | physio | 7 |
-| skillmoves | 7 |
 | difficulty | 6 |
 | monetization | 6 |
-| negatives | 6 |
 | save | 6 |
 | seasonpass | 6 |
 | 12thman | 5 |
@@ -1108,7 +1108,14 @@ Distinct evidence records cited: **448**.
 | CLAIM-1774 | DOCUMENTED NEGATIVE - **DLS26 HAS NO SURGERY MECHANIC.** Injuries are healed by physios, rest or gems; there is no surgical repair, no rehabilitati... | High Confidence | negatives/no-surgery | EV-484 |
 | CLAIM-1775 | MID-SEASON RATING REFRESHES RE-RATE PLAYERS: the January 2026 update applied 'January transfer movements and updated player ratings', with the mega... | High Confidence | transfers/mid-season-rating-refresh | EV-484 |
 | CLAIM-1776 | The 2025/26 database refresh brought current team data plus 'more classic players, special players, and national team players'. | High Confidence | patching/database-refresh-contents | EV-484 |
+| CLAIM-1777 | THE NEWS SYSTEM IS FTG'S INFO HUB, NOT A NEWS FEED: 'News System - Get the latest DLS info, all in one place' (v13.110, 2 Mar 2026; 'Improved News ... | High Confidence | presentation/news-system-is-info-hub | EV-485 |
+| CLAIM-1779 | A SECOND ROUTE TO CLASSIC PLAYERS: they are buyable with COINS on the regular transfer market, not only from the Prize Ladder - 'besides the prize ... | High Confidence | transfers/classic-players-on-transfer-market | EV-485 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
+| CLAIM-1782 | v13.110 (Winter Reload, 2 Mar 2026) shipped: updated team data from the transfer window, Dream Stars 26, the 12th Man Vote, the News System, major ... | High Confidence | patching/winter-reload-v13.110 | EV-485 |
+| CLAIM-1783 | Game Centre support on iOS surfaces achievements and friend leaderboards outside the game. | High Confidence | platform/game-centre-ios | EV-485 |
+| CLAIM-1785 | Special and classic players do NOT count toward the squad cap, corroborated by three sources: v13.040's 'unlimited special players in your club', '... | High Confidence | facilities/special-players-excluded-from-cap | EV-485 |
+| CLAIM-1786 | DOCUMENTED NEGATIVES FROM THE PUBLIC WISH-LIST - features players are asking FTG to add, and therefore DLS26 does not have: home-and-away legs in t... | High Confidence | negatives/wish-list-absent-features | EV-485 |
+| CLAIM-1787 | DLS26's player models include new faces for stars such as Florian Wirtz, with 'improved 3D motion capture, hyper-realistic player models, dynamic l... | High Confidence | presentation/new-player-models | EV-485 |
 | CLAIM-182 | Post-match rewarded ad (30 seconds, optional) DOUBLES coin earnings for that match. A second optional ad can boost Dream Points. Ads appear after e... | High Confidence | unscoped | EV-270,EV-275 |
 | CLAIM-187 | Fanzone (new facility added Summer Spotlight 13.410, July 2026) is a buildable club facility that yields CLAN RESOURCE BONUSES and STADIUM EXPANSIO... | High Confidence | unscoped | EV-272,EV-276 |
 | CLAIM-191 | Clans system was the HEADLINE new feature of DLS26 launch (Dec 2025); subsequently expanded with leaderboards/roles/reactions in Winter Reload and ... | High Confidence | unscoped | EV-272 |
@@ -1738,6 +1745,11 @@ Distinct evidence records cited: **448**.
 | CLAIM-1769 | Passive (idle) recovery depends on squad stamina: 'With not a good team it can take 3-4 hours, but with fully maxed out team it takes 20 min.' | Community Consensus | medical/passive-recovery-times | EV-484 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-1770 | EXPLOIT - USING ALL FIVE SUBS BEFORE KICK-OFF PREVENTS INJURIES: 'Players can't get injured if you don't have players to sub them off for. Therefor... | Community Consensus | medical/all-subs-prevents-injury-exploit | EV-484 |
+| CLAIM-1778 | THE DLS SUSPENSION RULE: five accumulated yellow cards earns a one-match suspension, and a warning icon appears on the player at four. | Community Consensus | gameplay/five-yellows-suspension | EV-485 |
+| CLAIM-1780 | THE SWITCHING DELAY: a September 2026 review reports 'the controls and player switching are not synced, so there's a .5 to 2 second delay when swit... | Community Consensus | controls/switching-delay | EV-485 |
+| CLAIM-1781 | CONFLICT - the auto-switch delay: dlsmod reported in December 2025 that the auto-switch bugs 'have been solved as of now', while a September 2026 r... | Community Consensus | controls/auto-switch-fix-conflict | EV-485 |
+| CLAIM-1784 | A brand-new VOLLEY SKILL MOVE was teased for DLS26 pre-launch, alongside a redesigned stadium with enhanced lighting, a new camera operator hinting... | Community Consensus | skillmoves/new-volley-teased | EV-485 |
+| CLAIM-1788 | Kick-Off Stars 'are available during special periods, giving early access to headline players for starting matches' - a timed early-access card win... | Community Consensus | events/kick-off-stars-early-access | EV-485 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
 | CLAIM-180 | Daily Scenarios mode places player in a comeback situation vs Hard AI; completion rewards 50 coins per day; scenario resets daily. | Community Consensus | unscoped | EV-270 |
 | CLAIM-181 | Global Challenge Cup (online round-robin under Career section) awards 10 Gems per round cleared; resets on a regular schedule. | Community Consensus | unscoped | EV-270 |
