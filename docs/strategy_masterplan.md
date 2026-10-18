@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-115 (`5e075f4`) — 1,460 claims / 353 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-118 (`94bb636`) — 1,479 claims / 355 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -247,7 +247,7 @@ The game offers **2 randomised options (one fitness, one technical)** and you pi
 1. **The Legendary Scout trick** — keep at least one Legendary Special coach. It **reveals the next four upgradable stats**, and you can **cancel and use a different coach without consuming it**. This turns your most expensive coach into a free scouting tool.
 2. **The clearing method** — open with a Legendary Special coach and inspect the first three stats. If all are desirable, follow with Rares. If unwanted stats appear (tackling for strikers, strength for wingers), use **Common** Special coaches to clear them, because commons add fewer points — then switch back to Rare/Legendary and repeat. Simpler variant: *always* use a Common if either offered stat is wrong.
 
-**Cost to max one special player:** ~7.5 Legendary Special Coaches ≈ **2,100 gems** (15 Rares = 2,520). Conflict C-020 records a 6–7 coach and a 2,100–2,835 gem alternative.
+**Cost to max one special player:** 6–7 Legendary Special Coaches ≈ **2,000–2,100 gems** (15 Rares = 2,520). **C-020 RESOLVED at ckpt-118** — a player states plainly *"each special player costs around 2000 gems to max out"*, corroborating the coach model. The cancel-without-consumption technique saves ~70 gems per coach, **~420 gems per maxed special** [EV-453, C3].
 
 **Where the 12th Man fits:** it is the **community-voted final Dream Star** [EV-438, C1]. FTG publishes the Dream Stars squad from real-world season performances (vote in v13.100/13.110, winner added v13.120 on 25 Mar 2026, Dream Stars 2026 in v13.130), and Dream Stars come from **Dream Star Agents**. FTG has never named the winner, so treat it as an event to watch rather than a card to plan around. Vozinha's "(12th Man)" label in the Cult Heroes datamine is most likely a **card type**, not the vote winner — do not conflate the two.
 
@@ -269,7 +269,18 @@ The game offers **2 randomised options (one fitness, one technical)** and you pi
 - **Cult Heroes** (v13.430, 16 Sep 2026) — 12 players, signed randomly from Cult Hero Agents: **de Gea 85, Aubameyang 85, Dybala 85** (max 95); **Isco, Insigne, Ziyech, Otamendi, David Luiz 84** (max 94); **Blind, Herrera, Shaqiri, Vozinha 83** (max 93) [EV-430, C2].
 - **Classic Players:** unlock to sign with **500 coins**, or by completing the game (beating your own team after First Touch United); ratings 85–97 [C2].
 - **Prize Ladder cycle = 90 days** and it unlocks coins, gems **and Classic Players** [EV-431, C2].
-- **DP economics:** career max **140 DP/match**, DLL+Draft **185 DP**; **5-goal cap**; ~**2,800 DP/day**; ~**200,000 DP** total; boosts **+50% / +70% / +150%** plus ad boosts [prior waves, C2/C3]. Per-match DP is **75–250 depending on performance**, plus a post-match ad [EV-450, C3].
+- **DP economics:** career max **140 DP/match**, DLL+Draft **185 DP**; **5-goal cap**; ~**2,800 DP/day**; ~**200,000 DP** total [prior waves, C2/C3]. Per-match DP is **75–250 depending on performance** [EV-450, C3].
+- **THE EFFICIENCY RULE:** a DLL win pays **~115 DP** against a Career win's **~65 DP** — DLL is roughly **77% more DP-efficient per match**. Experienced players complete the Prize Ladder on **DLL alone**, with a few Career matches purely for daily challenges [EV-453, C3].
+- **Per-match DP breakdown** [EV-453, C3]: win 115 (DLL) / 65 (Career) · 10 per goal up to 5 (50 max) · clean sheet 10–15 · post-match ad +50 (DLL) / +35 (Career). Non-wins still pay: 45 (DLL draw), 15 (DLL loss), 25 (ad on either).
+- **OFFICIAL DP BOOST RULES** [EV-452, **C1**] — two of these change how you should buy:
+  - Boosts apply **only** to Career, Dream Draft, Scenario and DLL matches. **They do NOT apply to Exhibition or Friend Matches** — so the free practice ground earns no boosted DP.
+  - **Unused boosts carry over to the next Prize Ladder**, and boosts cannot be used on a completed or inactive ladder. **Buy early in a ladder, never late in a dying one.**
+- **Boost pricing** [EV-453, C3]: Common 50% / 25 gems / 3 matches · Rare 75% / 35 gems / 5 matches · Legendary 150% / 125 gems / 8 matches.
+- **THE FEASIBILITY NUMBER** [EV-453, C3]: reaching **200,000 DP** in the 90-day window needs **at least 15 games a day** — described as *"60% of a career season"* and equivalent to **54 career seasons in 90 days**. All four icons cost about **137 hours** total; the first icon is **300–324 games**. **Plan the ladder around this, not around hope.**
+- **Milestones** [EV-453, C3]: first special at **~50,000 DP** and **random**; further milestones at **62,500** and **70,000 DP**; all four specials at **~200,000 DP**. A completed ladder drew Souness → Adams → Andy Cole → Gascoigne, confirming the order is random.
+- **Honest caveat on filler** [EV-453, C3]: the ladder's coin and gem rewards are criticised as *"mediocre, unfulfilling, boring and quite frankly useless — FILLER rewards"*, with one player's ladder Legendary Scouts finding no Legendary at all. **The ladder is worth it for the Classic Players, not for the intermediate rewards.**
+- **DLL Quests** pay gems for win counts — **5 gems for 5 wins, 175 gems for 175 wins**; DLL events pay **280 coins for 5 wins and +720 for 7** [EV-453, C3].
+- **New Classic set** [EV-452, C1]: **Italian League Classics** — Trezeguet, Batistuta, Crespo, Desailly.
 - **DP method ranking** [EV-450, C3]: 5-0 Career wins for casual play · **Scenarios if you are skilled** · Live matches if you win 90% online · gems and boosts if paying. Explicit community warning: **do not grind Classic Players at the cost of your enjoyment** — for most maxed teams they are useless, though basic-squad players call Batistuta and Petit uniquely strong.
 
 #### 6.1 The complete card taxonomy [EV-450, C3 / EV-449, C1]
@@ -523,7 +534,7 @@ These are unresolved and each one caps precision. They are ranked by impact on t
 | 10 | **Clan top-contributor reward** (C-017) | 50 vs 100 gems | OPEN |
 | 11 | **Formation meta** (C-014) | 4-2-3-1 vs sportsdunia top-5 vs 4-4-2 | OPEN — a genuine live disagreement, not an error |
 | 12 | **Commercial bonus curve** (C-019) | 13%/21% vs "10% at L5, biggest FTG scam" | OPEN |
-| 13 | **Special player max cost** (C-020) | 2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835 | OPEN — plan on 2,100 gems |
+| ~~13~~ | ~~**Special player max cost** (C-020)~~ | ~~2,100 gems / 7.5 coaches vs 6-7 coaches vs 2,100-2,835~~ | **RESOLVED at ckpt-118** — ~2,000–2,100 gems, 6–7 Legendary Special Coaches, ~420 gems saved by cancelling |
 
 **Step 2 (static APK datamining)** remains postponed pending user direction. It is the only route that would close gaps 1, 2, 3, 4 and 5 definitively, because all five are numeric tables inside the game data.
 
