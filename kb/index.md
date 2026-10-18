@@ -39,3 +39,20 @@ Resolve every remaining unnamed prompt term to DLS26 exact terminology; keep bui
   - `step2_datamining/STEP2_PLAN_DRAFT.md` updated against actual sandbox tooling probe (all APK tooling MISSING; python stdlib sqlite3 and `pip install androguard` available; install plan deferred to consent gate).
   - `raw_game_data/` scaffold + `.gitignore` for consent records.
 - Sample 11: 7/7 OK post-repair; five consecutive clean samples; ~2.6% cumulative substantive error rate.
+
+## INDEX STATE — turn 35 sweep close (2026-10-18, ckpt-102 `aa11efb`)
+
+**This block supersedes every earlier "Index state" block below it.**
+
+- **Claim authority:** `kb/claims.jsonl` — **1,412 claims** (CLAIM-001…CLAIM-1411; pre-existing ID gaps at 36, 134, 425, 426 only; **zero duplicate IDs**). Tier spread: Confirmed 316 / High Confidence 641 / Community Consensus 420 / Speculative 34 / Disputed 1. Derived view regenerated to `kb/claims_index.md`.
+- **Evidence registry:** `docs/continuity/a7e23a6b/evidence/index.jsonl` — **348 records** (EV-001…EV-448), zero duplicates.
+- **Deliverable:** `docs/strategy_masterplan.md` — the "path to #1" plan, fully cross-referenced to the claim/evidence IDs above. This is the file to read first.
+- **Conflicts ledger:** `logs/conflicts.md` — **23 logged**, of which C-001…C-009 plus C-010 (substantially resolved), C-011, C-012, C-013 (substantially resolved), C-016, C-017 (leans resolved) are closed or substantially closed. **Open:** C-014 (formation meta), C-015 (International Cup availability), C-018 (Cult Heroes OVR), C-019 (Commercial bonus curve), C-020 (special-player max cost), C-021 (market refresh cadence), C-022 (corner footedness), C-023 (version-date noise, below).
+- **Turn-35 sweep (w18–w43) added 24 waves** covering: Season Pass, Fanzone, 12th Man, stadium capacity, Commercial, kit import, Clans, Dream Draft, Classic Players, weather, Youth Academy (absent), coach breakthrough, Medical/Training, Dream Points, DLL tiers and cups, GCC format, controls and skill moves, formations, Scenarios, stamina, achievements, promotion mechanics, Cult Heroes roster, DLL tier ladder, Special Player acquisition, DLS26 launch features, clan point economy, Form Boost (official wording), matchcraft, facility ladders, the coach point model, the 12th Man mechanic, Dream Draft, the transfer market, set pieces, and the DLS26-specific modes.
+- **Five sources are now on the rejected/unreliable register:** sportsdunia (2 rejected tables), eslamgaming (fabrications + wrong control map), playdreamleaguesoccer.com (confirmed AI content farm — chemistry, Fluid Formations, Icon Exchange, Vinícius Jr at 91 OVR, "Youth Academy Cup", "Global Super League", fake "Rohit_Striker" interview), Baiduwiki (non-existent auction-house market), chaptercheats (wrong CON definition).
+- **Topic-file lag:** the T-/B-/L-/M-/GS- summaries below are derived views and remain behind the claim authority by well over a thousand claims. This is a recorded lag, not an error; the claim records and the masterplan are the operative documents.
+
+## NEW CONFLICT — C-023: version-date noise across mirrors (logged 2026-10-18, ckpt-102)
+
+- **Finding (EV-446):** mirror sites disagree on the release dates of the Summer Spotlight builds. soft112 lists 13.310 (29 May), 13.320 (8 Jun), 13.330 (10 Jun), 13.340 (22 Jun), 13.350 (14 Jul), 13.410 (20 Aug), 13.420 (10 Sep), 13.430 (1 Oct); the App Store lists 13.320 (8 Jun) and 13.330 (10 Jun); the dlsinside datamine labels build 13430 as updated 2026-09-16; Google Play said "Updated on Sep 14, 2026".
+- **Status:** RESOLVED AS SCOPE, not as fact. The **version-to-content** mapping is reliable and consistent (13.300–13.340 = Summer Spotlight; 13.410–13.430 = Cult Heroes). The **version-to-date** mapping across mirrors is not, because several mirrors derive from the Play Store and from each other. **Rule: never quote a mirror date as authoritative; cite the App Store version history or the datamine build/date pair instead.**
