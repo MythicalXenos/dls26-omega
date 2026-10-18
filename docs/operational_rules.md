@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-178 — 2,208 claims / 417 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-179 — 2,215 claims / 418 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -263,6 +263,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Cross-platform transfer** | Only via a code: **Manage Devices → Generate Code** on the old device, typed into **Link Profile** on the new one (both under Options → gear → **Advanced**). A code cannot be used on the device that generated it |
 | **No cheap re-roll** | **Reset Profile** (Settings → Advanced, skull icon) is irreversible, destroys all coins, gems, consumables **and in-app purchases**, and is limited to **ONE RESET EVERY 30 DAYS** |
 | **The region seed is permanent** | The account decides the matchmaker pool and the leaderboard surface. Set it up deliberately and **play through early mistakes — do not reset** |
+| **Never buy an account** | Marketplaces sell them from $37-$40; FTG prohibits profile sale/purchase and bans for it [EV-516, C3] |
+| **The 30-day reset cooldown may not be policed** | A player reports a third reset without waiting — the official rule stands; ignore the loophole [EV-516, C4] |
 | **Save Mode makes a Career loss undoable** | Delete Save Match, then Exit Save Mode, and replay from the beginning - the game's own feature, not an exploit [EV-514, C3] |
 | **The six LIVE ranks are named** [EV-504, C2, primary source] | **Rookie → Amateur → Semi-Pro → Intermediate → Pro → Veteran**, each a 500-XP achievement. Nothing above Veteran is published; above Veteran is device-only |
 

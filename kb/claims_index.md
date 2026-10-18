@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:38:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2208**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 902 / Speculative 67 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **479**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:42:52Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2215**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 906 / Speculative 70 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **480**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -17,7 +17,7 @@ Distinct evidence records cited: **479**.
 | clans | 65 |
 | career | 64 |
 | setpieces | 60 |
-| errata | 55 |
+| errata | 58 |
 | controls | 52 |
 | prizeladder | 48 |
 | coaching | 43 |
@@ -36,8 +36,8 @@ Distinct evidence records cited: **479**.
 | presentation | 25 |
 | goalkeeping | 23 |
 | stadium | 22 |
+| account | 19 |
 | customisation | 19 |
-| account | 17 |
 | matchcraft | 16 |
 | meta | 16 |
 | onboarding | 15 |
@@ -48,17 +48,17 @@ Distinct evidence records cited: **479**.
 | draft | 10 |
 | match | 10 |
 | medical | 10 |
+| positions | 10 |
 | skillmoves | 10 |
 | social | 10 |
 | squad | 10 |
-| positions | 9 |
 | settings | 9 |
 | 12thman | 8 |
 | injuries | 8 |
 | scenarios | 8 |
+| seasonpass | 8 |
 | multiplayer | 7 |
 | physio | 7 |
-| seasonpass | 7 |
 | monetization | 6 |
 | referee | 6 |
 | save | 6 |
@@ -2170,6 +2170,10 @@ Distinct evidence records cited: **479**.
 | CLAIM-2210 | THE ITALIAN LEAGUE CLASSICS, officially confirmed with names: 'Get your hands on **Trezeguet, Batistuta, Crespo and Desailly** in the form of speci... | Community Consensus | prizeladder/italian-league-classics-official | EV-515 |
 | CLAIM-2211 | RELEASING A SPECIAL PLAYER yields **1 special coach card** - a second rung on the release mapping (common to Common coach, 80+ to Rare, special to ... | Community Consensus | coaching/release-special-yields-special-coach | EV-515 |
 | CLAIM-2212 | SPECIAL CARDS CANNOT BE BOUGHT WITH COINS in the standard transfer market: '**Special edition cards such as Champion, World Cup Heroes, or Dreamsta... | Community Consensus | transfers/special-cards-not-in-transfer-market | EV-515 |
+| CLAIM-2214 | ACCOUNTS ARE SOLD OPENLY, WITH PRICES: marketplace listings advertise DLS26 accounts '**from $37**' and '**from $40**' with the contents itemised i... | Community Consensus | account/accounts-sold-at-37-40 | EV-516 |
+| CLAIM-2215 | THE SEASON PASS USED TO BE WEEKLY: '**Actually, the season pass restarts every week. So every week you have to invest money**' (April 2021, DLS21 e... | Community Consensus | seasonpass/used-to-be-weekly | EV-516 |
+| CLAIM-2216 | THE PER-POSITION TOP-7, corroborating the corpus's best-in-game roster (CLAIM-1842): **defenders** Van Dijk 85, Gabriel Magalhaes 85, Hakimi 85, Ba... | Community Consensus | positions/per-position-top-7 | EV-516 |
+| CLAIM-2219 | AN EIGHTH CONTAMINATION: both searches returned ESL **DreamLeague Dota 2** (Seasons 26-31 with formats, prize pools and EPT points), ManageFC's sea... | Community Consensus | errata/eighth-contamination | EV-516 |
 | CLAIM-222 | Licensed leagues visible in DLS26 (community-enumerated): La Liga (Spain), Premier League (England), Ligue 1 (France, 'League 1 Paris'), Serie A (I... | Community Consensus | unscoped | EV-284 |
 | CLAIM-224 | Set-piece attacking meta (DLS24-26 community): FREE KICKS by distance — 18-22yd curl with inside foot; 23-28yd power or curled top-corner; 30+yd lo... | Community Consensus | unscoped | EV-283 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |
@@ -2302,6 +2306,9 @@ Distinct evidence records cited: **479**.
 | CLAIM-2197 | A DIRECT CONTRADICTION ON SQUAD STRENGTH: '**Make sure ur team is at least full legendary to avoid unfair matching**' - against the corpus's maxed-... | Speculative | dll/full-legendary-vs-handicap-contradiction | EV-514 |
 | CLAIM-2198 | REJECTED A NINTH TIME, and the first to contradict a Confirmed-tier rule: playdreamleaguesoccer.com claims 'Use 4-3-3 against weaker teams, 5-3-2 a... | Speculative | errata/playdream-ninth-rejection-formation-switch | EV-514 |
 | CLAIM-2199 | A CONTRADICTED YOUTH-POTENTIAL CLAIM: a Russian DLS26 guide advises looking for **under-21 players with 80+ potential** in lower divisions and deve... | Speculative | errata/youth-potential-claim-contradicted | EV-514 |
+| CLAIM-2213 | THE 30-DAY RESET COOLDOWN MAY NOT BE ENFORCED: a community member on their **third** reset reports '**I'm not sure it's that long because this was ... | Speculative | account/30-day-reset-may-not-be-enforced | EV-516 |
+| CLAIM-2217 | A SIXTH SPORTSDUNIA TABLE - a top-10 midfielders list (Bellingham 85, Pedri 85, Valverde 85, Rodri 85, Vitinha 85, Bruno Fernandes 84, De Bruyne 83... | Speculative | errata/sportsdunia-sixth-table | EV-516 |
+| CLAIM-2218 | A RODRI RATING OUTLIER: thesoccerera puts Rodri at **86** DM where every other source has him at 85 - a minor rating conflict in the same family as... | Speculative | errata/rodri-86-outlier | EV-516 |
 | CLAIM-225 | DLS26 launch community complaint (Dec 2025, Reddit): set-piece system (free kicks, corners, penalties) perceived as 'drastically worsened' vs DLS25... | Speculative | unscoped | EV-283 |
 | CLAIM-235 | Classic Players (introduced DLS25, expanded DLS26) — community expectation pre-release set Silver Classic ~5-7k coins, Gold Classic ~8-12k coins; a... | Speculative | unscoped | EV-286 |
 | CLAIM-267 | Community claim (SakibPro, DLS26): Settings → Advanced → Manage Device → Generate Code produces a one-time transfer code valid 5 minutes; enter on ... | Speculative | unscoped | EV-297 |

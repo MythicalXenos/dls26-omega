@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-178 — 2,208 claims / 417 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-179 — 2,215 claims / 418 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -165,6 +165,7 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 3. **Camera:** Tele, H75 / Z35 [C3]. **Graphics:** Medium / 60 FPS / Semi-auto [C3].
 4. **Commentary:** English (Gary Bloom) is the default; DLS26 added Turkish and Arabic [EV-427, C1].
 5. **Create the account on one platform only — and understand that this is a ONE-WAY DOOR** [EV-462, **C1 — OFFICIAL**]:
+   - **Do not buy an account.** Marketplaces sell DLS26 accounts **from $37–$40** with the contents itemised, and FTG **prohibits profile sale and purchase and bans for it** [EV-516, C3]. The official 30-day reset cooldown may not be policed — one player reports a third reset without waiting — **but that is a reason to ignore the loophole, not to use it**: enforcement can land mid-plan, and the official rule stands.
    - **"We have limited each player to one DLS account."** The profile is permanently bound to a **Sign in with Google (Android only)** or **Sign in with Apple (iOS only)** login.
    - **NEVER sign out** of that login. *"If you sign out … at any point whilst playing, your account will no longer be linked with your game profile and is susceptible to loss if you uninstall or change devices."* A lost profile **cannot be recovered**.
    - **⚠️ THE OVERWRITE HAZARD — the mechanism that actually destroys accounts** [EV-497, C2]. A player who lost years of progress: *"I made the mistake of uninstalling the 2024 version without rechecking the account link. But when I reinstalled the game, my original account was gone. I was met with a fresh profile, and **worse, it seems that this new empty account overwrote my old one.**"* It runs the other way too: *"**Current progress will be deleted if the Google account you connect has the old data saved**"* — and *"make sure no previous profile is connected to your Apple ID before you connect it, as it will override the data if there's an existing profile already."* **So the link is not a one-time setup step: check the sign-in state every session, and always immediately before an uninstall or a device change**, because the link itself can drop silently — the same player reports the Google sign-in being *"disabled in the settings (which happened randomly)."*
@@ -244,7 +245,7 @@ Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). C
 - Daily challenges: **5–11 gems/day** [EV-433, C3]
 - Scenarios: **50 coins daily**; 75–100 coins per 8-hour cycle [C2/C3]
 - Ads: 30 coins per ad, up to ~600 coins in 15 minutes [EV-426, C3]
-- Season Pass: **400 SP**, **40 SP/day login**, 10-day season; the **free track alone gives 1,095 coins + an Epic agent** [EV-399, C2]
+- Season Pass: **400 SP**, **40 SP/day login**, 10-day season; the **free track alone gives 1,095 coins + an Epic agent** [EV-399, C2]. **The cycle has changed across versions** — a 2021 thread reports *"the season pass restarts every week. So every week you have to invest money"* — so the buy-late advice below is calibrated to the **10-day** cycle and would be wrong against a weekly one [EV-516, C3]
 
 **The structure is official, twice** [EV-492, **C1**]: a second FTG article (4404070913169), stamped *"applicable from our latest DLS release (version 12200 onwards)"* — i.e. DLS26 — confirms the split in FTG's own words, *"The FREE section is accessible to all users and the SEASON PASS section contains premium rewards which can only be accessed when purchasing the Season Pass,"* and confirms that purchasing *"unlocks the Progress Bank, which rewards currency based on your DLL (multiplayer) XP"* with the reward *"given at the end of the season."* It also states the purpose of the gold trim: *"to show off to other players."* **The per-tier reward list itself is not published by FTG and rotates every season**, so the only reliable read of the current track is the device at season start.
 
