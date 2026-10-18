@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "epoch_id": "epoch-0001",
+  "turn": 2,
+  "updated": "2026-10-18T15:40:32Z",
+  "note": "Physical source log (OMEGA-FRONTIER-001). Turn 2: first Step 1 slice. NOT_ATTEMPTED marks an owed fetch, not a success. Search-result URLs are leads, not verified content.",
+  "retrievals": [
+    {
+      "id": "R-0001",
+      "tool": "discovery-search",
+      "query": "Dream League Soccer 2026 First Touch Games official",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "result_count": null,
+      "note": "result URLs recorded only where listed in discovered_references"
+    },
+    {
+      "id": "R-0002",
+      "tool": "discovery-search",
+      "query": "DLS 26 Dream League Soccer 2026 latest update patch notes",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "result_count": null,
+      "note": "search-snippet version history; not verified on page"
+    },
+    {
+      "id": "R-0003",
+      "tool": "discovery-search",
+      "query": "Dream League Soccer 2026 support FTG help center",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "result_count": null,
+      "note": "support route leads"
+    },
+    {
+      "id": "R-0004",
+      "tool": "page-render",
+      "url": "https://www.ftgames.com/",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "established 2011; over 1 billion downloads; lists DLS, Score! Hero, Ultimate Clash Soccer, Score! Match",
+      "projection": "1 of 1 chunk",
+      "status": "VISITED"
+    },
+    {
+      "id": "R-0005",
+      "tool": "page-render",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "chunk 0: Free with IAP; 4.6 from 733K; 13+; seller First Touch Games Ltd; EN+14 languages; 269.6 MB; chunk 5: privacy and IAP price list (US storefront at fetch time)",
+      "projection": "chunks 0 and 5 of 6",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "R-0006",
+      "tool": "page-render",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "Updated on Sep 14, 2026; contains ads and in-app purchases; random-item purchases; support@ftgames.com; 15.1M reviews; 100M+ installs",
+      "projection": "chunk 0 of 2",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "R-0007",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "sections: Dream League Soccer FAQs, Score Hero FAQs, Ultimate Draft Soccer, Score Match FAQs",
+      "projection": "1 of 1 chunk",
+      "status": "VISITED"
+    },
+    {
+      "id": "R-0008",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "30 article titles on page 1 (no pagination link seen in output; pagination not checked)",
+      "projection": "1 of 1 chunk",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "R-0009",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/23108987826962-What-is-the-Prize-Ladder",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "Prize Ladder: items by progression (coins, gems, coaches, Dream Point Boosts, special players); Dream Points earned in matches; Boosts temporarily raise Dream Points; undated",
+      "projection": "1 of 1 chunk",
+      "status": "VISITED"
+    },
+    {
+      "id": "R-0010",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360019166777-How-do-the-various-player-stats-in-DLS-affect-gameplay",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": 200,
+      "extracted": "stat definitions SPE ACC STA CON STR TAC PAS SHO GKH GKR ENERGY; undated; a page comment reads '4 years ago'; DLS26 applicability unverified",
+      "projection": "chunk 0 of 4",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "R-0011",
+      "tool": "page-render",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602 (version history chunks 1-4)",
+      "timestamp": "2026-10-18T15:40:32Z",
+      "http_status": null,
+      "extracted": "NOT FETCHED",
+      "projection": "none",
+      "status": "NOT_ATTEMPTED"
+    }
+  ],
+  "discovered_references": [
+    {
+      "ref_id": "DR-0001",
+      "label": "apps.apple.com DLS26 (us storefront)",
+      "source_family": "official-store",
+      "connection_state": "CONNECTED",
+      "traversal_state": "IN_PROGRESS",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0002",
+      "label": "play.google.com DLS26 (hl=en)",
+      "source_family": "official-store",
+      "connection_state": "CONNECTED",
+      "traversal_state": "IN_PROGRESS",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0003",
+      "label": "ftgames.com",
+      "source_family": "official-company",
+      "connection_state": "CONNECTED",
+      "traversal_state": "VISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0004",
+      "label": "support.ftgames.com home",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "VISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0005",
+      "label": "support DLS FAQs section",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "IN_PROGRESS",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0006",
+      "label": "support article: What is the Prize Ladder?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "VISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0007",
+      "label": "support article: How do the various player stats in DLS affect gameplay?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "IN_PROGRESS",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0008",
+      "label": "support article: When will the next app update be?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0009",
+      "label": "support article: What are Clans?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0010",
+      "label": "support article: What is the Season Pass?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0011",
+      "label": "support article: What are Dream Point Boosts?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0012",
+      "label": "support article: How does Dream League Live matchmaking work?",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0013",
+      "label": "support article: Removal of Facebook Login from DLS",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0014",
+      "label": "support request form (support.ftgames.com/hc/en-us/requests/new)",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0015",
+      "label": "support@ftgames.com (email route; not a page, not fetched)",
+      "source_family": "official-support",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0016",
+      "label": "thesoccerera.com DLS26 article (dated Feb 2026; states Dec 4 2026 global availability)",
+      "source_family": "third-party-news",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0017",
+      "label": "fifaworldcupnews.com DLS26 article",
+      "source_family": "third-party-news",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0018",
+      "label": "dlskits.mobi",
+      "source_family": "third-party-news",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0019",
+      "label": "appbrain.com DLS26 changelog (13.430 lead)",
+      "source_family": "third-party-database",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0020",
+      "label": "apkmirror.com DLS26 variants (13.430, 13.110 leads)",
+      "source_family": "technical-apk-distribution",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0021",
+      "label": "mokoweb.com DLS26 mod APK",
+      "source_family": "technical-apk-distribution-mod",
+      "connection_state": "UNCERTAIN",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0022",
+      "label": "gameeroid.com DLS26 page (non-English site)",
+      "source_family": "non-english-third-party",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0023",
+      "label": "reddit r/DreamLeagueSoccer (community threads)",
+      "source_family": "user-generated",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "en",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0024",
+      "label": "Wikipedia Dream League Soccer article (release date claim 1 Dec 2025; language version unknown)",
+      "source_family": "reference-encyclopedia",
+      "connection_state": "CONNECTED",
+      "traversal_state": "UNVISITED",
+      "language": "unknown",
+      "first_seen_turn": 2,
+      "evidence": "turn-2 search or fetch output"
+    }
+  ],
+  "service_events": [
+    {
+      "event_id": "SV-0001",
+      "ref_id": "DR-0003",
+      "record": "R-0004",
+      "cursor": "complete (1/1)"
+    },
+    {
+      "event_id": "SV-0002",
+      "ref_id": "DR-0001",
+      "record": "R-0005",
+      "cursor": "chunks 0,5 of 6"
+    },
+    {
+      "event_id": "SV-0003",
+      "ref_id": "DR-0002",
+      "record": "R-0006",
+      "cursor": "chunk 0 of 2"
+    },
+    {
+      "event_id": "SV-0004",
+      "ref_id": "DR-0004",
+      "record": "R-0007",
+      "cursor": "complete (1/1)"
+    },
+    {
+      "event_id": "SV-0005",
+      "ref_id": "DR-0005",
+      "record": "R-0008",
+      "cursor": "section page 1; pagination unchecked"
+    },
+    {
+      "event_id": "SV-0006",
+      "ref_id": "DR-0006",
+      "record": "R-0009",
+      "cursor": "complete (1/1)"
+    },
+    {
+      "event_id": "SV-0007",
+      "ref_id": "DR-0007",
+      "record": "R-0010",
+      "cursor": "chunk 0 of 4"
+    }
+  ],
+  "coverage": [
+    {
+      "dimension": "official-company",
+      "status": "partial"
+    },
+    {
+      "dimension": "official-store (Apple, Google)",
+      "status": "partial"
+    },
+    {
+      "dimension": "official-support (DLS FAQ)",
+      "status": "partial"
+    },
+    {
+      "dimension": "official-social",
+      "status": "untouched"
+    },
+    {
+      "dimension": "third-party",
+      "status": "discovered-only"
+    },
+    {
+      "dimension": "community / UGC",
+      "status": "discovered-only"
+    },
+    {
+      "dimension": "technical (APK distribution)",
+      "status": "discovered-only; never used for claims"
+    }
+  ],
+  "digest": "sha256:ea41af8c9a811525e844ab9063ad165843038d95e96fb03960f47e5bc66da59a"
+}

@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-0005",
+  "proposition": "Google Play listing (en) shows 'Updated on Sep 14, 2026', with a late-summer update note that mentions a 'Cult Heroes' collection 'coming soon'.",
+  "build_context": "Google Play (package com.firsttouchgames.dls7, hl=en), fetched 2026-10-18",
+  "confidence_tier": "unassigned-pending-gates",
+  "confidence_note": "ISSUE-009: five-tier names/order undefined; no promotion above Speculative",
+  "volatility_tier": "High",
+  "trigger_dimensions": {
+    "patch_triggered": "yes (patch notes)",
+    "event_triggered": "no observed history"
+  },
+  "evidence_refs": [
+    "DR-0002 (R-0006 Google Play)"
+  ],
+  "origin_tags": [
+    "publisher-stated (store listing)"
+  ],
+  "last_verification": "2026-10-18T15:41:35Z",
+  "expiry_rule": "re-check at next patch/trigger or at monthly check per volatility tier",
+  "challenges": [],
+  "replacement_history": [],
+  "datamining_flag": false,
+  "deception_screen_outcome": "not run (no Step 2 yet); origin noted",
+  "checkable_origin": "publisher page (fetched)",
+  "notes": "High because the update date and content track patches. The 'Cult Heroes' item's current status is unverified.",
+  "epoch": "epoch-0001"
+}

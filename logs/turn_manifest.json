@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "run-dls26-omega-arena-357aaddf",
+  "operation_id": "op-bootstrap-0001",
+  "conversation_id": "host-unexposed",
+  "session_id": "dls26-s001-20261018T153458Z",
+  "turn_seq": 2,
+  "checkpoint_id": "ckpt-0002-step1-epoch-open",
+  "previous_checkpoint_id": "ckpt-0001-setup-complete",
+  "environment_generation": "sandbox-debian12-linux6.1.158-x86_64-first-session",
+  "active_state": "STATE_1_RESEARCH_SWEEP",
+  "active_bootstrap_step": 1,
+  "next_state": "STATE_1_RESEARCH_SWEEP",
+  "contract_id": "epoch-0001",
+  "contract_digest": "sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8",
+  "progress_event_refs": [
+    "SV-0001",
+    "SV-0002",
+    "SV-0003",
+    "SV-0004",
+    "SV-0005",
+    "SV-0006",
+    "SV-0007"
+  ],
+  "consecutive_no_progress": 0,
+  "continuation_allowed": true,
+  "needs_user": false,
+  "expected_terminal_class": "CONTINUE",
+  "exact_resumption_point": "STATE_1 epoch-0001 OPEN. Continue in this order: Q-008 (App Store version-history chunks 1-4 and Google Play chunk 1; verify 13.410/13.420/13.430 and Summer Spotlight dates, CONF-002); Q-009 (DLS FAQ section pagination and the listed articles); Q-010 (CONF-001 launch-date conflict); Q-011 (stats article chunks 1-3, DLS26 applicability); Q-012 (official social); Q-013 (non-English and community). Then classify every CONNECTED/UNCERTAIN reference in logs/sources_visited.json and only then consider an epoch closure check. Do not promote any claim before its tier gates are defined (ISSUE-009).",
+  "created_at": "2026-10-18T15:42:03Z",
+  "not_before": "2026-10-18T15:42:03Z",
+  "expires_at": null,
+  "status": "READY_TO_YIELD",
+  "diagnostic_refs": [
+    "ISSUE-011"
+  ]
+}
