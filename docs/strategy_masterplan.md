@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-163 — 2,001 claims / 402 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-164 — 2,013 claims / 403 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -154,7 +154,7 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 
 ### PHASE 0 — Setup (Day 0, one sitting)
 
-1. **Captain selection.** Current build offers ~80 captain choices plus *Create Your Own Captain* [EV-427, C2]. The DLS21-era build showed 9 random Legendary Cards [EV-427, C2] — do not follow old guides that assume 9.
+1. **Captain selection.** Current build offers ~80 captain choices plus *Create Your Own Captain* [EV-427, C2]. The DLS21-era build showed 9 random Legendary Cards [EV-427, C2] — do not follow old guides that assume 9. **Pick a fast forward with *minimum* shooting who can at least shoot, and never a goalkeeper or a defender** [EV-501, C3] — *"you always want to get a fast forward with minimum shooting that can at least shoot... YOU SHOULD NEVER PICK OUT A GOALKEEPER OR A DEFENDER!"* **Filter on stamina, not pace**: the community benchmark is **80+ stamina**, because a fast captain with no legs gets replaced. Above 180cm with shooting and speed above 80 and a decent passing attribute, and he can take set pieces too. **Foden and Nunez are the named long-term picks** — they still fit a gold team later. The reason to spend the slot on attack: *"offensive players cost a lot more than defensive players."*
 2. **Controls.** Preset **A = Hard Kick/Shoot, B = Low Kick/Pass, C = Lofted/Chip/Curl/Cross** [prior waves, C2]. Set pieces require the joystick; the B auto-press needs stick input [C2].
 3. **Camera:** Tele, H75 / Z35 [C3]. **Graphics:** Medium / 60 FPS / Semi-auto [C3].
 4. **Commentary:** English (Gary Bloom) is the default; DLS26 added Turkish and Arabic [EV-427, C1].

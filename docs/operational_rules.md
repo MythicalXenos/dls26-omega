@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-163 — 2,001 claims / 402 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-164 — 2,013 claims / 403 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -238,6 +238,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | **Before any transfer, run the pre-check** | iOS: Apple ID → Sign-in & Security → sign in with Apple, confirm no previous profile attached. Android: if the Google setting shows a stale game entry, remove it, then sign in inside the game [EV-497, C2] |
 | **If a profile is lost** | The account ID persists on FTG's servers and support can recover it — send the player rating, account name, rank, phone name and a screenshot of the **Manage Device ID** [EV-497, C3] |
 | **Ignore fake backup paths** | *"Settings → Cloud → Save Progress"* does not exist. Manual folder-copy backup no longer works either — DLS26 validates every login server-side [EV-497, C3/C4] |
+| **The 50% resale rule** [EV-501, C2] | A released player sells for **half his purchase value** — so buying is a sunk cost of half the price, and the coach-farming loop is a *deliberate* loss-maker run for coaches, not coins |
+| **Never trust the Best-XI button** [EV-501, C3] | *"It does not properly give you the best player for their position."* Use a per-position checklist instead |
 | **Cross-platform transfer** | Only via a code: **Manage Devices → Generate Code** on the old device, typed into **Link Profile** on the new one (both under Options → gear → **Advanced**). A code cannot be used on the device that generated it |
 | **No cheap re-roll** | **Reset Profile** (Settings → Advanced, skull icon) is irreversible, destroys all coins, gems, consumables **and in-app purchases**, and is limited to **ONE RESET EVERY 30 DAYS** |
 | **The region seed is permanent** | The account decides the matchmaker pool and the leaderboard surface. Set it up deliberately and **play through early mistakes — do not reset** |

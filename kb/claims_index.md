@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:39:23Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2001**
-Distribution: Confirmed 391 / High Confidence 838 / Community Consensus 723 / Speculative 48 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **464**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T05:43:40Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2013**
+Distribution: Confirmed 391 / High Confidence 840 / Community Consensus 733 / Speculative 48 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **465**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -12,7 +12,7 @@ Distinct evidence records cited: **464**.
 | facilities | 112 |
 | dll | 72 |
 | gameplay | 72 |
-| transfers | 68 |
+| transfers | 70 |
 | cards | 64 |
 | clans | 57 |
 | career | 49 |
@@ -20,36 +20,36 @@ Distinct evidence records cited: **464**.
 | controls | 44 |
 | patching | 40 |
 | training | 40 |
+| errata | 39 |
 | cups | 38 |
 | coaches | 37 |
-| errata | 37 |
 | prizeladder | 37 |
+| coaching | 36 |
 | attributes | 34 |
-| coaching | 34 |
 | platform | 31 |
 | tactics | 30 |
 | customization | 29 |
 | events | 28 |
 | presentation | 25 |
 | modes | 24 |
-| goalkeeping | 22 |
+| goalkeeping | 23 |
 | stadium | 20 |
 | customisation | 19 |
 | account | 17 |
 | stamina | 17 |
 | achievements | 16 |
 | meta | 16 |
+| onboarding | 15 |
 | negatives | 13 |
 | formboost | 12 |
 | ui | 12 |
-| onboarding | 11 |
 | difficulty | 10 |
 | draft | 10 |
 | match | 10 |
 | medical | 10 |
 | social | 10 |
+| matchcraft | 9 |
 | 12thman | 8 |
-| matchcraft | 8 |
 | skillmoves | 8 |
 | squad | 8 |
 | multiplayer | 7 |
@@ -1193,7 +1193,9 @@ Distinct evidence records cited: **464**.
 | CLAIM-1978 | THE PRICED TRAINING DECISION, which converts the corpus's 'Training is the priority facility' into a rule: '**this is also a great level to stay at... | High Confidence | facilities/training-priced-decision | EV-499 |
 | CLAIM-199 | Watching a 30-second ad after a match DOUBLES coin earnings for that match; available once per match (BlueStacks says once per match, FAQ suggests ... | High Confidence | unscoped | EV-270 |
 | CLAIM-200 | Physios are a third permanent development/resourcing item (alongside Coaches and Players), hired with COINS (not gems), used to restore player ener... | High Confidence | unscoped | EV-278 |
+| CLAIM-2006 | THE 50% RESALE RULE, which the corpus did not carry and which prices every transfer decision: 'Since Dream League Soccer 2016h, **free transfers do... | High Confidence | transfers/50-percent-resale-rule | EV-501 |
 | CLAIM-201 | Facilities (six types, corrected from prior 5): Stadium (match coin bonus ∝ capacity, home-match income), Medical Centre (reduces injury chance, lo... | High Confidence | unscoped | EV-278,EV-256,EV-270,EV-272 |
+| CLAIM-2017 | A FOURTH CONTAMINATION, and the general rule that falls out of it: searches on the transfer market and on Dream Draft returned **FIFA Ultimate Team... | High Confidence | errata/fourth-contamination-general-rule | EV-501 |
 | CLAIM-203 | Scouts (hired with COINS, three tiers Common/Rare/Legendary) find players at DISCOUNTED prices (position/rating-range filters, safe for beginners).... | High Confidence | unscoped | EV-278,EV-274 |
 | CLAIM-206 | Commentary languages progression: English (original); Spanish added DLS24; Portuguese added DLS25; Turkish and Arabic added in DLS26 July 2026 Summ... | High Confidence | unscoped | EV-280,EV-272,EV-276 |
 | CLAIM-211 | FTG studio portfolio (four active/supported franchises as of 2026): Dream League Soccer (flagship, annual, 2011-now, com.firsttouchgames.dls7); Sco... | High Confidence | unscoped | EV-277,EV-280 |
@@ -1971,6 +1973,16 @@ Distinct evidence records cited: **464**.
 | CLAIM-2003 | PER-PLAYER CURL ARCHETYPES: 'my Odegaard shoots with more curl and Vini shoots more straight' and 'Alexander-Arnold curves A LOT. Modric way less' ... | Community Consensus | setpieces/per-player-curl-archetypes | EV-500 |
 | CLAIM-2004 | THE SWIPE SHAPES AND AIMING RULES: 'Swipe with a curve - like you're drawing a banana shape... **If you're aiming for the right corner, swipe in a ... | Community Consensus | setpieces/swipe-shapes-and-aiming | EV-500 |
 | CLAIM-2005 | NEVER REDO A PLAYER WHILE MAXING THE TEAM: 'never redo anyone while maxing your team. Some redo's are unavoidable but **don't redo players until af... | Community Consensus | coaching/never-redo-while-maxing | EV-500 |
+| CLAIM-2007 | What the 50% rule means for the plan: **buying a player is a sunk cost of half his price**, so the only way to recover value is to keep and coach h... | Community Consensus | transfers/50-percent-rule-implications | EV-501 |
+| CLAIM-2008 | THE CAPTAIN CRITERIA, REFINED beyond the corpus's 'pick the best attacker': '**You always want to get a fast forward with minimum shooting that can... | Community Consensus | onboarding/captain-criteria-refined | EV-501 |
+| CLAIM-2009 | THE 80-STAMINA CAPTAIN FLOOR: '**Get a player with high stamina as well, not just pace. I set a benchmark of min 80 stamina**, so in my book, many ... | Community Consensus | onboarding/captain-80-stamina-floor | EV-501 |
+| CLAIM-2010 | The fuller captain spec, from the original guide: a CF or WF who is '**reasonably tall (above 180cm), has good shooting & speed attributes (>80 rat... | Community Consensus | onboarding/captain-full-spec | EV-501 |
+| CLAIM-2011 | THE BEST-XI BUTTON IS UNRELIABLE - a documented negative: '**Never use the best IX button. It does not properly give you the best player for their ... | Community Consensus | errata/best-xi-button-unreliable | EV-501 |
+| CLAIM-2012 | THE FIRST-PURCHASE RULE: 'Your very first purchase should be a **RM, an LM and a CM** which should cost no more than a total of **500 coins**' out ... | Community Consensus | onboarding/first-purchase-rule | EV-501 |
+| CLAIM-2013 | THE COACH-MIXING RULE: 'Use **fitness coaches first. They are safer**. Use **2 common techs for every 8 rare fitness coaches**. For GKs, use **1 ra... | Community Consensus | coaching/fitness-first-mixing-rule | EV-501 |
+| CLAIM-2014 | THE GK TARGET, more precise than the corpus's GKR>=GKH rule: 'Preferred: **90+ GKR with 0-10 difference to GKH**' - so the two stats should be CLOS... | Community Consensus | goalkeeping/target-90-gkr-with-0-10-gap | EV-501 |
+| CLAIM-2015 | THE TWO-STRIKER INVERSION: 'For 2-striker systems, **left foot on right and right foot on left** I find pretty good too' - which extends the corpus... | Community Consensus | matchcraft/two-striker-inversion | EV-501 |
+| CLAIM-2016 | THE COACH-FARMING BAND CORROBORATED: 'buy/release players around **200-300** for common coaches. You might find some good legendary players in that... | Community Consensus | coaching/farming-band-200-300-corroborated | EV-501 |
 | CLAIM-207 | Dream Draft mode: pick an 18-player squad of 75+ rated players (each pick pool has at least one Star Player); tournament-style progression up to 7 ... | Community Consensus | unscoped | EV-281 |
 | CLAIM-208 | Clan features: rank 20 minimum to unlock full clan access; create or join via Main Menu > Clan; clans customizable (frame/background/icon/colours/n... | Community Consensus | unscoped | EV-279,EV-272 |
 | CLAIM-209 | Clan point reward ladder (community-reported): first unlock at 25,000 CP; 25 gems @1M CP; Legendary XP boost @2M; Legendary Scout @3M; 500 coins @5... | Community Consensus | unscoped | EV-279 |
