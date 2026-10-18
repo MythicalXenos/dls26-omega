@@ -2,7 +2,7 @@
 
 > **Purpose (RQ-20261018-022).** Every source used in the turn-35 sweep is classified here with the specific reason. A source's status is a property of the *source*, not of the individual article — a rejected source is rejected for all future use unless the underlying defect is fixed.
 > **Authority note:** this register records *why* a source is trusted or distrusted. The claim authority remains `kb/claims.jsonl`. Where a claim cites a source listed here as REJECTED or DOWNGRADED, the claim's confidence tier must reflect that.
-> Basis: ckpt-139 — 1,673 claims / 379 evidence records.
+> Basis: ckpt-152 — 1,856 claims / 392 evidence records.
 
 ---
 
@@ -31,6 +31,9 @@ Useful, but never load-bearing alone. A claim resting only on one of these is ca
 | **gamingonphone** | Same editorial family as Bluestacks; carries a **known outlier** — a 1,200c/40g starter pack that contradicts every other source (1,500c/75g). Treat its economy figures as suspect. | Mode descriptions, challenge cadence |
 | **dlspedia.fandom.com** | Community wiki. Published the only complete **stadium sector-seat and division-gate ladders** in the corpus. Caveat: pages carry old "Great Page" dates (2018), so its tables may reflect an earlier build — its Division 3 figure (15,000) conflicts with an older wiki's 35,000, and the top-division gate has moved between 80,000 and 85,000 across builds. **Cite for structure and shape; verify the final gate in-client.** | Stadium seat ladders, division gates, sector names, pitch types |
 | **sakibpro.com · dreamkitsapp.com** | Community player databases. Independently reproduced the **complete 12-player Cult Heroes roster and its ratings**, matching dlsinside — which is what makes the C-018 resolution two-source rather than one. | Cult Heroes roster and ratings, player positions/ages/heights |
+| **rajatips.com** | Single-author tips site. Published the **only complete scout and agent probability ladders** in the corpus, and its Common-scout figures (93/5/2) match an independent source exactly. Caveat: its Legendary-scout split (40/45/15) conflicts with a second source (55/30/15) — **cite the structure, not the middle column.** | Scout/agent probability ladders, coach-farming threshold |
+| **LevelWinner (levelwinner.com)** | Long-running multi-year DLS guide series. Its **per-build** facility effects are the corpus's best record of how a mechanic changed — e.g. the Commercial nerf from ~50% at max (DLS20/21) to 10% now. Caveat: always read the build year before citing a number. | Facility per-level effects and their version history, coach effect sizes, formation-change timing |
+| **ldplayer.net** | Emulator vendor blog. Reproduced the scout drop rates and the physio ladder; its Rare/Legendary scout splits differ from rajatips. | Scout drop rates, scout discounts, physio ladder |
 | **mokoweb.com** | **Mod site.** Its "709MB" bundle figure and mod claims are screened out; its *descriptive* text about base-game mechanics is sometimes the only source and is used at Community Consensus with the mod material stripped. | Free-kick distance bands, general tips |
 
 **Corroboration rule:** two Tier-2 sources that agree only because both derive from the same upstream text (e.g. Bluestacks and its regional mirrors) count as **one** source, not two.
@@ -52,9 +55,9 @@ Useful, but never load-bearing alone. A claim resting only on one of these is ca
 
 | Source | Specific fabrication evidence |
 |---|---|
-| **playdreamleaguesoccer.com** | **Confirmed AI content farm (twice).** Published: a "Chemistry" system and "Fluid Formations" — neither exists; fake user testimonials ("DLS_King_07 Mumbai", "GoalMachine_23 Bangalore", "Rohit_Striker" interview); an "Icon Exchange" feature; Vinícius Jr at 91 OVR; a "Youth Academy Cup"; a "Global Super League". All fabricated. Any article from this domain is rejected in full. |
+| **playdreamleaguesoccer.com** | **Confirmed AI content farm — now SIX times.** Beyond the earlier fabrications it has since published: a "Tactical Presets" system with shareable custom tactics, a "3-5-2 Fluid" formation, a playstyle-learning AI manager (**refuted by FTG's own "no additional overlaid controls" article**), "Version 9.4.0" for a game at v13.420, training that raises OVR "from 60 to 99" against the confirmed 86 ceiling, invented skill moves (elastico, trivela), "4K stadiums" and "FTG Engine 6.0", and fabricated statistics with no method behind them ("12.5% average pull rate", "47 average days of grinding", "3.2M average coin cost"). | Published: a "Chemistry" system and "Fluid Formations" — neither exists; fake user testimonials ("DLS_King_07 Mumbai", "GoalMachine_23 Bangalore", "Rohit_Striker" interview); an "Icon Exchange" feature; Vinícius Jr at 91 OVR; a "Youth Academy Cup"; a "Global Super League". All fabricated. Any article from this domain is rejected in full. |
 | **sportsdunia** | Two rejected tables: a Commercial facility bonus table and a formation table. Both contradicted official/other sources. Formation recommendations (4-3-3, 3-4-1-2) are retained in the conflict log **as a minority position only**, never as guidance. |
-| **eslamgaming** | Fabrications plus a **wrong control map** — a control mapping that does not match the game. |
+| **eslamgaming** | Fabrications plus a **wrong control map** — a control mapping that does not match the game. Its **floodlight/sunset visibility claims are recorded at Speculative (C4)** and flagged for device verification, not adopted. |
 | **Baiduwiki** | Described a non-existent **auction-house** transfer market. DLS has no auction house. |
 | **chaptercheats** | Wrong definition of CON (Construction). CON = **Construction** in DLS; chaptercheats defined it otherwise. |
 | **footballeffect / gamingonphone starter-pack figures** | 1,200 coins / 40 gems starter, contradicting the 1,500c / 75g figure from every other source including the DLS24 baseline. Treated as an outlier, not evidence. |
