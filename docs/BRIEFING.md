@@ -30,7 +30,9 @@
 
 ## 3. What the sweep closed, and how
 
-Twenty-two of the corpus's open gaps were closed during the turn-35 sweep, and **the single most productive discovery was that the official FTG support portal is fully readable** — it produced the stat model, the coin list, the account rules, the Season Pass rules, the player-acquisition routes and the leaderboard cadence, several of which are the only Confirmed-tier sources in the corpus.
+Twenty-four of the corpus's open gaps were closed during the turn-35 sweep, and **the single most productive discovery was that the official FTG support portal is fully readable** — it produced the stat model, the coin list, the account rules, the Season Pass rules, the player-acquisition routes and the leaderboard cadence, several of which are the only Confirmed-tier sources in the corpus.
+
+**Late additions:** the clan system's operational picture (the 350k cap's precise semantics — it caps your contribution to the clan total, so beyond it points only rank you in-clan; clan-internal matches pay points; the leader appoints a vice-captain; an active clan supplies level-appropriate opponents, so **clan choice is a competitive decision**), the Career cup ladder (Legendary Division → International Cup → Allstar Cup → Diamond Cup), the new **World Tournament** event type, and the Prize Ladder's named current Classic roster (the Italian League Classics: Trezeguet, Batistuta, Crespo, Desailly). Special cards never count against the 64-player squad cap.
 
 **Resolved outright:** Cult Heroes ratings (C-018 — the 92-vs-95 conflict was *three states of one card*: 85 base, 92 event-boosted, 95 maxed) · stadium capacity per division (C-010) · the achievement count (C-026 — a *source conflation*: Android 40/20,000 XP, iOS 63/13,483 EXP) · corner footedness (C-022 — *two deliveries, not two opinions*: same-foot out-swinger versus opposite-foot in-swinger) · the DLL unlock (C-025 — six Career matches).
 

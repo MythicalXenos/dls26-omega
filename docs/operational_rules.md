@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-137 — 1,663 claims / 377 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-140 — 1,684 claims / 380 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -368,6 +368,11 @@ Hard thresholds: **DLL pays gems only with ≥14 points**; the final DP ladder g
 - Personal cap **350,000 CP ≈ 100 wins**; realistic season total **13–15M CP**.
 - Ladder pays up to **150 gems at 10M CP**.
 - Elite clans demand **350K+ every season or removal**; leaders kick sub-20k first-hour contributors. **Read the clan's requirements before joining, not after.**
+- **The 350k cap's semantics** [EV-478, C2]: it caps your contribution to the **clan's total**. Beyond it, points count only toward your **personal in-clan ranking** and the top-contributor reward — *"it won't help your clan's total points."* After 350k, clan points are a by-product, never a goal.
+- **Clan-internal matches pay clan points** [EV-478, C2] — playing members of your own clan is a legitimate source alongside matches, challenges and Season Pass tiers.
+- **The vice-captain is appointed by the leader** [EV-478, C2]; the leader is the **sole admin** and can remove members.
+- **Choosing a clan is competitive, not social**: an active clan supplies *"opponents at your level"* [EV-478, C2]. Competitive clans screen for minimum wins in a time window, activity and no inactivity.
+- Find it on the **home-screen Clans tab** or the **top-right profile menu**; creation lets you set badge, name, **country**, **minimum team rank** and **open / closed / invite-only** [EV-478, C2]. Entry requirements hide a clan from search, but **an invite code still bypasses them** [EV-456, C1].
 
 ### 3.3 Season Pass and Progression Bank [EV-437, C2]
 
@@ -375,6 +380,12 @@ Hard thresholds: **DLL pays gems only with ≥14 points**; the final DP ladder g
 - **Progression Bank is 10 days** — it only pays if you keep playing daily. Missing days loses the accumulated reward.
 
 ### 3.4 Cups
+
+**The Career cup ladder** [EV-478, C2] — win the **Legendary Division** → **International Cup** (national teams: England, Sweden, Portugal, Argentina) → **Allstar Cup** (continental all-stars) → **Diamond Cup** (*"the final cup of the game"*, Elite/Legendary). Losing in the International Cup **returns you to the Legendary Division**, and every cup eliminates on a concession.
+
+**The World Tournament** [EV-478, C2] is the **new international-football event type** from Summer Spotlight (v13.330, 10 Jun 2026) — *not* the Career International Cup. It carries the summer's **World Cup Heroes** (1 Jul), **World Cup Challenge** (30 Jun) and **World Cup Winners** (21 Jul) events. **Enter it only while it is live; do not restructure the plan around it.**
+
+**The Prize Ladder's Classic roster is themed and rotates** — the current cycle is the **Italian League Classics: Trezeguet, Batistuta, Crespo, Desailly** [EV-478, C2 — official]. **Special cards have unlimited accommodation** [EV-478, C1] and never count against the 64-player cap.
 
 - **GCC:** online, **128 teams / 32 groups of 4** → R64, ~7 rounds, **10 gems/round + ~25 to win**. **Difficulty scales with DIVISION, not club stars** — you cannot out-star it. [EV-437, C2]
 - **Diamond Cup:** ~32 teams. [EV-437, C2]

@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-138 — 1,671 claims / 378 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-140 — 1,684 claims / 380 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -410,13 +410,41 @@ Release yields coaches, not coins — but for Classics specifically, the opportu
 | Fanzone | Gives **clan bonuses + stadium discounts** — the official store copy reads *"Upgrade your Fanzone for Clan bonuses and Stadium discounts"* [EV-458, C1]; no per-level values published |
 | Membership | **One clan at a time**; leadership passes on if the leader leaves, and the clan disappears if nobody is left [EV-456, C1] |
 | Unlock | Clans open **once you have progressed far enough through the Ranks** [EV-458, C2] |
-| Points sources | Matches, challenges **and Season Pass tiers** [EV-456, C1] |
+| Points sources | Matches, challenges **and Season Pass tiers** [EV-456, C1] — **plus clan-internal matches** [EV-478, C2] |
+| Creation options | Badge (style, background, icon, frame colour, dressing), name, **country**, **minimum team rank**, and type (**open / closed / invite-only**) [EV-478, C2] |
+| Leadership | One leader who is the **sole admin** and can remove members; a **vice-captain is appointed** by the leader [EV-478, C2] |
+| Size | Minimum **50 members** [EV-478, C2] |
+| Where to find it | The Clans tab on the **main home screen title** or the **top-right profile menu** [EV-478, C2] |
 
 **Strategic read:** the 350k cap means the *clan* is the multiplier and *you* are the input. Joining a clan already running 13–15M is strictly better than building one, because the reward ladder is a clan-total goal.
+
+**The cap's precise semantics (ckpt-140, EV-478):** the 350,000 limit governs your **contribution to the clan's total**. Everything you earn beyond it counts only toward your **personal ranking inside the clan** — and therefore the top-contributor reward — and *"won't help your clan's total points."* Once you have banked 350k, further clan points are purely a race for the top spot, so **stop treating clan points as a goal and start treating them as a by-product of the DLL climb**.
+
+**Choosing a clan is a competitive decision, not a social one.** An active clan *"gives you not only extra rewards but also opponents at your level to measure yourself against"*, and competitive clans screen hard for it — real recruitment threads demand *"minimum 50 wins within the remaining time limit (5 days)"*, activity, Discord membership and *"no inactivity"*, and one leader's method is to prune *"anyone who doesn't contribute at least 20k Clan Points in the first hour of joining."* **Join a clan that is already at or near the member cap and already running 13–15M; do not build one.**
+
+**Also new:** **clan-internal matches pay clan points** — playing members of your own clan is a legitimate point source alongside matches, challenges and Season Pass tiers.
 
 **Corroboration (ckpt-126, EV-458):** the ~3,500-points-per-online-win figure and the 350,000 cap each now have a **second independent source** — a clan leader reports *"approximately 3.5k Puntos de Clan per online win"*, and a second thread confirms the 350k ceiling, adding that anything beyond it *"is not going to help your clan's total points"* but still ranks you first in-clan. At 3,500 points a win, **~100 online wins maxes a personal season** — so a player who grinds DLL for the tier climb banks the clan cap as a by-product, at no extra cost.
 
 **⚠️ C-017 RE-OPENED (ckpt-126):** that same leader states the end-of-season top-contributor reward is **50 gems** — a **second community source on the 50 side**, against the earlier lean toward 100. The conflict is now **one source each side, neither official**. **Do not plan on either figure**; treat the 275-gem Clans line in the ledger as a mid-point estimate, not a commitment. It is resolved only by an in-client screenshot or an FTG support reply.
+
+---
+
+**The Career cup ladder** [EV-478, C2] — the sequence that sits above the divisions:
+
+| Stage | Qualification | Opponents |
+|---|---|---|
+| **International Cup** (aka World Cup) | Win the **Legendary Division** | National teams — England, Sweden, Portugal, Argentina |
+| **Allstar Cup** | Win the International Cup | Continental all-star teams |
+| **Diamond Cup** | Elite or Legendary Division | Teams across continents — *"the final cup of the game"* |
+
+Losing in the International Cup **returns you to the Legendary Division**, and every cup eliminates you on a concession — so a cup run is a separate discipline from the league, and the *league* is what pays.
+
+**The World Tournament** [EV-478, C2] is the **new international-football event type** shipped in Summer Spotlight (v13.330, 10 Jun 2026; 13.350 on 14 Jul) — distinct from the Career International Cup, and the surface for the summer's **World Cup Heroes** (from 1 Jul), **World Cup Challenge** (30 Jun) and **World Cup Winners** (21 Jul) events. Treat it as a limited-time reward surface: enter when it is live, and do not restructure the plan around it.
+
+**The Prize Ladder's current Classic roster is named** [EV-478, C2 — official TikTok]: the **Italian League Classics — Trezeguet, Batistuta, Crespo and Desailly** — obtained by earning Dream Points and completing the ladder. This is the first named current-cycle ladder in the corpus, and it confirms the ladder's Classic players are **themed by league and season**, so the roster rotates.
+
+> **Special cards have unlimited accommodation** [EV-478, C1] — they never count against the 64-player squad cap, which is why collecting them is free in squad terms.
 
 ---
 

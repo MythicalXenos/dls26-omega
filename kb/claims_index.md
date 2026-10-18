@@ -1,33 +1,33 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:52:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1673**
-Distribution: Confirmed 376 / High Confidence 711 / Community Consensus 551 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **441**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:58:01Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1684**
+Distribution: Confirmed 378 / High Confidence 718 / Community Consensus 553 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **442**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 115 |
-| facilities | 89 |
+| facilities | 90 |
 | dll | 63 |
+| clans | 56 |
 | gameplay | 56 |
 | cards | 54 |
-| clans | 50 |
 | career | 48 |
 | transfers | 43 |
 | setpieces | 39 |
+| cups | 38 |
 | training | 38 |
 | coaches | 37 |
-| cups | 37 |
 | patching | 37 |
-| prizeladder | 36 |
+| prizeladder | 37 |
 | controls | 35 |
 | attributes | 34 |
 | platform | 30 |
 | customization | 29 |
 | errata | 24 |
-| events | 22 |
+| events | 24 |
 | modes | 19 |
 | stamina | 17 |
 | meta | 16 |
@@ -459,6 +459,8 @@ Distinct evidence records cited: **441**.
 | CLAIM-1676 | The corpus passed final verification: 1,671 unique claims with only the four known legacy ID gaps (36, 134, 425, 426), 378 unique evidence records ... | Confirmed | audit/final-verification-passed | EV-477 |
 | CLAIM-1677 | docs/BRIEFING.md is the one-page capstone and intended entry point: the mission definition, the ten ranked rules, what the sweep closed and how, th... | Confirmed | docs/briefing-capstone | EV-477 |
 | CLAIM-168 | Dream League Live leaderboards reset at regular intervals ranging 3-30 days (different leaderboards have different cadences); prizes awarded based ... | Confirmed | unscoped | EV-263 |
+| CLAIM-1680 | The official clan rules: one clan at a time; each clan has one leader and if they leave leadership passes on, and the clan disappears if nobody is ... | Confirmed | clans/official-rules | EV-478 |
+| CLAIM-1688 | Special cards have unlimited accommodation and never count against the squad cap, confirmed in the official copy. | Confirmed | facilities/special-cards-unlimited-accommodation | EV-478 |
 | CLAIM-169 | Single-player difficulty scales automatically with division progression; DLS25 introduced a manual base difficulty toggle (Easy/Medium/Hard). In DL... | Confirmed | unscoped | EV-264 |
 | CLAIM-170 | Official gems sources: league objectives, tournaments, Season Pass, Prize Ladder, Dream League Live participation + leaderboard placement; also pur... | Confirmed | unscoped | EV-265 |
 | CLAIM-171 | 'Super Players' are enhanced player types won in Events and occasionally in rarer packages; they have a low appearance frequency and display a grey... | Confirmed | unscoped | EV-266 |
@@ -1035,6 +1037,13 @@ Distinct evidence records cited: **441**.
 | CLAIM-1672 | Classic and legend cards sit above the roster ceiling: Rivaldo 1999 and Matthaus 1991 are listed at 86, and Classic Marcel Desailly at 85 - consist... | High Confidence | cards/classic-above-roster | EV-476 |
 | CLAIM-1673 | Secret players are a listed card category in the player database, corroborating the corpus's note that secret players exist. | High Confidence | cards/secret-players-exist | EV-476 |
 | CLAIM-1675 | The 12th Man's identity remains unnamed: the vote was announced in v13.100 (26 Feb 2026) and the winner added in v13.120 (25 Mar 2026), but no sour... | High Confidence | cards/12th-man-identity-still-unknown | EV-476 |
+| CLAIM-1678 | Clan creation is fully customisable: badge (style, background, icon, frame colour, dressing), clan name, clan country, entry requirements (minimum ... | High Confidence | clans/creation-options | EV-478 |
+| CLAIM-1679 | THE 350K CLAN-POINT CAP'S SEMANTICS: it caps what you contribute to the CLAN'S TOTAL. Anything earned beyond it counts only toward your personal in... | High Confidence | clans/350k-cap-semantics | EV-478 |
+| CLAIM-1682 | THE VICE-CAPTAIN IS APPOINTED BY THE LEADER (added in the Winter Reload update alongside clan leaderboards and Clan Point boosts), and an active cl... | High Confidence | clans/vice-captain-and-opponents | EV-478 |
+| CLAIM-1683 | CLAN-INTERNAL MATCHES EARN CLAN POINTS: 'you can also play clan matches against other members of your clan; this will also contribute to the Clan P... | High Confidence | clans/internal-matches-pay-points | EV-478 |
+| CLAIM-1684 | THE CAREER CUP LADDER: winning the Legendary Division qualifies you for the INTERNATIONAL CUP (national teams - England, Sweden, Portugal, Argentin... | High Confidence | cups/career-cup-ladder | EV-478 |
+| CLAIM-1685 | THE WORLD TOURNAMENT is the new international-football event type shipped in Summer Spotlight (v13.330, 10 Jun 2026; 13.350 on 14 Jul) - distinct f... | High Confidence | events/world-tournament | EV-478 |
+| CLAIM-1686 | THE PRIZE LADDER'S CURRENT CLASSIC ROSTER IS NAMED: the Italian League Classics - Trezeguet, Batistuta, Crespo and Desailly - obtained by earning D... | High Confidence | prizeladder/italian-league-classics | EV-478 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1635,6 +1644,8 @@ Distinct evidence records cited: **441**.
 | CLAIM-1665 | FREE-KICK FOOTEDNESS INVERTS THE CORNER LOGIC: 'left footed players are just the best to score free kicks, because its the angle of the free kick t... | Community Consensus | setpieces/free-kick-left-foot-versatile | EV-475 |
 | CLAIM-1666 | A both-footed striker has a structural advantage: 'it enables the forward to shoot from any angle but still hit the goal, as foot plays an importan... | Community Consensus | setpieces/both-footed-advantage | EV-475 |
 | CLAIM-1674 | Arsenal's DLS26 ratings (Dec 2025) as a worked rating snapshot: Saliba 84, Rice 84, Saka 84, Gabriel 84 (+1), Gyokeres 83, Raya 83, Timber 82 (+2),... | Community Consensus | patching/arsenal-ratings-example | EV-476 |
+| CLAIM-1681 | A working clan leader's method: fill the roster to cap quickly, adopt 'you get what you give', and prune hard - 'I'm actively kicking out anyone wh... | Community Consensus | clans/leader-pruning-method | EV-478 |
+| CLAIM-1687 | The Dynamic Stars upgrade path is corroborated a third time from the World Cup discussion thread: +1 OVR per Group Stage win, +2 for Round of 32 qu... | Community Consensus | events/dynamic-stars-path-third-source | EV-478 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |
