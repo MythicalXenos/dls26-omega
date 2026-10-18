@@ -183,3 +183,8 @@ A conflict is closed only with evidence that settles the proposition, never beca
 - **Status:** OPEN and CONSEQUENTIAL. The two positions are not mutually exclusive if the mechanism is matchmaking: maxing raises club value and Prize Ladder progress while raising DLL opponent strength.
 - **Provisional resolution adopted in the playbook:** coach the squad to a **competitive but not maxed** level for DLL purposes, and pursue full maxing as a separate, parallel club-value objective rather than a prerequisite for Tier 1. Logged EV-447/EV-448.
 
+## C-025: Career matches required to unlock Dream League Live (3 vs 6)
+- **Position A:** six Career mode matches — repeated independently by gamingonphone's DLS25 friends guide (in one sentence) and by mundodls.
+- **Position B:** three Career mode matches — the SAME gamingonphone article states three in a different sentence, contradicting itself.
+- **Status:** OPEN, low impact. The self-contradiction inside one article discredits the source for this figure, and the six-match number is the only one that appears independently. **Provisional resolution: plan for six.** Impact is trivial — a new player will clear either threshold in their first session. Logged EV-451.
+

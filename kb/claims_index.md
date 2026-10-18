@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:47:53Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1448**
-Distribution: Confirmed 324 / High Confidence 649 / Community Consensus 440 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **414**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T02:52:22Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1460**
+Distribution: Confirmed 330 / High Confidence 655 / Community Consensus 440 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **415**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -10,8 +10,8 @@ Distinct evidence records cited: **414**.
 | unscoped | 424 |
 | economy | 90 |
 | facilities | 72 |
+| dll | 47 |
 | career | 45 |
-| dll | 45 |
 | clans | 41 |
 | transfers | 40 |
 | training | 38 |
@@ -39,6 +39,7 @@ Distinct evidence records cited: **414**.
 | ui | 11 |
 | account | 10 |
 | match | 10 |
+| social | 10 |
 | draft | 9 |
 | squad | 8 |
 | physio | 7 |
@@ -384,7 +385,13 @@ Distinct evidence records cited: **414**.
 | CLAIM-1435 | OFFICIAL DLS26: new commentary languages Turkish and Arabic; updated 2025/26 player data with more classic, special and national team players; impr... | Confirmed | features/dls26-launch-set | EV-449 |
 | CLAIM-1436 | Kick-Off Stars are a new DLS26 special card type - special edition Raphinha and Alvarez cards available at launch, highlighting players with explos... | Confirmed | cards/kick-off-stars | EV-449 |
 | CLAIM-1437 | The DLS26 trailer confirms a referee camera for goals, Raphinha and Julian Alvarez as cover stars, a blue and pink colour scheme, a new ball design... | Confirmed | features/dls26-trailer | EV-449 |
+| CLAIM-1453 | OFFICIAL: Friend Match codes may only contain A-Z, 0-9 and the hyphen character, and FTG explicitly warns to choose a unique code because one alrea... | Confirmed | social/friend-match-codes | EV-451 |
+| CLAIM-1454 | OFFICIAL: Friend Match stats are tracked behind the Dream League Live (Multiplayer) button on the home screen. | Confirmed | social/friend-match-stats | EV-451 |
+| CLAIM-1455 | Adding friends uses a CLOSED internal identification system - there is no username search and no social-media linking. You generate a code from you... | Confirmed | social/adding-friends | EV-451 |
+| CLAIM-1456 | If either player loses connection during a friendly match, the game automatically awards a 3-0 victory to the player with the more stable connectio... | Confirmed | social/disconnect-3-0 | EV-451 |
 | CLAIM-146 | Position codes mix English and Spanish/Portuguese abbreviations in raw data files: GK/POR (goalkeeper); CF and DC (striker); SS and SD (second stri... | Confirmed | unscoped | EV-253,EV-251,EV-252,CLAIM-001 |
+| CLAIM-1462 | OFFICIAL: DLS has low multiplayer bandwidth demands but is SENSITIVE TO HIGH LATENCY AND PACKET LOSS, so cellular and satellite connections can fai... | Confirmed | social/connection-requirements | EV-451 |
+| CLAIM-1464 | Summer Spotlight added a PLAYER RECOVERY feature ('Changed your mind?') - the official name for the recovery tab that underpins the gacha probabili... | Confirmed | social/player-recovery-official | EV-451 |
 | CLAIM-150 | On-screen action button mapping in match controls: A = pass (ground pass / through ball context-dependent), B = shoot (finish / long shot / clearan... | Confirmed | unscoped | EV-254,CLAIM-026 |
 | CLAIM-151 | DLS26 in-match state machine (exhaustive enumeration visible to a CV bot): top-level UI = MAIN_MENU / CAREER_MODE / LIVE_MODE / MATCH_LOADING / MAT... | Confirmed | unscoped | EV-254,CLAIM-012,CLAIM-017 |
 | CLAIM-152 | Ad inventory confirmed by bot: (1) rewarded ads (center-screen, no skip, reward is coins OR diamonds/gems), (2) interstitial ads (full-screen, no s... | Confirmed | unscoped | EV-254,CLAIM-115,CLAIM-136 |
@@ -906,6 +913,12 @@ Distinct evidence records cited: **414**.
 | CLAIM-1443 | The community method to raise agent pull odds: buy and sell every 80+ player you see so they sit in the recovery tab for two days, removing them fr... | High Confidence | gacha/recovery-tab-method | EV-450 |
 | CLAIM-1449 | DO NOT RELEASE Classic Players even if you do not max them - future Prize Ladders randomise their rewards, so failing to collect a full set in one ... | High Confidence | economy/dont-release-classics | EV-450 |
 | CLAIM-145 | DLS26 OVR is computed as a weighted linear sum of the 8 attributes plus a constant, STABLE across all updates 20231→20263. Best-fit across 23,327 n... | High Confidence | unscoped | EV-251,EV-252,CLAIM-137,CLAIM-138,EV-253 |
+| CLAIM-1457 | Dream League Live and Friend Match unlock only after completing SIX Career mode matches. One guide contradicts itself within a single article by st... | High Confidence | social/dll-unlock-six-matches | EV-451 |
+| CLAIM-1458 | Entering a POPULAR friend-match code such as 12345 will match you against a RANDOM player at a random time, not necessarily the friend you intended... | High Confidence | social/popular-codes-random | EV-451 |
+| CLAIM-1459 | Clan 1v1 requires both players to be in the SAME clan: go to Dream League Live, hit the Clan option, and select the member you want to challenge. | High Confidence | social/clan-1v1 | EV-451 |
+| CLAIM-1460 | SEED MATCHMAKING: your Live matchmaking seed is determined by your REGION and, more importantly, THE TIME YOU STARTED YOUR ACCOUNT. Seeds divide pl... | High Confidence | dll/seed-matchmaking | EV-451 |
+| CLAIM-1461 | Within a seed the matchmaker tries your own tier first and only rarely crosses tiers when nobody is available in your tier; internet connection qua... | High Confidence | dll/tier-first-then-cross | EV-451 |
+| CLAIM-1463 | DLS26 has NO co-operative multiplayer. | High Confidence | social/no-coop | EV-451 |
 | CLAIM-147 | Base/purchasable roster OVR hard cap is 86 in EVERY version 20231–20263 (3 years of updates). OVRs 87–98 exist ONLY on special/promo/legend/event c... | High Confidence | unscoped | EV-253,EV-251,CLAIM-141,CLAIM-142,CLAIM-144 |
 | CLAIM-154 | Coach rarities confirmed: FOUR categories (Fitness/SPE+ACC+STA+STR; Technical/CON+PAS+SHO+TAC; Goalkeeping/GKR+GKH; Special/ALL stats) each with th... | High Confidence | unscoped | EV-255,CLAIM-049,EV-271,EV-274 |
 | CLAIM-155 | Per-attribute weights in training-capacity cost are POSITION-SPECIFIC. For CB (defender) tackle-polarized builds, Control (CON/控制) carries weight 2... | High Confidence | unscoped | EV-255,CLAIM-049,EV-256 (official stat semantics confirm ... |
