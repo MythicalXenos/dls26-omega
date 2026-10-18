@@ -1,8 +1,8 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:35:13Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **2195**
-Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 889 / Speculative 67 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **478**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T07:38:44Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **2208**
+Distribution: Confirmed 391 / High Confidence 847 / Community Consensus 902 / Speculative 67 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **479**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
@@ -12,15 +12,15 @@ Distinct evidence records cited: **478**.
 | facilities | 114 |
 | dll | 90 |
 | gameplay | 80 |
-| transfers | 79 |
-| cards | 65 |
+| transfers | 80 |
+| cards | 69 |
 | clans | 65 |
 | career | 64 |
 | setpieces | 60 |
 | errata | 55 |
 | controls | 52 |
-| prizeladder | 46 |
-| coaching | 42 |
+| prizeladder | 48 |
+| coaching | 43 |
 | patching | 42 |
 | training | 40 |
 | cups | 39 |
@@ -54,6 +54,7 @@ Distinct evidence records cited: **478**.
 | positions | 9 |
 | settings | 9 |
 | 12thman | 8 |
+| injuries | 8 |
 | scenarios | 8 |
 | multiplayer | 7 |
 | physio | 7 |
@@ -74,7 +75,6 @@ Distinct evidence records cited: **478**.
 | sources | 4 |
 | acquisition | 3 |
 | features | 3 |
-| injuries | 3 |
 | season-pass | 3 |
 | challenges | 2 |
 | formations | 2 |
@@ -2156,7 +2156,20 @@ Distinct evidence records cited: **478**.
 | CLAIM-2193 | THE ROUTE ONE DETAIL: 'let the long ball C-pass come from either CB with a pass strength of around **75% to 90%**... diagonally aimed near the edge... | Community Consensus | gameplay/route-one-optimal-distance | EV-514 |
 | CLAIM-2195 | THE DEFENSIVE 4-3-1-2 FOR TIKI-TAKA: '**i use a defensive 4-3-1-2 formation in live games for slow build up play and tiki taka as well as making su... | Community Consensus | tactics/defensive-4-3-1-2-tiki-taka | EV-514 |
 | CLAIM-220 | Division season structure (DLS24-era, presumed similar in DLS26): ~16 teams per mid division, ~30-35 matches per season, 6-8 minutes per match (spe... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2200 | CLOSE THE GAME TO UNDO AN INJURY - and it undoes cards too: '**I will just close my game if my player got injured, then open it again. The game wil... | Community Consensus | injuries/close-and-reopen-undo | EV-515 |
+| CLAIM-2201 | THE LEGENDARY PHYSIO BEATS GEMS FOR INJURIES: '**you can use the legendary physio. It's cheaper than using gems and it heals all injured players**'... | Community Consensus | injuries/legendary-physio-cheaper-than-gems | EV-515 |
+| CLAIM-2202 | THE INJURY INDICATOR AND THE SUB RULE: 'their stamina bar will be nearly depleted - you will also see **a small cross next to the stamina bar** tel... | Community Consensus | injuries/indicator-and-sub-immediately | EV-515 |
+| CLAIM-2203 | THE INJURY DURATION LOOKUP: '**Place your injured player onto substitution. To check the matches he needs in order to recover, simply click on the ... | Community Consensus | injuries/duration-lookup-via-heal-dialogue | EV-515 |
+| CLAIM-2204 | THE PENALTY-FISHING INJURY RISK: '**playing aggressively close to the goal is a great way to fish for penalties, but it's also a shortcut to injuri... | Community Consensus | injuries/penalty-fishing-injury-risk | EV-515 |
+| CLAIM-2205 | THE COMPLETE CULT HEROES MAP, which the corpus had only half of. The corpus knew the three Season Passes at two heroes each; this adds the other tw... | Community Consensus | cards/cult-heroes-complete-map | EV-515 |
+| CLAIM-2206 | THE NEW SEASON PASS PLAYERS CARD TYPE: 'For the first time, **exclusive player cards are being introduced directly through the Season Pass system**... | Community Consensus | cards/season-pass-players-card-type | EV-515 |
+| CLAIM-2207 | THE TOTY CARDS ARE GREEN, and named: '**TOTY Yamal & Pedri: The brilliant green cards to complete the squad**' - so TOTY (Team of the Year) is a co... | Community Consensus | cards/toty-green-cards | EV-515 |
+| CLAIM-2208 | THE PRIZE LADDER CARRY-OVER, which gives the corpus's never-release rule a mechanism at last: '**Don't release any specials even if it's suker. Rea... | Community Consensus | prizeladder/carry-over-randomisation | EV-515 |
+| CLAIM-2209 | THE WORLD HEROES OFFICIAL ROUTE: '**DLS26 World Heroes are available now. Every time you use a Legendary Agent, you have a chance of getting a Worl... | Community Consensus | cards/world-heroes-official-agent-route | EV-515 |
 | CLAIM-221 | Stadium capacity scales by division (DLS24-era community data, approximate): Academy ~5-12k; Amateur 15k; Div4 25k; Div3 35k; Div2 45k; Div1 55k; E... | Community Consensus | unscoped | EV-284 |
+| CLAIM-2210 | THE ITALIAN LEAGUE CLASSICS, officially confirmed with names: 'Get your hands on **Trezeguet, Batistuta, Crespo and Desailly** in the form of speci... | Community Consensus | prizeladder/italian-league-classics-official | EV-515 |
+| CLAIM-2211 | RELEASING A SPECIAL PLAYER yields **1 special coach card** - a second rung on the release mapping (common to Common coach, 80+ to Rare, special to ... | Community Consensus | coaching/release-special-yields-special-coach | EV-515 |
+| CLAIM-2212 | SPECIAL CARDS CANNOT BE BOUGHT WITH COINS in the standard transfer market: '**Special edition cards such as Champion, World Cup Heroes, or Dreamsta... | Community Consensus | transfers/special-cards-not-in-transfer-market | EV-515 |
 | CLAIM-222 | Licensed leagues visible in DLS26 (community-enumerated): La Liga (Spain), Premier League (England), Ligue 1 (France, 'League 1 Paris'), Serie A (I... | Community Consensus | unscoped | EV-284 |
 | CLAIM-224 | Set-piece attacking meta (DLS24-26 community): FREE KICKS by distance — 18-22yd curl with inside foot; 23-28yd power or curled top-corner; 30+yd lo... | Community Consensus | unscoped | EV-283 |
 | CLAIM-227 | Career start flow (consistent across DLS versions): choose captain from ~20 offered players (OVR 60-85 in older versions; DLS26 starters appear Rar... | Community Consensus | unscoped | EV-284 |

@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-177 — 2,195 claims / 416 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-178 — 2,208 claims / 417 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -321,6 +321,8 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 6.9 | **THE GACHA LEVER** — buy and sell every 80+ player you see so they sit in the recovery tab for two days, removing them from the Legendary Agent pool. Reported to take Champion odds to **100%** for ~275,000 coins across ~145 players and 70+ refreshes | agent odds | EV-450, C2 |
 | 6.10 | Stack gold players in the market (they cannot be pulled while there) and **Lock** targets (costs gems). Pity ceiling ~15 Legendary Agents per target | agent odds | EV-450, C2/C3 |
 | 6.11 | **NEVER release a Classic Player** — future Prize Ladders randomise rewards, so you may get them next time and miss the new ones | collection | EV-450, C2 |
+| 6.11b | **The ladder carries unredeemed specials forward** — unredeemed specials stay in the pool but the pool is randomised, so releasing is a double loss: the card AND your place in the draw [EV-515, C3] | collection | EV-515, C3 |
+| 6.11c | **The Cult Heroes route map** — 6 from three Season Passes (2 each) + 3 from Online Events + up to 3 per Dream Draft; three money-free routes [EV-515, C3] | collection | EV-515, C3 |
 | 6.12 | **DLS26: special players do NOT count toward squad size** — the club holds **unlimited** specials, so there is no collection cap | cards | EV-449, C1 |
 
 **[UNVERIFIED]** The manager-name/nationality "refresh trick" — one poster states some say it works and some that it doesn't. **Do not plan around it.** [EV-442, C4]
@@ -517,6 +519,7 @@ Draft **18 players** from 75+ options per position; **≥1 Star Player mandatory
 
 ### 3.13 Injuries, recovery and the lifecycle negatives [EV-484, C2/C3]
 
+- **An injury is undoable** [EV-515, C3] — close the game after the injury and reopen; play resumes at the last stoppage before it. **Also undoes yellow and red cards, but NOT penalties.** The games-out figure is readable on demand via the heal dialogue, and a Legendary physio heals all injuries at once for less than gems.
 - **⚠️ THE INJURY REPORT IS EPHEMERAL.** DLS names the injury and the games out, but *"it's only visible after you exit the match where the injury happened. It's gone if you close the app or play another match."* **Read it the instant the match ends.**
 - **Rest is a real recovery channel:** resting a tired player for one match fully restores them, and the half-time team boost accelerates it. **Idle recovery: 3–4 hours for a weak squad, ~20 minutes for a maxed one.**
 - **Cancel the automatic chase-downs** [EV-505, C3] — the game auto-chases on keeper sweeps and pressed defensive efforts, and each one burns stamina you did not choose to spend.
