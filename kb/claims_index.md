@@ -1,18 +1,18 @@
 # KB — CLAIM INDEX (derived view)
-Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:31:58Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
-Total claims: **1611**
-Distribution: Confirmed 365 / High Confidence 684 / Community Consensus 527 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
-Distinct evidence records cited: **431**.
+Generated mechanically from `kb/claims.jsonl` at 2026-10-18T03:34:36Z. Do not edit by hand. `kb/claims.jsonl` is the claim authority.
+Total claims: **1621**
+Distribution: Confirmed 365 / High Confidence 692 / Community Consensus 529 / Speculative 34 / Disputed 1. Volatility: not tracked on the current record schema.
+Distinct evidence records cited: **432**.
 
 ## Domain coverage (top-level)
 | Domain | Claims |
 | --- | --- |
 | unscoped | 424 |
 | economy | 115 |
-| facilities | 82 |
-| dll | 51 |
+| facilities | 86 |
+| dll | 55 |
+| clans | 50 |
 | cards | 49 |
-| clans | 49 |
 | career | 48 |
 | gameplay | 46 |
 | transfers | 43 |
@@ -33,7 +33,7 @@ Distinct evidence records cited: **431**.
 | meta | 16 |
 | presentation | 16 |
 | tactics | 16 |
-| achievements | 14 |
+| achievements | 15 |
 | formboost | 12 |
 | goalkeeping | 11 |
 | onboarding | 11 |
@@ -994,6 +994,14 @@ Distinct evidence records cited: **431**.
 | CLAIM-1606 | The DLS26 Android achievement set is 40 achievements at 500 XP each = 20,000 XP total, covering the DLL win ladder (5/25/50/100/150 wins), the scen... | High Confidence | achievements/full-android-list | EV-466 |
 | CLAIM-1607 | Achievement completion rates give the difficulty curve: First Whistle (reach Amateur division) is 62.84% complete, Ultimate XI (team rating 80) 38.... | High Confidence | achievements/completion-curve | EV-466 |
 | CLAIM-1608 | 'Local Grounds' requires reaching 15,000 stadium capacity - exactly the Division 3 seat gate, confirming the two systems are linked. | High Confidence | achievements/stadium-gate-link | EV-466 |
+| CLAIM-1616 | THE ACCOMMODATION FACILITY LADDER IS FULLY PUBLISHED: ten levels costing 75, 150, 225, 300, 375, 450, 525, 600, 675 and 750 gems - 4,125 gems from ... | High Confidence | facilities/accommodation-ladder | EV-468 |
+| CLAIM-1617 | THE FACILITY GEM COST IS A UNIFORM 75 x LEVEL PATTERN: Accommodation's first five levels (75/150/225/300/375) are identical to the Training ladder'... | High Confidence | facilities/uniform-75x-level-pattern | EV-468 |
+| CLAIM-1618 | The Training facility ladder is independently corroborated level by level (75/150/225/300/375), with L4 the point where 'legendaries are going to c... | High Confidence | facilities/training-ladder-corroborated | EV-468 |
+| CLAIM-1619 | THE DLL TIER-PROMOTION XP LADDER IS CORROBORATED EXACTLY: Tier 10 promotion 500 XP, Tier 9 1,000, Tier 8 1,500, Tier 7 2,000, Tier 6 2,500, Tier 5 ... | High Confidence | dll/tier-promotion-xp-corroborated | EV-468 |
+| CLAIM-1620 | Other achievement XP values (Nerdburglars): Bragging Rights 2,000 XP for becoming champion of any DLL tier; 1,500 XP for finishing a league season ... | High Confidence | achievements/division-and-undefeated-xp | EV-468 |
+| CLAIM-1621 | THE PROGRESSION BANK FORMULA: 1,000 DLL XP converts to 1 gem, and a Tier-1 3-0 win with Season Pass Premium and about 50% home advantage yields rou... | High Confidence | dll/progression-bank-formula | EV-468 |
+| CLAIM-1622 | The DLL champion cap is 125 championships per 10-day season at 48 gems each = 6,000 gems, matching the corpus's DLL gem figure. A Legendary DP Poin... | High Confidence | dll/champion-cap-and-booster-cost | EV-468 |
+| CLAIM-1623 | A SECOND SOURCE NAMES 100 GEMS for the clan top contributor: 'in a clan there is a leaderboard where having the highest clan points give you the re... | High Confidence | clans/top-contributor-100-second-source | EV-468 |
 | CLAIM-175 | Player development HARD CAP = +10 OVR over base rating, achieved at 100% cumulative development weight capacity. Every 10% of total progression wei... | High Confidence | unscoped | EV-271 |
 | CLAIM-176 | Goalkeeper training uses a classic points system (not the complex weighted system used for outfield). Every 2.2 visual points allocated to GKR or G... | High Confidence | unscoped | EV-271 |
 | CLAIM-178 | Stadium Commercials facility upgrade multipliers: Level II = +13% coin earnings after matches; Level III = +21% (affects Career + Exhibition coin i... | High Confidence | unscoped | EV-270,EV-272 |
@@ -1570,6 +1578,8 @@ Distinct evidence records cited: **431**.
 | CLAIM-1613 | THE DLS20 BREAKTHROUGH BASELINE IS CONFIRMED: Common coaches carry a 5% Breakout Rating and Rare coaches 10% (25 gems for two random stats +2; 50 g... | Community Consensus | coaching/breakthrough-dls20-baseline-confirmed | EV-467 |
 | CLAIM-1614 | Midfielders are the hardest cards to build: 'I genuinely hate maxing midfielders in DLS because they always come out weirdly built. One minute you'... | Community Consensus | coaching/midfielders-hardest | EV-467 |
 | CLAIM-1615 | Career league seasons are 15 games and can be forfeited once the points are secure: 'you can forfeit league games when you've got enough points to ... | Community Consensus | career/15-game-season-forfeit | EV-467 |
+| CLAIM-1624 | The Fanzone has five levels according to a mod-site feature list ('instantly level up your Commercial, Medical, Training, and the brand-new Fanzone... | Community Consensus | facilities/fanzone-five-levels | EV-468 |
+| CLAIM-1625 | DLL RELEGATION EXISTS: a player reports needing only 2 points to stay in tier 2 or be relegated to tier 3, so tier survival - not just promotion - ... | Community Consensus | dll/relegation-exists | EV-468 |
 | CLAIM-174 | Coach hire gem costs confirmed via SakibPro Pro Simulator: Fitness Common=25💎 / Rare=75💎 / Legend=225💎; Technical Common=25 / Rare=75 / Legend=225;... | Community Consensus | unscoped | EV-271 |
 | CLAIM-177 | Recruitment/Training facility discount tiers confirmed for coaching costs: 0% / 5% / 10% / 15% / 20% / 30% (six levels). | Community Consensus | unscoped | EV-271 |
 | CLAIM-179 | Daily Login reward cycle is 20 days, refreshing on completion; MISSING A SINGLE DAY resets the cycle back to Day 1. Rewards = coins + occasional Gems. | Community Consensus | unscoped | EV-270 |

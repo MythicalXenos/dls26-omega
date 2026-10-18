@@ -1,6 +1,6 @@
 # DLS26 OMEGA — Strategy Masterplan: Path to #1
 
-**Compiled:** 2026-10-18 · **KB basis:** ckpt-130 — 1,611 claims / 369 evidence records
+**Compiled:** 2026-10-18 · **KB basis:** ckpt-131 — 1,621 claims / 370 evidence records
 **Branch:** `arena/b5d5681d-dls26-omega` · **Confidence ladder:** 1 = Confirmed (official/FTG or multi-source) · 2 = High · 3 = Community Consensus · 4 = Speculative · 5 = Disputed
 **Scope:** Dream League Soccer 2026 (FTG), v13.430 (16 Sep 2026), FIFPRO 4,000+ licensed players.
 
@@ -109,9 +109,9 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 
 | Order | Facility | Why | Numbers |
 |---|---|---|---|
-| 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | 1,125 gems per facility; **5,625 gems total** for all five; optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [C2/C3]. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
+| 1 | **Stadium** | Home-match coin bonus is the only compounding income source — **and capacity is a hard promotion gate** | A **coin** project, not a gem one: sector levels cost 0–650 coins each, optimal build **92,632 capacity → 52 coins per home match** for ~10,000 coins [EV-460, C2]. **Division gates:** Academy 6,462 → Div 3 **15,000** → Div 2 **30,000** → Div 1 **45,000** → Junior Elite **60,000** → Elite **80,000**; max capacity 90,456 [EV-460, C2] |
 | 2 | **Commercial** | +13% coins at L2, **+21% at L3** (one source curve, contested — C-019) | First tier 75 gems. **Real magnitude at max: only ~6–20 extra coins per game** [EV-465, C3] — the payback runs to hundreds of matches, so **spend here last** |
-| 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations | See full ladder below |
+| 3 | **Training** | Coach discounts **and** Form Boost duration **and** formations — **the highest-value gem facility** | **10 levels at 75×N gems** (see the uniform-cost rule below); L4 is the coach-farming unlock |
 | 4 | **Medical** | Injury reduction and cheaper recovery | L1 gives −5% injury / −10% heal cost; L2–L5 **never published** [C2] |
 | 5 | **Fanzone** (new in Summer Spotlight) | **Clan bonuses + stadium discounts** | Per-level costs **never published** [EV-428/App Store, C1 on function, C5 on cost] |
 
@@ -150,6 +150,12 @@ Eight divisions: **Academy → Amateur → Division 4 → Division 3 → Divisio
 Each Training upgrade unlocks **up to three new formations** (~15 by Level 2). Community advice: **stop at Level 2** unless you intend to spend 3,000+ gems on legendary coaches [EV-437, C2].
 
 > **DLS26 CHANGE:** the first facility tier now costs **375 COINS**, not 75 gems as in every prior version [EV-411, C2]. This is the single biggest early-game change — spend coins, save gems.
+
+**The uniform facility-cost rule — and the correction it forces** [EV-468, C2]. The Accommodation facility's full ladder is published, and its first five levels are **identical to the Training ladder's**: 75, 150, 225, 300, 375, 450, 525, 600, 675, 750. So the facility gem cost follows **level N = 75 × N gems**, and the figures above are the cost of the **first five levels only** — **1,125 gems**, not a maxed facility.
+
+- **Accommodation (the only other fully-published ladder):** 10 levels, **+4 squad space per level**, **4,125 gems** from zero. A legacy account that already maxed the old 40-player facility starts at 44 and pays **3,000 gems** for the last five levels.
+- **Correction to the corpus's old budget line:** "5,625 gems total for all five facilities" is a **five-level figure**. If the pattern holds, fully maxing one facility costs **4,125 gems** — and the real question is how many levels each facility actually has, which is published for Training and Accommodation and **unpublished for Medical, Commercial and Fanzone**.
+- **Practical read:** the first five levels of any facility are cheap (1,125 gems) and the next five are expensive (another 3,000). **Spend the first five widely; be deliberate about the second five.** The community's "only Accommodation and Training are worth gems" advice now has a price attached: Training to L5 is 1,125 gems and Accommodation to L5 is 1,125 more, so both are affordable inside the first few seasons — while maxing either is a 4,125-gem commitment.
 
 **Gem rule (hard):** gems go to **agents and facilities**, never to Form Boosts on low-rated players. The Form Boost baseline is 5g/+1, 8g/+2, 10g/+3 for **one match** [EV-428, C2] — that is a terrible rate at any stage.
 

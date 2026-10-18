@@ -195,7 +195,8 @@ So Source A was showing post-boost/in-game OVR, Source B was showing the event-b
 ## C-017 UPDATE (2026-10-18, ckpt-098): clan top-contributor gem reward — now leans 100
 - A detailed community calculation post itemises the clan component of a season as **275 gems = 25 + 150 (10M Clan Points ladder) + 100 for being number one in-clan**, which supports the **100-gem** figure from sportsdunia.
 - The **50-gem** figure comes from a single Spanish-language clan-leader thread (r/DLS 1pk9dae).
-- **Status:** still formally OPEN, but the weight of evidence now favours **100 gems**. No official FTG figure has been found.
+- **UPDATE 3 (ckpt-131, EV-468):** a second independent community source now names **100 gems** — the clan-thread gem ledger states *"in a clan there is a leaderboard where having the highest clan points give you the reward of 100 Gems."* That makes **two sources on the 100-gem side** (this and the 25 + 150 + 100 breakdown behind the 275-gem clan figure) against **one source on the 50-gem side** (r/DLS 1pk9dae).
+- **Status:** still formally OPEN, but the weight of evidence now clearly favours **100 gems** — and the corpus's clan gem ledger already prices the clan at 275 gems on that basis. No official FTG figure has been found, so **plan on neither**, but if a plan must assume one, assume 100.
 
 ## C-022: Corner footedness (same-foot vs opposite-foot corner)
 - **Source A (majority):** r/DreamLeagueSoccer 1lyxfag (Jul 2025), 1pp7fzd (Dec 2025) — a RIGHT-footed player takes the RIGHT corner and a LEFT-footed player the LEFT corner, which makes corners "more accurate" and is described as the mistake most players make in reverse.

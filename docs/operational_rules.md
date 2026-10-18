@@ -2,7 +2,7 @@
 
 > **DERIVED VIEW — the authority is `kb/claims.jsonl` + `docs/strategy_masterplan.md`.** Where this file and a claim record disagree, the claim record wins and this file is corrected.
 > Every rule below carries its evidence. Rules marked **[UNVERIFIED]** rest on Community Consensus or below and must be treated as hypotheses, not instructions.
-> Basis: ckpt-130 — 1,611 claims / 369 evidence records. Companion to `docs/strategy_masterplan.md`.
+> Basis: ckpt-131 — 1,621 claims / 370 evidence records. Companion to `docs/strategy_masterplan.md`.
 
 ---
 
@@ -143,6 +143,18 @@ Any state → **any** state on a Patch Response trigger (see §6).
 | 5.11 | **Plan on a ONE-match Form Boost.** The official article gives only the rule (a set number of matches, minimum one) and **no source publishes the per-Training-level numbers** — a documented negative after a dedicated sweep | budget | EV-457 |
 | 5.12 | **Do not build any plan on a "Fan Approval" mechanic** — a dedicated sweep found **no such system in any documented DLS26 source**. Fan Approval is a *readout* of total squad development (100% club value needs every player maxed, ~23 men), not a lever | guard | EV-457 |
 | 5.13 | **Injury-proof substitution:** start with 5 bench players in the XI, enter the match, then use **all 5 subs before kick-off** to bring the real XI on — *"players can't get injured if you don't have players to sub them off for."* Career only; never in DLL, where the subs are worth more than the injury risk | guard | EV-457 |
+
+**THE FACILITY COST LADDER** [EV-468, C2] — the budget rule that replaces "1,125 per facility":
+
+| Rule | Detail |
+|---|---|
+| **Level N costs 75 × N gems** | Confirmed on Training and Accommodation: 75, 150, 225, 300, 375, 450, 525, 600, 675, 750 |
+| **Five levels = 1,125 gems** | That is the cheap half, not a maxed facility |
+| **Ten levels = 4,125 gems** | Full max per facility; Accommodation is published at 10 levels for **+4 squad space each** |
+| **Spend the first five widely** | Training to L5 (1,125) and Accommodation to L5 (1,125) are affordable early and are the two facilities the community rates |
+| **Be deliberate about the second five** | Another 3,000 gems each — only for a facility you will actually use |
+| **Level counts for Medical, Commercial and Fanzone are unpublished** | The 75 × N pattern is inferred, not confirmed, for those three |
+| **The stadium is a COIN project** | Sector levels cost 0–650 coins, so it never competes with facilities for gems |
 
 **THE COACHING METHOD** [EV-467, C3] — how to spend coaches without wasting capacity:
 
@@ -432,4 +444,4 @@ The game is volatile; these are the only events that justify breaking the routin
 
 ---
 
-*End of operational rules. Authority: `kb/claims.jsonl` (1,611 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (369 records) at ckpt-130.*
+*End of operational rules. Authority: `kb/claims.jsonl` (1,621 claims) + `docs/continuity/a7e23a6b/evidence/index.jsonl` (370 records) at ckpt-131.*
