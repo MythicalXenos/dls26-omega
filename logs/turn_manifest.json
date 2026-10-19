@@ -4,76 +4,35 @@
   "operation_id": "op-bootstrap-0001",
   "conversation_id": "host-unexposed",
   "session_id": "dls26-s001-20261018T153458Z",
-  "turn_seq": 3,
-  "checkpoint_id": "ckpt-0003-v80-integrity-attention",
-  "previous_checkpoint_id": "ckpt-0002-step1-epoch-open",
+  "turn_seq": 4,
+  "checkpoint_id": "ckpt-0004-attention-explanation",
+  "previous_checkpoint_id": "ckpt-0003-v80-integrity-attention",
   "environment_generation": "sandbox-debian12-linux6.1.158-x86_64-first-session",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
   "next_state": "STATE_1_RESEARCH_SWEEP",
   "contract_id": "epoch-0001",
   "contract_digest": "sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8",
-  "progress_event_refs": [
-    {
-      "id": "SV-0001",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "SV-0002",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "SV-0003",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "SV-0004",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "SV-0005",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "SV-0006",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "SV-0007",
-      "path": "logs/sources_visited.json",
-      "sha256": "e61f236c44b4d678f58ddba7e0d181a6e092da5740771c29e1a4d5cc6863144d"
-    },
-    {
-      "id": "OP-20261018T210332-PROMPT-MIGRATION-AND-IMPORT-AUDIT",
-      "path": "logs/main_operational_log.md",
-      "sha256": "7ff7d1381c0dcbbedcf6b7b2589e14ceae53300666cdd908fa5c73514fd59594"
-    }
-  ],
-  "consecutive_no_progress": 0,
+  "progress_event_refs": [],
+  "consecutive_no_progress": 1,
   "continuation_allowed": false,
   "needs_user": true,
   "expected_terminal_class": "ATTENTION_REQUIRED",
-  "exact_resumption_point": "Wait for the user to resolve the source-fidelity/prompt-integrity attention in handoff/attention_required.md. Do not authorize unattended continuation while controller consumption/runtime is unverified. After resolution, reconcile the repo/workspace, rerun v80 source and integrity checks, then resume the existing OPEN epoch-0001 at Q-008 (Q-002 remains linked and not closed), followed by Q-009 through Q-013, then classify every CONNECTED/UNCERTAIN reference. Q-003 and Q-005\u2013Q-007 remain owed; do not skip them or declare Step-1 exit from prose. Legacy CLM-0001\u2013CLM-0012 remain quarantined pending immutable payload restoration and five-pass audit.",
-  "created_at": "2026-10-18T21:12:50Z",
-  "not_before": "2026-10-18T21:12:50Z",
+  "exact_resumption_point": "The user asked what is wrong; the concise explanation is persisted in handoff/attention_required.md. No blocker is resolved. Wait for the user's prompt-source/fidelity action and any explicit manual-only/controller decision. Do not authorize unattended continuation. After release, reconcile workspace and remote, rerun the v80 source/integrity checks, then resume the unchanged OPEN epoch-0001 at Q-008, followed by Q-009 through Q-013 and CONNECTED/UNCERTAIN classification; Q-002 remains linked and Q-003/Q-005\u2013Q-007 remain owed or blocked. Legacy CLM-0001\u2013CLM-0012 remain quarantined.",
+  "created_at": "2026-10-19T18:46:32Z",
+  "not_before": "2026-10-19T18:46:32Z",
   "expires_at": null,
   "status": "WAITING_USER",
   "diagnostic_refs": [
     {
       "id": "ATTENTION",
       "path": "handoff/attention_required.md",
-      "sha256": "fe16ca02a29e59c0c1f5ff76f3be52accbad7866ad56d8ea5a1ee410fa9aded7"
+      "sha256": "625a653400053525f3a07690066f66304da301f64bbe1933c7f219469281d84a"
     },
     {
       "id": "HANDOFF",
       "path": "handoff/handoff.md",
-      "sha256": "c6daaaae0eda0547cb1173d8113455337cd2cafeba97c00fb76c1ba89d096595"
+      "sha256": "27dfaf6def164cacf92b3eb8277aeabcaa7edc6362b7da3d0511fa5573ba5091"
     },
     {
       "id": "PROMPT-INTEGRITY-v80",
@@ -88,12 +47,17 @@
     {
       "id": "ISSUE-TRACKER",
       "path": "logs/issue_tracker.md",
-      "sha256": "739df5068e624999c9800bf10a2b5ba76b8badd5c8dbc9fb796947019f1b08b7"
+      "sha256": "2739ae9df558019a011d3a5a8b4f60ef52fa7526bf108eb276fd7d56bab5745f"
     },
     {
       "id": "OPERATIONAL-LOG",
       "path": "logs/main_operational_log.md",
-      "sha256": "7ff7d1381c0dcbbedcf6b7b2589e14ceae53300666cdd908fa5c73514fd59594"
+      "sha256": "bb34f619161d138ddf2ddc210b80e36e2ff76bb1b04c42e92b74b5c854c583f5"
+    },
+    {
+      "id": "REPO-ACCESS-VERIFICATION",
+      "path": "docs/REPO_ACCESS_VERIFICATION.md",
+      "sha256": "9d1decec1ee9fed53496b6d10d35f87efc48954d8e059347de0cbd979a6b40fc"
     }
   ]
 }

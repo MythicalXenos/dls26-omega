@@ -1,6 +1,18 @@
 # Attention Required — v80 prompt fidelity and integrity
 
-Written: 2026-10-18T21:12:50Z (UTC). Session `dls26-s001-20261018T153458Z`, logical turn 3. Current checkpoint is recorded in `logs/turn_manifest.json`.
+Written: 2026-10-19T18:46:32Z (UTC; 2026-10-20T00:46:32+06:00). Session `dls26-s001-20261018T153458Z`, logical turn 4. Current checkpoint is recorded in `logs/turn_manifest.json`.
+
+## Short answer — “What's wrong?”
+
+The pause is for process and evidence integrity, not a newly discovered game problem:
+
+1. **The v80 text is not proven to match your original prompt.** The live file and archive match each other at SHA-256 `495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a`, but the original prompt bytes/hash are unavailable in this resumed context. That is mirror verification, not source verification.
+2. **The v80 draft fails its own integrity checks.** It points to an undefined `MY SQUAD — MY GROUND TRUTH` rule, uses `Community Consensus` as a confidence tier outside the five listed gates, and lacks state-specific exit predicates for Steps 2 and 3.
+3. **The 12 imported game claims are not trustworthy enough to use as facts yet.** Their cited sources are summaries/snippets without complete immutable primary payloads, hashes, and extraction spans. They remain quarantined; none was newly verified.
+4. **The external continuation controller is unverified.** Its exact-once acknowledgement/runtime tests were not available, so unattended continuation is disabled.
+5. **The previous turn also exceeded its 360-second budget.** This is recorded as ISSUE-018; it is a process violation, not a game finding.
+
+The supporting checks and exact evidence are in `docs/prompt_integrity/v80.json` and `docs/audits/2026-10-18-v80-import-audit.md`. No game research was performed in this turn.
 
 ## Why the run is paused
 

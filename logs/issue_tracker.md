@@ -67,3 +67,7 @@ Each entry: ID, opened (UTC), status, severity, description, action, owner.
 ## ISSUE-018 — later-turn wall-clock budget exceeded — opened 2026-10-18T21:03:32Z — OPEN — severity High
 - OMEGA-BUDGET-002 sets a 360-second end-to-end ceiling for later bootstrap turns. The first same-turn clock observation was 20:56:38Z and checkpoint preparation continued through 21:12:50Z, a span of 16m12s; the turn itself began earlier, so the ceiling was exceeded by at least 10m12s. Exact turn-start time was uninstrumented. This was not certified as compliant.
 - Action: no further game research in this turn; record as DEGRADATION EVENT, keep continuation paused, and require reliable turn-deadline instrumentation/reserve enforcement before future automatic work.
+
+## ISSUE-019 — local branch/worktree reset after checkpoint — opened 2026-10-19T18:35:53Z — CLOSED-WITH-NOTICE — severity Low
+- At turn start, the fixed local branch name pointed to base `fb9a2c025ec267f6b787382766ce44c7e373d091`; remote `arena/1e90cb90-dls26-omega` pointed to `408ba78fd03fbc8ecc96cd9281fb935a67d6a6cd`, and the workspace files appeared untracked. Compared every one of 67 remote tree entries by Git blob ID and checked for extras: all bytes matched and there were no workspace-only files. Aligned the same local branch to the remote tip; no branch switch or data loss.
+- Action: environment reconciliation recorded in `docs/REPO_ACCESS_VERIFICATION.md`; closed with notice.

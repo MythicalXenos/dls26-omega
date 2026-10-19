@@ -66,3 +66,10 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 
 ## 2026-10-18T21:03:32Z — QUESTION / ATTENTION
 - No in-chat question was sent during bootstrap. The batched indispensable request is recorded in `handoff/attention_required.md`: provide/confirm exact v80 source text/hash, user-only repair or acceptance of the integrity findings, and controller validation or explicit manual-only continuation.
+
+## 2026-10-19T18:35:53Z — TURN-START RECONCILIATION (turn 4)
+- Local branch name was correct but its pointer was at base while the remote had commit `408ba78`. Compared all 67 remote-tracked file blobs with workspace bytes; all matched, no extras. Aligned the same branch to the remote checkpoint without loss; working tree clean. See `docs/REPO_ACCESS_VERIFICATION.md` and ISSUE-019.
+
+## 2026-10-19T18:35:53Z — QUESTION (user-requested review)
+- User asked “What's wrong?” during the Step-1 attention pause. Persisted a concise explanation in `handoff/attention_required.md`: v80 source fidelity is unverified; its own audit finds unresolved references, a confidence-tier mismatch and missing Step-2/3 exits; imported claims lack immutable witnesses and remain quarantined; controller runtime/acknowledgement is unverified; the previous turn also exceeded its budget.
+- No game research, external retrieval, claim promotion or state transition occurred. The active epoch remains OPEN and attention is unresolved.

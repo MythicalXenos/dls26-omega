@@ -1,6 +1,6 @@
 # Handoff — DLS26 Omega
 
-Written: 2026-10-18T21:12:50Z (UTC). Session: `dls26-s001-20261018T153458Z`. Logical turn: 3. Checkpoint: `ckpt-0003-v80-integrity-attention`. Machine state is in `logs/turn_manifest.json`.
+Written: 2026-10-19T18:46:32Z (UTC; 2026-10-20T00:46:32+06:00). Session: `dls26-s001-20261018T153458Z`. Logical turn: 4. Checkpoint: `ckpt-0004-attention-explanation`. Machine state is in `logs/turn_manifest.json`.
 
 ## State
 - Bootstrap: STATE_0_SETUP COMPLETE on the imported PR #6 lineage. STATE_1_RESEARCH_SWEEP ACTIVE; epoch-0001 remains OPEN. `STEP_1_RESEARCH_READY` is NOT met.
@@ -33,17 +33,19 @@ Q-002 remains linked to Q-008 (not closed); Q-003 and Q-005–Q-007 remain open/
 - Imported claims: CLM-0001–CLM-0012 unchanged and quarantined. The saved source log has summaries/snippets but not complete immutable primary payloads and hashes; no claim enters the verified KB.
 - Game research this turn: none. No new game claim was verified. Epoch 0001 digest remains `sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8`.
 - Controller: no actual browser/controller runtime or acknowledgement test was available. This is not an external watchdog send.
+- Turn 4: user asked “What's wrong?” A concise explanation was added to `handoff/attention_required.md`: source fidelity is unverified, v80 has three integrity defects, imported claims remain quarantined, the controller is unverified, and the prior turn exceeded budget. No game research or claim verification occurred.
+- Turn-start repository reconciliation found the local session branch pointer at base `fb9a2c0` while the remote held `408ba78`. All 67 remote-tracked file blobs exactly matched the workspace, with no extra files; the same local branch was aligned to the remote commit without loss. See ISSUE-019 and `docs/REPO_ACCESS_VERIFICATION.md`.
 
 ## Owed user action
 See `handoff/attention_required.md` for the batched source-fidelity, prompt-repair and controller-validation request. No conversational questions were asked during bootstrap.
 
 ## Open issues
 - `ISSUE-001`, `ISSUE-005` through `ISSUE-008`, `ISSUE-011` through `ISSUE-013`, `ISSUE-016`, `ISSUE-017`, and `ISSUE-018` remain open or blocked as described in `logs/issue_tracker.md`.
-- `ISSUE-002` and `ISSUE-003` are closed with notice; `ISSUE-004` is closed with notice; `ISSUE-009` is resolved with the tier conflict separately tracked; `ISSUE-014` and `ISSUE-015` are closed with notice.
+- `ISSUE-002` and `ISSUE-003` are closed with notice; `ISSUE-004` is closed with notice; `ISSUE-009` is resolved with the tier conflict separately tracked; `ISSUE-014`, `ISSUE-015`, and `ISSUE-019` are closed with notice.
 
 ## Pull request and publication
 - PR #6 (`https://github.com/MythicalXenos/dls26-omega/pull/6`) remains OPEN from `arena/357aaddf-dls26-omega`. It was not modified, merged or closed. No second PR was opened.
-- All new work is restricted to `arena/1e90cb90-dls26-omega`; push and verify only that branch. The current checkpoint must be externally confirmed on the remote before it is treated as published. Never store the commit hash inside the manifest it commits.
+- All new work is restricted to `arena/1e90cb90-dls26-omega`; push and verify only that branch. Turn-3 checkpoint `408ba78fd03fbc8ecc96cd9281fb935a67d6a6cd` was verified at turn start as the remote tip. Turn-4 changes must be committed/pushed on this branch and rechecked before yield. Never store the commit hash inside the manifest it commits.
 
 ## Categories and artifacts
 - New audit category `PROMPT INTEGRITY` is recorded in the changelog/issue tracker; imported-claim audit is `docs/audits/2026-10-18-v80-import-audit.md`.
