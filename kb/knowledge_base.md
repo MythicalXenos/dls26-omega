@@ -25,6 +25,11 @@ The original JSON records in `kb/claims/` are preserved unchanged. Their legacy 
 
 - Q-008 official-store slice: `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`. The returned store-page projection associates Summer Spotlight with versions 13.320–13.350 (dates shown without years), while the 13.120 row says “Winter Reload.” This is a conflict/access note only: the full source payload/hash is not preserved, no exact launch date or Android build is established, and CLM-0010/CLM-0011 remain unchanged and quarantined.
 
+## Step-1 observations (not admitted claims)
+
+- Q-008: `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`.
+- Q-009: `kb/research_observations/2026-10-23-Q-009-support-faq-slice.md`; 52 FAQ links, eight article pages fetched, Friend Match partial. Historical support applicability is not assumed. No claims promoted.
+
 ## Owed work
 
 - Step 1 epoch-0001 is OPEN; the validated saved cursor advances to Q-009 through Q-013; Q-008 was serviced with unresolved Q-002/CONF-002 debt, then classify all CONNECTED/UNCERTAIN references. No exit is inferred.

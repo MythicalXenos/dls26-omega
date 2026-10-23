@@ -1,6 +1,6 @@
 # Research Queue — ACTIVE (committed on every update)
 
-Updated 2026-10-23T15:41:55Z (turn 5). Queue priority tiers: Critical, High, Medium, Low (queue), distinct from volatility tiers. Epoch-0001 remains OPEN. Q-008 was serviced as a bounded slice; the next cursor is Q-009 through Q-013, then classify all CONNECTED/UNCERTAIN references. This cursor does not silently close earlier or side obligations listed below.
+Updated 2026-10-23T16:30:21Z (turn 6). Queue priority tiers: Critical, High, Medium, Low (queue), distinct from volatility tiers. Epoch-0001 remains OPEN. Q-008 was serviced as a bounded slice; the next cursor is Q-009 through Q-013, then classify all CONNECTED/UNCERTAIN references. This cursor does not silently close earlier or side obligations listed below.
 
 | ID | Queue priority tier (queue) | Item | Owed to | Status |
 | --- | --- | --- | --- | --- |
@@ -11,7 +11,7 @@ Updated 2026-10-23T15:41:55Z (turn 5). Queue priority tiers: Critical, High, Med
 | Q-006 | Medium (queue) | Measure practical storage limits and repository size/rotation thresholds (SCHEMA storage section) | Step 1 | OPEN: not measured. |
 | Q-007 | Low (queue) | Identify and log any source type beyond the Mechanism 3 floors (e.g., official-social, technical distribution) | Step 1 | OPEN: categories observed in the imported frontier are not yet exhaustively classified. |
 | Q-008 | Critical (queue) | Fetch App Store chunks 1-4 and Google Play chunk 1; verify version dates and Summer Spotlight (CONF-002) | Step 1 | PARTIAL SLICE SERVICED (turn 5): all requested chunks returned; App Store associates Summer Spotlight with 13.320–13.350 (Jun 8–Jul 14; years omitted) and 13.120 (Mar 25) with Winter Reload. No unique Summer Spotlight date or Android build established; payload/hash limits and conflict are in `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`. CONF-002 and Q-002 remain open; next cursor Q-009. |
-| Q-009 | Critical (queue) | Finish DLS FAQ section pagination and fetch the listed DLS-relevant articles | Step 1 | OWED; cursor follows Q-008. |
+| Q-009 | Critical (queue) | Finish DLS FAQ section pagination and fetch the listed DLS-relevant articles | Step 1 | IN PROGRESS (turn 6): index pages 1–2 yielded 52 links; page 3 returned empty. Eight article pages fetched; Friend Match is chunk 0/3, and remaining child articles plus its UGC comments remain owed. See `kb/research_observations/2026-10-23-Q-009-support-faq-slice.md` and source frontier DR-0025–DR-0069. Continue Q-009 before Q-010. |
 | Q-010 | Critical (queue) | Resolve CONF-001 from the original Wikipedia language version, February 2026 news source, and any official launch announcement | Step 1 | OWED; cursor follows Q-009. |
 | Q-011 | High (queue) | Finish the stats article chunks 1-3 and establish DLS26 applicability (CLM-0007) | Step 1 | OWED; cursor follows Q-010. |
 | Q-012 | High (queue) | Enumerate official-social sources and the official “When will the next app update be?” article | Step 1 | OWED; cursor follows Q-011. |

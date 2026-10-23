@@ -1,6 +1,6 @@
 # Handoff — DLS26 Omega
 
-Written: 2026-10-23T15:41:55Z (UTC). Session: `dls26-s001-20261018T153458Z`. Logical turn: 5. Checkpoint: `ckpt-0005-q008-research`. Machine state is in `logs/turn_manifest.json`.
+Written: 2026-10-23T16:30:21Z UTC. Session: `dls26-s001-20261018T153458Z`. Logical turn: 6. Checkpoint: `ckpt-0006-q009-faq`. Machine state is in `logs/turn_manifest.json`.
 
 ## State
 - Bootstrap: STATE_0_SETUP COMPLETE on the imported PR #6 lineage. STATE_1_RESEARCH_SWEEP ACTIVE; epoch-0001 remains OPEN. `STEP_1_RESEARCH_READY` is NOT met.
@@ -9,7 +9,7 @@ Written: 2026-10-23T15:41:55Z (UTC). Session: `dls26-s001-20261018T153458Z`. Log
 - External controller consumption/acknowledgement remains unverified. No watchdog send or exact-once claim is made; automatic continuation is disabled.
 
 ## Exact resumption point
-Resume manually at Q-009; Q-008 was serviced in turn 5, with unresolved year/date/build and immutable-payload debt recorded in `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`. The v80 source-fidelity/integrity FAIL remains; it does not authorize prompt edits. Resume in this exact order:
+Q-009 remains active: section pages 1–2 listed 52 articles; page 3 returned empty. Eight pages were fetched, with Friend Match partial at chunk 0/3. See `kb/research_observations/2026-10-23-Q-009-support-faq-slice.md` and the physical source frontier for remaining obligations. Q-008 residual year/date/build debt remains in `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`. The v80 source-fidelity/integrity FAIL remains; it does not authorize prompt edits. Resume in this exact order:
 1. Q-009: DLS FAQ pagination and remaining DLS-relevant articles.
 2. Q-010: resolve CONF-001 against the original Wikipedia language/version, February 2026 article and any official announcement.
 3. Q-011: finish the stats article chunks 1-3 and verify DLS26 applicability.
@@ -33,10 +33,10 @@ Q-002 remains linked to Q-008 and is not closed; Q-003 and Q-005–Q-007 remain 
 - Turn 5 research: fetched App Store chunks 1–4 and Google Play chunk 1; version rows and the Summer Spotlight/Winter Reload conflict are recorded in the Q-008 observation. No legacy claim was admitted; epoch 0001 digest remains `sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8`.
 - Controller: no actual browser/controller runtime or acknowledgement test was available. This is not an external watchdog send.
 - Turn 4: user asked “What's wrong?” A concise explanation was added to `handoff/attention_required.md`: source fidelity is unverified, v80 has three integrity defects, imported claims remain quarantined, the controller is unverified, and the prior turn exceeded budget. No game research or claim verification occurred.
-- Turn-5 repository reconciliation again found the same branch pointer at base `fb9a2c0` while the remote held `8fae263`. All 67 remote-tracked file blobs exactly matched the workspace, with no extras; the same branch was aligned without loss. See ISSUE-019 and `docs/REPO_ACCESS_VERIFICATION.md`.
+- Turn-6 repository reconciliation found the same branch pointer at base `fb9a2c0` while the remote held `488b093`. All 68 remote-tracked file blobs matched the workspace, with no extras; the same branch was aligned without loss. See ISSUE-019 and `docs/REPO_ACCESS_VERIFICATION.md`.
 
 ## Owed user action
-Manual Step-1 work was authorized for this turn. For the next manual slice, the user must send a direct continuation instruction (not `>`); for unattended continuation, controller validation remains required. Source-fidelity and prompt-integrity attention remains in `handoff/attention_required.md`.
+The user cleared the previous attention request and authorized manual Step-1 continuation. Unattended continuation remains disabled until controller validation; do not send `>`.
 
 ## Open issues
 - `ISSUE-001`, `ISSUE-005` through `ISSUE-008`, `ISSUE-011` through `ISSUE-013`, `ISSUE-016`, `ISSUE-017`, and `ISSUE-018` remain open or blocked as described in `logs/issue_tracker.md`.

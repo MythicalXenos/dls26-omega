@@ -22,3 +22,7 @@ Turn-start observation: 2026-10-18T20:56:38Z (UTC). Recheck publication after ea
 - `git fetch --prune origin` succeeded. The fixed local branch name was correct, but its pointer again started at base `fb9a2c025ec267f6b787382766ce44c7e373d091`; remote session-branch tip was `8fae26396a6591d177fdfc4abd4641f7ab1a3cba`.
 - Compared all 67 remote-tree file blobs with the workspace; every blob matched and there were no extras. Aligned the same branch to the remote tip without data loss.
 - PR #6 is still the sole open PR, from `arena/357aaddf-dls26-omega`; it was not altered, merged or closed. No other branch was used. This recurrence shares ISSUE-019's previously recorded environment/ref-pointer-reset cause.
+
+## Turn 6 reconciliation — 2026-10-23T16:30:21Z UTC
+
+- Local branch initially reset to base `fb9a2c0`; remote tip was `488b093`. All 68 remote tree blobs matched the workspace, no extras; aligned the same branch without loss. PR #6 remained sole OPEN PR from `arena/357aaddf-dls26-omega`, unchanged. Same reset cause as ISSUE-019.

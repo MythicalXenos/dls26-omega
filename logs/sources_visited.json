@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "epoch_id": "epoch-0001",
-  "turn": 5,
-  "updated": "2026-10-23T15:41:55Z",
-  "note": "Physical source log (OMEGA-FRONTIER-001). Turn 5: Q-008 official-store slice. NOT_ATTEMPTED remains historical when applicable; page-render results are partial projections, not immutable source payloads. No claim promoted.",
+  "turn": 6,
+  "updated": "2026-10-23T16:30:21Z",
+  "note": "Turn 6 Q-009: section pages 1-3 and eight article fetches; link discoveries are distinct from article visits. Friend Match comments are a separate UGC layer. Partial source payload/hash limitations remain; no claim promoted.",
   "retrievals": [
     {
       "id": "R-0001",
@@ -173,6 +173,149 @@
       "status": "IN_PROGRESS",
       "capture_path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
       "capture_sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+    },
+    {
+      "id": "R-0020",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/30839289076626-What-are-Clans",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Clan membership, leadership, entry rules and points as stated in the support article.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0021",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/4404070913169-What-is-the-Season-Pass",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Season Pass article: version 12200 onwards; free/paid tracks, DLL-XP Progress Bank, season points, non-subscription; current DLS26 applicability unverified.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0022",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/24081168829330-What-are-Dream-Point-Boosts",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Dream Point Boost scope and carryover/availability as stated in the support article.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0023",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Friend Match code format/access/stats; chunk 0/3 only, comments layer partial.",
+      "projection": "chunk 0 of 3; Friend Match article/comments partial; original payload hash unavailable",
+      "status": "IN_PROGRESS",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0024",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360004066417-How-do-I-obtain-more-players",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Player acquisition routes: transfers, scouts, agents, Prize Ladder; transfer refresh statement.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0025",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360018360418-How-does-game-difficulty-work",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Undated article includes DLS25 difficulty text and publisher statements about Live play; DLS26 applicability unverified.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0026",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/214385285-How-do-I-earn-coins-in-the-app",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Coin-earning categories listed by support article.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0027",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360018359998-How-does-Dream-League-Live-matchmaking-work",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Undated Live matchmaking text: tier, location, availability pool; current DLS26 applicability unverified.",
+      "projection": "chunk 0 of 1; complete returned article chunk; original payload hash unavailable",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0017",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "FAQ index page 1: 30 article links",
+      "projection": "page 1; 30 links; one complete returned chunk",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0018",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs?page=2",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "FAQ index page 2: 22 article links",
+      "projection": "page 2; 22 links; one complete returned chunk",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
+    },
+    {
+      "id": "R-0019",
+      "tool": "page-render",
+      "url": "https://support.ftgames.com/hc/en-us/sections/203117809-Dream-League-Soccer-FAQs?page=3",
+      "timestamp": "2026-10-23T16:30:21Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "FAQ index page 3 empty; bounded negative result",
+      "projection": "page 3; empty; one complete returned chunk",
+      "status": "VISITED",
+      "capture_path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "capture_sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
     }
   ],
   "discovered_references": [
@@ -223,10 +366,11 @@
       "label": "support DLS FAQs section",
       "source_family": "official-support",
       "connection_state": "CONNECTED",
-      "traversal_state": "IN_PROGRESS",
+      "traversal_state": "VISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "FAQ index pages 1 (R-0017:30 links), 2 (R-0018:22 links), 3 empty (R-0019); section list captured; child articles are separate references.",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0006",
@@ -236,7 +380,8 @@
       "traversal_state": "VISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-2 search or fetch output; listed in turn-6 FAQ index R-0017/R-0018",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0007",
@@ -246,7 +391,8 @@
       "traversal_state": "IN_PROGRESS",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-2 search or fetch output; listed in turn-6 FAQ index R-0017/R-0018",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0008",
@@ -256,47 +402,52 @@
       "traversal_state": "UNVISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-2 search or fetch output; listed in turn-6 FAQ index R-0017/R-0018",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0009",
       "label": "support article: What are Clans?",
       "source_family": "official-support",
       "connection_state": "CONNECTED",
-      "traversal_state": "UNVISITED",
+      "traversal_state": "VISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-6 article fetch R-0020; selected extraction in kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0010",
       "label": "support article: What is the Season Pass?",
       "source_family": "official-support",
       "connection_state": "CONNECTED",
-      "traversal_state": "UNVISITED",
+      "traversal_state": "VISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-6 article fetch R-0021; selected extraction in kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0011",
       "label": "support article: What are Dream Point Boosts?",
       "source_family": "official-support",
       "connection_state": "CONNECTED",
-      "traversal_state": "UNVISITED",
+      "traversal_state": "VISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-6 article fetch R-0022; selected extraction in kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0012",
       "label": "support article: How does Dream League Live matchmaking work?",
       "source_family": "official-support",
       "connection_state": "CONNECTED",
-      "traversal_state": "UNVISITED",
+      "traversal_state": "VISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-6 article fetch R-0027; selected extraction in kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0013",
@@ -306,7 +457,8 @@
       "traversal_state": "UNVISITED",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-2 search or fetch output; listed in turn-6 FAQ index R-0017/R-0018",
+      "last_seen_turn": 6
     },
     {
       "ref_id": "DR-0014",
@@ -417,6 +569,18 @@
       "language": "unknown",
       "first_seen_turn": 2,
       "evidence": "turn-2 search or fetch output"
+    },
+    {
+      "ref_id": "DR-0069",
+      "label": "User-generated comments on Friend Match support article (partial comment layer)",
+      "url": "https://support.ftgames.com/hc/en-us/articles/360019064438-How-do-I-play-a-Friend-Match",
+      "source_family": "user-generated",
+      "connection_state": "CONNECTED",
+      "traversal_state": "IN_PROGRESS",
+      "language": "mixed/partly unknown",
+      "first_seen_turn": 6,
+      "last_seen_turn": 6,
+      "evidence": "Comment layer visible in R-0023 chunk 0/3; remaining comments not fetched."
     }
   ],
   "service_events": [
@@ -496,6 +660,83 @@
       "record": "R-0016",
       "family": "official-store",
       "cursor": "chunk 1 of 2; no version/build visible"
+    },
+    {
+      "event_id": "SV-0013",
+      "ref_id": "DR-0005",
+      "record": "R-0017",
+      "family": "official-support",
+      "cursor": "page 1: 30 links"
+    },
+    {
+      "event_id": "SV-0014",
+      "ref_id": "DR-0005",
+      "record": "R-0018",
+      "family": "official-support",
+      "cursor": "page 2: 22 links"
+    },
+    {
+      "event_id": "SV-0015",
+      "ref_id": "DR-0005",
+      "record": "R-0019",
+      "family": "official-support",
+      "cursor": "page 3 empty"
+    },
+    {
+      "event_id": "SV-0016",
+      "ref_id": "DR-0009",
+      "record": "R-0020",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
+    },
+    {
+      "event_id": "SV-0017",
+      "ref_id": "DR-0010",
+      "record": "R-0021",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
+    },
+    {
+      "event_id": "SV-0018",
+      "ref_id": "DR-0011",
+      "record": "R-0022",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
+    },
+    {
+      "event_id": "SV-0019",
+      "ref_id": "DR-0031",
+      "record": "R-0023",
+      "family": "official-support",
+      "cursor": "article chunk 0/3"
+    },
+    {
+      "event_id": "SV-0020",
+      "ref_id": "DR-0038",
+      "record": "R-0024",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
+    },
+    {
+      "event_id": "SV-0021",
+      "ref_id": "DR-0040",
+      "record": "R-0025",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
+    },
+    {
+      "event_id": "SV-0022",
+      "ref_id": "DR-0045",
+      "record": "R-0026",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
+    },
+    {
+      "event_id": "SV-0023",
+      "ref_id": "DR-0012",
+      "record": "R-0027",
+      "family": "official-support",
+      "cursor": "article chunk 0/1"
     }
   ],
   "coverage": [
@@ -528,5 +769,5 @@
       "status": "discovered-only; never used for claims"
     }
   ],
-  "digest": "sha256:3d68d3b6e6586113d0655369dde7a9e72321878ae25fa2a448777364bbf86642"
+  "digest": "sha256:329a8584ea9243072d2bf7cdc2b81c872a9dc8a45952e85e78d4ead872e35566"
 }

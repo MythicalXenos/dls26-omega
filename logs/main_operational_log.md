@@ -90,3 +90,9 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 
 ## 2026-10-23T15:43:01Z — DEGRADATION EVENT / BUDGET (turn 5)
 - Earliest clock observed after user authorization was 2026-10-23T15:36:29Z; the cursor-correction/publication workflow had reached 15:42:35Z, a minimum 6m06s span and at least 6 seconds over the 360-second limit. The final push completed later; exact turn start/final-action times were not instrumented. Recorded as a recurrence of ISSUE-018. No further research was performed after detecting the overrun.
+
+## 2026-10-23T16:24:17Z — USER DIRECTION / TURN 6
+- User asked to clear the prior attention request and continue Step 1; archived the old note and resumed manually at Q-009. Integrity FAIL and controller limitations remain; no unattended continuation.
+
+## 2026-10-23T16:30:21Z — RESEARCH (turn 6, Q-009)
+- Section pages 1–2 listed 52 articles; page 3 returned empty. Fetched eight listed articles; Friend Match is partial at chunk 0/3 and its user comments are a separate UGC layer. See the Q-009 observation and source log R-0017–R-0027 / DR-0025–DR-0069. Q-009 remains OPEN; no imported claim changed or promoted.

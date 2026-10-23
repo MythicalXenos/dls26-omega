@@ -7,3 +7,6 @@
 
 ## 2026-10-23T15:41:55Z — no closure
 - Q-008 received a bounded retrieval slice (turn 5) but remains active because the exact update year, unique Summer Spotlight date, Android version/build, and immutable source payloads are unresolved. No item was archived or discarded.
+
+## 2026-10-23T16:30:21Z — no closure
+- Q-009 received a partial index/article slice; remaining articles and Friend Match comments remain owed. Nothing archived or discarded.

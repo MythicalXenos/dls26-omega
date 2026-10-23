@@ -4,9 +4,9 @@
   "operation_id": "op-bootstrap-0001",
   "conversation_id": "host-unexposed",
   "session_id": "dls26-s001-20261018T153458Z",
-  "turn_seq": 5,
-  "checkpoint_id": "ckpt-0005-q008-research",
-  "previous_checkpoint_id": "ckpt-0004-attention-explanation",
+  "turn_seq": 6,
+  "checkpoint_id": "ckpt-0006-q009-faq",
+  "previous_checkpoint_id": "ckpt-0005-q008-research",
   "environment_generation": "sandbox-debian12-linux6.1.158-x86_64-first-session",
   "active_state": "STATE_1_RESEARCH_SWEEP",
   "active_bootstrap_step": 1,
@@ -15,30 +15,35 @@
   "contract_digest": "sha256:785d9a5b132c7d6b6ec24a4cbee48b5c708ea1c7d68f6e00097e6571d54804d8",
   "progress_event_refs": [
     {
-      "id": "OP-20261023T154155-Q008-RESEARCH",
-      "path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
-      "sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+      "id": "OP-20261023T163021-Q009",
+      "path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
     }
   ],
   "consecutive_no_progress": 0,
   "continuation_allowed": false,
   "needs_user": true,
   "expected_terminal_class": "ATTENTION_REQUIRED",
-  "exact_resumption_point": "Turn 5 manually serviced Q-008 by fetching App Store chunks 1-4 and Google Play chunk 1; evidence limits and unresolved findings are in kb/research_observations/2026-10-23-Q-008-official-store-slice.md and logs/sources_visited.json R-0012–R-0016. Resume at Q-009, then Q-010–Q-013, followed by classification of every CONNECTED/UNCERTAIN reference. Q-002 and CONF-002 remain open; Q-003–Q-007 remain owed/blocked. Epoch-0001 stays OPEN. CLM-0001–CLM-0012 remain unchanged/quarantined. Prompt integrity remains FAIL; controller unverified; do not authorize unattended continuation or send >.",
-  "created_at": "2026-10-23T15:41:55Z",
-  "not_before": "2026-10-23T15:41:55Z",
+  "exact_resumption_point": "User cleared prior attention and directed manual Step-1 continuation. Q-009 remains OPEN. Section pages 1 and 2 listed 52 links (R-0017/18); page 3 was empty (R-0019). Eight articles fetched R-0020–R-0027; Friend Match is partial 0/3 and DR-0069 is a separate UGC comments layer. Continue with the first remaining UNVISITED official-support article in logs/sources_visited.json, complete Q-009 before Q-010–Q-013 and frontier classification. Q-002/CONF-002 and Q-003–Q-007 remain owed/blocked; epoch-0001 OPEN; CLM-0001–CLM-0012 unchanged/quarantined. Prompt integrity FAIL; no unattended continuation.",
+  "created_at": "2026-10-23T16:30:21Z",
+  "not_before": "2026-10-23T16:30:21Z",
   "expires_at": null,
   "status": "WAITING_USER",
   "diagnostic_refs": [
     {
       "id": "ATTENTION",
       "path": "handoff/attention_required.md",
+      "sha256": "fc2e830ac232a35b1fdd9eb17e095401f955d901677018e5db9b674f89fd2c8a"
+    },
+    {
+      "id": "ATTENTION-ARCHIVE",
+      "path": "handoff/archive/attention_required_ckpt-0005.md",
       "sha256": "7a5acea792abfb561b86770946ee673c3d55490fd908f5caa919eb2f5381ec2e"
     },
     {
       "id": "HANDOFF",
       "path": "handoff/handoff.md",
-      "sha256": "b0317dc6a297c21193229898063b7515d984cdb1010a6726f7e3739fa6e3eb44"
+      "sha256": "c2ea0281a3f930ea7ee9e553a699437a3c86bcb1c63ae2af2aa10f06d94a3a0c"
     },
     {
       "id": "PROMPT-INTEGRITY-v80",
@@ -53,37 +58,37 @@
     {
       "id": "ISSUE-TRACKER",
       "path": "logs/issue_tracker.md",
-      "sha256": "220def140c55f99e7de878f3a102620a7f9dc40e1962ace889c0b9fe4848b849"
+      "sha256": "be68e60e297ae2740fbbfa204f37fedd63ef9cab08d935b11b3193b9af1c6129"
     },
     {
       "id": "OPERATIONAL-LOG",
       "path": "logs/main_operational_log.md",
-      "sha256": "067041bb27f60f02efc585eab0d8d6d3c97782804582fb5b97de111ba5cc2942"
+      "sha256": "e91ed106818db5bc8364c7b87ebaa18eaa5cebdd3c0ef116022bfd54ab0868db"
     },
     {
       "id": "REPO-ACCESS-VERIFICATION",
       "path": "docs/REPO_ACCESS_VERIFICATION.md",
-      "sha256": "90e571e35e232033a2387f09dc77807278585aa56c8301a94ae65db28e27c02d"
+      "sha256": "dec2c500f74a2113e71798831da95f0bfe92e73cd1a794a3fc67863eef590c0c"
     },
     {
       "id": "SOURCE-LOG",
       "path": "logs/sources_visited.json",
-      "sha256": "680141877aab12c75acd77310c5375008cb1425e12e087c32af271d328993b3b"
+      "sha256": "f6224ecc14ed21dbfbb729bf3d7dfae09d0f2ce254af09794b832d89354bad25"
     },
     {
       "id": "RESEARCH-QUEUE",
       "path": "logs/research_queue_active.md",
-      "sha256": "a072d51962ba47c78c4882aa7c4b74136ea7e970b76ee6efd02a839bf5f35775"
+      "sha256": "47a11cc37682916cb6ff7a04d18428db36bb12248ed58b165b5765582f54a9bc"
     },
     {
       "id": "KB-INDEX",
       "path": "kb/knowledge_base.md",
-      "sha256": "4fb511612a60c92aaa6f6c89f3b6696696e9514ec6411529f1219036d9d4004e"
+      "sha256": "2ff91ab34e80b41a9b49fee8c198fd5531d9c7f94c4b2981a42c0eba53f63655"
     },
     {
-      "id": "Q008-OBSERVATION",
-      "path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
-      "sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+      "id": "Q009-OBSERVATION",
+      "path": "kb/research_observations/2026-10-23-Q-009-support-faq-slice.md",
+      "sha256": "cf0123d6a1412437ab7c1bc57a847bec245a51e7e8ac3f40fc470219851c41c4"
     }
   ]
 }
