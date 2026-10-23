@@ -33,7 +33,7 @@
     {
       "id": "ATTENTION",
       "path": "handoff/attention_required.md",
-      "sha256": "fc2e830ac232a35b1fdd9eb17e095401f955d901677018e5db9b674f89fd2c8a"
+      "sha256": "33ff83a774c730bc8cf8ed4b99b9a032e63572165cd71f9e972a85f5ebe3d077"
     },
     {
       "id": "ATTENTION-ARCHIVE",
@@ -43,7 +43,7 @@
     {
       "id": "HANDOFF",
       "path": "handoff/handoff.md",
-      "sha256": "c2ea0281a3f930ea7ee9e553a699437a3c86bcb1c63ae2af2aa10f06d94a3a0c"
+      "sha256": "91327751d295fc352ae294ea2cb23a8e8aaf2f11b2bd05994366349213d01d37"
     },
     {
       "id": "PROMPT-INTEGRITY-v80",
@@ -63,7 +63,7 @@
     {
       "id": "OPERATIONAL-LOG",
       "path": "logs/main_operational_log.md",
-      "sha256": "e91ed106818db5bc8364c7b87ebaa18eaa5cebdd3c0ef116022bfd54ab0868db"
+      "sha256": "2157e606690598d5e15724656b3bca3d0b68ed1def57d214603b625723903d5b"
     },
     {
       "id": "REPO-ACCESS-VERIFICATION",

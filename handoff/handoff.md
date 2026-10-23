@@ -52,3 +52,6 @@ The user cleared the previous attention request and authorized manual Step-1 con
 - Significant-checkpoint KB snapshot: `kb/snapshots/2026-10-18T210332Z/` (16 files plus `MANIFEST.json`; manifest SHA-256 `5482b9f1369ad9cb7aae7f57cbd2a84ede0a11039d686b861fa227b0efe0c93d`).
 
 - Turn-5 budget degradation: earliest clock 2026-10-23T15:36:29Z; workflow had reached 15:42:35Z before the final push, so the 360-second limit was exceeded by at least 6 seconds. Exact turn start/final-action time is uninstrumented; recorded under ISSUE-018. No further research after detection.
+
+
+Turn-6 budget warning: earliest clock 2026-10-23T16:24:17Z; checkpoint write began at 16:30:21Z, exceeding the 360-second budget by at least 4 seconds before publication completed. Exact start/end are uninstrumented; recorded as an ISSUE-018 recurrence. No further research after detection.

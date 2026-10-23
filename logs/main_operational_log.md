@@ -96,3 +96,6 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 
 ## 2026-10-23T16:30:21Z — RESEARCH (turn 6, Q-009)
 - Section pages 1–2 listed 52 articles; page 3 returned empty. Fetched eight listed articles; Friend Match is partial at chunk 0/3 and its user comments are a separate UGC layer. See the Q-009 observation and source log R-0017–R-0027 / DR-0025–DR-0069. Q-009 remains OPEN; no imported claim changed or promoted.
+
+## 2026-10-23T16:30:39Z — DEGRADATION EVENT / BUDGET (turn 6)
+- Earliest same-turn clock observed was 2026-10-23T16:24:17Z; the checkpoint-write command started at 16:30:21Z, at least 6m04s later and 4 seconds over the 360-second ceiling. Final publication ended later; exact start/end not instrumented. Recurrence of ISSUE-018; no further research after detection.
