@@ -38,7 +38,7 @@
     {
       "id": "HANDOFF",
       "path": "handoff/handoff.md",
-      "sha256": "d13692353600d286cb0ce2c60e652bbc6ca36dd9f2fe83d06a939dcc861f44c1"
+      "sha256": "4f8918db686dad8209adb2d7df3604b7d336f5b146a4add0ed0c561df9d40226"
     },
     {
       "id": "PROMPT-INTEGRITY-v80",
@@ -58,7 +58,7 @@
     {
       "id": "OPERATIONAL-LOG",
       "path": "logs/main_operational_log.md",
-      "sha256": "90c3038058948b7cebead961bc7e97d72d14654aabeb3978d8f99ea7f883150a"
+      "sha256": "86ca5167d871c811d601bd726e0e1c6ce21577f2bdcad8e93d074c76bbd47e0a"
     },
     {
       "id": "REPO-ACCESS-VERIFICATION",
@@ -68,7 +68,7 @@
     {
       "id": "SOURCE-LOG",
       "path": "logs/sources_visited.json",
-      "sha256": "40dc1c31796276f33f8238ccf831e65f5df6abdaf1b2939b13df953d30a5d5c6"
+      "sha256": "680141877aab12c75acd77310c5375008cb1425e12e087c32af271d328993b3b"
     },
     {
       "id": "RESEARCH-QUEUE",

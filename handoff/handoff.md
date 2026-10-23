@@ -10,12 +10,12 @@ Written: 2026-10-23T15:41:55Z (UTC). Session: `dls26-s001-20261018T153458Z`. Log
 
 ## Exact resumption point
 Resume manually at Q-009; Q-008 was serviced in turn 5, with unresolved year/date/build and immutable-payload debt recorded in `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`. The v80 source-fidelity/integrity FAIL remains; it does not authorize prompt edits. Resume in this exact order:
-2. Q-009: DLS FAQ pagination and remaining DLS-relevant articles.
-3. Q-010: resolve CONF-001 against the original Wikipedia language/version, February 2026 article and any official announcement.
-4. Q-011: finish the stats article chunks 1-3 and verify DLS26 applicability.
-5. Q-012: official-social sources and the next-update support article.
-6. Q-013: non-English and community sources.
-7. Then classify every CONNECTED/UNCERTAIN reference in `logs/sources_visited.json`; only then consider an epoch closure check.
+1. Q-009: DLS FAQ pagination and remaining DLS-relevant articles.
+2. Q-010: resolve CONF-001 against the original Wikipedia language/version, February 2026 article and any official announcement.
+3. Q-011: finish the stats article chunks 1-3 and verify DLS26 applicability.
+4. Q-012: official-social sources and the next-update support article.
+5. Q-013: non-English and community sources.
+6. Then classify every CONNECTED/UNCERTAIN reference in `logs/sources_visited.json`; only then consider an epoch closure check.
 
 Q-002 remains linked to Q-008 and is not closed; Q-003 and Q-005–Q-007 remain open/blocked. Do not skip them; after the validated cursor and classification, service remaining obligations under the scheduler. Prompt-policy text in the unverified draft does not establish game facts.
 
