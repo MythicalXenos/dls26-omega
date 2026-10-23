@@ -87,3 +87,6 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 
 ## 2026-10-23T15:42:35Z — SOURCE-LOG VALIDATION
 - Normalized Q-008 retrieval and service-event cursors against the returned chunk indices: R-0012–R-0015 map to App Store chunks 1–4. Source log digest regenerated; no research finding or claim disposition changed.
+
+## 2026-10-23T15:43:01Z — DEGRADATION EVENT / BUDGET (turn 5)
+- Earliest clock observed after user authorization was 2026-10-23T15:36:29Z; the cursor-correction/publication workflow had reached 15:42:35Z, a minimum 6m06s span and at least 6 seconds over the 360-second limit. The final push completed later; exact turn start/final-action times were not instrumented. Recorded as a recurrence of ISSUE-018. No further research was performed after detecting the overrun.

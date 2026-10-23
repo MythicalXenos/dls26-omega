@@ -44,3 +44,8 @@ The resumed turn exceeded the later-turn 360-second wall-clock ceiling: the firs
 ## Release condition
 
 The user has authorized manual Step-1 research under the existing draft; that authorization does not clear the source-fidelity/integrity FAIL. Manual research may resume only on a direct user turn; do not use `>` because unattended continuation remains disabled pending validated controller evidence. Production-ready status still requires the user-owned source/fidelity action and an auditable integrity attempt. Continue from Q-009; do not restart or skip a bootstrap state.
+
+
+## Turn-5 budget warning
+
+The earliest same-turn clock was 2026-10-23T15:36:29Z. At 15:42:35Z, the cursor-correction/publication workflow had taken at least 6m06s; the final push completed later. The 360-second budget was exceeded by at least 6 seconds. Exact turn start/final-action times were not instrumented. This recurrence is recorded under ISSUE-018; no further research followed detection.

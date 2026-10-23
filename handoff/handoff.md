@@ -50,3 +50,5 @@ Manual Step-1 work was authorized for this turn. For the next manual slice, the 
 - New audit category `PROMPT INTEGRITY` is recorded in the changelog/issue tracker; imported-claim audit is `docs/audits/2026-10-18-v80-import-audit.md`.
 - `docs/capabilities.md` is a symlink to `docs/CAPABILITY_INVENTORY.md`, not a second editable inventory.
 - Significant-checkpoint KB snapshot: `kb/snapshots/2026-10-18T210332Z/` (16 files plus `MANIFEST.json`; manifest SHA-256 `5482b9f1369ad9cb7aae7f57cbd2a84ede0a11039d686b861fa227b0efe0c93d`).
+
+- Turn-5 budget degradation: earliest clock 2026-10-23T15:36:29Z; workflow had reached 15:42:35Z before the final push, so the 360-second limit was exceeded by at least 6 seconds. Exact turn start/final-action time is uninstrumented; recorded under ISSUE-018. No further research after detection.

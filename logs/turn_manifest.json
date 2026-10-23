@@ -33,12 +33,12 @@
     {
       "id": "ATTENTION",
       "path": "handoff/attention_required.md",
-      "sha256": "d332577a5fcf0d122ad813d6f978962d71e874d2482cc08b3ee12d82122ad9d6"
+      "sha256": "7a5acea792abfb561b86770946ee673c3d55490fd908f5caa919eb2f5381ec2e"
     },
     {
       "id": "HANDOFF",
       "path": "handoff/handoff.md",
-      "sha256": "4f8918db686dad8209adb2d7df3604b7d336f5b146a4add0ed0c561df9d40226"
+      "sha256": "b0317dc6a297c21193229898063b7515d984cdb1010a6726f7e3739fa6e3eb44"
     },
     {
       "id": "PROMPT-INTEGRITY-v80",
@@ -53,12 +53,12 @@
     {
       "id": "ISSUE-TRACKER",
       "path": "logs/issue_tracker.md",
-      "sha256": "98809910bced6afce15a826492e7e3932381333f1ad44b9ead7fb68b298e30c3"
+      "sha256": "220def140c55f99e7de878f3a102620a7f9dc40e1962ace889c0b9fe4848b849"
     },
     {
       "id": "OPERATIONAL-LOG",
       "path": "logs/main_operational_log.md",
-      "sha256": "86ca5167d871c811d601bd726e0e1c6ce21577f2bdcad8e93d074c76bbd47e0a"
+      "sha256": "067041bb27f60f02efc585eab0d8d6d3c97782804582fb5b97de111ba5cc2942"
     },
     {
       "id": "REPO-ACCESS-VERIFICATION",
