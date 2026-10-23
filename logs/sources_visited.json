@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "epoch_id": "epoch-0001",
-  "turn": 2,
-  "updated": "2026-10-18T15:40:32Z",
-  "note": "Physical source log (OMEGA-FRONTIER-001). Turn 2: first Step 1 slice. NOT_ATTEMPTED marks an owed fetch, not a success. Search-result URLs are leads, not verified content.",
+  "turn": 5,
+  "updated": "2026-10-23T15:41:55Z",
+  "note": "Physical source log (OMEGA-FRONTIER-001). Turn 5: Q-008 official-store slice. NOT_ATTEMPTED remains historical when applicable; page-render results are partial projections, not immutable source payloads. No claim promoted.",
   "retrievals": [
     {
       "id": "R-0001",
@@ -108,6 +108,71 @@
       "extracted": "NOT FETCHED",
       "projection": "none",
       "status": "NOT_ATTEMPTED"
+    },
+    {
+      "id": "R-0012",
+      "tool": "page-render",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "timestamp": "2026-10-23T15:41:55Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "App Store chunk 1 of 6; reviews/comments projection; hasMore=true; totalChunks=6.",
+      "projection": "chunk 2 of 6; full source payload/hash not exposed",
+      "status": "IN_PROGRESS",
+      "capture_path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "capture_sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+    },
+    {
+      "id": "R-0013",
+      "tool": "page-render",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "timestamp": "2026-10-23T15:41:55Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "App Store chunk 2 of 6; review/comments projection; hasMore=true; totalChunks=6.",
+      "projection": "chunk 3 of 6; full source payload/hash not exposed",
+      "status": "IN_PROGRESS",
+      "capture_path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "capture_sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+    },
+    {
+      "id": "R-0014",
+      "tool": "page-render",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "timestamp": "2026-10-23T15:41:55Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "App Store chunk 3 of 6; visible version history includes 13.430–13.310 and Summer Spotlight rows; hasMore=true; totalChunks=6.",
+      "projection": "chunk 4 of 6; full source payload/hash not exposed",
+      "status": "IN_PROGRESS",
+      "capture_path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "capture_sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+    },
+    {
+      "id": "R-0015",
+      "tool": "page-render",
+      "url": "https://apps.apple.com/us/app/dream-league-soccer-2026/id1462911602",
+      "timestamp": "2026-10-23T15:41:55Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "App Store chunk 4 of 6; visible version history includes 13.300 through older entries and Summer Spotlight rows; hasMore=true; totalChunks=6.",
+      "projection": "chunk 5 of 6; full source payload/hash not exposed",
+      "status": "IN_PROGRESS",
+      "capture_path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "capture_sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
+    },
+    {
+      "id": "R-0016",
+      "tool": "page-render",
+      "url": "https://play.google.com/store/apps/details?id=com.firsttouchgames.dls7&hl=en",
+      "timestamp": "2026-10-23T15:41:55Z",
+      "http_status": null,
+      "payload_digest": null,
+      "extracted": "Google Play chunk 1 of 2; data safety/reviews and late-summer/Cult Heroes listing text; hasMore=false; no version/build in returned chunk.",
+      "projection": "chunk 1 of 2; full source payload/hash not exposed",
+      "status": "IN_PROGRESS",
+      "capture_path": "kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "capture_sha256": "028b2b2345e834fceb6d8cb3eed3eb7a6923fecf37f55d820de69f33a9687331"
     }
   ],
   "discovered_references": [
@@ -119,7 +184,8 @@
       "traversal_state": "IN_PROGRESS",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-2 search or fetch output; turn-5 page-render records R-0012–R-0016; local excerpt kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "last_seen_turn": 5
     },
     {
       "ref_id": "DR-0002",
@@ -129,7 +195,8 @@
       "traversal_state": "IN_PROGRESS",
       "language": "en",
       "first_seen_turn": 2,
-      "evidence": "turn-2 search or fetch output"
+      "evidence": "turn-2 search or fetch output; turn-5 page-render records R-0012–R-0016; local excerpt kb/research_observations/2026-10-23-Q-008-official-store-slice.md",
+      "last_seen_turn": 5
     },
     {
       "ref_id": "DR-0003",
@@ -394,6 +461,41 @@
       "ref_id": "DR-0007",
       "record": "R-0010",
       "cursor": "chunk 0 of 4"
+    },
+    {
+      "event_id": "SV-0008",
+      "ref_id": "DR-0001",
+      "record": "R-0012",
+      "family": "official-store",
+      "cursor": "chunk 2 of 6; returned in turn 5"
+    },
+    {
+      "event_id": "SV-0009",
+      "ref_id": "DR-0001",
+      "record": "R-0013",
+      "family": "official-store",
+      "cursor": "chunk 3 of 6; returned in turn 5"
+    },
+    {
+      "event_id": "SV-0010",
+      "ref_id": "DR-0001",
+      "record": "R-0014",
+      "family": "official-store",
+      "cursor": "chunk 4 of 6; returned in turn 5"
+    },
+    {
+      "event_id": "SV-0011",
+      "ref_id": "DR-0001",
+      "record": "R-0015",
+      "family": "official-store",
+      "cursor": "chunk 5 of 6; returned in turn 5"
+    },
+    {
+      "event_id": "SV-0012",
+      "ref_id": "DR-0002",
+      "record": "R-0016",
+      "family": "official-store",
+      "cursor": "chunk 1 of 2; no version/build visible"
     }
   ],
   "coverage": [
@@ -426,5 +528,5 @@
       "status": "discovered-only; never used for claims"
     }
   ],
-  "digest": "sha256:ea41af8c9a811525e844ab9063ad165843038d95e96fb03960f47e5bc66da59a"
+  "digest": "sha256:e8e7223ae1c8bbdaff100b75e4787c9a702fe6fbb5e162a372a6d3809967f391"
 }

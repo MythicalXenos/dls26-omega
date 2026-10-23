@@ -73,3 +73,14 @@ No research retrieval performed yet. Setup only (STATE_0_SETUP). Session dls26-s
 ## 2026-10-19T18:35:53Z — QUESTION (user-requested review)
 - User asked “What's wrong?” during the Step-1 attention pause. Persisted a concise explanation in `handoff/attention_required.md`: v80 source fidelity is unverified; its own audit finds unresolved references, a confidence-tier mismatch and missing Step-2/3 exits; imported claims lack immutable witnesses and remain quarantined; controller runtime/acknowledgement is unverified; the previous turn also exceeded its budget.
 - No game research, external retrieval, claim promotion or state transition occurred. The active epoch remains OPEN and attention is unresolved.
+
+## 2026-10-23T15:36:29Z — USER DIRECTION / TURN 5
+- User: “Approved. Proceed with Step 1 background research.” Interpreted as authorization to resume manual Step 1 at saved Q-008. This does not repair or adopt prompt text, verify original-source fidelity, promote claims, or enable the unvalidated controller.
+
+## 2026-10-23T15:41:55Z — TURN-START RECONCILIATION (turn 5)
+- Local fixed branch pointer again started at base `fb9a2c0`; remote `arena/1e90cb90-dls26-omega` was `8fae26396a6591d177fdfc4abd4641f7ab1a3cba`. All 67 remote-tree blobs matched the workspace with no extras; aligned the same branch to remote. PR #6 remained the sole open PR and was not changed. Same environment/ref-pointer reset cause as ISSUE-019.
+
+## 2026-10-23T15:41:55Z — RESEARCH (turn 5, Step 1 Q-008 slice)
+- Fetched App Store version-history chunks 1–4 and Google Play chunk 1. The returned App Store rows show 13.430 (Sep 16, year not printed), and Summer Spotlight descriptions under 13.320/13.330/13.340/13.350 (Jun 8–Jul 14, years not printed); 13.120 Mar 25 is labelled Winter Reload. Google Play chunk 1 repeats late-summer/Cult Heroes text but shows no version/build.
+- Q-008 retrieval slice serviced; exact years, unique Summer Spotlight date, Android build, and immutable source payload/hash remain unresolved. This conflicts with the quarantined CLM-0011 summary but does not promote or edit it. Q-002 and CONF-002 remain open; next cursor Q-009.
+- Evidence/provenance: `logs/sources_visited.json` R-0012–R-0016, `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`; no HTTP status or source-payload digest was returned. All CLM-0001–CLM-0012 remain unchanged/quarantined; epoch-0001 remains OPEN and its sealed digest is unchanged.

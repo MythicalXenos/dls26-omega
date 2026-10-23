@@ -40,7 +40,7 @@ Each entry: ID, opened (UTC), status, severity, description, action, owner.
 
 ## ISSUE-011 — imported source conflicts from turn 2 — opened 2026-10-18T15:41:35Z — OPEN — severity Medium
 - The inherited records describe CONF-001 (launch-date leads) and CONF-002 (Summer Spotlight/version leads). Their cited sources are not all immutable primary payloads; the five-pass audit leaves CLM-0010–CLM-0012 quarantined. These are reported conflicts/leads, not verified game facts.
-- Owed: Q-008 through Q-013 cursor as recorded in the manifest/handoff; do not close or promote either conflict from the imported summaries.
+- Turn 5 Q-008 slice fetched App Store chunks 1–4 and Google Play chunk 1. Returned App Store text associates Summer Spotlight with 13.320–13.350 (dates without years), and labels 13.120 Mar 25 “Winter Reload,” conflicting with the quarantined CLM-0011 summary. No unique Summer Spotlight date or Android build is established; source payload/hash is unavailable. Q-002/CONF-002 remain open; CLM-0010/0011 remain quarantined and unchanged. See `kb/research_observations/2026-10-23-Q-008-official-store-slice.md`.
 
 ## ISSUE-012 — v80 source fidelity and prompt integrity gate fail — opened 2026-10-18T21:03:32Z — OPEN — severity High
 - Live v80 and archive are byte-identical (184,126 bytes, SHA-256 `495bd2dc946c4ec999914e839952ef17aeef9777ba0cf0f7d87e465451ba014a`), but the original user-supplied v80 bytes/hash are not available in this resumed context. Three known transcription defects were repaired; further defects cannot be excluded. The assertion ledger fails source fidelity and cross-reference checks.
@@ -70,4 +70,4 @@ Each entry: ID, opened (UTC), status, severity, description, action, owner.
 
 ## ISSUE-019 — local branch/worktree reset after checkpoint — opened 2026-10-19T18:35:53Z — CLOSED-WITH-NOTICE — severity Low
 - At turn start, the fixed local branch name pointed to base `fb9a2c025ec267f6b787382766ce44c7e373d091`; remote `arena/1e90cb90-dls26-omega` pointed to `408ba78fd03fbc8ecc96cd9281fb935a67d6a6cd`, and the workspace files appeared untracked. Compared every one of 67 remote tree entries by Git blob ID and checked for extras: all bytes matched and there were no workspace-only files. Aligned the same local branch to the remote tip; no branch switch or data loss.
-- Action: environment reconciliation recorded in `docs/REPO_ACCESS_VERIFICATION.md`; closed with notice.
+- Recurrence: at turn 5 start, the same environment/ref-pointer reset recurred: local ref at base `fb9a2c0`, remote at `8fae263`; all 67 blobs again matched, no extras, and the fixed branch was aligned without loss. This is the same cause, not a new issue. Action: reconciliation recorded in `docs/REPO_ACCESS_VERIFICATION.md`; closed with notice.
